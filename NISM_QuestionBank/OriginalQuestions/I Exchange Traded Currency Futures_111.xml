@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_111" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The USDINR spot rate is 83.00 and the 1-month forward premium is 15 paise. What is the annualized forward premium percentage?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[2.17% approximately]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.18% approximately]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.80% approximately]]></text></answer>
+            <answer correct="no"><text><![CDATA[18.07% approximately]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Annualized premium = (Premium/Spot) × (12/n) × 100 = (0.15/83.00) × 12 × 100 = 2.1687% ≈ 2.17%.
+**The Trap:** 0.18% is the 1-month premium not annualized. 18.07% incorrectly divides 15/83 (should be 0.15/83).
+**Cross-Exam Context:** Forward premium annualization is frequently tested in Series I.
+**Distributor's Pro-Tip:** FBIL publishes forward premia curves for 1-12 month tenors, which traders use to assess the term structure.]]></text></explanation>
+    </question>
+</QF>

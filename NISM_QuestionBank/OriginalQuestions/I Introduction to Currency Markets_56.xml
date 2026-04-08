@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Introduction to Currency Markets_56" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A bank quotes EUR/USD as 1.0845/1.0852. What is the spread in pips?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[7 pips]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.7 pips]]></text></answer>
+            <answer correct="no"><text><![CDATA[70 pips]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.07 pips]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For EUR/USD quoted to 4 decimal places, a pip is the fourth decimal place (0.0001). Spread = 1.0852 - 1.0845 = 0.0007 = 7 pips.
+**The Trap:** Confusing pip size — for EUR/USD, 1 pip = 0.0001. For JPY pairs quoted to 2 decimals, 1 pip = 0.01.
+**Cross-Exam Context:** Spread analysis in pips is fundamental to all forex-related Series (I, XIII).
+**Distributor's Pro-Tip:** Tighter spreads mean lower transaction costs. Institutional traders negotiate for tighter spreads on large transaction sizes.]]></text></explanation>
+    </question>
+</QF>

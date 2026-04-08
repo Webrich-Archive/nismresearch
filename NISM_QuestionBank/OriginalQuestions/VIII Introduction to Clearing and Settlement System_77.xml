@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_77" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The PAN-level position limit for index options (net end-of-day FutEq OI) is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 1,500 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 500 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 7,500 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 10,000 crore]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** PAN-level limits for index options: net EOD FutEq OI = Rs. 1,500 Cr, gross FutEq OI = Rs. 10,000 Cr. Intraday limits: net = Rs. 5,000 Cr, gross = Rs. 10,000 Cr. These are separate from index futures position limits.
+**The Trap:** Rs. 10,000 Cr is the GROSS limit, not the net. Rs. 1,500 Cr is the NET EOD limit. Rs. 7,500 Cr is the TM-level limit for index futures/options.
+**Cross-Exam Context:** PAN-level limits for index options are a recent SEBI regulation.
+**Distributor's Pro-Tip:** Index options PAN: Net EOD = 1,500 Cr, Gross = 10,000 Cr. Intraday Net = 5,000 Cr.]]></text></explanation>
+    </question>
+</QF>

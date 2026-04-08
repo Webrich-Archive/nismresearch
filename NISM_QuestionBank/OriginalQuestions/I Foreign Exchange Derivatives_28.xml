@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Foreign Exchange Derivatives_28" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In a currency swap, an Indian company with a long-term USD borrowing can eliminate exchange rate risk by entering into a USD/INR swap. What does the company typically pay and receive?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Pays fixed INR interest rate and INR principal; receives USD floating interest rate and USD principal]]></text></answer>
+            <answer correct="no"><text><![CDATA[Pays USD floating interest rate; receives INR fixed interest rate only]]></text></answer>
+            <answer correct="no"><text><![CDATA[Pays INR principal only; receives USD principal only]]></text></answer>
+            <answer correct="no"><text><![CDATA[Pays a one-time premium; receives full protection against exchange rate movement]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In a USD/INR currency swap, the Indian company receives from the bank USD floating interest rate payments and USD principal amortisations (matching its USD loan obligations). Simultaneously, it pays the bank fixed INR interest rate and equivalent INR principal amortisations at a locked-in exchange rate.
+**The Trap:** This is NOT an option (no premium). It's a swap involving both interest and principal exchanges in different currencies over the life of the contract.
+**Cross-Exam Context:** Currency swaps vs FX swaps distinction is tested in Series I and IV.
+**Distributor's Pro-Tip:** Currency swaps differ from FX swaps — currency swaps exchange streams of interest AND principal, while FX swaps exchange only principal amounts (spot and reverse).]]></text></explanation>
+    </question>
+</QF>

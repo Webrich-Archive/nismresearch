@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_79" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under the mechanism for client collateral via margin pledge, the broker must:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Accept securities as collateral only through margin pledge in the Depository system, using a separate Client Securities Margin Pledge Account]]></text></answer>
+            <answer correct="no"><text><![CDATA[Transfer client securities to the broker's proprietary demat account for margin purposes]]></text></answer>
+            <answer correct="no"><text><![CDATA[Accept collateral only in cash; securities cannot be used as margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[Use power of attorney from clients to directly transfer securities to the clearing corporation]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Since September 2020, brokers must accept client securities as collateral only through margin pledge (not power of attorney). They must open a separate 'Client Securities Margin Pledge Account'. Re-pledge to CM/CC must ensure securities are used only for that client's margin.
+**The Trap:** The old system (power of attorney) allowed brokers to misuse client securities. The pledge mechanism prevents this. The broker does NOT get ownership/title of the securities.
+**Cross-Exam Context:** Margin pledge mechanism is a key investor protection measure.
+**Distributor's Pro-Tip:** Pledge mechanism since Sep 2020. No PoA for collateral. Separate demat account for pledge. Client retains title.]]></text></explanation>
+    </question>
+</QF>

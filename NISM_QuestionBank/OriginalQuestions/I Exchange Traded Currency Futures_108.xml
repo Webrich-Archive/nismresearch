@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_108" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[GBPINR spot is 105.00. India's 1-year rate is 7.5% and UK's 1-year rate is 5.0%. What is the 1-year GBPINR futures price?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[107.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[105.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[102.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[110.25]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** F = S × (1 + RQC) / (1 + RBC) = 105.00 × 1.075 / 1.05 = 107.50. INR (quote) rate = 7.5%, GBP (base) rate = 5.0%.
+**The Trap:** 102.50 would result from swapping the rates (using 5% as RQC), implying GBP depreciates — wrong when Indian rates are higher.
+**Cross-Exam Context:** IRP applies identically to GBPINR as to USDINR — tested in Series I.
+**Distributor's Pro-Tip:** Since Indian rates exceed UK rates, GBPINR futures trade at a premium.]]></text></explanation>
+    </question>
+</QF>

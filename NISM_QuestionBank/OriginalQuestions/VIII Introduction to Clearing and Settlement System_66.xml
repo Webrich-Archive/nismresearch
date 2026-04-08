@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_66" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The client-level position limit for futures and options on individual securities is the higher of:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[1% of the free-float market capitalization (in number of shares) or 5% of the open interest in all derivative contracts in the same underlying per exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[5% of the free-float market capitalization or 10% of the open interest]]></text></answer>
+            <answer correct="no"><text><![CDATA[2% of the total market capitalization or 15% of the open interest]]></text></answer>
+            <answer correct="no"><text><![CDATA[There are no client-level position limits for individual securities]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per SEBI regulations, the client-level position limit for stock derivatives is the higher of: 1% of free-float market capitalization (in shares) or 5% of OI in all derivative contracts on that stock per exchange. This is computed security-wise.
+**The Trap:** 1% is of FREE-FLOAT market cap, not total market cap. And 5% is of OI, not MWPL.
+**Cross-Exam Context:** Position limit hierarchy: Client (1%/5%) < TM (20% MWPL) < MWPL (20% free float).
+**Distributor's Pro-Tip:** Client stock limit: higher of 1% free float or 5% OI.]]></text></explanation>
+    </question>
+</QF>

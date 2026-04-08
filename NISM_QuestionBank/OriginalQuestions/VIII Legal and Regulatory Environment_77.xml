@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Legal and Regulatory Environment_77" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[As per SEBI's business continuity framework for interoperable segments, if trading is disrupted on one exchange, the alternative trading venue must invoke its business continuity plan within:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[15 minutes from receiving intimation from the affected exchange; the affected exchange must intimate SEBI within 75 minutes of impact]]></text></answer>
+            <answer correct="no"><text><![CDATA[30 minutes from receiving intimation; affected exchange must intimate SEBI within 2 hours]]></text></answer>
+            <answer correct="no"><text><![CDATA[1 hour from receiving intimation; affected exchange must intimate SEBI within 24 hours]]></text></answer>
+            <answer correct="no"><text><![CDATA[Immediately without any specified timeframe]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per SEBI circular Nov 2024: affected exchange must intimate alternative venue and SEBI within 75 minutes of impact. Alternative venue must invoke business continuity plan within 15 minutes of receiving this intimation. NSE is backup for BSE and vice versa.
+**The Trap:** 75 minutes is for the AFFECTED exchange to inform SEBI/alternative venue. 15 minutes is for the ALTERNATIVE venue to invoke BCP.
+**Cross-Exam Context:** Business continuity for interoperable segments is a recent SEBI regulation.
+**Distributor's Pro-Tip:** 75 min to inform. 15 min to invoke BCP. NSE backup for BSE and vice versa.]]></text></explanation>
+    </question>
+</QF>

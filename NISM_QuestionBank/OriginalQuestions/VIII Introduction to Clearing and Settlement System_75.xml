@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_75" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Effective February 1, 2025, SEBI removed the calendar spread margin benefit on:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Contracts expiring on the same day, to address basis risks and speculative volatility on expiry days]]></text></answer>
+            <answer correct="no"><text><![CDATA[All calendar spread positions regardless of expiry date]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only inter-exchange calendar spreads]]></text></answer>
+            <answer correct="no"><text><![CDATA[Calendar spreads where the near-month contract has more than 7 days to expiry]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI removed the calendar spread margin offset for contracts expiring on the SAME day from Feb 1, 2025. Earlier, positions in the same underlying but different strikes/expiries on the same expiry day received margin offsets. This was removed to address speculative activity concentrated on expiry days.
+**The Trap:** Calendar spread benefits still exist for spreads across DIFFERENT expiry months. Only SAME-day expiry spreads lost the benefit.
+**Cross-Exam Context:** Recent SEBI measures to curb speculative activity are topical exam questions.
+**Distributor's Pro-Tip:** Same-day expiry spreads = no margin benefit since Feb 2025. Cross-month spreads still get margin offsets.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_110" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An exporter shorts 300 lots of USDINR futures at 84.00 to hedge USD 300,000 receivable. At expiry, spot (FBIL) rate is 85.50. What is the effective realization rate?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 84.00 per USD]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 85.50 per USD]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 84.75 per USD]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 82.50 per USD]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Spot sale: 300,000 × 85.50 = Rs. 2,56,50,000. Futures loss (short at 84, settled at 85.50): 300 × 1000 × (85.50-84.00) = Rs. -4,50,000. Net: Rs. 2,52,00,000. Rate: 2,52,00,000/300,000 = Rs. 84.00. The hedge locks in the entry price.
+**The Trap:** Without hedging, the exporter gets Rs. 85.50. Hedging provides certainty but foregoes favourable moves.
+**Cross-Exam Context:** Hedging effectiveness calculations are core to Series I, VIII, and XIII.
+**Distributor's Pro-Tip:** Perfect hedge = effective rate locked at futures entry price, regardless of spot movement.]]></text></explanation>
+    </question>
+</QF>

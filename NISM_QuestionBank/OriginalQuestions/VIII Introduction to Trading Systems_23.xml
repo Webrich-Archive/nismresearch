@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Trading Systems_23" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If an existing stock fails to meet the derivatives eligibility criteria for three consecutive months, what happens?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[No fresh month contract shall be issued on that stock, but existing unexpired contracts may trade till expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[All existing contracts are immediately terminated and the stock is delisted from derivatives]]></text></answer>
+            <answer correct="no"><text><![CDATA[The stock gets an additional 6-month grace period before any action is taken]]></text></answer>
+            <answer correct="no"><text><![CDATA[The exchange must reduce the lot size of that stock's derivatives contracts]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** If a stock fails eligibility criteria for 3 consecutive months, no new month contracts are issued. However, existing unexpired contracts continue trading until their expiry, and new strikes may also be introduced in existing months. The stock cannot be re-included for 1 year.
+**The Trap:** Existing contracts are NOT terminated. They continue till expiry. Only NEW month contracts stop being issued.
+**Cross-Exam Context:** Exit norms for stock derivatives are regulatory facts in Series VIII.
+**Distributor's Pro-Tip:** 3 months failure = no new contracts. 1 year cooling before re-inclusion. 6 months consecutive eligibility needed for re-entry.]]></text></explanation>
+    </question>
+</QF>

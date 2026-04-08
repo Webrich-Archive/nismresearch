@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_102" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[EURINR spot is 91.00. India's 6-month rate is 7% p.a. and Eurozone's 6-month rate is 3.5% p.a. What is the 6-month EURINR forward price?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[92.57]]></text></answer>
+            <answer correct="no"><text><![CDATA[91.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[93.19]]></text></answer>
+            <answer correct="no"><text><![CDATA[89.43]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** F = S × (1 + RQC × t) / (1 + RBC × t) = 91.00 × (1 + 0.07 × 0.5) / (1 + 0.035 × 0.5) = 91.00 × 1.035 / 1.0175 = 92.5651 ≈ 92.57. INR is the quoting currency (RQC = 7%), EUR is the base currency (RBC = 3.5%).
+**The Trap:** Swapping the rates — using 3.5% as RQC gives 89.43, which implies EUR depreciating (wrong when Indian rates are higher).
+**Cross-Exam Context:** IRP applies to all currency pairs, not just USDINR — tested in Series I and XIII.
+**Distributor's Pro-Tip:** Since Indian rates exceed Eurozone rates, EURINR futures trade at a premium — it costs more INR to buy EUR in the future.]]></text></explanation>
+    </question>
+</QF>

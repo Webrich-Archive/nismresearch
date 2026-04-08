@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_106" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If USDINR spot is 83 and 1-year futures is 84.58, what is the implied interest rate differential between India and USA?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Approximately 1.90%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 1.58%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 2.00%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 0.83%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Interest rate differential ≈ (F - S) / S × 100 = (84.58 - 83) / 83 × 100 = 1.58/83 × 100 = 1.9036% ≈ 1.90%.
+**The Trap:** 1.58% uses 1.58/100 instead of 1.58/83. Always divide by the spot rate, not 100.
+**Cross-Exam Context:** Extracting implied rate differentials from futures prices is tested in Series I and IV.
+**Distributor's Pro-Tip:** If the actual differential differs from the implied, a covered interest arbitrage opportunity may exist.]]></text></explanation>
+    </question>
+</QF>

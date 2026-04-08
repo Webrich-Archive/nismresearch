@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Introduction to Currency Markets_58" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What statistical method does FBIL apply to transaction data to remove outliers when computing the USD/INR reference rate?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A ±3 Standard Deviation (SD) rule]]></text></answer>
+            <answer correct="no"><text><![CDATA[A ±2 Standard Deviation (SD) rule]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trimming the top and bottom 10% of observations]]></text></answer>
+            <answer correct="no"><text><![CDATA[Removing transactions below USD 1 million]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per the FBIL methodology, a ±3 Standard Deviation rule is applied to transaction data to remove outliers. The reference rate is the volume-weighted average of the surviving transactions.
+**The Trap:** ±2 SD is a common statistical threshold but not the one used by FBIL. The ±3 SD rule is more lenient, removing only extreme outliers.
+**Cross-Exam Context:** FBIL reference rate computation is specific to Series I.
+**Distributor's Pro-Tip:** The ±3 SD filter means only truly anomalous trades are excluded, ensuring the reference rate reflects genuine market activity.]]></text></explanation>
+    </question>
+</QF>

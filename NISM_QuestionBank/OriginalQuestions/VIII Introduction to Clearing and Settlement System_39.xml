@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QF id="VIII Introduction to Clearing and Settlement System_39" sectionNumber="" articleNumber="0" articleName="">
     <question>
-        <text><![CDATA[Client-level position limits for index futures and options contracts are:]]></text>
+        <text><![CDATA[As per SEBI regulations, the position limit for FPI Category I, Mutual Funds, Trading Members (proprietary), and clients in index futures contracts is:]]></text>
         <answers>
-            <answer correct="yes"><text><![CDATA[Higher of Rs. 500 crore or 15% of total open interest in the market]]></text></answer>
-            <answer correct="no"><text><![CDATA[10% of market-wide position limit]]></text></answer>
-            <answer correct="no"><text><![CDATA[No limits exist for clients]]></text></answer>
-            <answer correct="no"><text><![CDATA[Fixed at Rs. 100 crore for all clients]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Higher of 15% of total open interest in index futures or Rs. 500 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Higher of 10% of total open interest or Rs. 500 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fixed at Rs. 1,500 crore for all participants]]></text></answer>
+            <answer correct="no"><text><![CDATA[20% of the market-wide position limit]]></text></answer>
         </answers>
-        <explanation><text><![CDATA[**The Logic:** For index derivatives, client-level position limits are the higher of: (a) Rs. 500 crore in terms of gross open position, or (b) 15% of the total open interest in the market. This allows larger participants to hold bigger positions while still maintaining a cap.
+        <explanation><text><![CDATA[**The Logic:** For index futures, the position limit for FPI Category I, Mutual Funds, TMs (proprietary), and clients is the higher of 15% of total OI in index futures or Rs. 500 crore. FPI Category II has different limits (10% or 5% of OI depending on sub-category). For index options, separate PAN-level limits apply: net EOD FutEq OI of Rs. 1,500 crore and gross FutEq OI of Rs. 10,000 crore.
 
-**The Trap:** Client limits for stock derivatives are different (20% of MWPL for each stock). The limit is the HIGHER of the two thresholds, not the lower.
+**The Trap:** Rs. 1,500 crore is the PAN-level limit for index options (net EOD), not for index futures. Don't confuse the two. Also, FPI Cat II has lower limits than Cat I.
 
-**Cross-Exam Context:** Client, TM, and market-wide position limits form a hierarchy of limits tested in the exam.
+**Cross-Exam Context:** Position limits vary by instrument type (index futures vs index options vs stock derivatives) and participant category.
 
-**Distributor's Pro-Tip:** Index client limit: higher of Rs. 500 crore or 15% of OI. Stock client limit: 20% of MWPL per stock.]]></text></explanation>
+**Distributor's Pro-Tip:** Index futures client limit: higher of 15% OI or Rs. 500 Cr. Index options PAN limit: Rs. 1,500 Cr net / Rs. 10,000 Cr gross. Stock derivatives client limit: higher of 1% free float or 5% of OI.]]></text></explanation>
     </question>
 </QF>

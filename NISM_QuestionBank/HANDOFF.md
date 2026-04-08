@@ -1,8 +1,8 @@
 # NISM Question Bank — Handoff Document
 
-**Date:** April 8, 2026 (Updated after Session 5 — Audit & Remediation)
-**Status:** 7 of 31 exams complete, 2,458 questions generated. All scriptable fixes applied, 3 exams type-rebalanced.
-**For:** Fresh conversation to continue. Next action: Phase 5 — Audit Series VIII (read PDF, verify 500 Qs, add ~55 regulatory Qs)
+**Date:** April 8, 2026 (Updated after Session 6 — Phase 5a: Series VIII Audit)
+**Status:** 7 of 31 exams complete, 2,546 questions generated. Series VIII fully audited and type-rebalanced.
+**For:** Fresh conversation to continue. Next action: Phase 5b — Audit Series I (read PDF, verify 500 Qs, add ~63 calc + ~75 regulatory Qs)
 
 ---
 
@@ -17,9 +17,9 @@
 | Series XXIV - AML and CFT Provisions | XXIV | 195 | 8 | Easy | AUDITED + Gap-filled + Type-rebalanced (+40 conceptual) |
 | IFSCA-01 - AML and CFT in the IFSC | IFSCA-01 | 180 | 8 | Easy | AUDITED + Gap-filled + Type-rebalanced (+40 conceptual) |
 | Series XII - Securities Markets Foundation | XII | 302 | 6 | Easy | AUDITED + Gap-filled + Type-rebalanced (+22 regulatory) |
-| Series VIII - Equity Derivatives | VIII | 500 | 10 | Hard | Generated from PDF, needs audit + type rebalancing |
+| Series VIII - Equity Derivatives | VIII | 555 | 10 | Hard | AUDITED + Type-rebalanced (+55 regulatory) |
 | Series I - Currency Derivatives | I | 500 | 10 | Moderate | Generated from PDF, needs audit + type rebalancing |
-| **Total** | | **2,458** | **64** | | |
+| **Total** | | **2,546** | **64** | | |
 
 ### Generated Files
 
@@ -37,10 +37,10 @@
 └── HANDOFF.md                    (this file)
 ```
 
-### Validation Status (All Pass — verified Session 4)
+### Validation Status (All Pass — verified Session 6)
 - 5/5 plists: OK (plutil)
-- 2,356/2,356 XML files: valid (xml.etree.ElementTree)
-- 0 duplicates, 2,356 unique IDs
+- 2,546/2,546 XML files: valid (xml.etree.ElementTree)
+- 0 duplicates, 2,546 unique IDs
 - 64 plist topics == 64 file prefixes: PERFECT MATCH
 
 ### Comprehensive Audit Results (Post-Session 4 Gap Analysis)
@@ -156,8 +156,8 @@ Every file has **The Logic**, **The Trap**, and **Cross-Exam Context** (100%). 6
 
 | Fix | Priority | Effort | When | Status |
 |-----|----------|:------:|------|:------:|
-| Series I: +63 calc, +75 regulatory questions | High | 1 session | Phase 5 audit | PENDING |
-| Series VIII: +55 regulatory questions | Medium | Phase 5 audit | Phase 5 audit | PENDING |
+| Series I: +63 calc, +75 regulatory questions | High | 1 session | Phase 5b audit | PENDING |
+| Series VIII: +55 regulatory questions | Medium | Phase 5a audit | Phase 5a audit | **DONE** |
 | XXIV: +40 conceptual questions | Medium | 0.5 session | Targeted gap-fill | **DONE** |
 | IFSCA-01: +40 conceptual questions | Medium | 0.5 session | Targeted gap-fill | **DONE** |
 | XII: +22 regulatory questions | Low | 0.5 session | Targeted gap-fill | **DONE** |
@@ -570,19 +570,19 @@ with open("NISM_QuestionBank/QuestionToArticleNumber.plist", 'wb') as f:
 | Mutual Funds | Mutual Funds | 54 |
 | Derivative Markets | Derivative Markets | 28 |
 
-### VIII (10 topics, 500 Qs)
+### VIII (10 topics, 555 Qs)
 | Plist Topic Name | File Prefix | Qs |
 |---|---|:-:|
 | VIII Basics of Derivatives | VIII Basics of Derivatives | 40 |
-| VIII Understanding Index | VIII Understanding Index | 15 |
-| VIII Forwards and Futures | VIII Forwards and Futures | 125 |
-| VIII Options | VIII Options | 125 |
+| VIII Understanding Index | VIII Understanding Index | 18 |
+| VIII Introduction to Forwards and Futures | VIII Introduction to Forwards and Futures | 130 |
+| VIII Introduction to Options | VIII Introduction to Options | 128 |
 | VIII Option Trading Strategies | VIII Option Trading Strategies | 20 |
-| VIII Trading Systems | VIII Trading Systems | 20 |
-| VIII Clearing and Settlement | VIII Clearing and Settlement | 65 |
-| VIII Legal and Regulatory | VIII Legal and Regulatory | 65 |
-| VIII Accounting and Taxation | VIII Accounting and Taxation | 15 |
-| VIII Sales Practices | VIII Sales Practices | 10 |
+| VIII Introduction to Trading Systems | VIII Introduction to Trading Systems | 28 |
+| VIII Introduction to Clearing and Settlement System | VIII Introduction to Clearing and Settlement System | 80 |
+| VIII Legal and Regulatory Environment | VIII Legal and Regulatory Environment | 77 |
+| VIII Accounting and Taxation | VIII Accounting and Taxation | 20 |
+| VIII Sales Practices and Investor Protection Services | VIII Sales Practices and Investor Protection Services | 14 |
 
 ### I (10 topics, 500 Qs)
 | Plist Topic Name | File Prefix | Qs |
@@ -755,7 +755,7 @@ When generating exam questions, every question MUST be based on content actually
 - **Remaining (Phase 5 — needs PDF audit session):**
   - Series I: +63 calc, +75 regulatory questions (requires full PDF re-read)
   - Series VIII: +55 regulatory questions (requires full PDF re-read)
-- **Total after remediation: 2,458 questions across 64 topics, all plists valid**
+- **Total after remediation: 2,458 questions across 64 topics, all plists valid (pre-Phase 5a)**
 
 ### Session 5 (April 8, 2026)
 - **Gap Analysis:** Cross-referenced HANDOFF.md against 6 research documents. Found and resolved 9 gaps (per-exam config table, caselet XML format, XIII reuse strategy, I/VIII audit promotion, missing PDFs, neg marking, mock test counts, phase-session mapping, question type distribution inline).
@@ -781,4 +781,32 @@ When generating exam questions, every question MUST be based on content actually
   - Phase 5b: Audit Series I (500 Qs PDF page-by-page + add ~63 calc + ~75 regulatory Qs)
   - Then Phase 6: Generate Series IV (Interest Rate Derivatives) and XVI (Commodity Derivatives)
 
-*Handoff document updated April 8, 2026 after Session 5 completion.*
+### Session 6 (April 8, 2026)
+- **Phase 5a: Full PDF Audit of Series VIII (Equity Derivatives) — 500 existing questions audited, 55 regulatory questions added**
+- PDF read: All 10 chapters (219 pages) of NISM-Series-VIII Equity Derivatives Certification Examination (December 2025 v1)
+- **Errors found and fixed: 10 across 500 questions:**
+  1. Ch1 Q4: Incorrect claim "derivative contracts cannot serve as underlying" — rewritten with "Real estate" as correct non-listed category
+  2. Ch3 Q118: Broken answer text with "Wait - let me recalculate" — cleaned up to "50 points per unit profit (Rs. 3,250 per lot)"
+  3. Ch6 Q15: Outdated contract value (Rs. 5 lakhs) — updated to SEBI Oct 2024 rule (Rs. 15-20 lakhs)
+  4. Ch7 Q39: Wrong position limit (conflated index futures/options client limits) — corrected to FPI/MF/Client limit for index futures
+  5. Ch7 Q40: Wrong TM limit for stocks (said 15% MWPL) — corrected to 20% of MWPL per Exchange
+  6. Ch8 Q10: Wrong net worth attribution (said Rs. 3 Cr for TMs) — corrected: Rs. 3 Cr for CMs, Rs. 1 Cr for SCMs, no SEBI requirement for TMs
+  7. Ch9 Q8: CRITICAL - Said F&O income is speculative — corrected to non-speculative (Finance Act 2005 amendment)
+  8. Ch9 Q9: CRITICAL - Said losses only against speculative income — corrected to any non-speculative business income, 8-year carry forward
+  9. Ch9 Q10: Wrong STT rate for futures (0.0125%) — corrected to 0.02%
+  10. Ch9 Q11: Wrong STT rate for options (0.0625%) — corrected to 0.10%
+  11. Ch9 Q13: Wrong STT calculation (Rs. 137.50) — corrected to Rs. 220 based on correct 0.02% rate
+- **55 regulatory questions added (500 → 555):**
+  - VIII Understanding Index: +3 (SEBI non-benchmark index criteria, implementation timeline, index managers)
+  - VIII Introduction to Forwards and Futures: +5 (weekly options, uniform expiry, physical delivery, BSE Sensex specs)
+  - VIII Introduction to Options: +3 (weekly restriction, tick sizes, extraordinary dividend threshold)
+  - VIII Introduction to Trading Systems: +8 (stock eligibility: MQSOS/MWPL/delivery/PSF, index eligibility, STT, stamp duty, dynamic price bands)
+  - VIII Introduction to Clearing and Settlement System: +15 (position limits: client/TM/MWPL/PAN-level, margin rules, delivery margins, upfront premium, calendar spread, IRRA, margin pledge)
+  - VIII Legal and Regulatory Environment: +12 (SCRA Section 18A, L.C. Gupta norms, net worth, certification, default rules, collateral, SOP, TGF, business continuity)
+  - VIII Accounting and Taxation: +5 (presumptive taxation, tax audit, FPI treatment, physical settlement STT, balance sheet accounting)
+  - VIII Sales Practices and Investor Protection Services: +4 (running accounts, SEBI F&O study, IRRA notification, CSCRF)
+- **Validation: All 2,546 XML files valid, 0 duplicates, 64 topics aligned, all 5 plists OK**
+- **Total after Session 6: 2,546 questions, 64 topics, all plists valid**
+- **Next session: Phase 5b — Audit Series I (500 Qs PDF page-by-page + add ~63 calc + ~75 regulatory Qs)**
+
+*Handoff document updated April 8, 2026 after Session 6 completion.*

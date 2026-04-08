@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_78" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The daily settlement price for futures contracts is computed based on:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The last 30 minutes volume-weighted average price (VWAP) of the futures contract across exchanges]]></text></answer>
+            <answer correct="no"><text><![CDATA[The closing price of the futures contract on the exchange where it was traded]]></text></answer>
+            <answer correct="no"><text><![CDATA[The opening price of the next trading day]]></text></answer>
+            <answer correct="no"><text><![CDATA[The simple average of the day's high and low prices of the futures contract]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Daily MTM settlement uses the last 30-minute VWAP of the futures contract across exchanges. If the contract was not traded during the last 30 minutes, a theoretical price is computed as F = S × e^(rt). Final settlement uses the last 30-minute VWAP of the UNDERLYING (not the futures).
+**The Trap:** Daily settlement uses futures VWAP. Final settlement (at expiry) uses UNDERLYING VWAP. Different bases for different settlement types.
+**Cross-Exam Context:** Settlement price computation is tested in Series VIII and I.
+**Distributor's Pro-Tip:** Daily MTM = last 30-min futures VWAP. Final = last 30-min underlying VWAP. Across exchanges.]]></text></explanation>
+    </question>
+</QF>

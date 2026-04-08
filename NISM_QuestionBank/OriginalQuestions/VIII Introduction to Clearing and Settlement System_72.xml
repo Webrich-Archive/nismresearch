@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_72" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Delivery margins for physically settled stock derivatives are levied how many days before expiry?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Four days prior to expiry, in a staggered manner: 20% (E-4), 40% (E-3), 60% (E-2), 80% (E-1)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Two days before expiry at 100%]]></text></answer>
+            <answer correct="no"><text><![CDATA[On the expiry day itself at 100%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Seven days before expiry at 50%, increasing to 100% on expiry day]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Delivery margins are levied 4 days before expiry on potential ITM long option positions in a staggered manner: 20% at E-4 EOD, 40% at E-3, 60% at E-2, and 80% at E-1. This ensures smooth physical delivery settlement.
+**The Trap:** The staggering is 20/40/60/80 — not uniform. And it starts at E-4 (if expiry is Thursday, delivery margin starts from Friday EOD of previous week).
+**Cross-Exam Context:** Delivery margin mechanics are specific to physical settlement regime (since Oct 2019).
+**Distributor's Pro-Tip:** Delivery margin stagger: 20-40-60-80 from E-4 to E-1. Released after settlement completion.]]></text></explanation>
+    </question>
+</QF>

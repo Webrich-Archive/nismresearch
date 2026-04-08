@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_80" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The Investor Risk Reduction Access (IRRA) platform is designed to:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Allow investors to square off open positions and cancel pending orders when their trading member faces technical disruptions, but NOT initiate new positions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Provide alternative trading facilities for institutional clients during exchange outages]]></text></answer>
+            <answer correct="no"><text><![CDATA[Enable algorithmic trading during periods of high volatility]]></text></answer>
+            <answer correct="no"><text><![CDATA[Allow trading members to take new positions on behalf of clients during system outages]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** IRRA is a joint exchange platform for individual investors to close positions and cancel orders when a TM's trading systems are disrupted. Key restrictions: IRRA cannot be used to open new positions, increase risk, or for algo/institutional trading.
+**The Trap:** IRRA is for CLOSING positions only, not opening new ones. It's for individual investors, not institutional clients or algo trading.
+**Cross-Exam Context:** IRRA is an investor protection mechanism specific to derivatives.
+**Distributor's Pro-Tip:** IRRA = close positions + cancel orders only. No new positions. Individual investors only. TM requests enablement from exchange.]]></text></explanation>
+    </question>
+</QF>

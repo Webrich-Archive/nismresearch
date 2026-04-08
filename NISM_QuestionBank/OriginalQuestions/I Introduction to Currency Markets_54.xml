@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Introduction to Currency Markets_54" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Given GBP/USD = 1.2650/1.2680 and USD/INR = 83.50/83.55, what is the bid rate for GBP/INR?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[105.6275]]></text></answer>
+            <answer correct="no"><text><![CDATA[105.9434]]></text></answer>
+            <answer correct="no"><text><![CDATA[106.0000]]></text></answer>
+            <answer correct="no"><text><![CDATA[105.5000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** GBP/INR bid = GBP/USD bid × USD/INR bid = 1.2650 × 83.50 = 105.6275. To sell GBP (bid), the market maker buys GBP by selling USD at the GBP/USD bid rate, then buys USD by selling INR at the USD/INR bid rate.
+**The Trap:** Using offer rates gives the GBP/INR offer = 1.2680 × 83.55 = 105.9434.
+**Cross-Exam Context:** GBP/INR cross rates follow the same logic as EUR/INR since USD is base in one pair and quote in the other.
+**Distributor's Pro-Tip:** Cross rate calculation is identical for EUR/INR and GBP/INR — multiply corresponding sides. For JPY/INR, it's division because USD is base in both pairs.]]></text></explanation>
+    </question>
+</QF>

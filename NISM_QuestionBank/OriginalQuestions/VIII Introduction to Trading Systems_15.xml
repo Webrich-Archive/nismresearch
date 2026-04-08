@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QF id="VIII Introduction to Trading Systems_15" sectionNumber="" articleNumber="0" articleName="">
     <question>
-        <text><![CDATA[Which of the following is TRUE about contract specifications of equity derivative contracts in India?]]></text>
+        <text><![CDATA[As per the SEBI circular of October 2024 (effective November 2024), what is the revised minimum contract value for equity derivative contracts?]]></text>
         <answers>
-            <answer correct="yes"><text><![CDATA[The minimum contract value as specified by SEBI should not be less than Rs. 5 lakhs]]></text></answer>
-            <answer correct="no"><text><![CDATA[All stock futures have the same lot size]]></text></answer>
-            <answer correct="no"><text><![CDATA[Contract lot sizes never change once listed]]></text></answer>
-            <answer correct="no"><text><![CDATA[The contract value must be at least Rs. 10 lakhs]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The contract value shall not be less than Rs. 15 lakhs at introduction, and the lot size shall be set so the contract value falls between Rs. 15-20 lakhs on review]]></text></answer>
+            <answer correct="no"><text><![CDATA[The minimum contract value remains at Rs. 5 lakhs as originally stipulated]]></text></answer>
+            <answer correct="no"><text><![CDATA[The minimum contract value has been raised to Rs. 25 lakhs per contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[The contract value must be exactly Rs. 10 lakhs for all derivative contracts]]></text></answer>
         </answers>
-        <explanation><text><![CDATA[**The Logic:** SEBI has specified that the minimum contract value of a derivative contract should not be less than Rs. 5 lakhs. Exchanges set lot sizes accordingly. When stock prices change significantly, lot sizes are revised to maintain the minimum contract value requirement.
+        <explanation><text><![CDATA[**The Logic:** Per SEBI Circular SEBI/HO/MRD/TPD-1/P/CIR/2024/132 dated October 01, 2024, the minimum contract value was raised from the earlier Rs. 5-10 lakh range to Rs. 15 lakhs at introduction. The lot size must be fixed so the contract value falls between Rs. 15-20 lakhs on review. This was effective from November 2024.
 
-**The Trap:** Lot sizes vary across different stocks and are revised periodically. They are NOT fixed permanently. The minimum is Rs. 5 lakhs (recently revised upwards by SEBI), not Rs. 10 lakhs for all.
+**The Trap:** The old limit of Rs. 5 lakhs was set in 2015. Since then, broad market values increased ~3x, necessitating the upward revision. Rs. 25 lakhs is too high — the ceiling is Rs. 20 lakhs, not the floor.
 
-**Cross-Exam Context:** SEBI's minimum contract size requirement is a regulatory fact frequently tested.
+**Cross-Exam Context:** SEBI's minimum contract size requirement is a frequently tested regulatory fact in Series VIII and Series XIII.
 
-**Distributor's Pro-Tip:** SEBI mandates minimum contract value of Rs. 5 lakhs. Lot sizes are adjusted periodically to maintain this threshold.]]></text></explanation>
+**Distributor's Pro-Tip:** Higher contract values mean larger margin requirements, effectively increasing the capital needed for retail F&O participation — a deliberate SEBI measure to protect small investors.]]></text></explanation>
     </question>
 </QF>

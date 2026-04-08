@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QF id="VIII Basics of Derivatives_4" sectionNumber="" articleNumber="0" articleName="">
     <question>
-        <text><![CDATA[Which of the following is NOT a type of underlying asset for derivatives?]]></text>
+        <text><![CDATA[Which of the following is NOT listed as a category of underlying asset for derivatives in the NISM workbook?]]></text>
         <answers>
-            <answer correct="yes"><text><![CDATA[Derivative contracts themselves cannot serve as underlying assets]]></text></answer>
-            <answer correct="no"><text><![CDATA[Metals such as gold and silver]]></text></answer>
-            <answer correct="no"><text><![CDATA[Energy products such as crude oil and natural gas]]></text></answer>
-            <answer correct="no"><text><![CDATA[Financial assets such as stocks, bonds, and currencies]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Real estate properties]]></text></answer>
+            <answer correct="no"><text><![CDATA[Metals such as gold, silver, and copper]]></text></answer>
+            <answer correct="no"><text><![CDATA[Energy resources such as crude oil and natural gas]]></text></answer>
+            <answer correct="no"><text><![CDATA[Financial assets such as shares, bonds, and foreign exchange]]></text></answer>
         </answers>
-        <explanation><text><![CDATA[**The Logic:** Derivative contracts CAN actually serve as underlying assets (e.g., options on futures). However, among the given choices, metals, energy products, and financial assets are all well-known underlying categories. The statement that "derivative contracts themselves cannot serve as underlying assets" is factually incorrect, making it the right answer to "which is NOT true."
-**The Trap:** Metals, energy, and financial assets are all valid underlying categories explicitly mentioned in the NISM curriculum, making them easy to identify as correct underlying types.
-**Cross-Exam Context:** NISM Series I covers currency as underlying, Series IV covers interest rates, and Series VIII covers equity and indices.
-**Distributor's Pro-Tip:** Underlying assets span commodities (metals, energy, agriculture) and financial assets (equities, bonds, currencies, indices).]]></text></explanation>
+        <explanation><text><![CDATA[**The Logic:** The NISM workbook lists four categories of underlying assets: metals (gold, silver, aluminium, copper, etc.), energy resources (oil, coal, electricity, natural gas), agricultural commodities (wheat, sugar, coffee, cotton), and financial assets (shares, bonds, foreign exchange). Real estate is not listed as a standard underlying for exchange-traded derivatives.
+**The Trap:** Real estate derivatives do exist in some markets (e.g., property index futures), but they are not part of the standard categories covered in the NISM curriculum.
+**Cross-Exam Context:** NISM Series I covers currency derivatives, Series XVI covers commodity derivatives (metals, energy, agri), and Series VIII covers equity derivatives.
+**Distributor's Pro-Tip:** Remember the four underlying categories as MEAF — Metals, Energy, Agri, Financial assets.]]></text></explanation>
     </question>
 </QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Introduction to Currency Markets_55" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If USD/INR moves from 82.00 to 84.50, by what percentage has the INR depreciated against USD?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Approximately 3.05%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 2.96%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 2.50%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 3.50%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** INR depreciation % = (New rate - Old rate) / Old rate × 100 = (84.50 - 82.00) / 82.00 × 100 = 2.50/82.00 × 100 = 3.0488% ≈ 3.05%. This measures how much more INR is needed to buy 1 USD.
+**The Trap:** 2.96% is calculated using the new rate as base: 2.50/84.50 = 2.96%, which represents USD appreciation, not INR depreciation from the original base.
+**Cross-Exam Context:** Currency appreciation/depreciation calculations appear in Series I and VIII.
+**Distributor's Pro-Tip:** Always use the ORIGINAL rate as the denominator when calculating percentage change in exchange rates.]]></text></explanation>
+    </question>
+</QF>

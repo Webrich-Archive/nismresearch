@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_76" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[SEBI mandates intraday monitoring of position limits with at least how many random snapshots per trading day?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Four random snapshots, including one between 14:45 hrs and 15:30 hrs (near market closing)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Two snapshots - one at market open and one at close]]></text></answer>
+            <answer correct="no"><text><![CDATA[Eight snapshots at regular 45-minute intervals]]></text></answer>
+            <answer correct="no"><text><![CDATA[Continuous real-time monitoring with no discrete snapshots required]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** From April 1, 2025, SEBI requires exchanges to monitor position limits intraday with at least 4 random snapshots per day, including one between 14:45 and 15:30 hrs when heightened activity is observed.
+**The Trap:** The snapshots are RANDOM, not at fixed intervals. And at least one must be near market close (2:45-3:30 PM).
+**Cross-Exam Context:** Intraday position monitoring is a recent SEBI measure tested in VIII.
+**Distributor's Pro-Tip:** 4 random snapshots minimum. 1 near close. Effective April 2025. For peak margin, BOD parameters are used.]]></text></explanation>
+    </question>
+</QF>

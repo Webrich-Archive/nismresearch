@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_128" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The extraordinary dividend threshold for adjustment in derivatives contracts is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Dividends at or above 2% of the market value of the underlying stock]]></text></answer>
+            <answer correct="no"><text><![CDATA[Dividends at or above 5% of the market value of the underlying stock]]></text></answer>
+            <answer correct="no"><text><![CDATA[Dividends at or above 10% of the face value of the share]]></text></answer>
+            <answer correct="no"><text><![CDATA[All dividends trigger an adjustment in derivatives contracts]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Ordinary dividends (below 2% of market price) do not trigger any adjustment. Extraordinary dividends (≥ 2% of market price) cause strike price adjustments in option contracts. The market price for this purpose is the closing price on the day before dividend announcement.
+**The Trap:** The 2% threshold is of MARKET price, not face value. And only extraordinary dividends trigger adjustments — ordinary dividends do not.
+**Cross-Exam Context:** Corporate action adjustments in derivatives are tested in VIII.
+**Distributor's Pro-Tip:** < 2% market price = ordinary = no adjustment. ≥ 2% = extraordinary = strike price adjusted. Bonus/split always adjusted.]]></text></explanation>
+    </question>
+</QF>

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QF id="VIII Introduction to Clearing and Settlement System_40" sectionNumber="" articleNumber="0" articleName="">
     <question>
-        <text><![CDATA[Trading Member (TM) level position limits for stock derivatives are:]]></text>
+        <text><![CDATA[Trading Member (TM) level position limits for individual stock derivatives (combined futures and options) are:]]></text>
         <answers>
-            <answer correct="yes"><text><![CDATA[15% of the market-wide position limit or Rs. 50 crore, whichever is higher]]></text></answer>
+            <answer correct="yes"><text><![CDATA[20% of the applicable Market Wide Position Limit (MWPL) per Exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[15% of the market-wide position limit or Rs. 50 crore, whichever is higher]]></text></answer>
             <answer correct="no"><text><![CDATA[Equal to the market-wide position limit]]></text></answer>
-            <answer correct="no"><text><![CDATA[10% of the client-level position limit]]></text></answer>
             <answer correct="no"><text><![CDATA[Fixed at 5% of free-float market cap]]></text></answer>
         </answers>
-        <explanation><text><![CDATA[**The Logic:** For stock derivatives, TM-level position limits are the higher of: (a) 15% of MWPL, or (b) Rs. 50 crore (in notional value). This ensures that no single TM accumulates an excessively large position in any stock derivative relative to the market-wide limit.
+        <explanation><text><![CDATA[**The Logic:** For individual stock derivatives, the TM-level combined futures and options position limit is 20% of the applicable MWPL per Exchange. The Clearing Corporation specifies this on the last trading day of each month for the next month. For index derivatives, TM limits are different: higher of Rs. 7,500 crore or 15% of total OI.
 
-**The Trap:** TM limits are lower than MWPL but apply per member. Client limits (within a TM's positions) are further restricted.
+**The Trap:** 15% appears in TM limits for INDEX derivatives, not stock derivatives. Stock TM limit is 20% of MWPL. Don't confuse index and stock limits.
 
-**Cross-Exam Context:** The hierarchy: Client limit < TM limit < MWPL ensures multi-layered position control.
+**Cross-Exam Context:** Position limit hierarchy for stocks: Client (higher of 1% free float or 5% OI) < TM (20% of MWPL) < MWPL (20% of free float).
 
-**Distributor's Pro-Tip:** Stock TM limit: higher of 15% MWPL or Rs. 50 crore. Position limits: Client < TM < Market-wide.]]></text></explanation>
+**Distributor's Pro-Tip:** Stock TM limit = 20% of MWPL. Index TM limit = higher of Rs. 7,500 Cr or 15% OI. Remember: stocks use MWPL percentages, indices use absolute values.]]></text></explanation>
     </question>
 </QF>

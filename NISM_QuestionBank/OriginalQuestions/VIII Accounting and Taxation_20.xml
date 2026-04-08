@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Accounting and Taxation_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[At the balance sheet date, if an open futures position shows a mark-to-market loss (debit balance in MTM Margin Account), the accounting treatment is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Create a provision for loss by debiting Profit & Loss Account and crediting Provision for Loss on Equity Futures Account; show the debit balance under Current Assets with provision as deduction]]></text></answer>
+            <answer correct="no"><text><![CDATA[Ignore the unrealized loss as per prudence principle and show no provision]]></text></answer>
+            <answer correct="no"><text><![CDATA[Credit the loss directly to the trading account without any provision]]></text></answer>
+            <answer correct="no"><text><![CDATA[Carry forward the loss to the next year without any current-year recognition]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per ICAI guidance, the prudence principle requires provision for anticipated losses: debit P&L, credit Provision for Loss account. The debit balance in MTM Account is shown under Current Assets with provision as deduction. Credit balances (unrealized gains) are shown as current liabilities but NOT recognized in P&L.
+**The Trap:** Losses are provisioned (recognized) but gains are NOT. This is the prudence/conservatism principle. Asymmetric treatment.
+**Cross-Exam Context:** Accounting for open derivatives positions is specific to Series VIII.
+**Distributor's Pro-Tip:** Loss on open futures = provision required. Gain on open futures = ignore (prudence). Stock-wise/index-wise calculation.]]></text></explanation>
+    </question>
+</QF>

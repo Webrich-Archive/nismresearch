@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_112" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader buys 5 lots of EURUSD futures at 1.0825 and closes at 1.0790. What is the loss in USD and in INR (USD/INR = 83)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[USD 17.50 loss, approximately INR 1,453]]></text></answer>
+            <answer correct="no"><text><![CDATA[USD 1.75 loss, approximately INR 145]]></text></answer>
+            <answer correct="no"><text><![CDATA[USD 175 loss, approximately INR 14,525]]></text></answer>
+            <answer correct="no"><text><![CDATA[USD 17.50 loss, approximately INR 17.50]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Loss = 5 × 1000 × (1.0790 - 1.0825) = 5000 × (-0.0035) = -USD 17.50. INR equivalent = 17.50 × 83 = INR 1,452.50 ≈ INR 1,453.
+**The Trap:** P&L for EURUSD accrues in USD (quote currency), not EUR. Then convert to INR for settlement.
+**Cross-Exam Context:** Cross-currency P&L with INR conversion is tested in Series I.
+**Distributor's Pro-Tip:** All cross-currency futures in India settle in INR — USD or JPY P&L is converted using FBIL reference rates.]]></text></explanation>
+    </question>
+</QF>

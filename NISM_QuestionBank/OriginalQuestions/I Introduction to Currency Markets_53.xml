@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Introduction to Currency Markets_53" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In a system of 15 currencies with no vehicle currency, how many potential exchange rate pairs would exist?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[105]]></text></answer>
+            <answer correct="no"><text><![CDATA[210]]></text></answer>
+            <answer correct="no"><text><![CDATA[15]]></text></answer>
+            <answer correct="no"><text><![CDATA[14]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The formula for currency pairs without a vehicle currency is n(n-1)/2. For 15 currencies: 15 × 14 / 2 = 105 pairs. With a vehicle currency, only 14 pairs are needed (one for each non-vehicle currency against the vehicle).
+**The Trap:** n(n-1) = 210 gives the number of ordered pairs, but exchange rates are bilateral (EUR/USD is the same market as USD/EUR), so divide by 2.
+**Cross-Exam Context:** Vehicle currency concepts are tested in Series I.
+**Distributor's Pro-Tip:** This formula shows why USD as vehicle currency is so efficient — it reduces 105 markets to just 14.]]></text></explanation>
+    </question>
+</QF>

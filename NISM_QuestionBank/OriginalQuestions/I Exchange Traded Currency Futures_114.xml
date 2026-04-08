@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_114" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How is the final settlement price for USD-INR monthly currency futures determined?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[FBIL reference rate on the last trading day]]></text></answer>
+            <answer correct="no"><text><![CDATA[VWAP of the last 30 minutes of trading on the expiry day]]></text></answer>
+            <answer correct="no"><text><![CDATA[RBI reference rate on the last trading day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Average of the high and low prices on the last trading day]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The final settlement price for USDINR (and other INR-based) currency futures is the FBIL reference rate on the last trading day. The VWAP of the last 30 minutes is used for the DAILY settlement price, not final.
+**The Trap:** Students confuse Daily Settlement Price (VWAP) with Final Settlement Price (FBIL rate).
+**Cross-Exam Context:** Settlement mechanisms are tested across Series I, VIII, and XIII.
+**Distributor's Pro-Tip:** For cross-currency futures, the FSP is derived from multiple FBIL reference rates.]]></text></explanation>
+    </question>
+</QF>

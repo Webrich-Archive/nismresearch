@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_70" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When the aggregate open interest in a stock derivative across exchanges exceeds 95% of MWPL, what action is taken?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[No fresh positions are permitted from the next trading day; normal trading resumes only after aggregate OI falls to 80% or below MWPL]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trading is immediately halted and all existing positions are compulsorily squared off]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only index hedging positions are allowed; all speculative positions are banned]]></text></answer>
+            <answer correct="no"><text><![CDATA[The exchange increases MWPL by 20% to accommodate the higher OI]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** At 95% of MWPL, a ban on fresh positions is imposed from the next trading day. Only square-off/closing transactions are permitted. The ban lifts when aggregate OI falls to ≤ 80% of MWPL. Note: alert is triggered at 60% of MWPL.
+**The Trap:** Existing positions are NOT forcibly closed. Only new positions are banned. And the threshold is 95% (not 100%).
+**Cross-Exam Context:** MWPL breach protocol is a regulatory fact tested in VIII.
+**Distributor's Pro-Tip:** 60% = alert. 95% = ban on new positions. 80% = ban lifted. Existing positions continue.]]></text></explanation>
+    </question>
+</QF>

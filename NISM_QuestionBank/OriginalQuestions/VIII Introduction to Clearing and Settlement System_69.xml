@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_69" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The Market-Wide Position Limit (MWPL) for futures and options on individual securities is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[20% of the number of shares held by non-promoters (free-float) in the underlying security]]></text></answer>
+            <answer correct="no"><text><![CDATA[20% of the total shares outstanding including promoter holdings]]></text></answer>
+            <answer correct="no"><text><![CDATA[10% of the free-float market capitalization in rupee terms]]></text></answer>
+            <answer correct="no"><text><![CDATA[30% of the average daily trading volume in the cash market]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** MWPL = 20% of free-float shares (non-promoter holdings). The CC specifies this on the last trading day of each month for the next month. Alert at 60% MWPL, ban on new positions at 95% MWPL, resume normal trading at 80%.
+**The Trap:** 20% is of free-float SHARES (number), not market cap (rupee value). Also, MWPL is set monthly, not daily.
+**Cross-Exam Context:** MWPL is a key regulatory concept across derivative exams.
+**Distributor's Pro-Tip:** MWPL = 20% free-float shares. Alert at 60%, ban at 95%, resume at 80%.]]></text></explanation>
+    </question>
+</QF>

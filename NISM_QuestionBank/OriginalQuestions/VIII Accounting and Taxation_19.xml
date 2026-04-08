@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Accounting and Taxation_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When a stock derivative contract is physically settled, what STT rate applies?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The delivery-based equity transaction STT rate of 0.1% applies, payable by both buyer and seller]]></text></answer>
+            <answer correct="no"><text><![CDATA[The normal futures STT rate of 0.02% applies, payable by seller only]]></text></answer>
+            <answer correct="no"><text><![CDATA[No STT applies on physically settled derivatives]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.125% on the settlement price, payable by the buyer only]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When derivatives are physically settled (delivery of shares), the transaction is treated like a delivery-based equity transaction for STT purposes. The rate is 0.1% payable by BOTH buyer and seller.
+**The Trap:** 0.02% (futures) and 0.10%/0.125% (options) apply to cash-settled or non-exercised positions. Physical delivery = 0.1% for both parties.
+**Cross-Exam Context:** Physical settlement STT is specific to the post-October 2019 regime.
+**Distributor's Pro-Tip:** Physical settlement STT = 0.1% both sides (like equity delivery). Cash settlement STT = normal derivative rates.]]></text></explanation>
+    </question>
+</QF>

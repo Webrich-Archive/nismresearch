@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_71" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Initial margin in equity derivatives is computed to cover potential losses at what confidence level?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[99% Value at Risk (VaR) over a one-day time horizon, extended to two days for futures contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[95% Value at Risk over a one-day time horizon]]></text></answer>
+            <answer correct="no"><text><![CDATA[99.9% Value at Risk over a five-day time horizon]]></text></answer>
+            <answer correct="no"><text><![CDATA[90% Value at Risk over a two-day time horizon]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Initial margin is based on 99% VaR over one day. For futures contracts where same-day MTM collection may not be feasible, a two-day time horizon is used. The SPAN system (from CME) is used for computation.
+**The Trap:** 99% is the standard, not 95% or 99.9%. Two-day horizon is specific to futures (not options). Options use one-day horizon since premium is collected upfront.
+**Cross-Exam Context:** VaR-based margining is a core risk management concept across derivative exams.
+**Distributor's Pro-Tip:** 99% VaR. One-day for options, two-day for futures. SPAN computes the margin.]]></text></explanation>
+    </question>
+</QF>

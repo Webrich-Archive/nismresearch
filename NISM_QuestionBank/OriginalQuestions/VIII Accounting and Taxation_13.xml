@@ -3,20 +3,20 @@
     <question>
         <text><![CDATA[A trader sells Nifty futures worth Rs. 11,00,000 (contract value). The STT payable by the trader is:]]></text>
         <answers>
-            <answer correct="yes"><text><![CDATA[Rs. 137.50]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 220]]></text></answer>
             <answer correct="no"><text><![CDATA[Rs. 1,375]]></text></answer>
-            <answer correct="no"><text><![CDATA[Rs. 687.50]]></text></answer>
-            <answer correct="no"><text><![CDATA[Rs. 13.75]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,100]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 22]]></text></answer>
         </answers>
         <explanation><text><![CDATA[**The Logic:** Step-by-step:
 1. Contract value = Rs. 11,00,000
-2. STT rate for futures sale = 0.0125%
-3. STT = 11,00,000 x 0.0125/100 = 11,00,000 x 0.000125 = Rs. 137.50
+2. STT rate for futures sale = 0.02%
+3. STT = 11,00,000 × 0.02/100 = 11,00,000 × 0.0002 = Rs. 220
 
-**The Trap:** Using the wrong STT rate (0.125% instead of 0.0125%) gives Rs. 1,375. Using 0.0625% gives Rs. 687.50. Be careful with decimal places.
+**The Trap:** Using 0.10% (option sale rate) gives Rs. 1,100. Using 0.125% (option exercise rate) gives Rs. 1,375. Remember: futures sale = 0.02%, options sale = 0.10%, options exercise = 0.125%.
 
-**Cross-Exam Context:** STT calculation is a straightforward numerical question but requires the correct rate.
+**Cross-Exam Context:** STT calculation is a straightforward numerical question but requires the correct rate for the correct instrument.
 
-**Distributor's Pro-Tip:** Futures sale STT = Contract value x 0.0125%. Be precise with decimal places: 0.0125% = 0.000125 as a multiplier.]]></text></explanation>
+**Distributor's Pro-Tip:** Futures sale STT = Contract value × 0.02%. Be precise with the rates: Futures 0.02%, Options sale 0.10%, Options exercise 0.125%.]]></text></explanation>
     </question>
 </QF>

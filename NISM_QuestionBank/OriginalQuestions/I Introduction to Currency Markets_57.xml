@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Introduction to Currency Markets_57" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If EUR/INR is 90.50 and USD/INR is 83.25, what is the approximate EUR/USD rate?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[1.0871]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.9199]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.0000]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.1500]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** EUR/USD = EUR/INR ÷ USD/INR = 90.50 ÷ 83.25 = 1.0871. Since both rates express value per unit in INR, dividing gives the value of 1 EUR in USD terms.
+**The Trap:** Dividing USD/INR by EUR/INR gives 0.9199, which is USD/EUR (the reciprocal pair).
+**Cross-Exam Context:** Deriving underlying rates from cross rates is tested in Series I.
+**Distributor's Pro-Tip:** Cross rates can also be used in reverse — if EUR/INR and USD/INR are known, EUR/USD can be derived, which is useful for arbitrage detection.]]></text></explanation>
+    </question>
+</QF>

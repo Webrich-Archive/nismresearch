@@ -3,22 +3,22 @@
     <question>
         <text><![CDATA[Securities Transaction Tax (STT) on the sale of futures contracts is:]]></text>
         <answers>
-            <answer correct="yes"><text><![CDATA[0.0125% of the turnover (contract value), payable by the seller]]></text></answer>
+            <answer correct="yes"><text><![CDATA[0.02% of the price at which futures are traded, payable by the seller]]></text></answer>
             <answer correct="no"><text><![CDATA[0.1% of the turnover, payable by both buyer and seller]]></text></answer>
-            <answer correct="no"><text><![CDATA[0.0625% of the premium, payable by the buyer]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.10% of the premium, payable by the buyer]]></text></answer>
             <answer correct="no"><text><![CDATA[No STT is applicable on futures contracts]]></text></answer>
         </answers>
-        <explanation><text><![CDATA[**The Logic:** STT on futures:
-- Rate: 0.0125% (1.25 paise per Rs. 100)
-- Payable on: the selling side of the futures contract (turnover/contract value)
+        <explanation><text><![CDATA[**The Logic:** STT on sale of futures:
+- Rate: 0.02% (2 paise per Rs. 100)
+- Payable on: the price at which futures are traded (sell side)
 - Payable by: the seller
 
-For example, if the contract value is Rs. 10,00,000, STT = 10,00,000 x 0.0125% = Rs. 125.
+For example, if the contract value is Rs. 10,00,000, STT = 10,00,000 × 0.02% = Rs. 200.
 
-**The Trap:** The STT rate for futures (0.0125%) is different from options selling (0.0625% on premium) and options exercise (0.125% on settlement price). Do not confuse these rates.
+**The Trap:** The STT rate for futures (0.02%) is different from options sale (0.10% on premium) and options exercise (0.125% on settlement price). Do not confuse these rates. STT applies only on the sell side for futures.
 
-**Cross-Exam Context:** STT rates for different derivative transactions are directly tested factual questions.
+**Cross-Exam Context:** STT rates for different derivative transactions are directly tested factual questions in Series VIII, I, and XIII.
 
-**Distributor's Pro-Tip:** Futures STT: 0.0125% on turnover (sell side). Options sell: 0.0625% on premium. Options exercise: 0.125% on settlement.]]></text></explanation>
+**Distributor's Pro-Tip:** Futures STT: 0.02% on traded price (sell side). Options sale: 0.10% on premium. Options exercise: 0.125% on settlement price.]]></text></explanation>
     </question>
 </QF>

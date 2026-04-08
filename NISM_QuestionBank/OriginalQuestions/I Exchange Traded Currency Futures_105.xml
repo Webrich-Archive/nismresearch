@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_105" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader holds a long position of 50 lots in USDINR futures. Entry price: Rs. 83.20. Day 1 DSP: Rs. 83.50. Day 2 DSP: Rs. 82.90. What is the cumulative MTM after Day 2?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Loss of Rs. 15,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 15,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 30,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 45,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Cumulative MTM = 50 × 1000 × (82.90 - 83.20) = 50,000 × (-0.30) = -Rs. 15,000 (loss). Day by day: Day 1 = +Rs. 15,000, Day 2 = -Rs. 30,000, Net = -Rs. 15,000.
+**The Trap:** Cumulative P&L always equals (Current DSP - Entry Price) × Quantity, regardless of the intermediate MTM path.
+**Cross-Exam Context:** Multi-day MTM calculations are tested in Series I and VIII.
+**Distributor's Pro-Tip:** Daily MTM ensures that losses are collected daily, reducing default risk. The cumulative effect equals the net price change times quantity.]]></text></explanation>
+    </question>
+</QF>

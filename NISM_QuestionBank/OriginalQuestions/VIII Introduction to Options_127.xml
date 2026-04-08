@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_127" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The tick size for stock options on NSE depends on:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The price of the underlying stock: 0.01 paisa for stocks trading below Rs. 250, and 0.05 paisa for stocks trading above Rs. 250]]></text></answer>
+            <answer correct="no"><text><![CDATA[A uniform Rs. 0.05 for all stock options regardless of underlying price]]></text></answer>
+            <answer correct="no"><text><![CDATA[A uniform Rs. 0.01 for all stock options]]></text></answer>
+            <answer correct="no"><text><![CDATA[The moneyness of the option: ITM options have smaller tick sizes]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** NSE implemented differentiated tick sizes: Rs. 0.01 for stocks trading below Rs. 250 and Rs. 0.05 for stocks above Rs. 250. This also applies to futures contracts on those stocks. BSE uses Rs. 0.05 generally but Rs. 0.01 for stocks below Rs. 100.
+**The Trap:** Tick size is NOT uniform — it varies by price level of the underlying. This affects minimum price movements and risk management.
+**Cross-Exam Context:** Tick size specifications are contract-level details tested in VIII.
+**Distributor's Pro-Tip:** NSE: < Rs. 250 = 0.01 tick, > Rs. 250 = 0.05 tick. BSE: < Rs. 100 = 0.01, otherwise 0.05.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_101" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If USDINR spot is 84.50, India's 9-month interest rate is 7.5% p.a. and US 9-month rate is 5.25% p.a., what is the 9-month USDINR futures price using interest rate parity?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[85.87]]></text></answer>
+            <answer correct="no"><text><![CDATA[85.93]]></text></answer>
+            <answer correct="no"><text><![CDATA[84.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[86.40]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** F = S × (1 + RQC × t) / (1 + RBC × t) = 84.50 × (1 + 0.075 × 0.75) / (1 + 0.0525 × 0.75) = 84.50 × 1.05625 / 1.039375 = 85.8719 ≈ 85.87. The approximate formula gives 85.93 (= 84.50 + 84.50 × 0.0225 × 0.75).
+**The Trap:** The approximate formula overestimates slightly. Use the exact formula for precision. Also remember 9 months = 0.75 years.
+**Cross-Exam Context:** IRP calculations with varying tenors are heavily tested in Series I and XIII.
+**Distributor's Pro-Tip:** The difference between exact and approximate formulas grows with longer tenors and wider rate differentials.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_115" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Final settlement for currency futures happens on which basis?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[T+2 basis]]></text></answer>
+            <answer correct="no"><text><![CDATA[T+1 basis]]></text></answer>
+            <answer correct="no"><text><![CDATA[Same day (T+0)]]></text></answer>
+            <answer correct="no"><text><![CDATA[T+3 basis]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Final settlement is on T+2 basis. Daily MTM settlement is on T+1 basis.
+**The Trap:** Daily settlement (T+1) and final settlement (T+2) have different timelines.
+**Cross-Exam Context:** Settlement timelines are tested in Series I and VII.
+**Distributor's Pro-Tip:** T+2 for final settlement matches the standard spot forex settlement convention.]]></text></explanation>
+    </question>
+</QF>

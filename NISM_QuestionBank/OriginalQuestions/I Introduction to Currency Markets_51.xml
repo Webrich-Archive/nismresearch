@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Introduction to Currency Markets_51" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Given EUR/USD = 1.0850/1.0875 and USD/INR = 83.40/83.42, calculate the bid rate for EUR/INR.]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[90.4890]]></text></answer>
+            <answer correct="no"><text><![CDATA[90.7219]]></text></answer>
+            <answer correct="no"><text><![CDATA[90.6000]]></text></answer>
+            <answer correct="no"><text><![CDATA[90.3500]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** EUR/INR bid = EUR/USD bid × USD/INR bid = 1.0850 × 83.40 = 90.4890. The bid side uses bid rates of both underlying pairs because a market maker buying EUR sells it for USD (bid) and sells USD for INR (bid).
+**The Trap:** Using offer rates instead of bid rates gives 90.7219, which is the offer rate for EUR/INR.
+**Cross-Exam Context:** Cross-rate calculations are core to Series I and Series XIII.
+**Distributor's Pro-Tip:** Remember: for cross rate BID, multiply both bid rates; for OFFER, multiply both offer rates — when the common currency (USD) is base in one pair and quote in the other.]]></text></explanation>
+    </question>
+</QF>

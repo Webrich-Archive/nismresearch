@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Trading Systems_25" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For an index to be eligible for derivatives trading, what percentage of its constituent stocks' weight must individually be eligible for derivatives trading?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[At least 80% of the weight must be from individually eligible stocks, and no single ineligible stock can have more than 5% weight]]></text></answer>
+            <answer correct="no"><text><![CDATA[100% of constituent stocks must be individually eligible for derivatives trading]]></text></answer>
+            <answer correct="no"><text><![CDATA[At least 50% of constituent stocks must be eligible, with no weight restriction]]></text></answer>
+            <answer correct="no"><text><![CDATA[At least 90% of weight must be eligible, and no single ineligible stock can exceed 10%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per SEBI norms, an index is eligible for derivatives if at least 80% of its weight comes from stocks individually eligible for derivatives, and no single ineligible stock exceeds 5% weight. The index must continuously meet these criteria.
+**The Trap:** The 80% is by weight (not by count). So an index with 30 stocks might have 25 eligible stocks covering 82% weight — that's acceptable.
+**Cross-Exam Context:** Index eligibility for derivatives is tested in Series VIII.
+**Distributor's Pro-Tip:** Index eligibility: ≥ 80% weight eligible, ≤ 5% per ineligible stock. Monthly compliance check required.]]></text></explanation>
+    </question>
+</QF>

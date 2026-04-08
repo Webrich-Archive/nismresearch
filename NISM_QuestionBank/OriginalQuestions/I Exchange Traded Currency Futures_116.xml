@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_116" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For INR-based currency futures, dynamic price bands are relaxed in increments of how much?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[1%]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.5%]]></text></answer>
+            <answer correct="no"><text><![CDATA[2%]]></text></answer>
+            <answer correct="no"><text><![CDATA[5%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** While there are no daily price bands, the operating range is +/-3% (up to 6 months) or +/-5% (beyond 6 months). When a market-wide trend is observed, bands are relaxed in 1% increments.
+**The Trap:** 5% is the operating range for longer contracts, not the relaxation increment.
+**Cross-Exam Context:** Price band mechanisms are tested in Series I and VIII.
+**Distributor's Pro-Tip:** No daily price limits distinguishes currency derivatives from equity derivatives.]]></text></explanation>
+    </question>
+</QF>

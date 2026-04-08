@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_103" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader buys 12 lots of USDINR futures at 83.75 and sells 8 lots at 84.10. Later, the remaining 4 lots are squared off at 83.50. What is the total P&L?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Profit of Rs. 1,800]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 2,800]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 1,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 4,200]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** P&L from 8 lots sold at 84.10: 8 × 1000 × (84.10 - 83.75) = Rs. 2,800 profit. P&L from 4 lots sold at 83.50: 4 × 1000 × (83.50 - 83.75) = Rs. -1,000 loss. Total: 2,800 - 1,000 = Rs. 1,800 profit.
+**The Trap:** Adding all 12 lots at a single exit price gives the wrong answer. Each tranche must be calculated separately.
+**Cross-Exam Context:** Multi-leg futures P&L calculations are tested in Series I and VIII.
+**Distributor's Pro-Tip:** Always track partial closes separately — each tranche has its own entry-exit P&L.]]></text></explanation>
+    </question>
+</QF>
