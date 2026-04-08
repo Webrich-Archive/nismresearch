@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_66" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the calendar spread margin (in INR) for a 1-month USDINR spread position in currency futures?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 750]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,600]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,575]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The calendar spread charge table shows: "USDINR — 1 month: Rs. 500." This is the lowest spread margin for the most liquid and commonly traded calendar spread.
+**The Trap:** Rs. 750 is the 1-month spread for EURINR; Rs. 1,600 is for EURUSD (cross-currency); Rs. 1,575 is for GBPINR. USDINR has the smallest spread margin reflecting its high liquidity and tight pricing.
+**Cross-Exam Context:** Spread margins increase with tenor: USDINR 1M=500, 2M=600, 3M=900, 4M+=1100. The benefit for calendar spreads continues until expiry of the near-month contract.
+**Distributor's Pro-Tip:** USDINR 1-month spread = Rs. 500 is the benchmark figure. All other pairs and longer tenors are higher. The ELM on calendar spread positions is reduced — levied on one-third of far-month MTM value.]]></text></explanation>
+    </question>
+</QF>

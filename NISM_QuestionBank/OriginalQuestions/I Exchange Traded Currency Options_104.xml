@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_104" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the BEP for a USDINR put option with strike Rs. 83.00 and premium Rs. 0.15?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 82.85]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 83.15]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 83.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 82.70]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** BEP for put = Strike - Premium = 83.00 - 0.15 = Rs. 82.85.
+**The Trap:** Rs. 83.15 is Strike + Premium (call BEP).
+**Cross-Exam Context:** Put BEP frequently tested in Series I.
+**Distributor's Pro-Tip:** Underlying must fall below BEP for put buyer to profit.]]></text></explanation>
+    </question>
+</QF>

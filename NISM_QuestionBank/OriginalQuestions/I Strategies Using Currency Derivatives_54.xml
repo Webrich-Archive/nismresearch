@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_54" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A short straddle: Sell 84.00 call at Rs. 0.25 and Sell 84.00 put at Rs. 0.20. What is the maximum profit and the BEPs?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Max profit Rs. 0.45, BEPs at Rs. 83.55 and Rs. 84.45]]></text></answer>
+            <answer correct="no"><text><![CDATA[Max profit Rs. 0.25, BEPs at Rs. 83.75 and Rs. 84.25]]></text></answer>
+            <answer correct="no"><text><![CDATA[Max profit Rs. 0.20, BEPs at Rs. 83.80 and Rs. 84.20]]></text></answer>
+            <answer correct="no"><text><![CDATA[Max profit Rs. 0.45, BEPs at Rs. 83.75 and Rs. 84.25]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Total premium received = 0.25 + 0.20 = 0.45 (max profit when USDINR = 84.00 at expiry). Upper BEP = 84.00 + 0.45 = 84.45. Lower BEP = 84.00 - 0.45 = 83.55.
+**The Trap:** Using only one premium for the total. Both premiums contribute to max profit.
+**Cross-Exam Context:** Short straddle is the mirror of long straddle - tested in Series I and VIII.
+**Distributor's Pro-Tip:** Short straddles profit from low volatility. Loss is unlimited if USDINR moves sharply in either direction.]]></text></explanation>
+    </question>
+</QF>

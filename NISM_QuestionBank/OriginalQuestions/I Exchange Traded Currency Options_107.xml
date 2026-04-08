@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_107" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An option has vega = 0.02, premium Rs. 0.10, implied volatility 10%. If volatility increases by 2% to 12%, what is the new premium?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 0.14]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.12]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.06]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.30]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Change = Vega x Vol change = 0.02 x 2 = 0.04. New premium = 0.10 + 0.04 = Rs. 0.14.
+**The Trap:** Rs. 0.12 assumes only 1% change. Question says 2%.
+**Cross-Exam Context:** Vega calcs tested in Series I and VIII.
+**Distributor's Pro-Tip:** Vega effect is highest for ATM options.]]></text></explanation>
+    </question>
+</QF>

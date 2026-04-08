@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Trading Mechanism_54" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A stock broker facing a technical glitch that disrupts trading services must inform the stock exchange within what maximum time, and submit a Preliminary Incident Report (PIR) by when?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Inform the exchange within 1 hour of the glitch; submit PIR within T+1 day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Inform the exchange within 24 hours; submit PIR within T+7 days]]></text></answer>
+            <answer correct="no"><text><![CDATA[Inform the exchange within 30 minutes; submit PIR within same trading day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Inform the exchange within 4 hours; submit PIR within T+3 days]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The text states: "Stock brokers shall inform about the technical glitch to the stock exchanges immediately but not later than 1 hour from the time of occurrence of the glitch. Stock brokers shall submit a Preliminary Incident Report to the Exchange within T+1 day of the incident."
+**The Trap:** "Immediately" with a 1-hour maximum is often confused with a 24-hour window in other regulatory contexts. The combination of 1-hour notification AND T+1 PIR must both be memorised.
+**Cross-Exam Context:** After the PIR, a full Root Cause Analysis (RCA) Report must be submitted within 14 days from the date of the incident. Three sequential obligations: 1 hour → T+1 PIR → T+14 RCA.
+**Distributor's Pro-Tip:** Technical glitch timeline: 1 hour (notify exchange) → T+1 (PIR) → 14 days (RCA). Three deadlines in ascending order.]]></text></explanation>
+    </question>
+</QF>

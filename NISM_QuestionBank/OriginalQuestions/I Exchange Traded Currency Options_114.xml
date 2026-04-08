@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_114" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An exporter buys 200 lots of USDINR 84.00 put at Rs. 0.25 to hedge USD 200,000. At expiry, USDINR is 83.00. Effective realization rate?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 83.75 per USD]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 84.00 per USD]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 83.00 per USD]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 84.25 per USD]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Effective rate = Strike - Premium = 84.00 - 0.25 = Rs. 83.75. Or: Spot sale (83.00) + Put profit (1.00) - Premium (0.25) = 83.75.
+**The Trap:** Rs. 84.00 ignores premium. Unlike futures, options hedge has a cost.
+**Cross-Exam Context:** Options hedging vs futures hedging is key Series I topic.
+**Distributor's Pro-Tip:** Options allow upside participation if rate moves favourably, unlike futures.]]></text></explanation>
+    </question>
+</QF>

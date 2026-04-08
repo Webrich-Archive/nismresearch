@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_61" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the minimum Liquid Net Worth that every clearing member in the Currency Derivatives segment is required to maintain?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 50 lakhs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 10 lakhs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 25 lakhs]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The text states: "Currently every clearing member in the Currency Derivatives segment is required to maintain a minimum liquid networth of Rs.50 lakhs."
+**The Trap:** Rs. 10 lakhs is the BMC for proprietary-only (no algo) trading members. Rs. 1 crore is the Committee-recommended net worth for trading members. Rs. 50 lakhs is specifically the minimum liquid net worth for CMs.
+**Cross-Exam Context:** Liquid Net Worth = Liquid Assets minus Initial Margin minus Extreme Loss Margin at any point in time. The CMs must maintain at least Rs. 50 lakhs of this at all times.
+**Distributor's Pro-Tip:** Clearing Member minimum liquid net worth = Rs. 50 lakhs. This is distinct from the BMC (which has no exposure granted against it) and net worth requirements.]]></text></explanation>
+    </question>
+</QF>

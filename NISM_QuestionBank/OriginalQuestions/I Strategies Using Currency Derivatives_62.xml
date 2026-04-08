@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_62" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader creates a covered call by holding long USDINR futures at 84.00 and selling 84.50 call at Rs. 0.15. At expiry, USDINR = 84.30. What is the total P&L per unit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 0.45]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.30]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.15]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.65]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Futures P&L = 84.30 - 84.00 = +0.30. Short call: OTM (84.30 < 84.50), keeps premium +0.15. Total = 0.30 + 0.15 = Rs. 0.45.
+**The Trap:** At 84.30, the call is not exercised. The trader benefits from futures gain AND the full premium.
+**Cross-Exam Context:** Covered calls combine futures and options - tested in Series I and VIII.
+**Distributor's Pro-Tip:** Covered call enhances returns in range-bound markets but caps upside beyond the call strike.]]></text></explanation>
+    </question>
+</QF>

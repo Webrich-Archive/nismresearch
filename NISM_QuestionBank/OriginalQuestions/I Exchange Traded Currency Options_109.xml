@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_109" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[USDINR spot is 84.00. A call with strike 83.50 trades at Rs. 0.75. What is the intrinsic value and time value?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Intrinsic = Rs. 0.50, Time = Rs. 0.25]]></text></answer>
+            <answer correct="no"><text><![CDATA[Intrinsic = Rs. 0.75, Time = Rs. 0]]></text></answer>
+            <answer correct="no"><text><![CDATA[Intrinsic = Rs. 0, Time = Rs. 0.75]]></text></answer>
+            <answer correct="no"><text><![CDATA[Intrinsic = Rs. 0.25, Time = Rs. 0.50]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Call intrinsic = max(S-K, 0) = max(84.00-83.50, 0) = 0.50. Time value = Premium - Intrinsic = 0.75 - 0.50 = 0.25.
+**The Trap:** Zero intrinsic would apply to an OTM option. This call is ITM (S > K).
+**Cross-Exam Context:** Premium decomposition is fundamental - tested in Series I and VIII.
+**Distributor's Pro-Tip:** At expiry, time value = 0 and option is worth only its intrinsic value.]]></text></explanation>
+    </question>
+</QF>

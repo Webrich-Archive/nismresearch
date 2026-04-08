@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_110" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader sells (writes) a USDINR call with strike 84.00 at Rs. 0.20 premium. At expiry, USDINR is 84.75. What is the writer's net P&L per unit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Loss of Rs. 0.55]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 0.20]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 0.75]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 0.95]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Writer payoff = Premium - max(S-K, 0) = 0.20 - 0.75 = -Rs. 0.55 loss.
+**The Trap:** Rs. 0.75 ignores premium received. Writer keeps premium which offsets part of loss.
+**Cross-Exam Context:** Short call P&L is mirror of long call - tested in Series I and VIII.
+**Distributor's Pro-Tip:** Per lot, writer loss = Rs. 550. Maximum profit = premium = Rs. 200 per lot.]]></text></explanation>
+    </question>
+</QF>

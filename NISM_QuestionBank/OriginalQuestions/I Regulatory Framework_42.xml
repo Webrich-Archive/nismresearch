@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Regulatory Framework_42" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under the SEBI (Stock Brokers) Regulations, 1992, what is the Base Minimum Capital (BMC) deposit required for a broker who does Proprietary trading AND trading on behalf of clients, WITHOUT algorithmic trading?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 25 lakhs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 10 lakhs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 15 lakhs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 50 lakhs]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The BMC table in Chapter 8 specifies: "Proprietary trading and trading on behalf of clients without Algo = Rs. 25 Lacs."
+**The Trap:** Rs. 10 lakhs is for proprietary-only without algo; Rs. 15 lakhs is for client-only without algo; Rs. 50 lakhs is for all brokers with algo. The Rs. 25 lakhs is the combined activity level.
+**Cross-Exam Context:** BMC is a deposit with no exposure granted against it. The four tiers: Prop only (no algo) = Rs. 10L; Client only (no algo) = Rs. 15L; Prop + Client (no algo) = Rs. 25L; All algo brokers = Rs. 50L.
+**Distributor's Pro-Tip:** BMC escalates with activity level and technology use. Algo brokers uniformly pay Rs. 50L regardless of activity mix. The four levels form a neat progression: 10, 15, 25, 50.]]></text></explanation>
+    </question>
+</QF>

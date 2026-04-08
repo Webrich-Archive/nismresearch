@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_112" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A USDINR put with strike 84.00 when spot is 84.50. What is its moneyness and intrinsic value?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Out of the money (OTM), intrinsic value = Rs. 0]]></text></answer>
+            <answer correct="no"><text><![CDATA[In the money (ITM), intrinsic value = Rs. 0.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[At the money (ATM), intrinsic value = Rs. 0]]></text></answer>
+            <answer correct="no"><text><![CDATA[In the money, intrinsic = Rs. -0.50]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Put is ITM when Strike > Spot. Here 84.00 < 84.50, so OTM. Intrinsic = max(K-S, 0) = 0.
+**The Trap:** 0.50 would be intrinsic for a CALL (S > K). Put moneyness is reversed.
+**Cross-Exam Context:** Moneyness is frequently tested in Series I and VIII.
+**Distributor's Pro-Tip:** Put ITM = spot below strike. Call ITM = spot above strike.]]></text></explanation>
+    </question>
+</QF>

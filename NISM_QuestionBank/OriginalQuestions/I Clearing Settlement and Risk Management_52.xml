@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_52" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[SPAN (Standard Portfolio Analysis of Risk) margining is used for initial margin computation in currency derivatives. SPAN was originally developed by which organisation?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Chicago Mercantile Exchange (CME)]]></text></answer>
+            <answer correct="no"><text><![CDATA[National Stock Exchange of India (NSE)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Securities and Exchange Board of India (SEBI)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Bank for International Settlements (BIS)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The text notes (footnote 31): "It is a product developed by Chicago Mercantile Exchange (CME) and is extensively used by leading stock Exchanges of the world. SPAN® uses scenario-based approach to arrive at margins. It generates a range of scenarios and highest loss scenario is used to calculate the SPAN margin."
+**The Trap:** SEBI or NSE might seem correct since SPAN is used on Indian exchanges. But SPAN is a CME-developed methodology licensed globally — India adopted it, not created it.
+**Cross-Exam Context:** SPAN generates 16 "what-if" scenarios. The highest loss scenario becomes the SPAN margin. It computes margin at the portfolio level — not position by position.
+**Distributor's Pro-Tip:** SPAN = CME product, 16 scenarios, portfolio-level risk. The VaR confidence level for initial margin is 99% over a 1-day horizon (2-day for futures).]]></text></explanation>
+    </question>
+</QF>

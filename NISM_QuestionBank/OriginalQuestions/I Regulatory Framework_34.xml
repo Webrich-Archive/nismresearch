@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Regulatory Framework_34" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under RBI guidelines, up to what single limit (in USD equivalent) may a person resident in India take positions in currency pairs involving INR across all exchanges without having to establish the existence of underlying exposure?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[USD 100 million equivalent]]></text></answer>
+            <answer correct="no"><text><![CDATA[USD 50 million equivalent]]></text></answer>
+            <answer correct="no"><text><![CDATA[USD 200 million equivalent]]></text></answer>
+            <answer correct="no"><text><![CDATA[USD 25 million equivalent]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The RBI circular (RBI/2019-20/210 dated April 07, 2020) and Section 8.6.2 state: "Users may take positions (long or short), without having to establish existence of underlying exposure, up to a single limit of USD 100 million equivalent across all currency pairs involving INR, put together, and combined across all exchanges."
+**The Trap:** USD 50 million is the proprietary position limit for a non-bank stock broker in USDINR — a different threshold from the user limit.
+**Cross-Exam Context:** Beyond USD 100 million, users must designate an Authorised Dealer/Custodian, and intraday positions plus day-end positions are reported to the designated AD.
+**Distributor's Pro-Tip:** USD 100 million is the "no-proof-needed" threshold for users. Above it, AD designation is mandatory. This also applies identically to FPIs.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_56" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the minimum Price Scan Range (PSR) percentage for USDINR futures under SPAN margining?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[1.50%]]></text></answer>
+            <answer correct="no"><text><![CDATA[2.15%]]></text></answer>
+            <answer correct="no"><text><![CDATA[2.50%]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.00%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The PSR table specifies: "USDINR: Based on 6σ subject to minimum 1.50% of underlying price." This is the minimum price scan range for USDINR contracts.
+**The Trap:** 2.15% is the PSR for EURINR; 2.50% is the PSR for cross-currency pairs (EURUSD, GBPUSD, USDJPY). USDINR has the lowest PSR among all currency pairs, reflecting its relatively lower volatility.
+**Cross-Exam Context:** PSR by pair: USDINR 1.50%, EURINR 2.15%, GBPINR 2.25%, JPYINR 2.65%, cross-currency 2.50% each. USDINR being the most liquid pair has the tightest scan range.
+**Distributor's Pro-Tip:** PSR = probable daily price change. USDINR at 1.50% is the anchor figure. Higher for less liquid cross-currency pairs.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_63" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For currency futures and options contracts involving Indian Rupee, what rate is used as the final settlement price?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[FBIL (Financial Benchmarks India Pvt Ltd) reference rate on the last trading day]]></text></answer>
+            <answer correct="no"><text><![CDATA[RBI reference rate published at 12:00 noon on the last trading day]]></text></answer>
+            <answer correct="no"><text><![CDATA[The closing price of the futures contract on the last trading day]]></text></answer>
+            <answer correct="no"><text><![CDATA[The last half-hour weighted average price on the last trading day]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The settlement price table specifies: "Currency Futures and Options (contract involving Indian Rupee) — Final Settlement: FBIL reference rate on the last trading day."
+**The Trap:** The last half-hour weighted average price is used for the DAILY settlement price (not final settlement). The FBIL rate is specifically the final settlement benchmark.
+**Cross-Exam Context:** Daily settlement = last half-hour weighted average closing price; Final settlement = FBIL reference rate. FBIL (Financial Benchmarks India) publishes the reference rate that replaces the old RBI reference rate.
+**Distributor's Pro-Tip:** FBIL = Final Settlement. Last half-hour WAP = Daily MTM. Two different benchmarks, two different settlement types.]]></text></explanation>
+    </question>
+</QF>

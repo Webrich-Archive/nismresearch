@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_51" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A bull call spread: Buy 84.00 call at Rs. 0.15, Sell 84.50 call at Rs. 0.05. What is the maximum profit, maximum loss, and BEP?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Max profit Rs. 0.40, Max loss Rs. 0.10, BEP = Rs. 84.10]]></text></answer>
+            <answer correct="no"><text><![CDATA[Max profit Rs. 0.50, Max loss Rs. 0.15, BEP = Rs. 84.15]]></text></answer>
+            <answer correct="no"><text><![CDATA[Max profit Rs. 0.40, Max loss Rs. 0.05, BEP = Rs. 84.05]]></text></answer>
+            <answer correct="no"><text><![CDATA[Max profit Rs. 0.35, Max loss Rs. 0.10, BEP = Rs. 84.15]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Net cost = 0.15 - 0.05 = 0.10. Max profit = Strike diff - Net cost = 0.50 - 0.10 = 0.40 (when both exercised, at or above 84.50). Max loss = Net cost = 0.10 (when both expire worthless, at or below 84.00). BEP = Lower strike + Net cost = 84.00 + 0.10 = 84.10.
+**The Trap:** Using individual premiums instead of net cost for max loss.
+**Cross-Exam Context:** Bull call spreads tested in Series I and VIII.
+**Distributor's Pro-Tip:** Bull call = limited risk, limited reward. Good for moderate bullish views.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_53" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the Extreme Loss Margin (ELM) rate for USDINR futures contracts?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[0.50%]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.00%]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.15%]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.75%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The ELM table in Chapter 7 specifies: "USDINR: ELM Futures = 0.50%." This is applied on the mark-to-market value of the gross open positions.
+**The Trap:** 1.00% is the Price Scan Range minimum for USDINR (1.50%), not the ELM. 0.75% is the ELM for options (USDINR options ELM = 0.75%). 0.15% is the ELM for EURINR futures.
+**Cross-Exam Context:** ELM table highlights: USDINR futures = 0.50%; EURINR futures = 0.15%; GBPINR futures = 0.25%; JPYINR futures = 0.35%. Cross-currency (EURUSD, GBPUSD, USDJPY) futures = 0.50% each.
+**Distributor's Pro-Tip:** USDINR ELM futures = 0.50% is the most commonly tested ELM figure. Note that USDINR options ELM = 0.75% — higher for options than futures.]]></text></explanation>
+    </question>
+</QF>

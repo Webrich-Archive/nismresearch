@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_58" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A bear call spread: Sell 83.00 call at Rs. 0.10, Buy 83.50 call at Rs. 0.04. What is the max profit and max loss?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Max profit Rs. 0.06, Max loss Rs. 0.44]]></text></answer>
+            <answer correct="no"><text><![CDATA[Max profit Rs. 0.10, Max loss Rs. 0.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Max profit Rs. 0.04, Max loss Rs. 0.46]]></text></answer>
+            <answer correct="no"><text><![CDATA[Max profit Rs. 0.06, Max loss Rs. 0.06]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Net premium received = 0.10 - 0.04 = 0.06 (max profit, when both OTM at or below 83.00). Max loss = Strike diff - Net premium = 0.50 - 0.06 = 0.44 (when both ITM at or above 83.50). BEP = Lower strike + Net premium = 83.06.
+**The Trap:** This is the mirror of bull call spread. The net credit is the max profit, not the individual premium.
+**Cross-Exam Context:** Bear call spreads tested in Series I and VIII.
+**Distributor's Pro-Tip:** Bear call is a net credit strategy — you receive money upfront and hope the underlying stays below the lower strike.]]></text></explanation>
+    </question>
+</QF>

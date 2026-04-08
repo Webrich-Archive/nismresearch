@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_57" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An exporter hedges EUR 500,000 receivable by buying 500 lots of EURINR put at strike 91.00, premium Rs. 0.30. At expiry, EURINR is 92.50. What is the effective realization?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 92.20 per EUR]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 91.00 per EUR]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 92.50 per EUR]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 90.70 per EUR]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Put is OTM (spot 92.50 > strike 91.00), so not exercised. Exporter sells at spot 92.50, minus premium = 92.50 - 0.30 = Rs. 92.20. Option hedge allows upside participation.
+**The Trap:** Rs. 91.00 assumes put is exercised (wrong — not optimal when spot > strike). Rs. 90.70 is Strike - Premium (only applies when put IS exercised).
+**Cross-Exam Context:** Options vs futures hedging comparison is key Series I topic.
+**Distributor's Pro-Tip:** This shows the advantage of options: exporter captured 1.20 more than the futures locked rate would have been (approx 91.00 area), minus premium.]]></text></explanation>
+    </question>
+</QF>

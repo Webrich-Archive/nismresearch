@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_51" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The daily settlement of Exchange-Traded Currency Derivatives (ETCD) trades is done on which basis, and the final settlement on which basis?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Daily settlement on T+1 working day; final settlement on T+2 working day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Daily settlement on T+2 working day; final settlement on T+3 working day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Daily settlement on T+0; final settlement on T+1 working day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Daily settlement on T+1; final settlement on T+1 working day]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The text clearly states: "The daily settlement of Exchange-Traded Currency Derivatives (ETCD) trades is done on a T+1 working day basis while the final settlement is done on a T+2 basis. The final settlement date is T+2 day from the last trading day of the contract."
+**The Trap:** T+2 is commonly associated with equity cash market settlement. In ETCD, T+1 is daily and T+2 is only final settlement — a distinction candidates often reverse.
+**Cross-Exam Context:** Both daily MTM settlement and premium settlement happen on T+1. Final settlement of futures and final exercise settlement of options both happen on T+2.
+**Distributor's Pro-Tip:** "Daily = T+1, Final = T+2" in ETCD. Remember: going from daily to final adds one more day.]]></text></explanation>
+    </question>
+</QF>

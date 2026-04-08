@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_61" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A bull put spread with 50 lots: Sell 84.00 put at 0.10, Buy 83.50 put at 0.03. USDINR at expiry = 84.50. Total P&L?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Profit of Rs. 3,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 5,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 1,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 1,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Both puts are OTM (84.50 > 84.00 > 83.50). Net premium received = 0.10 - 0.03 = 0.07 per unit. Total = 50 x 1000 x 0.07 = Rs. 3,500. This is the maximum profit for a bull put spread.
+**The Trap:** Rs. 5,000 uses only the sold put premium (0.10 x 50 x 1000). Must deduct the bought put cost.
+**Cross-Exam Context:** Bull put spread max profit scenario tested in Series I.
+**Distributor's Pro-Tip:** Bull put spread profits when underlying stays above the higher strike. Max profit = net premium received.]]></text></explanation>
+    </question>
+</QF>

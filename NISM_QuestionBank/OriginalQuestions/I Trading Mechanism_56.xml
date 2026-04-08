@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Trading Mechanism_56" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[SEBI's Unique Client Code (UCC) mandate was introduced in which year, and what is the requirement for mapping UCC with client identity?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Introduced in 2001; UCC must be mapped with the PAN number of the client]]></text></answer>
+            <answer correct="no"><text><![CDATA[Introduced in 2008; UCC must be mapped with the Aadhaar number of the client]]></text></answer>
+            <answer correct="no"><text><![CDATA[Introduced in 1992; UCC must be mapped with bank account number]]></text></answer>
+            <answer correct="no"><text><![CDATA[Introduced in 2001; UCC must be mapped with the Demat account number]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The text states: "In 2001, SEBI made it mandatory for brokers to use unique client codes for all clients" and "It is also mandated by SEBI, that the unique client code should be mapped with the PAN number of the client."
+**The Trap:** Aadhaar is used for e-KYC verification but UCC is specifically mapped to PAN. PAN is described as "the sole identification number for all participants transacting in securities market, irrespective of the amount of transactions."
+**Cross-Exam Context:** The broker must provide the Exchange with UCC AND PAN details before entering any trade on behalf of the client. Failure to register UCC with Exchange = liable to be penalised.
+**Distributor's Pro-Tip:** UCC = 2001 mandate; UCC mapped to PAN (not Aadhaar, not demat). PAN is the universal securities market identifier.]]></text></explanation>
+    </question>
+</QF>

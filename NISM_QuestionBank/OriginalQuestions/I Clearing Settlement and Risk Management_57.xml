@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_57" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the position limit for a Trading Member (banks and non-banks) in USDINR contracts?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Higher of 15% of the total open interest or USD 100 million]]></text></answer>
+            <answer correct="no"><text><![CDATA[Higher of 6% of the total open interest or USD 20 million]]></text></answer>
+            <answer correct="no"><text><![CDATA[Higher of 15% of the total open interest or USD 50 million]]></text></answer>
+            <answer correct="no"><text><![CDATA[Higher of 15% of the total open interest or USD 1 billion]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The position limits table (Section 7.6A) specifies: "Trading Member (Banks and Non-Banks) in USDINR: Higher of 15% of the total open interest or USD 100 million."
+**The Trap:** USD 1 billion is specifically for bank TMs as authorised by RBI (not general TM limit). USD 50 million is for non-bank stock broker proprietary positions. USD 20 million is the domestic client limit.
+**Cross-Exam Context:** Four categories and their USDINR limits: TM (banks/non-banks) = USD 100M; Domestic clients/NRIs = USD 20M; Non-bank stock broker prop = USD 50M; Bank TM (RBI authorised) = USD 1 billion.
+**Distributor's Pro-Tip:** USD 100M is the standard TM limit; the bank TM has a special higher limit of USD 1 billion when specifically authorised by RBI — a critical footnote distinction.]]></text></explanation>
+    </question>
+</QF>

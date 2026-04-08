@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_101" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader buys a USDINR call option with strike 84.00 at a premium of Rs. 0.25. At expiry, USDINR is at 84.60. What is the net profit per unit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 0.35]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.60]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.25]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.85]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Call payoff = max(S-K, 0) = max(84.60-84.00, 0) = 0.60. Net profit = 0.60 - 0.25 = Rs. 0.35.
+**The Trap:** Rs. 0.60 ignores premium. Premium must always be deducted.
+**Cross-Exam Context:** Call payoff calcs tested in Series I, VIII, XIII.
+**Distributor's Pro-Tip:** Per lot (1000 USD), net profit = Rs. 350.]]></text></explanation>
+    </question>
+</QF>

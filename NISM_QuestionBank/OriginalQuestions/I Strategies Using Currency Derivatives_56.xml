@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_56" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A bull call spread with 10 lots: Buy 83.00 call at 0.10, Sell 83.50 call at 0.04. USDINR at expiry = 83.30. What is total P&L?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Profit of Rs. 2,400]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 3,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 600]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 2,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Long 83 call payoff: 83.30-83.00-0.10 = +0.20. Short 83.50 call payoff: 83.30 < 83.50 so not exercised, keep premium +0.04. Net per unit = 0.24. Total = 10 x 1000 x 0.24 = Rs. 2,400.
+**The Trap:** At 83.30, only the lower strike call is exercised. The higher strike call expires worthless.
+**Cross-Exam Context:** Intermediate payoff (between strikes) tested in Series I and VIII.
+**Distributor's Pro-Tip:** Between the two strikes, P&L varies linearly. Below both or above both, P&L is fixed.]]></text></explanation>
+    </question>
+</QF>

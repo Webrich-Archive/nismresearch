@@ -1,8 +1,8 @@
 # NISM Question Bank — Handoff Document
 
-**Date:** April 8, 2026 (Updated after Session 6 — Phase 5a: Series VIII Audit)
-**Status:** 7 of 31 exams complete, 2,546 questions generated. Series VIII fully audited and type-rebalanced.
-**For:** Fresh conversation to continue. Next action: Phase 5b — Audit Series I (read PDF, verify 500 Qs, add ~63 calc + ~75 regulatory Qs)
+**Date:** April 8, 2026 (Updated after Session 7 — Phase 5b: Series I Audit)
+**Status:** 7 of 31 exams complete, 2,643 questions generated. Series I and VIII fully audited and type-rebalanced.
+**For:** Fresh conversation to continue. Next action: Phase 6 — Generate Series IV (Interest Rate Derivatives) and XVI (Commodity Derivatives)
 
 ---
 
@@ -18,8 +18,8 @@
 | IFSCA-01 - AML and CFT in the IFSC | IFSCA-01 | 180 | 8 | Easy | AUDITED + Gap-filled + Type-rebalanced (+40 conceptual) |
 | Series XII - Securities Markets Foundation | XII | 302 | 6 | Easy | AUDITED + Gap-filled + Type-rebalanced (+22 regulatory) |
 | Series VIII - Equity Derivatives | VIII | 555 | 10 | Hard | AUDITED + Type-rebalanced (+55 regulatory) |
-| Series I - Currency Derivatives | I | 500 | 10 | Moderate | Generated from PDF, needs audit + type rebalancing |
-| **Total** | | **2,546** | **64** | | |
+| Series I - Currency Derivatives | I | 630 | 10 | Moderate | AUDITED + Type-rebalanced (+130: 60 calc, 70 regulatory) |
+| **Total** | | **2,643** | **64** | | |
 
 ### Generated Files
 
@@ -156,7 +156,7 @@ Every file has **The Logic**, **The Trap**, and **Cross-Exam Context** (100%). 6
 
 | Fix | Priority | Effort | When | Status |
 |-----|----------|:------:|------|:------:|
-| Series I: +63 calc, +75 regulatory questions | High | 1 session | Phase 5b audit | PENDING |
+| Series I: +60 calc, +70 regulatory questions | High | 1 session | Phase 5b audit | **DONE** |
 | Series VIII: +55 regulatory questions | Medium | Phase 5a audit | Phase 5a audit | **DONE** |
 | XXIV: +40 conceptual questions | Medium | 0.5 session | Targeted gap-fill | **DONE** |
 | IFSCA-01: +40 conceptual questions | Medium | 0.5 session | Targeted gap-fill | **DONE** |
@@ -584,19 +584,19 @@ with open("NISM_QuestionBank/QuestionToArticleNumber.plist", 'wb') as f:
 | VIII Accounting and Taxation | VIII Accounting and Taxation | 20 |
 | VIII Sales Practices and Investor Protection Services | VIII Sales Practices and Investor Protection Services | 14 |
 
-### I (10 topics, 500 Qs)
+### I (10 topics, 630 Qs)
 | Plist Topic Name | File Prefix | Qs |
 |---|---|:-:|
-| I Introduction to Currency Markets | I Introduction to Currency Markets | 50 |
-| I Foreign Exchange Derivatives | I Foreign Exchange Derivatives | 25 |
-| I Exchange Traded Currency Futures | I Exchange Traded Currency Futures | 100 |
-| I Exchange Traded Currency Options | I Exchange Traded Currency Options | 100 |
-| I Strategies Using Currency Derivatives | I Strategies Using Currency Derivatives | 50 |
-| I Trading Mechanism | I Trading Mechanism | 50 |
-| I Clearing Settlement and Risk Management | I Clearing Settlement and Risk Management | 50 |
-| I Regulatory Framework | I Regulatory Framework | 25 |
-| I Accounting and Taxation | I Accounting and Taxation | 25 |
-| I Codes of Conduct and Investor Protection | I Codes of Conduct and Investor Protection | 25 |
+| I Introduction to Currency Markets | I Introduction to Currency Markets | 61 |
+| I Foreign Exchange Derivatives | I Foreign Exchange Derivatives | 29 |
+| I Exchange Traded Currency Futures | I Exchange Traded Currency Futures | 118 |
+| I Exchange Traded Currency Options | I Exchange Traded Currency Options | 115 |
+| I Strategies Using Currency Derivatives | I Strategies Using Currency Derivatives | 62 |
+| I Trading Mechanism | I Trading Mechanism | 60 |
+| I Clearing Settlement and Risk Management | I Clearing Settlement and Risk Management | 67 |
+| I Regulatory Framework | I Regulatory Framework | 50 |
+| I Accounting and Taxation | I Accounting and Taxation | 30 |
+| I Codes of Conduct and Investor Protection | I Codes of Conduct and Investor Protection | 38 |
 
 ---
 
@@ -809,4 +809,27 @@ When generating exam questions, every question MUST be based on content actually
 - **Total after Session 6: 2,546 questions, 64 topics, all plists valid**
 - **Next session: Phase 5b — Audit Series I (500 Qs PDF page-by-page + add ~63 calc + ~75 regulatory Qs)**
 
-*Handoff document updated April 8, 2026 after Session 6 completion.*
+### Session 7 (April 8, 2026)
+- **Phase 5b: Audit Series I — Currency Derivatives (500 → 630 questions)**
+- **PDF audit:** All 10 chapters of Series I workbook (245 pages) read page-by-page against 500 existing questions
+- **Errors found:** 1 minor rounding issue (Q44: 83.91 vs 83.92, acceptable as approximate)
+- **130 new questions added (500 → 630):**
+  - **60 calculation questions:**
+    - Ch1: +7 (cross-rate calculations EURINR/GBPINR/JPYINR, vehicle currency formula, depreciation %, spread in pips)
+    - Ch3: +13 (IRP with various tenors, forward premium/discount, multi-leg futures P&L, continuous compounding, implied rate differential, cross-currency P&L)
+    - Ch4: +12 (call/put payoffs, BEP, Greeks: delta/gamma/vega/theta/rho, intrinsic/time value, option writer P&L, options hedging)
+    - Ch5: +10 (bull/bear call/put spreads with full P&L, straddle/strangle BEPs, multi-lot strategy P&L, covered call)
+    - Ch7: +5 (margin calculations, position limits)
+    - Ch6/Ch8-10: +13 (regulatory/conceptual with numerical content)
+  - **70 regulatory questions:**
+    - Ch6 Trading: +10 (TM/CM/PCM types, DMA, algo audit, UCC, NISM certification, trade annulment)
+    - Ch7 Clearing: +12 (SPAN 16 scenarios, ELM rates 1%/0.50%, position limits USD 20M client/100M TM, 50% cash rule, risk reduction 90%/85%)
+    - Ch8 Regulatory: +25 (SEBI-RBI dual regulation, FEMA 1999, SCRA Section 18A, bank TM: Rs 500Cr/CRAR 10%/NPA 3%, FEDAI, RBI-SEBI Committee, user USD 100M threshold, BMC tiers)
+    - Ch9 Accounting: +5 (ICAI 2021 guidance, Ind AS 109, Section 43(5), 8-year carry forward, hedge accounting)
+    - Ch10 Code of Conduct: +13 (Schedule II SEBI regulations, SCORES portal, arbitration Rs 30L panel, KRA 10-day upload, STR 7 days, conciliation 21 days, IPF)
+  - **4 conceptual questions:** Ch1 (+4: FBIL methodology, NOOPL, BIS data), Ch2 (+4: FAS 133, currency swap, hedging requirement)
+- **Validation: All 2,643 XML files valid, 0 duplicates, 64 topics aligned, all 5 plists OK**
+- **Total after Session 7: 2,643 questions, 64 topics, all plists valid**
+- **Next session: Phase 6 — Generate Series IV (Interest Rate Derivatives) and XVI (Commodity Derivatives)**
+
+*Handoff document updated April 8, 2026 after Session 7 completion.*

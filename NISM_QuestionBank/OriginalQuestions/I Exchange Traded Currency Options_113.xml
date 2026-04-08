@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_113" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A put on USDINR with strike 83.00 has rho = -0.05. If rates decrease from 6% to 5%, what is the new premium (currently Rs. 0.40)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 0.45]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.35]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.40]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.50]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Change = Rho x Rate change = -0.05 x (-1) = +0.05. New = 0.40 + 0.05 = Rs. 0.45.
+**The Trap:** Put premium increases when rates decrease (negative rho x negative change = positive).
+**Cross-Exam Context:** Rho tested in Series I and VIII.
+**Distributor's Pro-Tip:** Rho has smallest impact among Greeks for short-dated options.]]></text></explanation>
+    </question>
+</QF>

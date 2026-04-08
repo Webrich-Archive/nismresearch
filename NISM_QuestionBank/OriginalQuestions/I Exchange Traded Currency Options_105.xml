@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_105" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A USDINR call option has delta = 0.55. Current premium is Rs. 0.45. If USDINR moves from 82.80 to 83.10, what is the expected new premium?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 0.615]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.75]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.45]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.285]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Change = Delta x Change in underlying = 0.55 x 0.30 = 0.165. New premium = 0.45 + 0.165 = Rs. 0.615.
+**The Trap:** Delta x premium is wrong. Delta measures premium change per unit change in underlying.
+**Cross-Exam Context:** Delta calcs are core to Series I and VIII.
+**Distributor's Pro-Tip:** Valid for small moves only due to gamma effect.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_103" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the BEP for a USDINR call option with strike Rs. 84.00 and premium Rs. 0.30?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 84.30]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 83.70]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 84.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 84.60]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** BEP for call = Strike + Premium = 84.00 + 0.30 = Rs. 84.30.
+**The Trap:** Rs. 83.70 is Strike - Premium (put BEP formula).
+**Cross-Exam Context:** BEP calcs are standard Series I and VIII.
+**Distributor's Pro-Tip:** Call BEP = K + C, Put BEP = K - P.]]></text></explanation>
+    </question>
+</QF>

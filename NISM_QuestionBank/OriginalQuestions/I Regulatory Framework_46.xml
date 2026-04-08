@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Regulatory Framework_46" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Market participants who intend to take positions in cross-currency futures and options (contracts NOT involving Indian Rupee) are required to establish the existence of underlying exposure before entering into such contracts?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[No — they may take positions without establishing underlying exposure, subject to exchange-prescribed position limits]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes — underlying exposure must always be established before taking any derivative position]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes — but only for positions exceeding USD 100 million equivalent]]></text></answer>
+            <answer correct="no"><text><![CDATA[No — there are no position limits for cross-currency contracts]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Section 8.6.2 states: "Market Participants are allowed to take positions in the cross-currency futures and exchange-traded cross-currency option contracts (contracts not involving Indian Rupee) without having to establish underlying exposure subject to the position limits as prescribed by the exchanges."
+**The Trap:** The USD 100 million rule applies to INR-involving currency pairs. Cross-currency (FCY-FCY) pairs have a different and more permissive regime — no underlying proof required at any level, only exchange position limits apply.
+**Cross-Exam Context:** INR pairs = USD 100 million no-proof threshold (above that, AD designation required). Cross-currency pairs = no underlying proof needed, just adhere to exchange position limits.
+**Distributor's Pro-Tip:** Two regimes: INR pairs (USD 100M threshold) vs. cross-currency pairs (no underlying proof, just position limits). Cross-currency is simpler and more permissive.]]></text></explanation>
+    </question>
+</QF>

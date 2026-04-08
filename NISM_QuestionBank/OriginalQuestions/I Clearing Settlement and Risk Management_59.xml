@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_59" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When is a clearing member put into "Risk Reduction Mode" by the Stock Exchange / Clearing Corporation?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[When 90% of the stock broker's/clearing member's collateral available for margin adjustment is utilised]]></text></answer>
+            <answer correct="no"><text><![CDATA[When 75% of the clearing member's collateral is utilised]]></text></answer>
+            <answer correct="no"><text><![CDATA[When the clearing member's margin shortfall exceeds Rs. 1 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[When the clearing member breaches 100% of their collateral utilisation]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The text states: "Stock Exchanges / Clearing Corporation need to ensure that the stock brokers are mandatorily put in risk-reduction mode when a specific percent (currently 90%) of the stock broker's/clearing member collateral available for adjustment against margins gets utilised on account of trades that fall under a margin system."
+**The Trap:** 100% utilisation would mean the member has already defaulted. Risk reduction mode triggers before that — at 90% — as a pre-emptive protective measure.
+**Cross-Exam Context:** Once in risk reduction mode: all unexecuted orders cancelled, only IOC orders permitted, orders for position increase are rejected. The member exits risk reduction mode when utilisation falls below 85%.
+**Distributor's Pro-Tip:** Enter risk reduction mode at 90% utilisation; exit at 85%. The 5% differential is the "buffer" built into the system.]]></text></explanation>
+    </question>
+</QF>

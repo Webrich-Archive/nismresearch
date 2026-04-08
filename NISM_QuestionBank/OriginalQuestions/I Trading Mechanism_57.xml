@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Trading Mechanism_57" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the IRRA (Investor Risk Reduction Access) platform framework, for which category of market participants is the IRRA service NOT available?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Algorithmic trading clients and institutional clients]]></text></answer>
+            <answer correct="no"><text><![CDATA[Individual retail investors]]></text></answer>
+            <answer correct="no"><text><![CDATA[NRI (Non-Resident Indian) investors]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trading members with direct market access]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The text states: "It's important to clarify that the IRRA system is exclusively for individual investors and does not cater to algorithmic trading or institutional clients. Furthermore, its primary function is to facilitate the closure of positions and the cancellation of pending orders & not the initiation of new positions."
+**The Trap:** The IRRA platform looks like a broad emergency access system, but it is specifically for individual (retail) investors. Algorithmic and institutional clients are excluded — they have other risk management tools.
+**Cross-Exam Context:** IRRA allows investors to square off/close open positions and cancel pending orders when their TM faces technical glitches. It cannot initiate NEW positions — only close existing ones.
+**Distributor's Pro-Tip:** IRRA = Individual investors only. Algo clients and institutional clients excluded. Purpose = close positions + cancel orders only, never open new ones.]]></text></explanation>
+    </question>
+</QF>

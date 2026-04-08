@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_108" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A call option is trading at Rs. 0.80 with theta = -0.05. What will the premium be after 3 days (other factors constant)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 0.65]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.75]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.95]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.85]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** After 3 days = 0.80 + (-0.05 x 3) = 0.80 - 0.15 = Rs. 0.65.
+**The Trap:** Rs. 0.75 is only 1 day of decay.
+**Cross-Exam Context:** Theta/time decay is fundamental to Series I and VIII.
+**Distributor's Pro-Tip:** Theta accelerates as expiry approaches.]]></text></explanation>
+    </question>
+</QF>

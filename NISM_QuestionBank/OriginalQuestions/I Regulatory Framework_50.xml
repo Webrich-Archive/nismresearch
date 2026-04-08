@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Regulatory Framework_50" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under SEBI's clearing corporation guidelines, what specific obligation must a Clearing Corporation perform with respect to both legs of every trade — making it the legal counterparty to all trades?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Full novation — the Clearing Corporation interposes itself between both legs of every trade, or provides an unconditional guarantee for settlement of all trades]]></text></answer>
+            <answer correct="no"><text><![CDATA[Bilateral netting — the CC nets all buy and sell positions across all members and settles the net amount]]></text></answer>
+            <answer correct="no"><text><![CDATA[Partial guarantee — the CC guarantees only up to a fixed monetary limit per trade]]></text></answer>
+            <answer correct="no"><text><![CDATA[Counterparty substitution — the CC replaces only the defaulting party in a trade]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI guidelines state: "The Clearing Corporation must perform full novation, i.e. the clearing corporation should interpose itself between both legs of every trade, becoming the legal counterparty to both or alternatively should provide an unconditional guarantee for settlement of all trades."
+**The Trap:** Bilateral netting is part of the clearing process but is not the same as novation. Novation specifically means the CC becomes the buyer to every seller and seller to every buyer — a legal substitution.
+**Cross-Exam Context:** Novation is the mechanism that makes the CC the central counterparty (CCP). This eliminates counterparty credit risk between individual buyers and sellers.
+**Distributor's Pro-Tip:** Full novation = CC becomes the universal counterparty. This is the cornerstone of why exchange-traded derivatives are safer than OTC contracts.]]></text></explanation>
+    </question>
+</QF>

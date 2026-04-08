@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_59" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An importer buys 1000 lots of USDINR futures at 84.00 to hedge USD 1 million payable. At payment, spot is 83.50. What is the effective cost and opportunity loss?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Effective cost Rs. 84.00/USD, opportunity loss Rs. 0.50/USD (could have bought at 83.50 spot)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Effective cost Rs. 83.50/USD, no opportunity loss]]></text></answer>
+            <answer correct="no"><text><![CDATA[Effective cost Rs. 84.50/USD, opportunity loss Rs. 1.00/USD]]></text></answer>
+            <answer correct="no"><text><![CDATA[Effective cost Rs. 83.75/USD, opportunity loss Rs. 0.25/USD]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Futures P&L: 1000 x 1000 x (83.50-84.00) = -Rs. 500,000 loss. Spot purchase: 1,000,000 x 83.50 = Rs. 8,35,00,000. Total: Rs. 8,40,00,000. Rate = Rs. 84.00. Opportunity loss = 84.00 - 83.50 = Rs. 0.50/USD.
+**The Trap:** Futures lock in the rate — if spot moves favourably, the hedger cannot benefit.
+**Cross-Exam Context:** Opportunity cost of hedging is a key exam concept in Series I.
+**Distributor's Pro-Tip:** This is why some hedgers prefer options over futures — options allow favourable rate participation.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Regulatory Framework_40" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the gross open position limit for Standalone Primary Dealers (SPDs) in USD-INR contracts across all exchanges?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[15% of the total open interest or USD 50 million, whichever is higher]]></text></answer>
+            <answer correct="no"><text><![CDATA[15% of the total open interest or USD 100 million, whichever is higher]]></text></answer>
+            <answer correct="no"><text><![CDATA[6% of the total open interest or USD 20 million, whichever is higher]]></text></answer>
+            <answer correct="no"><text><![CDATA[15% of the total open interest or USD 200 million, whichever is higher]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Section 8.6.5 specifies that for SPDs in USD-INR, "Gross open position across all contracts shall not exceed 15% of the total open interest or USD 50 million, whichever is higher."
+**The Trap:** USD 100 million is the limit for Trading Members (banks and non-banks) — not SPDs. SPDs have a lower absolute cap of USD 50 million.
+**Cross-Exam Context:** SPD USD-INR limit = USD 50 million; TM (non-bank) = USD 50 million (same!); TM (bank) = USD 1 billion; Domestic clients = USD 20 million.
+**Distributor's Pro-Tip:** SPD and non-bank TM proprietary share the same USD 50 million USDINR limit. This is a subtle equality that exams exploit.]]></text></explanation>
+    </question>
+</QF>

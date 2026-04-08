@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Trading Mechanism_55" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following order types is currently NOT available on the Indian Exchange trading system as per SEBI directives?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[AON (All or None) and MF (Minimum Fill) orders]]></text></answer>
+            <answer correct="no"><text><![CDATA[IOC (Immediate or Cancel) orders]]></text></answer>
+            <answer correct="no"><text><![CDATA[Stop Loss orders]]></text></answer>
+            <answer correct="no"><text><![CDATA[Disclosed Quantity (DQ) orders]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The text explicitly notes: "Currently, AON and MF orders are not available on the system as per SEBI directives." Similarly: "Currently, GTC and GTD orders are not available on the system as per SEBI directives."
+**The Trap:** IOC, DQ, and Stop Loss orders are all currently available and actively used. The withdrawn categories are AON, MF, GTC, and GTD — all removed due to SEBI directives.
+**Cross-Exam Context:** Available order types: Market (with/without protection), Limit, Stop Loss, IOC, DQ, Cancel on Logout (COL). Withdrawn: AON, MF, GTC, GTD.
+**Distributor's Pro-Tip:** The "not available" orders are AON, MF, GTC, GTD. A useful memory aid: "AMGG" = the forbidden four by SEBI directive.]]></text></explanation>
+    </question>
+</QF>

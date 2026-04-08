@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Trading Mechanism_51" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[There are three types of Clearing Members in India's Exchange-Traded Currency Derivatives market. Which of the following Clearing Member types has ONLY clearing rights and NO trading rights?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Professional Clearing Member (PCM)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trading Cum Clearing Member (TCM)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trading cum Self Clearing Member (SCM)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Authorised Person]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The text states: "Professional clearing member: They have only clearing rights and do not have trading rights. They clear and settle trades executed by trading members and custodial participants."
+**The Trap:** TCM and SCM both have trading AND clearing rights. PCM is distinctive because it only clears — it relies on trading members to generate the trades it then clears.
+**Cross-Exam Context:** Three CM types: SCM = trades only for itself (no external CPs); TCM = trades for itself AND other TMs/CPs; PCM = clears only, no trading. SEBI-registered custodians and banks can become PCMs.
+**Distributor's Pro-Tip:** PCM = "Pure Clearing" Member — no trading, just clearing. The "Professional" label reflects their specialist clearing-only role.]]></text></explanation>
+    </question>
+</QF>

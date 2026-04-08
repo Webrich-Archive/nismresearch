@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_115" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An exporter buys 200 lots of USDINR 84.00 put at Rs. 0.25 to hedge. At expiry, USDINR is 85.50. What does the exporter do and what is the effective rate?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Let put expire worthless, sell at spot 85.50. Effective rate = Rs. 85.25 (85.50 - 0.25 premium)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Exercise put, sell at 84.00. Effective rate = Rs. 83.75]]></text></answer>
+            <answer correct="no"><text><![CDATA[Let put expire, effective rate = Rs. 85.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Exercise put at 84.00. Effective rate = Rs. 84.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** With USDINR at 85.50, the put (strike 84.00) is OTM - no exercise. Exporter sells USD at spot 85.50, minus premium paid: effective rate = 85.50 - 0.25 = Rs. 85.25.
+**The Trap:** The premium cost must still be deducted even when the option is not exercised.
+**Cross-Exam Context:** This shows the key advantage of options over futures - the exporter benefits from favourable rate moves.
+**Distributor's Pro-Tip:** With futures, the rate would have been locked at entry (say 84.00). With options, the exporter gets 85.25 - much better. This is the insurance value of options.]]></text></explanation>
+    </question>
+</QF>

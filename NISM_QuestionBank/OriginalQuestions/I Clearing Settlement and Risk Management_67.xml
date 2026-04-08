@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_67" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under SEBI regulations, what is the consolidated single INR limit for proprietary positions across all FCY-INR pairs for a bank stock broker?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Higher of 15% of total open interest across all FCY-INR pairs or USD 200 million]]></text></answer>
+            <answer correct="no"><text><![CDATA[Higher of 15% of total open interest across all FCY-INR pairs or USD 100 million]]></text></answer>
+            <answer correct="no"><text><![CDATA[Higher of 6% of total open interest across all FCY-INR pairs or USD 100 million]]></text></answer>
+            <answer correct="no"><text><![CDATA[Higher of 15% of total open interest across all FCY-INR pairs or USD 50 million]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The consolidated single INR limit table shows: "Single INR limit for proprietary position for bank stock brokers: Higher of 15% of total OI across all FCY-INR pairs or USD 200 million."
+**The Trap:** USD 100 million is the consolidated single INR limit for NON-BANK stock brokers. Bank stock brokers have a higher limit at USD 200 million, reflecting their larger balance sheets and forex activity.
+**Cross-Exam Context:** Bank vs. non-bank consolidated INR proprietary limit: Banks = USD 200M; Non-banks = USD 100M. Both use the 15% OI threshold as the other comparator.
+**Distributor's Pro-Tip:** Banks get double the absolute non-bank limit (200M vs 100M). This consolidated limit covers the sum of USD-INR, EUR-INR, GBP-INR, and JPY-INR proprietary positions.]]></text></explanation>
+    </question>
+</QF>

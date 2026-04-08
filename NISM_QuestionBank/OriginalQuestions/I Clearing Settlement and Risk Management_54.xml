@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_54" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the Extreme Loss Margin (ELM) rate for cross-currency futures contracts such as EURUSD, GBPUSD, and USDJPY?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[0.50% for each]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.75% for each]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.25% for each]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.00% for each]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The ELM table shows EURUSD, GBPUSD, and USDJPY all have ELM Futures = 0.50% and ELM Options = 0.50%. This is consistent across all three cross-currency pairs.
+**The Trap:** 0.75% is the ELM for INR-paired options (USDINR, EURINR, GBPINR, JPYINR options). Cross-currency options ELM is lower at 0.50%.
+**Cross-Exam Context:** The cross-currency ELM (0.50%) is the same for both futures AND options. In contrast, INR-paired futures have varying ELM (0.15% to 0.50%) but options are all 0.75%.
+**Distributor's Pro-Tip:** For cross-currency pairs, futures and options ELM are equal (both 0.50%). For INR pairs, options ELM (0.75%) exceeds futures ELM (0.15%-0.50%).]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Trading Mechanism_53" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under the algorithmic trading framework, stock brokers are required to subject their algorithmic trading systems to a system audit at what frequency?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Every six months]]></text></answer>
+            <answer correct="no"><text><![CDATA[Annually (once per year)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Quarterly (every three months)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only at the time of initial deployment]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The text states: "The stock brokers that provide the facility of algorithmic trading are required to subject their algorithmic trading system to a system audit every six months in order to ensure that the requirements prescribed by SEBI / stock exchanges with regard to algorithmic trading are effectively implemented."
+**The Trap:** Annual audits are common for other broker systems. For algo trading specifically, the frequency is higher — every six months — reflecting the higher risk of automated trading systems.
+**Cross-Exam Context:** All algorithmic orders must be routed through broker servers in India. Minimum order-level risk controls include a price check and quantity limit check. Prior exchange permission is required before providing algo trading.
+**Distributor's Pro-Tip:** Algo trading audit = every 6 months (bi-annual). This is more frequent than typical annual compliance reviews because algo systems can generate errors at high speed.]]></text></explanation>
+    </question>
+</QF>

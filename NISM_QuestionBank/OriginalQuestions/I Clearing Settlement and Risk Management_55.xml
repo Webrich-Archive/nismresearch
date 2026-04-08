@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_55" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Initial margins for currency derivatives are based on Value-at-Risk (VaR) at what confidence level and over what horizon?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[99% confidence level over a one-day horizon (two-day for futures where MTM cannot be collected before next day's trading)]]></text></answer>
+            <answer correct="no"><text><![CDATA[95% confidence level over a one-day horizon]]></text></answer>
+            <answer correct="no"><text><![CDATA[99% confidence level over a five-day horizon]]></text></answer>
+            <answer correct="no"><text><![CDATA[99.5% confidence level over a one-day horizon]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The text states: "Initial margin requirements are based on 99% value at risk (VaR) over a one-day horizon... However, in the case of futures contracts, where it may not be possible to collect mark-to-market settlement before the commencement of trading on the next day, the initial margin is computed over a two-day horizon by applying an appropriate statistical formula."
+**The Trap:** 95% confidence is a commonly used VaR threshold in other contexts. In ETCD initial margins, it is 99% — a more stringent level.
+**Cross-Exam Context:** VaR formula: the probability that losses will NOT exceed the margin amount is 99%. This means on only 1% of trading days are losses expected to exceed the initial margin.
+**Distributor's Pro-Tip:** SPAN + 99% VaR + 1-day horizon (2-day for futures) = the ETCD initial margin framework. All three elements appear in exam questions.]]></text></explanation>
+    </question>
+</QF>

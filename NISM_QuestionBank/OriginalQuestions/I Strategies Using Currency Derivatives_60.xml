@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_60" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A long straddle with 20 lots at strike 83.00 (call premium 0.20, put premium 0.15). At expiry, USDINR = 82.20. Total P&L?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Profit of Rs. 9,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 16,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 7,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 2,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Call expires worthless (82.20 < 83.00). Put payoff = 83.00 - 82.20 = 0.80. Net per unit = 0.80 - 0.35 (total premium) = 0.45. Total = 20 x 1000 x 0.45 = Rs. 9,000.
+**The Trap:** Rs. 16,000 uses only put premium (0.80 - 0.15 = 0.65), forgetting the call premium was also paid.
+**Cross-Exam Context:** Straddle P&L at various expiry levels tested in Series I.
+**Distributor's Pro-Tip:** Total premium paid (0.35) is the max loss at strike price. Movement beyond BEP (82.65 or 83.35) generates profit.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_60" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[At what collateral utilisation level does a clearing member exit "Risk Reduction Mode" and return to the normal risk management mode?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Below 85% utilisation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Below 90% utilisation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Below 75% utilisation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Below 95% utilisation]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The text states: "The stock-broker is moved back to the normal risk management mode only when the percentage of utilized collateral is lower than the utilization level specified by the clearing corporation from time to time (currently 85%)."
+**The Trap:** 90% is the threshold to ENTER risk reduction mode. The exit threshold is lower at 85%, creating a deliberate buffer to prevent oscillation in and out of risk reduction mode.
+**Cross-Exam Context:** The two thresholds: 90% triggers entry into risk reduction mode; 85% is required to exit. This hysteresis prevents constant toggling between modes.
+**Distributor's Pro-Tip:** Enter at 90%, exit at 85%. The 5% gap is intentional — like a thermostat with separate on/off thresholds to prevent rapid cycling.]]></text></explanation>
+    </question>
+</QF>

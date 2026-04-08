@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_55" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A long strangle: Buy 83.50 call at Rs. 0.08 and Buy 82.50 put at Rs. 0.06. What are the BEPs?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 82.36 and Rs. 83.64]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 82.42 and Rs. 83.58]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 82.50 and Rs. 83.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 82.44 and Rs. 83.56]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Total premium = 0.08 + 0.06 = 0.14. Upper BEP = Higher strike + Total premium = 83.50 + 0.14 = 83.64. Lower BEP = Lower strike - Total premium = 82.50 - 0.14 = 82.36.
+**The Trap:** Using individual premiums with their respective legs gives wrong BEPs.
+**Cross-Exam Context:** Strangles vs straddles comparison tested in Series I.
+**Distributor's Pro-Tip:** Strangles cost less than straddles (OTM options) but require a bigger move to profit.]]></text></explanation>
+    </question>
+</QF>

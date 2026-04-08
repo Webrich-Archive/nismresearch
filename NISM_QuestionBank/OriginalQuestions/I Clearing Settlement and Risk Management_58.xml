@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_58" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the position limit for a domestic client (non-institutional individual client) in USDINR contracts?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Higher of 6% of the total open interest or USD 20 million]]></text></answer>
+            <answer correct="no"><text><![CDATA[Higher of 15% of the total open interest or USD 100 million]]></text></answer>
+            <answer correct="no"><text><![CDATA[Higher of 6% of the total open interest or USD 10 million]]></text></answer>
+            <answer correct="no"><text><![CDATA[Higher of 15% of the total open interest or USD 50 million]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Section 7.6B specifies: "Domestic Clients, Non-Resident Indians (NRIs) and FPI Cat II (Individuals, family offices and corporates): USDINR: Higher of 6% of the total open interest or USD 20 million."
+**The Trap:** USD 10 million is the domestic client limit for EURINR, GBPINR, and USDJPY. The USDINR client limit is higher at USD 20 million, reflecting USDINR's greater importance and liquidity.
+**Cross-Exam Context:** 6% threshold applies to clients; 15% threshold applies to TMs and prop positions. The 6% vs. 15% distinction is the key percentage to remember.
+**Distributor's Pro-Tip:** TMs get 15% OI + higher absolute; Clients get 6% OI + lower absolute. "6% for clients, 15% for trading members" is the core pattern.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_65" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the SPAN margining system, the Volatility Scan Range for currency derivatives is fixed at what percentage of annualized EWMA volatility?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[25% of annualized EWMA volatility, subject to a minimum of 3%]]></text></answer>
+            <answer correct="no"><text><![CDATA[10% of annualized EWMA volatility, subject to a minimum of 1%]]></text></answer>
+            <answer correct="no"><text><![CDATA[50% of annualized EWMA volatility, subject to a minimum of 5%]]></text></answer>
+            <answer correct="no"><text><![CDATA[15% of annualized EWMA volatility, with no minimum]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The text states: "For currency derivatives, the volatility scan range for generating the scenarios is fixed at 25% of annualized EWMA volatility subject to a minimum of 3%."
+**The Trap:** 10% is not specified anywhere in this context. The 25% figure applies to the Volatility Scan Range specifically — different from the Price Scan Range (PSR) percentages.
+**Cross-Exam Context:** The EWMA lambda (λ) parameter is fixed at 0.995 for volatility estimation. The VSR of 25% (min 3%) generates the SPAN scenarios for option pricing model inputs.
+**Distributor's Pro-Tip:** Volatility Scan Range = 25% of EWMA vol (min 3%). Price Scan Range = 6σ with currency-specific minimums (1.50% for USDINR, etc.). Two different "scan ranges" — don't confuse them.]]></text></explanation>
+    </question>
+</QF>

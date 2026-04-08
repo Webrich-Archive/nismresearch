@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Accounting and Taxation_30" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under the ICAI Guidance Note on Accounting for Derivatives Contract (Revised 2021), in a cash flow hedge, where is the effective portion of gains/losses on the hedging instrument recognised?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[In equity (e.g., cash flow hedge reserves), not immediately in the statement of profit and loss]]></text></answer>
+            <answer correct="no"><text><![CDATA[Immediately in the statement of profit and loss]]></text></answer>
+            <answer correct="no"><text><![CDATA[In a deferred tax liability account]]></text></answer>
+            <answer correct="no"><text><![CDATA[As an adjustment to the cost of the hedged item on the balance sheet]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The text states: "Under the cash flow hedge, the hedging instrument is measured at fair value, but any gain or loss that is determined to be an effective hedge is recognized in equity, for e.g. cash flow hedge reserves. This is intended to avoid volatility in the statement of profit and loss in a period when the gains and losses on the hedge item are not recognized therein."
+**The Trap:** Recognising effective hedge gains/losses in P&L defeats the purpose of cash flow hedge accounting. The whole point is to park effective gains/losses in equity (OCI/reserves) to match the timing when the hedged cash flow impacts P&L.
+**Cross-Exam Context:** Three hedge types: Fair value hedge → gains/losses in P&L (both hedge and hedged item); Cash flow hedge → effective portion in equity, ineffective in P&L; Net investment hedge → in equity directly.
+**Distributor's Pro-Tip:** Cash flow hedge = effective portion deferred in equity (reserves). Fair value hedge = both sides hit P&L immediately. The treatment mirrors Ind AS 109 (OCI for cash flow hedges).]]></text></explanation>
+    </question>
+</QF>
