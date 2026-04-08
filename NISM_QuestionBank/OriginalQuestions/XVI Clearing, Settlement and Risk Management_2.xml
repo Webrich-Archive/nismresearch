@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Clearing, Settlement and Risk Management_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Settlement of commodity derivatives trades is done on:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Delivery-versus-payment (DVP) basis by netting at client level and grossing up at member level]]></text></answer>
+            <answer correct="no"><text><![CDATA[Payment first, delivery later basis]]></text></answer>
+            <answer correct="no"><text><![CDATA[Gross settlement at both client and member level]]></text></answer>
+            <answer correct="no"><text><![CDATA[Net settlement at both levels]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Settlement is DVP basis with netting at client level (reduces total obligations) and grossing up at member level (each member settles separately with the CC).
+**The Trap:** Not payment-first. Not gross at client level (that would increase unnecessary transactions). Not net at member level.
+**Cross-Exam Context:** Series VII covers DVP settlement mechanics.
+**Distributor's Pro-Tip:** Client-level netting means a client with both buy and sell positions only settles the net — but at the member level, the CC sees each member's full obligation for risk management.]]></text></explanation>
+    </question>
+</QF>

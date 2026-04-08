@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_27" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The formula for long futures payoff at expiry is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[ST - F, where ST is spot price at expiry and F is the futures entry price]]></text></answer>
+            <answer correct="no"><text><![CDATA[F - ST]]></text></answer>
+            <answer correct="no"><text><![CDATA[ST × F]]></text></answer>
+            <answer correct="no"><text><![CDATA[(ST + F) / 2]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Long payoff = ST - F. If spot price at expiry exceeds the futures purchase price, the buyer profits. If it's lower, the buyer incurs a loss.
+**The Trap:** F - ST is the SHORT payoff formula. ST × F and (ST+F)/2 are not valid payoff formulas.
+**Cross-Exam Context:** Series VIII and I use identical payoff formulas for equity and currency futures.
+**Distributor's Pro-Tip:** Long futures have a linear payoff with unlimited profit potential and unlimited loss potential — both sides are symmetric, unlike options which have asymmetric payoffs.]]></text></explanation>
+    </question>
+</QF>

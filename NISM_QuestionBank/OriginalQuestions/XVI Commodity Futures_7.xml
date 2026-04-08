@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A futures seller (short position) sold at Rs 100. If the spot price at expiry is Rs 85, the payoff is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Profit of Rs 15]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs 15]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs 85]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs 85]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Short payoff = F - ST = 100 - 85 = Rs 15 (profit). The seller benefits when prices fall below the selling price.
+**The Trap:** Loss of Rs 15 confuses with long position payoff. The short seller profits from price decline — they sold at 100 and the market fell to 85.
+**Cross-Exam Context:** Series VIII and I cover long/short futures payoff profiles.
+**Distributor's Pro-Tip:** Short futures positions are used by commodity producers (farmers, miners) to hedge against falling prices — they lock in a selling price regardless of spot market movement.]]></text></explanation>
+    </question>
+</QF>

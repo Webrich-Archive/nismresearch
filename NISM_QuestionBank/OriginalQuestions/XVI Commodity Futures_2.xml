@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If the cost of 10 grams of gold in the spot market is Rs 50,000 and the cost of financing is 12% per annum compounded monthly, the fair value of a 4-month futures contract is approximately:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 52,030]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 52,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 52,040]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 54,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** F = S × (1 + r/m)^(m×n) = 50,000 × (1 + 0.12/12)^(12 × 4/12) = 50,000 × (1.01)^4 = 50,000 × 1.040604 = Rs 52,030 (approximately).
+**The Trap:** Rs 52,000 is simple interest calculation (50,000 × 1.04). Rs 52,040 is continuous compounding. Rs 54,000 uses 12 months instead of 4.
+**Cross-Exam Context:** Series IV uses similar compounding formulas for bond futures pricing.
+**Distributor's Pro-Tip:** Monthly compounding gives a slightly higher result than simple interest but lower than continuous compounding — the difference matters for large contract sizes.]]></text></explanation>
+    </question>
+</QF>

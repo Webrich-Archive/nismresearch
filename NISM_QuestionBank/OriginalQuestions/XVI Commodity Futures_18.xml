@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_18" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In commodity futures, what happens if a short seller fails to deliver on expiry?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The short seller must pay a delivery default penalty as per exchange rules]]></text></answer>
+            <answer correct="no"><text><![CDATA[The contract is automatically extended to the next month]]></text></answer>
+            <answer correct="no"><text><![CDATA[The exchange cancels the trade without any penalty]]></text></answer>
+            <answer correct="no"><text><![CDATA[The buyer receives cash settlement at the original futures price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** If a short seller does not deliver, they become non-compliant to contractual obligations, resulting in a delivery default and an obligation to pay the delivery default penalty.
+**The Trap:** The contract is not extended. The exchange doesn't cancel without penalty. Cash settlement at original price would unfairly disadvantage the buyer.
+**Cross-Exam Context:** Delivery default provisions are specific to commodity derivatives — equity derivatives (Series VIII) are typically cash-settled.
+**Distributor's Pro-Tip:** Delivery default penalties can be severe — short sellers must either have physical stock or plan to buy from spot market before expiry to avoid default.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_73" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If a trader wants to profit from expected increase in commodity volatility without taking a directional view, the best strategy is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy both a call and a put option at the same strike (long straddle)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy only a call option]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell both call and put options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy commodity futures]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A long straddle (buy ATM call + ATM put) profits from large price movements in either direction. The trader doesn't need a directional view — just expects high volatility.
+**The Trap:** Buying only a call requires a bullish view. Selling options loses from volatility. Futures require directional conviction.
+**Cross-Exam Context:** Series VIII covers straddle and volatility trading strategies.
+**Distributor's Pro-Tip:** Long straddles work best before major events (crop reports, geopolitical developments) when implied volatility is still low — timing the entry is crucial.]]></text></explanation>
+    </question>
+</QF>

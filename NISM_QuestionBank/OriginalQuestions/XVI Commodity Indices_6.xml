@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Indices_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[As per SEBI guidelines, the weights of index constituents are decided based on production score and liquidity score in which ratio?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Minimum 25% each, i.e., neither score shall be below 25%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equal weight of 50:50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Minimum 40% each factor]]></text></answer>
+            <answer correct="no"><text><![CDATA[100% based on liquidity only]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Weights are based on production score and liquidity score in a ratio where neither shall be below 25% (i.e., 25:75 minimum). MCX currently uses 25:75 (production:liquidity).
+**The Trap:** Equal weight (50:50) is not required — only a minimum 25% for each is mandated. Liquidity alone or 40% minimum are incorrect.
+**Cross-Exam Context:** Equity index weight methodology (market cap-based) differs from commodity index methodology.
+**Distributor's Pro-Tip:** Production Value uses 5-year average deliverable supply; Liquidity Value uses 12-month average trading volume — this dual-factor approach ensures physical market relevance.]]></text></explanation>
+    </question>
+</QF>

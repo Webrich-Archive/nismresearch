@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_48" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Spot price of copper is Rs 750 per kg. The 3-month futures are trading at Rs 770. If the 3-month cost-of-carry is Rs 15, what is the basis?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs -20 (spot is below futures by Rs 20)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 20]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 5]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs -5]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Basis = Spot - Futures = 750 - 770 = -Rs 20. A negative basis indicates contango (futures above spot). The cost-of-carry fair value would be 765, so futures are slightly overpriced.
+**The Trap:** Rs 20 ignores the sign (basis convention is spot minus futures). Rs 5 uses carry minus premium. Basis is always Spot - Futures.
+**Cross-Exam Context:** Series VIII covers basis risk in equity derivatives hedging.
+**Distributor's Pro-Tip:** Widening negative basis (deeper contango) may signal arbitrage opportunity — buy spot, sell futures. Narrowing basis towards expiry is the normal convergence pattern.]]></text></explanation>
+    </question>
+</QF>

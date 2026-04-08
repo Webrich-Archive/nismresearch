@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_56" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In commodity options, 'Open Interest' refers to:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The total number of outstanding option contracts for an underlying asset]]></text></answer>
+            <answer correct="no"><text><![CDATA[The daily trading volume of option contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[The maximum number of contracts that can be traded]]></text></answer>
+            <answer correct="no"><text><![CDATA[The interest rate used for option pricing]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Open interest is the total number of outstanding (put/call) option contracts for an underlying asset. It increases when new contracts are created and decreases when contracts are closed or exercised.
+**The Trap:** Volume is daily turnover, not outstanding positions. OI is not a limit or interest rate. It measures the total open positions in the market.
+**Cross-Exam Context:** Series VIII covers open interest analysis for equity derivatives.
+**Distributor's Pro-Tip:** Rising open interest with rising prices signals bullish strength (new long positions being created). Falling OI with falling prices signals bearish unwinding.]]></text></explanation>
+    </question>
+</QF>

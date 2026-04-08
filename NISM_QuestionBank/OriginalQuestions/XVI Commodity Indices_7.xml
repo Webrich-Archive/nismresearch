@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Indices_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[As per SEBI guidelines for composite commodity indices, the maximum weight of any single constituent is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[30%]]></text></answer>
+            <answer correct="no"><text><![CDATA[15%]]></text></answer>
+            <answer correct="no"><text><![CDATA[50%]]></text></answer>
+            <answer correct="no"><text><![CDATA[40%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In composite indices, each constituent has a minimum weight of 1% and maximum weight of 30% as per SEBI guidelines. There is no such cap for sectoral indices.
+**The Trap:** 15% is the max weight for non-qualifying commodities (those not meeting ADTV thresholds). 40% is MCX's self-imposed sectoral level cap. 50% exceeds the SEBI limit.
+**Cross-Exam Context:** Series VIII covers SEBI's index weight caps for equity indices.
+**Distributor's Pro-Tip:** The 30% cap ensures diversification in composite indices — no single commodity can dominate, reducing concentration risk for index investors.]]></text></explanation>
+    </question>
+</QF>

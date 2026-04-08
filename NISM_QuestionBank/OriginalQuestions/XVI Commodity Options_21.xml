@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Gamma of an option measures:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The change in delta for a unit change in the price of the underlying asset]]></text></answer>
+            <answer correct="no"><text><![CDATA[The change in premium per day of time elapsed]]></text></answer>
+            <answer correct="no"><text><![CDATA[The change in premium per unit change in volatility]]></text></answer>
+            <answer correct="no"><text><![CDATA[The change in premium per change in interest rate]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Gamma = Change in delta / Unit change in underlying price. It is the second derivative — measuring how fast delta itself changes as the underlying moves.
+**The Trap:** Time elapsed is Theta. Volatility change is Vega. Interest rate change is Rho.
+**Cross-Exam Context:** Series VIII and IV cover gamma in the context of option portfolio risk management.
+**Distributor's Pro-Tip:** Gamma is highest for ATM options near expiry — this is why ATM options near expiry are the most sensitive to price movements and require the most active hedging.]]></text></explanation>
+    </question>
+</QF>

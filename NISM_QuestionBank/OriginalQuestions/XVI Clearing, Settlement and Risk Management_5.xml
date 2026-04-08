@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Clearing, Settlement and Risk Management_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Initial margin for commodity futures is determined using:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Value at Risk (VaR) methodology at a specific confidence level]]></text></answer>
+            <answer correct="no"><text><![CDATA[A fixed percentage set by SEBI for all commodities]]></text></answer>
+            <answer correct="no"><text><![CDATA[The trader's past performance history]]></text></answer>
+            <answer correct="no"><text><![CDATA[The commodity's spot market price only]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Initial margin is based on VaR methodology — estimating the maximum potential loss at a specific confidence level (typically 99%). It varies by commodity based on volatility.
+**The Trap:** It's not a fixed percentage for all. Past performance doesn't determine margin. Spot price alone doesn't set it.
+**Cross-Exam Context:** Series VIII covers VaR-based margin calculations.
+**Distributor's Pro-Tip:** Higher-volatility commodities have higher margins — crude oil may require 8-10% while gold may need 5-6%. Margins change as market volatility changes.]]></text></explanation>
+    </question>
+</QF>

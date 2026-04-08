@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Trading Mechanism_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Immediate or Cancel (IOC) orders in algorithmic trading on commodity exchanges are:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Not allowed for algorithmic traders]]></text></answer>
+            <answer correct="no"><text><![CDATA[Mandatory for all algorithmic orders]]></text></answer>
+            <answer correct="no"><text><![CDATA[Allowed only during pre-open session]]></text></answer>
+            <answer correct="no"><text><![CDATA[Allowed without any restrictions]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** As per regulatory norms, IOC and Market orders are NOT allowed for algorithmic traders. This prevents algos from taking away liquidity aggressively.
+**The Trap:** They are NOT mandatory or allowed without restriction for algo traders. This is a specific restriction to protect market quality.
+**Cross-Exam Context:** Algo trading restrictions are consistent across commodity and equity markets.
+**Distributor's Pro-Tip:** This restriction forces algo traders to use limit orders — contributing to liquidity provision rather than liquidity removal, which benefits all market participants.]]></text></explanation>
+    </question>
+</QF>

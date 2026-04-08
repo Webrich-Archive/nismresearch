@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_74" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A market is in deep contango with a basis of -Rs 500 (spot Rs 10,000, futures Rs 10,500) and cost-of-carry is Rs 300. What does this indicate?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Futures may be overpriced by Rs 200 relative to fair value, creating a potential arbitrage opportunity]]></text></answer>
+            <answer correct="no"><text><![CDATA[The market is correctly priced]]></text></answer>
+            <answer correct="no"><text><![CDATA[Spot price is too low and will increase]]></text></answer>
+            <answer correct="no"><text><![CDATA[Convenience yield is negative]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Fair value = 10,000 + 300 = Rs 10,300. Actual futures = 10,500. Overpricing = 10,500 - 10,300 = Rs 200. This creates cash-and-carry arbitrage: buy spot, sell futures, earn Rs 200 above carry cost.
+**The Trap:** The market is NOT correctly priced — there's a Rs 200 mispricing. Spot price movement is uncertain. Convenience yield is typically positive (not negative in normal markets).
+**Cross-Exam Context:** Identifying arbitrage from mispricing is tested in Series VIII and I.
+**Distributor's Pro-Tip:** In commodity markets, executing this arbitrage requires physical capability — you need warehouse space, financing, and delivery logistics. The Rs 200 must exceed these transaction costs.]]></text></explanation>
+    </question>
+</QF>

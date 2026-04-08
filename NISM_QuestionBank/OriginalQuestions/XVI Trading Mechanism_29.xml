@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Trading Mechanism_29" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the price-time priority order matching system, between two buy orders at the same price, which order gets executed first?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The order that was entered earlier (time priority)]]></text></answer>
+            <answer correct="no"><text><![CDATA[The larger order (volume priority)]]></text></answer>
+            <answer correct="no"><text><![CDATA[The order from the higher-net-worth client]]></text></answer>
+            <answer correct="no"><text><![CDATA[Random selection by the system]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When orders are at the same price, the earlier order (entered first) gets priority — this is the time component of price-time priority.
+**The Trap:** Volume doesn't determine priority. Client net worth is irrelevant. Selection is deterministic, not random.
+**Cross-Exam Context:** Series VIII covers order matching rules.
+**Distributor's Pro-Tip:** Time priority rewards early order placement — in competitive markets, even milliseconds matter. This is why HFT firms invest heavily in low-latency infrastructure.]]></text></explanation>
+    </question>
+</QF>

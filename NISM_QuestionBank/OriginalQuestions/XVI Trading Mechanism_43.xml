@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Trading Mechanism_43" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Members of commodity exchanges must maintain margin as prescribed by:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The exchange based on regulatory guidelines, which must be maintained throughout the position life]]></text></answer>
+            <answer correct="no"><text><![CDATA[The individual client's preference]]></text></answer>
+            <answer correct="no"><text><![CDATA[The clearing bank's discretion]]></text></answer>
+            <answer correct="no"><text><![CDATA[No margin is required for exchange members]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Margin is prescribed by the exchange (based on SEBI guidelines) and must be maintained throughout the time the position is open. It's released when the position is squared off or settled.
+**The Trap:** Clients don't set margins. Banks manage accounts but don't determine margins. Margin IS required.
+**Cross-Exam Context:** Series VIII covers margin requirements.
+**Distributor's Pro-Tip:** Margin requirements can change intraday if the exchange imposes additional/special margins — always maintain a buffer above the minimum to avoid forced liquidation.]]></text></explanation>
+    </question>
+</QF>

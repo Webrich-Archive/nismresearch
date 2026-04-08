@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_49" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A commodity's spot price is Rs 4,000. Finance cost is 10% p.a. and the convenience yield is 6% p.a. What is the fair value of a 6-month futures contract (simple interest, no storage cost)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 4,080]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 4,200]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 4,320]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 3,920]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** F = S + C - Y. Finance cost = 4,000 × 0.10 × (6/12) = Rs 200. Convenience yield = 4,000 × 0.06 × (6/12) = Rs 120. F = 4,000 + 200 - 120 = Rs 4,080.
+**The Trap:** Rs 4,200 ignores convenience yield. Rs 4,320 adds convenience yield. Rs 3,920 subtracts both. Convenience yield always reduces the futures premium.
+**Cross-Exam Context:** Convenience yield calculations are unique to commodity derivatives.
+**Distributor's Pro-Tip:** A 6% convenience yield on a 10% financing cost means the effective carry is only 4% — industrial users valuing physical possession significantly compress the futures premium.]]></text></explanation>
+    </question>
+</QF>

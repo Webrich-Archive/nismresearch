@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Indices_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Commodity indices in India are constructed from the prices of:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Nearby futures contracts of the commodity constituents]]></text></answer>
+            <answer correct="no"><text><![CDATA[Spot prices of the underlying physical commodities]]></text></answer>
+            <answer correct="no"><text><![CDATA[Forward contract prices negotiated bilaterally]]></text></answer>
+            <answer correct="no"><text><![CDATA[Average of spot and futures prices of commodities]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Commodity indices in India are constructed from the prices of the nearby futures contracts of the commodity constituents, instead of the underlying spot prices.
+**The Trap:** Unlike equity indices which use current market prices of stocks, commodity indices use futures prices. Spot prices, forward prices, or averages are not the basis.
+**Cross-Exam Context:** Series VIII (Equity Derivatives) covers equity index construction from spot/cash market prices — a key difference from commodity indices.
+**Distributor's Pro-Tip:** Since commodity indices use futures prices, they inherently include carrying cost elements — making them total return indices that capture both price changes and roll-over income.]]></text></explanation>
+    </question>
+</QF>

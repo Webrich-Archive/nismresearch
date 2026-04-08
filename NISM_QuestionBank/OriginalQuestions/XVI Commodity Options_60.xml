@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_60" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A call option on crude oil has strike Rs 5,000 and premium Rs 200. If crude settles at Rs 4,800 at expiry, the call buyer's result is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Loss of Rs 200 (premium) — option expires OTM worthless]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs 200]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs 400]]></text></answer>
+            <answer correct="no"><text><![CDATA[Breakeven — no profit or loss]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Settlement (4,800) < Strike (5,000), so the call is OTM. The buyer doesn't exercise. Loss = premium paid = Rs 200.
+**The Trap:** There is no profit — the option expired worthless. Loss is limited to premium, not strike - settlement. Breakeven would be at Rs 5,200 (strike + premium).
+**Cross-Exam Context:** Series VIII covers OTM expiry scenarios.
+**Distributor's Pro-Tip:** Rs 200 is the maximum loss for this option buyer — compared to a futures buyer who would have lost Rs 200 per unit PLUS the full price decline of Rs 200 in mark-to-market.]]></text></explanation>
+    </question>
+</QF>

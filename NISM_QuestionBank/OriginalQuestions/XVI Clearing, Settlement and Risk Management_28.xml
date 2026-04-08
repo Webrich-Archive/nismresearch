@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Clearing, Settlement and Risk Management_28" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In peak margin reporting, exchanges calculate margins by taking how many trade snapshots per day?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Four snapshots during the trading session]]></text></answer>
+            <answer correct="no"><text><![CDATA[One snapshot at end-of-day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Two snapshots — at open and close]]></text></answer>
+            <answer correct="no"><text><![CDATA[Continuous real-time calculation]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under peak margin rules (2020-21), exchanges take four trade snapshots during the session to calculate peak exposure. This replaced the earlier end-of-day position-based system.
+**The Trap:** Not just end-of-day (that was the old system). Not two snapshots. Not continuous (though monitoring is ongoing).
+**Cross-Exam Context:** Peak margin rules apply across equity and commodity derivatives.
+**Distributor's Pro-Tip:** Peak margin means intraday leverage is restricted — brokers must collect full margins upfront, preventing the old practice of allowing excess intraday exposure with only EOD reporting.]]></text></explanation>
+    </question>
+</QF>

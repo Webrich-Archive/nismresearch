@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Close to the Money (CTM) options in Indian commodity derivatives are applicable to:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Options on Goods only — not applicable to Options on Futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both Options on Goods and Options on Futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Options on Futures only]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only index options]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** CTM is a concept specific to 'Options on Goods.' It includes the ATM option plus three strikes above and three strikes below the ATM (7 strikes total). CTM does NOT apply to Options on Futures.
+**The Trap:** CTM is NOT applicable to Options on Futures — only ITM, ATM, and OTM apply there.
+**Cross-Exam Context:** CTM concept is unique to commodity Options on Goods.
+**Distributor's Pro-Tip:** CTM options require the buyer to explicitly choose to exercise (unlike ITM which auto-exercises) — traders with CTM positions must actively manage their exercise decisions.]]></text></explanation>
+    </question>
+</QF>

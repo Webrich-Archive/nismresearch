@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_26" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In 'Options on Futures,' when a long call position is exercised, it devolves into:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A long position in the underlying futures contract at the strike price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Direct physical delivery of the commodity]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cash settlement at the spot price]]></text></answer>
+            <answer correct="no"><text><![CDATA[A short position in the underlying futures contract]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Long call → long futures position, Long put → short futures, Short call → short futures, Short put → long futures. The devolved position is opened at the strike price.
+**The Trap:** Direct delivery is for Options on Goods. Cash settlement is not the mechanism. Short futures is for long puts, not long calls.
+**Cross-Exam Context:** Devolvement into futures is specific to commodity 'Options on Futures.'
+**Distributor's Pro-Tip:** After devolvement, the trader holds a futures position subject to regular margin requirements — they must manage this position or it will proceed to delivery.]]></text></explanation>
+    </question>
+</QF>

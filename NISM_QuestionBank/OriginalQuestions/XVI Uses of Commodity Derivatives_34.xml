@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Uses of Commodity Derivatives_34" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A gold spread trader buys June futures at Rs 50,700/10gm and sells Aug futures at Rs 50,800/10gm. Later, he squares off June at Rs 50,900 and Aug at Rs 50,950. Net gain per 10gm is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 50 (spread narrowed from Rs 100 to Rs 50)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 150]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 200]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 0]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** June profit = 50,900 - 50,700 = +200. Aug loss = 50,800 - 50,950 = -150. Net = 200 - 150 = Rs 50. Alternatively: Initial spread = 800-700 = 100. Final spread = 950-900 = 50. Spread narrowed by Rs 50 → profit Rs 50 for long near/short far.
+**The Trap:** Rs 150 counts only one leg. Rs 200 counts only one leg. Rs 0 assumes no change. Both legs must be calculated.
+**Cross-Exam Context:** Series VIII covers spread P&L calculations.
+**Distributor's Pro-Tip:** For 1 kg gold (100 units of 10gm), this Rs 50/10gm translates to Rs 5,000 per contract — modest but with much lower margin requirement than outright positions.]]></text></explanation>
+    </question>
+</QF>

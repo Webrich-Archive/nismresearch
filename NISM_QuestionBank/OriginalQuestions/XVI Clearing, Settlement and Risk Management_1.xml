@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Clearing, Settlement and Risk Management_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The entity that guarantees settlement of all trades executed on a commodity exchange is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The Clearing Corporation through the process of novation]]></text></answer>
+            <answer correct="no"><text><![CDATA[The Trading Member]]></text></answer>
+            <answer correct="no"><text><![CDATA[SEBI directly]]></text></answer>
+            <answer correct="no"><text><![CDATA[The Warehouse Service Provider]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The Clearing Corporation guarantees settlement through 'novation' — becoming the counter-party to every trade. It collects margins, manages delivery, and maintains the Settlement Guarantee Fund.
+**The Trap:** TMs execute trades, not guarantee them. SEBI regulates but doesn't guarantee. WSPs handle physical storage.
+**Cross-Exam Context:** Series VII covers clearing corporation functions in detail.
+**Distributor's Pro-Tip:** Novation means the CC interposes itself between buyer and seller — making it the buyer to every seller and seller to every buyer, eliminating bilateral counterparty risk.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_72" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Rising interest rates affect option premiums as follows:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Call premium increases, Put premium decreases]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both call and put premiums increase]]></text></answer>
+            <answer correct="no"><text><![CDATA[Call premium decreases, Put premium increases]]></text></answer>
+            <answer correct="no"><text><![CDATA[No impact on either]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Higher interest rates increase call value (higher cost of carry favors calls) and decrease put value. This is because higher rates increase the present value advantage of deferring the purchase price.
+**The Trap:** Interest rates affect calls and puts in opposite directions — not the same way like volatility does.
+**Cross-Exam Context:** Series IV covers interest rate impact on derivatives pricing extensively.
+**Distributor's Pro-Tip:** During RBI rate hike cycles, call premiums on commodities tend to rise — this is a secondary effect on top of the primary supply-demand driven price movements.]]></text></explanation>
+    </question>
+</QF>

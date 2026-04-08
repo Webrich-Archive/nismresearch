@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Trading Mechanism_8" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A stop loss order in commodity trading becomes active when:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The trigger price is breached — it then becomes a regular order in the order matching system]]></text></answer>
+            <answer correct="no"><text><![CDATA[The order is placed]]></text></answer>
+            <answer correct="no"><text><![CDATA[The market reaches the daily price limit]]></text></answer>
+            <answer correct="no"><text><![CDATA[The trading session opens the next day]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Stop loss orders are passive until the trigger price is reached. Once triggered, they become regular orders and are executed based on price-time priority.
+**The Trap:** They are NOT immediately active. DPL and next-day opening are unrelated triggers. The stop loss remains dormant until the specified trigger price is breached.
+**Cross-Exam Context:** Series VIII covers stop loss mechanics.
+**Distributor's Pro-Tip:** Stop losses may gap through the trigger price in volatile markets — a stop loss at Rs 250 may execute at Rs 245 if the price gaps. Trailing stop losses help protect profits as prices move favorably.]]></text></explanation>
+    </question>
+</QF>

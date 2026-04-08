@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_53" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In what scenario would a higher tick size be more beneficial for algo traders compared to hedgers?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Higher tick size benefits algo traders as the minimum price movement generates larger P&L per tick]]></text></answer>
+            <answer correct="no"><text><![CDATA[Higher tick size benefits hedgers as they can get more precise hedging]]></text></answer>
+            <answer correct="no"><text><![CDATA[Tick size has no impact on either category]]></text></answer>
+            <answer correct="no"><text><![CDATA[Lower tick size benefits algo traders more than higher tick size]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Higher tick size benefits algo traders as each minimum price movement generates a larger P&L (tick value). Lower tick size benefits hedgers as they can achieve more precise price matching for their hedge.
+**The Trap:** Higher tick size makes hedging LESS precise. The workbook explicitly states "higher tick size benefits algo traders/speculators while lower tick size benefits hedgers."
+**Cross-Exam Context:** Tick size considerations are specific to commodity derivatives trading mechanics.
+**Distributor's Pro-Tip:** Different commodity contracts have different tick sizes — traders should choose contracts with tick sizes that suit their strategy (precise hedging vs tick-by-tick trading).]]></text></explanation>
+    </question>
+</QF>

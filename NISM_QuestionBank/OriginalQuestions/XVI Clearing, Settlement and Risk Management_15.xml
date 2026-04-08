@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Clearing, Settlement and Risk Management_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Additional/special margin in commodity futures is imposed when:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Volatility increases significantly, or there's concentrated open interest not backed by warehouse stocks]]></text></answer>
+            <answer correct="no"><text><![CDATA[A new member joins the exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[The commodity price falls below MSP]]></text></answer>
+            <answer correct="no"><text><![CDATA[Daily trading volume exceeds average]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Additional margins are triggered by: significant volatility increase, OI not backed by warehouse stocks (especially agri), and client-level concentration of OI on buy/sell side.
+**The Trap:** New memberships and MSP are unrelated. High volume alone doesn't trigger additional margin.
+**Cross-Exam Context:** Additional margin mechanisms are specific to commodity derivatives.
+**Distributor's Pro-Tip:** Additional margin is levied on BOTH sides; special margin is on one side only (buy or sell). The exchange must give advance notice before imposing these margins.]]></text></explanation>
+    </question>
+</QF>

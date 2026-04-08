@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Uses of Commodity Derivatives_45" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the gold bear spread example, the trader sells June futures at Rs 50,100 and buys Aug futures at Rs 50,300 (initial spread Rs 200). If spread widens to Rs 260 (June falls to 49,960, Aug at 50,220), the net gain is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 60 per 10 grams]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 140 per 10 grams]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 80 per 10 grams]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 260 per 10 grams]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** June: sell 50,100, buy 49,960 → profit Rs 140. Aug: buy 50,300, sell 50,220 → loss Rs 80. Net = 140 - 80 = Rs 60. Or: spread widened from 200 to 260 = +60 for short near/long far.
+**The Trap:** Rs 140 is just June profit. Rs 80 is just Aug loss. Rs 260 is the final spread, not the gain.
+**Cross-Exam Context:** Series VIII covers spread P&L calculations.
+**Distributor's Pro-Tip:** Bear spread profit = change in spread = 260 - 200 = Rs 60. The position profits when the spread widens — the key is the CHANGE in spread, not absolute levels.]]></text></explanation>
+    </question>
+</QF>

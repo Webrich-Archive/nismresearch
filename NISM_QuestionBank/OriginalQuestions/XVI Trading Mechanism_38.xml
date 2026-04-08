@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Trading Mechanism_38" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When commodity futures prices hit the Daily Price Limit (DPL), trading:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[May be halted or restricted within the DPL range until conditions normalize]]></text></answer>
+            <answer correct="no"><text><![CDATA[Continues without any restrictions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Automatically shifts to the next month contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[Is permanently suspended for the commodity]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** DPL is a risk management tool. When prices hit the circuit limit, trading is restricted within the DPL range. Trading doesn't shift or get permanently suspended.
+**The Trap:** Trading doesn't continue unrestricted. It doesn't shift to next month. Suspension is temporary, not permanent.
+**Cross-Exam Context:** Series VIII covers circuit breaker mechanisms.
+**Distributor's Pro-Tip:** DPL events create risk for traders with adverse positions — they cannot exit and losses may accumulate. Always factor DPL into risk sizing.]]></text></explanation>
+    </question>
+</QF>

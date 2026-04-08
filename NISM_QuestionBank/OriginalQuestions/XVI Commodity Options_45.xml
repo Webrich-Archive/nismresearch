@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_45" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Option price can never be negative because:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Intrinsic value is at least zero (even for OTM options), and time value is non-negative]]></text></answer>
+            <answer correct="no"><text><![CDATA[SEBI regulations prohibit negative option prices]]></text></answer>
+            <answer correct="no"><text><![CDATA[Exchanges set a floor price for all options]]></text></answer>
+            <answer correct="no"><text><![CDATA[The clearing corporation absorbs losses to prevent negative prices]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Intrinsic value minimum is zero (for OTM options). Time value is also non-negative. Since premium = IV + TV, and both components are ≥ 0, option price ≥ 0.
+**The Trap:** It's not regulatory prohibition or exchange intervention — it's a mathematical property. Even with negative underlying prices (like WTI crude), option values remain positive.
+**Cross-Exam Context:** This principle applies across all option markets (I, IV, VIII, XVI).
+**Distributor's Pro-Tip:** This is a fundamental difference from futures — futures prices CAN go negative (as WTI showed in 2020), but option prices cannot. This makes options structurally safer for buyers.]]></text></explanation>
+    </question>
+</QF>

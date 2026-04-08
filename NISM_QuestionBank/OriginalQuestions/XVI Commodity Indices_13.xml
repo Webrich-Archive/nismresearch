@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Indices_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Open position limits at the client level for commodity index futures are:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[5% of open interest or 1,000 lots, whichever is higher]]></text></answer>
+            <answer correct="no"><text><![CDATA[10% of open interest or 2,000 lots, whichever is higher]]></text></answer>
+            <answer correct="no"><text><![CDATA[15% of open interest or 10,000 lots, whichever is higher]]></text></answer>
+            <answer correct="no"><text><![CDATA[3% of open interest or 500 lots, whichever is higher]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** At client level, position limits for index futures are 5% of open interest or 1,000 lots (whichever is higher). At member level, it is 15% of OI or 10,000 lots.
+**The Trap:** 10%/2,000 lots is for index OPTIONS (double of futures). 15%/10,000 is member level, not client. 3%/500 is not a specified limit.
+**Cross-Exam Context:** Series VIII covers position limits for equity F&O. Series I covers currency derivatives position limits.
+**Distributor's Pro-Tip:** Position limits for index options are double that of index futures — 10% OI/2,000 lots at client level. This higher limit reflects the lower risk profile of option buyers.]]></text></explanation>
+    </question>
+</QF>

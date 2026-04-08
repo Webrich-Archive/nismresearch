@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_70" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The rate of time value erosion (time decay) in options is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Non-linear — it accelerates as the expiry date approaches]]></text></answer>
+            <answer correct="no"><text><![CDATA[Linear — equal amount of decay each day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Exponential — faster at the start, slower near expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Zero until the last week before expiry]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Time decay is non-linear — the rate of erosion INCREASES as expiry approaches. An option loses more time value in its last month than in the first month.
+**The Trap:** It's not linear (equal daily). Not exponential in the way described. Decay starts from day one, not just the last week.
+**Cross-Exam Context:** Series VIII covers the theta decay curve.
+**Distributor's Pro-Tip:** Option sellers benefit most from the last 30 days of accelerated decay — selling short-dated options captures this rapid erosion most efficiently.]]></text></explanation>
+    </question>
+</QF>

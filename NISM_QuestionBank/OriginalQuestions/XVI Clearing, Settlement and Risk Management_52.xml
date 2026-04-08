@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Clearing, Settlement and Risk Management_52" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In case of commodity futures with 'both options' delivery, if one party does not opt for delivery:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The open position is cash-settled at the Due Date Rate (DDR)]]></text></answer>
+            <answer correct="no"><text><![CDATA[The other party must still take/give delivery]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both positions are cancelled without settlement]]></text></answer>
+            <answer correct="no"><text><![CDATA[The position is rolled over to next month]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In 'both options' contracts, delivery requires mutual agreement. If either party opts out, the position is cash-settled at DDR.
+**The Trap:** Both parties must agree for delivery. Cancellation without settlement doesn't happen. No automatic rollover.
+**Cross-Exam Context:** Settlement modes are specific to commodity derivatives.
+**Distributor's Pro-Tip:** If you specifically need physical delivery, choose compulsory delivery contracts — 'both options' contracts carry the risk that your counterparty may opt out.]]></text></explanation>
+    </question>
+</QF>

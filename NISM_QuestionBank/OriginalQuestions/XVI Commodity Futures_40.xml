@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_40" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An arbitrageur notices that gold futures are trading at Rs 53,000 per 10 grams while the spot price is Rs 50,000 and the 3-month cost-of-carry is Rs 1,500. What action should the arbitrageur take?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy gold in the spot market and sell gold futures to earn Rs 1,500 riskless profit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell gold in the spot market and buy gold futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy gold futures and wait for price convergence]]></text></answer>
+            <answer correct="no"><text><![CDATA[No action — the pricing is fair]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Fair value = 50,000 + 1,500 = Rs 51,500. Futures at 53,000 > fair value. Arbitrage: buy spot at 50,000, sell futures at 53,000. On delivery, net gain = 53,000 - 50,000 - 1,500 = Rs 1,500 (riskless).
+**The Trap:** Selling spot/buying futures would work only if futures were underpriced. The pricing is NOT fair — futures are Rs 1,500 above fair value, creating an arbitrage opportunity.
+**Cross-Exam Context:** Cash-and-carry arbitrage is tested in Series VIII and I.
+**Distributor's Pro-Tip:** In commodity markets, arbitrage also involves physical logistics — the arbitrageur must arrange warehousing and delivery, so actual profit may be slightly less than theoretical.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_38" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Before the expiry of a futures contract, the intrinsic value of a Call Option on Futures is generally:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Higher than that of an equivalent Call Option on Goods (because F > S before expiry)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Lower than Call Option on Goods]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equal to Call Option on Goods]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cannot be compared]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In normal conditions F > S (contango). For calls: IV = underlying - strike. Since F > S, Call on Futures IV (F-X) > Call on Goods IV (S-X). But for puts, the reverse applies.
+**The Trap:** Equal applies only at expiry when F converges to S. Lower is wrong for calls (it's correct for puts). The 'futures carry' component creates this difference.
+**Cross-Exam Context:** Comparing Options on Futures vs Options on Goods is specific to commodity markets.
+**Distributor's Pro-Tip:** This means a call Option on Futures is more expensive than equivalent Options on Goods — but this premium reflects the time value of money embedded in the futures price.]]></text></explanation>
+    </question>
+</QF>

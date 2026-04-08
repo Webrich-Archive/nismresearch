@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Clearing, Settlement and Risk Management_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The replacement cost in delivery default penalty is calculated as:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The difference between settlement price and the higher of last spot price or 3-day average spot price (only if this exceeds settlement price)]]></text></answer>
+            <answer correct="no"><text><![CDATA[A fixed percentage of the contract value]]></text></answer>
+            <answer correct="no"><text><![CDATA[The full spot market price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The difference between futures and spot price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Replacement cost = Settlement Price minus max(last spot price, 3-day avg spot price), but only if the comparison price exceeds the settlement price. Otherwise, replacement cost is zero.
+**The Trap:** It's not a fixed percentage. Not the full spot price. Not the futures-spot difference. It compensates the buyer for the cost of buying from the spot market.
+**Cross-Exam Context:** Replacement cost is specific to commodity delivery default.
+**Distributor's Pro-Tip:** Replacement cost protects the non-defaulting buyer — they receive compensation to buy the commodity at market price when the seller fails to deliver.]]></text></explanation>
+    </question>
+</QF>

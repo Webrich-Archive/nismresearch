@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_68" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An option on crude oil has a premium of Rs 150 and intrinsic value of Rs 0. This option is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Either ATM or OTM — its entire premium consists of time value]]></text></answer>
+            <answer correct="no"><text><![CDATA[ITM because the premium is positive]]></text></answer>
+            <answer correct="no"><text><![CDATA[Deep ITM with no time value]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cannot be determined without more information]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Zero intrinsic value means the option is either ATM (market = strike) or OTM (unfavorable market vs strike). The Rs 150 premium is entirely time value.
+**The Trap:** Positive premium doesn't mean ITM — even OTM options have time value (positive premium) before expiry. Deep ITM options usually have minimal time value.
+**Cross-Exam Context:** Series VIII covers premium decomposition.
+**Distributor's Pro-Tip:** Buying options with 100% time value means the entire premium erodes by expiry unless the option moves ITM — these are speculative bets on direction and timing.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Clearing, Settlement and Risk Management_35" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What happens if MTM obligations are not met by the start of T+1 trading?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The exchange imposes correspondingly higher initial margin (scaled up by √2 factor) to cover potential losses]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trading continues normally with no consequences]]></text></answer>
+            <answer correct="no"><text><![CDATA[The position is automatically squared off]]></text></answer>
+            <answer correct="no"><text><![CDATA[A warning email is sent to the trader]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** If MTM is not settled by T+1 morning, the exchange scales up initial margin by √2 to cover the additional risk from the delayed margin collection.
+**The Trap:** There ARE consequences (not normal trading). Auto square-off may happen but the first response is higher margin. Not just a warning.
+**Cross-Exam Context:** MTM collection enforcement is critical to risk management.
+**Distributor's Pro-Tip:** The √2 scaling means a 41% increase in initial margin — this rapidly compounds into a margin crisis for the non-compliant member. Always prioritize MTM settlement.]]></text></explanation>
+    </question>
+</QF>

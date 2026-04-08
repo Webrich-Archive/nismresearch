@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A call option seller receives Rs 10 premium on a zinc call with strike Rs 180. If the market price at expiry is Rs 220, the call seller's net loss is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 30]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 40]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 10]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 20]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Call seller loss = (Market - Strike) - Premium received = (220 - 180) - 10 = 40 - 10 = Rs 30 net loss.
+**The Trap:** Rs 40 is the gross obligation. Rs 10 is just the premium. Rs 20 ignores the premium offset. The seller's net loss is reduced by the premium received.
+**Cross-Exam Context:** Series VIII covers short call payoff calculations.
+**Distributor's Pro-Tip:** Call sellers face unlimited risk — a Rs 40 move against a Rs 10 premium illustrates why naked call writing is considered one of the riskiest options strategies.]]></text></explanation>
+    </question>
+</QF>

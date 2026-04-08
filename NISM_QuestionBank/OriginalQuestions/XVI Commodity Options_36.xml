@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_36" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which pricing model is described as 'relatively simple and fast' and does not rely on calculation by iteration?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Black-Scholes model]]></text></answer>
+            <answer correct="no"><text><![CDATA[Binomial pricing model]]></text></answer>
+            <answer correct="no"><text><![CDATA[Monte Carlo simulation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Risk-neutral pricing model]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Black-Scholes (published 1973 by Fisher Black and Myron Scholes) is described as relatively simple and fast, not relying on iterative calculation unlike the Binomial model.
+**The Trap:** Binomial uses iteration (tree of possible prices). Monte Carlo uses simulation. Black-Scholes provides a direct formula.
+**Cross-Exam Context:** Series VIII covers both models.
+**Distributor's Pro-Tip:** Black-Scholes assumes constant volatility and European exercise — for commodity options with delivery features, the Binomial model may be more appropriate despite being slower.]]></text></explanation>
+    </question>
+</QF>

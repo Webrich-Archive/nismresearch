@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Trading Mechanism_45" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Position limits in commodity futures are set at:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Both broker level and client level as specified in the contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only at the exchange level]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only at the client level]]></text></answer>
+            <answer correct="no"><text><![CDATA[There are no position limits in commodity futures]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Open Position Limits are set at both broker/member level and client level. They are specified in the contract to avoid concentration risk.
+**The Trap:** Not just exchange level or client level alone. Position limits DO exist and are enforced.
+**Cross-Exam Context:** Series VIII covers position limits for equity derivatives.
+**Distributor's Pro-Tip:** Position limits prevent market manipulation by any single entity — exceeding limits can result in penalties and forced liquidation of excess positions.]]></text></explanation>
+    </question>
+</QF>

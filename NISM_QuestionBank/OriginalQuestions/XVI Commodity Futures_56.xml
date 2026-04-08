@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_56" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If an alternative basis center's polled price is used when the main center's price is unavailable on expiry day, this is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[An acceptable fallback methodology prescribed by exchanges like NCDEX subject to certain conditions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Not permitted under any circumstances]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only allowed for agricultural commodities]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only done with explicit SEBI approval on a case-by-case basis]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** On NCDEX, if polled price on expiry day (E) for the main basis center is not available, the alternate basis center's polled price will be considered, subject to certain conditions.
+**The Trap:** It is permitted (not prohibited). It applies to all commodities, not just agricultural. Exchanges have pre-defined circular-based rules — no case-by-case SEBI approval needed.
+**Cross-Exam Context:** FSP fallback mechanisms are unique to commodity derivatives.
+**Distributor's Pro-Tip:** Multiple basis centers ensure robustness of settlement price discovery — even if the primary market is disrupted, settlement can proceed with alternate center prices.]]></text></explanation>
+    </question>
+</QF>

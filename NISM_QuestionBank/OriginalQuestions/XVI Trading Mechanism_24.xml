@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Trading Mechanism_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following order types requires specifying a trigger price that activates the order?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Stop loss order]]></text></answer>
+            <answer correct="no"><text><![CDATA[Limit order]]></text></answer>
+            <answer correct="no"><text><![CDATA[Market order]]></text></answer>
+            <answer correct="no"><text><![CDATA[Immediate or Cancel (IOC) order]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Stop loss orders have a trigger price. The order remains passive until this price is reached, then becomes active and enters the order matching system.
+**The Trap:** Limit orders specify execution price (not trigger). Market orders execute immediately. IOC must be filled immediately or cancelled.
+**Cross-Exam Context:** Series VIII covers stop loss mechanics.
+**Distributor's Pro-Tip:** Set stop loss triggers at meaningful technical levels — arbitrary stops may get triggered by normal market noise, resulting in unnecessary position closures.]]></text></explanation>
+    </question>
+</QF>

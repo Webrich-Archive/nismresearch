@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_62" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The maximum risk for a short put option seller is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Strike price minus premium received — the seller may have to buy at strike when commodity is worthless]]></text></answer>
+            <answer correct="no"><text><![CDATA[Unlimited]]></text></answer>
+            <answer correct="no"><text><![CDATA[Limited to the premium received]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equal to the spot price at expiry]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Short put max risk = Strike - Premium. Worst case: commodity falls to 0, seller must buy at strike, offset by premium received. Risk = Strike - 0 - Premium.
+**The Trap:** Unlimited risk is for short CALLS. Limited to premium is the seller's maximum REWARD. The risk is bounded because prices can't go below zero (in most commodities).
+**Cross-Exam Context:** Series VIII covers put seller risk analysis.
+**Distributor's Pro-Tip:** Put sellers should ensure they can afford to buy the commodity at the strike price — this is why margin requirements for put sellers increase as the option moves ITM.]]></text></explanation>
+    </question>
+</QF>

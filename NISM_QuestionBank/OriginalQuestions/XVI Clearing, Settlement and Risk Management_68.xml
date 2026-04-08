@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Clearing, Settlement and Risk Management_68" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the delivery process, who transfers the warehouse receipt to the clearing corporation?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The selling clearing member on behalf of the seller]]></text></answer>
+            <answer correct="no"><text><![CDATA[The buyer directly]]></text></answer>
+            <answer correct="no"><text><![CDATA[The warehouse operator]]></text></answer>
+            <answer correct="no"><text><![CDATA[SEBI]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The selling clearing member initiates commodity pay-in by transferring the warehouse receipt to the CC. The CC then transfers it to the buying clearing member for the buyer.
+**The Trap:** Not the buyer, warehouse, or SEBI. The selling CM handles the seller's delivery obligations through the CC.
+**Cross-Exam Context:** Delivery process flow is specific to commodity settlement.
+**Distributor's Pro-Tip:** The delivery chain: Seller → Selling TM → Selling CM → CC → Buying CM → Buying TM → Buyer. Each step involves document and fund transfer verification.]]></text></explanation>
+    </question>
+</QF>

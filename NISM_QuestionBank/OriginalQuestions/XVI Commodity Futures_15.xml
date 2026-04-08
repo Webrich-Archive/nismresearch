@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader enters a short gold futures position at Rs 52,000 per 10 grams. At expiry, spot price is Rs 54,000 per 10 grams. For a 1 kg lot, the total loss is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 2,00,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 2,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 20,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 54,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Short payoff per 10gm = F - ST = 52,000 - 54,000 = -Rs 2,000 (loss). Lot = 1 kg = 100 units of 10gm. Total loss = 2,000 × 100 = Rs 2,00,000.
+**The Trap:** Rs 2,000 is per 10gm only. Rs 20,000 uses 10 units instead of 100. Always convert lot size to quotation units.
+**Cross-Exam Context:** Series VIII covers similar payoff calculations with lot size multiplication.
+**Distributor's Pro-Tip:** A Rs 2 lakh loss on a single contract illustrates why margin management is critical — traders should set stop-losses and monitor positions, especially in volatile gold markets.]]></text></explanation>
+    </question>
+</QF>

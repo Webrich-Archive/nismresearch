@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_51" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The Rho for a Silver call option is Rs 100 per 1% change in interest rate. If interest rates decrease from 12% to 9%, the option premium changes by:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Decreases by Rs 300]]></text></answer>
+            <answer correct="no"><text><![CDATA[Increases by Rs 300]]></text></answer>
+            <answer correct="no"><text><![CDATA[Decreases by Rs 100]]></text></answer>
+            <answer correct="no"><text><![CDATA[Increases by Rs 100]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Rho for call is positive — rate decrease reduces call premium. Change = Rho × rate change = 100 × (12-9) = Rs 300 decrease (premium falls from 3,500 to 3,200).
+**The Trap:** Rs 300 is correct magnitude but direction matters — call premium DECREASES when rates fall. Rs 100 is per-percent only.
+**Cross-Exam Context:** Series IV covers interest rate impact on option pricing.
+**Distributor's Pro-Tip:** While Rho is usually the least impactful Greek for short-term options, during RBI rate change cycles, its effect becomes meaningful for long-dated commodity options.]]></text></explanation>
+    </question>
+</QF>

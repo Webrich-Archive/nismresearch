@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_37" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In a commodity futures contract, 'tick size' refers to:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The minimum price movement allowed for an order in the contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[The maximum daily price limit]]></text></answer>
+            <answer correct="no"><text><![CDATA[The contract lot size]]></text></answer>
+            <answer correct="no"><text><![CDATA[The daily settlement price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Tick size is the minimum price movement for a quotation/order — e.g., if tick size is Rs 0.10, prices can move from Rs 100 to Rs 100.10 or Rs 99.90 but not to Rs 100.05.
+**The Trap:** Maximum daily price limit is the circuit breaker (DPL). Lot size is the contract quantity. Settlement price is determined separately.
+**Cross-Exam Context:** Series VIII has tick size concepts for equity derivatives.
+**Distributor's Pro-Tip:** Tick size varies between commodities — gold has Re 1 per 10gm, while agricultural commodities may have smaller ticks. Algo traders design strategies around tick size economics.]]></text></explanation>
+    </question>
+</QF>

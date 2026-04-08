@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Clearing, Settlement and Risk Management_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Extreme Loss Margin (ELM) covers:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Losses in situations that lie outside the coverage of VaR-based initial margins]]></text></answer>
+            <answer correct="no"><text><![CDATA[The same scenarios as initial margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only delivery default losses]]></text></answer>
+            <answer correct="no"><text><![CDATA[Administrative costs of the exchange]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** ELM covers tail risk — extreme loss scenarios beyond the 99% VaR coverage of initial margin. ELM of 1% is commonly applied.
+**The Trap:** ELM covers ADDITIONAL risk beyond initial margin, not the same risk. It's not about delivery default or admin costs.
+**Cross-Exam Context:** Series VIII covers ELM for equity derivatives.
+**Distributor's Pro-Tip:** Total margin = Initial margin + ELM. While initial margin fluctuates with VaR, ELM provides a stable base layer of protection against extreme market moves.]]></text></explanation>
+    </question>
+</QF>

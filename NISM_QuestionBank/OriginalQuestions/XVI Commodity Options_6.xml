@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The intrinsic value of a call option is calculated as:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Spot price minus Strike price (S - X), with a minimum value of zero]]></text></answer>
+            <answer correct="no"><text><![CDATA[Strike price minus Spot price (X - S)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Premium minus Time value]]></text></answer>
+            <answer correct="no"><text><![CDATA[Option premium multiplied by lot size]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For a call option, intrinsic value = max(S - X, 0). It represents the profit from immediate exercise, and cannot be negative because the buyer would simply not exercise.
+**The Trap:** X - S is the put option intrinsic value formula. While Premium = IV + TV is true, this describes the relationship, not the IV calculation itself.
+**Cross-Exam Context:** Series VIII uses identical intrinsic value formulas.
+**Distributor's Pro-Tip:** Only ITM options have intrinsic value. ATM and OTM options have zero intrinsic value — their entire premium consists of time value.]]></text></explanation>
+    </question>
+</QF>

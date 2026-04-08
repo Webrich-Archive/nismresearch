@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Clearing, Settlement and Risk Management_40" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Delivery period margin for Options on Goods is charged:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[On option sellers including tender/delivery period margin during the last 3-5 days before expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only on option buyers]]></text></answer>
+            <answer correct="no"><text><![CDATA[Never — options don't have delivery margins]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only after the option is exercised]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For Options on Goods, delivery period margin applies to sellers during the last 3-5 days before expiry. It's levied on positions expected to be ITM/CTM at expiry.
+**The Trap:** Not on buyers (they pay only premium). Options on Goods DO have delivery margins. It's charged BEFORE exercise, not after.
+**Cross-Exam Context:** Delivery margin for options is specific to commodity derivatives.
+**Distributor's Pro-Tip:** Option sellers on goods face increasing margin requirements near expiry — this can create cash flow pressure. Close positions early if you cannot meet the escalating margin demands.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_73" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If the FSP of a commodity is determined using the average of E, E-1, and E-2 polled prices, and these prices are Rs 2,450, Rs 2,460, and Rs 2,470 respectively, what is the FSP?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 2,460]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 2,450]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 2,470]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 2,455]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** FSP = Simple average of 3 days = (2,450 + 2,460 + 2,470) / 3 = 7,380 / 3 = Rs 2,460.
+**The Trap:** Rs 2,450 is just the expiry day price. Rs 2,470 is the earliest day price. Rs 2,455 averages only two prices. FSP uses a simple average of all three days.
+**Cross-Exam Context:** FSP calculation is specific to commodity derivatives.
+**Distributor's Pro-Tip:** The 3-day average smooths out daily volatility — traders should monitor polled prices across E-2 to E day to anticipate settlement levels and manage delivery decisions.]]></text></explanation>
+    </question>
+</QF>

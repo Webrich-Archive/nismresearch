@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_8" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A futures buyer (long position) bought at Rs 100. If the spot price at expiry is Rs 90, the payoff is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Loss of Rs 10]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs 10]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs 90]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs 90]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Long payoff = ST - F = 90 - 100 = -Rs 10 (loss). The buyer loses when the spot price at expiry is below the futures purchase price.
+**The Trap:** Profit of Rs 10 reverses the direction. The buyer committed to buy at Rs 100 but the asset is worth only Rs 90 at expiry.
+**Cross-Exam Context:** Series VIII and I cover futures payoff calculations.
+**Distributor's Pro-Tip:** The linear payoff of futures means losses are unlimited — unlike options where the buyer's loss is limited to premium. Ensure clients understand this before entering futures positions.]]></text></explanation>
+    </question>
+</QF>

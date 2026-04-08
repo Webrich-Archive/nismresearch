@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Trading Mechanism_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A limit order in commodity trading means:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[An order specifying the price at which the trade should be executed — buy below current ask, sell above current bid]]></text></answer>
+            <answer correct="no"><text><![CDATA[An order executed at immediately available market price]]></text></answer>
+            <answer correct="no"><text><![CDATA[An order that triggers when a specific price level is reached]]></text></answer>
+            <answer correct="no"><text><![CDATA[An order valid for the entire trading day only]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A limit order specifies the exact price for execution. Buyers place limits below the asking price; sellers place limits above the bid price. Execution occurs only at the specified price or better.
+**The Trap:** Market order executes at current price. Stop loss triggers at a price level. Day order validity doesn't define the order type.
+**Cross-Exam Context:** Series VIII covers identical order types.
+**Distributor's Pro-Tip:** Limit orders protect against adverse execution — in illiquid commodity contracts, market orders can result in poor fills due to wide bid-ask spreads.]]></text></explanation>
+    </question>
+</QF>

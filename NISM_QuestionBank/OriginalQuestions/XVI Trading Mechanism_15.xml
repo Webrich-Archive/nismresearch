@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Trading Mechanism_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Impact cost in commodity trading refers to:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The difference between bid and ask prices that affects execution price for market orders, especially in illiquid contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[The brokerage charged by the exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[The delivery default penalty]]></text></answer>
+            <answer correct="no"><text><![CDATA[The margin required for opening a position]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Impact cost is the price impact of executing a market order in the available order book. In illiquid contracts, the bid-ask spread is wide, causing significant impact cost.
+**The Trap:** It's not brokerage, penalty, or margin. Impact cost is a market microstructure concept related to order book depth.
+**Cross-Exam Context:** Series VIII covers impact cost for equity markets.
+**Distributor's Pro-Tip:** Use limit orders instead of market orders in illiquid commodity contracts to avoid high impact cost — this is especially important for large order sizes.]]></text></explanation>
+    </question>
+</QF>

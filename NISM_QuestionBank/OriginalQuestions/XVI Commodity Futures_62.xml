@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_62" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If futures trade at fair value (F = S + C), an arbitrageur will:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Not trade, as there is no arbitrage opportunity]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy spot and sell futures for a guaranteed profit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell spot and buy futures for a guaranteed profit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trade in the options market instead]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When futures = spot + cost of carry (fair value), there is no arbitrage opportunity. Buy-spot-sell-futures would only cover carrying costs with no profit. Arbitrage exists only when futures deviate from fair value.
+**The Trap:** At fair value, buying spot and selling futures nets exactly zero after accounting for carrying costs. Arbitrageurs need deviation from fair value to profit.
+**Cross-Exam Context:** Series VIII covers cash-and-carry arbitrage conditions.
+**Distributor's Pro-Tip:** Efficient markets keep futures near fair value — persistent deviations signal either market stress, illiquidity, or opportunity. Most arbitrage windows close within minutes.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_55" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If option sellers are at a 'fundamental advantage' over option buyers, what explains this?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Time value inherently decays to zero by expiry, benefiting sellers who receive premium upfront]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sellers can modify the strike price during the contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sellers never lose money on option trades]]></text></answer>
+            <answer correct="no"><text><![CDATA[SEBI provides additional margin protection for sellers]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Of the two premium components, time value inherently declines to zero by expiry (time decay). Since sellers receive premium upfront, this erosion works in their favor — the option's value decreases over time.
+**The Trap:** Sellers can't modify strikes. Sellers CAN lose money (potentially unlimited for naked sellers). SEBI doesn't provide special protection.
+**Cross-Exam Context:** Series VIII covers the seller's time decay advantage.
+**Distributor's Pro-Tip:** This structural advantage explains why many professional traders are net option sellers — they earn from time decay while managing risk through hedging and position sizing.]]></text></explanation>
+    </question>
+</QF>

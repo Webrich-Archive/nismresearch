@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Clearing, Settlement and Risk Management_33" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Systemic risk in commodity derivatives arises when:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Default by one party leads to cascading defaults of other parties connected through the settlement chain]]></text></answer>
+            <answer correct="no"><text><![CDATA[A single commodity's price changes]]></text></answer>
+            <answer correct="no"><text><![CDATA[An individual trader makes a loss]]></text></answer>
+            <answer correct="no"><text><![CDATA[The exchange changes trading hours]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Systemic risk occurs when one default triggers a chain of defaults — like dominos. Risk management measures (margins, SGF, capital adequacy) aim to prevent this cascade.
+**The Trap:** Individual price changes or trader losses are not systemic. Trading hour changes don't create systemic risk.
+**Cross-Exam Context:** Series VII covers systemic risk management.
+**Distributor's Pro-Tip:** The SGF and default waterfall arrangements are the last line of defense against systemic risk — they ensure that even in extreme scenarios, settlement obligations are fulfilled.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_64" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Options strategies result in nonlinear payoffs because:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The optionality gives the buyer the right without obligation — limited downside but unlimited/high upside]]></text></answer>
+            <answer correct="no"><text><![CDATA[Options use complex mathematical formulas]]></text></answer>
+            <answer correct="no"><text><![CDATA[Exchanges apply different margin rates at different price levels]]></text></answer>
+            <answer correct="no"><text><![CDATA[The underlying commodity has seasonal price patterns]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The nonlinear payoff comes from optionality — the buyer's downside is limited (premium) while upside can be unlimited. This creates a 'kinked' payoff line, unlike the straight line of futures.
+**The Trap:** Mathematical formulas determine pricing, not payoff shape. Margins and seasonality don't affect the payoff structure.
+**Cross-Exam Context:** Series VIII contrasts linear (futures) vs nonlinear (options) payoffs.
+**Distributor's Pro-Tip:** Nonlinear payoffs are powerful for risk management — a protective put caps losses at a known level while preserving unlimited profit potential on the upside.]]></text></explanation>
+    </question>
+</QF>

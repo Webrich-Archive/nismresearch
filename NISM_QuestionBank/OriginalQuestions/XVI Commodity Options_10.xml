@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The maximum profit for a seller (writer) of a call option is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Limited to the premium received]]></text></answer>
+            <answer correct="no"><text><![CDATA[Unlimited]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equal to the strike price minus premium]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equal to the spot price at expiry]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The call writer's maximum profit is the premium received. This occurs when the option expires OTM and is not exercised. However, the potential loss is unlimited as the spot price can rise indefinitely.
+**The Trap:** Unlimited profit is for the call BUYER. Strike minus premium is the put buyer's max reward.
+**Cross-Exam Context:** Series VIII covers identical risk-reward profiles.
+**Distributor's Pro-Tip:** Option writing is a high-risk strategy — while the premium provides immediate income, the potential for unlimited loss means strict risk management (stop-losses, hedging) is essential.]]></text></explanation>
+    </question>
+</QF>

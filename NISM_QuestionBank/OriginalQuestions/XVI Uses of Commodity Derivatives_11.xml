@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Uses of Commodity Derivatives_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In a cash-and-carry arbitrage, the arbitrageur:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buys the commodity in the spot market and simultaneously sells futures when futures are overpriced relative to spot + carry cost]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sells in the spot market and buys futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buys both spot and futures positions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sells both spot and futures positions]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Cash-and-carry: buy spot + sell futures when futures > spot + carry cost. The commodity is held and delivered at futures expiry for a riskless profit.
+**The Trap:** Selling spot/buying futures is REVERSE cash-and-carry. Buying both or selling both creates directional exposure, not arbitrage.
+**Cross-Exam Context:** Series VIII covers similar arbitrage strategies for equity derivatives.
+**Distributor's Pro-Tip:** Cash-and-carry requires physical capability — warehousing, financing, and delivery logistics. The profit must exceed all these costs for the arbitrage to be worthwhile.]]></text></explanation>
+    </question>
+</QF>

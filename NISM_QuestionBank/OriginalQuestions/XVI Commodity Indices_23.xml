@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Indices_23" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[On expiry of commodity index options, which of the following is correct?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[All ITM contracts are auto-exercised unless buyer gives contrary instruction; all OTM contracts expire worthless]]></text></answer>
+            <answer correct="no"><text><![CDATA[All contracts must be manually exercised by the buyer]]></text></answer>
+            <answer correct="no"><text><![CDATA[All ITM and OTM contracts are automatically settled]]></text></answer>
+            <answer correct="no"><text><![CDATA[ITM contracts are automatically closed only for institutional clients]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** On expiry, all in-the-money (ITM) contracts are automatically exercised unless the buyer gives a 'contrary instruction.' All out-of-the-money (OTM) contracts expire worthless.
+**The Trap:** Manual exercise is not required (auto-exercise is the default). OTM contracts are NOT settled — they expire worthless. Auto-exercise applies to all clients, not just institutional.
+**Cross-Exam Context:** Series VIII covers auto-exercise provisions for equity options.
+**Distributor's Pro-Tip:** The 'contrary instruction' mechanism allows option buyers to choose not to exercise slightly ITM options where the gain doesn't cover transaction costs — useful in practice.]]></text></explanation>
+    </question>
+</QF>

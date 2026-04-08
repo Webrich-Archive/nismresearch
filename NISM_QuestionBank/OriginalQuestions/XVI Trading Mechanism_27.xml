@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Trading Mechanism_27" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[High Frequency Trading (HFT) in commodity markets is characterized by:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Latency-sensitive trading strategies that are part of algorithmic trading with order frequency above 10 OPS]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trading once per week based on fundamental analysis]]></text></answer>
+            <answer correct="no"><text><![CDATA[Manual order placement by experienced traders]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only hedging strategies, not speculative trading]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** HFT is part of algorithmic trading comprising latency-sensitive strategies. HFT algos have > 10 OPS (Orders Per Second). They exploit tiny price discrepancies at high speed.
+**The Trap:** HFT is high-speed, not weekly. It's algorithmic, not manual. It includes speculative strategies.
+**Cross-Exam Context:** Series VIII covers HFT regulations.
+**Distributor's Pro-Tip:** Exchanges impose penalty provisions at different slabs of Order-to-Trade ratio to discourage excessive order submissions that can destabilize the market.]]></text></explanation>
+    </question>
+</QF>

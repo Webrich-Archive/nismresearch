@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_38" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A wheat farmer expects prices to fall at harvest time (3 months from now). Wheat is currently trading at Rs 2,400 per quintal in futures. What should the farmer do to hedge?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Sell wheat futures at Rs 2,400 per quintal to lock in the current price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy wheat futures at Rs 2,400 per quintal]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy call options on wheat]]></text></answer>
+            <answer correct="no"><text><![CDATA[Do nothing and sell in the spot market at harvest]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The farmer should sell (short) wheat futures to lock in Rs 2,400 as the selling price. If prices fall at harvest, the futures profit offsets the lower spot selling price.
+**The Trap:** Buying futures adds to the long exposure (farmer already has physical wheat). Call options profit from price rise. Doing nothing exposes the farmer to price decline risk.
+**Cross-Exam Context:** Series VIII covers hedging for equity portfolios — commodity hedging follows the same principle but with physical delivery possibilities.
+**Distributor's Pro-Tip:** Farmers should hedge well before harvest when futures prices are favorable — waiting until the last minute may mean locking in already-depressed prices.]]></text></explanation>
+    </question>
+</QF>

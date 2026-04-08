@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Trading Mechanism_30" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Categorization of algorithms into 'White box' and 'Black box' is based on:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Whether the workings and rationale of the algorithm are transparent (White box) or opaque (Black box)]]></text></answer>
+            <answer correct="no"><text><![CDATA[The speed of order execution]]></text></answer>
+            <answer correct="no"><text><![CDATA[Whether the algorithm trades in agricultural or non-agricultural commodities]]></text></answer>
+            <answer correct="no"><text><![CDATA[The size of orders generated]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** White box (Execution Algos): transparent workings and rationale. Black box: opaque workings. White box algos are not treated as new algos; Black box requires registration as a new algo.
+**The Trap:** Speed, commodity type, and order size don't determine the classification. Transparency of the algorithm logic is the distinguishing factor.
+**Cross-Exam Context:** Algo categorization is specific to exchange regulations.
+**Distributor's Pro-Tip:** White box algos like TWAP and VWAP execution strategies don't need re-registration — but any modification to a Black box algo requires confirmation from the exchange.]]></text></explanation>
+    </question>
+</QF>

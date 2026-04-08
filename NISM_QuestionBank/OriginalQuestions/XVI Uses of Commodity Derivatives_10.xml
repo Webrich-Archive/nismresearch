@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Uses of Commodity Derivatives_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A disadvantage of hedging with options compared to futures is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Option premium movement is not linear to underlying price, making a perfect hedge difficult without gamma hedging]]></text></answer>
+            <answer correct="no"><text><![CDATA[Options cannot be used for hedging]]></text></answer>
+            <answer correct="no"><text><![CDATA[Options are more expensive than the underlying commodity]]></text></answer>
+            <answer correct="no"><text><![CDATA[Options cannot expire before the delivery date]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Option price movement is non-linear (curved) relative to the underlying, making perfect hedging difficult. Delta hedging alone is insufficient — gamma hedging is also needed for precision.
+**The Trap:** Options CAN be used for hedging. They're not necessarily 'more expensive than the commodity.' They do have defined expiry dates.
+**Cross-Exam Context:** Series VIII covers delta-gamma hedging challenges.
+**Distributor's Pro-Tip:** For simple hedging needs, the non-linearity is acceptable — the premium cost provides a clear maximum downside. Complex gamma hedging is mainly needed by professional option market makers.]]></text></explanation>
+    </question>
+</QF>

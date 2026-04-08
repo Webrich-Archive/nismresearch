@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Trading Mechanism_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In a compulsory delivery commodity futures contract like Gold, what happens to all open positions on the maturity date?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[All outstanding positions result in physical delivery of the underlying commodity]]></text></answer>
+            <answer correct="no"><text><![CDATA[All positions are cash-settled at the settlement price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Positions are automatically rolled over to the next month]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only seller's positions result in delivery]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In compulsory delivery contracts, ALL outstanding positions on maturity result in physical delivery. Both buyer and seller must fulfill delivery obligations.
+**The Trap:** Not cash-settled (that's a different settlement type). Not rolled over automatically. BOTH buyer and seller positions result in delivery.
+**Cross-Exam Context:** Compulsory delivery is specific to commodity futures.
+**Distributor's Pro-Tip:** Speculators must exit compulsory delivery contracts well before the tender period — failure to do so creates delivery obligations they may not be able to fulfill.]]></text></explanation>
+    </question>
+</QF>

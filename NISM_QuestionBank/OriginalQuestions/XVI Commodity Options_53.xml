@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_53" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A commodity processor buys a call option with strike Rs 500 and premium Rs 30 to hedge against rising raw material prices. If the spot price at expiry is Rs 550, the effective purchase price is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 530 (strike + premium)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 550]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 520]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The hedger exercises the call and buys at Rs 500 (strike). Total effective cost = Strike + Premium = 500 + 30 = Rs 530.
+**The Trap:** Rs 500 ignores the premium cost. Rs 550 is the spot price (which the hedger avoids). The premium is a sunk cost that adds to the effective purchase price.
+**Cross-Exam Context:** Series VIII covers hedging cost analysis with options.
+**Distributor's Pro-Tip:** Compare Rs 530 (with hedging) vs Rs 550 (without hedging) — the hedge saved Rs 20 per unit. The premium was worth paying as insurance against the Rs 50 price rise.]]></text></explanation>
+    </question>
+</QF>

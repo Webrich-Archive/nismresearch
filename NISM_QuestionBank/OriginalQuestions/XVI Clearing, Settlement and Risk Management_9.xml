@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Clearing, Settlement and Risk Management_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Tender period margin is levied at:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The Client level, not the Member level]]></text></answer>
+            <answer correct="no"><text><![CDATA[The Member level only]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both Client and Member level equally]]></text></answer>
+            <answer correct="no"><text><![CDATA[The Exchange level]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Tender period margin is levied at the Client level — each client with open positions during the tender/delivery period must maintain this additional margin.
+**The Trap:** Not at member level (though members collect it from clients). Not exchange level.
+**Cross-Exam Context:** Client-level margining ensures individual risk is managed.
+**Distributor's Pro-Tip:** If a seller provides proof of holding the commodity via warehouse receipt, they may be exempted from tender period margin — this rewards genuine delivery intent.]]></text></explanation>
+    </question>
+</QF>

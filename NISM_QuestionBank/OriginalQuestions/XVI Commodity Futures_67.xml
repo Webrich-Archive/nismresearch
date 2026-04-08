@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_67" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A commodity's spot price is Rs 5,000. Interest rate is 12% p.a. compounded continuously. What is the 3-month futures fair value? (e^0.03 = 1.03045)]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 5,152.25 (approximately)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 5,150.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 5,600.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 5,030.45]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** F = S × e^(r×n) = 5,000 × e^(0.12 × 3/12) = 5,000 × e^(0.03) = 5,000 × 1.03045 = Rs 5,152.25.
+**The Trap:** Rs 5,150 is simple interest. Rs 5,600 uses full year. Rs 5,030.45 forgets to multiply by 5,000. Use the given e^0.03 value directly.
+**Cross-Exam Context:** Series IV uses continuous compounding for bond futures.
+**Distributor's Pro-Tip:** For exam purposes, continuous compounding values will usually be provided (e.g., e^0.03 = 1.03045) — focus on correctly setting up the exponent: rate × time in years.]]></text></explanation>
+    </question>
+</QF>

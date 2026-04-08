@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A commodity has a spot price of Rs 2,500 with a holding period of 90 days. If the interest rate is 6% p.a. and storage cost is 1% p.a., what is the total cost of carry?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 43.15 (approximately)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 36.98]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 175.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 6.16]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Finance cost = 2,500 × 0.06 × (90/365) = Rs 36.98. Storage = 2,500 × 0.01 × (90/365) = Rs 6.16. Total = 36.98 + 6.16 = Rs 43.14 ≈ Rs 43.15.
+**The Trap:** Rs 36.98 is only the finance cost (omits storage). Rs 175 uses full year. Rs 6.16 is only storage cost. Always add both components for total cost of carry.
+**Cross-Exam Context:** Series VIII calculates cost of carry for equity futures (no storage cost as equities are dematerialized).
+**Distributor's Pro-Tip:** Unlike equity futures, commodity cost-of-carry includes real storage costs — for bulky commodities like metals or agricultural goods, storage can be a significant percentage.]]></text></explanation>
+    </question>
+</QF>

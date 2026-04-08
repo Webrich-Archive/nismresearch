@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Uses of Commodity Derivatives_27" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A guar seed producer sells 1 MT (10 quintals) of Aug futures at Rs 4,050/quintal. Spot price drops to Rs 3,950/quintal. What is the futures profit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 500 (Rs 50/quintal × 10 quintals)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 5,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 100]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Futures profit per quintal = 4,050 - 4,000 (buys back) = Rs 50. For 10 quintals = Rs 500. This offsets the Rs 500 loss in spot (4,000 - 3,950) × 10.
+**The Trap:** Rs 50 is per quintal only. Rs 5,000 uses wrong multiplier. Rs 100 confuses the calculation. Multiply per-unit profit by total quantity.
+**Cross-Exam Context:** Series VIII covers hedge P&L examples.
+**Distributor's Pro-Tip:** Short hedging locked in the desired selling price — the producer's effective price is Rs 4,050 - Rs 50 = Rs 4,000/quintal regardless of spot market decline.]]></text></explanation>
+    </question>
+</QF>

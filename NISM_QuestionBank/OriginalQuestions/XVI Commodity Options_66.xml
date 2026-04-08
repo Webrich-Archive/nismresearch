@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_66" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A call option with strike Rs 180 and premium Rs 10 breaks even when the market price at expiry is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 190]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 180]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 170]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 200]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Call breakeven = Strike + Premium = 180 + 10 = Rs 190. At Rs 190, the intrinsic value (190-180=10) exactly offsets the premium paid (10).
+**The Trap:** Rs 180 is ATM (zero intrinsic, full premium loss). Rs 170 is OTM. Rs 200 generates profit of Rs 10.
+**Cross-Exam Context:** Series VIII covers breakeven analysis for options.
+**Distributor's Pro-Tip:** Always calculate the breakeven before entering an option trade — it tells you how much the market must move before you start profiting.]]></text></explanation>
+    </question>
+</QF>

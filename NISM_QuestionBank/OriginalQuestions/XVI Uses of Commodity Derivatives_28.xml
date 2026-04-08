@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Uses of Commodity Derivatives_28" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the silver hedge example, with hedge ratio 1.132 and lot size 30 kg for 500 kg exposure, how many lots should be sold?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[19 lots (rounding up 18.87)]]></text></answer>
+            <answer correct="no"><text><![CDATA[17 lots]]></text></answer>
+            <answer correct="no"><text><![CDATA[30 lots]]></text></answer>
+            <answer correct="no"><text><![CDATA[10 lots]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Lots = (500 × 1.132) / 30 = 566.1 / 30 = 18.87 ≈ 19 lots (rounded up).
+**The Trap:** 17 is too few. 30 would be unhedged exposure/lot size. 10 ignores the hedge ratio.
+**Cross-Exam Context:** Hedge ratio application in lot calculations is tested across derivative exams.
+**Distributor's Pro-Tip:** HR > 1 means futures are LESS volatile than spot — you need more futures coverage than physical exposure. This is unusual and suggests the specific market has significant spot volatility.]]></text></explanation>
+    </question>
+</QF>

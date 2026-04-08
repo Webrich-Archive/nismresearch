@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Trading Mechanism_16" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trailing stop loss order:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Automatically adjusts the stop loss price upward as the market price rises, but does not adjust downward]]></text></answer>
+            <answer correct="no"><text><![CDATA[Adjusts both upward and downward with market movement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Remains fixed at the initial trigger price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Is only available for option orders]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Trailing stop loss moves up with favorable price movement but does NOT adjust downward — it locks in profits while protecting against reversal.
+**The Trap:** It only adjusts in one direction (favorable). A regular stop loss is fixed. It applies to futures too, not just options.
+**Cross-Exam Context:** Series VIII covers trailing stop loss orders.
+**Distributor's Pro-Tip:** Trailing stops are powerful for trend-following — as gold rises from 50,000 to 53,000, a Rs 1,000 trailing stop moves from 49,000 to 52,000, automatically locking in gains.]]></text></explanation>
+    </question>
+</QF>

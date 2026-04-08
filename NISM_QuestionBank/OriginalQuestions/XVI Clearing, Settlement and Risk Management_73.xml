@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Clearing, Settlement and Risk Management_73" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The clearing corporation can guarantee financial settlement but NOT:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Gross physical delivery of the exact commodity — only financial compensation is guaranteed in default scenarios]]></text></answer>
+            <answer correct="no"><text><![CDATA[Any financial settlement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Payment of margins]]></text></answer>
+            <answer correct="no"><text><![CDATA[Settlement of MTM obligations]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The CC guarantees FINANCIAL settlement (compensation in money) but cannot guarantee GROSS PHYSICAL DELIVERY. In default, the non-defaulting party receives financial compensation, not the actual commodity.
+**The Trap:** The CC does guarantee financial settlement, margin management, and MTM. The limitation is specifically on physical delivery guarantee.
+**Cross-Exam Context:** Settlement guarantee scope is specific to commodity clearing.
+**Distributor's Pro-Tip:** If you MUST have the physical commodity, don't rely solely on futures delivery — maintain spot market procurement channels as backup.]]></text></explanation>
+    </question>
+</QF>

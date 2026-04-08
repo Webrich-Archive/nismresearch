@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_33" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The bootstrapping methodology used in spot price polling helps to:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Remove extreme prices and arrive at a final price with least standard deviation from the polled data]]></text></answer>
+            <answer correct="no"><text><![CDATA[Calculate the highest possible price from the data]]></text></answer>
+            <answer correct="no"><text><![CDATA[Determine the volume-weighted average price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Extrapolate future prices from historical data]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Bootstrapping removes extreme/outlier prices from the polled data. Median is first calculated, outliers removed, then an algorithm runs to find a price with the least standard deviation vis-a-vis the polled data.
+**The Trap:** It doesn't find the highest price. It's not VWAP. It doesn't extrapolate futures. The method uses statistical principles (least error/least squares) for robust price discovery.
+**Cross-Exam Context:** Statistical price determination is unique to commodity spot polling.
+**Distributor's Pro-Tip:** Bootstrapping prevents manipulation — even if one or two pollers submit extreme prices, the algorithm filters them out, ensuring the spot polling price reflects genuine market levels.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Trading Mechanism_44" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is an algorithm malfunction safeguard that exchanges require?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The system should automatically trigger a halt on the algorithm if it malfunctions]]></text></answer>
+            <answer correct="no"><text><![CDATA[No safeguard is required — algos are self-correcting]]></text></answer>
+            <answer correct="no"><text><![CDATA[Manual intervention by the exchange operator]]></text></answer>
+            <answer correct="no"><text><![CDATA[The algo continues to run with reduced speed]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Exchanges require that algorithm malfunction must automatically trigger a halt on the algorithm — this is a mandatory safeguard to prevent runaway algorithms from disrupting markets.
+**The Trap:** Algos are NOT self-correcting. Manual intervention alone is too slow. Continued operation at reduced speed still poses risk.
+**Cross-Exam Context:** Algo safety mechanisms are regulated across all exchanges.
+**Distributor's Pro-Tip:** Implement kill switches and automatic halt triggers in all algo systems — a malfunctioning algo can generate massive losses in seconds before manual intervention is possible.]]></text></explanation>
+    </question>
+</QF>

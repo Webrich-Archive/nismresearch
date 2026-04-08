@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The maximum loss for a buyer of a call option is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Limited to the premium paid]]></text></answer>
+            <answer correct="no"><text><![CDATA[Unlimited]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equal to the strike price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equal to the spot price at expiry]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The maximum loss for a call buyer is limited to the premium paid. If the option expires OTM, the buyer loses only the premium — the right was not exercised.
+**The Trap:** Unlimited loss is the risk for the call SELLER. The strike price and spot price don't determine the buyer's maximum loss.
+**Cross-Exam Context:** Series VIII covers the same risk/reward profiles.
+**Distributor's Pro-Tip:** This limited-loss feature makes options ideal for hedging — unlike futures where losses are unlimited, option buyers know their maximum downside from day one.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Clearing, Settlement and Risk Management_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The seven types of margins in commodity futures are:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Initial, ELM, mark-to-market, special/additional, concentration, lean period, and tender/delivery period margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only initial margin and MTM margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[Initial, maintenance, and variation margin only]]></text></answer>
+            <answer correct="no"><text><![CDATA[SPAN margin only]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Seven margin types: (1) Initial (VaR), (2) ELM, (3) MTM, (4) Special/Additional, (5) Concentration, (6) Lean period, (7) Tender/delivery period.
+**The Trap:** There are seven types, not just two or three. SPAN is the methodology, not a separate margin type.
+**Cross-Exam Context:** The variety of margin types is more extensive in commodity vs equity derivatives.
+**Distributor's Pro-Tip:** Traders must plan capital for ALL margin types — a position may start with initial + ELM but as expiry approaches, delivery period margin can significantly increase total requirements.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_39" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A gold jeweler needs to purchase gold in 3 months. He is worried about rising gold prices. Which hedging strategy should he adopt?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy gold futures contracts maturing in 3 months]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell gold futures contracts maturing in 3 months]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy put options on gold]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell call options on gold]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The jeweler needs to BUY gold in the future and fears price rise. He should buy (go long) gold futures to lock in the current price, protecting against any increase.
+**The Trap:** Selling futures would expose him to more risk if prices rise. Put options profit from price decline (wrong direction). Selling calls gives limited income but unlimited risk if prices rise.
+**Cross-Exam Context:** Series VIII covers consumer/processor hedging in equity context.
+**Distributor's Pro-Tip:** Jewelers and gold importers are natural long hedgers — buying futures lets them quote customer prices with confidence, knowing their input cost is locked in.]]></text></explanation>
+    </question>
+</QF>

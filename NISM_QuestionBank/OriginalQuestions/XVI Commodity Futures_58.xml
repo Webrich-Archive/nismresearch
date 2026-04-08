@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_58" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If compounding is done 'm' times per year, the futures price formula is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[F = S × (1 + r/m)^(m×n)]]></text></answer>
+            <answer correct="no"><text><![CDATA[F = S × (1 + r)^n]]></text></answer>
+            <answer correct="no"><text><![CDATA[F = S × e^(r×n)]]></text></answer>
+            <answer correct="no"><text><![CDATA[F = S + S × r × m]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When compounding m times per year: F = S × (1 + r/m)^(m×n). For monthly (m=12), quarterly (m=4), semi-annual (m=2) compounding.
+**The Trap:** Option (b) is annual compounding. Option (c) is continuous. Option (d) is not a valid formula. The rate is divided by m and the power is multiplied by m.
+**Cross-Exam Context:** Series IV (Interest Rate Derivatives) uses the same compounding formula for bond futures.
+**Distributor's Pro-Tip:** As m increases towards infinity, this formula approaches continuous compounding (e^rn) — for practical purposes, monthly compounding is close enough to continuous.]]></text></explanation>
+    </question>
+</QF>

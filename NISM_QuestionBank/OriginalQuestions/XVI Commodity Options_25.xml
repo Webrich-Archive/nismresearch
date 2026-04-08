@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_25" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the Silver call option example, if the option premium drops from Rs 3,500 to Rs 3,450 over one month (all else equal), what is the annualized Theta?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Approximately -17.14% per annum]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately -1.43% per annum]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately -50% per annum]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately -5% per annum]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Theta = (-50/3500)/1 month = -1.43% per month. Annualized = -1.43% × 12 = -17.14% p.a.
+**The Trap:** -1.43% is monthly, not annual. -50% overstates decay. -5% undercounts. Always annualize monthly theta by multiplying by 12.
+**Cross-Exam Context:** Series VIII covers theta calculations.
+**Distributor's Pro-Tip:** A -17% annual time decay means the option loses roughly Rs 50/month or Rs 1.67/day just from time — this cost must be factored into any option buying strategy.]]></text></explanation>
+    </question>
+</QF>

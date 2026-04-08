@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Clearing, Settlement and Risk Management_22" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Devolvement margin for Options on Futures is collected during:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The last 3 days before expiry of the option, ensuring post-devolvement futures margin obligations are met]]></text></answer>
+            <answer correct="no"><text><![CDATA[The entire life of the option contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only on the expiry day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Never — option buyers don't need margin]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Devolvement margin is collected in the last 3 days before Options on Futures expiry. It ensures ITM option holders can meet futures margin requirements after their options devolve into futures.
+**The Trap:** Not the entire life — only final 3 days. Not just expiry day. While buyers normally don't need margin, devolvement margin is an exception.
+**Cross-Exam Context:** Devolvement margin is specific to commodity options.
+**Distributor's Pro-Tip:** If you hold an ITM call option nearing expiry, expect devolvement margin collection — this increases your capital requirement significantly in the last few days.]]></text></explanation>
+    </question>
+</QF>

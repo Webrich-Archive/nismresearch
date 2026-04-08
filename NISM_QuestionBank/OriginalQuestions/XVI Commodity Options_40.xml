@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_40" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A gold jeweler wants to hedge against rising gold prices using options. Which strategy should be adopted?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy call options on gold — right to buy at the strike price, limiting the maximum purchase price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy put options on gold]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell call options on gold]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell put options on gold]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The jeweler needs to buy gold and fears price rises. Buying calls gives the right to buy at the strike price. If gold rises above strike, the jeweler exercises and buys at the lower strike price. Maximum cost above strike = premium.
+**The Trap:** Puts protect sellers, not buyers. Selling calls or puts creates obligations without protection.
+**Cross-Exam Context:** Series VIII covers protective call strategies.
+**Distributor's Pro-Tip:** Compared to hedging with futures (which locks in an exact price), options give flexibility — if gold prices fall, the jeweler can buy cheaper in the spot market and only loses the premium.]]></text></explanation>
+    </question>
+</QF>

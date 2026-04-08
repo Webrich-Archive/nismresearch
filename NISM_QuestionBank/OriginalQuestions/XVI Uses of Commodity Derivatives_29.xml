@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Uses of Commodity Derivatives_29" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Spot vs futures arbitrage yields a riskless profit when:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The estimated fair futures price differs from the actual traded futures price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Spot and futures prices are identical]]></text></answer>
+            <answer correct="no"><text><![CDATA[The commodity has high convenience yield]]></text></answer>
+            <answer correct="no"><text><![CDATA[The market is in perfect contango]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Arbitrage opportunity exists when the estimated fair price (spot + carry) differs from the actual traded price. Buy the cheaper, sell the dearer.
+**The Trap:** Identical prices mean no arbitrage. High convenience yield affects pricing but doesn't guarantee arbitrage. Perfect contango may actually be at fair value.
+**Cross-Exam Context:** Series VIII covers futures mispricing arbitrage.
+**Distributor's Pro-Tip:** Arbitrage windows close quickly as other traders exploit them — automated systems can detect and execute before manual traders can react.]]></text></explanation>
+    </question>
+</QF>

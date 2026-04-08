@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_50" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Using Put-Call Parity: Underlying price Rs 300, put premium Rs 4, strike Rs 250, risk-free rate 6%, 3 months to expiry. What is the call premium?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 57.70 (approximately)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 53.70]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 50.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 4.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** C - P = S - K/(1+rt) = 300 - 250/(1+0.06×0.25) = 300 - 250/1.015 = 300 - 246.30 = 53.70. So C = 53.70 + 4 = Rs 57.70.
+**The Trap:** Rs 53.70 is C-P (not C itself). Rs 50 is S-K without discounting. Rs 4 is the put premium. Must add the put premium to S - PV(K).
+**Cross-Exam Context:** Series VIII covers put-call parity calculations.
+**Distributor's Pro-Tip:** Put-call parity is used to identify mispriced options — if actual call price deviates from 57.70, an arbitrage exists using conversion/reversal strategies.]]></text></explanation>
+    </question>
+</QF>

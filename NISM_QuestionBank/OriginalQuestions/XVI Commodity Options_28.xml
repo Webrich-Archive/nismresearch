@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_28" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Options on Goods may be priced higher than Options on Futures because:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Spot markets lack Daily Price Limits (DPL), leading to higher volatility, and writers face direct delivery obligations]]></text></answer>
+            <answer correct="no"><text><![CDATA[Options on Goods have longer expiry periods]]></text></answer>
+            <answer correct="no"><text><![CDATA[Commodity exchanges charge higher fees for Options on Goods]]></text></answer>
+            <answer correct="no"><text><![CDATA[Options on Goods cannot be offset before expiry]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Two factors: (1) Spot markets don't have DPL like futures, so higher volatility increases option pricing. (2) Writers face direct delivery obligations (call writers must deliver goods, put writers must pay for goods), increasing their risk and demanded premium.
+**The Trap:** Expiry periods are aligned with futures. Exchange fees aren't the reason. Options on Goods CAN be offset before expiry.
+**Cross-Exam Context:** This pricing difference is unique to commodity markets.
+**Distributor's Pro-Tip:** In deep, liquid markets, arbitrage keeps Options on Goods and Options on Futures prices aligned — the premium difference is mainly visible in illiquid or shallow markets.]]></text></explanation>
+    </question>
+</QF>

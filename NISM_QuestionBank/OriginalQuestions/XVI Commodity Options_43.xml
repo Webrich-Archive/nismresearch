@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_43" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When an ITM option on Futures is exercised, the devolved futures positions are opened at:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The strike price of the exercised option]]></text></answer>
+            <answer correct="no"><text><![CDATA[The market price of the underlying on the exercise day]]></text></answer>
+            <answer correct="no"><text><![CDATA[The daily settlement price of the futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[The average price of the last 3 trading days]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** All devolved futures positions are opened at the strike price of the exercised options. E.g., strike Rs 1,700 → buyer gets long futures 'as if bought at Rs 1,700.'
+**The Trap:** Not the market price, DSP, or 3-day average. The strike price is the agreed transaction price and becomes the entry price for the devolved futures position.
+**Cross-Exam Context:** This devolvement mechanism is specific to commodity Options on Futures.
+**Distributor's Pro-Tip:** The MTM gain/loss on devolvement = DSP - Strike. This is immediately reflected in the trader's margin account on the day of devolvement.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Rho measures the change in option premium for a change in:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Risk-free interest rate — positive for calls, negative for puts]]></text></answer>
+            <answer correct="no"><text><![CDATA[Volatility — same for calls and puts]]></text></answer>
+            <answer correct="no"><text><![CDATA[Time to expiry — always negative]]></text></answer>
+            <answer correct="no"><text><![CDATA[Underlying price — positive for calls]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Rho measures premium change per unit change in the risk-free interest rate. Rising rates increase call premium (higher cost of carry favors calls) and decrease put premium.
+**The Trap:** Volatility is Vega. Time is Theta. Underlying price is Delta. Each Greek measures sensitivity to a specific factor.
+**Cross-Exam Context:** Series IV (Interest Rate Derivatives) covers the interest rate-option price relationship extensively.
+**Distributor's Pro-Tip:** Rho has the least impact among the Greeks for short-dated options — but for long-dated commodity options (3-12 months), interest rate changes can meaningfully affect premiums.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Clearing, Settlement and Risk Management_62" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In commodity futures, what type of margin is released when a seller provides a warehouse receipt as proof of holding the commodity?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Tender period/delivery period margin — the seller is exempted]]></text></answer>
+            <answer correct="no"><text><![CDATA[Initial margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[Extreme Loss Margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[Mark-to-Market margin]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** If the seller provides a warehouse receipt (proof of holding), they are exempted from tender/delivery period margin — since the delivery risk is mitigated by actual commodity holding.
+**The Trap:** Initial margin, ELM, and MTM are not released based on warehouse receipts. Only the delivery-specific margin is exempted.
+**Cross-Exam Context:** Delivery margin exemption is specific to commodity markets.
+**Distributor's Pro-Tip:** Having warehouse receipts before the tender period saves significant margin cost — deposit goods early to benefit from this exemption and free up capital for other trades.]]></text></explanation>
+    </question>
+</QF>

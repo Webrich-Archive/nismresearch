@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Trading Mechanism_28" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In commodity futures, when the settlement price (DSP) of a contract is used to determine delivery default compensation, this price is called:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Due Date Rate (DDR)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Base Price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Circuit Limit Price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Reference Price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Due Date Rate (DDR) is the settlement price used for determining delivery default penalties and compensation to non-defaulting parties.
+**The Trap:** Base price is used for DPL. Circuit limit is DPL itself. Reference price is a general term not specific to this purpose.
+**Cross-Exam Context:** DDR is specific to commodity delivery settlement.
+**Distributor's Pro-Tip:** DDR is critical for delivery contracts — it determines the financial outcome when one party defaults on delivery. Always know the DDR methodology for contracts you trade.]]></text></explanation>
+    </question>
+</QF>

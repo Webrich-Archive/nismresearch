@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_32" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The Black-Scholes model uses which five key determinants to calculate option price?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Underlying price, strike price, volatility, time to expiration, and risk-free interest rate]]></text></answer>
+            <answer correct="no"><text><![CDATA[Underlying price, lot size, tick size, margin, and expiry date]]></text></answer>
+            <answer correct="no"><text><![CDATA[Open interest, volume, volatility, delta, and gamma]]></text></answer>
+            <answer correct="no"><text><![CDATA[Spot price, futures price, storage cost, convenience yield, and carry cost]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The five inputs to Black-Scholes are: (1) underlying price, (2) strike price, (3) volatility, (4) time to expiration, and (5) short-term risk-free interest rate.
+**The Trap:** Lot size, tick size, and margin are contract specifications, not pricing inputs. Greeks are outputs, not inputs. Cost-of-carry factors are for futures pricing, not options.
+**Cross-Exam Context:** Series VIII and I use the same five-parameter framework.
+**Distributor's Pro-Tip:** Among the five inputs, volatility is the only one not directly observable — it must be estimated. This is why implied volatility (derived from actual market prices) is so important.]]></text></explanation>
+    </question>
+</QF>

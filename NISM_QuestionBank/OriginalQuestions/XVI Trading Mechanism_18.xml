@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Trading Mechanism_18" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Low Frequency Algo in commodity markets is defined as:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[An algorithm with order frequency of 10 OPS (Orders Per Second) or less]]></text></answer>
+            <answer correct="no"><text><![CDATA[An algorithm that trades once per day]]></text></answer>
+            <answer correct="no"><text><![CDATA[An algorithm with more than 10 OPS]]></text></answer>
+            <answer correct="no"><text><![CDATA[Any algorithm that uses limit orders only]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Low Frequency Algo ≤ 10 OPS. High Frequency Algo > 10 OPS. Each category has different registration and monitoring requirements.
+**The Trap:** 'Low frequency' doesn't mean once per day. > 10 OPS is High Frequency. Order type doesn't define frequency.
+**Cross-Exam Context:** Algo classification is relevant to exchange regulations.
+**Distributor's Pro-Tip:** Low Frequency Algos get a generic identifier; High Frequency Algos need individual registration. Algo providers for HFT must register as Research Analysts with SEBI.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Clearing, Settlement and Risk Management_34" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If a client has buy position of 1500 and sell position of 1000 in the same commodity, the Open Position for limit purposes is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[1500 (higher of buy or sell)]]></text></answer>
+            <answer correct="no"><text><![CDATA[500 (net position)]]></text></answer>
+            <answer correct="no"><text><![CDATA[2500 (total of buy and sell)]]></text></answer>
+            <answer correct="no"><text><![CDATA[1000 (lower of buy and sell)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Open Position Limit is based on the higher of buy or sell open interest. Here, buy (1500) > sell (1000), so Open Position = 1500.
+**The Trap:** Not the net (500). Not the total (2500). Not the lower. The higher side determines the limit.
+**Cross-Exam Context:** Series VIII covers position limit calculations.
+**Distributor's Pro-Tip:** Position limits apply to the gross higher side — even if you're hedged with offsetting positions, the larger leg determines your compliance with position limit rules.]]></text></explanation>
+    </question>
+</QF>

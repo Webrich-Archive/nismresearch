@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Trading Mechanism_42" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An algo that leads to orders resulting in taking away liquidity from the market will be:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Subject to penalties or restrictions by the exchange as it disrupts market quality]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rewarded with lower transaction fees]]></text></answer>
+            <answer correct="no"><text><![CDATA[Allowed without restrictions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Automatically upgraded to HFT status]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Algorithms that remove liquidity (aggressive orders that take away standing orders) may face penalties. Exchanges provide penalty provisions at different Order-to-Trade ratio slabs.
+**The Trap:** Liquidity-removing algos are penalized, not rewarded. They face restrictions, not freedom. OTR penalties apply regardless of HFT status.
+**Cross-Exam Context:** Algo regulation protects market quality.
+**Distributor's Pro-Tip:** Market-making algos that ADD liquidity are encouraged — exchanges may offer incentives like reduced fees for liquidity provision in designated commodity contracts.]]></text></explanation>
+    </question>
+</QF>

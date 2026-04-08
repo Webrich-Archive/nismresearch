@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_72" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the lot size for Commodity Index Futures if the index value starts at a base of 1,000 and the minimum lot value must be Rs 5 lakhs?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[500 units]]></text></answer>
+            <answer correct="no"><text><![CDATA[1,000 units]]></text></answer>
+            <answer correct="no"><text><![CDATA[5,000 units]]></text></answer>
+            <answer correct="no"><text><![CDATA[100 units]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** At base value of 1,000, lot value = 1,000 × lot size. For Rs 5 lakh minimum: lot size = 5,00,000 / 1,000 = 500 units.
+**The Trap:** 1,000 would give Rs 10 lakh value. 5,000 would give Rs 50 lakh. 100 would give only Rs 1 lakh. The lot size is calibrated to meet the Rs 5 lakh minimum.
+**Cross-Exam Context:** Lot size calculations are common across equity (Series VIII) and commodity derivatives.
+**Distributor's Pro-Tip:** During the year, as index value changes, the lot size remains fixed — the actual contract value may drift above Rs 5 lakhs. It's adjusted only during annual rebalancing.]]></text></explanation>
+    </question>
+</QF>

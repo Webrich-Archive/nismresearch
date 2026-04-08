@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_47" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader goes long on crude oil futures at Rs 5,500 per barrel (lot size: 100 barrels). At expiry, crude oil is at Rs 5,800 per barrel. What is the total profit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 30,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 300]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 3,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 5,800]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Long payoff per barrel = ST - F = 5,800 - 5,500 = Rs 300. Total = 300 × 100 barrels = Rs 30,000.
+**The Trap:** Rs 300 is per barrel. Rs 3,000 uses 10 barrels. Always multiply per-unit payoff by the lot size.
+**Cross-Exam Context:** Series I covers similar P&L calculations for currency futures.
+**Distributor's Pro-Tip:** Crude oil is one of the most volatile commodities — a lot worth Rs 5.5 lakhs can see Rs 30,000+ swings in a single trading session during geopolitical events.]]></text></explanation>
+    </question>
+</QF>

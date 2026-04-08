@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Trading Mechanism_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Algorithmic trading in commodity derivatives must comply with which of the following requirements?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Algorithms must be reviewed by Exchanges before use and each registered algo gets a unique identifier]]></text></answer>
+            <answer correct="no"><text><![CDATA[No approval is needed — traders can use any algorithm]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only manual trading is permitted in commodity markets]]></text></answer>
+            <answer correct="no"><text><![CDATA[Algorithms must be approved by SEBI directly for each trade]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Exchanges must review algorithms before use. Each registered algo gets a unique identifier. Low Frequency Algo ≤ 10 OPS, High Frequency Algo > 10 OPS.
+**The Trap:** Exchange review IS required. Manual-only trading is incorrect. SEBI sets guidelines but exchanges review individual algos.
+**Cross-Exam Context:** Series VIII covers algo trading regulations.
+**Distributor's Pro-Tip:** IOC and Market orders are NOT allowed for algo traders — this prevents algo-driven liquidity removal. Members must prevent unauthorized algo access to terminals.]]></text></explanation>
+    </question>
+</QF>

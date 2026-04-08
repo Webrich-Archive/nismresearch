@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Uses of Commodity Derivatives_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In a hedging strategy using call options, what is the maximum loss for the hedger?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Limited to the option premium paid]]></text></answer>
+            <answer correct="no"><text><![CDATA[Unlimited — similar to futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equal to the strike price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Zero — options guarantee no loss]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When hedging with call options, the maximum loss is limited to the premium paid. If prices move favorably, the hedger benefits from the spot market while only losing the premium.
+**The Trap:** Futures hedging has unlimited potential loss on the futures leg (offset by spot gains). Options limit the cost to the premium. Options don't guarantee zero loss — the premium itself is a cost.
+**Cross-Exam Context:** Series VIII covers option-based hedging with limited premium cost.
+**Distributor's Pro-Tip:** Options hedging is more expensive upfront (premium) but provides flexibility — if prices move favorably, the hedger keeps the spot market gain minus only the premium.]]></text></explanation>
+    </question>
+</QF>

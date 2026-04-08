@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Uses of Commodity Derivatives_23" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For a spread margin benefit in a commodity complex (inter-commodity spread), the minimum correlation required between the two commodities is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[0.90]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.75]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.95]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI requires a correlation of 0.90 between two commodities for spread margin benefit in a commodity complex. This ensures the spread has genuinely offsetting risk.
+**The Trap:** 0.50 is too low for margin benefit. 0.95 is not the threshold. The 0.90 correlation requirement ensures the two legs of the spread are sufficiently co-integrated.
+**Cross-Exam Context:** Correlation-based margin benefit is specific to commodity derivatives.
+**Distributor's Pro-Tip:** Guar Seed-Guar Gum typically has high correlation (>0.90) making it eligible for spread margin — but check exchange-specified eligible pairs before trading.]]></text></explanation>
+    </question>
+</QF>

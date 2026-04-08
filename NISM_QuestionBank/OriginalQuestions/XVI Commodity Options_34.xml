@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_34" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Government's Minimum Support Price (MSP) for agricultural commodities acts as:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A put option for farmers — they have the right to sell to the government at MSP if market price falls below it]]></text></answer>
+            <answer correct="no"><text><![CDATA[A call option for farmers]]></text></answer>
+            <answer correct="no"><text><![CDATA[A futures contract between farmers and government]]></text></answer>
+            <answer correct="no"><text><![CDATA[A forward contract with guaranteed delivery]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** MSP works like a put option: farmers can sell to the government at MSP (strike price) if market price < MSP. Farmers are put buyers (right to sell at MSP) and government is the put seller.
+**The Trap:** It's not a call (right to buy). It's not a futures or forward — there's no obligation for the farmer to sell. The key difference: government doesn't charge premium.
+**Cross-Exam Context:** This MSP-put option analogy is unique to commodity derivatives education.
+**Distributor's Pro-Tip:** Understanding MSP as a free put option helps explain options concepts to agricultural clients — they already intuitively understand price protection through MSP.]]></text></explanation>
+    </question>
+</QF>

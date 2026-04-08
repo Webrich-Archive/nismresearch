@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Zinc call option: Strike Rs 180, Premium Rs 10. Market price at expiry is Rs 200. What is the call buyer's profit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 10]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 20]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 30]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 0]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Call buyer profit = (Market - Strike) - Premium = (200 - 180) - 10 = 20 - 10 = Rs 10.
+**The Trap:** Rs 20 is gross payoff before premium. Rs 30 adds premium instead of subtracting. Always deduct the premium paid to arrive at net profit.
+**Cross-Exam Context:** Series VIII covers option payoff calculations with similar examples.
+**Distributor's Pro-Tip:** The breakeven is 180 + 10 = Rs 190. At Rs 200, the profit is only Rs 10 — the premium cost significantly impacts returns for ATM and near-money options.]]></text></explanation>
+    </question>
+</QF>

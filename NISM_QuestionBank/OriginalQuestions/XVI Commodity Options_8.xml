@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_8" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Options are known as 'wasting assets' because:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Their time value gradually falls to zero by expiry date]]></text></answer>
+            <answer correct="no"><text><![CDATA[They always result in a loss for the buyer]]></text></answer>
+            <answer correct="no"><text><![CDATA[The underlying commodity deteriorates in quality]]></text></answer>
+            <answer correct="no"><text><![CDATA[The exchange charges daily holding fees]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Options are called 'wasting assets' because the time value component of their premium decays to zero at expiry. Each passing day reduces the option's value, all else equal.
+**The Trap:** Options don't always result in losses. Physical commodity quality is irrelevant to option time decay. No daily holding fees are charged.
+**Cross-Exam Context:** Series VIII covers time decay (theta) for equity options.
+**Distributor's Pro-Tip:** Time decay benefits option sellers — they earn premium that erodes daily. This gives sellers a structural advantage, which is why option selling strategies are popular among professional traders.]]></text></explanation>
+    </question>
+</QF>

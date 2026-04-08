@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Trading Mechanism_34" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Sell positions in commodity futures that are not squared off before expiry may result in:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[An obligation to give physical delivery or cash settlement depending on the contract's settlement mode]]></text></answer>
+            <answer correct="no"><text><![CDATA[Automatic rollover to the next month]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cancellation of the position by the exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only a penalty payment with no delivery obligation]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Open short positions at expiry result in either physical delivery or cash settlement as per the contract type. Delivery default leads to penalties, but the primary obligation is delivery/settlement.
+**The Trap:** No automatic rollover. Exchange doesn't cancel positions. The primary obligation is delivery/settlement, not just penalty.
+**Cross-Exam Context:** Series VIII covers short position settlement.
+**Distributor's Pro-Tip:** Short sellers who can't deliver must either square off before the tender period or face delivery default penalties — which include replacement cost and can be substantial.]]></text></explanation>
+    </question>
+</QF>

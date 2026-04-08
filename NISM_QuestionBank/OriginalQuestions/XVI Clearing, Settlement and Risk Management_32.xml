@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Clearing, Settlement and Risk Management_32" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Replacement cost risk in commodity derivatives refers to:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The cost of replacing a defaulted trade at current market prices — a pre-settlement risk]]></text></answer>
+            <answer correct="no"><text><![CDATA[The cost of replacing damaged goods in a warehouse]]></text></answer>
+            <answer correct="no"><text><![CDATA[The cost of switching from one broker to another]]></text></answer>
+            <answer correct="no"><text><![CDATA[Insurance premium for commodity storage]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Replacement cost risk (pre-settlement risk) is the cost of replacing a defaulted trade at current market prices. It's eliminated by novation through the clearing corporation.
+**The Trap:** Not about physical replacement of goods. Not broker switching or insurance costs.
+**Cross-Exam Context:** Series VII covers pre-settlement and settlement risk.
+**Distributor's Pro-Tip:** Daily MTM settlement limits replacement cost risk — by settling gains/losses daily, the potential default amount on any given day is limited to one day's price movement.]]></text></explanation>
+    </question>
+</QF>

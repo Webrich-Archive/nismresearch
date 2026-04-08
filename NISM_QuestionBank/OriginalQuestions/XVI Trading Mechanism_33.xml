@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Trading Mechanism_33" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For a buy position in commodity futures, the open position:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Is exposed to mark-to-market loss if prices fall and may result in obligation to receive physical delivery on expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profits only if the commodity is physically delivered]]></text></answer>
+            <answer correct="no"><text><![CDATA[Has no margin requirement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cannot be squared off before expiry]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A long (buy) position faces MTM loss if prices fall. On expiry, it may result in delivery obligation depending on the settlement mode. Margins are required and can be released when squared off.
+**The Trap:** Profit is from price appreciation, not delivery alone. Margins ARE required. Positions CAN be squared off anytime.
+**Cross-Exam Context:** Series VIII covers long position obligations.
+**Distributor's Pro-Tip:** Long positions in delivery-based contracts carry the risk of having to take physical delivery and pay full contract value — ensure adequate funds or exit before the tender period.]]></text></explanation>
+    </question>
+</QF>

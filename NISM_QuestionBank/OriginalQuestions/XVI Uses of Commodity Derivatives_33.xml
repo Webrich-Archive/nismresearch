@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Uses of Commodity Derivatives_33" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An arbitrage strategy takes no basis risk because:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[It involves simultaneous purchase and sale with known price differential, avoiding uncertainty of future price convergence]]></text></answer>
+            <answer correct="no"><text><![CDATA[It uses options which have limited risk]]></text></answer>
+            <answer correct="no"><text><![CDATA[SEBI guarantees arbitrage profits]]></text></answer>
+            <answer correct="no"><text><![CDATA[The clearing corporation absorbs any losses]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** True arbitrage involves simultaneous entry into both legs with a known price differential and no reliance on future convergence. If reversal/rollover uncertainty exists, it's not pure arbitrage but a spread bet.
+**The Trap:** Options have limited risk for buyers but this isn't arbitrage. SEBI doesn't guarantee profits. The clearing corporation handles settlement, not profit guarantee.
+**Cross-Exam Context:** Series VIII distinguishes true arbitrage from pseudo-arbitrage.
+**Distributor's Pro-Tip:** Many trades marketed as 'arbitrage' are actually basis trades with convergence risk — true riskless arbitrage is rare and requires simultaneous execution of both legs.]]></text></explanation>
+    </question>
+</QF>

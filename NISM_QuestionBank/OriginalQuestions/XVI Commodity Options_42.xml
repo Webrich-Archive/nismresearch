@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_42" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The three ways of closing an option position are:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Offset, exercise, and expiration (letting it expire worthless)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Offset, rollover, and settlement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Exercise, margin call, and forced closure]]></text></answer>
+            <answer correct="no"><text><![CDATA[Offset, delivery, and cash settlement]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Three exit methods: (1) Offset — sell (buy) an identical option. (2) Exercise — on expiry for European options. (3) Expiration — let OTM option expire worthless.
+**The Trap:** Rollover, margin call, and forced closure are not standard option exit methods. The most common method is offset (squaring off).
+**Cross-Exam Context:** Series VIII covers the same three exit methods.
+**Distributor's Pro-Tip:** Most options are closed via offset before expiry — exercising is typically only done by hedgers who want physical delivery or futures positions.]]></text></explanation>
+    </question>
+</QF>

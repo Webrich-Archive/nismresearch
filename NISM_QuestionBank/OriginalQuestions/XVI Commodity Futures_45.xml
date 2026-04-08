@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_45" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A commodity futures contract's minimum and maximum daily price changes are called:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Daily Price Limits (DPL) or Circuit Breakers]]></text></answer>
+            <answer correct="no"><text><![CDATA[Tick Size]]></text></answer>
+            <answer correct="no"><text><![CDATA[Margin Requirements]]></text></answer>
+            <answer correct="no"><text><![CDATA[Position Limits]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The permissible price fluctuations (minimum and maximum daily price changes) are called Daily Price Limits (DPL) or Circuit Breakers.
+**The Trap:** Tick size is the minimum price increment (not the daily limit). Margin is the deposit requirement. Position limits cap the number of contracts held.
+**Cross-Exam Context:** Series VIII covers circuit breakers for equity markets.
+**Distributor's Pro-Tip:** When DPL is hit, trading may be halted or cooled off — traders with adverse positions cannot exit, adding to risk. Always factor DPL into risk management.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Uses of Commodity Derivatives_30" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For commodity sellers, the appropriate option strategy for price protection against falling prices is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy puts for protection against falling prices]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy calls for protection against rising prices]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell puts to earn premium in a stable market]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell calls for protection against rising prices]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Commodity sellers fear falling prices. Buying puts gives the right to sell at the strike price. If market falls below strike, the put buyer exercises and locks in the higher price.
+**The Trap:** Buying calls protects buyers, not sellers. Selling puts is for buyers in stable markets. Selling calls earns premium for sellers in stable markets but doesn't protect against sharp declines.
+**Cross-Exam Context:** Series VIII covers protective put strategies.
+**Distributor's Pro-Tip:** The option strategy table: Buyers buy calls (rising price fear), Sellers buy puts (falling price fear). In stable markets, Buyers sell puts, Sellers sell calls.]]></text></explanation>
+    </question>
+</QF>

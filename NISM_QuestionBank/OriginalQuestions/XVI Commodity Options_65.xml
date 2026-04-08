@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_65" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Implied Volatility in option pricing is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The volatility derived from actual traded option prices using models like Black-Scholes — representing the market's collective view of future volatility]]></text></answer>
+            <answer correct="no"><text><![CDATA[The historical standard deviation of past price movements]]></text></answer>
+            <answer correct="no"><text><![CDATA[A fixed value set by SEBI for each commodity]]></text></answer>
+            <answer correct="no"><text><![CDATA[The average of high and low prices over the last 30 days]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Implied volatility is mathematically derived from actual traded option prices using the Black-Scholes model. It represents the market's collective expectation of future volatility.
+**The Trap:** Historical volatility uses past data. Implied volatility is forward-looking. It's not set by SEBI or calculated from price ranges.
+**Cross-Exam Context:** Series VIII covers implied vs historical volatility extensively.
+**Distributor's Pro-Tip:** When implied volatility > historical volatility, options are considered 'expensive' — this often happens before anticipated events and presents selling opportunities for option writers.]]></text></explanation>
+    </question>
+</QF>

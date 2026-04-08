@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_39" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A farmer wants to protect against falling wheat prices. Which option strategy is most suitable?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy put options on wheat — right to sell at strike price, with limited premium cost]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell call options on wheat]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy call options on wheat]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell put options on wheat]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The farmer fears falling prices and wants to lock in a minimum selling price. Buying puts gives the right to sell at the strike price. If market falls below strike, the farmer exercises and sells at the higher strike price. Maximum cost = premium.
+**The Trap:** Selling calls earns premium but provides no downside protection. Buying calls protects against rising prices (wrong direction for a farmer). Selling puts obligates buying, not selling.
+**Cross-Exam Context:** Series VIII covers protective put strategies for equity portfolios.
+**Distributor's Pro-Tip:** For farmers, buying puts is like insurance — the premium is the insurance cost, and the strike price is the guaranteed minimum price. This is exactly what MSP provides for free.]]></text></explanation>
+    </question>
+</QF>

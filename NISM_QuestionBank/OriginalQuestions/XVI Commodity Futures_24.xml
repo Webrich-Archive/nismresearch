@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When convenience yield is factored in, the commodity futures pricing formula becomes:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[F = S + C - Y, where Y is the convenience yield]]></text></answer>
+            <answer correct="no"><text><![CDATA[F = S + C + Y]]></text></answer>
+            <answer correct="no"><text><![CDATA[F = S - C + Y]]></text></answer>
+            <answer correct="no"><text><![CDATA[F = S × (C - Y)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** F = S + C - Y. Convenience yield (Y) is subtracted because the benefit of holding physical commodity reduces the futures premium. Higher convenience yield → lower futures price relative to spot.
+**The Trap:** Adding Y (F = S+C+Y) would increase futures price, which is incorrect. F = S-C+Y and F = S×(C-Y) are wrong formulations.
+**Cross-Exam Context:** This formula is specific to commodity derivatives — Series VIII doesn't use convenience yield.
+**Distributor's Pro-Tip:** When Y > C, the market enters backwardation — this signals that owning the physical commodity is so valuable that futures trade below spot price.]]></text></explanation>
+    </question>
+</QF>

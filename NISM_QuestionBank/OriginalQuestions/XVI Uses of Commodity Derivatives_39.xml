@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Uses of Commodity Derivatives_39" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The Extreme Loss Margin (ELM) in spread trading applies:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Individually to both legs of the spread position]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only to the net spread position]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only to the longer-dated leg]]></text></answer>
+            <answer correct="no"><text><![CDATA[Not at all — spreads are exempt from ELM]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** While initial margin gets a spread benefit (up to 75%), ELM is applicable individually to both legs of the positions. There's no ELM reduction for spreads.
+**The Trap:** ELM is NOT reduced by spreading. It applies to each leg independently. Spreads reduce initial margin but not ELM.
+**Cross-Exam Context:** Margin framework is specific to commodity derivative regulation.
+**Distributor's Pro-Tip:** Factor both initial margin (with spread benefit) AND ELM (no benefit) into capital planning for spread trades — total margin is lower than outright but not negligible.]]></text></explanation>
+    </question>
+</QF>

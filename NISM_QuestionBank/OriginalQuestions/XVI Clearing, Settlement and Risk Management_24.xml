@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Clearing, Settlement and Risk Management_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Pre-expiry margin for cash-settled commodity futures (per SEBI circular Feb 2021) increases by how much during the last five trading days?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[5% per day during the last five trading days before expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[1% per day]]></text></answer>
+            <answer correct="no"><text><![CDATA[10% per day]]></text></answer>
+            <answer correct="no"><text><![CDATA[No increase — margins remain constant]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI imposed pre-expiry margins for cash-settled contracts: 5% increase per day during the last 5 trading days. This induces early closure and reduces delivery/payment default risk.
+**The Trap:** Not 1% or 10% per day. Margins DO increase near expiry for cash-settled contracts.
+**Cross-Exam Context:** Pre-expiry margin escalation is specific to commodity derivatives.
+**Distributor's Pro-Tip:** A 5% daily increase means 25% additional margin over the last week — this can make holding positions through expiry very capital-intensive. Plan exits accordingly.]]></text></explanation>
+    </question>
+</QF>

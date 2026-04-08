@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_61" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The maximum reward for a long put option buyer is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Strike price minus premium paid]]></text></answer>
+            <answer correct="no"><text><![CDATA[Unlimited]]></text></answer>
+            <answer correct="no"><text><![CDATA[Limited to the premium paid]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equal to the spot price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A put's maximum value occurs when the underlying falls to zero: Max reward = Strike - 0 - Premium = Strike - Premium. Unlike calls (unlimited upside), puts have a theoretical maximum.
+**The Trap:** Unlimited applies to long CALLS. Limited to premium is the maximum LOSS for a buyer, not reward.
+**Cross-Exam Context:** Series VIII covers the same risk-reward table.
+**Distributor's Pro-Tip:** For commodity puts, the theoretical maximum is high — if a Rs 500 strike put costs Rs 20 premium, the max reward is Rs 480 per unit (if the commodity price falls to zero).]]></text></explanation>
+    </question>
+</QF>

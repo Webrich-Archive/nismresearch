@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the Silver example, ATM call at Rs 60,000 with premium Rs 3,500. When Silver futures moves to Rs 63,000, premium becomes Rs 6,100. What is the delta?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[0.867]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.500]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.900]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Delta = Change in premium / Change in underlying = (6,100 - 3,500) / (63,000 - 60,000) = 2,600 / 3,000 = 0.867.
+**The Trap:** 0.500 is typical ATM delta but this option is now ITM. 0.900 is the delta at Rs 66,000. Delta changes as the option moves deeper ITM.
+**Cross-Exam Context:** Series VIII covers delta calculation with similar examples.
+**Distributor's Pro-Tip:** As the option moves deeper ITM, delta approaches 1.0 — meaning the option price moves nearly 1-for-1 with the underlying. Deep OTM options have delta near 0.]]></text></explanation>
+    </question>
+</QF>

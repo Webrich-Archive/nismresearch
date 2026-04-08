@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_75" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If a commodity has strong seasonal supply (harvest once a year) and storage costs are high, which pricing pattern is most likely during the lean supply season?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Spot prices rise and convenience yield increases, potentially causing backwardation in futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Spot prices fall due to reduced demand]]></text></answer>
+            <answer correct="no"><text><![CDATA[Futures enter deep contango due to high storage costs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Spot and futures prices remain equal regardless of supply]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** During lean season, supply is scarce → spot rises. Processors value physical possession highly → convenience yield increases. If convenience yield exceeds cost-of-carry, market enters backwardation.
+**The Trap:** Demand doesn't necessarily fall in lean season — processors still need raw material. High storage costs support contango normally, but scarcity-driven convenience yield can overwhelm carry costs.
+**Cross-Exam Context:** Seasonal supply dynamics are unique to agricultural commodity derivatives.
+**Distributor's Pro-Tip:** Understanding seasonal patterns helps time hedging decisions — processors should hedge before the lean season when futures are cheaper (contango), not during it when backwardation increases costs.]]></text></explanation>
+    </question>
+</QF>

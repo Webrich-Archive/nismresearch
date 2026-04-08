@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The time value of an option is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The difference between the option premium and its intrinsic value]]></text></answer>
+            <answer correct="no"><text><![CDATA[The difference between the strike price and the spot price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The interest earned on the premium deposited]]></text></answer>
+            <answer correct="no"><text><![CDATA[The number of days remaining until expiry]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Time Value = Premium - Intrinsic Value. ATM and OTM options have only time value (intrinsic value is zero). Time value reflects uncertainty and the possibility of becoming ITM.
+**The Trap:** Strike minus spot is intrinsic value (for puts). Days to expiry influence time value but are not time value itself.
+**Cross-Exam Context:** Series VIII covers the same premium decomposition.
+**Distributor's Pro-Tip:** Time value erodes non-linearly — it accelerates as expiry approaches. This 'time decay' means option buyers face an inherent disadvantage the longer they hold.]]></text></explanation>
+    </question>
+</QF>

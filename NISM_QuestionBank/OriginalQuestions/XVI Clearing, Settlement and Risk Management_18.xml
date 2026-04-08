@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Clearing, Settlement and Risk Management_18" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Option buyers in commodity derivatives are charged:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Only the premium payment — no other margin is applicable]]></text></answer>
+            <answer correct="no"><text><![CDATA[Initial margin, ELM, and MTM like futures traders]]></text></answer>
+            <answer correct="no"><text><![CDATA[Half the margin of futures traders]]></text></answer>
+            <answer correct="no"><text><![CDATA[No payment at all]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Option buyers pay only the premium — they are not charged initial margin, ELM, or MTM. Only option sellers face margin requirements.
+**The Trap:** Full margin applies to option SELLERS, not buyers. Half-margin doesn't exist. Premium IS a payment.
+**Cross-Exam Context:** Series VIII covers option buyer/seller margin asymmetry.
+**Distributor's Pro-Tip:** This makes option buying capital-efficient compared to futures — the maximum outflow for a buyer is known upfront (the premium), eliminating margin call risk.]]></text></explanation>
+    </question>
+</QF>

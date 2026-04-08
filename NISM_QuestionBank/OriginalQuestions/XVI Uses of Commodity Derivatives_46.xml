@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Uses of Commodity Derivatives_46" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What happens to the basis as a commodity futures contract approaches expiry?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Basis narrows to zero due to convergence of spot and futures prices]]></text></answer>
+            <answer correct="no"><text><![CDATA[Basis widens as uncertainty increases]]></text></answer>
+            <answer correct="no"><text><![CDATA[Basis remains constant throughout the contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[Basis turns positive regardless of market conditions]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** As expiry approaches, the cost of carry diminishes and spot-futures prices converge, causing basis to approach zero. This happens in both contango and backwardation markets.
+**The Trap:** Basis narrows, not widens. It's not constant. It approaches zero (whether from positive or negative), not necessarily positive.
+**Cross-Exam Context:** Series VIII covers convergence at expiry.
+**Distributor's Pro-Tip:** Convergence is enforced by arbitrage near expiry — any significant basis at expiry would be immediately exploited by cash-and-carry or reverse arbitrageurs.]]></text></explanation>
+    </question>
+</QF>

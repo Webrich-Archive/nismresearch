@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Clearing, Settlement and Risk Management_51" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The purpose of the clearing corporation collecting different types of margins is to:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Ensure adequate collateral to cover potential losses and guarantee settlement in all market conditions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Generate revenue for the exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[Discourage retail participation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fund new exchange technology projects]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Multiple margin types ensure the CC has adequate collateral for different risk scenarios — from normal daily movements (initial, MTM) to extreme events (ELM) to delivery phase (tender margin).
+**The Trap:** Margins are for risk management, not revenue generation. They don't discourage participation — they protect the market.
+**Cross-Exam Context:** Series VII covers the rationale for multi-layered margins.
+**Distributor's Pro-Tip:** Think of margins as layers of protection: initial (everyday risk) → ELM (tail risk) → MTM (daily P&L) → special (event risk) → delivery (settlement risk). Each layer addresses a specific scenario.]]></text></explanation>
+    </question>
+</QF>

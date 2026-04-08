@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader buys a gold futures contract at Rs 50,000 per 10 grams (1 kg lot). If the spot price at expiry is Rs 55,000 per 10 grams, what is the total profit on the contract?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 5,00,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 5,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 50,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 5,50,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Profit per 10 gm = 55,000 - 50,000 = Rs 5,000. Lot = 1 kg = 100 units of 10 gm. Total profit = 5,000 × 100 = Rs 5,00,000.
+**The Trap:** Rs 5,000 is per 10 gm only. Rs 50,000 and Rs 5,50,000 are miscalculations. Always multiply per-unit profit by the number of units in the lot.
+**Cross-Exam Context:** Series VIII covers similar payoff calculations for equity futures contracts.
+**Distributor's Pro-Tip:** A 1 kg gold contract at Rs 50,000/10gm has a notional value of Rs 50 lakhs — clients must understand the leverage and potential for large absolute gains/losses.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_18" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When the strike price increases (all else constant), the impact on option values is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Call value decreases, Put value increases]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both call and put values increase]]></text></answer>
+            <answer correct="no"><text><![CDATA[Call value increases, Put value decreases]]></text></answer>
+            <answer correct="no"><text><![CDATA[No impact on either option]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Higher strike makes it harder for a call buyer to profit (must rise higher) → call value decreases. Higher strike makes it easier for a put buyer to profit (sell at higher price) → put value increases.
+**The Trap:** The effect is opposite — what benefits puts hurts calls when strike changes.
+**Cross-Exam Context:** Series VIII covers strike price impact identically.
+**Distributor's Pro-Tip:** For hedging purchases, choose strikes based on your risk budget — lower strikes (ITM calls) cost more but provide better protection; higher strikes (OTM calls) are cheaper but protect less.]]></text></explanation>
+    </question>
+</QF>

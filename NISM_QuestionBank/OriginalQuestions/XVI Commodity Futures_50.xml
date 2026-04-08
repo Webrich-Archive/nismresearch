@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_50" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If Gold spot is Rs 62,000 per 10gm and the 3-month futures are at Rs 63,000, what is the implied annualized cost-of-carry percentage?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Approximately 6.45%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 1.61%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 12.00%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 4.84%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Carry = 63,000 - 62,000 = Rs 1,000 for 3 months. Annualized = (1,000/62,000) × (12/3) × 100 = 1.613% × 4 = 6.45% approximately.
+**The Trap:** 1.61% is the 3-month rate, not annualized. 12% is too high. 4.84% uses 9/12. Always annualize by multiplying the periodic rate by 12/months.
+**Cross-Exam Context:** Implied cost-of-carry analysis is common across Series VIII and I.
+**Distributor's Pro-Tip:** Comparing implied carry to the prevailing interest rate reveals market expectations — if implied carry > interest rate, storage/insurance costs are being priced in; if lower, convenience yield may be at play.]]></text></explanation>
+    </question>
+</QF>

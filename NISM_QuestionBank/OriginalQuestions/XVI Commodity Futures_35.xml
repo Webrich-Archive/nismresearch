@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_35" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Commodities futures contracts have which type of payoff profile?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Linear payoff — profits and losses increase proportionally with price movement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Non-linear payoff — profits increase but losses are limited]]></text></answer>
+            <answer correct="no"><text><![CDATA[Step payoff — profits jump at specific price levels]]></text></answer>
+            <answer correct="no"><text><![CDATA[Exponential payoff — profits increase exponentially with price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Commodity futures have a linear payoff — for every unit change in the underlying price, the P&L changes by the same amount. Long profits as price rises, short profits as price falls.
+**The Trap:** Non-linear (limited loss) describes options, not futures. Step and exponential payoffs are not characteristic of standard derivatives.
+**Cross-Exam Context:** Series VIII covers linear (futures) vs non-linear (options) payoff profiles.
+**Distributor's Pro-Tip:** Linear payoff means unlimited profit AND unlimited loss — this is why margin requirements and position limits exist to manage the risk of large adverse price movements.]]></text></explanation>
+    </question>
+</QF>

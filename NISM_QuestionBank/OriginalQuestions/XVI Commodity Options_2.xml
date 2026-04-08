@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The option writer (seller) of a put option has:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[An obligation to buy from the put buyer if the option is exercised]]></text></answer>
+            <answer correct="no"><text><![CDATA[The right to buy at the strike price]]></text></answer>
+            <answer correct="no"><text><![CDATA[An obligation to sell at the strike price]]></text></answer>
+            <answer correct="no"><text><![CDATA[No obligation as premium has been received]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The put seller receives premium and in return has the OBLIGATION to buy from the put buyer at the strike price if exercised. The premium compensates for this risk.
+**The Trap:** The put buyer has the right to sell. The call seller has the obligation to sell. Receiving premium creates obligation, not immunity.
+**Cross-Exam Context:** Series VIII covers put writer obligations in equity options.
+**Distributor's Pro-Tip:** Put sellers must be prepared to buy the commodity at the strike price — this is only suitable if you believe the price won't fall below your breakeven (strike minus premium).]]></text></explanation>
+    </question>
+</QF>

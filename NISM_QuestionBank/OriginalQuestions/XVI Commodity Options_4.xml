@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An option where the spot price is higher than the strike price is classified as:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[In-the-money (ITM) for a call option and Out-of-the-money (OTM) for a put option]]></text></answer>
+            <answer correct="no"><text><![CDATA[In-the-money for both call and put options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Out-of-the-money for a call option and In-the-money for a put option]]></text></answer>
+            <answer correct="no"><text><![CDATA[At-the-money for both call and put options]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When spot > strike: Call is ITM (buyer profits by exercising the right to buy below market). Put is OTM (no benefit to exercise the right to sell below market).
+**The Trap:** The moneyness reverses for puts — a high spot price makes puts worthless. ITM/OTM classification depends on the option type.
+**Cross-Exam Context:** Series VIII and I cover moneyness classification identically.
+**Distributor's Pro-Tip:** ITM options have intrinsic value; OTM options have only time value. As expiry approaches, only ITM options retain value — OTM options decay to zero.]]></text></explanation>
+    </question>
+</QF>

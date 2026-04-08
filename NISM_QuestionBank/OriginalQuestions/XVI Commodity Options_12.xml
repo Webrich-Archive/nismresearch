@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_12" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A gold put option has strike price Rs 48,000 per 10 grams and premium of Rs 500. At expiry, the settlement price is Rs 50,000. What is the result for the put buyer?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Loss of Rs 500 (premium) — the put option is not exercised]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs 2,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs 2,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs 1,500]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** At settlement Rs 50,000 > strike Rs 48,000, the put is OTM. The put buyer would not exercise (why sell at 48,000 when market is 50,000?). Loss = premium paid = Rs 500.
+**The Trap:** The put buyer doesn't profit when spot rises above strike. No exercise means no transaction — only the upfront premium is lost.
+**Cross-Exam Context:** Series VIII covers OTM option expiry scenarios.
+**Distributor's Pro-Tip:** Put buyers expecting price decline lose only their premium if wrong — this makes puts attractive as insurance against price drops for commodity holders.]]></text></explanation>
+    </question>
+</QF>

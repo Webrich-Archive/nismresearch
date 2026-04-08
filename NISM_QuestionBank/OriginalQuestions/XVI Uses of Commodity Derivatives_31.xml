@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Uses of Commodity Derivatives_31" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A covered short call position is created by:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Combining a long underlying commodity position with a short (written) call option]]></text></answer>
+            <answer correct="no"><text><![CDATA[Selling a call option without holding the underlying]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buying a call option and simultaneously buying futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Selling both a call and a put on the same commodity]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Covered short call = long underlying + short call. The physical commodity 'covers' the call obligation. It earns premium income while partially hedging the long position.
+**The Trap:** Selling without holding is a NAKED short call (very risky). Buying call + futures is not covered writing. Selling both call and put is a short straddle.
+**Cross-Exam Context:** Series VIII covers covered call writing for equity portfolios.
+**Distributor's Pro-Tip:** Covered call writing is ideal for commodity holders expecting stable prices — the premium income enhances returns on an otherwise static inventory position.]]></text></explanation>
+    </question>
+</QF>

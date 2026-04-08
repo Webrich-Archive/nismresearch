@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_28" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The formula for calculating tick value in commodity futures is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Tick Value = (Lot size / Quotation factor) × Tick size]]></text></answer>
+            <answer correct="no"><text><![CDATA[Tick Value = Lot size × Quotation factor × Tick size]]></text></answer>
+            <answer correct="no"><text><![CDATA[Tick Value = Tick size / Lot size]]></text></answer>
+            <answer correct="no"><text><![CDATA[Tick Value = Lot size × Tick size]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Tick Value = (Lot size / Quotation factor) × Tick size. The quotation factor converts the lot size to the same units as the price quote.
+**The Trap:** Option (b) multiplies instead of dividing by quotation factor. Option (c) gives a tiny value. Option (d) ignores the quotation factor entirely.
+**Cross-Exam Context:** Tick value concept is specific to commodity derivatives due to varying lot sizes and quotation units.
+**Distributor's Pro-Tip:** Understanding tick value is essential for risk management — it tells you the exact P&L impact of the minimum price movement on your position.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_22" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[As the expiry date of a commodity futures contract approaches, the spot and futures prices:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Converge, as the cost of carry reduces to zero at expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Diverge further due to increased uncertainty]]></text></answer>
+            <answer correct="no"><text><![CDATA[Remain constant throughout the contract period]]></text></answer>
+            <answer correct="no"><text><![CDATA[Converge only if the market is in contango]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Convergence occurs because the cost of carry diminishes daily and reaches zero at expiry, causing spot and futures prices to merge — regardless of whether the market was in contango or backwardation.
+**The Trap:** They don't diverge at expiry. Prices are not constant. Convergence happens in both contango AND backwardation markets.
+**Cross-Exam Context:** Series VIII covers convergence for equity futures.
+**Distributor's Pro-Tip:** Convergence is enforced by arbitrage — if futures trade significantly above spot near expiry, arbitrageurs will buy spot and sell futures, forcing prices together.]]></text></explanation>
+    </question>
+</QF>

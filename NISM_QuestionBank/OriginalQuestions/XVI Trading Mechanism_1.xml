@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Trading Mechanism_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which type of exchange member can trade on their own account as well as on behalf of clients, and also clear and settle their own trades?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Trading cum Clearing Member (TCM) / Self Clearing Member (SCM)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trading Member (TM) only]]></text></answer>
+            <answer correct="no"><text><![CDATA[Professional Clearing Member (PCM)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Associated Person (AP)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** TCM/SCM can trade (own + client) AND clear/settle their own trades. TMs can only trade but clearing is done through a clearing member. PCMs can only clear, not trade.
+**The Trap:** TMs need a separate clearing member. PCMs cannot trade. APs are not members.
+**Cross-Exam Context:** Series VIII covers similar membership categories.
+**Distributor's Pro-Tip:** Most exchange members operate as TCMs — this provides end-to-end capability without relying on external clearing members.]]></text></explanation>
+    </question>
+</QF>

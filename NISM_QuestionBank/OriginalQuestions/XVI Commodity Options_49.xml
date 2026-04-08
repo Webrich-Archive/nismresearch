@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_49" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In Vega calculation for Silver options: original premium Rs 3,500, if volatility rises from 10% to 12% and premium becomes Rs 4,000, what is Vega?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 250 per 1% change in volatility]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 500 per 1% change]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 125 per 1% change]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 3,500 per 1% change]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Vega = Change in premium / Change in volatility = (4,000 - 3,500) / (12% - 10%) = 500 / 2 = Rs 250 per 1% change in volatility.
+**The Trap:** Rs 500 is the total change, not per-percent. Rs 125 halves it incorrectly. Divide the premium change by the volatility change in percentage points.
+**Cross-Exam Context:** Series VIII covers vega calculations.
+**Distributor's Pro-Tip:** A vega of Rs 250 means a 1% volatility spike adds Rs 250 to premium — before major events (budget, crop reports), implied volatility often rises, benefiting option holders.]]></text></explanation>
+    </question>
+</QF>

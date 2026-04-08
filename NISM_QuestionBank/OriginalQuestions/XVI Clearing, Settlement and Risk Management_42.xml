@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Clearing, Settlement and Risk Management_42" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In Index Futures settlement, the following margins are applicable:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Initial margin for both buyers and sellers, plus daily MTM margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only delivery period margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[No margins — index futures are risk-free]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only seller-side margins]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Index Futures have initial margin (both sides) and daily MTM. Since they're cash-settled, there's no delivery period margin. FSP is determined after 5 PM using VWAP.
+**The Trap:** Delivery period margin doesn't apply (no physical delivery for indices). They're NOT risk-free. Margins apply to both sides.
+**Cross-Exam Context:** Series VIII covers equity index futures margin.
+**Distributor's Pro-Tip:** Index futures have simpler margin structure than individual commodity futures — no lean period, delivery, or tender margins. This makes them easier to manage from a capital perspective.]]></text></explanation>
+    </question>
+</QF>

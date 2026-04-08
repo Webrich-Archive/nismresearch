@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Uses of Commodity Derivatives_12" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Mr. X buys 30 kg silver at Rs 50,000/kg spot, sells futures at Rs 51,500/kg. Borrowing cost for 2 months at 10% simple interest on Rs 15,00,000. What is the net arbitrage profit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 20,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 45,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 25,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 70,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Gross profit = (51,500 - 50,000) × 30 = 1,500 × 30 = Rs 45,000. Interest = 15,00,000 × 10% × (2/12) = Rs 25,000. Net profit = 45,000 - 25,000 = Rs 20,000.
+**The Trap:** Rs 45,000 is gross profit before financing cost. Rs 25,000 is the interest cost. Always deduct the cost of financing from gross arbitrage profit.
+**Cross-Exam Context:** Series VIII covers arbitrage profit calculations.
+**Distributor's Pro-Tip:** Cash-and-carry arbitrage locks in a known return — Rs 20,000 on Rs 15 lakh invested for 2 months is ~8% annualized, which may exceed bank deposit rates.]]></text></explanation>
+    </question>
+</QF>

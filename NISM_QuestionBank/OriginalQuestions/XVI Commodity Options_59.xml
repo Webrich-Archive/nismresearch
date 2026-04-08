@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_59" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In Options on Goods, the tick size may be:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Lower than that of the underlying commodity futures because it applies to option premium only]]></text></answer>
+            <answer correct="no"><text><![CDATA[Always the same as the underlying futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Always higher than futures tick size]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fixed at Re 1 for all commodity options]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Tick size of Options on Goods may be lower than the underlying futures because it applies only to the option premium (which is much smaller than the full commodity price).
+**The Trap:** It's not always the same or always higher. It's not fixed at Re 1 universally. Premium-based tick sizes are typically smaller than full-price tick sizes.
+**Cross-Exam Context:** Tick size differences between options and futures are specific to commodity markets.
+**Distributor's Pro-Tip:** Smaller tick sizes for option premiums allow finer pricing — important for market makers who need precise bid-ask spreads on options.]]></text></explanation>
+    </question>
+</QF>

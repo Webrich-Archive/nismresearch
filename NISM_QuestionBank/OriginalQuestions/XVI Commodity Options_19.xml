@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Delta of a call option measures:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The change in option premium for a unit change in the underlying asset price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The change in option premium due to time decay]]></text></answer>
+            <answer correct="no"><text><![CDATA[The change in delta for a unit change in underlying price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The change in premium per percentage change in volatility]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Delta = Change in option premium / Unit change in underlying asset price. It measures how much the option price moves when the underlying moves by one unit.
+**The Trap:** Time decay is Theta. Change in delta is Gamma. Volatility sensitivity is Vega. Delta specifically measures price sensitivity.
+**Cross-Exam Context:** Series VIII covers all five Greeks.
+**Distributor's Pro-Tip:** Delta also approximates the probability of the option ending ITM — a delta of 0.5 means roughly 50% chance the option expires in the money.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_74" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The relationship e^(-rT) × F = S is important because:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[It shows that Black-Scholes (for goods) and Black-76 (for futures) give the same option price at expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[It proves futures are always overpriced]]></text></answer>
+            <answer correct="no"><text><![CDATA[It applies only to agricultural commodities]]></text></answer>
+            <answer correct="no"><text><![CDATA[It is used to calculate convenience yield]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Since e^(-rT) × F = S, substituting F with S×e^(rT) in the Black-76 formula yields the original Black-Scholes formula. At expiry (T=0), both give identical option prices.
+**The Trap:** It doesn't prove overpricing. It applies to all commodities. It's not about convenience yield.
+**Cross-Exam Context:** Series IV covers the relationship between spot and futures in option pricing.
+**Distributor's Pro-Tip:** In practice, Options on Goods may differ from Options on Futures due to volatility differences (spot markets have no DPL) — the mathematical equivalence holds only under identical assumptions.]]></text></explanation>
+    </question>
+</QF>

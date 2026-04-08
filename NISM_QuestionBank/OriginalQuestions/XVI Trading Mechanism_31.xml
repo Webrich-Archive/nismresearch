@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Trading Mechanism_31" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A market order in commodity trading:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Is executed at the immediately available current market price — best ask for buyers, best bid for sellers]]></text></answer>
+            <answer correct="no"><text><![CDATA[Specifies the exact price for execution]]></text></answer>
+            <answer correct="no"><text><![CDATA[Is placed only during pre-market session]]></text></answer>
+            <answer correct="no"><text><![CDATA[Is valid only for one tick movement]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A market order takes the immediately available price — buyers get the best ask, sellers get the best bid. No price is specified — speed of execution is prioritized over price.
+**The Trap:** Specifying price is a limit order. Market orders work any time during trading. They're not limited to one tick.
+**Cross-Exam Context:** Series VIII covers market order execution.
+**Distributor's Pro-Tip:** Avoid market orders in illiquid commodity contracts — wide spreads mean buyers pay significantly more and sellers receive significantly less than mid-market price.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_22" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Theta of an option is typically:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Negative for long option positions — representing time decay that erodes option value daily]]></text></answer>
+            <answer correct="no"><text><![CDATA[Positive for long option positions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Zero for all options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Negative only for OTM options]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Theta is usually negative for long options (both calls and puts) because options lose time value each day. This time decay accelerates as expiry approaches.
+**The Trap:** Theta is negative for ALL long options (ITM, ATM, OTM), not just OTM. Short option positions have positive theta (they benefit from time decay).
+**Cross-Exam Context:** Series VIII covers theta and time decay extensively.
+**Distributor's Pro-Tip:** Theta decay is not linear — an option loses more time value in its last month than in the first month. Option sellers specifically target this accelerating decay near expiry.]]></text></explanation>
+    </question>
+</QF>

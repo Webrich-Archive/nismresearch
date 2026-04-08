@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_61" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An exporter has committed to deliver cotton at a fixed price in 2 months. He has not yet procured the cotton. To hedge his risk, he should:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy cotton futures to lock in the purchase price of raw cotton]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell cotton futures to lock in the selling price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy put options on cotton]]></text></answer>
+            <answer correct="no"><text><![CDATA[Do nothing as the export price is already fixed]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The exporter needs to BUY cotton (he hasn't procured yet) and fears price rise. Buying futures locks in the purchase price. If spot rises, futures profit offsets the higher procurement cost.
+**The Trap:** Selling futures would add risk (he doesn't have cotton yet). Put options profit from price decline. Doing nothing exposes him to rising input costs against a fixed export price.
+**Cross-Exam Context:** Series I covers exporter hedging in currency markets.
+**Distributor's Pro-Tip:** Exporters with committed prices face margin squeeze risk if input costs rise — buying commodity futures is essential to protect the committed export margin.]]></text></explanation>
+    </question>
+</QF>

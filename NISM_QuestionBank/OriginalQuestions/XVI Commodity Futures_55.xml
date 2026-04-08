@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_55" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A copper processor needs 100 MT of copper in 3 months. Current spot: Rs 750/kg, 3-month futures: Rs 770/kg. The processor's convenience yield for holding physical copper is Rs 30/kg. Should the processor buy spot or futures?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy in spot market — effective futures cost (Rs 770) exceeds spot + carry - convenience yield]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy futures at Rs 770 as it is always cheaper than spot]]></text></answer>
+            <answer correct="no"><text><![CDATA[Wait for prices to fall further before buying]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy half in spot and half in futures for diversification]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** With convenience yield of Rs 30/kg, the processor values spot ownership at Rs 750 + carry - 30. If carry (financing + storage) for 3 months is less than Rs 50 (770-750+30=50), buying spot is advantageous because the processor gets the convenience yield benefit of uninterrupted production.
+**The Trap:** Futures are not always cheaper — convenience yield makes spot holding more attractive for actual users/processors. Simple price comparison ignores the production benefit.
+**Cross-Exam Context:** Convenience yield application is unique to commodity markets.
+**Distributor's Pro-Tip:** Industrial processors should evaluate the full cost including convenience yield — for them, stock-outs (running out of raw material) can be far more costly than the carrying charges.]]></text></explanation>
+    </question>
+</QF>

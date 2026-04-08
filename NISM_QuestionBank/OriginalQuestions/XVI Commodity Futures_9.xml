@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The tick value for a regular Gold contract on MCX is calculated as: Lot size = 1 KG (1000 grams), Quotation = per 10 grams, Tick size = Re 1 per 10 grams. What is the tick value?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 100]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 1,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 10]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 1]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Tick Value = (Lot size / Quotation factor) × Tick size = (1000 / 10) × 1 = 100 × 1 = Rs 100.
+**The Trap:** Rs 1,000 divides incorrectly. Rs 10 omits the lot size factor. Rs 1 is just the tick size itself. The quotation factor converts the lot to the quoted units.
+**Cross-Exam Context:** Series VIII covers contract multiplier concepts for equity derivatives.
+**Distributor's Pro-Tip:** A Rs 100 tick value means every Re 1 movement per 10 grams translates to Rs 100 P&L per contract — gold traders must be aware of this leverage effect.]]></text></explanation>
+    </question>
+</QF>

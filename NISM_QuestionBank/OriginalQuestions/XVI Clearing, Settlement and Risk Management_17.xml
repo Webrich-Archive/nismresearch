@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Clearing, Settlement and Risk Management_17" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Mark-to-market pay-in and pay-out must be settled in cash before:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The start of trading on T+1 day]]></text></answer>
+            <answer correct="no"><text><![CDATA[The end of the trading week]]></text></answer>
+            <answer correct="no"><text><![CDATA[The contract expiry date]]></text></answer>
+            <answer correct="no"><text><![CDATA[No deadline — MTM can accumulate]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** MTM obligations must be settled in cash before the start of trading on T+1 day. If not settled, the exchange may impose higher initial margin (scaled by √2).
+**The Trap:** Not weekly or at expiry. MTM is DAILY and must be settled promptly.
+**Cross-Exam Context:** Series VIII covers daily MTM settlement.
+**Distributor's Pro-Tip:** Failure to meet T+1 morning MTM obligations can lead to position liquidation — always maintain sufficient cash in the settlement account to cover potential adverse price movements.]]></text></explanation>
+    </question>
+</QF>

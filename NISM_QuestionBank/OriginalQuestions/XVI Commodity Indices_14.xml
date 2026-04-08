@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Indices_14" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Commodity Index Options as permitted by SEBI are which style of options?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[European-style, cash-settled]]></text></answer>
+            <answer correct="no"><text><![CDATA[American-style, cash-settled]]></text></answer>
+            <answer correct="no"><text><![CDATA[European-style, physically settled]]></text></answer>
+            <answer correct="no"><text><![CDATA[American-style, physically settled]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Commodity index options are European-style (exercisable only at expiry) and cash-settled. All ITM contracts are auto-exercised unless buyer gives contrary instruction.
+**The Trap:** They are not American-style (exercisable any time). Physical settlement is not applicable for index derivatives (no physical commodity to deliver for an index).
+**Cross-Exam Context:** Series VIII covers European vs American options in equity derivatives. Series I covers currency option settlement styles.
+**Distributor's Pro-Tip:** European-style means no early exercise risk for option sellers — simplifying risk management compared to American-style options.]]></text></explanation>
+    </question>
+</QF>

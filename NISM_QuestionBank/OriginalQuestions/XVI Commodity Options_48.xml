@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_48" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A put option on natural gas has strike Rs 500. If the underlying price turns negative to Rs -200, what is the intrinsic value of the put?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 700]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 200]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 0]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Put IV = max(Strike - Underlying, 0) = max(500 - (-200), 0) = max(700, 0) = Rs 700. Even with negative underlying prices, the put option formula works correctly.
+**The Trap:** Rs 500 ignores the negative underlying. Rs 200 is just the absolute negative price. Put IV = Strike - Underlying regardless of the sign of the underlying.
+**Cross-Exam Context:** Negative underlying prices are specific to commodity futures (WTI April 2020 precedent).
+**Distributor's Pro-Tip:** This scenario showed why put options are valuable insurance — even in extreme negative-price events, put buyers are protected by the strike price guarantee.]]></text></explanation>
+    </question>
+</QF>

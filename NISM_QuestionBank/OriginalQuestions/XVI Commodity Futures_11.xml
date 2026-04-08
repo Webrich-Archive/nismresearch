@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The spot price of a commodity is Rs 6,000. The convenience yield is Rs 300 and total cost of carry is Rs 200. What is the theoretical futures price?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 5,900]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 6,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 6,200]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 5,700]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** F = S + C - Y = 6,000 + 200 - 300 = Rs 5,900. When convenience yield exceeds cost of carry, futures trade below spot (backwardation).
+**The Trap:** Rs 6,500 adds both instead of subtracting convenience yield. Rs 6,200 ignores convenience yield. Rs 5,700 subtracts carry instead of adding.
+**Cross-Exam Context:** Convenience yield is unique to commodity derivatives — not applicable in equity/currency derivatives (Series VIII, I).
+**Distributor's Pro-Tip:** When convenience yield > cost of carry, the market is in backwardation — this typically occurs during supply shortages when holding physical inventory has high value.]]></text></explanation>
+    </question>
+</QF>

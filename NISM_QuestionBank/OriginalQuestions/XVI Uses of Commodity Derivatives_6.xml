@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Uses of Commodity Derivatives_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A silver trader has 500 kg of silver and wants to hedge. SD of spot change = 1.17, SD of futures change = 0.62, correlation = 0.60. What is the hedge ratio?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[1.132 (approximately)]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.60]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.532]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.887]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** HR = 0.60 × (1.17/0.62) = 0.60 × 1.887 = 1.132. The higher SD in spot vs futures means more futures contracts are needed per unit of spot exposure.
+**The Trap:** 0.60 is just the correlation. 0.532 reverses the SD ratio. 1.887 is the SD ratio alone without correlation adjustment.
+**Cross-Exam Context:** Hedge ratio calculations are common across derivative exams.
+**Distributor's Pro-Tip:** A hedge ratio > 1.0 means spot prices are more volatile than futures — you need more than 1:1 futures coverage. For this silver trader: 500 × 1.132 = 566 kg worth of futures.]]></text></explanation>
+    </question>
+</QF>

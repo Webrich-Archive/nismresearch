@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_14" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A commodity has a spot price of Rs 10,000. The annual interest rate is 8% and holding period is 6 months. Using simple cost-of-carry (no storage), what is the fair futures price?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 10,400]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 10,800]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 10,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 10,200]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** F = S + C = 10,000 + (10,000 × 0.08 × 6/12) = 10,000 + 400 = Rs 10,400.
+**The Trap:** Rs 10,800 uses full year interest. Rs 10,000 ignores the cost of carry. Rs 10,200 uses 3 months instead of 6.
+**Cross-Exam Context:** Basic cost-of-carry is tested across all derivative exams (I, IV, VIII, XVI).
+**Distributor's Pro-Tip:** The cost-of-carry is the minimum return a spot holder should earn — if the futures premium is less than the carry cost, buying spot and selling futures creates an arbitrage opportunity.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Clearing, Settlement and Risk Management_65" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the minimum Volatility Scan Range (VSR) prescribed by SEBI for SPAN margin calculation?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[SEBI prescribes minimum VSR levels that are updated regularly to reflect current market conditions]]></text></answer>
+            <answer correct="no"><text><![CDATA[VSR is fixed at 5% for all commodities forever]]></text></answer>
+            <answer correct="no"><text><![CDATA[No minimum VSR exists]]></text></answer>
+            <answer correct="no"><text><![CDATA[VSR is set by individual brokers]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI prescribes minimum VSR levels for SPAN, which are updated daily to reflect current market conditions. SPAN scenarios use VSR to estimate potential portfolio loss.
+**The Trap:** VSR is NOT fixed — it changes with market volatility. SEBI sets minimums. Brokers don't set VSR.
+**Cross-Exam Context:** Series VIII covers SPAN margin mechanics.
+**Distributor's Pro-Tip:** When market volatility rises, VSR increases → higher SPAN margins. This means your margin requirement can change without any change in your position — monitor volatility closely.]]></text></explanation>
+    </question>
+</QF>

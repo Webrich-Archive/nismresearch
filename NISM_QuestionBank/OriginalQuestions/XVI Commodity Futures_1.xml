@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The spot price of a commodity is Rs 8,000, the annual interest rate is 12%, and storage cost is 2% per annum. What is the fair value of a 3-month futures contract using simple cost-of-carry?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 8,280]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 8,340]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 8,960]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 8,120]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** F = S + C. Finance cost = 8,000 × 0.12 × (3/12) = Rs 240. Storage = 8,000 × 0.02 × (3/12) = Rs 40. Total carry = 280. F = 8,000 + 280 = Rs 8,280.
+**The Trap:** Rs 8,340 uses 4.25% (wrong period). Rs 8,960 uses 12% for full year. Rs 8,120 omits storage cost. Always prorate both interest and storage for the holding period.
+**Cross-Exam Context:** Series VIII and IV use similar cost-of-carry calculations for equity and interest rate derivatives.
+**Distributor's Pro-Tip:** In commodity futures, storage cost is a real component unlike financial futures — this makes commodity cost-of-carry higher than equivalent financial derivatives.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Uses of Commodity Derivatives_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The Hedge Ratio is calculated as:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Correlation coefficient × (Standard deviation of spot price change / Standard deviation of futures price change)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Spot price / Futures price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Number of lots / Total exposure]]></text></answer>
+            <answer correct="no"><text><![CDATA[Premium paid / Spot price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Hedge Ratio = ρ × (σ_spot / σ_futures), where ρ is correlation between spot and futures, and σ represents standard deviations of price changes.
+**The Trap:** Spot/Futures ratio is the price relationship, not the hedge ratio. Lots/exposure is the number of contracts, not the ratio itself. Premium/spot is irrelevant.
+**Cross-Exam Context:** Series VIII covers optimal hedge ratio for equity portfolio hedging.
+**Distributor's Pro-Tip:** A hedge ratio of 0.912 means hedge 91.2% of exposure — not 100%. Over-hedging (100%) can actually increase risk if spot-futures correlation is not perfect.]]></text></explanation>
+    </question>
+</QF>

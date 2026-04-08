@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_17" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When the price of the underlying commodity rises, the impact on option premiums is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Call premium rises, Put premium falls]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both call and put premiums rise]]></text></answer>
+            <answer correct="no"><text><![CDATA[Call premium falls, Put premium rises]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both call and put premiums fall]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Rising underlying price increases call value (more likely to be exercised profitably) and decreases put value (less likely to be exercised).
+**The Trap:** The impact is opposite for calls and puts. They don't move in the same direction when the underlying price changes.
+**Cross-Exam Context:** Series VIII and I cover the same directional impact analysis.
+**Distributor's Pro-Tip:** This is why delta is positive for calls and negative for puts — delta captures the directional sensitivity of option price to underlying price movement.]]></text></explanation>
+    </question>
+</QF>

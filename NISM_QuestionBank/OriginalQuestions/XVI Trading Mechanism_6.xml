@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Trading Mechanism_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Circuit filters in commodity futures are also known as:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Daily Price Range (DPR) or Daily Price Limit (DPL)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Tick Size]]></text></answer>
+            <answer correct="no"><text><![CDATA[Position Limits]]></text></answer>
+            <answer correct="no"><text><![CDATA[Margin Requirements]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Circuit filters = Daily Price Range (DPR) = Daily Price Limit (DPL). They set the maximum allowed price movement from the previous day's settlement price.
+**The Trap:** Tick size is the minimum price increment. Position limits cap open interest. Margins are deposit requirements.
+**Cross-Exam Context:** Series VIII covers circuit breakers for equity markets.
+**Distributor's Pro-Tip:** When DPL is hit, trading may be halted — traders with losing positions cannot exit, adding to risk. Factor DPL into risk management planning.]]></text></explanation>
+    </question>
+</QF>

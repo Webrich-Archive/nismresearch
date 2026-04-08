@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The cost-of-carry model for commodity futures is expressed as:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[F = S + C, where F is futures price, S is spot price, and C is cost of carry]]></text></answer>
+            <answer correct="no"><text><![CDATA[F = S - C]]></text></answer>
+            <answer correct="no"><text><![CDATA[F = S × C]]></text></answer>
+            <answer correct="no"><text><![CDATA[F = C / S]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The cost-of-carry model states F = S + C, meaning the futures price equals the spot price plus the cost of carrying the commodity (financing, storage, insurance) until delivery.
+**The Trap:** F = S - C would give a price below spot. F = S × C and F = C/S are mathematically incorrect representations.
+**Cross-Exam Context:** Series VIII uses F = S × e^(r-d)t for equity futures. Series IV uses similar models for bond futures.
+**Distributor's Pro-Tip:** The main cost-of-carry components for commodities are: finance cost (interest), storage cost, and insurance — these collectively determine the normal futures premium over spot.]]></text></explanation>
+    </question>
+</QF>

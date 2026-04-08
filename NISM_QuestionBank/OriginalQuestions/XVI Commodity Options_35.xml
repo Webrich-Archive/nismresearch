@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_35" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For ATM Options on Futures, the Put-Call parity relationship implies:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Call price equals Put price (C = P)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Call price is always greater than Put price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Put price is always greater than Call price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Call price equals twice the Put price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For Options on Futures ATM, C - P = [F/(1+rt)] - [K/(1+rt)]. When F = K (ATM), C - P = 0, so C = P.
+**The Trap:** For Options on Goods (where underlying is spot), C > P for ATM because S > PV(K). The C = P relationship is specific to Options on Futures at ATM.
+**Cross-Exam Context:** Series VIII covers put-call parity for equity options.
+**Distributor's Pro-Tip:** This ATM parity helps verify option pricing — if ATM call and put on futures have significantly different premiums, there may be a mispricing or arbitrage opportunity.]]></text></explanation>
+    </question>
+</QF>

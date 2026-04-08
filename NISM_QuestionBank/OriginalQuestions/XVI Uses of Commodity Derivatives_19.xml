@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Uses of Commodity Derivatives_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An intra-commodity spread (calendar spread) involves:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Simultaneously buying and selling futures of the same commodity but different expiry months]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buying and selling different but related commodities]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buying spot and selling futures of the same commodity]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buying call and selling put on the same commodity]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A calendar spread involves long and short positions in different expiry months of the SAME commodity. Lower margin is required due to reduced settlement risk.
+**The Trap:** Different commodities is INTER-commodity spread. Spot-futures is arbitrage. Call-put is an options strategy.
+**Cross-Exam Context:** Series VIII covers calendar spreads in equity derivatives.
+**Distributor's Pro-Tip:** Calendar spreads have lower margin (up to 75% benefit per SEBI March 2023 circular) — they're popular for expressing views on term structure without taking directional risk.]]></text></explanation>
+    </question>
+</QF>

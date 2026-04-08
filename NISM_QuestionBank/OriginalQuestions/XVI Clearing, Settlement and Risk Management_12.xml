@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Clearing, Settlement and Risk Management_12" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Penalty on seller for delivery default in non-agricultural commodity futures is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[3% of Settlement Price + replacement cost]]></text></answer>
+            <answer correct="no"><text><![CDATA[4% of Settlement Price + replacement cost]]></text></answer>
+            <answer correct="no"><text><![CDATA[5% of Settlement Price]]></text></answer>
+            <answer correct="no"><text><![CDATA[10% of contract value]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For non-agri commodities: 3% of settlement price + replacement cost. Replacement cost = settlement price minus higher of (last spot price or 3-day avg spot price), if higher than settlement.
+**The Trap:** 4% is for agricultural commodities (higher penalty). 5% and 10% are not specified.
+**Cross-Exam Context:** Delivery default norms are prescribed by SEBI.
+**Distributor's Pro-Tip:** The penalty structure: at least 1.75% goes to SGF, up to 0.25% to CC, and the balance (1% for non-agri) plus replacement cost goes to the entitled buyer.]]></text></explanation>
+    </question>
+</QF>

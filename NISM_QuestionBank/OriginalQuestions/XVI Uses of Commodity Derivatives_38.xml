@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Uses of Commodity Derivatives_38" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Mr. X observes basis strengthening from -700 to -350 in a contango market. His short hedge (sell spot at 850, buy futures at 1200) yields a net gain of:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 350 per unit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 600 per unit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 250 per unit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 0]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Spot: buy at 1100, sell at 850 → loss of 250. Futures: sell at 1800, buy at 1200 → gain of 600. Net = 600 - 250 = Rs 350. Alternatively: basis strengthened from -700 to -350 = Rs 350 gain for short hedger.
+**The Trap:** Rs 600 is only the futures gain. Rs 250 is only the spot loss. Rs 0 assumes perfect offset. The net is the basis change.
+**Cross-Exam Context:** Hedge P&L equals basis change — a critical concept.
+**Distributor's Pro-Tip:** The key insight: for a short hedger, profit/loss = basis change. Basis strengthened by Rs 350, so the hedger gains Rs 350 — regardless of the absolute price levels.]]></text></explanation>
+    </question>
+</QF>

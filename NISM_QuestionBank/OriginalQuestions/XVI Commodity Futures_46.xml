@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_46" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Spot price of silver is Rs 75,000 per kg. Annual interest rate is 9% and storage cost is 1.5%. What is the fair value of a 2-month futures contract (simple interest)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 76,312.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 82,875.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 75,875.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 76,125.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Finance = 75,000 × 0.09 × (2/12) = Rs 1,125. Storage = 75,000 × 0.015 × (2/12) = Rs 187.50. Total carry = 1,312.50. F = 75,000 + 1,312.50 = Rs 76,312.50.
+**The Trap:** Rs 82,875 uses full year. Rs 75,875 omits storage. Rs 76,125 uses only 1.5 months. Always prorate both components for the exact holding period.
+**Cross-Exam Context:** Silver futures pricing follows the same cost-of-carry model as gold (Series I, VIII).
+**Distributor's Pro-Tip:** Silver has higher storage cost relative to value compared to gold — the bulkier nature of silver means warehouse fees are proportionally larger.]]></text></explanation>
+    </question>
+</QF>

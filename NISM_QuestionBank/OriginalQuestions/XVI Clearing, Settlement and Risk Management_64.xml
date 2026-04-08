@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Clearing, Settlement and Risk Management_64" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If additional margin of 1% is imposed on both sides and special margin of 1% is imposed on only the buy side, a buyer's total extra margin is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[2% additional (both sides = buy + sell, but buyer pays only the buy side: 1% additional + 1% special = 2%)]]></text></answer>
+            <answer correct="no"><text><![CDATA[1%]]></text></answer>
+            <answer correct="no"><text><![CDATA[3%]]></text></answer>
+            <answer correct="no"><text><![CDATA[0%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Buyer pays: 1% additional margin (applicable to both sides) + 1% special margin (buy side only) = 2% total extra margin. Seller pays only 1% additional.
+**The Trap:** 1% misses the special margin. 3% adds both sides of additional. 0% ignores the levies.
+**Cross-Exam Context:** Understanding directional margin levies is important for capital planning.
+**Distributor's Pro-Tip:** Special margins target specific sides based on market conditions — if the exchange imposes special margin on the buy side, it signals concern about excessive buying pressure.]]></text></explanation>
+    </question>
+</QF>

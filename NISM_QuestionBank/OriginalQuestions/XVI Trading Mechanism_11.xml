@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Trading Mechanism_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Due Date Rate (DDR) in commodity futures is used for:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Determining daily mark-to-market margin, delivery default penalties, and compensation to buyers in case of non-delivery]]></text></answer>
+            <answer correct="no"><text><![CDATA[Setting the initial margin for new positions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Calculating brokerage charges]]></text></answer>
+            <answer correct="no"><text><![CDATA[Determining exchange membership fees]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** DDR/DSP is used for: (1) daily MTM calculations, (2) determining delivery default penalties, (3) working out compensation to buyers in case of non-delivery by sellers.
+**The Trap:** Initial margin uses VaR methodology. Brokerage and membership fees are separate.
+**Cross-Exam Context:** Settlement price roles are specific to commodity derivatives.
+**Distributor's Pro-Tip:** DDR is critical for delivery-based contracts — it determines the financial outcome for both settling and defaulting parties at contract maturity.]]></text></explanation>
+    </question>
+</QF>

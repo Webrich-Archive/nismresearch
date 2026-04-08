@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_69" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the Gold Options example, with futures DSP at Rs 49,900, a call option with strike Rs 48,000 is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[ITM — it will be automatically exercised unless contrary instruction is given]]></text></answer>
+            <answer correct="no"><text><![CDATA[OTM — it will expire worthless]]></text></answer>
+            <answer correct="no"><text><![CDATA[ATM — exercise is optional]]></text></answer>
+            <answer correct="no"><text><![CDATA[CTM — exercise requires explicit instruction]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Call with strike 48,000 vs DSP 49,900: since 49,900 > 48,000, the call is ITM. ITM Options on Futures are auto-exercised unless the holder gives contrary instruction.
+**The Trap:** The call is NOT OTM (that would be strikes above 49,900). CTM only applies to Options on Goods. ATM would be strike = 49,900.
+**Cross-Exam Context:** Exercise rules for ITM options are consistent across Series VIII and XVI.
+**Distributor's Pro-Tip:** The intrinsic value is Rs 1,900 per 10gm — the holder should only give contrary instruction if transaction costs exceed this amount, which is unlikely for such a deep ITM option.]]></text></explanation>
+    </question>
+</QF>

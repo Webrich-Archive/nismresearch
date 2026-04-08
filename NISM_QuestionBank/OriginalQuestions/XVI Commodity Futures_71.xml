@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_71" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Spot price of a commodity is Rs 3,000. Interest rate is 8% p.a., storage cost is 2% p.a., and convenience yield is 3% p.a. What is the 6-month futures price (simple interest)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 3,105]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 3,150]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 3,195]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 3,060]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** F = S + C - Y. Finance = 3,000 × 0.08 × 0.5 = 120. Storage = 3,000 × 0.02 × 0.5 = 30. Convenience = 3,000 × 0.03 × 0.5 = 45. F = 3,000 + 120 + 30 - 45 = Rs 3,105.
+**The Trap:** Rs 3,150 ignores convenience yield. Rs 3,195 adds convenience yield. Rs 3,060 subtracts storage too. Net carry = interest + storage - convenience yield.
+**Cross-Exam Context:** Combined cost-of-carry with convenience yield is unique to commodity exams.
+**Distributor's Pro-Tip:** The net carry rate here is 8% + 2% - 3% = 7% annualized. Convenience yield effectively subsidizes the cost of carrying the commodity.]]></text></explanation>
+    </question>
+</QF>

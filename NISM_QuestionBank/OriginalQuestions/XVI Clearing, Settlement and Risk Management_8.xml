@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Clearing, Settlement and Risk Management_8" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Tender period/delivery period margin is calculated as:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[3% + 5 day 99% VaR of Spot Prices or 20%, whichever is higher]]></text></answer>
+            <answer correct="no"><text><![CDATA[A flat 5% of contract value]]></text></answer>
+            <answer correct="no"><text><![CDATA[Same as the initial margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[10% of the delivery value]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Delivery period margin = max(3% + 5-day 99% VaR of spot prices, 20%). This higher margin reflects the increased risk during the delivery phase.
+**The Trap:** Not a flat percentage. Not same as initial margin. Not simply 10%. The formula has a floor of 20%.
+**Cross-Exam Context:** Delivery margin is specific to commodity derivatives.
+**Distributor's Pro-Tip:** The 20% floor means delivery period margin is at least 20% of contract value — a dramatic increase from the typical 5-10% initial margin. Plan capital accordingly.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_34" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If spot markets are non-functional on the expiry day and no polled price is available, which is the LAST resort for determining FSP?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Last available polled spot price before the expiry day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Futures closing price on expiry day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Previous month's average spot price]]></text></answer>
+            <answer correct="no"><text><![CDATA[International benchmark price converted to INR]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** As a last resort, the last available polled spot price is used as FSP. For example, if spot markets are closed for a week due to Diwali and expiry is on the last day, the polling price from the week before may be used.
+**The Trap:** The hierarchy is: (1) alternate basis center price, (2) extrapolation from futures-spot trend, (3) futures prices after removing outliers, (4) last available polled price as final fallback.
+**Cross-Exam Context:** Fallback FSP mechanisms are unique to commodity derivatives.
+**Distributor's Pro-Tip:** Traders should be aware of holiday schedules near expiry — extended spot market closures can lead to FSP being based on stale prices, creating settlement risk.]]></text></explanation>
+    </question>
+</QF>

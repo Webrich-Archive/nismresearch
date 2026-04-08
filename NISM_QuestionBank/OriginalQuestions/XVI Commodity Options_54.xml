@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_54" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For Options on Goods, lot size and trading hours are:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Same as the underlying commodity futures contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[Different from futures — larger lot sizes for goods]]></text></answer>
+            <answer correct="no"><text><![CDATA[Determined separately by SEBI for each commodity]]></text></answer>
+            <answer correct="no"><text><![CDATA[Same as equity options on the same exchange]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Options on Goods have the same lot size and trading hours as the underlying commodity futures contract. This ensures netting can be done without odd lot problems.
+**The Trap:** Lot sizes are specifically kept the same as futures. They're not determined separately by SEBI. They have no relation to equity options.
+**Cross-Exam Context:** Lot size alignment between options and futures is specific to commodity markets.
+**Distributor's Pro-Tip:** Same lot size means a trader can offset 1 Option on Goods position with 1 futures position for net delivery — this is essential for clearing corporation operations.]]></text></explanation>
+    </question>
+</QF>

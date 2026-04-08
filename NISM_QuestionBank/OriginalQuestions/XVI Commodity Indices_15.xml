@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Indices_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[On the expiry day of Commodity Index Futures, the Final Settlement Price (FSP) is based on:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Volume Weighted Average Price (VWAP) of constituents' futures during 4:00 PM to 5:00 PM]]></text></answer>
+            <answer correct="no"><text><![CDATA[Closing price of the index at 3:30 PM]]></text></answer>
+            <answer correct="no"><text><![CDATA[Opening price of the index on the expiry day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Average of high and low prices during the entire trading session]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** FSP is determined after 5:00 PM based on index calculation using VWAP of constituents' futures contracts during 4:00 PM to 5:00 PM on expiry day.
+**The Trap:** Not the closing price at 3:30 PM (equity market timing). Not the opening price or session average — the specific 4-5 PM VWAP window is used.
+**Cross-Exam Context:** Series VIII covers settlement price determination for equity index futures.
+**Distributor's Pro-Tip:** The 4-5 PM VWAP window ensures FSP reflects actual traded prices during the concentrated final hour — reducing manipulation risk compared to a single closing price.]]></text></explanation>
+    </question>
+</QF>

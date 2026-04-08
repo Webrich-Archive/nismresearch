@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Uses of Commodity Derivatives_43" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A cotton merchant enters forward sale at Rs 18,000/bale for April delivery. He buys a March 31 call option at strike Rs 17,500 with premium Rs 500. If cotton spot drops to Rs 16,000 on March 31, what is his net gain per bale?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 1,500 (forward sale revenue minus spot cost minus unexercised option premium)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 2,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 1,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Forward sale price = 18,000. Spot purchase = 16,000. Call not exercised (spot < strike). Premium lost = 500. Net gain = 18,000 - 16,000 - 500 = Rs 1,500/bale.
+**The Trap:** Rs 2,000 ignores premium. Rs 500 is just the premium. Rs 1,000 miscalculates. The call option was insurance — not needed since prices fell, but premium is still a cost.
+**Cross-Exam Context:** Series VIII covers option hedging P&L with forward commitments.
+**Distributor's Pro-Tip:** Had cotton risen to Rs 19,000, the merchant would exercise the call (buy at 17,500) and deliver against the forward sale at 18,000 — the option protected against the upside risk.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_23" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Vega measures the sensitivity of option premium to changes in:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Volatility of the underlying asset — positive for both calls and puts]]></text></answer>
+            <answer correct="no"><text><![CDATA[Time to expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Interest rates]]></text></answer>
+            <answer correct="no"><text><![CDATA[Strike price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Vega = Change in premium / Change in volatility. It is positive for both call and put options — higher volatility increases both premiums as the expected payoff range widens.
+**The Trap:** Time sensitivity is Theta. Interest rate sensitivity is Rho. Strike price doesn't change during the contract life.
+**Cross-Exam Context:** Series VIII covers vega and implied volatility trading.
+**Distributor's Pro-Tip:** In the Silver example, Vega was Rs 250 per 1% volatility change — a 2% volatility spike adds Rs 500 to the premium, which is significant on a Rs 3,500 option.]]></text></explanation>
+    </question>
+</QF>

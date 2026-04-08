@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_63" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Higher volatility affects option premiums by:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Increasing premiums for BOTH call and put options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Increasing call premiums but decreasing put premiums]]></text></answer>
+            <answer correct="no"><text><![CDATA[Decreasing premiums for both]]></text></answer>
+            <answer correct="no"><text><![CDATA[Having no effect on premiums]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Higher volatility increases the probability of the option ending ITM (for both calls and puts), thus increasing premiums for both. Volatility is the only factor that moves calls and puts in the same direction.
+**The Trap:** Unlike underlying price, strike, and interest rates which affect calls and puts differently, volatility is uniformly positive for both.
+**Cross-Exam Context:** Series VIII covers volatility's symmetric impact.
+**Distributor's Pro-Tip:** This is why before major events (crop reports, OPEC meetings), both call and put premiums rise — the market prices in expected volatility, benefiting option holders.]]></text></explanation>
+    </question>
+</QF>

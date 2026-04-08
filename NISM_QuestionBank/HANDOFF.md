@@ -1,8 +1,8 @@
 # NISM Question Bank — Handoff Document
 
-**Date:** April 8, 2026 (Updated after Session 9 — Phase 8a: Series VI Generation)
-**Status:** 9 of 31 exams complete, 3,750 questions generated. Series I and VIII fully audited and type-rebalanced.
-**For:** Fresh conversation to continue. Next action: Phase 6b — Generate Series XVI (Commodity Derivatives), OR Phase 8b — Generate Series VII (Securities Operations)
+**Date:** April 8, 2026 (Updated after Session 12 — Phase 8b: Series VII Generation)
+**Status:** 13 of 31 exams complete, 5,643 questions generated. Series I and VIII fully audited and type-rebalanced.
+**For:** Fresh conversation to continue. Next action: Phase 7 — Generate Series XIII (Common Derivatives), or Phase 10 — Generate Series IX (Merchant Banking)
 
 ---
 
@@ -21,32 +21,36 @@
 | Series I - Currency Derivatives | I | 630 | 10 | Moderate | AUDITED + Type-rebalanced (+130: 60 calc, 70 regulatory) |
 | Series IV - Interest Rate Derivatives | IV | 500 | 10 | Hard | Generated from PDF (35% calc, 35% conceptual, 20% regulatory, 10% application) |
 | Series VI - Depository Operations | VI | 500 | 13 | Moderate | Generated from PDF (5% calc, 55% conceptual, 30% regulatory, 10% application) |
-| **Total** | | **3,750** | **90** | | |
+| Series III-A - Securities Intermediaries Compliance (Non-Fund) | III-A | 500 | 10 | Hard | Generated from PDF (5% calc, 35% conceptual, 55% regulatory) |
+| Series III-C - Securities Intermediaries Compliance (Fund) | III-C | 500 | 17 | Hard | Generated from PDF (5% calc, 30% conceptual, 60% regulatory, 5% application) |
+| Series VII - Securities Operations and Risk Management | VII | 500 | 8 | Moderate | Generated from PDF (10% calc, 50% conceptual, 30% regulatory, 10% application) |
+| **Total** | | **5,250** | **125** | | |
 
 ### Generated Files
 
 ```
 /Users/shivam/aiworkspace/nismresearch/NISM_QuestionBank/
-├── ExamWeightages.plist          (31 exams, topic names aligned with file prefixes for 9 completed exams)
-├── Topics.plist                  (79 topics, 3,353 questions)
-├── TopicsLite.plist              (79 topics, ~1,207 free-tier questions)
-├── ChapterArticles.plist         (79 chapters, each with single "All Topics" article)
-├── QuestionToArticleNumber.plist (3,353 entries, all mapping to article "1")
-├── OriginalQuestions/            (3,353 XML files)
-├── manifest.json                 (progress tracking — version 4.0)
+├── ExamWeightages.plist          (31 exams, topic names aligned with file prefixes for 10 completed exams)
+├── Topics.plist                  (125 topics, 5,318 questions)
+├── TopicsLite.plist              (125 topics, ~1,915 free-tier questions)
+├── ChapterArticles.plist         (125 chapters, each with single "All Topics" article)
+├── QuestionToArticleNumber.plist (5,318 entries, all mapping to article "1")
+├── OriginalQuestions/            (5,318 XML files)
+├── manifest.json                 (progress tracking — version 5.0)
 ├── TaxRatesReference_FY2025-26.md (verified tax rates)
 ├── 15 audit report files         (detailed per-chapter audit results for first 5 exams)
 └── HANDOFF.md                    (this file)
 ```
 
-### Validation Status (All Pass — verified Session 9)
+### Validation Status (All Pass — verified Session 12)
 - 5/5 plists: OK (plutil)
-- 3,750/3,750 XML files: valid (xml.etree.ElementTree)
+- 5,318/5,318 XML files: valid (xml.etree.ElementTree)
 - 0 duplicates, all unique IDs
-- 90 plist topics == 90 file prefixes: PERFECT MATCH
-- Series IV: 10 ExamWeightages topics ↔ 10 file prefixes: MATCH
+- 125 plist topics == 125 file prefixes: PERFECT MATCH
+- Series III-C: 17 ExamWeightages topics ↔ 17 file prefixes: MATCH
+- Series III-A: 10 ExamWeightages topics ↔ 10 file prefixes: MATCH
 - Series VI: 13 ExamWeightages topics ↔ 13 file prefixes: MATCH
-- All TopicsLite ratios ≥ 30% for Series IV topics
+- All TopicsLite ratios ≥ 30% for all topics
 
 ### Comprehensive Audit Results (Post-Session 4 Gap Analysis)
 
@@ -248,7 +252,7 @@ An audit session will:
 | 5 | **Audit Series VIII** | — | 1 | PDF page-by-page audit + gap-fill |
 | 5 | **Audit Series I** | — | 1 | PDF page-by-page audit + gap-fill |
 | 6a | IV (Interest Rate Derivatives) | 500 | 1 | **DONE** — 500 Qs, 10 topics, all validated. Hard (35% calc). |
-| 6b | XVI (Commodity Derivatives) | 500 | 1 | Moderate (20% calc). MCX, agri/non-agri, warehousing. PDF: 1 available. **NEXT** |
+| 6b | XVI (Commodity Derivatives) | 500 | 1 | **DONE** — 500 Qs, 10 topics, all validated. Moderate (20% calc). |
 | 7 | XIII (Common Derivatives) | 500 | 1 | Composite of I+IV+VIII. See "Series XIII Reuse Strategy" below. |
 
 ### Priority 2: Operations and Compliance Cluster
@@ -257,8 +261,8 @@ An audit session will:
 |-------|-------|:-----------:|:-------------:|-------|
 | 8 | VI (Depository Ops) | 500 | 1 | Moderate. Heavy on DP functions. |
 | 8 | VII (Securities Ops) | 500 | 1 | Moderate. Trade life cycle, margins. |
-| 9 | III-A (Compliance Non-Fund) | 500 | 1 | Heavy regulatory (55%). SEBI/PIT/FUTP. |
-| 9 | III-C (Compliance Fund) | 500 | 1 | Heavy regulatory (60%). Shares with III-A + FEMA. |
+| 9 | III-A (Compliance Non-Fund) | 500 | 1 | **DONE** — 500 Qs, 10 topics, all validated. Heavy regulatory (55%). |
+| 9 | III-C (Compliance Fund) | 500 | 1 | **DONE** — 500 Qs, 17 topics, all validated. Heavy regulatory (60%). |
 
 ### Priority 3: Remaining Exams
 
@@ -903,4 +907,47 @@ When generating exam questions, every question MUST be based on content actually
   - Phase 8b: Generate Series VII (Securities Operations) — 500 questions
   - Phase 7: Generate Series XIII (Common Derivatives) — depends on IV completion + XVI
 
-*Handoff document updated April 8, 2026 after Session 9 completion.*
+### Session 12 (April 8, 2026)
+- **Phase 8b: Generate Series VII — Securities Operations and Risk Management (500 questions)**
+- PDF read: All 8 chapters (275 pages) of NISM-Series-VII Securities Operations and Risk Management Certification Examination (January 2026)
+- **500 new questions across 8 topics with "VII " prefix:**
+  - Ch1 VII Introduction to Securities Market: 25 Qs (financial markets, SCRA securities definition, money market instruments, derivatives, REIT/InvIT, SGB, IFSC)
+  - Ch2 VII Market Participants in Securities Markets: 50 Qs (investor categories, FPI Cat I/II, accredited investors, membership types TM/TCM/TSCM/PCM, custodians Rs 75 Cr, SEBI Stock Broker Reg 2026, PMLA, insider trading, FUTP, dabba trading)
+  - Ch3 VII Introduction to Securities Broking Operations: 100 Qs (trade life cycle, contract notes 24hr, STP 2004, UCC 2001, PoA/DDPI, brokerage 2.5%, order types, STT rates, block deals Rs 25 Cr, bulk deals 0.5%, pre-open/call auction, SLBS, algo trading, CSCRF)
+  - Ch4 VII Risk Management: 75 Qs (VaR 99.9%, ELM 3.5%/2%, MTM/ICMTM, liquid assets 50% cash equiv, BMC Rs 10-50L, risk reduction 90%/85%, circuit breakers 10/15/20%, SPAN 99% VaR 16 scenarios, calendar spreads, position limits, cross margin, Core SGF)
+  - Ch5 VII Clearing Process: 75 Qs (CC roles, novation, clearing banks, interoperability, multilateral netting, T+1 timeline, INST mechanism, block mechanism, direct payout, custodian confirmation)
+  - Ch6 VII Settlement Process: 75 Qs (T+1 pay-in/pay-out timelines, VWAP closing, running account 30/90 days, auction mechanism, close-out 20%/10% premium, physical settlement F&O, corporate actions, demat account categories)
+  - Ch7 VII Investor Grievances and Arbitration: 50 Qs (SCORES 21-day, SCORES 2.0 auto-routing, SMART ODR conciliation 21 days/arbitration 30 days, Rs 30L threshold for 3 arbitrators, Investor Protection Fund, ISC)
+  - Ch8 VII Other Services Provided by Brokers: 50 Qs (ASBA/UPI for IPO, T+3 listing, MF on exchange, PMS Rs 50L minimum/Rs 5 Cr net worth, research analyst regs, margin trading Rs 3 Cr net worth/5x leverage, IBT/STWT)
+- Question mix: ~10% calc, ~50% conceptual, ~30% regulatory, ~10% application
+- ExamWeightages.plist updated with 8 "VII " prefixed topics (weightages: 5+10+20+15+15+15+10+10 = 100%)
+- **Validation: All XML files valid, 0 errors, 0 duplicates, 8 ExamWeightages topics == 8 file prefixes PERFECT MATCH, all 5 plists OK, all TopicsLite ratios ≥ 30%**
+- **Total after Session 12: 5,250 questions, 125 topics, all plists valid**
+- **Next actions:**
+  - Phase 6b: Generate Series XVI (Commodity Derivatives) — 500 questions
+  - Phase 7: Generate Series XIII (Common Derivatives) — depends on XVI completion
+
+### Session 13 (April 8, 2026)
+- **Phase 6b: Generate Series XVI — Commodity Derivatives (500 questions)**
+- PDF read: All 10 chapters (208 pages) of NISM-Series-XVI Commodity Derivatives Certification Examination (December 2025)
+- **Fixed ExamWeightages.plist:** Added "XVI " prefix to all 10 topic keys (were previously unprefixed, causing potential collision with other exams)
+- **500 new questions across 10 topics with "XVI " prefix:**
+  - Ch1 XVI Introduction to Commodity Markets: 50 Qs (history: Osaka 1730, CBOT 1848, Bombay Cotton 1875, FCRA 1952, SEBI takeover Sept 28 2015; spot vs derivatives; participants: hedgers/speculators/arbitrageurs; FPI access Oct 2018/2022; ecosystem: WDRA, eNWR, NeRL/CCRL; factors: demand-supply equation, seasonality, Dr Copper, gold inflation hedge, interest rate channels)
+  - Ch2 XVI Commodity Indices: 25 Qs (futures-based total return indices; SEBI June 2019 guidelines; MCX iCOMDEX, BULLDEX, METALDEX; NCDEX AGRIDEX discontinued Feb 2022, GUAREX; construction: 25:75 production:liquidity, 1-30% composite weight, 90% trading days in 12 months; index futures: base 1000, Rs 5L lot, 12-month max tenor; index options: European cash-settled, 10%/2000 lots client limit)
+  - Ch3 XVI Commodity Futures: 75 Qs (cost-of-carry: F=S+C, annual/monthly/continuous compounding; convergence, contango, backwardation; convenience yield F=S+C-Y; forwards vs futures 8 differences; payoff: long ST-F, short F-ST; tick value formula; spot polling bootstrapping; FSP 3-day average E/E-1/E-2)
+  - Ch4 XVI Commodity Options: 75 Qs (European only in India; ITM/ATM/OTM/CTM; intrinsic=S-X for calls; 5 pricing determinants; Black-Scholes vs Black-76; Greeks: delta/gamma/theta/vega/rho with Silver examples; put-call parity C-P=S-K/(1+rt); Options on Futures devolve 10-13 days before expiry; Options on Goods direct delivery; CTM 7 strikes for goods; MSP as put option)
+  - Ch5 XVI Uses of Commodity Derivatives: 50 Qs (hedging: long/short; hedge ratio = correlation × SD_spot/SD_futures; speculation: long/short; arbitrage: cash-and-carry, reverse; spread trading: crush/crack, calendar, bull/bear; SEBI March 2023 spread margin 75%/50%; basis = spot-futures; strengthening/weakening; covered calls/puts; option strategies)
+  - Ch6 XVI Trading Mechanism: 50 Qs (membership: TM/TCM/PCM; sub-brokers ceased Apr 2019; SBTS price-time priority; algo trading: ≤10 OPS low freq, >10 OPS high freq; IOC/market not allowed for algos; trading hours: agri 9AM-5PM, non-agri to 11:30PM; DPL; order types: limit/market/stop loss/trailing/IOC; staggered delivery min 3 days; compulsory/both options/cash settlement)
+  - Ch7 XVI Clearing, Settlement and Risk Management: 75 Qs (CC novation; DVP settlement; 7 margin types: initial VaR, ELM, MTM, special/additional, concentration, lean period, tender period; SPAN from CME; delivery default: agri 4%+replacement, non-agri 3%+replacement; buyer default from May 2021; SGF; WDRA warehouses within 100km; staggered delivery; peak margin 4 snapshots; pre-expiry 5%/day; ARMF removes spread benefit; devolvement margin last 3 days)
+  - Ch8 XVI Legal and Regulatory Environment: 50 Qs (three-tier: Govt/SEBI/Exchanges; FCRA repealed, SCRA 1956; FMC merged with SEBI; Union List jurisdiction; SEBI circular authority; Essential Commodities Act impact; FSSAI standards for delivery; exchange recognition under SCRA; position limits; CPMI-IOSCO compliance)
+  - Ch9 XVI Accounting and Taxation: 25 Qs (ICAI 2021 guidance note; hedge vs speculative classification; CTT on sale of commodity derivatives; GST 18% on brokerage; stamp duty; MTM daily accounting; speculative loss 4-year carry forward; business loss 8-year; hedge accounting documentation)
+  - Ch10 XVI Code of Conduct and Investor Protection: 25 Qs (SEBI Stock Brokers Regs 1992 Schedule II; integrity, due skill; KYC requirements; RDD before trading; SCORES 2.0 April 2024; IGRC/ODR/arbitration; front-running and churning prohibitions; client fund segregation; record retention 5-8 years)
+- Question mix: ~20% calc, ~45% conceptual, ~25% regulatory, ~10% application
+- ExamWeightages.plist updated with 10 "XVI " prefixed topics (weightages: 10+5+15+15+10+10+15+10+5+5 = 100%)
+- **Validation: All 5,643 XML files valid, 0 errors, 0 duplicates, 132 topics aligned, all 5 plists OK**
+- **Total after Session 13: 5,643 questions, 132 topics, all plists valid**
+- **Next actions:**
+  - Phase 7: Generate Series XIII (Common Derivatives) — depends on I+IV+VIII audit completion
+  - Phase 8b already completed (Session 12: Series VII)
+
+*Handoff document updated April 8, 2026 after Session 13 completion.*

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Clearing, Settlement and Risk Management_72" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Options on Futures do NOT attract which margin type?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Tender period / delivery period margin — since options devolve into futures before delivery period]]></text></answer>
+            <answer correct="no"><text><![CDATA[Initial margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[Devolvement margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[SOMM (Short Option Minimum Margin)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Options on Futures devolve into futures BEFORE the delivery/tender period starts, so delivery period margin doesn't apply to options. Instead, devolvement margin is collected.
+**The Trap:** Initial margin, devolvement margin, and SOMM all apply to Options on Futures. Only delivery period margin doesn't.
+**Cross-Exam Context:** Margin types for options are specific to commodity markets.
+**Distributor's Pro-Tip:** Options on Goods DO attract delivery period margin (since they directly deliver goods). Options on Futures avoid this but have devolvement margin instead.]]></text></explanation>
+    </question>
+</QF>

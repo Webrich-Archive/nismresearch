@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Uses of Commodity Derivatives_26" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A jeweler buys 1 kg gold at end-July for Rs 51,600 per 10gm (spot). He had earlier bought Aug futures at Rs 50,400/10gm which he sells at Rs 52,000. What is the net result?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Net neutral — the Rs 1,60,000 loss in spot is offset by Rs 1,60,000 profit in futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Net profit of Rs 1,60,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Net loss of Rs 1,60,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Net profit of Rs 3,20,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Spot loss = (51,600 - 50,000) × 100 = Rs 1,60,000 (gold cost more than budgeted). Futures profit = (52,000 - 50,400) × 100 = Rs 1,60,000. Net = zero, hedging worked.
+**The Trap:** Neither pure profit nor pure loss — the hedge offset the spot market loss. This is the essence of hedging.
+**Cross-Exam Context:** Series VIII covers similar hedge effectiveness examples.
+**Distributor's Pro-Tip:** In this ideal example, the hedge was perfect. In practice, basis risk means offsets may not be exact — but the hedger's net position is far better than being unhedged.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Uses of Commodity Derivatives_16" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Basis in commodity derivatives is defined as:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Spot Price minus Futures Price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Futures Price minus Spot Price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Strike Price minus Spot Price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Premium minus Intrinsic Value]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Basis = Spot Price - Futures Price. Negative basis means contango (futures > spot). Positive basis means backwardation (spot > futures).
+**The Trap:** Futures - Spot gives the opposite sign. Strike - Spot is moneyness. Premium - IV is time value.
+**Cross-Exam Context:** Series VIII covers basis risk in equity hedging.
+**Distributor's Pro-Tip:** Track basis daily for hedged positions — changes in basis directly impact hedge effectiveness. Convergence to zero at expiry is the natural expected behavior.]]></text></explanation>
+    </question>
+</QF>

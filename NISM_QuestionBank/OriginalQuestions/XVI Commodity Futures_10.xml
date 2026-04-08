@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The tick value for Zinc on MCX is: Lot size = 5 MT (5000 kg), Quotation = per kg, Tick size = Rs 0.05. What is the tick value?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 250]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 25]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 50]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Tick Value = (Lot size / Quotation factor) × Tick size = (5000 / 1) × 0.05 = 5000 × 0.05 = Rs 250.
+**The Trap:** Rs 25 divides by 10 incorrectly. Rs 500 doubles the value. Rs 50 uses wrong lot size. Since quotation is per kg, the quotation factor is 1.
+**Cross-Exam Context:** Tick value calculations are specific to commodity derivatives.
+**Distributor's Pro-Tip:** Zinc's Rs 250 tick value per 0.05 movement means even small price changes create significant P&L — algo traders particularly benefit from understanding tick economics.]]></text></explanation>
+    </question>
+</QF>

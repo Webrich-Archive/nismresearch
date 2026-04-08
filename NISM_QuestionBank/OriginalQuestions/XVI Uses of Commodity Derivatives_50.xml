@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Uses of Commodity Derivatives_50" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the Mr. Y reverse cash-and-carry example: sells 30 kg silver spot at Rs 40,500/kg, buys May futures at Rs 40,600/kg, invests proceeds at 10% for 2 months. Interest earned is Rs 20,250. What is the net arbitrage profit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 17,250]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 20,250]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 3,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 23,250]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Spot sale = 30 × 40,500 = Rs 12,15,000. Futures cost = 30 × 40,600 = Rs 12,18,000. Spread cost = Rs 3,000. Interest earned = Rs 20,250. Net profit = 20,250 - 3,000 = Rs 17,250.
+**The Trap:** Rs 20,250 is gross interest without deducting the futures-spot cost difference. Rs 3,000 is the spread cost. Rs 23,250 adds instead of subtracting.
+**Cross-Exam Context:** Series VIII covers reverse arbitrage profit calculations.
+**Distributor's Pro-Tip:** Reverse cash-and-carry works in backwardation or near-zero contango — the key condition is that interest income exceeds the futures premium over spot.]]></text></explanation>
+    </question>
+</QF>

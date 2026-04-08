@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Indices_8" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A key difference between commodity indices and equity indices is that commodity indices are:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Price-based indices with fixed weights, while equity indices are volume-based with weights changing daily]]></text></answer>
+            <answer correct="no"><text><![CDATA[Volume-based indices, while equity indices are price-based]]></text></answer>
+            <answer correct="no"><text><![CDATA[Based on spot prices, while equity indices are based on futures prices]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rebalanced daily, while equity indices are rebalanced yearly]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Commodity indices are price-based — once weights are set, they remain fixed (capturing only price movements). Equity indices are volume-based where weights change daily based on market capitalization.
+**The Trap:** The relationship is reversed in option (b). Commodity indices use futures prices (not spot). Commodity indices are rebalanced annually (not daily).
+**Cross-Exam Context:** Series VIII and XII cover equity index construction methodology.
+**Distributor's Pro-Tip:** Fixed weights in commodity indices mean they can serve as a proxy for commodity inflation — a 10% rise in METALDEX roughly indicates 10% inflation in metals.]]></text></explanation>
+    </question>
+</QF>

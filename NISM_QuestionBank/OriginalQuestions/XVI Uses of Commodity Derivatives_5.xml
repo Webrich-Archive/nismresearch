@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Uses of Commodity Derivatives_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Mr. X has 50 MT exposure. Hedge ratio is 0.912 and lot size is 5 MT. How many futures contracts should he hedge?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[9 contracts (rounding 9.12 lots)]]></text></answer>
+            <answer correct="no"><text><![CDATA[10 contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[5 contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[50 contracts]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Contracts = (Exposure × Hedge Ratio) / Lot size = (50 × 0.912) / 5 = 45.6 / 5 = 9.12 ≈ 9 contracts.
+**The Trap:** 10 contracts would be full hedge without ratio. 50 contracts confuses MT with lots. The hedge ratio reduces the number from 10 to 9.
+**Cross-Exam Context:** Series VIII covers optimal hedge contract calculations.
+**Distributor's Pro-Tip:** The hedge ratio of 0.912 says 9 lots neutralize volatility better than 10 — this is because spot-futures correlation is imperfect (0.93), so a slight under-hedge is optimal.]]></text></explanation>
+    </question>
+</QF>

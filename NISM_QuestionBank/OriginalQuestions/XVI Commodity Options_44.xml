@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_44" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The contrary instruction window for ITM option holders is typically:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[15-30 minutes after the FSP is determined on the option expiry day]]></text></answer>
+            <answer correct="no"><text><![CDATA[The entire last trading day]]></text></answer>
+            <answer correct="no"><text><![CDATA[3 days before expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[No window exists — exercise is always automatic]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Once DSP of Futures (FSP of Options) is determined, a 15-30 minute window is kept open for ITM holders to give contrary instructions (not to exercise). Without such instruction, ITM options auto-exercise.
+**The Trap:** The window is brief (15-30 minutes), not the entire day. It does exist — contrary instructions are specifically allowed. The 3-day period is for other processes.
+**Cross-Exam Context:** Series VIII has similar contrary instruction provisions for equity options.
+**Distributor's Pro-Tip:** Traders should use the contrary instruction window if their ITM option's intrinsic value doesn't cover transaction costs — exercising a barely-ITM option can result in a net loss after costs.]]></text></explanation>
+    </question>
+</QF>

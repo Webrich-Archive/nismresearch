@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_29" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The ISIN symbol 'MAIZE20MAY20CE2100S' for a commodity option indicates:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Option on Goods (last letter 'S' for spot) — Maize European Call, expiry 20 May 2020, strike Rs 2,100]]></text></answer>
+            <answer correct="no"><text><![CDATA[Option on Futures — Maize American Call, strike Rs 2,100]]></text></answer>
+            <answer correct="no"><text><![CDATA[Option on Goods — Maize European Put, strike Rs 2,100]]></text></answer>
+            <answer correct="no"><text><![CDATA[Index option on Maize composite, strike Rs 2,100]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** 'S' at the end indicates Option on Goods (spot). 'F' would indicate Option on Futures. 'CE' = European Call. MAIZE = commodity. 20MAY20 = expiry date. 2100 = strike price.
+**The Trap:** 'CE' is Call European, not Put or American. 'S' specifically means spot/goods, not futures.
+**Cross-Exam Context:** ISIN interpretation is specific to commodity options.
+**Distributor's Pro-Tip:** Always check the last letter of the symbol — it tells you whether you're trading a physically-delivered option (S) or one that devolves into futures (F).]]></text></explanation>
+    </question>
+</QF>

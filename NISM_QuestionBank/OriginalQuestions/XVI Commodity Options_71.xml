@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_71" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For Options on Goods, CTM normally includes how many strike prices around the ATM?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[7 strikes — ATM plus three above and three below]]></text></answer>
+            <answer correct="no"><text><![CDATA[5 strikes — ATM plus two above and two below]]></text></answer>
+            <answer correct="no"><text><![CDATA[3 strikes — ATM and one above and one below]]></text></answer>
+            <answer correct="no"><text><![CDATA[All available strikes are CTM]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** CTM for Options on Goods includes the ATM option + 3 strikes above ATM + 3 strikes below ATM = 7 strikes total.
+**The Trap:** 5, 3, or all strikes are incorrect. The specific rule is ATM + 3 on each side = 7 total (or 6 if no ATM exists when FSP is midway between strikes).
+**Cross-Exam Context:** CTM is unique to commodity Options on Goods.
+**Distributor's Pro-Tip:** CTM options don't auto-exercise — holders must explicitly instruct exercise. This is important because near-ATM options may not cover transaction costs even if slightly ITM.]]></text></explanation>
+    </question>
+</QF>

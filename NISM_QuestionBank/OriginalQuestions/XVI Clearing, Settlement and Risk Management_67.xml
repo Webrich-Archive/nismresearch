@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Clearing, Settlement and Risk Management_67" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Exposure limits for clearing members are checked against:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Their available capital including deposits and collateral — additional exposure requires additional capital/deposit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Their historical trading volume]]></text></answer>
+            <answer correct="no"><text><![CDATA[The number of clients they serve]]></text></answer>
+            <answer correct="no"><text><![CDATA[Their years of exchange membership]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Member exposure is checked against available capital (deposits + collateral). If exposure exceeds available capital, additional deposits are required for additional positions.
+**The Trap:** Not based on volume history, client count, or membership tenure. Capital adequacy determines exposure allowance.
+**Cross-Exam Context:** Series VIII covers capital adequacy requirements.
+**Distributor's Pro-Tip:** Before increasing positions, check available margin with your clearing member — exceeding capital limits can block new order entry and force position reduction.]]></text></explanation>
+    </question>
+</QF>

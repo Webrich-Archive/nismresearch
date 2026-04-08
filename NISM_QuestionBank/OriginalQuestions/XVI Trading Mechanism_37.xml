@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Trading Mechanism_37" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Algo providers offering Black box algorithms (non-transparent) must:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Register the algorithm as a new algo with the exchange and get confirmation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Simply notify the exchange after deployment]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only register with SEBI, not the exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[No registration is needed for any algo type]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Black box algos require registration as new algos with exchange confirmation. White box (execution algos like TWAP/VWAP) are not treated as new algos.
+**The Trap:** Black box needs proactive registration, not post-deployment notification. Exchange registration is required (not just SEBI). Registration IS needed.
+**Cross-Exam Context:** Algo regulation applies across all exchange segments.
+**Distributor's Pro-Tip:** Algo providers for Black box strategies must register as Research Analysts — this ensures accountability and allows regulators to trace algorithm behavior during market disruptions.]]></text></explanation>
+    </question>
+</QF>

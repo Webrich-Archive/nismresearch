@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Clearing, Settlement and Risk Management_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Short Option Minimum Margin (SOMM) applies to:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Option sellers (writers) as an additional margin to cover their obligation risk]]></text></answer>
+            <answer correct="no"><text><![CDATA[Option buyers only]]></text></answer>
+            <answer correct="no"><text><![CDATA[Futures traders]]></text></answer>
+            <answer correct="no"><text><![CDATA[Index option buyers]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SOMM is an additional margin specifically for option sellers to ensure they can meet their obligations if the option is exercised. It's separate from SPAN-based initial margin.
+**The Trap:** Buyers don't pay SOMM. Futures traders have different margin types. SOMM is for option writers.
+**Cross-Exam Context:** Series VIII covers SOMM for equity option writers.
+**Distributor's Pro-Tip:** SOMM ensures option sellers maintain minimum margin even when SPAN calculations suggest low risk — it provides a floor for writer margin obligations.]]></text></explanation>
+    </question>
+</QF>

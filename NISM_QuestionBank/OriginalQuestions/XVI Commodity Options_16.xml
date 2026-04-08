@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_16" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following factors affects BOTH call and put option premiums in the same direction?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Volatility of the underlying asset — higher volatility increases both call and put premiums]]></text></answer>
+            <answer correct="no"><text><![CDATA[Price of underlying — rising prices increase both]]></text></answer>
+            <answer correct="no"><text><![CDATA[Strike price — rising strike increases both]]></text></answer>
+            <answer correct="no"><text><![CDATA[Interest rates — rising rates increase both]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Higher volatility increases premiums for both calls and puts because greater price uncertainty raises the probability of the option becoming ITM.
+**The Trap:** Underlying price affects them oppositely (up: call rises, put falls). Strike price affects them oppositely. Interest rates affect them oppositely (up: call rises, put falls).
+**Cross-Exam Context:** Series VIII covers the same five determinants of option pricing.
+**Distributor's Pro-Tip:** Volatility is the single most important factor for option traders — buying options before expected high-volatility events and selling after them is a common strategy.]]></text></explanation>
+    </question>
+</QF>

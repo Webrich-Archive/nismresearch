@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_12" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If the spot price of gold is Rs 60,000 per 10 grams and financing cost is 10% per annum compounded annually, what is the fair value of a 6-month futures contract?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 62,928 (approximately)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 63,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 66,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 61,500]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** F = S × (1+r)^n = 60,000 × (1+0.10)^(0.5) = 60,000 × (1.10)^0.5 = 60,000 × 1.04881 ≈ Rs 62,928.
+**The Trap:** Rs 63,000 uses simple interest (60,000 × 1.05). Rs 66,000 uses full year. Rs 61,500 miscalculates. Annual compounding with fractional years uses the power formula.
+**Cross-Exam Context:** Series IV uses similar compounding for bond futures pricing.
+**Distributor's Pro-Tip:** The difference between simple and compound interest grows with the time period and rate — for short-term contracts, simple interest is often a reasonable approximation.]]></text></explanation>
+    </question>
+</QF>

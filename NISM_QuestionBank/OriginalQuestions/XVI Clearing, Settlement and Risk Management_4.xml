@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Clearing, Settlement and Risk Management_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[SPAN (Standard Portfolio Analysis of Risk) was originally developed by:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Chicago Mercantile Exchange (CME)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Securities and Exchange Board of India (SEBI)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Multi Commodity Exchange (MCX)]]></text></answer>
+            <answer correct="no"><text><![CDATA[London Metal Exchange (LME)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SPAN was originally developed by the Chicago Mercantile Exchange. It uses scenario-based risk calculation for margin determination.
+**The Trap:** SEBI prescribes its use but didn't develop it. MCX and LME use it but didn't create it.
+**Cross-Exam Context:** Series VIII covers SPAN margin methodology.
+**Distributor's Pro-Tip:** SPAN uses multiple price scenarios to estimate potential portfolio loss — it's more sophisticated than simple percentage-based margins and accounts for portfolio hedging effects.]]></text></explanation>
+    </question>
+</QF>

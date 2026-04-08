@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_52" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An option buyer's three choices are:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Exercise on expiration, sell in the exchange before expiration, or let it expire unexercised]]></text></answer>
+            <answer correct="no"><text><![CDATA[Exercise, modify strike price, or extend expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Exercise, assign to another buyer, or convert to futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Exercise, sell, or demand margin refund]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The three choices are: (1) Exercise on the expiration date. (2) Sell the option on the exchange before expiration. (3) Let the option expire without being exercised.
+**The Trap:** Strike prices cannot be modified. Expiry cannot be extended. Conversion to futures is a devolvement mechanism, not a buyer's choice.
+**Cross-Exam Context:** Series VIII covers the same option holder choices.
+**Distributor's Pro-Tip:** Most active traders use choice (2) — selling before expiry captures remaining time value, which would be lost through exercise or expiration.]]></text></explanation>
+    </question>
+</QF>

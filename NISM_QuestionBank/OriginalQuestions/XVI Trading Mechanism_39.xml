@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Trading Mechanism_39" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In commodity derivatives, orders from clients reach the exchange through:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Trading Members who are authorized exchange members]]></text></answer>
+            <answer correct="no"><text><![CDATA[Directly from clients without any intermediary]]></text></answer>
+            <answer correct="no"><text><![CDATA[Through the clearing corporation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Through SEBI's order routing system]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Orders are routed through Trading Members (TMs or TCMs) who are registered members of the exchange. Clients cannot place orders directly.
+**The Trap:** Direct client access is not available. Clearing corporation handles settlement, not order routing. SEBI regulates but doesn't route orders.
+**Cross-Exam Context:** Series VIII covers order routing through brokers.
+**Distributor's Pro-Tip:** Choose a broker with good commodity derivatives expertise — some brokers specialize in equity and may not provide adequate support for commodity delivery logistics.]]></text></explanation>
+    </question>
+</QF>

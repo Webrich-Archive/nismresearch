@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Uses of Commodity Derivatives_32" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In a covered call strategy, a nickel holder with 500 kg at Rs 1,000/kg writes a call at Rs 1,025 strike for Rs 12 premium. If nickel rises to Rs 1,025 at expiry, the total gain is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 37 per kg (Rs 25 spot gain + Rs 12 premium)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 12 per kg]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 25 per kg]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 1,025 per kg]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Spot gain = 1,025 - 1,000 = Rs 25/kg. Option is ATM, not exercised. Premium retained = Rs 12/kg. Total = 25 + 12 = Rs 37/kg.
+**The Trap:** Rs 12 is premium only. Rs 25 is spot gain only. The covered call writer benefits from both the spot appreciation AND the premium.
+**Cross-Exam Context:** Series VIII covers covered call P&L analysis.
+**Distributor's Pro-Tip:** If nickel rises ABOVE Rs 1,025, the call gets exercised and the holder must sell at 1,025 — the gain is capped at Rs 25 + Rs 12 = Rs 37/kg. This is the tradeoff of covered calls.]]></text></explanation>
+    </question>
+</QF>

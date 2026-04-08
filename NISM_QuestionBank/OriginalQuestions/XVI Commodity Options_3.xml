@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[As per current Indian regulatory norms, which style of commodity options is permitted on exchanges?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[European style only — exercisable only on the expiry date]]></text></answer>
+            <answer correct="no"><text><![CDATA[American style only — exercisable any time before or on expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both American and European styles]]></text></answer>
+            <answer correct="no"><text><![CDATA[Asian style — based on average price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Only European style commodity options are permitted in India for both 'Options on Futures' and 'Options on Goods' traded on exchanges.
+**The Trap:** American style (exercisable any time) is NOT permitted for commodity options in India. Asian style options are not traded on Indian exchanges.
+**Cross-Exam Context:** Series VIII covers European-style equity index options and American-style stock options.
+**Distributor's Pro-Tip:** European-style means no early exercise risk for writers — simplifying risk management. However, the buyer cannot capitalize on favorable mid-term price movements through exercise.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Uses of Commodity Derivatives_40" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The best method of eliminating basis risk in a hedge is to:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Hold the futures contract till expiry, since spot and futures converge at expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Use options instead of futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Increase the hedge ratio above 1.0]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trade only in agricultural commodities]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** At expiry, convergence ensures basis = 0 (spot = futures), eliminating basis risk. Rolling positions or closing before expiry leaves residual basis risk.
+**The Trap:** Options have their own basis risk (delta changes). High hedge ratio addresses correlation, not basis. Commodity type doesn't determine basis risk elimination.
+**Cross-Exam Context:** Series VIII covers convergence and basis risk elimination.
+**Distributor's Pro-Tip:** For hedgers who can take/give delivery, holding till expiry is ideal. For those who can't, choose contracts where historical basis at rollover has been stable and predictable.]]></text></explanation>
+    </question>
+</QF>

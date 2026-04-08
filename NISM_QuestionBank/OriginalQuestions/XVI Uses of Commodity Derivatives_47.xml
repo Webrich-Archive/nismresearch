@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Uses of Commodity Derivatives_47" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Negative basis in commodity futures indicates:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A contango market where futures price exceeds spot price]]></text></answer>
+            <answer correct="no"><text><![CDATA[A backwardation market where spot exceeds futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[An arbitrage-free market]]></text></answer>
+            <answer correct="no"><text><![CDATA[The commodity cannot be delivered physically]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Basis = Spot - Futures. Negative basis means Spot < Futures → contango market. This is the normal condition reflecting cost of carry.
+**The Trap:** Positive basis = backwardation. Negative basis doesn't mean arbitrage-free (overpriced futures create arbitrage). Physical delivery capability is unrelated.
+**Cross-Exam Context:** Series VIII covers contango identification.
+**Distributor's Pro-Tip:** Most commodity markets spend most of their time in contango — the premium reflects genuine carrying costs. Prolonged backwardation usually signals acute supply stress.]]></text></explanation>
+    </question>
+</QF>

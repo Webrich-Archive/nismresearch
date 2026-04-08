@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If the cost of 10 grams of gold in the spot market is Rs 1,20,000 and the cost-of-carry is 12% per annum, the fair value of a 4-month futures contract (simple interest) will be:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 1,24,800]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 1,34,400]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 1,20,400]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 1,32,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** F = S + C = 1,20,000 + {1,20,000 × 12% × (4/12)} = 1,20,000 + 4,800 = Rs 1,24,800.
+**The Trap:** Rs 1,34,400 uses 12% for full year. Rs 1,20,400 uses only 1 month. Rs 1,32,000 uses incorrect period. Always prorate the annual rate for the actual holding period.
+**Cross-Exam Context:** Gold futures pricing is tested across Series I, VIII, and XVI.
+**Distributor's Pro-Tip:** Gold futures typically trade close to cost-of-carry pricing in India — significant deviations indicate arbitrage opportunities or supply constraints.]]></text></explanation>
+    </question>
+</QF>

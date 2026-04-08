@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_30" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Spot polling prices collected by commodity exchanges are:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Ex-warehouse prices inclusive of Mandi Cess but exclusive of GST]]></text></answer>
+            <answer correct="no"><text><![CDATA[Inclusive of both Mandi Cess and GST]]></text></answer>
+            <answer correct="no"><text><![CDATA[Ex-factory prices exclusive of all taxes]]></text></answer>
+            <answer correct="no"><text><![CDATA[Retail consumer prices inclusive of all taxes]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Polled prices are ex-warehouse prices inclusive of Mandi Cess but exclusive of GST.
+**The Trap:** They don't include GST. They are not ex-factory prices. They are not retail consumer prices. The specific tax treatment matters for accurate futures pricing.
+**Cross-Exam Context:** Tax treatment of commodity prices is specific to this exam.
+**Distributor's Pro-Tip:** When comparing spot polling prices to actual purchase costs, clients must add GST — this can significantly affect the effective cost basis for delivery-based settlement.]]></text></explanation>
+    </question>
+</QF>

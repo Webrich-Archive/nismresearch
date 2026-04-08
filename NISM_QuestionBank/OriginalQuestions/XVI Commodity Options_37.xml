@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_37" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For CTM Options on Goods, if the FSP falls exactly midway between two strike prices, how many strike prices are considered CTM?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[6 (three above FSP and three below FSP, with no ATM)]]></text></answer>
+            <answer correct="no"><text><![CDATA[7 (including ATM)]]></text></answer>
+            <answer correct="no"><text><![CDATA[5]]></text></answer>
+            <answer correct="no"><text><![CDATA[4]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When FSP is exactly midway between strikes, there is no ATM option. Then 3 strikes above + 3 strikes below = 6 strikes are CTM. Normally (with ATM), it's 7 strikes.
+**The Trap:** 7 is the normal CTM count (with ATM). Without ATM, it reduces to 6. The distinction depends on whether FSP aligns with a strike price.
+**Cross-Exam Context:** CTM rules are specific to commodity Options on Goods.
+**Distributor's Pro-Tip:** Traders holding options near FSP must check if their strike is classified as CTM — CTM options require explicit exercise instructions, unlike ITM which auto-exercises.]]></text></explanation>
+    </question>
+</QF>

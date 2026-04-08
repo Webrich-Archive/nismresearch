@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Accounting and Taxation_23" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When a commodity futures contract expires and the position is cash-settled, the accounting entry records:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The difference between the settlement price and the last MTM price as the final settlement gain/loss]]></text></answer>
+            <answer correct="no"><text><![CDATA[The entire contract value as revenue]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the initial margin as the transaction value]]></text></answer>
+            <answer correct="no"><text><![CDATA[No entry is needed — it's already accounted for through daily MTM]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** On expiry/cash settlement, the final entry records the difference between the FSP and the last daily settlement price. All previous daily MTM entries have already captured the interim P&L.
+**The Trap:** Not the full contract value. Not just margin. Option (d) is partially correct but a final settlement entry IS needed.
+**Cross-Exam Context:** Settlement accounting is standard for all derivatives.
+**Distributor's Pro-Tip:** The final settlement entry is usually small (just the last day's price change) because cumulative daily MTM entries have already captured most of the P&L throughout the contract's life.]]></text></explanation>
+    </question>
+</QF>

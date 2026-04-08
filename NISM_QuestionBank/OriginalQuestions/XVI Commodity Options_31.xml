@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_31" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The Binomial option pricing model was developed by:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[William Sharpe in 1978]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fisher Black and Myron Scholes in 1973]]></text></answer>
+            <answer correct="no"><text><![CDATA[Robert Merton in 1973]]></text></answer>
+            <answer correct="no"><text><![CDATA[John Cox in 1979]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The Binomial model was developed by William Sharpe in 1978. It uses a tree of possible prices at equal time steps.
+**The Trap:** Black-Scholes was published in 1973 by Fisher Black and Myron Scholes. The Binomial model is different — it's iterative and flexible.
+**Cross-Exam Context:** Series VIII covers both pricing models.
+**Distributor's Pro-Tip:** The Binomial model is more flexible and intuitive but computationally intensive. Black-Scholes is faster and simpler — most traders use Black-Scholes for quick pricing.]]></text></explanation>
+    </question>
+</QF>

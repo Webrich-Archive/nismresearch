@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Uses of Commodity Derivatives_22" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[As per SEBI's March 2023 circular on spread margin, the margin benefit for a calendar spread on the same commodity is up to:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[75% of the total initial margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[50% of the total initial margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[100% of the total initial margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[25% of the total initial margin]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI's March 2023 circular provides up to 75% margin benefit for same underlying commodity spreads. For different (but correlated) commodities, the benefit is up to 50%.
+**The Trap:** 50% is for inter-commodity spreads (different commodities with ≥0.90 correlation). 100% or 25% are not the specified percentages.
+**Cross-Exam Context:** Margin framework is specific to commodity derivative regulation.
+**Distributor's Pro-Tip:** A 75% margin reduction makes calendar spreads very capital-efficient — for example, if individual margins would total Rs 10 lakhs, the spread margin is only Rs 2.5 lakhs.]]></text></explanation>
+    </question>
+</QF>

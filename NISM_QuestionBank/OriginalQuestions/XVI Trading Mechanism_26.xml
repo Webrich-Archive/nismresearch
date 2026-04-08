@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Trading Mechanism_26" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An order that must be executed immediately (fully or partially) with the unexecuted portion getting cancelled is called:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Immediate or Cancel (IOC) order]]></text></answer>
+            <answer correct="no"><text><![CDATA[Limit order]]></text></answer>
+            <answer correct="no"><text><![CDATA[Market order]]></text></answer>
+            <answer correct="no"><text><![CDATA[Good Till Day order]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** IOC orders require immediate execution — any unfilled portion is cancelled. This ensures the trader doesn't have a standing order in the book.
+**The Trap:** Limit orders stay active until filled or cancelled. Market orders aim for immediate full execution. GTD orders remain active until the specified day.
+**Cross-Exam Context:** Series VIII covers IOC orders.
+**Distributor's Pro-Tip:** IOC orders are useful when you want to test available liquidity at a specific price without committing to a standing order — if liquidity isn't there, the order simply cancels.]]></text></explanation>
+    </question>
+</QF>

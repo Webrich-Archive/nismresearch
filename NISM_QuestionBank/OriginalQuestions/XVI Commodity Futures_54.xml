@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_54" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When computing the spot polling price, the bootstrapping algorithm selects the final price based on which statistical principle?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Least standard deviation (similar to least squares method) — minimizing error from polled data]]></text></answer>
+            <answer correct="no"><text><![CDATA[Maximum likelihood estimation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Highest frequency (mode) of polled prices]]></text></answer>
+            <answer correct="no"><text><![CDATA[Volume-weighted average of all polled prices]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The bootstrapping algorithm arrives at a final price with the least standard deviation vis-a-vis the polled data — based on the principle of least error (similar to least square method of regression).
+**The Trap:** It's not MLE, mode, or VWAP. The algorithm iteratively selects random prices, calculates their standard deviation against polled data, and converges on the price with minimum error.
+**Cross-Exam Context:** Statistical methodology in price determination is unique to commodity derivatives.
+**Distributor's Pro-Tip:** If polled prices are tightly clustered, the bootstrap result approaches the simple average — the algorithm adds most value when there's high dispersion or outliers in polled data.]]></text></explanation>
+    </question>
+</QF>

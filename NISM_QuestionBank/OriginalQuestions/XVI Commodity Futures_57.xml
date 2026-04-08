@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_57" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The formula for annual compounding of futures price is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[F = S × (1 + r)^n, where r is annual rate and n is years]]></text></answer>
+            <answer correct="no"><text><![CDATA[F = S × e^(r×n)]]></text></answer>
+            <answer correct="no"><text><![CDATA[F = S + (S × r × n)]]></text></answer>
+            <answer correct="no"><text><![CDATA[F = S × (1 + r/m)^(m×n)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For annual compounding: F = S × (1+r)^n. Option (b) is continuous compounding. Option (c) is simple interest. Option (d) is compounding m times per year.
+**The Trap:** Each formula serves a different compounding frequency — annual, continuous, simple, and periodic. For annual compounding, use (1+r)^n.
+**Cross-Exam Context:** Series IV covers these compounding formulas for bond pricing.
+**Distributor's Pro-Tip:** In practice, monthly or continuous compounding gives slightly higher fair values — the choice depends on how the market convention prices the specific commodity contract.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Futures_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If the Final Settlement Price (FSP) of a commodity futures contract is derived from spot polling prices, it is calculated as:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Simple average of polled prices of last 3 days (E, E-1, E-2) including expiry day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Volume weighted average of futures prices on expiry day only]]></text></answer>
+            <answer correct="no"><text><![CDATA[Highest polled price among the last 5 days]]></text></answer>
+            <answer correct="no"><text><![CDATA[Median of all polled prices for the entire contract period]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** FSP is derived as a simple average of polled prices of the last 3 days of contract expiry, including the expiry day (E, E-1, E-2 days).
+**The Trap:** It's not a VWAP of futures prices. Not the highest price. Not the median of the entire period. The 3-day average smooths out single-day anomalies.
+**Cross-Exam Context:** Series VIII uses different FSP methodology (VWAP of last 30 minutes for equity derivatives).
+**Distributor's Pro-Tip:** The 3-day average FSP protects against manipulation on the expiry day — traders should be aware of their positions' settlement exposure across E, E-1, and E-2.]]></text></explanation>
+    </question>
+</QF>

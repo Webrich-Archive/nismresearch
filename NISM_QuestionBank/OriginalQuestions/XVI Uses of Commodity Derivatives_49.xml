@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Uses of Commodity Derivatives_49" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If futures prices and spot prices always moved in exactly the same direction and by the same amount, hedging would:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Provide a perfect hedge with zero basis risk]]></text></answer>
+            <answer correct="no"><text><![CDATA[Still leave significant risk]]></text></answer>
+            <answer correct="no"><text><![CDATA[Be unnecessary]]></text></answer>
+            <answer correct="no"><text><![CDATA[Be impossible]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** If spot and futures move identically, the gain in one perfectly offsets the loss in the other → zero basis risk, perfect hedge. In reality, this rarely happens due to basis risk.
+**The Trap:** It wouldn't be unnecessary (hedging is still needed to offset the risk). It wouldn't be impossible. There would be no significant residual risk.
+**Cross-Exam Context:** Perfect hedge theory is covered in Series VIII.
+**Distributor's Pro-Tip:** No hedge is perfectly correlated in practice — correlation coefficients of 0.90-0.95 are typical, which is why hedge ratios exist to optimize the imperfect relationship.]]></text></explanation>
+    </question>
+</QF>

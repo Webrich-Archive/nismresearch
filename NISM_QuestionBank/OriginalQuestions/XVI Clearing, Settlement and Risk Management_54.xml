@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Clearing, Settlement and Risk Management_54" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The 'default waterfall' arrangement in commodity clearing determines:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The order in which different funds (member margin, SGF, CC capital) are utilized when a member defaults]]></text></answer>
+            <answer correct="no"><text><![CDATA[The sequence of trading priority for orders]]></text></answer>
+            <answer correct="no"><text><![CDATA[The order of commodity delivery at warehouses]]></text></answer>
+            <answer correct="no"><text><![CDATA[The ranking of exchange membership applications]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Default waterfall specifies the order: first member's own margins → then SGF → then CC's own capital, ensuring orderly handling of defaults.
+**The Trap:** Not about trading priority, delivery sequence, or membership ranking. It's specifically about how resources are utilized during settlement default.
+**Cross-Exam Context:** Series VII covers default waterfall mechanisms.
+**Distributor's Pro-Tip:** Understanding the default waterfall helps assess counterparty risk — the deeper the waterfall (larger SGF, more CC capital), the safer the exchange.]]></text></explanation>
+    </question>
+</QF>

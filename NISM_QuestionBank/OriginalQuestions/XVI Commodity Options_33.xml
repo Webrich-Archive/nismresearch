@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_33" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The Black-76 model is used for pricing:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Options on Futures — a variant of Black-Scholes where the underlying is a futures contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[Options on Goods only]]></text></answer>
+            <answer correct="no"><text><![CDATA[Options on equity indices]]></text></answer>
+            <answer correct="no"><text><![CDATA[Options on currency pairs]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Black-76 is a variant of Black-Scholes used specifically for pricing Options on Futures. The original Black-Scholes formula uses spot price (S), while Black-76 replaces it with futures price (F).
+**The Trap:** Options on Goods use the original Black-Scholes (not Black-76). The model is commodity-specific, not for equity or currency.
+**Cross-Exam Context:** Series IV covers Black-76 for interest rate options on futures.
+**Distributor's Pro-Tip:** Key relationship: since e^(-rT) × F = S, on the day of expiry both models give the same option price — the difference only matters for options with time remaining.]]></text></explanation>
+    </question>
+</QF>

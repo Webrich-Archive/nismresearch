@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XVI Commodity Options_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A gold call option has strike price Rs 48,000 per 10 grams and premium of Rs 500. At expiry, the settlement price is Rs 50,000. What is the net profit for the call buyer?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 1,500 per 10 grams]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 2,000 per 10 grams]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 500 per 10 grams]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 2,500 per 10 grams]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Call buyer payoff = (Settlement - Strike) - Premium = (50,000 - 48,000) - 500 = 2,000 - 500 = Rs 1,500 profit per 10 grams.
+**The Trap:** Rs 2,000 is the gross payoff before deducting premium. Rs 500 is just the premium. Always subtract the premium paid to get net profit.
+**Cross-Exam Context:** Series VIII covers similar option payoff calculations.
+**Distributor's Pro-Tip:** The breakeven for a call buyer is Strike + Premium = 48,000 + 500 = Rs 48,500. Any spot price above this generates net profit.]]></text></explanation>
+    </question>
+</QF>
