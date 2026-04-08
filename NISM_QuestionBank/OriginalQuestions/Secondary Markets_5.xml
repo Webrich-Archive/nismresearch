@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <QF id="Secondary Markets_5" sectionNumber="" articleNumber="0" articleName="">
-    <question><text>What type of order is placed when an investor wants to buy or sell shares at the current market price without specifying any price?</text>
+    <question><text><![CDATA[What type of order is placed when an investor wants to buy or sell shares at the current market price without specifying any price?]]></text>
         <answers>
-            <answer correct="yes"><text>Market order</text></answer>
-            <answer correct="no"><text>Limit order</text></answer>
-            <answer correct="no"><text>Stop-loss order</text></answer>
-            <answer correct="no"><text>Good-till-cancelled order</text></answer>
+            <answer correct="yes"><text><![CDATA[Market order]]></text></answer>
+            <answer correct="no"><text><![CDATA[Limit order]]></text></answer>
+            <answer correct="no"><text><![CDATA[Stop-loss order]]></text></answer>
+            <answer correct="no"><text><![CDATA[Good-till-cancelled order]]></text></answer>
         </answers>
-        <explanation><text>**The Logic:** A market order is placed when the investor wants immediate execution at whatever the current market price is. It prioritizes speed of execution over price precision. Market orders are typically executed at or close to the last traded price.
+        <explanation><text><![CDATA[**The Logic:** A market order is placed when the investor wants immediate execution at whatever the current market price is. It prioritizes speed of execution over price precision. Market orders are typically executed at or close to the last traded price.
 **The Trap:** A limit order (option b) specifies a price - the investor only accepts that price or better. A market order has no price restriction and gets filled immediately.
 **Cross-Exam Context:** Market orders rarely remain unexecuted unless the stock is very illiquid. They are active orders that drain liquidity from the market by matching with existing passive orders.
-**Distributor's Pro-Tip:** Market order = 'I want it now at any price.' Limit order = 'I want it only at my price or better.' Market orders guarantee execution; limit orders guarantee price.</text></explanation>
+**Distributor's Pro-Tip:** Market order = 'I want it now at any price.' Limit order = 'I want it only at my price or better.' Market orders guarantee execution; limit orders guarantee price.]]></text></explanation>
     </question>
 </QF>

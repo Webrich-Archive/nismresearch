@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <QF id="Secondary Markets_8" sectionNumber="" articleNumber="0" articleName="">
-    <question><text>What is a stop-loss order used for?</text>
+    <question><text><![CDATA[What is a stop-loss order used for?]]></text>
         <answers>
-            <answer correct="yes"><text>To automatically trigger a sell or buy order when the price reaches a specified trigger price, limiting potential losses</text></answer>
-            <answer correct="no"><text>To stop all trading in a particular stock</text></answer>
-            <answer correct="no"><text>To prevent an investor from buying more shares than they can afford</text></answer>
-            <answer correct="no"><text>To freeze the price of a stock at a specific level</text></answer>
+            <answer correct="yes"><text><![CDATA[To automatically trigger a sell or buy order when the price reaches a specified trigger price, limiting potential losses]]></text></answer>
+            <answer correct="no"><text><![CDATA[To stop all trading in a particular stock]]></text></answer>
+            <answer correct="no"><text><![CDATA[To prevent an investor from buying more shares than they can afford]]></text></answer>
+            <answer correct="no"><text><![CDATA[To freeze the price of a stock at a specific level]]></text></answer>
         </answers>
-        <explanation><text>**The Logic:** A stop-loss order is placed alongside a buy or sell order. If a buyer's stock price falls to the trigger price, a sell order is triggered to limit the loss. Similarly, for a seller, if the price rises to the trigger, a buy order closes the position.
+        <explanation><text><![CDATA[**The Logic:** A stop-loss order is placed alongside a buy or sell order. If a buyer's stock price falls to the trigger price, a sell order is triggered to limit the loss. Similarly, for a seller, if the price rises to the trigger, a buy order closes the position.
 **The Trap:** Stop-loss does NOT stop trading in a stock (option b) - that is a circuit breaker. Stop-loss is a risk management tool for individual investors.
 **Cross-Exam Context:** Stop-loss orders are kept in a separate book until triggered. They are primarily used in intra-day trading. Unexecuted stop-loss orders are cancelled at end of trading day.
-**Distributor's Pro-Tip:** Example: Buy at Rs. 1,000, set stop-loss at Rs. 990. If price falls to 990, automatic sell triggers. Maximum loss = Rs. 10 per share. Stop-loss = Your safety net.</text></explanation>
+**Distributor's Pro-Tip:** Example: Buy at Rs. 1,000, set stop-loss at Rs. 990. If price falls to 990, automatic sell triggers. Maximum loss = Rs. 10 per share. Stop-loss = Your safety net.]]></text></explanation>
     </question>
 </QF>

@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <QF id="Secondary Markets_38" sectionNumber="" articleNumber="0" articleName="">
-    <question><text>What is short selling in the secondary market?</text>
+    <question><text><![CDATA[What is short selling in the secondary market?]]></text>
         <answers>
-            <answer correct="yes"><text>Selling securities that the seller does not own, with the expectation of buying them back at a lower price</text></answer>
-            <answer correct="no"><text>Selling securities below their face value</text></answer>
-            <answer correct="no"><text>Selling securities within a very short time period</text></answer>
-            <answer correct="no"><text>Selling securities only in small quantities</text></answer>
+            <answer correct="yes"><text><![CDATA[Selling securities that the seller does not own, with the expectation of buying them back at a lower price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Selling securities below their face value]]></text></answer>
+            <answer correct="no"><text><![CDATA[Selling securities within a very short time period]]></text></answer>
+            <answer correct="no"><text><![CDATA[Selling securities only in small quantities]]></text></answer>
         </answers>
-        <explanation><text>**The Logic:** Short selling is selling securities you don't own, expecting the price to fall. You sell high, buy back low, and profit from the difference. Short positions in the margin segment must be squared off before end of day and cannot be carried overnight.
+        <explanation><text><![CDATA[**The Logic:** Short selling is selling securities you don't own, expecting the price to fall. You sell high, buy back low, and profit from the difference. Short positions in the margin segment must be squared off before end of day and cannot be carried overnight.
 **The Trap:** Short selling is about ownership status (selling what you don't have), not about price level (option b) or time (option c). Delivery obligations can be met through the SLB mechanism.
 **Cross-Exam Context:** Short sellers can borrow shares through the SLBM (Securities Lending and Borrowing Mechanism) to meet delivery obligations. This links short selling to the SLB segment.
-**Distributor's Pro-Tip:** Short sell = Sell first, buy later. Profit when price falls. Risk: unlimited loss if price rises. Must square off same day (intra-day) or borrow shares via SLB for delivery.</text></explanation>
+**Distributor's Pro-Tip:** Short sell = Sell first, buy later. Profit when price falls. Risk: unlimited loss if price rises. Must square off same day (intra-day) or borrow shares via SLB for delivery.]]></text></explanation>
     </question>
 </QF>

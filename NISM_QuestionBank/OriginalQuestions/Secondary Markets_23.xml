@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <QF id="Secondary Markets_23" sectionNumber="" articleNumber="0" articleName="">
-    <question><text>What is the function of the Core Settlement Guarantee Fund (SGF)?</text>
+    <question><text><![CDATA[What is the function of the Core Settlement Guarantee Fund (SGF)?]]></text>
         <answers>
-            <answer correct="yes"><text>To fund any residual risk from member defaults after margin requirements are exhausted, ensuring settlement completion</text></answer>
-            <answer correct="no"><text>To provide loans to investors for margin trading</text></answer>
-            <answer correct="no"><text>To pay dividends to shareholders of the clearing corporation</text></answer>
-            <answer correct="no"><text>To compensate SEBI for regulatory costs</text></answer>
+            <answer correct="yes"><text><![CDATA[To fund any residual risk from member defaults after margin requirements are exhausted, ensuring settlement completion]]></text></answer>
+            <answer correct="no"><text><![CDATA[To provide loans to investors for margin trading]]></text></answer>
+            <answer correct="no"><text><![CDATA[To pay dividends to shareholders of the clearing corporation]]></text></answer>
+            <answer correct="no"><text><![CDATA[To compensate SEBI for regulatory costs]]></text></answer>
         </answers>
-        <explanation><text>**The Logic:** The clearing corporation is the counterparty to all trades and assumes counterparty risk. While margins manage most of this risk, any residual risk is funded by the SGF. It ensures trades are settled even if a member defaults on pay-in or pay-out.
+        <explanation><text><![CDATA[**The Logic:** The clearing corporation is the counterparty to all trades and assumes counterparty risk. While margins manage most of this risk, any residual risk is funded by the SGF. It ensures trades are settled even if a member defaults on pay-in or pay-out.
 **The Trap:** SGF is not a lending facility (option b). It is a safety net for the clearing system, funded separately from margin collections. It's the last line of defense in the settlement guarantee.
 **Cross-Exam Context:** Risk management layers: First - margins (VaR + ELM + MTM); Second - defaulting member's assets; Third - SGF. This multi-layer approach makes Indian markets very safe.
-**Distributor's Pro-Tip:** SGF = Ultimate safety net. Even if the broker defaults and margins are insufficient, the SGF ensures your trade is settled. This is why exchange-traded transactions are safe.</text></explanation>
+**Distributor's Pro-Tip:** SGF = Ultimate safety net. Even if the broker defaults and margins are insufficient, the SGF ensures your trade is settled. This is why exchange-traded transactions are safe.]]></text></explanation>
     </question>
 </QF>

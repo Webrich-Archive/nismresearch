@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IFSCA KYC Norms_33" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is Simplified Customer Due Diligence (SCDD) and when can it be applied?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[SCDD involves reduced verification measures that may be applied to lower-risk customers, but it must never be applied when there is any suspicion of money laundering or terrorist financing]]></text></answer>
+            <answer correct="no"><text><![CDATA[SCDD is a completely automated KYC process that eliminates the need for any human review]]></text></answer>
+            <answer correct="no"><text><![CDATA[SCDD allows reporting entities to skip identity verification entirely for small-value transactions]]></text></answer>
+            <answer correct="no"><text><![CDATA[SCDD is a simplified reporting format used to file STRs with FIU-IND for low-value suspicious transactions]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under IFSCA Guidelines, Simplified CDD may be applied for lower-risk customers and involves reduced verification measures — such as not collecting specific information about business purpose or inferring it from the transaction type. However, SCDD must never be applied where there is a suspicion of ML/TF, regardless of the customer's risk category.
+**The Trap:** Option B wrongly suggests skipping identity verification entirely — SCDD reduces the depth of diligence but does not eliminate basic identity verification requirements.
+**Cross-Exam Context:** The three tiers of CDD (Standard, Enhanced, Simplified) and their application criteria are tested in NISM IFSCA-01.
+**Distributor's Pro-Tip:** Even when applying SCDD for low-risk customers, maintain vigilance — if any suspicious indicators emerge during the relationship, immediately escalate to standard or enhanced CDD.]]></text></explanation>
+    </question>
+</QF>

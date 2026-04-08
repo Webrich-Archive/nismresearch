@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <QF id="Secondary Markets_41" sectionNumber="" articleNumber="0" articleName="">
-    <question><text>What is the market-wide circuit breaker limit that triggers trading halt for the rest of the day?</text>
+    <question><text><![CDATA[What is the market-wide circuit breaker limit that triggers trading halt for the rest of the day?]]></text>
         <answers>
-            <answer correct="yes"><text>20 percent decline in the index at any time during market hours</text></answer>
-            <answer correct="no"><text>10 percent decline in the index before 1 PM</text></answer>
-            <answer correct="no"><text>10 percent decline in the index after 2:30 PM</text></answer>
-            <answer correct="no"><text>5 percent decline in the index at any time</text></answer>
+            <answer correct="yes"><text><![CDATA[20 percent decline in the index at any time during market hours]]></text></answer>
+            <answer correct="no"><text><![CDATA[10 percent decline in the index before 1 PM]]></text></answer>
+            <answer correct="no"><text><![CDATA[10 percent decline in the index after 2:30 PM]]></text></answer>
+            <answer correct="no"><text><![CDATA[5 percent decline in the index at any time]]></text></answer>
         </answers>
-        <explanation><text>**The Logic:** A 20% decline in either BSE Sensex or Nifty 50 (whichever is breached first) at any time during market hours triggers a halt for the rest of the day. No pre-open session follows a 20% trigger.
+        <explanation><text><![CDATA[**The Logic:** A 20% decline in either BSE Sensex or Nifty 50 (whichever is breached first) at any time during market hours triggers a halt for the rest of the day. No pre-open session follows a 20% trigger.
 **The Trap:** A 10% decline before 1 PM (option b) causes only a 45-minute halt, not rest-of-day. A 10% decline after 2:30 PM (option c) does NOT trigger any halt at all. A 5% decline (option d) is not a circuit breaker level — the levels are 10%, 15%, and 20%.
 **Cross-Exam Context:** 10% trigger: Before 1 PM = 45 min halt; 1-2:30 PM = 15 min halt; After 2:30 PM = no halt. 15% trigger: Before 1 PM = 1h 45min; 1-2 PM = 45 min; After 2 PM = rest of day.
-**Distributor's Pro-Tip:** Circuit breaker levels: 10%, 15%, 20%. The 20% is the nuclear option - always means rest of day closure regardless of time. Based on previous day's closing level.</text></explanation>
+**Distributor's Pro-Tip:** Circuit breaker levels: 10%, 15%, 20%. The 20% is the nuclear option - always means rest of day closure regardless of time. Based on previous day's closing level.]]></text></explanation>
     </question>
 </QF>

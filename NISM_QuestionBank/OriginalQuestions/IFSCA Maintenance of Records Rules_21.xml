@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IFSCA Maintenance of Records Rules_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the purpose of the Central KYC Records Registry (CKYCR)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[To serve as a centralized repository for KYC records, de-duplicate client data, and issue a unique KYC Identifier to avoid repeated KYC submissions]]></text></answer>
+            <answer correct="no"><text><![CDATA[To directly investigate suspicious transactions reported by financial institutions]]></text></answer>
+            <answer correct="no"><text><![CDATA[To issue licenses and registrations to new reporting entities under PMLA]]></text></answer>
+            <answer correct="no"><text><![CDATA[To maintain criminal records of all individuals convicted under PMLA]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The Central KYC Records Registry processes KYC records received from reporting entities, de-duplicates them, and issues a KYC Identifier for each client. This allows clients to use their KYC Identifier across multiple reporting entities without resubmitting the same documents.
+**The Trap:** Option A confuses CKYCR with FIU-IND. CKYCR handles KYC data centralization, while FIU-IND handles suspicious transaction intelligence.
+**Cross-Exam Context:** CKYCR and KYC Identifier concepts are tested in NISM IFSCA-01 and NISM-V-A (Mutual Fund Distributors).
+**Distributor's Pro-Tip:** When a client provides a KYC Identifier, retrieve records from CKYCR directly — you should not require clients to resubmit documents already in the central registry, unless the information has changed or is incomplete.]]></text></explanation>
+    </question>
+</QF>

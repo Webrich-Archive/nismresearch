@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <QF id="Secondary Markets_16" sectionNumber="" articleNumber="0" articleName="">
-    <question><text>In an electronic order matching system, what is the priority rule for matching orders?</text>
+    <question><text><![CDATA[In an electronic order matching system, what is the priority rule for matching orders?]]></text>
         <answers>
-            <answer correct="yes"><text>Price-time priority: orders at better prices are matched first; at the same price, earlier orders get priority</text></answer>
-            <answer correct="no"><text>Orders are matched randomly by the computer</text></answer>
-            <answer correct="no"><text>Institutional orders always get priority over retail orders</text></answer>
-            <answer correct="no"><text>Orders with larger quantities are matched before smaller ones</text></answer>
+            <answer correct="yes"><text><![CDATA[Price-time priority: orders at better prices are matched first; at the same price, earlier orders get priority]]></text></answer>
+            <answer correct="no"><text><![CDATA[Orders are matched randomly by the computer]]></text></answer>
+            <answer correct="no"><text><![CDATA[Institutional orders always get priority over retail orders]]></text></answer>
+            <answer correct="no"><text><![CDATA[Orders with larger quantities are matched before smaller ones]]></text></answer>
         </answers>
-        <explanation><text>**The Logic:** The trading system follows price-time priority. For buy orders, the highest price gets first priority. For sell orders, the lowest price gets first priority. At the same price, the order entered earlier gets priority.
+        <explanation><text><![CDATA[**The Logic:** The trading system follows price-time priority. For buy orders, the highest price gets first priority. For sell orders, the lowest price gets first priority. At the same price, the order entered earlier gets priority.
 **The Trap:** There is NO institutional priority (option c). The system is anonymous and order-driven - all orders are treated equally regardless of the investor's size or type.
 **Cross-Exam Context:** Each order gets a unique order number for audit trail. The system is transparent - all bids and asks are visible on screen. Complete anonymity is maintained.
-**Distributor's Pro-Tip:** Price-time priority ensures fairness: Best price first, earliest order first at same price. This is the backbone of electronic trading in India.</text></explanation>
+**Distributor's Pro-Tip:** Price-time priority ensures fairness: Best price first, earliest order first at same price. This is the backbone of electronic trading in India.]]></text></explanation>
     </question>
 </QF>

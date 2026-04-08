@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="KYC Guidelines_22" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the concept of 'Central KYC' (CKYC) and how does it benefit the financial system?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A centralized repository that stores KYC records of clients, allowing them to complete KYC once and use it across all financial institutions]]></text></answer>
+            <answer correct="no"><text><![CDATA[A special KYC process reserved for central government employees]]></text></answer>
+            <answer correct="no"><text><![CDATA[A KYC verification conducted exclusively by the Reserve Bank of India]]></text></answer>
+            <answer correct="no"><text><![CDATA[A backup storage system for KYC documents maintained by each financial institution]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Central KYC Records Registry (CKYCR) is a centralized repository maintained by CERSAI that stores KYC records. Once a client completes KYC with one financial institution, other institutions can retrieve the records using the KYC Identifier Number (KIN).
+**The Trap:** CKYC is not limited to any specific category of clients or conducted by RBI — it is a system that benefits all clients by eliminating duplicate KYC processes.
+**Cross-Exam Context:** NISM Series V-A and Series X-B (Investment Adviser Level 2) test CKYC requirements.
+**Distributor's Pro-Tip:** Always upload client KYC records to CKYCR within the prescribed timeline and use the KIN for subsequent verifications — this streamlines onboarding.]]></text></explanation>
+    </question>
+</QF>

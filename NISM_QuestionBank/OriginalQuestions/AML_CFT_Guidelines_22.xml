@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <QF id="AML_CFT_Guidelines_22" sectionNumber="" articleNumber="0" articleName="">
-    <question><text>Under Rule 9(16) of the PML Rules, when Aadhaar authentication is not required for establishing a client's identity, who is responsible for redacting (blacking out) the Aadhaar number on the document submitted?</text>
+    <question><text><![CDATA[Under Rule 9(16) of the PML Rules, when Aadhaar authentication is not required for establishing a client's identity, who is responsible for redacting (blacking out) the Aadhaar number on the document submitted?]]></text>
         <answers>
-            <answer correct="yes"><text>The client must redact or black out their own Aadhaar number before submission</text></answer>
-            <answer correct="no"><text>The reporting entity must redact the Aadhaar number after receiving the document</text></answer>
-            <answer correct="no"><text>The Central KYC Records Registry (CKYCR) must redact the Aadhaar number during processing</text></answer>
-            <answer correct="no"><text>No redaction is needed as the Aadhaar number is always required for KYC</text></answer>
+            <answer correct="yes"><text><![CDATA[The client must redact or black out their own Aadhaar number before submission]]></text></answer>
+            <answer correct="no"><text><![CDATA[The reporting entity must redact the Aadhaar number after receiving the document]]></text></answer>
+            <answer correct="no"><text><![CDATA[The Central KYC Records Registry (CKYCR) must redact the Aadhaar number during processing]]></text></answer>
+            <answer correct="no"><text><![CDATA[No redaction is needed as the Aadhaar number is always required for KYC]]></text></answer>
         </answers>
-        <explanation><text>**The Logic:** Rule 9(16) requires that where authentication of Aadhaar number is not required for establishing the identity of a client, the client shall redact or black out their Aadhaar number while submitting a copy of the Aadhaar card. This protects the client's Aadhaar data from unnecessary exposure when Aadhaar authentication is not the chosen method of identity verification.
+        <explanation><text><![CDATA[**The Logic:** Rule 9(16) requires that where authentication of Aadhaar number is not required for establishing the identity of a client, the client shall redact or black out their Aadhaar number while submitting a copy of the Aadhaar card. This protects the client's Aadhaar data from unnecessary exposure when Aadhaar authentication is not the chosen method of identity verification.
 
 **The Trap:** The responsibility lies with the CLIENT, not the reporting entity or CKYCR. The reporting entity should not handle the redaction as it would mean they have already seen the full Aadhaar number. The option stating "no redaction needed" is incorrect because Aadhaar is not always mandatorily required — clients may use other OVDs.
 
 **Cross-Exam Context:** This provision reflects India's evolving data privacy framework, particularly following the Supreme Court's Aadhaar judgment. Aadhaar data is sensitive biometric information, and its unnecessary collection is restricted under both PML Rules and the Aadhaar Act.
 
-**Key Takeaway:** Aadhaar redaction responsibility = CLIENT. When Aadhaar authentication is not needed, the client blacks out their own Aadhaar number before submitting the document copy.</text></explanation>
+**Distributor's Pro-Tip:** Aadhaar redaction responsibility = CLIENT. When Aadhaar authentication is not needed, the client blacks out their own Aadhaar number before submitting the document copy.]]></text></explanation>
     </question>
 </QF>

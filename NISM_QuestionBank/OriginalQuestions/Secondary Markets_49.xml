@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <QF id="Secondary Markets_49" sectionNumber="" articleNumber="0" articleName="">
-    <question><text>A company announces a stock split reducing face value from Rs. 10 to Rs. 2 per share. If the cum-split market price is Rs. 500, what will the adjusted ex-split price be?</text>
+    <question><text><![CDATA[A company announces a stock split reducing face value from Rs. 10 to Rs. 2 per share. If the cum-split market price is Rs. 500, what will the adjusted ex-split price be?]]></text>
         <answers>
-            <answer correct="yes"><text>Rs. 100 per share</text></answer>
-            <answer correct="no"><text>Rs. 250 per share</text></answer>
-            <answer correct="no"><text>Rs. 500 per share</text></answer>
-            <answer correct="no"><text>Rs. 50 per share</text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 100 per share]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 250 per share]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 500 per share]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 50 per share]]></text></answer>
         </answers>
-        <explanation><text>**The Logic:** Face value reduces from Rs. 10 to Rs. 2, which is a 5:1 split (10/2 = 5). Each old share becomes 5 new shares. The price adjusts proportionally: Rs. 500 / 5 = Rs. 100 per share. An investor who had 1 share of Rs. 500 now has 5 shares of Rs. 100 each.
+        <explanation><text><![CDATA[**The Logic:** Face value reduces from Rs. 10 to Rs. 2, which is a 5:1 split (10/2 = 5). Each old share becomes 5 new shares. The price adjusts proportionally: Rs. 500 / 5 = Rs. 100 per share. An investor who had 1 share of Rs. 500 now has 5 shares of Rs. 100 each.
 **The Trap:** Rs. 250 (option b) would be a 2:1 split (Rs. 500/2). The split ratio depends on the face value change: Rs. 10 to Rs. 2 = 5x split. Always calculate the ratio from the face values.
 **Cross-Exam Context:** Stock splits don't change the total value of holdings. 1 share x Rs. 500 = 5 shares x Rs. 100 = Rs. 500 total. The exchange makes this adjustment after trading hours on the last cum date.
-**Distributor's Pro-Tip:** Split ratio = Old face value / New face value. New price = Old price / Split ratio. Rs. 10 → Rs. 2 means 5:1 split. Rs. 500 / 5 = Rs. 100. Total holding value stays the same.</text></explanation>
+**Distributor's Pro-Tip:** Split ratio = Old face value / New face value. New price = Old price / Split ratio. Rs. 10 → Rs. 2 means 5:1 split. Rs. 500 / 5 = Rs. 100. Total holding value stays the same.]]></text></explanation>
     </question>
 </QF>

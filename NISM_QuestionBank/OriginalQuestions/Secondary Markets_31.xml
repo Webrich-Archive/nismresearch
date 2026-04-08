@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <QF id="Secondary Markets_31" sectionNumber="" articleNumber="0" articleName="">
-    <question><text>What is the record date in the context of corporate actions?</text>
+    <question><text><![CDATA[What is the record date in the context of corporate actions?]]></text>
         <answers>
-            <answer correct="yes"><text>The date on which all shareholders on record receive the benefit of a corporate action such as dividend, bonus, or rights</text></answer>
-            <answer correct="no"><text>The date on which the company's annual general meeting is held</text></answer>
-            <answer correct="no"><text>The date on which the company files its annual report with SEBI</text></answer>
-            <answer correct="no"><text>The date on which new shares from an IPO are listed on the exchange</text></answer>
+            <answer correct="yes"><text><![CDATA[The date on which all shareholders on record receive the benefit of a corporate action such as dividend, bonus, or rights]]></text></answer>
+            <answer correct="no"><text><![CDATA[The date on which the company's annual general meeting is held]]></text></answer>
+            <answer correct="no"><text><![CDATA[The date on which the company files its annual report with SEBI]]></text></answer>
+            <answer correct="no"><text><![CDATA[The date on which new shares from an IPO are listed on the exchange]]></text></answer>
         </answers>
-        <explanation><text>**The Logic:** The record date determines who receives corporate action benefits. For example, if a 1:1 bonus is declared with a record date of March 15, all shareholders on record as of March 15 receive one additional share per share held.
+        <explanation><text><![CDATA[**The Logic:** The record date determines who receives corporate action benefits. For example, if a 1:1 bonus is declared with a record date of March 15, all shareholders on record as of March 15 receive one additional share per share held.
 **The Trap:** The record date is different from the ex-date. On cum-basis (before ex-date), the price reflects the corporate action benefit. On ex-date, the price adjusts downward by the value of the benefit.
 **Cross-Exam Context:** The exchange adjusts prices on the last cum-date after trading hours. The principle is that position value on cum and ex dates must remain the same.
-**Distributor's Pro-Tip:** Record date = Cut-off for benefits. If you want the dividend/bonus/rights, you must be a shareholder on the record date. Trade settlements must be complete before this date.</text></explanation>
+**Distributor's Pro-Tip:** Record date = Cut-off for benefits. If you want the dividend/bonus/rights, you must be a shareholder on the record date. Trade settlements must be complete before this date.]]></text></explanation>
     </question>
 </QF>

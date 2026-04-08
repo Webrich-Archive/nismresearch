@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <QF id="Secondary Markets_36" sectionNumber="" articleNumber="0" articleName="">
-    <question><text>What is impact cost?</text>
+    <question><text><![CDATA[What is impact cost?]]></text>
         <answers>
-            <answer correct="yes"><text>A measure of the cost incurred due to the bid-ask spread, calculated as the percentage deviation from the ideal (average) price</text></answer>
-            <answer correct="no"><text>The cost of setting up a trading account with a broker</text></answer>
-            <answer correct="no"><text>The annual maintenance fee for a demat account</text></answer>
-            <answer correct="no"><text>The cost of transferring shares from one depository to another</text></answer>
+            <answer correct="yes"><text><![CDATA[A measure of the cost incurred due to the bid-ask spread, calculated as the percentage deviation from the ideal (average) price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The cost of setting up a trading account with a broker]]></text></answer>
+            <answer correct="no"><text><![CDATA[The annual maintenance fee for a demat account]]></text></answer>
+            <answer correct="no"><text><![CDATA[The cost of transferring shares from one depository to another]]></text></answer>
         </answers>
-        <explanation><text>**The Logic:** Impact cost measures the cost due to bid-ask spread. The ideal price is the average of best bid and best ask. If ideal = Rs. 375, buy price = Rs. 400, then impact cost of buying = (400-375)/375 = 6.67%. Lower impact cost = higher liquidity.
+        <explanation><text><![CDATA[**The Logic:** Impact cost measures the cost due to bid-ask spread. The ideal price is the average of best bid and best ask. If ideal = Rs. 375, buy price = Rs. 400, then impact cost of buying = (400-375)/375 = 6.67%. Lower impact cost = higher liquidity.
 **The Trap:** Impact cost is not a fee or charge (options b, c, d). It's an implicit cost arising from the gap between buying and selling prices in the market. It measures market liquidity.
 **Cross-Exam Context:** Stock exchanges publish impact cost data for securities and indices. Stocks with lower impact costs are more liquid and included in benchmark indices.
-**Distributor's Pro-Tip:** Impact cost = Hidden cost of trading. Formula: |(Actual price - Ideal price) / Ideal price| x 100. Lower is better. Used to assess whether a stock is truly liquid.</text></explanation>
+**Distributor's Pro-Tip:** Impact cost = Hidden cost of trading. Formula: |(Actual price - Ideal price) / Ideal price| x 100. Lower is better. Used to assess whether a stock is truly liquid.]]></text></explanation>
     </question>
 </QF>

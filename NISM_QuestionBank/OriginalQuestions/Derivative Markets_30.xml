@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Derivative Markets_30" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[In the Indian equity derivatives market, which type of options are currently traded?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[European options only, which can be exercised only on the expiry date]]></text></answer>
+            <answer correct="no"><text><![CDATA[American options only, which can be exercised any time before or on expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both European and American options depending on the underlying]]></text></answer>
+            <answer correct="no"><text><![CDATA[Bermuda options which can be exercised on specific dates before expiry]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In the Indian equity derivatives markets, only European options are traded. A European option can be exercised only on the expiry date. A contract specified as CE is a Call European option and PE is a Put European option. American options (which can be exercised any time before or on the expiry date) are not available for trading on Indian exchanges at this time.
+
+**The Trap:** Students may assume both types are available since the workbook describes both European and American options conceptually. The presence of American options on some global exchanges may also create confusion. The terms CE and PE in the Indian market specifically denote European options.
+
+**Cross-Exam Context:** Option types are fundamental to NISM VIII (Equity Derivatives) and NISM XII. This distinction affects option pricing, trading strategies, and risk management.
+
+**Distributor's Pro-Tip:** Since only European options trade in India, there is no early exercise risk. Options can only be exercised at expiry, and settlement happens at the closing price of the underlying on the expiry date. This simplifies the risk management for clients compared to markets that offer American options.]]></text></explanation>
+    </question>
+</QF>

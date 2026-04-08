@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <QF id="Secondary Markets_37" sectionNumber="" articleNumber="0" articleName="">
-    <question><text>What are the three types of margins imposed on equity share trades?</text>
+    <question><text><![CDATA[What are the three types of margins imposed on equity share trades?]]></text>
         <answers>
-            <answer correct="yes"><text>Value at Risk (VaR) Margin, Extreme Loss Margin (ELM), and Mark to Market (MTM) Margin</text></answer>
-            <answer correct="no"><text>Initial Margin, Maintenance Margin, and Variation Margin</text></answer>
-            <answer correct="no"><text>Upfront Margin, Settlement Margin, and Penalty Margin</text></answer>
-            <answer correct="no"><text>Clearing Margin, Trading Margin, and Delivery Margin</text></answer>
+            <answer correct="yes"><text><![CDATA[Value at Risk (VaR) Margin, Extreme Loss Margin (ELM), and Mark to Market (MTM) Margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[Initial Margin, Maintenance Margin, and Variation Margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[Upfront Margin, Settlement Margin, and Penalty Margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[Clearing Margin, Trading Margin, and Delivery Margin]]></text></answer>
         </answers>
-        <explanation><text>**The Logic:** Margins on equity trades are: VaR (statistical measure of potential loss, updated 5+ times daily), ELM (covers losses beyond VaR coverage, fixed at 3.5%), and MTM (computed at end of day comparing transaction price with closing price, payable next day).
+        <explanation><text><![CDATA[**The Logic:** Margins on equity trades are: VaR (statistical measure of potential loss, updated 5+ times daily), ELM (covers losses beyond VaR coverage, fixed at 3.5%), and MTM (computed at end of day comparing transaction price with closing price, payable next day).
 **The Trap:** Options (b), (c), and (d) use different terminology that may apply in other contexts but are not the specific terms used for Indian equity market margins.
 **Cross-Exam Context:** Members must collect minimum 20% upfront margin (VaR + ELM) from clients. Penalty applies for short-collection or non-collection. More volatile stocks have higher VaR margins.
-**Distributor's Pro-Tip:** VaR = Risk-based margin (varies by stock). ELM = 3.5% flat for all stocks. MTM = Daily profit/loss adjustment. All three protect against default risk.</text></explanation>
+**Distributor's Pro-Tip:** VaR = Risk-based margin (varies by stock). ELM = 3.5% flat for all stocks. MTM = Daily profit/loss adjustment. All three protect against default risk.]]></text></explanation>
     </question>
 </QF>

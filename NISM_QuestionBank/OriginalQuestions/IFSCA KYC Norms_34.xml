@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IFSCA KYC Norms_34" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How often must a Regulated Entity update the CDD information for different risk categories of customers?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[At least once every two years for high-risk customers, once every eight years for medium-risk customers, and once every ten years for low-risk customers]]></text></answer>
+            <answer correct="no"><text><![CDATA[Every year for all customers regardless of risk category]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only when the customer specifically requests a review of their records]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only at the time of account opening and never again during the relationship]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under IFSCA KYC norms, the periodicity of CDD updates is risk-based: high-risk customers require updates at least once every two years, medium-risk at least once every eight years, and low-risk at least once every ten years. Where the risk categorization by a Financial Group entity differs from the Regulated Entity's, the stricter periodicity applies.
+**The Trap:** Option A (every year for all) is too frequent and not risk-differentiated. The risk-based approach means higher-risk customers get more frequent reviews.
+**Cross-Exam Context:** CDD update periodicity is a specific testable detail in NISM IFSCA-01.
+**Distributor's Pro-Tip:** Document your CDD update policy clearly and set automated reminders — missing periodic KYC reviews is a common compliance finding during audits.]]></text></explanation>
+    </question>
+</QF>

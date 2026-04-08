@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QF id="IFSCA Maintenance of Records Rules_1" sectionNumber="" articleNumber="0" articleName="">
     <question>
-        <text><![CDATA[The Prevention of Money-laundering (Maintenance of Records) Rules, 2005 were framed in exercise of powers conferred by which section of PMLA?]]></text>
+        <text><![CDATA[Under Rule 3 of the PML (Maintenance of Records) Rules, 2005, reporting entities are required to maintain records of which of the following?]]></text>
         <answers>
-            <answer correct="no"><text><![CDATA[Section 3 -- Offence of Money Laundering]]></text></answer>
-            <answer correct="no"><text><![CDATA[Section 12 -- Reporting entity to maintain records]]></text></answer>
-            <answer correct="yes"><text><![CDATA[Section 73 -- Power to make Rules]]></text></answer>
-            <answer correct="no"><text><![CDATA[Section 56 -- Agreements with foreign countries]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Records of all cash transactions exceeding Rs. 10 lakh or its equivalent in any foreign currency]]></text></answer>
+            <answer correct="no"><text><![CDATA[Records only of transactions reported as suspicious to FIU-IND]]></text></answer>
+            <answer correct="no"><text><![CDATA[Records of all transactions regardless of amount or nature]]></text></answer>
+            <answer correct="no"><text><![CDATA[Records only of cross-border wire transfers exceeding Rs. 5 lakh]]></text></answer>
         </answers>
-        <explanation><text><![CDATA[**The Logic:** The PML (Maintenance of Records) Rules, 2005 were made by the Central Government in exercise of powers conferred by Section 73 of the PMLA in consultation with the Reserve Bank of India. Section 73 is the rule-making power provision that enables the Central Government to prescribe detailed procedures and methods for implementing the Act's provisions.
+        <explanation><text><![CDATA[**The Logic:** Rule 3 of the PML (Maintenance of Records) Rules, 2005 requires every reporting entity to maintain records of all cash transactions of the value of more than Rs. 10 lakh or its equivalent in foreign currency. In the IFSC context, since transactions are predominantly in foreign currency, the equivalent threshold in foreign currency applies. This threshold-based record-keeping is a cornerstone of AML compliance.
 
-**The Trap:** Section 12 requires reporting entities to maintain records, but the rules themselves are made under Section 73 (the rule-making power). Section 3 defines the offence and Section 56 deals with international cooperation. The distinction between the substantive obligation (Section 12) and the rule-making power (Section 73) is important.
+**The Trap:** Recording only suspicious transactions is insufficient — the Rules mandate recording ALL cash transactions above the threshold, whether suspicious or not. Recording all transactions regardless of amount is impractical and not what the Rules require. The Rs. 5 lakh threshold for wire transfers is a fabricated distractor.
 
-**Cross-Exam Context:** Series XXIV may not specifically test which section enables the rules. The IFSCA exam tests the legal hierarchy: PMLA (Act) -> Section 73 (rule-making power) -> PML Rules 2005 (detailed procedures).
+**Cross-Exam Context:** The IFSCA AML/CFT Guidelines build upon these PML Rules. In IFSC, where transactions are in foreign currency, understanding the equivalent threshold is critical. This is frequently tested alongside the obligation to report Cash Transaction Reports (CTRs) to FIU-IND.
 
-**Distributor's Pro-Tip:** Understanding the legal hierarchy is important: the Act sets the obligation (Section 12), the rules (made under Section 73) specify how to fulfill that obligation. This helps you understand why rules can be amended without changing the Act itself.]]></text></explanation>
+**Distributor's Pro-Tip:** The Rs. 10 lakh threshold applies to cash transactions specifically. Additionally, reporting entities must also maintain records of all series of integrally connected cash transactions within a month that individually fall below Rs. 10 lakh but aggregate above it — a concept designed to catch structuring or smurfing.]]></text></explanation>
     </question>
 </QF>

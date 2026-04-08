@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IFSCA AML CFT KYC Guidelines_26" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the difference between a 'wire transfer originator' information requirement for cross-border transfers versus domestic transfers?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Cross-border transfers require full originator information including name, account number, and address or identification, while domestic transfers may include only the account number if full information can be made available on request]]></text></answer>
+            <answer correct="no"><text><![CDATA[There is no difference — both require exactly the same information]]></text></answer>
+            <answer correct="no"><text><![CDATA[Domestic transfers require more information than cross-border transfers because of stricter local regulations]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cross-border transfers do not require any originator information because the beneficiary bank handles all verification]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under IFSCA Guidelines, cross-border wire transfers require full originator information (name, account number, and address/national ID/date and place of birth). For domestic transfers, the ordering institution may include only the originator's account number or unique reference, provided full information can be made available to the beneficiary institution and authorities upon request.
+**The Trap:** Option A is tempting because both types do require originator information, but the level of detail transmitted with the transfer differs. Domestic transfers allow simplified information to accompany the transfer.
+**Cross-Exam Context:** Wire transfer requirements are aligned with FATF Recommendation 16 and are tested in NISM IFSCA-01.
+**Distributor's Pro-Tip:** For cross-border wire transfers of USD 1000 or more, ensure complete originator information is included — incomplete information should trigger additional scrutiny by the receiving institution.]]></text></explanation>
+    </question>
+</QF>

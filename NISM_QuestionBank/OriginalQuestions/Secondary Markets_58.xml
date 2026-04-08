@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Secondary Markets_58" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[As per the market-wide circuit breaker mechanism, if the index declines by 20 percent at any time during market hours, what action is taken?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Trading is halted for the remainder of the day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trading is halted for 45 minutes followed by a 15-minute pre-open session]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trading is halted for 1 hour and 45 minutes followed by a 15-minute pre-open session]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trading continues but with reduced circuit filter limits]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** As per the market-wide circuit breaker mechanism, if there is a 20 percent decline in the index at any time during market hours, trading is halted for the remainder of the day. The circuit breakers are triggered by movement of either the BSE Sensex or the Nifty 50, whichever is breached earlier.
+
+**The Trap:** The 45-minute halt applies to a 10 percent decline before 1 p.m. The 1 hour 45-minute halt applies to a 15 percent decline before 1 p.m. Students often mix up the halt durations for different circuit breaker levels. A 20 percent decline is the maximum level and results in full-day closure.
+
+**Cross-Exam Context:** Circuit breaker mechanisms are tested in NISM VIII (Equity Derivatives), NISM XII, and NISM XXI (Portfolio Management). Understanding halting mechanisms is crucial for risk management.
+
+**Distributor's Pro-Tip:** Circuit breakers protect investors during extreme market volatility. When a circuit breaker is triggered, reassure clients that this is a safety mechanism designed to prevent panic-driven selling and allow markets to stabilize.]]></text></explanation>
+    </question>
+</QF>

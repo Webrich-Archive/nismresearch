@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <QF id="Secondary Markets_24" sectionNumber="" articleNumber="0" articleName="">
-    <question><text>What is an Immediate or Cancel (IOC) order?</text>
+    <question><text><![CDATA[What is an Immediate or Cancel (IOC) order?]]></text>
         <answers>
-            <answer correct="yes"><text>An order that must be executed immediately when released; any unfilled portion is cancelled instantly</text></answer>
-            <answer correct="no"><text>An order that remains active until the end of the trading day</text></answer>
-            <answer correct="no"><text>An order that is automatically executed at the closing price</text></answer>
-            <answer correct="no"><text>An order that can only be placed during the pre-open session</text></answer>
+            <answer correct="yes"><text><![CDATA[An order that must be executed immediately when released; any unfilled portion is cancelled instantly]]></text></answer>
+            <answer correct="no"><text><![CDATA[An order that remains active until the end of the trading day]]></text></answer>
+            <answer correct="no"><text><![CDATA[An order that is automatically executed at the closing price]]></text></answer>
+            <answer correct="no"><text><![CDATA[An order that can only be placed during the pre-open session]]></text></answer>
         </answers>
-        <explanation><text>**The Logic:** An IOC order requires immediate execution. If the order can only be partially filled immediately, the remaining unfilled portion is cancelled. It is for investors who want instant execution and do not want their order sitting in the order book.
+        <explanation><text><![CDATA[**The Logic:** An IOC order requires immediate execution. If the order can only be partially filled immediately, the remaining unfilled portion is cancelled. It is for investors who want instant execution and do not want their order sitting in the order book.
 **The Trap:** A day order (option b) remains until end of day. IOC is more aggressive - it demands immediate execution or nothing. Partial fills are kept; only the unfilled balance is cancelled.
 **Cross-Exam Context:** IOC orders are useful in fast-moving markets where prices change rapidly. They prevent an order from being executed at an unfavorable price later in the day.
-**Distributor's Pro-Tip:** IOC = 'Now or never' order. Execute what you can right now, cancel the rest. Good for volatile markets where you don't want orders lingering.</text></explanation>
+**Distributor's Pro-Tip:** IOC = 'Now or never' order. Execute what you can right now, cancel the rest. Good for volatile markets where you don't want orders lingering.]]></text></explanation>
     </question>
 </QF>

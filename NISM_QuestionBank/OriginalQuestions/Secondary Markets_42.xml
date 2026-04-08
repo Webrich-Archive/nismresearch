@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <QF id="Secondary Markets_42" sectionNumber="" articleNumber="0" articleName="">
-    <question><text>In the secondary market, what does 'T+1 settlement' mean?</text>
+    <question><text><![CDATA[In the secondary market, what does 'T+1 settlement' mean?]]></text>
         <answers>
-            <answer correct="yes"><text>Trades executed on day T are settled on the next business day (T plus 1 day)</text></answer>
-            <answer correct="no"><text>Trades are settled within one hour of execution</text></answer>
-            <answer correct="no"><text>Trades are settled one month after execution</text></answer>
-            <answer correct="no"><text>Only one trade per day per investor is settled</text></answer>
+            <answer correct="yes"><text><![CDATA[Trades executed on day T are settled on the next business day (T plus 1 day)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trades are settled within one hour of execution]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trades are settled one month after execution]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only one trade per day per investor is settled]]></text></answer>
         </answers>
-        <explanation><text>**The Logic:** T+1 means the settlement of trades occurs one business day after the trade date. If you buy shares on Monday (T), the shares are credited and payment debited on Tuesday (T+1). This has been mandatory for all equity trades since January 27, 2023.
+        <explanation><text><![CDATA[**The Logic:** T+1 means the settlement of trades occurs one business day after the trade date. If you buy shares on Monday (T), the shares are credited and payment debited on Tuesday (T+1). This has been mandatory for all equity trades since January 27, 2023.
 **The Trap:** T+1 is one business DAY, not one hour (option b). The settlement involves both fund pay-in and securities pay-in/pay-out happening on T+1.
 **Cross-Exam Context:** India moved from T+2 to T+1 settlement to reduce risk and improve capital efficiency. SEBI has also introduced optional T+0 settlement as an additional facility.
-**Distributor's Pro-Tip:** T = Trade day. T+1 = Next working day settlement. Faster settlement = Less risk for investors. India's T+1 settlement is among the fastest globally.</text></explanation>
+**Distributor's Pro-Tip:** T = Trade day. T+1 = Next working day settlement. Faster settlement = Less risk for investors. India's T+1 settlement is among the fastest globally.]]></text></explanation>
     </question>
 </QF>

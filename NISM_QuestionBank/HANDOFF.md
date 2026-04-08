@@ -1,8 +1,8 @@
 # NISM Question Bank — Handoff Document
 
-**Date:** April 8, 2026 (Updated after Session 4)
-**Status:** 7 of 31 exams complete, 2,356 questions generated.
-**For:** Fresh conversation to continue with remaining 24 exams, starting with Series IV (Interest Rate Derivatives)
+**Date:** April 8, 2026 (Updated after Session 5 — Audit & Remediation)
+**Status:** 7 of 31 exams complete, 2,458 questions generated. All scriptable fixes applied, 3 exams type-rebalanced.
+**For:** Fresh conversation to continue. Next action: Phase 5 — Audit Series VIII (read PDF, verify 500 Qs, add ~55 regulatory Qs)
 
 ---
 
@@ -14,23 +14,23 @@
 |------|:----:|:---------:|:------:|:----------:|:------------:|
 | Series V-A - Mutual Fund Distributors | V-A | 511 | 12 | Easy | AUDITED + Gap-filled |
 | Series V-B - Mutual Fund Foundation | V-B | 270 | 10 | Easy | AUDITED + Gap-filled |
-| Series XXIV - AML and CFT Provisions | XXIV | 155 | 8 | Easy | AUDITED + Gap-filled |
-| IFSCA-01 - AML and CFT in the IFSC | IFSCA-01 | 140 | 8 | Easy | AUDITED + Gap-filled |
-| Series XII - Securities Markets Foundation | XII | 280 | 6 | Easy | AUDITED + Gap-filled |
-| Series VIII - Equity Derivatives | VIII | 500 | 10 | Hard | Generated from PDF, needs audit |
-| Series I - Currency Derivatives | I | 500 | 10 | Moderate | Generated from PDF, needs audit |
-| **Total** | | **2,356** | **64** | | |
+| Series XXIV - AML and CFT Provisions | XXIV | 195 | 8 | Easy | AUDITED + Gap-filled + Type-rebalanced (+40 conceptual) |
+| IFSCA-01 - AML and CFT in the IFSC | IFSCA-01 | 180 | 8 | Easy | AUDITED + Gap-filled + Type-rebalanced (+40 conceptual) |
+| Series XII - Securities Markets Foundation | XII | 302 | 6 | Easy | AUDITED + Gap-filled + Type-rebalanced (+22 regulatory) |
+| Series VIII - Equity Derivatives | VIII | 500 | 10 | Hard | Generated from PDF, needs audit + type rebalancing |
+| Series I - Currency Derivatives | I | 500 | 10 | Moderate | Generated from PDF, needs audit + type rebalancing |
+| **Total** | | **2,458** | **64** | | |
 
 ### Generated Files
 
 ```
 /Users/shivam/aiworkspace/nismresearch/NISM_QuestionBank/
 ├── ExamWeightages.plist          (31 exams, topic names aligned with file prefixes for 7 completed exams)
-├── Topics.plist                  (64 topics, 2,356 questions)
-├── TopicsLite.plist              (64 topics, 794 free-tier questions)
+├── Topics.plist                  (64 topics, 2,458 questions)
+├── TopicsLite.plist              (64 topics, ~860 free-tier questions)
 ├── ChapterArticles.plist         (64 chapters, each with single "All Topics" article)
-├── QuestionToArticleNumber.plist (2,356 entries, all mapping to article "1")
-├── OriginalQuestions/            (2,356 XML files)
+├── QuestionToArticleNumber.plist (2,458 entries, all mapping to article "1")
+├── OriginalQuestions/            (2,458 XML files)
 ├── manifest.json                 (progress tracking — version 4.0)
 ├── TaxRatesReference_FY2025-26.md (verified tax rates)
 ├── 15 audit report files         (detailed per-chapter audit results for first 5 exams)
@@ -43,46 +43,268 @@
 - 0 duplicates, 2,356 unique IDs
 - 64 plist topics == 64 file prefixes: PERFECT MATCH
 
+### Comprehensive Audit Results (Post-Session 4 Gap Analysis)
+
+A full audit of all 2,356 questions was run across 5 dimensions. Results below.
+
+#### A. Structural XML — PASS (2 minor issues)
+
+| Check | Result |
+|-------|--------|
+| XML validity | 2,356/2,356 PASS |
+| Required structure (QF, question, 4 answers, 1 correct, explanation) | 2,356/2,356 PASS |
+| ID-to-filename match | 2,356/2,356 PASS |
+| Empty content | 2,356/2,356 PASS |
+| CDATA wrapping | 2,189 PASS / **167 FAIL** |
+| Duplicate question text | **5 duplicate pairs found** |
+
+**CDATA failures (167 files):** These 6 topic groups lack CDATA wrapping around text content:
+- `AML_CFT_Guidelines` (22 files)
+- `Introduction to AML, CFT and Proliferation Financing`
+- `Prevention of Money Laundering Act, 2002`
+- `Primary Markets`
+- `Scheduled Offences under PMLA`
+- `Secondary Markets`
+
+**Action:** Batch-fix with a script to add CDATA wrappers. Low priority — the app may still parse them, but CDATA protects against special character issues.
+
+**Duplicate question pairs (5 pairs, 10 files):**
+1. `AML_CFT_Guidelines_1.xml` ↔ `IFSCA Maintenance of Records Rules_1.xml`
+2. `IFSCA Introduction to AML CFT and PF_11.xml` ↔ `Introduction to AML, CFT and Proliferation Financing_12.xml`
+3. `IFSCA Introduction to AML CFT and PF_5.xml` ↔ `Introduction to AML, CFT and Proliferation Financing_6.xml`
+4. `VB Concept and Role of Mutual Fund_3.xml` ↔ `VB Performance of Mutual Funds_2.xml`
+5. `VIII Legal and Regulatory Environment_60.xml` ↔ `VIII Sales Practices and Investor Protection Services_8.xml`
+
+**Action:** Rewrite one question in each pair to cover a different concept. Pairs 1-3 are AML content shared between XXIV and IFSCA-01 (expected overlap but should still be unique). Pair 4 is a V-B internal duplicate. Pair 5 is a VIII internal duplicate.
+
+#### B. Plist & ID Alignment — PASS
+
+| Check | Result |
+|-------|--------|
+| Topics.plist keys vs file prefixes | 64/64 PERFECT MATCH |
+| ExamWeightages topics vs Topics.plist (completed exams) | 7/7 PASS |
+| Weightage sums = 100% | 31/31 PASS |
+| TopicsLite ⊂ Topics | 64/64 PASS |
+| QuestionToArticleNumber coverage | 2,356/2,356 PERFECT MATCH |
+| ChapterArticles keys vs Topics | 64/64 PERFECT MATCH |
+
+**Minor:** 3 small topics have TopicsLite ratio slightly below 30% floor (rounding on small sets):
+- `IFSCA PMLA Related Cases` — 27.3% (3/11, needs +1)
+- `IFSCA Scheduled Offences` — 25.0% (2/8, needs +1)
+- `Scheduled Offences under PMLA` — 28.6% (4/14, needs +1)
+
+**Action:** Add 1 question to each TopicsLite entry to reach 30% floor. Low priority.
+
+#### C. Explanation Format — PASS (cosmetic variation)
+
+| Category | Count | % |
+|----------|:-----:|:-:|
+| All 4 sections (Logic, Trap, Cross-Exam, Pro-Tip) | 1,736 | 73.7% |
+| 3 sections + "Key Takeaway" instead of "Pro-Tip" | 620 | 26.3% |
+| Missing sections | 0 | 0% |
+
+Every file has **The Logic**, **The Trap**, and **Cross-Exam Context** (100%). 620 files (500 from Series VIII, rest scattered) use `**Key Takeaway:**` instead of `**Distributor's Pro-Tip:**`.
+
+**Action:** Cosmetic only. Standardize label during Phase 5 audit if desired, but not blocking.
+
+#### D. Tax Rate Accuracy — PASS
+
+- 300 tax-related questions found across all exams
+- 16 flagged by automated pattern matching for potentially outdated rates
+- **All 16 reviewed manually: ZERO actual errors**
+- Old rates (10% LTCG, 15% STCG, Rs. 1 lakh exemption, 20% with indexation) appear ONLY as wrong-answer distractors or in explanations contrasting old vs new rates
+- All correct answers use current FY 2025-26 rates
+
+**Action:** None required. Tax questions are accurate.
+
+#### E. Question Type Distribution — MIXED (4 exams need rebalancing)
+
+| Exam | Calc (actual/target) | Concept (actual/target) | Regulatory (actual/target) | Verdict |
+|------|:--------------------:|:-----------------------:|:--------------------------:|:-------:|
+| V-A | 24%/15% | 53%/55% | 14%/15% | GOOD |
+| V-B | 10%/10% | 69%/60% | 18%/15% | OK |
+| XII | 4%/5% | 79%/65% | 12%/20% | FAIR |
+| **XXIV** | 0%/0% | 25%/50% | **72%/45%** | **SKEWED** |
+| **IFSCA-01** | 0%/0% | 22%/50% | **78%/45%** | **SKEWED** |
+| **VIII** | 33%/30% | **57%/40%** | **9%/20%** | **NEEDS WORK** |
+| **I** | **12%/25%** | **82%/45%** | **5%/20%** | **NEEDS WORK** |
+
+**Remediation plan (by priority):**
+
+1. **Series I (Currency Derivatives) — HIGH PRIORITY**
+   - Too conceptual (82% vs 45% target)
+   - Needs ~63 more calculation questions (forward rate pricing, option payoff, cross-rate math, P&L scenarios)
+   - Needs ~75 more regulatory questions (SEBI-RBI framework, FEMA, bank eligibility criteria)
+   - Address during Phase 5 audit
+
+2. **Series VIII (Equity Derivatives) — MEDIUM PRIORITY**
+   - Calculation is on target (33% vs 30%), but regulatory is low (9% vs 20%)
+   - Needs ~55 more regulatory questions (SEBI derivative regulations, position limits, margin rules, LODR)
+   - Address during Phase 5 audit
+
+3. **XXIV & IFSCA-01 (AML exams) — MEDIUM PRIORITY**
+   - Over-indexed on regulatory (72-78% vs 45%). Partly a classification artifact since AML content inherently references acts/sections even in conceptual questions.
+   - Needs ~40 more genuinely conceptual questions per exam (ML typologies, FATF pillars, risk-based approach definitions)
+   - Can be addressed in a targeted gap-fill session
+
+4. **XII (Securities Foundation) — LOW PRIORITY**
+   - Slightly over-conceptual (79% vs 65%), low on regulatory (12% vs 20%)
+   - Needs ~22 more regulatory questions
+   - Can be addressed in a targeted gap-fill session
+
+### Audit Remediation Summary
+
+| Fix | Priority | Effort | When | Status |
+|-----|----------|:------:|------|:------:|
+| Series I: +63 calc, +75 regulatory questions | High | 1 session | Phase 5 audit | PENDING |
+| Series VIII: +55 regulatory questions | Medium | Phase 5 audit | Phase 5 audit | PENDING |
+| XXIV: +40 conceptual questions | Medium | 0.5 session | Targeted gap-fill | **DONE** |
+| IFSCA-01: +40 conceptual questions | Medium | 0.5 session | Targeted gap-fill | **DONE** |
+| XII: +22 regulatory questions | Low | 0.5 session | Targeted gap-fill | **DONE** |
+| 167 files: add CDATA wrappers | Low | Script (5 min) | Any time | **DONE** |
+| 5 duplicate pairs: rewrite one per pair | Low | 30 min | Any time | **DONE** |
+| 3 TopicsLite ratios: +1 each | Low | 15 min | Any time | **DONE** |
+| 620 files: "Key Takeaway" → "Pro-Tip" | Cosmetic | Script (5 min) | Optional | **DONE** |
+
 ---
 
 ## What Needs to Happen Next (Session 5+)
 
-### Priority 1: Generate New Exams (Derivatives Cluster)
+### Per-Exam Configuration Reference
 
-| Phase | Exams | Pool Size | Notes |
-|-------|-------|:---------:|-------|
-| 6 | IV (Interest Rate Derivatives) | 500 | Reuse structure from VIII and I. Adds bond futures, interest rate swaps, FRA-specific content. |
-| 6 | XVI (Commodity Derivatives) | 500 | Reuse derivatives framework from VIII. Adds commodity-specific (MCX, agri/non-agri, warehousing). |
-| 7 | XIII (Common Derivatives) | 500 | Composite of I+IV+VIII. ~70% reuse expected. |
+Each exam has different parameters that affect question generation and app configuration:
 
-### Priority 2: Operations and Compliance Cluster
+| Exam | Actual Qs | Duration | Pass % | Neg Marking | Pool Target | Caselet % | Question Mix (Calc/Concept/Caselet/Reg) |
+|------|:---------:|:--------:|:------:|:-----------:|:-----------:|:---------:|:---------------------------------------:|
+| I - Currency Derivatives | 100 | 2 hrs | 60% | 25% | 500 (done) | 0% | 25/45/0/20 |
+| II-A - RTA Corporate | 100 | 2 hrs | 60% | 25% | 500 | 0% | 5/60/0/25 |
+| II-B - RTA MF | 100 | 2 hrs | 60% | 25% | 250 | 0% | 5/60/0/25 |
+| III-A - Compliance (Non-Fund) | 100 | 2 hrs | 60% | 25% | 500 | 0% | 5/35/0/55 |
+| III-C - Compliance (Fund) | 100 | 2 hrs | 60% | 25% | 500 | 0% | 5/30/0/60 |
+| IV - Interest Rate Derivatives | 100 | 2 hrs | 60% | 25% | 500 | 0% | 35/35/0/20 |
+| V-A - MF Distributors | 100 | 2 hrs | 60% | None | 511 (done) | 0% | 15/55/0/15 |
+| V-B - MF Foundation | 50 | 2 hrs | 60% | None | 270 (done) | 0% | 10/60/0/15 |
+| VI - Depository Ops | 100 | 2 hrs | 60% | 25% | 500 | 0% | 5/55/0/30 |
+| VII - Securities Ops | 100 | 2 hrs | 60% | 25% | 500 | 0% | 10/50/0/25 |
+| VIII - Equity Derivatives | 100 | 2 hrs | 60% | 25% | 500 (done) | 0% | 30/40/0/20 |
+| IX - Merchant Banking | 100 | 2 hrs | 60% | 25% | 500 | 0% | 10/45/0/35 |
+| X-A - IA Level 1 | 150 | 3 hrs | 60% | 25% | 500 | 40% | 25/25/40/10 |
+| X-B - IA Level 2 | 150 | 3 hrs | 60% | 25% | 500 | 40% | 30/20/40/10 |
+| X-C - IA Renewal | 50 | 1 hr | 50% | None | 125 | 0% | 10/60/0/20 |
+| XII - Securities Foundation | 100 | 2 hrs | 60% | None | 280 (done) | 0% | 5/65/0/20 |
+| XIII - Common Derivatives | 150 | 3 hrs | 60% | 25% | 500 | 0% | 30/40/0/20 |
+| XV - Research Analyst | 100 | 2 hrs | 60% | 25% | 500 | 20% | 25/35/20/15 |
+| XVI - Commodity Derivatives | 100 | 2 hrs | 60% | 25% | 500 | 0% | 20/45/0/25 |
+| XVII - Retirement Adviser | 100 | 2 hrs | 60% | 25% | 500 | 0% | 15/50/0/20 |
+| XIX-A - AIF Dist (Cat I&II) | 100 | 2 hrs | 60% | **10%** | 500 | 0% | 15/55/0/20 |
+| XIX-B - AIF Dist (Cat III) | 100 | 2 hrs | 60% | **10%** | 500 | 0% | 15/55/0/20 |
+| XIX-C - AIF Mgrs (All) | 150 | 3 hrs | 60% | 25% | 500 | 40% | 25/25/40/10 |
+| XIX-D - AIF Mgrs (Cat I&II) | 100 | 2 hrs | 60% | **10%** | 500 | 40% | 20/30/40/10 |
+| XIX-E - AIF Mgrs (Cat III) | 100 | 2 hrs | 60% | **10%** | 500 | 40% | 20/30/40/10 |
+| XXI-A - PMS Distributors | 100 | 2 hrs | 60% | **10%** | 500 | 0% | 15/50/0/25 |
+| XXI-B - Portfolio Managers | 150 | 3 hrs | 60% | 25% | 500 | 40% | 25/15/40/10 |
+| XXIII - Social Impact | 100 | 2 hrs | 60% | 25% | 500 | 15% | 5/55/15/20 |
+| XXIV - AML & CFT | 50 | 1 hr | 50% | None | 155 (done) | 0% | 0/50/0/45 |
+| XXV-A - Research Services | 50 | 1 hr | 50% | None | 125 | 0% | 0/55/0/40 |
+| IFSCA-01 - AML in IFSC | 50 | 1 hr | 50% | None | 140 (done) | 0% | 0/50/0/45 |
 
-| Phase | Exams | Pool Size | Notes |
-|-------|-------|:---------:|-------|
-| 8 | VI (Depository Ops), VII (Securities Ops) | 500, 500 | Operations cluster. |
-| 9 | III-A (Compliance Non-Fund), III-C (Compliance Fund) | 500, 500 | Heavy regulatory. Share SEBI/PIT/FUTP. |
+**Note on mock test size:** AppSettingsImpl must return the correct `getMockTestQuizQuestionCount()` per exam — 50, 100, or 150 matching the actual exam.
 
-### Priority 3: Remaining Exams
+### Priority 0: Audit Series I and VIII (MANDATORY before Phase 7)
 
-| Phase | Exams | Pool Size | Notes |
-|-------|-------|:---------:|-------|
-| 10 | IX (Merchant Banking) | 500 | Unique IPO/M&A content. |
-| 11 | X-A (IA Level 1), X-B (IA Level 2), X-C (IA Renewal) | 500, 500, 125 | Advisory cluster. X-A/X-B have caselets (40%). |
-| 12 | XV (Research Analyst), XXV-A (Research Sales) | 500, 125 | Research cluster. XV has caselets (20%). |
-| 13 | XVII (Retirement Adviser) | 500 | Shares advisory content + NPS unique. |
-| 14 | XIX-A, XIX-B (AIF Distributors) | 500, 500 | AIF distributor cluster. |
-| 15 | XIX-C, XIX-D, XIX-E (AIF Managers) | 500, 500, 500 | AIF manager cluster. Have caselets (40%). |
-| 16 | XXI-A, XXI-B (PMS) | 500, 500 | PMS cluster. XXI-B has caselets (40%). |
-| 17 | XXIII (Social Impact) | 500 | Fully unique. Has caselets (15%). |
-| 18 | II-A (RTA Corporate), II-B (RTA MF) | 500, 250 | RTA cluster. II-B shares with V-A. |
+Series I (500 Qs) and Series VIII (500 Qs) were generated from full PDF reading but have NOT been audited page-by-page like the first 5 exams. **This must happen before generating Series XIII**, since XIII reuses I+IV+VIII content — unaudited errors would propagate.
 
-### Optional: Audit Series I and VIII
-
-Series I (500 Qs) and Series VIII (500 Qs) were generated from full PDF reading but have NOT been audited page-by-page like the first 5 exams were in Session 2. An audit session would:
+An audit session will:
 1. Read each PDF chapter alongside generated questions
 2. Verify factual accuracy of every answer
 3. Fix any incorrect answers or misleading distractors
 4. Identify concept gaps for gap-fill questions
+5. **Rebalance question type distribution** (from audit findings):
+   - **Series I:** Add ~63 calculation questions (forward rates, option pricing, P&L) and ~75 regulatory questions (SEBI-RBI framework, FEMA, bank criteria). Current mix is 82% conceptual — needs to come down to ~45%.
+   - **Series VIII:** Add ~55 regulatory questions (SEBI derivative regs, position limits, margin rules). Calculation is on target at 33%.
+6. **Fix 5 duplicate question pairs** — rewrite one question in each pair
+7. **Fix 167 CDATA-missing files** — batch script to add CDATA wrappers
+8. **Standardize 620 "Key Takeaway" labels** to "Distributor's Pro-Tip" (optional, cosmetic)
+
+**Estimated sessions:** 1 session per exam (500 Qs each = heavy context usage for PDF reading + review + gap-fill questions).
+
+### ~~Priority 0.5: Gap-Fill for Audited Exams (XXIV, IFSCA-01, XII)~~ — COMPLETED
+
+- **XXIV:** +40 conceptual questions added (155→195). Topics covered: ML stages, CDD/EDD, STR process, FATF pillars, beneficial ownership, tipping off, risk-based approach.
+- **IFSCA-01:** +40 conceptual questions added (140→180). Topics covered: smurfing, trade-based ML, CDD vs EDD, IFSC-specific risk indicators, case-based lessons.
+- **XII:** +22 regulatory questions added (280→302). Topics covered: SEBI Act provisions, SCRA, SEBI ICDR, circuit breakers, T+1 settlement, SCORES, MF regulations, derivative settlement rules.
+- All 102 new questions generated from PDF reading, validated (XML, CDATA, format), plists regenerated.
+- TopicsLite formula updated to `math.ceil(len*35/100)` to prevent rounding below 30% floor.
+
+### Priority 1: Generate New Exams (Derivatives Cluster)
+
+| Phase | Exams | Pool Target | Est. Sessions | Notes |
+|-------|-------|:-----------:|:-------------:|-------|
+| 5 | **Audit Series VIII** | — | 1 | PDF page-by-page audit + gap-fill |
+| 5 | **Audit Series I** | — | 1 | PDF page-by-page audit + gap-fill |
+| 6 | IV (Interest Rate Derivatives) | 500 | 1 | Hard (35% calc). Bond math, duration, convexity, PVBP. PDF: 1 available. |
+| 6 | XVI (Commodity Derivatives) | 500 | 1 | Moderate (20% calc). MCX, agri/non-agri, warehousing. PDF: 1 available. |
+| 7 | XIII (Common Derivatives) | 500 | 1 | Composite of I+IV+VIII. See "Series XIII Reuse Strategy" below. |
+
+### Priority 2: Operations and Compliance Cluster
+
+| Phase | Exams | Pool Target | Est. Sessions | Notes |
+|-------|-------|:-----------:|:-------------:|-------|
+| 8 | VI (Depository Ops) | 500 | 1 | Moderate. Heavy on DP functions. |
+| 8 | VII (Securities Ops) | 500 | 1 | Moderate. Trade life cycle, margins. |
+| 9 | III-A (Compliance Non-Fund) | 500 | 1 | Heavy regulatory (55%). SEBI/PIT/FUTP. |
+| 9 | III-C (Compliance Fund) | 500 | 1 | Heavy regulatory (60%). Shares with III-A + FEMA. |
+
+### Priority 3: Remaining Exams
+
+| Phase | Exams | Pool Target | Est. Sessions | Notes |
+|-------|-------|:-----------:|:-------------:|-------|
+| 10 | IX (Merchant Banking) | 500 | 1 | Unique IPO/M&A content. |
+| 11a | X-A (IA Level 1) | 500 | 1 | **Has caselets (40%).** Hard. 3-hr exam, 150 Qs. Needs caselet XML format. |
+| 11b | X-B (IA Level 2) | 500 | 1 | **Has caselets (40%).** Hard. 3-hr exam, 150 Qs. |
+| 11c | X-C (IA Renewal) | 125 | 1 (shared) | Easy. 50 Qs. **No PDF found — check if subset of X-A.** |
+| 12a | XV (Research Analyst) | 500 | 1 | **Has caselets (20%).** Hard. Valuation-heavy. |
+| 12b | XXV-A (Research Sales) | 125 | 1 (shared) | Easy. Pure theory. |
+| 13 | XVII (Retirement Adviser) | 500 | 1 | Moderate. NPS-heavy (20% weightage). |
+| 14 | XIX-A, XIX-B (AIF Distributors) | 500, 500 | 1 each | Moderate. 10% negative marking. |
+| 15a | XIX-C (AIF Mgrs All) | 500 | 1 | **Has caselets (40%).** Hard. 150 Qs, 3-hr exam. |
+| 15b | XIX-D (AIF Mgrs Cat I&II) | 500 | 1 | **Has caselets (40%).** |
+| 15c | XIX-E (AIF Mgrs Cat III) | 500 | 1 | **Has caselets (40%).** |
+| 16a | XXI-A (PMS Distributors) | 500 | 1 | Moderate. 10% negative marking. |
+| 16b | XXI-B (Portfolio Managers) | 500 | 1 | **Has caselets (40%).** Highest caselet proportion. 150 Qs. |
+| 17 | XXIII (Social Impact) | 500 | 1 | **Has caselets (15%).** Unique domain. |
+| 18 | II-A (RTA Corporate), II-B (RTA MF) | 500, 250 | 1 | Easy. RTA cluster. II-B shares with V-A. |
+
+**Total estimated sessions remaining: ~28 sessions** (including 2 audit sessions)
+
+---
+
+## Series XIII Reuse Strategy (DECISION REQUIRED)
+
+Series XIII (Common Derivatives) is a composite exam covering content from Series I (Currency), IV (Interest Rate), and VIII (Equity Derivatives). HANDOFF previously stated "~70% reuse expected."
+
+**Problem:** The exam-code prefix convention (`"VIII "`, `"I "`, `"IV "`) makes questions exam-specific by ID. DataManager groups by exact string match, so `"VIII Basics of Derivatives_1"` belongs only to Series VIII.
+
+**Decision: Use Strategy A — Duplicate Content with "XIII " Prefixed IDs**
+
+- Create new questions with `"XIII "` prefix for all XIII topics
+- Content can be adapted/reworded from audited I, IV, VIII questions
+- Each question gets a unique XIII-prefixed ID (e.g., `"XIII Basics of Derivatives_1"`)
+- This keeps the ID system consistent and avoids any DataManager changes
+- "~70% reuse" means ~70% of XIII question *content* is derived from I+IV+VIII, but all files are new with XIII IDs
+- The remaining ~30% covers XIII-unique composite topics (e.g., cross-asset derivative comparisons)
+
+**No PDF exists for Series XIII.** The study material is the combination of Series I, IV, and VIII workbooks. Generation should happen AFTER all three are audited.
+
+---
+
+## Missing PDFs (BLOCKERS)
+
+| Exam | PDF Status | Resolution |
+|------|-----------|------------|
+| XIII (Common Derivatives) | **No separate PDF** | Use I + IV + VIII workbooks as source (confirmed composite exam) |
+| X-C (IA Renewal) | **No PDF found** | Check if NISM provides a separate workbook or if it's a subset of X-A. **Do not generate until confirmed.** |
+| All other 29 exams | Available in `/Users/shivam/aiworkspace/nismresearch/study material/` | OK |
 
 ---
 
@@ -150,6 +372,70 @@ Example:
     </question>
 </QF>
 ```
+
+---
+
+## Caselet (Case-Study) Question Format
+
+**8 exams require caselets:** X-A (40%), X-B (40%), XV (20%), XIX-C (40%), XIX-D (40%), XIX-E (40%), XXI-B (40%), XXIII (15%).
+
+### PREREQUISITE: Validate Against BaseSwift CaseStudy Model
+
+The BaseSwift `Question` model has a `caseStudy: CaseStudy` field. Before generating any caselet questions, **you MUST inspect the actual BaseSwift source code** at `/Users/shivam/workspace/BaseSwift/` to determine:
+1. What properties `CaseStudy` has (scenario text, linked question IDs, etc.)
+2. How the XML parser populates the `CaseStudy` field
+3. Whether caselets use a separate XML file or are embedded in individual question XMLs
+
+**Do NOT generate caselet questions until this is validated.** The format below is a proposed structure — adjust it based on what BaseSwift actually expects.
+
+### Proposed Caselet XML Format
+
+**Option A: Scenario embedded in each linked question's XML**
+
+Each question in a caselet group includes the full scenario text. The app groups them by a shared `caseStudyId`:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Portfolio Construction_C1_1" sectionNumber="" articleNumber="0" articleName=""
+    caseStudyId="XIII Portfolio Construction_C1"
+    caseStudyTitle="Mr. Sharma's Retirement Portfolio">
+    <caseStudy><text><![CDATA[Mr. Sharma, age 55, has a retirement corpus of Rs. 2 crore...
+    [Full scenario text with all data needed for the linked questions]]]></text></caseStudy>
+    <question>
+        <text><![CDATA[Based on the scenario above, what is Mr. Sharma's ideal equity allocation?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[40%]]></text></answer>
+            <answer correct="no"><text><![CDATA[60%]]></text></answer>
+            <answer correct="no"><text><![CDATA[80%]]></text></answer>
+            <answer correct="no"><text><![CDATA[20%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** At age 55 with 5 years to retirement...]]></text></explanation>
+    </question>
+</QF>
+```
+
+**Caselet ID convention:** `{TopicName}_C{caseNumber}_{questionNumber}`
+- `XIII Portfolio Construction_C1_1` = Topic "XIII Portfolio Construction", Caselet 1, Question 1
+- `XIII Portfolio Construction_C1_2` = same caselet, Question 2
+
+**Option B: Separate caselet file + linked question files**
+
+A `.xml` file for the scenario, and individual question XMLs that reference it. This depends on how BaseSwift's parser works.
+
+**Action item:** In the first session that tackles a caselet exam (Phase 11a — Series X-A), spend the first 30 minutes reading BaseSwift's `CaseStudy` model and XML parser before generating any content.
+
+### Caselet Question Counts Per Exam
+
+| Exam | Total Qs | Independent MCQs | Caselets | Qs per Caselet | Caselet Marks | Pool Caselets Needed |
+|------|:--------:|:----------------:|:--------:|:--------------:|:-------------:|:--------------------:|
+| X-A | 150 | 90 (1 mark) | 9 | ~1 Q each | 60 marks (40%) | ~30 caselets (3x actual) |
+| X-B | 150 | 90 (1 mark) | 6 | 5 Qs (2 marks) | 60 marks (40%) | ~18 caselets |
+| XV | 100 | 80 (1 mark) | 5 | 4 Qs (1 mark) | 20 marks (20%) | ~15 caselets |
+| XIX-C | 150 | 90 (1 mark) | 6 | 5 Qs (2 marks) | 60 marks (40%) | ~18 caselets |
+| XIX-D | 100 | 60 (1 mark) | 4 | 5 Qs (2 marks) | 40 marks (40%) | ~12 caselets |
+| XIX-E | 100 | 60 (1 mark) | 4 | 5 Qs (2 marks) | 40 marks (40%) | ~12 caselets |
+| XXI-B | 150 | 90 (1 mark) | 6 | 5 Qs (2 marks) | 60 marks (40%) | ~18 caselets |
+| XXIII | 100 | 85 (1 mark) | 3 | 5 Qs (1 mark) | 15 marks (15%) | ~9 caselets |
 
 ---
 
@@ -250,39 +536,39 @@ with open("NISM_QuestionBank/QuestionToArticleNumber.plist", 'wb') as f:
 | VB Investor Services | VB Investor Services | 50 |
 | VB Legal and Regulatory Environment | VB Legal and Regulatory Environment | 20 |
 
-### XXIV (8 topics, 155 Qs)
+### XXIV (8 topics, 195 Qs)
 | Plist Topic Name | File Prefix | Qs |
 |---|---|:-:|
-| Introduction to AML, CFT and Proliferation Financing | Introduction to AML, CFT and Proliferation Financing | 15 |
-| Prevention of Money Laundering Act, 2002 | Prevention of Money Laundering Act, 2002 | 18 |
-| AML_CFT_Guidelines | AML_CFT_Guidelines | 12 |
-| Scheduled Offences under PMLA | Scheduled Offences under PMLA | 12 |
-| AML, CFT and PF Guidelines | AML, CFT and PF Guidelines | 15 |
-| SEBI Guidelines for AML Standards, CFT and PF with KYC Norms | SEBI Guidelines for AML Standards, CFT and PF with KYC Norms | 20 |
-| KYC Guidelines | KYC Guidelines | 18 |
-| Discussion on PMLA-related Cases | Discussion on PMLA-related Cases | 15 |
+| Introduction to AML, CFT and Proliferation Financing | Introduction to AML, CFT and Proliferation Financing | 20 |
+| Prevention of Money Laundering Act, 2002 | Prevention of Money Laundering Act, 2002 | 23 |
+| AML_CFT_Guidelines | AML_CFT_Guidelines | 17 |
+| Scheduled Offences under PMLA | Scheduled Offences under PMLA | 17 |
+| AML, CFT and PF Guidelines | AML, CFT and PF Guidelines | 20 |
+| SEBI Guidelines for AML Standards, CFT and PF with KYC Norms | SEBI Guidelines for AML Standards, CFT and PF with KYC Norms | 25 |
+| KYC Guidelines | KYC Guidelines | 23 |
+| Discussion on PMLA-related Cases | Discussion on PMLA-related Cases | 20 |
 
-### IFSCA-01 (8 topics, 140 Qs)
+### IFSCA-01 (8 topics, 180 Qs)
 | Plist Topic Name | File Prefix | Qs |
 |---|---|:-:|
-| IFSCA Introduction to AML CFT and PF | IFSCA Introduction to AML CFT and PF | 12 |
-| IFSCA PMLA 2002 | IFSCA PMLA 2002 | 18 |
-| IFSCA Maintenance of Records Rules | IFSCA Maintenance of Records Rules | 18 |
-| IFSCA Scheduled Offences | IFSCA Scheduled Offences | 8 |
-| IFSCA AML CFT KYC Guidelines | IFSCA AML CFT KYC Guidelines | 20 |
-| IFSCA KYC Norms | IFSCA KYC Norms | 25 |
-| IFSCA PMLA Related Cases | IFSCA PMLA Related Cases | 10 |
-| IFSCA FATF Recommendations | IFSCA FATF Recommendations | 14 |
+| IFSCA Introduction to AML CFT and PF | IFSCA Introduction to AML CFT and PF | 17 |
+| IFSCA PMLA 2002 | IFSCA PMLA 2002 | 23 |
+| IFSCA Maintenance of Records Rules | IFSCA Maintenance of Records Rules | 23 |
+| IFSCA Scheduled Offences | IFSCA Scheduled Offences | 13 |
+| IFSCA AML CFT KYC Guidelines | IFSCA AML CFT KYC Guidelines | 25 |
+| IFSCA KYC Norms | IFSCA KYC Norms | 30 |
+| IFSCA PMLA Related Cases | IFSCA PMLA Related Cases | 15 |
+| IFSCA FATF Recommendations | IFSCA FATF Recommendations | 19 |
 
-### XII (6 topics, 280 Qs)
+### XII (6 topics, 302 Qs)
 | Plist Topic Name | File Prefix | Qs |
 |---|---|:-:|
-| Understanding Securities Markets and Performance | Understanding Securities Markets and Performance | 25 |
-| Securities Types Features and Asset Allocation Concepts | Securities Types Features and Asset Allocation Concepts | 50 |
-| Primary Markets | Primary Markets | 50 |
-| Secondary Markets | Secondary Markets | 50 |
-| Mutual Funds | Mutual Funds | 50 |
-| Derivative Markets | Derivative Markets | 25 |
+| Understanding Securities Markets and Performance | Understanding Securities Markets and Performance | 28 |
+| Securities Types Features and Asset Allocation Concepts | Securities Types Features and Asset Allocation Concepts | 54 |
+| Primary Markets | Primary Markets | 54 |
+| Secondary Markets | Secondary Markets | 54 |
+| Mutual Funds | Mutual Funds | 54 |
+| Derivative Markets | Derivative Markets | 28 |
 
 ### VIII (10 topics, 500 Qs)
 | Plist Topic Name | File Prefix | Qs |
@@ -357,7 +643,17 @@ with open("NISM_QuestionBank/QuestionToArticleNumber.plist", 'wb') as f:
 
 6. **pymupdf (fitz) is available** for PDF reading. poppler/pdftotext is NOT installed. Use: `import fitz; doc = fitz.open('path'); text = doc[page].get_text()`
 
-7. **Series I and VIII need audit.** Both were generated from PDF reading but have NOT been audited page-by-page like the first 5 exams were in Session 2.
+7. **Series I and VIII need audit BEFORE Series XIII.** Both were generated from PDF reading but have NOT been audited page-by-page like the first 5 exams. Since XIII reuses their content, unaudited errors would propagate. This is now Priority 0 (Phase 5).
+
+8. **Negative marking varies by exam.** 25% for most exams, 10% for XIX-A/B/D/E and XXI-A, None for XXIV/IFSCA-01/XXV-A/V-B/X-C. This affects distractor design — exams with no negative marking can have trickier distractors since students should attempt all questions.
+
+9. **Caselet XML format is TBD.** BaseSwift has a `CaseStudy` model but the XML schema hasn't been validated. Must inspect BaseSwift source before generating any caselet exam. See "Caselet (Case-Study) Question Format" section above.
+
+10. **Mock test question count must vary per exam.** AppSettingsImpl's `getMockTestQuizQuestionCount()` needs to return 50, 100, or 150 depending on the selected exam. Currently hardcoded to 100 in NEC. See Per-Exam Configuration Reference table.
+
+11. **Series XIII has no separate PDF.** It uses I + IV + VIII workbooks. Generate only after all three are audited.
+
+12. **Series X-C (IA Renewal) PDF not found.** Do not generate until source material is confirmed.
 
 ---
 
@@ -423,4 +719,66 @@ When generating exam questions, every question MUST be based on content actually
 
 ---
 
-*Handoff document updated April 8, 2026 after Session 4 completion.*
+### Gap Analysis (April 8, 2026)
+- Cross-referenced HANDOFF.md against 6 research documents (BEST_PRACTICES.md, nism_certification_exams_research.md, QuestionPatternAnalysis.md, TopicOverlapMetrics.md, TaxRatesReference_FY2025-26.md, NEC_App_Analysis_For_NISM.md)
+- **9 gaps identified and resolved:**
+  1. Added Per-Exam Configuration Reference table (actual Qs, duration, pass %, neg marking, question mix)
+  2. Added Caselet XML Format section with proposed schema + prerequisite to validate against BaseSwift
+  3. Resolved Series XIII reuse strategy (duplicate content with "XIII " prefixed IDs)
+  4. Promoted I/VIII audit from "Optional" to Priority 0 (must happen before XIII)
+  5. Documented missing PDFs (XIII = composite, X-C = not found)
+  6. Added negative marking differences to Known Caveats
+  7. Added mock test question count variability caveat
+  8. Mapped phases to estimated session counts (~28 sessions remaining)
+  9. Embedded question type distribution (Calc/Concept/Caselet/Reg) per exam in config table
+
+### Comprehensive Audit (April 8, 2026)
+- Ran 5-dimension audit across all 2,356 questions (structural XML, plist alignment, explanation format, tax accuracy, question type distribution)
+- **Key findings:**
+  - Structural: 2,356/2,356 valid XML, correct structure, ID-filename match. 167 files missing CDATA (batch-fixable). 5 duplicate pairs found.
+  - Plists: All 5 plists fully aligned. Weightages sum to 100% for all 31 exams. 64/64 topic-prefix match.
+  - Explanations: 100% have Logic/Trap/Cross-Exam sections. 620 use "Key Takeaway" instead of "Pro-Tip" (cosmetic).
+  - Tax rates: All 300 tax questions use correct FY 2025-26 rates. Zero errors.
+  - Question type distribution: 4 exams needed rebalancing (I, VIII, XXIV/IFSCA-01, XII)
+
+### Audit Remediation (April 8, 2026)
+- **Scriptable fixes (all DONE):**
+  - 167 files: CDATA wrappers added ✓
+  - 5 duplicate pairs: one question rewritten per pair ✓
+  - 3 TopicsLite ratios: +1 question each to reach 30% floor ✓
+  - 620 files: "Key Takeaway" → "Distributor's Pro-Tip" standardized ✓
+- **Content-generation fixes (DONE for 3 exams):**
+  - XXIV: +40 conceptual questions (155→195) ✓
+  - IFSCA-01: +40 conceptual questions (140→180) ✓
+  - XII: +22 regulatory questions (280→302) ✓
+  - All 102 new questions generated from PDF reading, validated, plists regenerated
+- **Remaining (Phase 5 — needs PDF audit session):**
+  - Series I: +63 calc, +75 regulatory questions (requires full PDF re-read)
+  - Series VIII: +55 regulatory questions (requires full PDF re-read)
+- **Total after remediation: 2,458 questions across 64 topics, all plists valid**
+
+### Session 5 (April 8, 2026)
+- **Gap Analysis:** Cross-referenced HANDOFF.md against 6 research documents. Found and resolved 9 gaps (per-exam config table, caselet XML format, XIII reuse strategy, I/VIII audit promotion, missing PDFs, neg marking, mock test counts, phase-session mapping, question type distribution inline).
+- **Comprehensive Audit:** Ran 5-dimension audit across all 2,356 questions:
+  - Structural XML: all valid, 167 CDATA-missing, 5 duplicate pairs
+  - Plists: fully aligned, weightages correct
+  - Explanations: 100% structured, 620 cosmetic label variance
+  - Tax rates: zero errors across 300 tax questions
+  - Question types: 4 exams skewed (I, VIII, XXIV/IFSCA-01, XII)
+- **Scriptable fixes applied (4/4):**
+  - 167 files: CDATA wrappers added
+  - 620 files: "Key Takeaway" → "Distributor's Pro-Tip"
+  - 3 TopicsLite ratios fixed (+1 each)
+  - 5 duplicate pairs: one question rewritten per pair
+- **Content-generation fixes (3/5):**
+  - XXIV: +40 conceptual questions (155→195)
+  - IFSCA-01: +40 conceptual questions (140→180)
+  - XII: +22 regulatory questions (280→302)
+  - All from PDF reading, validated, plists regenerated
+- **Total after Session 5: 2,458 questions, 64 topics, all plists valid**
+- **Remaining for next session:**
+  - Phase 5a: Audit Series VIII (500 Qs PDF page-by-page + add ~55 regulatory Qs)
+  - Phase 5b: Audit Series I (500 Qs PDF page-by-page + add ~63 calc + ~75 regulatory Qs)
+  - Then Phase 6: Generate Series IV (Interest Rate Derivatives) and XVI (Commodity Derivatives)
+
+*Handoff document updated April 8, 2026 after Session 5 completion.*

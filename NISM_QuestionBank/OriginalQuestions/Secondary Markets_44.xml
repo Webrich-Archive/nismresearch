@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <QF id="Secondary Markets_44" sectionNumber="" articleNumber="0" articleName="">
-    <question><text>What is a disclosed quantity order?</text>
+    <question><text><![CDATA[What is a disclosed quantity order?]]></text>
         <answers>
-            <answer correct="yes"><text>An order where only a portion of the total quantity is revealed to the market while the full quantity is known only to the broker</text></answer>
-            <answer correct="no"><text>An order where the investor's identity is disclosed to all market participants</text></answer>
-            <answer correct="no"><text>An order that must be disclosed to SEBI before execution</text></answer>
-            <answer correct="no"><text>An order that can only be placed for a disclosed set of securities</text></answer>
+            <answer correct="yes"><text><![CDATA[An order where only a portion of the total quantity is revealed to the market while the full quantity is known only to the broker]]></text></answer>
+            <answer correct="no"><text><![CDATA[An order where the investor's identity is disclosed to all market participants]]></text></answer>
+            <answer correct="no"><text><![CDATA[An order that must be disclosed to SEBI before execution]]></text></answer>
+            <answer correct="no"><text><![CDATA[An order that can only be placed for a disclosed set of securities]]></text></answer>
         </answers>
-        <explanation><text>**The Logic:** In a disclosed quantity order, a large institutional investor specifies the total quantity and a smaller disclosed quantity. Only the disclosed portion is visible in the order book. This prevents market impact from large orders - large buy orders can push prices up, and large sell orders can push prices down.
+        <explanation><text><![CDATA[**The Logic:** In a disclosed quantity order, a large institutional investor specifies the total quantity and a smaller disclosed quantity. Only the disclosed portion is visible in the order book. This prevents market impact from large orders - large buy orders can push prices up, and large sell orders can push prices down.
 **The Trap:** In electronic trading, all orders are anonymous (option b is wrong). Disclosed quantity relates to the size shown in the order book, not the investor's identity.
 **Cross-Exam Context:** Only the broker knows the full quantity. As the disclosed portion is filled, the next tranche is automatically released. This allows large orders to be executed without significantly affecting market price.
-**Distributor's Pro-Tip:** Disclosed quantity = Iceberg order. Like an iceberg, only a small part is visible. Institutional investors use this to avoid moving the market against themselves.</text></explanation>
+**Distributor's Pro-Tip:** Disclosed quantity = Iceberg order. Like an iceberg, only a small part is visible. Institutional investors use this to avoid moving the market against themselves.]]></text></explanation>
     </question>
 </QF>

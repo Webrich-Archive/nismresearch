@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QF id="VB Performance of Mutual Funds_2" sectionNumber="" articleNumber="0" articleName="">
-    <question><text><![CDATA[What does NAV stand for in mutual funds?]]></text>
+    <question><text><![CDATA[How is the Net Asset Value (NAV) of a mutual fund scheme calculated?]]></text>
         <answers>
-            <answer correct="yes"><text><![CDATA[Net Asset Value]]></text></answer>
-            <answer correct="no"><text><![CDATA[National Average Value]]></text></answer>
-            <answer correct="no"><text><![CDATA[Net Annual Valuation]]></text></answer>
-            <answer correct="no"><text><![CDATA[Nominal Asset Volume]]></text></answer>
+            <answer correct="yes"><text><![CDATA[(Total Assets - Total Liabilities) / Total number of outstanding units]]></text></answer>
+            <answer correct="no"><text><![CDATA[Total Assets / Total number of investors in the scheme]]></text></answer>
+            <answer correct="no"><text><![CDATA[(Total Assets + Total Liabilities) / Total units issued since inception]]></text></answer>
+            <answer correct="no"><text><![CDATA[Market price of all securities / Number of schemes managed by the AMC]]></text></answer>
         </answers>
-        <explanation><text><![CDATA[**The Logic:** NAV stands for Net Asset Value. It represents the per-unit value of a mutual fund scheme. It is calculated by dividing the total value of all securities in the portfolio (minus liabilities) by the total number of units outstanding.
+        <explanation><text><![CDATA[**The Logic:** NAV is calculated as (Total Assets - Total Liabilities) divided by the Total number of outstanding units. Total Assets include the market value of all investments, receivables, accrued income, and other assets. Total Liabilities include accrued expenses, payables, and other liabilities. This gives the per-unit value at which investors can buy or redeem units.
 
-**The Trap:** NAV is not an average, annual figure, or volume measure. It is the net per-unit value of the fund.
+**The Trap:** Dividing by number of investors is wrong — NAV is a per-unit measure, not a per-investor measure. Adding liabilities instead of subtracting them inflates the value incorrectly. The number of schemes managed by the AMC is entirely irrelevant to a specific scheme's NAV calculation.
 
-**Cross-Exam Context:** Also tested in Series V-A. NAV is the most basic and important concept in mutual fund performance.
+**Cross-Exam Context:** NAV calculation is a fundamental concept tested across NISM Series V-A and V-B. AMCs are required to calculate and disclose NAV daily for all open-ended schemes. The formula directly impacts how purchase and redemption prices are determined.
 
-**Distributor's Pro-Tip:** NAV changes every day based on market movements. Higher NAV does not mean a fund is expensive or better — what matters is how much the NAV grows over time (i.e., returns).]]></text></explanation>
+**Distributor's Pro-Tip:** NAV is declared at the end of each business day. When a client invests, units are allotted at the applicable NAV (based on cut-off timing rules). Remember: a higher NAV does not mean a fund is "expensive" — what matters is the percentage growth in NAV over time, which represents the actual return earned by investors.]]></text></explanation>
     </question>
 </QF>

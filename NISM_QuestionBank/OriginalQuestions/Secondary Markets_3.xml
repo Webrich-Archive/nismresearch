@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <QF id="Secondary Markets_3" sectionNumber="" articleNumber="0" articleName="">
-    <question><text>What is a contract note?</text>
+    <question><text><![CDATA[What is a contract note?]]></text>
         <answers>
-            <answer correct="yes"><text>A confirmation document issued by the broker containing details of trades executed on behalf of a client on a particular day</text></answer>
-            <answer correct="no"><text>A legal agreement between the investor and the stock exchange</text></answer>
-            <answer correct="no"><text>A document issued by the company to shareholders after allotment</text></answer>
-            <answer correct="no"><text>A receipt issued by the depository for holding securities</text></answer>
+            <answer correct="yes"><text><![CDATA[A confirmation document issued by the broker containing details of trades executed on behalf of a client on a particular day]]></text></answer>
+            <answer correct="no"><text><![CDATA[A legal agreement between the investor and the stock exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[A document issued by the company to shareholders after allotment]]></text></answer>
+            <answer correct="no"><text><![CDATA[A receipt issued by the depository for holding securities]]></text></answer>
         </answers>
-        <explanation><text>**The Logic:** A contract note is issued by the broker within 24 hours of trade execution. It contains trade details, settlement information, brokerage, STT, GST, unique client code, PAN, and the arbitration clause. It serves as proof of transaction.
+        <explanation><text><![CDATA[**The Logic:** A contract note is issued by the broker within 24 hours of trade execution. It contains trade details, settlement information, brokerage, STT, GST, unique client code, PAN, and the arbitration clause. It serves as proof of transaction.
 **The Trap:** A contract note is between broker and client, not between investor and exchange (option b). It confirms trades, not holdings or allotments.
 **Cross-Exam Context:** Two copies are generated: one for broker, one for client. ECNs (Electronic Contract Notes) require client consent and must be digitally signed, tamper-proof, and password-protected.
-**Distributor's Pro-Tip:** Contract note = Your trade receipt. Always verify it matches your orders. Discrepancies must be reported immediately to the broker.</text></explanation>
+**Distributor's Pro-Tip:** Contract note = Your trade receipt. Always verify it matches your orders. Discrepancies must be reported immediately to the broker.]]></text></explanation>
     </question>
 </QF>

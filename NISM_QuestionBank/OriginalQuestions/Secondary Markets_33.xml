@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <QF id="Secondary Markets_33" sectionNumber="" articleNumber="0" articleName="">
-    <question><text>What is the interoperability framework for clearing corporations?</text>
+    <question><text><![CDATA[What is the interoperability framework for clearing corporations?]]></text>
         <answers>
-            <answer correct="yes"><text>A framework allowing brokers to clear and settle trades at a single clearing corporation regardless of the exchange where trades were executed</text></answer>
-            <answer correct="no"><text>A system that allows different stock exchanges to share the same trading platform</text></answer>
-            <answer correct="no"><text>A mechanism for transferring securities between NSDL and CDSL</text></answer>
-            <answer correct="no"><text>A framework for merging all clearing corporations into one entity</text></answer>
+            <answer correct="yes"><text><![CDATA[A framework allowing brokers to clear and settle trades at a single clearing corporation regardless of the exchange where trades were executed]]></text></answer>
+            <answer correct="no"><text><![CDATA[A system that allows different stock exchanges to share the same trading platform]]></text></answer>
+            <answer correct="no"><text><![CDATA[A mechanism for transferring securities between NSDL and CDSL]]></text></answer>
+            <answer correct="no"><text><![CDATA[A framework for merging all clearing corporations into one entity]]></text></answer>
         </answers>
-        <explanation><text>**The Logic:** Interoperability, introduced by SEBI in 2018 and implemented in June 2019, links the CCs of different exchanges. Brokers can maintain margins at a single CC, reducing capital requirements. Client positions are netted across all exchanges for margin computation.
+        <explanation><text><![CDATA[**The Logic:** Interoperability, introduced by SEBI in 2018 and implemented in June 2019, links the CCs of different exchanges. Brokers can maintain margins at a single CC, reducing capital requirements. Client positions are netted across all exchanges for margin computation.
 **The Trap:** Interoperability does NOT merge the CCs (option d). Each CC remains independent. The framework allows cross-CC clearing. It applies to equity, derivatives, and debt but NOT commodity derivatives.
 **Cross-Exam Context:** Benefits: efficient capital allocation, lower transaction costs, reduced margin requirements through netting, and healthy competition among CCs. Example: Long 10 lots on NSE, short 6 lots on BSE = net 4 lots for margin.
-**Distributor's Pro-Tip:** Interoperability = One CC for all exchanges. Before: separate margins at each CC. After: single margin pool. Saves capital and reduces costs for brokers and clients.</text></explanation>
+**Distributor's Pro-Tip:** Interoperability = One CC for all exchanges. Before: separate margins at each CC. After: single margin pool. Saves capital and reduces costs for brokers and clients.]]></text></explanation>
     </question>
 </QF>

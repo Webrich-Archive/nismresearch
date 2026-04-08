@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AML, CFT and PF Guidelines_18" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the purpose of a 'Suspicious Transaction Report (STR)' in the AML framework?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[To report transactions to FIU-IND that raise suspicion of money laundering or terrorist financing, regardless of transaction value]]></text></answer>
+            <answer correct="no"><text><![CDATA[To report all transactions above a specified monetary threshold to the tax authorities]]></text></answer>
+            <answer correct="no"><text><![CDATA[To inform the customer that their account is under investigation]]></text></answer>
+            <answer correct="no"><text><![CDATA[To request permission from the regulator before processing a large transaction]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** An STR is filed with FIU-IND when there are reasonable grounds to suspect that a transaction involves proceeds of crime or is related to terrorist financing. STRs have no monetary threshold — even small suspicious transactions must be reported.
+**The Trap:** CTRs (Cash Transaction Reports) have monetary thresholds, but STRs do not. Also, STRs go to FIU-IND, not tax authorities, and must never be disclosed to the customer.
+**Cross-Exam Context:** NISM Series V-A and Series XXII test STR filing requirements and timelines.
+**Distributor's Pro-Tip:** File STRs within 7 working days of the suspicion being raised — maintain records of the internal decision-making process that led to filing.]]></text></explanation>
+    </question>
+</QF>

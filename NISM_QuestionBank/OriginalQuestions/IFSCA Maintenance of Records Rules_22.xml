@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IFSCA Maintenance of Records Rules_22" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the record retention period for transaction records between a client and a reporting entity under the PML Rules?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Five years from the date of the transaction]]></text></answer>
+            <answer correct="no"><text><![CDATA[Three years from the date of the transaction]]></text></answer>
+            <answer correct="no"><text><![CDATA[Ten years from the date of the transaction]]></text></answer>
+            <answer correct="no"><text><![CDATA[One year from the date of the transaction]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under the PML Rules, records of transactions must be maintained for a period of five years from the date of the transaction. Similarly, client identity records must be maintained for five years after the business relationship has ended or the account is closed, whichever is later.
+**The Trap:** Option C (ten years) is tempting because some jurisdictions require longer retention. The correct answer under Indian PML Rules is specifically five years.
+**Cross-Exam Context:** Record retention periods are commonly tested in NISM IFSCA-01 — note the IFSCA Guidelines prescribe six years for their own records, creating a distinction worth remembering.
+**Distributor's Pro-Tip:** Maintain both transaction records (5 years from transaction date) and client identity records (5 years after relationship ends) — these are two different retention timelines with different starting points.]]></text></explanation>
+    </question>
+</QF>

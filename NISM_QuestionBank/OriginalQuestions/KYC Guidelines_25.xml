@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="KYC Guidelines_25" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the 'KYC Registration Agency (KRA)' system in the Indian securities market?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[An intermediary registered with SEBI that centralizes KYC records for the securities market, eliminating the need for investors to repeat KYC with each intermediary]]></text></answer>
+            <answer correct="no"><text><![CDATA[A government agency that issues Aadhaar cards for KYC verification]]></text></answer>
+            <answer correct="no"><text><![CDATA[A private detective agency that verifies customer backgrounds for financial institutions]]></text></answer>
+            <answer correct="no"><text><![CDATA[A SEBI department that directly conducts KYC verification for all investors]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** KRAs are SEBI-registered entities that maintain KYC records of investors in the securities market. When an investor completes KYC with one intermediary and the record is uploaded to a KRA, other intermediaries can access it, making the process efficient.
+**The Trap:** KRAs are not government agencies or SEBI departments — they are separate intermediaries registered with SEBI specifically for this function.
+**Cross-Exam Context:** NISM Series V-A and Series VI test KRA system and its operational workflow.
+**Distributor's Pro-Tip:** Always verify the KRA status of a new client before requesting fresh KYC documents — if they are already KRA-verified, you can fetch their records directly.]]></text></explanation>
+    </question>
+</QF>
