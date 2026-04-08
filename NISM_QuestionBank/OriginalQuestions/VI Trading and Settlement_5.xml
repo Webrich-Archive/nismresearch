@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Trading and Settlement_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Off-market transfers require OTP verification for:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[All off-market transfers — both within the depository and inter-depository]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only inter-depository transfers]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only transfers above Rs. 10 lakh]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only transfers to non-family members]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** OTP is required for ALL off-market transfers — both within the depository as well as inter-depository transfers.
+**The Trap:** 'Only inter-depository' is too narrow. OTP applies to all off-market transfers regardless of whether they're intra or inter-depository.
+**Cross-Exam Context:** Series I covers authentication for currency derivative positions.
+**Distributor's Pro-Tip:** No exemptions based on value or relationship. Even a transfer between your own accounts at different DPs requires OTP verification.]]></text></explanation>
+    </question>
+</QF>

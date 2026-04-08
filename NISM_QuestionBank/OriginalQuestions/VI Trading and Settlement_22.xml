@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Trading and Settlement_22" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the DIS for off-market transfers, the account holder must specify:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The execution date on which the instruction should be carried out]]></text></answer>
+            <answer correct="no"><text><![CDATA[The price at which the transfer is being made]]></text></answer>
+            <answer correct="no"><text><![CDATA[The reason for the off-market transfer]]></text></answer>
+            <answer correct="no"><text><![CDATA[The name of the stock exchange]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The account holder specifies the execution date on the DIS. The debit is effected on that date.
+**The Trap:** 'The price' is not relevant for off-market DIS processing — the depository doesn't track prices, only security movement.
+**Cross-Exam Context:** Series VII covers instruction execution mechanics.
+**Distributor's Pro-Tip:** The execution date provides control: the client can submit the DIS today but schedule execution for a future date. This is useful for coordinating with the buyer.]]></text></explanation>
+    </question>
+</QF>

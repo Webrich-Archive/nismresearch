@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Transmission and Nomination_16" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If an ISIN in the deceased's account is frozen for debits/credits or is inactive, and the nominee/heir cannot receive those securities, what status does the account reflect?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[TO-BE-CLOSED status]]></text></answer>
+            <answer correct="no"><text><![CDATA[DORMANT status]]></text></answer>
+            <answer correct="no"><text><![CDATA[ACTIVE-WITH-RESTRICTIONS status]]></text></answer>
+            <answer correct="no"><text><![CDATA[PENDING-CLOSURE status]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When frozen/inactive ISINs prevent complete transfer, the account reflects 'TO-BE-CLOSED' status. When those ISINs are later activated or corporate actions processed, the remaining transfer can proceed.
+**The Trap:** 'DORMANT' suggests inactivity, but TO-BE-CLOSED specifically indicates pending completion of the transmission process.
+**Cross-Exam Context:** This status is specific to depository transmission operations.
+**Distributor's Pro-Tip:** The TO-BE-CLOSED status is a holding pattern — the bulk of securities have been transmitted, but some ISINs can't move yet. Once those ISINs become transferable, the process completes and the account is closed.]]></text></explanation>
+    </question>
+</QF>

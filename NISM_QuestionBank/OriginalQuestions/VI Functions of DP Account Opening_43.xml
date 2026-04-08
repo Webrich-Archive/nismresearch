@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Functions of DP Account Opening_43" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Generally, how many CM (Clearing Member) accounts does a broker have per clearing corporation?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[One CM account per clearing corporation]]></text></answer>
+            <answer correct="no"><text><![CDATA[One for each stock exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[Multiple accounts per clearing corporation]]></text></answer>
+            <answer correct="no"><text><![CDATA[One combined account for all clearing corporations]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Generally, there will be only one CM account per broker for a stock exchange/clearing corporation.
+**The Trap:** 'Multiple accounts per CC' is the exception, not the rule. While possible, the general practice is one per CC.
+**Cross-Exam Context:** Series VII covers clearing member account structures in detail.
+**Distributor's Pro-Tip:** With three CCs (NCL, ICCL, MCCIL), a broker typically has three CM accounts — one for each. This keeps settlement flows separate and clean.]]></text></explanation>
+    </question>
+</QF>

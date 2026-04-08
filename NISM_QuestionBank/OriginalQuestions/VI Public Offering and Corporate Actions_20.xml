@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Public Offering and Corporate Actions_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In respect of government securities, who distributes the interest to eligible clients?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The depository, after RBI has credited interest to the depository's account]]></text></answer>
+            <answer correct="no"><text><![CDATA[The issuing authority (Government) directly to investors]]></text></answer>
+            <answer correct="no"><text><![CDATA[The RBI directly to the demat account holders]]></text></answer>
+            <answer correct="no"><text><![CDATA[The Depository Participant on behalf of RBI]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For government securities, the depository distributes the interest to eligible clients after RBI has credited the interest amount to the depository's account.
+**The Trap:** Unlike corporate debt where issuers pay directly, G-Sec interest flows through the depository.
+**Cross-Exam Context:** Government securities interest payment is covered in NISM Series VI Chapter 11.
+**Distributor's Pro-Tip:** The G-Sec interest payment chain is: RBI → Depository → Client. This differs from corporate securities where the issuer/RTA pays directly.]]></text></explanation>
+    </question>
+</QF>

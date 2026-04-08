@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Trading and Settlement_64" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A 'standing instruction' in the depository system allows:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Automatic receipt (credit) of securities without submitting separate instructions for each incoming transfer]]></text></answer>
+            <answer correct="no"><text><![CDATA[Automatic selling of securities at a predetermined price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Automatic conversion of physical to demat]]></text></answer>
+            <answer correct="no"><text><![CDATA[Automatic nomination]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Standing instructions allow automatic credit of securities — the transferee doesn't need to give separate receive instructions for each transfer.
+**The Trap:** 'Automatic selling' is not a depository function — that would be a trading platform feature.
+**Cross-Exam Context:** Series VII covers standing instruction mechanisms in settlement.
+**Distributor's Pro-Tip:** Without standing instructions, every purchase would require the buyer to actively confirm receipt. Standing instructions make this automatic — critical for active traders.]]></text></explanation>
+    </question>
+</QF>

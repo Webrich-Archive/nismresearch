@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Pledge and Hypothecation_22" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If the execution date is not mentioned in the Pledge Request Form, what date is taken as the execution date?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The business date on which the Pledgor DP verifies the pledge]]></text></answer>
+            <answer correct="no"><text><![CDATA[The date the pledgee confirms the pledge]]></text></answer>
+            <answer correct="no"><text><![CDATA[The next business day after submission]]></text></answer>
+            <answer correct="no"><text><![CDATA[The date of submission of the form]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** If the execution date is not mentioned in the Pledge Request Form, then the business date on which the Pledgor DP verifies the pledge will be taken as execution date.
+**The Trap:** The date of submission versus the date of verification are different events, making option (d) tempting.
+**Cross-Exam Context:** Execution date determination is important for settlement and corporate actions in NISM Series VI.
+**Distributor's Pro-Tip:** Always specify the execution date in the PRF to avoid any ambiguity about when the pledge takes effect.]]></text></explanation>
+    </question>
+</QF>

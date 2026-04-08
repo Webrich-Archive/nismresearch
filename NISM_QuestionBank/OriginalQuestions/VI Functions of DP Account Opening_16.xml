@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Functions of DP Account Opening_16" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following is NOT a valid reason for freezing a demat account?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The account holder has not traded for 6 months]]></text></answer>
+            <answer correct="no"><text><![CDATA[Written instruction from the beneficial owner]]></text></answer>
+            <answer correct="no"><text><![CDATA[Order from a court or statutory authority]]></text></answer>
+            <answer correct="no"><text><![CDATA[Non-compliance with 6 KYC attributes (code 37)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Freeze reasons include: BO's written instruction, court/statutory orders, KYC non-compliance, and SEBI orders. Inactivity alone is not a freeze reason.
+**The Trap:** 'Non-compliance with 6 KYC attributes' (code 37) IS a valid freeze reason, even though it's relatively new.
+**Cross-Exam Context:** Series VII covers account freezing in the context of regulatory compliance.
+**Distributor's Pro-Tip:** Dormant/inactive accounts may trigger statements and notices, but don't get automatically frozen just for inactivity. Active freeze requires a specific trigger.]]></text></explanation>
+    </question>
+</QF>

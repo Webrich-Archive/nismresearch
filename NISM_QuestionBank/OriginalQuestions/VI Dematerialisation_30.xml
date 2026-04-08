@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Dematerialisation_30" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If the RTA sends incorrect or incomplete documents to the wrong RTA, what happens?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The wrong RTA will not retain any documents but will return all documents to the DP]]></text></answer>
+            <answer correct="no"><text><![CDATA[The wrong RTA will process the request anyway]]></text></answer>
+            <answer correct="no"><text><![CDATA[The documents are forwarded to the correct RTA]]></text></answer>
+            <answer correct="no"><text><![CDATA[SEBI is notified]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** If certificates are sent to the incorrect RTA, the RTA will not retain any incorrect or incomplete documents but will return all to the DP.
+**The Trap:** 'The RTA will process anyway' is wrong — RTAs can only process securities for issuers they represent.
+**Cross-Exam Context:** This is a procedural safeguard in the demat process.
+**Distributor's Pro-Tip:** The DP/client should contact the correct RTA and resubmit. The DRN from the original request may need to be regenerated.]]></text></explanation>
+    </question>
+</QF>

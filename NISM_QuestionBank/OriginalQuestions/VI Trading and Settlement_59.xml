@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Trading and Settlement_59" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the key difference between 'earmarking' and 'debiting' securities in the auto pay-in process?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Earmarking locks the securities (preventing other use), while debiting actually moves them to the CC at pay-out time]]></text></answer>
+            <answer correct="no"><text><![CDATA[They are the same process]]></text></answer>
+            <answer correct="no"><text><![CDATA[Earmarking is for equities only, debiting for debt]]></text></answer>
+            <answer correct="no"><text><![CDATA[Earmarking is done by the DP, debiting by the CC]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Earmarking = locking securities at pay-in time; Debit = actual movement to CC at pay-out time. Two separate steps.
+**The Trap:** 'They are the same' misses the temporal and functional distinction between locking and actual transfer.
+**Cross-Exam Context:** Series VIII covers margin earmarking for derivatives.
+**Distributor's Pro-Tip:** Earmarking prevents the seller from using those securities for anything else (like another sale or pledge). The actual debit happens later when the CC is ready to process pay-out.]]></text></explanation>
+    </question>
+</QF>

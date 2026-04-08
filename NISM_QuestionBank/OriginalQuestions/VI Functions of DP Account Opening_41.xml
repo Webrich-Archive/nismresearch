@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Functions of DP Account Opening_41" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How is the client master report provided to the BO at CDSL?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Via email at the recorded address, or through the DP website with secured access (Login ID/Password/3-factor authentication)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only by physical mail]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only through the stock exchange website]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only when the BO visits the DP office]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The client master report may be provided via email or through the DP's website with secured access (Login ID-Password/three-factor authentication). If email bounces or web access fails, physical delivery is required.
+**The Trap:** 'Only by physical mail' ignores the digital delivery options available.
+**Cross-Exam Context:** Series VII covers digital communication of settlement statements.
+**Distributor's Pro-Tip:** If digital delivery fails (bounced email, website inaccessible), the DP must ensure physical delivery. The BO can also request the report in person from the DP.]]></text></explanation>
+    </question>
+</QF>

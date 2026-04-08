@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Functions of DP Account Opening_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What document has SEBI introduced in April 2022 to replace the Power of Attorney for demat account operations?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Demat Debit and Pledge Instruction (DDPI)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Depository Debit Permission Instrument]]></text></answer>
+            <answer correct="no"><text><![CDATA[Digital Debit and Payment Interface]]></text></answer>
+            <answer correct="no"><text><![CDATA[Direct Demat Processing Instruction]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI introduced DDPI in April 2022 to replace the PoA. Clients explicitly authorize the stock broker/DP to access their BO account for specific settlement obligations.
+**The Trap:** 'Power of Attorney' was the older mechanism that gave broader powers. DDPI is more limited and specific.
+**Cross-Exam Context:** Series VII covers the settlement process where DDPI authorization is used.
+**Distributor's Pro-Tip:** DDPI is more investor-friendly than PoA because it limits authorization to specific purposes (settlement obligations) rather than giving blanket access to the demat account.]]></text></explanation>
+    </question>
+</QF>

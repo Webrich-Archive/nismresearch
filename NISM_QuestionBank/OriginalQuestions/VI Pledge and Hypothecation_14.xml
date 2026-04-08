@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Pledge and Hypothecation_14" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the case of pledge invocation, is confirmation required from the pledgor's DP?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[No, no confirmation is required from the pledgor's DP for pledge invocation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, the pledgor must confirm the invocation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, but only if the pledge value exceeds Rs. 10 lakhs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, SEBI approval is also required]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In case of pledge (not hypothecation), no confirmation is required in DP system of the pledgor's DP for transferring securities from pledgor's to pledgee's account during invocation.
+**The Trap:** Since creation and closure require pledgee confirmation, one might assume invocation requires pledgor confirmation, but it doesn't.
+**Cross-Exam Context:** This is a key distinction between pledge and hypothecation — pledge allows unilateral invocation.
+**Distributor's Pro-Tip:** This is what makes pledge stronger security for lenders — they can invoke without borrower's consent.]]></text></explanation>
+    </question>
+</QF>

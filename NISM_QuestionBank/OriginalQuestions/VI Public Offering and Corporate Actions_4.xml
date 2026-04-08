@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Public Offering and Corporate Actions_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the case of book closure, when does the depository generate the holding report (list of BOs)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[As of end of the day of one day prior to book closure start date]]></text></answer>
+            <answer correct="no"><text><![CDATA[As of the book closure start date]]></text></answer>
+            <answer correct="no"><text><![CDATA[As of the book closure end date]]></text></answer>
+            <answer correct="no"><text><![CDATA[As of two days prior to book closure start date]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In cases where the issuer sets up a corporate action specifying book closure dates, the depository generates the holding report as of end of the day of one day prior to book closure start date.
+**The Trap:** The book closure start date itself seems logical, but the report is generated one day prior.
+**Cross-Exam Context:** Book closure timing is important for settlement and corporate action processing.
+**Distributor's Pro-Tip:** Ensure all pending transfers are completed before the day prior to book closure to be included in the beneficiary list.]]></text></explanation>
+    </question>
+</QF>

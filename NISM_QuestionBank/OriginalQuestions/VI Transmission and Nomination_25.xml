@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Transmission and Nomination_25" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If the account of the deceased has ISINs that are 'Inactive' due to pending corporate actions, when can those securities be transmitted to the heir?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[After the corporate actions are processed and securities are transferred to a new/resulting ISIN]]></text></answer>
+            <answer correct="no"><text><![CDATA[Immediately, regardless of the corporate action status]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only after 1 year from the date of death]]></text></answer>
+            <answer correct="no"><text><![CDATA[Never — inactive ISINs are cancelled]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** At a later date, when inactive ISINs have corporate actions processed and securities move to new/resulting ISINs, the DP can then process the transfer to the heir's account.
+**The Trap:** 'Never' is too extreme — inactive ISINs become active once the pending corporate action (like merger, demerger) is completed.
+**Cross-Exam Context:** This is specific to the post-mortem handling of corporate actions in depository accounts.
+**Distributor's Pro-Tip:** Example: If Company A is merging with Company B and the deceased held Company A shares, those shares can't transfer until the merger is complete and new Company B shares are credited.]]></text></explanation>
+    </question>
+</QF>

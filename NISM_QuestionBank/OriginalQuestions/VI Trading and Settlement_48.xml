@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Trading and Settlement_48" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The DDPI (Demat Debit and Pledge Instruction) introduced in April 2022 allows:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Stock brokers/DPs to access the BO account specifically for meeting settlement obligations]]></text></answer>
+            <answer correct="no"><text><![CDATA[Unlimited access to the BO's demat account]]></text></answer>
+            <answer correct="no"><text><![CDATA[The DP to trade on behalf of the client]]></text></answer>
+            <answer correct="no"><text><![CDATA[Automatic pledging of all client securities]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** DDPI provides limited authorization for stock broker/DP to access the BO account specifically for settlement obligations.
+**The Trap:** 'Unlimited access' was the problem with the old PoA system. DDPI is specifically designed to be limited in scope.
+**Cross-Exam Context:** Chapter 4 covered DDPI introduction.
+**Distributor's Pro-Tip:** DDPI replaced the blanket PoA with a targeted authorization. The client explicitly agrees to authorize access only for settlement purposes.]]></text></explanation>
+    </question>
+</QF>

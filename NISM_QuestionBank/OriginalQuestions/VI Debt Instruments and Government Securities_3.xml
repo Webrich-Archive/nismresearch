@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Debt Instruments and Government Securities_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What details does the instrument descriptor for a debt security in the depository system indicate?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Name of Issuer, Coupon/Interest Rate, Security Name, Redemption Date, and Face Value]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the Issuer Name and ISIN]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the Coupon Rate and Face Value]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the Redemption Date and Security Name]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The instrument descriptor indicates: Name of Issuer, Coupon/Interest Rate, Security Name, Redemption Date, and Face Value.
+**The Trap:** Partial information options seem correct but all five elements are part of the descriptor.
+**Cross-Exam Context:** Debt instrument identification is tested in NISM Series VI and Series VII.
+**Distributor's Pro-Tip:** The descriptor 'ICICI BANK LIMITED SR-B98 14.25 UMD 14FB05 FVRS1LAC' can be decoded to get issuer, coupon, instrument type, redemption date, and face value.]]></text></explanation>
+    </question>
+</QF>

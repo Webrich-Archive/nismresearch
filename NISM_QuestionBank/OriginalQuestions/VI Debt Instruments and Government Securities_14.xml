@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Debt Instruments and Government Securities_14" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the depository system, how are Commercial Paper securities credited to the investor's account?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[In terms of units (e.g., Rs. 5 crore investment = 100 units)]]></text></answer>
+            <answer correct="no"><text><![CDATA[In terms of face value in rupees]]></text></answer>
+            <answer correct="no"><text><![CDATA[In terms of number of certificates]]></text></answer>
+            <answer correct="no"><text><![CDATA[In terms of lots of Rs. 1 lakh each]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Securities (CP) will be credited in the investor's account in terms of units. For example, if the investor invests Rs. 5 crore in a CP issue, then 100 units will be credited (Rs. 5 crore / Rs. 5 lakh per unit).
+**The Trap:** Face value in rupees seems intuitive but the system uses units based on the Rs. 5 lakh face value.
+**Cross-Exam Context:** Unit-based crediting is specific to CP operations in NISM Series VI.
+**Distributor's Pro-Tip:** Always convert CP investments to units when checking demat statements — 1 unit = Rs. 5 lakh face value.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Pledge and Hypothecation_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[On invocation of a pledge, where are the securities transferred to?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[From the pledged balance of the pledgor's account to the free balance of the pledgee's account]]></text></answer>
+            <answer correct="no"><text><![CDATA[From the free balance of the pledgor's account to the pledged balance of the pledgee's account]]></text></answer>
+            <answer correct="no"><text><![CDATA[From the pledgor's account to a special SEBI escrow account]]></text></answer>
+            <answer correct="no"><text><![CDATA[From the pledgor's account to the depository's pool account]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** On verification by pledgee, the securities are transferred from the 'pledged balance' of the pledgor's BO account to the 'free balance' of the pledgee's BO account.
+**The Trap:** Option (b) reverses the balance types, which is a common confusion.
+**Cross-Exam Context:** Understanding balance movements is critical for NISM Series VI depository operations.
+**Distributor's Pro-Tip:** After invocation, securities appear as free balance in the pledgee's account, meaning the pledgee can immediately sell them if needed.]]></text></explanation>
+    </question>
+</QF>

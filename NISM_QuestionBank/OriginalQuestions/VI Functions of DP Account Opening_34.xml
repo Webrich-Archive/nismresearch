@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Functions of DP Account Opening_34" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[UCC (Unique Client Code) data is shared between stock exchanges and depositories. From when was this one-time sharing initiated?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[November 30, 2019, with subsequent daily incremental updates]]></text></answer>
+            <answer correct="no"><text><![CDATA[January 1, 2020, with monthly updates]]></text></answer>
+            <answer correct="no"><text><![CDATA[April 1, 2018, with weekly updates]]></text></answer>
+            <answer correct="no"><text><![CDATA[July 1, 2021, with quarterly updates]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** UCC data sharing was initiated on a one-time basis from November 30, 2019, with incremental data for new UCCs shared on a daily basis subsequently.
+**The Trap:** 'Monthly updates' would be too slow for UCC mapping. Daily updates ensure new trading accounts are mapped promptly.
+**Cross-Exam Context:** Series VII covers UCC requirements for trading accounts.
+**Distributor's Pro-Tip:** UCC-demat mapping links a client's trading account(s) with their demat account(s) using PAN as the common identifier.]]></text></explanation>
+    </question>
+</QF>

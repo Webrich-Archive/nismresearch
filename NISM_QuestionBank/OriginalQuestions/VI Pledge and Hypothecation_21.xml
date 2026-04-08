@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Pledge and Hypothecation_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Can the pledgor set up a pledge request with a future execution date?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Yes, the pledgor has the facility to set up pledge with a future execution date]]></text></answer>
+            <answer correct="no"><text><![CDATA[No, pledge can only be created on the same business day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, but only up to 7 days in the future]]></text></answer>
+            <answer correct="no"><text><![CDATA[No, only the pledgee can request future-dated pledges]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The Pledgor BO shall have the facility to set up pledge request with future date as execution date.
+**The Trap:** Option (c) adds a time limit that doesn't exist in the regulations.
+**Cross-Exam Context:** Future-dated instructions are also allowed in settlement operations covered in NISM Series VI.
+**Distributor's Pro-Tip:** Future-dated pledge requests help synchronize pledge creation with loan disbursement dates.]]></text></explanation>
+    </question>
+</QF>

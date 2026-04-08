@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Trading and Settlement_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A DvP (Delivery versus Payment) agent facilitates:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Interoperable settlement by transferring securities between different Clearing Corporations' pool accounts]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only government securities settlement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only off-market transfers]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only margin collection]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The DvP agent transfers securities receivable by CMs of other CCs — facilitating interoperable settlement across clearing corporations.
+**The Trap:** 'Only government securities' is where DvP originated, but in this context it's about cross-CC interoperable equity settlement.
+**Cross-Exam Context:** Series VII covers the interoperability framework for CCs.
+**Distributor's Pro-Tip:** Interoperability allows a BSE broker to trade against an NSE broker. The DvP agent ensures securities move between NSE Clearing and BSE's ICCL.]]></text></explanation>
+    </question>
+</QF>

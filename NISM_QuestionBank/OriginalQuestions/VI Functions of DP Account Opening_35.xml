@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Functions of DP Account Opening_35" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For a source demat account that cannot be closed during account transfer due to non-transfer of certain securities, the DP should:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Freeze the account as 'Suspended for Debit and Credit']]></text></answer>
+            <answer correct="no"><text><![CDATA[Leave the account active indefinitely]]></text></answer>
+            <answer correct="no"><text><![CDATA[Transfer all remaining securities to the depository]]></text></answer>
+            <answer correct="no"><text><![CDATA[Report the account to SEBI for closure]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** If the source account cannot be closed due to non-transfer of securities, DPs must freeze the account as 'Suspended for Debit and Credit'.
+**The Trap:** 'Leave the account active' creates a risk of unauthorized transactions in the residual account.
+**Cross-Exam Context:** Series VII covers account management during broker termination or transfer.
+**Distributor's Pro-Tip:** This freeze prevents any further activity in the old account while preserving the non-transferred securities. The investor can request unfreezing once transfer issues are resolved.]]></text></explanation>
+    </question>
+</QF>

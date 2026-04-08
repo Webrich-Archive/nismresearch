@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Debt Instruments and Government Securities_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When an issuer initially allots a Letter of Allotment (LOA) for secured debentures and later creates the charge, what happens to the ISIN?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The nomenclature of the ISIN of LOA is changed to that of a debenture]]></text></answer>
+            <answer correct="no"><text><![CDATA[A completely new ISIN is allotted for the debenture]]></text></answer>
+            <answer correct="no"><text><![CDATA[The LOA ISIN is cancelled and a separate debenture ISIN is created]]></text></answer>
+            <answer correct="no"><text><![CDATA[No change occurs — the LOA ISIN continues]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The depository allots ISIN to a LOA. On creation of charge, the nomenclature of ISIN of LOA is changed to that of a debenture.
+**The Trap:** A new ISIN seems logical but only the nomenclature/descriptor changes, not the ISIN itself.
+**Cross-Exam Context:** LOA to debenture conversion is specific to NISM Series VI debt operations.
+**Distributor's Pro-Tip:** The ISIN remains the same but the descriptor changes from LOA to NCD, reflecting the creation of charge and issuance of debenture certificates.]]></text></explanation>
+    </question>
+</QF>

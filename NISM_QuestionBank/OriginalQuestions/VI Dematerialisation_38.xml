@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Dematerialisation_38" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Who bears the responsibility for destruction, mutilation, and cancellation of certificates received for dematerialisation?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The Issuer/R&T Agent]]></text></answer>
+            <answer correct="no"><text><![CDATA[The Depository Participant]]></text></answer>
+            <answer correct="no"><text><![CDATA[The depository]]></text></answer>
+            <answer correct="no"><text><![CDATA[The client who submitted the certificates]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The Issuer/R&T Agent agrees to be fully responsible for destruction, mutilation, and cancellation of certificates received and accepted for dematerialisation.
+**The Trap:** 'The DP' handles forwarding but doesn't destroy the certificates — that's the issuer/RTA's responsibility after confirming demat.
+**Cross-Exam Context:** Series II-A covers the RTA's certificate handling obligations.
+**Distributor's Pro-Tip:** After confirming the demat credit, the RTA must securely destroy the physical certificates. If they fail to do so, those certificates could be misused.]]></text></explanation>
+    </question>
+</QF>

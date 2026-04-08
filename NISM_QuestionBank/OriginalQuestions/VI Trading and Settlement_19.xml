@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Trading and Settlement_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In CDSL, auto pay-in instructions are uploaded by the CC from:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[T+1 day afternoon]]></text></answer>
+            <answer correct="no"><text><![CDATA[T day evening]]></text></answer>
+            <answer correct="no"><text><![CDATA[T+2 day morning]]></text></answer>
+            <answer correct="no"><text><![CDATA[T day immediately after market close]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In CDSL system, auto pay-in instructions are uploaded by CC from T+1 day afternoon.
+**The Trap:** 'T day' would be same-day, but auto pay-in processing starts on T+1 in CDSL.
+**Cross-Exam Context:** Series VII covers the T+1 settlement timeline.
+**Distributor's Pro-Tip:** At the designated pay-in time, securities for which auto instructions exist are earmarked. Actual debit of securities happens at pay-out time.]]></text></explanation>
+    </question>
+</QF>

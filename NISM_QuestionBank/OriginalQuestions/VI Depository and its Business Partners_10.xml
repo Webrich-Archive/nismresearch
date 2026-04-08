@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Depository and its Business Partners_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How frequently must a DP reconcile its records with the depository?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Daily]]></text></answer>
+            <answer correct="no"><text><![CDATA[Weekly]]></text></answer>
+            <answer correct="no"><text><![CDATA[Monthly]]></text></answer>
+            <answer correct="no"><text><![CDATA[Quarterly]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The DP should reconcile its records with its depository on a daily basis. The depository system does this reconciliation automatically every day at end of day (EOD).
+**The Trap:** 'Weekly' might seem sufficient, but daily reconciliation is mandatory to ensure no discrepancies build up. The automated EOD process makes this practical.
+**Cross-Exam Context:** Series VII covers reconciliation requirements for clearing members and brokers.
+**Distributor's Pro-Tip:** Daily reconciliation is critical because transactions happen continuously. Even a one-day lag could mean undetected errors affecting settlement and corporate actions.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Pledge and Hypothecation_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Can a pledgor set up a pledge request even when there is insufficient or nil balance in the pledgor's account?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Yes, the pledgor has this facility]]></text></answer>
+            <answer correct="no"><text><![CDATA[No, sufficient balance must be available at the time of request]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, but only if the pledgee provides a guarantee]]></text></answer>
+            <answer correct="no"><text><![CDATA[No, SEBI prohibits pledge requests without adequate balance]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Pledgor BO has the facility to setup the pledge request even in case of insufficient/nil balance in the Pledgor BO account.
+**The Trap:** It seems logical that balance should be available, but the system allows setting up with future execution dates.
+**Cross-Exam Context:** This facility is specific to depository operations covered in NISM Series VI.
+**Distributor's Pro-Tip:** This feature is useful when a client expects incoming securities (from a purchase settlement) that will be pledged upon receipt.]]></text></explanation>
+    </question>
+</QF>

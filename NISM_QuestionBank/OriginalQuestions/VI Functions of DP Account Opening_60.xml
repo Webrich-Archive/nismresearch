@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Functions of DP Account Opening_60" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If a source demat account cannot be closed during mass shifting and securities remain, the DP should freeze the account for:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Debit and Credit (both)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Debit only]]></text></answer>
+            <answer correct="no"><text><![CDATA[Credit only]]></text></answer>
+            <answer correct="no"><text><![CDATA[Neither — the account remains active]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** If the source account cannot be closed due to non-transfer of securities, it must be frozen as 'Suspended for Debit and Credit' — completely preventing any activity.
+**The Trap:** 'Debit only' would still allow credits, which could complicate the transfer process.
+**Cross-Exam Context:** Series VII covers account freeze mechanisms in the context of market surveillance.
+**Distributor's Pro-Tip:** Complete freeze (debit AND credit) ensures no further activity in the old account. The investor must resolve the non-transfer issue before the account can be reactivated or closed.]]></text></explanation>
+    </question>
+</QF>

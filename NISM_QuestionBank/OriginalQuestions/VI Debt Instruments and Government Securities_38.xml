@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Debt Instruments and Government Securities_38" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For settlement of funds between buyer and seller in CD transactions through the depository, where is the settlement handled?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Outside the depository — settlement of funds is between the parties]]></text></answer>
+            <answer correct="no"><text><![CDATA[Through the depository's clearing system]]></text></answer>
+            <answer correct="no"><text><![CDATA[Through the stock exchange clearing corporation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Through RBI's RTGS system exclusively]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For CD transactions, settlement of funds between the parties is settled outside the depository. The depository only handles the securities transfer.
+**The Trap:** One might expect the depository to handle both securities and funds, but for CDs, fund settlement is bilateral.
+**Cross-Exam Context:** Off-market settlement of funds is specific to money market instruments in NISM Series VI.
+**Distributor's Pro-Tip:** For CD and CP transactions through depository, the securities move through the system but the money flows directly between buyer and seller.]]></text></explanation>
+    </question>
+</QF>

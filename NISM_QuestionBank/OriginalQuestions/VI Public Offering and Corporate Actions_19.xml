@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Public Offering and Corporate Actions_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For bonus shares of unlisted companies, where are they credited?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[To the normal ISIN of the company]]></text></answer>
+            <answer correct="no"><text><![CDATA[To a temporary ISIN frozen for debit]]></text></answer>
+            <answer correct="no"><text><![CDATA[To a separate bonus ISIN]]></text></answer>
+            <answer correct="no"><text><![CDATA[Bonus shares are not issued by unlisted companies]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In case of unlisted companies, bonus shares are credited to the normal ISIN, unlike listed companies where a temporary ISIN is used.
+**The Trap:** One might apply the listed company rule (temporary ISIN) to unlisted companies, but the process differs.
+**Cross-Exam Context:** Corporate action differences between listed and unlisted companies are tested in NISM Series VI.
+**Distributor's Pro-Tip:** The temporary ISIN mechanism is needed only for listed companies to prevent unauthorized trading before listing approval.]]></text></explanation>
+    </question>
+</QF>

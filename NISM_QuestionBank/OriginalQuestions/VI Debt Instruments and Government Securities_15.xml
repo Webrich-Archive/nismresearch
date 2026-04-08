@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Debt Instruments and Government Securities_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Who provides the IPA certificate and investor details for crediting Commercial Paper in demat accounts?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The Issuing and Paying Agent (IPA)]]></text></answer>
+            <answer correct="no"><text><![CDATA[SEBI]]></text></answer>
+            <answer correct="no"><text><![CDATA[The stock exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[The RBI directly]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** IPA on the date of allotment will provide IPA certificate and also share the file containing details of the investors including demat account numbers and quantity of CPs to be credited.
+**The Trap:** RBI regulates CPs but the actual allotment details come from the IPA.
+**Cross-Exam Context:** Role of IPA in CP operations is tested in NISM Series VI.
+**Distributor's Pro-Tip:** The IPA is the critical intermediary for CP issuance — they provide both the certificate and the data file for depository credits.]]></text></explanation>
+    </question>
+</QF>

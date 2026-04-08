@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Trading and Settlement_36" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The contract note or trade confirmation slip from the broker indicates:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The settlement number and market type needed for filling the DIS]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the trade price and quantity]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the brokerage charged]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the ISIN of the traded security]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The contract note contains settlement details (number, market type) needed for the DIS, in addition to trade details.
+**The Trap:** 'Only trade price and quantity' is incomplete — settlement identifiers are equally important for DIS purposes.
+**Cross-Exam Context:** Series VII covers contract note contents.
+**Distributor's Pro-Tip:** Always refer to the contract note when filling DIS for market transactions. Incorrect settlement details = failed settlement.]]></text></explanation>
+    </question>
+</QF>

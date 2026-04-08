@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Trading and Settlement_61" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What mechanism ensures payment against delivery in the settlement process?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The Clearing Corporation guarantees settlement through the DvP (Delivery versus Payment) mechanism]]></text></answer>
+            <answer correct="no"><text><![CDATA[The broker guarantees payment personally]]></text></answer>
+            <answer correct="no"><text><![CDATA[The depository guarantees all payments]]></text></answer>
+            <answer correct="no"><text><![CDATA[SEBI directly guarantees each trade]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The CC operates to ensure payment against delivery or guarantees settlement through the DvP mechanism.
+**The Trap:** 'The depository guarantees' is wrong — the depository handles securities movement, not payment guarantees.
+**Cross-Exam Context:** Series VII covers the DvP settlement mechanism.
+**Distributor's Pro-Tip:** DvP ensures securities move only when funds are available, and vice versa. Neither leg happens without the other — eliminating settlement risk.]]></text></explanation>
+    </question>
+</QF>

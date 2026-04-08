@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Introduction to Depository_33" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A depository must ensure backup facilities are maintained at:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A location different from that of the depository]]></text></answer>
+            <answer correct="no"><text><![CDATA[The same premises as the primary data centre]]></text></answer>
+            <answer correct="no"><text><![CDATA[Any location chosen by the DP]]></text></answer>
+            <answer correct="no"><text><![CDATA[The premises of the stock exchange]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The depository must establish adequate procedures to protect records against loss or destruction, and arrangements must be made for maintaining backup facilities at a location different from that of the depository.
+**The Trap:** 'Same premises' defeats the purpose of disaster recovery — if the primary site is damaged, co-located backups would also be lost.
+**Cross-Exam Context:** Series VII covers business continuity requirements for market infrastructure institutions.
+**Distributor's Pro-Tip:** This is a standard disaster recovery principle — geographic separation of primary and backup sites protects against natural disasters, fires, or other location-specific incidents.]]></text></explanation>
+    </question>
+</QF>

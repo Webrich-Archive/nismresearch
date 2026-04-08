@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Debt Instruments and Government Securities_42" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[On 1st, 3rd, and 5th Saturdays, how many batches are processed for G-Sec Inter-depository transfers?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[One batch (Final Batch) with deadline at 1:30 PM]]></text></answer>
+            <answer correct="no"><text><![CDATA[Three batches like weekdays]]></text></answer>
+            <answer correct="no"><text><![CDATA[Two batches]]></text></answer>
+            <answer correct="no"><text><![CDATA[No processing on Saturdays]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** On 1st, 3rd, and 5th Saturdays, only one Final Batch is processed with participant deadline of 1:30 PM and depository processing deadline of 1:45 PM.
+**The Trap:** One might assume Saturday processing mirrors weekday processing, but only one batch is run.
+**Cross-Exam Context:** Saturday batch processing for G-Secs is tested in NISM Series VI.
+**Distributor's Pro-Tip:** On working Saturdays, submit G-Sec IDT instructions before 1:30 PM — there's only one chance for processing.]]></text></explanation>
+    </question>
+</QF>

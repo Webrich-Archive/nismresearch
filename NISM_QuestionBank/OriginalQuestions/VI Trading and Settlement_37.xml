@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Trading and Settlement_37" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For facilitating settlement of mutual fund units on stock exchanges, the BO must mention on the DIS:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Settlement ID and Settlement type along with other relevant details]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the MF scheme name]]></text></answer>
+            <answer correct="no"><text><![CDATA[The NAV at which the transaction was done]]></text></answer>
+            <answer correct="no"><text><![CDATA[The AMFI registration number of the distributor]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The investor/BO shall mention the Settlement ID and Settlement type on the DIS for MF unit settlement.
+**The Trap:** 'NAV' is determined by the AMC, not by the investor on the DIS.
+**Cross-Exam Context:** Series V-A covers MF unit settlement on exchanges.
+**Distributor's Pro-Tip:** MF units listed on exchanges can be traded and settled like regular securities, but the DIS must contain MF-specific settlement identifiers.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Foreign Portfolio Investors_8" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the relationship between the DDP and the Custodian of an FPI?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[They must be the same entity at all times]]></text></answer>
+            <answer correct="no"><text><![CDATA[They must be different entities for segregation of duties]]></text></answer>
+            <answer correct="no"><text><![CDATA[The Custodian reports to the DDP]]></text></answer>
+            <answer correct="no"><text><![CDATA[The DDP appoints the Custodian]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Each FPI shall engage a DDP, and at all times the DDP and the Custodian of the FPI shall be the same entity.
+**The Trap:** Separation of duties might suggest different entities, but the regulation mandates they be the same.
+**Cross-Exam Context:** DDP-Custodian relationship is tested in NISM Series VI.
+**Distributor's Pro-Tip:** This ensures a single entity is responsible for both the regulatory compliance and custody of an FPI's assets.]]></text></explanation>
+    </question>
+</QF>

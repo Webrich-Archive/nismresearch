@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Trading and Settlement_42" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An inter-depository transfer can involve:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Either a clearing member account or a beneficial owner account on either depository]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only BO accounts]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only CM accounts]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only accounts within the same DP]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The account in the depository can be either a clearing member account or a beneficial owner account for inter-depository transfers.
+**The Trap:** 'Only BO accounts' is too restrictive — CM accounts can also participate in inter-depository transfers for settlement.
+**Cross-Exam Context:** Series VII covers inter-depository settlement.
+**Distributor's Pro-Tip:** This flexibility is crucial for market settlement where the buyer's broker might use NSDL and the seller's broker might use CDSL.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Pledge and Hypothecation_45" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What functionality do depositories provide for invoked mutual fund units that are not traded on the exchange?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Invocation-cum-redemption]]></text></answer>
+            <answer correct="no"><text><![CDATA[Invocation-cum-transfer]]></text></answer>
+            <answer correct="no"><text><![CDATA[Invocation-cum-sale]]></text></answer>
+            <answer correct="no"><text><![CDATA[Invocation-cum-auction]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For mutual fund units not traded on the exchange, depositories provide 'invocation-cum-redemption' whereby invoked MF units move into TM/CM's account and are automatically redeemed.
+**The Trap:** 'Invocation-cum-sale' sounds similar but MF units not traded on exchanges can't be sold — they must be redeemed.
+**Cross-Exam Context:** NISM Series V-A covers mutual fund unit redemption mechanics.
+**Distributor's Pro-Tip:** This ensures that non-exchange-traded MF units used as margin can be efficiently liquidated upon default.]]></text></explanation>
+    </question>
+</QF>

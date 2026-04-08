@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Trading and Settlement_51" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If a CM wants to use the facility of direct client-to-CC pay-in at NSE, what is required?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Written request to NSCCL (Clearing Corporation)]]></text></answer>
+            <answer correct="no"><text><![CDATA[SEBI approval]]></text></answer>
+            <answer correct="no"><text><![CDATA[Depository registration]]></text></answer>
+            <answer correct="no"><text><![CDATA[Client consent for each trade]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** This facility is available to NSE CMs on written request to CC (NSCCL).
+**The Trap:** 'SEBI approval' is not needed — this is an operational facility between the CM and the CC.
+**Cross-Exam Context:** Series VII covers settlement optimization mechanisms.
+**Distributor's Pro-Tip:** Direct client-to-CC pay-in eliminates the intermediate step of moving securities from client to CM Pool. This reduces settlement time and operational risk.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Trading and Settlement_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Before executing an off-market transfer, the seller's demat account must have:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Pre-registered beneficiary details of the buyer]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only sufficient balance]]></text></answer>
+            <answer correct="no"><text><![CDATA[SEBI approval for the transfer]]></text></answer>
+            <answer correct="no"><text><![CDATA[CC clearance]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The buyer's details must be stored as 'Beneficiary' under the seller's demat account before the transfer can proceed.
+**The Trap:** 'Only sufficient balance' is necessary but not sufficient — beneficiary registration is also required.
+**Cross-Exam Context:** This is similar to NEFT beneficiary registration in banking.
+**Distributor's Pro-Tip:** Beneficiary pre-registration prevents impulse transfers or unauthorized debits. The seller must deliberately add the buyer first, then initiate the transfer.]]></text></explanation>
+    </question>
+</QF>

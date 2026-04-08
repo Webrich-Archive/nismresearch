@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Pledge and Hypothecation_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Who initiates the creation of a pledge/hypothecation in the depository system?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The pledgor through its DP]]></text></answer>
+            <answer correct="no"><text><![CDATA[The pledgee through its DP]]></text></answer>
+            <answer correct="no"><text><![CDATA[The depository directly]]></text></answer>
+            <answer correct="no"><text><![CDATA[SEBI on behalf of both parties]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The pledgor (borrower) initiates the creation of pledge/hypothecation through its DP, and the pledgee (lender) then confirms it through its DP.
+**The Trap:** The pledgee's role is to confirm, not initiate, which makes option (b) tempting.
+**Cross-Exam Context:** Similar initiator-confirmer patterns are seen in NISM Series VIII for margin pledge operations.
+**Distributor's Pro-Tip:** Always advise the borrower (pledgor) to initiate the pledge request first, as the process cannot begin from the lender's side.]]></text></explanation>
+    </question>
+</QF>

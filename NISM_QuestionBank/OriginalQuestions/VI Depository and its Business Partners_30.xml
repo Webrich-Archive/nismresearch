@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Depository and its Business Partners_30" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For demat accounts with no transactions, how frequently is the CAS with holding details sent?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Half-yearly]]></text></answer>
+            <answer correct="no"><text><![CDATA[Monthly]]></text></answer>
+            <answer correct="no"><text><![CDATA[Quarterly]]></text></answer>
+            <answer correct="no"><text><![CDATA[Annually]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In case there is no transaction in MF folios and demat accounts, CAS with holding details is sent on a half-yearly basis.
+**The Trap:** 'Quarterly' might seem like a reasonable middle ground, but the specific requirement for dormant accounts is half-yearly.
+**Cross-Exam Context:** Series V-A covers mutual fund account statement frequencies.
+**Distributor's Pro-Tip:** Three CAS scenarios: (1) With transactions → monthly (e-CAS by 12th, physical by 15th), (2) No transactions → half-yearly, (3) Nil balance dormant → as per SEBI circular dated July 2014.]]></text></explanation>
+    </question>
+</QF>

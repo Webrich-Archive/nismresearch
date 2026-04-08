@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Public Offering and Corporate Actions_30" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the tender offer mechanism for buyback/takeover/delisting, what happens to the securities after the delivery instruction is executed?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The requisite quantity is blocked in the client's demat account in favour of the Clearing Corporation]]></text></answer>
+            <answer correct="no"><text><![CDATA[The securities are immediately transferred to the acquirer's account]]></text></answer>
+            <answer correct="no"><text><![CDATA[The securities are sold on the open market]]></text></answer>
+            <answer correct="no"><text><![CDATA[The securities are moved to a SEBI escrow account]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Upon submission of the delivery instruction, if sufficient balance is available, the requisite quantity will be blocked in the demat account of the client in favour of the respective Clearing Corporation.
+**The Trap:** Direct transfer to the acquirer seems intuitive but the securities are first blocked in favour of the CC.
+**Cross-Exam Context:** Tender offer mechanisms are covered in NISM Series VI and Series IX.
+**Distributor's Pro-Tip:** The blocking mechanism ensures that tendered shares cannot be sold elsewhere while the tender process is ongoing.]]></text></explanation>
+    </question>
+</QF>

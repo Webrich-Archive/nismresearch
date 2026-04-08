@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Introduction to Depository_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the difference between NSDL and CDSL in handling pledge of securities?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[In NSDL, pledged securities are transferred to a segregated account; in CDSL, they remain in the pledgor's account]]></text></answer>
+            <answer correct="no"><text><![CDATA[In CDSL, pledged securities are transferred to a segregated account; in NSDL, they remain in the pledgor's account]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both depositories transfer pledged securities to the pledgee's account]]></text></answer>
+            <answer correct="no"><text><![CDATA[There is no difference — both follow identical procedures]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In NSDL, pledged securities are transferred to a segregated or collateral account through book entries. In CDSL, pledged securities continue to lie in the BO's account until invocation or closure of pledge.
+**The Trap:** Option (b) reverses the NSDL/CDSL approach. This is a classic swap trap. Remember: NSDL = Segregated, CDSL = stays in account.
+**Cross-Exam Context:** Series I and VIII cover margin pledging requirements for derivative trading, where this distinction matters practically.
+**Distributor's Pro-Tip:** Mnemonic: NSDL moves it out (to segregated account), CDSL keeps it in (pledgor's account with a lien). Both methods achieve the same legal effect — the pledgee has a secured interest.]]></text></explanation>
+    </question>
+</QF>

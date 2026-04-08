@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Debt Instruments and Government Securities_32" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Who acts as the R&T Agent for government securities in the depository system?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The depository itself acts as R&T Agent for G-Secs]]></text></answer>
+            <answer correct="no"><text><![CDATA[RBI acts as the R&T Agent]]></text></answer>
+            <answer correct="no"><text><![CDATA[SEBI-registered RTAs]]></text></answer>
+            <answer correct="no"><text><![CDATA[The issuing government department]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The depository acts as R&T Agent and discharges RTA functions for G-Secs.
+**The Trap:** For corporate securities, separate RTAs exist, but for G-Secs, the depository itself performs this function.
+**Cross-Exam Context:** The dual role of depositories for G-Secs is tested in NISM Series VI.
+**Distributor's Pro-Tip:** Unlike equity where Issuers appoint RTAs, for G-Secs the depository handles RTA functions, including matching demat requests with physical certificates.]]></text></explanation>
+    </question>
+</QF>

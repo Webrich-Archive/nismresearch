@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Introduction to Depository_44" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Standard transmission and encryption formats for electronic communication between the depository and its participants are required to ensure:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Secure data communication against unauthorised entry or access]]></text></answer>
+            <answer correct="no"><text><![CDATA[Faster settlement of trades]]></text></answer>
+            <answer correct="no"><text><![CDATA[Lower transaction costs for investors]]></text></answer>
+            <answer correct="no"><text><![CDATA[Compatibility with international depositories]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The depository must establish standard transmission and encryption formats for electronic communication to ensure the network is secure against unauthorised entry or access.
+**The Trap:** 'Faster settlement' is a benefit of electronic communication but not the specific reason why encryption standards are mandated — the primary purpose is security.
+**Cross-Exam Context:** Series VII covers information security requirements for market infrastructure institutions.
+**Distributor's Pro-Tip:** This is a cybersecurity requirement — all data flowing between the depository, DPs, issuers, and RTAs must be encrypted to prevent interception, tampering, or unauthorised access.]]></text></explanation>
+    </question>
+</QF>

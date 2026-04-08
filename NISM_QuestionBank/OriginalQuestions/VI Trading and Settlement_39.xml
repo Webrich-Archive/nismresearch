@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Trading and Settlement_39" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Transfer of securities from a beneficiary account to a clearing member account for settling an exchange trade is called:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Settlement of market transaction]]></text></answer>
+            <answer correct="no"><text><![CDATA[Off-market transaction]]></text></answer>
+            <answer correct="no"><text><![CDATA[Inter-depository transfer]]></text></answer>
+            <answer correct="no"><text><![CDATA[Dematerialisation]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Transfer from BO account to CM account for exchange settlement is a market transaction settlement.
+**The Trap:** 'Off-market' specifically means NOT through the CC. Market settlement goes through the CC.
+**Cross-Exam Context:** Series VII covers the distinction between market and off-market settlement.
+**Distributor's Pro-Tip:** Flow: BO account → CM Pool Account → CC → CM Pool Account (buyer's broker) → Buyer's BO account.]]></text></explanation>
+    </question>
+</QF>

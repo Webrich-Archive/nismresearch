@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Debt Instruments and Government Securities_48" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[By when must the depository pay the redemption amount for government securities to clients after RBI makes it available?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Before EOD of two days prior to the redemption due date]]></text></answer>
+            <answer correct="no"><text><![CDATA[On the redemption due date itself]]></text></answer>
+            <answer correct="no"><text><![CDATA[Within 5 working days of the redemption due date]]></text></answer>
+            <answer correct="no"><text><![CDATA[Within 30 calendar days of the redemption due date]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The depository pays the redemption amount before the EOD of two days prior to the redemption due date, after the amount has been made available by RBI.
+**The Trap:** One might expect payment on the redemption date itself, but it's actually two days prior.
+**Cross-Exam Context:** G-Sec redemption timelines are specific to NISM Series VI.
+**Distributor's Pro-Tip:** G-Sec redemption payment arrives two days before the due date — plan cash flows accordingly.]]></text></explanation>
+    </question>
+</QF>

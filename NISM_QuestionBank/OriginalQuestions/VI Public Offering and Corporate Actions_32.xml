@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Public Offering and Corporate Actions_32" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Can a Participant cancel tender offer instructions that are in the status 'Instruction Ready for Settlement'?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[No, such instructions cannot be cancelled]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, with SEBI approval]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, at any time before settlement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, within 24 hours of submission]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Participants will not be able to cancel tender offer instructions executed in the depository system that are in the status 'Instruction Ready for Settlement'.
+**The Trap:** One might expect cancellation to be possible until settlement, but these instructions are irreversible once ready for settlement.
+**Cross-Exam Context:** Irrevocability of instructions is a common theme in NISM Series VI.
+**Distributor's Pro-Tip:** Only 'Overdue' or 'Future Dated' tender offer instructions can be cancelled — once the status is 'Ready for Settlement', it's irreversible.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Pledge and Hypothecation_40" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For margin pledge, what is the functionality provided when a client sells securities which are pledged as margin?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Pledge release for early pay-in]]></text></answer>
+            <answer correct="no"><text><![CDATA[Automatic pledge cancellation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Manual unpledge and sell]]></text></answer>
+            <answer correct="no"><text><![CDATA[Forced invocation by CC]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Depositories provide a functionality of single instruction in the form of 'pledge release for early pay-in' to TM/CM when a client sells pledged margin securities.
+**The Trap:** 'Automatic pledge cancellation' sounds convenient but is not the correct term.
+**Cross-Exam Context:** Early pay-in mechanisms are covered in NISM Series VIII.
+**Distributor's Pro-Tip:** This facility streamlines the sell process for pledged securities — no separate physical instructions, electronic instructions, or DDPI/POA required.]]></text></explanation>
+    </question>
+</QF>

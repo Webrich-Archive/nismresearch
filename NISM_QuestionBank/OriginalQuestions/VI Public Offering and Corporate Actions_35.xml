@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Public Offering and Corporate Actions_35" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In case of capital reduction of a listed company, what happens to the securities in the old ISIN?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Securities are debited from old ISIN and credited in a new temporary ISIN (frozen for debit) as per applicable ratio]]></text></answer>
+            <answer correct="no"><text><![CDATA[Securities remain in the old ISIN with adjusted face value]]></text></answer>
+            <answer correct="no"><text><![CDATA[Securities are automatically sold on the exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[Old ISIN is retained with reduced quantity]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In case of Capital Reduction, a new ISIN is created, securities are debited under the old ISIN and credited in the new (temporary) ISIN frozen for debit as per applicable ratio.
+**The Trap:** One might assume the old ISIN just gets updated, but a new ISIN is created with possible new face value.
+**Cross-Exam Context:** Capital reduction corporate actions are covered in NISM Series VI and Company Law.
+**Distributor's Pro-Tip:** The temporary ISIN freeze prevents trading until the exchange approves the new securities for trading after capital reduction.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Depository and its Business Partners_41" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following is NOT a valid reason for an issuer/RTA to retain certificates instead of returning them after rejecting a demat request?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The certificate numbers are in a non-sequential series]]></text></answer>
+            <answer correct="no"><text><![CDATA[The certificates are stolen]]></text></answer>
+            <answer correct="no"><text><![CDATA[The certificates are fake]]></text></answer>
+            <answer correct="no"><text><![CDATA[A court order prohibits transfer of the securities]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Certificates are retained (not returned) only when they are: stolen, fake, subject to court/statutory authority prohibition, or duplicates with same distinctive numbers. Non-sequential certificate numbers is not a retention ground.
+**The Trap:** 'A court order prohibits transfer' is indeed a valid retention reason — returning potentially court-ordered certificates to the applicant could facilitate violations.
+**Cross-Exam Context:** Series II-A covers the complete demat rejection and certificate handling procedures from the RTA side.
+**Distributor's Pro-Tip:** The four retention grounds involve fraud or legal prohibition: stolen, fake, court-ordered, or duplicates. Non-sequential numbering is a format issue, not a fraud issue.]]></text></explanation>
+    </question>
+</QF>

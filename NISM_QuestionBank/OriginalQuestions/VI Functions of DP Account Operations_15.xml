@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Functions of DP Account Operations_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[SMS alerts for NSDL/CDSL demat accounts are sent for all of the following EXCEPT:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Routine annual maintenance charge deductions]]></text></answer>
+            <answer correct="no"><text><![CDATA[All debit transfers]]></text></answer>
+            <answer correct="no"><text><![CDATA[IPO credits, subdivision, and bonus credits]]></text></answer>
+            <answer correct="no"><text><![CDATA[Registration and de-registration of Power of Attorney]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SMS alerts cover: debit transfers, IPO/subdivision/bonus credits, failed instructions, overdue instructions, mobile/address changes, MF unit debits, pledge invocations, PoA changes, nominee changes, etc. AMC deductions are not in the listed alert types.
+**The Trap:** 'PoA registration/de-registration' IS an alert type — this is specifically listed as one of the SMS alert categories.
+**Cross-Exam Context:** Series VII covers alert mechanisms for settlement-related events.
+**Distributor's Pro-Tip:** NSDL/CDSL does not charge DPs for the SMS alert facility. For accounts operated by PoA, SMS alerts cannot be disabled — a security measure to protect the account holder.]]></text></explanation>
+    </question>
+</QF>

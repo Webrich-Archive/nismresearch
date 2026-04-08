@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Functions of DP Account Opening_33" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A PMS (Portfolio Management Services) provider must open pool account(s) per:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Clearing Corporation (NCL, ICCL, MCCIL)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Stock exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[Depository]]></text></answer>
+            <answer correct="no"><text><![CDATA[Scheme]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** PMS providers are required to open Pool account(s) per Clearing Corporation viz., NCL, ICCL, MCCIL. They can also open scheme-wise PMS pool accounts per CC.
+**The Trap:** 'Per stock exchange' confuses clearing corporations with exchanges. Settlement is done through CCs, not directly through exchanges.
+**Cross-Exam Context:** Series XXI-B covers PMS operations and pool account management.
+**Distributor's Pro-Tip:** Three CCs in India: NCL (NSE Clearing), ICCL (Indian Clearing Corporation for BSE), MCCIL (Metropolitan Clearing for MSEI). Each needs a separate pool account.]]></text></explanation>
+    </question>
+</QF>

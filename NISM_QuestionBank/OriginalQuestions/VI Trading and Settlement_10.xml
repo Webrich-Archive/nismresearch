@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Trading and Settlement_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The DIS for market transactions should contain which specific details?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Name of stock exchange, market type, and settlement number]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the ISIN and quantity]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the broker's name]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the trade date and price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The DIS should contain the name of the stock exchange, market type, and settlement number for which securities are being transferred.
+**The Trap:** 'Only ISIN and quantity' misses the critical settlement identifiers needed to match the instruction to the correct settlement cycle.
+**Cross-Exam Context:** Series VII covers DIS requirements in the settlement context.
+**Distributor's Pro-Tip:** These details come from the broker's contract note/trade confirmation. Without the correct market type and settlement number, the securities won't reach the right settlement.]]></text></explanation>
+    </question>
+</QF>

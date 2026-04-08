@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Dematerialisation_28" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[No credit of securities to a client's demat account can be made unless:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The depository has received intimation from the Issuer or its R&T Agent confirming the demat request]]></text></answer>
+            <answer correct="no"><text><![CDATA[The client has paid the demat processing fee]]></text></answer>
+            <answer correct="no"><text><![CDATA[The stock exchange has approved the transfer]]></text></answer>
+            <answer correct="no"><text><![CDATA[SEBI has given clearance]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** No credit can be made unless the depository has received intimation from the Issuer/RTA authorizing the electronic credit.
+**The Trap:** 'The client has paid the fee' is not a prerequisite for the depository credit. Fees are between the DP and client.
+**Cross-Exam Context:** This confirms the issuer's verification role in the demat process.
+**Distributor's Pro-Tip:** This safeguard prevents fake certificates from being credited — the issuer/RTA must verify and confirm before any electronic credit appears.]]></text></explanation>
+    </question>
+</QF>

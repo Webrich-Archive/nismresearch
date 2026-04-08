@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Trading and Settlement_47" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For off-market transfers, the beneficiary details pre-registered in the seller's demat account are stored as:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA['Beneficiary' under the demat account of the seller client]]></text></answer>
+            <answer correct="no"><text><![CDATA[A separate account]]></text></answer>
+            <answer correct="no"><text><![CDATA[In the CC's system]]></text></answer>
+            <answer correct="no"><text><![CDATA[At SEBI's registry]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** On successful OTP verification during registration, the buyer's details are stored as 'Beneficiary' under the seller's demat account.
+**The Trap:** 'In the CC's system' is wrong — off-market transfers don't involve the CC.
+**Cross-Exam Context:** This is similar to NEFT beneficiary management.
+**Distributor's Pro-Tip:** The beneficiary concept applies to ALL off-market reason codes available in the system — not just gifts or transfers.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Trading and Settlement_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Inter-depository transfer can be done only for securities that:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Are available for dematerialisation on both depositories]]></text></answer>
+            <answer correct="no"><text><![CDATA[Are listed on at least two stock exchanges]]></text></answer>
+            <answer correct="no"><text><![CDATA[Have a daily trading volume above a threshold]]></text></answer>
+            <answer correct="no"><text><![CDATA[Are held by institutional investors only]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Inter-depository transfer requires the security to be available for dematerialisation on BOTH depositories.
+**The Trap:** 'Listed on at least two exchanges' confuses listing with demat eligibility. A security can be listed on one exchange but eligible for demat on both depositories.
+**Cross-Exam Context:** Series VII covers inter-depository settlement mechanisms.
+**Distributor's Pro-Tip:** In practice, most actively traded securities are available on both NSDL and CDSL. Issues arise mainly with obscure unlisted or illiquid securities.]]></text></explanation>
+    </question>
+</QF>

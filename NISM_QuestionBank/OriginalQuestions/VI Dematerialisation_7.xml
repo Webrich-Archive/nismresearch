@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Dematerialisation_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The client should mark what on the physical certificates before submitting them for dematerialisation?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA['SURRENDERED FOR DEMATERIALISATION']]></text></answer>
+            <answer correct="no"><text><![CDATA['CANCELLED']]></text></answer>
+            <answer correct="no"><text><![CDATA['VOID']]></text></answer>
+            <answer correct="no"><text><![CDATA[No marking is required]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The client should mark certificates with 'SURRENDERED FOR DEMATERIALISATION' to prevent reuse.
+**The Trap:** 'CANCELLED' might seem equivalent but the specific marking prescribed is 'SURRENDERED FOR DEMATERIALISATION'.
+**Cross-Exam Context:** This is a physical-era procedure specific to Series VI.
+**Distributor's Pro-Tip:** This marking prevents the same certificate from being used for a duplicate demat request or for trading in the physical market. It's an anti-fraud measure.]]></text></explanation>
+    </question>
+</QF>

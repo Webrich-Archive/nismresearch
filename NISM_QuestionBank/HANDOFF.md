@@ -1,8 +1,8 @@
 # NISM Question Bank — Handoff Document
 
-**Date:** April 8, 2026 (Updated after Session 7 — Phase 5b: Series I Audit)
-**Status:** 7 of 31 exams complete, 2,643 questions generated. Series I and VIII fully audited and type-rebalanced.
-**For:** Fresh conversation to continue. Next action: Phase 6 — Generate Series IV (Interest Rate Derivatives) and XVI (Commodity Derivatives)
+**Date:** April 8, 2026 (Updated after Session 9 — Phase 8a: Series VI Generation)
+**Status:** 9 of 31 exams complete, 3,750 questions generated. Series I and VIII fully audited and type-rebalanced.
+**For:** Fresh conversation to continue. Next action: Phase 6b — Generate Series XVI (Commodity Derivatives), OR Phase 8b — Generate Series VII (Securities Operations)
 
 ---
 
@@ -19,29 +19,34 @@
 | Series XII - Securities Markets Foundation | XII | 302 | 6 | Easy | AUDITED + Gap-filled + Type-rebalanced (+22 regulatory) |
 | Series VIII - Equity Derivatives | VIII | 555 | 10 | Hard | AUDITED + Type-rebalanced (+55 regulatory) |
 | Series I - Currency Derivatives | I | 630 | 10 | Moderate | AUDITED + Type-rebalanced (+130: 60 calc, 70 regulatory) |
-| **Total** | | **2,643** | **64** | | |
+| Series IV - Interest Rate Derivatives | IV | 500 | 10 | Hard | Generated from PDF (35% calc, 35% conceptual, 20% regulatory, 10% application) |
+| Series VI - Depository Operations | VI | 500 | 13 | Moderate | Generated from PDF (5% calc, 55% conceptual, 30% regulatory, 10% application) |
+| **Total** | | **3,750** | **90** | | |
 
 ### Generated Files
 
 ```
 /Users/shivam/aiworkspace/nismresearch/NISM_QuestionBank/
-├── ExamWeightages.plist          (31 exams, topic names aligned with file prefixes for 7 completed exams)
-├── Topics.plist                  (64 topics, 2,458 questions)
-├── TopicsLite.plist              (64 topics, ~860 free-tier questions)
-├── ChapterArticles.plist         (64 chapters, each with single "All Topics" article)
-├── QuestionToArticleNumber.plist (2,458 entries, all mapping to article "1")
-├── OriginalQuestions/            (2,458 XML files)
+├── ExamWeightages.plist          (31 exams, topic names aligned with file prefixes for 9 completed exams)
+├── Topics.plist                  (79 topics, 3,353 questions)
+├── TopicsLite.plist              (79 topics, ~1,207 free-tier questions)
+├── ChapterArticles.plist         (79 chapters, each with single "All Topics" article)
+├── QuestionToArticleNumber.plist (3,353 entries, all mapping to article "1")
+├── OriginalQuestions/            (3,353 XML files)
 ├── manifest.json                 (progress tracking — version 4.0)
 ├── TaxRatesReference_FY2025-26.md (verified tax rates)
 ├── 15 audit report files         (detailed per-chapter audit results for first 5 exams)
 └── HANDOFF.md                    (this file)
 ```
 
-### Validation Status (All Pass — verified Session 6)
+### Validation Status (All Pass — verified Session 9)
 - 5/5 plists: OK (plutil)
-- 2,546/2,546 XML files: valid (xml.etree.ElementTree)
-- 0 duplicates, 2,546 unique IDs
-- 64 plist topics == 64 file prefixes: PERFECT MATCH
+- 3,750/3,750 XML files: valid (xml.etree.ElementTree)
+- 0 duplicates, all unique IDs
+- 90 plist topics == 90 file prefixes: PERFECT MATCH
+- Series IV: 10 ExamWeightages topics ↔ 10 file prefixes: MATCH
+- Series VI: 13 ExamWeightages topics ↔ 13 file prefixes: MATCH
+- All TopicsLite ratios ≥ 30% for Series IV topics
 
 ### Comprehensive Audit Results (Post-Session 4 Gap Analysis)
 
@@ -242,8 +247,8 @@ An audit session will:
 |-------|-------|:-----------:|:-------------:|-------|
 | 5 | **Audit Series VIII** | — | 1 | PDF page-by-page audit + gap-fill |
 | 5 | **Audit Series I** | — | 1 | PDF page-by-page audit + gap-fill |
-| 6 | IV (Interest Rate Derivatives) | 500 | 1 | Hard (35% calc). Bond math, duration, convexity, PVBP. PDF: 1 available. |
-| 6 | XVI (Commodity Derivatives) | 500 | 1 | Moderate (20% calc). MCX, agri/non-agri, warehousing. PDF: 1 available. |
+| 6a | IV (Interest Rate Derivatives) | 500 | 1 | **DONE** — 500 Qs, 10 topics, all validated. Hard (35% calc). |
+| 6b | XVI (Commodity Derivatives) | 500 | 1 | Moderate (20% calc). MCX, agri/non-agri, warehousing. PDF: 1 available. **NEXT** |
 | 7 | XIII (Common Derivatives) | 500 | 1 | Composite of I+IV+VIII. See "Series XIII Reuse Strategy" below. |
 
 ### Priority 2: Operations and Compliance Cluster
@@ -598,6 +603,37 @@ with open("NISM_QuestionBank/QuestionToArticleNumber.plist", 'wb') as f:
 | I Accounting and Taxation | I Accounting and Taxation | 30 |
 | I Codes of Conduct and Investor Protection | I Codes of Conduct and Investor Protection | 38 |
 
+### IV (10 topics, 500 Qs)
+| Plist Topic Name | File Prefix | Qs |
+|---|---|:-:|
+| IV Fixed Income Instruments and Bond Markets | IV Fixed Income Instruments and Bond Markets | 50 |
+| IV Introduction to Interest Rate Derivatives | IV Introduction to Interest Rate Derivatives | 25 |
+| IV Interest Rate Futures | IV Interest Rate Futures | 100 |
+| IV Interest Rate Options | IV Interest Rate Options | 75 |
+| IV Strategies Using Interest Rate Derivatives | IV Strategies Using Interest Rate Derivatives | 75 |
+| IV Trading Mechanism | IV Trading Mechanism | 50 |
+| IV Clearing Settlement and Risk Management | IV Clearing Settlement and Risk Management | 50 |
+| IV Regulatory Framework | IV Regulatory Framework | 25 |
+| IV Accounting and Taxation | IV Accounting and Taxation | 25 |
+| IV Code of Conduct and Investor Protection | IV Code of Conduct and Investor Protection | 25 |
+
+### VI (13 topics, 500 Qs)
+| Plist Topic Name | File Prefix | Qs |
+|---|---|:-:|
+| VI Introduction to the Indian Capital Market | VI Introduction to the Indian Capital Market | 25 |
+| VI Introduction to Depository | VI Introduction to Depository | 50 |
+| VI Depository and its Business Partners | VI Depository and its Business Partners | 60 |
+| VI Functions of DP Account Opening | VI Functions of DP Account Opening | 60 |
+| VI Functions of DP Account Operations | VI Functions of DP Account Operations | 15 |
+| VI Transmission and Nomination | VI Transmission and Nomination | 25 |
+| VI Dematerialisation | VI Dematerialisation | 45 |
+| VI Trading and Settlement | VI Trading and Settlement | 65 |
+| VI Pledge and Hypothecation | VI Pledge and Hypothecation | 50 |
+| VI Public Offering and Corporate Actions | VI Public Offering and Corporate Actions | 35 |
+| VI Debt Instruments and Government Securities | VI Debt Instruments and Government Securities | 50 |
+| VI Foreign Portfolio Investors | VI Foreign Portfolio Investors | 10 |
+| VI Investor Services | VI Investor Services | 10 |
+
 ---
 
 ## Verified Tax Rates (FY 2025-26)
@@ -633,17 +669,17 @@ with open("NISM_QuestionBank/QuestionToArticleNumber.plist", 'wb') as f:
 
 1. **Filesystem naming:** Avoid `/` and `:` in question ID prefixes. Use underscores or omit. Example: `AML_CFT_Guidelines` not `AML/CFT Guidelines`.
 
-2. **Exam-code prefix convention:** V-B uses "VB ", IFSCA-01 uses "IFSCA ", VIII uses "VIII ", I uses "I ". Future exams sharing topic names with existing exams MUST use a prefix (e.g., "IV ", "XVI ", "XIII "). DataManager groups by exact string match.
+2. **Exam-code prefix convention:** V-B uses "VB ", IFSCA-01 uses "IFSCA ", VIII uses "VIII ", I uses "I ", IV uses "IV ". Future exams sharing topic names with existing exams MUST use a prefix (e.g., "XVI ", "XIII "). DataManager groups by exact string match.
 
 3. **Transaction charges withdrawn:** SEBI withdrew the MF transaction charge framework in August 2025. V-A questions reflect this.
 
 4. **Nominee limit increased:** SEBI January 2025 circular increased MF nominee limit from 3 to 10. V-A questions updated.
 
-5. **ExamWeightages.plist contains ALL 31 exams** but only 7 have questions. The remaining 24 exam entries have topic names that may not match future question file prefixes — update them as each exam is generated (as was done for Series I — changed from 5 pre-populated topics to 10 actual PDF-aligned topics).
+5. **ExamWeightages.plist contains ALL 31 exams** but only 9 have questions. The remaining 22 exam entries have topic names that may not match future question file prefixes — update them as each exam is generated (as was done for Series I and IV — both changed from pre-populated topics to actual PDF-aligned 10-topic structures).
 
 6. **pymupdf (fitz) is available** for PDF reading. poppler/pdftotext is NOT installed. Use: `import fitz; doc = fitz.open('path'); text = doc[page].get_text()`
 
-7. **Series I and VIII need audit BEFORE Series XIII.** Both were generated from PDF reading but have NOT been audited page-by-page like the first 5 exams. Since XIII reuses their content, unaudited errors would propagate. This is now Priority 0 (Phase 5).
+7. **Series I, IV, and VIII are prerequisites for Series XIII.** Series I and VIII have been audited. Series IV is newly generated (Phase 6a). All three must be verified before generating Series XIII, which is a composite exam reusing content from I+IV+VIII.
 
 8. **Negative marking varies by exam.** 25% for most exams, 10% for XIX-A/B/D/E and XXI-A, None for XXIV/IFSCA-01/XXV-A/V-B/X-C. This affects distractor design — exams with no negative marking can have trickier distractors since students should attempt all questions.
 
@@ -832,4 +868,39 @@ When generating exam questions, every question MUST be based on content actually
 - **Total after Session 7: 2,643 questions, 64 topics, all plists valid**
 - **Next session: Phase 6 — Generate Series IV (Interest Rate Derivatives) and XVI (Commodity Derivatives)**
 
-*Handoff document updated April 8, 2026 after Session 7 completion.*
+### Session 8 (April 8, 2026)
+- **Phase 6a: Generate Series IV — Interest Rate Derivatives (500 questions)**
+- Run in parallel with Session 9
+- 10 topics with "IV " prefix, 500 questions generated from PDF (232 pages)
+- Question mix: 35% calc, 35% conceptual, 20% regulatory, 10% application
+- ExamWeightages.plist updated with 10 "IV " prefixed topics
+- **Total after Session 8: 3,143 questions, 74 topics**
+
+### Session 9 (April 8, 2026)
+- **Phase 8a: Generate Series VI — Depository Operations (500 questions)**
+- Run in parallel with Session 8 (Phase 6a)
+- PDF read: All 13 chapters (232 pages) of NISM-Series-VI Depository Operations (September 2025)
+- **500 new questions across 13 topics with "VI " prefix:**
+  - Ch1 Introduction to the Indian Capital Market: 25 Qs (capital market structure, regulators, 5 key legislations, FSDC, SAT)
+  - Ch2 Introduction to Depository: 50 Qs (need for depository, NSDL/CDSL, Rs. 100 Cr net worth, fungibility, RO/BO, multi-depository system, 8-year records)
+  - Ch3 Depository and its Business Partners: 60 Qs (10 DP eligibility categories, net worth: Rs. 3-5 Cr brokers/Rs. 10 Cr RTA/Rs. 50 L-50 Cr NBFC, 30-day application, CAS 12th/15th, STR 7 days, AML Principal Officer)
+  - Ch4 Functions of DP Account Opening: 60 Qs (BO vs CM accounts, SARAL AOF, DDPI April 2022, HUF, KYC 6 attributes, e-KYC, CKYCR/CERSAI, Accredited Investors, UCC mapping)
+  - Ch5 Functions of DP Account Operations: 15 Qs (BSDA Rs. 10L limit, AMC slabs, IDeAS, SPEED-e, easi/easiest, SMS alerts)
+  - Ch6 Transmission and Nomination: 25 Qs (up to 10 nominees, transmission with/without nomination, Rs. 15L Will threshold, HUF Karta succession, centralized demise reporting Jan 2024)
+  - Ch7 Dematerialisation: 45 Qs (ISIN structure 12-char, DRF process, 7-day forwarding, 15-day processing, remat 30 days, statementization/restatementization, AIF escrow)
+  - Ch8 Trading and Settlement: 65 Qs (off-market vs market, DIS scanning 2 days, OTP Nov 2020, T+1 settlement, pay-in/pay-out, auto pay-in, inter-depository transfer, DvP agent, stamp duty)
+  - Ch9 Pledge and Hypothecation: 50 Qs (pledge vs hypothecation, pledgor/pledgee, margin pledge Aug 2020, re-pledge, creation/closure/invocation)
+  - Ch10 Public Offering/Corporate Actions: 35 Qs (cash vs non-cash actions, Rights Entitlements demat, T+3 IPO listing, ASBA, auto corporate action)
+  - Ch11 Debt Instruments and Govt Securities: 50 Qs (CD Rs. 1L min, CP Rs. 5L min, G-Sec types, SGL, DRF-GS, BY prefix)
+  - Ch12 Foreign Portfolio Investors: 10 Qs (FPI regime June 2014, DDP, Cat I/II, IOSCO MMOU)
+  - Ch13 Investor Services: 10 Qs (SCORES 2.0 April 2024, ODR portal, 21-day ATR, IEPF 7-year)
+- Question mix: 5% calc, 55% conceptual, 30% regulatory, 10% application
+- ExamWeightages.plist updated with 13 "VI " prefixed topics (weightages: 5+10+12+12+3+5+9+13+10+7+10+2+2 = 100%)
+- **Validation: All 3,750 XML files valid, 0 errors, 0 duplicates, 90 topics aligned, all 5 plists OK**
+- **Total after Session 9: 3,750 questions, 90 topics, all plists valid**
+- **Next actions:**
+  - Phase 6b: Generate Series XVI (Commodity Derivatives) — 500 questions
+  - Phase 8b: Generate Series VII (Securities Operations) — 500 questions
+  - Phase 7: Generate Series XIII (Common Derivatives) — depends on IV completion + XVI
+
+*Handoff document updated April 8, 2026 after Session 9 completion.*

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Trading and Settlement_25" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When a CM shifts settlement operations from one DP to another, what happens to the CM settlement accounts?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The old account must be carefully monitored during shifting as securities might be in both old and new accounts during the process]]></text></answer>
+            <answer correct="no"><text><![CDATA[The old account is immediately closed]]></text></answer>
+            <answer correct="no"><text><![CDATA[All securities are frozen in the old account]]></text></answer>
+            <answer correct="no"><text><![CDATA[SEBI must approve the shift]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The CM must carefully monitor delivery instructions during shifting as securities might be lying in both old and new CM Settlement Accounts during the process.
+**The Trap:** 'Immediately closed' would disrupt ongoing settlement. The transition must be managed carefully.
+**Cross-Exam Context:** Series VII covers broker migration and account management.
+**Distributor's Pro-Tip:** This monitoring is critical only for NSDL. During the transition period, pay-in instructions might target the old account while new instructions go to the new account.]]></text></explanation>
+    </question>
+</QF>

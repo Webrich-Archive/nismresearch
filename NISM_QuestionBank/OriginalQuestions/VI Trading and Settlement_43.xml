@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Trading and Settlement_43" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[SEBI mandates that all off-market transfers require:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[OTP verification from the source client's registered mobile number]]></text></answer>
+            <answer correct="no"><text><![CDATA[Physical presence at the DP office]]></text></answer>
+            <answer correct="no"><text><![CDATA[SEBI pre-approval]]></text></answer>
+            <answer correct="no"><text><![CDATA[Notarized transfer deed]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI requires OTP from the source client for ALL off-market transfers — both intra and inter-depository.
+**The Trap:** 'Physical presence' is not required for electronic off-market transfers via SPEED-e or easiest.
+**Cross-Exam Context:** Series VII covers authentication requirements for settlement.
+**Distributor's Pro-Tip:** OTP to the registered mobile provides real-time authentication. Even if someone steals the DIS, they can't execute the transfer without OTP.]]></text></explanation>
+    </question>
+</QF>

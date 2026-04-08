@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Transmission and Nomination_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For the centralized demise reporting mechanism, which entities serve as the central point for verification?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[KRAs (KYC Registration Agencies)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Stock exchanges]]></text></answer>
+            <answer correct="no"><text><![CDATA[Clearing corporations]]></text></answer>
+            <answer correct="no"><text><![CDATA[SEBI directly]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI introduced the centralized mechanism through KRAs for reporting and verification of an investor's demise.
+**The Trap:** 'Stock exchanges' facilitate trading but don't handle demise reporting. KRAs already have investor KYC records, making them the logical choice.
+**Cross-Exam Context:** Series XXIV covers KRA operations in the AML context.
+**Distributor's Pro-Tip:** Using KRAs makes sense because they already maintain the central KYC database. A single report to the KRA can trigger 'On Hold' flags across all intermediaries where the deceased held accounts.]]></text></explanation>
+    </question>
+</QF>

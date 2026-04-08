@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Trading and Settlement_41" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The depository system generates what type of report to track unscanned DIS?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A report showing DIS used for transactions but whose scanned images are not uploaded]]></text></answer>
+            <answer correct="no"><text><![CDATA[A daily transaction summary]]></text></answer>
+            <answer correct="no"><text><![CDATA[A monthly compliance certificate]]></text></answer>
+            <answer correct="no"><text><![CDATA[A quarterly audit report]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A report is provided to DPs giving details of DIS which are used for transactions but whose scanned images are not uploaded in the system.
+**The Trap:** 'Daily transaction summary' is a different report — this specifically tracks unscanned DIS for compliance monitoring.
+**Cross-Exam Context:** This is an operational compliance tool specific to depository operations.
+**Distributor's Pro-Tip:** In case of failure to upload scanned DIS, the DP may face penalties from the depository. The report helps DPs identify and fix gaps quickly.]]></text></explanation>
+    </question>
+</QF>

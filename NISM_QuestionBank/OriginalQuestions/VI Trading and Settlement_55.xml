@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Trading and Settlement_55" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Can a CM have more than one CM account per clearing corporation?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Generally no — there is typically one CM account per broker per CC]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, unlimited accounts are allowed]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, up to 5 accounts per CC]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only with SEBI special permission]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Generally, there will be only one CM account per broker for a stock exchange/clearing corporation.
+**The Trap:** 'Unlimited accounts' is not the general rule — though exceptions may exist for specific settlement types.
+**Cross-Exam Context:** Chapter 4 covered CM account opening.
+**Distributor's Pro-Tip:** One CM account per CC keeps settlement flows clean and traceable. Multiple accounts would complicate reconciliation.]]></text></explanation>
+    </question>
+</QF>

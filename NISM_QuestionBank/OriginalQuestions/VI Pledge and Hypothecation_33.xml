@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Pledge and Hypothecation_33" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under the margin pledge framework, can a client directly pledge securities with the Clearing Corporation (CC)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[No, the client pledges with TM, TM re-pledges with CM, and CM re-pledges with CC]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, the client can directly pledge with CC]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, but only through the stock exchange platform]]></text></answer>
+            <answer correct="no"><text><![CDATA[No, the client can only pledge with CM directly]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A client can margin pledge securities with TM, and TM can re-pledge the same with CM, and CM in turn can re-pledge the same to CC. The complete trail is maintained.
+**The Trap:** Option (b) seems efficient but the regulatory framework mandates the chain through TM and CM.
+**Cross-Exam Context:** The pledge chain (Client → TM → CM → CC) is tested in NISM Series VIII.
+**Distributor's Pro-Tip:** The re-pledge chain ensures proper audit trail and responsibility at each level of the clearing hierarchy.]]></text></explanation>
+    </question>
+</QF>

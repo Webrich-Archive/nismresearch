@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Debt Instruments and Government Securities_35" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For transferring G-Secs from SGL form to the depository account, what prefix should the SGL account number have to confirm it is registered with PDO at RBI, Mumbai?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[BY (indicating Bombay)]]></text></answer>
+            <answer correct="no"><text><![CDATA[DL (indicating Delhi)]]></text></answer>
+            <answer correct="no"><text><![CDATA[SGL (indicating Subsidiary General Ledger)]]></text></answer>
+            <answer correct="no"><text><![CDATA[RBI (indicating Reserve Bank)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The DP should ensure the SGL account from which the BO wishes to transfer begins with the prefix 'BY', indicating registration with PDO at RBI, Mumbai.
+**The Trap:** RBI prefix seems logical but BY (Bombay/Mumbai) is the correct prefix for Mumbai PDO registration.
+**Cross-Exam Context:** SGL account identification is tested in NISM Series VI.
+**Distributor's Pro-Tip:** The BY prefix confirms the SGL account is Mumbai-based — certificates from PDOs outside Mumbai need attestation by the respective PDO.]]></text></explanation>
+    </question>
+</QF>

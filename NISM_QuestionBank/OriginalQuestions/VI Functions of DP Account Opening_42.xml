@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Functions of DP Account Opening_42" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the name format for documents required when opening a PAN-exempt demat account?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The DP must verify the applicant falls under a SEBI-specified exemption category]]></text></answer>
+            <answer correct="no"><text><![CDATA[No documentation is required]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only Aadhaar is sufficient]]></text></answer>
+            <answer correct="no"><text><![CDATA[A declaration from a gazetted officer]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** PAN exemption categories are specified by SEBI. If PAN is not seeded with Aadhaar by the government-specified date, it won't be considered a valid PAN.
+**The Trap:** 'No documentation' would be a compliance violation. Even PAN-exempt categories require alternative identification.
+**Cross-Exam Context:** Series V-A covers PAN requirements for mutual fund investments.
+**Distributor's Pro-Tip:** PAN-Aadhaar linkage is now mandatory. If not linked by the specified date, the PAN becomes invalid, potentially freezing the demat account.]]></text></explanation>
+    </question>
+</QF>

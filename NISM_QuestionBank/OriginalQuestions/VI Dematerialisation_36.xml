@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Dematerialisation_36" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When a statementization (MF demat) request is for the entire quantity ('ALL'), the AMC/RTA shall:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Confirm or reject the entire balance available at the time of confirmation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Reject because exact quantity must be specified]]></text></answer>
+            <answer correct="no"><text><![CDATA[Process only up to 1,000 units at a time]]></text></answer>
+            <answer correct="no"><text><![CDATA[Wait for a confirmation from the stock exchange]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For 'ALL' quantity requests, the AMC/RTA confirms/rejects the entire balance available at the time of confirmation or partial balance.
+**The Trap:** 'Exact quantity must be specified' contradicts the 'ALL' option which specifically avoids specifying quantity.
+**Cross-Exam Context:** Series V-A covers MF unit conversion processes.
+**Distributor's Pro-Tip:** If there's a quantity mismatch between the SoA and AMC/RTA electronic records, the RTA credits the quantity as per their electronic records and intimates the client about the mismatch.]]></text></explanation>
+    </question>
+</QF>

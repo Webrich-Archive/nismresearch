@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Depository and its Business Partners_37" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The DPs must take data back-ups and preserve one copy at:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A remote site away from operations]]></text></answer>
+            <answer correct="no"><text><![CDATA[The same office where operations are conducted]]></text></answer>
+            <answer correct="no"><text><![CDATA[The stock exchange's data centre]]></text></answer>
+            <answer correct="no"><text><![CDATA[The depository's premises only]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Two copies of back-ups must be taken — one preserved at a remote site away from operations and another on the site itself.
+**The Trap:** 'The same office' is where the second copy is kept, but the question asks about the first copy which must be at a remote site for disaster recovery.
+**Cross-Exam Context:** Series VII covers business continuity and disaster recovery requirements.
+**Distributor's Pro-Tip:** Daily backups are mandatory. Two copies ensure: (1) on-site copy for quick recovery from minor issues, (2) remote copy for disaster recovery if the office is damaged.]]></text></explanation>
+    </question>
+</QF>

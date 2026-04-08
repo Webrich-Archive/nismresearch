@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Debt Instruments and Government Securities_33" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When the depository's G-Sec cell finds a mismatch between the DRF-GS details and the electronic message, what happens?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The demat request is rejected and physical certificates are returned to the DP with a letter]]></text></answer>
+            <answer correct="no"><text><![CDATA[The request is kept pending until the mismatch is resolved]]></text></answer>
+            <answer correct="no"><text><![CDATA[The depository automatically corrects the mismatch]]></text></answer>
+            <answer correct="no"><text><![CDATA[SEBI intervenes to resolve the mismatch]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In case of a mismatch, the depository's G-Sec cell rejects the demat request and sends physical certificates along with a letter to the DP intimating the mismatch.
+**The Trap:** Automatic correction seems efficient but the system requires rejection and resubmission.
+**Cross-Exam Context:** Rejection handling in demat operations is tested in NISM Series VI.
+**Distributor's Pro-Tip:** If a G-Sec demat request is rejected for mismatch, work with the client to rectify the details and resubmit promptly.]]></text></explanation>
+    </question>
+</QF>

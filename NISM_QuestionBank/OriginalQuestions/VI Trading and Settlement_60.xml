@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Trading and Settlement_60" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Settlement of market transactions in the depository involves which type of account?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Clearing member (CM) settlement account]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only beneficial owner (BO) accounts]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the depository's own account]]></text></answer>
+            <answer correct="no"><text><![CDATA[A SEBI-designated account]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Market settlement uses CM settlement accounts. Securities flow: seller's BO → CM account → CC → CM account → buyer's BO.
+**The Trap:** 'Only BO accounts' misses the intermediary CM account through which settlement flows.
+**Cross-Exam Context:** Chapter 4 covered CM account types.
+**Distributor's Pro-Tip:** The CM account is the hub of settlement. It receives pay-in from sellers and distributes pay-out to buyers.]]></text></explanation>
+    </question>
+</QF>

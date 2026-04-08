@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Dematerialisation_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The client has the option to rematerialise:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Entire holding ('ALL') or partial holding by specifying the quantity]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the entire holding]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only partial holding]]></text></answer>
+            <answer correct="no"><text><![CDATA[Minimum 100 shares at a time]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The BO can submit request either for entire holding by mentioning 'ALL' or for partial/entire holding by specifying the quantity.
+**The Trap:** 'Only entire holding' restricts investor choice. The system allows both full and partial rematerialisation.
+**Cross-Exam Context:** Similar flexibility exists for MF unit restatementization.
+**Distributor's Pro-Tip:** The 'ALL' option is convenient when the investor wants to rematerialise everything — they don't need to look up the exact quantity, the system handles it.]]></text></explanation>
+    </question>
+</QF>

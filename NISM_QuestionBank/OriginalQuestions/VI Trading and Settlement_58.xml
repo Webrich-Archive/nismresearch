@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Trading and Settlement_58" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The beneficiary registration process for off-market transfers requires:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[OTP verification to the seller's registered mobile to confirm the addition of the buyer as beneficiary]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only filling an online form]]></text></answer>
+            <answer correct="no"><text><![CDATA[A signed letter from the buyer]]></text></answer>
+            <answer correct="no"><text><![CDATA[SEBI's approval for each beneficiary]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Adding a beneficiary requires OTP verification to the seller's mobile — this confirms the seller genuinely wants to add this person.
+**The Trap:** 'A signed letter from the buyer' is not how it works — the authorization is entirely from the seller's side via OTP.
+**Cross-Exam Context:** Similar to banking: adding NEFT beneficiary requires authentication.
+**Distributor's Pro-Tip:** Double OTP protection: one when adding the beneficiary, another when actually executing the transfer. Two layers of security for off-market debits.]]></text></explanation>
+    </question>
+</QF>

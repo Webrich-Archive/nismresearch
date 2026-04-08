@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Depository and its Business Partners_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The depository allocates which unique identity code to securities issued by an issuer?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[ISIN (International Securities Identification Number)]]></text></answer>
+            <answer correct="no"><text><![CDATA[CUSIP]]></text></answer>
+            <answer correct="no"><text><![CDATA[SEDOL]]></text></answer>
+            <answer correct="no"><text><![CDATA[SWIFT code]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The depository allocates unique identity codes called ISIN (International Securities Identification Number) to securities.
+**The Trap:** 'CUSIP' is the US equivalent of ISIN. 'SEDOL' is used in the UK. 'SWIFT' is for bank identification. India uses ISIN, which is an international standard.
+**Cross-Exam Context:** Series VII covers ISIN in the context of trade settlement. Series XII discusses ISIN as part of market infrastructure.
+**Distributor's Pro-Tip:** ISIN is a 12-character alphanumeric code. Indian ISINs start with 'IN'. This code uniquely identifies a security globally, enabling cross-border settlement.]]></text></explanation>
+    </question>
+</QF>

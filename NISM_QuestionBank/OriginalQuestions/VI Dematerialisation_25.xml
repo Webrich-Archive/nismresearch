@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Dematerialisation_25" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For NSDL, in cases where an ISIN is allotted by CDSL first, what happens?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The same ISIN is allotted to that security on receiving request from CDSL]]></text></answer>
+            <answer correct="no"><text><![CDATA[NSDL generates a different ISIN]]></text></answer>
+            <answer correct="no"><text><![CDATA[The security cannot be held at NSDL]]></text></answer>
+            <answer correct="no"><text><![CDATA[SEBI assigns a new ISIN for NSDL]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For NSDL, the ISIN allotted by CDSL is used on receiving a request from CDSL. ISINs are standard across depositories.
+**The Trap:** 'NSDL generates a different ISIN' would create confusion. The whole point of ISIN is to be a universal identifier — one ISIN per security regardless of depository.
+**Cross-Exam Context:** Inter-depository transfers depend on identical ISINs across NSDL and CDSL.
+**Distributor's Pro-Tip:** ISIN standardization is critical for inter-depository transfers. If NSDL and CDSL had different ISINs for the same security, transfers between depositories would be impossible.]]></text></explanation>
+    </question>
+</QF>

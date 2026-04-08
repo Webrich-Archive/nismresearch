@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Pledge and Hypothecation_32" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the name of the separate demat account that TM/CM is required to open for accepting margin pledge from clients?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Client Securities Margin Pledge Account]]></text></answer>
+            <answer correct="no"><text><![CDATA[Margin Collection Account]]></text></answer>
+            <answer correct="no"><text><![CDATA[Client Collateral Pool Account]]></text></answer>
+            <answer correct="no"><text><![CDATA[Securities Margin Fund Account]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The TM/CM is required to open a separate demat account tagged as 'Client Securities Margin Pledge Account' for accepting margin pledge.
+**The Trap:** Other account names sound plausible but the specific name mandated is 'Client Securities Margin Pledge Account'.
+**Cross-Exam Context:** NISM Series VIII covers the operational aspects of margin pledge accounts.
+**Distributor's Pro-Tip:** Verify that your broker has a properly tagged Client Securities Margin Pledge Account — using any other account type for margin pledge is non-compliant.]]></text></explanation>
+    </question>
+</QF>

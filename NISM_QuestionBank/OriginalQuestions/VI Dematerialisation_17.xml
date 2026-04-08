@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Dematerialisation_17" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[AIF (Alternative Investment Fund) units for investors who haven't provided demat account details are held in:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[An Aggregate Escrow Demat Account]]></text></answer>
+            <answer correct="no"><text><![CDATA[The AIF manager's personal account]]></text></answer>
+            <answer correct="no"><text><![CDATA[A pooled account at SEBI]]></text></answer>
+            <answer correct="no"><text><![CDATA[A pending suspense account at the depository]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** AIF units are held in an Aggregate Escrow Demat Account for investors who haven't provided demat details.
+**The Trap:** 'AIF manager's personal account' would be a co-mingling violation. The escrow account is specifically for this purpose.
+**Cross-Exam Context:** Series XIX covers AIF unit allotment and demat requirements.
+**Distributor's Pro-Tip:** Once the investor provides demat details, units are transferred within 5 working days from the Aggregate Escrow Account to the investor's individual demat account.]]></text></explanation>
+    </question>
+</QF>

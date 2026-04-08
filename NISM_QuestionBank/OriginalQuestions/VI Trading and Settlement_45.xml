@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Trading and Settlement_45" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If a DIS for off-market transfer contains incomplete information:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The DP will not process the instruction until the DIS is corrected]]></text></answer>
+            <answer correct="no"><text><![CDATA[The DP will fill in the missing details]]></text></answer>
+            <answer correct="no"><text><![CDATA[The transfer happens with default values]]></text></answer>
+            <answer correct="no"><text><![CDATA[The depository automatically corrects it]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The DP will enter the instruction only if the DIS is complete in all respects and found to be in order.
+**The Trap:** 'The DP will fill in details' would be unauthorized — only the client can provide instruction details.
+**Cross-Exam Context:** Series VII covers DIS processing standards.
+**Distributor's Pro-Tip:** Incomplete DIS = no processing. The client must submit a correctly filled DIS. This prevents errors and unauthorized transfers.]]></text></explanation>
+    </question>
+</QF>

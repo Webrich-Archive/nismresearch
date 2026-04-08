@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Dematerialisation_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What happens when the issuer/RTA rejects a dematerialisation request?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The DP is informed, and the DP must inform the client about the rejection]]></text></answer>
+            <answer correct="no"><text><![CDATA[The depository automatically retries the request]]></text></answer>
+            <answer correct="no"><text><![CDATA[The certificates are destroyed]]></text></answer>
+            <answer correct="no"><text><![CDATA[SEBI intervenes to resolve the dispute]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When the RTA rejects the DRF, the DP is informed and must inform the client about the rejection with the reason.
+**The Trap:** 'The depository retries' doesn't happen — rejections require human intervention to fix the issue.
+**Cross-Exam Context:** Series II-A covers rejection handling from the RTA perspective.
+**Distributor's Pro-Tip:** The client can submit a fresh DRF after addressing the rejection reason (e.g., correcting name mismatch, providing missing documents, using the correct ISIN).]]></text></explanation>
+    </question>
+</QF>

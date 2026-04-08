@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Dematerialisation_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[DPs must verify that the number of physical certificates annexed with the DRF tallies with:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The number of certificates mentioned on the DRF]]></text></answer>
+            <answer correct="no"><text><![CDATA[The number of ISINs in the client's account]]></text></answer>
+            <answer correct="no"><text><![CDATA[The total holding of the client]]></text></answer>
+            <answer correct="no"><text><![CDATA[The number of trades executed by the client]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The DP must ascertain that the number of certificates annexed tallies with the number mentioned on the DRF before forwarding.
+**The Trap:** 'Total holding of the client' is not relevant — the DRF may be for only a portion of the client's total holdings.
+**Cross-Exam Context:** This verification step is part of the DP's due diligence before forwarding.
+**Distributor's Pro-Tip:** A mismatch between actual certificates and DRF count would lead to rejection. DPs must count certificates carefully before dispatching.]]></text></explanation>
+    </question>
+</QF>

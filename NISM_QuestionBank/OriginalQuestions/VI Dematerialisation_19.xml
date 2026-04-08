@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Dematerialisation_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the ISIN structure INE475C01012, what do the digits '01' (between the company code and check digit) indicate?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The instrument type (01 = equity)]]></text></answer>
+            <answer correct="no"><text><![CDATA[The depository code]]></text></answer>
+            <answer correct="no"><text><![CDATA[The stock exchange code]]></text></answer>
+            <answer correct="no"><text><![CDATA[The year of issuance]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The '01' indicates the instrument type. 01 = equity. It can also be mutual fund units, debt, or government securities.
+**The Trap:** 'The depository code' is not embedded in the ISIN. The ISIN is depository-agnostic.
+**Cross-Exam Context:** Series VII uses ISINs for settlement identification.
+**Distributor's Pro-Tip:** ISIN breakdown: IN (country) + E (company type) + 475C (company serial) + 01 (instrument type) + 2 (check digit). The last digit is a check digit for validation.]]></text></explanation>
+    </question>
+</QF>

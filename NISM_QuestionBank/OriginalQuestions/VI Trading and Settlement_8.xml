@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Trading and Settlement_8" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Unique Client Code (UCC) details are mandatory for:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Settlement of market transactions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Off-market transactions only]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only derivative transactions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only IPO allotments]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** UCC details are mandatory for settlement of market transactions — linking the trade to the specific client.
+**The Trap:** 'Only derivative transactions' is incorrect — UCC is mandatory for all market segment settlements.
+**Cross-Exam Context:** Series VII covers UCC requirements across market segments.
+**Distributor's Pro-Tip:** UCC-demat mapping ensures regulatory surveillance: who traded what, through which broker, and from which demat account.]]></text></explanation>
+    </question>
+</QF>

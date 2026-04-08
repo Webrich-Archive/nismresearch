@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Introduction to Depository_39" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investor holds 100 fully paid-up equity shares and 50 partly paid-up equity shares of the same company in demat form. Are these shares fungible with each other?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[No, because fungibility applies only to securities in the same class, and fully paid-up and partly paid-up are different classes]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, because they are shares of the same company]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, because all demat shares are fungible regardless of paid-up status]]></text></answer>
+            <answer correct="no"><text><![CDATA[No, because individual shares can be identified by distinctive numbers in demat form]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Fungibility means all securities in the same class are identical and interchangeable. Fully paid-up shares and partly paid-up shares are different classes, so they are not fungible with each other.
+**The Trap:** 'All demat shares are fungible regardless' is wrong — fungibility is limited to the same class. Even in demat form, different classes (fully paid, partly paid, different series) remain distinct.
+**Cross-Exam Context:** Series VIII discusses fungibility in the context of derivative contracts where contract specifications define the 'class'.
+**Distributor's Pro-Tip:** The 100 fully paid shares are fungible among themselves (any one is interchangeable with any other), but not with the 50 partly paid shares, which form a separate class.]]></text></explanation>
+    </question>
+</QF>

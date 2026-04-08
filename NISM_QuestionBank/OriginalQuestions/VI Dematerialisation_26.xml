@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Dematerialisation_26" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Who initiates the demat request electronically in the depository system?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The Depository Participant (DP) on behalf of the client]]></text></answer>
+            <answer correct="no"><text><![CDATA[The client directly in the depository system]]></text></answer>
+            <answer correct="no"><text><![CDATA[The issuer/RTA]]></text></answer>
+            <answer correct="no"><text><![CDATA[The stock exchange]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The DP generates a DRN (Demat Request Number) in the depository system and initiates the electronic request on behalf of the client.
+**The Trap:** 'The client directly' cannot access the depository system — all interactions are through the DP.
+**Cross-Exam Context:** Series VII covers the electronic instruction flow in the settlement system.
+**Distributor's Pro-Tip:** The DP is the intermediary: client submits physical DRF → DP verifies and enters electronically → depository processes → issuer/RTA confirms.]]></text></explanation>
+    </question>
+</QF>

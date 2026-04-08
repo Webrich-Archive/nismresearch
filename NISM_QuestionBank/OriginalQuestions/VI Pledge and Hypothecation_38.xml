@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Pledge and Hypothecation_38" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following is NOT listed as a reason for rejection of unpledge request by the pledgee?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Pledgor has insufficient bank balance]]></text></answer>
+            <answer correct="no"><text><![CDATA[Un-pledge/Closure date not accepted]]></text></answer>
+            <answer correct="no"><text><![CDATA[Market value of pledged ISINs insufficient]]></text></answer>
+            <answer correct="no"><text><![CDATA[ISIN delisted from trading]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** 'Pledgor has insufficient bank balance' is not among the listed rejection reasons. The listed reasons include items like closure date not accepted, pledged quantity not accepted, ISIN not accepted, market value insufficient, ISIN delisted, etc.
+**The Trap:** Bank balance seems related to loan repayment, but the DP system rejection reasons relate to security/transaction details, not bank balances.
+**Cross-Exam Context:** Understanding rejection reasons helps in operational efficiency for depository participants.
+**Distributor's Pro-Tip:** If an unpledge request is rejected, check the specific reason and rectify the corresponding detail before resubmitting.]]></text></explanation>
+    </question>
+</QF>

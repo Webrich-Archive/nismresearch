@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Functions of DP Account Operations_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In CDSL, the internet-based facility that permits BOs to submit debit/credit instructions, freeze/unfreeze, and pledge/unpledge is called:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[easiest (Electronic Access to Securities Information and Execution of Secured Transaction)]]></text></answer>
+            <answer correct="no"><text><![CDATA[easi (Electronic Access to Securities Information)]]></text></answer>
+            <answer correct="no"><text><![CDATA[SPEED-e]]></text></answer>
+            <answer correct="no"><text><![CDATA[IDeAS]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** CDSL's easiest permits transaction instructions (off-market, on-market, inter-depository, early pay-in), freeze/unfreeze, and pledge operations. easi is view-only.
+**The Trap:** 'easi' is CDSL's view-only facility — it allows viewing holdings and downloading statements but NOT submitting transactions.
+**Cross-Exam Context:** Series VII covers electronic settlement instructions.
+**Distributor's Pro-Tip:** easi = VIEW only (balances, statements). easiest = VIEW + EXECUTE (transactions, freeze, pledge). SPEED-e is NSDL's equivalent of CDSL's easiest.]]></text></explanation>
+    </question>
+</QF>

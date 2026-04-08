@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Functions of DP Account Opening_25" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[To close a demat account, the account must have:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Nil balance (zero securities)]]></text></answer>
+            <answer correct="no"><text><![CDATA[A minimum balance of securities]]></text></answer>
+            <answer correct="no"><text><![CDATA[No pending transactions in the last 1 year]]></text></answer>
+            <answer correct="no"><text><![CDATA[Written approval from SEBI]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** An account can be closed only if it has nil balance. If demat requests are pending, a specific procedure involving letters to the issuer for rejection of pending requests must be followed.
+**The Trap:** 'No pending transactions in the last 1 year' is not the closure condition. Even recently active accounts can be closed as long as the balance is nil.
+**Cross-Exam Context:** Series V-A covers the procedure for closing mutual fund folios.
+**Distributor's Pro-Tip:** If demat requests are pending for a long time, the client can write to the issuer (with copies to DP and RTA) requesting rejection of pending requests and dispatch of fresh physical certificates.]]></text></explanation>
+    </question>
+</QF>

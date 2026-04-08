@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Public Offering and Corporate Actions_16" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In case of merger/amalgamation, securities under the ISIN of the transferor company are debited and credited to which ISIN?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The temporary ISIN of the transferee company (for listed companies)]]></text></answer>
+            <answer correct="no"><text><![CDATA[The existing ISIN of the transferor company]]></text></answer>
+            <answer correct="no"><text><![CDATA[A new permanent ISIN created for the merged entity]]></text></answer>
+            <answer correct="no"><text><![CDATA[The ISIN is not changed during merger]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In case of merger/amalgamation of listed companies, securities are debited from the transferor company ISIN and credited in the temporary ISIN of the transferee company which is frozen for debit.
+**The Trap:** A new permanent ISIN seems logical but temporary ISIN is used first, with debit freeze, until trading commences.
+**Cross-Exam Context:** Merger corporate actions are covered in NISM Series VI and Series IX.
+**Distributor's Pro-Tip:** Clients should be informed that during the transition period, their merged shares will be in a temporary ISIN and cannot be sold until listing.]]></text></explanation>
+    </question>
+</QF>

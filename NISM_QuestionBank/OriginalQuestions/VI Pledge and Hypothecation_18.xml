@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Pledge and Hypothecation_18" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How are bonus shares credited when the underlying shares are pledged?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Credited to the borrower's account as pledged balances]]></text></answer>
+            <answer correct="no"><text><![CDATA[Credited to the lender's account as free balances]]></text></answer>
+            <answer correct="no"><text><![CDATA[Credited to a separate suspense account]]></text></answer>
+            <answer correct="no"><text><![CDATA[Not credited until the pledge is released]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Bonus shares will be credited to the borrower's (pledgor's) account as pledged balances, maintaining the pledge status.
+**The Trap:** One might expect bonus shares to be free since they are new shares, but they inherit the pledged status.
+**Cross-Exam Context:** Corporate action treatment of pledged securities is tested across NISM Series VI.
+**Distributor's Pro-Tip:** Inform clients that any bonus or split shares from pledged securities will automatically carry the pledge marker.]]></text></explanation>
+    </question>
+</QF>

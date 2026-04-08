@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Functions of DP Account Operations_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[BSDA transaction statements are sent at what frequency?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Quarterly, if there are transactions in that quarter]]></text></answer>
+            <answer correct="no"><text><![CDATA[Monthly]]></text></answer>
+            <answer correct="no"><text><![CDATA[Half-yearly]]></text></answer>
+            <answer correct="no"><text><![CDATA[Annually]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Transaction statements are sent at the end of each quarter. If no transactions in a quarter, no statement is sent.
+**The Trap:** 'Monthly' is the frequency for regular demat accounts (CAS). BSDA has a reduced quarterly frequency.
+**Cross-Exam Context:** Series V-A covers statement frequencies for mutual fund investors.
+**Distributor's Pro-Tip:** Three rules: (1) Transactions in quarter → quarterly statement, (2) No transactions and no balance → no further statements, (3) Quarter when balance becomes zero → statement for that quarter.]]></text></explanation>
+    </question>
+</QF>

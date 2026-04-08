@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Trading and Settlement_50" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How many pay-in date windows does the IDeAS facility show for CM Pool accounts?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[9 — current pay-in date plus previous 4 and next 4]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the current day]]></text></answer>
+            <answer correct="no"><text><![CDATA[30 days]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the next 2 days]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** CMs can view settlements for the current pay-in date, previous four, and next four pay-in dates — a total of 9 settlement date windows.
+**The Trap:** 'Only the current day' is too limited for effective settlement management.
+**Cross-Exam Context:** Chapter 5 covered IDeAS capabilities.
+**Distributor's Pro-Tip:** The 9-date window enables CMs to see historical settlements (for reconciliation), current (for today's obligations), and upcoming (for planning).]]></text></explanation>
+    </question>
+</QF>

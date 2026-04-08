@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Dematerialisation_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If physical certificates are lost in transit between the DP and issuer/RTA, what must the DP execute?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[An Indemnity Bond in favour of the issuer/RTA]]></text></answer>
+            <answer correct="no"><text><![CDATA[A police complaint]]></text></answer>
+            <answer correct="no"><text><![CDATA[A SEBI filing for lost certificates]]></text></answer>
+            <answer correct="no"><text><![CDATA[A new account opening for the client]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** If certificates are lost in transit, the DP executes an Indemnity Bond in favour of the issuer/RTA and a new DRN is generated.
+**The Trap:** 'A police complaint' might be practical but is not the specific requirement for processing — the Indemnity Bond is the prescribed remedy.
+**Cross-Exam Context:** This procedure is specific to Series VI depository operations.
+**Distributor's Pro-Tip:** Steps for lost-in-transit: (1) DP proves dispatch, (2) Issuer/RTA confirms non-receipt, (3) DP executes Indemnity Bond, (4) New DRN generated, (5) Demat process continues.]]></text></explanation>
+    </question>
+</QF>

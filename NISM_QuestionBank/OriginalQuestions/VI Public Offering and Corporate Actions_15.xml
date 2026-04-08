@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Public Offering and Corporate Actions_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In case of a rights issue of a listed company, in which ISIN are the rights shares credited upon allotment?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A new temporary ISIN which is frozen for debit]]></text></answer>
+            <answer correct="no"><text><![CDATA[The existing ISIN of the company]]></text></answer>
+            <answer correct="no"><text><![CDATA[A permanent new ISIN]]></text></answer>
+            <answer correct="no"><text><![CDATA[The ISIN of the Rights Entitlements]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Rights shares are credited in a new (temporary) ISIN of the company which is frozen for debit, so securities cannot be transferred till available for trading.
+**The Trap:** The existing ISIN seems logical but a temporary ISIN is used to prevent trading before listing.
+**Cross-Exam Context:** Temporary ISINs in corporate actions are tested in NISM Series VI.
+**Distributor's Pro-Tip:** The temporary ISIN ensures no illegal trading occurs before shares are listed — it will be merged with the regular ISIN once trading commences.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Trading and Settlement_52" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When MF units are debited from the BO account for settlement on exchanges, they are credited to:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The CC/Clearing House account]]></text></answer>
+            <answer correct="no"><text><![CDATA[The broker's BO account]]></text></answer>
+            <answer correct="no"><text><![CDATA[The AMC's account directly]]></text></answer>
+            <answer correct="no"><text><![CDATA[The RTA's account]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** MF units are debited from BO account and credited to the CC/CH house account for settlement.
+**The Trap:** 'The AMC's account' would be relevant for direct redemption, not exchange settlement.
+**Cross-Exam Context:** Series V-A covers MF unit settlement on exchanges.
+**Distributor's Pro-Tip:** Exchange settlement of MF units follows the same CC-mediated process as equity settlement — units go from seller's BO → CC → buyer's BO.]]></text></explanation>
+    </question>
+</QF>

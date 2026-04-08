@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Trading and Settlement_38" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Both in NSDL and CDSL, the three options for pay-in are:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Early pay-in, normal pay-in, and auto pay-in]]></text></answer>
+            <answer correct="no"><text><![CDATA[Manual pay-in, automatic pay-in, and delayed pay-in]]></text></answer>
+            <answer correct="no"><text><![CDATA[Primary pay-in, secondary pay-in, and final pay-in]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cash pay-in, securities pay-in, and mixed pay-in]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Both depositories offer three pay-in options: early, normal, and auto.
+**The Trap:** 'Manual and automatic' captures two types but misses the 'early' option which has specific margin benefits.
+**Cross-Exam Context:** Series VIII covers early pay-in for margin optimization in derivatives.
+**Distributor's Pro-Tip:** Early = before settlement day (margin benefit); Normal = on settlement day by deadline; Auto = CC generates instructions automatically.]]></text></explanation>
+    </question>
+</QF>

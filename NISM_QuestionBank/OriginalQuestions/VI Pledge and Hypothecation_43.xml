@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Pledge and Hypothecation_43" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the CDSL system, what information is compulsory when creating NDU/Lien/encumbrance?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[PAN of the Ultimate Lender and the encumbrance reason]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the ISIN of the securities]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the loan agreement number]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the value of securities]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In CDSL system, PAN of the Ultimate Lender is required to be mentioned on the form. Also the NDU/Lien/encumbrance reason is compulsory.
+**The Trap:** While ISIN and value are part of the transaction, the specifically mandated compulsory fields are PAN of Ultimate Lender and encumbrance reason.
+**Cross-Exam Context:** KYC and identification requirements are tested across all NISM certifications.
+**Distributor's Pro-Tip:** Always capture the PAN of the ultimate lender — this ensures transparency in encumbrance records and regulatory compliance.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Functions of DP Account Opening_49" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the purpose of mapping UCC (Unique Client Code) data with demat accounts?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[To link trading accounts with demat accounts using PAN as common identifier, enabling surveillance and monitoring]]></text></answer>
+            <answer correct="no"><text><![CDATA[To calculate brokerage charges automatically]]></text></answer>
+            <answer correct="no"><text><![CDATA[To automatically process corporate actions]]></text></answer>
+            <answer correct="no"><text><![CDATA[To generate tax statements for clients]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** UCC-demat mapping links trading and demat accounts via PAN, enabling regulatory surveillance and monitoring of client activity across markets.
+**The Trap:** 'Calculate brokerage' is a broker function unrelated to UCC-demat mapping.
+**Cross-Exam Context:** Series VII covers UCC requirements and their role in market surveillance.
+**Distributor's Pro-Tip:** A client may trade through multiple trading members (TMs), each with a separate UCC. All UCCs are mapped to the client's demat account(s) to get a holistic view of their market activity.]]></text></explanation>
+    </question>
+</QF>

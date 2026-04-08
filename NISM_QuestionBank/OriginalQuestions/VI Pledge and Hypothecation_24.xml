@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Pledge and Hypothecation_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the NSDL system, what is the flag called that enables automatic pledge confirmation without the need for a PRF from the pledgee?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Standing Instruction Indicator for Auto Pledge Confirmation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Auto Pledge Acceptance Flag]]></text></answer>
+            <answer correct="no"><text><![CDATA[Pledge Standing Order Indicator]]></text></answer>
+            <answer correct="no"><text><![CDATA[Automatic Confirmation Enabler]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A flag namely 'Standing Instruction Indicator for Auto Pledge Confirmation' is incorporated in NSDL system to automatically confirm pledge requests.
+**The Trap:** Other options sound plausible but use incorrect terminology.
+**Cross-Exam Context:** NSDL-specific features are commonly tested in NISM Series VI.
+**Distributor's Pro-Tip:** Enabling this flag significantly reduces processing time for frequent pledge operations, especially for banks and NBFCs.]]></text></explanation>
+    </question>
+</QF>

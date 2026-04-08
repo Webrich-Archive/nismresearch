@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Trading and Settlement_33" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Securities earmarked for auto pay-in in CDSL are debited at:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The time of pay-out]]></text></answer>
+            <answer correct="no"><text><![CDATA[The time of earmarking]]></text></answer>
+            <answer correct="no"><text><![CDATA[End of trading day]]></text></answer>
+            <answer correct="no"><text><![CDATA[T+2 morning]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** At the designated pay-in time, securities are earmarked. Actual debit of securities is done at the time of pay-out.
+**The Trap:** 'Time of earmarking' is when the securities are locked, but actual debit happens later at pay-out.
+**Cross-Exam Context:** Series VII covers the CDSL settlement process.
+**Distributor's Pro-Tip:** Earmarking vs debit: earmarking locks the securities (can't be used elsewhere), while debit actually moves them to the CC. This sequence ensures synchronization between pay-in and pay-out.]]></text></explanation>
+    </question>
+</QF>

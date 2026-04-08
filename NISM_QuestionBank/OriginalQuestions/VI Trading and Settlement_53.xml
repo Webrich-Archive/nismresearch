@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Trading and Settlement_53" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The OTP verification for off-market transfers was mandated starting from:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[November 1, 2020]]></text></answer>
+            <answer correct="no"><text><![CDATA[April 1, 2022]]></text></answer>
+            <answer correct="no"><text><![CDATA[January 1, 2021]]></text></answer>
+            <answer correct="no"><text><![CDATA[July 1, 2020]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI mandated OTP for off-market transfers with execution date of November 1, 2020.
+**The Trap:** 'April 1, 2022' is when DDPI replaced PoA, not when OTP was introduced.
+**Cross-Exam Context:** Series VII covers authentication evolution in settlement.
+**Distributor's Pro-Tip:** OTP was a significant security upgrade — before this, a forged DIS could trigger unauthorized transfers. OTP to the registered mobile prevents this.]]></text></explanation>
+    </question>
+</QF>

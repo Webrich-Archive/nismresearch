@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Trading and Settlement_14" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Part balance or insufficient balance of mutual fund units shall:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Not be considered for redemption/repurchase]]></text></answer>
+            <answer correct="no"><text><![CDATA[Be processed proportionally]]></text></answer>
+            <answer correct="no"><text><![CDATA[Be settled in the next cycle]]></text></answer>
+            <answer correct="no"><text><![CDATA[Be adjusted from the broker's pool account]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Part balance/insufficient balance of MF units shall not be considered for redemption/repurchase.
+**The Trap:** 'Processed proportionally' might seem fair but MF redemption is all-or-nothing for the instructed quantity.
+**Cross-Exam Context:** Series V-A covers MF redemption rules.
+**Distributor's Pro-Tip:** If you instruct redemption of 100 MF units but only have 95, the entire instruction fails — the system won't partially process 95 units.]]></text></explanation>
+    </question>
+</QF>

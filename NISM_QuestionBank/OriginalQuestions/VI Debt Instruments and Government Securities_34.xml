@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Debt Instruments and Government Securities_34" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What can cause RBI to reject a government security transfer during dematerialisation?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Signature mismatch or signatories not registered with RBI]]></text></answer>
+            <answer correct="no"><text><![CDATA[Low market value of the security]]></text></answer>
+            <answer correct="no"><text><![CDATA[The security being close to maturity]]></text></answer>
+            <answer correct="no"><text><![CDATA[The security being a state government issue]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The depository's G-Sec cell rejects dematerialisation requests when RBI rejects the transfer on account of signature mismatch or if the signatories are not registered with RBI.
+**The Trap:** Security value or maturity are not rejection grounds — it's specifically about signature and signatory registration.
+**Cross-Exam Context:** RBI verification requirements for G-Secs are tested in NISM Series VI.
+**Distributor's Pro-Tip:** Ensure corporate signatories are registered with RBI before submitting G-Sec certificates — unregistered signatories will cause rejection.]]></text></explanation>
+    </question>
+</QF>

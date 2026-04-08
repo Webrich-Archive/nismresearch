@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Dematerialisation_32" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In case of demat request with mismatch in quantity between the DRF and physical certificates:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The RTA may process for the lower quantity and the client can submit a fresh DRF for the excess]]></text></answer>
+            <answer correct="no"><text><![CDATA[The entire request is rejected automatically]]></text></answer>
+            <answer correct="no"><text><![CDATA[The RTA processes for the higher quantity]]></text></answer>
+            <answer correct="no"><text><![CDATA[The depository resolves the mismatch internally]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When physical quantity differs from DRF, the RTA may process the lower amount. The client contacts the RTA and submits a fresh DRF for excess quantity.
+**The Trap:** 'Entire request rejected' is not always the outcome — partial processing for the lower quantity is possible.
+**Cross-Exam Context:** Series II-A covers quantity mismatch handling.
+**Distributor's Pro-Tip:** The client should quote the reference of the Objection Letter and previous DRN when submitting the fresh DRF for excess quantity.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Depository and its Business Partners_23" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The DP must forward the Rematerialisation Request Form (RRF) to the issuer/RTA within:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[7 days]]></text></answer>
+            <answer correct="no"><text><![CDATA[15 days]]></text></answer>
+            <answer correct="no"><text><![CDATA[30 days]]></text></answer>
+            <answer correct="no"><text><![CDATA[3 days]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The DP forwards the RRF to the Issuer or its R&T Agent within 7 days of accepting such request from the client.
+**The Trap:** '15 days' is the demat processing timeline. The 7-day forwarding requirement ensures timely initiation of the remat process.
+**Cross-Exam Context:** Series II-A covers RTA timelines for processing various types of requests.
+**Distributor's Pro-Tip:** Timeline chain for remat: Client submits RRF to DP → DP forwards to RTA within 7 days → RTA dispatches certificates within 30 days of RRF receipt → Depository debits account on RTA acceptance.]]></text></explanation>
+    </question>
+</QF>

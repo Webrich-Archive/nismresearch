@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Debt Instruments and Government Securities_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What unique identification is given to each debt security in the depository system?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[ISIN and a descriptor]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only a serial number]]></text></answer>
+            <answer correct="no"><text><![CDATA[A registration number from SEBI]]></text></answer>
+            <answer correct="no"><text><![CDATA[A certificate number from RBI]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Each debt security is given a unique identification through an ISIN and a descriptor, linked to the special features of the security.
+**The Trap:** Certificate numbers exist for physical securities but the depository system uses ISIN and descriptor.
+**Cross-Exam Context:** ISIN identification is covered throughout NISM Series VI.
+**Distributor's Pro-Tip:** Always verify the ISIN and descriptor when processing debt security transactions — similar instruments may differ in coupon rate or redemption date.]]></text></explanation>
+    </question>
+</QF>

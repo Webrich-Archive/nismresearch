@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Pledge and Hypothecation_48" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How many users must Pledgor DP and Pledgee DP each create to implement the required feature for pledge processing?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[At least two users to implement the Maker-Checker feature]]></text></answer>
+            <answer correct="no"><text><![CDATA[At least three users for multi-level approval]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only one authorized user is sufficient]]></text></answer>
+            <answer correct="no"><text><![CDATA[At least four users for dual Maker-Checker]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Pledgor DP and Pledgee DP each shall create at least two users to implement the Maker-checker feature.
+**The Trap:** Multi-level approval (option b) sounds more secure but the requirement is specifically for two users (maker and checker).
+**Cross-Exam Context:** Maker-checker is a fundamental control principle tested across NISM certifications.
+**Distributor's Pro-Tip:** The maker-checker mechanism is essential for internal controls — one person enters the data and a different person verifies it.]]></text></explanation>
+    </question>
+</QF>

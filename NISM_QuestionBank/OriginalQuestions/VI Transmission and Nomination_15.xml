@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Transmission and Nomination_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the centralized demise reporting mechanism, if a transaction request is received on an account flagged as 'On Hold', what happens?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The intermediary must verify and reject debit requests from the account while credits may continue]]></text></answer>
+            <answer correct="no"><text><![CDATA[All transactions including credits are rejected]]></text></answer>
+            <answer correct="no"><text><![CDATA[The flag is automatically removed]]></text></answer>
+            <answer correct="no"><text><![CDATA[The transaction is processed normally]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** If a transaction request is received on a flagged account, debits are blocked (to protect the estate) while credits from corporate actions continue flowing in.
+**The Trap:** 'All transactions rejected' would harm the heirs by blocking incoming dividends, bonus shares, etc.
+**Cross-Exam Context:** Series V-A covers similar 'On Hold' mechanisms for deceased MF investors.
+**Distributor's Pro-Tip:** The 'On Hold' flag is different from a full freeze. It specifically targets preventing unauthorized outflows while allowing inflows that benefit the estate.]]></text></explanation>
+    </question>
+</QF>

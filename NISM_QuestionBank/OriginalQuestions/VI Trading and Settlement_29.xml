@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Trading and Settlement_29" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A client sold 100 shares of Company X on the NSE. What information should be on the DIS to transfer these shares to the broker's CM account?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[NSE as the stock exchange, the specific market type, and the settlement number from the contract note]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only 'Company X' and '100 shares']]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the broker's BO account number]]></text></answer>
+            <answer correct="no"><text><![CDATA[The price and brokerage amount]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The DIS needs: exchange name (NSE), market type, settlement number (from contract note), along with ISIN and quantity.
+**The Trap:** 'Only company and shares' is insufficient — without settlement identifiers, the CC cannot match the delivery to the correct settlement.
+**Cross-Exam Context:** Series VII covers the complete DIS filling process.
+**Distributor's Pro-Tip:** The contract note from the broker contains all these details. Always check the contract note before filling the DIS to avoid settlement failures.]]></text></explanation>
+    </question>
+</QF>

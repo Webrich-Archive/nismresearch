@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Public Offering and Corporate Actions_18" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For bonus shares of listed companies, in which ISIN are they credited?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Temporary ISIN which is frozen for debit]]></text></answer>
+            <answer correct="no"><text><![CDATA[The existing regular ISIN of the company]]></text></answer>
+            <answer correct="no"><text><![CDATA[A new permanent ISIN]]></text></answer>
+            <answer correct="no"><text><![CDATA[The bonus shares ISIN]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Bonus shares in case of listed companies are credited as per the applicable ratio in the temporary ISIN which is frozen for debit, until shares are available for trading.
+**The Trap:** One might expect bonus shares to go directly into the regular ISIN but they first go to a temporary ISIN.
+**Cross-Exam Context:** Bonus issue procedures are covered in NISM Series VI and V-A.
+**Distributor's Pro-Tip:** For unlisted companies, bonus shares are credited to the normal ISIN, but for listed companies the temporary ISIN route is mandatory.]]></text></explanation>
+    </question>
+</QF>

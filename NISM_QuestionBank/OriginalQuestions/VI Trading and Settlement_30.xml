@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Trading and Settlement_30" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investor wants to gift shares to a family member who has an account at a different depository. This transfer is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[An inter-depository off-market transfer requiring OTP verification and beneficiary pre-registration]]></text></answer>
+            <answer correct="no"><text><![CDATA[Not possible — both must be at the same depository]]></text></answer>
+            <answer correct="no"><text><![CDATA[A market transaction through the exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[Processed automatically without any instructions]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Gift transfer is off-market. Between depositories = inter-depository. Requires OTP (since Nov 2020) and beneficiary pre-registration.
+**The Trap:** 'Not possible' is wrong — inter-depository off-market transfers are fully supported.
+**Cross-Exam Context:** This combines off-market, inter-depository, and OTP concepts.
+**Distributor's Pro-Tip:** Steps: (1) Register family member as beneficiary, (2) Submit DIS/electronic instruction, (3) Verify via OTP, (4) Transfer executes on the specified date.]]></text></explanation>
+    </question>
+</QF>

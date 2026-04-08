@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Pledge and Hypothecation_44" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under the margin pledge framework, what happens to securities upon invocation by TM for securities other than MF units not traded on exchanges?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[They are blocked for early pay-in in the client's demat account]]></text></answer>
+            <answer correct="no"><text><![CDATA[They are transferred to the TM's proprietary account]]></text></answer>
+            <answer correct="no"><text><![CDATA[They are sold automatically on the exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[They are returned to the client's free balance]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Upon invocation by the TM, securities (other than mutual fund units not traded on exchanges) shall be blocked for early pay-in in the client's demat account.
+**The Trap:** Direct transfer to TM's account seems intuitive but the securities are blocked for early pay-in instead.
+**Cross-Exam Context:** NISM Series VIII covers margin invocation mechanisms.
+**Distributor's Pro-Tip:** The blocking mechanism ensures securities are used for settlement rather than being accumulated in the TM/CM's account.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Trading and Settlement_35" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In a T+1 settlement cycle, if a trade is executed on Monday (T), by when must the pay-in be completed?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Tuesday (T+1)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Wednesday (T+2)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Thursday (T+3)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Monday itself (T+0)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In T+1 settlement, the trade settles on the next business day after the trade date.
+**The Trap:** 'T+2' was the previous settlement cycle. India moved to T+1 settlement.
+**Cross-Exam Context:** Series VII and VIII cover the T+1 settlement timeline in detail.
+**Distributor's Pro-Tip:** India's move to T+1 was a significant achievement — it means faster access to funds for sellers and securities for buyers, reducing settlement risk.]]></text></explanation>
+    </question>
+</QF>

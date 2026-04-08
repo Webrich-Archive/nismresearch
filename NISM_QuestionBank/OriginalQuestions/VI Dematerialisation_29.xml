@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Dematerialisation_29" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If the issuer/RTA rejects a demat request because it was initiated under the wrong ISIN, the DP should:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Generate a fresh Demat Request under the correct ISIN and resend documents to the correct RTA]]></text></answer>
+            <answer correct="no"><text><![CDATA[Appeal to SEBI against the rejection]]></text></answer>
+            <answer correct="no"><text><![CDATA[Close the client's demat account]]></text></answer>
+            <answer correct="no"><text><![CDATA[Ask the depository to override the rejection]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For wrong ISIN rejection: RTA rejects and forwards documents back to DP. A fresh Demat Request must be generated under the correct ISIN.
+**The Trap:** 'Appeal to SEBI' is unnecessary for operational errors like wrong ISIN — it's simply a matter of resubmitting correctly.
+**Cross-Exam Context:** Series II-A covers rejection codes and resolution procedures.
+**Distributor's Pro-Tip:** Common causes of wrong ISIN: company has multiple ISINs (different share classes, different instruments), or the DP selected the wrong one from a dropdown.]]></text></explanation>
+    </question>
+</QF>

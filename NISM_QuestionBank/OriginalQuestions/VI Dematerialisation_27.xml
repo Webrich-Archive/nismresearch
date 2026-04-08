@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Dematerialisation_27" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The depository electronically intimates all dematerialisation requests to the issuer/RTA on:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A daily basis]]></text></answer>
+            <answer correct="no"><text><![CDATA[A weekly basis]]></text></answer>
+            <answer correct="no"><text><![CDATA[A monthly basis]]></text></answer>
+            <answer correct="no"><text><![CDATA[Immediately upon receipt]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The depository electronically intimates, on a daily basis, all dematerialisation requests to the respective Issuer or its R&T Agent.
+**The Trap:** 'Immediately' would be operationally challenging. Daily batch processing is the actual frequency.
+**Cross-Exam Context:** Series II-A covers the RTA's receipt of daily demat requests.
+**Distributor's Pro-Tip:** Daily intimation means the RTA receives a consolidated list of all demat requests across all DPs. This batch processing is efficient for large issuers with many requests.]]></text></explanation>
+    </question>
+</QF>

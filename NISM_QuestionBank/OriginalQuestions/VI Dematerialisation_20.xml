@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Dematerialisation_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Who can submit a request for dematerialisation of securities?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The registered holder of the security]]></text></answer>
+            <answer correct="no"><text><![CDATA[Any person who possesses the physical certificate]]></text></answer>
+            <answer correct="no"><text><![CDATA[The depository directly]]></text></answer>
+            <answer correct="no"><text><![CDATA[The stock exchange]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Only the registered holder (the person whose name appears in the company's register of members) can submit a DRF.
+**The Trap:** 'Any person who possesses the certificate' is dangerous — possession doesn't equal ownership. The person must be the registered holder.
+**Cross-Exam Context:** Series II-A covers the RTA's verification of holder identity for demat requests.
+**Distributor's Pro-Tip:** This prevents stolen certificates from being dematerialised by thieves. The issuer/RTA verifies that the DRF comes from the actual registered holder by matching names and signatures.]]></text></explanation>
+    </question>
+</QF>

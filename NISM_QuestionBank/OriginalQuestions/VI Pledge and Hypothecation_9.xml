@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Pledge and Hypothecation_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When the pledgee's DP confirms the creation of a pledge/hypothecation, what status does the instruction change to?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Accepted-Verified]]></text></answer>
+            <answer correct="no"><text><![CDATA[Pledge-Confirmed]]></text></answer>
+            <answer correct="no"><text><![CDATA[Active-Pledged]]></text></answer>
+            <answer correct="no"><text><![CDATA[Completed-Verified]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** On acceptance of pledge creation by the pledgee, the status changes to 'Accepted-Verified' in the DP system.
+**The Trap:** 'Pledge-Confirmed' sounds intuitive but the specific system status is 'Accepted-Verified'.
+**Cross-Exam Context:** Status tracking is important across NISM exams for understanding transaction lifecycles.
+**Distributor's Pro-Tip:** Always verify the status change to 'Accepted-Verified' before considering a pledge as successfully created.]]></text></explanation>
+    </question>
+</QF>

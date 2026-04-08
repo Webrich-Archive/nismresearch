@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Pledge and Hypothecation_26" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Can locked-in securities be invoked before the lock-in release date?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[No, locked-in securities cannot be invoked before the lock-in release date]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, with prior SEBI approval]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, if both parties agree in writing]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, but only for government securities]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** If the pledge is for lock-in securities, then the invocation request cannot be setup till the lock-in period is over. Locked-in securities cannot be invoked before the lock-in release date.
+**The Trap:** Option (b) sounds like a reasonable exception but no such exception exists.
+**Cross-Exam Context:** Lock-in restrictions are covered in multiple NISM certifications including Series VI and Series VIII.
+**Distributor's Pro-Tip:** Be cautious when accepting locked-in securities as collateral — they cannot be liquidated through invocation until the lock-in expires.]]></text></explanation>
+    </question>
+</QF>

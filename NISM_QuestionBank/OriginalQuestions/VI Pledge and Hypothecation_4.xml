@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Pledge and Hypothecation_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For creating a pledge/hypothecation of securities in demat mode, both the pledgor and pledgee must have a beneficial account with:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The same depository]]></text></answer>
+            <answer correct="no"><text><![CDATA[Different depositories]]></text></answer>
+            <answer correct="no"><text><![CDATA[The same Depository Participant]]></text></answer>
+            <answer correct="no"><text><![CDATA[Any depository of their choice, including different depositories]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Inter-depository pledge is presently not permitted. Both parties must have their beneficial account with the same depository, though they need not have accounts with the same DP.
+**The Trap:** Option (d) seems reasonable in a connected depository system, but inter-depository pledge is not allowed.
+**Cross-Exam Context:** NISM Series VI covers depository operations where inter-depository transfers are allowed for settlement but not for pledge.
+**Distributor's Pro-Tip:** If your client wants to pledge securities to a lender who is with a different depository, one of them will need to open an account with the other's depository.]]></text></explanation>
+    </question>
+</QF>

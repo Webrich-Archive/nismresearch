@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Dematerialisation_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For a rematerialisation request, there must be sufficient:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Free or lock-in balance of securities in the beneficiary account]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cash balance in the linked bank account]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trading volume in the security]]></text></answer>
+            <answer correct="no"><text><![CDATA[Market capitalization of the company]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** There should be sufficient free or lock-in balance of securities available to honour the rematerialisation request.
+**The Trap:** 'Cash balance' is irrelevant — remat is about converting existing demat holdings to physical, not about buying securities.
+**Cross-Exam Context:** Series VII covers balance checks in the settlement context.
+**Distributor's Pro-Tip:** Lock-in securities can also be rematerialised — the lock-in period continues even in physical form. The important thing is that the balance exists and isn't already pledged or committed for settlement.]]></text></explanation>
+    </question>
+</QF>

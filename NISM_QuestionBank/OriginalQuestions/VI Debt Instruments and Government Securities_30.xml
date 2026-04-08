@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Debt Instruments and Government Securities_30" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When endorsing on the reverse of a G-Sec certificate for dematerialisation, what should the DP write?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA['Tendered for Cancellation and credit to SGL A/c No. ___, Mumbai']]></text></answer>
+            <answer correct="no"><text><![CDATA['Submitted for dematerialisation' with the ISIN number]]></text></answer>
+            <answer correct="no"><text><![CDATA['Surrendered for cancellation — SEBI Ref No. ___']]></text></answer>
+            <answer correct="no"><text><![CDATA['Returned to RBI for credit to SGL account']]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The DP has to endorse on the reverse of the certificate by writing 'Tendered for Cancellation and credit to SGL A/c No. ___, Mumbai'.
+**The Trap:** 'Submitted for dematerialisation' is used for regular securities, not for G-Secs which use the specific SGL credit language.
+**Cross-Exam Context:** G-Sec specific procedures differ from regular demat, as tested in NISM Series VI.
+**Distributor's Pro-Tip:** Unlike regular securities where holes are punched, G-Sec certificates should NOT have holes punched on their face.]]></text></explanation>
+    </question>
+</QF>

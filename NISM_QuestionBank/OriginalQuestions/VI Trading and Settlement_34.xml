@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Trading and Settlement_34" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A CM can monitor settlement information through IDeAS. What information is available?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Latest balances and transactions in CM Pool accounts for current, previous 4, and next 4 pay-in dates]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only current day's transactions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the total portfolio value]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only pending delivery instructions]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** CMs can view and download balances and transactions for settlements covering the current pay-in date, previous four, and next four pay-in dates.
+**The Trap:** 'Only current day' is too limited — the window covers 9 settlement dates (current ± 4).
+**Cross-Exam Context:** Chapter 5 covered IDeAS capabilities.
+**Distributor's Pro-Tip:** This 9-day window helps CMs plan their settlement obligations: what's already settled (past 4), what's settling now (current), and what's coming up (next 4).]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Dematerialisation_34" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Bankers' attestation of the DRF may be required when:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The signatures on the DRF do not match with the DP's records and the DP needs to verify the client's identity]]></text></answer>
+            <answer correct="no"><text><![CDATA[The securities value exceeds Rs. 10 lakh]]></text></answer>
+            <answer correct="no"><text><![CDATA[The client is an NRI]]></text></answer>
+            <answer correct="no"><text><![CDATA[The request is for government securities]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** If signatures don't match, the DP may insist on attestation of DRF from bankers of the client to verify identity.
+**The Trap:** 'Securities value exceeds Rs. 10 lakh' is not a trigger for banker attestation — it's specifically about signature mismatch.
+**Cross-Exam Context:** This is a KYC/identity verification measure.
+**Distributor's Pro-Tip:** Banker attestation is a last resort — the DP first tries to verify identity through other means. But for unclear signature mismatches, the banker's attestation provides independent verification.]]></text></explanation>
+    </question>
+</QF>

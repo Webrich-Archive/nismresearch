@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Functions of DP Account Opening_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If a demat account does not have all 6 KYC attributes updated, the account will be frozen under which reason code?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Freeze reason code 37 (Non-Compliant — 6 KYC Attributes)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Freeze reason code 10 (Regulatory Hold)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Freeze reason code 25 (AML Non-Compliance)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Freeze reason code 50 (Inactive Account)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Demat accounts without all 6 KYC attributes are frozen for debits under Freeze reason code 37.
+**The Trap:** 'AML Non-Compliance' is a different freeze category. Code 37 is specifically for missing KYC attributes.
+**Cross-Exam Context:** Series V-A covers similar KYC compliance requirements for mutual fund folios.
+**Distributor's Pro-Tip:** When the account becomes compliant with all 6 KYC attributes and was frozen only with code 37, the DP can immediately unfreeze it. Proof of documents must be maintained.]]></text></explanation>
+    </question>
+</QF>

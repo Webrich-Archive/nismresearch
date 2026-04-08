@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Pledge and Hypothecation_46" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When a client's trading account is frozen after creation of pledge, and invocation occurs, where do the invoked securities go?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Into the demat account of the TM/CM to be sold under proprietary code]]></text></answer>
+            <answer correct="no"><text><![CDATA[Back to the client's free balance]]></text></answer>
+            <answer correct="no"><text><![CDATA[To the clearing corporation's account]]></text></answer>
+            <answer correct="no"><text><![CDATA[To a SEBI custodial account]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Where client's trading account is frozen or marked as 'not permitted to trade' after pledge creation, invoked securities shall move into the demat account of TM/CM and be sold under proprietary code.
+**The Trap:** Option (c) seems logical for clearing but the specific process routes through TM/CM's proprietary code.
+**Cross-Exam Context:** Handling of frozen accounts is covered in NISM Series VI and Series VIII.
+**Distributor's Pro-Tip:** The pay-in of such securities must be completed on the same day of invocation to prevent accumulation in the TM/CM's account.]]></text></explanation>
+    </question>
+</QF>

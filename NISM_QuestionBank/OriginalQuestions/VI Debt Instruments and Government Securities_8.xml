@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VI Debt Instruments and Government Securities_8" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What happens to the ISIN associated with a debt instrument on redemption?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The ISIN is de-activated in the depository system]]></text></answer>
+            <answer correct="no"><text><![CDATA[The ISIN is reassigned to a new instrument]]></text></answer>
+            <answer correct="no"><text><![CDATA[The ISIN remains active indefinitely]]></text></answer>
+            <answer correct="no"><text><![CDATA[The ISIN is transferred to SEBI's archives]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** On redemption, the ISIN associated with the instrument is de-activated in the depository system.
+**The Trap:** One might think ISINs remain active for record purposes, but they are de-activated.
+**Cross-Exam Context:** ISIN lifecycle management is tested in NISM Series VI.
+**Distributor's Pro-Tip:** After redemption, ensure the ISIN is de-activated and reconcile your accounts — any pending transactions in that ISIN will fail.]]></text></explanation>
+    </question>
+</QF>
