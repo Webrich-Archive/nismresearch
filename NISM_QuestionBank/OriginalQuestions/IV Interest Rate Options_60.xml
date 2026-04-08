@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_60" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is the significance of open interest in the context of interest rate options?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[It represents the total number of outstanding option contracts that have not been closed or exercised]]></text></answer>
+            <answer correct="no"><text><![CDATA[It represents the total trading volume for the day]]></text></answer>
+            <answer correct="no"><text><![CDATA[It indicates the total premium collected by all option writers]]></text></answer>
+            <answer correct="no"><text><![CDATA[It measures the total margin deposited with the exchange]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Open interest counts the total number of active (open) contracts. It increases when new contracts are created and decreases when contracts are closed or exercised.
+**The Trap:** Daily trading volume is different from open interest. Open interest is a stock variable (cumulative), while volume is a flow variable (daily).
+**Cross-Exam Context:** Open interest interpretation is tested in NISM Equity Derivatives and Technical Analysis modules.
+**Distributor's Pro-Tip:** Rising open interest with rising prices signals strong bullish trend. Rising open interest with falling prices signals strong bearish trend. It confirms trend strength.]]></text></explanation>
+    </question>
+</QF>

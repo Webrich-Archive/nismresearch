@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Clearing Process_58" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The clearing corporation determines net obligations after which key step?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[After custodial confirmation]]></text></answer>
+            <answer correct="no"><text><![CDATA[After trading session ends]]></text></answer>
+            <answer correct="no"><text><![CDATA[After margin collection]]></text></answer>
+            <answer correct="no"><text><![CDATA[After depository confirms availability of securities]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** After custodial confirmation, the clearing corporation determines obligations through multilateral netting.
+**The Trap:** Obligations cannot be finalized until custodians confirm which institutional trades they will settle.
+**Cross-Exam Context:** The sequence is critical: trade → confirmation → netting → obligation download.
+**Distributor's Pro-Tip:** Unconfirmed custodian trades revert to the executing broker for settlement.]]></text></explanation>
+    </question>
+</QF>

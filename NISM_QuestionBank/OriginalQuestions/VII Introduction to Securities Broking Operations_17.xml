@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Introduction to Securities Broking Operations_17" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In a stop loss order, which two prices must the client specify?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Trigger price and limit/market price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Opening price and closing price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Bid price and ask price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Reference price and settlement price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A stop loss order requires two prices: (1) trigger price — the price at which the order gets activated, and (2) limit or market price — the price at which the order is placed once triggered. The order remains dormant until the trigger price is hit.
+**The Trap:** The trigger price and limit price serve different functions. For a sell stop loss, trigger price ≥ limit price. For a buy stop loss, trigger price ≤ limit price.
+**Cross-Exam Context:** Series VIII covers stop loss in derivative trading strategies.
+**Distributor's Pro-Tip:** Sell stop loss: trigger Rs. 96, limit Rs. 95 → when price falls to 96, sell order at 95 is placed. Buy stop loss: trigger Rs. 880, limit Rs. 890 → when price rises to 880, buy order at 890 is placed. Stop loss market orders match at best available price after trigger.]]></text></explanation>
+    </question>
+</QF>

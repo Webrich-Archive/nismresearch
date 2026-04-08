@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_34" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A bond portfolio has a DV01 (Dollar Value of 1 basis point) of Rs. 45,000. The DV01 of the 10-year GOI bond futures contract is Rs. 900 per lot. How many lots should be shorted to hedge the portfolio?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[50 lots]]></text></answer>
+            <answer correct="no"><text><![CDATA[45 lots]]></text></answer>
+            <answer correct="no"><text><![CDATA[500 lots]]></text></answer>
+            <answer correct="no"><text><![CDATA[20 lots]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Hedge ratio = Portfolio DV01 / Futures DV01 = Rs. 45,000 / Rs. 900 = 50 lots. This ensures that for every 1 bps move, the gain on futures offsets the loss on the portfolio (and vice versa).
+
+**The Trap:** 45 lots divides 45,000 by 1,000. 500 lots divides by 90. 20 lots divides by 2,250. DV01-based hedging is the standard approach for interest rate risk management.
+
+**Cross-Exam Context:** DV01 hedging is a core concept in NISM Series IV. It is more precise than simple face-value hedging because it accounts for the interest rate sensitivity of both the portfolio and the futures contract.
+
+**Distributor's Pro-Tip:** The DV01 hedge assumes a parallel shift in the yield curve. For non-parallel shifts, key-rate duration hedging using multiple futures contracts may be needed.]]></text></explanation>
+    </question>
+</QF>

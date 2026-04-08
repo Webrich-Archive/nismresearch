@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Regulatory Framework_4" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A member currently has BMC of Rs. 50 lakhs for proprietary and client trading. They want to add 2 algorithmic trading strategies. How much additional capital must they deposit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 50 lakhs (Rs. 25 lakhs x 2)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 25 lakhs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 75 lakhs]]></text></answer>
+            <answer correct="no"><text><![CDATA[No additional capital needed]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Additional capital for 2 algos = Rs. 25 lakhs x 2 = Rs. 50 lakhs. They already have the base Rs. 50 lakhs for prop+client, so only the incremental algo capital is needed.
+
+**The Trap:** Rs. 25 lakhs accounts for only 1 algo. Rs. 75 lakhs overcounts. The member does not need to re-deposit the base BMC since they already have it.
+
+**Cross-Exam Context:** Incremental capital calculations for adding new activities are practical exam questions that test understanding of the tiered BMC structure.
+
+**Distributor's Pro-Tip:** Before deploying new algo strategies, ensure the additional BMC is deposited and approved by the exchange. Running algos without adequate BMC is a compliance violation.]]></text></explanation>
+    </question>
+</QF>

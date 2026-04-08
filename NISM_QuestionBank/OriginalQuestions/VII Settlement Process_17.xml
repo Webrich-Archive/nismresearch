@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Settlement Process_17" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Pay-out of funds in T+1 settlement happens by:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[1:30 PM on T+1]]></text></answer>
+            <answer correct="no"><text><![CDATA[11:00 AM on T+1]]></text></answer>
+            <answer correct="no"><text><![CDATA[3:30 PM on T+1]]></text></answer>
+            <answer correct="no"><text><![CDATA[9:00 AM on T+1]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Pay-out of funds happens by 1:30 PM on T+1 day.
+**The Trap:** 3:30 PM is for pay-out of securities (revised due to direct payout mandate), not funds.
+**Cross-Exam Context:** The 2.5-hour gap between pay-in and fund pay-out allows processing time.
+**Distributor's Pro-Tip:** The sequence on T+1: pay-in (11 AM) → fund pay-out (1:30 PM) → securities pay-out (3:30 PM).]]></text></explanation>
+    </question>
+</QF>

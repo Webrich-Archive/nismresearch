@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_39" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following best describes the payoff of a short straddle position?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Maximum profit is the total premium received, achieved when the underlying expires at the strike price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Maximum profit is unlimited in both directions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Maximum loss is the total premium paid]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit only when the underlying moves significantly in one direction]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A short straddle (sell call + sell put at same strike) earns maximum profit = total premium when the underlying expires exactly at the strike (both options expire worthless). Losses are potentially unlimited if the price moves far in either direction.
+**The Trap:** Unlimited profit applies to long straddle. Max loss = premium applies to long straddle. Profit from big moves applies to long straddle.
+**Cross-Exam Context:** Short vs long straddle payoff comparison is standard in Series VIII.
+**Distributor's Pro-Tip:** Short straddle = bet on low volatility. The seller hopes both options expire worthless. It's the exact opposite of a long straddle.]]></text></explanation>
+    </question>
+</QF>

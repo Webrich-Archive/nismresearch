@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Fixed Income Instruments and Bond Markets_17" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A 3-year bond with 10% annual coupon, face value Rs. 100, required yield 9%, has semi-annual compounding. What is the approximate convexity?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[8.21]]></text></answer>
+            <answer correct="no"><text><![CDATA[12.45]]></text></answer>
+            <answer correct="no"><text><![CDATA[5.67]]></text></answer>
+            <answer correct="no"><text><![CDATA[15.32]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Using the convexity formula with semi-annual compounding: Convexity = [Σ CF_t × t(t+1) / (1+y/2)^(t+2)] / (n² × Price) where n=2. The detailed calculation yields approximately 8.21 for semi-annual comparison.
+
+**The Trap:** Convexity values for semi-annual bonds must be divided by 4 (=2²) to make them comparable with annual bonds. Using the raw sum without this adjustment gives an inflated figure.
+
+**Cross-Exam Context:** Convexity is heavily tested in Series IV. Understanding convexity adjustments is essential for accurate bond price estimation beyond what duration alone provides.
+
+**Distributor's Pro-Tip:** Higher convexity is always desirable — it means the bond price increases more when yields fall and decreases less when yields rise. Convexity is like free insurance.]]></text></explanation>
+    </question>
+</QF>

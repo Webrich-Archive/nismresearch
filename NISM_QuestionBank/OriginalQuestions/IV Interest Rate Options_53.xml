@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_53" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What style of options are exchange-traded interest rate options (IROs) in India?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[European style]]></text></answer>
+            <answer correct="no"><text><![CDATA[American style]]></text></answer>
+            <answer correct="no"><text><![CDATA[Bermudan style]]></text></answer>
+            <answer correct="no"><text><![CDATA[Asian style]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Exchange-traded interest rate options in India are European style, meaning they can only be exercised on the expiration date.
+**The Trap:** American style (exercisable any time) is a common wrong answer. Bermudan and Asian styles are not used for exchange-traded IROs in India.
+**Cross-Exam Context:** This is a specific regulatory fact for NISM Series IV. Equity options in India can be European (index) or American (stock).
+**Distributor's Pro-Tip:** The European style simplifies settlement and pricing. It is standard for interest rate derivatives globally due to the complexity of early exercise on fixed-income instruments.]]></text></explanation>
+    </question>
+</QF>

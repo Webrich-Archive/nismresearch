@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Clearing Settlement and Risk Management_43" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is the obligation of a trading member regarding client margin reporting?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The TM must report client-level margin details to the exchange on a daily basis]]></text></answer>
+            <answer correct="no"><text><![CDATA[Client margins are reported only on a monthly basis]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only aggregate margin data needs to be reported, not client-level]]></text></answer>
+            <answer correct="no"><text><![CDATA[Margin reporting is optional for TMs with less than 100 clients]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Trading members are required to report client-level margin collection and utilization data to the exchange daily. This ensures transparency and helps the exchange monitor whether adequate margins are being collected from end clients.
+
+**The Trap:** Monthly reporting is insufficient for daily-settled derivatives. Aggregate data does not provide adequate transparency. There is no exemption for smaller TMs.
+
+**Cross-Exam Context:** Client margin reporting requirements have been strengthened by SEBI across all derivative segments after instances of margin shortfalls.
+
+**Distributor's Pro-Tip:** SEBI's margin reporting framework has become increasingly stringent. TMs face penalties for short-collection of margins from clients, even for intraday positions.]]></text></explanation>
+    </question>
+</QF>

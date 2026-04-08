@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_51" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In which scenario would a long straddle on bond futures result in maximum loss?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[When bond futures expire exactly at the strike price]]></text></answer>
+            <answer correct="no"><text><![CDATA[When bond futures prices rise sharply]]></text></answer>
+            <answer correct="no"><text><![CDATA[When bond futures prices fall sharply]]></text></answer>
+            <answer correct="no"><text><![CDATA[When interest rates become extremely volatile]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A long straddle loses maximum when both options expire worthless, which happens only when the underlying expires exactly at the strike price. Any move away from the strike gives value to one of the options.
+**The Trap:** Sharp rises or falls in either direction actually benefit the straddle buyer. High volatility helps the long straddle.
+**Cross-Exam Context:** Max loss scenario for long straddle/strangle is tested in Series VIII.
+**Distributor's Pro-Tip:** Straddle buyer's worst enemy is low volatility. If you buy a straddle and the market flatlines, you lose the entire premium.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_75" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[How many minimum intraday snapshots does the Clearing Corporation conduct for verification of upfront collection of margins?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Minimum four snapshots]]></text></answer>
+            <answer correct="no"><text><![CDATA[Minimum two snapshots]]></text></answer>
+            <answer correct="no"><text><![CDATA[Minimum six snapshots]]></text></answer>
+            <answer correct="no"><text><![CDATA[Continuous monitoring]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Clearing Corporations send minimum four snapshots of client-wise margin requirements for verification of upfront collection.
+**The Trap:** The snapshots are random, not at fixed times, making it harder for members to game the system.
+**Cross-Exam Context:** This verification mechanism ensures TMs/CMs actually collect margins from clients.
+**Distributor's Pro-Tip:** Four random snapshots catch intermittent non-compliance that continuous monitoring at fixed points might miss.]]></text></explanation>
+    </question>
+</QF>

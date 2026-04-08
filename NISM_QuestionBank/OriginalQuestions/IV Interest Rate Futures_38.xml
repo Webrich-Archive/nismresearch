@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_38" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What does 'open interest' represent in the context of exchange-traded interest rate futures?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The total number of outstanding contracts (counted from one side only) at any point in time]]></text></answer>
+            <answer correct="no"><text><![CDATA[The total number of buy and sell contracts combined]]></text></answer>
+            <answer correct="no"><text><![CDATA[The total number of contracts traded during the day]]></text></answer>
+            <answer correct="no"><text><![CDATA[The number of unique participants with open positions]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Open interest is the total number of outstanding (unsettled) contracts. Since every long has a corresponding short, it is counted from one side only. If 100 contracts are outstanding, OI = 100 (not 200).
+
+**The Trap:** Counting both sides would double-count. Daily volume (contracts traded) is different from OI. The number of unique participants is not what OI measures. OI changes only when new positions are created or existing positions are closed.
+
+**Cross-Exam Context:** Open interest is a key market indicator tested in both NISM Series IV and Series VIII. Rising OI indicates fresh positions being built; falling OI indicates positions being unwound.
+
+**Distributor's Pro-Tip:** OI combined with price and volume gives powerful signals. Example: Rising price + Rising OI = Strong bullish trend. Rising price + Falling OI = Short covering rally (potentially weaker).]]></text></explanation>
+    </question>
+</QF>

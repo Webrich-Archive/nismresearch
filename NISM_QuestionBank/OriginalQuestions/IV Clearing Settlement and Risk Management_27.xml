@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Clearing Settlement and Risk Management_27" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[How is the Final Settlement Price determined for MIBOR futures?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Average of daily overnight MIBOR rates during the contract month]]></text></answer>
+            <answer correct="no"><text><![CDATA[MIBOR rate on the last trading day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Weighted average of MIBOR rates with higher weight to recent days]]></text></answer>
+            <answer correct="no"><text><![CDATA[RBI repo rate on the settlement date]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** MIBOR futures FSP is calculated as the average of the daily overnight MIBOR fixings over the contract month. This averaging reduces manipulation risk and smooths out daily volatility.
+
+**The Trap:** It is not just the last day's rate - it is the entire month's average. There is no weighting system. The repo rate is different from MIBOR, though they are related.
+
+**Cross-Exam Context:** Different IRD products use different FSP methodologies. Bond futures use NDS-OM VWAP, T-Bill futures use auction yields, MIBOR futures use monthly averages.
+
+**Distributor's Pro-Tip:** The averaging mechanism in MIBOR futures makes them particularly useful for hedging average overnight borrowing costs over a month, which is how most treasury operations work.]]></text></explanation>
+    </question>
+</QF>

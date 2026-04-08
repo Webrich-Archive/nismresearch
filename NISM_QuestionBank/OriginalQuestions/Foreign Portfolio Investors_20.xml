@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Foreign Portfolio Investors_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For determining whether a derivative instrument is an ODI, what is the threshold for non-proprietary indices (e.g., MSCI World)?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[30% - trades with Indian underlying less than 30% of the index are not regarded as ODIs]]></text></answer>
+            <answer correct="yes"><text><![CDATA[20% - trades with Indian underlying less than 20% of the index are not regarded as ODIs]]></text></answer>
+            <answer correct="no"><text><![CDATA[50% - trades with Indian underlying less than 50% of the index are not regarded as ODIs]]></text></answer>
+            <answer correct="no"><text><![CDATA[10% - trades with Indian underlying less than 10% of the index are not regarded as ODIs]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** As per SEBI guidelines, the threshold for non-proprietary indices is 20%, meaning trades where Indian underlying is less than 20% of the index would not be regarded as ODIs.
+**The Trap:** Custom baskets have no such threshold - they are always treated as ODIs if hedged onshore, regardless of Indian component percentage.
+**Cross-Exam Context:** This ODI materiality test is specific to NISM Series III-A and is not commonly covered in other NISM exams.
+**Distributor's Pro-Tip:** Non-proprietary index = 20% threshold applies. Custom basket = always an ODI if hedged onshore.]]></text></explanation>
+    </question>
+</QF>

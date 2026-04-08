@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_14" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A GOI bond futures contract is trading at Rs. 103.75. The price band is +/-3% of the base price. What is the upper circuit limit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 106.8625]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 106.75]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 106.86]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 107.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Upper circuit = Base Price × (1 + 3%) = 103.75 × 1.03 = 106.8625. The price band for GOI bond futures is +/-3% of the base price.
+
+**The Trap:** Rs. 106.75 simply adds 3.00 to the price instead of computing 3%. Rs. 107.00 rounds to a whole number. The exact calculation using percentage is required.
+
+**Cross-Exam Context:** Price bands prevent excessive volatility. In equity derivatives (NISM VIII), different circuits apply. For IRF, the band can be expanded by 0.5% after a 30-minute cooling period, up to 2 times per day.
+
+**Distributor's Pro-Tip:** If the price hits the upper circuit, trading pauses for 30 minutes. Then the exchange may expand the band by 0.5%. This can happen at most 2 times in a single day.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_57" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[How are exchange-traded interest rate options in India settled upon exercise?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Cash settled based on the Volume Weighted Average Price (VWAP) from NDS-OM]]></text></answer>
+            <answer correct="no"><text><![CDATA[Physical delivery of the underlying GOI securities]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cash settled based on the closing price from BSE]]></text></answer>
+            <answer correct="no"><text><![CDATA[Physical delivery through CCIL]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Exchange-traded IROs are cash settled, with the settlement price determined by the VWAP of the underlying on NDS-OM (Negotiated Dealing System - Order Matching).
+**The Trap:** Physical delivery is not used for these options. BSE is not the reference platform. CCIL handles clearing but the settlement is cash, not physical.
+**Cross-Exam Context:** NISM Series IV specifically tests the NDS-OM VWAP-based settlement mechanism for interest rate derivatives.
+**Distributor's Pro-Tip:** NDS-OM is RBI's electronic platform for GOI securities trading. VWAP ensures the settlement price reflects actual trading activity, preventing manipulation.]]></text></explanation>
+    </question>
+</QF>

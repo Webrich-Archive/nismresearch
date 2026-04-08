@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="III-C Insider Trading Regulations_28" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A designated person of a listed company bought 1,000 shares on March 1 and sold them on July 15 of the same year. What is the compliance status of this transaction?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[It is a contra trade violation as it was executed within six months]]></text></answer>
+            <answer correct="no"><text><![CDATA[It is compliant as more than four months have elapsed]]></text></answer>
+            <answer correct="no"><text><![CDATA[It is compliant as it was done during the trading window]]></text></answer>
+            <answer correct="no"><text><![CDATA[It requires only pre-clearance, not contra trade compliance]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under Schedule B, clause 9, designated persons shall not execute a contra trade within six months. March 1 to July 15 is approximately 4.5 months, which is less than six months, making this a violation.
+**The Trap:** Candidates may calculate the period incorrectly or assume that passing the quarter-end is sufficient.
+**Distributor's Pro-Tip:** Profits from such contra trades must be disgorged for remittance to SEBI's Investor Protection and Education Fund.]]></text></explanation>
+    </question>
+</QF>

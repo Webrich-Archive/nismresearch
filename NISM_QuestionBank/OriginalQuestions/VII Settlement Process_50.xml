@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Settlement Process_50" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[For physically settled futures contracts, the final exercise settlement is implemented on:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[T+1 date, where T is the expiry date]]></text></answer>
+            <answer correct="no"><text><![CDATA[The expiry date itself]]></text></answer>
+            <answer correct="no"><text><![CDATA[T+2 date]]></text></answer>
+            <answer correct="no"><text><![CDATA[T+3 date]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Physical settlement of futures is on T+1 where T is expiry date, as per the CC's settlement schedule.
+**The Trap:** The futures close on expiry day but actual physical delivery happens the next day.
+**Cross-Exam Context:** This is consistent with cash market T+1 settlement.
+**Distributor's Pro-Tip:** Settlement obligations for physical delivery are computed at the futures' final settlement price.]]></text></explanation>
+    </question>
+</QF>

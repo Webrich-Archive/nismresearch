@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Clearing Settlement and Risk Management_41" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is the trading member-level position limit for single bond futures?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Lower of 15% of market-wide position limit or Rs. 1,000 crores]]></text></answer>
+            <answer correct="no"><text><![CDATA[Lower of 10% of market-wide position limit or Rs. 1,000 crores]]></text></answer>
+            <answer correct="no"><text><![CDATA[Lower of 15% of market-wide position limit or Rs. 500 crores]]></text></answer>
+            <answer correct="no"><text><![CDATA[15% of market-wide position limit with no absolute cap]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** TM-level position limit = Lower of (15% of market-wide position limit) OR Rs. 1,000 crores. The 15% links TM limits to market-wide limits, and the Rs. 1,000 crore cap provides an absolute ceiling.
+
+**The Trap:** 10% is wrong percentage. Rs. 500 crores is the client cap, not TM cap. There IS an absolute cap. Confusing client and TM caps is the most common error.
+
+**Cross-Exam Context:** The TM limit sits between client and market-wide limits. Remembering the exact percentages and caps for each level is essential for Series IV.
+
+**Distributor's Pro-Tip:** Trading members must monitor positions of ALL their clients combined. If total client positions approach the TM limit, the TM must restrict new order entry.]]></text></explanation>
+    </question>
+</QF>

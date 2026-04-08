@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_21" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Using put-call parity (C + PV(K) = P + S), if the call is Rs. 4, spot is Rs. 100, and the put is Rs. 3, what is the present value of the strike price?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 99]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 101]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 97]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 103]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** C + PV(K) = P + S. So PV(K) = P + S - C = 3 + 100 - 4 = Rs. 99.
+**The Trap:** Rs. 101 results from C + S - P = 4 + 100 - 3 (incorrect rearrangement). Rs. 97 subtracts both from spot.
+**Cross-Exam Context:** Put-call parity rearrangements are tested in NISM Equity Derivatives and are equally relevant for interest rate options.
+**Distributor's Pro-Tip:** Put-call parity can be rearranged to solve for any variable. Practice rearranging the formula quickly -- exam questions can ask for C, P, S, or PV(K).]]></text></explanation>
+    </question>
+</QF>

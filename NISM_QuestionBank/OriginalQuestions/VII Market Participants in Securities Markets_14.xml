@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Market Participants in Securities Markets_14" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The process by which a clearing corporation provides financial guarantee for all transactions by acting as a counterparty to both buyer and seller is known as:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Novation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Arbitration]]></text></answer>
+            <answer correct="no"><text><![CDATA[Netting]]></text></answer>
+            <answer correct="no"><text><![CDATA[Hedging]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Novation is the process where the Clearing Corporation acts as a central counterparty (CCP), interposing itself between the buyer and seller. Once a trade is executed, the clearing corporation becomes the buyer to every seller and seller to every buyer, guaranteeing settlement.
+**The Trap:** Netting is a related but different concept — it involves offsetting obligations to reduce the number of transactions. Novation replaces the original contract parties with the CCP.
+**Cross-Exam Context:** Series V (Clearing Process) covers novation mechanics in detail. Series VIII covers clearing in derivative markets.
+**Distributor's Pro-Tip:** Novation = CCP guarantee. The clearing corporation steps into every trade as counterparty. This eliminates bilateral counterparty risk and is the foundation of exchange-traded market safety.]]></text></explanation>
+    </question>
+</QF>

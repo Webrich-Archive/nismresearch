@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Fixed Income Instruments and Bond Markets_1" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A bond with a face value of Rs. 1,000 pays a coupon of 8% per annum semi-annually. If the bond compounds semi-annually, what is the effective annual interest rate?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[8.00%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[8.16%]]></text></answer>
+            <answer correct="no"><text><![CDATA[8.24%]]></text></answer>
+            <answer correct="no"><text><![CDATA[7.84%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Effective rate = (1 + r/n)^n - 1 = (1 + 0.08/2)^2 - 1 = (1.04)^2 - 1 = 1.0816 - 1 = 8.16%. Semi-annual compounding increases the effective rate above the nominal rate.
+
+**The Trap:** 8.00% is just the nominal rate without accounting for compounding. 8.24% might result from quarterly compounding. The compounding frequency matters.
+
+**Cross-Exam Context:** Effective rate calculations are tested in Series VIII and Series I as well, since compounding concepts apply across all derivative markets.
+
+**Distributor's Pro-Tip:** Always clarify the compounding frequency when comparing interest rates. A 7.9% rate compounded monthly can exceed an 8% rate compounded annually.]]></text></explanation>
+    </question>
+</QF>

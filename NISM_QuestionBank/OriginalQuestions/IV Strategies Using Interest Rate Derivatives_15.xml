@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A speculator goes long 50 bond futures contracts at Rs. 101.50. Each contract has a face value of Rs. 2,00,000. If the price rises to Rs. 102.30, what is the total profit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 80,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 40,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 8,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,60,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Profit per contract = (102.30 - 101.50)/100 x 2,00,000 = 0.80/100 x 2,00,000 = Rs. 1,600. Total profit = 1,600 x 50 = Rs. 80,000.
+**The Trap:** Rs. 40,000 uses 25 contracts. Rs. 8,000 forgets to multiply by 50. Rs. 1,60,000 doubles the correct answer.
+**Cross-Exam Context:** Futures P&L calculations appear in every NISM derivatives exam.
+**Distributor's Pro-Tip:** Bond futures are quoted per Rs. 100 face value, so always convert to actual face value for P&L.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Other Services Provided by Brokers_42" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[For Group 1 non-F&O stocks and Equity ETFs, the initial margin for MTF is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[VaR + 5 times of applicable Extreme Loss Margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[VaR + 3 times of applicable ELM]]></text></answer>
+            <answer correct="no"><text><![CDATA[VaR + ELM]]></text></answer>
+            <answer correct="no"><text><![CDATA[VaR + 10 times of applicable ELM]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Non-F&O stocks and ETFs have a higher margin requirement: VaR + 5x ELM.
+**The Trap:** The higher multiplier (5x vs 3x) reflects lower liquidity compared to F&O stocks.
+**Cross-Exam Context:** Understanding the differential margin rates is important for MTF questions.
+**Distributor's Pro-Tip:** For example, if VaR=12.5% and ELM=5%, non-F&O margin = 12.5% + 25% = 37.5%.]]></text></explanation>
+    </question>
+</QF>

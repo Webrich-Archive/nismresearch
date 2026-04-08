@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Fixed Income Instruments and Bond Markets_9" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[An investor buys a 182-day Treasury Bill at Rs. 96.50 per Rs. 100 face value. What is the annualized yield on this investment?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[7.25%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[7.27%]]></text></answer>
+            <answer correct="no"><text><![CDATA[3.63%]]></text></answer>
+            <answer correct="no"><text><![CDATA[7.00%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Annualized yield = [(FV - Price) / Price] × (365/days) = [(100-96.50)/96.50] × (365/182) = (3.50/96.50) × 2.0055 = 0.03627 × 2.0055 = 7.27% approximately.
+
+**The Trap:** 3.63% is the yield for just the 182-day period without annualization. 7.25% uses face value in the denominator instead of price (discount yield, not investment yield). Always check whether the question asks for discount yield or investment yield.
+
+**Cross-Exam Context:** T-Bill yield calculations are tested in Series IV (as T-Bills are IRF underlyings) and also in Series XII (securities markets foundation) and Series I (money market instruments).
+
+**Distributor's Pro-Tip:** T-Bills are quoted on a discount basis but actual returns should be calculated on an investment (price) basis for meaningful comparison.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Introduction to Securities Broking Operations_16" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An Immediate or Cancel (IOC) order is best described as:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[An order that must be executed immediately; any unmatched portion is cancelled instantly]]></text></answer>
+            <answer correct="no"><text><![CDATA[An order that remains in the system until cancelled by the trader]]></text></answer>
+            <answer correct="no"><text><![CDATA[An order that is valid for the entire trading day]]></text></answer>
+            <answer correct="no"><text><![CDATA[An order that gets activated only when a trigger price is reached]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** IOC order must execute immediately upon release into the market. Partial matching is possible — if only part of the order finds a counter, that part trades and the remainder is cancelled instantly.
+**The Trap:** A Day order stays in the system until end of day. GTC/GTD orders persist across days (currently not available per SEBI directives). IOC is the most time-restrictive order type.
+**Cross-Exam Context:** Series VIII covers order types in derivative markets.
+**Distributor's Pro-Tip:** Order time conditions: IOC = instant (partial ok, rest cancelled). Day = valid till end of day. GTC/GTD = currently not available. COL (Cancel on Logout) = cancelled when user logs out. Most retail orders are Day orders; IOC is popular for algorithmic trading.]]></text></explanation>
+    </question>
+</QF>

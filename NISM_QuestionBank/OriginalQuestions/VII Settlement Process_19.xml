@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Settlement Process_19" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[As a result of Direct Payout, securities are credited to clients' demat accounts on:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The same settlement day (T+1), instead of one working day from receipt of pay-out]]></text></answer>
+            <answer correct="no"><text><![CDATA[T+2 day]]></text></answer>
+            <answer correct="no"><text><![CDATA[T+3 day]]></text></answer>
+            <answer correct="no"><text><![CDATA[The next working day after settlement]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Direct payout credits securities to client demat accounts on the same settlement day (T+1), eliminating the previous one working day delay.
+**The Trap:** Before direct payout, securities went to broker pool account first, then to client next day. Now it's same day.
+**Cross-Exam Context:** This is an important investor protection improvement.
+**Distributor's Pro-Tip:** Clients get their bought securities faster, reducing counterparty exposure to their broker.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_53" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Which statement about the Overnight MIBOR Futures contract is TRUE?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[On the last trading day, the market operates only from 9:00 AM to 10:00 AM]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trading hours on the last day are the same as regular days (9 AM to 5 PM)]]></text></answer>
+            <answer correct="no"><text><![CDATA[There is no trading on the last day; the contract expires at the previous day's DSP]]></text></answer>
+            <answer correct="no"><text><![CDATA[On the last day, trading is from 9:00 AM to 1:00 PM]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The MIBOR futures contract expires on the last working day of the contract month, and on that last day, the market operates only from 9:00 AM to 10:00 AM (a shortened session).
+
+**The Trap:** Regular trading hours (9 AM to 5 PM) do not apply on the last day. The contract does trade on the last day (it's not a no-trading day). 9 AM to 1 PM applies to T-Bill futures on their last day. Each product has specific last-day timings.
+
+**Cross-Exam Context:** Shortened trading sessions on expiry days are common across derivative markets. In equity derivatives, expiry day has normal hours. IRF products have specific last-day timings that must be memorized.
+
+**Distributor's Pro-Tip:** The 1-hour window on the last day allows final position adjustments before settlement. The final settlement uses the simple average of all daily MIBOR rates for the entire contract month.]]></text></explanation>
+    </question>
+</QF>

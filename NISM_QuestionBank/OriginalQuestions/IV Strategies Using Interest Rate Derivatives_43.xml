@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_43" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What happens to a bondholder's maximum upside when they sell a covered call?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Upside is capped at the strike price plus premium received, minus the purchase price of the bond]]></text></answer>
+            <answer correct="no"><text><![CDATA[Upside becomes unlimited due to premium income]]></text></answer>
+            <answer correct="no"><text><![CDATA[Upside is unaffected since the option is covered]]></text></answer>
+            <answer correct="no"><text><![CDATA[Upside is reduced to zero]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** By selling a call, the bondholder gives up all price appreciation above the strike price. If the bond rises above the strike, the call will be exercised and the bond delivered. Maximum profit = (Strike - Cost) + Premium.
+**The Trap:** Upside is specifically capped, not unlimited. Being 'covered' doesn't mean unaffected. Upside isn't zero since you keep gains up to the strike.
+**Cross-Exam Context:** Covered call payoff ceiling is tested in Series VIII equity options with identical logic.
+**Distributor's Pro-Tip:** Covered call = income strategy, not growth strategy. It's like renting your bond's upside potential for premium income.]]></text></explanation>
+    </question>
+</QF>

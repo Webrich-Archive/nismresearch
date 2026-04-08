@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Settlement Process_42" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Internal shortages arise when:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A selling client fails to deliver but the member's net obligation is zero due to netting with another buying client]]></text></answer>
+            <answer correct="no"><text><![CDATA[The member fails to deliver to the CC]]></text></answer>
+            <answer correct="no"><text><![CDATA[The auction fails to find sellers]]></text></answer>
+            <answer correct="no"><text><![CDATA[The clearing bank has insufficient funds]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Internal shortages occur when a selling client fails to deliver but netting with another buying client means no CC-level shortage exists.
+**The Trap:** The member owes shares to the buying client even though the CC shows no shortage.
+**Cross-Exam Context:** Internal shortages require self-auction mechanism to handle.
+**Distributor's Pro-Tip:** These internal shortages are clubbed with normal shortages for auction.]]></text></explanation>
+    </question>
+</QF>

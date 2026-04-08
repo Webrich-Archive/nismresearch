@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Fixed Income Instruments and Bond Markets_16" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Two bonds have the same 10-year maturity: Bond X has a 6% coupon and Bond Y has a 9% coupon. Which bond has higher Macaulay Duration?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Bond X (6% coupon)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Bond Y (9% coupon)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both have the same duration]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cannot be determined]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Macaulay Duration is inversely related to coupon rate, all else being equal. Higher coupon → more cash flow received earlier → lower weighted average time → lower duration. So Bond X (lower coupon 6%) has higher duration than Bond Y (9% coupon).
+
+**The Trap:** Students sometimes confuse maturity with duration. While both bonds have the same maturity, their durations differ because of different coupon rates.
+
+**Cross-Exam Context:** Duration-coupon relationships are a core topic in Series IV and tested across all derivative exams where hedge ratios are involved.
+
+**Distributor's Pro-Tip:** A zero-coupon bond has the highest possible duration for a given maturity — equal to its maturity. Every coupon payment brings duration below maturity.]]></text></explanation>
+    </question>
+</QF>

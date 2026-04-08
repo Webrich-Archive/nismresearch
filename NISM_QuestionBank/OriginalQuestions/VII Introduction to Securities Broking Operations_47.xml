@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Introduction to Securities Broking Operations_47" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When an equity option is exercised, STT is charged at:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[0.125% on the intrinsic value, payable by the buyer of the option]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.1% on the premium, payable by the seller]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.02% on the notional value, payable by the buyer]]></text></answer>
+            <answer correct="no"><text><![CDATA[No STT on exercise of options]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When an equity option is exercised, STT of 0.125% is charged on the intrinsic value, payable by the BUYER of the option. On regular sale of options, STT of 0.1% is charged on the premium, payable by the seller.
+**The Trap:** Exercise STT (0.125% on intrinsic value) can be much larger than sale STT (0.1% on premium). Traders often prefer to sell/square off options rather than exercise to save on STT.
+**Cross-Exam Context:** Series VIII covers option exercise STT implications in trading strategies.
+**Distributor's Pro-Tip:** Option STT trap: Selling option = 0.1% on premium (small). Exercise = 0.125% on intrinsic value (can be large). Example: Bought call at premium Rs. 5, strike 100, market at 120. Intrinsic = 20. Exercise STT = 0.125% × 20 = Rs. 0.025/share. Sale STT would be 0.1% of market premium. Always compare before deciding to exercise vs. sell.]]></text></explanation>
+    </question>
+</QF>

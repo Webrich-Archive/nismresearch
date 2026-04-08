@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Custodians Compliance_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under SEBI (Investment Advisers) Regulations, 2013, through which channels shall an Investment Adviser accept fees from clients?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Cash and banking channels both]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cash deposits up to INR 10,000 and banking channels]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Only through banking channels such as account payee cheque, DD, NEFT, RTGS, IMPS, or UPI]]></text></answer>
+            <answer correct="no"><text><![CDATA[Any mode of payment as agreed with the client]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI has mandated that IAs shall accept fees strictly by account payee crossed cheques/demand drafts or by way of direct credit into their bank account through NEFT/RTGS/IMPS/UPI. Cash deposits are explicitly not permitted.
+**The Trap:** While small cash payments might seem permissible, SEBI has categorically prohibited all cash deposits to ensure a proper audit trail.
+**Cross-Exam Context:** Payment trail requirements for intermediaries are tested across multiple NISM certifications including Series III-A and X-A.
+**Distributor's Pro-Tip:** Maintain records of all fee receipts with clear banking trails -- this is critical during SEBI inspections and audits.]]></text></explanation>
+    </question>
+</QF>

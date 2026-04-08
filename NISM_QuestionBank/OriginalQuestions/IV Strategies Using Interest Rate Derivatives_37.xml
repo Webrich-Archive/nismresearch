@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_37" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An arbitrageur observes that a bond futures contract is trading significantly above its theoretical fair value. What strategy should be employed?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy the bond in the cash market and sell the futures contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell the bond in the cash market and buy the futures contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy both the bond and the futures contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell both the bond and the futures contract]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When futures are overpriced relative to fair value (cash price + cost of carry), the arbitrageur buys cheap (spot) and sells expensive (futures), locking in a risk-free profit equal to the mispricing.
+**The Trap:** Reverse cash-and-carry (sell spot, buy futures) applies when futures are UNDERPRICED. Buying both increases exposure. Selling both is a double short.
+**Cross-Exam Context:** Cash-and-carry arbitrage is the fundamental arbitrage strategy in all futures markets (Series I, VIII, XII).
+**Distributor's Pro-Tip:** Buy cheap, sell expensive - this simple principle underlies all arbitrage. The 'fair value' is your benchmark for what's cheap or expensive.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Clearing Settlement and Risk Management_19" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is novation in the context of exchange-traded interest rate derivatives?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The clearing corporation interposes itself between the buyer and seller, becoming the counterparty to both]]></text></answer>
+            <answer correct="no"><text><![CDATA[The exchange novates the original contract by changing its terms]]></text></answer>
+            <answer correct="no"><text><![CDATA[The buyer and seller directly negotiate new settlement terms]]></text></answer>
+            <answer correct="no"><text><![CDATA[The clearing member replaces the original counterparty with a new one]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Novation means the clearing corporation (CC) steps in between the buyer and seller. The CC becomes the buyer to every seller and seller to every buyer, eliminating bilateral counterparty risk.
+
+**The Trap:** Novation does not change contract terms - it changes the counterparty structure. It is not a bilateral negotiation. The CC, not the clearing member, performs novation.
+
+**Cross-Exam Context:** Novation is a fundamental concept across all exchange-traded derivatives. It is the primary mechanism that makes exchange trading safer than OTC trading.
+
+**Distributor's Pro-Tip:** Novation by the CC is what gives participants confidence to trade with unknown counterparties. Without it, each trade would require bilateral credit assessment.]]></text></explanation>
+    </question>
+</QF>

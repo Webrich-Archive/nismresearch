@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Clearing Settlement and Risk Management_13" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A clearing member's collateral utilization reaches 92%. What action does the exchange take?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[All unexecuted orders of the member are cancelled]]></text></answer>
+            <answer correct="no"><text><![CDATA[The member receives a warning but can continue trading]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only new buy orders are restricted]]></text></answer>
+            <answer correct="no"><text><![CDATA[The member's account is suspended for 24 hours]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When collateral utilization reaches 90%, all unexecuted orders of the clearing member are cancelled by the exchange. At 92%, which exceeds the 90% threshold, this action is triggered.
+
+**The Trap:** A warning system exists at lower thresholds, not at 90%+. Selective order cancellation is not the protocol - ALL unexecuted orders are cancelled. Suspension is a separate, more severe action.
+
+**Cross-Exam Context:** The 90% collateral utilization trigger is consistent across derivative segments regulated by SEBI, including equity and currency derivatives.
+
+**Distributor's Pro-Tip:** Members should monitor collateral utilization in real-time and top up margins well before the 90% threshold to avoid disruptive order cancellations.]]></text></explanation>
+    </question>
+</QF>

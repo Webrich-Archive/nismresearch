@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Clearing Settlement and Risk Management_7" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[An option buyer purchases 4 lots of bond options at a premium of Rs. 1.20 per unit. Lot size is 2,000 units. What is the premium settlement amount the buyer must pay?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 9,600]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 4,800]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,400]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 19,200]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Premium = Premium per unit x Lot Size x Number of Lots = 1.20 x 2,000 x 4 = Rs. 9,600. The buyer pays this amount to the clearing corporation.
+
+**The Trap:** Rs. 4,800 uses only 2 lots. Rs. 2,400 uses only 1 lot. Rs. 19,200 doubles the amount. Premium settlement is straightforward multiplication.
+
+**Cross-Exam Context:** Option premium settlement works identically across equity (Series VIII) and interest rate derivatives. The buyer always pays premium upfront.
+
+**Distributor's Pro-Tip:** Unlike futures where MTM is daily, option premium is paid upfront in full. The buyer's maximum loss is limited to this premium amount.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_45" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[For client-level risk reduction mode monitoring, the threshold assessed against the client collateral is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[90% of the client collateral]]></text></answer>
+            <answer correct="no"><text><![CDATA[85% of the client collateral]]></text></answer>
+            <answer correct="no"><text><![CDATA[100% of the client collateral]]></text></answer>
+            <answer correct="no"><text><![CDATA[80% of the client collateral]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For TM-level risk reduction mode, client margin in excess of 90% of client collateral is identified for each client and aggregated.
+**The Trap:** The same 90% threshold applies at client level for monitoring purposes, feeding into the TM-level risk reduction assessment.
+**Cross-Exam Context:** Client-level collateral segregation and monitoring was introduced to enhance investor protection.
+**Distributor's Pro-Tip:** This ensures that over-leveraged clients contribute to triggering risk reduction mode at the member level.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Fixed Income Instruments and Bond Markets_49" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A corporate treasurer wants to immunize a Rs. 50 crore liability with duration of 6 years. She has Bond A (duration 4 years) and Bond B (duration 8 years). What allocation achieves immunization?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[75% Bond A, 25% Bond B]]></text></answer>
+            <answer correct="yes"><text><![CDATA[50% Bond A, 50% Bond B]]></text></answer>
+            <answer correct="no"><text><![CDATA[25% Bond A, 75% Bond B]]></text></answer>
+            <answer correct="no"><text><![CDATA[60% Bond A, 40% Bond B]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For immunization: Target Duration = w_A × D_A + (1-w_A) × D_B. So 6 = w_A × 4 + (1-w_A) × 8 = 4w_A + 8 - 8w_A = 8 - 4w_A. Solving: 4w_A = 2, w_A = 50%. Equal allocation of 50% each achieves the target duration of 6 years.
+
+**The Trap:** This is a weighted average problem. 75%/25% gives duration 5, and 25%/75% gives duration 7. Only 50%/50% gives exactly 6.
+
+**Cross-Exam Context:** Immunization is a practical application of duration matching tested in Series IV and used by insurance companies and pension funds in practice.
+
+**Distributor's Pro-Tip:** Immunization needs periodic rebalancing as durations change over time. It's not a one-time exercise — the portfolio must be rebalanced as bonds age and the yield curve shifts.]]></text></explanation>
+    </question>
+</QF>

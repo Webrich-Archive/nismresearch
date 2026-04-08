@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Introduction to Securities Broking Operations_40" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For the Trade for Trade (TFT) segment, what margin is required?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[100% margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[50% margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[25% margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[No margin required]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Trade for Trade segment requires 100% margin. Each trade is settled separately with no netting of transactions. Securities are typically moved to TFT due to surveillance action, with tight price bands of 2% or 5%.
+**The Trap:** In the normal market, netting of buy and sell positions is allowed. In TFT, every trade must be separately settled by delivery — no intraday squaring off.
+**Cross-Exam Context:** Series IV covers margin requirements across segments.
+**Distributor's Pro-Tip:** TFT = surveillance mode for suspicious securities. 100% margin + no netting + 2-5% price band = maximum risk containment. Securities moved to TFT as a punitive/protective measure. This segment is designed to prevent price manipulation and speculation.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Fixed Income Instruments and Bond Markets_19" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Which of the following fixed income securities has NO reinvestment risk?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Plain vanilla bond]]></text></answer>
+            <answer correct="no"><text><![CDATA[Floating rate bond]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Zero-coupon bond]]></text></answer>
+            <answer correct="no"><text><![CDATA[Step-up bond]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A zero-coupon bond has no interim cash flows (coupons), so there is nothing to reinvest during the bond's life. Reinvestment risk arises only when there are intermediate cash flows that must be reinvested at uncertain future rates.
+
+**The Trap:** Floating rate bonds reduce interest rate risk (price risk) but still have reinvestment risk since they pay periodic coupons. Plain vanilla bonds have the highest reinvestment risk among the options.
+
+**Cross-Exam Context:** Reinvestment risk is tested in Series IV, V-A (debt MF schemes), and XII. ZCBs are used by pension funds and insurance companies to match long-term liabilities.
+
+**Distributor's Pro-Tip:** If you hold a zero-coupon sovereign bond to maturity, it is a truly risk-free investment — no credit risk, no price risk, and no reinvestment risk.]]></text></explanation>
+    </question>
+</QF>

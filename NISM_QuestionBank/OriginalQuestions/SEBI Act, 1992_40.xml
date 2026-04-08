@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="SEBI Act, 1992_40" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under Section 15HAA, what acts regarding electronic databases of SEBI attract penalties?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Introducing computer virus or contaminant into the system database causing trading halt]]></text></answer>
+            <answer correct="yes"><text><![CDATA[All of the above]]></text></answer>
+            <answer correct="no"><text><![CDATA[Unauthorized access or modification of access parameters to the regulatory database]]></text></answer>
+            <answer correct="no"><text><![CDATA[Unauthorized downloading, extraction, copying of regulatory data from the system database]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Section 15HAA covers unauthorized access/modification of access parameters, unauthorized downloading/copying of data, introducing computer viruses causing trading halts, unauthorized disruption of database functioning, and knowingly damaging/destroying regulatory data.
+**The Trap:** Each individual act is a separate offence, but the section covers all of them comprehensively.
+**Cross-Exam Context:** Cyber security related penalties are an emerging topic in NISM certifications.
+**Distributor's Pro-Tip:** Implement robust access controls for all SEBI-related systems - unauthorized access alone (even without data theft) is punishable.]]></text></explanation>
+    </question>
+</QF>

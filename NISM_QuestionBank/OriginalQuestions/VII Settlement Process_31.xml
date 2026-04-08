@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Settlement Process_31" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[In the cash segment, securities pay-in takes place on:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[T+0 and/or T+1 day based on settlement cycle]]></text></answer>
+            <answer correct="no"><text><![CDATA[T+2 day only]]></text></answer>
+            <answer correct="no"><text><![CDATA[T+3 day only]]></text></answer>
+            <answer correct="no"><text><![CDATA[T day only]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Securities pay-in happens on T+0 and/or T+1 based on the settlement cycle (T+0 optional or T+1 standard).
+**The Trap:** The pay-in day varies based on the settlement cycle chosen.
+**Cross-Exam Context:** Understanding which settlement cycle determines the pay-in day is important.
+**Distributor's Pro-Tip:** Members must maintain active pool accounts at BOTH depositories even if they prefer receiving payout in one.]]></text></explanation>
+    </question>
+</QF>

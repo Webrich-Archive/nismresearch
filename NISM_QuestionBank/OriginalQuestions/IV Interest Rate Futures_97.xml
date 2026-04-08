@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_97" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A bank's treasury desk notices that the spread between 6-year and 10-year GOI bond futures has narrowed significantly. They believe it will widen again. What IRF strategy should they implement?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy 6-year futures and sell 10-year futures (spread widening trade / steepener)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell both 6-year and 10-year futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy both 6-year and 10-year futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy 10-year futures and sell 6-year futures (flattener)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** If the spread between 6Y and 10Y has narrowed and the trader expects it to widen, the trader expects 6Y prices to rise relative to 10Y (or equivalently, the yield curve to steepen). The strategy is to buy 6Y futures (long shorter maturity) and sell 10Y futures (short longer maturity). If the spread widens as expected, the combined position profits.
+
+**The Trap:** Selling both gives directional exposure, not spread exposure. Buying both also gives directional exposure. The flattener (buy 10Y, sell 6Y) is the opposite trade — it would profit from the spread narrowing further, not widening.
+
+**Cross-Exam Context:** Yield curve trading strategies using futures across different tenors is an advanced application tested in NISM Series IV. Steepeners profit from curve steepening; flatteners profit from curve flattening.
+
+**Distributor's Pro-Tip:** Spread trades are generally lower risk and lower margin than outright positions because the two legs partially offset. However, the trader must correctly assess the spread direction. Spread trades are popular among sophisticated IRF traders.]]></text></explanation>
+    </question>
+</QF>

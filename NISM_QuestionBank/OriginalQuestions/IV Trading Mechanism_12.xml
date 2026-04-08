@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Trading Mechanism_12" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Exchange transaction charges are Rs. 1.50 per lakh of turnover. A trader trades 100 bond futures contracts at Rs. 102.00 each (face value Rs. 2,00,000). What are the total exchange transaction charges?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 306]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 300]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 150]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 3,060]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Contract value per contract = 2,00,000 x 102/100 = Rs. 2,04,000. Total turnover = 100 x 2,04,000 = Rs. 2,04,00,000 = Rs. 204 lakh. Charges = 204 x 1.50 = Rs. 306.
+**The Trap:** Rs. 300 uses face value (200 lakh). Rs. 150 uses half turnover. Rs. 3,060 multiplies by 15.
+**Cross-Exam Context:** Exchange transaction charges appear as a component in cost calculations across all exams.
+**Distributor's Pro-Tip:** Exchange charges are on actual turnover (contract value), not face value. Small per-lakh rates add up on large volumes.]]></text></explanation>
+    </question>
+</QF>

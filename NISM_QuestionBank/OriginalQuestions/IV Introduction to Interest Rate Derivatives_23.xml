@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Introduction to Interest Rate Derivatives_23" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[An interest rate derivative whose value is based on the difference between two interest rates is called:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Interest rate swap]]></text></answer>
+            <answer correct="no"><text><![CDATA[Interest rate futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Contract for differences]]></text></answer>
+            <answer correct="no"><text><![CDATA[Basis swap]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** An interest rate swap involves exchanging cash flows based on two different interest rates (typically fixed vs. floating or floating vs. floating) on a notional principal. The net settlement is based on the difference between the rates.
+
+**The Trap:** A basis swap specifically exchanges two floating rates, which is a subtype. All swaps involve rate differences, making the broader answer 'interest rate swap' most appropriate to the description.
+
+**Cross-Exam Context:** Swap mechanics are tested in Series IV and understanding the settlement based on rate differences is crucial for all OTC derivative calculations.
+
+**Distributor's Pro-Tip:** OIS (Overnight Index Swap) is the most liquid IRS in India, exchanging overnight MIBOR for a fixed rate. It's the benchmark for short-term interest rate expectations.]]></text></explanation>
+    </question>
+</QF>

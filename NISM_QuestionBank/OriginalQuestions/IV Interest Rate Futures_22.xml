@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_22" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A 6-year GOI bond futures contract was bought at Rs. 99.00. At expiry, the VWAP of the underlying bond (last 2 hours on NDS-OM) is Rs. 98.25. What is the settlement loss per lot?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 1,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 750]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 15,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 150]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Loss = (Buy Price - FSP) × 2000 = (99.00 - 98.25) × 2000 = 0.75 × 2000 = Rs. 1,500 per lot. Since the price fell, the long position incurs a loss.
+
+**The Trap:** Rs. 750 uses 1000 instead of 2000. Rs. 15,000 uses 20,000. Rs. 150 uses 200. The final settlement price for GOI bond futures is the VWAP of the underlying bond from the last 2 hours of trading on NDS-OM.
+
+**Cross-Exam Context:** Final settlement methodology is specific to each product. For GOI bond futures, it's VWAP from NDS-OM. For 91-day T-Bill futures, it's based on RBI auction yield. For MIBOR, it's simple average of daily rates.
+
+**Distributor's Pro-Tip:** If there are fewer than 5 trades in the last 2 hours on NDS-OM, the FIMMDA/FBIL valuation price is used instead. This ensures the settlement price is reliable even in illiquid conditions.]]></text></explanation>
+    </question>
+</QF>

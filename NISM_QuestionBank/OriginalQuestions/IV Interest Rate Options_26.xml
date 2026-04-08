@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_26" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A bond is at Rs. 99. A put with strike Rs. 102 is trading at Rs. 5. What percentage of the premium is time value?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[40%]]></text></answer>
+            <answer correct="no"><text><![CDATA[60%]]></text></answer>
+            <answer correct="no"><text><![CDATA[100%]]></text></answer>
+            <answer correct="no"><text><![CDATA[0%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Intrinsic Value = max(0, 102 - 99) = Rs. 3. Time Value = 5 - 3 = Rs. 2. Percentage = 2/5 x 100 = 40%.
+**The Trap:** 60% is the intrinsic value percentage (3/5). 100% would apply only if the option were ATM or OTM.
+**Cross-Exam Context:** Decomposing premium into IV and TV percentages is a practical skill tested in NISM Equity Derivatives.
+**Distributor's Pro-Tip:** As expiry approaches, the time value percentage shrinks toward zero. Deep ITM options near expiry are almost entirely intrinsic value.]]></text></explanation>
+    </question>
+</QF>

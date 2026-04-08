@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_61" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What additional ELM is levied on short options contracts on the day of options expiry?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Additional 2% ELM]]></text></answer>
+            <answer correct="no"><text><![CDATA[Additional 3.5% ELM]]></text></answer>
+            <answer correct="no"><text><![CDATA[Additional 5% ELM]]></text></answer>
+            <answer correct="no"><text><![CDATA[No additional ELM on expiry day]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** On the day of options expiry, an additional ELM of 2% is levied for short options contracts (applicable to index options).
+**The Trap:** This applies to all open short options at the start of the day AND short options initiated during the day that expire that day.
+**Cross-Exam Context:** Expiry day risks are heightened due to speculative activity and gamma risk.
+**Distributor's Pro-Tip:** This additional margin protects against the sharp, unpredictable moves common on expiry days.]]></text></explanation>
+    </question>
+</QF>

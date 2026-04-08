@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_29" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A European style option can be exercised:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Only on the expiration date]]></text></answer>
+            <answer correct="no"><text><![CDATA[At any time before or on the expiration date]]></text></answer>
+            <answer correct="no"><text><![CDATA[On specific pre-determined dates before expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only during the last week before expiration]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** European options can only be exercised on the expiration date, not before. This is the defining characteristic.
+**The Trap:** 'At any time' describes American options. 'Specific pre-determined dates' describes Bermudan options.
+**Cross-Exam Context:** Exchange-traded interest rate options in India are European style -- this is a regulatory fact tested in NISM Series IV.
+**Distributor's Pro-Tip:** European options are generally easier to price using Black-Scholes because there is no early exercise possibility to account for.]]></text></explanation>
+    </question>
+</QF>

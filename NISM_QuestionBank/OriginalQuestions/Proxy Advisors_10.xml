@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Proxy Advisors_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A proxy advisor discovers a factual error in its report at 10:00 AM on Monday. By what time must the client be alerted, and by what time must the material revision be communicated?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Alert by 10:00 AM Tuesday, revision by 10:00 AM Wednesday]]></text></answer>
+            <answer correct="no"><text><![CDATA[Alert by 10:00 PM Monday, revision by 10:00 AM Wednesday]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Alert by 10:00 AM Tuesday, revision by 10:00 AM Thursday]]></text></answer>
+            <answer correct="no"><text><![CDATA[Alert by 10:00 AM Wednesday, revision by 10:00 AM Friday]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The alert must be given within 24 hours (by 10:00 AM Tuesday) and the material revision must be communicated within 72 hours (by 10:00 AM Thursday) of receipt of the information.
+**The Trap:** Confusing the two timelines or adding them together instead of counting from the same starting point.
+**Cross-Exam Context:** Timeline calculation questions are common in NISM exams.
+**Distributor's Pro-Tip:** Both timelines run from receipt of information, not sequentially. 24 hours for alert, 72 hours for full revision communication.]]></text></explanation>
+    </question>
+</QF>

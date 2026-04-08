@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Clearing Settlement and Risk Management_33" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What happens when a clearing member defaults on their settlement obligations?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The clearing corporation uses the defaulting member's margin, then the Core SGF, to meet settlement obligations to other members]]></text></answer>
+            <answer correct="no"><text><![CDATA[All trades of the defaulting member are reversed]]></text></answer>
+            <answer correct="no"><text><![CDATA[The exchange suspends trading for the day]]></text></answer>
+            <answer correct="no"><text><![CDATA[RBI directly compensates the affected counterparties]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The CC first uses the defaulting member's own margins and deposits. If insufficient, the Core SGF is invoked. The CC continues to honor its obligations to non-defaulting members - this is the settlement guarantee.
+
+**The Trap:** Trades are not reversed - the CC guarantees settlement. The exchange does not suspend. RBI does not directly compensate. The waterfall mechanism (member assets first, then SGF) is key.
+
+**Cross-Exam Context:** The default waterfall is a critical concept across all clearing corporation operations. It ensures market integrity even when individual participants fail.
+
+**Distributor's Pro-Tip:** The default waterfall typically is: defaulting member's margin -> defaulting member's deposits -> CC's own contribution to SGF -> other SGF resources. This protects non-defaulting members.]]></text></explanation>
+    </question>
+</QF>

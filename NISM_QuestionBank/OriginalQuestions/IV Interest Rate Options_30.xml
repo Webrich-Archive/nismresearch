@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_30" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What does the option Greek 'Gamma' measure?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The rate of change of delta with respect to the underlying price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The rate of change of option price with respect to time]]></text></answer>
+            <answer correct="no"><text><![CDATA[The rate of change of option price with respect to volatility]]></text></answer>
+            <answer correct="no"><text><![CDATA[The rate of change of option price with respect to the underlying price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Gamma is the second derivative of option price with respect to underlying price -- it measures how delta changes as the underlying moves.
+**The Trap:** Rate of change with time is Theta. With volatility is Vega. With underlying price (first derivative) is Delta itself.
+**Cross-Exam Context:** Greek definitions are tested across NISM Equity and Interest Rate Derivatives modules.
+**Distributor's Pro-Tip:** Gamma is highest for ATM options near expiry. High gamma means delta changes rapidly, requiring frequent rebalancing for delta-hedgers.]]></text></explanation>
+    </question>
+</QF>

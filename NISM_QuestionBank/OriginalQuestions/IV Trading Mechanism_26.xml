@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Trading Mechanism_26" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the significance of the 'best bid' and 'best ask' in the ETIRD order book?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Best bid is the highest buy price and best ask is the lowest sell price; the difference between them is the bid-ask spread]]></text></answer>
+            <answer correct="no"><text><![CDATA[Best bid is the largest order size and best ask is the smallest order size]]></text></answer>
+            <answer correct="no"><text><![CDATA[Best bid is the most recent buy order and best ask is the most recent sell order]]></text></answer>
+            <answer correct="no"><text><![CDATA[Best bid and best ask are the same price at which trades execute]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Best bid = highest price someone is willing to buy at. Best ask = lowest price someone is willing to sell at. The gap between them (bid-ask spread) reflects market liquidity - tighter spread = more liquid market.
+**The Trap:** Best is about price, not size or time. They are different prices (if same, a trade would execute). The spread is a key liquidity indicator.
+**Cross-Exam Context:** Bid-ask spread and order book mechanics are fundamental concepts in all trading exams.
+**Distributor's Pro-Tip:** A wide bid-ask spread means illiquidity and higher implicit trading costs. Always check the spread before trading.]]></text></explanation>
+    </question>
+</QF>

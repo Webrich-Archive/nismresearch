@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Introduction to Securities Broking Operations_93" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[SEBI requires stock exchanges to send transaction details to investors through SMS and email alerts by:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[End of trading day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Within 3 days of trading]]></text></answer>
+            <answer correct="no"><text><![CDATA[End of the settlement cycle]]></text></answer>
+            <answer correct="no"><text><![CDATA[End of the month]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Stock Exchanges shall send details of transactions to investors, by the end of the trading day, through SMS and Email alerts using the contact details uploaded by brokers. This ensures near real-time communication of trading activity.
+**The Trap:** The alerts use the mobile number and email uploaded by the broker to the exchange — which is why SEBI insists these be the CLIENT's own numbers, not the broker's or AP's.
+**Cross-Exam Context:** Series XII covers investor protection measures.
+**Distributor's Pro-Tip:** End-of-day SMS/email alerts = immediate fraud detection. If a client receives alerts for trades they didn't authorize, they can immediately flag it. This is why correct mobile/email upload is critical — wrong numbers mean the client never gets the alert.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Trading Mechanism_16" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A bond futures trade is executed at Rs. 103.50 with face value Rs. 2,00,000. Stamp duty on the contract note is Rs. 0.003 per Rs. 100 of contract value. What is the stamp duty?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 6.21]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 6.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 6.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.62]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Contract value = 2,00,000 x 103.50/100 = Rs. 2,07,000. Stamp duty = (2,07,000/100) x 0.003 = 2,070 x 0.003 = Rs. 6.21.
+**The Trap:** Rs. 6.00 uses face value. Rs. 6.50 miscalculates. Rs. 0.62 divides by 10.
+**Cross-Exam Context:** Stamp duty on contract notes is tested across all exchange-traded exams. Rates vary by state.
+**Distributor's Pro-Tip:** Stamp duty is a small but non-zero cost. Unlike equity derivatives, there is NO STT on interest rate derivatives.]]></text></explanation>
+    </question>
+</QF>

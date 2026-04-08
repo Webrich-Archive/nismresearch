@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_2" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A put option on a GOI bond has a strike price of Rs. 105 and the underlying bond is trading at Rs. 100. What is the intrinsic value of this put option?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 5]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 100]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. -5]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Intrinsic value of a put = max(0, Strike - Spot) = max(0, 105 - 100) = Rs. 5. The put is in-the-money.
+**The Trap:** Rs. -5 suggests forgetting that intrinsic value cannot be negative. Rs. 0 would apply if the put were OTM.
+**Cross-Exam Context:** NISM Currency Derivatives module also covers put option intrinsic value with the same logic.
+**Distributor's Pro-Tip:** Intrinsic value is never negative -- it is floored at zero. If your calculation yields a negative number, the option is OTM and IV = 0.]]></text></explanation>
+    </question>
+</QF>

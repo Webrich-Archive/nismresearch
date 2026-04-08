@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Stock Brokers Regulations_42" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under SEBI (Depositories and Participants) Regulations, within how many days of receipt of the security certificate must a Depository Participant furnish it to the issuer for dematerialization?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[3 days]]></text></answer>
+            <answer correct="yes"><text><![CDATA[7 days]]></text></answer>
+            <answer correct="no"><text><![CDATA[15 days]]></text></answer>
+            <answer correct="no"><text><![CDATA[30 days]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In case of a request for dematerialization, the DP should, within 7 days of receipt of security certificate, furnish the same to the Issuer, who then within 15 days shall cancel the security certificate and substitute the name of the Depository as the registered owner.
+**The Trap:** 15 days is the issuer's timeline (to cancel and substitute), not the DP's timeline (to forward). The DP has 7 days; the issuer has 15 days. Two different actors, two different timelines.
+**Cross-Exam Context:** The dematerialization process involves DP (7 days to forward) and Issuer (15 days to cancel and register). This two-step process is tested in NISM Series VI (Depository Operations).
+**Distributor's Pro-Tip:** Track the demat turnaround time. Delays at either the DP or issuer end should be escalated. The issuer must also inform the depository and stock exchanges of the demat confirmation.]]></text></explanation>
+    </question>
+</QF>

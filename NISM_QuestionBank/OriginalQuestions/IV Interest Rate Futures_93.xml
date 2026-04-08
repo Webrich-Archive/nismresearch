@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_93" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A corporate treasurer needs to borrow Rs. 50 crores through commercial paper in 2 months. She is worried that short-term rates will rise, increasing borrowing costs. Which IRF strategy is most appropriate?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Sell (short) 91-day T-Bill futures, as rising rates will reduce T-Bill futures prices and the short position will profit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy 91-day T-Bill futures, as the long position benefits from rate increases]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy GOI bond futures, as they provide a general interest rate hedge]]></text></answer>
+            <answer correct="no"><text><![CDATA[Long MIBOR futures, because MIBOR directly hedges commercial paper rates]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Rising short-term rates will increase the CP borrowing cost. Shorting 91-day T-Bill futures hedges this risk because when yields rise, T-Bill futures prices fall (since quoted price = 100 - yield), and the short position profits. This profit offsets the higher borrowing cost.
+
+**The Trap:** Buying T-Bill futures would lose money when rates rise (price falls). GOI bond futures hedge long-term rate risk, not short-term CP borrowing costs. While MIBOR is related to short-term rates, it hedges overnight rates, not the 91-day CP rate specifically.
+
+**Cross-Exam Context:** Liability-side hedging using futures is a practical application tested in NISM Series IV. Corporate treasurers use IRF to manage funding costs, similar to how they use currency futures for forex exposure.
+
+**Distributor's Pro-Tip:** The effectiveness of this hedge depends on the correlation between CP rates and T-Bill yields. While not perfect (basis risk exists between CP and T-Bill rates), T-Bill futures provide a reasonable short-term rate hedge available on exchanges.]]></text></explanation>
+    </question>
+</QF>

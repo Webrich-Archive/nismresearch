@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_60" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is the ELM for deep out-of-the-money index options (strikes >10% OTM)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[3%]]></text></answer>
+            <answer correct="no"><text><![CDATA[2%]]></text></answer>
+            <answer correct="no"><text><![CDATA[5%]]></text></answer>
+            <answer correct="no"><text><![CDATA[3.5%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For index options that are deep OTM (strikes out of the money by more than 10% from previous day closing underlying price), the ELM shall be 3%.
+**The Trap:** Standard ELM for short index options is 2%. Deep OTM index options attract a higher 3% ELM.
+**Cross-Exam Context:** Deep OTM options carry unique tail risks that justify higher margins.
+**Distributor's Pro-Tip:** Deep OTM options may seem safe but can cause massive losses during extreme market moves.]]></text></explanation>
+    </question>
+</QF>

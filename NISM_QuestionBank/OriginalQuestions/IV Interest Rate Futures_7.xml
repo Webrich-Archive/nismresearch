@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_7" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A trader buys 5 lots of 10-year GOI bond futures at Rs. 102.25. The daily settlement price (DSP) is Rs. 102.75. What is the MTM profit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 5,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 50,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 500]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** MTM Profit = (DSP - Buy Price) × 2000 × Number of lots = (102.75 - 102.25) × 2000 × 5 = 0.50 × 2000 × 5 = Rs. 5,000.
+
+**The Trap:** Rs. 2,500 comes from using only 1000 instead of 2000. Rs. 500 forgets to multiply by the number of lots. Rs. 50,000 uses 20,000 instead of 2,000. One lot = 2000 bonds; always multiply the per-bond P&L by 2000 and then by the number of lots.
+
+**Cross-Exam Context:** MTM calculations are identical in concept to equity futures (NISM Series VIII) but use different lot sizes. The principle of daily settlement is universal across exchange-traded derivatives.
+
+**Distributor's Pro-Tip:** MTM settlement happens on T+1 basis in IRF. A positive MTM means the clearing corporation credits your margin account; negative MTM means a debit. Failure to maintain margins can lead to position liquidation.]]></text></explanation>
+    </question>
+</QF>

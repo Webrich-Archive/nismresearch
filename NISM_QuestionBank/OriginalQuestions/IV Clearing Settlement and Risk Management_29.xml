@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Clearing Settlement and Risk Management_29" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is the purpose of the Extreme Loss Margin (ELM) in IRD risk management?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[To cover tail risk losses that exceed the scenarios captured by SPAN initial margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[To replace SPAN margin during periods of extreme volatility]]></text></answer>
+            <answer correct="no"><text><![CDATA[To fund the Core Settlement Guarantee Fund]]></text></answer>
+            <answer correct="no"><text><![CDATA[To cover operational risk of the clearing corporation]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** ELM provides an additional safety buffer beyond SPAN initial margin. It covers extreme market movements (tail risks) that may exceed the scenarios modeled in SPAN.
+
+**The Trap:** ELM does not replace SPAN - it supplements it. ELM is a margin on members, not a fund contribution. It is about market risk, not operational risk.
+
+**Cross-Exam Context:** The SPAN + ELM framework is standard across all SEBI-regulated derivative segments. The ELM percentages may vary by product.
+
+**Distributor's Pro-Tip:** ELM acts as the second line of defense. SPAN covers normal market movements; ELM covers the tail. Together, they provide comprehensive coverage against member defaults.]]></text></explanation>
+    </question>
+</QF>

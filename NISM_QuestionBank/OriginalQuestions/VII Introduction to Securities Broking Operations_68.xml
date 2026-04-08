@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Introduction to Securities Broking Operations_68" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For institutional trades, which type of clearing member typically settles the trades?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Custodian (acting as clearing member)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the broker who executed the trade]]></text></answer>
+            <answer correct="no"><text><![CDATA[The stock exchange directly]]></text></answer>
+            <answer correct="no"><text><![CDATA[The investor themselves]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Institutional clients use custodians to settle their executed trades. When a broker assigns a trade to a custodian (by entering custodian participant code at order entry), the custodian confirms and settles the trade. Custodians are clearing members but not trading members.
+**The Trap:** If the custodian fails to confirm, the settlement obligation falls back on the executing trading member/clearing member.
+**Cross-Exam Context:** Series V covers custodian settlement in the clearing process.
+**Distributor's Pro-Tip:** Institutional trade flow: Broker executes → assigns custodian code → custodian confirms (verifies security, side, price range) → clearing corporation assigns obligation to custodian → custodian settles. This separation of execution (broker) and settlement (custodian) adds a layer of institutional control.]]></text></explanation>
+    </question>
+</QF>

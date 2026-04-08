@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_48" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How does leverage work in futures speculation?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Traders deposit only margin (a fraction of contract value) but gain exposure to the full contract value, amplifying both gains and losses]]></text></answer>
+            <answer correct="no"><text><![CDATA[Traders can borrow unlimited amounts from the exchange to increase position size]]></text></answer>
+            <answer correct="no"><text><![CDATA[Leverage means the futures price moves more than the spot price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Leverage eliminates the risk of loss while enhancing profit potential]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Futures require only initial margin (typically 5-15% of contract value) but provide exposure to the full notional. A 1% move creates a much larger percentage gain/loss on the margin deployed.
+**The Trap:** Exchanges don't lend money - margin is a performance guarantee. Futures prices generally track spot closely. Leverage increases BOTH profit and loss.
+**Cross-Exam Context:** Leverage through margin is a universal futures concept tested in every NISM derivatives exam.
+**Distributor's Pro-Tip:** A Rs. 5 lakh margin on a Rs. 50 lakh contract means 10x leverage. A 2% adverse move wipes out 20% of your margin.]]></text></explanation>
+    </question>
+</QF>

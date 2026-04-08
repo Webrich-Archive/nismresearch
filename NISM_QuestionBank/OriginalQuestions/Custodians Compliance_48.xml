@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Custodians Compliance_48" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under SEBI (Custodian) Regulations, 1996, how must a custodian maintain client securities?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[In a single pooled account for operational efficiency]]></text></answer>
+            <answer correct="no"><text><![CDATA[In the custodian's own name with appropriate internal records]]></text></answer>
+            <answer correct="yes"><text><![CDATA[In a separate custody account for each client, in the name of the client, with assets of one client not mixed with those of another]]></text></answer>
+            <answer correct="no"><text><![CDATA[In nominee accounts managed by the custodian's clearing member]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Every custodian shall open a separate custody account for each client, in the name of the client whose securities are in its custody, and the assets of one client shall not be mixed with those of another client.
+**The Trap:** Pooled accounts or omnibus accounts may be common in some jurisdictions but are explicitly prohibited under SEBI regulations for custodians.
+**Cross-Exam Context:** Client asset segregation requirements are tested in NISM Series III-A, VIII, and related exams.
+**Distributor's Pro-Tip:** The separate account requirement is a fundamental investor protection measure -- it ensures client assets are ring-fenced from the custodian's own assets and from other clients.]]></text></explanation>
+    </question>
+</QF>

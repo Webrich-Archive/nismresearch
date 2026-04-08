@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_69" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is the impact on open interest when an existing long position holder sells to a new short position holder?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Open interest decreases if the long is closing, stays same if the short is new and the long is closing (they offset)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Open interest always increases]]></text></answer>
+            <answer correct="no"><text><![CDATA[Open interest always decreases]]></text></answer>
+            <answer correct="no"><text><![CDATA[Open interest is unaffected by such transactions]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When an existing long sells (closes position) to a new short: the existing long's position is extinguished, but the new short creates a new position that matches with some other existing long. Wait — more precisely: if an existing long sells and a new participant buys, OI stays the same (position transfer). If an existing long sells and an existing short buys to close, OI decreases. The impact depends on whether both sides are new, both are closing, or one of each.
+
+**The Trap:** OI doesn't always increase or always decrease from any single transaction. It depends on whether the counterparties are opening new positions or closing existing ones.
+
+**Cross-Exam Context:** OI changes are a nuanced topic tested in NISM Series IV and VIII. The four scenarios are: both new (OI↑), both closing (OI↓), new buyer + closing seller (OI unchanged), closing buyer + new seller (OI unchanged).
+
+**Distributor's Pro-Tip:** In practice, you cannot know whether OI will increase or decrease from observing a single trade. Only end-of-day OI data reveals the net effect of all trades. Trading volume and OI changes together provide insight into market dynamics.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_75" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A trader notices that the put-call parity relationship is violated in the market: C - P is significantly greater than S - PV(K) for exchange-traded European IROs. What action can the trader take?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Sell the call, buy the put, buy the underlying bond, and borrow PV(K) to earn a riskless arbitrage profit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy the call and sell the put to profit from the mispricing]]></text></answer>
+            <answer correct="no"><text><![CDATA[Wait for the market to correct itself, as arbitrage is not possible in exchange-traded markets]]></text></answer>
+            <answer correct="no"><text><![CDATA[Report the discrepancy to the exchange as a market manipulation]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** If C - P > S - PV(K), the call is relatively overpriced. The arbitrage strategy is to sell the overpriced side (sell call, buy put) and buy the underpriced side (buy underlying, borrow).
+**The Trap:** Simply buying the call and selling the put would increase exposure to the mispricing, not exploit it. Arbitrage is possible and is how markets self-correct.
+**Cross-Exam Context:** Put-call parity arbitrage is a practical application tested in NISM Equity Derivatives and Research Analyst modules.
+**Distributor's Pro-Tip:** In practice, transaction costs, bid-ask spreads, and execution risk often make small parity violations unprofitable to arbitrage. Only significant deviations offer real opportunities.]]></text></explanation>
+    </question>
+</QF>

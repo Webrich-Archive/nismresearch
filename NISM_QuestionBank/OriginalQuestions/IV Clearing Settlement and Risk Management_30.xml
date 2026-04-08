@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Clearing Settlement and Risk Management_30" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What types of liquid assets are accepted as collateral for margin purposes in IRD?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Cash, Fixed Deposit Receipts (FDRs), Government Securities, and bank guarantees]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only cash and cash equivalents]]></text></answer>
+            <answer correct="no"><text><![CDATA[Any securities listed on the exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cash, corporate bonds, and equity shares]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The clearing corporation accepts specific liquid assets: cash, FDRs from approved banks, Government Securities, and bank guarantees from approved banks. At least 50% must be in cash or cash equivalents.
+
+**The Trap:** Corporate bonds and equity shares are NOT accepted as IRD margin collateral (they may be for equity derivatives). Not all listed securities qualify. The collateral must be highly liquid and low-risk.
+
+**Cross-Exam Context:** Collateral eligibility varies slightly across derivative segments. IRD accepts primarily sovereign/quasi-sovereign collateral, reflecting the fixed income nature of the market.
+
+**Distributor's Pro-Tip:** G-Secs used as collateral are subject to haircuts (typically 5-10% depending on maturity). Members should factor in haircuts when planning collateral allocation.]]></text></explanation>
+    </question>
+</QF>

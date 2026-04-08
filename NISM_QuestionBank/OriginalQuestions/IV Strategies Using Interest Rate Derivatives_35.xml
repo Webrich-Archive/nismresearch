@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_35" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How does a protective put strategy protect a bondholder?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[It sets a floor price for the bond below which losses are limited, while retaining upside potential]]></text></answer>
+            <answer correct="no"><text><![CDATA[It eliminates all risk and guarantees a profit]]></text></answer>
+            <answer correct="no"><text><![CDATA[It provides unlimited protection at zero cost]]></text></answer>
+            <answer correct="no"><text><![CDATA[It locks in a fixed selling price for the bond regardless of market conditions]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A protective put acts like insurance - the put sets a minimum selling price (floor) for the bond. If bond prices fall below the strike, the put compensates. If prices rise, the bondholder still benefits (minus the premium).
+**The Trap:** It doesn't eliminate all risk (premium is a cost). It has a cost (premium). It doesn't fix the selling price (that would be selling futures).
+**Cross-Exam Context:** Protective put = insurance analogy appears in Series VIII and Series V.
+**Distributor's Pro-Tip:** Protective put vs selling futures: put preserves upside but costs premium; futures lock in price but give up upside.]]></text></explanation>
+    </question>
+</QF>

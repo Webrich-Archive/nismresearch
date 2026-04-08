@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_31" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A trader simultaneously buys 5 lots of the current month 10-year GOI bond futures at Rs. 101.50 and sells 5 lots of the next month contract at Rs. 101.80. This is known as a calendar spread. What is the spread value per lot?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 0.30]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. -0.30]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 600]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 300]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The spread = Far month price - Near month price = 101.80 - 101.50 = Rs. 0.30 per Rs. 100 FV. This is a positive spread, meaning the far month is trading at a premium (normal contango).
+
+**The Trap:** Rs. -0.30 reverses the direction. Rs. 600 multiplies by 2000 (that would be the spread P&L per lot, not the spread value). Rs. 300 uses 1000. The spread value is quoted in price terms per Rs. 100 FV, not in total rupee terms.
+
+**Cross-Exam Context:** Calendar spreads are a common strategy tested in NISM Series IV. They exploit the difference in cost of carry between two contract months and are generally lower risk than outright positions.
+
+**Distributor's Pro-Tip:** Calendar spread margins are typically lower than outright margins because the two positions partially offset each other. This makes them capital-efficient for expressing views on the yield curve.]]></text></explanation>
+    </question>
+</QF>

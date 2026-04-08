@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Introduction to Securities Market_14" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the maximum trading cycle for exchange-traded currency futures contracts on INR pairs?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[12 months]]></text></answer>
+            <answer correct="no"><text><![CDATA[3 months]]></text></answer>
+            <answer correct="no"><text><![CDATA[6 months]]></text></answer>
+            <answer correct="no"><text><![CDATA[24 months]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Currency futures contracts on INR pairs (USD-INR, EUR-INR, GBP-INR, JPY-INR) have a maximum of 12 months trading cycle. The expiry day is two working days prior to the last business day of the expiry month at 12:30 PM. All contracts are cash settled.
+**The Trap:** Long-dated equity index options can have up to 5-year expiry cycles, but currency futures are limited to 12 months.
+**Cross-Exam Context:** Series I covers currency futures contract specifications, FBIL reference rates, and settlement mechanics in detail.
+**Distributor's Pro-Tip:** Currency futures: max 12-month cycle, expiry 2 working days before last business day at 12:30 PM, settled at FBIL reference rate. Cross-currency pairs use derived rates from respective FCY-INR rates.]]></text></explanation>
+    </question>
+</QF>

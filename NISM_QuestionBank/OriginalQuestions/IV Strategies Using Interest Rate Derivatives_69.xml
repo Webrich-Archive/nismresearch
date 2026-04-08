@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_69" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A corporate treasurer has a Rs. 200 crore floating-rate loan linked to MIBOR. The company's budget assumes MIBOR will stay below 7%. How should the treasurer hedge this risk?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy an interest rate cap (or go long MIBOR futures) to benefit if MIBOR rises above 7%, offsetting higher loan costs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell bond futures to hedge against MIBOR changes]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy equity options as a diversification hedge]]></text></answer>
+            <answer correct="no"><text><![CDATA[Convert the entire loan to fixed rate by terminating the floating rate agreement]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A MIBOR futures long position profits when MIBOR rises, offsetting higher borrowing costs. Alternatively, buying an interest rate cap sets a ceiling on effective borrowing cost. The hedge directly matches the risk exposure.
+**The Trap:** Bond futures hedge bond price risk, not MIBOR directly. Equity options are unrelated. Converting to fixed rate may not be possible or may carry penalties.
+**Cross-Exam Context:** Borrower hedging with MIBOR derivatives is a practical application unique to Series IV.
+**Distributor's Pro-Tip:** Match the derivative to the exposure. MIBOR-linked loan = hedge with MIBOR futures. Government bond portfolio = hedge with bond futures.]]></text></explanation>
+    </question>
+</QF>

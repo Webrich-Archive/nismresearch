@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_85" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The price band for 91-day T-Bill futures is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[+/-1% of the base price]]></text></answer>
+            <answer correct="no"><text><![CDATA[+/-3% of the base price]]></text></answer>
+            <answer correct="no"><text><![CDATA[+/-2% of the base price]]></text></answer>
+            <answer correct="no"><text><![CDATA[+/-5% of the base price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The price band for 91-day T-Bill futures is +/-1%, which is tighter than the +/-3% for GOI bond futures. This reflects the lower price volatility of short-term instruments compared to long-term bonds.
+
+**The Trap:** +/-3% applies to GOI bond futures, not T-Bill futures. +/-2% and +/-5% are not used for any IRF product. The tighter band is appropriate because 91-day instruments have very low duration and therefore limited price sensitivity.
+
+**Cross-Exam Context:** Different products have different price bands reflecting their risk profiles. This is similar to how different stocks in the equity market may have different circuit limits based on their category.
+
+**Distributor's Pro-Tip:** A 1% move on a T-Bill futures quoted at 93 is about 93 paise per Rs. 100 FV. For a lot of 2000, that's about Rs. 1,860 — a significant move for a 91-day instrument. The tight band is sufficient.]]></text></explanation>
+    </question>
+</QF>

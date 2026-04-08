@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Introduction to Interest Rate Derivatives_10" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A company pays overnight MIBOR and receives fixed 3.75% in an interest rate swap with notional of Rs. 100 crores for 1 month. If the average MIBOR is 3.65%, the company:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Pays a net amount]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Receives a net amount]]></text></answer>
+            <answer correct="no"><text><![CDATA[Neither pays nor receives]]></text></answer>
+            <answer correct="no"><text><![CDATA[Must deliver bonds]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The company receives fixed 3.75% and pays floating MIBOR (average 3.65%). Net = 3.75% - 3.65% = 0.10% on the notional for the month period. The company receives the net positive difference.
+
+**The Trap:** The company would pay only if MIBOR exceeded 3.75%. Since MIBOR (3.65%) < fixed rate (3.75%), the fixed receiver benefits. No bonds are exchanged in a swap — only interest differentials.
+
+**Cross-Exam Context:** Interest rate swap settlement calculations are tested in Series IV. Understanding net settlement is crucial for both OTC and exchange-traded derivative markets.
+
+**Distributor's Pro-Tip:** The fixed rate in an OIS is determined by market expectations of future overnight rates. If the market expects MIBOR to average 3.75%, that becomes the OIS rate.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Stock Brokers Regulations_14" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under the SEBI (Stock Brokers) Regulations, the system audit of algorithmic trading systems must be conducted at what frequency?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Annually]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Every six months]]></text></answer>
+            <answer correct="no"><text><![CDATA[Quarterly]]></text></answer>
+            <answer correct="no"><text><![CDATA[Every two years]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The stock brokers that provide the facility of algorithmic trading shall subject their algorithmic trading system to a system audit every six months to ensure that the requirements prescribed by SEBI/stock exchanges with regard to algorithmic trading are effectively implemented.
+**The Trap:** 'Annually' seems reasonable for audits but algorithmic trading carries higher systemic risk, requiring more frequent audits.
+**Cross-Exam Context:** Algorithmic trading regulations are increasingly important in NISM exams as technology-driven trading grows. Also relevant for NISM Series VIII.
+**Distributor's Pro-Tip:** Deficiencies identified during the algo system audit must be reported to the stock exchange immediately on completion of the audit, and corrective actions must be taken promptly.]]></text></explanation>
+    </question>
+</QF>

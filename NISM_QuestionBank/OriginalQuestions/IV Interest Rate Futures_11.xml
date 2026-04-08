@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_11" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A 10-year GOI bond futures contract has a tick size of Rs. 0.0025. If the price moves from Rs. 99.5000 to Rs. 99.5100, how many ticks has it moved?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[4 ticks]]></text></answer>
+            <answer correct="no"><text><![CDATA[10 ticks]]></text></answer>
+            <answer correct="no"><text><![CDATA[1 tick]]></text></answer>
+            <answer correct="no"><text><![CDATA[100 ticks]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Price move = 99.5100 - 99.5000 = 0.0100. Number of ticks = 0.0100 / 0.0025 = 4 ticks.
+
+**The Trap:** 10 ticks would result from using a tick size of 0.001. 1 tick assumes the move equals one tick. 100 ticks uses 0.0001 as tick size. The tick size for GOI bond futures is Rs. 0.0025.
+
+**Cross-Exam Context:** Tick size determines the minimum price fluctuation. In equity derivatives (NISM VIII), tick size is typically Rs. 0.05. IRF tick sizes are much smaller given the nature of bond pricing.
+
+**Distributor's Pro-Tip:** Each tick of Rs. 0.0025 translates to Rs. 0.0025 × 2000 = Rs. 5 per lot per tick. So 4 ticks = Rs. 20 per lot movement.]]></text></explanation>
+    </question>
+</QF>

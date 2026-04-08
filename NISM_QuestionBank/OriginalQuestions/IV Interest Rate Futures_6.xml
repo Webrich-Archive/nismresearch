@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_6" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The contract value of an Overnight MIBOR Futures is calculated as Quoted Rate × 100 × 411. If the quoted rate is 6.75%, what is the contract value?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 2,77,425]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,77,200]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 33,750]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 67,500]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Contract Value = Quoted Rate × 100 × 411 = 6.75 × 100 × 411 = 675 × 411 = Rs. 2,77,425.
+
+**The Trap:** Rs. 33,750 comes from 6.75 × 5,000 (misapplying the notional). Rs. 67,500 divides the notional Rs. 5 crores by some factor. The formula Rate × 100 × 411 is specific to MIBOR futures contract value computation.
+
+**Cross-Exam Context:** Contract value determines margin requirements and position sizing. Understanding this formula is unique to MIBOR futures in NISM Series IV.
+
+**Distributor's Pro-Tip:** The factor 100 converts the rate percentage to bps (6.75% = 675 bps), then multiplying by Rs. 411 per bps gives the total interest amount for one month on Rs. 5 crores notional.]]></text></explanation>
+    </question>
+</QF>

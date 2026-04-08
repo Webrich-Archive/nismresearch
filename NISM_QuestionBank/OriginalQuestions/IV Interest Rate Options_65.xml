@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_65" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What obligation does an option seller (writer) have in an exchange-traded IRO?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[To fulfill the contract obligation if the buyer exercises the option, backed by margin deposited with the exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[No obligation once the premium is received]]></text></answer>
+            <answer correct="no"><text><![CDATA[To exercise the option on behalf of the buyer]]></text></answer>
+            <answer correct="no"><text><![CDATA[To return the premium if the option expires ITM]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The option writer has an obligation to honor the contract if the buyer exercises. The exchange ensures compliance through margin requirements on the writer.
+**The Trap:** The writer's obligation persists until expiry or the position is closed. The writer does not exercise -- only the buyer can. Premium is never returned.
+**Cross-Exam Context:** Writer obligations and margin requirements are tested in all NISM derivative certifications.
+**Distributor's Pro-Tip:** Writers must maintain adequate margin throughout the option's life. If the option moves against them, they may face margin calls requiring additional funds.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_1" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A call option on a GOI bond has a strike price of Rs. 98 and the underlying bond is trading at Rs. 102. What is the intrinsic value of this call option?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 4]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 98]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 102]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Intrinsic value of a call = max(0, Spot - Strike) = max(0, 102 - 98) = Rs. 4. The option is in-the-money by Rs. 4.
+**The Trap:** Rs. 0 is the answer for an OTM option. Candidates sometimes confuse call and put intrinsic value formulas.
+**Cross-Exam Context:** NISM Equity Derivatives also tests intrinsic value calculations using the same formula structure.
+**Distributor's Pro-Tip:** Always check whether the option is a call or put before applying the intrinsic value formula -- mixing them up is the most common exam error.]]></text></explanation>
+    </question>
+</QF>

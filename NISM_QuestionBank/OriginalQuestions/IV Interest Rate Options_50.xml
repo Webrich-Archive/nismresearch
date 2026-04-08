@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_50" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Which of the following best describes 'time decay' in options?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The erosion of an option's time value as expiration approaches, measured by Theta]]></text></answer>
+            <answer correct="no"><text><![CDATA[The decline in the underlying asset's price over time]]></text></answer>
+            <answer correct="no"><text><![CDATA[The reduction in implied volatility as the option nears expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[The decrease in open interest as contracts expire]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Time decay refers specifically to the loss of time value (theta decay) as the option approaches expiration. All else equal, options lose value every day.
+**The Trap:** Time decay is about the OPTION's value, not the underlying's price. IV changes and open interest changes are separate phenomena.
+**Cross-Exam Context:** Time decay is a core concept tested in every NISM derivatives certification.
+**Distributor's Pro-Tip:** Time decay is non-linear -- it accelerates as expiry approaches. The last 30 days see the sharpest decline, making short-dated option selling strategies popular.]]></text></explanation>
+    </question>
+</QF>

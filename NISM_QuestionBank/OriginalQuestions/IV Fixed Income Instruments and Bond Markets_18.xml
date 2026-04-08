@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Fixed Income Instruments and Bond Markets_18" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[If the risk-free rate for AAA borrower is 8.35% (risk-free 8.25% + credit spread 0.10%), what rate would a BBB borrower pay if the BBB credit spread is 0.25% over AAA?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[8.50%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[8.60%]]></text></answer>
+            <answer correct="no"><text><![CDATA[8.35%]]></text></answer>
+            <answer correct="no"><text><![CDATA[8.85%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** BBB rate = Risk-free rate + AAA spread + BBB spread over AAA = 8.25% + 0.10% + 0.25% = 8.60%. Alternatively, AAA rate is 8.35%, and BBB spread over risk-free is 0.10% + 0.25% = 0.35%, so 8.25% + 0.35% = 8.60%.
+
+**The Trap:** 8.50% adds only the BBB-over-AAA spread (0.25%) to the risk-free rate, forgetting the AAA spread. Credit spreads are cumulative — each lower rating adds its own spread.
+
+**Cross-Exam Context:** Understanding credit spreads and the risk-free rate benchmark is tested in Series IV and across all fixed income related exams.
+
+**Distributor's Pro-Tip:** Credit spreads widen during economic downturns and narrow during expansions. Monitoring spread movements helps assess market risk appetite.]]></text></explanation>
+    </question>
+</QF>

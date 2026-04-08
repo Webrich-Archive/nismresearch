@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_14" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A bond futures contract has a face value of Rs. 2,00,000 and the minimum tick size is 0.0025. What is the tick value per contract?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 5]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2.50]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Tick value = Face value x Tick size = 2,00,000 x 0.0025/100 = 2,00,000 x 0.000025 = Rs. 5. Actually, if tick size is 0.0025 on a price quote per Rs. 100, tick value = 2,00,000/100 x 0.0025 = 2,000 x 0.0025 = Rs. 5.
+**The Trap:** Rs. 0.50 divides by 10. Rs. 50 multiplies by 10. Rs. 2.50 divides by 2.
+**Cross-Exam Context:** Tick value calculations are fundamental in all futures trading - Series I, VIII, XII.
+**Distributor's Pro-Tip:** Tick value tells you the minimum P&L movement per contract - essential for position sizing.]]></text></explanation>
+    </question>
+</QF>

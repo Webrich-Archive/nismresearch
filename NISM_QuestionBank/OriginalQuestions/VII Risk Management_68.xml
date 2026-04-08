@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_68" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The spread margin for eligible offsetting positions under cross margining across cash and derivatives segments is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[25% of the total applicable margin on the eligible offsetting positions]]></text></answer>
+            <answer correct="no"><text><![CDATA[50% of the total applicable margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[10% of the total applicable margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[No margin is required for offset positions]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A spread margin of 25% of the total applicable margin on eligible offsetting positions is levied in both cash and derivative segments.
+**The Trap:** Cross margin does not eliminate margin requirement entirely - it reduces it to 25% of what would otherwise apply.
+**Cross-Exam Context:** Cross margining improves capital efficiency, a key concept in NISM VII.
+**Distributor's Pro-Tip:** Cross margining is available for stock futures vs underlying stock, index futures vs constituent stocks, and similar hedged positions.]]></text></explanation>
+    </question>
+</QF>

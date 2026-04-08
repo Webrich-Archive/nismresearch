@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_64" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The MIBOR futures contract's notional principal is Rs. 5 crores and uses the 30/365 day-count convention. The '30' in 30/365 represents:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The assumed number of days in each month for interest calculation purposes]]></text></answer>
+            <answer correct="no"><text><![CDATA[The number of trading days in a month]]></text></answer>
+            <answer correct="no"><text><![CDATA[The minimum holding period for the contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[The settlement period in calendar days]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The 30/365 day-count convention assumes each month has exactly 30 days (numerator) and the year has 365 days (denominator). This standardizes the interest calculation regardless of the actual number of days in a specific month.
+
+**The Trap:** Trading days in a month are typically 20-22, not 30. There's no minimum holding period — you can close the same day. The settlement period is T+1, not 30 days.
+
+**Cross-Exam Context:** Day-count conventions are crucial in fixed income mathematics. Common conventions include ACT/365, ACT/360, 30/360, and 30/365. Each instrument may use a different convention.
+
+**Distributor's Pro-Tip:** The 30/365 convention means every month's interest is calculated identically: 30/365 × Annual Rate × Notional. Whether February has 28 days or July has 31 days, the calculation remains the same.]]></text></explanation>
+    </question>
+</QF>

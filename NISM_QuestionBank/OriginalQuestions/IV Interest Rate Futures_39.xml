@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_39" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is 'rollover' in the context of interest rate futures?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Closing the current month's futures position and simultaneously opening a position in the next month's contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[Extending the expiry date of the current month's contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[Converting a futures position into an options position]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rolling the physical delivery of bonds to a later date]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Rollover involves two simultaneous trades: closing (squaring off) the near-month contract and opening a similar position in the next month or quarter. This maintains the hedge or speculative position without interruption.
+
+**The Trap:** Futures expiry dates cannot be extended. Converting to options is a different strategy. Physical delivery is not applicable to cash-settled IRF in India. Rollover is strictly about moving the position to the next contract month.
+
+**Cross-Exam Context:** Rollover is tested in NISM Series IV and VIII. In equity futures, rollover activity increases significantly in the last week before expiry. The rollover percentage is a widely tracked indicator.
+
+**Distributor's Pro-Tip:** Rollover typically happens in the last few days before expiry. The rollover cost is the price difference between the near and far month contracts (the calendar spread).]]></text></explanation>
+    </question>
+</QF>

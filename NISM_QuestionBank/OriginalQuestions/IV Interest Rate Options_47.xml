@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_47" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A volatility smile in options markets indicates that:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Options with strikes far from ATM have higher implied volatilities than ATM options]]></text></answer>
+            <answer correct="no"><text><![CDATA[ATM options always have the highest implied volatility]]></text></answer>
+            <answer correct="no"><text><![CDATA[Implied volatility is constant across all strike prices]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only call options show varying implied volatilities]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A volatility smile shows that deep ITM and deep OTM options tend to have higher implied volatilities than ATM options, creating a 'smile' shape when plotted.
+**The Trap:** If implied volatility were constant across strikes, there would be no smile. ATM typically has the lowest IV in a smile pattern.
+**Cross-Exam Context:** Volatility smile/skew patterns are tested in NISM Research Analyst and Equity Derivatives modules.
+**Distributor's Pro-Tip:** The smile exists because the Black-Scholes assumption of constant volatility is imperfect. Tail risk (extreme moves) is priced in through higher IV for OTM options.]]></text></explanation>
+    </question>
+</QF>

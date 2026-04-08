@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_30" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[For a MIBOR futures contract, the notional principal is Rs. 5 crores and the day-count convention is 30/365. What is the interest amount for a quoted rate of 7.00% for one month?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 2,87,671]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,91,667]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 3,50,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,87,700]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Contract Value = Rate × 100 × 411 = 7.00 × 100 × 411 = Rs. 2,87,700. Alternatively: 5,00,00,000 × 7.00% × (30/365) = Rs. 2,87,671. The slight difference arises from rounding in the Rs. 411 per bps factor.
+
+**The Trap:** Rs. 2,91,667 uses 30/360 convention instead of 30/365. Rs. 3,50,000 uses actual/365 with 365 days. The MIBOR futures specifically use 30/365 convention. Using Rs. 2,87,671 (the exact calculation) is the correct answer.
+
+**Cross-Exam Context:** Day-count conventions vary across instruments: Actual/365 for most Indian markets, 30/360 for some international instruments, and 30/365 specifically for MIBOR futures.
+
+**Distributor's Pro-Tip:** The 30/365 convention assumes exactly 30 days in a month regardless of the actual number. This standardization simplifies computation and avoids issues with months of different lengths.]]></text></explanation>
+    </question>
+</QF>

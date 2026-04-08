@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_45" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The 91-day T-Bill futures contract expires on:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The last Wednesday of the contract month at 1:00 PM]]></text></answer>
+            <answer correct="no"><text><![CDATA[The last Thursday of the contract month]]></text></answer>
+            <answer correct="no"><text><![CDATA[The last Friday of the contract month]]></text></answer>
+            <answer correct="no"><text><![CDATA[The last business day of the contract month]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** 91-day T-Bill futures expire on the last Wednesday of the contract month, with trading ending at 1:00 PM on that day. This is different from GOI bond futures which expire on the last Thursday.
+
+**The Trap:** Last Thursday applies to GOI bond futures, not T-Bill futures. Last Friday and last business day are not correct for either product. Each product has its own expiry day and time.
+
+**Cross-Exam Context:** Expiry day knowledge is crucial for all derivative products. In equity derivatives (NISM VIII), monthly contracts expire on the last Thursday. Knowing the specific day for each IRF product is exam-critical.
+
+**Distributor's Pro-Tip:** T-Bill futures expire on Wednesday because the RBI's weekly T-Bill auction (which determines the final settlement yield) typically happens on Wednesday. This alignment ensures the settlement price is based on the freshest auction data.]]></text></explanation>
+    </question>
+</QF>

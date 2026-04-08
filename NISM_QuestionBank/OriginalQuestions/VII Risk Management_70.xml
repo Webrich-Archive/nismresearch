@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_70" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[For cross margining with different expiry dates between index and its constituents, the spread margin is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[35% of applicable margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[25% of applicable margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[30% of applicable margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[40% of applicable margin]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Spread margin is 35% for offsetting positions in index and its constituents having different expiry dates.
+**The Trap:** Same expiry = 25%, different expiry with index-constituent = 35%, different expiry with correlated indices = 40%.
+**Cross-Exam Context:** Different expiry spread margins are higher because they carry expiry mismatch risk.
+**Distributor's Pro-Tip:** Cross margin benefit is revoked at the beginning of expiry day for positions with different expiries.]]></text></explanation>
+    </question>
+</QF>

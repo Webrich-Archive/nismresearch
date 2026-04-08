@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Clearing Process_56" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The block mechanism shall NOT be applicable to clients having arrangements with:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Custodians registered with SEBI for clearing and settlement of trades]]></text></answer>
+            <answer correct="no"><text><![CDATA[Professional Clearing Members]]></text></answer>
+            <answer correct="no"><text><![CDATA[Any clearing member]]></text></answer>
+            <answer correct="no"><text><![CDATA[Depository participants]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The block mechanism is not applicable to clients with custodian arrangements for clearing and settlement.
+**The Trap:** This is consistent with the direct payout exemption for custodian clients.
+**Cross-Exam Context:** Custodian clients have their own settlement procedures.
+**Distributor's Pro-Tip:** Institutions with custodians already have robust mechanisms for managing securities delivery.]]></text></explanation>
+    </question>
+</QF>

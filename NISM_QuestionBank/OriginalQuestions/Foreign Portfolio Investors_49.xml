@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Foreign Portfolio Investors_49" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A company has a total paid-up equity capital of 10 crore shares on a fully diluted basis. An FPI along with its investor group currently holds 95 lakh shares. The FPI places a buy order for 10 lakh additional shares. What is the consequence?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The FPI can freely purchase the additional shares as the holding remains below the 15% FDI threshold]]></text></answer>
+            <answer correct="no"><text><![CDATA[The buy order will be automatically rejected by the exchange's surveillance system]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The FPI's total holding would become 10.5% (1.05 crore out of 10 crore shares), exceeding the 10% limit, requiring divestment of excess within 5 trading days from settlement]]></text></answer>
+            <answer correct="no"><text><![CDATA[The FPI must seek prior approval from SEBI before placing the order]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Current holding = 95 lakh = 9.5% of 10 crore shares. After purchase of 10 lakh more: total = 1,05,00,000 = 10.5% of 10 crore, which breaches the 10% limit. As per Regulation 20(6), the FPI must divest the excess (0.5% = 5 lakh shares) within 5 trading days from settlement. Failure to divest means the ENTIRE holding becomes FDI.
+**The Trap:** There is no automatic rejection of the order - the consequence is a post-trade divestment obligation.
+**Cross-Exam Context:** NISM Series VIII and Series XV also reference FPI holding limits in the context of market surveillance.
+**Distributor's Pro-Tip:** The 10% limit is calculated on fully diluted basis, including convertible instruments. Monitor closely as breaching triggers a 5-day countdown.]]></text></explanation>
+    </question>
+</QF>

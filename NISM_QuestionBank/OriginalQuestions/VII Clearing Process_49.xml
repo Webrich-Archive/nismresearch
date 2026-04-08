@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Clearing Process_49" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The Obligation Transfer Request (OTR) for INST trades must be completed on T day by:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[8:00 PM]]></text></answer>
+            <answer correct="no"><text><![CDATA[4:15 PM]]></text></answer>
+            <answer correct="no"><text><![CDATA[7:30 AM next day]]></text></answer>
+            <answer correct="no"><text><![CDATA[9:00 AM next day]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** OTR for INST trades on T day must be completed upto 8:00 PM.
+**The Trap:** 4:15 PM is for CP code modification. OTR has a later deadline to allow post-market processing.
+**Cross-Exam Context:** The sequence of T-day deadlines is: CP modification (4:15 PM) → INST allocation → OTR (8:00 PM).
+**Distributor's Pro-Tip:** OTR allows trading members to transfer settlement obligations to the appropriate custodian.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_73" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A pension fund holds a large GOI bond portfolio and uses interest rate options to manage risk. How should the fund interpret a rapidly rising PCR (Put-Call Ratio) in the IRO market?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Increasing bearish sentiment in the bond market, suggesting more participants expect bond prices to fall]]></text></answer>
+            <answer correct="no"><text><![CDATA[Strong bullish sentiment indicating bonds are expected to rally]]></text></answer>
+            <answer correct="no"><text><![CDATA[The market is becoming more liquid with no directional implication]]></text></answer>
+            <answer correct="no"><text><![CDATA[Options are becoming cheaper and it is a good time to reduce hedges]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A rising PCR means more puts are being traded relative to calls, indicating growing bearish sentiment (expectations of falling bond prices / rising yields).
+**The Trap:** High PCR = bearish, not bullish. Rising PCR reflects directional sentiment, not just liquidity. Cheaper options would show in declining premiums, not PCR changes.
+**Cross-Exam Context:** PCR interpretation is a practical skill tested in NISM Equity Derivatives and Technical Analysis modules.
+**Distributor's Pro-Tip:** For a pension fund, a rising PCR may signal the need to review and potentially increase hedges on the bond portfolio, as the market expects downside.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Insider Trading Regulations_49" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An insider formulates a Trading Plan on January 1, 2026. The closing price of the security on December 31, 2025 was Rs. 500. What is the maximum upper price limit the insider can set for a buy trade under the Trading Plan?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 550]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 600]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 625]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under Regulation 5(2)(iii)(iv)(a), the upper price limit for a buy trade shall be up to 20% higher than the closing price on the day before submission. 20% of Rs. 500 = Rs. 100. So max upper limit = Rs. 500 + Rs. 100 = Rs. 600.
+**The Trap:** Rs. 550 (10% higher) might be confused with circuit limit bands, but the Trading Plan allows up to 20% higher.
+**Cross-Exam Context:** This calculation is specific to the PIT Trading Plan provisions.
+**Distributor's Pro-Tip:** Also note that trading under this plan cannot commence before May 1, 2026 (120 calendar days from public disclosure).]]></text></explanation>
+    </question>
+</QF>

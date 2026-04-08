@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_71" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A market maker in interest rate options wants to maintain a market-neutral position. Which Greek should the market maker primarily monitor and manage?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Delta, by continuously rebalancing the hedge to maintain a delta-neutral position]]></text></answer>
+            <answer correct="no"><text><![CDATA[Vega, by ensuring all positions have zero sensitivity to volatility]]></text></answer>
+            <answer correct="no"><text><![CDATA[Theta, by ensuring the portfolio has zero time decay]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rho, by ensuring the portfolio is insensitive to rate changes]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Delta hedging (maintaining delta neutrality) is the primary risk management tool for market makers. It ensures that small price movements do not create directional exposure.
+**The Trap:** While managing all Greeks is ideal, delta is the primary focus because it represents the immediate directional risk. Vega and theta are secondary concerns.
+**Cross-Exam Context:** Delta hedging by market makers is a concept tested in NISM Equity Derivatives and merchant banking modules.
+**Distributor's Pro-Tip:** Market makers earn the bid-ask spread but must constantly rebalance their delta hedge. The cost of rebalancing (gamma risk) eats into their spread profits.]]></text></explanation>
+    </question>
+</QF>

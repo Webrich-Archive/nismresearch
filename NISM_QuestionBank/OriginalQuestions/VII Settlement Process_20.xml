@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Settlement Process_20" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Auction session for T day trade under T+1 settlement cycle is conducted on:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[T+1 day itself]]></text></answer>
+            <answer correct="no"><text><![CDATA[T+2 day]]></text></answer>
+            <answer correct="no"><text><![CDATA[T+3 day]]></text></answer>
+            <answer correct="no"><text><![CDATA[T day]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The auction session for T day trades is conducted on T+1, the settlement day itself.
+**The Trap:** Auction is part of the settlement process and happens on the settlement day after regular payout.
+**Cross-Exam Context:** Auction timeline within T+1 cycle is important.
+**Distributor's Pro-Tip:** Auction pay-in and pay-out happen on T+2 (Auction + 1 day).]]></text></explanation>
+    </question>
+</QF>

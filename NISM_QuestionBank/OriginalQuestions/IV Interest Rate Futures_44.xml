@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_44" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[How are interest rate futures different from Forward Rate Agreements (FRAs)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[IRFs are exchange-traded, standardized, with daily MTM and no counterparty risk, while FRAs are OTC, customizable, with settlement at maturity]]></text></answer>
+            <answer correct="no"><text><![CDATA[IRFs and FRAs are identical except for the underlying rate]]></text></answer>
+            <answer correct="no"><text><![CDATA[FRAs are exchange-traded while IRFs are OTC instruments]]></text></answer>
+            <answer correct="no"><text><![CDATA[IRFs have no settlement until expiry while FRAs settle daily]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** IRFs trade on exchanges with standardized contracts, daily mark-to-market, clearing corporation guarantee, and transparent pricing. FRAs are bilateral OTC contracts, customized in terms, settled at maturity, and carry counterparty credit risk.
+
+**The Trap:** IRFs and FRAs serve similar economic purposes (hedging/speculating on rates) but differ in structure. FRAs are OTC, not exchange-traded. IRFs settle daily via MTM, not just at expiry.
+
+**Cross-Exam Context:** The OTC vs. exchange-traded distinction is fundamental across all NISM certifications. Post-2008, regulators globally have pushed OTC derivatives toward central clearing, blurring some distinctions.
+
+**Distributor's Pro-Tip:** For standardized hedging needs, IRFs offer lower costs and no credit risk. For highly customized hedging needs (specific dates, amounts, rates), FRAs remain relevant despite their OTC nature.]]></text></explanation>
+    </question>
+</QF>

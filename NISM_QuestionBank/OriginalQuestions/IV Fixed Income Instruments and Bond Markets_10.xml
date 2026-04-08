@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Fixed Income Instruments and Bond Markets_10" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A portfolio consists of 30% in Bond A (Duration 3 years) and 70% in Bond B (Duration 5 years). What is the portfolio duration?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[4.00 years]]></text></answer>
+            <answer correct="yes"><text><![CDATA[4.40 years]]></text></answer>
+            <answer correct="no"><text><![CDATA[3.50 years]]></text></answer>
+            <answer correct="no"><text><![CDATA[5.00 years]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Portfolio Duration = w₁ × D₁ + w₂ × D₂ = 0.30 × 3 + 0.70 × 5 = 0.90 + 3.50 = 4.40 years.
+
+**The Trap:** 4.00 years is the simple average of 3 and 5 (ignoring weights). Portfolio duration is always the WEIGHTED average, not the simple average.
+
+**Cross-Exam Context:** Portfolio duration is tested in Series IV and is used in practice by mutual fund managers (Series V-A) for duration management and by banks for ALM.
+
+**Distributor's Pro-Tip:** Portfolio duration can be adjusted by changing weights. To reduce duration from 4.40 to 4.00, shift allocation from Bond B to Bond A.]]></text></explanation>
+    </question>
+</QF>

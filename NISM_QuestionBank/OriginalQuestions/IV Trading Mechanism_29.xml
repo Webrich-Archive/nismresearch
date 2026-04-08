@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Trading Mechanism_29" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is an 'order-driven' market as applied to ETIRD?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A market where all orders are entered into a central order book and matched electronically based on price-time priority]]></text></answer>
+            <answer correct="no"><text><![CDATA[A market where dealers provide two-way quotes and all trades happen through them]]></text></answer>
+            <answer correct="no"><text><![CDATA[A market driven by large institutional orders that set the price]]></text></answer>
+            <answer correct="no"><text><![CDATA[A market where orders can only be placed during specific auction windows]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In an order-driven market, all buy and sell orders are collected in a central electronic order book. The system matches compatible orders automatically based on price-time priority. There are no mandatory market makers.
+**The Trap:** Dealer-driven markets (quote-driven) are different - they use market makers. Large orders don't get special treatment in order-driven systems. Continuous trading, not just auction windows.
+**Cross-Exam Context:** Order-driven vs quote-driven market distinction is tested in Series VIII and Series I.
+**Distributor's Pro-Tip:** Indian exchanges use order-driven systems for transparency and fairness. Some may have designated market makers to supplement liquidity.]]></text></explanation>
+    </question>
+</QF>

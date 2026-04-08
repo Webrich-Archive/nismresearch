@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Trading Mechanism_49" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A broker wants to start offering algorithmic trading services to clients for ETIRD. The algo generates orders based on pre-set yield curve models. Before going live, what steps must be completed?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Obtain exchange approval, complete system audit by empanelled auditor, implement risk controls including kill switch, and meet additional capital requirements]]></text></answer>
+            <answer correct="no"><text><![CDATA[Simply install the software and start trading]]></text></answer>
+            <answer correct="no"><text><![CDATA[Obtain SEBI approval only; no exchange-level requirement]]></text></answer>
+            <answer correct="no"><text><![CDATA[File a notification with the exchange after starting live trading]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI's algo trading framework requires pre-approval from the exchange, system/strategy audit, implementation of risk controls (order-level checks, price bands, kill switch), and additional capital deposit. All this must be completed BEFORE going live.
+**The Trap:** You can't just install and trade. Exchange-level approval is required (not just SEBI). Notification must be before, not after, live trading.
+**Cross-Exam Context:** Algo trading compliance is tested in Series VIII and applies across all segments.
+**Distributor's Pro-Tip:** The audit must cover strategy logic, risk controls, and system capacity. Any material change to the algo requires re-audit.]]></text></explanation>
+    </question>
+</QF>

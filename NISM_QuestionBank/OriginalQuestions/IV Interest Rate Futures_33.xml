@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_33" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The face value of one lot of GOI bond futures is Rs. 2 lakhs. If the initial margin requirement is 2.5% of the contract value and the contract is trading at Rs. 101.00, what is the initial margin per lot?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 5,050]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 5,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,525]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 50,500]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Contract value = 101.00 × 2000 = Rs. 2,02,000. Initial margin = 2.5% × 2,02,000 = Rs. 5,050.
+
+**The Trap:** Rs. 5,000 uses the face value (2,00,000) instead of contract value (2,02,000). Rs. 2,525 uses half the lot size. Rs. 50,500 uses 25% instead of 2.5%. Margin is computed on the contract value, not the face value.
+
+**Cross-Exam Context:** Margin requirements in IRF are determined using SPAN (Standard Portfolio Analysis of Risk). The 2.5% is illustrative; actual margins vary based on volatility. Similar concepts apply in NISM Series VIII.
+
+**Distributor's Pro-Tip:** Actual margins are determined by the clearing corporation using a VaR-based SPAN methodology. They can be higher than 2.5% during volatile periods. Always check current margin rates before trading.]]></text></explanation>
+    </question>
+</QF>

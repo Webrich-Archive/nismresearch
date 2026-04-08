@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_49" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which strategy involves selling an out-of-the-money call and selling an out-of-the-money put simultaneously?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Short strangle]]></text></answer>
+            <answer correct="no"><text><![CDATA[Short straddle]]></text></answer>
+            <answer correct="no"><text><![CDATA[Iron condor]]></text></answer>
+            <answer correct="no"><text><![CDATA[Long strangle]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A short strangle involves selling both an OTM call (strike above market) and an OTM put (strike below market). The trader collects premium from both and profits if the price stays between the strikes.
+**The Trap:** Short straddle uses ATM options (same strike). Iron condor has four legs (two spreads). Long strangle buys both OTM options.
+**Cross-Exam Context:** Short strangle is tested in Series VIII with the same definition.
+**Distributor's Pro-Tip:** Short strangle has wider breakevens than short straddle but collects less premium. It's for traders very confident price will stay range-bound.]]></text></explanation>
+    </question>
+</QF>

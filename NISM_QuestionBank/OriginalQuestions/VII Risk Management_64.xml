@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_64" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[When market-wide open interest for a scrip exceeds what percentage of MWPL, members can only trade to decrease positions?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[95% of MWPL]]></text></answer>
+            <answer correct="no"><text><![CDATA[90% of MWPL]]></text></answer>
+            <answer correct="no"><text><![CDATA[80% of MWPL]]></text></answer>
+            <answer correct="no"><text><![CDATA[100% of MWPL]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Once market-wide OI exceeds 95% of MWPL, members/clients shall trade only to decrease their positions through offsetting positions. This is called the ban period.
+**The Trap:** The ban period is at 95%, not 100%. It is a preemptive measure before MWPL is fully breached.
+**Cross-Exam Context:** Ban period questions are commonly asked in NISM VIII as well.
+**Distributor's Pro-Tip:** During ban period, only unwinding trades are permitted - no new position creation is allowed.]]></text></explanation>
+    </question>
+</QF>

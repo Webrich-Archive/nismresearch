@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Fixed Income Instruments and Bond Markets_3" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[If the nominal interest rate is 9% and the inflation rate is 6%, what is the approximate real interest rate?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[15%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[3%]]></text></answer>
+            <answer correct="no"><text><![CDATA[2.83%]]></text></answer>
+            <answer correct="no"><text><![CDATA[6%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Using the approximation: Real rate ≈ Nominal rate - Inflation rate = 9% - 6% = 3%. The exact formula gives (1+0.09)/(1+0.06) - 1 = 2.83%, but the approximation r ≈ R - i = 3% is the standard answer for low-level rates.
+
+**The Trap:** 2.83% is the exact Fisher equation result. While more precise, the NISM workbook uses the approximation formula for this type of question. 15% is the sum (not relevant). Always check if the question asks for "approximate" or "exact."
+
+**Cross-Exam Context:** The Fisher equation relating real and nominal rates is tested across Series IV, V-A (mutual fund returns analysis), and XII (securities market foundation).
+
+**Distributor's Pro-Tip:** In India, always compare nominal bond yields against CPI inflation to assess real returns for clients.]]></text></explanation>
+    </question>
+</QF>

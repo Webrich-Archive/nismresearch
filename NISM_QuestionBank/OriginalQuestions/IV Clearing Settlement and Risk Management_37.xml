@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Clearing Settlement and Risk Management_37" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[At what level of collateral utilization does the exchange cancel all unexecuted orders of a clearing member?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[90%]]></text></answer>
+            <answer correct="no"><text><![CDATA[80%]]></text></answer>
+            <answer correct="no"><text><![CDATA[95%]]></text></answer>
+            <answer correct="no"><text><![CDATA[100%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When a clearing member's collateral utilization reaches 90%, the exchange automatically cancels all their unexecuted (pending) orders. This is a risk containment measure to prevent further exposure buildup.
+
+**The Trap:** 80% may trigger a warning but not order cancellation. 95% and 100% are too late for this initial action. The 90% trigger is designed to provide a safety buffer before complete depletion.
+
+**Cross-Exam Context:** The 90% threshold is consistent across all exchange-traded derivative segments. Series VIII also tests this threshold for equity derivatives.
+
+**Distributor's Pro-Tip:** Smart risk management involves setting internal thresholds at 70-80% to trigger margin top-up actions well before the exchange's 90% cancellation trigger.]]></text></explanation>
+    </question>
+</QF>

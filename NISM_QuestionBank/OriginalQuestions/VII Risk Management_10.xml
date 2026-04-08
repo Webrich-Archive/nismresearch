@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_10" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[When is the VaR margin collected from the member released?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Along with the pay-in, including early pay-in of securities]]></text></answer>
+            <answer correct="no"><text><![CDATA[At end of the trading day]]></text></answer>
+            <answer correct="no"><text><![CDATA[After T+2 settlement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only after the full settlement cycle is complete]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The VaR margin collected is released along with the pay-in, including early pay-in of securities.
+**The Trap:** It is not held until the entire settlement cycle is complete; it is released at pay-in stage.
+**Cross-Exam Context:** Margin release timing impacts capital efficiency for brokers.
+**Distributor's Pro-Tip:** Early pay-in of securities can help release margins sooner, improving capital utilization.]]></text></explanation>
+    </question>
+</QF>

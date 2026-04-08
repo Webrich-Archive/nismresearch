@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_10" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A fund manager holds bonds worth Rs. 50 lakhs and wants to hedge using 10-year GOI bond futures trading at Rs. 100.50. How many lots does the manager need to sell (assuming duration-neutral hedge)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[25 lots]]></text></answer>
+            <answer correct="no"><text><![CDATA[50 lots]]></text></answer>
+            <answer correct="no"><text><![CDATA[250 lots]]></text></answer>
+            <answer correct="no"><text><![CDATA[5 lots]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Each lot has a notional value of Rs. 2 lakhs (FV). Number of lots = Portfolio value / Notional value per lot = Rs. 50,00,000 / Rs. 2,00,000 = 25 lots. (Simplified hedge assuming similar duration.)
+
+**The Trap:** 50 lots divides by Rs. 1,00,000 instead of Rs. 2,00,000. 250 lots divides by Rs. 20,000. 5 lots divides by Rs. 10,00,000. The key is remembering 1 lot = 2000 bonds × Rs. 100 FV = Rs. 2,00,000 notional.
+
+**Cross-Exam Context:** Hedge ratio calculations are tested in NISM Series IV. In practice, duration-weighted hedge ratios are used, but the basic lot calculation is the starting point.
+
+**Distributor's Pro-Tip:** In practice, you would adjust for the duration ratio (portfolio duration / CTD bond duration) and the conversion factor. This simple calculation assumes a 1:1 hedge ratio.]]></text></explanation>
+    </question>
+</QF>

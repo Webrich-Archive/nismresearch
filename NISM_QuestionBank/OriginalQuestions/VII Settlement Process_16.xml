@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Settlement Process_16" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[In T+1 rolling settlement, pay-in of securities and funds happens by:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[11:00 AM on T+1]]></text></answer>
+            <answer correct="no"><text><![CDATA[9:00 AM on T+1]]></text></answer>
+            <answer correct="no"><text><![CDATA[1:30 PM on T+1]]></text></answer>
+            <answer correct="no"><text><![CDATA[3:30 PM on T+1]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Pay-in of securities and funds happens upto 11:00 AM on T+1 day.
+**The Trap:** 9:00 AM is for obligation download. 1:30 PM is pay-out of funds. 3:30 PM is pay-out of securities.
+**Cross-Exam Context:** The T+1 activity schedule timelines are frequently tested.
+**Distributor's Pro-Tip:** Valuation debit in case of non-delivery of securities also happens at 11:00 AM.]]></text></explanation>
+    </question>
+</QF>

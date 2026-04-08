@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="III-C Introduction to Financial System_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A company enters into a 3×9 FRA at a fixed rate of 7%. After 3 months, the prevailing reference rate for the 6-month period is 8.5%. What is the nature of the settlement?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The seller of the FRA pays the difference to the company, as the reference rate exceeds the agreed fixed rate]]></text></answer>
+            <answer correct="no"><text><![CDATA[The company pays the difference to the seller, as the reference rate exceeds the agreed fixed rate]]></text></answer>
+            <answer correct="no"><text><![CDATA[No settlement is required as both rates are above 5%]]></text></answer>
+            <answer correct="no"><text><![CDATA[The company receives the full notional principal from the seller]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In a 3×9 FRA at 7%, the company has locked in a borrowing rate of 7%. When the reference rate (8.5%) is higher than the agreed rate (7%), the seller compensates the company for the difference (1.5% on the notional principal, present-valued). This protects the company against the interest rate rise it was hedging.
+**The Trap:** The company is the buyer (hedger) — when rates go up, the seller pays the difference to the buyer. No principal is exchanged in FRAs; settlement is based on the interest rate differential.
+**Distributor's Pro-Tip:** FRA notation '3×9' means the contract starts after 3 months and covers the period from month 3 to month 9 (a 6-month period). The settlement is typically on a present value basis.]]></text></explanation>
+    </question>
+</QF>

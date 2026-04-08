@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_16" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A bond is trading at Rs. 101. A call option with strike Rs. 99 has a premium of Rs. 4.50. What is the time value of this option?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 2.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 4.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 6.50]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Intrinsic Value = max(0, 101 - 99) = Rs. 2.00. Time Value = Premium - IV = 4.50 - 2.00 = Rs. 2.50.
+**The Trap:** Rs. 4.50 treats the entire premium as time value (ignoring that the option is ITM). Rs. 6.50 adds premium and IV.
+**Cross-Exam Context:** Option value decomposition is a fundamental concept tested across all NISM derivative modules.
+**Distributor's Pro-Tip:** ITM options have both intrinsic and time value. As expiry approaches, time value decays to zero, leaving only intrinsic value.]]></text></explanation>
+    </question>
+</QF>

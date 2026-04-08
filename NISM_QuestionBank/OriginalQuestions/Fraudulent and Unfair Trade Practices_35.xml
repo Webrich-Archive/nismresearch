@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Fraudulent and Unfair Trade Practices_35" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is 'self-front-running' as identified by the Supreme Court in the Kanaiyalal Patel case?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Transactions where the owner or purchaser of a block trade engages in offsetting futures or options transactions as a means of hedging against price fluctuations caused by the block transaction]]></text></answer>
+            <answer correct="no"><text><![CDATA[A trader placing multiple orders in rapid succession ahead of their own limit orders]]></text></answer>
+            <answer correct="no"><text><![CDATA[An intermediary trading ahead of its own proprietary orders]]></text></answer>
+            <answer correct="no"><text><![CDATA[An individual front-running their own family members' orders]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Self-front-running, as defined by the Supreme Court, is when the owner/purchaser of the block trade himself engages in offsetting futures or options transactions as a means of hedging against price fluctuations caused by the block transaction.
+**The Trap:** Option A describes proprietary trading conflicts which is different. Self-front-running specifically involves hedging one's own block trade through derivatives.
+**Cross-Exam Context:** This concept is specifically from the Supreme Court judgment and is tested in NISM Series III-A.
+**Distributor's Pro-Tip:** Self-front-running highlights the conflict of interest when a party uses advance knowledge of their own large order to protect themselves via derivatives.]]></text></explanation>
+    </question>
+</QF>

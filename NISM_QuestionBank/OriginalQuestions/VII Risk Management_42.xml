@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_42" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[In risk reduction mode, which type of orders are permitted?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Only orders with Immediate or Cancel (IOC) attribute]]></text></answer>
+            <answer correct="no"><text><![CDATA[All types of orders]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only limit orders]]></text></answer>
+            <answer correct="no"><text><![CDATA[No orders are permitted at all]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In risk reduction mode, only orders with Immediate or Cancel (IOC) attribute are permitted. All unexecuted orders are cancelled.
+**The Trap:** Trading is not completely stopped - IOC orders that reduce open positions are allowed. The goal is to reduce risk, not halt all activity.
+**Cross-Exam Context:** IOC orders ensure only immediately executable orders go through, preventing additional risk accumulation.
+**Distributor's Pro-Tip:** Fresh orders that increase positions are checked for margin sufficiency and rejected if insufficient.]]></text></explanation>
+    </question>
+</QF>

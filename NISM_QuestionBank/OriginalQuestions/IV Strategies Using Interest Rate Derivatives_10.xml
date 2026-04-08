@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader enters a bear put spread by buying a put at strike Rs. 102 for Rs. 4 and selling a put at strike Rs. 98 for Rs. 1.50. What is the maximum loss?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 2.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 4.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 5.50]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Maximum loss = Net premium paid = 4 - 1.50 = Rs. 2.50. This occurs when the underlying is above the higher strike at expiry (both puts expire worthless).
+**The Trap:** Rs. 4.00 is the premium paid for the long put only. Rs. 1.50 is the premium received. Rs. 5.50 adds both premiums.
+**Cross-Exam Context:** Bear put spread maximum loss = net debit, same as in equity options (Series VIII).
+**Distributor's Pro-Tip:** In any debit spread, maximum loss is always limited to the net premium paid upfront.]]></text></explanation>
+    </question>
+</QF>

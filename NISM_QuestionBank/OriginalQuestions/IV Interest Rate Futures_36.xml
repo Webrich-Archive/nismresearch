@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_36" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What does a 'long position' in GOI bond futures signify?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The trader has bought the futures contract, expecting bond prices to rise (yields to fall)]]></text></answer>
+            <answer correct="no"><text><![CDATA[The trader has sold the futures contract, expecting bond prices to rise]]></text></answer>
+            <answer correct="no"><text><![CDATA[The trader has bought the futures contract, expecting yields to rise]]></text></answer>
+            <answer correct="no"><text><![CDATA[The trader holds the underlying bond in the cash market]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A long position means buying the futures contract. Since bond prices and yields move inversely, expecting a price rise is equivalent to expecting yields to fall. The long profits when the futures price increases.
+
+**The Trap:** Selling is a short position, not long. A long bond futures position profits from yield decline (not yield rise). Simply holding the underlying bond in the spot market is not the same as a long futures position.
+
+**Cross-Exam Context:** Long/short terminology is universal across all derivative products. In NISM Series VIII (equity), long means expecting stock price to rise. In IRF, long means expecting bond price to rise (yield to fall).
+
+**Distributor's Pro-Tip:** Banks and institutions go long IRF to lock in current yields or to hedge against falling rates on their future reinvestments. A mutual fund expecting RBI rate cuts would go long bond futures.]]></text></explanation>
+    </question>
+</QF>

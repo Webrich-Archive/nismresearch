@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Fixed Income Instruments and Bond Markets_8" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A bond with Modified Duration of 10.66 and annual convexity of 81.96 experiences a 200 bps fall in yield. What is the estimated percentage price change?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[21.32%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[24.60%]]></text></answer>
+            <answer correct="no"><text><![CDATA[18.04%]]></text></answer>
+            <answer correct="no"><text><![CDATA[3.28%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** % Price change = (-MD × Δy) + (Convexity × 100 × (Δy)²) = (-10.66 × -0.02) + (81.96 × 100 × 0.0004) = 21.32% + 3.28% = 24.60%. The convexity adjustment adds 3.28% to the duration estimate.
+
+**The Trap:** 21.32% accounts only for the duration effect and ignores convexity. 18.04% is the price change for a 200 bps yield INCREASE (where duration effect is negative and convexity partially offsets). Convexity always adds positively regardless of yield direction.
+
+**Cross-Exam Context:** The duration + convexity price change formula is heavily tested in Series IV and is fundamental to interest rate risk management.
+
+**Distributor's Pro-Tip:** Positive convexity means gains from yield drops exceed losses from equal yield rises — this asymmetry benefits bondholders.]]></text></explanation>
+    </question>
+</QF>

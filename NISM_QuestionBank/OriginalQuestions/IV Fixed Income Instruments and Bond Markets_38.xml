@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Fixed Income Instruments and Bond Markets_38" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The NDS-OM platform is used for:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Trading equity shares]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Trading government securities in secondary market]]></text></answer>
+            <answer correct="no"><text><![CDATA[Primary issuance of corporate bonds]]></text></answer>
+            <answer correct="no"><text><![CDATA[Clearing of commodity derivatives]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** NDS-OM (Negotiated Dealing System - Order Matching) is an electronic, screen-based, anonymous order-matching platform for secondary market trading of government securities, operated by RBI.
+
+**The Trap:** NDS-OM is specifically for G-Sec trading, not equity (which uses NSE/BSE) or commodity trading. The final settlement price for bond futures is derived from NDS-OM prices.
+
+**Cross-Exam Context:** NDS-OM is important for Series IV because bond futures settlement prices reference the NDS-OM VWAP. Understanding market infrastructure is tested in the regulatory chapters.
+
+**Distributor's Pro-Tip:** NDS-OM provides transparency and price discovery for the G-Sec market. The VWAP from last 2 hours on NDS-OM determines the final settlement price for exchange-traded bond futures.]]></text></explanation>
+    </question>
+</QF>

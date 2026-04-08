@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_84" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Which of the following is NOT a feature of exchange-traded IRF compared to OTC interest rate derivatives?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Complete flexibility to customize contract terms such as expiry date, notional amount, and underlying]]></text></answer>
+            <answer correct="no"><text><![CDATA[Transparent price discovery through an electronic order book]]></text></answer>
+            <answer correct="no"><text><![CDATA[Elimination of counterparty credit risk through the CCP]]></text></answer>
+            <answer correct="no"><text><![CDATA[Daily mark-to-market settlement reducing accumulated exposure]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Exchange-traded IRF are standardized — you cannot customize the expiry date, lot size, or underlying. This is a feature of OTC derivatives (like FRAs and IRS). Transparency, CCP guarantee, and daily MTM are all advantages of the exchange-traded format.
+
+**The Trap:** All three wrong answers are genuine features of exchange-traded IRF. Customization is the one thing OTC offers that exchanges don't. This is the fundamental trade-off: standardization and safety vs. flexibility.
+
+**Cross-Exam Context:** The OTC vs. exchange-traded comparison is foundational knowledge tested across NISM Series IV and other derivative certifications. Understanding trade-offs helps explain why both markets coexist.
+
+**Distributor's Pro-Tip:** In practice, large banks use both markets: OTC for highly specific hedges (e.g., matching exact cash flow dates) and exchange-traded for standardized hedging with lower counterparty risk and better capital treatment.]]></text></explanation>
+    </question>
+</QF>

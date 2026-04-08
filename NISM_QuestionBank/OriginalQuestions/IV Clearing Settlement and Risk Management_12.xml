@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Clearing Settlement and Risk Management_12" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The outstanding stock of a bond is Rs. 20,000 crores. What is the client-level position limit for futures on this bond?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 500 crores]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 600 crores]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 300 crores]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,000 crores]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Client limit = Lower of (3% of outstanding) or Rs. 500 crores. 3% of Rs. 20,000 crores = Rs. 600 crores. Lower of Rs. 600 crores and Rs. 500 crores = Rs. 500 crores (cap binds).
+
+**The Trap:** Rs. 600 crores applies only the percentage. Rs. 300 crores confuses percentages. Rs. 1,000 crores is the TM cap, not client cap.
+
+**Cross-Exam Context:** The two-limb test (percentage AND absolute cap, whichever is lower) is a standard regulatory pattern across SEBI-regulated derivatives markets.
+
+**Distributor's Pro-Tip:** For most actively traded G-Secs with large outstanding stock, the Rs. 500 crore cap will be the binding constraint at client level.]]></text></explanation>
+    </question>
+</QF>

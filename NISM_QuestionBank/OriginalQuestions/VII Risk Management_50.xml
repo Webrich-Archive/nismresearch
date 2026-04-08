@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_50" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Market-wide circuit breakers are triggered by movement of which indices?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[BSE Sensex or NSE Nifty 50, whichever is breached earlier]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only NSE Nifty 50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only BSE Sensex]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both must be breached simultaneously]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Circuit breakers are triggered by movement of either BSE Sensex or NSE Nifty 50, whichever is breached earlier.
+**The Trap:** Only one index needs to breach the level, not both. This ensures the trigger mechanism catches the faster-moving index.
+**Cross-Exam Context:** The dual-index trigger is a basic but important detail.
+**Distributor's Pro-Tip:** Since both exchanges trade the same securities, circuit breakers apply market-wide regardless of which index triggers first.]]></text></explanation>
+    </question>
+</QF>

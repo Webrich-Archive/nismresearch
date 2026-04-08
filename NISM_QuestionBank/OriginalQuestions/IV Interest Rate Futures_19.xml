@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_19" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A GOI 10-year bond futures is priced at Rs. 104.50 and the underlying spot bond price is Rs. 104.20. If the cost of carry is 0.50%, what is the theoretical futures price?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 104.72]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 104.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 104.70]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 105.20]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Theoretical Futures Price = Spot × (1 + Cost of Carry) = 104.20 × (1 + 0.005) = 104.20 × 1.005 = Rs. 104.721 ≈ Rs. 104.72.
+
+**The Trap:** Rs. 104.50 is the actual market price (which differs from theoretical). Rs. 104.70 simply adds 0.50 to spot. Rs. 105.20 adds 1.00. The cost of carry must be applied as a percentage of the spot price.
+
+**Cross-Exam Context:** Theoretical futures pricing follows the cost-of-carry model across all asset classes. When actual futures differ from theoretical price, arbitrage opportunities exist (tested in NISM Series VIII).
+
+**Distributor's Pro-Tip:** The actual futures price (Rs. 104.50) being below theoretical (Rs. 104.72) suggests the futures are slightly underpriced — a potential reverse cash-and-carry arbitrage opportunity.]]></text></explanation>
+    </question>
+</QF>

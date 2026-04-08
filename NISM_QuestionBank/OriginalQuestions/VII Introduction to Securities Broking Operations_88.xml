@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Introduction to Securities Broking Operations_88" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following is NOT permitted under a DDPI?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Off-market transfers between unrelated parties]]></text></answer>
+            <answer correct="no"><text><![CDATA[Transfer of securities for settlement obligations]]></text></answer>
+            <answer correct="no"><text><![CDATA[Pledging securities for margin requirements]]></text></answer>
+            <answer correct="no"><text><![CDATA[Tendering shares in open offers]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** DDPI is limited to: (1) settlement obligations, (2) margin pledging/re-pledging, (3) MF transactions on exchange platforms, (4) tendering in open offers. Off-market transfers between unrelated parties are NOT covered — these require separate DIS with OTP.
+**The Trap:** DDPI replaces PoA for these specific purposes only. Any activity outside these four purposes still requires separate client authorization (DIS or PoA).
+**Cross-Exam Context:** Series VI covers DDPI vs. PoA comparison.
+**Distributor's Pro-Tip:** DDPI scope is intentionally narrow to prevent misuse. If a broker needs to do anything beyond these 4 purposes, they need separate client authorization. This is the key improvement over PoA which was broader and more prone to misuse.]]></text></explanation>
+    </question>
+</QF>

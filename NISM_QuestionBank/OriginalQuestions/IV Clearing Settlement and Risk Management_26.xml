@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Clearing Settlement and Risk Management_26" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[How is the Final Settlement Price (FSP) determined for bond futures?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Volume Weighted Average Price (VWAP) of the underlying bond on NDS-OM in the last 2 hours of trading, or FIMMDA/FBIL price if NDS-OM data is insufficient]]></text></answer>
+            <answer correct="no"><text><![CDATA[The closing price of the futures contract on the exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[Simple average of all G-Sec trades on the expiry day]]></text></answer>
+            <answer correct="no"><text><![CDATA[RBI reference rate published on the expiry date]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Bond futures FSP uses the VWAP from NDS-OM (the OTC G-Sec trading platform) in the last 2 hours. If insufficient trades occur, FIMMDA/FBIL valuation prices are used as fallback.
+
+**The Trap:** The FSP is NOT the futures closing price - it is derived from the underlying cash market. It is not a simple average. RBI does not publish a specific reference rate for this purpose.
+
+**Cross-Exam Context:** FSP methodology varies by product. T-Bill futures use RBI auction yields, MIBOR futures use average daily overnight rates. Know the difference for the exam.
+
+**Distributor's Pro-Tip:** The VWAP methodology ensures the FSP reflects actual market conditions in the underlying bond, preventing manipulation of the futures settlement price.]]></text></explanation>
+    </question>
+</QF>

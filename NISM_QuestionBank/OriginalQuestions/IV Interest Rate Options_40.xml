@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_40" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[In the context of options, what does 'premium' represent?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The price paid by the option buyer to the option seller for acquiring the right]]></text></answer>
+            <answer correct="no"><text><![CDATA[The margin required to be deposited with the exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[The difference between the strike price and the market price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The commission charged by the broker]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Premium is the price of the option contract itself -- paid by the buyer to the seller in exchange for the right (but not obligation) granted by the option.
+**The Trap:** Margin is separate from premium. The difference between strike and market is intrinsic value. Brokerage is a transaction cost, not the premium.
+**Cross-Exam Context:** Understanding what premium represents is tested in every NISM derivative module.
+**Distributor's Pro-Tip:** The premium is determined by supply and demand in the market, influenced by the five Black-Scholes factors. It is not set by the exchange.]]></text></explanation>
+    </question>
+</QF>

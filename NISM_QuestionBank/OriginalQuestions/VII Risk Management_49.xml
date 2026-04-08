@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_49" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[If a 15% circuit breaker is triggered at or after 2:00 PM but before 2:30 PM, trading shall be:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Halted for the remainder of the trading day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Halted for 1 hour]]></text></answer>
+            <answer correct="no"><text><![CDATA[Halted for 30 minutes]]></text></answer>
+            <answer correct="no"><text><![CDATA[Not halted; trading continues]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A 15% trigger at or after 2:00 PM results in trading being halted for the remainder of the day.
+**The Trap:** At or after 1 PM but before 2 PM, a 15% trigger results in only a 1-hour halt. The time of breach matters significantly.
+**Cross-Exam Context:** The circuit breaker matrix is a favorite exam question requiring careful memorization.
+**Distributor's Pro-Tip:** Later in the day, even smaller breaches lead to full-day halts because there is less time for recovery.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Clearing Process_10" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The inter-Clearing Corporation collateral comprises two components. Which of the following is one of them?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Margins as per existing Risk Management Framework (initial margin, ELM, calendar spread margin etc.)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Government guarantee]]></text></answer>
+            <answer correct="no"><text><![CDATA[Exchange guarantee fund]]></text></answer>
+            <answer correct="no"><text><![CDATA[Client margin deposits]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Inter-CC collateral has two components: (a) Margins as per existing RMF and (b) Additional capital based on credit risk from the linked CC.
+**The Trap:** No exposure is granted on the additional capital component - it is pure risk buffer.
+**Cross-Exam Context:** The bilateral risk management between CCs is a more advanced topic.
+**Distributor's Pro-Tip:** This bilateral collateral ensures a default by one CC does not cause financial loss to the other.]]></text></explanation>
+    </question>
+</QF>

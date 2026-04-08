@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Insider Trading Regulations_38" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under the SEBI (PIT) Regulations, 2015, can the structured digital database be outsourced to a third-party vendor?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Yes, with SEBI's prior approval]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, if the vendor is a SEBI-registered intermediary]]></text></answer>
+            <answer correct="yes"><text><![CDATA[No, it must be maintained internally with adequate internal controls]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, if adequate data security measures are in place]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Regulation 3(5) explicitly states that the structured digital database shall not be outsourced and shall be maintained internally with adequate internal controls and checks such as time stamping and audit trails.
+**The Trap:** Outsourcing with data security might seem reasonable, but the regulation has an absolute prohibition on outsourcing.
+**Cross-Exam Context:** NISM Series III-B also covers data management requirements under PIT Regulations.
+**Distributor's Pro-Tip:** The database must include time stamping and audit trails to ensure non-tampering - these are mandatory controls.]]></text></explanation>
+    </question>
+</QF>

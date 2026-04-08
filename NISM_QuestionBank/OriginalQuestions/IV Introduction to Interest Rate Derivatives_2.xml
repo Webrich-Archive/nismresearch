@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Introduction to Interest Rate Derivatives_2" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Using the FRA from the previous scenario (notional Rs. 10,00,000, FRA rate 5%, floating rate 6%, 3-month contract), what is the discounted settlement amount?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 2,500.00]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 2,463.05]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,450.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,380.95]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Settlement Amount = 2500 / {1 + (6% × 3/12)} = 2500 / {1 + 0.015} = 2500 / 1.015 = Rs. 2,463.05. The FRA settles at the beginning of the borrowing period, so the payment is discounted at the prevailing floating rate.
+
+**The Trap:** Rs. 2,500 is the undiscounted amount. The discount uses the floating rate (not the FRA rate) because this represents the current cost of borrowing.
+
+**Cross-Exam Context:** Present value discounting of FRA settlements is a key calculation tested in Series IV. The same logic applies to understanding cash settlement of futures.
+
+**Distributor's Pro-Tip:** FRA cash settlement at present value ensures neither party has an advantage from the timing of payment. This is standard practice in OTC interest rate derivatives.]]></text></explanation>
+    </question>
+</QF>

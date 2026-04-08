@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Trading Mechanism_32" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the difference between a market order and a limit order in ETIRD trading?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A market order executes at the best available price immediately; a limit order specifies a maximum buy or minimum sell price]]></text></answer>
+            <answer correct="no"><text><![CDATA[A market order is only for large institutions; a limit order is for retail traders]]></text></answer>
+            <answer correct="no"><text><![CDATA[A market order guarantees a specific price; a limit order does not]]></text></answer>
+            <answer correct="no"><text><![CDATA[A market order can only be placed pre-market; a limit order during trading hours]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Market orders seek immediate execution at the best available price - they guarantee execution but not price. Limit orders specify a price constraint - they guarantee price but not execution (may not fill if the limit is not reached).
+**The Trap:** Both are available to all participants. Market orders do NOT guarantee price. Both can be placed during trading hours.
+**Cross-Exam Context:** Market vs limit order distinction is the most basic order type question in all trading exams.
+**Distributor's Pro-Tip:** Use market orders for urgency, limit orders for price precision. In illiquid markets, market orders can result in poor fills.]]></text></explanation>
+    </question>
+</QF>

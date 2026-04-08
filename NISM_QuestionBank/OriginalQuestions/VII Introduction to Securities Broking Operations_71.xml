@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Introduction to Securities Broking Operations_71" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The Trader Workstation (TWS) provides which two main categories of information?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Trading member's own transaction information and market information]]></text></answer>
+            <answer correct="no"><text><![CDATA[Client personal information and regulatory updates]]></text></answer>
+            <answer correct="no"><text><![CDATA[Exchange announcements and corporate actions only]]></text></answer>
+            <answer correct="no"><text><![CDATA[Historical data and future predictions]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** TWS provides: (1) Trading member's own transaction information (orders entered, modified, outstanding, order log, trade details), and (2) Market information (order book, securities/contract price info, trade info, additional info).
+**The Trap:** TWS shows only the member's own transactions, not other members' transactions. Market information is public and visible to all participants.
+**Cross-Exam Context:** Series VIII covers TWS functionality for derivatives trading.
+**Distributor's Pro-Tip:** TWS is the gateway to the exchange. Each trader has unique TM ID + User ID. Exchanges allow customized TWS (via CTCL/IBT/DMA/ALGO). Connection modes: leased line, VSAT, co-location. Co-location = systems within/near exchange premises for lowest latency.]]></text></explanation>
+    </question>
+</QF>

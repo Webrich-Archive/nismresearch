@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Clearing Settlement and Risk Management_9" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A clearing member has total margin requirement of Rs. 50 lakhs. What is the minimum amount that must be in cash or cash equivalents?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 25 lakhs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 50 lakhs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 10 lakhs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 37.5 lakhs]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** At least 50% of margin must be in cash or cash equivalents. 50% of Rs. 50 lakhs = Rs. 25 lakhs minimum in cash/cash equivalents.
+
+**The Trap:** Rs. 50 lakhs assumes 100% must be cash. Rs. 10 lakhs uses 20%. Rs. 37.5 lakhs uses 75%. The 50% rule is a SEBI-mandated minimum.
+
+**Cross-Exam Context:** The 50% cash/cash equivalent requirement applies across all exchange-traded derivative segments, tested in Series VIII as well.
+
+**Distributor's Pro-Tip:** The remaining 50% can be in non-cash collateral like FDRs, G-Secs, or bank guarantees. This provides flexibility while ensuring liquidity.]]></text></explanation>
+    </question>
+</QF>

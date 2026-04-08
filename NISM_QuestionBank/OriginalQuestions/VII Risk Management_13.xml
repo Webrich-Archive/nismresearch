@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_13" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is the combined upfront margin rate for securities in the Trade for Trade Surveillance (TFTS) market?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[100%]]></text></answer>
+            <answer correct="no"><text><![CDATA[50%]]></text></answer>
+            <answer correct="no"><text><![CDATA[75%]]></text></answer>
+            <answer correct="no"><text><![CDATA[150%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Upfront margin rates (VaR Margin + Extreme Loss Margin) for all securities in TFTS shall be 100%.
+**The Trap:** TFTS securities have no netting and full margin requirement, reflecting the enhanced surveillance on these securities.
+**Cross-Exam Context:** TFTS is a surveillance action that restricts settlement - each trade must be individually settled.
+**Distributor's Pro-Tip:** Securities are placed in TFTS category when they exhibit unusual trading patterns and need closer monitoring.]]></text></explanation>
+    </question>
+</QF>

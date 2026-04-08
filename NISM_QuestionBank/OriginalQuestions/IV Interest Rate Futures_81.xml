@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_81" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The second attempt to launch IRF in August 2009 used what type of settlement mechanism?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Physical delivery with a cheapest-to-deliver (CTD) mechanism based on a notional 7% 10-year coupon bond]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cash settlement based on NDS-OM VWAP]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cash settlement based on RBI auction yields]]></text></answer>
+            <answer correct="no"><text><![CDATA[Physical delivery of a single specific bond]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The August 2009 launch used a notional 7% 10-year coupon bond as the underlying, with physical delivery of the cheapest-to-deliver (CTD) bond from a basket of eligible bonds. This added complexity and contributed to the contract's failure.
+
+**The Trap:** Cash settlement based on VWAP is the current (post-2013) mechanism. RBI auction yields apply to T-Bill futures. Single-bond delivery is not what was used in 2009. The CTD mechanism, while used globally (e.g., US Treasury futures), proved too complex for the nascent Indian market.
+
+**Cross-Exam Context:** The CTD mechanism is standard in US and European bond futures. India moved away from it due to limited bond liquidity making CTD identification difficult. Understanding this evolution is key for NISM Series IV.
+
+**Distributor's Pro-Tip:** The CTD mechanism failed in India because the GOI bond market had limited free float and few deliverable bonds. The short position's ability to deliver the cheapest bond created uncertainty for the long position, discouraging participation.]]></text></explanation>
+    </question>
+</QF>

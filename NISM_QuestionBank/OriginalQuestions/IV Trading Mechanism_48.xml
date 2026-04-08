@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Trading Mechanism_48" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A clearing member discovers that one of its trading members has defaulted on margin obligations. What is the standard procedure?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The clearing member must use its own resources to cover the default, and the exchange/clearing corporation's default waterfall kicks in if the clearing member also fails]]></text></answer>
+            <answer correct="no"><text><![CDATA[The clearing corporation immediately halts all trading on the exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[Other trading members share the loss equally]]></text></answer>
+            <answer correct="no"><text><![CDATA[The clearing member has no responsibility for the trading member's default]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The default waterfall: (1) defaulting TM's margin/collateral, (2) clearing member's resources pledged to CCP, (3) clearing member's contribution to SGF, (4) CCP's own resources, (5) other members' SGF contributions. The clearing member bears responsibility for its TMs.
+**The Trap:** Trading doesn't halt for one member's default. Loss sharing is through the SGF, not equal division. Clearing members ARE responsible for their TMs.
+**Cross-Exam Context:** Default waterfall mechanism is tested in all clearing/settlement-related exams.
+**Distributor's Pro-Tip:** This is why clearing members charge higher fees for risky TMs. The CM's financial exposure to its TMs is real and significant.]]></text></explanation>
+    </question>
+</QF>

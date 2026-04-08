@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Settlement Process_48" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The funds pay-in and pay-out for daily MTM settlement and premium settlement is typically effected:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Before start of market hours on the next day, around 8:30 AM]]></text></answer>
+            <answer correct="no"><text><![CDATA[At end of trading day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Within 24 hours]]></text></answer>
+            <answer correct="no"><text><![CDATA[At 1:30 PM on T+1]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** MTM and premium settlements are effected before market hours on the next day, typically around 8:30 AM.
+**The Trap:** This ensures clean positions before the next trading session begins.
+**Cross-Exam Context:** Pre-market settlement prevents accumulated losses from carrying into the next session.
+**Distributor's Pro-Tip:** Members must have sufficient funds in clearing accounts by early morning for MTM settlement.]]></text></explanation>
+    </question>
+</QF>

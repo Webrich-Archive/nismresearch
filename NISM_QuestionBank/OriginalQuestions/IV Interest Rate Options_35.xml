@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_35" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Which of the following is NOT an input to the Black-Scholes option pricing model?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The option's historical trading volume]]></text></answer>
+            <answer correct="no"><text><![CDATA[The current spot price of the underlying]]></text></answer>
+            <answer correct="no"><text><![CDATA[The risk-free interest rate]]></text></answer>
+            <answer correct="no"><text><![CDATA[The volatility of the underlying]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The five inputs to Black-Scholes are: spot price, strike price, time to expiry, risk-free rate, and volatility. Trading volume is not an input.
+**The Trap:** All other choices are legitimate Black-Scholes inputs. Volume affects liquidity but not theoretical option pricing.
+**Cross-Exam Context:** Black-Scholes inputs are tested in NISM Equity Derivatives and Research Analyst modules.
+**Distributor's Pro-Tip:** Remember the five inputs: S (spot), K (strike), T (time), r (risk-free rate), sigma (volatility). Any question adding a sixth input is likely the wrong answer.]]></text></explanation>
+    </question>
+</QF>

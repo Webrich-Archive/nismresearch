@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_58" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[How does the final settlement price of MIBOR futures differ from that of GOI bond futures?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[MIBOR FSP is the simple average of daily FBIL Overnight MIBOR for the contract month, while GOI bond FSP is the VWAP from NDS-OM]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both use the same VWAP methodology from NDS-OM]]></text></answer>
+            <answer correct="no"><text><![CDATA[MIBOR uses RBI auction yields while GOI bond futures use FIMMDA prices]]></text></answer>
+            <answer correct="no"><text><![CDATA[There is no difference; both are cash settled at the last traded price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** MIBOR futures settle based on the simple average of all daily FBIL Overnight MIBOR rates during the contract month. GOI bond futures settle based on the VWAP of the underlying bond from the last 2 hours of trading on NDS-OM on expiry day. These are fundamentally different methodologies.
+
+**The Trap:** They don't use the same methodology. RBI auction yields apply to T-Bill futures (a third, different method). Last traded price is not used for either product.
+
+**Cross-Exam Context:** Each IRF product has a unique FSP methodology tailored to its underlying: bond VWAP for GOI futures, auction yield for T-Bill futures, average rate for MIBOR futures.
+
+**Distributor's Pro-Tip:** The averaging mechanism for MIBOR futures smooths out daily volatility in overnight rates, making the settlement more predictable. This is particularly useful for hedging monthly borrowing costs.]]></text></explanation>
+    </question>
+</QF>

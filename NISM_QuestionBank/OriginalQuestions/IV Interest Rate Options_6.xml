@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_6" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is the break-even point for a long call option with a strike price of Rs. 100 and a premium of Rs. 4?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 104]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 96]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 100]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 108]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** BEP for a long call = Strike + Premium = 100 + 4 = Rs. 104. The underlying must rise above Rs. 104 for the buyer to make a profit.
+**The Trap:** Rs. 96 uses Strike - Premium, which is the BEP formula for a long put, not a long call.
+**Cross-Exam Context:** Break-even calculations are tested in every NISM derivatives module.
+**Distributor's Pro-Tip:** Remember: Call BEP = Strike + Premium (you need the price to go UP beyond your cost). Put BEP = Strike - Premium (you need the price to go DOWN).]]></text></explanation>
+    </question>
+</QF>

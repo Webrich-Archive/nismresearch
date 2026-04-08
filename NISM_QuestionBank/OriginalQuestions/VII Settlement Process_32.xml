@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Settlement Process_32" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Maintenance of active pool accounts in both depositories (NSDL and CDSL) is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Mandatory, even if the member opts for pay-out in preferred depository]]></text></answer>
+            <answer correct="no"><text><![CDATA[Optional based on member preference]]></text></answer>
+            <answer correct="no"><text><![CDATA[Required only for clearing members]]></text></answer>
+            <answer correct="no"><text><![CDATA[Required only for members with institutional clients]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Active pool accounts in both depositories are mandatory even if the member prefers receiving pay-out in one depository.
+**The Trap:** The dual-depository requirement ensures the member can settle trades regardless of where client securities are held.
+**Cross-Exam Context:** This operational requirement supports the interoperability of the depository system.
+**Distributor's Pro-Tip:** Securities could be in either NSDL or CDSL, so the member must be able to deliver from both.]]></text></explanation>
+    </question>
+</QF>

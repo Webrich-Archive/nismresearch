@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Settlement Process_24" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The settlement number is used to:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Tag transactions to a specific settlement cycle and link trades to a specific settlement date]]></text></answer>
+            <answer correct="no"><text><![CDATA[Identify the trading member]]></text></answer>
+            <answer correct="no"><text><![CDATA[Track brokerage payments]]></text></answer>
+            <answer correct="no"><text><![CDATA[Identify the clearing bank]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The settlement number uniquely identifies a specific settlement cycle, linking trades to their settlement date for reconciliation purposes.
+**The Trap:** It is not a member identifier - it is a cycle identifier used by brokers, CCs, and depositories.
+**Cross-Exam Context:** Settlement number and market type together determine the settlement rules that apply.
+**Distributor's Pro-Tip:** Brokers, CCs, and depositories all use the settlement number to reconcile records.]]></text></explanation>
+    </question>
+</QF>

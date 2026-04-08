@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Trading Mechanism_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader places a limit buy order for 5 bond futures at Rs. 101.00. The best ask is at Rs. 101.20 with 3 contracts, followed by Rs. 101.30 with 10 contracts. How many contracts will be filled and at what price?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[0 contracts filled; the order rests in the book as a passive order at Rs. 101.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[3 contracts at Rs. 101.20 and 2 at Rs. 101.30]]></text></answer>
+            <answer correct="no"><text><![CDATA[5 contracts at Rs. 101.20]]></text></answer>
+            <answer correct="no"><text><![CDATA[5 contracts at Rs. 101.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A limit buy order at Rs. 101.00 can only execute at Rs. 101.00 or lower. Since the best ask is Rs. 101.20 (higher than the limit), no immediate fill occurs. The order rests in the order book as a passive bid at Rs. 101.00.
+**The Trap:** Partial fills at 101.20 and 101.30 would happen with a market order, not a limit order at 101.00. The limit price prevents execution above 101.00.
+**Cross-Exam Context:** Limit order behavior is tested in all exchange-traded product exams.
+**Distributor's Pro-Tip:** Limit orders guarantee price but not execution. Market orders guarantee execution but not price. Know the difference for the exam.]]></text></explanation>
+    </question>
+</QF>

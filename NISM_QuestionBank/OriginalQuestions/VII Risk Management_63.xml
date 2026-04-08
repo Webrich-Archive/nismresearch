@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_63" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The Market Wide Position Limit (MWPL) for single stock derivatives shall be the lower of:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[15% of free float and 65x Average Daily Delivery Value (ADDV), with a floor of 10% of free float]]></text></answer>
+            <answer correct="no"><text><![CDATA[20% of free float and 50x ADDV]]></text></answer>
+            <answer correct="no"><text><![CDATA[10% of free float and 100x ADDV]]></text></answer>
+            <answer correct="no"><text><![CDATA[25% of free float and 30x ADDV]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** MWPL is the lower of 15% of free float and 65x ADDV across CCs, with a floor limit of 10% of free float.
+**The Trap:** The floor ensures a minimum position limit even when ADDV-based calculation gives a very low number.
+**Cross-Exam Context:** MWPL is fundamental to derivatives position management tested in both NISM VII and VIII.
+**Distributor's Pro-Tip:** MWPL prevents excessive derivative positions that could distort the underlying cash market.]]></text></explanation>
+    </question>
+</QF>

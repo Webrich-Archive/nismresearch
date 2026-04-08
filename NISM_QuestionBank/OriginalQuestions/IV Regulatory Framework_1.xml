@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Regulatory Framework_1" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A broker wants to trade in IRD on a proprietary basis only, without algorithmic trading. What is the minimum Base Minimum Capital (BMC) required?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 25 lakhs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 50 lakhs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 75 lakhs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 10 lakhs]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For proprietary trading only (no client trading, no algo), the BMC is Rs. 25 lakhs. This is the lowest tier of capital requirement for exchange membership.
+
+**The Trap:** Rs. 50 lakhs is required for proprietary + client trading. Rs. 75 lakhs adds algo trading on top. The tiers are designed to match the risk profile of each activity level.
+
+**Cross-Exam Context:** BMC requirements vary across derivative segments but follow a similar tiered structure based on activity type and algo usage.
+
+**Distributor's Pro-Tip:** Starting with proprietary-only membership at Rs. 25 lakhs allows new participants to build experience before scaling to client trading, which requires higher capital.]]></text></explanation>
+    </question>
+</QF>

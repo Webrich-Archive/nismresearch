@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Market Participants in Securities Markets_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A Trading-cum-Clearing Member (TCM) can clear and settle trades for:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Their own trades, trades of other trading members, and custodial participants]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only their own trades and their own clients' trades]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the trades of other trading members, not their own]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only custodial participants' trades]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Trading cum Clearing Members have both trading and clearing rights. They can clear and settle their own trades, trades of other trading members, and custodial participants. This is the broadest membership category with both trading and clearing capabilities.
+**The Trap:** Trading cum Self-Clearing Members can only clear their OWN trades (not other TMs or custodial participants). Students confuse TCM with TSCM.
+**Cross-Exam Context:** Series V (Clearing Process) and Series VI cover clearing member types and their roles.
+**Distributor's Pro-Tip:** Membership hierarchy: Only TM (trade only) → TSCM (trade + self-clear) → TCM (trade + clear for all) → PCM (clear only, no trading). PCMs include custodians and banks.]]></text></explanation>
+    </question>
+</QF>

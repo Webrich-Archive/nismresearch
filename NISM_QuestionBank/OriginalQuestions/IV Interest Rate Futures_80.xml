@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_80" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The quantity freeze limit for IRF is set by:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The stock exchange, and orders above this limit require confirmation]]></text></answer>
+            <answer correct="no"><text><![CDATA[SEBI, and orders above this limit are automatically rejected]]></text></answer>
+            <answer correct="no"><text><![CDATA[RBI, and orders above this limit need RBI approval]]></text></answer>
+            <answer correct="no"><text><![CDATA[There is no quantity freeze limit for IRF]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Stock exchanges set quantity freeze limits for IRF contracts. Orders exceeding this limit are subject to confirmation (not automatic rejection) to prevent erroneous large orders from disrupting the market.
+
+**The Trap:** SEBI provides the framework but exchanges set the specific limits. RBI doesn't set these operational parameters. Quantity freeze limits do exist for IRF. The orders aren't automatically rejected — they require manual confirmation.
+
+**Cross-Exam Context:** Quantity freeze is a risk management mechanism also present in equity derivatives (NISM VIII). It serves as a safeguard against fat-finger errors and potential market manipulation.
+
+**Distributor's Pro-Tip:** The quantity freeze limit is different from position limits. A large order above the freeze limit can still be executed after confirmation. Position limits, on the other hand, are absolute caps on the total position a participant can hold.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Settlement Process_34" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[When there are shortages in delivery by a seller broker, the CC conducts:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A buy-in auction through the Exchange system to buy shares from open market]]></text></answer>
+            <answer correct="no"><text><![CDATA[A sell-in auction]]></text></answer>
+            <answer correct="no"><text><![CDATA[Direct settlement from its own reserves]]></text></answer>
+            <answer correct="no"><text><![CDATA[A mediation between buyer and seller]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The CC conducts a buy-in auction through the exchange system to procure shares from the open market for delivering to the buying broker.
+**The Trap:** It is a buy-in (purchasing) auction, not a selling auction. The CC needs to buy shares to fulfill the short delivery.
+**Cross-Exam Context:** The auction mechanism is a critical part of the settlement guarantee framework.
+**Distributor's Pro-Tip:** Security shortages can occur when a short seller fails to square up, fails to deliver on time, or delivers bad/wrong shares.]]></text></explanation>
+    </question>
+</QF>

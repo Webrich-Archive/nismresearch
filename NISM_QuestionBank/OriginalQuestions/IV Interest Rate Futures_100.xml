@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_100" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A pension fund manager wants to increase the portfolio's interest rate sensitivity (duration) without purchasing additional bonds. Which IRF strategy achieves this?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy (long) 13-year GOI bond futures, as the long futures position adds duration to the portfolio]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell 13-year GOI bond futures to increase duration]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy 91-day T-Bill futures for maximum duration addition]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell MIBOR futures to increase the portfolio's yield sensitivity]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A long bond futures position synthetically adds duration to the portfolio. By buying 13-year GOI bond futures, the pension fund increases its interest rate sensitivity without tying up capital in physical bonds. The longer the tenor, the more duration is added per lot.
+
+**The Trap:** Selling futures would reduce (not increase) duration. 91-day T-Bill futures add minimal duration due to their short tenor. MIBOR futures hedge overnight rates and don't add meaningful duration.
+
+**Cross-Exam Context:** Duration management using futures is a key concept for institutional portfolio management, tested in NISM Series IV. Synthetic duration adjustment is capital-efficient compared to physical bond purchases.
+
+**Distributor's Pro-Tip:** This is called 'duration overlay' — using futures to adjust portfolio duration above or below the physical bond portfolio's duration. It's especially useful for pension funds that need to maintain high duration to match long-dated liabilities but have limited new capital to deploy.]]></text></explanation>
+    </question>
+</QF>

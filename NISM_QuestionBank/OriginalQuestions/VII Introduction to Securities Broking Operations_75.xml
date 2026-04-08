@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Introduction to Securities Broking Operations_75" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An order in the order book that has been entered but not yet matched is called a:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Passive order]]></text></answer>
+            <answer correct="no"><text><![CDATA[Active order]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cancelled order]]></text></answer>
+            <answer correct="no"><text><![CDATA[Market order]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Orders lying unmatched in the system are 'passive' orders. Orders that enter the system and attempt to match with existing orders are 'active' orders. The trade always executes at the passive order's price.
+**The Trap:** An active order becomes a passive order if it cannot be fully matched — the unmatched portion sits in the order book as a new passive order with a fresh time priority for any DQ portion.
+**Cross-Exam Context:** Series VIII covers order book dynamics for derivatives.
+**Distributor's Pro-Tip:** Active vs. Passive: the incoming order is always 'active' and tries to match with existing 'passive' orders. The price always goes in favor of the passive order. This rewards patience — if you place a limit order and wait, you get your price or better when someone matches it.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Clearing Process_57" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[If securities are blocked in favour of CC for a sale transaction, what happens regarding margin penalty?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[All margins would be deemed collected and penalty for short/non-collection shall not arise]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only VaR margin is deemed collected]]></text></answer>
+            <answer correct="no"><text><![CDATA[50% of margins are deemed collected]]></text></answer>
+            <answer correct="no"><text><![CDATA[Margins are still required to be collected separately]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** If securities are blocked in favour of CC, then all margins are deemed collected and no penalty for short/non-collection arises.
+**The Trap:** The block provides complete margin relief, not partial. This is a significant benefit of using the block mechanism.
+**Cross-Exam Context:** This incentivizes use of the block mechanism for early pay-in.
+**Distributor's Pro-Tip:** Blocking securities is the most efficient way to avoid margin penalties for sell transactions.]]></text></explanation>
+    </question>
+</QF>

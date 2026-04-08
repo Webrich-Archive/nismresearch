@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Market Participants in Securities Markets_33" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[As per SEBI regulations, a custodian must open what type of account for each client?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A separate custody account in the name of each client, with assets not mixed between clients]]></text></answer>
+            <answer correct="no"><text><![CDATA[A single pooled account for all clients]]></text></answer>
+            <answer correct="no"><text><![CDATA[A joint account with the custodian as co-holder]]></text></answer>
+            <answer correct="no"><text><![CDATA[An account in the custodian's own name with sub-ledgers]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Every custodian must open a separate custody account for each client, in the name of the client whose securities are in custody. Assets of one client shall NOT be mixed with those of another client. This ensures segregation and protection of client assets.
+**The Trap:** Unlike a broker's pool account, custodian accounts are strictly client-name and segregated. No mixing, no pooling, no co-holding.
+**Cross-Exam Context:** Series VI covers account segregation requirements for depository participants.
+**Distributor's Pro-Tip:** Custodian golden rule: segregation at all levels. Separate accounts per client, separate from custodian's own assets, separate from other businesses. Internal controls must prevent manipulation of records.]]></text></explanation>
+    </question>
+</QF>

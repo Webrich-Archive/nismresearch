@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Clearing Settlement and Risk Management_44" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[How is the Final Settlement Price for T-Bill futures determined?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Based on the weighted average yield of the most recent RBI weekly auction for 91-day T-Bills]]></text></answer>
+            <answer correct="no"><text><![CDATA[VWAP of T-Bill trading on NDS-OM in the last 2 hours]]></text></answer>
+            <answer correct="no"><text><![CDATA[Average of bid and ask yields on the expiry date]]></text></answer>
+            <answer correct="no"><text><![CDATA[RBI-published reference yield for 91-day T-Bills]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** T-Bill futures FSP is derived from the yield established in the most recent RBI weekly auction for 91-day Treasury Bills. This provides an objective, manipulation-resistant reference price.
+
+**The Trap:** NDS-OM VWAP is used for bond futures, not T-Bill futures. Bid-ask average is not the methodology. While RBI conducts the auction, it does not publish a separate reference yield for this purpose.
+
+**Cross-Exam Context:** Each IRD product has a distinct FSP methodology: Bond futures (NDS-OM VWAP), T-Bill futures (RBI auction yield), MIBOR futures (monthly average MIBOR). Know all three.
+
+**Distributor's Pro-Tip:** The auction-based FSP is highly reliable since RBI T-Bill auctions have deep participation from banks and primary dealers, providing robust price discovery.]]></text></explanation>
+    </question>
+</QF>

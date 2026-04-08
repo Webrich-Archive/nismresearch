@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Settlement Process_4" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Currently, the closing price of stocks is determined based on:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Volume Weighted Average Price (VWAP) of trades during the last 30 minutes of Continuous Trading Session]]></text></answer>
+            <answer correct="no"><text><![CDATA[The last traded price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Simple average of all trades during the day]]></text></answer>
+            <answer correct="no"><text><![CDATA[The highest price during the day]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Closing price is currently based on VWAP of trades executed during the last 30 minutes of CTS.
+**The Trap:** It is not the last traded price or simple average. VWAP accounts for both price and volume.
+**Cross-Exam Context:** Closing price methodology is important as it impacts NAV calculations, MTM, and index values.
+**Distributor's Pro-Tip:** Closing price serves as basis for next day's base price, MTM calculation, and mutual fund NAV computation.]]></text></explanation>
+    </question>
+</QF>

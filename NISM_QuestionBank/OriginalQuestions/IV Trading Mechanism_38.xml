@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Trading Mechanism_38" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What additional requirements must a broker fulfill to offer algorithmic trading in ETIRD?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[SEBI approval, system audit, adequate risk controls, and additional capital requirements as specified in SEBI circulars]]></text></answer>
+            <answer correct="no"><text><![CDATA[No additional requirements beyond basic membership]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only a written request to the exchange is sufficient]]></text></answer>
+            <answer correct="no"><text><![CDATA[Algorithmic trading requires a separate license from the Ministry of Finance]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI's algorithmic trading framework requires: (1) approval from the exchange, (2) system/strategy audit by a CA or empanelled auditor, (3) adequate risk management controls (circuit checks, kill switch), (4) additional capital/deposit requirements.
+**The Trap:** Algo trading has significant additional requirements. A simple request is insufficient. No separate ministry license is needed.
+**Cross-Exam Context:** Algo trading regulation is tested in Series VIII and applies uniformly across segments.
+**Distributor's Pro-Tip:** Algo trading in IRD is growing rapidly. The regulatory framework aims to balance innovation with market stability.]]></text></explanation>
+    </question>
+</QF>

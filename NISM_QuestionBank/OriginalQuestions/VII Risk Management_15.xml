@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_15" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[In the cash segment, for a buy transaction, VaR margins, ELM, and MTM losses together shall not exceed:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The purchase value of the transaction]]></text></answer>
+            <answer correct="no"><text><![CDATA[200% of the purchase value]]></text></answer>
+            <answer correct="no"><text><![CDATA[The liquid assets of the member]]></text></answer>
+            <answer correct="no"><text><![CDATA[There is no cap on total margins]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For buy transactions in cash market, VaR margins, extreme loss margins and mark to market losses together shall not exceed the purchase value of the transaction.
+**The Trap:** For sell transactions, the cap applies to VaR + ELM only (not exceeding sale value), and MTM losses are also levied separately.
+**Cross-Exam Context:** This cap is a practical safeguard - a buyer cannot lose more than the purchase price in cash delivery.
+**Distributor's Pro-Tip:** This cap ensures margin requirements remain reasonable and do not exceed theoretical maximum loss.]]></text></explanation>
+    </question>
+</QF>

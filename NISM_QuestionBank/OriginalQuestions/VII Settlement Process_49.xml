@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Settlement Process_49" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[In the MTM settlement of futures, after the day's settlement process, all open positions are reset to:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The daily settlement price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The original entry price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Zero]]></text></answer>
+            <answer correct="no"><text><![CDATA[The previous day's settlement price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** After daily MTM settlement, all open positions are reset to the daily settlement price, becoming the open positions for the next day.
+**The Trap:** The original entry price is only relevant on the first day. Subsequent days use the last settlement price.
+**Cross-Exam Context:** This resetting is fundamental to how futures MTM works.
+**Distributor's Pro-Tip:** This means each day's P&L is based on the change from the previous settlement price, not the original trade price.]]></text></explanation>
+    </question>
+</QF>

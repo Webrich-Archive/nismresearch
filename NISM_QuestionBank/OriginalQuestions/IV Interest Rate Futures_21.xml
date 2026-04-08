@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_21" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A portfolio manager holds Rs. 1 crore face value of GOI bonds. Each IRF lot has a face value of Rs. 2 lakhs. How many lots are needed for a full hedge?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[50 lots]]></text></answer>
+            <answer correct="no"><text><![CDATA[100 lots]]></text></answer>
+            <answer correct="no"><text><![CDATA[500 lots]]></text></answer>
+            <answer correct="no"><text><![CDATA[5,000 lots]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Number of lots = Portfolio FV / Lot FV = Rs. 1,00,00,000 / Rs. 2,00,000 = 50 lots. Each lot represents Rs. 2 lakhs face value (2000 bonds × Rs. 100 FV each).
+
+**The Trap:** 100 lots divides by Rs. 1 lakh. 500 lots divides by Rs. 20,000. 5,000 lots divides by Rs. 2,000. The standard lot size for GOI bond futures is 2000 bonds = Rs. 2 lakhs FV.
+
+**Cross-Exam Context:** Hedging calculations are essential in NISM Series IV. In practice, you would also consider the hedge ratio based on the duration of portfolio bonds vs. the futures contract.
+
+**Distributor's Pro-Tip:** This is a simple face-value hedge. A more precise hedge would adjust for the DV01 ratio between the portfolio and the futures contract, potentially requiring more or fewer lots.]]></text></explanation>
+    </question>
+</QF>

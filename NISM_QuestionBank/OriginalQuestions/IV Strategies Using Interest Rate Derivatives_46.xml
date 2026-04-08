@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_46" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the duration-based hedge ratio formula, what does 'futures duration' refer to?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The modified duration of the cheapest-to-deliver bond underlying the futures contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[The time remaining until the futures contract expires]]></text></answer>
+            <answer correct="no"><text><![CDATA[The average duration of all bonds in the portfolio]]></text></answer>
+            <answer correct="no"><text><![CDATA[The duration of the risk-free rate]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Futures duration refers to the modified duration of the CTD (cheapest-to-deliver) bond that the futures contract is based on. This determines how the futures price moves for a given change in yield.
+**The Trap:** Time to expiry is not the same as duration. Portfolio duration is in the numerator, not denominator. Risk-free rate doesn't have a meaningful duration concept here.
+**Cross-Exam Context:** CTD bond concept is unique to fixed income derivatives, specific to Series IV.
+**Distributor's Pro-Tip:** The CTD bond determines futures price behavior. If the CTD changes, the effective futures duration changes too, potentially altering hedge ratios.]]></text></explanation>
+    </question>
+</QF>

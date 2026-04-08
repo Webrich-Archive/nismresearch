@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Stock Brokers Regulations_30" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under SEBI ICDR Regulations, the cap on the price band in a book-built issue shall be less than or equal to what percentage of the floor price?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[110%]]></text></answer>
+            <answer correct="no"><text><![CDATA[115%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[120%]]></text></answer>
+            <answer correct="no"><text><![CDATA[125%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The cap on the price band shall be less than or equal to 120% of the floor price, and the cap shall be at least 105% of the floor price. This means the price band has a maximum spread of 20% above the floor price.
+**The Trap:** 125% is a common distractor. The actual cap is 120%, providing a maximum 20% spread which ensures reasonable price discovery without excessive range.
+**Cross-Exam Context:** The price band mechanism is critical for book-built IPOs. The 105%-120% range ensures meaningful price discovery while preventing manipulation.
+**Distributor's Pro-Tip:** The floor price or price band must be announced at least 2 working days before the opening of the issue. The final price cannot be less than the face value of the securities.]]></text></explanation>
+    </question>
+</QF>

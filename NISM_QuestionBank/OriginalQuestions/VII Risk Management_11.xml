@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_11" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is the Extreme Loss Margin (ELM) rate applicable to stocks in the cash segment?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[3.5%]]></text></answer>
+            <answer correct="no"><text><![CDATA[2%]]></text></answer>
+            <answer correct="no"><text><![CDATA[5%]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.5%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The Extreme Loss Margin is 3.5% for any stock in the cash segment. ETFs tracking broad-based market indices have a lower ELM of 2%.
+**The Trap:** 2% is for broad-based index ETFs, not stocks. 5% would apply to index options with residual maturity >9 months in derivatives.
+**Cross-Exam Context:** ELM rates differ between cash and derivatives segments, which is frequently tested.
+**Distributor's Pro-Tip:** ELM covers tail risk - losses that go beyond what VaR estimates.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_33" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the key advantage of a long strangle over a long straddle?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Lower upfront premium cost due to using out-of-the-money options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Higher profit potential in all scenarios]]></text></answer>
+            <answer correct="no"><text><![CDATA[No risk of loss if the market does not move]]></text></answer>
+            <answer correct="no"><text><![CDATA[It requires only one option instead of two]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A strangle uses OTM options (call strike above current price, put strike below), which are cheaper than ATM options used in a straddle. The tradeoff is that a larger price move is needed to reach profitability.
+**The Trap:** Strangles have LOWER profit potential near the strikes. Both straddle and strangle lose if market doesn't move. Both use two options.
+**Cross-Exam Context:** Straddle vs strangle comparison is a standard question in Series VIII.
+**Distributor's Pro-Tip:** Strangles are preferred when you expect volatility but want to reduce premium outlay. The wider the strikes, the cheaper but the bigger the required move.]]></text></explanation>
+    </question>
+</QF>

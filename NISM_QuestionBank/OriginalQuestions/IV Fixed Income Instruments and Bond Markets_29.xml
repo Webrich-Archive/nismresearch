@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Fixed Income Instruments and Bond Markets_29" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Which of the following convexity relationships is CORRECT?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Higher coupon leads to higher convexity]]></text></answer>
+            <answer correct="no"><text><![CDATA[Higher yield leads to higher convexity]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Higher maturity leads to higher convexity]]></text></answer>
+            <answer correct="no"><text><![CDATA[Convexity is independent of maturity]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Convexity is positively related to maturity — longer maturity bonds have more convex price-yield curves. Convexity is inversely related to both coupon and yield.
+
+**The Trap:** Higher coupon and higher yield both DECREASE convexity. The relationships mirror those of duration: what increases duration also increases convexity.
+
+**Cross-Exam Context:** Convexity relationships are heavily tested in Series IV calculation and conceptual questions. Understanding these helps in comparing bond risk profiles.
+
+**Distributor's Pro-Tip:** Portfolio convexity is the weighted sum of individual bond convexities. For the same duration, choose bonds with higher convexity for better risk-return characteristics.]]></text></explanation>
+    </question>
+</QF>

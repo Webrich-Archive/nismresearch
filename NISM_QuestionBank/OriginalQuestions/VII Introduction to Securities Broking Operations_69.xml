@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Introduction to Securities Broking Operations_69" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The exchange allots a unique order number to all orders and provides it to the broker along with:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A time stamp]]></text></answer>
+            <answer correct="no"><text><![CDATA[The counterparty's identity]]></text></answer>
+            <answer correct="no"><text><![CDATA[The client's bank balance]]></text></answer>
+            <answer correct="no"><text><![CDATA[The predicted execution price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The exchange system allots a unique order number for all orders received. This is provided to the broker as order confirmation along with a time stamp. This creates a precise audit trail for every order.
+**The Trap:** The counterparty's identity is NOT revealed — exchanges operate on anonymous trading. The broker only knows their order was confirmed, not who the counterparty is.
+**Cross-Exam Context:** Series V covers order lifecycle from exchange perspective.
+**Distributor's Pro-Tip:** Order confirmation = unique order number + time stamp. Trade confirmation = trade number + trade time + matched price + matched quantity. Both are immediately available on the broker's trading terminal. These form the basis of the contract note.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_5" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is the tick value of the Overnight MIBOR Futures contract, given that the tick size is 0.25 bps?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 102.75]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 411]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 5.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 25.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Tick value = Tick size in bps × Value per bps = 0.25 × Rs. 411 = Rs. 102.75. The tick size of 0.25 bps means the minimum price movement is one-quarter of a basis point.
+
+**The Trap:** Rs. 411 is the value per full basis point, not per tick. Rs. 5.00 might come from confusing tick size with a different contract specification. Remember: tick value is always tick size × value per unit move.
+
+**Cross-Exam Context:** Understanding tick size and tick value is essential for all derivatives trading. Similar calculations appear for equity futures in NISM Series VIII.
+
+**Distributor's Pro-Tip:** The minimum profit or loss on a single MIBOR futures contract from one price movement is Rs. 102.75. This is important for understanding the minimum risk exposure.]]></text></explanation>
+    </question>
+</QF>

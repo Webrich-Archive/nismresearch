@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Fixed Income Instruments and Bond Markets_46" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A pension fund needs to match a liability due in exactly 15 years. Which bond would BEST eliminate all three major risks (credit, price, and reinvestment)?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[15-year AAA corporate bond with 8% coupon]]></text></answer>
+            <answer correct="yes"><text><![CDATA[15-year zero-coupon Government Security]]></text></answer>
+            <answer correct="no"><text><![CDATA[15-year floating rate Government Security]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rolling over 5-year G-Secs three times]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A 15-year zero-coupon G-Sec eliminates all three risks: credit risk (sovereign issuer), price risk (held to maturity), and reinvestment risk (no interim coupons). It's the only instrument that is truly 'risk-free' when maturity matches the investment horizon.
+
+**The Trap:** AAA corporate bonds still have credit risk. Floating rate G-Secs have reinvestment risk (coupon amounts vary). Rolling over 5-year bonds introduces both reinvestment risk and price risk at each rollover.
+
+**Cross-Exam Context:** Liability matching with zero-coupon bonds is a key application tested in Series IV and used by pension funds and insurance companies in practice.
+
+**Distributor's Pro-Tip:** STRIPS (Separately Traded Registered Interest and Principal Securities) created from coupon G-Secs function as zero-coupon instruments and are useful for precise liability matching.]]></text></explanation>
+    </question>
+</QF>

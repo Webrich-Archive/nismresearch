@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Trading Mechanism_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader has total margin of Rs. 10,00,000 with current utilization at 85%. If the order placement requires additional Rs. 60,000 margin, what will be the new utilization percentage?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[91%]]></text></answer>
+            <answer correct="no"><text><![CDATA[85%]]></text></answer>
+            <answer correct="no"><text><![CDATA[90%]]></text></answer>
+            <answer correct="no"><text><![CDATA[88%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Current margin used = 85% of 10,00,000 = Rs. 8,50,000. New total = 8,50,000 + 60,000 = Rs. 9,10,000. New utilization = 9,10,000 / 10,00,000 = 91%. This would trigger the 90% auto-cancellation of pending orders.
+**The Trap:** 85% ignores the new order. 90% miscalculates. 88% underestimates.
+**Cross-Exam Context:** Margin utilization monitoring is tested in all exchange-traded derivatives exams.
+**Distributor's Pro-Tip:** Crossing 90% utilization triggers automatic cancellation of all pending orders. Monitor your margin before placing new orders.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Clearing Settlement and Risk Management_34" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is the settlement cycle for daily MTM in exchange-traded interest rate derivatives?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[T+1 basis (settlement on the next business day after the trade day)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Real-time settlement (same day as trade)]]></text></answer>
+            <answer correct="no"><text><![CDATA[T+2 basis (two business days after the trade)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Weekly settlement every Friday]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Daily MTM settlement for ETIRD occurs on T+1 basis. The MTM obligation is calculated at end of day T and settled (funds transferred) on T+1 through the clearing bank.
+
+**The Trap:** While MTM is calculated daily, the actual fund transfer happens on T+1, not same day. T+2 applies to equity cash market, not derivative MTM. Weekly settlement does not apply to exchange-traded derivatives.
+
+**Cross-Exam Context:** T+1 MTM settlement is standard across all exchange-traded derivative segments in India. This timeline is consistent across Series VIII and Series IV exams.
+
+**Distributor's Pro-Tip:** Members must ensure their clearing bank accounts are funded before the morning cutoff on T+1 to meet MTM pay-in obligations. Late payments attract penalties.]]></text></explanation>
+    </question>
+</QF>

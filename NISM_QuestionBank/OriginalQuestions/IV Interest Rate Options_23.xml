@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_23" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A put option has a strike of Rs. 100 and premium of Rs. 5. What is the maximum profit for the put buyer?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 95]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 100]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 105]]></text></answer>
+            <answer correct="no"><text><![CDATA[Unlimited]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Maximum profit for a put buyer occurs when the underlying goes to zero. Max profit = Strike - Premium = 100 - 5 = Rs. 95.
+**The Trap:** Rs. 100 forgets to deduct the premium. 'Unlimited' applies to call buyers, not put buyers (underlying cannot go below zero).
+**Cross-Exam Context:** The distinction between call (unlimited upside) and put (limited upside) maximum profits is tested across NISM modules.
+**Distributor's Pro-Tip:** Unlike call options, put options have capped profit because prices cannot fall below zero. This asymmetry affects pricing and strategy selection.]]></text></explanation>
+    </question>
+</QF>

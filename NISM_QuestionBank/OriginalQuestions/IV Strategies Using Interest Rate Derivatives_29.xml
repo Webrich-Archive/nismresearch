@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_29" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A bond portfolio manager expects interest rates to rise. Which action using bond futures would hedge the portfolio?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Sell bond futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy bond futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy call options on bond futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell put options on bond futures]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When rates rise, bond prices fall. Selling bond futures profits when prices fall, offsetting the loss on the bond portfolio. This is the classic short hedge.
+**The Trap:** Buying futures would double the exposure. Buying calls profits from price rise (rate fall). Selling puts generates income but doesn't protect against large drops.
+**Cross-Exam Context:** Short hedge for bondholders is the most basic hedging concept in Series IV.
+**Distributor's Pro-Tip:** Bond price and interest rate move inversely. To hedge bonds against rate rise, take a position that profits from price fall = sell futures.]]></text></explanation>
+    </question>
+</QF>

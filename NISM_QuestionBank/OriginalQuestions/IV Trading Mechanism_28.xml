@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Trading Mechanism_28" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How does the anonymous matching system work in ETIRD trading?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Counterparty identities are not revealed to either buyer or seller; orders are matched based on price-time priority]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the buyer's identity is hidden; the seller's identity is visible]]></text></answer>
+            <answer correct="no"><text><![CDATA[Identities are visible to all market participants before trade execution]]></text></answer>
+            <answer correct="no"><text><![CDATA[Identities are anonymous only for institutional orders, not retail]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The exchange operates a fully anonymous order-driven market. Neither the buyer nor seller knows who their counterparty is - they only see price, quantity, and order depth. The clearing corporation becomes the counterparty to both.
+**The Trap:** Both sides are anonymous. No pre-trade identity disclosure. Anonymity applies equally to all participant types.
+**Cross-Exam Context:** Anonymous matching is standard across all Indian exchange-traded segments.
+**Distributor's Pro-Tip:** Anonymity prevents information-based front-running and ensures fair access for all participants regardless of size.]]></text></explanation>
+    </question>
+</QF>

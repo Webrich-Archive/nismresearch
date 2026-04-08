@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Regulatory Framework_13" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is FIMMDA's primary role in the interest rate derivatives ecosystem?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[It is a self-regulatory organization that publishes daily valuation prices for G-Secs and promotes market development]]></text></answer>
+            <answer correct="no"><text><![CDATA[It is the primary regulator of the G-Sec market]]></text></answer>
+            <answer correct="no"><text><![CDATA[It operates the NDS-OM trading platform]]></text></answer>
+            <answer correct="no"><text><![CDATA[It clears and settles all G-Sec transactions]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** FIMMDA (Fixed Income Money Market and Derivatives Association of India) is an SRO that publishes daily valuation prices for G-Secs (used as fallback for futures settlement), develops market conventions, and promotes fixed income market development.
+
+**The Trap:** RBI is the primary G-Sec regulator, not FIMMDA. CCIL operates NDS-OM. Clearing corporations handle settlement. FIMMDA's role is self-regulatory and developmental.
+
+**Cross-Exam Context:** FIMMDA's valuation prices serve as the fallback FSP for bond futures when NDS-OM VWAP data is insufficient. This linkage is important for Series IV.
+
+**Distributor's Pro-Tip:** FIMMDA's daily valuation is considered the benchmark for marking fixed income portfolios to market. Banks and mutual funds rely on FIMMDA prices for their daily NAV calculations.]]></text></explanation>
+    </question>
+</QF>

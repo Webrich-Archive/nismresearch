@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Fixed Income Instruments and Bond Markets_5" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A 3-year bond pays 8% annual coupon on a face value of Rs. 100. If spot rates are 7.75%, 8.00%, and 8.25% for years 1, 2, and 3 respectively, what is the bond price?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 100.00]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 99.42]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 101.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 98.75]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Price = 8/(1.0775) + 8/(1.08)^2 + 108/(1.0825)^3 = 7.4246 + 6.8587 + 85.1413 = 99.4246 ≈ Rs. 99.42. Each cash flow is discounted at the corresponding spot rate for its term.
+
+**The Trap:** Rs. 100.00 would be correct only if all spot rates equaled the coupon rate. Using a single YTM instead of individual spot rates gives a different (less accurate) price.
+
+**Cross-Exam Context:** Spot rate pricing is the theoretically correct method taught in Series IV and applied in Series XIII for derivative pricing.
+
+**Distributor's Pro-Tip:** The bond price is determined by the term structure of zero rates, not by demand-supply for the bond itself.]]></text></explanation>
+    </question>
+</QF>

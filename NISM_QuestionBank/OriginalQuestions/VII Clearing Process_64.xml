@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Clearing Process_64" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[For funds pay-out, the Clearing Corporation advises clearing banks to:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Credit accounts of custodians/CMs and debit its own account]]></text></answer>
+            <answer correct="no"><text><![CDATA[Debit accounts of custodians/CMs and credit its own account]]></text></answer>
+            <answer correct="no"><text><![CDATA[Transfer funds directly to client bank accounts]]></text></answer>
+            <answer correct="no"><text><![CDATA[Hold funds until the next settlement cycle]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For pay-out, CC advises banks to credit CM/custodian accounts and debit the CC's account - the reverse of pay-in.
+**The Trap:** Pay-in and pay-out are mirror images. Pay-in: CC collects. Pay-out: CC distributes.
+**Cross-Exam Context:** The fund flow through clearing banks is a key operational concept.
+**Distributor's Pro-Tip:** The CC's role as central counterparty means funds flow through it in both directions.]]></text></explanation>
+    </question>
+</QF>

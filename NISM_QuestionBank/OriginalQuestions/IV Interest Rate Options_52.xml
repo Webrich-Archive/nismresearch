@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_52" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[In option terminology, what does 'exercise' mean?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The act of the option buyer putting the right to buy or sell into effect]]></text></answer>
+            <answer correct="no"><text><![CDATA[The act of the option seller cancelling the contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[The daily mark-to-market settlement of option positions]]></text></answer>
+            <answer correct="no"><text><![CDATA[The process of rolling over an option to a later expiry date]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Exercise means the option buyer decides to use their right -- to buy (call) or sell (put) the underlying at the strike price.
+**The Trap:** Only the buyer can exercise. The seller cannot cancel. Mark-to-market applies to futures. Rolling over is a separate trading action.
+**Cross-Exam Context:** Exercise terminology is fundamental across all NISM derivative certifications.
+**Distributor's Pro-Tip:** For European options (like exchange-traded IROs in India), exercise happens only at expiry. For American options, the buyer can choose to exercise at any time.]]></text></explanation>
+    </question>
+</QF>

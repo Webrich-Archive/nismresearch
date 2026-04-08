@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_4" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is the VaR margin rate for Group III (Illiquid) securities that have not traded for a week?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[75%]]></text></answer>
+            <answer correct="no"><text><![CDATA[50%]]></text></answer>
+            <answer correct="no"><text><![CDATA[100%]]></text></answer>
+            <answer correct="no"><text><![CDATA[21.5%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Group III securities that have not traded for a week attract a VaR margin of 75%. If the security trades during the day, the rate reverts to 50% from the next trading day.
+**The Trap:** 50% is the rate for Group III securities that have traded at least once per week. The rate increases to 75% for non-trading.
+**Cross-Exam Context:** Illiquid security margins are tested to ensure candidates understand risk implications of low liquidity.
+**Distributor's Pro-Tip:** Group III securities are monitored on a weekly basis for trading activity.]]></text></explanation>
+    </question>
+</QF>

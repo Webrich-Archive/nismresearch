@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_79" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The MTM and final settlement of GOI bond futures takes place on:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[T+1 basis (one business day after the trade/expiry)]]></text></answer>
+            <answer correct="no"><text><![CDATA[T+0 basis (same day as trade)]]></text></answer>
+            <answer correct="no"><text><![CDATA[T+2 basis (two business days after)]]></text></answer>
+            <answer correct="no"><text><![CDATA[T+3 basis (three business days after)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Both daily MTM settlement and final settlement of GOI bond futures occur on a T+1 basis. This means the cash flow (credit or debit) happens one business day after the trade date or expiry date.
+
+**The Trap:** T+0 would mean same-day settlement (not the case for IRF). T+2 applies to equity cash market settlement in India. T+3 was the old equity settlement cycle. IRF uses T+1 for all settlement.
+
+**Cross-Exam Context:** Settlement cycles vary: Equity cash = T+1, Equity derivatives MTM = T+1, IRF = T+1. Understanding these differences is tested across NISM certifications.
+
+**Distributor's Pro-Tip:** T+1 settlement means traders need to ensure adequate funds/margin by the next business day. Banks should factor this into their daily liquidity management.]]></text></explanation>
+    </question>
+</QF>

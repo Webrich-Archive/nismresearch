@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Clearing Settlement and Risk Management_46" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A clearing member has a total margin requirement of Rs. 1 crore. They have deposited Rs. 40 lakhs in cash and Rs. 60 lakhs in Government Securities. Is their margin composition compliant?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[No, because only 40% is in cash/cash equivalents, which is below the required 50% minimum]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, because the total deposited (Rs. 1 crore) meets the total requirement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, because Government Securities are considered cash equivalents]]></text></answer>
+            <answer correct="no"><text><![CDATA[No, because G-Secs are not accepted as margin collateral]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The member needs at least 50% in cash/cash equivalents = Rs. 50 lakhs. They have only Rs. 40 lakhs in cash (40%). G-Secs are non-cash collateral, not cash equivalents. So they are non-compliant.
+
+**The Trap:** The total amount is sufficient (Rs. 1 crore), but the composition is wrong. G-Secs ARE accepted as collateral but are NOT cash equivalents. The 50% cash rule is about composition, not total amount.
+
+**Cross-Exam Context:** Understanding what qualifies as cash equivalents (cash, FDRs, bank guarantees) vs. non-cash collateral (G-Secs) is tested across all derivative certification exams.
+
+**Distributor's Pro-Tip:** To fix this, the member needs to convert Rs. 10 lakhs of G-Secs to cash or FDRs. Many members maintain a buffer above 50% in cash equivalents to account for margin fluctuations.]]></text></explanation>
+    </question>
+</QF>

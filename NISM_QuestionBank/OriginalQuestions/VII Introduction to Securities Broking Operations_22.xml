@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Introduction to Securities Broking Operations_22" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For the purpose of provision of algo trading through APIs, the stock broker acts as:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The principal, while the algo provider acts as the broker's agent]]></text></answer>
+            <answer correct="no"><text><![CDATA[An intermediary between SEBI and the algo provider]]></text></answer>
+            <answer correct="no"><text><![CDATA[The agent, while the algo provider acts as the principal]]></text></answer>
+            <answer correct="no"><text><![CDATA[An independent party with no liability for algo outcomes]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per SEBI circular dated February 2025, for algo trading through APIs, brokers act as the PRINCIPAL while algo providers/fintechs act as the broker's AGENT. This means the broker bears full responsibility for algo trading activities.
+**The Trap:** Algo providers are not directly regulated by SEBI but must be empaneled with exchanges. The regulatory responsibility flows through the broker.
+**Cross-Exam Context:** This is a recent regulatory development tested across multiple NISM exams.
+**Distributor's Pro-Tip:** Broker-as-principal means: full liability for algo outcomes, must implement controls for all algo orders, must detect/categorize orders exceeding OPS threshold. Algo providers must be exchange-empaneled for oversight but are not directly SEBI-regulated.]]></text></explanation>
+    </question>
+</QF>

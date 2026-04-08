@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_35" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A 91-day T-Bill futures contract expires when the yield from RBI's weekly auction is 6.40%. What is the final settlement price per unit of face value?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 98.40]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 93.60]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 100.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 96.80]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Final Settlement Price per unit = 100 - 0.25 × y = 100 - 0.25 × 6.40 = 100 - 1.60 = Rs. 98.40. The total settlement value per contract = 2000 × 98.40 = Rs. 1,96,800.
+
+**The Trap:** Rs. 93.60 uses 100 - y = 100 - 6.40 (the quotation formula, not the settlement formula). Rs. 100.00 is the face value. Rs. 96.80 uses 100 - 0.50 × 6.40. The settlement formula specifically uses the 0.25 factor.
+
+**Cross-Exam Context:** The final settlement price for T-Bill futures is derived from the weighted average discount yield from RBI's weekly 91-day T-Bill auction — not from market trading on NDS-OM (which is used for GOI bond futures).
+
+**Distributor's Pro-Tip:** The reliance on RBI auction yield for final settlement ensures manipulation-free pricing, as the RBI auction is a highly transparent and competitive process.]]></text></explanation>
+    </question>
+</QF>

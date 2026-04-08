@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_15" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A trader buys 10 lots of 13-year GOI bond futures at Rs. 95.25 and sells them at Rs. 96.00. What is the total profit before transaction costs?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 15,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 7,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,50,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Profit = (Sell - Buy) × 2000 × Lots = (96.00 - 95.25) × 2000 × 10 = 0.75 × 2000 × 10 = Rs. 15,000.
+
+**The Trap:** Rs. 7,500 uses 1000 instead of 2000. Rs. 1,500 forgets to multiply by the number of lots. Rs. 1,50,000 uses 20,000 instead of 2,000. Always remember: 1 lot = 2000 bonds.
+
+**Cross-Exam Context:** P&L calculations in futures are straightforward: (Exit - Entry) × lot size × number of lots for long positions. This is universal across all futures markets.
+
+**Distributor's Pro-Tip:** Transaction costs include brokerage, exchange fees, GST, and stamp duty. Net profit = Gross profit - Transaction costs. Always factor these in for actual trading decisions.]]></text></explanation>
+    </question>
+</QF>

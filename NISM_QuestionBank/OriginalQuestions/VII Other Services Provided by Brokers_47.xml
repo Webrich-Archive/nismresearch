@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Other Services Provided by Brokers_47" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Funded stocks under MTF must be held by the TM/CM only by way of:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Pledge, in a separate demat account tagged 'Client Securities under Margin Funding Account']]></text></answer>
+            <answer correct="no"><text><![CDATA[Transfer to broker's proprietary account]]></text></answer>
+            <answer correct="no"><text><![CDATA[In the broker's pool account]]></text></answer>
+            <answer correct="no"><text><![CDATA[In a joint account with the client]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Funded stocks must be held only by way of pledge in a specifically tagged demat account.
+**The Trap:** Securities are not transferred to the broker - they remain in the client's name with a pledge.
+**Cross-Exam Context:** Pledge-based holding protects client ownership rights.
+**Distributor's Pro-Tip:** Auto-pledge is created in favor of the MTF account without requiring separate instruction from the client.]]></text></explanation>
+    </question>
+</QF>

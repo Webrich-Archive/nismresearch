@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Introduction to Securities Broking Operations_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the continuous order matching system of stock exchanges, if two buy orders are at the same price, which gets priority?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The order that entered the system first (time priority)]]></text></answer>
+            <answer correct="no"><text><![CDATA[The order with larger quantity]]></text></answer>
+            <answer correct="no"><text><![CDATA[The order from a larger broker]]></text></answer>
+            <answer correct="no"><text><![CDATA[Priority is randomly assigned]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Stock exchanges follow price-time priority: best price orders are matched first, and if multiple orders exist at the same price, the earliest order gets priority. Quantity is NOT a factor in determining matching priority.
+**The Trap:** In call auctions, the principle is different — the equilibrium price that maximizes quantity is found. But in continuous matching, it's strictly price → time.
+**Cross-Exam Context:** Series VIII covers order matching for derivatives.
+**Distributor's Pro-Tip:** Price-time priority: (1) Best buy = highest price, Best sell = lowest price. (2) Same price → first-in-first-out. (3) Active order matches at passive order's price. (4) Quantity doesn't matter for priority. These rules apply uniformly across all exchanges.]]></text></explanation>
+    </question>
+</QF>

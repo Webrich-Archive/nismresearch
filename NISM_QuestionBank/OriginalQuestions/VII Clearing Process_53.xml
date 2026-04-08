@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Clearing Process_53" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[If a sale transaction is not executed after securities are blocked, what happens to the blocked shares?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[They continue to remain in the client's demat account and are unblocked at end of T day]]></text></answer>
+            <answer correct="no"><text><![CDATA[They are transferred to the broker's pool account]]></text></answer>
+            <answer correct="no"><text><![CDATA[They are held by the clearing corporation until next trading day]]></text></answer>
+            <answer correct="no"><text><![CDATA[They are auctioned off]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** If the sale is not executed, shares continue in the client's demat account and are unblocked at end of T day.
+**The Trap:** The block mechanism does not move securities out of the client's account - it only places a lien.
+**Cross-Exam Context:** This is a significant improvement over the old system where securities moved to pool accounts for early pay-in.
+**Distributor's Pro-Tip:** Clients retain ownership and benefits while shares are blocked, only the ability to transfer is restricted.]]></text></explanation>
+    </question>
+</QF>

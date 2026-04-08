@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_72" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[An investor expects a major RBI policy announcement that could move bond markets significantly in either direction. Which option strategy would best capitalize on this expected high volatility?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy a straddle (buy both ATM call and ATM put) to profit from a large move in either direction]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell a straddle to collect maximum premium from both options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy only an ATM call option, as policy announcements usually cause rate cuts]]></text></answer>
+            <answer correct="no"><text><![CDATA[Stay out of the options market until after the announcement]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A long straddle profits from large price movements in either direction. Since the investor expects volatility but is uncertain about direction, this is the ideal strategy.
+**The Trap:** Selling a straddle profits from low volatility -- the opposite of what is expected. Buying only a call takes a directional bet, which contradicts the uncertainty.
+**Cross-Exam Context:** Straddle strategies for event-driven volatility are tested in NISM Equity Derivatives and Research Analyst modules.
+**Distributor's Pro-Tip:** The risk with long straddles before events is that implied volatility is often already elevated, making options expensive. Post-event IV 'crush' can erode profits even if the move occurs.]]></text></explanation>
+    </question>
+</QF>

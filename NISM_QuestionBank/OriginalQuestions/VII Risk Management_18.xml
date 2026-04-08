@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_18" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is the ELM for single stock futures in the derivatives segment?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[3.5% of the notional value of gross open positions]]></text></answer>
+            <answer correct="no"><text><![CDATA[2% of the notional value of gross open positions]]></text></answer>
+            <answer correct="no"><text><![CDATA[5% of the notional value]]></text></answer>
+            <answer correct="no"><text><![CDATA[3% of the notional value]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** ELM for single stock futures is 3.5% of the notional value of the gross open positions.
+**The Trap:** 2% is for index futures. The higher rate for single stocks reflects greater idiosyncratic risk.
+**Cross-Exam Context:** This is consistent with the cash segment where stocks attract 3.5% ELM.
+**Distributor's Pro-Tip:** Consistency of ELM rates across segments (3.5% for stocks, 2% for indices) makes memorization easier.]]></text></explanation>
+    </question>
+</QF>

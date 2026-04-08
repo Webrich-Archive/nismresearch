@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Clearing Settlement and Risk Management_31" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is the Core Settlement Guarantee Fund (Core SGF) and who contributes to it?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A fund maintained by the clearing corporation to cover default losses, funded by CC's own funds, penalty collections, and deposits from clearing members]]></text></answer>
+            <answer correct="no"><text><![CDATA[A government-backed fund that guarantees all exchange trades]]></text></answer>
+            <answer correct="no"><text><![CDATA[An insurance policy purchased by the clearing corporation]]></text></answer>
+            <answer correct="no"><text><![CDATA[A fund maintained by SEBI to compensate retail investors]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The Core SGF is the ultimate safety net maintained by each clearing corporation. It is funded by the CC's own capital contribution, penalty collections from members, and required deposits from clearing members. SEBI specifies minimum corpus requirements.
+
+**The Trap:** It is not government-backed or SEBI-maintained. It is not an insurance product. The CC manages it with regulatory oversight from SEBI.
+
+**Cross-Exam Context:** Core SGF is a SEBI-mandated requirement for all clearing corporations across equity, currency, commodity, and IRD segments.
+
+**Distributor's Pro-Tip:** The Core SGF's adequacy is stress-tested regularly. It must be sufficient to handle the default of the two largest clearing members simultaneously (cover-2 standard).]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Trading Mechanism_17" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader's total trading costs on a bond futures round trip include: Brokerage Rs. 400 (both legs), Exchange charges Rs. 150, Clearing charges Rs. 50, SEBI fees Rs. 10, GST 18% on brokerage and charges. What are the total all-in costs?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 718]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 610]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 682]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 750]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Base costs = 400 + 150 + 50 + 10 = Rs. 610. GST applicable on brokerage + exchange charges + clearing charges = 400 + 150 + 50 = Rs. 600. GST = 18% of 600 = Rs. 108. Total = 610 + 108 = Rs. 718.
+**The Trap:** Rs. 610 ignores GST. Rs. 682 applies GST on full Rs. 610 (including SEBI fees). Rs. 750 uses 25% instead of 18%.
+**Cross-Exam Context:** All-in cost calculations including GST are tested in all trading exams.
+**Distributor's Pro-Tip:** SEBI regulatory fees are not subject to GST (government fees). GST applies on brokerage, exchange charges, and clearing charges.]]></text></explanation>
+    </question>
+</QF>

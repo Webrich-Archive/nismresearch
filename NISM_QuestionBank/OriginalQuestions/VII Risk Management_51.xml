@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_51" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What are the dynamic price bands set at for stocks on which derivatives products are available?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[10% of the previous day's closing price]]></text></answer>
+            <answer correct="no"><text><![CDATA[20% of the previous day's closing price]]></text></answer>
+            <answer correct="no"><text><![CDATA[5% of the previous day's closing price]]></text></answer>
+            <answer correct="no"><text><![CDATA[15% of the previous day's closing price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Dynamic price bands are set at 10% of the previous day's closing price/adjusted base price for stocks with derivatives, index futures, and stock futures.
+**The Trap:** Regular price bands (2%-20%) apply to scrips without derivatives. Dynamic price bands are different from static price bands.
+**Cross-Exam Context:** Dynamic price bands were enhanced by SEBI circular in 2024 for better volatility management.
+**Distributor's Pro-Tip:** Dynamic bands can be flexed during the trading day with increasing cooling-off periods unlike static bands.]]></text></explanation>
+    </question>
+</QF>

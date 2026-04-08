@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_67" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is the significance of the 'convergence' property of futures prices?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[It ensures that the futures price equals the spot price at expiry, making hedging effective]]></text></answer>
+            <answer correct="no"><text><![CDATA[It guarantees profits for long futures holders]]></text></answer>
+            <answer correct="no"><text><![CDATA[It means all futures contracts trade at the same price]]></text></answer>
+            <answer correct="no"><text><![CDATA[It prevents arbitrage at all times during the contract's life]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Convergence means that as expiry approaches, the futures price converges to the spot price (basis → 0). This is crucial because it ensures that futures can effectively offset spot market exposure at expiry, making hedging reliable.
+
+**The Trap:** Convergence doesn't guarantee profits for anyone. Different expiry contracts trade at different prices. Arbitrage is possible during the contract's life (it's at expiry that arbitrage forces convergence).
+
+**Cross-Exam Context:** Convergence is a universal property of all futures contracts, tested across NISM Series IV, VIII, and XVI. Without convergence, futures would be unreliable hedging instruments.
+
+**Distributor's Pro-Tip:** Convergence is enforced by arbitrageurs: if futures > spot at expiry, sell futures and buy spot for risk-free profit. If futures < spot, buy futures and sell spot. This arbitrage activity forces prices to align.]]></text></explanation>
+    </question>
+</QF>

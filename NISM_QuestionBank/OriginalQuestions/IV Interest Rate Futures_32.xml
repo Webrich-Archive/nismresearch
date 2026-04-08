@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_32" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[At the start of the day, open interest in 10-year GOI bond futures is 5,000 lots. During the day: Trader A buys 100 lots (new), Trader B sells 100 lots (new), Trader C sells 50 lots to close, and Trader D buys 50 lots (new). What is the end-of-day open interest?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[5,050 lots]]></text></answer>
+            <answer correct="no"><text><![CDATA[5,100 lots]]></text></answer>
+            <answer correct="no"><text><![CDATA[5,200 lots]]></text></answer>
+            <answer correct="no"><text><![CDATA[5,000 lots]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A buys new (100) & B sells new (100) → OI increases by 100. C sells to close (50) but D buys new (50) → C's closing reduces OI by 50, but since D is taking a new position against C's closing, OI decreases by 50. Wait — when C sells to close 50 and D buys 50 new: C is closing an existing long, and D opens a new long. The old short (C's counterparty) is still short, now D is the new long. So OI stays same for those 50. Actually: net new OI = +100 (from A&B trade) - 50 (C closes) + 50 (D new) = +50. Wait, let's be precise: When C sells to close and D buys new: D replaces C's position, so OI stays unchanged for those 50 contracts. When A buys new and B sells new: both are new, so OI increases by 100. End OI = 5000 + 100 - 50 + 0 = 5,050.
+
+**The Trap:** 5,100 adds both new positions without subtracting closes. 5,200 double-counts. 5,000 assumes no change.
+
+**Cross-Exam Context:** Open interest tracking is fundamental to futures markets and is tested in NISM Series VIII as well.
+
+**Distributor's Pro-Tip:** Rising OI with rising prices suggests new longs entering (bullish). Rising OI with falling prices suggests new shorts entering (bearish). OI analysis helps gauge market sentiment.]]></text></explanation>
+    </question>
+</QF>

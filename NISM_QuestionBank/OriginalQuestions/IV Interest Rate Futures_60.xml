@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_60" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is the primary purpose of the price band mechanism in IRF trading?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[To prevent excessive intra-day price volatility and provide a cooling-off period for the market]]></text></answer>
+            <answer correct="no"><text><![CDATA[To ensure the futures price stays close to the spot price]]></text></answer>
+            <answer correct="no"><text><![CDATA[To limit the maximum profit a trader can earn in a day]]></text></answer>
+            <answer correct="no"><text><![CDATA[To prevent short selling of bond futures]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Price bands (circuit limits) prevent extreme price movements within a single day. When hit, trading is paused for 30 minutes (cooling period). This allows participants to reassess and prevents panic-driven price swings.
+
+**The Trap:** Price bands don't directly relate to spot-futures convergence. They don't limit profit potential (traders can hold multi-day positions). They have nothing to do with restricting short selling.
+
+**Cross-Exam Context:** Circuit breakers exist across all Indian exchanges. Equity markets use index-level circuits (10%, 15%, 20%). IRF uses product-specific bands (+/-3% for bonds, +/-1% for T-Bills).
+
+**Distributor's Pro-Tip:** Price bands can be expanded twice per day (by 0.5% each time) if needed, allowing the market to find its true level even in extremely volatile conditions like surprise RBI actions or global crises.]]></text></explanation>
+    </question>
+</QF>

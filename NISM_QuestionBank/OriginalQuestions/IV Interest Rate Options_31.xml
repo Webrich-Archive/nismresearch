@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_31" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Which of the following statements about time value of an option is INCORRECT?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Time value increases as the option approaches expiration]]></text></answer>
+            <answer correct="no"><text><![CDATA[ATM options have the highest time value]]></text></answer>
+            <answer correct="no"><text><![CDATA[Time value is always non-negative]]></text></answer>
+            <answer correct="no"><text><![CDATA[At expiration, time value is zero]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Time value DECREASES (decays) as expiration approaches, not increases. This is called time decay or theta decay.
+**The Trap:** The other three statements are all correct -- ATM options have highest time value, it is never negative, and it is zero at expiry.
+**Cross-Exam Context:** Time decay is a fundamental concept tested in all NISM derivative modules.
+**Distributor's Pro-Tip:** Time decay accelerates as expiry nears. Option sellers benefit from time decay while buyers suffer from it -- this is why option selling is sometimes called 'collecting theta'.]]></text></explanation>
+    </question>
+</QF>

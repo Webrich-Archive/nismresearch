@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Trading Mechanism_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A bond futures contract has a face value of Rs. 2,00,000 and a price band of +/- 3%. If the base price is Rs. 102.00, what is the upper price limit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 105.06]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 105.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 103.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 108.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Upper limit = 102.00 x 1.03 = Rs. 105.06. The 3% is applied to the base price.
+**The Trap:** Rs. 105.00 adds 3.00 instead of 3%. Rs. 103.00 adds 1.00. Rs. 108.00 uses a 6% band.
+**Cross-Exam Context:** Price band calculations differ by product type - knowing the correct band percentage is key.
+**Distributor's Pro-Tip:** Bond futures +/-3%, T-Bill futures +/-1%. These bands may be widened by the exchange in exceptional circumstances.]]></text></explanation>
+    </question>
+</QF>

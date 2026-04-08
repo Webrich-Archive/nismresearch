@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_19" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Mark to Market (MTM) margin is computed by grossing losses across:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[All clients of the member, with no set-off of one client's loss against another client's profit]]></text></answer>
+            <answer correct="no"><text><![CDATA[All clients with netting of profits and losses]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only proprietary positions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Each client separately with inter-client netting allowed]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** MTM is grossed across all clients - only losses are added, with no setoff of one client's loss against another client's profit.
+**The Trap:** Within a single client, MTM can be netted across securities. But across different clients, only losses are aggregated.
+**Cross-Exam Context:** Client-level segregation of risk is a foundational principle tested across NISM exams.
+**Distributor's Pro-Tip:** This prevents a broker from using profitable client positions to subsidize losing positions of other clients.]]></text></explanation>
+    </question>
+</QF>

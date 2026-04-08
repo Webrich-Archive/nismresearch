@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Clearing Settlement and Risk Management_16" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The market-wide position limit for a bond future is Rs. 8,000 crores. What is the trading member-level position limit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 1,000 crores]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,200 crores]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 800 crores]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,000 crores]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** TM limit = Lower of (15% of market-wide) or Rs. 1,000 crores. 15% of Rs. 8,000 = Rs. 1,200 crores. Lower of Rs. 1,200 and Rs. 1,000 = Rs. 1,000 crores.
+
+**The Trap:** Rs. 1,200 crores applies only percentage. Rs. 800 crores uses 10% instead of 15%. The Rs. 1,000 crore absolute cap is the binding constraint here.
+
+**Cross-Exam Context:** Position limit cascading (market-wide to TM to client) ensures no single entity dominates the market. Similar frameworks exist in equity derivatives.
+
+**Distributor's Pro-Tip:** When market-wide limits are above Rs. 6,667 crores (1,000/0.15), the Rs. 1,000 crore cap always binds for TMs. Below that, the 15% calculation binds.]]></text></explanation>
+    </question>
+</QF>

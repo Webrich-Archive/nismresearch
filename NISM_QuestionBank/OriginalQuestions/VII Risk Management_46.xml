@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_46" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Market-wide circuit breakers are triggered at which stages of index movement?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[10%, 15%, and 20%]]></text></answer>
+            <answer correct="no"><text><![CDATA[5%, 10%, and 15%]]></text></answer>
+            <answer correct="no"><text><![CDATA[10%, 20%, and 30%]]></text></answer>
+            <answer correct="no"><text><![CDATA[5%, 15%, and 25%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Circuit breakers are applied at three stages: 10%, 15%, and 20% movement of either BSE Sensex or NSE Nifty 50.
+**The Trap:** These are absolute levels, not incremental. A 10% move triggers first, 15% triggers second, and 20% triggers third.
+**Cross-Exam Context:** Circuit breakers are also tested in NISM VIII for derivatives market impact.
+**Distributor's Pro-Tip:** Circuit breakers protect against panic selling or irrational exuberance by giving the market a cooling-off period.]]></text></explanation>
+    </question>
+</QF>

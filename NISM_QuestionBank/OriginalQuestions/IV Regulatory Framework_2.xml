@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Regulatory Framework_2" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A brokerage firm wants to trade IRD for both proprietary and client accounts, without algorithmic trading. What is the required BMC?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 50 lakhs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 25 lakhs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 75 lakhs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1 crore]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Proprietary + client trading without algo requires BMC of Rs. 50 lakhs. Adding client trading doubles the capital requirement from the proprietary-only tier of Rs. 25 lakhs.
+
+**The Trap:** Rs. 25 lakhs is only for proprietary trading. Rs. 75 lakhs and Rs. 1 crore are higher than required for non-algo trading.
+
+**Cross-Exam Context:** The progression from prop-only (Rs. 25L) to prop+client (Rs. 50L) to algo (Rs. 50L + Rs. 25L per algo) is a frequently tested calculation in Series IV.
+
+**Distributor's Pro-Tip:** Client-facing activities carry higher regulatory capital requirements because the broker bears responsibility for client fund safety and order execution quality.]]></text></explanation>
+    </question>
+</QF>

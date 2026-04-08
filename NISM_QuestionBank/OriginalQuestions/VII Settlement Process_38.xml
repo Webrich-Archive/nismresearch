@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Settlement Process_38" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[For shortages in Block window and TFT segment, the close-out is calculated as:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Highest price across exchanges on T day till settlement minus one day OR 20% above settlement price on T day, whichever is higher]]></text></answer>
+            <answer correct="no"><text><![CDATA[10% above the settlement price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Average price plus 15%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Last traded price on T day plus 10%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For Block and TFT shortages, close-out is at the highest price (T day to settlement-1 day) or 20% above settlement price on T day, whichever is higher.
+**The Trap:** These segments have direct close-out without auction - the close-out formula differs from regular securities.
+**Cross-Exam Context:** Block deal and TFT settlement shortages have specific treatment.
+**Distributor's Pro-Tip:** No auction is conducted for these segments - shortages are directly closed out.]]></text></explanation>
+    </question>
+</QF>

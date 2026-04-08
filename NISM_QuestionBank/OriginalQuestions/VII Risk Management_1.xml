@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_1" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What confidence level does the VaR margin in the cash segment intend to cover?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[99.9% of the days]]></text></answer>
+            <answer correct="no"><text><![CDATA[99% of the days]]></text></answer>
+            <answer correct="no"><text><![CDATA[95% of the days]]></text></answer>
+            <answer correct="no"><text><![CDATA[99.5% of the days]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The VaR Margin in the cash/equity segment is intended to cover the largest loss that can be encountered on 99.9% of the days.
+**The Trap:** 99% VaR is used in derivatives (SPAN margining), not cash segment. Students often confuse the two.
+**Cross-Exam Context:** NISM Series VIII (Equity Derivatives) also tests VaR concepts but at 99% for SPAN.
+**Distributor's Pro-Tip:** The higher confidence level (99.9%) in cash segment reflects the need for stronger protection as physical delivery is involved.]]></text></explanation>
+    </question>
+</QF>

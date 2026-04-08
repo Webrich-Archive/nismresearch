@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_12" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A trader sells (writes) a put option at a strike of Rs. 100, receiving a premium of Rs. 4. At expiry the bond trades at Rs. 93. What is the writer's net loss?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 3]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 7]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 4]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 11]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Put writer's obligation = max(0, 100 - 93) = Rs. 7. Net P&L = Premium - Obligation = 4 - 7 = -Rs. 3 (loss).
+**The Trap:** Rs. 7 ignores the premium collected. Rs. 11 adds premium to the loss instead of netting.
+**Cross-Exam Context:** Short put payoffs are tested in NISM Equity Derivatives with identical logic.
+**Distributor's Pro-Tip:** A put writer's maximum loss = Strike - Premium (if underlying goes to zero). Here, max loss = 100 - 4 = Rs. 96.]]></text></explanation>
+    </question>
+</QF>

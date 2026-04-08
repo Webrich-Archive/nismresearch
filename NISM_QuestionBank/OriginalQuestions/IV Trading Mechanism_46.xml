@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Trading Mechanism_46" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trading member notices that their client's position has approached 80% of the client-level position limit. The client wants to place additional orders. What should the trading member do?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Alert the client about the approaching limit and accept orders that keep the position within the prescribed limit, refusing orders that would breach it]]></text></answer>
+            <answer correct="no"><text><![CDATA[Allow the client to exceed the limit since it's only 80%, not 100%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Report the client to SEBI immediately for suspicious trading]]></text></answer>
+            <answer correct="no"><text><![CDATA[Close all existing positions to create room for new orders]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Trading members must monitor client positions against limits. At 80%, the TM should alert the client and accept only orders that keep the position within limits. Exceeding limits would violate exchange rules and attract penalties.
+**The Trap:** 80% is a warning level, not permission to exceed. Reporting to SEBI is premature at this stage. Closing positions is drastic and may not be necessary.
+**Cross-Exam Context:** Position limit monitoring responsibility is tested across all derivative exams.
+**Distributor's Pro-Tip:** Proactive position monitoring prevents limit breaches. Many brokers set internal limits at 80-90% of exchange limits as a buffer.]]></text></explanation>
+    </question>
+</QF>

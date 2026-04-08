@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Trading Mechanism_30" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What are 'pre-trade risk checks' in the ETIRD trading system?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Automated checks performed before an order is accepted, verifying margin availability, position limits, and price validity]]></text></answer>
+            <answer correct="no"><text><![CDATA[Manual verification by the exchange compliance officer before each trade]]></text></answer>
+            <answer correct="no"><text><![CDATA[Risk assessments performed by the trader before placing an order]]></text></answer>
+            <answer correct="no"><text><![CDATA[Checks performed after trade execution to verify settlement capability]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Pre-trade risk checks are automated system-level validations performed in real-time when an order is submitted. They verify: sufficient margin, compliance with position limits, price within permissible range, quantity within freeze limits, etc.
+**The Trap:** Not manual checks. Not trader's own risk assessment. Not post-trade. These are system-enforced automated checks.
+**Cross-Exam Context:** Pre-trade risk management is tested across all exchange-traded segments, especially important for algo trading.
+**Distributor's Pro-Tip:** Pre-trade checks prevent errors before they become trades. They are the first line of defense in exchange risk management.]]></text></explanation>
+    </question>
+</QF>

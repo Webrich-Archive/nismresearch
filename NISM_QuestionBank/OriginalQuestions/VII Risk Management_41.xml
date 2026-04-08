@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_41" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[At what collateral utilization level is a stock broker moved back to normal risk management mode from risk reduction mode?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[When collateral utilization falls below 85%]]></text></answer>
+            <answer correct="no"><text><![CDATA[When collateral utilization falls below 90%]]></text></answer>
+            <answer correct="no"><text><![CDATA[When collateral utilization falls below 80%]]></text></answer>
+            <answer correct="no"><text><![CDATA[When collateral utilization falls below 75%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The stock broker is moved back to normal mode when collateral utilization is lower than 85%.
+**The Trap:** Entry at 90% and exit at 85% - the asymmetric thresholds are designed to prevent rapid oscillation.
+**Cross-Exam Context:** Understanding entry/exit thresholds for risk reduction mode is commonly tested.
+**Distributor's Pro-Tip:** A broker in risk reduction mode should actively reduce positions or bring in additional collateral.]]></text></explanation>
+    </question>
+</QF>

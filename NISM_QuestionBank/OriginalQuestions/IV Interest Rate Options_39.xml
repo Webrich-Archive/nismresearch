@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_39" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[If implied volatility increases, what happens to the price of both call and put options (all else being equal)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Both call and put prices increase]]></text></answer>
+            <answer correct="no"><text><![CDATA[Call price increases but put price decreases]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both call and put prices decrease]]></text></answer>
+            <answer correct="no"><text><![CDATA[Call price decreases but put price increases]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Higher volatility increases the probability of large price movements, which benefits option buyers (both calls and puts). Therefore, both premiums increase.
+**The Trap:** It seems intuitive that calls and puts should move oppositely, but volatility increases the value of both because it increases the chance of the option being ITM.
+**Cross-Exam Context:** Vega's effect on option prices is tested in NISM Equity Derivatives and Research Analyst certifications.
+**Distributor's Pro-Tip:** Vega is always positive for long options (both calls and puts). This is why options are sometimes called 'long volatility' instruments.]]></text></explanation>
+    </question>
+</QF>

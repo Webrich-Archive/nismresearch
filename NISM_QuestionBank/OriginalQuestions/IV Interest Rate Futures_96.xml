@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_96" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A primary dealer has underwritten Rs. 500 crore of a new 10-year GOI bond issue. The auction is next week, and the PD fears that bond prices may fall before it can sell the bonds in the secondary market. What should the PD do?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Sell (short) 10-year GOI bond futures to hedge the underwriting risk]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy 10-year GOI bond futures to add to the long position]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy MIBOR futures to earn interest on the underwriting amount]]></text></answer>
+            <answer correct="no"><text><![CDATA[Do nothing since primary dealers are market makers and must absorb the risk]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The PD has underwriting risk — it must buy bonds at the auction price but may sell at lower prices. Shorting bond futures hedges this risk: if prices fall, the futures profit offsets the loss on the bond position. This is a classic short hedge application.
+
+**The Trap:** Buying futures would double the risk exposure. MIBOR futures don't hedge bond price risk. While PDs do absorb risk, they use hedging tools actively. Professional risk management, not passive risk absorption, is the norm.
+
+**Cross-Exam Context:** Primary dealer underwriting hedging is a key real-world application of IRF. This links banking/primary dealer operations (NISM Series IV) with practical risk management.
+
+**Distributor's Pro-Tip:** PDs are among the most active participants in Indian IRF markets precisely because of underwriting risk. The ability to short futures before an auction and unwind after secondary market distribution is a standard PD workflow.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_45" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is the profit potential for the seller (writer) of a call option?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Limited to the premium received]]></text></answer>
+            <answer correct="no"><text><![CDATA[Unlimited]]></text></answer>
+            <answer correct="no"><text><![CDATA[Limited to the strike price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Limited to the difference between strike and underlying price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A call writer's best outcome is the option expiring worthless (OTM), keeping the entire premium. The maximum profit is thus the premium received.
+**The Trap:** 'Unlimited' is the call writer's maximum LOSS, not profit. The premium is the most a writer can ever earn from the position.
+**Cross-Exam Context:** Writer's limited profit vs unlimited risk is a key concept tested in all NISM derivative certifications.
+**Distributor's Pro-Tip:** Option writing is often compared to insurance -- the writer collects regular premiums but faces large potential payouts in adverse events.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Prevention of Money Laundering Act_34" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under the SEBI AML framework, what should an intermediary do regarding restrictions on account operations after filing an STR?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The intermediary shall not put any restrictions on operations in accounts where an STR has been made]]></text></answer>
+            <answer correct="no"><text><![CDATA[The intermediary must immediately freeze the account after filing an STR]]></text></answer>
+            <answer correct="no"><text><![CDATA[The intermediary must close the account within 30 days of filing the STR]]></text></answer>
+            <answer correct="no"><text><![CDATA[The intermediary must reduce the trading limit to 50% of normal]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The SEBI Master Circular explicitly states that intermediaries shall not put any restrictions on operations in the accounts where an STR has been made. Normal dealings should continue until told otherwise.
+**The Trap:** Option B seems like a prudent safety measure, but restricting the account could alert (tip off) the client about the suspicion.
+**Cross-Exam Context:** This counter-intuitive rule is frequently tested in NISM Series III-A and V-A.
+**Distributor's Pro-Tip:** Continue dealing with the client as normal after filing an STR — any change in behavior could tip off the client. Only suspend transactions if explicitly told to do so by authorities.]]></text></explanation>
+    </question>
+</QF>

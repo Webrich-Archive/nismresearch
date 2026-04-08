@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_28" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A call option is said to be in-the-money (ITM) when:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The underlying price is greater than the strike price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The underlying price is less than the strike price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The underlying price equals the strike price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The option premium is greater than the strike price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A call option is ITM when Underlying > Strike, because the buyer can buy at strike and immediately sell at the higher market price for a gain.
+**The Trap:** Underlying < Strike is the ITM condition for a PUT, not a call. Underlying = Strike is ATM. Premium vs strike is irrelevant to moneyness.
+**Cross-Exam Context:** Moneyness identification is tested in NISM Equity, Currency, and Interest Rate Derivatives modules.
+**Distributor's Pro-Tip:** For calls, think 'in the money = in profit if exercised now'. If spot is above strike, exercising the call yields an immediate gain.]]></text></explanation>
+    </question>
+</QF>

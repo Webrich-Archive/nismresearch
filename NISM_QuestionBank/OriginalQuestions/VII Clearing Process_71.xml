@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Clearing Process_71" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Sequential settlement of trades on the same day means:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Pay-in and pay-out of the first settlement must be completed before commencement of the subsequent settlement]]></text></answer>
+            <answer correct="no"><text><![CDATA[All settlements happen simultaneously]]></text></answer>
+            <answer correct="no"><text><![CDATA[Settlements are done in reverse chronological order]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only one settlement per day is permitted]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** CCs clear and settle trades on a sequential basis - first settlement must be completed before the subsequent one begins.
+**The Trap:** This is relevant when multiple settlement cycles (T+0 and T+1) or holiday backlogs occur on the same day.
+**Cross-Exam Context:** Sequential settlement ensures orderly processing when multiple settlements coincide.
+**Distributor's Pro-Tip:** The pay-out from the first settlement can be used for pay-in of the subsequent settlement.]]></text></explanation>
+    </question>
+</QF>

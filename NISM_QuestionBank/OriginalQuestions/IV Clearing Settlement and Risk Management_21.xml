@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Clearing Settlement and Risk Management_21" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What role does a Professional Clearing Member (PCM) play in the interest rate derivatives market?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A PCM only clears and settles trades on behalf of trading members; it does not trade on its own account]]></text></answer>
+            <answer correct="no"><text><![CDATA[A PCM trades on its own account and also clears for others]]></text></answer>
+            <answer correct="no"><text><![CDATA[A PCM is a retail participant who clears through a broker]]></text></answer>
+            <answer correct="no"><text><![CDATA[A PCM is a bank that provides clearing bank services to the exchange]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A Professional Clearing Member specializes solely in clearing and settlement. Unlike a Trading cum Clearing Member, a PCM does not execute trades. It provides clearing services to trading members who are not clearing members themselves.
+
+**The Trap:** Trading cum Clearing Members both trade and clear - that is a different category. PCMs are not retail participants. Clearing banks are separate entities that facilitate fund transfers.
+
+**Cross-Exam Context:** The CM hierarchy (Self-CM, Trading cum CM, Professional CM) is identical across equity, currency, and interest rate derivative segments.
+
+**Distributor's Pro-Tip:** Large institutional brokers often set up separate PCM entities to ring-fence clearing risk from trading risk, improving overall risk management.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Introduction to Securities Broking Operations_53" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Brokers should have their Business Continuity Plan (BCP) / Disaster Recovery (DR) site that can:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Take over operations with minimal downtime in case the primary site fails]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only store backup data without operational capability]]></text></answer>
+            <answer correct="no"><text><![CDATA[Function only during annual testing exercises]]></text></answer>
+            <answer correct="no"><text><![CDATA[Be located in the same building as the primary site]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Brokers must have BCP/DR management that enables operational continuity with minimal downtime if the primary site fails. This is critical for maintaining market access and protecting client interests during disruptions.
+**The Trap:** DR sites should be geographically separated from primary sites to protect against localized disasters. Same-building DR provides no protection against building-level incidents.
+**Cross-Exam Context:** Series XII covers IT infrastructure requirements for brokers.
+**Distributor's Pro-Tip:** BCP/DR is a regulatory requirement, not optional. Key elements: geographically distant DR site, regular testing, defined recovery time objectives, data backup and synchronization. SEBI mandates brokers to have documented BCP with periodic drills.]]></text></explanation>
+    </question>
+</QF>

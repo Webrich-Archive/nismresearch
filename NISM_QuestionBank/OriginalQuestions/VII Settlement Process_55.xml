@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Settlement Process_55" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Obligations in physical settlement of F&O segment for a particular expiry shall be netted with:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Obligations in the Capital Market segment of the corresponding trade date, where CM-TM-client is common]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only other F&O obligations]]></text></answer>
+            <answer correct="no"><text><![CDATA[Obligations across all segments]]></text></answer>
+            <answer correct="no"><text><![CDATA[There is no netting permitted]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** F&O physical settlement obligations are netted with Capital Market segment obligations where the CM-TM-client (UCC) is common across both segments.
+**The Trap:** The netting requires same CM-TM-client across both segments. It's not universal netting.
+**Cross-Exam Context:** This net settlement mechanism was introduced to reduce settlement volumes.
+**Distributor's Pro-Tip:** Net obligations are settled in the Capital Market segment's settlement/market type and number.]]></text></explanation>
+    </question>
+</QF>

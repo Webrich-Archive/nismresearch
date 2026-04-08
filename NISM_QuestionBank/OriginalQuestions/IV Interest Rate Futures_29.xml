@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_29" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A trader holds a long position of 20 lots in 10-year GOI bond futures. The previous DSP was Rs. 102.50 and today's DSP is Rs. 102.00. What is the MTM cash flow?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. -20,000 (debit)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. +20,000 (credit)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. -10,000 (debit)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. -2,000 (debit)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** MTM = (Current DSP - Previous DSP) × 2000 × Lots = (102.00 - 102.50) × 2000 × 20 = -0.50 × 40,000 = Rs. -20,000. The long position loses when price falls.
+
+**The Trap:** Rs. +20,000 reverses the direction. Rs. -10,000 uses 1000 instead of 2000. Rs. -2,000 uses 200 instead of 2000. For long positions, a price decrease means a negative MTM (cash outflow from margin account).
+
+**Cross-Exam Context:** Daily MTM is a key feature of exchange-traded futures that differentiates them from OTC forwards. This concept is tested across NISM Series IV and Series VIII.
+
+**Distributor's Pro-Tip:** A Rs. 20,000 debit means the clearing corporation will debit this amount from the trader's margin. If the margin falls below the maintenance level, a margin call is triggered.]]></text></explanation>
+    </question>
+</QF>

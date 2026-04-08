@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_70" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A primary dealer has just purchased Rs. 1,000 crore of government bonds in an RBI auction and needs to distribute them over the next 2 weeks. Which strategy best manages the inventory risk?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Short bond futures equivalent to the inventory holding, gradually unwinding futures as bonds are sold to investors]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy additional bond futures to double the profit potential]]></text></answer>
+            <answer correct="no"><text><![CDATA[Purchase put options only on the bonds expected to be sold last]]></text></answer>
+            <answer correct="no"><text><![CDATA[Hold the inventory without hedging since primary dealers are protected by RBI]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Short bond futures create a hedge against price decline during the distribution period. As the PD sells bonds to investors, they proportionally unwind (buy back) the futures, maintaining the hedge ratio until inventory is fully distributed.
+**The Trap:** Buying more futures doubles risk. Options only on some bonds leave the rest unhedged. PDs bear inventory risk; RBI doesn't insulate them from market risk.
+**Cross-Exam Context:** Primary dealer inventory hedging is a classic Series IV application combining market knowledge with hedging theory.
+**Distributor's Pro-Tip:** This is called a 'rolling hedge' or dynamic hedging. The key is to reduce the hedge as the underlying exposure decreases.]]></text></explanation>
+    </question>
+</QF>

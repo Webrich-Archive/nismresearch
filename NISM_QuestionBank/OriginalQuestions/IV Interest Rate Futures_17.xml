@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_17" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A trader shorts 2 lots of 10-year GOI bond futures at Rs. 101.00. The DSP on Day 1 is Rs. 101.50 and on Day 2 is Rs. 100.75. What is the cumulative MTM on Day 2 (from trade price)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 1,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. -1,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 3,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. -2,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Day 1 MTM (short) = (101.00 - 101.50) × 2000 × 2 = -0.50 × 4000 = -Rs. 2,000. Day 2 MTM = (101.50 - 100.75) × 2000 × 2 = 0.75 × 4000 = +Rs. 3,000. Cumulative = -2,000 + 3,000 = Rs. 1,000 profit. Alternatively: (101.00 - 100.75) × 2000 × 2 = Rs. 1,000.
+
+**The Trap:** Rs. -1,000 reverses the short position logic. Rs. 3,000 only considers Day 2 MTM. Rs. -2,000 only considers Day 1. The cumulative profit from the original trade price to the current DSP is what matters overall.
+
+**Cross-Exam Context:** Multi-day MTM tracking is essential for risk management. Each day's MTM is settled in cash (T+1), but the cumulative effect equals the difference between trade price and current DSP.
+
+**Distributor's Pro-Tip:** Daily MTM ensures no large accumulated losses. Even though Day 1 showed a loss for the short trader, the subsequent price fall on Day 2 more than compensated, resulting in a net profit.]]></text></explanation>
+    </question>
+</QF>

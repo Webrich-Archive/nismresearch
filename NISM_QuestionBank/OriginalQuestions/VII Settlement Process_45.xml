@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Settlement Process_45" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[When the auction seller fails to deliver securities on the auction pay-in day, the deal will be closed out at:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Highest price across exchanges from original trade day till auction day OR 20% above closing price on close-out day, whichever is higher]]></text></answer>
+            <answer correct="no"><text><![CDATA[10% above the auction price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The original trade price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Average of trade price and auction price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Failed auction delivery is closed out at the highest price from original trade to auction day or 20% above close-out day closing price, whichever is higher.
+**The Trap:** This is charged to the auction seller who failed to deliver, not the original defaulting member.
+**Cross-Exam Context:** Double default (original seller + auction seller) has its own close-out mechanism.
+**Distributor's Pro-Tip:** Auction participants should only offer shares they can actually deliver.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Other Services Provided by Brokers_41" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[For Group 1 F&O stocks, the initial margin for margin trading facility is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[VaR + 3 times of applicable Extreme Loss Margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[VaR + 5 times of applicable ELM]]></text></answer>
+            <answer correct="no"><text><![CDATA[VaR + ELM]]></text></answer>
+            <answer correct="no"><text><![CDATA[VaR + 2 times of applicable ELM]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For Group 1 F&O stocks, MTF margin = VaR + 3x ELM. For Group 1 non-F&O stocks and Equity ETFs, it is VaR + 5x ELM.
+**The Trap:** F&O stocks get a lower multiplier (3x) than non-F&O stocks (5x) because F&O stocks are generally more liquid.
+**Cross-Exam Context:** The margin formula is a key calculation question.
+**Distributor's Pro-Tip:** For example, if VaR=12.5% and ELM=5%, F&O stock margin = 12.5% + 15% = 27.5%.]]></text></explanation>
+    </question>
+</QF>

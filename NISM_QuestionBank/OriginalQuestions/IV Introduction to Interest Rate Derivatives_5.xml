@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Introduction to Interest Rate Derivatives_5" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A 3×6 FRA means the contract:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Starts in 3 months and ends in 6 months from today]]></text></answer>
+            <answer correct="no"><text><![CDATA[Has a 3-year maturity with 6-month coupons]]></text></answer>
+            <answer correct="no"><text><![CDATA[Starts in 6 months and ends in 3 more months]]></text></answer>
+            <answer correct="no"><text><![CDATA[Is a 9-month contract]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In FRA notation, the first number indicates when the contract starts (3 months from today), and the second number indicates when it ends (6 months from today). The actual borrowing/lending period is the difference: 6-3 = 3 months.
+
+**The Trap:** A 3×6 does NOT mean 3+6=9 months total. The numbers reference the start and end dates from today, so the forward period is 3 months (months 3 to 6).
+
+**Cross-Exam Context:** FRA notation is standard across all derivative markets and is tested in Series IV. Similar notation applies to interest rate swaps and forward starting swaps.
+
+**Distributor's Pro-Tip:** Common FRA designations: 1×4 (1-month start, 3-month period), 3×6 (3-month start, 3-month period), 6×12 (6-month start, 6-month period).]]></text></explanation>
+    </question>
+</QF>

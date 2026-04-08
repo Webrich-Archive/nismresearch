@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Trading Mechanism_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader buys 10 bond futures contracts at Rs. 101.20 and sells them at Rs. 102.00. Face value is Rs. 2,00,000 per contract. Brokerage is 0.01% of contract value on each leg. What is the net profit after brokerage?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 15,593.40]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 16,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 15,600]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 14,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Gross profit per contract = (102.00 - 101.20)/100 x 2,00,000 = 0.80/100 x 2,00,000 = Rs. 1,600. Total gross = 1,600 x 10 = Rs. 16,000. Buy side value = 10 x 2,00,000 x 101.20/100 = Rs. 20,24,000. Sell side value = 10 x 2,00,000 x 102.00/100 = Rs. 20,40,000. Buy brokerage = 20,24,000 x 0.0001 = Rs. 202.40. Sell brokerage = 20,40,000 x 0.0001 = Rs. 204.00. Total brokerage = Rs. 406.40. Net profit = 16,000 - 406.40 = Rs. 15,593.60. Approximately Rs. 15,593.40.
+**The Trap:** Rs. 16,000 ignores brokerage. Rs. 15,600 uses flat Rs. 400 brokerage. Rs. 14,000 double-counts brokerage.
+**Cross-Exam Context:** Trading cost calculations appear in all NISM exams. The key is to include brokerage on both legs.
+**Distributor's Pro-Tip:** Brokerage is charged on contract value (not face value) and on both buy and sell sides. Always include both legs in cost calculation.]]></text></explanation>
+    </question>
+</QF>

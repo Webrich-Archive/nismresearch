@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="III-C Regulatory Framework_30" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A compliance officer discovers that a promoter of a listed company, already holding 28% voting rights, has acquired an additional 4% within the current financial year. What should the compliance officer advise?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[No mandatory open offer is triggered as the additional acquisition of 4% is within the 5% creeping acquisition limit]]></text></answer>
+            <answer correct="no"><text><![CDATA[A mandatory open offer must be made immediately as any acquisition above 25% requires an open offer]]></text></answer>
+            <answer correct="no"><text><![CDATA[The promoter must sell back the 4% acquired shares within 30 days]]></text></answer>
+            <answer correct="no"><text><![CDATA[The promoter must make a public announcement for delisting]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under SEBI (SAST) Regulations, 2011 Regulation 3(2), an acquirer holding 25% or more can acquire additional shares up to 5% voting rights within any financial year without triggering a mandatory open offer. Since 4% < 5%, no open offer is required.
+**The Trap:** The 25% threshold was already crossed (at 28%), so Regulation 3(1) doesn't apply. The relevant rule is Regulation 3(2)'s creeping acquisition limit of 5% per financial year.
+**Distributor's Pro-Tip:** Track cumulative acquisitions within each financial year. If the promoter acquires even 1.1% more in the same year (total 5.1%), an open offer obligation would be triggered.]]></text></explanation>
+    </question>
+</QF>

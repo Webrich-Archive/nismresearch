@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_12" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The daily settlement price of a 91-day T-Bill futures contract is based on a weighted average discount yield (Yw) of 6.80%. What is the daily settlement value?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 1,96,600]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,86,400]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,93,200]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,96,200]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Daily Settlement Value = 2000 × (100 - 0.25 × Yw) = 2000 × (100 - 0.25 × 6.80) = 2000 × (100 - 1.70) = 2000 × 98.30 = Rs. 1,96,600.
+
+**The Trap:** Rs. 1,86,400 uses (100 - 6.80) × 2000, omitting the 0.25 factor. Rs. 1,93,200 uses (100 - 0.25 × 6.80) × 2000 but miscalculates. Rs. 1,96,200 uses 0.25 × 7.60 by mistake. Always use the exact formula with 0.25 as the quarter-year factor.
+
+**Cross-Exam Context:** T-Bill settlement calculations combine money market conventions (discount yield) with futures mechanics. This bridges concepts from NISM Series V-A (Mutual Funds) on money market instruments.
+
+**Distributor's Pro-Tip:** The 0.25 factor approximates 91/365. Small changes in yield translate to small changes in settlement value because the discounting period is short (91 days).]]></text></explanation>
+    </question>
+</QF>

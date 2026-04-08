@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Introduction to Securities Broking Operations_77" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Off-market transfer of securities from a client's demat account requires:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Physical Delivery Instruction Slip (DIS) signed by the client or electronic DIS with OTP from depositories]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only a verbal instruction to the broker]]></text></answer>
+            <answer correct="no"><text><![CDATA[Automatic execution through PoA without any further authorization]]></text></answer>
+            <answer correct="no"><text><![CDATA[SEBI approval for each transfer]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** All off-market transfers require either: (1) Physical DIS signed by the client, or (2) Electronic DIS. Depositories must also obtain client consent through One Time Password (OTP) for off-market transfers from the client's demat account.
+**The Trap:** PoA alone is NOT sufficient for off-market transfers. The physical/electronic DIS with OTP is required as an additional safeguard against unauthorized transfers.
+**Cross-Exam Context:** Series VI covers off-market transfer procedures in detail.
+**Distributor's Pro-Tip:** Off-market transfer protection: Physical DIS (signed by client) OR eDIS + OTP from depository. This dual-layer authentication prevents unauthorized transfers even if someone has access to account details. OTP requirement was introduced to prevent misuse of PoA/DDPI.]]></text></explanation>
+    </question>
+</QF>

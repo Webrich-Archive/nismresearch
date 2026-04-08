@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_74" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A proprietary trading desk wants to profit from an expected steepening of the yield curve (short rates falling relative to long rates). Which spread trade would they execute?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy short-term bond futures (or T-Bill futures) and sell long-term bond futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell short-term bond futures and buy long-term bond futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy both short-term and long-term bond futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell both short-term and long-term bond futures]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Yield curve steepening means short rates fall (short bond prices rise) and long rates rise relatively (long bond prices fall relatively). Buy short-term futures (profits from short rate decline/price rise) and sell long-term futures (profits from long rate rise/price fall).
+**The Trap:** The reverse trade profits from flattening. Buying both is a parallel bull bet. Selling both is a parallel bear bet.
+**Cross-Exam Context:** Yield curve trades using futures are a sophisticated application tested in Series IV.
+**Distributor's Pro-Tip:** Curve steepener: buy front, sell back. Curve flattener: sell front, buy back. Always think in terms of which end benefits.]]></text></explanation>
+    </question>
+</QF>

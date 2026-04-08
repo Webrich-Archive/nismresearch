@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_14" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A put option has a delta of -0.4. If the underlying bond price decreases by Rs. 1.50, by how much will the put premium approximately change?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 0.60 increase]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.60 decrease]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.40 increase]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1.50 increase]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Change in put price = Delta x Change in underlying = -0.4 x (-1.50) = +Rs. 0.60. A negative delta times a negative price change gives a positive premium change.
+**The Trap:** Rs. 0.60 decrease ignores that a falling underlying increases put value. Rs. 0.40 uses only the delta magnitude without multiplying by price change.
+**Cross-Exam Context:** Understanding the sign convention for put delta is critical in all NISM derivative certifications.
+**Distributor's Pro-Tip:** Put delta is negative, meaning puts gain value when the underlying falls. Always pay attention to the signs in delta calculations.]]></text></explanation>
+    </question>
+</QF>

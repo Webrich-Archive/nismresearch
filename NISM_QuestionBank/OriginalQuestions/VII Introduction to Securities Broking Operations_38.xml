@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Introduction to Securities Broking Operations_38" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[High Frequency Trading (HFT) is characterized by:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[High daily portfolio turnover and high order-to-trade ratio (OTR)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Long-term buy and hold strategy]]></text></answer>
+            <answer correct="no"><text><![CDATA[Manual entry of all orders]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trading only in debt securities]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** HFT is a type of algorithmic trading that is latency-sensitive and characterized by high daily portfolio turnover and high order-to-trade ratio (OTR). HFT firms use advanced technology and co-location to minimize execution time.
+**The Trap:** Not all algorithmic trading is HFT. Algo trading is any order generated using automated execution logic; HFT is a subset that focuses on speed and high turnover.
+**Cross-Exam Context:** Series VIII covers HFT regulations and co-location norms.
+**Distributor's Pro-Tip:** Algo trading = automated execution logic. HFT = latency-sensitive algo + high turnover + high OTR. SEBI mandates: all algo orders via Indian servers, exchange permission required, fair co-location access. Retail algo orders exceeding OPS threshold need exchange registration.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Introduction to Securities Broking Operations_42" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In an Offer for Sale (OFS) through stock exchanges, if an investor defaults in pay-in, what penalty is charged?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[10% of the order value]]></text></answer>
+            <answer correct="no"><text><![CDATA[5% of the order value]]></text></answer>
+            <answer correct="no"><text><![CDATA[1% of the order value]]></text></answer>
+            <answer correct="no"><text><![CDATA[No penalty is charged]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In case of default in pay-in by any investor in OFS, 10% of the order value shall be charged as penalty. Importantly, the Settlement Guarantee Fund is NOT available for OFS transactions.
+**The Trap:** Institutional investors can place orders without upfront margin (but such orders cannot be cancelled/modified except for upward revision). Non-institutional investors must pay 100% upfront margin.
+**Cross-Exam Context:** Series IX covers OFS mechanics and regulatory framework.
+**Distributor's Pro-Tip:** OFS timeline: T-1 day announcement, T day institutional bidding, T+1 day retail bidding. No Settlement Guarantee Fund coverage means higher counterparty risk. 10% penalty is a significant deterrent against frivolous orders.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_56" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is the underlying asset for exchange-traded interest rate options in India?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Government of India (GOI) securities, similar to bond futures underlyings]]></text></answer>
+            <answer correct="no"><text><![CDATA[Corporate bonds rated AAA and above]]></text></answer>
+            <answer correct="no"><text><![CDATA[Treasury bills only]]></text></answer>
+            <answer correct="no"><text><![CDATA[State Development Loans (SDLs)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Exchange-traded IROs in India are based on GOI securities, consistent with the underlying for bond futures contracts.
+**The Trap:** Corporate bonds, T-bills alone, and SDLs are not the specified underlyings for exchange-traded IROs, though they are part of the broader debt market.
+**Cross-Exam Context:** NISM Series IV covers both bond futures and options on the same GOI security underlyings.
+**Distributor's Pro-Tip:** The choice of GOI securities as underlyings ensures deep liquidity, transparency, and minimal credit risk, making them ideal for standardized derivative contracts.]]></text></explanation>
+    </question>
+</QF>

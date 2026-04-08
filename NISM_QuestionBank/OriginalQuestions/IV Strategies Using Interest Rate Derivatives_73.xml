@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_73" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A bank has a large fixed-rate bond portfolio and expects a temporary spike in interest rates due to an upcoming monetary policy announcement. After the event, rates are expected to normalize. What is the most cost-effective hedging approach?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy put options on bond futures to protect against temporary price decline while retaining upside if rates normalize quickly]]></text></answer>
+            <answer correct="no"><text><![CDATA[Permanently sell the entire portfolio and buy back later]]></text></answer>
+            <answer correct="no"><text><![CDATA[Short bond futures and keep the hedge for 1 year]]></text></answer>
+            <answer correct="no"><text><![CDATA[Ignore the risk since monetary policy effects are short-lived]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Put options provide insurance for a defined period at a known cost (premium). If rates spike, the puts protect. If rates normalize, the bonds recover and the bank only loses the premium. This is better than selling/repurchasing or maintaining a long-term futures hedge.
+**The Trap:** Selling the portfolio has high transaction costs and tax implications. Year-long futures hedge is excessive for a temporary event. Ignoring risk is imprudent.
+**Cross-Exam Context:** Event-driven hedging strategy selection is an application tested in Series IV and VIII.
+**Distributor's Pro-Tip:** Options are ideal for event risk hedging when you expect the impact to be temporary. Think of it as insurance - you pay premium for protection.]]></text></explanation>
+    </question>
+</QF>

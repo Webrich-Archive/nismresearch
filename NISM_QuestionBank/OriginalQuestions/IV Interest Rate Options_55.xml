@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_55" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[How is the premium for exchange-traded interest rate options settled?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[On T+1 basis (next business day)]]></text></answer>
+            <answer correct="no"><text><![CDATA[On T+0 basis (same day)]]></text></answer>
+            <answer correct="no"><text><![CDATA[On T+2 basis]]></text></answer>
+            <answer correct="no"><text><![CDATA[On the expiry date only]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Premium for exchange-traded IROs is settled on T+1, meaning the buyer pays the premium on the business day following the trade.
+**The Trap:** Equity option premiums in India are settled on T+1 as well, but candidates sometimes confuse with T+0 or T+2 cycles.
+**Cross-Exam Context:** Settlement timelines vary across NISM modules -- equity settlement moved to T+1, while derivative premium settlement has its own rules.
+**Distributor's Pro-Tip:** T+1 premium settlement means the buyer needs funds available by the next business day. This affects cash flow planning for active option traders.]]></text></explanation>
+    </question>
+</QF>

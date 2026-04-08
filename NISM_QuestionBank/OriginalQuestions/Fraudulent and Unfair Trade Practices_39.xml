@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Fraudulent and Unfair Trade Practices_39" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How does 'synchronized trading' differ from normal market trading?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Synchronized trading involves coordinated buy and sell orders by connected parties placed within close time intervals to manipulate price or create false volume, whereas normal trading involves independent, uncoordinated market decisions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Synchronized trading occurs on multiple exchanges while normal trading occurs on a single exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[There is no difference; synchronized trading is a legitimate trading strategy]]></text></answer>
+            <answer correct="no"><text><![CDATA[Synchronized trading is always done through algorithmic trading while normal trading is manual]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Synchronized trading involves connected parties placing coordinated buy and sell orders within close time intervals, creating artificial volume and price movement. The Sunita Gupta case (Vishvas group) is a clear example.
+**The Trap:** Option A confuses cross-exchange arbitrage (legal) with synchronized trading (illegal when done to manipulate). Option C incorrectly links it to algo trading.
+**Cross-Exam Context:** Synchronized trading patterns are a key surveillance tool topic in NISM Series III-A and III-B.
+**Distributor's Pro-Tip:** Surveillance systems flag synchronized trades by looking at time proximity, price similarity, and relationship between counterparties.]]></text></explanation>
+    </question>
+</QF>

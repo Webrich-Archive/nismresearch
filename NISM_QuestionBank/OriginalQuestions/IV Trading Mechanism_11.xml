@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Trading Mechanism_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A bond futures contract has a tick size of Rs. 0.0025 (per Rs. 100 face value). The contract face value is Rs. 2,00,000. A trader buys at Rs. 101.2500 and sells at Rs. 101.2650. How many ticks profit is this, and what is the rupee value?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[6 ticks, Rs. 30]]></text></answer>
+            <answer correct="no"><text><![CDATA[15 ticks, Rs. 75]]></text></answer>
+            <answer correct="no"><text><![CDATA[6 ticks, Rs. 12]]></text></answer>
+            <answer correct="no"><text><![CDATA[60 ticks, Rs. 300]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Price change = 101.2650 - 101.2500 = 0.0150 per Rs. 100. Number of ticks = 0.0150 / 0.0025 = 6 ticks. Tick value = 2,00,000 x 0.0025 / 100 = Rs. 5 per tick. Profit = 6 x 5 = Rs. 30.
+**The Trap:** 15 ticks uses wrong tick size. Rs. 12 uses wrong tick value. 60 ticks adds a zero.
+**Cross-Exam Context:** Tick calculation is a fundamental skill for all futures trading exams.
+**Distributor's Pro-Tip:** Memorize: tick value = (face value / 100) x tick size. For Rs. 2 lakh face value and 0.0025 tick, value = Rs. 5 per tick.]]></text></explanation>
+    </question>
+</QF>

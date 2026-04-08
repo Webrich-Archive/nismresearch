@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_42" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which instrument would be most appropriate for hedging a short-term money market exposure?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[T-Bill futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Long-term government bond futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equity index futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Currency forwards]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** T-Bill futures are designed for short-term interest rate hedging (91-day, 182-day). They move with short-term rates and are the natural hedge for money market exposures. Bond futures are for long-term exposure.
+**The Trap:** Long-term bond futures would create a duration mismatch. Equity and currency futures are unrelated to money market interest rate risk.
+**Cross-Exam Context:** Matching instrument tenor to exposure tenor is a key principle in all hedging exams.
+**Distributor's Pro-Tip:** Instrument selection rule: T-Bill futures for short-term rates, bond futures for long-term rates. Mismatching creates unnecessary basis risk.]]></text></explanation>
+    </question>
+</QF>

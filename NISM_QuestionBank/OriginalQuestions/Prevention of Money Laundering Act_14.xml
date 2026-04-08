@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Prevention of Money Laundering Act_14" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under the SEBI AML Master Circular, what is the intermediary's obligation regarding transactions that are abandoned or aborted by clients when asked for details or documents?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The intermediary shall report all such attempted transactions in STRs, even if not completed, irrespective of the amount]]></text></answer>
+            <answer correct="no"><text><![CDATA[No reporting is required since the transaction was not completed]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only transactions above Rs 10 lakh that are abandoned need to be reported]]></text></answer>
+            <answer correct="no"><text><![CDATA[The intermediary should only maintain an internal record without reporting to FIU-IND]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The SEBI Master Circular clarifies that intermediaries shall report all attempted transactions in STRs, even if not completed by clients, irrespective of the amount of the transaction. Abandoned transactions are themselves a suspicious indicator.
+**The Trap:** Option B seems logical — why report something that didn't happen? But the act of abandoning a transaction when asked for documents is itself suspicious and must be reported.
+**Cross-Exam Context:** This is a frequently tested concept in NISM Series III-A and V-A.
+**Distributor's Pro-Tip:** A client who aborts a transaction when asked for documentation is exhibiting classic money laundering behavior — this is precisely the type of activity STRs are designed to capture.]]></text></explanation>
+    </question>
+</QF>

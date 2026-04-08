@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Code of Conduct and Investor Protection_10" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Power of Attorney (PoA) executed by a client in favor of a stock broker allows the broker to:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Trade on client's behalf without any restrictions]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Operate the client's demat account for settlement purposes as specified]]></text></answer>
+            <answer correct="no"><text><![CDATA[Access the client's bank account freely]]></text></answer>
+            <answer correct="no"><text><![CDATA[All financial transactions on client's behalf]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The PoA allows the broker to operate the client's demat account specifically for settlement-related purposes (like delivering securities). It has limited scope and does not give blanket authority over the client's assets.
+
+**The Trap:** PoA does NOT give unrestricted trading or banking authority. It's specifically for demat operations related to trade settlement. SEBI has restricted the scope of PoA to prevent misuse.
+
+**Cross-Exam Context:** PoA and its limitations are tested in Series IV and are important for understanding client-broker relationships across all NISM exams.
+
+**Distributor's Pro-Tip:** SEBI now encourages DDPI (Demat Debit and Pledge Instruction) as a safer alternative to PoA. DDPI provides more limited and specific authorization, reducing the risk of broker misuse.]]></text></explanation>
+    </question>
+</QF>

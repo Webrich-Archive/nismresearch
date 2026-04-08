@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Settlement Process_46" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Since October 2019, all positions in futures and options on individual securities that remain open on expiry date are settled by:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Physical delivery]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cash settlement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Automatic rollover to next month]]></text></answer>
+            <answer correct="no"><text><![CDATA[Either cash or physical at trader's choice]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** All F&O positions on individual securities remaining open on expiry are physically settled. Index F&O continues to be cash-settled.
+**The Trap:** Physical settlement is for individual stock derivatives only. Index derivatives are still cash-settled.
+**Cross-Exam Context:** The 2019 shift to physical settlement was a major market structure change.
+**Distributor's Pro-Tip:** Physical settlement aligns derivatives with the cash market and reduces manipulation opportunities.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Settlement Process_68" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Settlement obligation value for physically settled options is computed at:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The respective strike prices of the option contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[The closing price of the underlying on expiry day]]></text></answer>
+            <answer correct="no"><text><![CDATA[The original premium paid]]></text></answer>
+            <answer correct="no"><text><![CDATA[The daily settlement price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Settlement obligation for physical options settlement is computed at the respective strike prices.
+**The Trap:** The closing price determines whether the option is ITM, but the settlement value uses the strike price.
+**Cross-Exam Context:** This is a subtle but important distinction in options settlement.
+**Distributor's Pro-Tip:** Strike price is the agreed transaction price for physical delivery - the price at which shares actually change hands.]]></text></explanation>
+    </question>
+</QF>

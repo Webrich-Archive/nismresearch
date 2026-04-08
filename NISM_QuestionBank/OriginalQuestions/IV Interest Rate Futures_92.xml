@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_92" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A mutual fund expects to receive Rs. 10 crore in new subscriptions next month, which it plans to invest in 10-year GOI bonds. The fund manager fears that bond prices may rise before the investment can be made. What should the fund manager do?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy (long) 10-year GOI bond futures now to lock in the current price level]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell (short) 10-year GOI bond futures to benefit from the price rise]]></text></answer>
+            <answer correct="no"><text><![CDATA[Wait and invest at whatever price prevails next month]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy 91-day T-Bill futures instead since they are less risky]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The fund manager faces reinvestment risk — the risk that bond prices will rise (yields fall) before the money can be invested, resulting in lower yields. Going long on bond futures locks in the current price level. If prices rise, the profit on futures offsets the higher purchase price of bonds.
+
+**The Trap:** Shorting would worsen the situation if prices rise. Waiting exposes the fund to the full price risk. T-Bill futures don't hedge 10-year bond price risk. This scenario illustrates anticipatory hedging.
+
+**Cross-Exam Context:** Anticipatory hedging is a classic application tested in NISM Series IV. Similar scenarios appear for importers hedging currency risk (NISM Series VI) or equity fund managers hedging against market rallies.
+
+**Distributor's Pro-Tip:** The anticipatory hedge can be unwound when the actual investment is made. The profit/loss on the futures position adjusts the effective purchase price of the bonds, resulting in a locked-in yield close to the desired level.]]></text></explanation>
+    </question>
+</QF>

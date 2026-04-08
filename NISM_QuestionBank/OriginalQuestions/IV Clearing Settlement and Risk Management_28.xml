@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Clearing Settlement and Risk Management_28" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is the SPAN (Standard Portfolio Analysis of Risk) methodology used for in IRD?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Calculating initial margin requirements by analyzing portfolio risk under various market scenarios]]></text></answer>
+            <answer correct="no"><text><![CDATA[Determining the final settlement price of futures contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[Calculating profit and loss for trading members]]></text></answer>
+            <answer correct="no"><text><![CDATA[Setting position limits for different market participants]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SPAN is a margin methodology that calculates initial margin by simulating portfolio value changes under multiple price and volatility scenarios. It captures the worst-case loss over a specified period.
+
+**The Trap:** SPAN is solely for margin calculation, not settlement prices, P&L, or position limits. It is a risk-based approach, not a simple percentage of notional value.
+
+**Cross-Exam Context:** SPAN is used across all exchange-traded derivative segments in India. The methodology is identical for equity (Series VIII), currency, and interest rate derivatives.
+
+**Distributor's Pro-Tip:** SPAN provides portfolio-level margining, meaning hedged positions get margin offsets. This is more capital-efficient than contract-level margining.]]></text></explanation>
+    </question>
+</QF>

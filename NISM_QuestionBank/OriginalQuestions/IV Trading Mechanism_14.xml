@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Trading Mechanism_14" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader places a stop-loss buy order at trigger price Rs. 102.00 and limit price Rs. 102.50. The market is currently at Rs. 101.50. If the price jumps from Rs. 101.80 directly to Rs. 102.30, what happens?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The stop-loss is triggered at Rs. 102.30 and the order becomes a limit buy order at Rs. 102.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[The order executes at exactly Rs. 102.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[The order is cancelled since it missed the trigger price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The order executes at Rs. 101.80]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When the market price touches or crosses Rs. 102.00 (trigger), the stop-loss order is activated and becomes a limit order at Rs. 102.50. Since the current price is Rs. 102.30 (below the limit of 102.50), it can be filled at Rs. 102.30 or better.
+**The Trap:** The trigger activates the order but doesn't guarantee execution at the trigger price. The order is not cancelled just because the exact trigger wasn't hit. Rs. 101.80 was before the trigger.
+**Cross-Exam Context:** Stop-loss order mechanics are tested in all exchange-traded product exams.
+**Distributor's Pro-Tip:** Stop-loss orders have TWO prices: trigger (when to activate) and limit (maximum buy or minimum sell). Understanding both is exam-critical.]]></text></explanation>
+    </question>
+</QF>

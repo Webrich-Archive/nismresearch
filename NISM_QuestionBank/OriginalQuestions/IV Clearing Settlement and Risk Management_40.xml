@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Clearing Settlement and Risk Management_40" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Which of the following correctly describes the client-level position limit for single bond futures?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Lower of 3% of outstanding stock of underlying bond or Rs. 500 crores]]></text></answer>
+            <answer correct="no"><text><![CDATA[Lower of 5% of outstanding stock or Rs. 500 crores]]></text></answer>
+            <answer correct="no"><text><![CDATA[Lower of 3% of outstanding stock or Rs. 1,000 crores]]></text></answer>
+            <answer correct="no"><text><![CDATA[3% of outstanding stock with no absolute cap]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Client-level position limit = Lower of (3% of outstanding stock of underlying bond) OR Rs. 500 crores, whichever is lower. This dual test ensures both proportional and absolute caps.
+
+**The Trap:** 5% is wrong percentage. Rs. 1,000 crores is the TM cap, not client cap. There IS an absolute cap. The dual-condition test is the key regulatory mechanism.
+
+**Cross-Exam Context:** The cascading limit structure (client < TM < market-wide) with both percentage and absolute caps is a signature regulatory design tested across derivative exams.
+
+**Distributor's Pro-Tip:** For heavily issued bonds with Rs. 50,000+ crores outstanding, the Rs. 500 crore cap always binds. For less liquid bonds, the 3% calculation may be the binding constraint.]]></text></explanation>
+    </question>
+</QF>

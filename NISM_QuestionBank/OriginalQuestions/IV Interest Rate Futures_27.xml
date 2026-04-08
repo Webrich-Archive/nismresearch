@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_27" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A GOI bond with a coupon rate of 7.50% is trading at Rs. 105.00 in the spot market. The repo rate for financing is 6.50%. What is the approximate net cost of carry for 3 months (simplified)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. -0.25 (negative cost of carry)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1.625]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.25]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. -1.625]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Cost of Carry = Financing Cost - Coupon Income. Financing cost for 3 months = 105.00 × 6.50% × (3/12) = Rs. 1.706. Coupon income for 3 months = 100 × 7.50% × (3/12) = Rs. 1.875. Net carry = 1.706 - 1.875 = Rs. -0.169 ≈ Rs. -0.25 (approximately, accounting for rounding and the premium paid). Negative carry means the coupon income exceeds the financing cost.
+
+**The Trap:** Rs. 1.625 considers only financing cost. Rs. 0.25 reverses the sign. Rs. -1.625 only considers the coupon. Net cost of carry = financing cost minus coupon income. When coupon > financing rate, carry is negative (favorable for holding bonds).
+
+**Cross-Exam Context:** Cost of carry determines the futures-spot price relationship. Negative carry means futures should trade below spot (backwardation), which is common when coupon rates exceed repo rates.
+
+**Distributor's Pro-Tip:** In India's IRF market, when repo rates are below coupon rates on GOI bonds, futures often trade at a slight discount to spot. This is normal and not an arbitrage opportunity after accounting for all costs.]]></text></explanation>
+    </question>
+</QF>

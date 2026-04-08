@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Regulatory Framework_9" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The market-wide position limit for a T-Bill future is Rs. 5,000 crores. What is the maximum position a trading member can hold?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 750 crores]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,000 crores]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 500 crores]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,500 crores]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** TM limit = Lower of (15% of market-wide = 15% x 5,000 = Rs. 750 crores) or Rs. 1,000 crores = Rs. 750 crores (percentage binds since 750 < 1,000).
+
+**The Trap:** Rs. 1,000 crores is the absolute cap which does not bind here since the percentage gives a lower number. Rs. 500 crores uses 10%. Rs. 1,500 crores uses 30%.
+
+**Cross-Exam Context:** When market-wide limits are smaller, the percentage calculation becomes the binding constraint. This tests understanding of which limb binds under different conditions.
+
+**Distributor's Pro-Tip:** For T-Bill futures which may have smaller market-wide limits than bond futures, the 15% percentage calculation often becomes the binding TM constraint rather than the Rs. 1,000 crore cap.]]></text></explanation>
+    </question>
+</QF>

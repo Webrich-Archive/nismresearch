@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Accounting and Taxation_9" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A trader earns Rs. 5,00,000 from exchange-traded bond futures and incurs Rs. 2,00,000 loss from exchange-traded equity futures in the same year. What is the net taxable income from derivatives?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 5,00,000]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 3,00,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,00,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 7,00,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Both exchange-traded bond futures and equity futures income/loss are treated as non-speculative business income. They can be netted: Rs. 5,00,000 - Rs. 2,00,000 = Rs. 3,00,000 net taxable business income.
+
+**The Trap:** Rs. 5,00,000 ignores the equity futures loss which is eligible for set-off. Rs. 7,00,000 incorrectly adds losses. Since both are non-speculative business income, full netting is permitted.
+
+**Cross-Exam Context:** Cross-product loss set-off within business income is tested in Series IV and is relevant for traders active across multiple derivative markets.
+
+**Distributor's Pro-Tip:** Ensure all derivative transactions are through recognized stock exchanges to classify them as non-speculative. OTC derivative losses may be treated as speculative with different set-off rules.]]></text></explanation>
+    </question>
+</QF>

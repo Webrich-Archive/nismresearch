@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_30" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Other liquid assets (non-cash component) cannot be used for which purpose?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Mark to market losses]]></text></answer>
+            <answer correct="no"><text><![CDATA[VaR margin requirement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Base minimum capital]]></text></answer>
+            <answer correct="no"><text><![CDATA[Extreme loss margin]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Non-cash liquid assets have two restrictions: (1) they cannot be used for MTM losses, and (2) total non-cash assets cannot exceed total cash equivalents.
+**The Trap:** Non-cash assets can be used for VaR and ELM margins, but not for MTM losses.
+**Cross-Exam Context:** The segregation of acceptable collateral for different margin types is a key risk management principle.
+**Distributor's Pro-Tip:** This ensures that when actual losses crystallize, they can be settled without relying on illiquid assets.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Clearing Settlement and Risk Management_5" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A trading member's position in bond futures needs to be checked against limits. The market-wide position limit is Rs. 10,000 crores. What is the trading member's position limit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 1,000 crores]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,500 crores]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 500 crores]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,000 crores]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** TM-level limit = Lower of (15% of market-wide limit) or Rs. 1,000 crores. 15% of Rs. 10,000 crores = Rs. 1,500 crores. Lower of Rs. 1,500 crores and Rs. 1,000 crores = Rs. 1,000 crores.
+
+**The Trap:** Rs. 1,500 crores applies only the percentage. Rs. 500 crores confuses TM limit with client limit. The Rs. 1,000 crore cap is specific to trading members.
+
+**Cross-Exam Context:** TM limits sit between client limits and market-wide limits in the hierarchy. Series VIII has analogous but different thresholds for equity derivatives.
+
+**Distributor's Pro-Tip:** Position limit hierarchy: Client < TM < Market-wide. Each level has both a percentage-based and absolute cap, with the lower applying.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Clearing Settlement and Risk Management_47" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A trading member on NSE wants to clear their IRD trades through ICCL (BSE's clearing corporation) to benefit from margin offsets with their BSE positions. Can they do this?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[No, because interoperability is not available for interest rate derivatives]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, interoperability allows free choice of clearing corporation for all products]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, but only if both exchanges approve the arrangement]]></text></answer>
+            <answer correct="no"><text><![CDATA[No, because trading members cannot be clearing members simultaneously]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI's interoperability framework explicitly excludes interest rate derivatives (and commodity derivatives). An NSE IRD trader must clear through NCL and cannot choose ICCL.
+
+**The Trap:** Interoperability IS available for equity and currency derivatives, but NOT for IRD. It is not about exchange approval or TM/CM status - it is a product-level exclusion.
+
+**Cross-Exam Context:** Interoperability was introduced by SEBI to promote competition among clearing corporations but was limited to specific product categories initially.
+
+**Distributor's Pro-Tip:** The lack of interoperability in IRD means participants must maintain separate margin pools at NCL and ICCL if they trade on both NSE and BSE, increasing capital requirements.]]></text></explanation>
+    </question>
+</QF>

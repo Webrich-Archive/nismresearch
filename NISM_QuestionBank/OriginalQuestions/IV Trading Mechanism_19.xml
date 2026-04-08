@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Trading Mechanism_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the order matching principle used in the ETIRD trading system?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Price-time priority: best price is matched first; among same-price orders, earliest order is matched first]]></text></answer>
+            <answer correct="no"><text><![CDATA[Random allocation among all orders at the same price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Pro-rata matching based on order size]]></text></answer>
+            <answer correct="no"><text><![CDATA[First-come-first-served regardless of price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The ETIRD trading system uses price-time priority: the best-priced order (highest bid or lowest ask) gets matched first. If multiple orders are at the same price, the one entered earliest gets priority.
+**The Trap:** Random allocation is used in some auction systems. Pro-rata is used in some specific futures exchanges. FCFS ignoring price is not used in any exchange.
+**Cross-Exam Context:** Price-time priority is the standard matching algorithm across all Indian exchange-traded segments.
+**Distributor's Pro-Tip:** This means if you want your order filled faster, either offer a better price or place your order earlier.]]></text></explanation>
+    </question>
+</QF>

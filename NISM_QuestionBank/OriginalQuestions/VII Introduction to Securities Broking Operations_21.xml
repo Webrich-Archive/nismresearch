@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Introduction to Securities Broking Operations_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How frequently must algorithmic trading systems of stock brokers be subjected to a system audit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Every six months]]></text></answer>
+            <answer correct="no"><text><![CDATA[Annually]]></text></answer>
+            <answer correct="no"><text><![CDATA[Every two years]]></text></answer>
+            <answer correct="no"><text><![CDATA[Quarterly]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Stock brokers providing algorithmic trading facility must subject their algo trading systems to a system audit every six months. The audit must be undertaken by a certified system auditor to ensure SEBI/exchange requirements are effectively implemented.
+**The Trap:** All algorithmic orders must be routed through broker servers located in India — offshore routing is not permitted. This is a separate requirement from the audit.
+**Cross-Exam Context:** Series VIII covers algo trading regulations for derivatives.
+**Distributor's Pro-Tip:** Algo trading compliance: exchange permission required, minimum risk controls (price/quantity/value checks), orders through Indian servers only, 6-monthly system audit by certified auditor, fair/equitable co-location access. New 2025 rules: retail algo orders exceeding OPS threshold must be registered with exchange.]]></text></explanation>
+    </question>
+</QF>

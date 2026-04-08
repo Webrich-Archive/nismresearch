@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Prevention of Money Laundering Act_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under PMLA, for how long must records evidencing the identity of clients and beneficial owners be maintained?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[5 years from the date of account opening]]></text></answer>
+            <answer correct="no"><text><![CDATA[3 years after the business relationship has ended]]></text></answer>
+            <answer correct="yes"><text><![CDATA[5 years after the business relationship has ended or the account has been closed, whichever is later]]></text></answer>
+            <answer correct="no"><text><![CDATA[7 years from the date of the last transaction]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Section 12(4) of PMLA states that identity records shall be maintained for a period of five years after the business relationship between a client and the reporting entity has ended or the account has been closed, whichever is later.
+**The Trap:** Option A uses 5 years but from the wrong starting point (account opening instead of relationship ending/account closure).
+**Cross-Exam Context:** This distinction between transaction records and identity records retention is tested in NISM Series III-A.
+**Distributor's Pro-Tip:** The 'whichever is later' clause is important — if a relationship ends but the account stays open (or vice versa), the clock starts from the later event.]]></text></explanation>
+    </question>
+</QF>

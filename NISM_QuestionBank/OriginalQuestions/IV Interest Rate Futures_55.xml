@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_55" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What advantage does the clearing corporation provide in exchange-traded IRF trading?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[It acts as the central counterparty (CCP), eliminating counterparty credit risk between buyers and sellers]]></text></answer>
+            <answer correct="no"><text><![CDATA[It sets the interest rates for the futures contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[It guarantees a minimum profit for all traders]]></text></answer>
+            <answer correct="no"><text><![CDATA[It provides loans to traders for margin funding]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The clearing corporation (e.g., NCL, ICCL) acts as the CCP — it becomes the buyer to every seller and the seller to every buyer. This novation eliminates bilateral counterparty risk, which is a major advantage over OTC markets.
+
+**The Trap:** The clearing corporation does not set interest rates (the market does). It does not guarantee profits (futures are risky). It does not provide loans (traders must fund their own margins). Its primary role is risk management through novation.
+
+**Cross-Exam Context:** CCP functioning is a key topic across all NISM derivative certifications. Post-2008, the G20 mandated central clearing for standardized OTC derivatives. CCPs are systemically important.
+
+**Distributor's Pro-Tip:** The clearing corporation collects margins, manages defaults, and maintains a Settlement Guarantee Fund (SGF). This institutional infrastructure makes exchange-traded derivatives significantly safer than bilateral OTC trades.]]></text></explanation>
+    </question>
+</QF>

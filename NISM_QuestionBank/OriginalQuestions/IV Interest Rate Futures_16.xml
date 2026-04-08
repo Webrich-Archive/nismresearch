@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_16" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The 91-day T-Bill futures price band is +/-1%. If the base price is 93.20, what is the lower circuit limit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[92.268]]></text></answer>
+            <answer correct="no"><text><![CDATA[92.20]]></text></answer>
+            <answer correct="no"><text><![CDATA[92.27]]></text></answer>
+            <answer correct="no"><text><![CDATA[89.20]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Lower circuit = Base Price × (1 - 1%) = 93.20 × 0.99 = 92.268. The T-Bill futures have a tighter price band of +/-1% compared to the +/-3% for GOI bond futures.
+
+**The Trap:** 92.20 subtracts 1.00 instead of 1% of 93.20. 89.20 subtracts 4.00. The percentage must be applied to the base price, not subtracted as an absolute number.
+
+**Cross-Exam Context:** Different IRF products have different price bands: GOI bond futures at +/-3%, T-Bill futures at +/-1%. Knowing which band applies to which product is important for the exam.
+
+**Distributor's Pro-Tip:** T-Bills are less volatile than long-dated bonds, hence the tighter 1% price band. The 91-day maturity means limited price sensitivity to rate changes compared to 10-year bonds.]]></text></explanation>
+    </question>
+</QF>

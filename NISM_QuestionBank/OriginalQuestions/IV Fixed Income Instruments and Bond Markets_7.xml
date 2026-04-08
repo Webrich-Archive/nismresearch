@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Fixed Income Instruments and Bond Markets_7" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A bond has a Modified Duration of 5.11 and a dirty price of Rs. 100.60. What is the PV01 (Price Value of a Basis Point)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 0.051]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.514]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 5.14]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.0051]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** PV01 = (Dirty Price × Modified Duration) / 10000 = (100.60 × 5.11) / 10000 = 514.07 / 10000 = Rs. 0.0514 ≈ Rs. 0.051. PV01 measures the rupee price change for a 1 basis point yield change.
+
+**The Trap:** Rs. 0.514 is 10x too large (dividing by 1000 instead of 10000). Rs. 5.14 confuses percentage change with absolute change. Always remember the 10000 divisor.
+
+**Cross-Exam Context:** PV01 (also called PVBP or DV01) is a standard risk metric used in Series IV for interest rate risk management and in Series VIII for hedge ratio calculations.
+
+**Distributor's Pro-Tip:** PV01 is used by bond desks to quickly calculate P&L impact. If you hold Rs. 10 crore face value of a bond with PV01 of 0.051, a 10 bps rate rise costs you approximately Rs. 5.1 lakh.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Clearing Settlement and Risk Management_18" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The outstanding stock of a bond is Rs. 10,000 crores. A client currently holds bond futures worth Rs. 280 crores. How much additional position can the client take?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 20 crores]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 220 crores]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 500 crores]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 300 crores]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Client limit = Lower of (3% x 10,000 = Rs. 300 crores) or Rs. 500 crores = Rs. 300 crores. Remaining capacity = 300 - 280 = Rs. 20 crores.
+
+**The Trap:** Rs. 220 crores uses Rs. 500 crore cap instead of the percentage. Rs. 500 crores ignores current holdings. Rs. 300 crores ignores the existing position. Must first determine the binding limit, then subtract existing position.
+
+**Cross-Exam Context:** Monitoring remaining position capacity is crucial for compliance. Breaching position limits attracts penalties from the exchange.
+
+**Distributor's Pro-Tip:** Clients near their position limits should be proactively alerted by their broker. Automatic checks in the trading system prevent inadvertent breaches.]]></text></explanation>
+    </question>
+</QF>

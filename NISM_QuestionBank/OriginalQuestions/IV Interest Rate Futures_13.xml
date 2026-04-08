@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_13" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A trader goes long on MIBOR futures at 6.50%. At settlement, the simple average of daily FBIL overnight MIBOR for the month is 6.65%. What is the profit per contract?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 6,165]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 61,650]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 616.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. -6,165]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Profit = (Settlement Rate - Entry Rate) × 100 × 411 = (6.65 - 6.50) × 100 × 411 = 0.15 × 100 × 411 = 15 × 411 = Rs. 6,165. A long MIBOR futures position profits when rates rise.
+
+**The Trap:** Rs. -6,165 assumes the long loses when rates rise — but MIBOR futures are quoted directly as rates, so long profits when the rate rises (unlike bond futures where long profits when price rises / rate falls). Rs. 61,650 multiplies by 1000 instead of 100.
+
+**Cross-Exam Context:** MIBOR futures are unique because they are quoted in interest rate terms, not price terms. This is opposite to bond futures where price and rate are inversely related.
+
+**Distributor's Pro-Tip:** MIBOR futures long = expecting higher overnight rates. This is the opposite intuition from bond futures where long = expecting lower rates (higher prices). Don't confuse the two!]]></text></explanation>
+    </question>
+</QF>

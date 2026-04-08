@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Introduction to Interest Rate Derivatives_21" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[CDS (Credit Default Swap) is a derivative where the underlying risk is:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Interest rate risk]]></text></answer>
+            <answer correct="no"><text><![CDATA[Currency risk]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Credit risk of a reference entity]]></text></answer>
+            <answer correct="no"><text><![CDATA[Commodity price risk]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A CDS is a derivative contract where the protection buyer pays regular premiums to the protection seller, who agrees to compensate for any loss if a credit event (like default) occurs on a reference obligation. The underlying risk is credit risk.
+
+**The Trap:** While CDS may reference fixed income instruments, the risk being transferred is specifically credit risk, not interest rate risk. CDS prices move with credit spreads, not interest rates.
+
+**Cross-Exam Context:** CDS is mentioned in Series IV as a derivative class alongside interest rate, equity, forex, and commodity derivatives. It may also appear in Series XIII.
+
+**Distributor's Pro-Tip:** CDS spreads are a real-time indicator of market-perceived default risk. A widening CDS spread signals deteriorating creditworthiness of the reference entity.]]></text></explanation>
+    </question>
+</QF>

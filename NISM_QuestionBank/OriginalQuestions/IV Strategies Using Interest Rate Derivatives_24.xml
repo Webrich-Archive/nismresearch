@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader enters a bear put spread on bond futures: buys put at Rs. 102 for Rs. 3.50 and sells put at Rs. 97 for Rs. 1.00. What is the maximum profit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 2.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 5.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 3.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Max profit = (Higher strike - Lower strike) - Net premium paid = (102 - 97) - (3.50 - 1.00) = 5 - 2.50 = Rs. 2.50. Occurs when underlying is at or below lower strike.
+**The Trap:** Rs. 5.00 is strike difference. Rs. 3.50 is premium paid. Rs. 2.00 miscalculates.
+**Cross-Exam Context:** Bear put spread max profit formula is identical for equity and IRD options.
+**Distributor's Pro-Tip:** In a debit spread, max profit = strike difference - net debit. In a credit spread, max profit = net credit.]]></text></explanation>
+    </question>
+</QF>

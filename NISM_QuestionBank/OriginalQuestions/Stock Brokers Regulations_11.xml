@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Stock Brokers Regulations_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[According to SEBI regulations, the contract note must be issued to the client within what timeframe after the execution of the trade?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[24 hours]]></text></answer>
+            <answer correct="no"><text><![CDATA[48 hours]]></text></answer>
+            <answer correct="no"><text><![CDATA[On the same day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Within 2 working days]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** It is compulsory for the member broker to issue the contract note to the client for its purchase or sale within 24 hours of the execution of the contract.
+**The Trap:** 48 hours is the timeline for delivery of securities/payment, not contract note issuance. These two timelines are frequently tested together.
+**Cross-Exam Context:** Contract note requirements are tested in NISM Series VIII and other exams involving trading operations.
+**Distributor's Pro-Tip:** Ensure contract notes contain the running serial number, UCC, PAN details, trade price, brokerage charged, and the digital signature of the authorised person. Missing any element can result in regulatory action.]]></text></explanation>
+    </question>
+</QF>

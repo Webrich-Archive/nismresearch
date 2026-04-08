@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Settlement Process_2" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[For arriving at the settlement day in T+1 rolling settlement, which days are excluded?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Bank holidays, Exchange/CC holidays, Saturdays and Sundays]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only Sundays and national holidays]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only Saturdays and Sundays]]></text></answer>
+            <answer correct="no"><text><![CDATA[No days are excluded]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** All intervening holidays including bank holidays, Exchange/CC holidays, Saturdays and Sundays are excluded when calculating settlement day.
+**The Trap:** It is not just weekends - bank holidays and exchange holidays also extend the settlement period.
+**Cross-Exam Context:** Understanding business day calculation is practical knowledge for the exam.
+**Distributor's Pro-Tip:** A Friday trade in T+1 would settle on the following Monday (if Monday is not a holiday).]]></text></explanation>
+    </question>
+</QF>

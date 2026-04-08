@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Introduction to Securities Broking Operations_14" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the pre-open session of the equity market, price discovery is done through:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Call auction mechanism]]></text></answer>
+            <answer correct="no"><text><![CDATA[Continuous order matching]]></text></answer>
+            <answer correct="no"><text><![CDATA[Negotiated dealing]]></text></answer>
+            <answer correct="no"><text><![CDATA[Random price assignment]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The pre-open session (9:00-9:15 AM) uses call auction mechanism for price discovery. Orders are collected for the first 8 minutes (with random closure in the last 1 minute), then matched at a single equilibrium price that maximizes tradeable quantity.
+**The Trap:** The normal trading session (9:15-3:30 PM) uses continuous order matching, not call auction. Students must distinguish between the two mechanisms.
+**Cross-Exam Context:** Series VIII covers pre-open mechanics for derivatives.
+**Distributor's Pro-Tip:** Call auction = batch all orders, find single equilibrium price. Used in: pre-open (15 min), illiquid securities (6 hourly sessions), special pre-open for IPOs (60 min). Normal session uses continuous matching (price-time priority).]]></text></explanation>
+    </question>
+</QF>

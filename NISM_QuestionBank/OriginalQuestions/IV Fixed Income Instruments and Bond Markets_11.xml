@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Fixed Income Instruments and Bond Markets_11" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A bond has a dirty price of Rs. 100.65 and accrued interest of Rs. 1.46. What is the clean price?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 102.11]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 99.19]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 100.65]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 98.54]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Clean Price = Dirty Price - Accrued Interest = 100.65 - 1.46 = Rs. 99.19. Bonds are quoted at clean price but settled at dirty price (which includes accrued interest).
+
+**The Trap:** Rs. 102.11 adds accrued interest instead of subtracting. The dirty price is always ≥ clean price because it includes the accrued interest component.
+
+**Cross-Exam Context:** Clean vs. dirty price distinction is critical for bond trading and is tested in Series IV. Settlement of bond futures also involves clean price quotation.
+
+**Distributor's Pro-Tip:** When you buy a bond between coupon dates, you pay dirty price (clean + accrued interest). The seller receives compensation for holding the bond since the last coupon date.]]></text></explanation>
+    </question>
+</QF>

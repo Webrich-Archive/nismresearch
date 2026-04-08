@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_42" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[An option that has zero intrinsic value and the underlying price equals the strike price is termed as:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[At-the-money (ATM)]]></text></answer>
+            <answer correct="no"><text><![CDATA[In-the-money (ITM)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Out-of-the-money (OTM)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Deep-in-the-money]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When Underlying = Strike, the option is ATM. It has zero intrinsic value (like OTM) but is at the boundary between ITM and OTM.
+**The Trap:** OTM also has zero intrinsic value, but the underlying does not equal the strike -- it is on the wrong side. ITM has positive intrinsic value.
+**Cross-Exam Context:** Moneyness classification is a fundamental concept tested across all NISM derivative modules.
+**Distributor's Pro-Tip:** ATM options have the highest time value and the fastest time decay. Their delta is approximately 0.5 for calls and -0.5 for puts.]]></text></explanation>
+    </question>
+</QF>

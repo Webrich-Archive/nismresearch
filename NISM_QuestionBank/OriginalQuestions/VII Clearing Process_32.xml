@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Clearing Process_32" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[By what time does the clearing corporation determine final obligations through multilateral netting on T+1?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[By 9:00 AM]]></text></answer>
+            <answer correct="no"><text><![CDATA[By 7:30 AM]]></text></answer>
+            <answer correct="no"><text><![CDATA[By 11:00 AM]]></text></answer>
+            <answer correct="no"><text><![CDATA[By 1:30 PM]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The CC performs multilateral netting and determines final obligations of all CMs and custodians by 9:00 AM on T+1.
+**The Trap:** 7:30 AM is the custodial confirmation deadline. 11:00 AM is the pay-in deadline.
+**Cross-Exam Context:** The sequence: confirmation (7:30) → netting (9:00) → pay-in (11:00) → pay-out is critical.
+**Distributor's Pro-Tip:** The 90-minute gap between confirmation and obligation download gives the CC time for computation.]]></text></explanation>
+    </question>
+</QF>

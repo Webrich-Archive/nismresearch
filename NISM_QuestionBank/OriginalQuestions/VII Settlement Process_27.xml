@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Settlement Process_27" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The 'Client Unpaid Securities Pledgee Account' is used for:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Pledging of unpaid securities of clients]]></text></answer>
+            <answer correct="no"><text><![CDATA[Holding client's paid securities]]></text></answer>
+            <answer correct="no"><text><![CDATA[Settlement purposes]]></text></answer>
+            <answer correct="no"><text><![CDATA[Margin funding]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** This account is specifically for pledging unpaid securities of clients - securities bought by clients who haven't paid fully.
+**The Trap:** This is different from the margin pledge account which is for margin obligations.
+**Cross-Exam Context:** Understanding unpaid securities handling is important for compliance.
+**Distributor's Pro-Tip:** Brokers can retain unpaid securities as collateral until clients clear their payment obligations.]]></text></explanation>
+    </question>
+</QF>

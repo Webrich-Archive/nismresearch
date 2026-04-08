@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_13" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A call option has a delta of 0.6. If the underlying bond price increases by Rs. 2, by approximately how much will the call option premium change?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 1.20 increase]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2.00 increase]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.60 increase]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1.20 decrease]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Change in option price = Delta x Change in underlying = 0.6 x 2 = Rs. 1.20. Since delta is positive for calls, the premium increases.
+**The Trap:** Rs. 0.60 forgets to multiply by the change amount (Rs. 2). Rs. 2.00 assumes delta = 1.
+**Cross-Exam Context:** Delta-based price change estimation is tested in NISM Equity Derivatives module.
+**Distributor's Pro-Tip:** Delta gives a linear approximation. For large price moves, gamma (change in delta) makes the actual change differ from this estimate.]]></text></explanation>
+    </question>
+</QF>

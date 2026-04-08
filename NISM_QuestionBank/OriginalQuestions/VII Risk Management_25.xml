@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_25" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[At which level can crystallised losses from one security be adjusted against crystallised profits from another security for ICMTM?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[At the individual client level only]]></text></answer>
+            <answer correct="no"><text><![CDATA[At the member/broker level]]></text></answer>
+            <answer correct="no"><text><![CDATA[At the exchange level]]></text></answer>
+            <answer correct="no"><text><![CDATA[No adjustment is permitted]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Crystallised losses at a security level for a client shall be adjusted against the crystallised profit from another security for the same client. However, there is no setoff across two rolling settlements or across different clients.
+**The Trap:** Setoff is allowed within the same client across securities, but not across clients or across different settlements.
+**Cross-Exam Context:** The principle of client-level netting with member-level grossing is consistently applied.
+**Distributor's Pro-Tip:** This ensures individual client risk is properly managed while preventing cross-client subsidization.]]></text></explanation>
+    </question>
+</QF>

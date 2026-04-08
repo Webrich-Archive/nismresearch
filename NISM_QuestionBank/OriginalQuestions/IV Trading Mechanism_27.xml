@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Trading Mechanism_27" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the difference between a day order and a GTC (Good Till Cancelled) order?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A day order expires at the end of the trading day if unexecuted; a GTC order remains in the system until executed or explicitly cancelled]]></text></answer>
+            <answer correct="no"><text><![CDATA[A day order can only be placed during the first hour; a GTC order can be placed anytime]]></text></answer>
+            <answer correct="no"><text><![CDATA[A day order has a limit price; a GTC order is always a market order]]></text></answer>
+            <answer correct="no"><text><![CDATA[A day order is for intraday positions; a GTC order is for delivery positions]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Day orders automatically expire at market close if not filled. GTC orders persist across trading days until they are either matched or cancelled by the trader. GTD (Good Till Date) orders expire on a specified date.
+**The Trap:** Both can be placed anytime during trading hours. Both can have limit prices. Both can be for any position type.
+**Cross-Exam Context:** Order validity types are tested across all exchange-traded product exams.
+**Distributor's Pro-Tip:** GTC orders are convenient for patient traders but require monitoring to ensure the order is still relevant.]]></text></explanation>
+    </question>
+</QF>

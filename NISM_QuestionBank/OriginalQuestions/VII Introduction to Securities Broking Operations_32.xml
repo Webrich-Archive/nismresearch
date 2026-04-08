@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Introduction to Securities Broking Operations_32" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A stock broker's risk management system must include which of the following pre-trade controls?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Order Quantity and Value Limits, Symbol-wise limits, User/Branch Order Limits, and Order Price limits]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only post-trade settlement verification]]></text></answer>
+            <answer correct="no"><text><![CDATA[Client net worth verification only]]></text></answer>
+            <answer correct="no"><text><![CDATA[Manual review of each order by the compliance officer]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The broker must have online real-time risk management with pre-defined limits including: Order Quantity and Value Limits, Symbol-wise User Order/Quantity limits, User/Branch Order Limits, Order Price limits. Only orders within RMS parameters are allowed to enter the exchange.
+**The Trap:** These are UPFRONT (pre-trade) controls, not post-trade checks. Orders failing these checks are rejected before reaching the exchange.
+**Cross-Exam Context:** Series IV covers risk management in comprehensive detail.
+**Distributor's Pro-Tip:** Pre-trade RMS is mandatory for ALL orders — no exceptions. The system checks margin availability and order limits before routing to exchange. This prevents overexposure and protects both the broker and the market from excessive risk.]]></text></explanation>
+    </question>
+</QF>

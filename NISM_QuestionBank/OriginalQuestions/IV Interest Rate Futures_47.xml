@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_47" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[In the context of futures, what does 'zero-sum game' mean?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The total profit earned by one party equals the total loss incurred by the other party]]></text></answer>
+            <answer correct="no"><text><![CDATA[The net position of all traders is always zero]]></text></answer>
+            <answer correct="no"><text><![CDATA[The futures price always equals the spot price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The initial investment in futures is zero]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Futures are a zero-sum game because for every rupee gained by the long position holder, the short position holder loses exactly one rupee, and vice versa. The total wealth is simply transferred, not created.
+
+**The Trap:** Net position being zero refers to open interest counting, not the zero-sum concept. Futures prices don't always equal spot (basis exists). While margin deposits are small, the initial investment is not zero. Zero-sum specifically refers to P&L symmetry.
+
+**Cross-Exam Context:** The zero-sum nature of futures is important for understanding market dynamics. In options (tested in NISM Series IV and VIII), the payoff is asymmetric, making them not strictly zero-sum (after premium).
+
+**Distributor's Pro-Tip:** While futures are zero-sum in terms of P&L, the broader economic benefit is positive: hedgers transfer risk to speculators who are willing to bear it. Both parties can be economically better off despite the zero-sum P&L.]]></text></explanation>
+    </question>
+</QF>

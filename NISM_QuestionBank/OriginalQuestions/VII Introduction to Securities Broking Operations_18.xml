@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Introduction to Securities Broking Operations_18" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A Disclosed Quantity (DQ) order allows a trader to:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Show only a portion of the total order quantity to the market at a time]]></text></answer>
+            <answer correct="no"><text><![CDATA[Hide the security name from other market participants]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trade without revealing their identity]]></text></answer>
+            <answer correct="no"><text><![CDATA[Place orders at undisclosed prices]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A DQ order displays only a portion of the total order to the market. For example, an order of 1,000 with DQ of 200 shows only 200 at a time. After 200 is traded, the next 200 is automatically released, and so on until the full order is executed.
+**The Trap:** The order quantity is the total, and DQ is the visible portion. The hidden portion doesn't get time priority until it becomes visible.
+**Cross-Exam Context:** Series VIII covers DQ orders in derivative trading.
+**Distributor's Pro-Tip:** DQ is used by large traders to avoid market impact — showing a huge order could move the price against them. The exchange sets minimum DQ criteria. Each new DQ release gets a fresh time stamp, so it loses time priority.]]></text></explanation>
+    </question>
+</QF>

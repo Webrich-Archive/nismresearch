@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_68" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The term 'notional bond' in the context of IRF refers to:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A standardized hypothetical bond used to define the futures contract specifications — actual settlement is on a specific real bond]]></text></answer>
+            <answer correct="no"><text><![CDATA[A bond that doesn't actually exist and cannot be traded in any market]]></text></answer>
+            <answer correct="no"><text><![CDATA[A bond issued specifically for futures settlement purposes]]></text></answer>
+            <answer correct="no"><text><![CDATA[The cheapest-to-deliver bond in a basket of deliverable bonds]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In the current Indian IRF framework, the term 'notional bond' refers to the standardized nature of the futures contract specifications (e.g., 2000 bonds of FV Rs. 100). However, the actual underlying for settlement is a specific real GOI bond selected by the exchange.
+
+**The Trap:** The bond does exist — it's a real GOI security used for settlement. No special bond is issued for futures. CTD bonds were used in the 2009 framework but are not part of the current (post-2013) single-bond framework.
+
+**Cross-Exam Context:** The 2009 version used a notional 7% 10-year bond with a cheapest-to-deliver mechanism. The 2013 reform switched to a single specific bond, eliminating the CTD complexity that had contributed to low participation.
+
+**Distributor's Pro-Tip:** The shift from notional bond with CTD to single bond settlement was the key innovation that made Indian IRF successful. It simplified pricing, reduced basis risk, and improved hedging effectiveness.]]></text></explanation>
+    </question>
+</QF>

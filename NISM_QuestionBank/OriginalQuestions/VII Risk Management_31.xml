@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_31" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The overall daily exposure of a Clearing Corporation to a single bank including cash, FD, BG, equity and debt through CM collateral shall not exceed:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[20% of total liquid assets]]></text></answer>
+            <answer correct="no"><text><![CDATA[10% of total liquid assets]]></text></answer>
+            <answer correct="no"><text><![CDATA[30% of total liquid assets]]></text></answer>
+            <answer correct="no"><text><![CDATA[50% of total liquid assets]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The overall daily exposure of a CC to a single bank shall not exceed 20% of total liquid assets to ensure adequate diversification.
+**The Trap:** There are also separate limits for individual instruments within this overall bank exposure limit.
+**Cross-Exam Context:** Concentration risk management is important for systemic stability.
+**Distributor's Pro-Tip:** This limit prevents systemic risk from a single bank failure affecting the clearing corporation.]]></text></explanation>
+    </question>
+</QF>

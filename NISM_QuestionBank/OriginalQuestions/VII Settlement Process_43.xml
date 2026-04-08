@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Settlement Process_43" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[For handling shortages due to inter-se netting with direct payout, SEBI has advised TM/CM to:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Handle such shortages through the auction process specified by CCs without levying extra charges beyond CC charges]]></text></answer>
+            <answer correct="no"><text><![CDATA[Handle internally without CC involvement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cancel the buying client's trade]]></text></answer>
+            <answer correct="no"><text><![CDATA[Adjust the shortage in next settlement]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** TM/CM must handle shortages through CC's auction process and shall NOT levy charges on the client beyond CC-levied charges.
+**The Trap:** With direct payout, internal shortages need CC intervention since securities go directly to clients.
+**Cross-Exam Context:** Direct payout changed the internal shortage dynamics.
+**Distributor's Pro-Tip:** CCs may charge fees for facilitating internal auctions but may not provide settlement guarantee for them.]]></text></explanation>
+    </question>
+</QF>

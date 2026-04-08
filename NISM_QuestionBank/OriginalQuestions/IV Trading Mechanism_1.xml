@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Trading Mechanism_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A bond futures contract has a face value of Rs. 2,00,000 and is trading at Rs. 101.50. What is the total contract value?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 2,03,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,01,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,00,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,01,500]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Contract value = Face value x Price / 100 = 2,00,000 x 101.50 / 100 = Rs. 2,03,000.
+**The Trap:** Rs. 2,01,500 adds 1,500 instead of multiplying. Rs. 2,00,000 ignores the premium above par. Rs. 1,01,500 confuses face value with contract value.
+**Cross-Exam Context:** Contract value calculation is fundamental to all futures trading exams (Series I, VIII, XII).
+**Distributor's Pro-Tip:** Bond futures are quoted per Rs. 100 face value. Always multiply by face value / 100 to get actual contract value.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Regulatory Framework_5" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The outstanding stock of a G-Sec is Rs. 40,000 crores. Calculate the position limits at all three levels: client, trading member, and market-wide.]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Client: Rs. 500 crores, TM: Rs. 900 crores, Market-wide: Rs. 6,000 crores]]></text></answer>
+            <answer correct="no"><text><![CDATA[Client: Rs. 1,200 crores, TM: Rs. 1,000 crores, Market-wide: Rs. 6,000 crores]]></text></answer>
+            <answer correct="no"><text><![CDATA[Client: Rs. 500 crores, TM: Rs. 1,000 crores, Market-wide: Rs. 4,000 crores]]></text></answer>
+            <answer correct="no"><text><![CDATA[Client: Rs. 600 crores, TM: Rs. 900 crores, Market-wide: Rs. 6,000 crores]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Market-wide = 15% of 40,000 = Rs. 6,000 crores. TM = Lower of (15% of 6,000 = Rs. 900 crores) or Rs. 1,000 crores = Rs. 900 crores (percentage binds). Client = Lower of (3% of 40,000 = Rs. 1,200 crores) or Rs. 500 crores = Rs. 500 crores (cap binds).
+
+**The Trap:** Rs. 1,200 crores for client ignores the Rs. 500 crore cap. Rs. 1,000 crores for TM ignores that 15% of market-wide is lower. Each level has a different binding constraint.
+
+**Cross-Exam Context:** This comprehensive three-level calculation is a high-value exam question. Master the formulas: MW=15% of stock, TM=Lower(15% of MW, 1000Cr), Client=Lower(3% of stock, 500Cr).
+
+**Distributor's Pro-Tip:** In this case, the TM limit is bound by percentage (Rs. 900 Cr < Rs. 1,000 Cr cap) while the client limit is bound by the absolute cap (Rs. 500 Cr < Rs. 1,200 Cr from percentage). This shows how different constraints bind at different levels.]]></text></explanation>
+    </question>
+</QF>

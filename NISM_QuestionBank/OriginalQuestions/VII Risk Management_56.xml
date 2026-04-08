@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_56" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is the calendar spread charge for index derivatives?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[1.75% of the far month contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[2.2% of the far month contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[1% of the far month contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[3% of the far month contract]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Calendar spread charge for index derivatives is 1.75% of the far month contract value.
+**The Trap:** 2.2% is for single stock derivatives. Index derivatives get a lower charge due to lower basis risk.
+**Cross-Exam Context:** Calendar spread charges are frequently tested as exact numerical values in NISM VII and VIII.
+**Distributor's Pro-Tip:** Lower spread charge for indices reflects lower convergence risk between near and far month index contracts.]]></text></explanation>
+    </question>
+</QF>

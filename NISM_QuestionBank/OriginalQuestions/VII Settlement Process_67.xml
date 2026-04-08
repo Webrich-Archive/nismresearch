@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Settlement Process_67" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Exercise of a long put option in physical settlement results in:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A sell (security deliverable) position]]></text></answer>
+            <answer correct="no"><text><![CDATA[A buy (security receivable) position]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cash payment to the put holder]]></text></answer>
+            <answer correct="no"><text><![CDATA[No obligation]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Exercise of a long put results in a sell position (security deliverable). The put holder delivers securities at the strike price.
+**The Trap:** Long put = deliver shares (sell position). Short put assignment = receive shares (buy position).
+**Cross-Exam Context:** Put option physical settlement is the mirror image of call option settlement.
+**Distributor's Pro-Tip:** Put buyer wants to sell at strike price, so they deliver securities on exercise.]]></text></explanation>
+    </question>
+</QF>

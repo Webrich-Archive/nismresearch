@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="III-C Foreign Portfolio Investors_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the threshold for determining whether a derivative instrument issued is an Offshore Derivative Instrument (ODI) for trades with non-proprietary indices as underlying?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[20% - trades where Indian underlying is less than 20% of the index would not be regarded as ODIs]]></text></answer>
+            <answer correct="no"><text><![CDATA[10% - trades where Indian underlying is less than 10% of the index would not be regarded as ODIs]]></text></answer>
+            <answer correct="no"><text><![CDATA[25% - trades where Indian underlying is less than 25% of the index would not be regarded as ODIs]]></text></answer>
+            <answer correct="no"><text><![CDATA[15% - trades where Indian underlying is less than 15% of the index would not be regarded as ODIs]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** As per SEBI master circular, in determining whether a derivative instrument is an ODI, the threshold for trades with non-proprietary indices (e.g., MSCI World or MSCI EM Asia) as underlying shall be 20%. Trades where Indian underlying is less than 20% of the index would not be regarded as ODIs, even if hedged onshore.
+**The Trap:** Custom baskets as underlying would always be regarded as ODIs regardless of the percentage of Indian component hedged onshore. The 20% threshold only applies to non-proprietary indices.
+**Distributor's Pro-Tip:** This distinction between non-proprietary indices and custom baskets is critical for compliance officers to assess ODI classification correctly.]]></text></explanation>
+    </question>
+</QF>

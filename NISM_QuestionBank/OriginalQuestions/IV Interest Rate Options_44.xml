@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_44" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Which of the following statements about Gamma is correct?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Gamma is highest for ATM options near expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Gamma is highest for deep OTM options far from expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Gamma is always negative for option buyers]]></text></answer>
+            <answer correct="no"><text><![CDATA[Gamma measures sensitivity to interest rate changes]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Gamma peaks for ATM options near expiry because small price changes around the strike cause large swings in delta (from 0 to 1 or vice versa).
+**The Trap:** Gamma is positive for long options. It does not measure interest rate sensitivity (that is Rho). Deep OTM options have low gamma.
+**Cross-Exam Context:** Gamma behavior near expiry is a key concept in NISM Equity Derivatives and portfolio management.
+**Distributor's Pro-Tip:** High gamma near expiry means ATM options become very 'explosive' -- their value can swing dramatically with small price movements. This is called 'gamma risk'.]]></text></explanation>
+    </question>
+</QF>

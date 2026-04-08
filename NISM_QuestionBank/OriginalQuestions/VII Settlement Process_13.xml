@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Settlement Process_13" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[For clients who have not traded for 30 calendar days and have credit balance with the member, the entire balance must be returned on:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The upcoming monthly running account settlement dates, irrespective of settlement cycle preferred by client]]></text></answer>
+            <answer correct="no"><text><![CDATA[Within 7 days of the 30-day period]]></text></answer>
+            <answer correct="no"><text><![CDATA[At the next quarterly settlement date only]]></text></answer>
+            <answer correct="no"><text><![CDATA[Within 90 days of the last transaction]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** If a client hasn't traded for 30 days and has credit balance lying for more than 30 days, the entire balance must be returned on the upcoming monthly settlement dates.
+**The Trap:** It's the monthly settlement date regardless of whether the client chose quarterly settlement.
+**Cross-Exam Context:** This protects inactive clients from having their funds retained indefinitely.
+**Distributor's Pro-Tip:** If the client trades before the settlement date, the normal running account cycle resumes.]]></text></explanation>
+    </question>
+</QF>

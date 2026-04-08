@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_91" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A bank has a large portfolio of 10-year GOI bonds and expects interest rates to rise in the next 3 months. Which IRF strategy should the bank use?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Sell (short) 10-year GOI bond futures to hedge against the expected fall in bond prices]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy (long) 10-year GOI bond futures to benefit from the rate increase]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy MIBOR futures since MIBOR will also rise with interest rates]]></text></answer>
+            <answer correct="no"><text><![CDATA[Do nothing because GOI bonds are risk-free government securities]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Rising interest rates cause bond prices to fall. To hedge a long bond portfolio against falling prices, the bank should sell (short) bond futures. If rates rise and bond prices fall, the loss on the portfolio is offset by the gain on the short futures position.
+
+**The Trap:** Buying bond futures would add to the loss, not hedge it. While MIBOR futures might also benefit from rate increases, they don't directly hedge a bond portfolio's price risk. GOI bonds are credit risk-free, not interest rate risk-free.
+
+**Cross-Exam Context:** This is the most fundamental application of IRF and is tested extensively in NISM Series IV. The concept is identical to hedging equity portfolio risk with index futures (NISM VIII).
+
+**Distributor's Pro-Tip:** In practice, the bank would calculate the DV01 of its portfolio and match it with the DV01 of the appropriate number of futures lots. Periodic rebalancing (adjusting the hedge ratio) may be needed as market conditions change.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_8" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A call option writer receives a premium of Rs. 3 at a strike of Rs. 100. At expiry, the bond price is Rs. 106. What is the writer's net loss?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 3]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 6]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 9]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Writer's obligation payoff = -(max(0, 106 - 100)) = -Rs. 6. Net P&L = Premium received - Payoff obligation = 3 - 6 = -Rs. 3 (loss of Rs. 3).
+**The Trap:** Rs. 6 ignores the premium received. Rs. 9 adds premium to the loss instead of offsetting it.
+**Cross-Exam Context:** Writer's payoff is the mirror image of buyer's payoff -- a key concept tested in NISM Equity Derivatives too.
+**Distributor's Pro-Tip:** Option writers collect premium upfront but face potentially large losses. The BEP for a call writer is also Strike + Premium = Rs. 103.]]></text></explanation>
+    </question>
+</QF>

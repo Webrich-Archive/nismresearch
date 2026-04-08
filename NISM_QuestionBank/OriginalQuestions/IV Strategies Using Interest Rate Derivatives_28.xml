@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_28" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What are the three key decisions a hedger must make when using exchange-traded interest rate derivatives?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Choice of instrument, market side (buy/sell), and contract month]]></text></answer>
+            <answer correct="no"><text><![CDATA[Choice of exchange, broker, and margin amount]]></text></answer>
+            <answer correct="no"><text><![CDATA[Choice of strategy, premium amount, and expiry date]]></text></answer>
+            <answer correct="no"><text><![CDATA[Choice of underlying bond, coupon rate, and face value]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A hedger must decide: (1) which instrument to use (T-Bill futures, bond futures, options), (2) which side of the market to take (long/short), and (3) which contract month best matches the exposure horizon.
+**The Trap:** Exchange/broker/margin are operational details, not hedging decisions. Strategy/premium/expiry mix up strategy with instrument choice.
+**Cross-Exam Context:** This framework applies to all derivative hedging decisions across Series I, VIII, and XII.
+**Distributor's Pro-Tip:** Contract month selection is often overlooked - using a mismatched expiry creates basis risk even if instrument and side are correct.]]></text></explanation>
+    </question>
+</QF>

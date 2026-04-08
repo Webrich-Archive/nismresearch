@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Clearing Settlement and Risk Management_42" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Which of the following is TRUE about funds settlement timing for ETIRD?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Funds settlement through clearing banks happens before market hours on the settlement day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Funds settle in real-time during market hours]]></text></answer>
+            <answer correct="no"><text><![CDATA[Funds settle at the end of the trading day after market close]]></text></answer>
+            <answer correct="no"><text><![CDATA[Funds settle within one hour of the trade execution]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Funds settlement through clearing banks occurs before market hours on the settlement day (T+1). This ensures that all obligations are met before the next trading session begins.
+
+**The Trap:** Real-time settlement is not the process for exchange-traded derivatives. End of day and one-hour settlements are incorrect. The pre-market timing ensures clean opening of next day's trading.
+
+**Cross-Exam Context:** Settlement timing rules are consistent across derivative segments. Understanding the pre-market settlement window is important for operational compliance.
+
+**Distributor's Pro-Tip:** Clearing banks have specific cutoff times (typically early morning) for pay-in. Treasury teams must plan overnight funding to meet these deadlines.]]></text></explanation>
+    </question>
+</QF>

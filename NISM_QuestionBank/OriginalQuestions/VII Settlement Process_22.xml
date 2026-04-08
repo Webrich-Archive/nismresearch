@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Settlement Process_22" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[In netted obligation method, a member will have obligation to deliver a security only if:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The sell quantity is more than buy quantity for that security]]></text></answer>
+            <answer correct="no"><text><![CDATA[Any sell transaction exists]]></text></answer>
+            <answer correct="no"><text><![CDATA[The buy quantity is more than sell quantity]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both buy and sell transactions exist]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under netting, the member delivers only if net sells exceed net buys. If buys exceed sells, the member receives securities.
+**The Trap:** This is the benefit of netting - individual transactions are aggregated to a single net obligation.
+**Cross-Exam Context:** Netting reduces the volume of actual settlement significantly.
+**Distributor's Pro-Tip:** Funds are also computed on a netted basis, reducing the actual money that changes hands.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Fixed Income Instruments and Bond Markets_12" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A 5.79% Government Security with face value Rs. 100 pays semi-annual coupons. The last coupon was paid 91 days ago. Using 30/360E day count, what is the accrued interest?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 1.46]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2.90]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.73]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 5.79]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Semi-annual coupon = 5.79% × 100 / 2 = Rs. 2.895. Accrued interest = 2.895 × (91/180) = Rs. 1.4636 ≈ Rs. 1.46. Using 30/360E, the semi-annual period is 180 days.
+
+**The Trap:** Rs. 2.90 is the full semi-annual coupon (not prorated). Rs. 5.79 is the annual coupon. Always prorate the coupon for the exact number of days since last payment.
+
+**Cross-Exam Context:** Accrued interest calculations are important for Series IV bond pricing and for understanding settlement amounts in physical delivery futures.
+
+**Distributor's Pro-Tip:** Indian G-Secs use the 30/360 day count convention. Corporate bonds may use actual/365. Always verify the convention before calculating accrued interest.]]></text></explanation>
+    </question>
+</QF>

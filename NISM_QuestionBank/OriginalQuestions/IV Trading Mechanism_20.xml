@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Trading Mechanism_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the difference between an 'active order' and a 'passive order' in the order book?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[An active order is a new arriving order that tries to match with resting orders; a passive order is one already resting in the order book]]></text></answer>
+            <answer correct="no"><text><![CDATA[An active order can be modified; a passive order cannot be modified]]></text></answer>
+            <answer correct="no"><text><![CDATA[Active orders are for buying; passive orders are for selling]]></text></answer>
+            <answer correct="no"><text><![CDATA[Active orders are placed during market hours; passive orders are pre-market orders]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When a new order arrives, it is 'active' and attempts to match with existing 'passive' orders in the book. If no match is found (or partial match), the remaining quantity becomes a passive order resting in the book.
+**The Trap:** Both can be modified. Both can be buy or sell. Both can be placed during market hours. The distinction is about matching behavior.
+**Cross-Exam Context:** Active vs passive order terminology is standard microstructure vocabulary used across all trading exams.
+**Distributor's Pro-Tip:** Market makers typically have passive orders resting in the book. Aggressive traders place active orders that sweep the book.]]></text></explanation>
+    </question>
+</QF>

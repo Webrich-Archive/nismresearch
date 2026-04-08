@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_39" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[For members registered on more than one segment of the same Exchange, the BMC requirement is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The highest BMC deposit across various segments]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sum of BMC requirements of all segments]]></text></answer>
+            <answer correct="no"><text><![CDATA[Average of BMC requirements across segments]]></text></answer>
+            <answer correct="no"><text><![CDATA[BMC of the segment with most trades]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For members on more than one segment of the same Exchange, the highest BMC deposit across various segments is applicable, not cumulative.
+**The Trap:** Students might assume BMC is additive across segments, but it is the highest single requirement.
+**Cross-Exam Context:** This is a practical compliance question often tested in NISM VII.
+**Distributor's Pro-Tip:** This prevents double-counting of the same capital for risk coverage across segments.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Clearing Settlement and Risk Management_32" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Why is interoperability among clearing corporations NOT available for interest rate derivatives?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[SEBI has specifically excluded commodity derivatives and interest rate derivatives from the interoperability framework]]></text></answer>
+            <answer correct="no"><text><![CDATA[Interest rate derivatives are too complex for interoperability]]></text></answer>
+            <answer correct="no"><text><![CDATA[RBI has prohibited interoperability for all government security-related products]]></text></answer>
+            <answer correct="no"><text><![CDATA[Interoperability is available for IRD but has not been implemented yet]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI's interoperability framework allows clearing corporations to interoperate for most products, but explicitly excludes commodity derivatives and interest rate derivatives from this framework.
+
+**The Trap:** It is not about complexity - it is a regulatory exclusion. RBI has not made this specific prohibition. The framework exists but IRD is carved out.
+
+**Cross-Exam Context:** Interoperability is available for equity cash, equity derivatives, and currency derivatives. The exclusion of IRD and commodity derivatives is a frequently tested topic.
+
+**Distributor's Pro-Tip:** The absence of interoperability means an IRD trader on NSE must clear through NCL and cannot choose ICCL, and vice versa. This affects competitive dynamics between exchanges.]]></text></explanation>
+    </question>
+</QF>

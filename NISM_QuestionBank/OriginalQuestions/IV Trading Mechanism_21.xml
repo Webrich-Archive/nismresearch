@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Trading Mechanism_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is an IOC (Immediate or Cancel) order?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[An order that must be executed immediately (fully or partially); any unfilled portion is cancelled]]></text></answer>
+            <answer correct="no"><text><![CDATA[An order that is placed and cancelled at the same time]]></text></answer>
+            <answer correct="no"><text><![CDATA[An order that is valid only for 1 second]]></text></answer>
+            <answer correct="no"><text><![CDATA[An order that can only be placed for intraday trading]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** An IOC order seeks immediate execution. Whatever quantity can be filled at the limit price or better is executed instantly. Any remaining unfilled quantity is automatically cancelled - it does not rest in the order book.
+**The Trap:** It's not placed and cancelled simultaneously (partial fills are possible). It's not time-limited to 1 second. IOC can be used for any position, not just intraday.
+**Cross-Exam Context:** IOC orders are standard across all exchange segments and tested in Series I and VIII.
+**Distributor's Pro-Tip:** IOC orders are favored by institutions that want to avoid information leakage from resting orders in the book.]]></text></explanation>
+    </question>
+</QF>

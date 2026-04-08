@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Clearing Settlement and Risk Management_45" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is the settlement mechanism for options on bond futures?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Premium settlement on T+1 (buyer pays premium to seller) and exercise settlement upon expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Premium and exercise settlement both happen at expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Premium is settled real-time and exercise on T+3]]></text></answer>
+            <answer correct="no"><text><![CDATA[Options are converted to futures positions and settled via daily MTM]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Option premium settlement occurs on T+1 (the day after the trade). The buyer pays the premium to the seller. Upon exercise at expiry, the exercise settlement occurs based on the difference between strike and FSP.
+
+**The Trap:** Premium is not deferred to expiry - it is settled upfront on T+1. Exercise settlement is T+1 from expiry, not T+3. While exercise may convert to futures, the settlement mechanism is distinct.
+
+**Cross-Exam Context:** Option settlement structure is similar across equity (Series VIII) and IRD (Series IV): upfront premium + exercise at expiry.
+
+**Distributor's Pro-Tip:** Option sellers must maintain margins throughout the contract life since they have ongoing obligations. Buyers pay premium upfront and their maximum risk is limited to that premium.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Settlement Process_64" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[There is no inter-client adjustment permitted for the purpose of:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Settlement of running account]]></text></answer>
+            <answer correct="no"><text><![CDATA[VaR margin calculation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Brokerage charges]]></text></answer>
+            <answer correct="no"><text><![CDATA[Tax calculation]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** There is no inter-client adjustment for running account settlement. One client's funds cannot be used for another client's settlement.
+**The Trap:** This prevents misuse of one client's funds to cover another client's obligations.
+**Cross-Exam Context:** Client fund segregation is a fundamental investor protection principle.
+**Distributor's Pro-Tip:** TM must ensure settled client funds remain in USCNBA and are not used for other clients' running accounts.]]></text></explanation>
+    </question>
+</QF>

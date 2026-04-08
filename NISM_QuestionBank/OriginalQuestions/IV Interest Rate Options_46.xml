@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_46" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The binomial option pricing model differs from Black-Scholes primarily because:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[It uses a discrete tree-based approach with multiple time steps]]></text></answer>
+            <answer correct="no"><text><![CDATA[It requires fewer inputs than Black-Scholes]]></text></answer>
+            <answer correct="no"><text><![CDATA[It can only price European options]]></text></answer>
+            <answer correct="no"><text><![CDATA[It does not account for volatility]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The binomial model builds a price tree with discrete up/down movements at each step, then works backward to determine option value. Black-Scholes uses continuous mathematics.
+**The Trap:** Binomial requires similar inputs. It can price both American and European options (an advantage over Black-Scholes). It does account for volatility.
+**Cross-Exam Context:** Both pricing models are covered in NISM Equity Derivatives and Research Analyst modules.
+**Distributor's Pro-Tip:** The binomial model's advantage is flexibility -- it can handle American options, dividends, and varying volatility. As steps increase, it converges to Black-Scholes.]]></text></explanation>
+    </question>
+</QF>

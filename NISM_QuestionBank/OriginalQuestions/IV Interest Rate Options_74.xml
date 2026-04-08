@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_74" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A corporate treasurer needs to lock in a maximum borrowing cost for a future loan but also wants to benefit if rates decline. Which instrument best meets this requirement?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy an interest rate cap (series of call options on interest rates) to limit the maximum rate while retaining downside benefit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Enter an interest rate futures contract to fix the rate completely]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell interest rate put options to generate premium income]]></text></answer>
+            <answer correct="no"><text><![CDATA[Enter an interest rate swap to exchange floating for fixed rate]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** An interest rate cap sets a ceiling on borrowing costs while allowing the borrower to benefit from lower rates. This is the key advantage of options over futures/swaps.
+**The Trap:** Futures and swaps fix the rate, eliminating benefit from favorable rate movements. Selling puts does not cap the upside rate and adds risk.
+**Cross-Exam Context:** Caps, floors, and collars as corporate risk management tools are covered in NISM Series IV and banking modules.
+**Distributor's Pro-Tip:** The 'insurance' nature of options (cap/floor) is their key advantage over futures/swaps. You pay a premium but retain the ability to benefit from favorable moves.]]></text></explanation>
+    </question>
+</QF>

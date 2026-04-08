@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_59" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What does a positive basis (Spot > Futures) in bond futures typically indicate?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The coupon income from holding the bond exceeds the financing (carry) cost — known as positive carry]]></text></answer>
+            <answer correct="no"><text><![CDATA[The futures market is overpriced]]></text></answer>
+            <answer correct="no"><text><![CDATA[There is no arbitrage opportunity]]></text></answer>
+            <answer correct="no"><text><![CDATA[Interest rates are expected to rise sharply]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A positive basis means the spot price exceeds the futures price (backwardation). In bond markets, this typically occurs when the coupon income earned by holding the physical bond exceeds the cost of financing (repo rate). This is known as positive carry.
+
+**The Trap:** Positive basis doesn't necessarily mean overpricing — it reflects carry economics. Arbitrage opportunities depend on multiple factors. Rising rates would lower bond prices but don't directly determine the basis sign.
+
+**Cross-Exam Context:** Cost of carry and basis analysis are tested in NISM Series IV. In commodity markets (NISM XVI), a positive basis (backwardation) indicates convenience yield exceeding storage costs.
+
+**Distributor's Pro-Tip:** In India, when coupon rates on GOI bonds exceed the repo rate, positive carry and thus positive basis is common. The 2020-2023 period often showed this pattern due to relatively high coupons and low repo rates.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Clearing Process_40" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is DDPI in the context of demat accounts?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Demat Debit and Pledge Instruction - authorization for brokers to access BO accounts for meeting pay-in obligations]]></text></answer>
+            <answer correct="no"><text><![CDATA[Digital Document Processing Interface]]></text></answer>
+            <answer correct="no"><text><![CDATA[Depository Direct Payment Instruction]]></text></answer>
+            <answer correct="no"><text><![CDATA[Deferred Delivery Payment Instruction]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** DDPI allows clients to explicitly authorize stock brokers/DPs to access their BO account for the limited purpose of meeting pay-in obligations.
+**The Trap:** DDPI replaces the broader Power of Attorney (PoA) with a more limited and specific authorization.
+**Cross-Exam Context:** DDPI significantly reduces the risk of misuse compared to the old PoA system.
+**Distributor's Pro-Tip:** DDPI mitigates misuse risk by limiting what the broker can do with the client's demat account.]]></text></explanation>
+    </question>
+</QF>

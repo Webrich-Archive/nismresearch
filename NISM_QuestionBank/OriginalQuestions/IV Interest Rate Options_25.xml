@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_25" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A trader writes a call option at strike Rs. 100 and receives a premium of Rs. 4. At what expiry price of the underlying does the writer start incurring a net loss?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Above Rs. 104]]></text></answer>
+            <answer correct="no"><text><![CDATA[Above Rs. 100]]></text></answer>
+            <answer correct="no"><text><![CDATA[Above Rs. 96]]></text></answer>
+            <answer correct="no"><text><![CDATA[Above Rs. 108]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** BEP for call writer = Strike + Premium = 100 + 4 = Rs. 104. The writer starts losing money when the underlying exceeds Rs. 104.
+**The Trap:** Above Rs. 100 confuses the strike price with the BEP. The writer does not lose until the option payoff exceeds the premium received.
+**Cross-Exam Context:** Writer's break-even is the same as buyer's BEP -- tested identically in NISM Equity Derivatives.
+**Distributor's Pro-Tip:** Between Rs. 100 and Rs. 104, the writer pays out less than the premium received, so still has a net profit. Loss begins only beyond Rs. 104.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Introduction to Securities Market_16" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the lot size for exchange-traded Interest Rate Futures on single Government of India securities?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[2,000 bonds at Rs. 100 per bond (total face value Rs. 2,00,000)]]></text></answer>
+            <answer correct="no"><text><![CDATA[1,000 bonds at Rs. 100 per bond (total face value Rs. 1,00,000)]]></text></answer>
+            <answer correct="no"><text><![CDATA[5,000 bonds at Rs. 100 per bond (total face value Rs. 5,00,000)]]></text></answer>
+            <answer correct="no"><text><![CDATA[500 bonds at Rs. 1,000 per bond (total face value Rs. 5,00,000)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For single bond futures on GOI securities, the lot size is 2,000 bonds at Rs. 100 per bond, giving a total face value of Rs. 2,00,000. These are cash-settled contracts with expiry on the last Thursday of the month.
+**The Trap:** The final settlement price uses VWAP of the underlying bond during the last 2 hours on NDS-OM. If fewer than 5 trades occur, FIMMDA/FBIL price is used instead.
+**Cross-Exam Context:** Series IV (Interest Rate Derivatives) covers IRF lot sizes, expiry cycles, and settlement mechanics in comprehensive detail.
+**Distributor's Pro-Tip:** IRF lot = 2,000 × Rs. 100 = Rs. 2 lakh face value. Expiry: last Thursday. Settlement: VWAP (last 2 hrs on NDS-OM) or FIMMDA/FBIL if < 5 trades.]]></text></explanation>
+    </question>
+</QF>

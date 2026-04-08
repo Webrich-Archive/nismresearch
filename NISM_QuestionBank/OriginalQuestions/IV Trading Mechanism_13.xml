@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Trading Mechanism_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[GST of 18% is applicable on brokerage and exchange charges. If brokerage is Rs. 500 and exchange charges are Rs. 200, what is the total GST payable?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 126]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 90]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 36]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 700]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** GST base = Brokerage + Exchange charges = 500 + 200 = Rs. 700. GST = 18% of 700 = Rs. 126.
+**The Trap:** Rs. 90 applies 18% only to brokerage. Rs. 36 applies 18% only to exchange charges. Rs. 700 confuses the base with the GST amount.
+**Cross-Exam Context:** GST on financial services is tested across all NISM exams.
+**Distributor's Pro-Tip:** GST is on brokerage AND exchange/clearing charges. STT is NOT applicable on IRD - a critical difference from equity derivatives.]]></text></explanation>
+    </question>
+</QF>

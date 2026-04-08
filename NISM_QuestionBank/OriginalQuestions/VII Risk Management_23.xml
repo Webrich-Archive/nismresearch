@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_23" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[If crystallized losses exceed the free collateral available with the Clearing Corporation, then the entity shall be:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Put into risk reduction mode]]></text></answer>
+            <answer correct="no"><text><![CDATA[Immediately suspended from trading]]></text></answer>
+            <answer correct="no"><text><![CDATA[Required to deposit additional margin within 24 hours]]></text></answer>
+            <answer correct="no"><text><![CDATA[Given a warning notice only]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** If crystallised losses exceed the free collateral available, the entity shall be put into risk reduction mode.
+**The Trap:** The entity is not immediately suspended - risk reduction mode still allows limited trading (to reduce positions).
+**Cross-Exam Context:** Risk reduction mode is a graduated response mechanism, not an outright ban.
+**Distributor's Pro-Tip:** Risk reduction mode allows the member to reduce positions while protecting the market from further exposure.]]></text></explanation>
+    </question>
+</QF>

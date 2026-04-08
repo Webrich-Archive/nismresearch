@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_11" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Using put-call parity, if a call option is priced at Rs. 5, the spot price is Rs. 100, the present value of the strike is Rs. 97, what should the put option price be?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 2]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 3]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 8]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 5]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Put-Call Parity: C - P = S - PV(K). So P = C - S + PV(K) = 5 - 100 + 97 = Rs. 2.
+**The Trap:** Rs. 8 results from adding instead of subtracting (C + PV(K) - S is wrong arrangement). Rs. 3 comes from using Strike instead of PV(Strike).
+**Cross-Exam Context:** Put-call parity is a staple in NISM Equity Derivatives and is equally important for interest rate options.
+**Distributor's Pro-Tip:** Put-call parity holds exactly for European options. Any deviation signals arbitrage opportunity or early exercise premium for American options.]]></text></explanation>
+    </question>
+</QF>

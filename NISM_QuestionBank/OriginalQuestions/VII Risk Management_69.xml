@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_69" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is the spread margin for offsetting positions in correlated indices with the same expiry date?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[30% of applicable upfront margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[25% of applicable upfront margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[40% of applicable upfront margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[35% of applicable upfront margin]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For offsetting positions in highly correlated indices with the same expiry date, the spread margin is 30%.
+**The Trap:** 25% applies to stock-level offsets. Correlated index pairs get 30% (same expiry) or 40% (different expiry).
+**Cross-Exam Context:** The tiered spread margins reflect different levels of basis risk.
+**Distributor's Pro-Tip:** Highly correlated indices must have >0.90 correlation and at least 80% overlap in constituents.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_36" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A Bermudan option is best described as:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[An option that can be exercised on specific dates before expiration]]></text></answer>
+            <answer correct="no"><text><![CDATA[An option that can only be exercised at expiration]]></text></answer>
+            <answer correct="no"><text><![CDATA[An option that can be exercised at any time before expiration]]></text></answer>
+            <answer correct="no"><text><![CDATA[An option whose strike price changes on specific dates]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A Bermudan option allows exercise on specific pre-determined dates before expiry -- a hybrid between European (only at expiry) and American (any time).
+**The Trap:** 'Only at expiration' is European. 'Any time' is American. Changing strike prices describe other exotic options, not Bermudan.
+**Cross-Exam Context:** The three option styles (European, American, Bermudan) are tested in NISM Interest Rate and Equity Derivatives modules.
+**Distributor's Pro-Tip:** The name 'Bermudan' comes from Bermuda being geographically between America and Europe -- the option is a hybrid of American and European styles.]]></text></explanation>
+    </question>
+</QF>

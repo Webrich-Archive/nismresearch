@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Introduction to Securities Broking Operations_39" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the call auction matching mechanism, the equilibrium price is determined by:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The price at which maximum volume of shares can be matched and traded]]></text></answer>
+            <answer correct="no"><text><![CDATA[The highest buy order price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The lowest sell order price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The average of all order prices]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The equilibrium price in a call auction is the price point where the maximum volume of shares can be matched. If multiple prices maximize volume, the one with minimum unmatched quantity is chosen. If still tied, the price closest to the reference price (e.g., previous close) is selected.
+**The Trap:** Call auction is different from continuous matching — all orders execute at ONE uniform price, not at individual order prices. The price maximizes quantity, not buyer or seller preference.
+**Cross-Exam Context:** Series VIII covers call auction mechanics for derivatives.
+**Distributor's Pro-Tip:** Call auction tiebreakers: (1) Maximum tradeable quantity → (2) Minimum unmatched quantity → (3) Closest to reference price → (4) If reference = midpoint of tied prices, reference itself is equilibrium. This systematic approach ensures fair price discovery.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_15" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A trader holds 100 call options each with a delta of 0.5. How many units of the underlying bond must the trader sell to create a delta-neutral hedge?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[50 units]]></text></answer>
+            <answer correct="no"><text><![CDATA[100 units]]></text></answer>
+            <answer correct="no"><text><![CDATA[200 units]]></text></answer>
+            <answer correct="no"><text><![CDATA[25 units]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Total delta of position = 100 x 0.5 = 50. To be delta-neutral, sell 50 units of the underlying (each with delta 1) to offset.
+**The Trap:** 100 units assumes delta = 1 for each option. 200 units doubles the position incorrectly.
+**Cross-Exam Context:** Delta hedging is a key concept in NISM Equity Derivatives and portfolio management modules.
+**Distributor's Pro-Tip:** Delta hedging must be rebalanced as delta changes with price movement (gamma effect). It is a dynamic, not static, strategy.]]></text></explanation>
+    </question>
+</QF>

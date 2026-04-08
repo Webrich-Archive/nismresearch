@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Introduction to Securities Broking Operations_90" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The process of 'trade enrichment' in back office operations involves:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Adding additional details to executed trades such as client codes, custodian details, and settlement instructions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Creating marketing materials about successful trades]]></text></answer>
+            <answer correct="no"><text><![CDATA[Enhancing the visual display of trade data on screens]]></text></answer>
+            <answer correct="no"><text><![CDATA[Increasing the trade value for reporting purposes]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Trade enrichment is a back-office function that involves adding additional details to executed trades. This includes mapping client codes, adding custodian/clearing member details, and attaching settlement instructions to enable proper clearing and settlement.
+**The Trap:** Trade enrichment happens AFTER execution but BEFORE clearing and settlement. It's a data completion step, not a trade modification step.
+**Cross-Exam Context:** Series V covers trade enrichment in the settlement workflow.
+**Distributor's Pro-Tip:** Post-trade workflow: Trade execution → Trade enrichment (add details) → Trade allocation (assign to client accounts) → Clearing (determine obligations) → Settlement (exchange funds/securities). Each step adds information needed for the next.]]></text></explanation>
+    </question>
+</QF>

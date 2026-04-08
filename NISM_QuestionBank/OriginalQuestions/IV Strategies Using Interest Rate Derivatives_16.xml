@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_16" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader constructs a bearish vertical spread using calls by selling a call at strike Rs. 98 for Rs. 5 and buying a call at strike Rs. 103 for Rs. 2. What is the maximum profit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 3]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 5]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 7]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** This is a bear call spread (credit spread). Maximum profit = Net premium received = 5 - 2 = Rs. 3. This occurs when the underlying is below the lower strike at expiry.
+**The Trap:** Rs. 5 is the premium received from the short call only. Rs. 2 is the premium paid for the long call. Rs. 7 adds both premiums.
+**Cross-Exam Context:** Bear call spread is tested in Series VIII. Net credit = max profit for any credit spread.
+**Distributor's Pro-Tip:** In a credit spread, you receive premium upfront - max profit is the net credit, max loss is (strike difference - net credit).]]></text></explanation>
+    </question>
+</QF>

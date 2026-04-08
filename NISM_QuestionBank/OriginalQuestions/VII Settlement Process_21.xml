@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Settlement Process_21" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Auction pay-in and pay-out happens on:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[T+2 (Auction + 1 day), with pay-in generally by 8:00 AM]]></text></answer>
+            <answer correct="no"><text><![CDATA[T+1 day]]></text></answer>
+            <answer correct="no"><text><![CDATA[T+3 day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Same day as auction]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Pay-in and pay-out for auction settlement happens on T+2, with pay-in generally done by 8:00 AM.
+**The Trap:** The auction happens on T+1, but its settlement is on T+2.
+**Cross-Exam Context:** The one-day gap between auction and its settlement is for operational processing.
+**Distributor's Pro-Tip:** Auction buyers must have funds ready and sellers must deliver securities by the specified time on T+2.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_32" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which option strategy would be most appropriate for a bond portfolio manager who expects high volatility but is uncertain about the direction of interest rate movement?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Long straddle]]></text></answer>
+            <answer correct="no"><text><![CDATA[Short straddle]]></text></answer>
+            <answer correct="no"><text><![CDATA[Covered call]]></text></answer>
+            <answer correct="no"><text><![CDATA[Bullish vertical spread]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A long straddle (buying both a call and put at the same strike) profits from large price movements in either direction. It loses only if the price stays near the strike.
+**The Trap:** Short straddle profits from LOW volatility. Covered call and bullish spread have directional bias.
+**Cross-Exam Context:** Volatility-based strategies (straddle/strangle) vs directional strategies are tested across all options exams.
+**Distributor's Pro-Tip:** Long straddle = long volatility bet. You pay higher premium but profit regardless of direction if the move is big enough.]]></text></explanation>
+    </question>
+</QF>

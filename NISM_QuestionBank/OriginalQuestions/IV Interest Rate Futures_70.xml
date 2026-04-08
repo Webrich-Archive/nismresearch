@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_70" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Why is the 91-day T-Bill futures contract quoted as '100 minus yield' rather than directly as yield?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[To maintain the inverse price-yield relationship, so that buying futures is consistent with expecting lower yields (like buying bonds)]]></text></answer>
+            <answer correct="no"><text><![CDATA[It is an international convention with no specific reason]]></text></answer>
+            <answer correct="no"><text><![CDATA[To make the price always positive]]></text></answer>
+            <answer correct="no"><text><![CDATA[To simplify the settlement calculation]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Quoting as 100-yield ensures that the quoted price moves inversely to yield, just like actual bond prices. This means a 'long' position benefits from falling yields (rising price), consistent with the bond market convention. It makes hedging intuitive.
+
+**The Trap:** It's not arbitrary — there's a specific economic reason. Prices can be positive even without this convention. The settlement calculation actually uses a different formula (100 - 0.25y), so this convention doesn't simplify settlement.
+
+**Cross-Exam Context:** This '100 minus yield' convention is used globally for short-term interest rate futures (e.g., CME Eurodollar futures used 100 - LIBOR). Understanding why the convention exists aids in applying it correctly.
+
+**Distributor's Pro-Tip:** Without this convention, a trader wanting to 'buy yield' would go long, which would be confusing when the goal is to hedge against rising rates. The 100-minus convention aligns futures trading intuition with bond market convention.]]></text></explanation>
+    </question>
+</QF>

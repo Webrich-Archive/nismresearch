@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Trading Mechanism_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A T-Bill futures contract with face value Rs. 2,00,000 has a price band of +/- 1%. If the base price is Rs. 97.50, what are the upper and lower circuit limits?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 98.475 and Rs. 96.525]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 98.50 and Rs. 96.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 99.50 and Rs. 95.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 97.60 and Rs. 97.40]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Upper limit = 97.50 x 1.01 = Rs. 98.475. Lower limit = 97.50 x 0.99 = Rs. 96.525. The +/-1% band applies to the base price for T-Bill futures.
+**The Trap:** Rs. 98.50 and 96.50 adds/subtracts 1.00 instead of 1%. Rs. 99.50 and 95.50 uses 2% band. Rs. 97.60 and 97.40 uses 0.10 absolute.
+**Cross-Exam Context:** Price band calculations appear in Series I and VIII with different percentages.
+**Distributor's Pro-Tip:** T-Bill futures have tighter price bands (+/-1%) compared to bond futures (+/-3%) because T-Bills are less volatile.]]></text></explanation>
+    </question>
+</QF>

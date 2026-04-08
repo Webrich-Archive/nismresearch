@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_14" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[How is the Extreme Loss Margin collected from members?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Adjusted against total liquid assets on a real-time basis]]></text></answer>
+            <answer correct="no"><text><![CDATA[Collected as cash before start of next trading day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Deducted from the bank guarantee]]></text></answer>
+            <answer correct="no"><text><![CDATA[Collected monthly in arrears]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The ELM is collected/adjusted against the total liquid assets of the member on a real-time basis, on the gross open position.
+**The Trap:** Unlike MTM which is collected before start of next day, ELM is adjusted in real-time against liquid assets.
+**Cross-Exam Context:** Real-time risk management is a hallmark of Indian clearing corporations.
+**Distributor's Pro-Tip:** Real-time adjustment means ELM is continuously monitored and enforced throughout the trading session.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader enters a long strangle by buying a call at strike Rs. 105 for Rs. 1.50 and buying a put at strike Rs. 95 for Rs. 1.00. What is the maximum loss?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 2.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 10.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 5.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Maximum loss = Total premium paid = 1.50 + 1.00 = Rs. 2.50. This occurs when the underlying expires between the two strikes (both options expire worthless).
+**The Trap:** Rs. 10.00 is the distance between strikes. Rs. 1.50 is only the call premium. Rs. 5.00 is half the strike distance.
+**Cross-Exam Context:** Strangle max loss = total premium, identical to equity strangle calculations (Series VIII).
+**Distributor's Pro-Tip:** Strangles are cheaper than straddles but require a larger move to profit.]]></text></explanation>
+    </question>
+</QF>

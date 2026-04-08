@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Stock Brokers Regulations_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under Margin Trading Facility rules, the maximum allowable exposure of a stockbroker towards any single client shall not exceed what percentage of the broker's maximum allowable exposure?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[5%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[10%]]></text></answer>
+            <answer correct="no"><text><![CDATA[15%]]></text></answer>
+            <answer correct="no"><text><![CDATA[20%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** While providing the margin trading facility, the broker shall ensure that exposure to any single client at any point of time shall not exceed 10% of the broker's maximum allowable exposure. This prevents concentration risk.
+**The Trap:** 5% is the SAST disclosure threshold, not the MTF single client exposure limit. Students often mix up the 5% and 10% thresholds from different regulations.
+**Cross-Exam Context:** Concentration limits are a common regulatory theme across NISM exams, including mutual fund investment limits and portfolio manager exposure limits.
+**Distributor's Pro-Tip:** Monitor single-client exposure in real-time. If a client's MTF position grows beyond 10% of your total allowable MTF exposure, you must either reduce the exposure or increase your overall capacity.]]></text></explanation>
+    </question>
+</QF>

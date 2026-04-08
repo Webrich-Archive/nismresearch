@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_37" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[When does a put option buyer choose to exercise the option?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[When the underlying price is below the strike price]]></text></answer>
+            <answer correct="no"><text><![CDATA[When the underlying price is above the strike price]]></text></answer>
+            <answer correct="no"><text><![CDATA[When the underlying price equals the strike price]]></text></answer>
+            <answer correct="no"><text><![CDATA[When the premium increases above the strike price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A put buyer has the right to sell at the strike price. This is profitable when the market price is below the strike, allowing the buyer to sell at a higher-than-market price.
+**The Trap:** Underlying above strike is when a CALL buyer exercises. At the money, there is no gain from exercise.
+**Cross-Exam Context:** Exercise conditions for puts and calls are fundamental concepts tested in all NISM derivative modules.
+**Distributor's Pro-Tip:** Put buyer benefits from falling prices. Think of it as insurance: you exercise your fire insurance only when there is a fire (price decline).]]></text></explanation>
+    </question>
+</QF>

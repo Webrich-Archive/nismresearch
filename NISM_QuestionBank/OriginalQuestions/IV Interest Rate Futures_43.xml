@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_43" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What happens to the basis as a bond futures contract approaches expiry?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The basis converges to zero]]></text></answer>
+            <answer correct="no"><text><![CDATA[The basis widens significantly]]></text></answer>
+            <answer correct="no"><text><![CDATA[The basis remains constant]]></text></answer>
+            <answer correct="no"><text><![CDATA[The basis becomes negative regardless of initial sign]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** At expiry, the futures price must equal the spot price (or the settlement reference price). Therefore, the basis (Spot - Futures) approaches zero. This is called basis convergence and is a fundamental property of futures.
+
+**The Trap:** Basis widening would indicate market dysfunction, not normal behavior. A constant basis would mean time has no effect. The sign of the basis doesn't change to negative by default — it simply approaches zero from whatever direction it started.
+
+**Cross-Exam Context:** Basis convergence ensures that futures can be used effectively for hedging. If basis didn't converge, the hedge effectiveness would be compromised. This concept is tested in NISM Series IV, VIII, and XVI.
+
+**Distributor's Pro-Tip:** If the basis doesn't converge near expiry, it could indicate illiquidity or settlement mechanism issues. The cash settlement mechanism in Indian IRF ensures orderly basis convergence through the VWAP/FIMMDA pricing method.]]></text></explanation>
+    </question>
+</QF>

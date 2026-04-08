@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_54" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The residual maturity range for the underlying bond of a 10-year GOI bond futures contract is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[8 to 11 years]]></text></answer>
+            <answer correct="no"><text><![CDATA[9 to 11 years]]></text></answer>
+            <answer correct="no"><text><![CDATA[10 to 12 years]]></text></answer>
+            <answer correct="no"><text><![CDATA[Exactly 10 years]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The 10-year GOI bond futures uses a single dated GOI security with a residual maturity of 8 to 11 years. The '10-year' in the name is indicative, not exact. The specific bond is selected by stock exchanges in consultation with FIMMDA.
+
+**The Trap:** The name '10-year' does not mean the bond must have exactly 10 years of residual maturity. 9-11 years and 10-12 years are incorrect ranges. The specified range is 8-11 years for the 10-year category.
+
+**Cross-Exam Context:** Similarly, the 6-year futures uses 4-8 year residual maturity bonds, and the 13-year uses 11-15 year bonds. These ranges ensure adequate liquidity in the underlying.
+
+**Distributor's Pro-Tip:** The exchange typically selects the most liquid benchmark GOI security within the maturity bucket. When a new benchmark is issued, the underlying may change, affecting the futures contract dynamics.]]></text></explanation>
+    </question>
+</QF>

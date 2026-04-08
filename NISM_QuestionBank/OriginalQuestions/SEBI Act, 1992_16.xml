@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="SEBI Act, 1992_16" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[According to the SEBI (Intermediaries) Regulations, 2008, who is solely responsible for the output of artificial intelligence and machine learning tools used by a regulated person?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[SEBI itself, as the regulator]]></text></answer>
+            <answer correct="no"><text><![CDATA[The stock exchange where the intermediary is registered]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The person regulated by SEBI who uses such tools, regardless of whether they were designed internally or procured from third parties]]></text></answer>
+            <answer correct="no"><text><![CDATA[The third-party technology service provider who designed the AI/ML tool]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Regulation 16C(1) states that any person regulated by SEBI who uses AI/ML tools, whether designed by it or procured from third-party providers, shall be solely responsible for the output, data privacy/security, and compliance with applicable laws.
+**The Trap:** Blaming the third-party provider seems logical since they built the tool, but the regulation places responsibility squarely on the user.
+**Cross-Exam Context:** AI/ML governance in securities markets is an emerging topic being introduced across NISM certifications.
+**Distributor's Pro-Tip:** If using third-party AI tools, conduct thorough due diligence and maintain oversight - you cannot outsource regulatory responsibility.]]></text></explanation>
+    </question>
+</QF>

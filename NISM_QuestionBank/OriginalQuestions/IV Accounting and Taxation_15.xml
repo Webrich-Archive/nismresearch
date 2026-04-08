@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Accounting and Taxation_15" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A company has a floating rate loan and enters an interest rate swap (pay fixed, receive floating) for hedging. Under fair value hedge accounting, gains/losses on the swap are recognized in:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Other Comprehensive Income only]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Statement of Profit and Loss]]></text></answer>
+            <answer correct="no"><text><![CDATA[Retained earnings directly]]></text></answer>
+            <answer correct="no"><text><![CDATA[Deferred in balance sheet indefinitely]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under fair value hedge accounting, gains and losses on the hedging instrument (the swap) are recognized in the Statement of Profit and Loss. Simultaneously, the hedged item (loan) is also adjusted for changes in fair value attributable to the hedged risk, also through P&L.
+
+**The Trap:** Cash flow hedge accounting recognizes the effective portion in Other Comprehensive Income (OCI). But for fair value hedges, both the hedge instrument and hedged item changes go through P&L, which largely offset each other.
+
+**Cross-Exam Context:** The distinction between fair value and cash flow hedge accounting is tested in Series IV and is critical for understanding derivative reporting in financial statements.
+
+**Distributor's Pro-Tip:** The beauty of fair value hedge accounting is that the P&L impact of the hedge and the hedged item largely cancel out, reducing earnings volatility — which is the whole purpose of hedge accounting.]]></text></explanation>
+    </question>
+</QF>

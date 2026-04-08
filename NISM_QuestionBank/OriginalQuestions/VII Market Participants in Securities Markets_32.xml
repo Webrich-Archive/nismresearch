@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Market Participants in Securities Markets_32" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A custodian registered with SEBI who fails to confirm settlement of a trade assigned to them — the settlement responsibility then falls on:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The trading member or clearing member who executed the trade]]></text></answer>
+            <answer correct="no"><text><![CDATA[The clearing corporation absorbs the loss]]></text></answer>
+            <answer correct="no"><text><![CDATA[The investor directly]]></text></answer>
+            <answer correct="no"><text><![CDATA[The depository holding the securities]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Custodians settle trades on behalf of clients of trading members when a trade is assigned to them. They must confirm whether they will settle the trade. If the custodian fails to confirm, the onus of settling the trade falls on the trading member or clearing member who executed the trade.
+**The Trap:** The clearing corporation provides settlement guarantee through novation, but the immediate fallback for unconfirmed custodial trades is the executing TM/CM, not the CC.
+**Cross-Exam Context:** Series V and VI cover custodian settlement obligations.
+**Distributor's Pro-Tip:** Custodian trade flow: Trade executed → assigned to custodian → custodian confirms/rejects → if confirmed, custodian settles; if rejected or no confirmation, the TM/CM settles. This protects against custodian non-performance.]]></text></explanation>
+    </question>
+</QF>

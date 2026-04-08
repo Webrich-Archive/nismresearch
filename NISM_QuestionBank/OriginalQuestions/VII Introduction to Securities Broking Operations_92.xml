@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Introduction to Securities Broking Operations_92" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Periodic call auction sessions for illiquid securities have an order collection period with random closure during:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Between the 44th and 45th minute of the 45-minute collection period]]></text></answer>
+            <answer correct="no"><text><![CDATA[Between the 1st and 5th minute]]></text></answer>
+            <answer correct="no"><text><![CDATA[At exactly the 45th minute]]></text></answer>
+            <answer correct="no"><text><![CDATA[Between the 30th and 35th minute]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Each 1-hour call auction session for illiquid securities has a 45-minute order collection period that closes randomly between the 44th and 45th minute, followed by order matching and trade confirmation.
+**The Trap:** The random closure prevents last-second manipulation — traders don't know the exact closing time within the 1-minute window. This is the same principle used in the regular pre-open session.
+**Cross-Exam Context:** Series XII covers illiquid security trading mechanisms.
+**Distributor's Pro-Tip:** Random closure = anti-manipulation feature. If closure time were known, traders could game the system by placing large orders in the last second. Random closure within a window makes this strategy risky and unpredictable.]]></text></explanation>
+    </question>
+</QF>

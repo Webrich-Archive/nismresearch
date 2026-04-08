@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Clearing Process_44" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[For institutional transactions in the cash market, margins are levied on what basis?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[T+1 basis, upon confirmation of trade by custodian]]></text></answer>
+            <answer correct="no"><text><![CDATA[Upfront basis before trade execution]]></text></answer>
+            <answer correct="no"><text><![CDATA[T+2 basis after settlement]]></text></answer>
+            <answer correct="no"><text><![CDATA[No margins are required for institutional trades]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Institutional trades are margined on T+1 basis with margin collected from the custodian upon confirmation. They are exempt from upfront margin collection.
+**The Trap:** Non-institutional trades require upfront margins. The exemption is specifically for qualifying institutional investors.
+**Cross-Exam Context:** The differential margin treatment for institutions vs retail is frequently tested.
+**Distributor's Pro-Tip:** Institutional exemption from upfront margins recognizes their creditworthiness and custodial settlement process.]]></text></explanation>
+    </question>
+</QF>

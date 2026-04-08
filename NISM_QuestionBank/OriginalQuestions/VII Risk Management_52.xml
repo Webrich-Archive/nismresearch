@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_52" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The maximum value per order accepted by the Stock Exchange for execution in the normal market cannot exceed:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 10 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 5 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 20 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 50 crore]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Any order with value exceeding Rs 10 crore per order cannot be accepted by the Stock Exchange for execution in the normal market.
+**The Trap:** This is an order-level limit, not a cumulative daily limit. Multiple orders below Rs 10 crore each are permitted.
+**Cross-Exam Context:** Pre-order checks are basic trading system safeguards tested in NISM VII.
+**Distributor's Pro-Tip:** Stock brokers must also implement their own client-level value/quantity checks based on risk profiles.]]></text></explanation>
+    </question>
+</QF>

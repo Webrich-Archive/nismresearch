@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Financial System Overview_49" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A resident investor receives a total dividend of Rs. 8,000 in a financial year from equity shares. If the investor has submitted their PAN, what is the TDS amount deducted on the dividend?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 0 (no TDS as amount is below threshold)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 800 (10% of Rs. 8,000)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 300 (10% of only the excess over Rs. 5,000)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,600 (20% of Rs. 8,000)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** As per the Finance Act, 2020, dividend in excess of Rs. 5,000 in a financial year is taxable in the hands of investors. The Rs. 5,000 is a threshold - once exceeded, TDS at 10% is applicable on the total dividend amount for resident investors with PAN. So TDS = 10% of Rs. 8,000 = Rs. 800.
+**The Trap:** The Rs. 5,000 is a threshold trigger, not an exemption amount to be deducted. Once total dividend exceeds Rs. 5,000, TDS applies on the full amount. Also, 20% applies only when PAN is not submitted.
+**Cross-Exam Context:** Dividend taxation rules are tested in NISM Series V-A and VIII.
+**Distributor's Pro-Tip:** If PAN is not available, the TDS rate jumps to 20%. For NRIs, TDS is at 20% of the dividend amount regardless of PAN availability.]]></text></explanation>
+    </question>
+</QF>

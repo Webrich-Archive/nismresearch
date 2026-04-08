@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_40" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For MIBOR futures, which position should a borrower take to hedge against rising interest rates?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Go long MIBOR futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Go short MIBOR futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell call options on MIBOR futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy put options on MIBOR futures]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** MIBOR futures have a unique convention: going long benefits from rate increases. A borrower facing higher costs when rates rise should go long MIBOR futures to offset the increased borrowing cost.
+**The Trap:** Going short MIBOR profits from rate decrease. This is opposite to bond futures where bondholders go short to hedge. The options strategies provide partial hedging.
+**Cross-Exam Context:** MIBOR futures convention is specific to Series IV - it differs from the bond futures convention.
+**Distributor's Pro-Tip:** Key distinction: Bond futures - price up when rate down. MIBOR futures - long benefits when rate up. Don't confuse the two.]]></text></explanation>
+    </question>
+</QF>

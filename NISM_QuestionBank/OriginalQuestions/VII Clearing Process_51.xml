@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Clearing Process_51" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[In case of rejection of institutional trades by custodian, the trade will be settled through:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Delivery Versus Payment (DVP) basis]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cash settlement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Auction mechanism]]></text></answer>
+            <answer correct="no"><text><![CDATA[The trade is cancelled]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Rejected institutional trades are settled through DVP basis and subjected to penalties as imposed by SEs/CCs.
+**The Trap:** The trade does not get cancelled - it must still be settled, but through the DVP mechanism instead of through the custodian.
+**Cross-Exam Context:** DVP settlement for rejected custodian trades is a specific process.
+**Distributor's Pro-Tip:** The broker is responsible for settling rejected custodian trades, which is why margin liability falls on the broker.]]></text></explanation>
+    </question>
+</QF>

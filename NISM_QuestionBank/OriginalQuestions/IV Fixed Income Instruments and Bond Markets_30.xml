@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Fixed Income Instruments and Bond Markets_30" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The 'coupon effect' in YTM refers to:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Bonds with same maturity but different coupons having different YTMs even when priced correctly]]></text></answer>
+            <answer correct="no"><text><![CDATA[Higher coupon bonds always having higher YTM]]></text></answer>
+            <answer correct="no"><text><![CDATA[YTM being accurate only for zero-coupon bonds]]></text></answer>
+            <answer correct="no"><text><![CDATA[Coupon payments having no effect on YTM]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The coupon effect means that bonds with identical maturity and credit quality but different coupon rates will have different YTMs, even when both are correctly priced using the same term structure of zero rates. This is a drawback of YTM as a return measure.
+
+**The Trap:** The coupon effect doesn't mean higher coupons give higher YTM — it's about the inconsistency of YTM as a comparison tool. Two correctly priced bonds shouldn't appear to offer different returns if they have the same risk.
+
+**Cross-Exam Context:** Understanding YTM limitations is tested in Series IV and helps explain why spot rates, not YTM, should be used for proper bond pricing.
+
+**Distributor's Pro-Tip:** Use spot rate-based pricing for accurate bond valuation. YTM is useful as a quick comparison tool but can be misleading when comparing bonds with different coupons.]]></text></explanation>
+    </question>
+</QF>

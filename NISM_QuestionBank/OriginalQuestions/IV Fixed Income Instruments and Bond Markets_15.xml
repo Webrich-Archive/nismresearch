@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Fixed Income Instruments and Bond Markets_15" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A security with FV Rs. 1,000 issued at Rs. 1,000 pays 7% coupon semi-annually. How much interest is received every 6 months?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 70]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 35]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 140]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 7]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Semi-annual interest = Face Value × Coupon Rate / 2 = 1000 × 7% / 2 = Rs. 35.
+
+**The Trap:** Rs. 70 is the annual interest. Rs. 140 assumes two payments at full annual rate. Semi-annual means the annual coupon is split equally across two periods.
+
+**Cross-Exam Context:** Understanding coupon frequency is basic bond math tested across Series IV, V-A, and XII.
+
+**Distributor's Pro-Tip:** In India, most G-Secs pay semi-annual coupons while corporate bonds may pay annually or quarterly. Always verify coupon frequency.]]></text></explanation>
+    </question>
+</QF>

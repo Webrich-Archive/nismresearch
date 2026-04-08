@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_37" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Which of the following correctly describes the relationship between bond prices and interest rates?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Bond prices and interest rates are inversely related]]></text></answer>
+            <answer correct="no"><text><![CDATA[Bond prices and interest rates are directly related]]></text></answer>
+            <answer correct="no"><text><![CDATA[Bond prices are independent of interest rates]]></text></answer>
+            <answer correct="no"><text><![CDATA[The relationship depends on the bond's maturity only]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When interest rates rise, the present value of future cash flows (coupons and principal) decreases, causing bond prices to fall. Conversely, when rates fall, bond prices rise. This is the fundamental inverse relationship.
+
+**The Trap:** Direct relationship would mean both move together — this is false. Independence is incorrect as bonds are discounted instruments. While maturity affects the degree of sensitivity (duration), the inverse relationship holds for all bonds.
+
+**Cross-Exam Context:** This is the most fundamental concept in fixed income, tested across NISM Series IV, V-A, and XXI. It is the basis for all interest rate risk management.
+
+**Distributor's Pro-Tip:** The longer the bond's maturity, the more sensitive it is to rate changes (higher duration). A 10-year bond's price will change much more than a 2-year bond's price for the same rate change.]]></text></explanation>
+    </question>
+</QF>

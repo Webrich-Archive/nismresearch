@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_22" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A portfolio has a value of Rs. 200 crore and a modified duration of 4 years. Bond futures with a duration of 8 years are priced at Rs. 2,00,000 per contract. To increase portfolio duration to 6 years, how many contracts should be bought?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[2,500 contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[5,000 contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[1,250 contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[10,000 contracts]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Contracts = Portfolio value x (Target duration - Current duration) / (Futures price x Futures duration) = 200,00,00,000 x (6 - 4) / (2,00,000 x 8) = 200,00,00,000 x 2 / 16,00,000 = 2,500. Positive = buy.
+**The Trap:** 5,000 uses full target duration (6). 1,250 uses duration 4. 10,000 ignores futures duration.
+**Cross-Exam Context:** Duration adjustment using futures is the key practical application in Series IV.
+**Distributor's Pro-Tip:** Positive result = buy futures (increase duration). Negative = sell futures (decrease duration).]]></text></explanation>
+    </question>
+</QF>

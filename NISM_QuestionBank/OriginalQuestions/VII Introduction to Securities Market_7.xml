@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Introduction to Securities Market_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In a Triparty Repo (TREPS) arrangement, what role does CCIL play?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[CCIL acts as both the Triparty Agent (TPA) and Central Counterparty (CCP)]]></text></answer>
+            <answer correct="no"><text><![CDATA[CCIL only provides the trading platform]]></text></answer>
+            <answer correct="no"><text><![CDATA[CCIL acts solely as the clearing bank]]></text></answer>
+            <answer correct="no"><text><![CDATA[CCIL functions only as the settlement agency]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In TREPS, CCIL is authorized by RBI to act as the Triparty Agent (TPA) — handling collateral selection, payment, settlement, custody, and management during the repo period. CCIL also serves as the Central Counterparty (CCP), providing settlement guarantee. The trading platform (TREPS) is provided by Clearcorp Dealing Systems.
+**The Trap:** The trading platform is provided by Clearcorp, not CCIL. Students may confuse the platform provider with the TPA/CCP role.
+**Cross-Exam Context:** Series IV covers repo mechanics in detail. Series V-A mentions TREPS in the context of liquid fund investments.
+**Distributor's Pro-Tip:** TREPS key features: (1) anonymous order matching, (2) CCIL as TPA+CCP, (3) funds borrowed exempt from CRR/SLR, (4) seller can substitute collateral — unlike regular repo.]]></text></explanation>
+    </question>
+</QF>

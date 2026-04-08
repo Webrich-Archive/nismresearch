@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Introduction to Interest Rate Derivatives_13" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A call swaption gives the holder the right to:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Enter a swap as a fixed rate payer]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Enter a swap as a fixed rate receiver]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy a bond at a predetermined price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell a bond at a predetermined price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A call swaption (also called a receiver swaption) gives the holder the right to enter an interest rate swap where they receive a fixed rate and pay a floating rate. A put swaption (payer swaption) gives the right to pay fixed and receive floating.
+
+**The Trap:** This is counterintuitive — a call swaption is about receiving fixed, not paying. Think of it as buying the right to 'call' (receive) fixed cash flows.
+
+**Cross-Exam Context:** Swaptions are tested in Series IV under OTC interest rate derivative products. They combine features of options and swaps.
+
+**Distributor's Pro-Tip:** A receiver swaption profits when interest rates fall (the fixed rate received becomes valuable). A payer swaption profits when rates rise. They're used by treasuries for contingent hedging.]]></text></explanation>
+    </question>
+</QF>

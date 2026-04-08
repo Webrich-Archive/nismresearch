@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Clearing Settlement and Risk Management_10" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A trader has a long position of 8 lots and a short position of 5 lots in the same bond futures contract. What is the net position for margin calculation purposes?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[3 lots long]]></text></answer>
+            <answer correct="no"><text><![CDATA[8 lots long]]></text></answer>
+            <answer correct="no"><text><![CDATA[13 lots]]></text></answer>
+            <answer correct="no"><text><![CDATA[5 lots short]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Net position = Long - Short = 8 - 5 = 3 lots long. Multilateral netting reduces the gross position to a net figure for margin and settlement purposes.
+
+**The Trap:** 13 lots adds both sides (gross). 8 lots ignores the short. 5 lots takes only the short side. Netting always offsets opposite positions.
+
+**Cross-Exam Context:** Netting is fundamental to clearing corporation operations across all derivative segments. The concept is identical in equity and currency derivatives.
+
+**Distributor's Pro-Tip:** Netting significantly reduces margin requirements and settlement obligations. A fully hedged book (equal long and short) has zero net position and minimal margin.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Introduction to Securities Broking Operations_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which type of order is currently NOT available on stock exchange systems as per SEBI directives?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Good Till Cancelled (GTC) and All or None (AON)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Market Order and Limit Order]]></text></answer>
+            <answer correct="no"><text><![CDATA[Stop Loss Order and IOC Order]]></text></answer>
+            <answer correct="no"><text><![CDATA[Day Order and Disclosed Quantity Order]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** As per SEBI directives, GTC, GTD, AON, and Minimum Fill (MF) orders are currently not available on the exchange trading systems. Available orders include: Market, Limit, Stop Loss, Day, IOC, DQ, and COL.
+**The Trap:** Students may assume all order types mentioned in textbooks are available. GTC, GTD, AON, and MF are defined but not currently operational.
+**Cross-Exam Context:** Series VIII covers available order types for derivatives.
+**Distributor's Pro-Tip:** Available: Market, Limit, Stop Loss (trigger+limit/market), Day, IOC, DQ, COL. NOT available: GTC, GTD, AON, MF. This is a frequently tested fact — remember which order types are theoretical vs. operational.]]></text></explanation>
+    </question>
+</QF>

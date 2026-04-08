@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Clearing Settlement and Risk Management_49" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A clearing member observes that their collateral utilization is at 85%. They have pending orders worth approximately 10% of their available margin. What should they do?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Immediately deposit additional collateral to bring utilization well below 90%, before the pending orders potentially push utilization past the threshold]]></text></answer>
+            <answer correct="no"><text><![CDATA[Wait until utilization reaches 90% since the exchange only acts at that level]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cancel all pending orders to reduce utilization]]></text></answer>
+            <answer correct="no"><text><![CDATA[Switch to a different clearing corporation with lower margin requirements]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** At 85% utilization with pending orders that could add 10%, the member risks crossing the 90% threshold which would trigger automatic cancellation of ALL unexecuted orders. Proactive collateral top-up is the prudent approach.
+
+**The Trap:** Waiting until 90% is risky because intra-day margin changes could push utilization over. Cancelling all orders disrupts trading. Switching CCs is not possible for IRD (no interoperability).
+
+**Cross-Exam Context:** Proactive margin management is a practical risk management skill tested across all derivative exams. The scenario tests whether candidates understand the operational implications.
+
+**Distributor's Pro-Tip:** Best practice is to maintain an internal buffer (e.g., 20% headroom) above the exchange threshold. Automated alerts at 75% and 85% utilization help prevent 90% breaches.]]></text></explanation>
+    </question>
+</QF>

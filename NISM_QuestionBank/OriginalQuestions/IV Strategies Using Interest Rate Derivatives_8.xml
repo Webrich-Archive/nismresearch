@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_8" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A bond holder has a portfolio worth Rs. 25 crore with duration 5 years. Bond futures with duration 10 years are trading at Rs. 2,50,000 per contract. How many futures must be sold to reduce portfolio duration to 3 years?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[200 contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[500 contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[250 contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[100 contracts]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Contracts needed = Portfolio value x (Target duration - Current duration) / (Futures price x Futures duration). = 25,00,00,000 x (3 - 5) / (2,50,000 x 10) = 25,00,00,000 x (-2) / 25,00,000 = -200. Negative means sell 200 contracts.
+**The Trap:** 500 uses full duration (5) instead of the change (2). 250 ignores futures duration.
+**Cross-Exam Context:** This is the modified hedge ratio for partial hedging, a more advanced version of the full hedge ratio in Q1.
+**Distributor's Pro-Tip:** To reduce (not eliminate) duration, use the difference between target and current duration in the numerator.]]></text></explanation>
+    </question>
+</QF>

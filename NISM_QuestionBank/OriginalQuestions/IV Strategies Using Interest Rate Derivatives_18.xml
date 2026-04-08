@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_18" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A borrower expects MIBOR to rise from 6.25% to 6.75% in the next month. To hedge borrowing cost, should the borrower go long or short MIBOR futures, and what is the profit if notional is Rs. 1 crore for a 1-day MIBOR contract?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Go long MIBOR futures; profit approximately Rs. 1,370]]></text></answer>
+            <answer correct="no"><text><![CDATA[Go short MIBOR futures; profit approximately Rs. 1,370]]></text></answer>
+            <answer correct="no"><text><![CDATA[Go long MIBOR futures; profit approximately Rs. 5,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Go short MIBOR futures; profit approximately Rs. 5,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** To hedge rising borrowing cost, go long MIBOR futures (benefit from rate increase). Profit = Notional x (Rate change) x (1/365) = 1,00,00,000 x 0.50% x (1/365) = 1,00,00,000 x 0.005 x 0.00274 = Rs. 1,370 approximately.
+**The Trap:** Going short would hedge against rate DECREASE. Rs. 5,000 uses 1/200 instead of 1/365.
+**Cross-Exam Context:** MIBOR futures hedging for borrowers is unique to Series IV. The convention differs from bond futures.
+**Distributor's Pro-Tip:** MIBOR futures: borrowers go LONG to hedge (opposite of bond futures where bondholders go SHORT).]]></text></explanation>
+    </question>
+</QF>

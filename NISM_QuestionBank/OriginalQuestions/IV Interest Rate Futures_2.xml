@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_2" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[If the 91-day T-Bill futures discount yield (y) is 6.50%, what is the quoted futures price?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[93.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[106.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[6.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[98.375]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The 91-day T-Bill futures are quoted as 100 minus the futures discount yield. Quoted Price = 100 - y = 100 - 6.50 = 93.50.
+
+**The Trap:** 106.50 comes from adding 100 + 6.50 instead of subtracting. 98.375 comes from applying the settlement formula (100 - 0.25 × y) which is used for settlement value, not the quotation price. The quotation is simply 100 - y.
+
+**Cross-Exam Context:** This 100-minus-yield quotation convention is similar to LIBOR futures (Eurodollar futures) tested in global derivatives exams. Understanding the difference between quotation price and settlement value is critical.
+
+**Distributor's Pro-Tip:** The 100-minus-yield convention ensures that when yields rise, the quoted price falls — maintaining the standard inverse relationship. This makes hedging intuitive for bond holders.]]></text></explanation>
+    </question>
+</QF>

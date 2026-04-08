@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Introduction to Securities Market_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Call money market transactions in India are restricted to which participants?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Scheduled Commercial Banks (SCBs) and Primary Dealers (PDs) only]]></text></answer>
+            <answer correct="no"><text><![CDATA[All banks including cooperative banks and NBFCs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Any entity registered with RBI]]></text></answer>
+            <answer correct="no"><text><![CDATA[Mutual funds, insurance companies and banks]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The call money market is a purely interbank market in India, restricted to Scheduled Commercial Banks (SCBs) and Primary Dealers (PDs). Transactions are dealt/reported on RBI's NDS-CALL platform and are predominantly overnight.
+**The Trap:** Notice money and term money also operate on NDS-CALL but have different tenors. The wider set of participants (mutual funds, insurance companies, etc.) can access the repo market but NOT the call money market.
+**Cross-Exam Context:** Series IV (Interest Rate Derivatives) covers money market instruments in detail, including the relationship between call rates and derivative pricing.
+**Distributor's Pro-Tip:** Call money = interbank only (SCBs + PDs). For broader participation, look at repo/TREPS markets.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_12" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A calendar spread trader buys a June bond futures at Rs. 100.50 and sells a March bond futures at Rs. 101.00. At March expiry, the March settles at Rs. 100.80 and the June is trading at Rs. 100.90. What is the net P&L if both legs are closed?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 0.60]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.20]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.40]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Short March: Sold 101.00, settled 100.80, profit = Rs. 0.20. Long June: Bought 100.50, sold 100.90, profit = Rs. 0.40. Total P&L = 0.20 + 0.40 = Rs. 0.60.
+**The Trap:** Rs. 0.20 considers only the near-month leg. Rs. 0.40 considers only the far-month leg. Rs. 1.00 adds the entry prices.
+**Cross-Exam Context:** Calendar spread P&L appears in currency derivatives (Series I) and equity derivatives (Series VIII).
+**Distributor's Pro-Tip:** Always track both legs separately and sum P&L. Calendar spreads profit from changes in the term structure.]]></text></explanation>
+    </question>
+</QF>

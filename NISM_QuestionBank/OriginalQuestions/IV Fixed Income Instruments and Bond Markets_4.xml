@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Fixed Income Instruments and Bond Markets_4" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A zero-coupon bond with a face value of Rs. 100 and maturity of 5 years is priced at Rs. 68.06. What is the yield to maturity?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[6.00%]]></text></answer>
+            <answer correct="no"><text><![CDATA[7.00%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[8.00%]]></text></answer>
+            <answer correct="no"><text><![CDATA[9.00%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For a zero-coupon bond: Price = FV / (1+YTM)^n. So 68.06 = 100 / (1+YTM)^5. (1+YTM)^5 = 100/68.06 = 1.4694. YTM = (1.4694)^(1/5) - 1 = 1.08 - 1 = 8%.
+
+**The Trap:** Students sometimes confuse the discount percentage (31.94%) with the yield. The yield is the annualized return, not the total discount divided by years.
+
+**Cross-Exam Context:** Zero-coupon bond yield calculations appear in Series IV and are foundational for understanding the term structure of interest rates used in derivative pricing.
+
+**Distributor's Pro-Tip:** Zero-coupon bonds have no reinvestment risk — their duration equals maturity, making them ideal for liability matching.]]></text></explanation>
+    </question>
+</QF>

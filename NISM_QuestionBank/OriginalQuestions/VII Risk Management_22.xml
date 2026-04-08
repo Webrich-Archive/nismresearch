@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_22" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[ICMTM is calculated based on:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Weighted average prices of trades]]></text></answer>
+            <answer correct="no"><text><![CDATA[Last traded prices]]></text></answer>
+            <answer correct="no"><text><![CDATA[Opening prices of the day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Previous day closing prices]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** ICMTM is calculated based on weighted average prices of trades, not on individual trade prices or closing prices.
+**The Trap:** Regular MTM uses closing prices, but ICMTM uses weighted average prices of the actual intraday trades.
+**Cross-Exam Context:** The methodology difference between ICMTM and regular MTM is a subtle but testable distinction.
+**Distributor's Pro-Tip:** Weighted average prices provide a more representative measure of actual execution prices for intraday positions.]]></text></explanation>
+    </question>
+</QF>

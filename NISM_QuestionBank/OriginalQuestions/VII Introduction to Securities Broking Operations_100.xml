@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Introduction to Securities Broking Operations_100" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The Cyber Security & Cyber Resilience Framework (CSCRF) requires dedicated Hardware Security Module (HSM) implementation mandatorily for:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[MIIs and Qualified REs]]></text></answer>
+            <answer correct="no"><text><![CDATA[All regulated entities regardless of size]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only self-certification REs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only foreign entities operating in India]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Dedicated HSM implementation is mandatory for MIIs (Market Infrastructure Institutions) and Qualified REs. Mid-size, small-size, and self-certification REs may implement alternatives based on their own risk assessment, approved by their Board/Partners/Proprietor.
+**The Trap:** HSM is not universally mandatory — smaller entities have flexibility based on risk assessment. But the risk assessment must be formally approved at the governance level.
+**Cross-Exam Context:** Series XII covers IT security requirements for market participants.
+**Distributor's Pro-Tip:** HSM = hardware device for secure cryptographic key management. Mandatory for large entities (MIIs, Qualified REs) because they handle the most sensitive data. Smaller entities can use software-based alternatives if risk-assessed and board-approved. CSCRF takes a proportionate approach.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Fixed Income Instruments and Bond Markets_6" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A bond has a Macaulay duration of 7.50 years and a yield to maturity of 6%. What is its Modified Duration?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[7.50 years]]></text></answer>
+            <answer correct="yes"><text><![CDATA[7.08 years]]></text></answer>
+            <answer correct="no"><text><![CDATA[7.28 years]]></text></answer>
+            <answer correct="no"><text><![CDATA[6.50 years]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Modified Duration = Macaulay Duration / (1 + YTM) = 7.50 / (1 + 0.06) = 7.50 / 1.06 = 7.08 years. For semi-annual bonds, use YTM/2 in the denominator.
+
+**The Trap:** 7.50 is the Macaulay duration itself (not modified). 7.28 would result from using YTM/2 = 3%, which applies only for semi-annual coupon bonds.
+
+**Cross-Exam Context:** Modified Duration is a critical risk measure tested in Series IV, VIII, and XIII. It's used to calculate hedge ratios for interest rate futures.
+
+**Distributor's Pro-Tip:** Modified Duration tells you the approximate percentage price change for a 100 bps change in yield. A bond with MD of 7.08 will change ~7.08% in price for a 1% yield change.]]></text></explanation>
+    </question>
+</QF>

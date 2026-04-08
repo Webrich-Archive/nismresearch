@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Clearing Process_62" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[In the clearing and settlement process, after trade details are available from the Exchange, the next step is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Custodial confirmation by clearing corporation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Immediate settlement of trades]]></text></answer>
+            <answer correct="no"><text><![CDATA[Auction of securities]]></text></answer>
+            <answer correct="no"><text><![CDATA[Payment of brokerage]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The flow is: Trade details → Custodial confirmation → Obligation determination → Download to CMs → Pay-in → Pay-out.
+**The Trap:** Settlement does not happen immediately after trading. There is a structured process of confirmation and netting.
+**Cross-Exam Context:** Understanding the sequential clearing process is fundamental.
+**Distributor's Pro-Tip:** Each step has specific timelines that must be adhered to for smooth settlement.]]></text></explanation>
+    </question>
+</QF>

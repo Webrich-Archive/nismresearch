@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Introduction to Securities Broking Operations_83" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The smart order router (SOR) facility enables trading members to:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Route orders to the exchange offering the best price across multiple exchanges]]></text></answer>
+            <answer correct="no"><text><![CDATA[Speed up order entry by using keyboard shortcuts]]></text></answer>
+            <answer correct="no"><text><![CDATA[Bypass risk management checks]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trade on foreign exchanges from Indian terminals]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Smart Order Router (SOR) is one of the facilities that exchanges have allowed members to develop. It enables automatic routing of orders to the exchange offering the best price, helping achieve best execution for clients.
+**The Trap:** SOR still goes through the broker's risk management system. It doesn't bypass any checks — it only optimizes exchange selection for price improvement.
+**Cross-Exam Context:** Series XII covers SOR and other trading technology features.
+**Distributor's Pro-Tip:** SOR = automated best-price routing across exchanges. Example: if NSE bid is Rs. 100 and BSE bid is Rs. 100.10 for a sell order, SOR routes to BSE. This ensures best execution obligation is met without manual comparison of order books across exchanges.]]></text></explanation>
+    </question>
+</QF>

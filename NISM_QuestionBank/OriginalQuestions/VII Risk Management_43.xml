@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_43" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[In risk reduction mode, which of the following actions is NOT permitted?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Placing orders with custodial participant code]]></text></answer>
+            <answer correct="no"><text><![CDATA[Placing IOC orders that reduce open positions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Receiving pay-out from clearing corporation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Bringing in additional collateral]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In risk reduction mode, members shall not be allowed to place orders with custodial participant code, and client/CP code modification is not permitted.
+**The Trap:** IOC orders to reduce positions are still allowed. The restriction is on new CP code orders and code modifications.
+**Cross-Exam Context:** These specific restrictions are detail-oriented questions commonly asked in the exam.
+**Distributor's Pro-Tip:** CP code restrictions prevent institutional order flow when the member's risk is already elevated.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Introduction to Interest Rate Derivatives_18" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[An Interest Rate Collar involves:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Buying a cap and buying a floor simultaneously]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Buying a cap and selling a floor simultaneously]]></text></answer>
+            <answer correct="no"><text><![CDATA[Selling both a cap and a floor]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buying two caps with different strikes]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** An interest rate collar = simultaneous purchase of an interest rate cap + sale of an interest rate floor on the same underlying, maturity, and notional. The premium received from selling the floor partially offsets the cost of buying the cap.
+
+**The Trap:** A reverse collar is the opposite — buying a floor and selling a cap. A collar is a cost-reduction strategy where you give up some upside (the floor limits your benefit from falling rates) to reduce the cost of protection (cap premium).
+
+**Cross-Exam Context:** Collars are tested in Series IV as OTC option strategies. Similar structures exist in equity and currency derivative exams.
+
+**Distributor's Pro-Tip:** Zero-cost collars are popular — strike rates are chosen so that cap premium = floor premium. This gives free protection against rate rises but caps the benefit from rate falls.]]></text></explanation>
+    </question>
+</QF>

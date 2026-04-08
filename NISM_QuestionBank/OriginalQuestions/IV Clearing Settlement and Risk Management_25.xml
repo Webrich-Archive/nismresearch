@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Clearing Settlement and Risk Management_25" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is a Custodial Participant (CP) in the context of IRD clearing?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A client that trades through multiple trading members but settles all trades through a single clearing member]]></text></answer>
+            <answer correct="no"><text><![CDATA[A bank that holds securities in custody for retail investors]]></text></answer>
+            <answer correct="no"><text><![CDATA[A clearing member that specializes in safekeeping government securities]]></text></answer>
+            <answer correct="no"><text><![CDATA[A SEBI-registered entity that provides depository services]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Custodial Participants are typically institutional clients who may trade through various brokers (TMs) but consolidate their clearing and settlement through one clearing member. This simplifies their back-office operations.
+
+**The Trap:** CPs are not custodian banks or depository participants - they are a specific category of market participant in the clearing framework. They are trading clients, not service providers.
+
+**Cross-Exam Context:** The CP concept exists across equity and derivative segments. Large mutual funds and insurance companies often operate as custodial participants.
+
+**Distributor's Pro-Tip:** CPs benefit from consolidated risk management and margin efficiency. By routing all settlements through one CM, they get netting benefits across different TMs.]]></text></explanation>
+    </question>
+</QF>

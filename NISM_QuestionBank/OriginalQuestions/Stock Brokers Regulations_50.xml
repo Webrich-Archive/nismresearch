@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Stock Brokers Regulations_50" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A stockbroker has a net worth of Rs. 10 crore and provides Margin Trading Facility. What is the maximum total indebtedness this broker can have for the purpose of margin trading?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 30 crore]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 50 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 100 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 20 crore]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The total indebtedness of a stockbroker for the purpose of margin trading shall not exceed 5 times its net worth. With a net worth of Rs. 10 crore, the maximum total indebtedness is 5 x Rs. 10 crore = Rs. 50 crore.
+**The Trap:** Rs. 100 crore would imply 10 times the net worth, which is incorrect. Rs. 30 crore (3 times) and Rs. 20 crore (2 times) are common distractors. The correct multiplier is exactly 5 times.
+**Cross-Exam Context:** This is a calculation question combining the MTF net worth threshold (Rs. 3 crore minimum) with the leverage limit (5x net worth). Both concepts must be understood together.
+**Distributor's Pro-Tip:** Also remember that the maximum allowable MTF exposure cannot exceed borrowed funds plus 50% of the broker's net worth. So with Rs. 10 crore net worth, maximum exposure = borrowed funds + Rs. 5 crore. These are separate but complementary limits.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_75" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A pension fund holds long-duration government bonds and has sold covered calls to generate extra income. Interest rates have fallen sharply and bond prices have risen above the call strike. What should the fund manager consider?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The bonds will likely be called away at the strike price, limiting gains; the manager should evaluate whether to roll the calls to a higher strike or accept delivery]]></text></answer>
+            <answer correct="no"><text><![CDATA[No action needed since covered calls always maximize returns]]></text></answer>
+            <answer correct="no"><text><![CDATA[The fund should immediately sell all bonds before the calls are exercised]]></text></answer>
+            <answer correct="no"><text><![CDATA[The manager should buy more calls to increase upside potential]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** With bonds above the call strike, the short calls are deep ITM and will likely be exercised. The manager faces capped gains. Options include: (1) accept delivery at strike, (2) buy back the calls (at a loss) and sell new higher strike calls (roll up), or (3) let it be and accept the premium-enhanced limited return.
+**The Trap:** Covered calls don't always maximize returns - they cap upside. Selling bonds before exercise is premature. Buying more calls is a different strategy entirely.
+**Cross-Exam Context:** Managing covered call positions when ITM is a practical application tested in Series VIII.
+**Distributor's Pro-Tip:** Rolling options is a key skill. Rolling up (to higher strike) gives more upside but costs the difference in premiums. It's a judgment call based on market outlook.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_38" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Which option position carries theoretically unlimited risk?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Short (written) call option]]></text></answer>
+            <answer correct="no"><text><![CDATA[Long call option]]></text></answer>
+            <answer correct="no"><text><![CDATA[Long put option]]></text></answer>
+            <answer correct="no"><text><![CDATA[Short (written) put option]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A short call writer must deliver at the strike price regardless of how high the market price goes. Since prices can rise indefinitely, the risk is theoretically unlimited.
+**The Trap:** Long call and long put have risk limited to premium. Short put has maximum loss of Strike - Premium (underlying can only go to zero).
+**Cross-Exam Context:** Risk profiles of all four basic option positions are tested in NISM Equity and Interest Rate Derivatives.
+**Distributor's Pro-Tip:** This is why naked call writing is considered the riskiest option strategy. Short put risk is large but bounded (underlying cannot go below zero).]]></text></explanation>
+    </question>
+</QF>

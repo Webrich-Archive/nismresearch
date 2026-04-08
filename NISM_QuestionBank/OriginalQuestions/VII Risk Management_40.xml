@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_40" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A stock broker is mandatorily put in risk reduction mode when what percentage of collateral is utilized?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[90%]]></text></answer>
+            <answer correct="no"><text><![CDATA[80%]]></text></answer>
+            <answer correct="no"><text><![CDATA[95%]]></text></answer>
+            <answer correct="no"><text><![CDATA[85%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Stock brokers are put in risk reduction mode when 90% of collateral available for adjustment against margins gets utilized.
+**The Trap:** 85% is the threshold for exiting risk reduction mode, not entering it. The entry and exit levels are different to prevent rapid switching.
+**Cross-Exam Context:** Risk reduction mode is a critical safety mechanism tested in NISM VII.
+**Distributor's Pro-Tip:** The 5% gap between entry (90%) and exit (85%) creates a buffer to prevent oscillation between modes.]]></text></explanation>
+    </question>
+</QF>

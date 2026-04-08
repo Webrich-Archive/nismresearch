@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Regulatory Framework_7" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A broker has 5 clients with the following bond futures positions on the same underlying (outstanding stock Rs. 60,000 crores): Client A: Rs. 480 crores, Client B: Rs. 500 crores, Client C: Rs. 300 crores, Client D: Rs. 450 crores, Client E: Rs. 510 crores. Which client is in violation of position limits?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Client E (Rs. 510 crores exceeds the Rs. 500 crore client limit)]]></text></answer>
+            <answer correct="no"><text><![CDATA[No client is in violation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Client B and Client E (both at or above Rs. 500 crores)]]></text></answer>
+            <answer correct="no"><text><![CDATA[All clients with positions above Rs. 300 crores]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Client limit = Lower of (3% x 60,000 = Rs. 1,800 crores) or Rs. 500 crores = Rs. 500 crores. Client E at Rs. 510 crores exceeds Rs. 500 crores. Client B at exactly Rs. 500 crores is AT the limit, not over.
+
+**The Trap:** Client B is at the limit, not above it - being exactly at the limit is compliant. 3% = Rs. 1,800 crores does not bind since Rs. 500 crore cap is lower. Rs. 300 crores has no significance as a limit.
+
+**Cross-Exam Context:** Position limit monitoring at the client level is a compliance function. Exams test precision - "at the limit" vs. "over the limit" matters.
+
+**Distributor's Pro-Tip:** Brokers should set internal warning thresholds at 90% of the limit (Rs. 450 crores) to give clients time to plan position reductions before breach.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_9" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The VaR margin is collected on which type of position of the member?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Gross open position across all clients]]></text></answer>
+            <answer correct="no"><text><![CDATA[Net open position across all clients]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only proprietary positions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Net position per client]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** VaR margin is collected on the gross open position of the member, meaning the gross of all net positions across all clients including proprietary position, with no netting across different settlements.
+**The Trap:** While positions are netted at the individual client level for a specific settlement, the member-level margin is based on grossing all these net client positions.
+**Cross-Exam Context:** Understanding gross vs net margining is critical for NISM VII and VIII.
+**Distributor's Pro-Tip:** Grossing prevents a broker from offsetting one client's risk against another's.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_50" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the key difference between a bullish vertical spread using calls and a bullish vertical spread using puts?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Bull call spread is a net debit strategy (pay premium upfront); bull put spread is a net credit strategy (receive premium upfront)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Bull call spread uses only calls; bull put spread uses both calls and puts]]></text></answer>
+            <answer correct="no"><text><![CDATA[Bull call spread has unlimited profit; bull put spread has limited profit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Bull call spread can only be used for bonds; bull put spread for money market instruments]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Bull call spread: buy lower strike call (expensive) + sell higher strike call (cheaper) = net debit. Bull put spread: sell higher strike put (expensive) + buy lower strike put (cheaper) = net credit. Both are bullish with similar payoff profiles.
+**The Trap:** Bull put spread uses only puts, not both. Both have limited profit. No instrument restriction exists.
+**Cross-Exam Context:** Debit vs credit spread distinction is tested in Series VIII.
+**Distributor's Pro-Tip:** Choose credit spreads if you want premium upfront and are willing to accept margin requirements. Choose debit spreads for defined maximum loss.]]></text></explanation>
+    </question>
+</QF>

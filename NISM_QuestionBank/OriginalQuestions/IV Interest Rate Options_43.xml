@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_43" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[In put-call parity (C - P = S - PV(K)), which type of options must this relationship hold for?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[European options only]]></text></answer>
+            <answer correct="no"><text><![CDATA[American options only]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both European and American options equally]]></text></answer>
+            <answer correct="no"><text><![CDATA[Bermudan options only]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Put-call parity holds exactly only for European options because they cannot be exercised early. American options may deviate due to early exercise premium.
+**The Trap:** Many candidates assume it holds for all option types. For American options, only an inequality relationship holds.
+**Cross-Exam Context:** Put-call parity conditions are tested in NISM Equity Derivatives and Research Analyst modules.
+**Distributor's Pro-Tip:** Since exchange-traded interest rate options in India are European style, put-call parity is directly applicable for pricing and arbitrage analysis.]]></text></explanation>
+    </question>
+</QF>

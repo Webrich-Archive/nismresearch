@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Stock Brokers Regulations_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under the margin trading framework, what is the maximum percentage of total margin liability (including additional margins) that a Trading Member may retain from a client's funds on the day of settlement of running account?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[100%]]></text></answer>
+            <answer correct="no"><text><![CDATA[150%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[225%]]></text></answer>
+            <answer correct="no"><text><![CDATA[300%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The margin liability shall include the end of the day margin requirement excluding the MTM and pay-in obligation. The Trading Member may retain 125% of total margin liability as additional margins, plus the base 100%, therefore Trading Member may retain 225% of the total margin liability in all segments across exchanges.
+**The Trap:** 100% seems like the obvious answer but ignores the additional margin component. The actual permitted retention is 225% (100% base + 125% additional).
+**Cross-Exam Context:** Settlement of running accounts is a practical compliance topic tested in NISM Series III-A and is relevant for day-to-day operations of stockbrokers.
+**Distributor's Pro-Tip:** Client's running account must be settled by actual payment into the client's bank account, not by making journal entries. Journal entries are only permitted for levy/reversal of charges.]]></text></explanation>
+    </question>
+</QF>

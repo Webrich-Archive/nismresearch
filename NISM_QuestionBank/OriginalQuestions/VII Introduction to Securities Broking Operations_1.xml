@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Introduction to Securities Broking Operations_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following is the correct sequence of steps in a securities trade life cycle?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Placing order → Risk management and routing → Order matching → Confirmation → Clearing and settlement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Clearing and settlement → Order matching → Placing order → Risk management → Confirmation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Order matching → Placing order → Confirmation → Risk management → Clearing and settlement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Risk management → Placing order → Confirmation → Order matching → Clearing and settlement]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The trade life cycle follows a sequential process: (1) Placing an order, (2) Risk management and routing through the trading platform, (3) Order matching and conversion into trade, (4) Confirmation of trades, (5) Clearing and settlement.
+**The Trap:** Risk management happens BEFORE order matching, not after. The broker's RMS checks the order before it enters the exchange system.
+**Cross-Exam Context:** Series V (Clearing Process) and Series VI cover the post-trade parts of this cycle in detail.
+**Distributor's Pro-Tip:** Front office = order placement + matching. Middle office = risk management. Back office = confirmation + clearing + settlement. Understanding this split helps you know who handles what in a broking firm.]]></text></explanation>
+    </question>
+</QF>

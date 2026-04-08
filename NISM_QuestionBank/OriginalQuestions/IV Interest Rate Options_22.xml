@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_22" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A trader buys a call at strike Rs. 100 (premium Rs. 3) and simultaneously sells a call at strike Rs. 105 (premium Rs. 1). What is the maximum profit of this bull call spread?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 3]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 5]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 4]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Net premium paid = 3 - 1 = Rs. 2. Max profit = (Higher Strike - Lower Strike) - Net Premium = (105 - 100) - 2 = Rs. 3.
+**The Trap:** Rs. 5 is the strike difference without deducting net premium. Rs. 2 is the net premium (which is actually the max loss, not max profit).
+**Cross-Exam Context:** Spread strategies are tested in NISM Equity Derivatives with the same payoff logic.
+**Distributor's Pro-Tip:** In a bull call spread, max profit is capped (unlike a naked long call). The trade-off is a lower cost of entry (net premium paid).]]></text></explanation>
+    </question>
+</QF>

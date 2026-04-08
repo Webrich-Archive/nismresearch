@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Trading Mechanism_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader's collateral utilization reaches 90% of the total deposited margin. What automatic action does the exchange system trigger?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[All unexecuted pending orders are cancelled automatically]]></text></answer>
+            <answer correct="no"><text><![CDATA[The trading terminal is permanently disabled]]></text></answer>
+            <answer correct="no"><text><![CDATA[The trader's existing positions are forcibly liquidated]]></text></answer>
+            <answer correct="no"><text><![CDATA[Additional margin of 50% is automatically collected]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When collateral utilization hits 90%, the exchange's risk management system automatically cancels all pending (unexecuted) orders to prevent further exposure. This is a pre-emptive risk control measure.
+**The Trap:** The terminal is not permanently disabled (it can be reactivated with additional margin). Positions are not immediately liquidated (that happens at higher utilization). Additional margin is not auto-collected.
+**Cross-Exam Context:** The 90% collateral trigger is specific to IRD/currency segments. Equity derivatives may have different thresholds.
+**Distributor's Pro-Tip:** Traders should monitor their margin utilization and top up collateral before reaching 90% to avoid disruption of their order strategy.]]></text></explanation>
+    </question>
+</QF>

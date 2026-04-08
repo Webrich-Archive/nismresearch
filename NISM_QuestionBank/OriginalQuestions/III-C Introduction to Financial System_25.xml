@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="III-C Introduction to Financial System_25" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An Indian exporter expects to receive Kuwaiti Dinars in 3 months and anticipates that the Indian Rupee will appreciate. Which currency derivative strategy would best protect the exporter's position?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy a put option to sell Kuwaiti Dinars]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy a call option to buy Kuwaiti Dinars]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy a call option to buy Indian Rupees]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell a put option on Indian Rupees]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** If the Indian Rupee appreciates, the Kuwaiti Dinar will be worth fewer Rupees when converted. The exporter needs to sell Dinars and buy Rupees. A put option on Dinars gives the right to sell Dinars at a predetermined rate, protecting against Rupee appreciation (Dinar depreciation).
+**The Trap:** Buying a call on Dinars would be appropriate if the exporter expected Dinars to appreciate, which is opposite to the scenario. The exporter needs protection against receiving fewer Rupees per Dinar.
+**Distributor's Pro-Tip:** Exporters with foreign currency receivables hedge against home currency appreciation. Importers with foreign currency payables hedge against home currency depreciation. Match the derivative to the risk.]]></text></explanation>
+    </question>
+</QF>

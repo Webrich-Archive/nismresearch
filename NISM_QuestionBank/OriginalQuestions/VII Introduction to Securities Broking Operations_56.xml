@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Introduction to Securities Broking Operations_56" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the context of Electronic Contract Notes (ECNs), if delivery fails (email bounces), the broker must:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Send a physical copy within the stipulated time under extant SEBI/exchange regulations]]></text></answer>
+            <answer correct="no"><text><![CDATA[Try sending the email again the next day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Inform the exchange and take no further action]]></text></answer>
+            <answer correct="no"><text><![CDATA[Upload the contract note to the broker's website only]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When ECNs have not been delivered or have bounced, the member must send a physical copy to the client within the stipulated time. The broker must maintain a bounce mail log showing details of undelivered contract notes.
+**The Trap:** ECNs must be digitally signed, encrypted, non-tamperable, and comply with the IT Act 2000. They can also be sent via SMS/electronic instant messaging on the registered mobile number.
+**Cross-Exam Context:** Series XII covers contract note delivery obligations.
+**Distributor's Pro-Tip:** ECN requirements: client opt-in, digital signature, encryption, non-tamper proof, bounce log maintenance, simultaneous web publication. If email bounces → physical copy mandatory. This ensures no client misses their trade confirmations regardless of delivery method.]]></text></explanation>
+    </question>
+</QF>

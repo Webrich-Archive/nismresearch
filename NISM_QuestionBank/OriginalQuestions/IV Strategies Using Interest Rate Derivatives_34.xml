@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_34" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the context of ETIRD, what does a calendar spread involve?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Simultaneous purchase and sale of the same contract type but with different expiry months]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buying a call and selling a put at the same strike and expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Taking positions in two different types of bonds]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buying options and selling futures on the same underlying]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A calendar spread (also called time spread) involves taking opposite positions in contracts of the same underlying but with different expiry months - e.g., long June futures and short September futures.
+**The Trap:** Call-put combination is a synthetic position, not a calendar spread. Different bonds is an inter-commodity spread. Options vs futures is a mixed strategy.
+**Cross-Exam Context:** Calendar spreads are tested in Series I (currency) and VIII (equity) as well.
+**Distributor's Pro-Tip:** Calendar spreads have lower margin requirements than outright positions because the two legs partially offset each other's risk.]]></text></explanation>
+    </question>
+</QF>

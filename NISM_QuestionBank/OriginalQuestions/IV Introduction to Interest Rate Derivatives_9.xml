@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Introduction to Interest Rate Derivatives_9" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[An Interest Rate Cap is a series of:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Interest rate put options (floorlets)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Interest rate call options (caplets)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Forward rate agreements]]></text></answer>
+            <answer correct="no"><text><![CDATA[Interest rate swaps]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** An interest rate cap is a series of interest rate call options called caplets. The buyer receives payment when the underlying interest rate exceeds the strike (cap) rate. Caps protect borrowers against rising rates.
+
+**The Trap:** An interest rate floor is a series of put options (floorlets). A collar combines a cap and a floor. Caps are protective instruments for floating-rate borrowers.
+
+**Cross-Exam Context:** Caps, floors, and collars are OTC interest rate options tested in Series IV and used by treasuries to manage floating rate exposure.
+
+**Distributor's Pro-Tip:** A borrower who buys a cap is effectively buying insurance against rising rates. The cap premium is the cost of this insurance — similar to option premium.]]></text></explanation>
+    </question>
+</QF>

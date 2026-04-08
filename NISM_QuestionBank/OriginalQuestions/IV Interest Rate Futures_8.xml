@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_8" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A trader sells 3 lots of 6-year GOI bond futures at Rs. 97.50. At expiry, the final settlement price (FSP) is Rs. 96.80. What is the total profit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 4,200]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,100]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 42,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. -4,200]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For a short position, Profit = (Sell Price - FSP) × 2000 × Lots = (97.50 - 96.80) × 2000 × 3 = 0.70 × 2000 × 3 = Rs. 4,200. Since the price fell, the short position profits.
+
+**The Trap:** Rs. -4,200 applies the long position formula (FSP - Sell Price), forgetting that the trader is short. Rs. 2,100 uses 1000 instead of 2000. Short sellers profit when prices decline.
+
+**Cross-Exam Context:** Understanding that short futures profit from price declines is fundamental. In bond markets, price declines when yields rise — so shorting IRF is a bet on rising interest rates.
+
+**Distributor's Pro-Tip:** If you hold bonds and fear rising rates, sell IRF to hedge. The loss on your bond portfolio is offset by the gain on the short futures position.]]></text></explanation>
+    </question>
+</QF>

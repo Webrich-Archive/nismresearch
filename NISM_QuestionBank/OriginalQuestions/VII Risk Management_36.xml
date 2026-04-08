@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_36" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is the BMC requirement for all brokers who use algorithmic trading?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 50 Lakhs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 25 Lakhs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 10 Lakhs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 1 Crore]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** All Brokers with Algorithmic trading (Algo) must maintain BMC of Rs 50 Lakhs, regardless of whether they do proprietary or client trading.
+**The Trap:** Rs 25 Lakhs is for brokers doing both prop and client trading without algo. Algo adds a significant additional capital requirement.
+**Cross-Exam Context:** Algorithmic trading requirements are increasingly tested given the growth of algo trading in India.
+**Distributor's Pro-Tip:** Higher BMC for algo brokers reflects the speed and volume risks associated with algorithmic trading systems.]]></text></explanation>
+    </question>
+</QF>

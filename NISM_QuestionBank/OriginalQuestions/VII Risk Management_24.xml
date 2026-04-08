@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_24" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[ICMTM is NOT computed in case of securities in which category?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Trade for Trade Surveillance (TFTS) market]]></text></answer>
+            <answer correct="no"><text><![CDATA[Group I securities]]></text></answer>
+            <answer correct="no"><text><![CDATA[Derivatives segment]]></text></answer>
+            <answer correct="no"><text><![CDATA[Institutional trades]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** ICMTM shall not be computed in case of securities in TFTS (Trade for Trade Surveillance) market.
+**The Trap:** TFTS securities are settled on gross basis with no netting, so the concept of intraday squared-off positions does not apply.
+**Cross-Exam Context:** Understanding TFTS treatment is important for risk management questions.
+**Distributor's Pro-Tip:** In TFTS, every trade is individually settled, so there is no concept of intraday closing of positions.]]></text></explanation>
+    </question>
+</QF>

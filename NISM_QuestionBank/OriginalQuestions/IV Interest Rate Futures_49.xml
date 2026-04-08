@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_49" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is the settlement method for GOI bond futures in India?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Cash settled]]></text></answer>
+            <answer correct="no"><text><![CDATA[Physical delivery of the underlying bond]]></text></answer>
+            <answer correct="no"><text><![CDATA[Either cash or physical delivery at the seller's option]]></text></answer>
+            <answer correct="no"><text><![CDATA[Physical delivery with cash adjustment]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** GOI bond futures in India are cash settled. No physical delivery of the underlying bond takes place. The settlement is based on the difference between the trade price and the final settlement price.
+
+**The Trap:** Physical delivery was used in earlier versions (2009) and is used in some global markets (e.g., US Treasury futures). Seller's option exists in some physical delivery contracts. Cash with adjustment is not applicable. Post-2013 reform, all Indian IRFs are cash settled.
+
+**Cross-Exam Context:** Cash settlement simplifies the process and avoids delivery squeeze issues that plagued earlier attempts. Compare with equity futures (NISM VIII) which also use cash settlement in India.
+
+**Distributor's Pro-Tip:** Cash settlement was a key innovation in the 2013 redesign. Physical delivery in earlier versions caused liquidity problems because of the limited free float of the underlying bonds.]]></text></explanation>
+    </question>
+</QF>

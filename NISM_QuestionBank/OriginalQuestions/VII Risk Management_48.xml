@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_48" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[If a 20% circuit breaker is triggered at any time during the day, what happens?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Trading is halted for the remainder of the day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trading is halted for 2 hours]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trading is halted for 1 hour]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trading continues with reduced lot sizes]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A 20% movement triggers a halt for the remainder of the trading day, regardless of when it occurs.
+**The Trap:** Unlike 10% and 15% breakers which have time-dependent halts, 20% always means full-day halt.
+**Cross-Exam Context:** This is considered the 'nuclear option' in circuit breaker design.
+**Distributor's Pro-Tip:** A 20% intraday move is considered extreme and warrants stopping trading entirely for the day.]]></text></explanation>
+    </question>
+</QF>

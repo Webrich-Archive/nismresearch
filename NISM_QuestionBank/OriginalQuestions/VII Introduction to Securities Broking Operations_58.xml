@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Introduction to Securities Broking Operations_58" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the order matching system, if a buy limit order is placed at Rs. 807.65 and the best sell order is at Rs. 807.60, at what price will the trade execute?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 807.60 (passive sell order price)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 807.65 (active buy order price)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 807.625 (average of both)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 807.70 (next available price)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Orders are ALWAYS matched at the passive order price. The sell order at Rs. 807.60 was already in the system (passive), and the incoming buy order at Rs. 807.65 is the active order. The trade executes at Rs. 807.60 — the passive order's price.
+**The Trap:** The buyer gets a better price than their limit (807.60 < 807.65), which is an advantage. The matching principle ensures passive orders are always filled at their stated price.
+**Cross-Exam Context:** Series VIII covers order matching in derivative markets.
+**Distributor's Pro-Tip:** Active order = incoming order that matches with existing (passive) orders. Passive order = order already sitting in the order book. Trade always happens at passive price. This means limit order buyers may get a lower price (better deal) and limit order sellers may get a higher price (better deal) than their limit.]]></text></explanation>
+    </question>
+</QF>

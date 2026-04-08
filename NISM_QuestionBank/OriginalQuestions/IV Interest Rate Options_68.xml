@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_68" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A bond portfolio manager expects interest rates to rise in the next 3 months, which would cause bond prices to fall. Which interest rate option strategy would best protect the portfolio?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy put options on GOI bond futures, as puts gain value when bond prices fall]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy call options on GOI bond futures, as calls gain when rates rise]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell put options to collect premium income as a hedge]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell call options to offset the potential bond price decline]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Rising rates cause bond prices to fall. Put options gain value when the underlying falls, providing protection. The premium paid is the cost of this insurance.
+**The Trap:** Buying calls would benefit from rising bond prices, not falling ones. Selling options (puts or calls) does not provide a protective hedge -- it increases risk.
+**Cross-Exam Context:** Hedging with puts is a practical application tested in NISM Equity Derivatives (protective puts on stock portfolios).
+**Distributor's Pro-Tip:** This is like buying insurance on your bond portfolio. The premium is the 'insurance cost' and the strike price determines your 'deductible' (acceptable level of loss).]]></text></explanation>
+    </question>
+</QF>

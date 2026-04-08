@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Introduction to Securities Broking Operations_37" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the reference price for block deals executed in the afternoon window?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[VWAP of trades in the cash segment between 1:45 PM to 2:00 PM]]></text></answer>
+            <answer correct="no"><text><![CDATA[Previous day's closing price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Opening price of the day]]></text></answer>
+            <answer correct="no"><text><![CDATA[VWAP of the entire trading day]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For the afternoon block window (2:05-2:20 PM), the reference price is the VWAP of trades executed in the cash segment between 1:45 PM to 2:00 PM. Between 2:00-2:05 PM, exchanges calculate and disseminate VWAP information.
+**The Trap:** The morning block window uses the previous day's closing/adjusted close price as reference. If no trades occur during 1:45-2:00 PM, VWAP from 9:00 AM to 1:45 PM is used instead.
+**Cross-Exam Context:** Series XII covers block deal pricing mechanics.
+**Distributor's Pro-Tip:** Block deal price band: ±3% of reference price. Morning reference = previous close. Afternoon reference = 1:45-2:00 PM VWAP → fallback: 9:00 AM-1:45 PM VWAP (including pre-open) → fallback: previous close. Multiple fallbacks ensure a reference price is always available.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="III-C KYC Registration Agency_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following is NOT an obligation of the intermediary regarding KYC under the SEBI KRA Regulations?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The intermediary shall perform the initial KYC/due diligence of the client]]></text></answer>
+            <answer correct="no"><text><![CDATA[The intermediary shall not use KYC data obtained from the KRA for purposes other than it is meant for]]></text></answer>
+            <answer correct="no"><text><![CDATA[The intermediary shall have the ultimate responsibility for the KYC of its clients]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The intermediary shall independently validate KYC records by directly accessing UIDAI systems]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Independent validation of KYC records through UIDAI is the responsibility of the KRA, not the intermediary. The intermediary's obligations include performing initial KYC, uploading data to the KRA, retaining physical documents, and having ultimate responsibility for its clients' KYC.
+**The Trap:** The KRA is responsible for independent validation of records using Aadhaar through UIDAI authentication. Candidates may confuse the roles of KRA and intermediary.
+**Distributor's Pro-Tip:** Remember the division: intermediary does initial KYC and uploads data; KRA stores, validates, and disseminates KYC information across intermediaries.]]></text></explanation>
+    </question>
+</QF>

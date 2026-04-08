@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A cash-futures arbitrageur buys a government bond at Rs. 99.50 in the spot market and simultaneously sells a 3-month futures at Rs. 101.20. The 3-month financing cost is Rs. 0.80 and expected coupon accrual is Rs. 0.30. What is the arbitrage profit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 1.20]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1.70]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.90]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1.50]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Cost of carry = Financing cost - Coupon income = 0.80 - 0.30 = Rs. 0.50. Fair futures = 99.50 + 0.50 = 100.00. Arbitrage profit = 101.20 - 100.00 = Rs. 1.20. Or directly: 101.20 - 99.50 - 0.80 + 0.30 = Rs. 1.20.
+**The Trap:** Rs. 1.70 ignores financing cost (101.20 - 99.50). Rs. 0.90 ignores coupon. Rs. 1.50 double-counts something.
+**Cross-Exam Context:** Cash-futures arbitrage with carry cost appears in Series VIII and XII.
+**Distributor's Pro-Tip:** Net cost of carry = financing cost minus income (coupon/dividend). A positive basis above fair value signals a sell-futures arbitrage.]]></text></explanation>
+    </question>
+</QF>

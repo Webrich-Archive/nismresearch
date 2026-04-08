@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader sells a covered call on a bond holding. The bond was purchased at Rs. 102 and a call option with strike Rs. 105 is sold for a premium of Rs. 2. What is the maximum profit from this strategy?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 5]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 3]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2]]></text></answer>
+            <answer correct="no"><text><![CDATA[Unlimited]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Maximum profit = (Strike - Purchase price) + Premium received = (105 - 102) + 2 = Rs. 5. The upside is capped at the strike price since the call will be exercised above it.
+**The Trap:** Rs. 3 ignores the premium. Rs. 2 considers only the premium. 'Unlimited' would apply to a naked long bond without the covered call.
+**Cross-Exam Context:** Covered call payoff is identical in equity options (Series VIII) - the formula is universal across asset classes.
+**Distributor's Pro-Tip:** Covered calls sacrifice unlimited upside for guaranteed premium income - ideal in range-bound or mildly bullish markets.]]></text></explanation>
+    </question>
+</QF>

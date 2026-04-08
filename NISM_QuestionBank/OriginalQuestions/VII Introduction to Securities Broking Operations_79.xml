@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Introduction to Securities Broking Operations_79" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the price band allowed for block deal orders relative to the reference price?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[+/-3%]]></text></answer>
+            <answer correct="no"><text><![CDATA[+/-5%]]></text></answer>
+            <answer correct="no"><text><![CDATA[+/-1%]]></text></answer>
+            <answer correct="no"><text><![CDATA[+/-10%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Block deal orders may be placed at a price not exceeding +/- 3% of the applicable reference price in the respective block deal window.
+**The Trap:** Regular market price bands (circuit limits) vary by security (2%, 5%, 10%, 20%). Block deal price band is fixed at 3% regardless of the security's regular circuit limit.
+**Cross-Exam Context:** Series XII covers price band mechanisms.
+**Distributor's Pro-Tip:** Block deal constraints: ±3% price band, Rs. 25 Cr minimum, mandatory delivery, no square-off. The tight 3% band ensures block deals occur close to fair market price. This prevents using block window to manipulate prices significantly.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_3" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A 91-day T-Bill futures contract settles at a discount yield (y) of 7.20%. What is the settlement value of one contract?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 1,96,400]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,85,600]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,92,800]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,00,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Settlement Value = 2000 × (100 - 0.25 × y) = 2000 × (100 - 0.25 × 7.20) = 2000 × (100 - 1.80) = 2000 × 98.20 = Rs. 1,96,400.
+
+**The Trap:** Rs. 1,85,600 comes from using (100 - y) × 2000 = (100 - 7.20) × 2000 = 92.80 × 2000 — confusing the quotation price with the settlement formula. The 0.25 factor accounts for the 91-day (approximately quarter-year) discounting.
+
+**Cross-Exam Context:** T-Bill pricing with discount yield is tested across NISM Series IV and is conceptually linked to money market instrument valuation in NISM Series V-A.
+
+**Distributor's Pro-Tip:** The factor 0.25 represents approximately 91/365 ≈ 0.25 years. The settlement value will always be close to but less than Rs. 2,00,000 (the face value), reflecting the discount nature of T-Bills.]]></text></explanation>
+    </question>
+</QF>

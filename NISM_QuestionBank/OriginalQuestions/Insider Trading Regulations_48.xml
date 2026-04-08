@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Insider Trading Regulations_48" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A designated person of a listed company bought 10,000 shares at Rs. 200 per share and sold them at Rs. 240 per share within four months. Under Schedule B of SEBI (PIT) Regulations, 2015, what amount of profit is liable to be disgorged for credit to the Investor Protection and Education Fund?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 2,00,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,40,000]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 4,00,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 24,00,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The contra trade restriction period is at least six months. Since the designated person sold within four months, this is a contra trade violation. Profit = (240 - 200) x 10,000 = Rs. 4,00,000, which must be disgorged to IEPF.
+**The Trap:** Rs. 2,00,000 (cost) and Rs. 2,40,000 (sale proceeds) are not the profit amount. The profit per share is Rs. 40, total Rs. 4,00,000.
+**Cross-Exam Context:** Calculation of disgorgement amounts is tested in NISM Series III-A.
+**Distributor's Pro-Tip:** The contra trade restriction of six months applies regardless of whether the person was in possession of UPSI at the time of trading.]]></text></explanation>
+    </question>
+</QF>

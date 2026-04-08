@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_44" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Non-margined orders from a stock broker in risk reduction mode shall be:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Not accepted]]></text></answer>
+            <answer correct="no"><text><![CDATA[Accepted with a penalty]]></text></answer>
+            <answer correct="no"><text><![CDATA[Accepted only for proprietary trading]]></text></answer>
+            <answer correct="no"><text><![CDATA[Accepted with double margin]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Non-margined orders shall not be accepted from the stock broker in risk reduction mode.
+**The Trap:** The restriction is absolute for non-margined orders. Only fully margined IOC orders are accepted.
+**Cross-Exam Context:** This ensures no additional unhedged risk is taken when the broker is already stretched.
+**Distributor's Pro-Tip:** Risk reduction mode protects the market ecosystem from potential cascading defaults.]]></text></explanation>
+    </question>
+</QF>

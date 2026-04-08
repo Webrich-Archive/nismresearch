@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_40" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is 'Mark-to-Market' (MTM) in exchange-traded interest rate futures?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The daily settlement of unrealized profits and losses based on the daily settlement price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The final settlement at contract expiry only]]></text></answer>
+            <answer correct="no"><text><![CDATA[The initial margin payment when opening a futures position]]></text></answer>
+            <answer correct="no"><text><![CDATA[The process of matching buy and sell orders on the exchange]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** MTM is the process of settling the daily change in futures prices in cash. Each day, the position is valued at the daily settlement price (DSP), and the difference from the previous day is settled. This prevents accumulation of large losses.
+
+**The Trap:** Final settlement is a separate process at expiry. Initial margin is a deposit, not a settlement. Order matching is a trading function, not settlement. MTM happens every trading day until the position is closed or expires.
+
+**Cross-Exam Context:** MTM is a fundamental feature of exchange-traded derivatives that reduces counterparty risk. This concept is central to NISM Series IV and VIII. OTC derivatives post-2008 also increasingly use daily margining.
+
+**Distributor's Pro-Tip:** MTM settlement in IRF happens on T+1 basis. If you have a losing position, you must fund the margin shortfall by the next day. Failure to do so can result in forced liquidation of your position.]]></text></explanation>
+    </question>
+</QF>

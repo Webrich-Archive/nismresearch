@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_50" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The final settlement price (FSP) for GOI bond futures is based on:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[VWAP of the underlying bond in the last 2 hours of trading on NDS-OM on expiry day]]></text></answer>
+            <answer correct="no"><text><![CDATA[The last traded price of the futures contract on the exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[The closing price of the underlying bond on the previous day]]></text></answer>
+            <answer correct="no"><text><![CDATA[The weighted average yield from RBI auction]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The FSP is determined by the VWAP of the underlying GOI bond from the last 2 hours of trading on the NDS-OM (Negotiated Dealing System - Order Matching) platform on expiry day. If fewer than 5 trades occur, FIMMDA/FBIL valuation is used.
+
+**The Trap:** The last traded price of the futures (not the underlying) is not used. Previous day's price doesn't reflect expiry day conditions. Weighted average yield from RBI auction applies to T-Bill futures, not GOI bond futures. Each product has its specific FSP methodology.
+
+**Cross-Exam Context:** NDS-OM is RBI's electronic trading platform for government securities. Understanding the different settlement methodologies for different IRF products is critical for NISM Series IV.
+
+**Distributor's Pro-Tip:** NDS-OM is the primary G-Sec trading platform in India, operated by CCIL. Using its VWAP ensures the settlement price reflects actual bond market conditions rather than potentially illiquid futures trading.]]></text></explanation>
+    </question>
+</QF>

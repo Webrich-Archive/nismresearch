@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_63" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What are the eligible underlying instruments for exchange-traded interest rate derivatives in India?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Government of India securities (bonds and T-Bills) and MIBOR as specified by SEBI/RBI]]></text></answer>
+            <answer correct="no"><text><![CDATA[Any bond or debt instrument including corporate bonds and commercial paper]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only RBI-issued instruments like T-Bills]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only bonds with residual maturity exceeding 10 years]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** ETIRD in India are based on Government of India securities (specific benchmark bonds for bond futures, T-Bills for T-Bill futures) and MIBOR for overnight index futures. The range is limited to sovereign instruments and key benchmark rates.
+**The Trap:** Corporate bonds and CPs are not eligible underlyings for ETIRD. T-Bills are GoI instruments, not RBI instruments. No minimum maturity restriction for the ETIRD product.
+**Cross-Exam Context:** Understanding eligible underlyings is specific to Series IV. Compare with eligible currency pairs in Series I.
+**Distributor's Pro-Tip:** The limited underlying range is a key market development challenge. More underlyings would attract wider participation.]]></text></explanation>
+    </question>
+</QF>

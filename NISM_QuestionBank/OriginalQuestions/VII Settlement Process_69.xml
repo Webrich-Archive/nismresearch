@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Settlement Process_69" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[In the daily settlement price for derivatives, if a contract is illiquid, the theoretical price is computed based on:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[SEBI guidelines]]></text></answer>
+            <answer correct="no"><text><![CDATA[Exchange's own methodology]]></text></answer>
+            <answer correct="no"><text><![CDATA[Broker consensus]]></text></answer>
+            <answer correct="no"><text><![CDATA[Previous day's closing price without adjustment]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For illiquid contracts, theoretical price is computed based on SEBI guidelines rather than market price.
+**The Trap:** Since illiquid contracts may not have reliable market prices, a computed theoretical price is used.
+**Cross-Exam Context:** Theoretical pricing prevents manipulation of settlement prices in illiquid contracts.
+**Distributor's Pro-Tip:** SEBI provides specific models for computing theoretical prices of illiquid derivatives.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Clearing Settlement and Risk Management_50" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A mutual fund holds a large portfolio of G-Secs and wants to hedge using bond futures. The fund executes trades through Broker A and Broker B but wants all settlement through one clearing member. What arrangement should the fund use?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Register as a Custodial Participant to trade through multiple TMs while settling through a single CM]]></text></answer>
+            <answer correct="no"><text><![CDATA[Open separate demat accounts for each broker to ensure independent settlement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Instruct each broker to transfer trades to one common CM after execution]]></text></answer>
+            <answer correct="no"><text><![CDATA[This is not possible under current exchange rules]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A Custodial Participant (CP) arrangement allows institutional clients to trade through multiple trading members while consolidating settlement through a single clearing member. This is designed exactly for large institutional participants like mutual funds.
+
+**The Trap:** Separate accounts would defeat the purpose of consolidation. Post-trade transfer is not the standard mechanism. This arrangement IS possible and is common for institutional participants.
+
+**Cross-Exam Context:** The CP arrangement is widely used in equity derivatives as well. Large institutions benefit from netting across multiple brokers at the clearing level.
+
+**Distributor's Pro-Tip:** The CP arrangement provides operational efficiency, better netting of margins, and centralized risk management. Most large mutual funds and insurance companies use this structure.]]></text></explanation>
+    </question>
+</QF>

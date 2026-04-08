@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_18" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[For a 91-day T-Bill futures contract, if the yield increases from 6.00% to 6.20%, what is the approximate change in settlement value per contract?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. -100]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. -400]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. +100]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. -200]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Change in value = 2000 × (-0.25 × Δy) = 2000 × (-0.25 × 0.20) = 2000 × (-0.05) = Rs. -100. When yield increases, the settlement value decreases.
+
+**The Trap:** Rs. -400 uses the full yield change without the 0.25 factor: 2000 × (-0.20) = -400. Rs. +100 reverses the sign. Rs. -200 uses 0.50 instead of 0.25. The 0.25 factor is critical for 91-day T-Bill futures calculations.
+
+**Cross-Exam Context:** Understanding the price sensitivity of T-Bill futures to yield changes is akin to understanding duration for bonds. The 0.25 factor acts like a modified duration equivalent.
+
+**Distributor's Pro-Tip:** Each 1 bps (0.01%) change in yield changes the T-Bill futures value by 2000 × 0.25 × 0.01 = Rs. 5. So a 20 bps change = 20 × Rs. 5 = Rs. 100.]]></text></explanation>
+    </question>
+</QF>

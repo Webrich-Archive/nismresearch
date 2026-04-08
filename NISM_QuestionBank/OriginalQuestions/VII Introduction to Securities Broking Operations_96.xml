@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Introduction to Securities Broking Operations_96" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In case of options contracts, what is the base on which maximum brokerage is calculated?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The premium amount at which the option was bought or sold]]></text></answer>
+            <answer correct="no"><text><![CDATA[The strike price of the option]]></text></answer>
+            <answer correct="no"><text><![CDATA[The underlying asset's market price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The notional value of the contract]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Trading members shall charge brokerage for option contracts on the PREMIUM AMOUNT at which the option contract was bought or sold, and NOT on the strike price of the option contract.
+**The Trap:** This is a commonly confused point. The strike price is a much larger number than the premium, so charging on strike price would result in disproportionately high brokerage.
+**Cross-Exam Context:** Series VIII covers option brokerage calculation.
+**Distributor's Pro-Tip:** Option brokerage base = premium only. Example: Strike Rs. 20,000, Premium Rs. 200, Lot 50. Brokerage base = 200 × 50 = Rs. 10,000, NOT 20,000 × 50 = Rs. 10,00,000. Max brokerage = 2.5% of Rs. 10,000 = Rs. 250 or Rs. 100/lot, whichever is higher.]]></text></explanation>
+    </question>
+</QF>

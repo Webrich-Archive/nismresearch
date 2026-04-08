@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_10" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A bond is trading at Rs. 95. A call option with strike Rs. 100 has a premium of Rs. 1.20. What is the intrinsic value and time value of this call?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Intrinsic value = Rs. 0, Time value = Rs. 1.20]]></text></answer>
+            <answer correct="no"><text><![CDATA[Intrinsic value = Rs. 5, Time value = Rs. -3.80]]></text></answer>
+            <answer correct="no"><text><![CDATA[Intrinsic value = Rs. 1.20, Time value = Rs. 0]]></text></answer>
+            <answer correct="no"><text><![CDATA[Intrinsic value = Rs. -5, Time value = Rs. 6.20]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Call IV = max(0, 95 - 100) = max(0, -5) = Rs. 0. This call is OTM. Time Value = 1.20 - 0 = Rs. 1.20. The entire premium is time value.
+**The Trap:** IV = Rs. -5 is wrong because intrinsic value cannot be negative. IV = Rs. 5 confuses the call formula with put formula.
+**Cross-Exam Context:** OTM options having zero intrinsic value is a universal concept across all NISM derivative modules.
+**Distributor's Pro-Tip:** OTM options are purely time value. They are cheaper but riskier -- the underlying must move significantly for them to become profitable.]]></text></explanation>
+    </question>
+</QF>

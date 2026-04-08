@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_41" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Which of the following best describes the payoff profile of a long futures position?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Linear payoff with unlimited profit potential when price rises and unlimited loss when price falls]]></text></answer>
+            <answer correct="no"><text><![CDATA[Limited profit potential with unlimited loss]]></text></answer>
+            <answer correct="no"><text><![CDATA[Limited profit and limited loss]]></text></answer>
+            <answer correct="no"><text><![CDATA[Non-linear payoff similar to options]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Futures have a linear (symmetric) payoff. A long position profits Rs. 1 for every Rs. 1 increase in price and loses Rs. 1 for every Rs. 1 decrease. Both profit and loss potential are theoretically unlimited.
+
+**The Trap:** Limited profit with unlimited loss describes a short call option. Limited both ways describes a spread strategy. Non-linear payoffs are characteristic of options, not futures. Futures payoffs are always linear.
+
+**Cross-Exam Context:** Understanding the difference between linear (futures) and non-linear (options) payoffs is fundamental. NISM Series IV and VIII both test this extensively.
+
+**Distributor's Pro-Tip:** The linear and symmetric nature means futures are a zero-sum game: the long's profit exactly equals the short's loss (and vice versa). No premium is involved, unlike options.]]></text></explanation>
+    </question>
+</QF>

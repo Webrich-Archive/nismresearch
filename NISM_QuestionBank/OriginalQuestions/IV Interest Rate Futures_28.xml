@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_28" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The price band for GOI bond futures is initially +/-3%. After a circuit is hit, the exchange expands it by 0.5% after a 30-minute cooling period. What is the maximum possible price band in a single day?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[+/-4%]]></text></answer>
+            <answer correct="no"><text><![CDATA[+/-3.5%]]></text></answer>
+            <answer correct="no"><text><![CDATA[+/-5%]]></text></answer>
+            <answer correct="no"><text><![CDATA[+/-4.5%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Initial band = +/-3%. Can be expanded by 0.5% up to 2 times per day. Maximum expansion = 3% + 0.5% + 0.5% = 4%. So the maximum price band is +/-4%.
+
+**The Trap:** +/-3.5% accounts for only one expansion. +/-5% assumes more than 2 expansions. +/-4.5% assumes 3 expansions. The rule clearly states: maximum 2 expansions of 0.5% each per day.
+
+**Cross-Exam Context:** Circuit breaker mechanisms are common across exchanges. Equity markets have different circuit levels (5%, 10%, 15%, 20%). IRF has its own specific mechanism.
+
+**Distributor's Pro-Tip:** Circuit expansions are rare in IRF markets but can occur during significant monetary policy announcements. Knowing the rules helps avoid panic when circuits are triggered.]]></text></explanation>
+    </question>
+</QF>

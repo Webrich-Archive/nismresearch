@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Fixed Income Instruments and Bond Markets_48" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[An NBFC has issued inverse floater bonds linked to MIBOR with a coupon formula of '10% - MIBOR spread'. If MIBOR rises from 5% to 7%, the NBFC's coupon cost:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Increases from 5% to 7%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Decreases from 5% to 3%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Remains constant at 5%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Becomes negative]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Coupon = 10% - MIBOR spread. When MIBOR is 5%, coupon = 10% - 5% = 5%. When MIBOR rises to 7%, coupon = 10% - 7% = 3%. The NBFC's interest cost DECREASES as rates rise — this is the defining feature of inverse floaters.
+
+**The Trap:** Regular floaters would increase cost with rising rates. Inverse floaters move opposite to rates — beneficial for issuers when rates rise, but costly when rates fall.
+
+**Cross-Exam Context:** Inverse floater mechanics are tested in Series IV and demonstrate how structured products can help issuers manage interest rate risk.
+
+**Distributor's Pro-Tip:** Inverse floaters are double-edged — if MIBOR rises above 10%, the coupon would be negative (usually floored at 0%). Always check for floor provisions in the indenture.]]></text></explanation>
+    </question>
+</QF>

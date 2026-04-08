@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Introduction to Securities Broking Operations_52" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Call auction sessions for illiquid securities in the equity segment consist of how many sessions per day?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[6 sessions of one hour each from 9:30 AM to 3:30 PM]]></text></answer>
+            <answer correct="no"><text><![CDATA[4 sessions of 30 minutes each]]></text></answer>
+            <answer correct="no"><text><![CDATA[1 session of 2 hours]]></text></answer>
+            <answer correct="no"><text><![CDATA[3 sessions of one hour each]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Periodic call auction for illiquid securities operates through 6 sessions of one hour each from 9:30 AM to 3:30 PM. Each session has an order collection period of 45 minutes (with random closure between 44th-45th minute) followed by order matching and trade confirmation.
+**The Trap:** The random closure in the last minute prevents last-second manipulation. The equilibrium price is demand-supply based, same as regular call auction.
+**Cross-Exam Context:** Series XII covers illiquid security trading mechanisms.
+**Distributor's Pro-Tip:** Illiquid securities can't sustain continuous trading, so call auction batches liquidity. 6 hourly sessions ensure periodic price discovery throughout the day. Random closure prevents gaming. Securities qualify as illiquid based on exchange-defined criteria.]]></text></explanation>
+    </question>
+</QF>

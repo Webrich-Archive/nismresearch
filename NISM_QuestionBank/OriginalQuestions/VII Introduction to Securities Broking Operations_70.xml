@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Introduction to Securities Broking Operations_70" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Allotment of two trading codes to a single client is permitted for which purpose?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[To ensure buy and sell transactions are treated separately for entities required to settle by delivery only]]></text></answer>
+            <answer correct="no"><text><![CDATA[To allow the client to trade on two different exchanges]]></text></answer>
+            <answer correct="no"><text><![CDATA[To enable the client to have both online and offline accounts]]></text></answer>
+            <answer correct="no"><text><![CDATA[For tax optimization purposes]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For investors required by regulations to settle only by delivery (not square off), brokers may allot two trading codes (one for buy, one for sell) to ensure each leg is treated separately without netting. Both codes map to the same UCC. STT liability is determined on delivery-only basis.
+**The Trap:** This is for regulatory entities that MUST take delivery (like certain institutional investors) — not for regular retail investors who can square off intraday.
+**Cross-Exam Context:** Series XII covers UCC and trading code regulations.
+**Distributor's Pro-Tip:** Two trading codes = no netting. Example: Insurance companies, pension funds that must take/give delivery per their regulations. Without separate codes, the system might net buy/sell and show an intraday trade, which would violate delivery-only mandates.]]></text></explanation>
+    </question>
+</QF>

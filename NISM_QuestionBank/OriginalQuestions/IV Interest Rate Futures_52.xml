@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_52" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is the quotation method for GOI bond futures?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Price-based quotation (clean price) per Rs. 100 face value]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yield-based quotation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Discount rate quotation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Dirty price quotation (including accrued interest)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** GOI bond futures are quoted in terms of clean price per Rs. 100 face value. Clean price excludes accrued interest. This is consistent with the OTC bond market quotation convention.
+
+**The Trap:** Yield-based quotation is not used for GOI bond futures (though the underlying is a fixed rate bond). Discount rate applies to T-Bills. Dirty price (which includes accrued interest) is not used for futures quotation.
+
+**Cross-Exam Context:** Clean price quotation is standard in most bond markets globally. Dirty price = Clean price + Accrued interest. For settlement of actual bonds, dirty price is used, but for quotation, clean price is the convention.
+
+**Distributor's Pro-Tip:** Since futures use clean price, the accrued interest component is implicitly handled through the cost of carry model. Traders need to understand both clean and dirty price concepts for effective trading.]]></text></explanation>
+    </question>
+</QF>

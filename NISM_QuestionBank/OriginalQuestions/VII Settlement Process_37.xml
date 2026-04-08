@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Settlement Process_37" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[In the close-out procedure, the seller is charged with:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The highest price across exchanges from trading day till auction day OR 20% above official closing price on auction day, whichever is higher]]></text></answer>
+            <answer correct="no"><text><![CDATA[The average price during the settlement period]]></text></answer>
+            <answer correct="no"><text><![CDATA[The closing price on the trade day]]></text></answer>
+            <answer correct="no"><text><![CDATA[10% above the trade price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Close-out charges the highest price across exchanges from trading till auction day OR 20% above closing price on auction day, whichever is higher.
+**The Trap:** It's the HIGHER of two calculations, making it deliberately punitive to discourage short delivery.
+**Cross-Exam Context:** Close-out pricing is designed to be punitive to discourage settlement failures.
+**Distributor's Pro-Tip:** The 20% premium ensures the defaulting seller bears a significant cost.]]></text></explanation>
+    </question>
+</QF>

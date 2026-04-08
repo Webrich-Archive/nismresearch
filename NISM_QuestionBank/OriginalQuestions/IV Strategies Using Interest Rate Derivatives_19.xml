@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader sells a short strangle by selling a call at Rs. 106 for Rs. 1.80 and selling a put at Rs. 94 for Rs. 1.20. Between what price range does the trader make a profit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 91 to Rs. 109]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 94 to Rs. 106]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 92.80 to Rs. 107.80]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 93 to Rs. 107]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Total premium = 1.80 + 1.20 = Rs. 3.00. Lower breakeven = Put strike - Total premium = 94 - 3 = Rs. 91. Upper breakeven = Call strike + Total premium = 106 + 3 = Rs. 109. Profitable between 91 and 109.
+**The Trap:** Rs. 94 to Rs. 106 uses just the strike prices. Rs. 92.80 and Rs. 107.80 subtracts individual premiums from individual strikes.
+**Cross-Exam Context:** Short strangle breakeven is identical to equity strangle calculations in Series VIII.
+**Distributor's Pro-Tip:** Short strangle has a wider profitable range than short straddle but also lower maximum profit.]]></text></explanation>
+    </question>
+</QF>

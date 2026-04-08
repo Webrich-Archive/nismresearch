@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_26" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[On expiry day, a 10-year GOI bond futures contract has only 3 trades on NDS-OM in the last 2 hours. How will the final settlement price be determined?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[FIMMDA/FBIL valuation price of the underlying bond will be used]]></text></answer>
+            <answer correct="no"><text><![CDATA[VWAP of the 3 trades will be used]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trading will be extended by 2 hours to get more trades]]></text></answer>
+            <answer correct="no"><text><![CDATA[The previous day's DSP will be used as FSP]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** If fewer than 5 trades occur in the last 2 hours on NDS-OM, the FIMMDA/FBIL valuation price is used as the final settlement price, not the VWAP of those trades.
+
+**The Trap:** Using VWAP of 3 trades seems logical but the threshold is 5 trades minimum. Trading extension and using previous DSP are not part of the settlement rules. The FIMMDA/FBIL price provides a reliable benchmark price.
+
+**Cross-Exam Context:** This fallback mechanism ensures settlement integrity even when the underlying bond is illiquid. FIMMDA provides daily valuations for all government securities.
+
+**Distributor's Pro-Tip:** FIMMDA/FBIL valuations are based on polling and model-based pricing. While generally reliable, they may not always reflect the exact market conditions, which is why VWAP is preferred when sufficient trades exist.]]></text></explanation>
+    </question>
+</QF>

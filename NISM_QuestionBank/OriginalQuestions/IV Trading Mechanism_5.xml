@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Trading Mechanism_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A MIBOR futures contract has a notional value of Rs. 1 crore. The dummy operating range is +/- 5% of the base rate. If the base rate is 6.50%, what is the allowable trading range?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[6.175% to 6.825%]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.50% to 11.50%]]></text></answer>
+            <answer correct="no"><text><![CDATA[6.45% to 6.55%]]></text></answer>
+            <answer correct="no"><text><![CDATA[6.00% to 7.00%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** +/-5% of 6.50% = 6.50 x 0.05 = 0.325%. Lower = 6.50 - 0.325 = 6.175%. Upper = 6.50 + 0.325 = 6.825%.
+**The Trap:** 1.50% to 11.50% adds/subtracts 5 percentage points. 6.45% to 6.55% uses 0.05 absolute. 6.00% to 7.00% uses 0.50 absolute.
+**Cross-Exam Context:** MIBOR operating range is specific to Series IV. Don't confuse percentage OF rate with percentage POINTS.
+**Distributor's Pro-Tip:** The "+/-5% of base rate" means 5% OF the rate value, not 5 percentage points. This is a common calculation trap.]]></text></explanation>
+    </question>
+</QF>

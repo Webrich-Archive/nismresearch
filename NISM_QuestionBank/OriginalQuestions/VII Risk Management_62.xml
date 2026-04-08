@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_62" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The minimum Margin Period of Risk (MPOR) for equity derivatives products is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[2 days]]></text></answer>
+            <answer correct="no"><text><![CDATA[1 day]]></text></answer>
+            <answer correct="no"><text><![CDATA[3 days]]></text></answer>
+            <answer correct="no"><text><![CDATA[5 days]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI has advised clearing corporations to estimate appropriate MPOR subject to a minimum of 2 days for each equity derivatives product.
+**The Trap:** MPOR can be higher than 2 days for less liquid products, but never lower.
+**Cross-Exam Context:** MPOR determines how far ahead the margin system looks for potential losses.
+**Distributor's Pro-Tip:** MPOR reflects the time needed to close out or hedge a position in case of a member default.]]></text></explanation>
+    </question>
+</QF>

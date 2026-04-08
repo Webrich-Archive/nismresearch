@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_66" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Passive increase in position due to movement in delta shall be considered a breach during ban period:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[False - passive increases due to delta movement are not considered a breach]]></text></answer>
+            <answer correct="no"><text><![CDATA[True - all increases are considered breaches]]></text></answer>
+            <answer correct="no"><text><![CDATA[True - only for client-level positions]]></text></answer>
+            <answer correct="no"><text><![CDATA[False - but only for index options]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI has clarified that passive increase in position on account of movement in delta shall not be considered a breach.
+**The Trap:** This is important because option deltas change naturally with price movements, and penalizing passive changes would be unfair.
+**Cross-Exam Context:** This clarification addresses practical market dynamics in derivatives.
+**Distributor's Pro-Tip:** Market makers particularly benefit from this clarification as their positions naturally shift with delta changes.]]></text></explanation>
+    </question>
+</QF>

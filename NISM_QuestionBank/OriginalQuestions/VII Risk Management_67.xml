@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_67" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Position limits for equity index derivatives are monitored intraday by exchanges through minimum how many random snapshots?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Four random snapshots during the trading day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Two random snapshots during the trading day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Six random snapshots during the trading day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Continuous real-time monitoring]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Intraday limits shall be monitored by Stock Exchanges through a minimum of four random snapshots during the trading day.
+**The Trap:** While SPAN margins are computed in real-time, position limits use snapshot-based monitoring.
+**Cross-Exam Context:** Intraday monitoring of position limits was introduced to detect outsized positions on expiry days.
+**Distributor's Pro-Tip:** Random snapshots are designed to prevent gaming - participants cannot predict when their positions will be checked.]]></text></explanation>
+    </question>
+</QF>

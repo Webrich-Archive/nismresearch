@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Settlement Process_47" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Daily Mark-to-Market (MTM) settlement for futures is done on:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[T+1 working day basis]]></text></answer>
+            <answer correct="no"><text><![CDATA[T+0 basis]]></text></answer>
+            <answer correct="no"><text><![CDATA[T+2 basis]]></text></answer>
+            <answer correct="no"><text><![CDATA[Weekly basis]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Daily and final settlement of derivative trades is done on T+1 working day basis.
+**The Trap:** Currency derivatives final settlement is on T+2, but equity derivatives are T+1.
+**Cross-Exam Context:** The T+1 derivative settlement aligns with cash market settlement.
+**Distributor's Pro-Tip:** MTM settlement happens before market hours on T+1, typically around 8:30 AM.]]></text></explanation>
+    </question>
+</QF>

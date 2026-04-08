@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_99" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A bank expects the RBI to maintain a tight monetary policy, keeping overnight rates elevated for the next 2 months. The bank wants to benefit from this view. Which IRF position is most appropriate?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy (long) MIBOR futures, as they profit when overnight rates remain high or increase]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell MIBOR futures, as they profit when overnight rates are high]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy GOI bond futures, as tight policy means higher bond prices]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell 91-day T-Bill futures, as T-Bill yields will remain low in tight policy]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** If the bank expects elevated overnight rates to persist, going long on MIBOR futures benefits because the settlement is based on the average daily overnight MIBOR rate. If rates stay high, the final settlement rate will be higher than the current contract rate (if the market is pricing in rate cuts that don't materialize), generating a profit.
+
+**The Trap:** Selling MIBOR futures would lose in a high-rate environment. Tight monetary policy usually means lower bond prices (not higher). In tight policy, T-Bill yields would be elevated, not low.
+
+**Cross-Exam Context:** Translating monetary policy views into MIBOR futures trades is a practical application tested in NISM Series IV. Understanding the mechanics of MIBOR futures settlement is critical for this.
+
+**Distributor's Pro-Tip:** MIBOR futures are the most direct way to express a view on RBI policy and short-term rate dynamics. If the market is pricing in rate cuts but you believe rates will stay elevated, going long MIBOR is the most capital-efficient expression of that view.]]></text></explanation>
+    </question>
+</QF>

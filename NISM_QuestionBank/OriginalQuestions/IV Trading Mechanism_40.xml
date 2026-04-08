@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Trading Mechanism_40" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the maximum permissible brokerage that can be charged for IRD futures contracts?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[2.5% of the contract value per trade]]></text></answer>
+            <answer correct="no"><text><![CDATA[1% of the contract value per trade]]></text></answer>
+            <answer correct="no"><text><![CDATA[5% of the contract value per trade]]></text></answer>
+            <answer correct="no"><text><![CDATA[There is no maximum limit; it is fully negotiable]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI/exchange rules prescribe a maximum brokerage of 2.5% of contract value for futures transactions. In practice, actual brokerage is much lower and negotiable between broker and client.
+**The Trap:** 1% is too low as a maximum. 5% is too high. There IS a maximum cap even though actual rates are negotiable.
+**Cross-Exam Context:** Maximum brokerage caps are tested across all trading exams. The 2.5% cap for futures is standard.
+**Distributor's Pro-Tip:** Retail clients typically pay 0.01-0.05% while the cap is 2.5%. The cap prevents exploitation but is rarely the binding constraint.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_56" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[If a trader expects the RBI to cut the repo rate at its next policy meeting, which IRF position would benefit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Long GOI bond futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Short GOI bond futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Short MIBOR futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Neither long nor short would benefit]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** An RBI rate cut would lead to lower bond yields, which means higher bond prices. A long GOI bond futures position profits when bond prices rise. Therefore, going long on GOI bond futures benefits from a rate cut.
+
+**The Trap:** Short bond futures would lose in a rate cut scenario. Short MIBOR futures would also lose because MIBOR would decline with the repo rate cut. The inverse price-yield relationship is the key concept.
+
+**Cross-Exam Context:** Translating monetary policy expectations into trading positions is a practical application tested in NISM Series IV. Understanding the transmission mechanism from repo rate to bond prices is essential.
+
+**Distributor's Pro-Tip:** Note that long MIBOR futures would also lose from a rate cut (since MIBOR rates would fall and long MIBOR profits from rate increases). This is a critical distinction — bond futures and MIBOR futures respond differently to rate changes!]]></text></explanation>
+    </question>
+</QF>

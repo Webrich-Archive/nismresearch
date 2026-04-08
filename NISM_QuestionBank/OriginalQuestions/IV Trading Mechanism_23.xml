@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Trading Mechanism_23" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is a spread order in the context of ETIRD trading?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A single order that simultaneously takes opposite positions in two different contract months of the same product]]></text></answer>
+            <answer correct="no"><text><![CDATA[An order to buy a call and sell a put simultaneously]]></text></answer>
+            <answer correct="no"><text><![CDATA[An order that specifies a range of acceptable prices]]></text></answer>
+            <answer correct="no"><text><![CDATA[An order split across multiple exchanges]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A spread order in ETIRD allows a trader to enter a calendar spread by specifying the price difference between two contract months. The exchange system matches both legs simultaneously, ensuring the spread is executed at the desired differential.
+**The Trap:** Call-put combination is a synthetic position, not a spread order. Price range is a limit order concept. Multi-exchange order doesn't exist as a single order type.
+**Cross-Exam Context:** Spread orders for calendar spreads are tested in Series I (currency derivatives) with similar functionality.
+**Distributor's Pro-Tip:** Spread orders have lower margin requirements than two separate outright orders because the legs partially offset each other.]]></text></explanation>
+    </question>
+</QF>

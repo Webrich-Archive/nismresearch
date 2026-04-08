@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Clearing Process_39" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[In the depository system, the transferee can give 'Standing Instructions' (SI) to its DP for:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Receiving securities into the account]]></text></answer>
+            <answer correct="no"><text><![CDATA[Delivering securities from the account]]></text></answer>
+            <answer correct="no"><text><![CDATA[Blocking securities for settlement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Creating pledges on securities]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The transferee (buyer) can give Standing Instructions to receive securities. Without SI, separate receipt instructions are needed each time.
+**The Trap:** Standing instructions are for receiving (credit), not delivering (debit). Delivery requires explicit DIS each time.
+**Cross-Exam Context:** The asymmetry between standing instructions for receipt and explicit instructions for delivery is an investor protection feature.
+**Distributor's Pro-Tip:** Most investors give standing instructions at account opening to automatically receive bought securities.]]></text></explanation>
+    </question>
+</QF>

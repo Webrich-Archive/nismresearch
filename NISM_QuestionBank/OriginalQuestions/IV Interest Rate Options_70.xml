@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_70" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A bank has issued floating-rate loans and is concerned about rates declining, which would reduce its interest income. How can interest rate options help?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy interest rate put options (or a floor) to establish a minimum rate of return on the floating-rate portfolio]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell interest rate call options to generate premium income to offset lower rates]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy interest rate call options to benefit from rate declines]]></text></answer>
+            <answer correct="no"><text><![CDATA[Write interest rate put options to earn premium as rates decline]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A bank earning floating rates is hurt by declining rates. An interest rate floor (series of put options on rates) guarantees a minimum interest income.
+**The Trap:** Selling calls generates premium but does not protect against rate declines. Buying calls benefits from rate increases, not decreases.
+**Cross-Exam Context:** Interest rate floors and caps are practical risk management tools covered in NISM Series IV and banking-related modules.
+**Distributor's Pro-Tip:** Banks commonly use caps and floors. A cap protects borrowers from rising rates; a floor protects lenders from falling rates. Together they form a 'collar'.]]></text></explanation>
+    </question>
+</QF>

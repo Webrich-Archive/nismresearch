@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Clearing Settlement and Risk Management_35" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is the significance of the conversion factor in physical delivery of bond futures?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[It adjusts the invoice price to make different deliverable bonds with varying coupons and maturities comparable to the futures notional bond]]></text></answer>
+            <answer correct="no"><text><![CDATA[It converts the futures price from percentage terms to rupee terms]]></text></answer>
+            <answer correct="no"><text><![CDATA[It adjusts for the credit risk of different government bonds]]></text></answer>
+            <answer correct="no"><text><![CDATA[It converts between clean and dirty bond prices]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The conversion factor standardizes bonds with different coupons and maturities against the notional coupon of the futures contract. It ensures that delivering a 7% coupon bond or a 9% coupon bond results in approximately equivalent economic value.
+
+**The Trap:** It is not about price format conversion or credit risk (all G-Secs are sovereign). Clean/dirty price adjustment is separate (that is the accrued interest component in the invoice formula).
+
+**Cross-Exam Context:** Conversion factors are unique to bond futures with physical delivery. This concept does not appear in equity or currency derivative exams.
+
+**Distributor's Pro-Tip:** The cheapest-to-deliver (CTD) bond is determined by comparing (market price / conversion factor) across all deliverable bonds. The bond with the lowest ratio is the CTD.]]></text></explanation>
+    </question>
+</QF>

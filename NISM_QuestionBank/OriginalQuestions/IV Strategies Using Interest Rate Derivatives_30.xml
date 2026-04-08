@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_30" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What distinguishes a covered call strategy from a naked call writing strategy in the context of interest rate derivatives?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[In a covered call, the writer owns the underlying bond; in a naked call, the writer has no underlying position]]></text></answer>
+            <answer correct="no"><text><![CDATA[A covered call has unlimited profit potential; a naked call has limited profit]]></text></answer>
+            <answer correct="no"><text><![CDATA[A covered call requires no margin; a naked call requires margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[A covered call can only be written on government bonds; a naked call on any bond]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A covered call involves selling a call while holding the underlying bond. If the call is exercised, the writer delivers the bond they already own. A naked call has no underlying, creating potentially unlimited loss if prices surge.
+**The Trap:** Covered calls have LIMITED profit (capped at strike + premium - cost), not unlimited. Both require margin in practice. There is no restriction on bond type.
+**Cross-Exam Context:** Covered vs naked call distinction is identical in equity options (Series VIII).
+**Distributor's Pro-Tip:** Covered calls are conservative yield-enhancement strategies. Naked calls are highly risky speculative strategies.]]></text></explanation>
+    </question>
+</QF>

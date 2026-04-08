@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_26" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader enters a long straddle on T-Bill futures at strike Rs. 96, paying Rs. 0.80 for the call and Rs. 0.70 for the put. The contract value is Rs. 2,00,000. If the T-Bill futures expire at Rs. 94.20, what is the total profit per contract in rupees?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 600]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 3,600]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,200]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,400]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Total premium per Rs. 100 = 0.80 + 0.70 = 1.50. At Rs. 94.20: Call expires worthless. Put payoff = 96 - 94.20 = 1.80 per Rs. 100. Net profit = 1.80 - 1.50 = 0.30 per Rs. 100. In rupees = 0.30/100 x 2,00,000 = Rs. 600.
+**The Trap:** Rs. 3,600 uses put payoff without subtracting premium (1.80 x 2000). Rs. 1,200 doubles the answer. Rs. 2,400 uses different calculation.
+**Cross-Exam Context:** Converting per-100 option P&L to rupee P&L using contract value is essential for IRD calculations.
+**Distributor's Pro-Tip:** Always convert percentage/per-100 P&L to absolute rupee P&L using contract face value.]]></text></explanation>
+    </question>
+</QF>

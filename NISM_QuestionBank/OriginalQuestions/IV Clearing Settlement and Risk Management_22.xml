@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Clearing Settlement and Risk Management_22" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is multilateral netting in the context of clearing and settlement?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The clearing corporation nets all buy and sell obligations across all counterparties to arrive at a single net obligation per member]]></text></answer>
+            <answer correct="no"><text><![CDATA[Each pair of trading members bilaterally settles their obligations]]></text></answer>
+            <answer correct="no"><text><![CDATA[The clearing corporation nets positions only within the same trading day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Netting is applied only to futures, not options]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Multilateral netting means the CC aggregates all trades of a member across all counterparties and computes a single net pay-in or pay-out obligation. This dramatically reduces settlement flows compared to bilateral settlement.
+
+**The Trap:** Bilateral netting only considers two parties - multilateral considers all parties via the CC. Netting applies to all products, not just futures. It works across multiple trading days for open positions.
+
+**Cross-Exam Context:** Multilateral netting is a key efficiency of centralized clearing, reducing systemic risk. This concept is fundamental across all Series exams covering exchange-traded products.
+
+**Distributor's Pro-Tip:** Multilateral netting can reduce actual fund flows by 90%+ compared to gross settlement, freeing up significant capital for market participants.]]></text></explanation>
+    </question>
+</QF>

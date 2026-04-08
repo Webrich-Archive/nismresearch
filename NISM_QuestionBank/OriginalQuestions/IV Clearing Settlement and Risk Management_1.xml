@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Clearing Settlement and Risk Management_1" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A trader buys 5 lots of 10-year bond futures at Rs. 98.50. The Daily Settlement Price (DSP) is Rs. 99.20. If the lot size is 2,000 units, what is the MTM profit or loss for the day?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Profit of Rs. 7,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 7,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 3,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 14,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** MTM = (DSP - Trade Price) x Lot Size x Number of Lots = (99.20 - 98.50) x 2,000 x 5 = 0.70 x 10,000 = Rs. 7,000 profit. Since DSP > Trade Price for a long position, this is a gain.
+
+**The Trap:** Rs. 3,500 results from using only half the lots or wrong lot size. Rs. 14,000 doubles the result incorrectly. Always multiply all three components.
+
+**Cross-Exam Context:** MTM settlement calculations appear in Series VIII (Equity Derivatives) with similar logic but different lot sizes and underlyings.
+
+**Distributor's Pro-Tip:** MTM settlement happens daily on T+1 basis. A trader must maintain sufficient margin to absorb adverse MTM movements, especially in volatile rate environments.]]></text></explanation>
+    </question>
+</QF>

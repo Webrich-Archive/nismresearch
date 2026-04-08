@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_19" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[An option has a theta of -0.05 per day. If 10 trading days pass (all else equal), by how much will the option premium decline?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 0.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.05]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 5.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.005]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Premium decline = |Theta| x Days = 0.05 x 10 = Rs. 0.50. Theta measures daily time decay.
+**The Trap:** Rs. 0.05 uses only one day. Rs. 5.00 likely misplaces the decimal. Rs. 0.005 divides instead of multiplying.
+**Cross-Exam Context:** Time decay calculations are common in NISM Equity Derivatives module.
+**Distributor's Pro-Tip:** Theta decay accelerates as expiry approaches. The last 30 days see the most rapid time decay, especially for ATM options.]]></text></explanation>
+    </question>
+</QF>

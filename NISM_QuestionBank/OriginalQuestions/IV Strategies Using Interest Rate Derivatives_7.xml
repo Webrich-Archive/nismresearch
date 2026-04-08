@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader sells a short straddle at strike Rs. 100, receiving Rs. 3.50 for the call and Rs. 3 for the put. If the bond futures expire at Rs. 108, what is the trader's net P&L?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Loss of Rs. 1.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 6.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 8]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 1.50]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Total premium received = 3.50 + 3 = Rs. 6.50. At expiry at 108, call is ITM by 8 (loss), put expires worthless. Net P&L = 6.50 - 8 = -Rs. 1.50 (loss).
+**The Trap:** Rs. 6.50 profit ignores the call exercise. Loss of Rs. 8 ignores the premium received.
+**Cross-Exam Context:** Short straddle P&L is a common calculation in Series VIII. The logic is identical for IRD.
+**Distributor's Pro-Tip:** Short straddle sellers profit only when the underlying stays near the strike. Any large move wipes out premium received.]]></text></explanation>
+    </question>
+</QF>

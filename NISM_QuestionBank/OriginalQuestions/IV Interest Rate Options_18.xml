@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_18" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[If Vega of an option is 0.15 and implied volatility increases from 12% to 14%, what is the approximate change in the option premium?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 0.30 increase]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.15 increase]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2.10 increase]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.30 decrease]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Change in premium = Vega x Change in volatility = 0.15 x (14 - 12) = 0.15 x 2 = Rs. 0.30 increase.
+**The Trap:** Rs. 0.15 uses only one unit of volatility change. Rs. 2.10 multiplies vega by 14 instead of the change (2).
+**Cross-Exam Context:** Vega-based calculations appear in advanced NISM Equity Derivatives questions.
+**Distributor's Pro-Tip:** Vega is always positive for option buyers. Higher volatility increases the value of both calls and puts because it increases the probability of a large move.]]></text></explanation>
+    </question>
+</QF>

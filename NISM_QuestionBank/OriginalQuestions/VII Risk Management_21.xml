@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_21" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Intraday Crystallized Mark to Market Losses (ICMTM) are computed for trades that are:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Executed and closed out on the same trading day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Held overnight as open positions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only proprietary trades]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only institutional trades]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** ICMTM shall be computed for all trades subject to upfront margining which are executed and closed out on the same trading day (day trades).
+**The Trap:** ICMTM applies to intraday squared-off positions, not overnight positions which are covered by regular MTM.
+**Cross-Exam Context:** ICMTM was introduced to capture intraday losses that would otherwise be missed in end-of-day MTM calculation.
+**Distributor's Pro-Tip:** ICMTM prevents traders from booking intraday losses that escape end-of-day margin calculations.]]></text></explanation>
+    </question>
+</QF>

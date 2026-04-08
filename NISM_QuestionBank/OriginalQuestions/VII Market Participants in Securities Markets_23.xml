@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Market Participants in Securities Markets_23" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is 'front running' in the context of securities market?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A broker placing their own order ahead of a client's substantial pending order, in anticipation of price impact]]></text></answer>
+            <answer correct="no"><text><![CDATA[A practice of executing trades at the opening of the market before other participants]]></text></answer>
+            <answer correct="no"><text><![CDATA[A strategy of buying securities before their IPO listing]]></text></answer>
+            <answer correct="no"><text><![CDATA[The act of placing large orders to test market depth]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Front running is the illegal practice where a broker/dealer uses non-public information about a substantial impending client order to place their own order first, anticipating that the client's order will move the price. This gives the broker an unfair advantage.
+**The Trap:** Front running specifically requires knowledge of a PENDING client order. Simply being the first to trade in the morning is not front running.
+**Cross-Exam Context:** Series XII and Series III-A cover front running as a prohibited practice under FUTP Regulations 2003.
+**Distributor's Pro-Tip:** Front running violates: SEBI Act Section 12A(a)(b)(e) + FUTP Regulations 3(a)-(d) and 4(q). Example: broker sees a large buy order from a client, buys the same stock first at a lower price, then lets the client's order push the price up, and sells for profit.]]></text></explanation>
+    </question>
+</QF>

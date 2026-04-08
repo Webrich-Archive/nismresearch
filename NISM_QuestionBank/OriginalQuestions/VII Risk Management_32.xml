@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_32" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[CCs shall NOT accept collateral including FDs, BGs, equity, or debt securities issued by:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[CMs/TMs themselves or their group or associate entities]]></text></answer>
+            <answer correct="no"><text><![CDATA[Government of India]]></text></answer>
+            <answer correct="no"><text><![CDATA[Any foreign entity]]></text></answer>
+            <answer correct="no"><text><![CDATA[Public sector banks]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** CCs shall not accept collateral issued by CMs/TMs themselves or their group or associate entities to avoid wrong-way risk.
+**The Trap:** This is a conflict of interest provision - if the CM defaults, their own securities would likely also decline in value.
+**Cross-Exam Context:** Wrong-way risk prevention is a globally recognized risk management principle.
+**Distributor's Pro-Tip:** Accepting a member's own securities as collateral creates circular risk - both the member and the collateral could fail simultaneously.]]></text></explanation>
+    </question>
+</QF>

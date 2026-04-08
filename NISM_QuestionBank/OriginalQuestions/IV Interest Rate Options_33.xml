@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_33" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[In the context of interest rate options, what is 'implied volatility'?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The volatility derived from the market price of an option using a pricing model like Black-Scholes]]></text></answer>
+            <answer correct="no"><text><![CDATA[The historical standard deviation of bond price returns over the past year]]></text></answer>
+            <answer correct="no"><text><![CDATA[The maximum expected price movement of the underlying bond]]></text></answer>
+            <answer correct="no"><text><![CDATA[The regulatory limit on volatility set by the exchange]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Implied volatility is back-calculated from observed market option prices using a model like Black-Scholes. It reflects the market's expectation of future volatility.
+**The Trap:** Historical volatility uses past data, not market prices. Implied volatility is not a regulatory limit or maximum expected movement.
+**Cross-Exam Context:** The distinction between implied and historical volatility is tested in NISM Equity Derivatives and Research Analyst modules.
+**Distributor's Pro-Tip:** Implied volatility is forward-looking (what the market expects) while historical volatility is backward-looking (what actually happened). They often diverge significantly.]]></text></explanation>
+    </question>
+</QF>

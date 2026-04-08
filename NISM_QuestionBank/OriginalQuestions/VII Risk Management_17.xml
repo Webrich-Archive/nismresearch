@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_17" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The Extreme Loss Margin for index futures in the derivatives segment is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[2% of the notional value of gross open positions]]></text></answer>
+            <answer correct="no"><text><![CDATA[3.5% of the notional value of gross open positions]]></text></answer>
+            <answer correct="no"><text><![CDATA[5% of the notional value]]></text></answer>
+            <answer correct="no"><text><![CDATA[1% of the notional value]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** ELM for index futures is 2% of the notional value of the gross open positions based on the last available trading price.
+**The Trap:** 3.5% applies to single stock futures, not index futures. The differential reflects lower risk in diversified indices.
+**Cross-Exam Context:** NISM VIII (Equity Derivatives) tests this extensively alongside SPAN margin concepts.
+**Distributor's Pro-Tip:** Index contracts carry less idiosyncratic risk than single stock contracts, hence lower ELM.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Financial System Overview_39" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In a Forward Rate Agreement (FRA), if at maturity the reference rate is higher than the FRA rate, who pays the difference?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The buyer of the FRA pays the bank]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The bank (seller) pays the excess to the company (buyer)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both parties share the difference equally]]></text></answer>
+            <answer correct="no"><text><![CDATA[The difference is settled through the clearing corporation]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** If at the end of the FRA period, the reference rate (e.g., LIBOR) is greater than the FRA rate, the bank which sold the FRA will pay the excess sum to the company. If the reference rate is lower, the company pays the difference to the bank.
+**The Trap:** The FRA is designed to lock in borrowing costs - if rates rise beyond the locked rate, the seller compensates the buyer.
+**Cross-Exam Context:** Interest rate derivatives including FRAs are tested in NISM Series IV and VIII.
+**Distributor's Pro-Tip:** FRAs are like insurance for borrowers against rising interest rates - the premium is embedded in the FRA rate.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Settlement Process_1" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The current settlement cycle for all cash market segment settlements in India is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[T+1 rolling settlement]]></text></answer>
+            <answer correct="no"><text><![CDATA[T+2 rolling settlement]]></text></answer>
+            <answer correct="no"><text><![CDATA[T+0 settlement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Weekly settlement]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** All cash market segment settlements are on T+1 day rolling basis.
+**The Trap:** India moved from T+2 to T+1. T+0 is optional for limited scrips. T+2 is the old cycle.
+**Cross-Exam Context:** Settlement cycle knowledge is fundamental for NISM VII.
+**Distributor's Pro-Tip:** For arriving at the settlement day, bank holidays, exchange holidays, Saturdays and Sundays are excluded.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Introduction to Securities Broking Operations_72" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Co-location (or proximity hosting) facility offered by stock exchanges is primarily used to:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Minimize trading latency by placing systems within or close to exchange premises]]></text></answer>
+            <answer correct="no"><text><![CDATA[Provide office space for brokers to meet clients]]></text></answer>
+            <answer correct="no"><text><![CDATA[Store physical share certificates]]></text></answer>
+            <answer correct="no"><text><![CDATA[Train new brokers on exchange systems]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Co-location allows stock brokers and data vendors to locate their trading/data-vending systems within or at close proximity to exchange premises, connecting to the trading platform through direct and private networks. This minimizes latency for faster execution.
+**The Trap:** SEBI mandates fair and equitable access to co-location facilities — no preferential treatment to any particular broker. This prevents unfair advantages.
+**Cross-Exam Context:** Series VIII covers co-location in the context of algo/HFT trading.
+**Distributor's Pro-Tip:** Co-location = speed advantage (microseconds matter in HFT). But SEBI ensures level playing field: equal access, fair pricing, no discrimination. Co-location is just one way to connect — others include leased line, VSAT, internet.]]></text></explanation>
+    </question>
+</QF>

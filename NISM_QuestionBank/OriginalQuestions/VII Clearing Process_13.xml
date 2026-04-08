@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Clearing Process_13" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[For custodians under interoperability, the choice of designated CC is determined at which level?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Custodian-CP Segment level]]></text></answer>
+            <answer correct="no"><text><![CDATA[Custodian entity level]]></text></answer>
+            <answer correct="no"><text><![CDATA[Exchange level]]></text></answer>
+            <answer correct="no"><text><![CDATA[Per-trade level]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Custodians have the facility to specify a designated CC separately for each of their CPs at the Custodian-CP Segment level.
+**The Trap:** For CMs, the choice is at CM-Segment level. For Custodians, it is at the more granular Custodian-CP Segment level.
+**Cross-Exam Context:** This granularity allows custodians to optimize clearing for different institutional clients.
+**Distributor's Pro-Tip:** Different institutional clients (CPs) of the same custodian may prefer different CCs.]]></text></explanation>
+    </question>
+</QF>

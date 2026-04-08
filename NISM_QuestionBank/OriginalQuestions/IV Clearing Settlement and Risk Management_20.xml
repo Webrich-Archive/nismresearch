@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Clearing Settlement and Risk Management_20" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Which of the following best describes the difference between pay-in and pay-out in the clearing process?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Pay-in is when the member brings funds/securities to the CC; Pay-out is when the CC delivers funds/securities to the member]]></text></answer>
+            <answer correct="no"><text><![CDATA[Pay-in is the initial margin deposit; Pay-out is the margin refund]]></text></answer>
+            <answer correct="no"><text><![CDATA[Pay-in happens at trade execution; Pay-out happens at expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Pay-in is for buyers only; Pay-out is for sellers only]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Pay-in refers to the member's obligation to bring money or securities to the clearing corporation. Pay-out is the reverse - the CC paying or delivering to the member. These are directional flows in settlement.
+
+**The Trap:** Pay-in/pay-out are not limited to margins - they cover all settlement flows. They happen daily for MTM, not just at expiry. Both buyers and sellers can have pay-in or pay-out obligations depending on the day's settlement.
+
+**Cross-Exam Context:** Pay-in and pay-out terminology is standard across all clearing corporations globally and is tested in Series VIII for equity derivatives.
+
+**Distributor's Pro-Tip:** Pay-in deadlines are strict. Missing a pay-in results in penalties and potential default proceedings. Members must ensure clearing bank balances are adequate before the pay-in cutoff time.]]></text></explanation>
+    </question>
+</QF>

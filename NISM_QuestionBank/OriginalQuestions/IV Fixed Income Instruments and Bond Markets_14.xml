@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Fixed Income Instruments and Bond Markets_14" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[If a bond is trading at a premium and has a coupon rate of 9%, which of the following is true?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[CR > CY > YTM]]></text></answer>
+            <answer correct="no"><text><![CDATA[CR < CY < YTM]]></text></answer>
+            <answer correct="no"><text><![CDATA[CR = CY = YTM]]></text></answer>
+            <answer correct="no"><text><![CDATA[CY > CR > YTM]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For a premium bond: Coupon Rate > Current Yield > YTM. This is because the investor pays more than face value, so the effective yield (YTM) is lower than the coupon rate, and the current yield falls in between.
+
+**The Trap:** CR < CY < YTM applies to discount bonds (the reverse situation). CR = CY = YTM only applies to par bonds.
+
+**Cross-Exam Context:** The CR-CY-YTM relationship for par, premium, and discount bonds is a fundamental concept tested in Series IV and applies to all bond market questions.
+
+**Distributor's Pro-Tip:** A premium bond will experience capital loss at maturity (pulled to par), which reduces YTM below the coupon rate. Always consider the "pull to par" effect.]]></text></explanation>
+    </question>
+</QF>

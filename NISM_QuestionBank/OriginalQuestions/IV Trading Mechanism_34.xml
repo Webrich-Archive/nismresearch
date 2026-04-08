@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Trading Mechanism_34" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What happens when a partial fill occurs on an order in the ETIRD trading system?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The filled portion is executed and the remaining unfilled quantity stays in the order book (unless it is an IOC order)]]></text></answer>
+            <answer correct="no"><text><![CDATA[The entire order is cancelled if it cannot be filled completely]]></text></answer>
+            <answer correct="no"><text><![CDATA[The order is suspended until sufficient liquidity arrives]]></text></answer>
+            <answer correct="no"><text><![CDATA[Partial fills are not permitted; orders must be filled completely or not at all]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Partial fills are standard in exchange trading. If a buy order for 10 contracts can only match with 6 available contracts at the limit price, 6 are filled and the remaining 4 stay in the book as a passive order. Exception: IOC orders cancel the unfilled portion.
+**The Trap:** Partial fills are normal. Orders are not suspended. All-or-none (AON) is a special order type, not the default.
+**Cross-Exam Context:** Partial fill handling is standard across all exchange-traded segments.
+**Distributor's Pro-Tip:** Track partial fills carefully. Multiple small fills may each incur minimum brokerage charges, increasing effective costs.]]></text></explanation>
+    </question>
+</QF>

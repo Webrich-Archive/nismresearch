@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_58" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[On expiry day, can calendar spread benefit be availed for contracts expiring on that day?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[No, calendar spread benefit is not available for contracts expiring on that day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, calendar spread benefit continues for all expiries]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, but with a higher spread charge]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only for index contracts]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI has decided that the benefit of offsetting positions across expiries shall not be available on the day of expiry for contracts expiring on that day.
+**The Trap:** Calendar spread benefit continues for non-expiring contract pairs on the same day.
+**Cross-Exam Context:** This was a SEBI change to address significant basis risk on expiry days.
+**Distributor's Pro-Tip:** Expiry day sees large volumes and enhanced basis risk, making calendar spread offsets unreliable.]]></text></explanation>
+    </question>
+</QF>

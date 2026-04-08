@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_32" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Which option Greek is ALWAYS negative for a long option position (both calls and puts)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Theta]]></text></answer>
+            <answer correct="no"><text><![CDATA[Delta]]></text></answer>
+            <answer correct="no"><text><![CDATA[Vega]]></text></answer>
+            <answer correct="no"><text><![CDATA[Gamma]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Theta (time decay) is always negative for long option positions because options lose value as time passes, all else being equal.
+**The Trap:** Delta is positive for long calls but negative for long puts. Vega and Gamma are positive for long options.
+**Cross-Exam Context:** Understanding the sign of Greeks for different positions is tested in NISM Equity Derivatives.
+**Distributor's Pro-Tip:** Theta works in favor of option sellers (short positions). If you are long options, time is your enemy. If you are short, time is your friend.]]></text></explanation>
+    </question>
+</QF>

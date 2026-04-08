@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_48" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[How does an increase in the risk-free interest rate generally affect call and put option prices?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Call prices increase and put prices decrease]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both call and put prices increase]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both call and put prices decrease]]></text></answer>
+            <answer correct="no"><text><![CDATA[Call prices decrease and put prices increase]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Higher rates increase the cost of carry (making calls more attractive) and decrease the present value of the strike (benefiting calls, hurting puts). Rho is positive for calls, negative for puts.
+**The Trap:** Unlike volatility (which increases both), interest rates have opposite effects on calls and puts.
+**Cross-Exam Context:** Rho's directional effect is tested in NISM Equity Derivatives and advanced interest rate modules.
+**Distributor's Pro-Tip:** For interest rate options, the relationship is more nuanced because rate changes affect both the underlying bond price and the option pricing inputs simultaneously.]]></text></explanation>
+    </question>
+</QF>

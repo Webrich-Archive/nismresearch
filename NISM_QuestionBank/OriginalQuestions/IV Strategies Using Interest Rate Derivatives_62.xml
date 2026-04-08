@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_62" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following entities provides the counterparty guarantee for ETIRD transactions?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The clearing corporation of the respective exchange (e.g., NCL for NSE, ICCL for BSE)]]></text></answer>
+            <answer correct="no"><text><![CDATA[The Reserve Bank of India]]></text></answer>
+            <answer correct="no"><text><![CDATA[The trading broker of each counterparty]]></text></answer>
+            <answer correct="no"><text><![CDATA[The individual exchange members themselves]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Clearing corporations (NCL/NSCCL for NSE, ICCL for BSE) act as the central counterparty (CCP) for all exchange-traded derivative transactions, guaranteeing settlement and eliminating bilateral counterparty risk.
+**The Trap:** RBI doesn't provide trade guarantees. Brokers are intermediaries, not guarantors. Members face the clearing corporation, not each other.
+**Cross-Exam Context:** CCP role is a universal concept across all exchange-traded derivatives exams.
+**Distributor's Pro-Tip:** The CCP becomes the buyer to every seller and seller to every buyer - this is why exchange-traded derivatives have lower counterparty risk than OTC.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Proxy Advisors_42" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A proxy advisor receives information about a factual error in its report on Wednesday at 3:00 PM. The shareholder meeting is scheduled for the following Monday. What are the compliance deadlines for alert and material revision?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Alert by Thursday 3:00 PM, revision by Friday 3:00 PM]]></text></answer>
+            <answer correct="no"><text><![CDATA[Alert by Friday 3:00 PM, revision by Monday 3:00 PM]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Alert by Thursday 3:00 PM, revision by Saturday 3:00 PM]]></text></answer>
+            <answer correct="no"><text><![CDATA[Alert by Thursday 9:00 AM, revision by Saturday 9:00 AM]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Alert within 24 hours: Wednesday 3 PM + 24 hours = Thursday 3 PM. Material revision within 72 hours: Wednesday 3 PM + 72 hours = Saturday 3 PM. Both deadlines are before Monday's meeting.
+**The Trap:** One might confuse the 72-hour deadline as 72 business hours or think it extends to Monday.
+**Cross-Exam Context:** Timeline calculations in SEBI compliance.
+**Distributor's Pro-Tip:** The 72-hour deadline ensures adequate time for clients to make informed decisions before the shareholder meeting.]]></text></explanation>
+    </question>
+</QF>

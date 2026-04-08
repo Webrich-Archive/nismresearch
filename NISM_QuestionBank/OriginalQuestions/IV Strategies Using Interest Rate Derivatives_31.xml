@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_31" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In interest rate derivatives, what does 'basis risk' refer to?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The risk that the hedge instrument and actual exposure do not move perfectly in tandem]]></text></answer>
+            <answer correct="no"><text><![CDATA[The risk of the futures contract expiring worthless]]></text></answer>
+            <answer correct="no"><text><![CDATA[The risk of the exchange defaulting on settlement]]></text></answer>
+            <answer correct="no"><text><![CDATA[The risk of interest rates remaining unchanged]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Basis risk arises because the derivative used for hedging may not perfectly correlate with the actual exposure. For example, using a 10-year bond futures to hedge a 7-year bond creates basis risk because the two may not move identically.
+**The Trap:** Futures don't expire 'worthless' like options. Exchange default risk is counterparty/credit risk. Unchanged rates is not a risk for hedgers.
+**Cross-Exam Context:** Basis risk is a universal concept tested in Series I (currency), VIII (equity), and XII (commodity).
+**Distributor's Pro-Tip:** Basis risk is the single most important limitation of hedging with standardized exchange-traded derivatives.]]></text></explanation>
+    </question>
+</QF>

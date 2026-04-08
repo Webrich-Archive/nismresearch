@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_77" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The clearing and settlement of exchange-traded IRF is handled by:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Clearing corporations such as NCL (NSE Clearing Limited) and ICCL (Indian Clearing Corporation Limited)]]></text></answer>
+            <answer correct="no"><text><![CDATA[RBI's Public Debt Office]]></text></answer>
+            <answer correct="no"><text><![CDATA[CCIL (Clearing Corporation of India Limited)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Individual member brokers bilaterally]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Exchange-traded IRFs are cleared and settled through the exchange's clearing corporation — NCL for NSE-traded contracts and ICCL for BSE-traded contracts. These act as the central counterparty (CCP).
+
+**The Trap:** RBI's PDO handles government debt issuance, not futures clearing. CCIL handles OTC G-Sec and forex clearing, not exchange-traded IRF. Bilateral settlement is an OTC feature, not exchange-traded. The clearing corporation intermediation is a key feature of exchange trading.
+
+**Cross-Exam Context:** Clearing infrastructure is critical for market safety. CCIL handles OTC markets while NCL/ICCL handle exchange-traded markets. This separation is important for NISM Series IV.
+
+**Distributor's Pro-Tip:** The clearing corporations collect margins, manage the settlement guarantee fund, and handle default management. Their role ensures that even if a counterparty defaults, the other side's trade is honored.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_5" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[How many times in a day must the VaR margin rates be updated at minimum?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[At least 5 times]]></text></answer>
+            <answer correct="no"><text><![CDATA[At least 3 times]]></text></answer>
+            <answer correct="no"><text><![CDATA[At least 7 times]]></text></answer>
+            <answer correct="no"><text><![CDATA[Once at end of day]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** VaR margin rates shall be updated at least 5 times in a day, using closing price of previous day at start and prices at 11:00 AM, 12:30 PM, 2:00 PM, and end of trading session.
+**The Trap:** Students may think margins are updated only at end of day or at a different frequency.
+**Cross-Exam Context:** Real-time risk management is a recurring theme across NISM certifications.
+**Distributor's Pro-Tip:** Frequent margin updates ensure risk coverage reflects intraday price movements.]]></text></explanation>
+    </question>
+</QF>

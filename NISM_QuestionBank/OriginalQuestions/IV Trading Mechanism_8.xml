@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Trading Mechanism_8" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader sells 20 T-Bill futures contracts at Rs. 97.80. Face value is Rs. 2,00,000. Initial margin is 1.5% of contract value. What is the total initial margin required?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 58,680]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 60,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 39,120]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 78,240]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Contract value per contract = 2,00,000 x 97.80/100 = Rs. 1,95,600. Total contract value = 1,95,600 x 20 = Rs. 39,12,000. Initial margin = 1.5% x 39,12,000 = Rs. 58,680.
+**The Trap:** Rs. 60,000 uses face value (1.5% of 40,00,000). Rs. 39,120 uses 1% instead of 1.5%. Rs. 78,240 uses 2%.
+**Cross-Exam Context:** Margin calculation on contract value (not face value) is tested in all derivatives exams.
+**Distributor's Pro-Tip:** Margin is calculated on contract value, not face value. For discount instruments like T-Bills trading below par, this makes a meaningful difference.]]></text></explanation>
+    </question>
+</QF>

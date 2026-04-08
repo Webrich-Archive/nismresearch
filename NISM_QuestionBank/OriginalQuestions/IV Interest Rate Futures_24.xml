@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_24" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A 10-year GOI bond futures contract is first listed today. Its base price should be set at:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The theoretical futures price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The previous day's closing price on NDS-OM]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 100 (par value)]]></text></answer>
+            <answer correct="no"><text><![CDATA[The last traded price on any exchange]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** On the first day of listing, the base price is set as the theoretical futures price. On subsequent days, the base price is the previous day's daily settlement price (DSP).
+
+**The Trap:** The previous day's closing price applies for subsequent days, not the first day. Rs. 100 is the face value, not the base price. Last traded price is not used for base price determination.
+
+**Cross-Exam Context:** Base price determination rules are similar across exchanges. In equity derivatives (NISM VIII), new contracts also start with theoretical prices on listing day.
+
+**Distributor's Pro-Tip:** The theoretical price accounts for the spot bond price, cost of carry, accrued interest, and time to expiry. It ensures the futures start trading at a fair value.]]></text></explanation>
+    </question>
+</QF>

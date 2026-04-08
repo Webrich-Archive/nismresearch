@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_71" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An insurance company has long-term bond liabilities (pension obligations) with duration of 15 years but can only buy bonds with maximum duration of 10 years. How can ETIRD help?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy bond futures to synthetically increase the portfolio duration beyond the duration of available bonds]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell bond futures to reduce the duration gap]]></text></answer>
+            <answer correct="no"><text><![CDATA[Enter into a short straddle to generate premium income for the gap]]></text></answer>
+            <answer correct="no"><text><![CDATA[This situation cannot be addressed using exchange-traded derivatives]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Buying bond futures adds duration to the portfolio synthetically. The combination of physical bonds (duration 10) plus long futures can create an effective portfolio duration closer to the 15-year liability duration.
+**The Trap:** Selling futures would reduce duration further from the target. Straddles don't address duration matching. ETIRD can help, even if imperfectly.
+**Cross-Exam Context:** Duration gap management for insurers/pension funds is discussed in Series IV and in advanced fixed income contexts.
+**Distributor's Pro-Tip:** This is ALM (Asset-Liability Management) using derivatives. Insurance companies and pension funds are natural users of long-duration IRD.]]></text></explanation>
+    </question>
+</QF>

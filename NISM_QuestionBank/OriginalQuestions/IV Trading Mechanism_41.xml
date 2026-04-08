@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Trading Mechanism_41" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the regulatory position on co-location services for ETIRD trading?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Exchanges offer co-location services to members for faster order execution, subject to SEBI guidelines ensuring fair access]]></text></answer>
+            <answer correct="no"><text><![CDATA[Co-location is banned by SEBI for all derivative segments]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only government-owned brokers can use co-location]]></text></answer>
+            <answer correct="no"><text><![CDATA[Co-location is available only for equity trading, not IRD]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI allows exchanges to offer co-location/proximity hosting services where members can place their servers close to the exchange's matching engine for faster execution. SEBI guidelines ensure fair and transparent access to these services.
+**The Trap:** Co-location is not banned - it's regulated. Available to all members, not just government brokers. Available for all segments including IRD.
+**Cross-Exam Context:** Co-location regulation is tested in Series VIII and applies uniformly across segments.
+**Distributor's Pro-Tip:** Co-location gives latency advantages crucial for algorithmic trading. SEBI mandates that exchanges provide fair access and transparent pricing.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_95" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[An insurance company with long-term liabilities of 15 years receives Rs. 100 crore in premium inflows and plans to invest in 13-year GOI bonds over the next month. Bond prices are currently attractive. How can the company use IRF?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy (long) 13-year GOI bond futures to lock in the current attractive yield levels until actual investment is made]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell 13-year GOI bond futures to reduce portfolio duration]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy 6-year GOI bond futures as they are more liquid]]></text></answer>
+            <answer correct="no"><text><![CDATA[Short MIBOR futures to hedge the investment risk]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The insurance company wants to lock in currently attractive yields. By going long on 13-year GOI bond futures, the company creates a synthetic long bond position. If yields fall (prices rise) before the actual investment, the futures profit compensates for the higher purchase price.
+
+**The Trap:** Selling futures would be appropriate if expecting prices to fall, not to lock in current levels. 6-year futures don't match the 13-15 year liability duration. MIBOR futures hedge overnight rates, irrelevant to long-term bond investment decisions.
+
+**Cross-Exam Context:** Asset-liability matching is a core concept for insurance companies. Using IRF for anticipatory hedging of premium inflows is a practical application tested in NISM Series IV.
+
+**Distributor's Pro-Tip:** Insurance companies are natural participants in the 13-year IRF segment due to their long-duration liabilities. The 13-year futures provide a hedging tool that was previously unavailable, reducing the timing risk in deploying large premium inflows.]]></text></explanation>
+    </question>
+</QF>

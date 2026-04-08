@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Clearing Settlement and Risk Management_24" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is the role of a Clearing Bank in the settlement of interest rate derivatives?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[It acts as an interface between the clearing corporation and clearing members for fund settlement]]></text></answer>
+            <answer correct="no"><text><![CDATA[It provides trading facilities to retail clients]]></text></answer>
+            <answer correct="no"><text><![CDATA[It guarantees all trades executed on the exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[It calculates margin requirements for clearing members]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Clearing Banks facilitate the actual transfer of funds between clearing members and the clearing corporation. Members maintain settlement accounts with clearing banks, and the CC instructs these banks for pay-in and pay-out.
+
+**The Trap:** Trading facilities are provided by the exchange, not clearing banks. Trade guarantees come from the CC, not clearing banks. Margin calculation is done by the CC/exchange.
+
+**Cross-Exam Context:** The clearing bank concept is identical across all exchange-traded segments. Banks like SBI, HDFC, ICICI typically serve as clearing banks.
+
+**Distributor's Pro-Tip:** Clearing members must maintain adequate balances in their clearing bank accounts before the settlement deadline. Shortfalls can lead to penalties and even trading restrictions.]]></text></explanation>
+    </question>
+</QF>

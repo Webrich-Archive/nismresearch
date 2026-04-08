@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_20" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[If the tick size for GOI bond futures is Rs. 0.0025 and the lot size is 2000, what is the minimum price movement value (tick value) per lot?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 5]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.0025]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 50]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Tick value = Tick size × Lot size = 0.0025 × 2000 = Rs. 5. This is the minimum profit or loss per lot from one tick movement.
+
+**The Trap:** Rs. 0.0025 is the tick size itself, not the tick value per lot. Rs. 2.50 uses 1000 instead of 2000. Rs. 50 uses 20,000. Always multiply tick size by the actual lot size of 2000.
+
+**Cross-Exam Context:** Tick value determines the minimum P&L granularity. In equity futures (NISM VIII), tick value = 0.05 × lot size. The concept is the same; only the numbers differ.
+
+**Distributor's Pro-Tip:** Rs. 5 per tick per lot means you need the bond to move just 0.0025 to see a Rs. 5 change. For 10 lots, that's Rs. 50 per tick — small but significant over many ticks.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Prevention of Money Laundering Act_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A stock broking firm processes multiple cash transactions for a client during a month. The individual transactions are Rs 3 lakh, Rs 4 lakh, and Rs 5 lakh. Under the PMLA record maintenance requirements, for which of the following aggregate values must a Cash Transaction Report (CTR) be filed with FIU-IND?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs 5 lakh, since only individual transactions above Rs 5 lakh need reporting]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs 12 lakh, since the aggregate exceeds the Rs 10 lakh threshold requiring CTR filing]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 3 lakh, since even the smallest transaction must be independently reported]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 10 lakh, since only exact threshold amounts trigger reporting]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under PMLA Rules, every reporting entity shall maintain the record of all cash transactions of the value of more than Rs 10 lakh or its equivalent in foreign currency. The aggregate of Rs 3 lakh + Rs 4 lakh + Rs 5 lakh = Rs 12 lakh exceeds the Rs 10 lakh threshold, requiring a CTR to be filed.
+**The Trap:** Option A is tempting because candidates may think only individual large transactions matter, but the rules consider aggregate cash transactions.
+**Cross-Exam Context:** NISM Series V-A (Mutual Fund Distributors) and NISM Series VIII (Equity Derivatives) also cover AML thresholds.
+**Distributor's Pro-Tip:** Always monitor cumulative cash transactions per client per month — structuring transactions to avoid the Rs 10 lakh threshold is itself a red flag for suspicious activity.]]></text></explanation>
+    </question>
+</QF>

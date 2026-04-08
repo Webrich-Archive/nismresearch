@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_69" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A trader observes that the implied volatility of an ATM interest rate call option is significantly higher than its historical volatility. What trading insight does this provide?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Options may be overpriced relative to historical norms, potentially favoring selling strategies]]></text></answer>
+            <answer correct="no"><text><![CDATA[Options are definitely underpriced and should be bought immediately]]></text></answer>
+            <answer correct="no"><text><![CDATA[The underlying bond is about to experience a sharp price increase]]></text></answer>
+            <answer correct="no"><text><![CDATA[Historical volatility is unreliable and should be ignored]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When implied volatility exceeds historical volatility significantly, options may be 'expensive' relative to historical norms. Sellers may benefit if actual volatility reverts to historical levels.
+**The Trap:** High IV does not guarantee options are overpriced -- the market may correctly anticipate higher future volatility. It provides an insight, not a definitive signal.
+**Cross-Exam Context:** The IV vs HV comparison is a practical trading concept tested in NISM Research Analyst certification.
+**Distributor's Pro-Tip:** This is called 'volatility mean reversion' -- the expectation that IV will eventually converge toward HV. Professional option traders frequently use this analysis.]]></text></explanation>
+    </question>
+</QF>

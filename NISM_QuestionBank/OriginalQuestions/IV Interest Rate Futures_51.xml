@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_51" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The underlying for MIBOR futures is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Daily FBIL Overnight MIBOR (Mumbai Interbank Offered Rate) for the contract month]]></text></answer>
+            <answer correct="no"><text><![CDATA[The 91-day T-Bill rate]]></text></answer>
+            <answer correct="no"><text><![CDATA[The RBI repo rate]]></text></answer>
+            <answer correct="no"><text><![CDATA[The 10-year GOI bond yield]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** MIBOR futures are based on the daily FBIL (Financial Benchmarks India Limited) Overnight MIBOR for the contract month. The settlement is based on the simple average of all daily overnight MIBOR rates during the month.
+
+**The Trap:** 91-day T-Bill rate is the underlying for T-Bill futures. RBI repo rate is a policy rate, not a market rate. 10-year yield is the underlying for GOI bond futures. Each IRF product has a distinct underlying.
+
+**Cross-Exam Context:** MIBOR is to India what SONIA is to the UK or SOFR is to the US — the key overnight interbank rate. FBIL replaced NSE as the publisher of MIBOR, ensuring benchmark integrity.
+
+**Distributor's Pro-Tip:** MIBOR is influenced by system liquidity, RBI's policy stance, and money market conditions. Banks use MIBOR futures to hedge their overnight borrowing costs or to speculate on RBI policy changes.]]></text></explanation>
+    </question>
+</QF>

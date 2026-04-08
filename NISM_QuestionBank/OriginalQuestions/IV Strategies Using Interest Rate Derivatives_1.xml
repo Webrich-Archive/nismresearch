@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A portfolio manager holds a bond portfolio worth Rs. 50 crore with a modified duration of 6 years. Bond futures are priced at Rs. 2,00,000 per contract with a duration of 8 years. How many futures contracts should be sold to hedge the portfolio?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[1,875 contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[2,500 contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[1,500 contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[3,000 contracts]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Number of futures = (Portfolio value x Portfolio duration) / (Futures price x Futures duration x Lot size). Here: (50,00,00,000 x 6) / (2,00,000 x 8 x 1) = 300,00,00,000 / 16,00,000 = 1,875 contracts. Assuming lot size = 1.
+**The Trap:** 2,500 comes from ignoring futures duration. 3,000 comes from multiplying instead of dividing by futures duration.
+**Cross-Exam Context:** Duration-based hedging is tested in Series VIII equity derivatives with beta-based hedging using similar formulas.
+**Distributor's Pro-Tip:** Duration-based hedge ratio is the most exam-critical formula in this chapter. Always ensure you use futures duration, not portfolio duration, in the denominator.]]></text></explanation>
+    </question>
+</QF>

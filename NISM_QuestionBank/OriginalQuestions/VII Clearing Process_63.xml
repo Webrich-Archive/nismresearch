@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Clearing Process_63" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[For securities pay-in, the Clearing Corporation advises the depository to:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Debit pool account of custodians/CMs and credit CC's settlement pool account]]></text></answer>
+            <answer correct="no"><text><![CDATA[Credit pool account of custodians/CMs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Transfer securities directly between buyer and seller]]></text></answer>
+            <answer correct="no"><text><![CDATA[Hold securities in escrow]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For pay-in, the CC advises depository to debit CM/custodian pool accounts and credit the CC's settlement pool account.
+**The Trap:** The flow is from CM/custodian to CC during pay-in, and CC to CM/client during pay-out.
+**Cross-Exam Context:** Understanding the direction of fund and security flow is critical.
+**Distributor's Pro-Tip:** Pay-in is the process of members delivering securities/funds to the CC.]]></text></explanation>
+    </question>
+</QF>

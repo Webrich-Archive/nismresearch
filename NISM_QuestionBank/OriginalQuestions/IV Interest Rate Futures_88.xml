@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_88" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is the expiry day for GOI bond futures (6-year, 10-year, and 13-year) contracts?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Last Thursday of the contract month]]></text></answer>
+            <answer correct="no"><text><![CDATA[Last Wednesday of the contract month]]></text></answer>
+            <answer correct="no"><text><![CDATA[Last Friday of the contract month]]></text></answer>
+            <answer correct="no"><text><![CDATA[Last business day of the contract month]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** GOI bond futures (across all tenors — 6-year, 10-year, and 13-year) expire on the last Thursday of the contract month. This is consistent across all GOI bond futures products.
+
+**The Trap:** Last Wednesday is for 91-day T-Bill futures. Last Friday and last business day are not correct for any GOI bond futures. Note that MIBOR futures expire on the last working day. Each product has a specific expiry day.
+
+**Cross-Exam Context:** Expiry day details are frequently tested. Compare: Equity options — last Thursday (monthly), GOI bond futures — last Thursday, T-Bill futures — last Wednesday, MIBOR futures — last working day.
+
+**Distributor's Pro-Tip:** If the last Thursday is a trading holiday, the contract expires on the previous trading day. Always check the exchange's holiday calendar near expiry dates.]]></text></explanation>
+    </question>
+</QF>

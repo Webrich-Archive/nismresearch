@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_94" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A proprietary trader observes that the 10-year GOI bond futures are trading at a significant premium to their theoretical fair value. What arbitrage strategy should the trader consider?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Sell the overpriced futures and buy the underlying bond in the spot market (cash-and-carry arbitrage)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy the overpriced futures and sell the underlying bond]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy both futures and the underlying bond]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell both futures and the underlying bond]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When futures trade above their fair value, the trader can sell the overpriced futures, buy the underlying bond, and finance the purchase through repo. At expiry, when prices converge, the trader earns the premium above fair value. This is cash-and-carry arbitrage.
+
+**The Trap:** Buying overpriced futures would be buying at above fair value (unfavorable). Buying both doubles the exposure in the same direction. Selling both creates exposure to a price increase. The arbitrage requires opposite positions in spot and futures.
+
+**Cross-Exam Context:** Cash-and-carry and reverse cash-and-carry arbitrage are classic concepts tested in NISM Series IV and VIII. They are the mechanism that keeps futures prices close to theoretical fair values.
+
+**Distributor's Pro-Tip:** In practice, arbitrage opportunities in Indian IRF are limited due to securities lending restrictions, repo market constraints, and transaction costs. However, understanding the concept is essential for pricing and identifying relative value opportunities.]]></text></explanation>
+    </question>
+</QF>

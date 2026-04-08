@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_27" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is the haircut applicable on cash deposited as liquid asset?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[0% (No haircut)]]></text></answer>
+            <answer correct="no"><text><![CDATA[5%]]></text></answer>
+            <answer correct="no"><text><![CDATA[10%]]></text></answer>
+            <answer correct="no"><text><![CDATA[2%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Cash has a 0% haircut - its full value is recognized as liquid asset.
+**The Trap:** While cash has zero haircut, other assets like equity shares have haircuts based on 6σ VaR (minimum 9%).
+**Cross-Exam Context:** Understanding haircuts on different forms of collateral is essential for capital efficiency.
+**Distributor's Pro-Tip:** Cash is the most valued form of collateral because it has no market risk and requires no liquidation.]]></text></explanation>
+    </question>
+</QF>

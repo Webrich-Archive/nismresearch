@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Introduction to Securities Broking Operations_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[SEBI made it mandatory for brokers to use Unique Client Codes (UCC) for all clients starting from:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[2001]]></text></answer>
+            <answer correct="no"><text><![CDATA[2005]]></text></answer>
+            <answer correct="no"><text><![CDATA[2008]]></text></answer>
+            <answer correct="no"><text><![CDATA[2010]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In 2001, SEBI made it mandatory for brokers to use unique client codes for all clients. UCC must be mapped with the PAN number of the client and uploaded on the stock exchange platform.
+**The Trap:** UCC is broker-specific (a client gets a different UCC with each broker), while PAN is universal. Both are used together for order entry.
+**Cross-Exam Context:** Series XII covers UCC requirements as part of trading compliance.
+**Distributor's Pro-Tip:** UCC flow: Broker allots UCC → maps to client's PAN → uploads to exchange → exchange validates UCC+PAN at order entry → UCC mapped to demat account via depositories. This creates a complete audit trail from order to settlement.]]></text></explanation>
+    </question>
+</QF>

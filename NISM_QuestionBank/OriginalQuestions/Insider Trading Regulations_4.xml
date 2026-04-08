@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Insider Trading Regulations_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[As per Regulation 3(6) of SEBI (PIT) Regulations, 2015, for how many years must the structured digital database be preserved after completion of a transaction?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[5 years]]></text></answer>
+            <answer correct="no"><text><![CDATA[6 years]]></text></answer>
+            <answer correct="yes"><text><![CDATA[8 years]]></text></answer>
+            <answer correct="no"><text><![CDATA[10 years]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Regulation 3(6) specifies that the structured digital database shall be preserved for not less than 8 years after completion of the transaction.
+**The Trap:** Many SEBI regulations use 5-year retention periods, making it a common guess, but PIT specifically requires 8 years.
+**Cross-Exam Context:** NISM Series VI (Depository Operations) also covers record retention requirements under different regulations.
+**Distributor's Pro-Tip:** In case of any investigation or enforcement proceedings, the database must be preserved till completion of proceedings, even beyond 8 years.]]></text></explanation>
+    </question>
+</QF>

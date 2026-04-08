@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_59" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[For exchange-traded IROs, who bears the credit risk of the counterparty?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The clearing corporation, which acts as the central counterparty]]></text></answer>
+            <answer correct="no"><text><![CDATA[The option buyer bears the full counterparty risk]]></text></answer>
+            <answer correct="no"><text><![CDATA[The option seller bears the full counterparty risk]]></text></answer>
+            <answer correct="no"><text><![CDATA[Each party bears its own counterparty risk with no guarantee]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In exchange-traded derivatives, the clearing corporation (e.g., CCIL/NSE Clearing) becomes the counterparty to both sides, eliminating bilateral counterparty risk.
+**The Trap:** Bilateral counterparty risk exists in OTC derivatives, not exchange-traded ones. The clearing corporation's guarantee is a key benefit of exchange trading.
+**Cross-Exam Context:** Central counterparty clearing is a regulatory concept tested across all NISM derivative modules.
+**Distributor's Pro-Tip:** The clearing corporation manages risk through margin requirements, daily mark-to-market, and a settlement guarantee fund, making exchange-traded options safer than OTC.]]></text></explanation>
+    </question>
+</QF>

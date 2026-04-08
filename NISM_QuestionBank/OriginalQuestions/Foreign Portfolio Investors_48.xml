@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Foreign Portfolio Investors_48" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An FPI fund has a total corpus of USD 200 million. Three NRIs contribute USD 40 million, USD 30 million, and USD 20 million respectively. One OCI contributes USD 15 million. Is this fund eligible for FPI registration based on NRI/OCI/RI contribution limits?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Yes, because no single NRI/OCI contributes more than 25% of the corpus]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, because the total NRI/OCI contribution is within 75% of the corpus]]></text></answer>
+            <answer correct="yes"><text><![CDATA[No, because while each individual's contribution is below 25%, the aggregate NRI/OCI contribution of 52.5% exceeds the 50% aggregate limit]]></text></answer>
+            <answer correct="no"><text><![CDATA[No, because the first NRI's contribution exceeds the 25% individual limit]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Individual contributions: NRI1 = 40/200 = 20% (below 25% - OK), NRI2 = 30/200 = 15% (OK), NRI3 = 20/200 = 10% (OK), OCI = 15/200 = 7.5% (OK). However, aggregate = (40+30+20+15)/200 = 105/200 = 52.5%, which exceeds the 50% aggregate limit under Regulation 4(c)(ii).
+**The Trap:** Checking only the individual 25% limit and ignoring the 50% aggregate limit would lead to incorrectly concluding eligibility.
+**Cross-Exam Context:** Calculation questions on contribution limits are common in NISM Series III-A exams.
+**Distributor's Pro-Tip:** Always check BOTH limits: 25% individual AND 50% aggregate. Failing either one disqualifies the applicant.]]></text></explanation>
+    </question>
+</QF>

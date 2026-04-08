@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Settlement Process_40" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[When a company announces corporate action, short deliveries of cum-basis shares shall be:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Directly closed out if auction pay-out cannot be done on or before Record Date/Book closure minus 1 business day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Settled through regular auction]]></text></answer>
+            <answer correct="no"><text><![CDATA[Carried forward to next settlement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cancelled without penalty]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Cum-basis short deliveries are directly closed out if auction pay-out can't happen before Record Date minus 1 day. Close-out is at highest price or 10% above settlement price, whichever is higher.
+**The Trap:** Note the lower 10% premium for corporate action close-outs vs the regular 20%.
+**Cross-Exam Context:** Corporate action close-outs have time sensitivity due to record dates.
+**Distributor's Pro-Tip:** The tighter timeline around corporate actions necessitates direct close-out rather than auction.]]></text></explanation>
+    </question>
+</QF>

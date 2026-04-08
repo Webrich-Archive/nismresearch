@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Fixed Income Instruments and Bond Markets_34" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Price risk (interest rate risk) disappears for a bondholder when:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The bond has a high credit rating]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The bond is held until maturity]]></text></answer>
+            <answer correct="no"><text><![CDATA[The bond has a high coupon]]></text></answer>
+            <answer correct="no"><text><![CDATA[The bond is traded on an exchange]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** If a bondholder holds the bond until maturity, the bond will be redeemed at face value regardless of interim price fluctuations. Price risk exists only if the bond is sold before maturity in the secondary market.
+
+**The Trap:** Credit rating affects credit risk, not price risk. High coupon reduces duration (thus reducing price sensitivity) but doesn't eliminate price risk. Exchange listing provides liquidity but doesn't remove price risk.
+
+**Cross-Exam Context:** Understanding when different risks are present or absent is tested in Series IV. A zero-coupon sovereign bond held to maturity eliminates ALL three major risks (credit, price, reinvestment).
+
+**Distributor's Pro-Tip:** For clients with a fixed investment horizon, matching bond maturity to their horizon eliminates price risk. This is the basis of immunization strategies.]]></text></explanation>
+    </question>
+</QF>

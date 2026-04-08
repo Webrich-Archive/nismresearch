@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_54" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[SPAN margining in the derivatives segment uses a VaR confidence level of:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[99%]]></text></answer>
+            <answer correct="no"><text><![CDATA[99.9%]]></text></answer>
+            <answer correct="no"><text><![CDATA[95%]]></text></answer>
+            <answer correct="no"><text><![CDATA[99.5%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Initial margin in derivatives is based on 99% VaR using SPAN methodology.
+**The Trap:** Cash segment uses 99.9% VaR. The difference is important - derivatives use 99% VaR supplemented by ELM for tail risk.
+**Cross-Exam Context:** This 99% vs 99.9% distinction is one of the most commonly tested differences between cash and derivatives margins.
+**Distributor's Pro-Tip:** SPAN compensates for the lower VaR percentile by considering portfolio-wide risk across 16 scenarios.]]></text></explanation>
+    </question>
+</QF>

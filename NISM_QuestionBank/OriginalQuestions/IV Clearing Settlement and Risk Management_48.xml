@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Clearing Settlement and Risk Management_48" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A trader holds 15 lots of long 10-year bond futures and 15 lots of short 5-year bond futures. They claim this is a calendar spread. How would the exchange treat this for margin purposes?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[This would not qualify as a calendar spread since the underlyings are different bonds; full margin would be charged on both legs]]></text></answer>
+            <answer correct="no"><text><![CDATA[This qualifies as a calendar spread and would receive reduced margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the net position (zero) would be margined]]></text></answer>
+            <answer correct="no"><text><![CDATA[This would receive 50% margin reduction as an inter-commodity spread]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A calendar spread requires long and short positions in the SAME underlying across different expiry months. Here, 10-year and 5-year bond futures have different underlyings, so it does not qualify as a calendar spread for reduced margin.
+
+**The Trap:** While these positions are hedged in a general sense, the exchange's calendar spread definition requires the same underlying contract. Different tenors are different products.
+
+**Cross-Exam Context:** Calendar spread margin benefits are product-specific across all derivatives. In equity derivatives too, the spread must be in the same underlying stock/index.
+
+**Distributor's Pro-Tip:** For genuine cross-tenor hedges, traders should explore if the exchange offers any inter-commodity spread margin benefits, though these are typically more limited than calendar spread benefits.]]></text></explanation>
+    </question>
+</QF>

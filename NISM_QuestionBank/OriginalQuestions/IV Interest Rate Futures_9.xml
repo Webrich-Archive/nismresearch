@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_9" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The spot price of a GOI bond is Rs. 101.50 and the corresponding bond futures price is Rs. 102.30. What is the basis?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[-0.80]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.80]]></text></answer>
+            <answer correct="no"><text><![CDATA[203.80]]></text></answer>
+            <answer correct="no"><text><![CDATA[-1.80]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Basis = Spot Price - Futures Price = 101.50 - 102.30 = -0.80. When futures trade above spot, the basis is negative (called contango in commodity parlance).
+
+**The Trap:** 0.80 reverses the formula to Futures - Spot. 203.80 adds the two prices. The standard convention is Basis = Spot - Futures. A negative basis is typical when cost of carry exceeds the yield on the bond.
+
+**Cross-Exam Context:** Basis calculation is tested across NISM Series IV and is conceptually the same as in commodity (Series XVI) and equity (Series VIII) derivatives. Basis convergence at expiry is a key concept.
+
+**Distributor's Pro-Tip:** As the contract approaches expiry, the basis converges to zero. Traders who trade the basis (basis trading) exploit mispricings between the spot and futures markets.]]></text></explanation>
+    </question>
+</QF>

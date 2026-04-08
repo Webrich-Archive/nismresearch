@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VII Introduction to Securities Broking Operations_55" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What order type condition allows the Trading Member's order to get activated only when the market price reaches or crosses a threshold price?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Stop Loss order]]></text></answer>
+            <answer correct="no"><text><![CDATA[Market order]]></text></answer>
+            <answer correct="no"><text><![CDATA[Limit order]]></text></answer>
+            <answer correct="no"><text><![CDATA[IOC order]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A Stop Loss order gets activated only when the market price reaches or crosses the specified trigger/threshold price. Until then, the order does not enter the market. It requires two prices: trigger and limit/market.
+**The Trap:** A sell stop loss trigger activates when price falls to/below trigger. A buy stop loss trigger activates when price rises to/above trigger. The direction depends on whether you're protecting against falling or rising prices.
+**Cross-Exam Context:** Series VIII covers stop loss strategies for derivatives.
+**Distributor's Pro-Tip:** Stop loss = insurance for open positions. Buy stop loss protects short positions (trigger above current price). Sell stop loss protects long positions (trigger below current price). Once triggered, executes as either market order or limit order depending on specification.]]></text></explanation>
+    </question>
+</QF>

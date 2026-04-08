@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_42" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is 'basis' in the context of bond futures?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The difference between the spot price and the futures price of the underlying bond]]></text></answer>
+            <answer correct="no"><text><![CDATA[The face value of the bond]]></text></answer>
+            <answer correct="no"><text><![CDATA[The coupon rate of the underlying bond]]></text></answer>
+            <answer correct="no"><text><![CDATA[The margin requirement for the futures contract]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Basis = Spot Price - Futures Price. It reflects the cost of carry and other market factors. At expiry, the basis converges to zero as spot and futures prices align.
+
+**The Trap:** Face value is a fixed Rs. 100 (not basis). Coupon rate is a bond characteristic. Margin is a trading requirement. Basis is purely about the price differential between spot and futures markets.
+
+**Cross-Exam Context:** Basis is a universal concept across all futures markets. In commodity futures (NISM Series XVI), basis reflects storage costs and convenience yield. In bond futures, it reflects financing cost minus coupon income.
+
+**Distributor's Pro-Tip:** Basis risk is the risk that the basis changes unexpectedly. Even a perfect hedge (matching face values) can lose money if the basis moves against you. Understanding basis is key to effective hedging.]]></text></explanation>
+    </question>
+</QF>

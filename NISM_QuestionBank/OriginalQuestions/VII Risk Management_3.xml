@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_3" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Securities classified as Group II (Less Liquid Securities) must have a trading frequency of at least what percentage over the previous six months?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[At least 80% of the days]]></text></answer>
+            <answer correct="no"><text><![CDATA[At least 50% of the days]]></text></answer>
+            <answer correct="no"><text><![CDATA[At least 90% of the days]]></text></answer>
+            <answer correct="no"><text><![CDATA[At least 60% of the days]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Group II securities must trade on at least 80% of the days over the previous six months, same as Group I, but with impact cost exceeding 1%.
+**The Trap:** The differentiator between Group I and Group II is impact cost (≤1% vs >1%), not trading frequency. Both require 80% trading frequency.
+**Cross-Exam Context:** This classification is fundamental to understanding margin requirements in the cash segment.
+**Distributor's Pro-Tip:** Impact cost measures the execution cost of a hypothetical order of Rs 1 lakh.]]></text></explanation>
+    </question>
+</QF>

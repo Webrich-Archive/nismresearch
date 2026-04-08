@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Stock Brokers Regulations_48" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under SEBI Regulations, a Registrar to an Issue shall NOT act as such registrar for any issue of securities if it is an 'associate' of the body corporate. What is the minimum control percentage that defines an 'associate' in this context?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[5% of voting power]]></text></answer>
+            <answer correct="yes"><text><![CDATA[10% of voting power]]></text></answer>
+            <answer correct="no"><text><![CDATA[15% of voting power]]></text></answer>
+            <answer correct="no"><text><![CDATA[25% of voting power]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A registrar to an issue or the body corporate shall be deemed to be an associate of the other where he or it controls directly or indirectly not less than 10% of the voting power of the body corporate or of the registrar, or where he or any of his relatives is a director or promoter.
+**The Trap:** 5% is the SAST disclosure threshold, not the associate definition threshold for RTAs. 25% is the general takeover threshold, also not applicable here.
+**Cross-Exam Context:** The 'associate' definition varies across regulations. For RTAs, it is 10% voting power. This conflict-of-interest prevention measure is a governance concept tested in NISM compliance exams.
+**Distributor's Pro-Tip:** The term 'relative' has the same meaning as in the Companies Act. Even if the voting power is below 10%, a family relationship (director/promoter) creates an associate relationship.]]></text></explanation>
+    </question>
+</QF>

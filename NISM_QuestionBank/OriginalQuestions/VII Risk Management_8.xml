@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_8" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[On which date each month are the trading frequency and impact cost calculated for security group reclassification?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[15th of each month]]></text></answer>
+            <answer correct="no"><text><![CDATA[1st of each month]]></text></answer>
+            <answer correct="no"><text><![CDATA[Last trading day of each month]]></text></answer>
+            <answer correct="no"><text><![CDATA[Every Friday]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Trading frequency and impact cost are calculated on the 15th of each month on a rolling basis considering previous 6 months. Securities move between groups from the first of the next month.
+**The Trap:** The calculation date (15th) and effective date (1st of next month) are different. Students often confuse them.
+**Cross-Exam Context:** Understanding the review cycle is important for risk management questions.
+**Distributor's Pro-Tip:** There is a natural lag between calculation and implementation to allow market participants to prepare.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Foreign Portfolio Investors_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If an FPI exceeds the 10% holding limit in a company, within how many trading days must the excess holding be divested?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Five trading days from the date of settlement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Ten trading days from the date of settlement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Three trading days from the date of settlement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Seven trading days from the date of settlement]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** As per Regulation 20(6), where the total investment exceeds the 10% threshold, the FPI shall divest the excess holding within five trading days from the date of settlement of the trades resulting in the breach.
+**The Trap:** Three trading days is the typical settlement cycle timeline (T+1 now), but the divestment window is five trading days, not three.
+**Cross-Exam Context:** NISM Series III-B (Issuers Compliance) also covers holding limits and disclosure requirements.
+**Distributor's Pro-Tip:** Failure to divest within 5 trading days converts the entire FPI holding in that company to FDI - not just the excess.]]></text></explanation>
+    </question>
+</QF>

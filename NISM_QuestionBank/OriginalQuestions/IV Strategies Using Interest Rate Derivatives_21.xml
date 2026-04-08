@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader buys a bull call spread: long call at Rs. 99 for Rs. 4 and short call at Rs. 104 for Rs. 1.50. If the underlying expires at Rs. 101, what is the P&L?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Loss of Rs. 0.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 2.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 2.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 0.50]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** At expiry Rs. 101: Long call (strike 99) is ITM, payoff = 101 - 99 = 2. Short call (strike 104) expires worthless. Net premium paid = 4 - 1.50 = 2.50. P&L = 2 - 2.50 = -Rs. 0.50 (loss).
+**The Trap:** Rs. 2.00 ignores the net premium. Loss of Rs. 2.50 ignores the long call payoff. Profit of Rs. 0.50 reverses the sign.
+**Cross-Exam Context:** Payoff at specific prices is a standard question type in all NISM options exams.
+**Distributor's Pro-Tip:** When the underlying is between the two strikes, only the long option has value - subtract net premium to get P&L.]]></text></explanation>
+    </question>
+</QF>

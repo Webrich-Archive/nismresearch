@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Accounting and Taxation_18" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A trader buys 10 lots of bond futures at Rs. 98.50 and sells them at Rs. 99.00. Lot size is 2000 bonds. Brokerage is 0.01% of contract value (each side). What is the approximate net profit?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 10,000]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 9,604]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 9,802]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 9,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Gross profit = (99.00 - 98.50) × 2000 × 10 = 0.50 × 20000 = Rs. 10,000. Buy brokerage = 98.50 × 2000 × 10 × 0.0001 = Rs. 197. Sell brokerage = 99.00 × 2000 × 10 × 0.0001 = Rs. 198. Total brokerage = Rs. 395. Net profit ≈ 10,000 - 395 = Rs. 9,605 ≈ Rs. 9,604 (with rounding).
+
+**The Trap:** Rs. 10,000 ignores brokerage. Rs. 9,000 overestimates costs. Always account for brokerage on both buy and sell sides when calculating net profit.
+
+**Cross-Exam Context:** Net profit calculations including transaction costs are practical skills tested in Series IV and all derivative exams.
+
+**Distributor's Pro-Tip:** In practice, additional costs include exchange charges, clearing charges, SEBI fees, GST, and stamp duty. True net profit is always less than the gross calculation.]]></text></explanation>
+    </question>
+</QF>

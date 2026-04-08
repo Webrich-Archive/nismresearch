@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="III-C KYC Registration Agency_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What does 'inter-operability' mean in the context of KYC Registration Agencies?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The ability of two KRAs to share their technology platforms]]></text></answer>
+            <answer correct="no"><text><![CDATA[The ability of a KRA to operate across multiple jurisdictions]]></text></answer>
+            <answer correct="no"><text><![CDATA[The ability of a KRA to validate KYC documents using Aadhaar authentication]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The ability of a KRA to determine whether the KYC documents of a client are in the custody of another KRA]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** As defined in the SEBI KRA Regulations, inter-operability means the ability of the KRA to determine whether the KYC documents of the client are in the custody of another KRA. KRAs must have electronic connectivity with other KRAs to establish this inter-operability.
+**The Trap:** Candidates may confuse inter-operability with technology sharing or cross-border operations. The term specifically relates to the ability to check if KYC records exist with another KRA.
+**Distributor's Pro-Tip:** Inter-operability ensures that clients do not need to repeat KYC procedures when they approach a different intermediary whose KRA is different from the one that holds their KYC records.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Clearing Settlement and Risk Management_14" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A member carries forward 20 lots of long bond futures. Previous DSP was Rs. 100.50 and current DSP is Rs. 101.20. Lot size is 2,000. Additionally, the member bought 5 new lots today at Rs. 101.00. What is the total MTM credit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 30,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 28,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 32,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 26,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Carried forward: (101.20 - 100.50) x 2,000 x 20 = 0.70 x 40,000 = Rs. 28,000. New trades: (101.20 - 101.00) x 2,000 x 5 = 0.20 x 10,000 = Rs. 2,000. Total MTM credit = 28,000 + 2,000 = Rs. 30,000.
+
+**The Trap:** Rs. 28,000 ignores the new trades. Rs. 32,000 miscalculates one component. Carried forward and new positions are calculated separately with different base prices.
+
+**Cross-Exam Context:** Distinguishing carried forward (previous DSP base) from new trades (trade price base) is a critical calculation concept across all futures markets.
+
+**Distributor's Pro-Tip:** The clearing corporation calculates MTM separately for brought-forward and fresh positions, then nets them. This ensures accurate daily profit attribution.]]></text></explanation>
+    </question>
+</QF>

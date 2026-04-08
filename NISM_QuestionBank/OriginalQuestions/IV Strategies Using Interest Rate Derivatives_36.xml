@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_36" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Why might standardized exchange-traded interest rate derivative contracts not provide a perfect hedge for a specific bond portfolio?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The standardized contract may not match the exact maturity, coupon, or credit profile of the bonds being hedged]]></text></answer>
+            <answer correct="no"><text><![CDATA[Exchange-traded contracts are always more expensive than OTC contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[Standardized contracts can only hedge government bonds, not corporate bonds]]></text></answer>
+            <answer correct="no"><text><![CDATA[Exchange-traded contracts do not move with interest rates]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Standardized contracts have fixed specifications (underlying, lot size, expiry). A hedger's actual exposure may differ in tenor, credit quality, coupon rate, or size, creating a mismatch.
+**The Trap:** ETD are often cheaper due to clearing efficiency. They can hedge any IR exposure (imperfectly). They certainly move with rates.
+**Cross-Exam Context:** Standardization vs customization trade-off is discussed in all derivative exams.
+**Distributor's Pro-Tip:** This standardization limitation is exactly why basis risk exists. OTC derivatives can be customized but carry counterparty risk.]]></text></explanation>
+    </question>
+</QF>

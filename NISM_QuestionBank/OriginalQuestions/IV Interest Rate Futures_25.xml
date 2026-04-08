@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_25" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A trader buys 1 lot of 91-day T-Bill futures at a quoted price of 93.50 (yield = 6.50%) and the contract settles at a quoted price of 93.80 (yield = 6.20%). What is the profit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 150]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 600]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 60]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 300]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Profit = Change in settlement value = 2000 × (100 - 0.25 × 6.20) - 2000 × (100 - 0.25 × 6.50) = 2000 × (98.45 - 98.375) = 2000 × 0.075 = Rs. 150. Alternatively: 2000 × 0.25 × (6.50 - 6.20) = 2000 × 0.25 × 0.30 = Rs. 150.
+
+**The Trap:** Rs. 600 uses (93.80 - 93.50) × 2000 = 0.30 × 2000, ignoring the 0.25 factor. Rs. 300 uses 0.50 instead of 0.25. The 0.25 factor in the settlement formula means the price sensitivity is only 25% of the yield change.
+
+**Cross-Exam Context:** The difference between quoted price and settlement value is critical. The quoted price moves 1:1 with yield, but the actual settlement value moves only 0.25:1. This is unique to T-Bill futures.
+
+**Distributor's Pro-Tip:** Think of it this way: a 30 bps yield drop × Rs. 5 per bps (2000 × 0.25 × 0.01) = 30 × 5 = Rs. 150. Using the per-bps value is the fastest way to compute P&L.]]></text></explanation>
+    </question>
+</QF>

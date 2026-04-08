@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Trading Mechanism_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In a price-time priority system, three buy orders arrive: Order A at Rs. 101.50 (10:01 AM), Order B at Rs. 101.70 (10:02 AM), Order C at Rs. 101.50 (10:00 AM). A sell order at Rs. 101.50 arrives. Which order gets filled first?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Order B, because it has the highest bid price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Order A, because it arrived before Order C at the same price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Order C, because it arrived earliest at Rs. 101.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[All three are filled simultaneously]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Price-time priority: First, the highest bid gets priority. Order B (Rs. 101.70) has the highest price and gets matched first, even though it arrived later.
+**The Trap:** Order C has time priority at Rs. 101.50, but price priority trumps time priority. Order A has neither the best price nor earliest time at that price. Simultaneous fill doesn't apply in price-time priority.
+**Cross-Exam Context:** Price-time priority is the universal matching principle tested in all exchange-traded product exams.
+**Distributor's Pro-Tip:** Remember: PRICE first, then TIME. A better price always beats an earlier timestamp at a worse price.]]></text></explanation>
+    </question>
+</QF>

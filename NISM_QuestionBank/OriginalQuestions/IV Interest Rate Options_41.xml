@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_41" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Which Greek measures the sensitivity of an option's price to changes in the volatility of the underlying?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Vega]]></text></answer>
+            <answer correct="no"><text><![CDATA[Delta]]></text></answer>
+            <answer correct="no"><text><![CDATA[Theta]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rho]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Vega measures the change in option price for a one-unit change in volatility. It is positive for long options.
+**The Trap:** Delta measures sensitivity to underlying price. Theta to time. Rho to interest rates.
+**Cross-Exam Context:** Greek identification questions appear in all NISM derivative certification exams.
+**Distributor's Pro-Tip:** Interestingly, Vega is not actually a Greek letter. But in financial convention, it is included among the 'Greeks' for option sensitivity measures.]]></text></explanation>
+    </question>
+</QF>

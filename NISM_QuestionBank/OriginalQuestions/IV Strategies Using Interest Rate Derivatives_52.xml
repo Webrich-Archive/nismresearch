@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_52" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the relationship between the number of futures contracts needed for hedging and the portfolio duration?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Directly proportional - higher portfolio duration requires more futures contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[Inversely proportional - higher portfolio duration requires fewer contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[No relationship - the number depends only on portfolio value]]></text></answer>
+            <answer correct="no"><text><![CDATA[Directly proportional to the square of duration]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** From the hedge ratio formula: Contracts = (Portfolio value x Portfolio duration) / (Futures price x Futures duration). Portfolio duration is in the numerator, so higher duration = more contracts needed.
+**The Trap:** The relationship is linear, not squared. It does depend on duration, not just value. Higher duration means more interest rate sensitivity, requiring more contracts.
+**Cross-Exam Context:** Understanding the drivers of hedge ratio is essential for Series IV and any fixed income risk management exam.
+**Distributor's Pro-Tip:** Intuitively: a higher-duration portfolio is more sensitive to rate changes, so you need more futures to offset that sensitivity.]]></text></explanation>
+    </question>
+</QF>

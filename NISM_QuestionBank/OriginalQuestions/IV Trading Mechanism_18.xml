@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Trading Mechanism_18" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A quantity freeze limit for bond futures is set at 1,001 contracts. A trader wants to place an order for 1,500 contracts. What happens?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The order is not accepted by the system and must be broken into smaller orders below the freeze limit]]></text></answer>
+            <answer correct="no"><text><![CDATA[The order is accepted but flagged for manual review before execution]]></text></answer>
+            <answer correct="no"><text><![CDATA[The order is automatically split into 1,001 and 499 contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[The order is executed normally since freeze limits are advisory only]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Orders exceeding the quantity freeze limit are rejected by the trading system. The trader must break the order into smaller lots (each below 1,001) and place them separately.
+**The Trap:** The system does not auto-split. Freeze limits are mandatory, not advisory. The order requires manual splitting by the trader.
+**Cross-Exam Context:** Quantity freeze limits exist in all exchange-traded segments (Series I, VIII, XII) with different thresholds.
+**Distributor's Pro-Tip:** Large institutional orders above freeze limits need to be sliced manually or via algorithms that respect the limit.]]></text></explanation>
+    </question>
+</QF>

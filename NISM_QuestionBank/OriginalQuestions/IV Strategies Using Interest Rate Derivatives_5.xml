@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader enters a long straddle by buying a call and a put on bond futures at strike Rs. 100, paying Rs. 3 for the call and Rs. 2.50 for the put. What are the breakeven points?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 94.50 and Rs. 105.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 97 and Rs. 102.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 95 and Rs. 105]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 94 and Rs. 106]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Total premium = 3 + 2.50 = Rs. 5.50. Upper breakeven = Strike + Total premium = 100 + 5.50 = 105.50. Lower breakeven = Strike - Total premium = 100 - 5.50 = 94.50.
+**The Trap:** Rs. 97 and Rs. 102.50 uses individual premiums instead of total premium for each side. Rs. 95 and Rs. 105 rounds the premiums.
+**Cross-Exam Context:** Straddle breakeven calculations appear in Series VIII equity derivatives with identical logic.
+**Distributor's Pro-Tip:** A straddle buyer needs a move larger than the total premium paid in either direction to profit.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A bond portfolio worth Rs. 10 crore has a DV01 of Rs. 8,000. The cheapest-to-deliver bond futures contract has a DV01 of Rs. 80. How many futures contracts are needed to hedge the portfolio?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[100 contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[125 contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[80 contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[1,000 contracts]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Number of futures = Portfolio DV01 / Futures DV01 = 8,000 / 80 = 100 contracts. DV01 is the dollar value of a 1 basis point change.
+**The Trap:** 1,000 comes from using portfolio value divided by DV01. 125 comes from incorrectly adjusting for lot size.
+**Cross-Exam Context:** DV01 hedging is the practical implementation of duration-based hedging, tested in Series IV and referenced in Series XII.
+**Distributor's Pro-Tip:** DV01-based and duration-based hedge ratios are conceptually the same thing expressed differently. DV01 is more practical for traders.]]></text></explanation>
+    </question>
+</QF>

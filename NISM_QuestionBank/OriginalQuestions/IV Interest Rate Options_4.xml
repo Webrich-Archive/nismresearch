@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_4" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A trader buys a call option on a bond future at a strike of Rs. 100, paying a premium of Rs. 2.50. At expiry, the bond future settles at Rs. 105. What is the trader's net profit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 2.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 5.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 7.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Payoff = max(0, 105 - 100) = Rs. 5. Net Profit = Payoff - Premium = 5 - 2.50 = Rs. 2.50.
+**The Trap:** Rs. 5.00 is the gross payoff, not the net profit. Candidates often forget to subtract the premium paid upfront.
+**Cross-Exam Context:** NISM Equity Derivatives tests identical payoff calculations for stock options.
+**Distributor's Pro-Tip:** Always deduct the premium from the gross payoff to arrive at net profit. The premium is a sunk cost that must be recovered before profit begins.]]></text></explanation>
+    </question>
+</QF>

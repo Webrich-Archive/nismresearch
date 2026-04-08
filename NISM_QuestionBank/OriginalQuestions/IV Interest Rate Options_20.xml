@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_20" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A call option with strike Rs. 100 is trading at Rs. 6 when the bond is at Rs. 103. If at expiry the bond is at Rs. 108, what is the option buyer's total profit per unit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 2]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 8]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 5]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 6]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** At expiry, payoff = max(0, 108 - 100) = Rs. 8. Net profit = 8 - 6 (premium paid) = Rs. 2.
+**The Trap:** Rs. 8 is the gross payoff, not net profit. Rs. 5 subtracts the current intrinsic value (3) from payoff instead of premium.
+**Cross-Exam Context:** Terminal payoff calculations are fundamental in all NISM option-related modules.
+**Distributor's Pro-Tip:** The current price of the underlying (Rs. 103) at the time of purchase is irrelevant for the final P&L calculation -- only the price at expiry and the premium paid matter.]]></text></explanation>
+    </question>
+</QF>

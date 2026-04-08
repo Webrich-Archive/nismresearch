@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_17" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A hedge fund has a Rs. 100 crore bond portfolio with duration 7.5 years. It wants to completely hedge using bond futures priced at Rs. 2,50,000 with duration 10 years. Lot size is 1 contract. How many contracts to sell?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[3,000 contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[4,000 contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[7,500 contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[2,000 contracts]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Number of futures = (Portfolio value x Portfolio duration) / (Futures price x Futures duration) = (100,00,00,000 x 7.5) / (2,50,000 x 10) = 750,00,00,000 / 25,00,000 = 3,000.
+**The Trap:** 4,000 uses duration 7.5 in denominator. 7,500 ignores futures duration. 2,000 uses duration difference.
+**Cross-Exam Context:** This is the standard duration-based hedge ratio used across all fixed income derivative exams.
+**Distributor's Pro-Tip:** The ratio of portfolio duration to futures duration acts as a multiplier. Higher portfolio duration relative to futures means more contracts needed.]]></text></explanation>
+    </question>
+</QF>

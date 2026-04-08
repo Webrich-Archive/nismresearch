@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Clearing Process_50" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[When trades marked as 'INST' by trading members, who can they be allocated to?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Only to specified institutional categories within the time specified by Exchanges/CCs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Any client of the trading member]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only to foreign investors]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only to mutual funds]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** INST trades can only be allocated to specified institutional categories (Cat I&II FPIs, MFs, banks, insurance, pension funds) within the specified time.
+**The Trap:** INST code cannot be used for all clients. It is specifically for institutional investors listed by SEBI.
+**Cross-Exam Context:** Understanding the INST trade flow is important for institutional settlement.
+**Distributor's Pro-Tip:** For FPIs that are corporate bodies/individuals/family, INST facility is not available in the same manner.]]></text></explanation>
+    </question>
+</QF>

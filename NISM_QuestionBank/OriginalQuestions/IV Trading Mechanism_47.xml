@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Trading Mechanism_47" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A retail trader wants to trade bond futures but is confused between placing a limit order at Rs. 101.50 and a market order. The current best ask is Rs. 101.70 and the best bid is Rs. 101.30. If the trader wants to buy, which order type should be recommended and why?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Limit order at Rs. 101.50 if the trader wants to buy cheaper than the current ask, accepting the risk that the order may not fill]]></text></answer>
+            <answer correct="no"><text><![CDATA[Market order, because it always guarantees the best possible price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Limit order at Rs. 101.50 will execute immediately since it's between bid and ask]]></text></answer>
+            <answer correct="no"><text><![CDATA[Neither; the trader should wait for the spread to narrow]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A limit buy at Rs. 101.50 is below the best ask (101.70), so it won't fill immediately but will rest in the book. If the price drops to 101.50, it fills at a better price. A market order would fill immediately at 101.70 but at a higher cost. The choice depends on urgency vs price.
+**The Trap:** Market orders guarantee execution, not price. A limit order between bid and ask doesn't guarantee immediate execution. Waiting is unnecessary if the trader has a view.
+**Cross-Exam Context:** Order type selection is a practical skill tested across all trading exams.
+**Distributor's Pro-Tip:** In liquid markets, limit orders save money. In illiquid markets, limit orders risk not executing. Balance cost savings against execution risk.]]></text></explanation>
+    </question>
+</QF>

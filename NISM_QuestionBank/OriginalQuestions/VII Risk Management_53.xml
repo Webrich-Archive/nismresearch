@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_53" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Dynamic price band flexing in derivatives involves tiered adjustments. What is the first flexing adjustment percentage?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[5%]]></text></answer>
+            <answer correct="no"><text><![CDATA[3%]]></text></answer>
+            <answer correct="no"><text><![CDATA[2%]]></text></answer>
+            <answer correct="no"><text><![CDATA[10%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Dynamic price band flexing follows tiers: 5% adjustment after 15-minute cooling-off, 3% after 30 minutes, and 2% after 60 minutes.
+**The Trap:** The flexing decreases in percentage and increases in cooling-off time as bands are further expanded.
+**Cross-Exam Context:** The sliding price band mechanism ensures orderly price discovery during volatile periods.
+**Distributor's Pro-Tip:** Opposite bands adjust concurrently, preventing asymmetric pricing.]]></text></explanation>
+    </question>
+</QF>

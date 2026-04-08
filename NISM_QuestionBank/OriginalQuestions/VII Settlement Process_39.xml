@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Settlement Process_39" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[For optional T+0 settlement, security shortages are directly closed out at:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[10% above the highest price of the day across all exchanges for the T+0 market]]></text></answer>
+            <answer correct="no"><text><![CDATA[20% above the highest price]]></text></answer>
+            <answer correct="no"><text><![CDATA[At the closing price]]></text></answer>
+            <answer correct="no"><text><![CDATA[5% above the trade price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For T+0 settlement, shortages are directly closed out at 10% above the highest price of the day across all exchanges.
+**The Trap:** No auction is conducted for T+0 shortages. The penalty is 10%, not 20% as in regular settlements.
+**Cross-Exam Context:** T+0 has its own close-out mechanism due to the compressed timeline.
+**Distributor's Pro-Tip:** The lower 10% premium reflects the same-day settlement nature where market prices are more current.]]></text></explanation>
+    </question>
+</QF>

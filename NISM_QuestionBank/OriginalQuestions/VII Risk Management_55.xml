@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_55" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[How many 'what-if' scenarios does SPAN margining generate for computing portfolio-wide initial margin?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[16 scenarios]]></text></answer>
+            <answer correct="no"><text><![CDATA[10 scenarios]]></text></answer>
+            <answer correct="no"><text><![CDATA[20 scenarios]]></text></answer>
+            <answer correct="no"><text><![CDATA[8 scenarios]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SPAN generates 16 what-if scenarios to compute the worst-case portfolio loss used as the initial margin.
+**The Trap:** The number 16 is specific to SPAN methodology and represents different combinations of price and volatility changes.
+**Cross-Exam Context:** Understanding SPAN's scenario-based approach distinguishes it from simpler VaR methods.
+**Distributor's Pro-Tip:** SPAN was developed by Chicago Mercantile Exchange and considers the entire portfolio, not individual positions.]]></text></explanation>
+    </question>
+</QF>

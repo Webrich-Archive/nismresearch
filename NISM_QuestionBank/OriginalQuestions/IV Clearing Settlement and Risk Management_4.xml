@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Clearing Settlement and Risk Management_4" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A client wants to take a position in bond futures. The outstanding stock of the underlying bond is Rs. 50,000 crores. What is the maximum client-level position limit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 500 crores]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,500 crores]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 750 crores]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,000 crores]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Client-level limit = Lower of (3% of outstanding stock) or Rs. 500 crores. 3% of Rs. 50,000 crores = Rs. 1,500 crores. Lower of Rs. 1,500 crores and Rs. 500 crores = Rs. 500 crores.
+
+**The Trap:** Rs. 1,500 crores applies only the percentage without the cap. Rs. 1,000 crores confuses client limit with TM limit. Always apply BOTH conditions and take the lower value.
+
+**Cross-Exam Context:** Client-level limits are designed to prevent market manipulation by individual participants, a concept tested across all derivative certification exams.
+
+**Distributor's Pro-Tip:** When the outstanding stock is large, the Rs. 500 crore cap binds. For smaller outstanding stocks, the 3% calculation may be the binding constraint.]]></text></explanation>
+    </question>
+</QF>

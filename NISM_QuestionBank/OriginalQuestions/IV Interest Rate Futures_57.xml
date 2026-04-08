@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_57" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The unit of trading for GOI bond futures is 1 lot. One lot represents:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[2000 bonds of face value Rs. 100 each, i.e., total face value of Rs. 2 lakhs]]></text></answer>
+            <answer correct="no"><text><![CDATA[1000 bonds of face value Rs. 100 each, i.e., total face value of Rs. 1 lakh]]></text></answer>
+            <answer correct="no"><text><![CDATA[100 bonds of face value Rs. 1000 each, i.e., total face value of Rs. 1 lakh]]></text></answer>
+            <answer correct="no"><text><![CDATA[2000 bonds of face value Rs. 1000 each, i.e., total face value of Rs. 20 lakhs]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** One lot of GOI bond futures = 2000 bonds × Rs. 100 face value = Rs. 2,00,000 (Rs. 2 lakhs) notional face value. This is the standard lot size across all GOI bond futures (6-year, 10-year, and 13-year).
+
+**The Trap:** Rs. 1 lakh uses either 1000 bonds or the wrong FV. Rs. 20 lakhs uses Rs. 1000 FV. The face value per bond is Rs. 100 (standard in Indian G-Sec pricing), and the lot size is 2000 bonds.
+
+**Cross-Exam Context:** Lot sizes vary across products. In equity futures (NISM VIII), lot sizes differ for each stock. In IRF, the Rs. 2 lakhs face value per lot is standard for all GOI bond and T-Bill futures.
+
+**Distributor's Pro-Tip:** The lot size of Rs. 2 lakhs is relatively small, making IRF accessible to a wide range of participants including smaller trading firms and proprietary desks.]]></text></explanation>
+    </question>
+</QF>

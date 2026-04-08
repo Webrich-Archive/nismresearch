@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_47" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[If a 10% circuit breaker is triggered before 1:00 PM, trading is halted for:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[1 hour]]></text></answer>
+            <answer correct="no"><text><![CDATA[30 minutes]]></text></answer>
+            <answer correct="no"><text><![CDATA[2 hours]]></text></answer>
+            <answer correct="no"><text><![CDATA[Remainder of the day]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A 10% circuit breaker before 1:00 PM results in a 1-hour trading halt.
+**The Trap:** The halt duration shortens as the day progresses. After 2:30 PM, there is no halt for 10% movement.
+**Cross-Exam Context:** The time-dependent nature of circuit breakers is commonly tested.
+**Distributor's Pro-Tip:** Longer halts earlier in the day give more time for information dissemination and rational decision-making.]]></text></explanation>
+    </question>
+</QF>

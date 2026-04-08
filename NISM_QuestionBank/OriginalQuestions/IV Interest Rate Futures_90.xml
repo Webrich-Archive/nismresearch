@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_90" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Which of the following is TRUE about the settlement of 91-day T-Bill futures at expiry?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Final settlement is based on the weighted average discount yield from RBI's weekly 91-day T-Bill auction]]></text></answer>
+            <answer correct="no"><text><![CDATA[Final settlement is based on VWAP of T-Bills on NDS-OM]]></text></answer>
+            <answer correct="no"><text><![CDATA[Final settlement uses FIMMDA valuation price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Physical delivery of 91-day T-Bills takes place]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The final settlement of 91-day T-Bill futures is based on the weighted average discount yield obtained from RBI's weekly 91-day Treasury Bill auction. This is different from GOI bond futures (which use NDS-OM VWAP).
+
+**The Trap:** NDS-OM VWAP is for GOI bond futures. FIMMDA valuation is a fallback for bond futures, not the primary method for T-Bill futures. There is no physical delivery. Using the RBI auction yield ensures an objective, manipulation-resistant settlement price.
+
+**Cross-Exam Context:** Different settlement methodologies for different IRF products is a key distinguishing feature tested in NISM Series IV: Bond futures → NDS-OM VWAP, T-Bill futures → RBI auction yield, MIBOR futures → average daily rate.
+
+**Distributor's Pro-Tip:** RBI's weekly T-Bill auction is highly competitive with participation from banks, PDs, and other eligible entities. The weighted average yield from this auction is a reliable and transparent benchmark for settlement.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Regulatory Framework_3" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A trading member wants to conduct proprietary and client trading with 3 algorithmic trading strategies. What is the total BMC requirement?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 1,25 lakhs (Rs. 50 lakhs + Rs. 25 lakhs x 3)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 75 lakhs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,50 lakhs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 50 lakhs]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** BMC = Base for prop+client (Rs. 50 lakhs) + Additional per algo (Rs. 25 lakhs x 3 algos) = 50 + 75 = Rs. 1,25 lakhs. Wait, that should be Rs. 1.25 crores? No: Rs. 50 lakhs + Rs. 75 lakhs = Rs. 125 lakhs = Rs. 1.25 crores. The answer should be stated correctly: Rs. 50 lakhs + 3 x Rs. 25 lakhs = Rs. 50 + 75 = Rs. 125 lakhs.
+
+**The Trap:** Rs. 75 lakhs accounts for only one algo. Rs. 50 lakhs ignores algo requirements entirely. Each additional algo requires Rs. 25 lakhs incremental BMC.
+
+**Cross-Exam Context:** Algo trading capital requirements reflect the additional risk and speed of automated trading. This tiered approach to algo capital is tested in Series IV.
+
+**Distributor's Pro-Tip:** The per-algo capital requirement discourages proliferation of poorly capitalized algo strategies and ensures adequate capital backing for each automated trading system.]]></text></explanation>
+    </question>
+</QF>

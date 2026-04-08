@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Clearing Settlement and Risk Management_15" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A bond futures position has an initial margin of Rs. 3,00,000 and extreme loss margin of Rs. 50,000. The calendar spread benefit reduces margin by Rs. 40,000. What is the total margin requirement?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 3,10,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 3,50,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 3,90,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,60,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Total margin = Initial Margin + Extreme Loss Margin - Calendar Spread Benefit = 3,00,000 + 50,000 - 40,000 = Rs. 3,10,000.
+
+**The Trap:** Rs. 3,50,000 ignores the spread benefit. Rs. 3,90,000 adds the spread instead of subtracting. Rs. 2,60,000 subtracts too much. Calendar spread reduces but does not eliminate margin.
+
+**Cross-Exam Context:** SPAN margining with calendar spread offsets is used across all exchange-traded derivative segments. The concept is identical in equity derivatives (Series VIII).
+
+**Distributor's Pro-Tip:** Calendar spread margins are lower because opposite positions in different expiries partially offset each other's risk. Traders use this to reduce capital requirements.]]></text></explanation>
+    </question>
+</QF>

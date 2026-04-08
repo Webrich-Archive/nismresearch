@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="III-C SEBI Intermediaries Regulations_25" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under the cyber security framework for MIIs, which authentication method has SEBI directed MIIs to implement for all services?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Biometric authentication]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Multi Factor Authentication (MFA)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Single Sign-On (SSO)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Two-password system]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** As per Section 6.6, SEBI directed MIIs to implement Multi Factor Authentication (MFA) for all services.
+**The Trap:** Biometric authentication is one form of MFA but is not the specific term used in the directive.
+**Distributor's Pro-Tip:** MFA significantly reduces the risk of unauthorized access to critical market infrastructure systems.]]></text></explanation>
+    </question>
+</QF>

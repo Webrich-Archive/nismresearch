@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_63" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is the margin requirement for an option BUYER in exchange-traded IROs?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[No margin is required beyond the premium paid upfront]]></text></answer>
+            <answer correct="no"><text><![CDATA[Initial margin plus daily mark-to-market margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[The same margin as required for futures positions]]></text></answer>
+            <answer correct="no"><text><![CDATA[50% of the notional contract value]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Option buyers pay the full premium upfront and have no further obligation. Since their maximum loss is limited to the premium, no additional margin is needed.
+**The Trap:** Margin requirements apply to option SELLERS (writers) who face potentially large obligations. Futures require margin for both parties.
+**Cross-Exam Context:** This buyer-seller margin asymmetry is tested across NISM Equity and Interest Rate Derivatives modules.
+**Distributor's Pro-Tip:** This is a key advantage of buying options -- no margin calls, no additional funding required. Your risk is known and limited from day one.]]></text></explanation>
+    </question>
+</QF>

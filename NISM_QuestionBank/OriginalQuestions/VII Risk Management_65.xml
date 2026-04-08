@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Risk Management_65" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Open Interest in derivatives is now measured using which method as per SEBI's May 2025 circular?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Net Delta adjusted open positions (Future Equivalent Open Interest - FutEq OI)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Gross notional value of all open contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[Number of open contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[Net notional value of futures only]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** OI is measured at portfolio level by computing net Delta adjusted open positions across futures and options, called FutEq OI.
+**The Trap:** Traditional OI measurement was contract-based. Delta-adjusted measurement provides a more accurate risk picture.
+**Cross-Exam Context:** This is a recent regulatory change that may appear in updated exams.
+**Distributor's Pro-Tip:** Delta-adjusted OI accounts for the actual market exposure of options positions, not just their count.]]></text></explanation>
+    </question>
+</QF>

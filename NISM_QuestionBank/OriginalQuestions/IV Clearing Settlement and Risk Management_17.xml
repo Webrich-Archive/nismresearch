@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Clearing Settlement and Risk Management_17" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A trader buys 2 lots of bond futures at Rs. 97.50 and the contract expires with a Final Settlement Price of Rs. 98.20. Lot size is 2,000 units. Assuming no prior MTM was settled, what is the final settlement amount?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 2,800]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,400]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 5,600]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 700]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Final settlement = (FSP - Last DSP or Trade Price) x Lot Size x Lots. Assuming no prior MTM (trade happened on last day): (98.20 - 97.50) x 2,000 x 2 = 0.70 x 4,000 = Rs. 2,800 credit to buyer.
+
+**The Trap:** Rs. 1,400 uses only 1 lot. Rs. 5,600 doubles the lots. Rs. 700 uses wrong lot size. Final settlement uses the same MTM formula but with FSP.
+
+**Cross-Exam Context:** Cash-settled futures use a Final Settlement Price determined by the underlying market. Bond futures use NDS-OM VWAP for the last 2 hours.
+
+**Distributor's Pro-Tip:** The FSP determination methodology (NDS-OM VWAP or FIMMDA price) is critical because it directly impacts final settlement payoffs.]]></text></explanation>
+    </question>
+</QF>

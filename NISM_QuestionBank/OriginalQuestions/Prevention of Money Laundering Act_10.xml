@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Prevention of Money Laundering Act_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What does 'interoperability' mean in the context of KYC Registration Agencies (KRAs) under SEBI KRA Regulations, 2011?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The ability of KRAs to share client trading data with stock exchanges]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The ability of a KRA to determine whether the KYC documents of a client are in the custody of another KRA]]></text></answer>
+            <answer correct="no"><text><![CDATA[The ability of KRAs to process transactions on behalf of intermediaries]]></text></answer>
+            <answer correct="no"><text><![CDATA[The ability of KRAs to issue trading permissions to clients]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The SEBI KRA Regulations define interoperability as the ability of the KRA to determine whether the KYC documents of the client are in the custody of another KRA. This prevents duplication and enables seamless service.
+**The Trap:** Option A sounds plausible but KRAs deal with KYC documents, not trading data — trading data is handled by exchanges and depositories.
+**Cross-Exam Context:** KRA interoperability is a unique topic primarily tested in NISM Series III-A.
+**Distributor's Pro-Tip:** Interoperability means a client needs to do KYC only once — if KRA-A has the records, KRA-B can confirm this and the new intermediary can proceed without asking the client to redo KYC.]]></text></explanation>
+    </question>
+</QF>

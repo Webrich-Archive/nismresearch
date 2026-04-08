@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_1" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A 10-year GOI bond futures contract is traded at a clean price of Rs. 98.50 per Rs. 100 face value. What is the contract value?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 1,97,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 98,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 19,700]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 9,85,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Contract Value = Trade Price × 2000. Here, 98.50 × 2000 = Rs. 1,97,000. The unit of trading is 1 lot = 2000 bonds of face value Rs. 100 each (total notional FV = Rs. 2,00,000).
+
+**The Trap:** Rs. 98,500 comes from multiplying by 1000 instead of 2000. Rs. 9,85,000 comes from multiplying by 10,000. Always remember: 1 lot = 2000 bonds.
+
+**Cross-Exam Context:** Contract value calculations are fundamental to all derivative exams including NISM Series VIII (Equity Derivatives). The lot size of 2000 is specific to IRF.
+
+**Distributor's Pro-Tip:** The FV of one lot is Rs. 2 lakhs (2000 × Rs. 100). The contract value will be slightly less or more than Rs. 2 lakhs depending on whether the bond trades at discount or premium.]]></text></explanation>
+    </question>
+</QF>

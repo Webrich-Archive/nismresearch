@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Settlement Process_23" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[In Trade to Trade or Gross obligations method, the member's security pay-in obligation equals:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Cumulative sell quantity with no netting against buy transactions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Net sell quantity after netting with buys]]></text></answer>
+            <answer correct="no"><text><![CDATA[The larger of buy or sell quantity]]></text></answer>
+            <answer correct="no"><text><![CDATA[Average of buy and sell quantities]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In gross/trade-to-trade settlement, pay-in equals cumulative sell quantity and pay-out equals cumulative buy quantity - no netting.
+**The Trap:** Gross settlement means every trade stands on its own - buy and sell cannot offset each other.
+**Cross-Exam Context:** Gross settlement is used for TFTS securities and certain other categories.
+**Distributor's Pro-Tip:** Gross settlement requires more capital but provides full trade visibility for surveillance purposes.]]></text></explanation>
+    </question>
+</QF>

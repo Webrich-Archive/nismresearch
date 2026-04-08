@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Clearing Settlement and Risk Management_2" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A clearing member holds 10 lots of 91-day T-Bill futures carried forward from yesterday. Yesterday's DSP was Rs. 97.80 and today's DSP is Rs. 97.50. Lot size is 2,000 units. What is today's MTM obligation?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Pay Rs. 6,000 to the Clearing Corporation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Receive Rs. 6,000 from the Clearing Corporation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Pay Rs. 3,000 to the Clearing Corporation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Receive Rs. 12,000 from the Clearing Corporation]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For carried forward positions, MTM = (Current DSP - Previous DSP) x Lot Size x Lots = (97.50 - 97.80) x 2,000 x 10 = (-0.30) x 20,000 = -Rs. 6,000. Negative means the long position holder must pay Rs. 6,000.
+
+**The Trap:** Rs. 3,000 uses half the lots. Receiving Rs. 6,000 reverses the direction. For long positions, a price drop means a pay-in obligation.
+
+**Cross-Exam Context:** Carried forward MTM uses previous DSP, not trade price. This distinction is tested across Series VIII and Series IV.
+
+**Distributor's Pro-Tip:** Carried forward positions use the previous day's DSP as base, while fresh trades use the actual trade price. This is a critical distinction for daily P&L tracking.]]></text></explanation>
+    </question>
+</QF>

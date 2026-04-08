@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Settlement Process_6" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Every clearing member must maintain a separate and distinct primary clearing account for:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Each segment]]></text></answer>
+            <answer correct="no"><text><![CDATA[All segments combined]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the equity segment]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only derivatives segment]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Every CM must maintain a separate and distinct primary clearing account for each segment at a designated clearing bank.
+**The Trap:** Accounts are segment-specific, not combined across segments.
+**Cross-Exam Context:** Segment-wise account segregation is a regulatory compliance requirement.
+**Distributor's Pro-Tip:** Separate accounts per segment allow precise tracking of obligations and cash flows.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_41" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the key risk in cash-futures arbitrage when both legs cannot be executed simultaneously?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Execution risk - prices may move between the time the two legs are executed, eliminating the arbitrage profit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Credit risk from the clearing corporation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Currency risk from exchange rate fluctuations]]></text></answer>
+            <answer correct="no"><text><![CDATA[Inflation risk affecting the real return]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** If the spot and futures legs cannot be executed at the same instant, prices may move between executions, potentially reducing or eliminating the anticipated profit. This is execution or leg risk.
+**The Trap:** Clearing corporation credit risk is minimal in exchange-traded markets. Currency and inflation risk are not relevant to same-currency fixed income arbitrage.
+**Cross-Exam Context:** Execution/leg risk in arbitrage is discussed in Series I and VIII as well.
+**Distributor's Pro-Tip:** In practice, one leg executing while the other doesn't (leg risk) is a bigger concern than both legs executing at slightly different prices.]]></text></explanation>
+    </question>
+</QF>

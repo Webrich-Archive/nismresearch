@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Clearing Process_74" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A Clearing Member may choose different CCs as its designated CC for:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Different business segments, since the choice is made at CM-Segment level]]></text></answer>
+            <answer correct="no"><text><![CDATA[Different clients within the same segment]]></text></answer>
+            <answer correct="no"><text><![CDATA[Different trading days]]></text></answer>
+            <answer correct="no"><text><![CDATA[Different types of securities within the same segment]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A CM may choose different CCs for different business segments because the choice is at the CM-Segment level.
+**The Trap:** Within a single segment, only one CC can be designated at any time. The flexibility is across segments.
+**Cross-Exam Context:** This flexibility is a key feature of the interoperability framework.
+**Distributor's Pro-Tip:** For example, a CM could designate NCL for equities and ICCL for debt, optimizing capital usage.]]></text></explanation>
+    </question>
+</QF>

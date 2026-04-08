@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Futures_48" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is the 'daily settlement price' (DSP) for GOI bond futures?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The volume-weighted average price (VWAP) of the last half hour of trading across exchanges, or a theoretical price if unavailable]]></text></answer>
+            <answer correct="no"><text><![CDATA[The closing price (last traded price) of the day]]></text></answer>
+            <answer correct="no"><text><![CDATA[The average of the day's high and low prices]]></text></answer>
+            <answer correct="no"><text><![CDATA[The opening price of the next day's trading]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The DSP is the VWAP of the last half hour of trading across exchanges. If this is not available (due to insufficient trades), the exchange uses a theoretical price. The DSP is used for daily MTM settlement.
+
+**The Trap:** Last traded price (LTP) and the average of high/low are used in some other markets but not for IRF DSP. Opening price is for the next day, not current day settlement. The VWAP methodology reduces manipulation risk.
+
+**Cross-Exam Context:** DSP methodology varies by product. Compare this with equity futures (NISM VIII) where the DSP is also VWAP-based but for a different time window. The principle of using VWAP is consistent.
+
+**Distributor's Pro-Tip:** The half-hour window ensures the DSP reflects fair value and is less susceptible to manipulation through a single large trade. Exchanges may use theoretical prices when the half-hour window has insufficient trades.]]></text></explanation>
+    </question>
+</QF>

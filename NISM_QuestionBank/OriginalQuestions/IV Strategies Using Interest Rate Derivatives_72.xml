@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_72" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader observes that the 3-month T-Bill futures are significantly mispriced relative to the cash market. However, the T-Bill futures market has very low trading volume. What risk does this create for an arbitrageur?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Liquidity risk - the arbitrageur may not be able to execute or exit the futures leg at the desired price due to thin trading]]></text></answer>
+            <answer correct="no"><text><![CDATA[No risk since arbitrage is risk-free by definition]]></text></answer>
+            <answer correct="no"><text><![CDATA[Credit risk from the clearing corporation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Inflation risk from holding T-Bills]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Illiquidity in the futures market means wide bid-ask spreads and potential inability to execute at observed prices. The arbitrageur may not execute one leg or may face significant slippage, eroding or eliminating the theoretical arbitrage profit.
+**The Trap:** Arbitrage is only 'risk-free' in theory with perfect execution. Clearing corporation credit risk is minimal. Inflation risk is not relevant to short-term arbitrage.
+**Cross-Exam Context:** Liquidity risk in arbitrage is a practical constraint discussed in Series VIII and XII as well.
+**Distributor's Pro-Tip:** Theoretical arbitrage opportunities in illiquid markets are often 'mirages' - they appear on screens but can't be captured in practice.]]></text></explanation>
+    </question>
+</QF>

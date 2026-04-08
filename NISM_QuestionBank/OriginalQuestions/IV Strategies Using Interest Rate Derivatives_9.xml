@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IV Strategies Using Interest Rate Derivatives_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An arbitrageur spots a government bond trading at Rs. 98 in the cash market while the corresponding futures contract expiring in 3 months is at Rs. 101. If the cost of carry for 3 months is Rs. 1.50, what is the arbitrage profit per unit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 1.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 3.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Fair futures price = Spot + Cost of carry = 98 + 1.50 = 99.50. Actual futures = 101. Arbitrage profit = 101 - 99.50 = Rs. 1.50. Buy spot at 98, sell futures at 101, pay carry cost 1.50, net = 1.50.
+**The Trap:** Rs. 3.00 ignores cost of carry entirely (101 - 98). Rs. 0.50 double-counts carry.
+**Cross-Exam Context:** Cash-futures arbitrage is tested in every derivatives exam (Series V, VIII, XII). The cost-of-carry model is universal.
+**Distributor's Pro-Tip:** Always deduct financing/carry cost from gross basis to find true arbitrage profit.]]></text></explanation>
+    </question>
+</QF>

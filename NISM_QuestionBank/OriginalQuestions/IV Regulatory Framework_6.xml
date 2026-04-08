@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Regulatory Framework_6" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A proprietary-only trading member wants to add client trading capability and one algo. Currently they have Rs. 25 lakhs BMC. What is the total additional capital needed?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 50 lakhs (Rs. 25 lakhs for client trading upgrade + Rs. 25 lakhs for algo)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 25 lakhs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 75 lakhs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1 crore]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Current: Rs. 25 lakhs (prop only). Required: Rs. 50 lakhs (prop+client) + Rs. 25 lakhs (1 algo) = Rs. 75 lakhs total. Additional = 75 - 25 = Rs. 50 lakhs.
+
+**The Trap:** Rs. 25 lakhs only covers one upgrade (client OR algo, not both). Rs. 75 lakhs is the total requirement, not additional. Rs. 1 crore overcounts.
+
+**Cross-Exam Context:** Upgrade path calculations test understanding of the additive BMC structure and current holdings.
+
+**Distributor's Pro-Tip:** When planning expansion of trading activities, factor in the total incremental capital needed upfront. Exchange processing of BMC upgrades can take time, so plan ahead.]]></text></explanation>
+    </question>
+</QF>

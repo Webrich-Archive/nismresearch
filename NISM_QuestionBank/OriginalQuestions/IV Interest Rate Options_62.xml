@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_62" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[In exchange-traded IROs, what happens when an option expires out-of-the-money?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The option expires worthless and the buyer loses the premium paid]]></text></answer>
+            <answer correct="no"><text><![CDATA[The buyer receives a partial refund of the premium]]></text></answer>
+            <answer correct="no"><text><![CDATA[The option is automatically rolled over to the next expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[The exchange pays the buyer a minimum settlement amount]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When an option expires OTM, it has zero intrinsic value and expires worthless. The buyer's loss is the entire premium paid, and the seller keeps the premium.
+**The Trap:** There is no partial refund, automatic rollover, or minimum settlement. The premium is fully at risk for the buyer.
+**Cross-Exam Context:** OTM expiry outcomes are tested in all NISM derivative modules -- the concept is universal.
+**Distributor's Pro-Tip:** Statistically, a significant percentage of options expire worthless. This is why option selling (writing) strategies are popular among institutional traders.]]></text></explanation>
+    </question>
+</QF>

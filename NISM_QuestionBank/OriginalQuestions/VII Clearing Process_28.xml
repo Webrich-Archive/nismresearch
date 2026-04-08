@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="VII Clearing Process_28" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[In the cash market, trades allocated for settlement by Custodians are indicated with a:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Custodial Participant (CP) code]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trading Member (TM) code]]></text></answer>
+            <answer correct="no"><text><![CDATA[Clearing Member (CM) code]]></text></answer>
+            <answer correct="no"><text><![CDATA[Unique Client Code (UCC)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Custodian-settled trades are indicated with a CP code, which is subject to confirmation by the respective custodian.
+**The Trap:** UCC identifies individual clients. CP code identifies the custodian through whom the institutional trade will be settled.
+**Cross-Exam Context:** CP code management is critical for institutional trade processing.
+**Distributor's Pro-Tip:** Modification of CP code on T day is permitted upto 4:15 PM only.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_49" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is the delta of an at-the-money (ATM) call option approximately equal to?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[0.5]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.0]]></text></answer>
+            <answer correct="no"><text><![CDATA[0]]></text></answer>
+            <answer correct="no"><text><![CDATA[-0.5]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** ATM call options have a delta of approximately 0.5, meaning the option price moves about half as much as the underlying. This reflects a roughly 50% probability of finishing ITM.
+**The Trap:** Delta of 1.0 is for deep ITM calls. Delta of 0 is for deep OTM calls. Delta of -0.5 is for ATM puts.
+**Cross-Exam Context:** ATM delta approximation is a frequently tested fact in NISM Equity and Interest Rate Derivatives.
+**Distributor's Pro-Tip:** Delta can also be interpreted as the approximate probability of the option expiring in-the-money. An ATM option has roughly a 50-50 chance.]]></text></explanation>
+    </question>
+</QF>

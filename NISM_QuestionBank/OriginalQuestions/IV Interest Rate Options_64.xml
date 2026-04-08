@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="IV Interest Rate Options_64" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[For exchange-traded interest rate options, which platform's VWAP is used for final settlement?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[NDS-OM (Negotiated Dealing System - Order Matching)]]></text></answer>
+            <answer correct="no"><text><![CDATA[NSE's bond trading platform]]></text></answer>
+            <answer correct="no"><text><![CDATA[BSE's debt segment]]></text></answer>
+            <answer correct="no"><text><![CDATA[FIMMDA's valuation system]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The VWAP from NDS-OM, RBI's electronic trading platform for GOI securities, is used for final settlement of exchange-traded IROs.
+**The Trap:** NSE and BSE are equity-focused exchanges. FIMMDA provides bond valuations but is not the settlement reference for exchange-traded IROs.
+**Cross-Exam Context:** NDS-OM is a key platform in NISM Series IV, distinct from the equity exchange platforms covered in other NISM modules.
+**Distributor's Pro-Tip:** NDS-OM is operated by CCIL under RBI's supervision. It is the primary secondary market platform for GOI securities, making its VWAP the most representative price.]]></text></explanation>
+    </question>
+</QF>
