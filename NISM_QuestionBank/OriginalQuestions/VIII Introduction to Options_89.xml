@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_89" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Nifty is at 17,400. A call option with strike 17,500 has a premium of Rs. 85. What is its intrinsic value and time value?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Intrinsic value: Rs. 0, Time value: Rs. 85]]></text></answer>
+            <answer correct="no"><text><![CDATA[Intrinsic value: Rs. 85, Time value: Rs. 0]]></text></answer>
+            <answer correct="no"><text><![CDATA[Intrinsic value: Rs. 100, Time value: Rs. -15]]></text></answer>
+            <answer correct="no"><text><![CDATA[Intrinsic value: Rs. -100, Time value: Rs. 185]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:**
+Step-by-step:
+1. Call Intrinsic Value = max(S - X, 0) = max(17,400 - 17,500, 0) = max(-100, 0) = Rs. 0
+2. Time Value = Premium - IV = 85 - 0 = Rs. 85
+3. This call is OTM (S < X), so entire premium = time value.
+
+**The Trap:** IV cannot be negative. An OTM option has zero IV. All premium is time value.
+
+**Cross-Exam Context:** OTM options: premium = 100% time value. This time value decays to zero at expiry.
+
+**Key Takeaway:** OTM call (S < X): IV = 0, TV = full premium. OTM premium is entirely time value.]]></text></explanation>
+    </question>
+</QF>

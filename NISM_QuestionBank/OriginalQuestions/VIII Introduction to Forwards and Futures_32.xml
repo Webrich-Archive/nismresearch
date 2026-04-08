@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_32" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the cost of carry model F = S(1 + r - q)^T, what does the variable 'q' represent?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The expected dividend yield on the underlying equity during the life of the futures contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[The quantity or lot size of the futures contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[The quality grade of the underlying asset for delivery purposes]]></text></answer>
+            <answer correct="no"><text><![CDATA[The quarterly interest rate applicable for financing the position]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In the formula F = S(1 + r - q)^T: S = Spot price, r = risk-free interest rate (annualized), q = dividend yield (annualized), T = time to expiry (in years or fraction of year). The dividend yield reduces the cost of carry because holding the stock earns dividends, making it cheaper to hold the underlying.
+
+**The Trap:** 'q' is specifically the dividend yield, not quantity, quality, or quarterly rate. It is SUBTRACTED from 'r' because dividends REDUCE the net cost of carrying the position.
+
+**Cross-Exam Context:** This formula is the basis for all cost-of-carry calculations in Series VIII. Understanding each variable is essential.
+
+**Key Takeaway:** F = S(1+r-q)^T where r = interest rate, q = dividend yield, T = time in years.]]></text></explanation>
+    </question>
+</QF>

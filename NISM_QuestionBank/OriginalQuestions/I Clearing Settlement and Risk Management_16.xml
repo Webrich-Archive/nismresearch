@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_16" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Position limits in currency derivatives are set at which levels?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Client level, Trading Member level, and market level]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only at client level]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only at Trading Member level]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only at exchange level]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Position limits are specified at: client level (per individual), TM level (aggregate of all clients + proprietary), and market/currency level (overall open interest across exchanges).
+**The Trap:** No separate position limit is prescribed at the CM level — but CMs must ensure their TMs' positions are within limits.
+**Cross-Exam Context:** Position limit framework is tested in Series I.
+**Distributor's Pro-Tip:** When a TM/client exceeds position limits, the exchange can restrain them from taking further positions and may impose penalties.]]></text></explanation>
+    </question>
+</QF>

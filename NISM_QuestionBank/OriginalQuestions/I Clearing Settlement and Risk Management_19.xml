@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Clearing members must collect upfront margin from clients. The penalty for short collection/non-collection is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Charged based on the shortfall amount, and non-reporting is treated as 100% short collection]]></text></answer>
+            <answer correct="no"><text><![CDATA[A fixed Rs. 10,000 per instance]]></text></answer>
+            <answer correct="no"><text><![CDATA[No penalty — it's advisory only]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trading suspension for 1 month]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Short collection attracts penalties based on the shortfall. Non-reporting = treated as 100% short collection. False reporting = penalty of 100% of the falsely reported amount + 1 day trading suspension.
+**The Trap:** Penalties are proportional to the shortfall, plus additional penalties for false reporting.
+**Cross-Exam Context:** Margin collection enforcement is tested in Series I and VII.
+**Distributor's Pro-Tip:** SEBI has made upfront margin collection mandatory — brokers cannot extend credit to clients for margin purposes.]]></text></explanation>
+    </question>
+</QF>

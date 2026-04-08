@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_98" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the primary advantage of buying options for hedging compared to using futures?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Options limit the downside risk while preserving the upside potential]]></text></answer>
+            <answer correct="no"><text><![CDATA[Options are always cheaper than futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Options provide perfect hedges while futures don't]]></text></answer>
+            <answer correct="no"><text><![CDATA[Options have no margin requirements while futures do]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Options provide asymmetric protection: they cap losses (premium) while allowing unlimited gains. Futures lock in a price, eliminating both downside AND upside.
+**The Trap:** Options DO have a cost (premium) that futures don't. Options aren't always cheaper — the premium is the price of keeping the upside.
+**Cross-Exam Context:** Options vs futures for hedging is tested in Series I.
+**Distributor's Pro-Tip:** Use options when you want insurance (keep upside). Use futures when you want certainty (lock in a rate). The premium is the price of flexibility.]]></text></explanation>
+    </question>
+</QF>

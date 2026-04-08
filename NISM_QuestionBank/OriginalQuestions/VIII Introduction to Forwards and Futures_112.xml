@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_112" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader observes that Stock XYZ is trading at Rs. 500 in the spot market and at Rs. 502 in the futures market (1 month expiry). The risk-free rate is 6%. He borrows money at 9% to do arbitrage. Is the trade still profitable?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[No, the fair value using his borrowing cost is Rs. 503.75, and since futures at Rs. 502 are BELOW his fair value, a cash-and-carry arbitrage would result in a loss]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, because futures (502) are above spot (500), there is always an arbitrage profit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, because the difference between risk-free rate and borrowing rate does not matter for arbitrage]]></text></answer>
+            <answer correct="no"><text><![CDATA[No, because futures are always fairly priced and arbitrage opportunities never exist]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+Fair value using TRADER'S borrowing cost (not risk-free rate):
+F = 500 x [1 + 0.09 x 30/365] = 500 x [1 + 0.0074] = 500 x 1.0074 = Rs. 503.70
+
+Actual futures = Rs. 502
+Since 502 < 503.70, if the trader buys spot (borrowing at 9%) and sells futures at 502, the carry cost (Rs. 3.70) exceeds the premium (Rs. 2). Loss = Rs. 1.70 per share.
+
+**The Trap:** The relevant rate for the arbitrageur is their ACTUAL borrowing cost, not the risk-free rate. Futures above spot does NOT guarantee profit. The trader's cost of funds matters critically.
+
+**Cross-Exam Context:** Individual funding costs affecting arbitrage profitability is an important practical Series VIII concept.
+
+**Key Takeaway:** Arbitrage profit depends on the trader's ACTUAL cost of funds, not the theoretical risk-free rate.]]></text></explanation>
+    </question>
+</QF>

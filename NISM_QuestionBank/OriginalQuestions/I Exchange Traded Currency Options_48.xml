@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_48" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A USDINR option with premium Rs. 0.25 has intrinsic value of Rs. 0. How much time value does it have?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 0.25 (entirely time value)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.125]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cannot be determined]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Time value = Premium - Intrinsic = 0.25 - 0 = Rs. 0.25. Since intrinsic is 0, this is an ATM or OTM option with 100% time value.
+**The Trap:** Zero intrinsic doesn't mean zero premium — the time value can be significant if there's time remaining.
+**Cross-Exam Context:** Premium decomposition is tested in Series I.
+**Distributor's Pro-Tip:** ATM and OTM options are 'pure time value' — all their premium is exposed to time decay.]]></text></explanation>
+    </question>
+</QF>

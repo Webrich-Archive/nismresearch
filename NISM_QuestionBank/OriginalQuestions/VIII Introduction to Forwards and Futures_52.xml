@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_52" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If Nifty futures are trading at 25,000 and the lot size is 65, how many lots can a trader buy if they have Rs. 50,00,000 available and the initial margin requirement is 10%?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[30 lots (approximately)]]></text></answer>
+            <answer correct="no"><text><![CDATA[3 lots]]></text></answer>
+            <answer correct="no"><text><![CDATA[307 lots]]></text></answer>
+            <answer correct="no"><text><![CDATA[50 lots]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+1. Contract value per lot = 25,000 x 65 = Rs. 16,25,000
+2. Margin per lot = 16,25,000 x 10% = Rs. 1,62,500
+3. Number of lots = Available funds / Margin per lot = 50,00,000 / 1,62,500 = 30.77
+4. Since partial lots cannot be traded, trader can buy 30 lots
+
+**The Trap:** 3 lots would be if you divided by contract value instead of margin. 307 lots divides by price per unit. 50 lots makes an error in margin calculation. Remember: traders only need to deposit margin, not full contract value.
+
+**Cross-Exam Context:** Leverage through margins is a key advantage of futures, tested in Series VIII.
+
+**Key Takeaway:** Number of lots = Available Funds / (Contract Value x Margin %). This shows the leverage in futures trading.]]></text></explanation>
+    </question>
+</QF>

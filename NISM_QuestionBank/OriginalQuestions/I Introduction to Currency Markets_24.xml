@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Introduction to Currency Markets_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Given EUR/USD = 1.1125/1.1150 and USD/INR = 75.64/75.65, what is the offer (ask) rate for EUR/INR?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[84.3498]]></text></answer>
+            <answer correct="no"><text><![CDATA[84.1495]]></text></answer>
+            <answer correct="no"><text><![CDATA[84.2500]]></text></answer>
+            <answer correct="no"><text><![CDATA[83.9500]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** To BUY EUR (offer side), a customer must: (1) Buy USD at the offer rate of 75.65 INR, and (2) Buy EUR at the offer rate of 1.1150 USD. Therefore, EUR/INR offer = 1.1150 × 75.65 = 84.3498.
+**The Trap:** Using bid rates or mixing bid and offer rates would give an incorrect cross rate. The bid rate would be 1.1125 × 75.64 = 84.1495.
+**Cross-Exam Context:** Cross rate calculations are heavily tested in Series I.
+**Distributor's Pro-Tip:** For cross rates where USD is the quote currency in one pair and base in another, MULTIPLY the two rates. Use both offers for the cross offer, both bids for the cross bid.]]></text></explanation>
+    </question>
+</QF>

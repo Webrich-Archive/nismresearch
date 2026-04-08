@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_109" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If a call option is trading at a premium higher than the theoretical Black-Scholes price calculated using historical volatility, what does this suggest about implied volatility?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Implied volatility is higher than historical volatility]]></text></answer>
+            <answer correct="no"><text><![CDATA[Implied volatility is lower than historical volatility]]></text></answer>
+            <answer correct="no"><text><![CDATA[Implied volatility equals historical volatility]]></text></answer>
+            <answer correct="no"><text><![CDATA[Implied volatility has no relationship to market premium]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Implied Volatility (IV) is the volatility value that, when plugged into the Black-Scholes formula, produces the market-observed premium.
+
+If market premium > theoretical premium (using historical vol):
+→ The market is pricing in HIGHER volatility than historical
+→ Implied volatility > Historical volatility
+
+**The Trap:** IV is "backed out" from market prices. It's forward-looking, unlike historical vol.
+
+**Cross-Exam Context:** High IV = expensive options. Low IV = cheap options. IV is a key trading metric.
+
+**Key Takeaway:** IV > Historical vol means options are priced above theoretical value (expensive options).]]></text></explanation>
+    </question>
+</QF>

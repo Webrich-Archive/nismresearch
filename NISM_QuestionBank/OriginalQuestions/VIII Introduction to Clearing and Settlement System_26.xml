@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_26" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The primary purpose of daily MTM settlement is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[To prevent accumulation of losses and ensure daily realization of profits and losses]]></text></answer>
+            <answer correct="no"><text><![CDATA[To generate additional revenue for the clearing corporation]]></text></answer>
+            <answer correct="no"><text><![CDATA[To determine the lot size for the next trading day]]></text></answer>
+            <answer correct="no"><text><![CDATA[To calculate the brokerage charges for each trade]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Daily MTM settlement prevents the buildup of large unrealized losses. By settling profits and losses every day, the clearing corporation ensures that no member accumulates a large unpaid obligation. This reduces systemic risk and the chance of a large default at expiry.
+
+**The Trap:** MTM is a risk management tool, not a revenue source. It has nothing to do with lot sizes or brokerage.
+
+**Cross-Exam Context:** MTM settlement is a cornerstone of derivatives risk management, tested in all derivatives exams.
+
+**Key Takeaway:** MTM prevents loss accumulation, ensures daily settlement, reduces default risk. Critical risk management mechanism.]]></text></explanation>
+    </question>
+</QF>

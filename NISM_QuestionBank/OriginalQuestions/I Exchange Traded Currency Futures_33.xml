@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_33" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If USDINR spot is 83, India's 1-year risk-free rate is 7%, and US 1-year risk-free rate is 5%, what is the approximate 1-year USDINR futures price?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[84.58 (approximately)]]></text></answer>
+            <answer correct="no"><text><![CDATA[83.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[81.42]]></text></answer>
+            <answer correct="no"><text><![CDATA[86.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** F = S × (1+RINR)/(1+RUSD) = 83 × (1.07)/(1.05) = 83 × 1.01905 = 84.5809 ≈ 84.58.
+**The Trap:** Don't subtract interest rates from spot — the formula uses multiplication by the ratio.
+**Cross-Exam Context:** Interest rate parity pricing is the most important calculation in Series I.
+**Distributor's Pro-Tip:** Quick estimate: F ≈ S + S × (RINR - RUSD) = 83 + 83 × 0.02 = 83 + 1.66 = 84.66 (approximate).]]></text></explanation>
+    </question>
+</QF>

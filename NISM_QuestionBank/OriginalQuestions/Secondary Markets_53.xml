@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Secondary Markets_53" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Co-location is a facility where brokers can place their trading servers at the stock exchange premises. The primary advantage of co-location is that it __________.]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[reduces latency by minimizing the physical distance between broker servers and exchange matching engines]]></text></answer>
+            <answer correct="no"><text><![CDATA[reduces brokerage charges for institutional clients]]></text></answer>
+            <answer correct="no"><text><![CDATA[increases internet bandwidth for trading terminals]]></text></answer>
+            <answer correct="no"><text><![CDATA[improves cybersecurity of trading systems]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Co-location allows brokers to place their trading servers physically at the stock exchange premises, minimizing the distance between their systems and the exchange's order matching engine. This dramatically reduces latency (the time delay in order transmission), providing a speed advantage measured in microseconds. Exchanges offer co-location as a service for a fee, and it represents an important revenue source for exchanges.
+
+**The Trap:** Co-location has nothing to do with reducing brokerage charges, increasing bandwidth, or improving cybersecurity. It is purely about speed advantage through physical proximity. Students may confuse the concept with other technology-related trading features.
+
+**Cross-Exam Context:** Co-location is tested in NISM Series XII and VIII (Equity Derivatives). It is closely related to HFT and algorithmic trading topics.
+
+**Key Takeaway:** Co-location = broker servers at exchange premises = reduced latency = speed advantage. It is a paid service offered by exchanges and a key enabler of high-frequency trading.]]></text></explanation>
+    </question>
+</QF>

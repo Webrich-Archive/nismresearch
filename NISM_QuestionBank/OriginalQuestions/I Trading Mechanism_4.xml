@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Trading Mechanism_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Each client is assigned a _______ which must be mapped with their PAN number.]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Unique Client Code (UCC)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trading Member ID]]></text></answer>
+            <answer correct="no"><text><![CDATA[Clearing Member Code]]></text></answer>
+            <answer correct="no"><text><![CDATA[SEBI Registration Number]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI mandates that all brokers assign a Unique Client Code (UCC) to each client and map it with the client's PAN number. The broker must provide UCC and PAN details to the exchange before entering orders.
+**The Trap:** UCC is client-specific (assigned by broker), not the broker's own code.
+**Cross-Exam Context:** UCC requirements are tested in Series I and VII.
+**Distributor's Pro-Tip:** If a broker fails to register UCC with the exchange, they are liable to be penalized.]]></text></explanation>
+    </question>
+</QF>

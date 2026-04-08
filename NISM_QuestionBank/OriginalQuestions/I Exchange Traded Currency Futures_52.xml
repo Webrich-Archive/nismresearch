@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_52" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[On the expiry day, trading in the expiring currency futures contract ceases at:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[12:30 PM]]></text></answer>
+            <answer correct="no"><text><![CDATA[5:00 PM]]></text></answer>
+            <answer correct="no"><text><![CDATA[3:30 PM]]></text></answer>
+            <answer correct="no"><text><![CDATA[7:30 PM]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** On expiry day, the expiring currency futures (and options) contract stops trading at 12:30 PM — earlier than the regular close of 5:00 PM (INR pairs) or 7:30 PM (cross-currency pairs).
+**The Trap:** Only the EXPIRING contract closes at 12:30 PM. Other contracts continue to trade normally.
+**Cross-Exam Context:** Expiry timing is tested in Series I.
+**Distributor's Pro-Tip:** The 12:30 PM cut-off aligns with the window for FBIL reference rate computation (11:30 AM - 12:30 PM), allowing orderly final settlement.]]></text></explanation>
+    </question>
+</QF>

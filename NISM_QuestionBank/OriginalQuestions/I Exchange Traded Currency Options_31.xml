@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_31" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An option has vega of 0.02 and current premium of Rs. 0.10 with underlying volatility at 10%. If volatility increases to 11%, what is the new premium?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 0.12]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.10]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.30]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.08]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** New premium = Old premium + (Vega × Change in volatility) = 0.10 + (0.02 × 1) = Rs. 0.12.
+**The Trap:** 1% increase in volatility = 1 unit change (not 0.01). Vega tells you the change per 1% vol move.
+**Cross-Exam Context:** Vega calculation is tested in Series I and VIII.
+**Distributor's Pro-Tip:** If volatility drops 2% to 8%: new premium = 0.10 - (0.02 × 2) = Rs. 0.06.]]></text></explanation>
+    </question>
+</QF>

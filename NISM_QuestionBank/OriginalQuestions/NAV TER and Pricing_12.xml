@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV TER and Pricing_12" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A scheme has 10 crore units outstanding. The total assets are Rs. 150 crore and total liabilities are Rs. 5 crore. If 1 crore new units are issued at the current NAV, what will be the total assets of the scheme after the new issuance?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 164.50 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 160.00 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 165.00 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 155.00 crore]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Current NAV = (Rs. 150 crore - Rs. 5 crore) / 10 crore = Rs. 14.50. New units issued at NAV, so money flowing in = 1 crore x Rs. 14.50 = Rs. 14.50 crore. New total assets = Rs. 150 crore + Rs. 14.50 crore = Rs. 164.50 crore. (Units outstanding become 11 crore, NAV remains Rs. 14.50.)
+
+**The Trap:** Rs. 160.00 crore adds Rs. 10 crore (1 crore x face value Rs. 10) — confusing face value with NAV. Rs. 165.00 crore adds Rs. 15 crore (1 crore x Rs. 15, a rounded-up NAV). Rs. 155.00 crore adds only Rs. 5 crore. The key insight is that new units are issued at current NAV, not face value.
+
+**Cross-Exam Context:** This tests the understanding that open-ended fund units are issued at NAV, not face value. New issuances at NAV ensure existing unitholders' interests are not diluted. This is a concept tested in NISM V-A and V-B.
+
+**Distributor's Pro-Tip:** When clients ask why they get fewer units when investing in a scheme with high NAV, explain that units are allotted at current NAV. A higher NAV means more value per unit. The total value of investment remains the same regardless of number of units — what matters is the percentage growth of NAV over time.]]></text></explanation>
+    </question>
+</QF>

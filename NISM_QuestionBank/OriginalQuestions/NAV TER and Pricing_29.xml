@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV TER and Pricing_29" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is a segregated portfolio in the context of mutual funds, and when is it created?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A segregated portfolio is created during credit events (such as downgrade or default) to separate the affected securities from the main portfolio, with separate NAVs maintained for each]]></text></answer>
+            <answer correct="no"><text><![CDATA[A segregated portfolio is created when the scheme launches a new plan for institutional investors]]></text></answer>
+            <answer correct="no"><text><![CDATA[A segregated portfolio is created to hold equity and debt securities separately within the same scheme]]></text></answer>
+            <answer correct="no"><text><![CDATA[A segregated portfolio is created when the scheme merges with another scheme of the same AMC]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI introduced the concept of segregated portfolios (commonly called "side pocketing") to deal with credit events such as downgrades to below investment grade or defaults by an issuer. The affected securities are moved to a segregated portfolio with its own separate NAV, while the main portfolio continues to be valued and traded normally.
+
+**The Trap:** It is not about creating a new plan or separating asset classes — it is specifically about isolating troubled/defaulted securities. It has nothing to do with scheme mergers. The key trigger is a "credit event" — not a market event or operational event.
+
+**Cross-Exam Context:** Segregated portfolios gained prominence after the IL&FS and DHFL credit events that impacted several debt fund schemes. SEBI formalized the side-pocketing framework to protect investors from forced selling of distressed assets at deep discounts. This is tested in NISM V-A.
+
+**Distributor's Pro-Tip:** If a scheme you have recommended creates a segregated portfolio, proactively inform your clients. Explain that their investment now has two parts — the main portfolio (tradeable) and the segregated portfolio (locked until recovery). The separate NAV ensures that new investors in the scheme do not benefit from any future recovery of the defaulted security at existing investors' expense.]]></text></explanation>
+    </question>
+</QF>

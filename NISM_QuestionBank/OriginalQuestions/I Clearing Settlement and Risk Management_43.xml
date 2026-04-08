@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_43" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For the purpose of position limits, no separate limit is prescribed at:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The clearing member level]]></text></answer>
+            <answer correct="no"><text><![CDATA[The client level]]></text></answer>
+            <answer correct="no"><text><![CDATA[The trading member level]]></text></answer>
+            <answer correct="no"><text><![CDATA[The market level]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** No separate CM-level position limit exists. However, CMs must ensure all TMs clearing through them are within their respective limits. Limits exist at client, TM, and market levels.
+**The Trap:** CMs are not exempt from position control — they're responsible for monitoring their TMs.
+**Cross-Exam Context:** Position limit framework is tested in Series I.
+**Distributor's Pro-Tip:** The CM acts as a gatekeeper, ensuring aggregate positions of all their TMs and clients are compliant.]]></text></explanation>
+    </question>
+</QF>

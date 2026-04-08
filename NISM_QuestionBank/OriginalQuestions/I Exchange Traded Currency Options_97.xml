@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_97" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the tick size for USDJPY cross-currency options?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[JPY 0.01]]></text></answer>
+            <answer correct="no"><text><![CDATA[USD 0.0001]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.0025]]></text></answer>
+            <answer correct="no"><text><![CDATA[JPY 0.001]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** USDJPY options: tick = JPY 0.01. EURUSD and GBPUSD options: tick = USD 0.0001. INR options: tick = Rs. 0.0025.
+**The Trap:** Cross-currency ticks are in the quote currency, same as for futures.
+**Cross-Exam Context:** Cross-currency option specs are specific to Series I.
+**Distributor's Pro-Tip:** The tick sizes for options match their corresponding futures contracts.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader sells 3 lots of Bank Nifty futures (lot size 15) at 48,000. The settlement price on Day 1 is 48,500. What is the MTM obligation on Day 1?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Loss of Rs. 22,500 (trader must pay)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 22,500 (trader receives)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 7,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 37,500]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+1. Short position at 48,000; Settlement price = 48,500
+2. For short position: MTM = (Sell price - Settlement price) x Quantity
+3. MTM per lot = (48,000 - 48,500) x 15 = (-500) x 15 = -Rs. 7,500 (Loss)
+4. Total MTM = -7,500 x 3 lots = -Rs. 22,500 (Loss)
+The price rose against the short position, resulting in a loss.
+
+**The Trap:** For SHORT positions, price increase = loss. Some may incorrectly calculate as a profit by reversing the formula. Also, ensure correct lot size (15 for Bank Nifty).
+
+**Cross-Exam Context:** MTM calculations for both long and short positions are tested.
+
+**Key Takeaway:** Short position MTM = (Sell price - Settlement price) x Qty. Price increase = loss for shorts. Price decrease = profit for shorts.]]></text></explanation>
+    </question>
+</QF>

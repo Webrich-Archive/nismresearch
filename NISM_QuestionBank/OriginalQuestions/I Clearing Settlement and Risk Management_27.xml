@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_27" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Margin is computed at which level by the clearing corporation?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Client-level positions (no netting between clients)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Clearing member level (all clients netted)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trading member level (all clients netted)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Exchange level (all members netted)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Margins are computed at CLIENT-level. There is NO netting of positions between different clients. Each client's positions are margined separately.
+**The Trap:** Netting between clients is not allowed — if Client A is long and Client B is short, both must pay margins independently.
+**Cross-Exam Context:** Margin computation level is tested in Series I and VII.
+**Distributor's Pro-Tip:** This segregation protects each client from the risk of other clients' positions. Only within a single client's portfolio can SPAN netting occur.]]></text></explanation>
+    </question>
+</QF>

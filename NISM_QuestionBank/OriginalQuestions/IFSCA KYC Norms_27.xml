@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IFSCA KYC Norms_27" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[For resident Indian customers who have an existing relationship with the Financial Group of the Regulated Entity in IFSC, what is the CDD updation periodicity for a HIGH-RISK customer?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Once in every 2 years]]></text></answer>
+            <answer correct="no"><text><![CDATA[Annually (once every year)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Once in every 3 years]]></text></answer>
+            <answer correct="no"><text><![CDATA[Once in every 5 years]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For resident Indian customers with an existing Financial Group relationship, the CDD updation periodicities are relaxed compared to standard customers: High risk = once in every 2 years, Medium risk = once in every 8 years, Low risk = once in every 10 years. The high-risk periodicity of 2 years is more lenient than the annual requirement for standard high-risk customers.
+
+**The Trap:** "Annually" is the CDD periodicity for high-risk STANDARD customers, not resident Indian customers with Financial Group relationships. Candidates often confuse these two categories. "Once in 3 years" is the medium-risk standard customer periodicity. "Once in 5 years" is the low-risk standard customer periodicity.
+
+**Cross-Exam Context:** The relaxation for resident Indian customers with Financial Group relationships recognises that KYC already performed by the group entity provides a baseline level of due diligence, reducing duplication of effort while maintaining adequate oversight.
+
+**Key Takeaway:** Resident Indian (with Financial Group relationship) CDD: High = 2 years, Medium = 8 years, Low = 10 years. Pattern: 2-8-10, which is significantly longer than the standard 1-3-5.]]></text></explanation>
+    </question>
+</QF>

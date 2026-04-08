@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_12" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The Risk Reduction Mode is triggered when a clearing member's margin utilization reaches:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[90% of client collateral]]></text></answer>
+            <answer correct="no"><text><![CDATA[50% of client collateral]]></text></answer>
+            <answer correct="no"><text><![CDATA[100% of client collateral]]></text></answer>
+            <answer correct="no"><text><![CDATA[75% of client collateral]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** At 90% utilization, the risk reduction mode is triggered. Client margins exceeding 90% of client collateral are identified and assessed against the Trading Member's proprietary collateral.
+**The Trap:** 90% is the threshold for risk reduction mode, not 100%.
+**Cross-Exam Context:** Risk management procedures are tested in Series I and VII.
+**Distributor's Pro-Tip:** In risk reduction mode, new position-taking may be restricted until margins are topped up.]]></text></explanation>
+    </question>
+</QF>

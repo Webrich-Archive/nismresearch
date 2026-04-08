@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Taxation_19" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[An investor has an LTCG of Rs. 3,00,000 from equity MF and an LTCL of Rs. 1,50,000 from another equity MF, both in the same financial year. What is his net tax liability including cess under Section 112A?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 3,250 (12.5% on Rs. 25,000 after exemption + cess)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 3,250 (12.5% on Rs. 25,000 after set-off and exemption + 4% cess)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 19,500 (12.5% on Rs. 1,50,000 after exemption only + 4% cess)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 24,375 (12.5% on Rs. 1,50,000 after set-off, no exemption + 4% cess)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step 1: Set off LTCL against LTCG: Rs. 3,00,000 - Rs. 1,50,000 = Rs. 1,50,000 net LTCG. Step 2: Apply Rs. 1,25,000 exemption under Section 112A: Rs. 1,50,000 - 1,25,000 = Rs. 25,000 taxable. Step 3: Tax = 25,000 x 12.5% = Rs. 3,125. Cess = 3,125 x 4% = Rs. 125. Total = Rs. 3,250.
+
+**The Trap:** Option C forgets to set off the LTCL first. Option D applies set-off but forgets the Rs. 1.25 lakh exemption. The correct order is: first set off losses, then apply exemption on the net gain.
+
+**Cross-Exam Context:** The sequence matters: set-off of losses is done BEFORE applying the Rs. 1.25 lakh exemption. This reduces the effective taxable amount significantly.
+
+**Distributor's Pro-Tip:** Strategic loss harvesting combined with the Rs. 1.25 lakh exemption can substantially reduce or eliminate LTCG tax. Help clients time their redemptions to optimize both.]]></text></explanation>
+    </question>
+</QF>

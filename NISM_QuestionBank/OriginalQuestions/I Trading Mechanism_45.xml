@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Trading Mechanism_45" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For options contracts, the maximum brokerage when premium is Rs. 50 per lot is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 100 per lot (the floor applies since 2.5% × 50 = Rs. 1.25 which is less than Rs. 100)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1.25 per lot]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 50 per lot]]></text></answer>
+            <answer correct="no"><text><![CDATA[No brokerage is charged]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Options brokerage = max(2.5% of premium, Rs. 100/lot). 2.5% of 50 = 1.25. Since 1.25 < 100, the floor of Rs. 100 applies.
+**The Trap:** The 'whichever is higher' clause means the Rs. 100 floor kicks in for low-premium options.
+**Cross-Exam Context:** Options brokerage calculation is tested in Series I.
+**Distributor's Pro-Tip:** In practice, most brokers charge well below the maximum — typically Rs. 10-20 per lot for currency options.]]></text></explanation>
+    </question>
+</QF>

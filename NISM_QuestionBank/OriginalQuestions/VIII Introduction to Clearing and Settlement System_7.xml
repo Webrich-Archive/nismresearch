@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which clearing member category can clear trades for other trading members in addition to their own?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[TM-CM (Trading Member - Clearing Member) and PCM (Professional Clearing Member)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only PCM (Professional Clearing Member)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only SCM (Self-Clearing Member)]]></text></answer>
+            <answer correct="no"><text><![CDATA[All categories of clearing members]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** TM-CM can trade and clear for themselves AND clear for other TMs. PCM can clear for TMs (but cannot trade). SCM can only clear for themselves. So both TM-CM and PCM can clear for other TMs.
+
+**The Trap:** SCM cannot clear for others - "Self" means only for their own trades. Not all clearing members can clear for others.
+
+**Cross-Exam Context:** Member category rights and limitations are frequently tested.
+
+**Key Takeaway:** Clear for others: TM-CM and PCM. Self-only: SCM. No clearing: plain TM.]]></text></explanation>
+    </question>
+</QF>

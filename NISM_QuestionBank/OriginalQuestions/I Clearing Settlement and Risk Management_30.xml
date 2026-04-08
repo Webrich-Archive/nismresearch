@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_30" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The stock broker must send which information to clients daily?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Margin-related information including client code, trade day, margin deposit available, margins levied, and shortfall/excess]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the trade confirmation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the profit/loss statement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the brokerage charged]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Brokers must send margin info across all segments including: client code, trade day, margin available (with breakup), margins levied, and shortfall/excess status.
+**The Trap:** Margin reporting is daily and comprehensive — not just trade confirmations.
+**Cross-Exam Context:** Client communication requirements are tested in Series I and VII.
+**Distributor's Pro-Tip:** This transparency helps clients track their margin utilization and avoid unexpected margin calls.]]></text></explanation>
+    </question>
+</QF>

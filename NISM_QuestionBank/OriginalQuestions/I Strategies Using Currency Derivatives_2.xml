@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An importer who needs to pay USD should hedge by:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buying USDINR futures or buying USDINR call options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Selling USDINR futures or buying USDINR put options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buying EURINR futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Selling USDINR call options]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** An importer paying in USD faces the risk of USD appreciation against INR (USDINR going up). To hedge: buy USDINR futures (locks in the buying rate) or buy USDINR calls (insurance against USD rise).
+**The Trap:** Selling call options would give limited income but UNLIMITED risk if USD rises — not a good hedge.
+**Cross-Exam Context:** Import hedging is tested in Series I.
+**Distributor's Pro-Tip:** The contract month should match the expected payment date (close to but before the futures expiry).]]></text></explanation>
+    </question>
+</QF>

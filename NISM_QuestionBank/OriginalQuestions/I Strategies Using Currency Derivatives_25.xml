@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_25" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the key difference between a vertical spread and a diagonal spread?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Vertical spreads have the same expiry; diagonal spreads have different expiries AND different strikes]]></text></answer>
+            <answer correct="no"><text><![CDATA[Vertical spreads use calls only; diagonal spreads use puts only]]></text></answer>
+            <answer correct="no"><text><![CDATA[Vertical spreads have different expiries; diagonal spreads have the same expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[There is no difference]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Vertical = same expiry, different strikes. Horizontal = same strike, different expiries. Diagonal = different strikes AND different expiries. Diagonal is the most complex.
+**The Trap:** Vertical and horizontal spreads each vary ONE parameter. Diagonal varies BOTH.
+**Cross-Exam Context:** Spread classification is tested in Series I.
+**Distributor's Pro-Tip:** Payoff diagrams can only be drawn for vertical spreads (same expiry). Horizontal and diagonal spreads don't have simple payoff charts.]]></text></explanation>
+    </question>
+</QF>

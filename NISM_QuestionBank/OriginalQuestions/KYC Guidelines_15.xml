@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="KYC Guidelines_15" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Which entities are designated as KYC User Agencies (KUA) that can register SEBI intermediaries as Sub-KUAs for Aadhaar authentication?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Stock exchanges (BSE, NSE), depositories (NSDL, CDSL), KRA-related entities (CVL, NDML, CAMS, NSE Data), and their subsidiaries]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the Reserve Bank of India]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only SEBI directly]]></text></answer>
+            <answer correct="no"><text><![CDATA[Any private company registered with UIDAI]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The following are designated KUAs: BSE, NSDL, CDSL, CDSL Ventures Limited, NSDL Database Management Limited, NSE Data and Analytics Limited, CAMS Investor Services, Computer Age Management Services, and NSE. These KUAs register SEBI intermediaries as Sub-KUAs for Aadhaar authentication.
+
+**The Trap:** Neither RBI nor SEBI directly acts as a KUA. The KUA role is assigned to market infrastructure institutions (exchanges, depositories) and KRA-related entities. Not any private company can become a KUA.
+
+**Cross-Exam Context:** Understanding the KUA-Sub KUA hierarchy is important. In NISM V-A, mutual fund AMCs use these KUAs to enable Aadhaar-based onboarding. Distributors registered as Sub-KUAs can directly authenticate client Aadhaar.
+
+**Distributor's Pro-Tip:** If your intermediary wants to use Aadhaar authentication, it must register as a Sub-KUA through one of the designated KUAs. Enter into an agreement with a KUA and get registered with UIDAI. This enables direct e-KYC, dramatically speeding up client onboarding.]]></text></explanation>
+    </question>
+</QF>

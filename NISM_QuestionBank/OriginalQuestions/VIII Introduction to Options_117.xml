@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_117" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader holds 500 shares of Infosys at Rs. 1,500 and writes (sells) call options with strike Rs. 1,600 at premium Rs. 40. What is this strategy called and what is the maximum profit per share?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Covered call; maximum profit per share is Rs. 140 (Rs. 100 stock gain + Rs. 40 premium)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Protective put; maximum profit is unlimited]]></text></answer>
+            <answer correct="no"><text><![CDATA[Naked call; maximum profit is Rs. 40]]></text></answer>
+            <answer correct="no"><text><![CDATA[Bull spread; maximum profit is Rs. 100]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** COVERED CALL: Long stock + Short call on same stock
+
+Step-by-step:
+1. Stock upside capped at strike: gain = 1,600 - 1,500 = Rs. 100
+2. Premium received = Rs. 40
+3. Max profit = 100 + 40 = Rs. 140 per share
+4. This occurs when stock reaches or exceeds Rs. 1,600 at expiry
+
+**The Trap:** Profit is CAPPED at Rs. 140. Even if stock goes to 2,000, the call will be exercised and stock sold at 1,600.
+
+**Cross-Exam Context:** Covered calls generate income but limit upside. Popular income strategy.
+
+**Key Takeaway:** Covered call max profit = (Strike - Stock price) + Premium = 100 + 40 = Rs. 140.]]></text></explanation>
+    </question>
+</QF>

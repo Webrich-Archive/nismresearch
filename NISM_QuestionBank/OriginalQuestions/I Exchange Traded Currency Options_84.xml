@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_84" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If a USDINR 84 call option has premium Rs. 0.50 and delta of 0.70, and USDINR rises by Re 1 to 85, the approximate new premium is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 1.20]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.70]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.57]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Change = Delta × Price change = 0.70 × 1.00 = Rs. 0.70. New premium ≈ 0.50 + 0.70 = Rs. 1.20. (Note: This is approximate — gamma would increase delta during the move).
+**The Trap:** Delta itself changes during a large move (gamma effect), so actual premium might be slightly different.
+**Cross-Exam Context:** Delta-based pricing is tested in Series I and VIII.
+**Distributor's Pro-Tip:** For large moves, the linear delta approximation becomes less accurate. Gamma adjustment gives a better estimate.]]></text></explanation>
+    </question>
+</QF>

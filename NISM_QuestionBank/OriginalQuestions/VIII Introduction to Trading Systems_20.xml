@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Trading Systems_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following risk management measures is applied at the trading system level in derivatives?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Price bands/circuit filters and quantity freeze limits that prevent order entry beyond specified thresholds]]></text></answer>
+            <answer correct="no"><text><![CDATA[Collection of initial margin from clients]]></text></answer>
+            <answer correct="no"><text><![CDATA[Settlement guarantee by the clearing corporation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Mark-to-market settlement at end of day]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** At the trading system level, risk management includes: (1) Price bands/operating ranges that restrict how far a price can deviate, (2) Quantity freeze limits that flag unusually large orders for verification, (3) Order value limits. These are front-end checks before orders enter the system.
+
+**The Trap:** Margin collection, MTM settlement, and settlement guarantee are CLEARING-level risk management measures, not trading-level. The question specifically asks about the trading system level.
+
+**Cross-Exam Context:** Distinguishing between trading-level and clearing-level risk management is important for the exam.
+
+**Key Takeaway:** Trading-level risk management: price bands, quantity freeze, order limits. Clearing-level: margins, MTM, settlement guarantee.]]></text></explanation>
+    </question>
+</QF>

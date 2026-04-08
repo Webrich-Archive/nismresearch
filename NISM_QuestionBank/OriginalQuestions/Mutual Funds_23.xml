@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Mutual Funds_23" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If a mutual fund has an exit load of 1% and the NAV is Rs. 50, an investor redeeming units within the exit load period will receive a price of:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 49.50 per unit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 50.00 per unit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 51.00 per unit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 50.50 per unit]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Exit load is calculated as a percentage of the NAV and reduced from the NAV to arrive at the redemption price. Price = NAV x (1 - Exit Load %) = Rs. 50 x (1 - 0.01) = Rs. 50 - Rs. 0.50 = Rs. 49.50 per unit. Exit load is linked to the holding period — typically no exit load applies if units are held beyond a specified period.
+
+**The Trap:** Rs. 50.00 ignores the exit load entirely. Rs. 51.00 adds the load instead of deducting it. Rs. 50.50 uses an incorrect calculation. Remember: exit load is DEDUCTED from NAV for the seller.
+
+**Cross-Exam Context:** MF topics overlap with Series V-A, V-B. Exit load calculations are a standard numerical question type in all MF exams.
+
+**Distributor's Pro-Tip:** Always inform investors about exit load periods upfront. A common example: 1% exit load if redeemed within 1 year, nil thereafter. This encourages investors to stay invested for the recommended minimum period.]]></text></explanation>
+    </question>
+</QF>

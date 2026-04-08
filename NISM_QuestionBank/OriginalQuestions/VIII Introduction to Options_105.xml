@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_105" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A call option has a delta of 0.6. If the underlying stock moves up by Rs. 15, what is the approximate change in the option premium?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 9 increase]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 15 increase]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 6 increase]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.6 increase]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Change in option price = Delta × Change in underlying
+
+Step-by-step:
+1. Delta = 0.6
+2. Change in underlying = +Rs. 15
+3. Change in option = 0.6 × 15 = Rs. 9
+4. Since delta is positive and underlying moved up, option premium INCREASES by Rs. 9
+
+**The Trap:** Multiply delta by the CHANGE in underlying, not the underlying price itself.
+
+**Cross-Exam Context:** Delta is a linear approximation, accurate for small price changes.
+
+**Key Takeaway:** ΔOption = Delta × ΔUnderlying = 0.6 × 15 = Rs. 9.]]></text></explanation>
+    </question>
+</QF>

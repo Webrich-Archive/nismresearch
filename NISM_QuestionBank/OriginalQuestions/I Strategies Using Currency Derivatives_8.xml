@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_8" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investor with USD 100,000 in US equities wants to hedge currency risk for repatriation to India. The appropriate strategy is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Short USDINR futures or buy USDINR put option for 1 year]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy USDINR futures for 1 year]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy EURUSD futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[No hedging needed as USD is a reserve currency]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When repatriating, the investor will sell USD for INR. Risk = INR appreciation (lower USDINR). To hedge: short USDINR futures or buy puts. This locks in the conversion rate.
+**The Trap:** Buying futures would add MORE USD exposure, not hedge it.
+**Cross-Exam Context:** Foreign investment hedging is tested in Series I.
+**Distributor's Pro-Tip:** Without hedging, a 15% equity return in USD can become 12.23% in INR if INR appreciates from 83 to 81 (as shown in the workbook example).]]></text></explanation>
+    </question>
+</QF>

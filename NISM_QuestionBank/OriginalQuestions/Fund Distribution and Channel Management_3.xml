@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Fund Distribution and Channel Management_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is a Common Account Number (CAN) in the context of mutual fund distribution?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[A number assigned by AMFI to each mutual fund distributor for identification]]></text></answer>
+            <answer correct="no"><text><![CDATA[A unique number given by SEBI to track all transactions across all AMCs]]></text></answer>
+            <answer correct="yes"><text><![CDATA[A single account number provided by MF Utilities (MFU) that enables investors to transact across multiple AMCs]]></text></answer>
+            <answer correct="no"><text><![CDATA[A number issued by the RTA to link all folios of an investor within one AMC]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** CAN (Common Account Number) is issued by MF Utilities (MFU) — a shared infrastructure platform created by the mutual fund industry. With a single CAN, an investor can transact across multiple AMCs using a Common Transaction Form and even make a single consolidated payment for subscriptions in multiple schemes across different AMCs.
+
+**The Trap:** Option A describes ARN, not CAN. Option B sounds plausible but SEBI does not issue such a number — MFU is an industry initiative, not a SEBI system. Option D describes folio consolidation within a single AMC, which is an RTA function but not what CAN does. CAN works across AMCs, which is the key differentiator.
+
+**Cross-Exam Context:** MFU was set up as a shared services platform. Key features include: CAN for investor identification, Common Transaction Form for simplified paperwork, and consolidated payment facility. This is often tested alongside questions about transaction channels.
+
+**Distributor's Pro-Tip:** Recommend MFU to clients who invest in multiple AMCs — the CAN simplifies their paperwork significantly. One form, one payment, multiple AMC transactions. This is especially useful for systematic investment plans across multiple schemes.]]></text></explanation>
+    </question>
+</QF>

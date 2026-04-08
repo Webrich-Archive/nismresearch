@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_48" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If a trader fails to deliver shares under physical settlement of stock derivatives, the clearing corporation:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Conducts a buy-in auction to procure the shares and charges the defaulting member a penalty]]></text></answer>
+            <answer correct="no"><text><![CDATA[Converts the position to cash settlement without penalty]]></text></answer>
+            <answer correct="no"><text><![CDATA[Extends the delivery deadline by one week]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cancels the trade as if it never happened]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** If a member fails to deliver shares, the clearing corporation initiates a buy-in auction or close-out procedure to procure the shares at market price. The defaulting member bears the cost difference and is charged a financial penalty. This ensures the buyer receives their shares.
+
+**The Trap:** The trade is NOT cancelled - the obligation remains. There is no automatic conversion to cash settlement. Penalties are imposed for delivery failures.
+
+**Cross-Exam Context:** Delivery default handling is important for understanding settlement risk management.
+
+**Key Takeaway:** Delivery default: buy-in auction + penalty on defaulter. Clearing corporation ensures settlement guarantee is honored.]]></text></explanation>
+    </question>
+</QF>

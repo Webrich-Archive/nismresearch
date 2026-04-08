@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_23" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A short straddle is profitable when:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The underlying stays near the strike price (low volatility)]]></text></answer>
+            <answer correct="no"><text><![CDATA[The underlying makes a large move in either direction]]></text></answer>
+            <answer correct="no"><text><![CDATA[The underlying appreciates significantly]]></text></answer>
+            <answer correct="no"><text><![CDATA[The underlying depreciates significantly]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Short straddle = sell call + sell put (same strike). Max profit = total premium received (when spot = strike at expiry). The seller is bearish on volatility — expects stability.
+**The Trap:** Short straddle has UNLIMITED loss potential if the underlying makes a large move in either direction.
+**Cross-Exam Context:** Short straddle risk/reward is tested in Series I and VIII.
+**Distributor's Pro-Tip:** The short straddle's payoff is the mirror image of the long straddle.]]></text></explanation>
+    </question>
+</QF>

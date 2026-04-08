@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_41" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following is NOT one of the five main factors that affect the price (premium) of an option?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The trading volume of the option contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[The spot price of the underlying asset]]></text></answer>
+            <answer correct="no"><text><![CDATA[The volatility of the underlying asset]]></text></answer>
+            <answer correct="no"><text><![CDATA[The time remaining to expiry]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The 5 factors affecting option price are:
+1. Spot price (S)
+2. Strike price (X)
+3. Volatility (σ)
+4. Time to expiry (T)
+5. Risk-free interest rate (r)
+
+Trading volume affects liquidity but is NOT a direct input to option pricing models.
+
+**The Trap:** While higher volume may tighten bid-ask spreads, it is not a factor in theoretical option pricing models like Black-Scholes.
+
+**Cross-Exam Context:** These 5 inputs are the basis of the Black-Scholes model.
+
+**Key Takeaway:** 5 factors: S, X, σ, T, r. Remember "SXVTR" - Spot, Strike, Volatility, Time, Rate.]]></text></explanation>
+    </question>
+</QF>

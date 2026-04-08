@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_16" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What type of option style is used for exchange-traded currency options in India?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Premium style European Call and Put options]]></text></answer>
+            <answer correct="no"><text><![CDATA[American style options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Bermuda style options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Asian style options]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** All exchange-traded currency options in India are European style — they can be exercised only at expiry, not before. Both OTC and exchange-traded currency options in India are European.
+**The Trap:** American options (early exercise) are NOT available for currency options on Indian exchanges.
+**Cross-Exam Context:** Option style is specific to Series I.
+**Distributor's Pro-Tip:** Even though European options can't be exercised early, they can be SOLD (squared off) in the secondary market at any time before expiry.]]></text></explanation>
+    </question>
+</QF>

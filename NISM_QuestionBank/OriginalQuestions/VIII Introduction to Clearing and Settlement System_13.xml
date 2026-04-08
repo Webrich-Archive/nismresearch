@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Initial margin in equity derivatives is designed to cover:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The worst-case potential loss on a portfolio over a specified time horizon with 99% confidence (VaR approach)]]></text></answer>
+            <answer correct="no"><text><![CDATA[The total contract value of all open positions]]></text></answer>
+            <answer correct="no"><text><![CDATA[The brokerage and transaction charges for the trade]]></text></answer>
+            <answer correct="no"><text><![CDATA[The profit expected to be earned from the derivative position]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Initial margin is based on the 99% Value at Risk (VaR) concept with a specified time horizon. For index derivatives, it is computed to cover worst-case losses over a 1-day horizon. For stock derivatives, it uses a 2-day horizon (because individual stocks are more volatile). This means there is only a 1% chance that the actual loss exceeds the initial margin.
+
+**The Trap:** Initial margin is NOT the full contract value - it is a fraction (typically 10-20%). It is not related to brokerage or expected profits.
+
+**Cross-Exam Context:** VaR-based margining is the standard globally and is tested in NISM Series VIII.
+
+**Key Takeaway:** Initial margin = 99% VaR. Index: 1-day horizon. Stocks: 2-day horizon. Covers worst-case loss, not full contract value.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Accounting and Taxation_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When a futures position is closed (squared off), the accounting treatment for the settlement involves:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Recording the final MTM profit/loss, and then reversing the initial margin entry by debiting bank and crediting the margin account]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only recording the total profit or loss from entry to exit in a single entry]]></text></answer>
+            <answer correct="no"><text><![CDATA[No entry is needed as daily MTM already captured all changes]]></text></answer>
+            <answer correct="no"><text><![CDATA[Recording the full contract value as revenue]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** On closing a futures position:
+1. Record the final day's MTM profit/loss (difference between exit price and previous settlement price)
+2. Release the initial margin: Debit Bank Account, Credit Initial Margin Account
+
+The cumulative daily MTM entries already capture the total profit/loss. The final entry just covers the last day's movement and margin release.
+
+**The Trap:** You still need the final day's MTM entry (from previous settlement to exit price). Also, the margin release entry is necessary.
+
+**Cross-Exam Context:** Complete lifecycle accounting of futures is tested step by step.
+
+**Key Takeaway:** Position close: Record final MTM + Release margin. Total P&L = Sum of all daily MTMs.]]></text></explanation>
+    </question>
+</QF>

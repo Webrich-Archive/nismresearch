@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_59" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader buys 1 lot of stock futures (lot size 1000) at Rs. 250 on Day 1. Settlement prices: Day 1: Rs. 248, Day 2: Rs. 255. The trader squares off on Day 3 at Rs. 260. What is the total profit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 10,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 12,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 5,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 7,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step:
+Day 1 MTM: (248 - 250) x 1000 = -Rs. 2,000 (Loss)
+Day 2 MTM: (255 - 248) x 1000 = +Rs. 7,000 (Profit)
+Day 3 (square-off): (260 - 255) x 1000 = +Rs. 5,000 (Profit)
+
+Total = -2,000 + 7,000 + 5,000 = Rs. 10,000
+
+Verification: Total profit = (260 - 250) x 1000 = Rs. 10,000
+
+**The Trap:** Sum of daily MTMs should equal the total move from entry to exit price. If they don't match, there's a calculation error.
+
+**Cross-Exam Context:** Complete lifecycle MTM calculation (entry to exit) is a comprehensive exam question.
+
+**Key Takeaway:** Sum of all daily MTMs = (Exit price - Entry price) x Quantity. This is a useful verification check.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The daily settlement price for equity futures on the NSE is determined as:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The weighted average price of the futures contract during the last half hour of trading on that day]]></text></answer>
+            <answer correct="no"><text><![CDATA[The closing price (last traded price) of the futures contract at 3:30 PM]]></text></answer>
+            <answer correct="no"><text><![CDATA[The simple average of the high and low prices of the futures contract during the day]]></text></answer>
+            <answer correct="no"><text><![CDATA[The opening price of the futures contract on the next trading day]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The daily settlement price is calculated as the volume-weighted average price (VWAP) of the futures contract during the LAST HALF HOUR of trading (3:00 PM to 3:30 PM). This is used for daily mark-to-market settlement. The use of VWAP prevents manipulation that could occur if a single trade price was used.
+
+**The Trap:** The daily settlement price is NOT the last traded price (LTP) or a simple high-low average. It is specifically the last half-hour weighted average. The opening price of the next day is irrelevant.
+
+**Cross-Exam Context:** Settlement price calculation is a key topic in Series VIII clearing and settlement chapter.
+
+**Key Takeaway:** Daily settlement price = Last half-hour volume-weighted average price of the futures contract.]]></text></explanation>
+    </question>
+</QF>

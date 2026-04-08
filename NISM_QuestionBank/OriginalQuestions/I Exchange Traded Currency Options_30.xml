@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_30" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An option has theta of -0.05. If the option is currently priced at Rs. 2.75, what will be the approximate price tomorrow (all else equal)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 2.70]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2.80]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2.75]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2.65]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Theta = -0.05 means the option loses Rs. 0.05 per day. New price = 2.75 + (-0.05) = Rs. 2.70.
+**The Trap:** Theta is negative for long positions — the premium DECREASES each day.
+**Cross-Exam Context:** Theta/time decay calculation is tested in Series I and VIII.
+**Distributor's Pro-Tip:** Time decay accelerates as expiry approaches. The last few days see the steepest drop in time value.]]></text></explanation>
+    </question>
+</QF>

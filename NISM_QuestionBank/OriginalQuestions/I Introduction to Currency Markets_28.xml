@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Introduction to Currency Markets_28" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In a system of 10 currencies with no vehicle currency, how many currency pairs would need to be dealt with?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[45]]></text></answer>
+            <answer correct="no"><text><![CDATA[90]]></text></answer>
+            <answer correct="no"><text><![CDATA[100]]></text></answer>
+            <answer correct="no"><text><![CDATA[10]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The formula is n(n-1)/2 where n is the number of currencies. For 10 currencies: 10 × 9 / 2 = 45 pairs. With a vehicle currency, only 9 pairs are needed (each currency against the vehicle).
+**The Trap:** 90 would be n(n-1) without dividing by 2. Each pair is counted once, not twice.
+**Cross-Exam Context:** This formula demonstrates why vehicle currencies exist — tested in Series I.
+**Distributor's Pro-Tip:** The n(n-1)/2 formula shows why USD as vehicle currency dramatically reduces complexity in global FX markets.]]></text></explanation>
+    </question>
+</QF>

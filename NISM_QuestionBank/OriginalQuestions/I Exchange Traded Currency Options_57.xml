@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_57" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[All exchange-traded currency options in India are settled how?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Cash settled in Indian Rupees on T+2 basis]]></text></answer>
+            <answer correct="no"><text><![CDATA[Physical delivery of currency on T+1 basis]]></text></answer>
+            <answer correct="no"><text><![CDATA[Either cash or physical at buyer's choice]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cash settled in USD]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** All exchange-traded currency options are cash settled in INR. Final settlement is on T+2 basis (where T = expiry date). The settlement uses the FBIL reference rate.
+**The Trap:** OTC options may be physically settled, but exchange-traded are always cash settled.
+**Cross-Exam Context:** Settlement method is tested in Series I.
+**Distributor's Pro-Tip:** Cash settlement means the ITM option buyer receives only the profit amount (intrinsic value), not the actual currency.]]></text></explanation>
+    </question>
+</QF>

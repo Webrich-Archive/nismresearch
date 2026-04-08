@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Trading Mechanism_42" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An order to buy 200 lots of USDINR at Rs. 82.60 IOC when only 100 lots are available at that price will result in:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[100 lots executed at 82.60 and remaining 100 lots cancelled]]></text></answer>
+            <answer correct="no"><text><![CDATA[The entire order cancelled because full quantity is not available]]></text></answer>
+            <answer correct="no"><text><![CDATA[200 lots executed at a higher price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The order waiting in the book for the remaining 100 lots]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** IOC allows partial execution. 100 lots execute at 82.60, and the remaining 100 are cancelled immediately since no more matching orders exist at that price.
+**The Trap:** Unlike AON (all or none), IOC DOES allow partial fills.
+**Cross-Exam Context:** IOC behavior is from the workbook example.
+**Distributor's Pro-Tip:** If you need complete execution, don't use IOC — use a regular DAY limit order instead.]]></text></explanation>
+    </question>
+</QF>

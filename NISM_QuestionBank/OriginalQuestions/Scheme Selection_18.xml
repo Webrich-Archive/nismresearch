@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Scheme Selection_18" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A gilt fund carries which type of risk prominently while having negligible credit risk?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Currency risk]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Interest rate risk (duration risk)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Default risk]]></text></answer>
+            <answer correct="no"><text><![CDATA[Liquidity risk]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Gilt funds invest a minimum of 80% in government securities. Since these carry a sovereign guarantee, the credit/default risk is negligible -- the government will not default on its obligations. However, gilt funds carry significant interest rate risk because government bonds (especially long-duration ones) are highly sensitive to changes in interest rates. When rates rise, gilt fund NAVs can fall sharply.
+
+**The Trap:** Many investors assume gilt funds are 'safe' because they invest in government securities. While there is no credit risk, the interest rate risk can cause significant short-term losses. During 2022 when RBI raised rates, long-duration gilt funds delivered negative returns despite having zero credit risk.
+
+**Cross-Exam Context:** The Gilt Fund with 10-Year Constant Duration category must invest in government securities such that the Macaulay duration of the portfolio equals 10 years. This creates very high interest rate sensitivity -- a 1% rise in rates can cause approximately 10% decline in NAV. This is suitable ONLY for investors with strong views on interest rate decline.
+
+**Distributor's Pro-Tip:** Never recommend gilt funds as 'safe' alternatives to FDs. Explain that safety from default and safety from volatility are different concepts. Gilt funds are tactical instruments -- recommend them when interest rates are at a peak and expected to decline. For general debt needs, suggest short/medium duration funds.]]></text></explanation>
+    </question>
+</QF>

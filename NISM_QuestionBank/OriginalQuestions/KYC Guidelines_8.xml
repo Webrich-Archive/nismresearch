@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="KYC Guidelines_8" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[In which cases is IPV NOT required?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[When KYC is completed using Aadhaar authentication/verification of UIDAI, or when documents are provided through DigiLocker or verified online]]></text></answer>
+            <answer correct="no"><text><![CDATA[When the client is a senior citizen above 60 years]]></text></answer>
+            <answer correct="no"><text><![CDATA[When the investment amount is below Rs. 50,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[IPV is always mandatory without any exceptions]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** IPV is NOT required when: (a) KYC has been completed using Aadhaar authentication/verification of UIDAI, or (b) KYC form was submitted online and documents were provided through DigiLocker or any other source that could be verified online.
+
+**The Trap:** There are no age-based or amount-based exemptions from IPV. The exemptions are technology-based -- when digital verification makes physical verification redundant.
+
+**Cross-Exam Context:** As digital KYC becomes dominant, these IPV exemptions are increasingly relevant. In NISM V-A, online mutual fund platforms use Aadhaar e-KYC, which eliminates the need for separate IPV.
+
+**Distributor's Pro-Tip:** If your client completes KYC via Aadhaar e-KYC or uploads documents through DigiLocker, you do not need to arrange physical IPV. This dramatically speeds up onboarding for digital-first clients.]]></text></explanation>
+    </question>
+</QF>

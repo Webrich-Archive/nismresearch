@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_84" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A put option has strike Rs. 18,200 and premium Rs. 300. What is the breakeven point for the buyer?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 17,900]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 18,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 18,200]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 17,600]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Put BEP = Strike - Premium
+
+Step-by-step:
+1. X = 18,200, P = 300
+2. BEP = 18,200 - 300 = Rs. 17,900
+3. At 17,900: Payoff = 18,200 - 17,900 = 300 = Premium. P/L = 0.
+
+**The Trap:** For puts, SUBTRACT premium from strike. For calls, ADD premium to strike.
+
+**Cross-Exam Context:** Below BEP = profit zone for put buyer. Above BEP = loss zone.
+
+**Key Takeaway:** Put BEP = X - P = 18,200 - 300 = Rs. 17,900.]]></text></explanation>
+    </question>
+</QF>

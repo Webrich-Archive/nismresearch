@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_29" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A put option has delta of -0.50 and gamma of 0.004. If the underlying moves up by 10 points, what is the new delta?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[-0.46]]></text></answer>
+            <answer correct="no"><text><![CDATA[-0.54]]></text></answer>
+            <answer correct="no"><text><![CDATA[-0.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[-0.40]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** New delta = Old delta + (Gamma × Change) = -0.50 + (0.004 × 10) = -0.50 + 0.04 = -0.46. The put becomes less sensitive (delta closer to 0) as underlying rises (moving OTM).
+**The Trap:** For a DOWN move of 10: new delta = -0.50 + (0.004 × -10) = -0.50 - 0.04 = -0.54.
+**Cross-Exam Context:** Gamma-adjusted delta is tested in Series I and VIII.
+**Distributor's Pro-Tip:** Put delta moves toward 0 when price rises (becoming OTM) and toward -1 when price falls (becoming deeper ITM).]]></text></explanation>
+    </question>
+</QF>

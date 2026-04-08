@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_42" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader sells (shorts) one Bank Nifty futures contract at 52,000. On expiry, the Bank Nifty spot closes at 51,200. If the lot size is 15, what is the trader's profit or loss?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Profit of Rs. 12,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 12,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 800]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 800]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+1. Position: Short (sold) futures at 52,000
+2. Final settlement price (spot at expiry): 51,200
+3. Per unit profit = Sell Price - Settlement Price = 52,000 - 51,200 = 800 points
+4. Total profit = Per unit profit x Lot size = 800 x 15 = Rs. 12,000
+
+For a SHORT position: Profit = (Futures price - Spot at expiry) x Lot size
+
+**The Trap:** Short position profits when prices fall. Rs. 800 is per unit, not total. Don't reverse the profit/loss direction.
+
+**Cross-Exam Context:** Short futures payoff is tested alongside long futures in Series VIII.
+
+**Key Takeaway:** Short futures profit = (Entry Price - Expiry Spot) x Lot Size. Shorts profit when market falls.]]></text></explanation>
+    </question>
+</QF>

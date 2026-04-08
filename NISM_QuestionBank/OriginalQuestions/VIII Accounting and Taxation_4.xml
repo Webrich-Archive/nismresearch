@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Accounting and Taxation_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader buys Nifty futures at 22,000 and deposits Rs. 1,50,000 as initial margin. On Day 1, the settlement price is 22,200. The journal entries for Day 1 include:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Debit: Margin Account Rs. 5,000; Credit: Profit on Futures Rs. 5,000 (MTM profit = 200 x 25)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Debit: Bank Rs. 5,000; Credit: Sales Revenue Rs. 5,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Debit: Initial Margin Rs. 5,000; Credit: Profit Reserve Rs. 5,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[No entry until the position is squared off]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step:
+1. MTM profit = (22,200 - 22,000) x 25 = Rs. 5,000
+2. Journal entry:
+   Debit: Margin/Broker Account Rs. 5,000 (money receivable/received)
+   Credit: Profit on Futures Trading Account Rs. 5,000 (income recognized)
+
+The initial margin deposit entry was already recorded when the position was opened.
+
+**The Trap:** The MTM profit entry is separate from the initial margin entry. MTM is recorded in the P&L, not as a reserve.
+
+**Cross-Exam Context:** Specific numerical accounting entries for futures are a common exam question format.
+
+**Key Takeaway:** Day 1 entries: MTM profit = (Settlement - Entry) x Lot size. Debit Margin, Credit P&L.]]></text></explanation>
+    </question>
+</QF>

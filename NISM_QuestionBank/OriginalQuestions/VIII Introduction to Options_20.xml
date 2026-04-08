@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A call option with a strike price of Rs. 17,500 when the Nifty spot is at Rs. 18,000 is said to be:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[In-the-Money (ITM) because the spot price is above the strike price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Out-of-the-Money (OTM) because the spot price is above the strike price]]></text></answer>
+            <answer correct="no"><text><![CDATA[At-the-Money (ATM) because the difference is only 500 points]]></text></answer>
+            <answer correct="no"><text><![CDATA[Deep Out-of-the-Money because the gap between spot and strike is significant]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For a CALL option: ITM when Spot > Strike. Here Spot (18,000) > Strike (17,500), so it is ITM.
+- Call ITM: S > X (spot above strike)
+- Call ATM: S ≈ X (spot near strike)
+- Call OTM: S < X (spot below strike)
+
+**The Trap:** Moneyness rules are OPPOSITE for puts. For puts: ITM when S < X.
+
+**Cross-Exam Context:** Moneyness determines intrinsic value and is heavily tested in calculation questions.
+
+**Key Takeaway:** Call ITM: S > X. Put ITM: S < X. ATM: S ≈ X.]]></text></explanation>
+    </question>
+</QF>

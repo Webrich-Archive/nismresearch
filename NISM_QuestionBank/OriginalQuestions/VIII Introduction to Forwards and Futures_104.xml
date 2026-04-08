@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_104" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A pension fund manager has a Rs. 500 crore bond portfolio. Interest rates are expected to rise, which will decrease bond values. She wants to use Nifty futures for cross-hedging. What is the PRIMARY limitation of this strategy?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Cross-hedging introduces basis risk because equity futures may not move in the same direction or magnitude as bond prices when interest rates change]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cross-hedging is prohibited by SEBI regulations for pension funds]]></text></answer>
+            <answer correct="no"><text><![CDATA[Nifty futures cannot be used because they are equity derivatives, not interest rate derivatives]]></text></answer>
+            <answer correct="no"><text><![CDATA[The hedge will be perfect because both equities and bonds decline when interest rates rise]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Cross-hedging means using a futures contract on a DIFFERENT underlying than the actual exposure. While both bonds and stocks may react to interest rate changes, the correlation is imperfect and can vary. This creates BASIS RISK - the risk that the hedge does not perfectly offset the underlying exposure.
+
+**The Trap:** Cross-hedging is not prohibited (it is commonly used). Nifty futures CAN technically be used for cross-hedging. The hedge will NOT be perfect because the correlation between equity and bond movements is unstable.
+
+**Cross-Exam Context:** Basis risk in cross-hedging is a nuanced topic tested in advanced Series VIII questions.
+
+**Key Takeaway:** Cross-hedging uses a different underlying than the exposure, introducing basis risk (imperfect correlation).]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_55" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A stock is trading at Rs. 1,200 in the spot market. The risk-free rate is 8% and the stock is expected to pay a dividend yield of 3% over the contract period. If the futures contract has 60 days to expiry, what is the fair futures price?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 1,209.80 (approximately)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,260.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,200.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,296.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+F = S x (1 + r - q)^(T/365)
+F = 1,200 x (1 + 0.08 - 0.03)^(60/365)
+F = 1,200 x (1.05)^(0.1644)
+F = 1,200 x 1.008167
+F = Rs. 1,209.80
+
+**The Trap:** Rs. 1,260.00 uses full-year carry at 5% (1200 x 1.05). Rs. 1,296.00 uses 8% full year. Rs. 1,200 ignores carry. For short-duration contracts, the carry cost is much smaller than the full-year rate.
+
+**Cross-Exam Context:** Short-duration cost of carry calculations are common in Series VIII exams.
+
+**Key Takeaway:** Net cost of carry = r - q = 8% - 3% = 5%. For 60 days: F = 1200 x (1.05)^(60/365) = Rs. 1,209.80.]]></text></explanation>
+    </question>
+</QF>

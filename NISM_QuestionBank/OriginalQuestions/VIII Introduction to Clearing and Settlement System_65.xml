@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_65" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader has a long position in 5 lots of Reliance futures (lot size 250). Settlement prices: Entry: Rs. 2,800, Day 1: Rs. 2,750, Day 2: Rs. 2,820, Day 3: Rs. 2,790. The trader closes on Day 4 at Rs. 2,850. What is the Day 3 MTM and total profit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Day 3 MTM = Loss of Rs. 37,500; Total profit = Rs. 62,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Day 3 MTM = Profit of Rs. 37,500; Total profit = Rs. 62,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Day 3 MTM = Loss of Rs. 37,500; Total profit = Rs. 50,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Day 3 MTM = Loss of Rs. 30,000; Total profit = Rs. 62,500]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step:
+Quantity = 5 x 250 = 1,250 shares
+
+Day 1 MTM: (2,750 - 2,800) x 1,250 = -Rs. 62,500 (Loss)
+Day 2 MTM: (2,820 - 2,750) x 1,250 = +Rs. 87,500 (Profit)
+Day 3 MTM: (2,790 - 2,820) x 1,250 = -Rs. 37,500 (Loss)
+Day 4 (exit): (2,850 - 2,790) x 1,250 = +Rs. 75,000 (Profit)
+
+Total = -62,500 + 87,500 - 37,500 + 75,000 = Rs. 62,500
+
+Verification: (2,850 - 2,800) x 1,250 = 50 x 1,250 = Rs. 62,500
+
+**The Trap:** Day 3 is a LOSS (price fell from 2,820 to 2,790) even though the overall position is profitable. Daily MTMs can fluctuate while the total may still be positive.
+
+**Cross-Exam Context:** Multi-day MTM with final square-off is a comprehensive exam question format.
+
+**Key Takeaway:** Daily MTM can be positive or negative, but sum always equals (Exit - Entry) x Quantity. Verify by checking total move.]]></text></explanation>
+    </question>
+</QF>

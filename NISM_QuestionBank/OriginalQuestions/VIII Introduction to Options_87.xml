@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_87" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Nifty is at 18,100. A call option with strike 17,800 trades at premium Rs. 420. What is the intrinsic value and time value?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Intrinsic value: Rs. 300, Time value: Rs. 120]]></text></answer>
+            <answer correct="no"><text><![CDATA[Intrinsic value: Rs. 420, Time value: Rs. 0]]></text></answer>
+            <answer correct="no"><text><![CDATA[Intrinsic value: Rs. 120, Time value: Rs. 300]]></text></answer>
+            <answer correct="no"><text><![CDATA[Intrinsic value: Rs. 0, Time value: Rs. 420]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** 
+Step-by-step:
+1. Call Intrinsic Value = max(S - X, 0) = max(18,100 - 17,800, 0) = Rs. 300
+2. Time Value = Premium - Intrinsic Value = 420 - 300 = Rs. 120
+
+**The Trap:** The entire premium is NOT intrinsic value. Decompose into IV + TV.
+
+**Cross-Exam Context:** ITM option premium = Intrinsic Value + Time Value. Both components are positive.
+
+**Key Takeaway:** Call IV = max(S-X, 0) = 300. TV = Premium - IV = 420 - 300 = 120.]]></text></explanation>
+    </question>
+</QF>

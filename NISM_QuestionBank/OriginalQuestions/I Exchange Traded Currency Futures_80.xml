@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_80" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If USDINR spot is 83, India's 2-month rate is 7% p.a., and US 2-month rate is 5% p.a., what is the 2-month futures price?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[83.28 approximately]]></text></answer>
+            <answer correct="no"><text><![CDATA[84.58]]></text></answer>
+            <answer correct="no"><text><![CDATA[83.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[82.72]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** F = 83 × (1 + 0.07 × 2/12) / (1 + 0.05 × 2/12) = 83 × (1.01167)/(1.00833) = 83 × 1.003311 = 83.2748 ≈ 83.28.
+Quick: F ≈ 83 + 83 × 0.02 × (2/12) = 83 + 0.2767 ≈ 83.28.
+**The Trap:** Use 2/12 for 2 months, not 1/6 (which is the same but easily mistyped).
+**Cross-Exam Context:** Short-term pricing is frequently tested in Series I.
+**Distributor's Pro-Tip:** Shorter periods = smaller forward premium. 2-month premium is about 28 paise vs ~83 paise for 6 months.]]></text></explanation>
+    </question>
+</QF>

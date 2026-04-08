@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Trading Mechanism_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Orders that are already in the order book are called ___ orders, and incoming orders are called ___ orders.]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Passive; Active]]></text></answer>
+            <answer correct="no"><text><![CDATA[Active; Passive]]></text></answer>
+            <answer correct="no"><text><![CDATA[Limit; Market]]></text></answer>
+            <answer correct="no"><text><![CDATA[Open; Closed]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Passive orders are already in the book. Active orders are newly entered and match against passive orders. Trades always execute at the PASSIVE order's price.
+**The Trap:** 'Active' sounds like it should be the one already in the book, but it's the opposite.
+**Cross-Exam Context:** Order book terminology is tested in Series I.
+**Distributor's Pro-Tip:** Understanding active vs passive helps in knowing your execution price — you always get the passive (existing) price when your active order matches.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="Secondary Markets_48" sectionNumber="" articleNumber="0" articleName="">
+    <question><text>An investor buys 500 shares of ABC Ltd at Rs. 200 per share on Monday. The settlement cycle is T+1. By when must the investor make payment?</text>
+        <answers>
+            <answer correct="yes"><text>Tuesday (the next business day after the trade)</text></answer>
+            <answer correct="no"><text>Monday itself (same day)</text></answer>
+            <answer correct="no"><text>Wednesday (two business days after the trade)</text></answer>
+            <answer correct="no"><text>Within one week of the trade</text></answer>
+        </answers>
+        <explanation><text>**The Logic:** Under T+1 settlement, trades executed on day T must be settled the next business day (T+1). If the investor buys on Monday (T), payment must be made by Tuesday (T+1). The total payment = 500 x Rs. 200 = Rs. 1,00,000.
+**The Trap:** Same day (option b) would be T+0 settlement, which is optional and not the standard cycle. Wednesday (option c) would be T+2, the old settlement cycle that has been replaced.
+**Cross-Exam Context:** In practice, brokers may debit the purchase amount from the linked bank account on the trade day itself, but the formal settlement with the clearing corporation is on T+1.
+**Distributor's Pro-Tip:** T+1 = Next working day. If trade on Monday, settle Tuesday. If trade on Friday, settle Monday (next business day, skipping weekend). Simple but frequently tested.</text></explanation>
+    </question>
+</QF>

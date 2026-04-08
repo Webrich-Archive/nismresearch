@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_113" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When is buying a put option generally PREFERABLE to short selling futures for expressing a bearish view?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[When the trader wants to limit maximum loss to a known premium amount]]></text></answer>
+            <answer correct="no"><text><![CDATA[When the trader wants unlimited profit potential only]]></text></answer>
+            <answer correct="no"><text><![CDATA[When the trader has a very strong conviction and wants maximum leverage]]></text></answer>
+            <answer correct="no"><text><![CDATA[When the trader expects the market to stay flat]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Put option advantages over short futures:
+1. LIMITED LOSS: max loss = premium paid (known upfront)
+2. No margin calls: even if market temporarily rises, no additional capital needed
+3. No forced liquidation: can hold through adverse moves
+
+Short futures disadvantage: unlimited loss potential, margin calls, forced liquidation risk.
+
+**The Trap:** Short futures provide more leverage and no time decay. Puts have time decay working against them.
+
+**Cross-Exam Context:** Risk-averse bearish traders prefer puts. Aggressive traders may prefer short futures.
+
+**Key Takeaway:** Choose puts over short futures when risk management (limited loss) is the priority.]]></text></explanation>
+    </question>
+</QF>

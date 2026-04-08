@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_60" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following is an ASSUMPTION of the Black-Scholes option pricing model?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Volatility of the underlying remains constant over the option's life]]></text></answer>
+            <answer correct="no"><text><![CDATA[Markets are inefficient and arbitrage opportunities persist]]></text></answer>
+            <answer correct="no"><text><![CDATA[Options can be exercised at any time before expiry (American style)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Transaction costs and taxes significantly affect option prices]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Key Black-Scholes assumptions:
+1. Volatility is CONSTANT
+2. European-style options (not American)
+3. No transaction costs or taxes
+4. Efficient markets (no arbitrage)
+5. Risk-free rate is constant
+6. Underlying follows lognormal distribution
+7. No dividends (basic version)
+
+**The Trap:** The model assumes European options, not American. Constant volatility is a simplifying assumption.
+
+**Cross-Exam Context:** Real markets violate these assumptions (volatility smile, transaction costs, early exercise).
+
+**Key Takeaway:** Black-Scholes: European style, constant vol, no transaction costs, efficient markets.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IFSCA Introduction to AML CFT and PF_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the context of money laundering, 'smurfing' is a technique associated with which stage?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Placement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Layering]]></text></answer>
+            <answer correct="no"><text><![CDATA[Integration]]></text></answer>
+            <answer correct="no"><text><![CDATA[Extraction]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Smurfing is a placement technique where small amounts of money below the AML reporting threshold are deposited into multiple bank accounts or credit cards. The goal is to avoid triggering the Cash Transaction Report (CTR) threshold while still introducing illicit cash into the financial system. This is clearly a placement activity because the money is being introduced into the banking system.
+
+**The Trap:** Some candidates confuse smurfing with layering because it involves multiple transactions. However, smurfing specifically refers to breaking up cash deposits to avoid detection during the initial placement -- not moving money between accounts to obscure the trail.
+
+**Cross-Exam Context:** Series XXIV covers smurfing in the context of securities market transactions. In the IFSCA context, note that no cash transactions are permitted in the IFSC domain, so smurfing in its traditional form is less relevant but the concept is still tested.
+
+**Distributor's Pro-Tip:** Smurfing gets its name from multiple small actors (like the cartoon Smurfs) each doing a small piece of the work. In the IFSC, watch for the electronic equivalent -- multiple small wire transfers structured to avoid reporting thresholds.]]></text></explanation>
+    </question>
+</QF>

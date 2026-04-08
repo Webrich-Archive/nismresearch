@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Trading Systems_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A Trading Member - Clearing Member (TM-CM) in the derivatives segment can:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Trade on their own account, trade for clients, and clear and settle their own trades and trades of other TMs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only trade on their own account and clear their own trades]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only clear and settle trades but cannot execute trades]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only trade for clients but not on their own account]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A TM-CM has dual roles: (1) As a Trading Member, they can execute trades for themselves and clients, and (2) As a Clearing Member, they can clear and settle their own trades as well as trades of other TMs who are not clearing members.
+
+**The Trap:** A plain TM can only trade but must route clearing through a CM. A PCM (Professional Clearing Member) can only clear, not trade. A TM-CM can do both.
+
+**Cross-Exam Context:** Understanding member categories is tested in both NISM Series VIII and exchange operations exams.
+
+**Key Takeaway:** TM = trade only. TM-CM = trade + clear. PCM = clear only (no trading). SCM = self-clearing only.]]></text></explanation>
+    </question>
+</QF>

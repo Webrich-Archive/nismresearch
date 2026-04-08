@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_46" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under physical settlement, a client with a long ITM call option position at expiry must:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Pay the settlement amount and receive delivery of the underlying shares]]></text></answer>
+            <answer correct="no"><text><![CDATA[Deliver the underlying shares to the clearing corporation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Receive cash equal to the intrinsic value of the option]]></text></answer>
+            <answer correct="no"><text><![CDATA[Pay additional margin equal to the contract value]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A long call option holder has the right to BUY the underlying. When exercised at expiry under physical settlement, the holder pays the strike price (settlement amount) and receives the underlying shares. The short call writer must deliver the shares.
+
+**The Trap:** The long call buyer RECEIVES shares (does not deliver). The short call writer DELIVERS shares. For puts, the direction is reversed.
+
+**Cross-Exam Context:** Understanding delivery obligations for each option position type is critical.
+
+**Key Takeaway:** Long call at expiry: pay strike price, receive shares. Short call: deliver shares, receive strike price. Physical settlement only.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_63" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader observes that the USDINR 1-month futures is trading at 83.50 while the theoretical price based on interest rate parity should be 83.60. What should the trader do?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy futures (they are underpriced relative to theoretical value)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell futures (they are overpriced)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Do nothing — the difference is irrelevant]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy spot and sell futures simultaneously]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Futures at 83.50 < theoretical 83.60 means futures are cheap. Buy futures expecting convergence to fair value. Alternatively, buy futures + sell spot for cash-and-carry arbitrage.
+**The Trap:** Buying spot and selling futures would be a reverse cash-and-carry arbitrage — appropriate only if futures were OVERPRICED.
+**Cross-Exam Context:** Arbitrage identification is tested in Series I and VIII.
+**Distributor's Pro-Tip:** The arbitrage: Borrow INR → buy USD spot → deposit USD → sell futures. The guaranteed return exceeds the INR borrowing cost.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Scheme Selection_29" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What does 'Modified Duration' of a debt fund portfolio indicate?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The average maturity of bonds in the portfolio measured in years]]></text></answer>
+            <answer correct="no"><text><![CDATA[The minimum period for which the investor must stay invested in the fund]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The approximate percentage change in the fund's NAV for a 1% change in interest rates]]></text></answer>
+            <answer correct="no"><text><![CDATA[The credit quality duration measuring default probability over time]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Modified Duration is a measure of a bond portfolio's sensitivity to changes in interest rates. A modified duration of 5 years means the fund's NAV will change by approximately 5% for every 1% change in interest rates. If rates fall by 1%, the NAV rises by approximately 5%, and vice versa. Higher modified duration means higher interest rate sensitivity.
+
+**The Trap:** Modified duration is NOT the same as average maturity or Macaulay duration, though they are related. Macaulay duration is the weighted average time to receive cash flows (in years), while modified duration adjusts Macaulay duration for the yield level to give a direct price sensitivity measure. It has nothing to do with lock-in periods or credit quality.
+
+**Cross-Exam Context:** When selecting debt funds, if an investor expects interest rates to fall, a higher modified duration fund will benefit more (NAV increase). If rates are expected to rise, lower modified duration funds protect capital. This is why duration management is the key skill for debt fund managers.
+
+**Distributor's Pro-Tip:** When explaining debt fund risks to clients, use modified duration as a concrete tool. Tell them: 'This fund has a modified duration of 3 years, which means if RBI raises rates by 0.50%, the NAV might temporarily decline by about 1.5%.' This sets realistic expectations and prevents panic during rate hike cycles.]]></text></explanation>
+    </question>
+</QF>

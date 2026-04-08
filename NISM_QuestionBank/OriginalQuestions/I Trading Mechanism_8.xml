@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Trading Mechanism_8" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[GTC (Good Till Cancelled) and GTD (Good Till Date) orders are currently:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Not available on the system as per SEBI directives]]></text></answer>
+            <answer correct="no"><text><![CDATA[Available for all contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[Available only for options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Available only for institutional clients]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** GTC and GTD orders are currently not available on Indian exchanges as per SEBI directives. Similarly, AON and MF orders are also not available.
+**The Trap:** These order types exist conceptually but are not implemented on Indian exchanges.
+**Cross-Exam Context:** Order availability restrictions are tested in Series I.
+**Distributor's Pro-Tip:** Currently available time conditions: DAY and IOC only.]]></text></explanation>
+    </question>
+</QF>

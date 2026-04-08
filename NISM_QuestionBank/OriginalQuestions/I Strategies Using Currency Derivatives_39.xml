@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_39" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Why does use of currency futures for hedging gold ETF investment NOT completely remove USDINR spot risk?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Because futures price depends on both spot price AND premium/discount, which also changes]]></text></answer>
+            <answer correct="no"><text><![CDATA[Because gold ETF and USDINR are unrelated]]></text></answer>
+            <answer correct="no"><text><![CDATA[Because futures contracts are only available for 1 month]]></text></answer>
+            <answer correct="no"><text><![CDATA[Because the lot size doesn't match the investment amount exactly]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Currency futures price = Spot + Forward premium/discount. Even if spot risk is hedged, changes in the forward premium/discount (basis risk) mean the hedge isn't perfect.
+**The Trap:** Lot size mismatch is a separate issue. The main reason for imperfect hedging is basis risk (changes in forward premium).
+**Cross-Exam Context:** Basis risk in hedging is tested in Series I.
+**Distributor's Pro-Tip:** This residual basis risk is inherent in all futures hedges — it's why forwards can sometimes provide better hedges (customized, delivery-based).]]></text></explanation>
+    </question>
+</QF>

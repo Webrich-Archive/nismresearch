@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_107" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader holds 100 units of a call option with delta 0.55. How many units of the underlying should they sell to create a delta-neutral position?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Sell 55 units of the underlying]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell 100 units of the underlying]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell 45 units of the underlying]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy 55 units of the underlying]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Delta-neutral: total delta of position = 0
+
+Step-by-step:
+1. Long 100 calls with delta 0.55 → position delta = 100 × 0.55 = +55
+2. To neutralize: need -55 delta
+3. Short (sell) 55 units of underlying (each unit has delta = 1)
+4. Net delta = 55 - 55 = 0 (delta neutral)
+
+**The Trap:** Must sell (not buy) the underlying to offset positive call delta.
+
+**Cross-Exam Context:** Delta-neutral hedging is fundamental to market making and risk management.
+
+**Key Takeaway:** Units to hedge = Number of options × Delta = 100 × 0.55 = 55 units.]]></text></explanation>
+    </question>
+</QF>

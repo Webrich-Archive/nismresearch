@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Taxation_29" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[CASE STUDY (Continued): Mr. Sharma's investments:
+Investment 1: Equity MF - profit Rs. 3,00,000 (held 15 months)
+Investment 2: Debt MF - purchased Feb 2024, profit Rs. 50,000 (held 8 months)
+Investment 3: ELSS - profit Rs. 80,000 (held 4 years)
+Investment 4: IDCW of Rs. 8,000 received
+
+Question 3: What is the tax treatment of Mr. Sharma's ELSS profit (Investment 3)? Calculate the tax including cess, considering that Investment 1 and Investment 3 gains are combined for the Rs. 1.25 lakh exemption.]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 10,400 (12.5% on Rs. 80,000 with separate Rs. 1.25 lakh ELSS exemption + 4% cess)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Nil - ELSS gains are fully exempt since investment qualifies under Section 80C]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 10,400 (ELSS is equity-oriented, so LTCG at 12.5% on Rs. 80,000 + 4% cess, as Rs. 1.25 lakh exemption already used against the larger equity MF LTCG)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 24,960 (30% slab rate on Rs. 80,000 + 4% cess, since ELSS is taxed at slab after lock-in)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** ELSS is an equity-oriented fund. After the 3-year lock-in (held 4 years), gains are taxed as equity LTCG under Section 112A at 12.5%. The Rs. 1.25 lakh exemption is a COMBINED limit across all equity LTCG. Since Mr. Sharma already has Rs. 3,00,000 LTCG from equity MF (Investment 1), the entire Rs. 1.25 lakh exemption is consumed there. So ELSS LTCG of Rs. 80,000 is fully taxable. Tax = 80,000 x 12.5% = Rs. 10,000. Cess = Rs. 400. Total = Rs. 10,400.
+
+**The Trap:** Option A wrongly assumes a separate ELSS-specific exemption. Option B incorrectly assumes Section 80C deduction means gains are exempt - 80C provides deduction on investment, not exemption on gains. Option D applies slab rate to ELSS which is wrong.
+
+**Cross-Exam Context:** Section 80C deduction (on investment) and capital gains taxation (on redemption) are completely independent. Getting 80C deduction does NOT exempt the gains from tax.
+
+**Distributor's Pro-Tip:** Explain to clients that ELSS offers deduction at entry (80C) but gains on exit are taxed normally as equity LTCG. The double benefit is: tax saving while investing AND lower tax rate (12.5% vs slab) on gains.]]></text></explanation>
+    </question>
+</QF>

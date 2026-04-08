@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_56" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The Nifty 50 spot is at 22,000. The 3-month futures (90 days to expiry) are trading at 22,350. If the expected dividend yield is 2%, what implied risk-free rate does the market price reflect?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Approximately 8.5% per annum]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 1.59% per annum]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 16% per annum]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 6.5% per annum]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+We know F = S(1+r-q)^(T/365), so:
+22,350 = 22,000 x (1 + r - 0.02)^(90/365)
+22,350/22,000 = (1 + r - 0.02)^(0.2466)
+1.015909 = (1 + r - 0.02)^(0.2466)
+
+Taking both sides to power (1/0.2466):
+(1.015909)^(1/0.2466) = 1 + r - 0.02
+1.0655 = 1 + r - 0.02
+r = 0.0655 + 0.02 = 0.0855 = 8.55%
+
+Approximately 8.5% per annum.
+
+**The Trap:** 1.59% is the 90-day carry (not annualized). 16% ignores the dividend subtraction. 6.5% forgets to add back the dividend yield.
+
+**Cross-Exam Context:** Reverse-engineering the implied interest rate or dividend yield from market prices is an advanced Series VIII concept.
+
+**Key Takeaway:** From market futures price, we can back-calculate implied interest rate: extract (F/S), raise to power (365/T), then solve for r.]]></text></explanation>
+    </question>
+</QF>

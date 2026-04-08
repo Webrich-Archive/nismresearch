@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_96" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An increase in underlying spot price will cause a put option's delta to:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Move closer to zero (become less negative)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Move closer to -1 (become more negative)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Remain unchanged]]></text></answer>
+            <answer correct="no"><text><![CDATA[Become positive]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When spot rises, puts move toward OTM → delta moves from -1 toward 0 (less negative). When spot falls, puts move toward ITM → delta moves toward -1.
+**The Trap:** Put delta is always between -1 and 0. It never becomes positive.
+**Cross-Exam Context:** Put delta behavior is tested in Series I and VIII.
+**Distributor's Pro-Tip:** ATM put ≈ -0.5 delta. Deep ITM put ≈ -1. Deep OTM put ≈ 0.]]></text></explanation>
+    </question>
+</QF>

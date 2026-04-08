@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_38" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A futures market is said to be in 'Contango' when:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The futures price is higher than the spot price, which is the normal condition when cost of carry is positive]]></text></answer>
+            <answer correct="no"><text><![CDATA[The futures price is lower than the spot price, indicating bearish market sentiment]]></text></answer>
+            <answer correct="no"><text><![CDATA[The near-month futures price is higher than the far-month futures price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The futures price is exactly equal to the spot price, indicating perfect market equilibrium]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Contango means Futures Price > Spot Price. This is the 'normal' state because holding the underlying asset involves a cost (financing cost - dividend yield). The futures price includes this carrying cost, making it higher than the spot price. Contango is associated with neutral to bullish market conditions.
+
+**The Trap:** Contango is NOT when futures < spot (that is backwardation). The comparison is between futures and spot of the SAME month, not between different futures months.
+
+**Cross-Exam Context:** Contango and backwardation concepts are tested in Series VIII and XVI (commodity derivatives).
+
+**Key Takeaway:** Contango: Futures > Spot (normal market). Backwardation: Futures < Spot (inverted market).]]></text></explanation>
+    </question>
+</QF>

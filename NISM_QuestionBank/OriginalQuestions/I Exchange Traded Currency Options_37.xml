@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_37" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A USDINR 83 call costs Rs. 0.10 and the 83 put costs Rs. 0.075. USDINR spot is 82.80. What is the intrinsic value of each?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Call intrinsic = 0, Put intrinsic = 0.20]]></text></answer>
+            <answer correct="no"><text><![CDATA[Call intrinsic = 0.20, Put intrinsic = 0]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both have intrinsic value = 0]]></text></answer>
+            <answer correct="no"><text><![CDATA[Call intrinsic = 0.10, Put intrinsic = 0.075]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Call intrinsic = max(82.80 - 83, 0) = 0 (OTM). Put intrinsic = max(83 - 82.80, 0) = 0.20 (ITM). The put's premium of 0.075 is LESS than its intrinsic value — this would actually not happen in practice (premium ≥ intrinsic).
+**The Trap:** The premium is NOT the intrinsic value. Intrinsic value is calculated from spot vs strike.
+**Cross-Exam Context:** Intrinsic value calculation is tested in Series I and VIII.
+**Distributor's Pro-Tip:** Call time value = 0.10 - 0 = 0.10 (all time value). The put example premium from the workbook is illustrative.]]></text></explanation>
+    </question>
+</QF>

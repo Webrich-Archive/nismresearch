@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_36" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Market-wide position limits for index futures and options contracts are:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[No market-wide position limits exist for index derivatives as the index cannot be cornered]]></text></answer>
+            <answer correct="no"><text><![CDATA[Limited to 20% of total open interest]]></text></answer>
+            <answer correct="no"><text><![CDATA[Set at 15% of the free-float market capitalization]]></text></answer>
+            <answer correct="no"><text><![CDATA[Capped at 1 million contracts]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** There are no market-wide position limits for index futures and options. This is because an index represents a diversified basket of stocks and cannot be cornered or manipulated as easily as individual stocks. However, individual stock derivatives have market-wide position limits.
+
+**The Trap:** Position limits exist for stock derivatives (20% of MWPL), but NOT for index derivatives. Do not confuse stock limits with index limits.
+
+**Cross-Exam Context:** Position limit rules are regulatory requirements frequently tested in NISM Series VIII.
+
+**Key Takeaway:** Index derivatives: no market-wide position limits. Stock derivatives: MWPL = 20% of free-float market cap (in terms of number of shares).]]></text></explanation>
+    </question>
+</QF>

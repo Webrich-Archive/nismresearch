@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_35" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If the 6-month forward rate of USDINR changes from 83.81 to 83.71 due to US interest rate rising from 5% to 5.25%, what trading action should a trader take?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Initiate a short position in USDINR futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Initiate a long position in USDINR futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy both call and put options on USDINR]]></text></answer>
+            <answer correct="no"><text><![CDATA[Do nothing — interest rate changes don't affect futures prices]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When US interest rates rise, the interest rate differential narrows, causing USDINR forward/futures price to FALL. A trader expecting this should SHORT USDINR futures to profit from the price decline.
+**The Trap:** Higher US rates = narrower differential = lower forward premium = lower futures price → short position.
+**Cross-Exam Context:** Trading based on interest rate expectations is tested in Series I and IV.
+**Distributor's Pro-Tip:** If INR rates rise (US rates constant), the forward premium widens, pushing futures price UP → go long.]]></text></explanation>
+    </question>
+</QF>

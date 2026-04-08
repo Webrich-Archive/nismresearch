@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_32" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Physical settlement of stock options at expiry applies to:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[In-the-money (ITM) options that are exercised or assigned]]></text></answer>
+            <answer correct="no"><text><![CDATA[All options regardless of moneyness]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only call options, not put options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only options with premium above Rs. 100]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** At expiry, only ITM options are exercised (either automatically or by the holder). OTM options expire worthless and have no settlement obligation. For ITM call options: buyer receives shares, seller delivers shares. For ITM put options: buyer delivers shares, seller receives shares.
+
+**The Trap:** OTM options expire worthless - no physical settlement needed. Physical settlement applies to both calls and puts, not just one type.
+
+**Cross-Exam Context:** Understanding which options trigger physical settlement is crucial for position management.
+
+**Key Takeaway:** Physical settlement only for ITM options. Call buyer receives shares. Put buyer delivers shares. OTM options expire without settlement.]]></text></explanation>
+    </question>
+</QF>

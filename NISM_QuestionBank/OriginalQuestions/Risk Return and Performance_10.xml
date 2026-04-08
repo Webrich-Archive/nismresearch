@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Risk Return and Performance_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Basis risk in the context of derivatives used by mutual funds refers to:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The risk that the derivative contract may expire worthless]]></text></answer>
+            <answer correct="no"><text><![CDATA[The risk that the fund may not have sufficient margin to maintain derivative positions]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The risk that the price of the derivative may not move in perfect correlation with the underlying asset being hedged]]></text></answer>
+            <answer correct="no"><text><![CDATA[The risk that the basic NAV calculation may contain errors]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Basis risk arises when the price movement of a derivative instrument does not perfectly correlate with the price movement of the underlying asset it is meant to hedge. The "basis" is the difference between the spot price and the futures price. If this basis changes unexpectedly, the hedge becomes imperfect, leaving residual risk in the portfolio.
+
+**The Trap:** Basis risk is NOT about the derivative expiring worthless (that is a risk of buying options) or about margin requirements. It is specifically about the imperfect correlation between the hedging instrument and the asset being hedged. Even a well-designed hedge can leave residual risk due to basis changes.
+
+**Cross-Exam Context:** Basis risk is relevant when funds use Nifty futures to hedge a portfolio that does not perfectly replicate Nifty. The portfolio's actual performance may differ from Nifty, creating a mismatch with the futures hedge. This is why tracking error matters for index funds using derivatives for cash management.
+
+**Distributor's Pro-Tip:** When explaining arbitrage fund strategies to clients, note that these funds profit from the basis (price difference between cash and futures markets). While generally low-risk, changes in basis can affect short-term returns, which is why arbitrage funds occasionally show small negative monthly returns.]]></text></explanation>
+    </question>
+</QF>

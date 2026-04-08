@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Taxation_28" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[CASE STUDY (Continued): Mr. Sharma's investments:
+Investment 1: Equity MF - profit Rs. 3,00,000 (held 15 months)
+Investment 2: Debt MF - purchased Feb 2024, profit Rs. 50,000 (held 8 months)
+Investment 3: ELSS - profit Rs. 80,000 (held 4 years)
+Investment 4: IDCW of Rs. 8,000 received
+
+Question 2: What is the tax on Mr. Sharma's debt mutual fund profit (Investment 2) including 4% cess?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 6,500 (12.5% LTCG rate on Rs. 50,000 + cess, since held more than 24 months equivalent)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 15,600 (30% slab rate on Rs. 50,000 + 4% cess)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 10,400 (20% STCG rate on Rs. 50,000 + 4% cess)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 7,500 (15% flat rate on Rs. 50,000 + 4% cess)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The debt MF was purchased in February 2024 (after 1 April 2023). Under the new regime, ALL gains from debt MFs purchased on/after April 2023 are taxed at the investor's income tax slab rate, regardless of holding period. No STCG/LTCG distinction applies. Mr. Sharma is in the 30% bracket. Tax = Rs. 50,000 x 30% = Rs. 15,000. Cess = Rs. 15,000 x 4% = Rs. 600. Total = Rs. 15,600.
+
+**The Trap:** Option A incorrectly applies LTCG treatment. Option C uses 20% which is equity STCG rate, not applicable to debt. Option D uses 15% which is no recognized debt fund rate. The key fact is the purchase date being after April 2023 - this eliminates any LTCG benefit.
+
+**Cross-Exam Context:** Had this debt fund been purchased before April 2023 and held for >24 months, it would have qualified for 12.5% LTCG. The purchase date is the critical determinant.
+
+**Distributor's Pro-Tip:** For Mr. Sharma at 30% slab, the effective tax on debt MF gains is 31.2% (including cess). This makes debt MFs tax-equivalent to FDs. Recommend these on liquidity and no-TDS-up-to-threshold advantages instead.]]></text></explanation>
+    </question>
+</QF>

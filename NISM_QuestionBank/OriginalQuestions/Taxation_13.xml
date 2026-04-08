@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Taxation_13" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Mr. Verma invested Rs. 6,00,000 in a gold ETF in January 2023. He redeemed the units in March 2025 (after 26 months) for Rs. 8,50,000. What is his tax liability including cess? (Assume he is in the 30% tax bracket)]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 78,000 (30% slab rate on Rs. 2,50,000 + 4% cess, treating as STCG)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 32,500 (12.5% on Rs. 2,50,000 as LTCG + 4% cess)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 16,250 (12.5% on Rs. 1,25,000 after Rs. 1.25 lakh LTCG exemption + 4% cess)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 52,000 (20% with indexation on Rs. 2,50,000 + 4% cess)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Gold ETF is a non-equity fund. Purchased in January 2023 (before April 2023), so the old regime applies. Holding period >24 months = LTCG. LTCG = 8,50,000 - 6,00,000 = Rs. 2,50,000. Tax rate = 12.5% without indexation (post-Budget 2024). Tax = 2,50,000 x 12.5% = Rs. 31,250. Cess = 31,250 x 4% = Rs. 1,250. Total = Rs. 32,500.
+
+**The Trap:** Option A wrongly applies slab rate treating it as STCG. Option C incorrectly applies the Rs. 1.25 lakh exemption which is only for equity-oriented funds under Section 112A, not for gold/non-equity funds. Option D applies old 20% with indexation which is no longer available post-Budget 2024.
+
+**Cross-Exam Context:** For non-equity funds purchased before April 2023 with holding >24 months, the LTCG rate is 12.5% WITHOUT indexation (Budget 2024 change). The Rs. 1.25 lakh exemption under 112A does NOT apply here.
+
+**Distributor's Pro-Tip:** Gold ETFs purchased before April 2023 retain LTCG benefit at 12.5% after 24 months. This is more favorable than slab rate for investors in higher tax brackets (20% or 30%).]]></text></explanation>
+    </question>
+</QF>

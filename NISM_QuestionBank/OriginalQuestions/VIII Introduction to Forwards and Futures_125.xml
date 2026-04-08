@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_125" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the regulatory implication of physical settlement for stock futures positions held till expiry?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Traders with open short futures positions must ensure they have sufficient shares in their demat account for delivery, or face auction penalties for short delivery]]></text></answer>
+            <answer correct="no"><text><![CDATA[The clearing corporation converts the futures position into a spot market trade at a 5% discount to the settlement price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Physical settlement is optional; traders can always choose cash settlement by paying a 2% premium]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only FIIs and mutual funds are required to physically settle; retail traders can choose cash settlement]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under physical settlement:
+- Short futures holders MUST deliver shares. If they don't have shares, they face:
+  (1) Internal close-out by the broker before expiry
+  (2) Auction by the exchange if shares are not delivered
+  (3) Penalties including price difference plus auction premium
+- Long futures holders MUST accept delivery and pay the settlement amount
+- This applies to ALL market participants (retail, institutional, FPIs)
+
+**The Trap:** There is no 5% discount conversion. Physical settlement is NOT optional. ALL participants must physically settle, not just FIIs. The key risk is for short sellers who must arrange shares for delivery.
+
+**Cross-Exam Context:** Physical settlement obligations and penalties are important practical knowledge for Series VIII.
+
+**Key Takeaway:** Physical settlement is mandatory for all stock derivatives. Short sellers must have shares ready or face auction penalties.]]></text></explanation>
+    </question>
+</QF>

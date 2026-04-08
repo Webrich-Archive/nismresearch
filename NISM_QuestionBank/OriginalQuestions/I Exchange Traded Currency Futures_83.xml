@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_83" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For USDINR, if futures price = 83.40 and contract size = 1000, the contract value per lot is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 83,400]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 8,340]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 834]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 8,34,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Contract value = Futures price × Lot size = 83.40 × 1000 = Rs. 83,400.
+**The Trap:** Simple multiplication — don't add extra zeros or miss a digit.
+**Cross-Exam Context:** Contract value calculation is fundamental to Series I.
+**Distributor's Pro-Tip:** This contract value determines margin requirements. At 3% margin, initial margin ≈ Rs. 2,502 per lot.]]></text></explanation>
+    </question>
+</QF>

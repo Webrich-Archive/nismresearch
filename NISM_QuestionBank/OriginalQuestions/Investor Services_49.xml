@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Investor Services_49" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[For purchase transactions of Rs. 2 lakh and above, which additional condition must be met for same-day NAV applicability?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The investor must submit additional KYC documents]]></text></answer>
+            <answer correct="no"><text><![CDATA[The transaction must be approved by the fund manager]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The funds must be available/credited to the scheme's bank account before the cut-off time]]></text></answer>
+            <answer correct="no"><text><![CDATA[The investor must provide a declaration of source of funds]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For purchase transactions of Rs. 2 lakh and above, same-day NAV is applicable only if BOTH conditions are met: (1) the application is received before the cut-off time, AND (2) the funds are available (credited) in the scheme's bank account before the cut-off time. Simply submitting the application is not sufficient.
+
+**The Trap:** For smaller transactions (below Rs. 2 lakh), the NAV is determined based on application receipt time and the time of credit of funds to the recognized bank account of the scheme. But for Rs. 2 lakh and above, funds must be AVAILABLE before cut-off — this is a stricter condition.
+
+**Cross-Exam Context:** This rule prevents large investors from exploiting the gap between application submission and fund availability. Without this rule, a large investor could submit an application at 2:59 PM with a cheque that takes days to clear, locking in the current NAV.
+
+**Distributor's Pro-Tip:** For client transactions of Rs. 2 lakh or more, ALWAYS use RTGS or NEFT for same-day fund availability. Initiate the payment well before the cut-off time. A good practice is to complete the payment by noon to account for any banking delays, especially for mid-afternoon cut-offs.]]></text></explanation>
+    </question>
+</QF>

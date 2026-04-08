@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_104" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader buys a Nifty 17,500 call at Rs. 200 and buys a Nifty 17,500 put at Rs. 180. If Nifty closes at 17,100 at expiry, what is the net profit/loss?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Profit of Rs. 20]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 380]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 200]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 400]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Long Straddle payoff at expiry:
+
+Step-by-step:
+1. Call payoff = max(17,100 - 17,500, 0) = Rs. 0
+2. Put payoff = max(17,500 - 17,100, 0) = Rs. 400
+3. Total payoff = 0 + 400 = Rs. 400
+4. Total premium = 200 + 180 = Rs. 380
+5. Net profit = 400 - 380 = Rs. 20
+
+**The Trap:** In a straddle, profit can come from EITHER direction. Here the put provides the payoff.
+
+**Cross-Exam Context:** Straddle profits from big moves in EITHER direction. Loss if stock stays near strike.
+
+**Key Takeaway:** Straddle: both sides are calculated. Here put payoff = 400 > total premium 380.]]></text></explanation>
+    </question>
+</QF>

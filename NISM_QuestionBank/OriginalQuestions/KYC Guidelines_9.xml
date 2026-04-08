@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="KYC Guidelines_9" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is the role of KYC Registration Agencies (KRAs) in the securities market?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Centralization of KYC records so that KYC done by one intermediary can be used by others]]></text></answer>
+            <answer correct="no"><text><![CDATA[Directly conducting KYC verification of all clients]]></text></answer>
+            <answer correct="no"><text><![CDATA[Granting licenses to intermediaries for conducting business]]></text></answer>
+            <answer correct="no"><text><![CDATA[Collecting fees from clients for KYC processing]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** KRAs are established for CENTRALIZATION of KYC records in the securities market. They are administered under SEBI KYC Registration Agency (KRA) Regulations, 2011. The purpose is that once KYC is done with one intermediary and uploaded to KRA, other intermediaries can download it without repeating the process.
+
+**The Trap:** KRAs do not directly conduct KYC -- that remains the intermediary's responsibility. KRAs are registries/databases, not verifiers. They do not grant licenses or collect fees from clients.
+
+**Cross-Exam Context:** In NISM V-A, mutual fund distributors interact with KRAs like CDSL Ventures (CVL) or NSDL Database Management (NDML). Understanding KRA's centralization role helps appreciate the "do KYC once, use everywhere" principle.
+
+**Distributor's Pro-Tip:** After completing initial KYC, upload to the KRA system within 3 working days. When a client approaches you who already has KYC with another intermediary, download their records from KRA instead of starting fresh -- this saves time and improves client experience.]]></text></explanation>
+    </question>
+</QF>

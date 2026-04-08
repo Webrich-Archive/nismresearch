@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_17" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Exposure margin in equity derivatives serves the purpose of:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Providing an additional safety cushion over and above the initial margin to cover potential mark-to-market losses]]></text></answer>
+            <answer correct="no"><text><![CDATA[Replacing the initial margin requirement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Covering brokerage and transaction costs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Providing funds for the settlement guarantee fund]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Exposure margin is an additional margin collected on top of SPAN/initial margin. It provides a second line of defense against potential losses, especially in volatile markets or when positions move adversely between margin computation intervals. For index futures, it is typically 3% of the notional value. For stock futures, it is higher (5% or 1.5 standard deviations, whichever is higher).
+
+**The Trap:** Exposure margin does not replace initial margin - it is IN ADDITION to initial margin. Total margin = Initial (SPAN) margin + Exposure margin.
+
+**Cross-Exam Context:** The two-tier margin structure (SPAN + Exposure) is specific to Indian markets.
+
+**Key Takeaway:** Total margin = SPAN margin + Exposure margin. Exposure margin is additional safety buffer. Index: 3%. Stocks: 5% or 1.5 SD.]]></text></explanation>
+    </question>
+</QF>

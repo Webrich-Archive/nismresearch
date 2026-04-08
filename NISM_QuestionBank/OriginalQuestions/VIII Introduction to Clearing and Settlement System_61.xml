@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_61" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader has a short Nifty futures position. Previous settlement price is 22,300. Today's settlement price is 22,150. Lot size is 25, and the trader holds 2 lots. The MTM credit for today is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 7,500 (profit)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 7,500 (loss)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 3,750 (profit)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 15,000 (profit)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step:
+1. Short position: profit when price falls
+2. MTM = (Previous settlement - Current settlement) x Lot size x Lots
+3. MTM = (22,300 - 22,150) x 25 x 2 = 150 x 50 = Rs. 7,500 (Profit/Credit)
+
+Price fell by 150 points, benefiting the short position.
+
+**The Trap:** For SHORT positions, a price decrease = profit (credit). Some students reverse the formula. Remember: Short profits when price falls.
+
+**Cross-Exam Context:** Short position MTM credits and debits must be correctly identified.
+
+**Key Takeaway:** Short MTM = (Previous - Current) x Qty. Positive = profit. Negative = loss. Opposite of long position formula.]]></text></explanation>
+    </question>
+</QF>

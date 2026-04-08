@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_22" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The underlying asset for a Nifty 50 futures contract is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The Nifty 50 index, which is a basket of 50 large-cap stocks listed on the National Stock Exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[The shares of the 50 companies that constitute the Nifty 50 index, delivered physically on expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[A Government of India security with a face value equal to the Nifty 50 index value]]></text></answer>
+            <answer correct="no"><text><![CDATA[The exchange-traded fund (ETF) that tracks the Nifty 50 index]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The underlying for Nifty 50 futures is the Nifty 50 INDEX itself (a number representing the weighted average of 50 stock prices). Since an index cannot be physically delivered, index futures are CASH SETTLED - the difference between the futures price and the final settlement price (closing value of the index) is settled in cash.
+
+**The Trap:** Index futures are NOT settled by delivering the 50 component stocks. The underlying is the index value, not the physical shares. Stock futures (individual stock futures) have the actual stock as the underlying and are physically settled.
+
+**Cross-Exam Context:** The distinction between cash-settled index derivatives and physically-settled stock derivatives is critical for Series VIII.
+
+**Key Takeaway:** Index futures = cash settled (underlying is the index value). Stock futures = physically settled (since Oct 2019).]]></text></explanation>
+    </question>
+</QF>

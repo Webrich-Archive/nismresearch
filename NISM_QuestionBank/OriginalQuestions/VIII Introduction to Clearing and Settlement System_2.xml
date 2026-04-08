@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The primary benefit of having a clearing corporation as the central counterparty is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Elimination of counterparty credit risk as the clearing corporation guarantees performance]]></text></answer>
+            <answer correct="no"><text><![CDATA[Lower transaction costs for all market participants]]></text></answer>
+            <answer correct="no"><text><![CDATA[Higher returns for traders due to better price discovery]]></text></answer>
+            <answer correct="no"><text><![CDATA[Faster order execution on the trading platform]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The CCP model eliminates counterparty credit risk. When A trades with B, neither A nor B bears the risk of the other defaulting. The clearing corporation guarantees that if one party defaults, the other will still receive their settlement. This is achieved through margin collection, settlement guarantee fund, and default waterfall.
+
+**The Trap:** The CCP does not directly affect order execution speed (that is the trading system) or transaction costs (those depend on brokerage and exchange fees).
+
+**Cross-Exam Context:** Counterparty risk elimination is the cornerstone of exchange-traded vs OTC derivatives.
+
+**Key Takeaway:** CCP eliminates counterparty risk. This is the key advantage of exchange-traded derivatives over OTC derivatives.]]></text></explanation>
+    </question>
+</QF>

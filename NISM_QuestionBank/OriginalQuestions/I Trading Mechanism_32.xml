@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Trading Mechanism_32" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The main components of an order in the trading system include:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Price, Time, Quantity, Contract, Action (Buy/Sell), Client Identity (UCC), and Pro/Cli identifier]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only Price and Quantity]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only Contract and Client Identity]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only Price, Quantity, and Action]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A complete order includes: price, time condition, quantity/lots, security/contract, buy or sell action, client UCC and PAN, proprietary or client indicator, and CP code.
+**The Trap:** All components are required — missing any component will result in order rejection.
+**Cross-Exam Context:** Order components are tested in Series I.
+**Distributor's Pro-Tip:** The Pro/Cli identifier distinguishes broker's proprietary trades from client trades — important for regulatory reporting.]]></text></explanation>
+    </question>
+</QF>

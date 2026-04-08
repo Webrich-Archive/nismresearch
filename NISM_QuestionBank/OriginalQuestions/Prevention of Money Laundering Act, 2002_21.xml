@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="Prevention of Money Laundering Act, 2002_21" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Under Section 2(fa) of PMLA, a "beneficial owner" in relation to a client is defined as the natural person who:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Is the registered holder of shares or securities in the client entity]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Ultimately owns or controls the client, or the person on whose behalf a transaction is being conducted]]></text></answer>
+            <answer correct="no"><text><![CDATA[Has been authorized by the client to operate the account on their behalf]]></text></answer>
+            <answer correct="no"><text><![CDATA[Holds a power of attorney to conduct financial transactions for the client]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Section 2(fa) of PMLA defines "beneficial owner" as the natural person who ultimately owns or controls the client, or the person on whose behalf a transaction is being conducted. The emphasis is on "natural person" (not a legal entity) and "ultimate" ownership or control — meaning you must look through all layers of corporate structure to identify the real human being behind the transactions.
+
+**The Trap:** The first option describes a registered/legal owner, not a beneficial owner — these can be different. The third and fourth options describe authorized signatories or power of attorney holders, who act on behalf of the client but are not necessarily the ultimate beneficial owners. The key distinction is "ultimate" ownership or control.
+
+**Cross-Exam Context:** Beneficial ownership identification is central to Customer Due Diligence (CDD) requirements tested across NISM exams. In NISM XXIV, questions may test both the definition and the specific thresholds (e.g., 10% ownership for companies, 15% for trusts) that trigger beneficial owner identification.
+
+**Key Takeaway:** Beneficial owner = natural person + ultimate ownership/control OR person on whose behalf the transaction is conducted. Always look through corporate veils to find the real human being.]]></text></explanation>
+    </question>
+</QF>

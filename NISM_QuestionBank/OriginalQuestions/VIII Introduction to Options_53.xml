@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_53" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For an option SELLER (writer), theta has what effect on their position?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Positive effect - the writer benefits from time decay as the option loses value over time]]></text></answer>
+            <answer correct="no"><text><![CDATA[Negative effect - the writer suffers from time decay]]></text></answer>
+            <answer correct="no"><text><![CDATA[No effect - theta only impacts option buyers]]></text></answer>
+            <answer correct="no"><text><![CDATA[Variable effect - it depends on whether the option is a call or put]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For option SELLERS (writers):
+- Theta works in their FAVOR (positive theta position)
+- Each passing day, the option loses time value
+- If the underlying doesn't move, the option becomes cheaper for the writer to buy back
+- The writer keeps more of the premium as time passes
+
+**The Trap:** Theta is negative for BUYERS (time works against them) but positive for SELLERS.
+
+**Cross-Exam Context:** "Sell options and let time decay work for you" is a common writing strategy.
+
+**Key Takeaway:** Buyer: negative theta (time enemy). Seller: positive theta (time is friend).]]></text></explanation>
+    </question>
+</QF>

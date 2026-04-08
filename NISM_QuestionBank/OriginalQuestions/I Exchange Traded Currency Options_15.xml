@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The Black-Scholes model requires which five inputs?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Spot price, Strike price, Volatility, Time to expiry, Risk-free interest rate]]></text></answer>
+            <answer correct="no"><text><![CDATA[Spot price, Forward price, Delta, Gamma, Theta]]></text></answer>
+            <answer correct="no"><text><![CDATA[Spot price, Strike price, Volume, Open interest, Margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[Spot price, Strike price, Dividend yield, GDP growth rate, Inflation rate]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Black-Scholes uses: (1) Spot price (S), (2) Strike price (X), (3) Volatility (σ), (4) Time to expiry (t), (5) Risk-free rate (r). These five factors determine the option premium.
+**The Trap:** The Greeks (Delta, Gamma etc.) are OUTPUTS of the model, not inputs.
+**Cross-Exam Context:** Black-Scholes inputs are tested in Series I and VIII.
+**Distributor's Pro-Tip:** Indian exchanges use the Black-Scholes model for currency option theoretical price computation.]]></text></explanation>
+    </question>
+</QF>

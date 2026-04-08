@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investor in a gold ETF (priced in INR) wants to remove USDINR risk from the investment. What strategy should they use?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Short USDINR currency futures or buy USDINR put option for the ETF investment amount]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy USDINR currency futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy gold futures directly]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell the gold ETF and buy physical gold]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Gold ETF in INR carries embedded USDINR risk (gold is priced in USD globally). Shorting USDINR futures removes the currency component — if INR appreciates, futures profit offsets ETF underperformance.
+**The Trap:** Buying USDINR futures would ADD currency exposure, not remove it.
+**Cross-Exam Context:** Cross-asset hedging using currency derivatives is tested in Series I.
+**Distributor's Pro-Tip:** This doesn't perfectly remove risk because futures premium/discount also varies, but it significantly reduces USDINR spot risk.]]></text></explanation>
+    </question>
+</QF>

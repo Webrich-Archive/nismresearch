@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_85" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader buys a call with strike Rs. 2,200 at premium Rs. 75 and also buys a put with strike Rs. 2,200 at premium Rs. 65. What is the call BEP and put BEP respectively?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Call BEP: Rs. 2,275 and Put BEP: Rs. 2,135]]></text></answer>
+            <answer correct="no"><text><![CDATA[Call BEP: Rs. 2,135 and Put BEP: Rs. 2,275]]></text></answer>
+            <answer correct="no"><text><![CDATA[Call BEP: Rs. 2,340 and Put BEP: Rs. 2,060]]></text></answer>
+            <answer correct="no"><text><![CDATA[Call BEP: Rs. 2,200 and Put BEP: Rs. 2,200]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** 
+Call BEP = Strike + Call Premium = 2,200 + 75 = Rs. 2,275
+Put BEP = Strike - Put Premium = 2,200 - 65 = Rs. 2,135
+
+Step-by-step:
+1. Call: X = 2,200, P = 75 → BEP = 2,200 + 75 = 2,275
+2. Put: X = 2,200, P = 65 → BEP = 2,200 - 65 = 2,135
+
+**The Trap:** Call BEP goes ABOVE strike. Put BEP goes BELOW strike.
+
+**Cross-Exam Context:** This forms a straddle-like position with two BEPs (upper and lower).
+
+**Key Takeaway:** Call BEP = X + P (above strike). Put BEP = X - P (below strike).]]></text></explanation>
+    </question>
+</QF>

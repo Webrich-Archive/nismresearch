@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_120" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader expects the cost of carry to increase in the market (interest rates are expected to rise). Which calendar spread position would benefit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy the far-month futures and sell the near-month futures, because rising cost of carry increases the premium of far-month contracts more than near-month contracts, widening the spread]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell the far-month futures and buy the near-month futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy both near and far-month futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[The cost of carry change does not affect calendar spreads]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The spread between far-month and near-month futures is primarily determined by the cost of carry. If carry cost increases:
+- Far-month premium increases more (longer time period for carry to accumulate)
+- Near-month premium increases less (shorter period)
+- Spread = Far - Near WIDENS
+
+To profit from widening spread: Buy far-month + Sell near-month.
+
+**The Trap:** Selling far and buying near would LOSE if spread widens. Buying both is a directional bet. Cost of carry absolutely affects calendar spreads - it is the primary driver.
+
+**Cross-Exam Context:** Understanding what drives the inter-month spread is an advanced Series VIII concept.
+
+**Key Takeaway:** Rising cost of carry -> Spread widens -> Long far month + Short near month profits.]]></text></explanation>
+    </question>
+</QF>

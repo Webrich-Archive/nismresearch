@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_32" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A put option is priced at Rs. 0.50 with rho of -0.05. If interest rate decreases from 5% to 4%, what is the new put price?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 0.55]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.45]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.60]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Rho = -0.05 means a 1% increase in rates reduces put price by 0.05. A 1% DECREASE increases put price: New = 0.50 - (-0.05 × -1) = 0.50 + 0.05 = Rs. 0.55.
+**The Trap:** Put rho is negative — rate decrease INCREASES put value. Rate increase decreases it.
+**Cross-Exam Context:** Rho calculation is tested in Series I and VIII.
+**Distributor's Pro-Tip:** Rho's impact is usually small compared to delta and vega for short-term currency options.]]></text></explanation>
+    </question>
+</QF>

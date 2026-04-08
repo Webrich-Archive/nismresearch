@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Foreign Exchange Derivatives_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the context of exchange-traded derivatives, what does 'novation' refer to?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The process by which the Clearing Corporation becomes the central counterparty (CCP) to both buyer and seller]]></text></answer>
+            <answer correct="no"><text><![CDATA[The process of introducing new derivative products on the exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[The daily mark-to-market settlement process]]></text></answer>
+            <answer correct="no"><text><![CDATA[The process of converting OTC contracts into exchange-traded contracts]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Through novation, the Clearing Corporation interposes itself between buyer and seller, becoming the buyer to every seller and the seller to every buyer. This eliminates counterparty credit risk.
+**The Trap:** Novation is about changing the counterparty relationship, not about introducing new products.
+**Cross-Exam Context:** CCP and novation concepts are tested in Series I, VII, and VIII.
+**Distributor's Pro-Tip:** Novation provides 'trade guarantee' — even if one party defaults, the other party's position is protected by the Clearing Corporation.]]></text></explanation>
+    </question>
+</QF>

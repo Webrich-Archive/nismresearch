@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV TER and Pricing_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A fund of funds (FoF) scheme has invested Rs. 90 crore in underlying mutual fund schemes. It also holds Rs. 8 crore in cash and bank deposits. The scheme has accrued expenses of Rs. 0.50 crore and other liabilities of Rs. 0.50 crore. If there are 9.70 crore units outstanding, what is the NAV?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 10.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 10.10]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 9.28]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 10.31]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Total Assets = Rs. 90 crore (investments) + Rs. 8 crore (cash) = Rs. 98 crore. Total Liabilities = Rs. 0.50 crore (accrued expenses) + Rs. 0.50 crore (other liabilities) = Rs. 1 crore. NAV = (Rs. 98 crore - Rs. 1 crore) / 9.70 crore = Rs. 97 crore / 9.70 crore = Rs. 10.00.
+
+**The Trap:** Rs. 10.10 divides total assets (Rs. 98 crore) by units without subtracting liabilities. Rs. 9.28 divides only the investment portion (Rs. 90 crore) by units, forgetting cash holdings. Rs. 10.31 divides Rs. 100 crore (rounded total) by 9.70 crore. FoF NAV computation is the same formula — investments include units of other mutual fund schemes.
+
+**Cross-Exam Context:** Fund of Funds invest in units of other mutual fund schemes rather than directly in securities. The NAV computation follows the same formula. The market value of investments for a FoF is the current NAV-based value of underlying scheme units. Tested in NISM V-A.
+
+**Distributor's Pro-Tip:** FoF schemes have a double layer of TER — the FoF's own TER plus the TER of underlying schemes. However, SEBI has capped FoF TER at lower levels to prevent excessive cost layering. When recommending FoFs, always consider the total cost impact including both layers of expenses.]]></text></explanation>
+    </question>
+</QF>

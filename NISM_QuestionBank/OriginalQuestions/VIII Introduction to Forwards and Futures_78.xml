@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_78" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A stock futures contract has a price of Rs. 1,500, lot size of 1,000, and margin requirement of 20%. The trader has Rs. 5,00,000. How many lots can the trader take?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[1 lot (margin per lot is Rs. 3,00,000, and 2 lots would need Rs. 6,00,000)]]></text></answer>
+            <answer correct="no"><text><![CDATA[2 lots]]></text></answer>
+            <answer correct="no"><text><![CDATA[3 lots]]></text></answer>
+            <answer correct="no"><text><![CDATA[0 lots (insufficient funds)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+1. Contract value per lot = 1,500 x 1,000 = Rs. 15,00,000
+2. Margin per lot = 15,00,000 x 20% = Rs. 3,00,000
+3. Number of lots = Available funds / Margin per lot = 5,00,000 / 3,00,000 = 1.67
+4. Since fractional lots are not allowed: 1 lot (requires Rs. 3,00,000, leaving Rs. 2,00,000 balance)
+
+**The Trap:** 2 lots would need Rs. 6,00,000 (exceeds Rs. 5,00,000). The trader CAN afford 1 lot (Rs. 3,00,000 < Rs. 5,00,000), so 0 lots is wrong.
+
+**Cross-Exam Context:** Position sizing based on available capital is a practical Series VIII concept.
+
+**Key Takeaway:** Max lots = Floor(Available Capital / Margin per Lot). Always round DOWN since partial lots are not permitted.]]></text></explanation>
+    </question>
+</QF>

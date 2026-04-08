@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Trading Systems_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A stop-loss order in derivatives:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Gets activated only when the market price reaches the trigger price, after which it becomes a limit order or market order]]></text></answer>
+            <answer correct="no"><text><![CDATA[Is automatically executed at the stop price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Can only be placed for sell orders to limit losses]]></text></answer>
+            <answer correct="no"><text><![CDATA[Guarantees execution at the exact trigger price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A stop-loss order has a trigger price. The order remains dormant until the market price reaches the trigger price, at which point it becomes active. It can be a stop-loss limit order (SL) which then acts as a limit order, or a stop-loss market order (SL-M) which becomes a market order when triggered.
+
+**The Trap:** Stop-loss orders can be placed for both buy and sell positions. There is no guarantee of execution at the trigger price - slippage can occur, especially with SL orders if the limit price is not met.
+
+**Cross-Exam Context:** Stop-loss mechanics are tested in both equity and derivatives exams.
+
+**Key Takeaway:** Stop-loss order: dormant until trigger price reached. SL = triggered then limit order. SL-M = triggered then market order.]]></text></explanation>
+    </question>
+</QF>

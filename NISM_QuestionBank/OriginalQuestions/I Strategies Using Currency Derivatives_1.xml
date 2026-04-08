@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An exporter who will receive EUR and wants to convert to INR should hedge by:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Selling EURINR futures or buying EURINR put options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buying EURINR futures or buying EURINR call options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Selling USDINR futures or buying USDINR put options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buying EURUSD futures or buying EURUSD call options]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** An exporter receiving EUR faces the risk of EUR depreciation against INR. To hedge: sell EURINR futures (locks in the selling rate) or buy EURINR puts (insurance against EUR fall while keeping upside if EUR rises).
+**The Trap:** An importer PAYING in EUR would buy futures/calls. The exporter needs to SELL the foreign currency.
+**Cross-Exam Context:** Hedging direction is fundamental to Series I.
+**Distributor's Pro-Tip:** Remember: Receive foreign currency = Sell futures/Buy puts. Pay foreign currency = Buy futures/Buy calls.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_45" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The BEP for a bear call spread with strikes 83/83.50 and net premium 0.06 is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[83.06 (same as bull call spread with same strikes)]]></text></answer>
+            <answer correct="no"><text><![CDATA[83.44]]></text></answer>
+            <answer correct="no"><text><![CDATA[83.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[83.50]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** BEP = Lower strike + Net premium = 83 + 0.06 = 83.06. BEP is instrument-specific (dependent on strikes and premiums), not position-specific.
+**The Trap:** Both bull and bear call spreads with the same strikes and premiums have the SAME BEP.
+**Cross-Exam Context:** BEP invariance is tested in Series I.
+**Distributor's Pro-Tip:** Below 83.06: bear call spread profits, bull call spread loses. Above 83.06: reversed.]]></text></explanation>
+    </question>
+</QF>

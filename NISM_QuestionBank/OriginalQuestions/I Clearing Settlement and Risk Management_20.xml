@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When a client's or TM's position exceeds the specified position limit, the exchange can:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Restrain the TM from taking further positions and provide close-out facility for excess positions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Automatically liquidate all positions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Ignore the breach if it's temporary]]></text></answer>
+            <answer correct="no"><text><![CDATA[Transfer the excess to the exchange's own account]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For client-level breaches: TM is restrained from new positions in that contract for that client. Close-out facility is provided to reduce positions. For TM-level breaches: similar restrictions.
+**The Trap:** Positions are NOT automatically liquidated — the TM/client gets a chance to reduce them.
+**Cross-Exam Context:** Position limit enforcement is tested in Series I.
+**Distributor's Pro-Tip:** Monitoring is done by both exchanges and clearing corporations, with daily dissemination of applicable position limits.]]></text></explanation>
+    </question>
+</QF>

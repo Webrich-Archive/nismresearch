@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_118" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Why might a conservative investor write (sell) covered call options on stocks they already hold?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[To earn additional income from the premium while willing to sell at the strike price if required]]></text></answer>
+            <answer correct="no"><text><![CDATA[To gain unlimited profit potential on the stock position]]></text></answer>
+            <answer correct="no"><text><![CDATA[To completely eliminate all risk on the stock position]]></text></answer>
+            <answer correct="no"><text><![CDATA[To increase leverage and buy more shares]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Covered call writing benefits:
+1. EARN INCOME: premium collected provides additional return
+2. REDUCE COST BASIS: effective purchase price lowered by premium
+3. SLIGHT DOWNSIDE BUFFER: premium provides limited protection
+
+Trade-off: capped upside - if stock rises above strike, shares are called away.
+
+**The Trap:** Covered calls do NOT eliminate all risk. Stock can still fall below purchase price minus premium.
+
+**Cross-Exam Context:** Covered calls are considered relatively conservative among option strategies.
+
+**Key Takeaway:** Covered calls = income generation + slight downside buffer. Gives up unlimited upside.]]></text></explanation>
+    </question>
+</QF>

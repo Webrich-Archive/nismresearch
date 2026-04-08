@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Taxation_18" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Under the SEBI regulations, what is the minimum lock-in period for ELSS (Equity Linked Savings Scheme) investments that qualify for tax deduction under Section 80C?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[5 years from the date of investment]]></text></answer>
+            <answer correct="yes"><text><![CDATA[3 years from the date of allotment of units]]></text></answer>
+            <answer correct="no"><text><![CDATA[1 year from the date of investment]]></text></answer>
+            <answer correct="no"><text><![CDATA[3 years from the end of the financial year of investment]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** ELSS has a mandatory lock-in period of 3 years from the date of allotment of units. This is the shortest lock-in among all Section 80C qualifying instruments. The lock-in is per-unit, meaning each SIP installment has its own 3-year lock-in from its allotment date.
+
+**The Trap:** Option A uses 5 years (applicable to tax-saving FDs and NSC). Option C's 1 year is too short. Option D incorrectly calculates from end of FY. The lock-in starts from date of allotment, not from end of financial year.
+
+**Cross-Exam Context:** This is a regulatory question. ELSS lock-in is 3 years, PPF is 15 years, NSC is 5 years, Tax-saving FD is 5 years. For SIP investments in ELSS, each installment has its own 3-year lock-in.
+
+**Distributor's Pro-Tip:** For SIP-based ELSS investments, units allotted in different months have different maturity dates. The first SIP installment becomes free after 3 years, but the 12th installment only matures 11 months later.]]></text></explanation>
+    </question>
+</QF>

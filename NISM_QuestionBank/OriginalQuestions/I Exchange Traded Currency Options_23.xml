@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_23" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An increase in risk-free interest rates will cause:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Call premium to increase and Put premium to decrease]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both call and put premiums to increase]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both call and put premiums to decrease]]></text></answer>
+            <answer correct="no"><text><![CDATA[Call premium to decrease and Put premium to increase]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Higher interest rates increase the cost of carry, benefiting call holders (opportunity cost of buying now vs later). Calls have positive Rho; Puts have negative Rho.
+**The Trap:** Interest rate effect is OPPOSITE for calls and puts — unlike volatility and time which affect both the same way.
+**Cross-Exam Context:** Interest rate impact on options is tested in Series I and VIII.
+**Distributor's Pro-Tip:** In practice, interest rate changes have a smaller impact on short-term currency options compared to spot price and volatility changes.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Risk Return and Performance_47" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[CASE STUDY: An investment adviser is evaluating two equity mutual funds for her clients. The data for the past 3 years is as follows:
+
+- Fund Alpha: Annual Return = 18%, Standard Deviation = 15%, Beta = 1.3
+- Fund Beta: Annual Return = 14%, Standard Deviation = 10%, Beta = 0.9
+- Risk-Free Rate = 7%, Market (Benchmark) Return = 14%
+
+Question 1 of 4: What are the Sharpe ratios of Fund Alpha and Fund Beta respectively?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Fund Alpha = 1.20, Fund Beta = 1.40]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Fund Alpha = 0.73, Fund Beta = 0.70]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fund Alpha = 0.60, Fund Beta = 0.90]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fund Alpha = 0.50, Fund Beta = 0.80]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Sharpe Ratio = (Fund Return - Risk-Free Rate) / Standard Deviation.
+Fund Alpha Sharpe = (18% - 7%) / 15% = 11/15 = 0.733, rounded to 0.73.
+Fund Beta Sharpe = (14% - 7%) / 10% = 7/10 = 0.70.
+Fund Alpha has a marginally higher Sharpe ratio (0.73 vs 0.70), indicating slightly better risk-adjusted returns when using total risk (standard deviation) as the risk measure.
+
+**The Trap:** Option A (1.20, 1.40) would result from dividing total return by standard deviation instead of excess return. The difference between the two Sharpe ratios is very small (0.73 vs 0.70), which means on a total-risk-adjusted basis, both funds perform similarly despite very different absolute returns and risk profiles.
+
+**Cross-Exam Context:** The Sharpe ratio is the most widely used risk-adjusted performance measure. In this case study, Fund Alpha has higher return AND higher risk, while Fund Beta has lower return AND lower risk. The Sharpe ratio normalizes this, showing that both funds are roughly equally efficient at converting total risk into excess return.
+
+**Distributor's Pro-Tip:** When the Sharpe ratios of two funds are very close, the choice between them should depend on the client's risk tolerance rather than the ratio alone. Fund Alpha suits aggressive investors who can handle 15% volatility, while Fund Beta suits conservative investors comfortable with only 10% volatility.]]></text></explanation>
+    </question>
+</QF>

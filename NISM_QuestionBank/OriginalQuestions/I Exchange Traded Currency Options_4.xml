@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A call option is said to be 'In the Money' (ITM) when:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Spot price of the underlying > Strike price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Spot price of the underlying < Strike price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Spot price of the underlying = Strike price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The option premium is positive]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Call ITM: Spot > Strike (exercising generates positive cash flow). Put ITM: Spot < Strike. ATM: Spot = Strike. OTM: opposite of ITM.
+**The Trap:** For PUT options, ITM is when Spot < Strike — the opposite of calls.
+**Cross-Exam Context:** Moneyness classification is tested in all options-related exams.
+**Distributor's Pro-Tip:** Only ITM options have intrinsic value. ATM and OTM options have zero intrinsic value (their premium is entirely time value).]]></text></explanation>
+    </question>
+</QF>

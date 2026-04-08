@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Mutual Funds_45" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investor redeems 500 units from a mutual fund at NAV of Rs. 24. The scheme charges an exit load of 1%. What is the total redemption amount the investor will receive?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 11,880]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 12,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 11,760]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 12,120]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Redemption price per unit = NAV x (1 - Exit Load %) = Rs. 24 x (1 - 0.01) = Rs. 24 - Rs. 0.24 = Rs. 23.76. Total redemption amount = 500 units x Rs. 23.76 = Rs. 11,880. This is exactly the example used in the NISM workbook.
+
+**The Trap:** Rs. 12,000 ignores the exit load (500 x 24). Rs. 11,760 may result from double-counting the load. Rs. 12,120 adds the load instead of deducting it. Remember: exit load is always deducted from NAV to arrive at the redemption price.
+
+**Cross-Exam Context:** MF topics overlap with Series V-A, V-B. Exit load calculation is a standard numerical question appearing in all MF certification exams.
+
+**Distributor's Pro-Tip:** Always disclose exit load implications to investors before they invest. A 1% exit load on Rs. 12,000 is Rs. 120 — not a large amount, but investors appreciate transparency. Also clarify the holding period after which the exit load becomes nil.]]></text></explanation>
+    </question>
+</QF>

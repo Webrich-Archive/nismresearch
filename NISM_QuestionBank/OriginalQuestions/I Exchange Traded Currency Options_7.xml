@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following factors affect BOTH call and put option premiums in the SAME direction?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Volatility and Time to expiry (both increase premiums when they increase)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Spot price and Strike price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Interest rates and Time to expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Spot price and Volatility]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Higher volatility → higher premiums for BOTH calls and puts (more chance of becoming ITM). Longer time → higher premiums for BOTH (more uncertainty). Spot price and interest rates affect calls and puts in OPPOSITE directions.
+**The Trap:** Spot ↑ → Call ↑ but Put ↓. Interest rate ↑ → Call ↑ but Put ↓. Only volatility and time affect both the same way.
+**Cross-Exam Context:** Factor sensitivity table is heavily tested in Series I and VIII.
+**Distributor's Pro-Tip:** Remember: Volatility and Time are always 'option-friendly' — they increase the value of both calls and puts.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_54" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If the spot price of a stock is Rs. 500, the risk-free rate is 10% per annum, the dividend yield is 2%, and the futures expire in 180 days, what is the fair futures price using F = S(1+r-q)^(T/365)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 519.27 (approximately)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 540.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 520.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 500.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+F = S x (1 + r - q)^(T/365)
+F = 500 x (1 + 0.10 - 0.02)^(180/365)
+F = 500 x (1.08)^(0.4932)
+F = 500 x 1.03854
+F = Rs. 519.27
+
+**The Trap:** Rs. 540.00 uses full-year carry (500 x 1.08). Rs. 520.00 uses simple interest (500 + 500x0.08x180/365). Rs. 500.00 ignores cost of carry. The compounding for a fraction of a year is crucial.
+
+**Cross-Exam Context:** Students must be able to calculate fair value for different time periods in Series VIII.
+
+**Key Takeaway:** For partial year: use exponent T/365. F = 500 x (1.08)^(180/365) = Rs. 519.27.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Basics of Derivatives_18" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which statement about options is correct?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The buyer of an option has the right but not the obligation to exercise the contract, and pays a premium for this right]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both the buyer and seller of an option have the right to exercise the contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[The seller of an option pays a premium to the buyer for the obligation to perform]]></text></answer>
+            <answer correct="no"><text><![CDATA[Options are always OTC instruments and cannot be traded on exchanges]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** An option gives the buyer (holder) the right, but not the obligation, to buy or sell the underlying asset at a predetermined price. The buyer pays a premium to the seller (writer) for this right. The seller has the obligation to perform if the buyer exercises.
+**The Trap:** Only the buyer has the right; the seller has the obligation. The buyer pays premium to the seller, not the other way around. Options can be both OTC and exchange-traded (CBOE started exchange-traded options in 1973).
+**Cross-Exam Context:** Options concepts are central to NISM Series VIII and XIII. Understanding the asymmetry of rights (buyer has right, seller has obligation) is critical.
+**Key Takeaway:** Option buyer = right (not obligation) + pays premium. Option seller = obligation + receives premium. This asymmetry is what makes options unique among derivatives.]]></text></explanation>
+    </question>
+</QF>

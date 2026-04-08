@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_31" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The breakeven point (BEP) for a long call option buyer is calculated as:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Strike Price + Premium Paid]]></text></answer>
+            <answer correct="no"><text><![CDATA[Strike Price - Premium Paid]]></text></answer>
+            <answer correct="no"><text><![CDATA[Spot Price + Premium Paid]]></text></answer>
+            <answer correct="no"><text><![CDATA[Spot Price - Premium Paid]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Call BEP = Strike Price + Premium Paid
+At BEP, the option payoff exactly equals the premium paid, resulting in zero profit/loss.
+
+Example: Strike = 17,500, Premium = 200
+BEP = 17,500 + 200 = 17,700
+At spot 17,700: Payoff = 17,700 - 17,500 = 200 = Premium paid. Net P/L = 0.
+
+**The Trap:** Put BEP = Strike - Premium (opposite direction). Don't confuse the two.
+
+**Cross-Exam Context:** BEP questions are among the most frequently asked calculation questions.
+
+**Key Takeaway:** Call BEP = X + P. Put BEP = X - P.]]></text></explanation>
+    </question>
+</QF>

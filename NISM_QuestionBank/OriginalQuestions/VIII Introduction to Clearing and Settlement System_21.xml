@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An option buyer's maximum risk is limited to the premium paid. Therefore, the margin requirement for an option buyer is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The premium amount payable (premium margin), with no additional SPAN or exposure margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[SPAN margin + exposure margin, same as the option seller]]></text></answer>
+            <answer correct="no"><text><![CDATA[No margin is required from option buyers]]></text></answer>
+            <answer correct="no"><text><![CDATA[50% of the premium amount only]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Since an option buyer's maximum loss is limited to the premium paid, the clearing corporation collects only the premium margin from the buyer. No additional SPAN or exposure margin is needed because the buyer cannot lose more than the premium.
+
+**The Trap:** Some think no margin is needed from buyers since they pay the premium. But premium margin IS collected upfront to ensure the buyer can pay. The premium margin equals the net option premium payable.
+
+**Cross-Exam Context:** This is a direct factual question that tests understanding of option margin structure.
+
+**Key Takeaway:** Option buyer: Premium margin only. Option seller: SPAN + Exposure margin. This reflects the asymmetric risk profile of options.]]></text></explanation>
+    </question>
+</QF>

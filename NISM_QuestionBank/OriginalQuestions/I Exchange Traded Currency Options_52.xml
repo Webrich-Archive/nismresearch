@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_52" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following is TRUE about options vs futures payoffs?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Options have asymmetric payoffs; Futures have symmetric (linear) payoffs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both have symmetric payoffs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both have asymmetric payoffs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Options have symmetric payoffs; Futures have asymmetric payoffs]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Options are asymmetric: buyer's loss is capped at premium, but profit potential is unlimited. Futures are symmetric: both long and short have unlimited profit AND unlimited loss potential.
+**The Trap:** This asymmetry is the fundamental reason options are used for insurance-style hedging.
+**Cross-Exam Context:** Payoff comparison is tested in Series I and VIII.
+**Distributor's Pro-Tip:** Asymmetric payoff = 'keep the upside, limit the downside'. This is why hedgers pay the option premium.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Legal and Regulatory Framework_36" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the purpose of the Employee Unique Identification Number (EUIN) in mutual fund distribution?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[It replaces the ARN number for all mutual fund transactions]]></text></answer>
+            <answer correct="no"><text><![CDATA[It is required only for transactions above Rs. 10 lakh]]></text></answer>
+            <answer correct="yes"><text><![CDATA[It uniquely identifies the individual employee/relationship manager of a distributor entity who interacted with the investor for a particular transaction]]></text></answer>
+            <answer correct="no"><text><![CDATA[It is a KYC identification number for the investor]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The EUIN (Employee Unique Identification Number) is a unique identification number assigned to every individual employee, sales representative, or relationship manager of a mutual fund distribution entity who interacts with investors. While the ARN identifies the distribution entity/firm, the EUIN identifies the specific individual within that entity who advised or facilitated the transaction. SEBI mandated EUIN to ensure individual-level accountability in mutual fund distribution.
+
+**The Trap:** EUIN does NOT replace ARN — both are required. It is required for ALL advisory transactions (not just above a threshold). It is NOT an investor KYC number. The EUIN is about distributor-side individual accountability, while KYC is about investor-side identity verification.
+
+**Cross-Exam Context:** EUIN is tested in Series V-A, V-B, and XXIV. It was introduced to address situations where a large distribution firm's employee mis-sold products but the firm disclaimed responsibility. With EUIN, the specific individual can be held accountable. Series III-A tests similar individual accountability concepts.
+
+**Distributor's Pro-Tip:** Always ensure your EUIN is mentioned on every transaction form. If you work for a distribution firm, your personal EUIN ties your advice to the transaction. If a complaint arises, the EUIN trail shows who was responsible. This is both a regulatory requirement and your professional accountability marker.]]></text></explanation>
+    </question>
+</QF>

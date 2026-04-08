@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the PRIMARY liquidity risk associated with forward contracts?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Forward contracts are difficult to exit before maturity because there is no secondary market, and finding a counterparty willing to take over the exact terms is very difficult]]></text></answer>
+            <answer correct="no"><text><![CDATA[Forward contracts have low liquidity because exchanges impose restrictions on the number of trades per day]]></text></answer>
+            <answer correct="no"><text><![CDATA[The liquidity risk arises because SEBI limits the maximum notional value of forward contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[Forward contracts can only be settled in cash, creating liquidity issues for parties who want physical delivery]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Since forward contracts are OTC and customized, there is no organized secondary market where they can be freely traded. If a party wants to exit before maturity, they must either (1) find the original counterparty and negotiate cancellation, or (2) find a third party willing to take over the exact customized terms - both of which are extremely difficult.
+
+**The Trap:** The liquidity issue is not about exchange restrictions or SEBI limits. It is the fundamental absence of a secondary market for customized OTC contracts.
+
+**Cross-Exam Context:** This limitation is the key reason futures markets evolved. Series I and VIII both test why exchange-traded derivatives are preferred.
+
+**Key Takeaway:** No secondary market = illiquid = hard to exit a forward contract.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_33" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A client buys a USDINR call at strike 75.50 and pays premium of Rs. 0.30. What is the BEP?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[75.80]]></text></answer>
+            <answer correct="no"><text><![CDATA[75.20]]></text></answer>
+            <answer correct="no"><text><![CDATA[75.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[76.10]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Call BEP = Strike + Premium = 75.50 + 0.30 = 75.80. The underlying must reach 75.80 for the trader to break even after accounting for premium paid.
+**The Trap:** 75.20 would be the BEP for a PUT option (X - P). For calls, ADD the premium.
+**Cross-Exam Context:** BEP calculation is from the NISM workbook sample questions.
+**Distributor's Pro-Tip:** Above 75.80, every paisa increase is pure profit. Below 75.80, the premium erosion exceeds the intrinsic value.]]></text></explanation>
+    </question>
+</QF>

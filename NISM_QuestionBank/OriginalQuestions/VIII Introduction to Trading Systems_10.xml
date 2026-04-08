@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Trading Systems_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the NSE derivatives segment, order matching follows which priority?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Price priority first, then time priority for orders at the same price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Time priority first, regardless of price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Order size priority first, then price priority]]></text></answer>
+            <answer correct="no"><text><![CDATA[Client orders have priority over proprietary orders at the same price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The NSE NEAT-F&O system follows price-time priority: (1) Best price gets first priority - for buy orders, highest price; for sell orders, lowest price. (2) Among orders at the same price, the order entered first (earliest timestamp) gets priority.
+
+**The Trap:** There is no size priority or client vs proprietary priority in the matching algorithm. All orders are treated equally based solely on price and time.
+
+**Cross-Exam Context:** Price-time priority is the standard order matching mechanism across Indian exchanges.
+
+**Key Takeaway:** Price-time priority: Best price matched first. Same price = earlier order matched first. No size or member-type preference.]]></text></explanation>
+    </question>
+</QF>

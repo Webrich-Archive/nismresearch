@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_47" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Trades not confirmed by Custodial Participants within the prescribed timeframe are:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Treated as trades of the trading member who entered them (proprietary)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cancelled by the exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[Settled at the next day's price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Transferred to the clearing corporation]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Unconfirmed CP trades are reclassified as TM's proprietary trades. The TM bears the responsibility for unconfirmed trades.
+**The Trap:** The trades are NOT cancelled — they become the TM's obligation.
+**Cross-Exam Context:** CP trade confirmation rules are tested in Series I and VII.
+**Distributor's Pro-Tip:** TMs must ensure CP trades are confirmed promptly to avoid taking on unintended exposure.]]></text></explanation>
+    </question>
+</QF>

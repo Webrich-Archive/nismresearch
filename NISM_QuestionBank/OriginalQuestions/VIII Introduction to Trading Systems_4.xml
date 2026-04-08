@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Trading Systems_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A market order in derivatives trading:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Is executed at the best available price in the market immediately]]></text></answer>
+            <answer correct="no"><text><![CDATA[Can only be placed during the pre-open session]]></text></answer>
+            <answer correct="no"><text><![CDATA[Specifies a price at which the order must be executed]]></text></answer>
+            <answer correct="no"><text><![CDATA[Is valid for multiple trading days until executed]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A market order instructs the broker to execute the trade at the best currently available price. It guarantees execution (if there is liquidity) but does not guarantee the exact price. It is suitable when the trader prioritizes speed of execution over price.
+
+**The Trap:** Market orders are not limited to pre-open sessions. They do not specify a price - that is a limit order feature. Derivatives orders are typically valid only for the day (not multi-day).
+
+**Cross-Exam Context:** Understanding the tradeoff between limit and market orders is tested across equity and derivatives exams.
+
+**Key Takeaway:** Market order: best price, immediate execution, no price guarantee. Use when execution speed matters more than exact price.]]></text></explanation>
+    </question>
+</QF>

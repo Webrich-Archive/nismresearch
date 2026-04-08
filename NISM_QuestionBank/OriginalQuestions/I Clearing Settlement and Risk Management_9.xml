@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For calendar spread positions in currency futures, the extreme loss margin is levied on:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[One-third of the mark-to-market value of the open position of the far month contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[The full mark-to-market value of both legs]]></text></answer>
+            <answer correct="no"><text><![CDATA[The near month contract only]]></text></answer>
+            <answer correct="no"><text><![CDATA[No ELM is charged on calendar spreads]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Calendar spread ELM = ELM on 1/3 of far month position's MTM value. This reduced margin reflects the lower risk of spread positions compared to outright positions.
+**The Trap:** It's 1/3 of the FAR month (not near month) and of MTM value (not notional).
+**Cross-Exam Context:** Calendar spread margin is tested in Series I.
+**Distributor's Pro-Tip:** Calendar spreads have lower margin requirements because the two legs partially offset each other's risk.]]></text></explanation>
+    </question>
+</QF>

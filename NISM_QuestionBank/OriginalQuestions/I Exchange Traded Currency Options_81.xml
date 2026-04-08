@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_81" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A higher strike price for a call option (all else equal) results in:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Lower call premium]]></text></answer>
+            <answer correct="no"><text><![CDATA[Higher call premium]]></text></answer>
+            <answer correct="no"><text><![CDATA[No change in premium]]></text></answer>
+            <answer correct="no"><text><![CDATA[Higher time value only]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Higher strike → less likely the call ends ITM → lower intrinsic and time value → lower premium. For puts, higher strike → higher premium.
+**The Trap:** For puts, it's the opposite — higher strike = higher put premium.
+**Cross-Exam Context:** Strike-premium relationship is tested in Series I and VIII.
+**Distributor's Pro-Tip:** Think of it as: the right to buy at a HIGHER price is less valuable. The right to sell at a HIGHER price is more valuable.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_17" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The Extreme Loss Margin for cross-currency futures (EURUSD, GBPUSD, USDJPY) is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[0.50%]]></text></answer>
+            <answer correct="no"><text><![CDATA[1%]]></text></answer>
+            <answer correct="no"><text><![CDATA[2%]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.25%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Cross-currency ELM = 0.50% for all three pairs (EURUSD, GBPUSD, USDJPY). INR-based pair ELM = 1% for USDINR.
+**The Trap:** Cross-currency pairs have LOWER ELM than INR pairs.
+**Cross-Exam Context:** ELM by pair type is tested in Series I.
+**Distributor's Pro-Tip:** Lower ELM reflects that major cross-currency pairs (like EURUSD) typically have lower volatility than emerging market pairs like USDINR.]]></text></explanation>
+    </question>
+</QF>

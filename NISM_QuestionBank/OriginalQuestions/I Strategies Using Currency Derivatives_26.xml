@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_26" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The choice of contract month for hedging should be such that:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The date of receipt/payment is close to but BEFORE the expiration date of the contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[The contract expires before the date of receipt/payment]]></text></answer>
+            <answer correct="no"><text><![CDATA[The contract and payment dates are as far apart as possible]]></text></answer>
+            <answer correct="no"><text><![CDATA[The near-month contract is always chosen regardless of payment timing]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The contract month should be chosen so that the actual receipt/payment happens BEFORE the futures expiry. This ensures the hedge is active when the exposure materializes.
+**The Trap:** If the payment date is AFTER the futures expiry, the hedge would have already expired — leaving the exposure unhedged.
+**Cross-Exam Context:** Contract month selection is directly from the workbook.
+**Distributor's Pro-Tip:** Example: Receipt expected March 17 → choose March futures (expiry March 26). Don't choose February (would expire before receipt).]]></text></explanation>
+    </question>
+</QF>

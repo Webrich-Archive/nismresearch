@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_119" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader wants to take a leveraged position on Nifty with the LOWEST possible risk. Which instrument should they choose?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy Nifty call options (maximum loss limited to premium)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy Nifty futures (no premium payment required)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell Nifty put options (earn premium income)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell Nifty futures (profit from decline)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Comparing risk profiles:
+- Buy calls: max loss = premium (KNOWN, LIMITED)
+- Buy futures: max loss = can be very large (margin calls)
+- Sell puts: max loss = X - P (large)
+- Sell futures: max loss = very large (unlimited upside)
+
+Buying options provides the LOWEST risk for a leveraged position.
+
+**The Trap:** Futures provide more leverage but with MUCH higher risk. Options cost premium but cap losses.
+
+**Cross-Exam Context:** Risk-averse leveraged bullish view → buy calls. Risk-tolerant → buy futures.
+
+**Key Takeaway:** Lowest risk leverage = buy options. Known max loss = premium paid.]]></text></explanation>
+    </question>
+</QF>

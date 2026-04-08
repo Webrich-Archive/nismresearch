@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Trading Systems_16" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A disclosed quantity (DQ) order in the derivatives segment allows a trader to:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Show only a part of the total order quantity to the market, with the remaining hidden]]></text></answer>
+            <answer correct="no"><text><![CDATA[Disclose the order to only selected trading members]]></text></answer>
+            <answer correct="no"><text><![CDATA[Place an order that is visible only after a specific time]]></text></answer>
+            <answer correct="no"><text><![CDATA[Place orders that bypass the normal matching algorithm]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A disclosed quantity order allows the trader to display only a portion of the total order quantity in the market. For example, if a trader wants to buy 10,000 contracts but shows only 2,000, the remaining 8,000 are hidden. As the displayed portion gets filled, the next portion is automatically released.
+
+**The Trap:** DQ orders do not bypass matching rules - the disclosed portion follows normal price-time priority. The hidden portion only gets fresh time priority when it becomes visible.
+
+**Cross-Exam Context:** DQ orders are important for institutional traders who want to minimize market impact of large orders.
+
+**Key Takeaway:** DQ order: reveals partial quantity, hides the rest. Minimizes market impact. The disclosed quantity must meet minimum requirements set by the exchange.]]></text></explanation>
+    </question>
+</QF>

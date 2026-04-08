@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_85" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A company expects to receive Rs. 2 crore from a stock sale in 2 months and wants to lock in current prices using Nifty futures (at 24,000, lot size 65). Portfolio beta is 1.0. How many contracts should be BOUGHT?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[13 contracts (approximately)]]></text></answer>
+            <answer correct="no"><text><![CDATA[13 contracts should be SOLD, not bought]]></text></answer>
+            <answer correct="no"><text><![CDATA[128 contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[8 contracts]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+1. This is a case of hedging against a PRICE INCREASE (anticipatory hedge)
+2. Since the company wants to BUY stocks later and fears prices rising, it should BUY futures
+3. Hedge value = Rs. 2,00,00,000 x 1.0 = Rs. 2,00,00,000
+4. Contract value = 24,000 x 65 = Rs. 15,60,000
+5. Contracts = 2,00,00,000 / 15,60,000 = 12.82 = 13 contracts (BUY)
+
+**The Trap:** The company should BUY (not sell) futures because it wants to lock in current prices for a future PURCHASE. Selling would be appropriate if hedging against a price decline on an existing holding.
+
+**Cross-Exam Context:** Anticipatory hedging (buying futures to hedge future purchases) is tested in Series VIII.
+
+**Key Takeaway:** To hedge future PURCHASE -> BUY futures. To hedge existing HOLDING -> SELL futures.]]></text></explanation>
+    </question>
+</QF>

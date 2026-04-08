@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_58" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When does IV generally increase?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[During bearish markets when investors believe prices will decline]]></text></answer>
+            <answer correct="no"><text><![CDATA[During bullish markets when prices are rising]]></text></answer>
+            <answer correct="no"><text><![CDATA[When trading volume is low]]></text></answer>
+            <answer correct="no"><text><![CDATA[During weekends and holidays]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** IV increases in bearish/uncertain markets (more fear → more demand for options → higher premiums → higher IV). IV decreases in bullish markets (less uncertainty).
+**The Trap:** High IV means high expected volatility (large swings), not a directional prediction.
+**Cross-Exam Context:** IV behavior is tested in Series I and VIII.
+**Distributor's Pro-Tip:** The 'volatility smile' shows that OTM options often have higher IV than ATM options, reflecting demand for tail-risk protection.]]></text></explanation>
+    </question>
+</QF>

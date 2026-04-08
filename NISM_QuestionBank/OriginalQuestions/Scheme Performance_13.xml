@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Scheme Performance_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For an Up-Capture Ratio greater than 100, what does it indicate about a fund's performance?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The fund has captured more than 100% of the benchmark's upside returns]]></text></answer>
+            <answer correct="no"><text><![CDATA[The fund has lower risk than the benchmark]]></text></answer>
+            <answer correct="no"><text><![CDATA[The fund has consistently outperformed the benchmark in down markets]]></text></answer>
+            <answer correct="no"><text><![CDATA[The fund has a tracking error of more than 1%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The Up-Capture Ratio measures the fund's return relative to the benchmark during periods when the benchmark has positive returns. An Up-Capture Ratio greater than 100 means the fund gained MORE than the benchmark during up-market periods. For example, if the benchmark rose 10% and the fund rose 12%, the Up-Capture Ratio would be 120%.
+
+**The Trap:** Up-Capture Ratio relates only to up-market performance, not down-market performance (that is Down-Capture Ratio). Also, it does not directly indicate risk levels or tracking error. A fund can have high up-capture but also high down-capture, meaning it amplifies both gains and losses.
+
+**Cross-Exam Context:** Capture ratios are used together -- the ideal fund has an Up-Capture Ratio above 100 (captures more upside) and a Down-Capture Ratio below 100 (captures less downside). In NISM III-C, these ratios help advisers evaluate fund manager skill.
+
+**Distributor's Pro-Tip:** When presenting capture ratios to clients, always show both up and down capture together. A fund with 120% up-capture and 130% down-capture is actually worse than one with 95% up-capture and 70% down-capture. The ideal combination is high up-capture with low down-capture.]]></text></explanation>
+    </question>
+</QF>

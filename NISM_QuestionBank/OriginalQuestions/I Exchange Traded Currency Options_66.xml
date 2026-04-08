@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_66" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If two call options on USDINR have the same strike but different expiry dates, the one with longer expiry will:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Have a higher premium (everything else being equal)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Have a lower premium]]></text></answer>
+            <answer correct="no"><text><![CDATA[Have the same premium]]></text></answer>
+            <answer correct="no"><text><![CDATA[Have zero time value]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Longer time to expiry = more uncertainty = higher time value = higher premium. A 2-month call costs more than a 1-month call (same strike), because there's more time for the underlying to move favorably.
+**The Trap:** Time value is always non-negative before expiry and increases with remaining time.
+**Cross-Exam Context:** Time-premium relationship is tested in Series I and VIII.
+**Distributor's Pro-Tip:** This is why rolling positions to the next month costs money — you're buying more time value.]]></text></explanation>
+    </question>
+</QF>

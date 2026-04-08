@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_78" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader writes a call option with strike Rs. 1,200 at premium Rs. 50. At expiry, stock is at Rs. 1,150. What is the writer's profit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 50 (full premium retained)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 100]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,150]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Short Call Profit = Premium - max(S - X, 0)
+
+Step-by-step:
+1. Premium = 50, S = 1,150, X = 1,200
+2. S < X, call expires OTM (worthless)
+3. Payoff to buyer = max(1,150 - 1,200, 0) = 0
+4. Writer's profit = 50 - 0 = Rs. 50
+
+Best case for writer: option expires worthless, full premium kept.
+
+**The Trap:** When S < X, the call writer keeps the ENTIRE premium. This is the maximum profit scenario.
+
+**Cross-Exam Context:** Option writers profit from time decay and OTM expiry.
+
+**Key Takeaway:** Short call max profit = premium received. Occurs when S <= X at expiry.]]></text></explanation>
+    </question>
+</QF>

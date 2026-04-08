@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_74" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An option writer faces ___ risk and option buyer faces ___ risk.]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Unlimited; Limited (to premium paid)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Limited; Unlimited]]></text></answer>
+            <answer correct="no"><text><![CDATA[Limited; Limited]]></text></answer>
+            <answer correct="no"><text><![CDATA[Unlimited; Unlimited]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Writer (seller): unlimited risk, limited reward (premium). Buyer: limited risk (premium), unlimited reward potential. This asymmetry is fundamental to options.
+**The Trap:** This is directly from the NISM workbook sample questions.
+**Cross-Exam Context:** Risk profiles are tested in all options exams.
+**Distributor's Pro-Tip:** Because of unlimited risk, option writers must maintain margins. Buyers don't need margins (already paid full premium).]]></text></explanation>
+    </question>
+</QF>

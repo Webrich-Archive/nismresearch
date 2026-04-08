@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Scheme Performance_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[During a market downturn, the benchmark fell by 12% while a mutual fund scheme fell by 9%. What is the Down-Capture Ratio of the fund?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[75%]]></text></answer>
+            <answer correct="no"><text><![CDATA[133%]]></text></answer>
+            <answer correct="no"><text><![CDATA[125%]]></text></answer>
+            <answer correct="no"><text><![CDATA[91%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The Down-Capture Ratio is calculated as:
+Down-Capture Ratio = (Fund Return in Down Markets / Benchmark Return in Down Markets) x 100
+Down-Capture Ratio = (-9% / -12%) x 100
+Down-Capture Ratio = 0.75 x 100
+Down-Capture Ratio = 75%
+
+A Down-Capture Ratio of 75% means the fund captured only 75% of the benchmark's decline -- it fell less than the benchmark, which is desirable. Lower down-capture is better.
+
+**The Trap:** Option B (133%) would result from dividing benchmark by fund return (12/9 x 100) -- an incorrect inversion. Option C (125%) may come from an incorrect calculation. Option D (91%) might arise from subtracting the difference from 100%. Remember: for down-capture, a ratio BELOW 100 is desirable (fund falls less than benchmark).
+
+**Cross-Exam Context:** The ideal fund has Up-Capture Ratio above 100 and Down-Capture Ratio below 100. This means it captures more of the upside and less of the downside. Very few funds consistently achieve both.
+
+**Distributor's Pro-Tip:** A down-capture of 75% is excellent and indicates good downside protection. Present this to risk-averse clients as evidence that the fund manager actively protects capital during downturns. Combined with the up-capture, this gives a complete picture of how the fund behaves across market cycles.]]></text></explanation>
+    </question>
+</QF>

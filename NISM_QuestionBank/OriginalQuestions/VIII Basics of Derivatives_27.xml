@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Basics of Derivatives_27" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What role does the clearing corporation play in exchange-traded derivatives?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[It acts as a counterparty to both buyer and seller, eliminating counterparty credit risk]]></text></answer>
+            <answer correct="no"><text><![CDATA[It sets the prices at which derivatives contracts are traded]]></text></answer>
+            <answer correct="no"><text><![CDATA[It decides which market participants can trade in derivatives]]></text></answer>
+            <answer correct="no"><text><![CDATA[It customizes contract terms based on the needs of the trading parties]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In exchange-traded derivatives, the clearing corporation interposes itself between the buyer and seller, becoming the counterparty to both sides. This novation process eliminates counterparty credit risk since both parties now face the clearing corporation instead of each other.
+**The Trap:** Prices are determined by market forces (supply and demand), not by the clearing corporation. SEBI and exchanges determine who can trade. Contract terms are standardized by the exchange, not customized by the clearing corporation.
+**Cross-Exam Context:** The role of clearing corporations is tested extensively in NISM Series VIII and other derivative exams.
+**Key Takeaway:** Clearing corporation = central counterparty = eliminates counterparty risk. This is the key advantage of exchange-traded derivatives over OTC derivatives.]]></text></explanation>
+    </question>
+</QF>

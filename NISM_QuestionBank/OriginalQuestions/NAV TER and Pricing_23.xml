@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV TER and Pricing_23" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A security has not been traded on any stock exchange for more than 30 days. How should it be valued for NAV computation?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Valued in good faith by the AMC board on the basis of appropriate valuation methods such as capitalization of earnings or net asset value based methods]]></text></answer>
+            <answer correct="no"><text><![CDATA[Valued at the last traded price on the stock exchange, irrespective of when it was traded]]></text></answer>
+            <answer correct="no"><text><![CDATA[Valued at face value of the security]]></text></answer>
+            <answer correct="no"><text><![CDATA[Excluded entirely from the NAV computation]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When a security has not been traded for more than 30 days, it is classified as a non-traded security. Such securities must be valued "in good faith" by the AMC board using appropriate valuation methods like capitalization of earnings method or NAV-based methods (for fund holdings in unlisted companies).
+
+**The Trap:** Using the last traded price (even if stale) does not reflect fair value. Face value is irrelevant for market valuation purposes. Excluding it from NAV would distort the scheme's true value. The key phrase is "in good faith" by the AMC board.
+
+**Cross-Exam Context:** The distinction between traded and non-traded security valuation is critical in NISM V-A. The 30-day threshold is a key SEBI-defined boundary. Valuation committees at AMCs play a crucial role in determining fair values of non-traded securities.
+
+**Distributor's Pro-Tip:** Schemes holding a significant proportion of non-traded or thinly traded securities carry higher valuation risk. When recommending small-cap or mid-cap funds to clients, be aware that some holdings may be non-traded and their valuation involves subjective judgment by the AMC board. This is an additional risk factor to disclose.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Risk Return and Performance_51" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The Sharpe Ratio is calculated as ________. It is used to compare the risk-adjusted performance of schemes with similar risk profiles, where a higher ratio indicates better performance.]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[(Portfolio Return - Risk-free Rate) / Standard Deviation]]></text></answer>
+            <answer correct="no"><text><![CDATA[(Portfolio Return - Risk-free Rate) / Beta]]></text></answer>
+            <answer correct="no"><text><![CDATA[(Portfolio Return - Market Return) / Standard Deviation]]></text></answer>
+            <answer correct="no"><text><![CDATA[(Market Return - Risk-free Rate) / Standard Deviation]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The Sharpe Ratio formula is (Rs - Rf) / Standard Deviation, where Rs is the portfolio return and Rf is the risk-free rate. It measures excess return per unit of total risk (standard deviation). A higher Sharpe Ratio indicates better risk-adjusted performance. It is most appropriate when comparing schemes with the SAME risk profile.
+
+**The Trap:** Option B is the Treynor Ratio formula (divides by Beta instead of Standard Deviation). Options C and D use incorrect numerators -- the numerator must always be the excess return of the portfolio over the risk-free rate, not compared to the market return.
+
+**Cross-Exam Context:** NISM frequently tests whether candidates can distinguish between Sharpe (uses standard deviation = total risk) and Treynor (uses beta = systematic risk). Remember: Sharpe for Same risk, Treynor for diversified equiTy.
+
+**Key Takeaway:** Sharpe Ratio = Excess Return / Total Risk. Higher is better. Use it to compare funds with similar risk levels.]]></text></explanation>
+    </question>
+</QF>

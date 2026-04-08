@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_69" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An option position can be squared off before expiry by:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Executing an opposite transaction in the same contract on the exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[Requesting the exchange to cancel the contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[Transferring the position to another trader directly]]></text></answer>
+            <answer correct="no"><text><![CDATA[Writing a letter to the clearing corporation]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** To square off: if you bought an option, sell the same option (same strike, expiry, type). If you sold, buy it back. This is done on the exchange's secondary market.
+**The Trap:** Squaring off is different from exercise — you trade the option itself, not the underlying.
+**Cross-Exam Context:** Position management is tested in Series I and VIII.
+**Distributor's Pro-Tip:** Squaring off before expiry recovers remaining time value, which is lost if you hold till expiry.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Risk Return and Performance_58" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Rolling returns measure the average annualized return for multiple consecutive holding periods of a fixed duration. Compared to point-to-point returns, rolling returns are preferred because ________.]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[They show performance consistency across multiple time periods]]></text></answer>
+            <answer correct="no"><text><![CDATA[They only show the latest period's performance]]></text></answer>
+            <answer correct="no"><text><![CDATA[They are the same as CAGR (Compounded Annual Growth Rate)]]></text></answer>
+            <answer correct="no"><text><![CDATA[They are the same as absolute return over the entire period]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Rolling returns calculate returns for every possible holding period of a given duration (e.g., every possible 3-year period). This reveals how consistently a fund performs across different market conditions and entry/exit points. Unlike point-to-point returns that depend heavily on the specific start and end dates chosen, rolling returns provide a comprehensive view of a fund's performance pattern over time.
+
+**The Trap:** Option B is the opposite -- rolling returns show performance across MANY periods, not just the latest. Option C confuses rolling returns with CAGR; CAGR is a single number for a specific period, while rolling returns generate multiple CAGR figures for overlapping periods. Option D confuses with absolute return, which is a single figure. The key advantage: rolling returns remove the bias of start/end date selection.
+
+**Cross-Exam Context:** Rolling returns are considered a superior method for evaluating fund consistency. A fund with high average rolling returns but high variance in rolling returns may be less reliable than one with slightly lower but more consistent rolling returns.
+
+**Key Takeaway:** Rolling returns assess consistency by computing returns over every possible holding period of a fixed length. They are superior to point-to-point returns for evaluating fund reliability.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_67" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Theta is favorable (positive) for:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Option sellers (short positions)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Option buyers (long positions)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both buyers and sellers equally]]></text></answer>
+            <answer correct="no"><text><![CDATA[Neither buyers nor sellers]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Short option positions have positive theta — they benefit from time decay. Long positions have negative theta — they lose value daily from time decay.
+**The Trap:** Theta is 'friendly to the option seller' as stated in the workbook.
+**Cross-Exam Context:** Theta's directional impact is tested in Series I and VIII.
+**Distributor's Pro-Tip:** Option sellers often say 'time is on my side' — every day that passes erodes the buyer's position value, all else equal.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_101" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An IT company expects to receive USD 10 million in 3 months. It is worried about the rupee strengthening (USD weakening). Which futures strategy should it use?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Sell USD-INR currency futures to lock in the current exchange rate, so if the rupee strengthens (USD falls), the futures profit offsets the lower rupee realization from converting USD]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy USD-INR currency futures to benefit from USD appreciation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy Nifty futures because IT stocks rise when the rupee strengthens]]></text></answer>
+            <answer correct="no"><text><![CDATA[Do nothing because the company is naturally hedged as it earns in USD]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The IT company will RECEIVE USD (long USD exposure) and will need to SELL USD for INR. If the rupee strengthens (say USD/INR falls from 84 to 82), they get fewer rupees. By SELLING USD-INR futures now at Rs. 84, they lock in this rate. If USD falls to 82, they profit Rs. 2 on futures, offsetting the lower spot conversion.
+
+**The Trap:** They should SELL (not buy) because they are hedging a LONG USD position. Buying Nifty is irrelevant to currency risk. 'Naturally hedged' would only apply if they had equal USD costs.
+
+**Cross-Exam Context:** Currency hedging using futures is tested in both Series VIII (concept) and Series XIII (currency derivatives).
+
+**Key Takeaway:** Long underlying exposure -> Sell futures to hedge. Short underlying exposure -> Buy futures to hedge.]]></text></explanation>
+    </question>
+</QF>

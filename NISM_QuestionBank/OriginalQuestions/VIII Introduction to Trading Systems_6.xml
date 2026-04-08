@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Trading Systems_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An Immediate or Cancel (IOC) order in derivatives trading:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Must be executed immediately, and any unexecuted portion is automatically cancelled]]></text></answer>
+            <answer correct="no"><text><![CDATA[Remains in the system until the end of the trading day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Is automatically cancelled if not executed within one hour]]></text></answer>
+            <answer correct="no"><text><![CDATA[Must be fully executed or the entire order is cancelled]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** An IOC order requires immediate execution. If the order can be partially filled, the filled portion is executed and the remaining unfilled portion is automatically cancelled. It does not sit in the order book waiting.
+
+**The Trap:** IOC allows partial fills - it is NOT an all-or-nothing order. The unfilled portion is cancelled, but whatever can be filled immediately will be executed.
+
+**Cross-Exam Context:** IOC orders are important for institutional traders who need quick execution without leaving pending orders.
+
+**Key Takeaway:** IOC = Execute whatever is possible immediately, cancel the rest. Allows partial fills.]]></text></explanation>
+    </question>
+</QF>

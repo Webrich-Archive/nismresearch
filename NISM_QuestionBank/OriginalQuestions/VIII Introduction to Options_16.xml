@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_16" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the standard lot size for Nifty 50 options on NSE?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The lot size is defined by the exchange and can change; it specifies the number of units per contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[1 share per contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[100 shares per contract for all options]]></text></answer>
+            <answer correct="no"><text><![CDATA[The lot size is decided by the option buyer at the time of purchase]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Each option contract has a fixed LOT SIZE determined by the exchange. For Nifty 50, the lot size is specified (e.g., 25/50/75 units depending on the period). The lot size determines the contract value = premium x lot size.
+
+**The Trap:** Lot size is NOT chosen by the trader. It is standardized by the exchange and can be revised periodically.
+
+**Cross-Exam Context:** Knowing lot sizes is essential for calculating total premium outflow and contract values.
+
+**Key Takeaway:** Lot size = exchange-determined, standardized number of units per contract. It can change over time.]]></text></explanation>
+    </question>
+</QF>

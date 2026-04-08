@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Accounting and Taxation_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When an option expires worthless (out-of-the-money), the accounting treatment for the buyer is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Debit: Loss on Options Trading Account; Credit: Option Premium Paid Account (the premium is written off as a loss)]]></text></answer>
+            <answer correct="no"><text><![CDATA[No entry is required as the option simply ceases to exist]]></text></answer>
+            <answer correct="no"><text><![CDATA[Debit: Bank Account; Credit: Option Premium Account (premium is refunded)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Debit: Option Premium Account; Credit: Reserve Account]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When an option expires OTM:
+For the Buyer: The premium paid (asset) is written off as a loss.
+Entry: Debit: Loss on Options Trading; Credit: Option Premium Paid Account
+
+For the Writer: The premium received (liability) is recognized as income.
+Entry: Debit: Option Premium Received Account; Credit: Profit on Options Trading
+
+**The Trap:** An entry IS required - the premium asset must be written off. The premium is NOT refunded on expiry.
+
+**Cross-Exam Context:** Expiry/exercise accounting entries are tested for both buyers and sellers.
+
+**Key Takeaway:** OTM expiry: Buyer writes off premium as loss. Writer recognizes premium as income. Both need journal entries.]]></text></explanation>
+    </question>
+</QF>

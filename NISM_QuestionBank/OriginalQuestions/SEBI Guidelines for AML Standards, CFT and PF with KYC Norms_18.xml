@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="SEBI Guidelines for AML Standards, CFT and PF with KYC Norms_18" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What should a registered intermediary do when clients abandon or abort transactions on being asked for details or documents?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Report all such attempted transactions in STRs, even if not completed, irrespective of the amount]]></text></answer>
+            <answer correct="no"><text><![CDATA[Ignore the attempt since no transaction was completed]]></text></answer>
+            <answer correct="no"><text><![CDATA[Report only if the attempted transaction exceeds Rs. 10 lakh]]></text></answer>
+            <answer correct="no"><text><![CDATA[Close the client's account and report to SEBI]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Intermediaries must report ALL attempted transactions in STRs, even if the transactions were not completed by the client, IRRESPECTIVE of the amount. A client abandoning a transaction when asked for documentation is itself a suspicious indicator.
+
+**The Trap:** There is NO minimum threshold for reporting attempted/aborted suspicious transactions. The obligation exists regardless of whether the transaction was completed or what the amount was.
+
+**Cross-Exam Context:** This principle of reporting attempted transactions is crucial across all NISM exams. In NISM V-A, if a mutual fund investor withdraws an application upon being asked for source-of-funds documentation, that must be reported.
+
+**Distributor's Pro-Tip:** If a client suddenly cancels a large investment or redemption when you ask for additional documents, note it down and immediately inform your compliance team. The "walk-away" is often a bigger red flag than the original transaction itself.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_39" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The Net Option Value in SPAN is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The difference between long and short option positions valued at the last closing price, updated intraday]]></text></answer>
+            <answer correct="no"><text><![CDATA[The premium paid for options]]></text></answer>
+            <answer correct="no"><text><![CDATA[The intrinsic value of options only]]></text></answer>
+            <answer correct="no"><text><![CDATA[The total margin on options]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Net Option Value = Long option values - Short option values (at last available closing/current market price). It's added to the liquid net worth calculation.
+**The Trap:** It's based on MARKET value of option positions, not premium paid or intrinsic value alone.
+**Cross-Exam Context:** SPAN computation details are tested in Series I.
+**Distributor's Pro-Tip:** Net Option Value can be positive (net long) or negative (net short) and is updated intraday as option prices change.]]></text></explanation>
+    </question>
+</QF>

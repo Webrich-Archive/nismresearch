@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Fund Distribution and Channel Management_29" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[As per SEBI regulations, what happens if a mutual fund transaction form is submitted without the EUIN of the person who advised the investor?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The transaction is automatically rejected by the AMC]]></text></answer>
+            <answer correct="no"><text><![CDATA[The AMC can process the transaction but must pay a penalty to SEBI]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The investor must provide a signed declaration that the transaction was executed without any advice from the distributor or its employees]]></text></answer>
+            <answer correct="no"><text><![CDATA[The distributor's ARN is automatically suspended for 30 days]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI mandates EUIN disclosure on every mutual fund transaction form where a distributor is involved. If the EUIN is not mentioned, the investor must sign a specific declaration stating that the investment was made without any personal advice or recommendation from the distributor or its employees. This creates an accountability trail — either the adviser is identified via EUIN, or the investor acknowledges no advice was received.
+
+**The Trap:** Option A suggests automatic rejection — the transaction is not rejected but requires a declaration. Option B invents a penalty mechanism. Option D suggests automatic ARN suspension, which does not happen for individual EUIN omissions. The regulatory mechanism is disclosure-based, not punitive for single instances.
+
+**Cross-Exam Context:** EUIN was introduced to trace mis-selling to the specific individual who advised the investor. This is a critical regulatory requirement for investor protection. The exam tests whether candidates understand the practical consequence of EUIN omission — not rejection, but a declaration requirement. This links to SEBI's broader investor protection framework.
+
+**Distributor's Pro-Tip:** Never skip EUIN disclosure — the declaration route creates a paper trail suggesting the client received no advice, which undermines your value proposition. Always ensure your team members quote their EUIN on every form. It protects the organization and individual employees in case of future disputes.]]></text></explanation>
+    </question>
+</QF>

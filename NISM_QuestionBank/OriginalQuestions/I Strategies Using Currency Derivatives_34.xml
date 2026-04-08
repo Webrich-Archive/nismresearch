@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_34" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If an exporter uses USDINR futures to hedge and INR appreciates, what happens?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Exporter receives less INR on spot conversion but gains on the short futures position — net effect is approximately the locked-in rate]]></text></answer>
+            <answer correct="no"><text><![CDATA[Exporter loses on both spot conversion and futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[The hedge has no effect]]></text></answer>
+            <answer correct="no"><text><![CDATA[Exporter receives more INR on spot conversion and also gains on futures]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** INR appreciation → lower spot rate → less INR from spot conversion. But the short futures position profits (sold high, price fell). The two effects offset, leaving the net rate approximately at the hedged rate.
+**The Trap:** The hedge works in BOTH directions — it prevents losses but also limits windfall gains.
+**Cross-Exam Context:** Hedge effectiveness is tested in Series I.
+**Distributor's Pro-Tip:** This is the fundamental trade-off of hedging: certainty of rate vs. giving up potential favorable movements.]]></text></explanation>
+    </question>
+</QF>

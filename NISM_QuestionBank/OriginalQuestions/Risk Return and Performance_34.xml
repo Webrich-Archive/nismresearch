@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Risk Return and Performance_34" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A fund has a beta of 1.5. If the market index falls by 10%, the fund's value is expected to fall by approximately:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[10%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[15%]]></text></answer>
+            <answer correct="no"><text><![CDATA[6.67%]]></text></answer>
+            <answer correct="no"><text><![CDATA[5%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Beta measures the sensitivity of a fund's returns to market movements. A beta of 1.5 means the fund is expected to move 1.5 times the market movement. If the market falls by 10%, the fund is expected to fall by 1.5 x 10% = 15%. Similarly, if the market rises by 10%, the fund would be expected to rise by approximately 15%.
+
+**The Trap:** 10% assumes beta of 1.0 (same as market). 6.67% would result from dividing market return by beta instead of multiplying. 5% might come from dividing the market fall by 2. Beta is a MULTIPLIER -- you multiply the market movement by beta to estimate the fund's expected movement.
+
+**Cross-Exam Context:** High-beta funds amplify market movements in both directions. This is why beta is critical for understanding risk. In a bull market, a beta 1.5 fund outperforms; in a bear market, it underperforms more. This concept connects directly to the Treynor ratio and Alpha calculations.
+
+**Distributor's Pro-Tip:** Use beta to explain market risk to clients in practical terms. "If the market drops 10%, this fund could drop about 15% because of its higher beta. Can you handle that kind of fluctuation?" This makes risk tangible and helps clients make informed allocation decisions matching their risk tolerance.]]></text></explanation>
+    </question>
+</QF>

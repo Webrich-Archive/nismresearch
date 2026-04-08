@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_54" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader holding 500 shares of Reliance in the cash market and a short position of 1 lot (500 shares) in Reliance futures would benefit from:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Cross-margining benefit as the cash position hedges the derivatives position, reducing the overall margin requirement]]></text></answer>
+            <answer correct="no"><text><![CDATA[No margin benefit since cash and derivatives are separate segments]]></text></answer>
+            <answer correct="no"><text><![CDATA[Complete exemption from margin requirements]]></text></answer>
+            <answer correct="no"><text><![CDATA[Higher margin requirements due to positions in two segments]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Long cash + short futures is a hedged position. The risk of one position is offset by the other. Under the cross-margining framework, the clearing corporation recognizes this hedge and provides margin relief. The combined margin will be lower than the sum of individual margins.
+
+**The Trap:** There is no COMPLETE exemption from margins, only a reduction. The benefit applies only when positions are genuinely offsetting.
+
+**Cross-Exam Context:** Practical examples of cross-margining benefits are tested.
+
+**Key Takeaway:** Hedged positions (cash + derivatives) qualify for cross-margining benefit. Lower combined margin. Encourages hedging.]]></text></explanation>
+    </question>
+</QF>

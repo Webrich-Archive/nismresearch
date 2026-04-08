@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_33" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Open interest in a futures contract represents:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The total number of outstanding (open) contracts that have not been closed, expired, or settled, counted on one side only (either all longs or all shorts)]]></text></answer>
+            <answer correct="no"><text><![CDATA[The total number of contracts traded during the current trading session (buy + sell combined)]]></text></answer>
+            <answer correct="no"><text><![CDATA[The total number of unique traders who currently have open positions in the contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[The maximum number of contracts that can be outstanding at any point as specified by SEBI]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Open interest (OI) measures the total number of OUTSTANDING contracts. It is counted one-sided: since every long has a corresponding short, counting both would double-count. If there are 1,000 long positions, there must be 1,000 short positions, and OI = 1,000 (not 2,000).
+
+**The Trap:** OI is NOT volume (contracts traded in a session). It is NOT the number of traders (one trader can hold multiple contracts). It is NOT a limit set by SEBI.
+
+**Cross-Exam Context:** OI analysis for trend confirmation is tested in Series VIII. Rising OI + rising prices = bullish trend confirmation.
+
+**Key Takeaway:** Open interest = outstanding contracts (one-sided). New positions increase OI; closing positions decrease OI.]]></text></explanation>
+    </question>
+</QF>

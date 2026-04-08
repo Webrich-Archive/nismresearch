@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_17" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Options are called 'wasting assets' because:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Their time value decreases with the passage of time and eventually becomes zero at expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[They always expire worthless]]></text></answer>
+            <answer correct="no"><text><![CDATA[The underlying currency loses value over time]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trading costs erode profits over time]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Options lose time value every day (theta/time decay). At expiry, time value = 0 and the option is worth only its intrinsic value. This inherent time decay makes options 'wasting assets'.
+**The Trap:** Not ALL options expire worthless — ITM options have intrinsic value at expiry. But all options lose time value.
+**Cross-Exam Context:** Time decay concept is tested in Series I and VIII.
+**Distributor's Pro-Tip:** This is why option sellers have a structural advantage — time works in their favor. Option buyers need the underlying to move enough to overcome time decay.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the derivatives clearing hierarchy, a Trading Member (TM) who is not a clearing member must:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Route all trades through a clearing member (TM-CM or PCM) for clearing and settlement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Directly settle with the clearing corporation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Settle trades through the exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[Not trade in the derivatives segment]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A Trading Member without clearing membership can execute trades but cannot settle directly with the clearing corporation. They must have an arrangement with a Clearing Member (either TM-CM or PCM) who will clear and settle on their behalf. The CM bears the settlement responsibility.
+
+**The Trap:** TMs without clearing membership CAN trade - they just cannot clear. They must route clearing through a CM. Settlement is not done through the exchange but through the clearing corporation via the CM.
+
+**Cross-Exam Context:** The TM-CM-CC hierarchy is a critical structural concept.
+
+**Key Takeaway:** Non-clearing TMs must route all clearing through a CM. Trading and clearing are separate functions that can be held by different entities.]]></text></explanation>
+    </question>
+</QF>

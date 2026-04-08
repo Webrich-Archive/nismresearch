@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV TER and Pricing_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A mutual fund scheme has the following details: Market value of investments = Rs. 950 crore, Receivables = Rs. 10 crore, Accrued income = Rs. 5 crore, Other assets = Rs. 2 crore, Accrued expenses = Rs. 7 crore, Payables = Rs. 10 crore, Other liabilities = Rs. 0 crore, Units outstanding = 95 crore. What is the NAV per unit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 10.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 10.18]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 10.07]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 9.82]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** NAV = (Market Value of Investments + Receivables + Accrued Income + Other Assets - Accrued Expenses - Payables - Other Liabilities) / Units Outstanding = (Rs. 950 + Rs. 10 + Rs. 5 + Rs. 2 - Rs. 7 - Rs. 10 - Rs. 0) crore / 95 crore = Rs. 950 crore / 95 crore = Rs. 10.00.
+
+**The Trap:** Rs. 10.18 comes from dividing total assets (Rs. 967 crore) by 95 crore without subtracting liabilities. Rs. 10.07 comes from forgetting to subtract one of the liability components. Rs. 9.82 comes from subtracting liabilities twice or adding an extra deduction. The detailed NAV formula is the most commonly tested version.
+
+**Cross-Exam Context:** This detailed NAV formula is the expanded version tested in NISM V-A. The compact formula (Total Assets - Total Liabilities) / Units is a simplified version. Both yield the same result. NISM V-B and XII may test the simpler version.
+
+**Distributor's Pro-Tip:** NAV calculation happens daily at the AMC level. As a distributor, you do not compute NAV yourself, but understanding the components helps you explain to clients why NAV fluctuates — it is driven by market value of investments (the largest component), and reduced by expenses and liabilities.]]></text></explanation>
+    </question>
+</QF>

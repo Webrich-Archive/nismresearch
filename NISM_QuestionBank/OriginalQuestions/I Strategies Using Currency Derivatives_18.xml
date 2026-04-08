@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_18" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The BEP for a bull call spread with strikes 83/83.50 and net premium of 0.06 is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[83.06]]></text></answer>
+            <answer correct="no"><text><![CDATA[83.44]]></text></answer>
+            <answer correct="no"><text><![CDATA[83.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[82.94]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** BEP = Lower strike + Net premium = 83.00 + 0.06 = 83.06.
+**The Trap:** The BEP is above the lower strike but below the higher strike.
+**Cross-Exam Context:** Spread BEP calculations are tested in Series I.
+**Distributor's Pro-Tip:** Between 83.00 and 83.06, the spread is ITM on the long call but hasn't recovered the net premium cost.]]></text></explanation>
+    </question>
+</QF>

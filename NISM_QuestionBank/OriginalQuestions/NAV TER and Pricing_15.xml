@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV TER and Pricing_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A liquid fund has a daily NAV of Rs. 1,500.00. The annual yield is approximately 6.50%. What is the approximate daily change in NAV (assuming 365 days)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 0.267 per day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2.67 per day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.027 per day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 97.50 per day]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Annual return amount = Rs. 1,500.00 x 6.50% = Rs. 97.50. Daily change = Rs. 97.50 / 365 = Rs. 0.267 approximately. This represents the daily NAV increment in a liquid fund that accrues interest daily.
+
+**The Trap:** Rs. 2.67 is a decimal place error (dividing by 36.5 instead of 365). Rs. 0.027 is another decimal error (off by factor of 10). Rs. 97.50 is the annual return, not daily — the candidate forgot to divide by 365.
+
+**Cross-Exam Context:** Liquid fund NAV calculation uses mark-to-market or amortization-based valuation for debt securities. The daily NAV change in liquid funds is relatively stable, which is why they are considered low-risk. This concept appears in NISM V-A.
+
+**Distributor's Pro-Tip:** Liquid funds typically show steady daily NAV increments, which makes them ideal for parking short-term surplus. However, after the Franklin Templeton episode, SEBI mandated mark-to-market valuation even for shorter-tenure debt securities. Explain to clients that even liquid funds carry some credit and interest rate risk, though minimal.]]></text></explanation>
+    </question>
+</QF>

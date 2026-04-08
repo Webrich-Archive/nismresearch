@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_80" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Trading hours for cross-currency options (e.g., EURUSD options) are:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[9:00 AM to 7:30 PM, Monday to Friday]]></text></answer>
+            <answer correct="no"><text><![CDATA[9:00 AM to 5:00 PM, Monday to Friday]]></text></answer>
+            <answer correct="no"><text><![CDATA[9:15 AM to 3:30 PM, Monday to Friday]]></text></answer>
+            <answer correct="no"><text><![CDATA[24 hours, Monday to Friday]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Cross-currency options trade from 9:00 AM to 7:30 PM — same extended hours as cross-currency futures. INR-based options close at 5:00 PM.
+**The Trap:** INR-based options = 5:00 PM close. Cross-currency = 7:30 PM close.
+**Cross-Exam Context:** Trading hours by product type are tested in Series I.
+**Distributor's Pro-Tip:** The extended hours for cross-currency overlap with European market hours, improving price discovery.]]></text></explanation>
+    </question>
+</QF>

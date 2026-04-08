@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_8" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What happens to a call option's premium when the spot price increases (other factors constant)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Call premium increases]]></text></answer>
+            <answer correct="no"><text><![CDATA[Call premium decreases]]></text></answer>
+            <answer correct="no"><text><![CDATA[Call premium remains unchanged]]></text></answer>
+            <answer correct="no"><text><![CDATA[Call premium first increases then decreases]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When spot increases, a call option becomes more valuable (closer to or deeper ITM). Spot ↑ → Call ↑, Put ↓.
+**The Trap:** The OPPOSITE happens for puts — put premium decreases when spot increases.
+**Cross-Exam Context:** Spot-premium relationship is tested in all options exams.
+**Distributor's Pro-Tip:** Think of it logically: if you have the right to BUY at a fixed price (call), higher market prices make that right more valuable.]]></text></explanation>
+    </question>
+</QF>

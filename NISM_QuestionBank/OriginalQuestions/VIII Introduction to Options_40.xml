@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_40" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Compared to a futures position, the maximum loss for an option buyer is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Limited to the premium paid, while futures can have much larger losses]]></text></answer>
+            <answer correct="no"><text><![CDATA[Unlimited, similar to a futures position]]></text></answer>
+            <answer correct="no"><text><![CDATA[Higher than futures because of the additional premium cost]]></text></answer>
+            <answer correct="no"><text><![CDATA[Zero, because the option buyer can always choose not to exercise]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Option buyer's max loss = premium paid (a known, fixed amount).
+Futures buyer's max loss = can be very large (price can move significantly against the position).
+
+Options provide a "floor" on losses for the buyer, which is why premium is paid.
+
+**The Trap:** If the option buyer doesn't exercise, they don't lose "zero" - they lose the premium paid.
+
+**Cross-Exam Context:** This risk profile difference makes options suitable for hedging with defined risk.
+
+**Key Takeaway:** Option buyer max loss = premium. Futures max loss = much larger (margin calls possible).]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_22" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In an option contract, who has the obligation?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The option seller (writer)]]></text></answer>
+            <answer correct="no"><text><![CDATA[The option buyer]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both buyer and seller]]></text></answer>
+            <answer correct="no"><text><![CDATA[The exchange]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The seller/writer receives the premium and takes on the OBLIGATION to buy/sell the underlying if the buyer exercises. The buyer has rights only (paid for by the premium). In futures, both parties have obligations.
+**The Trap:** The exchange provides the platform and clearing; it doesn't take on option obligations.
+**Cross-Exam Context:** Rights vs obligations is fundamental to all options exams.
+**Distributor's Pro-Tip:** Option seller's maximum profit = premium received. The seller hopes the option expires worthless.]]></text></explanation>
+    </question>
+</QF>

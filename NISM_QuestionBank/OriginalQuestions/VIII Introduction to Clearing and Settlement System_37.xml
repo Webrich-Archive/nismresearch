@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_37" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The market-wide position limit (MWPL) for individual stock derivatives is set at:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[20% of the free-float market capitalization expressed in number of shares]]></text></answer>
+            <answer correct="no"><text><![CDATA[10% of total outstanding shares]]></text></answer>
+            <answer correct="no"><text><![CDATA[50% of the daily trading volume]]></text></answer>
+            <answer correct="no"><text><![CDATA[30% of promoter holding]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For individual stock derivatives, SEBI sets the MWPL at 20% of the number of shares held by non-promoters (free-float). Once the aggregate open interest across all exchanges reaches 95% of MWPL, no new positions can be created. Only offsetting (closing) positions are allowed.
+
+**The Trap:** It is 20% of free-float (non-promoter holding), not total outstanding shares or market cap in rupee terms.
+
+**Cross-Exam Context:** MWPL limits and the 95% threshold are important regulatory concepts.
+
+**Key Takeaway:** Stock MWPL = 20% of free-float shares. At 95% of MWPL, only closing positions allowed. Prevents excessive speculation.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Fund Distribution and Channel Management_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which unique identifier is mandatory for every individual employee or sales person of a mutual fund distributor who interacts with investors?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[AMFI Registration Number (ARN)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Common Account Number (CAN)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Employee Unique Identification Number (EUIN)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Permanent Account Number (PAN)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** EUIN (Employee Unique Identification Number) is a unique identification number assigned to every individual employee, relationship manager, or sales person of a distributor organization who interacts with investors. It helps track which specific person advised the investor on a transaction, ensuring accountability at the individual level.
+
+**The Trap:** ARN (Option A) is assigned to the distributor entity (individual or firm), not to each employee. CAN (Option B) is an investor-facing number from MF Utilities. PAN (Option D) is a tax identification number, not specific to mutual fund distribution. The exam loves testing whether candidates can distinguish ARN (entity-level) from EUIN (individual-level).
+
+**Cross-Exam Context:** SEBI mandates EUIN disclosure on every transaction form. If a transaction is executed without EUIN, the investor must sign a declaration that the transaction was not based on any advice. This links to investor protection and distributor accountability regulations.
+
+**Distributor's Pro-Tip:** Always ensure your EUIN is mentioned on every application form. If a client complains about mis-selling, the EUIN trail helps identify which salesperson was involved — this protects both the organization and the honest employees.]]></text></explanation>
+    </question>
+</QF>

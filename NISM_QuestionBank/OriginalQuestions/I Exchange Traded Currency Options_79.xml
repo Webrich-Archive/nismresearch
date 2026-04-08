@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_79" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader buys a USDINR 83.50 call at Rs. 0.20. What is the BEP?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[83.70]]></text></answer>
+            <answer correct="no"><text><![CDATA[83.30]]></text></answer>
+            <answer correct="no"><text><![CDATA[83.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[84.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Call BEP = Strike + Premium = 83.50 + 0.20 = 83.70.
+**The Trap:** BEP includes the premium cost. The option is ITM at 83.50 but only profitable above 83.70.
+**Cross-Exam Context:** BEP calculation is tested in Series I.
+**Distributor's Pro-Tip:** Between 83.50 and 83.70, the call is ITM but the net P&L is still negative (recovering premium).]]></text></explanation>
+    </question>
+</QF>

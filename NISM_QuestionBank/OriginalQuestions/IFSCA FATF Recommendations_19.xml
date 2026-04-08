@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IFSCA FATF Recommendations_19" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Under FATF Special Recommendation IX (SR IX) on Cash Couriers, what system must countries implement to detect the physical cross-border transportation of currency and bearer negotiable instruments?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A declaration system or a disclosure obligation system]]></text></answer>
+            <answer correct="no"><text><![CDATA[A prohibition system that bans all cross-border cash movement above a threshold]]></text></answer>
+            <answer correct="no"><text><![CDATA[A permit system requiring prior government approval for any cash transportation]]></text></answer>
+            <answer correct="no"><text><![CDATA[A mandatory reporting system where banks report all outward cash remittances]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SR IX requires countries to have measures in place to detect the physical cross-border transportation of currency and bearer negotiable instruments. Countries must implement either a declaration system (where travellers must declare amounts above a threshold) or a disclosure obligation system (where travellers must truthfully disclose if asked by authorities). The choice between these two approaches provides flexibility.
+
+**The Trap:** A "prohibition system" is too extreme -- SR IX does not ban cross-border cash movement, it seeks to monitor it. A "permit system" requiring prior approval is also excessive. A "mandatory reporting system" through banks confuses wire transfer monitoring (SR VII) with physical cash courier detection (SR IX). SR IX specifically targets physical movement of cash, not electronic transfers.
+
+**Cross-Exam Context:** For IFSC entities, understanding cash courier controls is important because GIFT City handles international transactions where physical cash movements across borders could be used for ML/TF. This complements electronic transfer monitoring under SR VII.
+
+**Key Takeaway:** SR IX = Cash Couriers must face either a DECLARATION system or a DISCLOSURE OBLIGATION. Not prohibition, not permits -- detection and transparency mechanisms.]]></text></explanation>
+    </question>
+</QF>

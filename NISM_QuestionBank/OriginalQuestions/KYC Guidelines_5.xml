@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="KYC Guidelines_5" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The Account Opening Form (AOF) for clients shall be divided into how many parts, and what does each part contain?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Two parts -- Part I captures basic KYC details using CERSAI templates; Part II captures additional intermediary-specific information]]></text></answer>
+            <answer correct="no"><text><![CDATA[Three parts -- KYC, Risk Profile, and Investment Details]]></text></answer>
+            <answer correct="no"><text><![CDATA[One combined form with no separate sections]]></text></answer>
+            <answer correct="no"><text><![CDATA[Four parts -- Identity, Address, Financial Details, and Nominee Details]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The AOF is divided into TWO parts: Part I is the KYC form capturing basic client details using CERSAI (Central Registry) templates for individuals and legal entities. Part II captures additional information specific to the intermediary's business area.
+
+**The Trap:** The form is NOT three or four parts. The two-part structure ensures uniformity (Part I is standard across all intermediaries) while allowing flexibility (Part II varies by intermediary type).
+
+**Cross-Exam Context:** In NISM V-A, mutual fund distributors use the same two-part structure. Part I goes to KRA for centralized storage, while Part II stays with the intermediary.
+
+**Distributor's Pro-Tip:** Part I (KYC form) uses CERSAI templates available at ckycindia.in. Ensure you use the correct template -- one for individuals and another for legal entities. Part II is where you capture investment preferences, risk appetite, and intermediary-specific details.]]></text></explanation>
+    </question>
+</QF>

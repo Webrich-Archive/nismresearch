@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Scheme Selection_35" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An index fund has an expense ratio of 0.20% and its benchmark index returned 15% during the year. If the tracking error was 0.10%, what was the approximate return of the index fund?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[15.00%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[14.80%]]></text></answer>
+            <answer correct="no"><text><![CDATA[14.70%]]></text></answer>
+            <answer correct="no"><text><![CDATA[15.20%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** An index fund aims to replicate the benchmark return, but the fund return is reduced primarily by the expense ratio. Approximate fund return = Benchmark return - Expense ratio = 15% - 0.20% = 14.80%. Tracking error measures the standard deviation of the difference between fund and benchmark returns, not a direct deduction. The primary drag on index fund returns is the expense ratio.
+
+**The Trap:** Tracking error is NOT directly subtracted from returns. Tracking error is a measure of consistency/deviation, not an absolute return reduction. Some candidates incorrectly subtract both TER and tracking error (getting 14.70%). The tracking error tells you HOW MUCH the fund's return deviates from the benchmark on a day-to-day basis, but over a period, the main drag is the expense ratio.
+
+**Cross-Exam Context:** For index funds, the return gap (benchmark return minus fund return) is primarily driven by: expense ratio, cash drag (uninvested cash for redemption needs), and rebalancing costs. A lower tracking error indicates the fund replicates the index more faithfully. Two index funds tracking the same benchmark should be compared on TER and tracking error.
+
+**Distributor's Pro-Tip:** When comparing index funds tracking the same benchmark, use this simple framework: lower TER + lower tracking error = better index fund. For example, if two Nifty 50 index funds have TER of 0.10% and 0.20% respectively, the 0.10% TER fund will likely deliver approximately 0.10% more return annually -- this compounds significantly over 10-20 years.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_63" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the payoff for a long call option holder at expiry when spot is below the strike price?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Zero (the option expires worthless)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Negative (equal to strike minus spot)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equal to the premium paid]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equal to the spot price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When spot < strike, the call is OTM. Payoff = max(Spot - Strike, 0) = 0. The holder does not exercise. The total loss = premium paid (not reflected in payoff, which is the gross amount).
+**The Trap:** The PAYOFF is zero, but the NET P&L is negative (equal to -premium). These are different.
+**Cross-Exam Context:** Payoff vs P&L distinction is tested in Series I and VIII.
+**Distributor's Pro-Tip:** Payoff = exercise value. P&L = Payoff - Premium. When payoff = 0, P&L = -Premium.]]></text></explanation>
+    </question>
+</QF>

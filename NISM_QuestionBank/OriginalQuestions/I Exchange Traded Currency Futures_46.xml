@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_46" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If the INR interest rate rises from 7% to 8% while USD rate stays at 5%, what happens to the USDINR 1-year futures price (spot = 83)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[It increases from approximately 84.58 to approximately 85.37]]></text></answer>
+            <answer correct="no"><text><![CDATA[It decreases because higher INR rates attract FPI flows]]></text></answer>
+            <answer correct="no"><text><![CDATA[It remains unchanged because spot hasn't moved]]></text></answer>
+            <answer correct="no"><text><![CDATA[It becomes exactly equal to the spot rate]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** New F = 83 × (1.08)/(1.05) = 83 × 1.02857 = 85.37. Old F was 84.58. The wider interest rate differential increases the forward premium.
+**The Trap:** Higher INR rates INCREASE the futures price (widen premium), even though they may strengthen INR in the spot market.
+**Cross-Exam Context:** Interest rate sensitivity of futures is tested in Series I and IV.
+**Distributor's Pro-Tip:** The spot rate might decrease (INR appreciates) due to FPI inflows, but the forward premium widens — these two effects work independently.]]></text></explanation>
+    </question>
+</QF>

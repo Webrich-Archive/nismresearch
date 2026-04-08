@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Option Trading Strategies_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investor buys Nifty futures at 22,000 as a long hedge for his planned equity investment next month. On the date of investment, Nifty spot is at 22,800 and futures are at 22,850. What is the effective purchase price of his investment per unit of Nifty?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 22,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 22,800]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 22,850]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 22,050]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+1. Bought futures at: Rs. 22,000
+2. Spot price when investing: Rs. 22,800
+3. Profit on futures = 22,800 - 22,000 = Rs. 800 (assuming convergence at expiry)
+4. Effective purchase price = Spot price - Futures profit = 22,800 - 800 = Rs. 22,000
+The hedge effectively locked in the purchase price at Rs. 22,000.
+
+**The Trap:** Students might think the effective price is the spot price (22,800) forgetting to account for the futures profit, or might use the futures closing price instead of spot.
+
+**Cross-Exam Context:** Effective price calculations are common in both NISM Equity Derivatives and Currency Derivatives.
+
+**Key Takeaway:** In a perfect hedge, the effective price equals the original futures price, regardless of subsequent market movements.]]></text></explanation>
+    </question>
+</QF>

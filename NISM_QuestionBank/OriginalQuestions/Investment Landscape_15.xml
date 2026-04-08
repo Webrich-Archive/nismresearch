@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Investment Landscape_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The Sharpe ratio is used to measure:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The total volatility of a portfolio's returns]]></text></answer>
+            <answer correct="no"><text><![CDATA[The sensitivity of a portfolio to market movements]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The excess return earned per unit of total risk taken]]></text></answer>
+            <answer correct="no"><text><![CDATA[The duration of a bond portfolio in response to interest rate changes]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The Sharpe ratio measures risk-adjusted return by calculating the excess return (portfolio return minus risk-free rate) per unit of total risk (standard deviation). Formula: Sharpe Ratio = (Rp - Rf) / σp. A higher Sharpe ratio indicates better risk-adjusted performance -- the fund generates more return for each unit of risk taken.
+
+**The Trap:** Option A describes standard deviation (total volatility), not the Sharpe ratio. Option B describes beta (market sensitivity). The key distinction is that Sharpe ratio COMBINES return and risk into a single metric, while standard deviation and beta measure only risk dimensions.
+
+**Cross-Exam Context:** The Sharpe ratio is heavily tested in NISM V-A and XII. Candidates should know: (1) Higher Sharpe = better, (2) It uses total risk (standard deviation), not just market risk (beta), (3) The Treynor ratio is the equivalent measure using beta instead of standard deviation.
+
+**Distributor's Pro-Tip:** When comparing two funds with similar returns, always check the Sharpe ratio. A fund returning 15% with Sharpe ratio of 1.2 is superior to one returning 16% with Sharpe ratio of 0.8 because the first achieves nearly the same return with significantly less risk.]]></text></explanation>
+    </question>
+</QF>

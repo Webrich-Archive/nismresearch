@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_38" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A short call position at strike 83 with premium received Rs. 0.10. At expiry USDINR is 83.40. What is the net P&L?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Loss of Rs. 0.30 per unit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 0.10 per unit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 0.40 per unit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 0.30 per unit]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Short call: Premium received = 0.10. Payoff to buyer (seller's loss) = 83.40 - 83 = 0.40. Net = 0.10 - 0.40 = -0.30 (loss).
+**The Trap:** The seller keeps the premium (0.10) but must pay the intrinsic value (0.40). Net = loss of 0.30.
+**Cross-Exam Context:** Short option P&L is tested in Series I and VIII.
+**Distributor's Pro-Tip:** Short call profit only when spot stays at or below strike. Beyond BEP (83.10), every paisa up is a loss.]]></text></explanation>
+    </question>
+</QF>

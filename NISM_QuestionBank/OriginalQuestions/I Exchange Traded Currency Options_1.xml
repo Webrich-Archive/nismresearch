@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What right does a call option give to its buyer?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The right, but not the obligation, to buy the underlying asset at the strike price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The obligation to buy the underlying asset at the strike price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The right to sell the underlying asset at the strike price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The obligation to sell the underlying asset at market price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A call option gives the buyer the RIGHT (not obligation) to BUY the underlying at the predetermined strike price on or before expiry. The buyer pays a premium for this right.
+**The Trap:** A put option gives the right to SELL. Futures create obligations for both parties.
+**Cross-Exam Context:** Option definitions are fundamental to Series I, VIII, and XIII.
+**Distributor's Pro-Tip:** Call = right to buy. Put = right to sell. Buyer has rights; Seller has obligations.]]></text></explanation>
+    </question>
+</QF>

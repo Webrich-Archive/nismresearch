@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Scheme Performance_25" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An equity index has a Price Return Index (PRI) value showing a 12% annual return. If the historical dividend yield gap between TRI and PRI is approximately 2%, what would the Total Return Index (TRI) approximately show as the annual return?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[10%]]></text></answer>
+            <answer correct="no"><text><![CDATA[12%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[14%]]></text></answer>
+            <answer correct="no"><text><![CDATA[24%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The Total Return Index (TRI) includes both price changes and dividend income, while the Price Return Index (PRI) captures only price changes. If PRI shows 12% and the historical dividend yield gap is approximately 2%, then:
+TRI return = PRI return + Dividend Yield
+TRI return = 12% + 2% = 14% (approximately)
+
+The historical dividend yield gap between TRI and PRI for Indian equity indices has typically been in the range of 1.5-2.5% per annum.
+
+**The Trap:** Option A (10%) subtracts the dividend yield instead of adding it -- TRI should always be HIGHER than PRI because it includes additional income. Option D (24%) incorrectly doubles the return. The dividend yield gap of 1.5-2.5% is a key fact to remember for the exam.
+
+**Cross-Exam Context:** This 1.5-2.5% gap explains why the TRI mandate was significant. Before February 2018, funds compared against PRI had an apparent performance advantage of 1.5-2.5% that was not genuine alpha.
+
+**Distributor's Pro-Tip:** When explaining the TRI mandate to clients, use this example: "A fund showing 2% outperformance over PRI benchmark was actually just matching the TRI benchmark." This helps clients understand why the regulatory change was important for fair performance evaluation.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_28" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Basis in the context of futures trading is defined as:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Basis = Spot Price - Futures Price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Basis = Futures Price - Spot Price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Basis = Futures Price - Strike Price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Basis = (Futures Price - Spot Price) / Spot Price x 100]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Basis is defined as Spot Price minus Futures Price. When futures are trading above spot (the normal case due to cost of carry), basis is NEGATIVE. When futures trade below spot, basis is positive. At expiry, basis converges to zero as futures price equals spot price.
+
+**The Trap:** Many students reverse the formula and calculate Futures minus Spot. The correct definition in Indian markets and most textbooks is Spot MINUS Futures. Also, basis does not involve any 'strike price' (that is an options concept).
+
+**Cross-Exam Context:** Basis risk is an important concept for hedging effectiveness, tested in Series VIII.
+
+**Key Takeaway:** Basis = Spot - Futures. Negative basis is normal (futures > spot). Basis -> 0 at expiry.]]></text></explanation>
+    </question>
+</QF>

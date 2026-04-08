@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_57" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The lot size for cross-currency futures contract USDJPY is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[1,000 USD]]></text></answer>
+            <answer correct="no"><text><![CDATA[1,000 JPY]]></text></answer>
+            <answer correct="no"><text><![CDATA[100,000 JPY]]></text></answer>
+            <answer correct="no"><text><![CDATA[10,000 USD]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** USDJPY cross-currency futures have a lot size of 1,000 USD (the base currency). EURUSD lot = 1,000 EUR, GBPUSD lot = 1,000 GBP. Lot sizes are in base currency units.
+**The Trap:** Don't confuse with JPYINR where the lot is 100,000 JPY. For USDJPY, the base is USD so lot = 1,000 USD.
+**Cross-Exam Context:** Cross-currency contract specs are specific to Series I.
+**Distributor's Pro-Tip:** USDJPY price quotation is in JPY per 1 USD. Contract value = Price × 1000 in JPY.]]></text></explanation>
+    </question>
+</QF>

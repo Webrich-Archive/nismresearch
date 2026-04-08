@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Risk Return and Performance_50" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[CASE STUDY (continued): Using the same data:
+- Fund Alpha: Return = 18%, Std Dev = 15%, Beta = 1.3
+- Fund Beta: Return = 14%, Std Dev = 10%, Beta = 0.9
+- Risk-Free Rate = 7%, Market Return = 14%
+
+Question 4 of 4: What is the Alpha (Jensen's Alpha) of each fund, and which fund manager demonstrated greater stock-picking skill?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Fund Alpha: Alpha = 4.0%, Fund Beta: Alpha = 0% -- Fund Alpha manager is superior]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fund Alpha: Alpha = 2.6%, Fund Beta: Alpha = 1.4% -- Fund Alpha manager is superior]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Fund Alpha: Alpha = 1.9%, Fund Beta: Alpha = 0.7% -- Fund Alpha manager demonstrated greater stock-picking skill]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fund Alpha: Alpha = 0.7%, Fund Beta: Alpha = 1.9% -- Fund Beta manager is superior]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Alpha = Fund Return - [Rf + Beta x (Market Return - Rf)]
+Fund Alpha: Alpha = 18% - [7% + 1.3 x (14% - 7%)] = 18% - [7% + 9.1%] = 18% - 16.1% = 1.9%
+Fund Beta: Alpha = 14% - [7% + 0.9 x (14% - 7%)] = 14% - [7% + 6.3%] = 14% - 13.3% = 0.7%
+
+Both funds have positive alpha, meaning both fund managers added value beyond passive beta exposure. Fund Alpha's manager generated 1.9% alpha versus Fund Beta's 0.7%, indicating greater skill in security selection.
+
+**The Trap:** 4.0% (Option A) comes from subtracting market return from fund return (18-14) without beta adjustment. Option B uses incorrect calculation. Option D reverses the alpha values. The critical point: Fund Alpha's 18% return SEEMS like 4% above the market's 14%, but after adjusting for its higher beta (1.3), the expected return was 16.1%. So the TRUE outperformance (alpha) is only 1.9%, not 4%.
+
+**Cross-Exam Context:** This case study ties together all major risk-adjusted measures: Sharpe ratio (total risk), Treynor ratio (systematic risk), and Alpha (manager skill). Fund Alpha comes out ahead on all three measures in this case, but the margins vary -- illustrating that each measure captures a different dimension of performance.
+
+**Distributor's Pro-Tip:** Alpha is the ultimate justification for active management fees. Fund Alpha's manager generated 1.9% alpha -- if the active fund's additional expense over an index fund is less than 1.9%, the active management is worthwhile. Always compare alpha with the expense ratio differential to determine if active management is truly adding net value for the client.]]></text></explanation>
+    </question>
+</QF>

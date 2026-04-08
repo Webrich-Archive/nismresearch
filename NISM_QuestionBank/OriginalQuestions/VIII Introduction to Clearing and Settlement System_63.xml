@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_63" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A client buys 10 lots of Nifty 22000 CE at Rs. 200 per unit. Lot size is 25. What is the total premium margin required from this client?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 50,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 5,50,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 5,00,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step:
+1. Premium per unit = Rs. 200
+2. Premium per lot = 200 x 25 = Rs. 5,000
+3. Total premium margin = 5,000 x 10 lots = Rs. 50,000
+
+Option buyers pay only the premium amount as margin (no SPAN or exposure margin).
+
+**The Trap:** Rs. 5,50,000 would be the contract notional value, not the premium. Option buyers do NOT pay margin on the full contract value - only the premium amount.
+
+**Cross-Exam Context:** Premium margin calculation for option buyers is straightforward but must be distinguished from writer margins.
+
+**Key Takeaway:** Option buyer's margin = Premium x Lot size x Number of lots. Only premium, no SPAN/Exposure.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_68" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A call option with strike Rs. 2,000 and premium Rs. 80 is exercised when the stock is at Rs. 2,200. What is the net profit per share for the buyer?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 120]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 200]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 80]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 280]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Call Profit = max(S - X, 0) - Premium
+
+Step-by-step:
+1. S = 2,200, X = 2,000, P = 80
+2. Payoff = max(2,200 - 2,000, 0) = Rs. 200
+3. Profit = 200 - 80 = Rs. 120
+
+**The Trap:** The profit is the payoff MINUS the premium, not the payoff alone.
+
+**Cross-Exam Context:** Verify: BEP = 2,000 + 80 = 2,080. Stock at 2,200 > 2,080, so profit zone.
+
+**Key Takeaway:** Call profit = (S - X) - P = 200 - 80 = Rs. 120.]]></text></explanation>
+    </question>
+</QF>

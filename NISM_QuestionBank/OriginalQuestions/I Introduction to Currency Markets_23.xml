@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Introduction to Currency Markets_23" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A bank quotes USD/INR as 82.0525/82.0575. An exporter wants to sell USD received from exports. At what rate will the bank buy the exporter's USD?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[82.0525]]></text></answer>
+            <answer correct="no"><text><![CDATA[82.0575]]></text></answer>
+            <answer correct="no"><text><![CDATA[82.0550]]></text></answer>
+            <answer correct="no"><text><![CDATA[82.0500]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Two-way quotes are from the market maker's (bank's) perspective. The bid price (82.0525) is the rate at which the bank BUYS the base currency (USD). An exporter selling USD receives the bid rate.
+**The Trap:** The offer rate (82.0575) is what the bank charges when SELLING USD to a customer.
+**Cross-Exam Context:** Two-way quote application is tested in Series I and XIII.
+**Distributor's Pro-Tip:** Remember: Customer sells at bid, buys at offer. The bank always makes the spread.]]></text></explanation>
+    </question>
+</QF>

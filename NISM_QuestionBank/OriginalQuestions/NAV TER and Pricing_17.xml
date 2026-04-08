@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV TER and Pricing_17" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An equity scheme collects exit load of Rs. 2 crore during a year. This entire exit load is credited back to the scheme. The scheme is allowed an additional 5 bps TER on account of exit load credit. If the scheme's AUM is Rs. 4,000 crore, what is the additional TER amount the scheme can charge?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 2.00 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 20.00 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.20 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 5.00 crore]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Additional TER on account of exit load = AUM x 5 bps = Rs. 4,000 crore x 0.05% = Rs. 4,000 crore x 0.0005 = Rs. 2.00 crore. Note: 5 bps = 5/100 of 1% = 0.05%.
+
+**The Trap:** Rs. 20.00 crore uses 0.5% instead of 0.05% (confusing 5 bps with 50 bps). Rs. 0.20 crore uses 0.005% instead of 0.05%. Rs. 5.00 crore may come from a flat percentage error. Basis point conversions are a frequent source of errors in NISM exams.
+
+**Cross-Exam Context:** SEBI allows an additional 5 bps TER to be charged on account of exit load credited back to the scheme. This is separate from the regular TER limits and the B30 city additional TER. This provision is tested in NISM V-A.
+
+**Distributor's Pro-Tip:** Exit load serves a dual purpose — it discourages short-term trading and provides a small additional pool for the scheme. The 5 bps additional TER from exit load credit benefits the AMC marginally. As a distributor, focus on educating clients about why exit loads exist and how staying invested beyond the exit load period is beneficial.]]></text></explanation>
+    </question>
+</QF>

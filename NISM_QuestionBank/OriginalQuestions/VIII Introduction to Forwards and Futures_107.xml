@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_107" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader expects Bank Nifty to fall from 52,000 to 50,000 in 2 weeks. He sells 3 lots of Bank Nifty futures (lot size 15). If his view is correct, what is his profit? If Bank Nifty rises to 53,500 instead, what is his loss?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[If correct: Profit of Rs. 90,000. If wrong: Loss of Rs. 67,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[If correct: Profit of Rs. 30,000. If wrong: Loss of Rs. 22,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[If correct: Profit of Rs. 90,000. If wrong: Loss limited to margin deposited]]></text></answer>
+            <answer correct="no"><text><![CDATA[If correct: Profit of Rs. 2,000. If wrong: Loss of Rs. 1,500]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+If Bank Nifty falls to 50,000 (view correct):
+Profit per lot = (52,000 - 50,000) x 15 = 2,000 x 15 = Rs. 30,000
+Total profit = 30,000 x 3 = Rs. 90,000
+
+If Bank Nifty rises to 53,500 (view wrong):
+Loss per lot = (52,000 - 53,500) x 15 = -1,500 x 15 = -Rs. 22,500
+Total loss = 22,500 x 3 = Rs. 67,500
+
+**The Trap:** Rs. 30,000 is profit per lot, not total. Loss is NOT limited to margin in futures (unlike options). Per unit figures (2,000 and 1,500) are not the final answers.
+
+**Cross-Exam Context:** Symmetry of profit and loss potential in futures (unlike options) is a key Series VIII concept.
+
+**Key Takeaway:** Futures P&L is UNLIMITED in both directions. Loss is not capped at margin. This is the speculator's key risk.]]></text></explanation>
+    </question>
+</QF>

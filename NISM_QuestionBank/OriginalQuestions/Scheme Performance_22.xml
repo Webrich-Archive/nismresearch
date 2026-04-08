@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Scheme Performance_22" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A mutual fund scheme returned 15% during a year when the risk-free rate was 6%. If the downside deviation of the fund is 4.5%, what is the Sortino Ratio?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[3.33]]></text></answer>
+            <answer correct="yes"><text><![CDATA[2.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.33]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.50]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The Sortino Ratio is calculated as:
+Sortino Ratio = (Fund Return - Risk-free Rate) / Downside Deviation
+Sortino Ratio = (15% - 6%) / 4.5%
+Sortino Ratio = 9% / 4.5%
+Sortino Ratio = 2.00
+
+This means the fund generated 2 units of excess return over the risk-free rate for every unit of downside risk.
+
+**The Trap:** Option A (3.33) would result from dividing the total fund return by downside deviation (15/4.5) -- incorrect because you must subtract the risk-free rate first. Option C (1.33) could come from using 6/4.5. Option D (0.50) is the inverse of the correct answer. Remember: numerator = excess return over RISK-FREE RATE (not benchmark).
+
+**Cross-Exam Context:** Compare this with Information Ratio where the numerator uses benchmark return, not risk-free rate. Sortino uses downside deviation (not total standard deviation like Sharpe). A Sortino of 2.00 is generally considered very good.
+
+**Distributor's Pro-Tip:** The Sortino Ratio is especially useful for evaluating funds that aim for downside protection, such as balanced advantage funds or dynamic asset allocation funds. A high Sortino ratio confirms the fund is generating good returns without excessive downside risk.]]></text></explanation>
+    </question>
+</QF>

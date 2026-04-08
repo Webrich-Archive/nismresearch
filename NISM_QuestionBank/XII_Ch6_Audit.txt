@@ -1,0 +1,350 @@
+================================================================================
+NISM SERIES XII - CHAPTER 6 (DERIVATIVE MARKETS) QUESTION BANK AUDIT REPORT
+================================================================================
+PDF Source: NISM-Series-XII Securities Markets Foundation Certification
+            Examination_Dec 2025.pdf, Chapter 6, Pages 195-213
+Question Files: Derivative Markets_1.xml through Derivative Markets_25.xml
+Audit Date: 2026-04-08
+================================================================================
+
+
+========================================
+SECTION 1: CORRECTIONS NEEDED
+========================================
+
+ISSUE #1 — Derivative Markets_19.xml (Expiry Day)
+----------------------------------------------------------------------
+Question: "At any point in time, how many monthly equity derivative
+contracts are available for trading?"
+Correct Answer: "Three — near month, next month, and far month"
+Explanation text: "expiring on the last Tuesday or Thursday of the
+current month"
+
+STATUS: PARTIALLY OUTDATED / NEEDS CLARIFICATION
+
+The answer itself (three contracts) is correct per PDF Section 6.5.1.
+However, the explanation mentions "last Tuesday or Thursday" which is
+correct per the Dec 2025 PDF (which references SEBI Circular
+SEBI/HO/MRD/TPD-1/P/CIR/2025/76 dated May 26, 2025). The PDF states:
+"The monthly contracts expire on the last Tuesday or Last Thursday of
+every calendar month depending on the choice made by the respective
+stock exchanges."
+
+The explanation also omits that quarterly (March, June, September,
+December) and 8 semi-annual (June and December) long-maturity contracts
+are also available. The PDF states these explicitly. While not critical
+to the answer, the explanation should mention them for completeness.
+
+FIX: Add a note in the explanation: "In addition to the three monthly
+contracts, the exchange also specifies contracts for three quarterly
+months (March, June, September, December) and 8 semi-annual months
+(June and December). These are long maturity contracts."
+
+
+ISSUE #2 — Derivative Markets_10.xml (Zero-Sum Game — Distractor Risk)
+----------------------------------------------------------------------
+Question: "Derivatives are described as a 'zero-sum game' because:"
+Correct Answer: "The gain of one party equals the loss of the other
+party, with the net value of all positions being zero"
+Distractor B: "No new asset or wealth is created in derivative trading"
+
+STATUS: DISTRACTOR B IS ARGUABLY ALSO CORRECT
+
+The PDF (Section 6.2.1) states: "The sum of the two positions is zero"
+AND "There is no new asset or no new underlying created because of
+derivative contracts on the underlying asset." Both statements appear
+in the same paragraph as part of the zero-sum explanation. The PDF uses
+the "no new asset created" concept as a direct consequence/corollary
+of the zero-sum nature.
+
+While the "correct" answer is the more precise definition, distractor B
+is directly supported by the PDF text as a defining characteristic.
+A test-taker who has read the PDF could reasonably choose B.
+
+FIX: Rephrase distractor B to be clearly wrong, e.g.:
+"No party makes any profit in derivative trading" or
+"Both parties always break even in derivative trading"
+
+
+ISSUE #3 — Derivative Markets_8.xml (European Options — Expiry Day)
+----------------------------------------------------------------------
+Question: "In the Indian derivatives market, the options traded are:"
+Correct Answer: "European options, which can be exercised only on the
+expiry date"
+
+STATUS: CORRECT BUT EXPLANATION NEEDS UPDATE
+
+The explanation references contract codes "CE" and "PE" which is
+accurate per the PDF. However, the PDF Section 6.5.4 states the expiry
+date as "last Thursday of the month" in the general description, but
+the updated SEBI circular (referenced in Section 6.5.1) now allows
+"last Tuesday or Last Thursday." The explanation should acknowledge
+this updated expiry convention for completeness.
+
+FIX: Minor — add note that expiry is now "last Tuesday or Thursday
+depending on exchange choice" per SEBI Circular May 2025.
+
+
+ISSUE #4 — Derivative Markets_17.xml (MTM Settlement — Settlement Price)
+----------------------------------------------------------------------
+Question: "Daily mark-to-market (MTM) settlement in derivatives..."
+Correct Answer: "Open positions are valued at the daily settlement
+price and gains/losses are settled on T+1 basis"
+
+STATUS: CORRECT, BUT EXPLANATION COULD MISLEAD
+
+The explanation states the daily settlement price is the "weighted
+average price of last 30 minutes of trading." This matches the PDF
+exactly (Section 6.5.3). No correction needed on the answer or
+explanation — this is confirmed fine.
+
+(Originally flagged but confirmed accurate upon re-review.)
+
+
+========================================
+SECTION 2: CONFIRMED FINE
+========================================
+
+Derivative Markets_1.xml — Definition of derivative
+  Correct. PDF Section 6.1: "A derivative refers to a financial product
+  whose value is derived from another." Perfectly aligned.
+
+Derivative Markets_2.xml — Forward contract definition
+  Correct. PDF Section 6.3.1: Forward is OTC, two parties, specific
+  price, specific future date. All elements match.
+
+Derivative Markets_3.xml — Forward vs futures distinction
+  Correct. PDF Section 6.3.2: "Futures are exchange-traded forwards"
+  with standardized terms and clearing corporation. Matches exactly.
+
+Derivative Markets_4.xml — Call option definition
+  Correct. PDF Section 6.3.3: "Option which gives buyer a right to buy
+  the underlying asset, is called Call option." Right but not obligation.
+
+Derivative Markets_5.xml — Option premium definition
+  Correct. PDF Section 6.3.3 (Arvind/Salim example): "Arvind pays
+  Salim Rs.100 as the upfront payment. This is called the option
+  premium. This is also called as the price of the option."
+
+Derivative Markets_6.xml — In-the-money call option
+  Correct. PDF Section 6.3.3: When Nifty is at Rs. 10,200 and strike
+  is Rs. 10,000, "Arvind's option is in-the-money." Market > Strike
+  for calls. When Nifty at 9,800, option is "out-of-the-money."
+
+Derivative Markets_7.xml — Option writer obligation
+  Correct. PDF Section 6.3.3: "option writer has the obligation" and
+  "when he decides to exercise, option writer would be legally bound
+  to honour the contract."
+
+Derivative Markets_9.xml — Interest rate swap
+  Correct. PDF Section 6.3.4: Swap arrangement where one pays fixed,
+  receives floating (T-bill plus spread). "Only the interest rate on
+  this amount is exchanged" — principal is NOT exchanged.
+
+Derivative Markets_11.xml — Physical settlement since Oct 2019
+  Correct. PDF Section 6.2.2: "Since October 2019, SEBI has mandated
+  physical settlement... for all stock derivatives." Index futures and
+  options continue cash settlement. All facts match.
+
+Derivative Markets_12.xml — OTC vs exchange-traded derivatives
+  Correct. PDF Section 6.2.3: OTC = non-standard, counterparty risk,
+  between institutions. Exchange-traded = standard, clearing corporation.
+  "Forwards are OTC derivatives; futures are exchange-traded derivatives."
+
+Derivative Markets_13.xml — Hedging definition
+  Correct. PDF Section 6.7: "When an investor has an open position in
+  the underlying, he can use the derivative markets to protect that
+  position from the risks of future price movements."
+
+Derivative Markets_14.xml — Speculation definition
+  Correct. PDF Section 6.7: "A speculative trade in a derivative is
+  not supported by an underlying position in cash, but simply implements
+  a view on the future prices of the underlying, at a lower cost."
+
+Derivative Markets_15.xml — Arbitrage definition
+  Correct. PDF Section 6.2.4 and 6.7: Arbitrageurs exploit price
+  differentials between markets. They "buy from the cheaper market
+  and sell at the costlier market, and make riskless profits."
+
+Derivative Markets_16.xml — Initial margin (2-day horizon)
+  Correct. PDF Section 6.6.2: "Initial margin is collected using a
+  formula that estimates the risk to an open position over a 2-day
+  horizon." Exact match.
+
+Derivative Markets_17.xml — MTM settlement on T+1
+  Correct. PDF Section 6.5.3: "All derivative contracts are settled on
+  T+1 basis." Settlement price = "weighted average price of the last
+  30 minutes of trading." All facts match.
+
+Derivative Markets_18.xml — Index futures launched June 2000
+  Correct. PDF Section 6.4.1: "derivative contracts in the Indian stock
+  exchanges began trading in June 2000, when index futures were
+  introduced by the BSE and NSE."
+
+Derivative Markets_20.xml — Open interest definition
+  Correct. PDF Section 6.8.1: "Open interest is defined as the sum of
+  all incomplete contracts in the market, represented as one-sided
+  positions." Matches exactly.
+
+Derivative Markets_21.xml — Put-Call Ratio > 1
+  Correct. PDF Section 6.8.2: "PCR = Number of Put options outstanding
+  / Number of Call options outstanding. If the PCR is greater than one,
+  the number of puts is greater than the number of calls."
+
+Derivative Markets_22.xml — Hedging a portfolio decline
+  Correct. PDF Section 6.7 (Hedging): Portfolio manager can use
+  derivative markets to protect portfolio from price movements.
+  Selling futures or buying puts are standard hedging strategies
+  implied by the PDF.
+
+Derivative Markets_23.xml — Currency derivative for importers
+  Correct. PDF Section 6.1.2 example (c): Indian importer worried about
+  rupee depreciating can "enter into a contract that fixes the exchange
+  rate of the rupee to the dollar on the future date."
+
+Derivative Markets_24.xml — MTM calculation (Nifty futures)
+  Correct. PDF Section 6.5.3 gives the EXACT same example: Purchase at
+  Rs. 10,000, settlement at Rs. 9,900, lot size 50, loss = Rs. 100 x
+  50 = Rs. 5,000 pay-in obligation. Numbers match perfectly.
+
+Derivative Markets_25.xml — Call option net profit calculation
+  Correct. The math is sound: Intrinsic value = 10,300 - 10,000 = 300.
+  Net profit = 300 - 100 (premium) = Rs. 200. While this exact example
+  is not in the PDF, it is a straightforward extension of the Arvind/
+  Salim example in Section 6.3.3, and the logic is fully supported.
+
+
+========================================
+SECTION 3: CONCEPT GAPS
+========================================
+(Important PDF content NOT covered by any of the 25 questions)
+
+GAP #1 — Clearing Member Types (HIGH PRIORITY)
+  PDF Section 6.5.3 defines three types of clearing members:
+  - Trading Member Clearing Member (TM-CM)
+  - Professional Clearing Member (PCM) — banks/custodians, not traders
+  - Self-Clearing Member (SCM) — settle only own trades
+  No question tests this classification. This is a specific, testable
+  fact with clear distinctions suitable for MCQ format.
+
+GAP #2 — Trading Lot Minimum Value: Rs. 5 Lakhs (HIGH PRIORITY)
+  PDF Section 6.5.1: "The trading lot for a futures contract is specified
+  such that the value of the lot at the time of introduction is not less
+  than Rs. 5 lakhs." Also repeated for options (Section 6.5.4).
+  This specific threshold (Rs. 5 lakhs) is not tested in any question.
+  It is a commonly tested numerical fact in NISM exams.
+
+GAP #3 — Tick Size / Price Step: Re. 0.05 (MEDIUM PRIORITY)
+  PDF Section 6.5.1: "The price step (also called the tick size) for
+  futures contracts is Re.0.05." Includes a specific example
+  (5610.50 -> next trade at 5610.55 or 5610.45, not 5610.52).
+  No question covers this specific and testable fact.
+
+GAP #4 — Market Timing for Equity Derivatives (MEDIUM PRIORITY)
+  PDF Section 6.5.2: Normal market open 09:15 hrs, close 15:30 hrs,
+  trade modification end time 16:00 hrs. No question tests these
+  specific timings.
+
+GAP #5 — Final Settlement vs Daily Settlement (MEDIUM PRIORITY)
+  PDF Section 6.5.3 distinguishes: Daily settlement uses the weighted
+  average of last 30 minutes; FINAL settlement uses "the closing price
+  of the relevant underlying index or security in the cash market on
+  the final trading day." This distinction is not tested. The PDF
+  sample question #3 at the end of the chapter specifically tests the
+  daily settlement price (weighted avg of last 30 min), suggesting
+  NISM considers this important.
+
+GAP #6 — Order Types in Derivatives Trading (LOW-MEDIUM PRIORITY)
+  PDF Section 6.5.2 lists: Regular lot order, Stop loss order,
+  Immediate or cancel order, Day order, Spread order. Also explains
+  market vs limit orders. No question covers these.
+
+GAP #7 — Weather Derivatives / Underlying Diversity (LOW PRIORITY)
+  PDF Section 6.1.2 gives examples: weather derivatives (rainfall),
+  interest rate swaps, currency derivatives, index derivatives —
+  showing the diversity of underlyings. While Q23 covers the importer
+  example, the broader concept of different underlying types beyond
+  the standard equity/currency is not tested.
+
+GAP #8 — Exposure Margin Specifics for Options (LOW PRIORITY)
+  PDF Section 6.6.2: "Exposure margin is collected only on short option
+  positions (sellers)." Also mentions premium margins and assignment
+  margins for options. None of these option-specific margin details
+  are tested.
+
+GAP #9 — Position Limits and Monitoring (LOW PRIORITY)
+  PDF Section 6.6.3: Positions monitored real-time, alerts sent,
+  trading terminal inactivated if position limit is hit. Penalties for
+  violations. No question tests position limit concepts.
+
+GAP #10 — Benefits and Costs of Derivatives (LOW PRIORITY)
+  PDF Section 6.7.1 lists benefits (hedging, liquidity enhancement,
+  price discovery) and risks (OTC counterparty risk, liquidity crises).
+  No question specifically tests the enumerated benefits/costs.
+
+GAP #11 — Weekly Index Options Contract Availability (LOW PRIORITY)
+  PDF Section 6.5.1: "seven weekly expiry contracts excluding the
+  expiry week of monthly contract are made available for trading."
+  This specific detail about weekly options is not covered.
+
+GAP #12 — Base Price and MIBOR for Options (LOW PRIORITY)
+  PDF Section 6.5.4: "The base value is computed as the theoretical
+  price of the option, using MIBOR as the interest rate." The use of
+  MIBOR specifically is a testable fact not covered.
+
+GAP #13 — Corporate Action Adjustments (LOW PRIORITY)
+  PDF Section 6.5.2: Describes how exchanges adjust derivative prices
+  for bonus, rights, split, merger, dividends on cum/ex dates. This
+  mechanism is not tested.
+
+GAP #14 — STT on Derivative Transactions (LOW PRIORITY)
+  PDF Section 6.4.2: "Securities transaction tax (STT) at the rate
+  fixed by the government is also payable on derivative transactions."
+  Transaction costs are "levied based on value of contract for futures
+  and amount of premium for options." Not tested.
+
+GAP #15 — SEBI Study: 9 out of 10 F&O Traders Lose Money
+  PDF footnote 73 (Section 6.6): "A recent study by SEBI, published on
+  January 25, 2023, revealed that 9 out of 10 individual traders in
+  equity Futures and Options Segment, incurred net losses." While
+  referenced in some explanations, no question directly tests this
+  widely-cited statistic.
+
+
+========================================
+SECTION 4: AUDIT SUMMARY
+========================================
+
+Total Questions Audited: 25
+Corrections Needed:       2 (Issues #1 and #2; Issue #3 is minor)
+  - Issue #1: Q19 explanation incomplete (missing quarterly/semi-annual)
+  - Issue #2: Q10 distractor B is arguably correct per PDF text
+  - Issue #3: Q8 explanation needs expiry day update (minor)
+Confirmed Accurate:      22 (no issues found)
+Concept Gaps Identified: 15 (3 high priority, 4 medium, 8 low)
+
+PRIORITY RECOMMENDATIONS:
+1. Fix Q10 (Derivative Markets_10.xml) distractor to avoid ambiguity
+2. Enhance Q19 (Derivative Markets_19.xml) explanation with quarterly/
+   semi-annual contract details
+3. Add new questions for: Clearing member types (TM-CM/PCM/SCM),
+   Trading lot Rs. 5 lakh threshold, Tick size Re. 0.05
+4. Consider adding questions for: Final settlement price (cash market
+   close), Market timing (09:15/15:30), Order types
+
+NOTE ON PDF SAMPLE QUESTIONS:
+The PDF includes 5 sample questions at the end of Chapter 6 (page 213).
+Three of these overlap with questions in the bank:
+  - PDF Q1 (underlying of Nifty futures) — not directly in bank but
+    related to Q1
+  - PDF Q2 (counterparty risk/clearing corp) — covered by Q3, Q12
+  - PDF Q3 (settlement price/last 30 min) — covered by Q17
+  - PDF Q4 (American option exercise) — covered by Q8
+  - PDF Q5 (speculative risk) — partially covered by Q14
+The bank covers these well but could benefit from the exact framing
+of the PDF sample questions, especially Q1 (Nifty 50 index value as
+the underlying) and Q5 (specific speculative risks).
+
+================================================================================
+END OF AUDIT REPORT
+================================================================================

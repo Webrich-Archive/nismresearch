@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_112" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader expects global uncertainty to push Indian markets lower in the short term. Which strategy would BEST capitalize on this view?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy Nifty put options to profit from the expected decline]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy Nifty call options hoping for a recovery]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell Nifty put options to collect premium during the decline]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy shares of defensive stocks]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** BEARISH view → Buy Puts. Put options increase in value when the underlying falls. By buying Nifty puts:
+- Profit from the expected market decline
+- Maximum loss is limited to premium paid
+- No margin requirements (unlike short futures)
+
+**The Trap:** Selling puts would LOSE money if markets fall (put writer is obligated to buy at strike).
+
+**Cross-Exam Context:** Puts vs short futures: puts have limited risk (premium), short futures have unlimited risk.
+
+**Key Takeaway:** Bearish view → Buy puts for limited-risk downside participation.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_80" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A portfolio manager holds an equity portfolio worth Rs. 5 crore with a beta of 1.2. Nifty futures are at 25,000 with lot size 65. How many Nifty futures contracts should be sold to fully hedge the portfolio?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[37 contracts (approximately)]]></text></answer>
+            <answer correct="no"><text><![CDATA[31 contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[25 contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[48 contracts]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+1. Portfolio value = Rs. 5,00,00,000
+2. Portfolio beta = 1.2
+3. Value of one futures contract = 25,000 x 65 = Rs. 16,25,000
+4. Number of contracts = (Portfolio Value x Beta) / Futures Contract Value
+   = (5,00,00,000 x 1.2) / 16,25,000
+   = 6,00,00,000 / 16,25,000
+   = 36.92
+   = 37 contracts (rounded to nearest whole number)
+
+**The Trap:** 31 contracts ignores beta (5Cr/16.25L = 30.77). 25 contracts divides by price instead of contract value. 48 uses incorrect math. Beta MUST be included in the calculation.
+
+**Cross-Exam Context:** Hedge ratio calculation is one of the most important topics in Series VIII.
+
+**Key Takeaway:** Contracts to hedge = (Portfolio Value x Beta) / (Futures Price x Lot Size). Beta amplifies the number.]]></text></explanation>
+    </question>
+</QF>

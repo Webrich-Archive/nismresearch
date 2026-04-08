@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Risk Return and Performance_25" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[SEBI's concept of "segregated portfolio" (side-pocketing) in mutual funds is designed to:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Allow fund managers to create separate portfolios for high-net-worth investors]]></text></answer>
+            <answer correct="no"><text><![CDATA[Segregate equity and debt holdings into separate portfolios]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Separate distressed or defaulted securities from the main portfolio to protect existing investors]]></text></answer>
+            <answer correct="no"><text><![CDATA[Allow investors to choose which securities they want in their portfolio]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI introduced the segregated portfolio (side-pocketing) mechanism to protect mutual fund investors during credit events. When a debt security in a fund's portfolio faces a credit event (downgrade to below investment grade or default), the fund can segregate that security into a separate portfolio. Existing investors receive units of the segregated portfolio proportionally, while new investors are not affected by the distressed security.
+
+**The Trap:** Side-pocketing is NOT for creating HNI-specific portfolios, separating equity from debt, or allowing investor security selection. It is specifically a credit event response mechanism. The purpose is to prevent a fire sale of the distressed security (which would hurt all investors) and to stop existing investors from bearing losses that would benefit new investors entering at a lower NAV.
+
+**Cross-Exam Context:** Side-pocketing was introduced by SEBI after the IL&FS credit crisis in 2018. The trustees must approve the creation of a segregated portfolio. The distressed securities are held separately until recovery or write-off, and the recovered amount (if any) is distributed to holders of the segregated portfolio units.
+
+**Distributor's Pro-Tip:** Explain side-pocketing to clients as a fairness mechanism. Without it, investors who redeem early during a credit event escape the loss, while those who stay bear disproportionate losses. Side-pocketing ensures equitable treatment -- everyone bears their fair share of the loss, and any recovery is distributed proportionally.]]></text></explanation>
+    </question>
+</QF>

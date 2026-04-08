@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_25" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader buys Nifty futures at 22,000. Settlement prices over 3 days are: Day 1: 22,200, Day 2: 21,800, Day 3: 22,300. What is the cumulative MTM profit/loss over the 3 days?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Profit of Rs. 7,500 (per lot of 25)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 5,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 12,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 2,500]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step daily MTM (lot size = 25):
+Day 1: (22,200 - 22,000) x 25 = +Rs. 5,000 (Profit)
+Day 2: (21,800 - 22,200) x 25 = -Rs. 10,000 (Loss)
+Day 3: (22,300 - 21,800) x 25 = +Rs. 12,500 (Profit)
+
+Cumulative = 5,000 - 10,000 + 12,500 = +Rs. 7,500 (Profit)
+
+Verification: Total move = 22,300 - 22,000 = 300 x 25 = Rs. 7,500
+
+**The Trap:** Adding daily absolute values would give a wrong answer. Cumulative MTM should equal the overall price change multiplied by quantity.
+
+**Cross-Exam Context:** Multi-day MTM tracking is a common exam calculation.
+
+**Key Takeaway:** Cumulative MTM = Sum of daily MTMs = (Final price - Entry price) x Quantity. Daily MTMs always use previous settlement price.]]></text></explanation>
+    </question>
+</QF>

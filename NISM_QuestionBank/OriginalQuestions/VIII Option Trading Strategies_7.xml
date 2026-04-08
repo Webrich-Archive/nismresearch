@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Option Trading Strategies_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[TCS spot price is Rs. 3,800, the 2-month futures are trading at Rs. 3,780, and the cost of carry for 2 months is Rs. 50. The fair futures price should be Rs. 3,850. An arbitrageur would execute:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Reverse cash and carry arbitrage: sell/short TCS in spot and buy TCS futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cash and carry arbitrage: buy TCS spot and sell futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy both TCS spot and futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[No profitable arbitrage is possible]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step:
+1. Fair futures price = 3,800 + 50 = Rs. 3,850
+2. Actual futures price = Rs. 3,780 (underpriced)
+3. Since F(actual) < F(fair), futures are underpriced
+4. Strategy: Sell/short spot at Rs. 3,800 + Buy futures at Rs. 3,780
+5. At expiry, both converge. Profit = (3,800 - 3,780) + savings on carry = Rs. 70
+
+**The Trap:** Cash and carry is when futures are overpriced. Here futures are underpriced (3,780 < 3,850), so reverse cash and carry is the correct strategy.
+
+**Cross-Exam Context:** Understanding the direction of arbitrage based on mispricing is fundamental to derivatives trading.
+
+**Key Takeaway:** Reverse cash and carry: Sell spot + Buy futures when actual futures price < fair futures price.]]></text></explanation>
+    </question>
+</QF>

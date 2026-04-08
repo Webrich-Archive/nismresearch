@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_75" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A put option with strike Rs. 2,500 and premium Rs. 100 expires when the stock is at Rs. 2,430. What is the profit/loss?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Loss of Rs. 30]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 70]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 100]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 30]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Put Profit = max(X - S, 0) - Premium
+
+Step-by-step:
+1. X = 2,500, S = 2,430, P = 100
+2. Payoff = max(2,500 - 2,430, 0) = Rs. 70
+3. Profit = 70 - 100 = -Rs. 30 (LOSS)
+4. BEP = 2,500 - 100 = 2,400. Spot (2,430) > BEP (2,400), so loss.
+
+**The Trap:** The put is ITM but below BEP. ITM does NOT guarantee profit - payoff must exceed premium.
+
+**Cross-Exam Context:** Partial recovery: payoff covers only Rs. 70 of Rs. 100 premium. Net loss = Rs. 30.
+
+**Key Takeaway:** ITM but above put BEP = partial loss. Need S < X - P for profit.]]></text></explanation>
+    </question>
+</QF>

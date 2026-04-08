@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_23" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The tick size for Nifty futures on the NSE is Re. 0.05. This means:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The minimum price movement (up or down) in the Nifty futures price is Re. 0.05, so prices can be 25000.00, 25000.05, 25000.10, etc.]]></text></answer>
+            <answer correct="no"><text><![CDATA[The futures price can only change in multiples of Rs. 5, so valid prices are 25000, 25005, 25010, etc.]]></text></answer>
+            <answer correct="no"><text><![CDATA[A commission of Re. 0.05 per unit is charged by the exchange on each trade]]></text></answer>
+            <answer correct="no"><text><![CDATA[The maximum daily price movement is limited to Re. 0.05 from the previous day's closing price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Tick size is the MINIMUM price increment/decrement allowed. With a tick size of Re. 0.05, the Nifty futures price can move in steps of 0.05. So if the current price is 25000.00, the next possible prices are 25000.05 or 24999.95. With a lot size of 65, each tick represents a profit/loss of 65 x 0.05 = Rs. 3.25 per contract.
+
+**The Trap:** Tick size is not a commission, not a daily limit, and not Rs. 5. It is just Re. 0.05 - the smallest possible price change.
+
+**Cross-Exam Context:** Tick size combined with lot size determines the minimum profit/loss per contract, important for Series VIII trading questions.
+
+**Key Takeaway:** Tick size = Re. 0.05 for Nifty futures. Tick value = Tick size x Lot size = 0.05 x 65 = Rs. 3.25.]]></text></explanation>
+    </question>
+</QF>

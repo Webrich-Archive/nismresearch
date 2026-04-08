@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Trading Mechanism_48" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The TWS (Trader Workstation) provides which two kinds of information?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Trading member's own transaction information AND market information]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only market information]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the member's own orders]]></text></answer>
+            <answer correct="no"><text><![CDATA[Client personal information and trade details]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** TWS provides: (1) Member's own info — orders, modifications, outstanding orders, order log, trade details. (2) Market info — order book, price info, trade info, additional data.
+**The Trap:** TWS shows both personal trading data AND market-wide data.
+**Cross-Exam Context:** TWS features are tested in Series I.
+**Distributor's Pro-Tip:** Exchanges also provide spot market currency price feeds through TWS to assist in trading decisions.]]></text></explanation>
+    </question>
+</QF>

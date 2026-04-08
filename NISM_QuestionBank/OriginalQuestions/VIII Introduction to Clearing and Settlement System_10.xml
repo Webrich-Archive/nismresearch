@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The SPAN margin system considers which of the following risk factors in its scenarios?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Price changes and volatility changes of the underlying asset]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the current market price of the derivative]]></text></answer>
+            <answer correct="no"><text><![CDATA[The credit rating of the trading member]]></text></answer>
+            <answer correct="no"><text><![CDATA[The trading volume of the derivative contract]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SPAN simulates 16 risk scenarios by varying two factors: (1) Price of the underlying - up, down, and extreme moves, and (2) Volatility - increase and decrease. For each combination, it calculates the portfolio's gain/loss. The worst-case loss becomes the SPAN margin.
+
+**The Trap:** SPAN does not consider credit ratings, trading volume, or just the current price. It is a forward-looking risk assessment based on potential price and volatility movements.
+
+**Cross-Exam Context:** Understanding what goes into SPAN calculations is important for risk management knowledge.
+
+**Key Takeaway:** SPAN risk factors: price changes + volatility changes. 16 scenarios with different combinations. Worst-case loss = margin.]]></text></explanation>
+    </question>
+</QF>

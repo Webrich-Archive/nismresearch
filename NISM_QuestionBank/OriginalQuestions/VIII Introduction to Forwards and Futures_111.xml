@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_111" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[On the last day before Nifty futures expiry, the spot Nifty is at 25,000 and the futures are at 25,050. A trader notices this 50-point premium. Should the trader attempt a cash-and-carry arbitrage?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[No, because on the last day before expiry, the cost of carry for 1 day is negligible, but the 50-point premium will disappear at expiry. However, transaction costs (STT, brokerage, impact cost) may eat up most of the 50-point profit, making the trade barely profitable]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, the 50-point premium is a guaranteed profit opportunity]]></text></answer>
+            <answer correct="no"><text><![CDATA[No, arbitrage is not allowed on the expiry day by SEBI regulations]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, but only institutional investors can execute this trade]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Near expiry, the cost of carry is almost zero, so any premium above spot is theoretically arbitrageable. However:
+1. STT on delivery-based futures settlement is 0.1% (significantly higher than intraday)
+2. Transaction costs may be Rs. 25-35 per unit on a Rs. 25,000 stock
+3. Impact cost may add another Rs. 5-10
+4. Net profit after costs may be minimal or even negative
+
+**The Trap:** Arbitrage is not prohibited near expiry. It is not restricted to institutions. The 50 points is NOT guaranteed profit because transaction costs must be considered.
+
+**Cross-Exam Context:** Practical arbitrage constraints (transaction costs, STT impact) are tested in Series VIII.
+
+**Key Takeaway:** Theoretical arbitrage may not be profitable after accounting for all transaction costs (STT, brokerage, impact cost).]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_97" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Using the order book from the previous question (Best Buy Rs. 998/200, Rs. 997/300; Best Sell Rs. 1,002/150, Rs. 1,003/350), if a trader wants to BUY 400 shares, what is the average execution price and impact cost?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Average execution price: Rs. 1,002.625; Impact cost: approximately 0.26%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Average execution price: Rs. 1,002; Impact cost: 0.20%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Average execution price: Rs. 1,003; Impact cost: 0.30%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Average execution price: Rs. 1,000; Impact cost: 0%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+To BUY 400 shares, we take from the sell side:
+- 150 shares at Rs. 1,002 = Rs. 1,50,300
+- 250 shares at Rs. 1,003 = Rs. 2,50,750
+- Total cost = Rs. 4,01,050
+- Average price = 4,01,050 / 400 = Rs. 1,002.625
+
+Impact cost = (Actual execution price - Ideal price) / Ideal price x 100
+= (1,002.625 - 1,000) / 1,000 x 100
+= 2.625 / 1,000 x 100
+= 0.2625% (approximately 0.26%)
+
+**The Trap:** Rs. 1,002 assumes all shares filled at best ask. Rs. 1,003 assumes all at second level. The weighted average accounts for partial fills at different levels.
+
+**Cross-Exam Context:** Impact cost calculations test order book literacy, important for Series VIII.
+
+**Key Takeaway:** Impact cost = (Execution Price - Ideal Price) / Ideal Price x 100. Measures the cost of market impact.]]></text></explanation>
+    </question>
+</QF>

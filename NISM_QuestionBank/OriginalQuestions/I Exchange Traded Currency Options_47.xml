@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_47" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A short put at strike 83 with premium Rs. 0.075. At expiry USDINR is 82.50. What is the loss per unit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 0.425]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.075 (premium only)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.575]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Short put loss = Intrinsic paid out - Premium received = (83 - 82.50) - 0.075 = 0.50 - 0.075 = Rs. 0.425.
+**The Trap:** The seller keeps the premium but must pay the intrinsic value to the buyer.
+**Cross-Exam Context:** Short put P&L is tested in Series I and VIII.
+**Distributor's Pro-Tip:** Short put max profit = 0.075 (when USDINR ≥ 83). Loss begins below BEP (82.925) and increases as price falls.]]></text></explanation>
+    </question>
+</QF>

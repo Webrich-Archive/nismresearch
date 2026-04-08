@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_75" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The contract value of 1 lot of EURUSD cross-currency futures at a price of 1.0800 is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[USD 1,080]]></text></answer>
+            <answer correct="no"><text><![CDATA[EUR 1,080]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 1,080]]></text></answer>
+            <answer correct="no"><text><![CDATA[USD 10,800]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** EURUSD lot = 1000 EUR. Contract value = Price × Lot = 1.0800 × 1000 = USD 1,080 (in quote currency USD).
+**The Trap:** The value is in the QUOTE currency (USD for EURUSD), not in EUR or INR.
+**Cross-Exam Context:** Cross-currency contract value is tested in Series I.
+**Distributor's Pro-Tip:** To convert to INR for margin: USD 1,080 × FBIL USD-INR rate (e.g., 83) = Rs. 89,640.]]></text></explanation>
+    </question>
+</QF>

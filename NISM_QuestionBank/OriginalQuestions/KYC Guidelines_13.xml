@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="KYC Guidelines_13" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The Aadhaar XML file or Secure QR Code used for offline verification of Aadhaar must have a generation date that is not older than:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[3 days from the date of carrying out KYC]]></text></answer>
+            <answer correct="no"><text><![CDATA[7 days from the date of carrying out KYC]]></text></answer>
+            <answer correct="no"><text><![CDATA[30 days from the date of carrying out KYC]]></text></answer>
+            <answer correct="no"><text><![CDATA[1 day from the date of carrying out KYC]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For offline Aadhaar verification through QR Code or XML file, the generation date must NOT be older than 3 DAYS from the date of carrying out KYC. This ensures the data is current and has not been manipulated.
+
+**The Trap:** The 3-day window is very specific. Candidates may guess 7 days or 30 days, which would be too long for a document that can be regenerated instantly. The 1-day option is too restrictive.
+
+**Cross-Exam Context:** This 3-day validity ensures freshness of Aadhaar data used for offline verification. In digital KYC processes tested in NISM V-A, this timeline affects how quickly the client must complete the online onboarding.
+
+**Distributor's Pro-Tip:** When using offline Aadhaar verification, always check the generation date of the XML file or QR code. If it is more than 3 days old, ask the client to generate a fresh one from the UIDAI website. This is a small but critical compliance detail.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_34" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader buys a USDINR 83 put at premium Rs. 0.075. At expiry USDINR is 82.50. What is the net profit per unit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 0.425]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.075]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.575]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Put payoff = max(83 - 82.50, 0) = 0.50. Net profit = 0.50 - 0.075 = Rs. 0.425 per unit.
+**The Trap:** Rs. 0.50 is the gross payoff. Always subtract the premium for net profit.
+**Cross-Exam Context:** Put option P&L is tested in Series I and VIII.
+**Distributor's Pro-Tip:** Per lot (1000 units): Rs. 0.425 × 1000 = Rs. 425 profit.]]></text></explanation>
+    </question>
+</QF>

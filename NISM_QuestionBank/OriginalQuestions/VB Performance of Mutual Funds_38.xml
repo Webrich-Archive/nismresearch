@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VB Performance of Mutual Funds_38" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The Beta of the overall market is __________ by definition, and an index fund that perfectly replicates the market index will also have a Beta of approximately this value.]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[1]]></text></answer>
+            <answer correct="no"><text><![CDATA[0]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.5]]></text></answer>
+            <answer correct="no"><text><![CDATA[2]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Beta measures the sensitivity of a scheme's returns relative to the market. The market itself, by definition, has a Beta of exactly 1. An index fund that replicates the market portfolio will also have a Beta of approximately 1. A Beta greater than 1 means the fund is more volatile than the market; less than 1 means less volatile.
+
+**The Trap:** Beta of 0 would mean no correlation with the market at all (like a risk-free asset). Beta of 0.5 indicates half the market sensitivity. Beta of 2 means twice as volatile as the market. None of these represent the market itself.
+
+**Cross-Exam Context:** Beta is a fundamental concept tested in both NISM V-A and V-B. It is used as the denominator in the Treynor Ratio formula.
+
+**Key Takeaway:** Market Beta = 1 always. Beta > 1 means more volatile than market, Beta < 1 means less volatile. Index funds have Beta close to 1.]]></text></explanation>
+    </question>
+</QF>

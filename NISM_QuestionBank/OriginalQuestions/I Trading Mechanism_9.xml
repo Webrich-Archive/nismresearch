@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Trading Mechanism_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A stop loss order is activated when:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The last traded price reaches or crosses the trigger price specified in the order]]></text></answer>
+            <answer correct="no"><text><![CDATA[The opening price matches the trigger price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The closing price matches the trigger price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The volume reaches a specified level]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A stop loss order remains inactive until the last traded price reaches the trigger price. Once triggered, it becomes either a market order or a limit order (depending on the type specified).
+**The Trap:** The trigger is based on LAST TRADED PRICE, not opening or closing price.
+**Cross-Exam Context:** Stop loss mechanics are tested in Series I and VIII.
+**Distributor's Pro-Tip:** A sell stop loss with trigger 82.80 and limit 82.75: activates when price hits 82.80, then places a sell order at 82.75.]]></text></explanation>
+    </question>
+</QF>

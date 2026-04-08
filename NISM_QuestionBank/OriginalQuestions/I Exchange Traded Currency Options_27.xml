@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_27" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader buys a USDINR 83 call at Rs. 0.10. At expiry USDINR is 82.75. What is the loss?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 0.10 per unit (premium lost)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.25 per unit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 82.75 per unit]]></text></answer>
+            <answer correct="no"><text><![CDATA[No loss — the option is automatically rolled over]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** At 82.75, the call is OTM (spot < strike). The buyer doesn't exercise. Loss = premium paid = Rs. 0.10 per unit = Rs. 100 per lot.
+**The Trap:** The loss is limited to the premium. The buyer does NOT lose the difference between spot and strike.
+**Cross-Exam Context:** Maximum loss concept is tested across all options exams.
+**Distributor's Pro-Tip:** This limited loss feature is why options are described as 'insurance' — you pay a premium and your downside is capped.]]></text></explanation>
+    </question>
+</QF>

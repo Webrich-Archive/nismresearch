@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the obligation of an option writer (seller) when the buyer decides to exercise the option?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The writer is obligated to fulfill the contract by buying or selling the underlying asset as per the contract terms]]></text></answer>
+            <answer correct="no"><text><![CDATA[The writer can refuse to honor the contract by forfeiting the premium received]]></text></answer>
+            <answer correct="no"><text><![CDATA[The writer has the right to renegotiate the strike price before honoring the contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[The writer can choose to settle only in cash regardless of the contract terms]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The option writer (seller) has an OBLIGATION to fulfill the contract if the buyer exercises. For a call writer, this means selling the asset at the strike price. For a put writer, this means buying the asset at the strike price. The writer cannot refuse.
+
+**The Trap:** Unlike the buyer who has a choice, the seller has NO choice once the buyer exercises. The premium received is the compensation for accepting this obligation.
+
+**Cross-Exam Context:** The asymmetry of rights (buyer) vs obligations (seller) is fundamental to options pricing.
+
+**Key Takeaway:** Writer's obligation is binding. The premium is the price of this obligation, not an escape clause.]]></text></explanation>
+    </question>
+</QF>

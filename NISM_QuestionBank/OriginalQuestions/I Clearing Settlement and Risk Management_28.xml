@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_28" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The ELM for options is calculated on:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The notional value of the open short option position]]></text></answer>
+            <answer correct="no"><text><![CDATA[The premium amount of the option]]></text></answer>
+            <answer correct="no"><text><![CDATA[The contract value of the long option position]]></text></answer>
+            <answer correct="no"><text><![CDATA[The intrinsic value of the option]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Options ELM is on the NOTIONAL value of SHORT option positions. For FCY-INR pairs, notional = based on latest FBIL rate. Long option positions don't attract ELM.
+**The Trap:** For FUTURES, ELM is on MTM value of GROSS open positions. For OPTIONS, it's on notional value of SHORT positions only.
+**Cross-Exam Context:** Options-specific margin rules are tested in Series I.
+**Distributor's Pro-Tip:** This means writing (selling) options has higher margin requirements than buying options.]]></text></explanation>
+    </question>
+</QF>

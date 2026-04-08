@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The theoretical price of a currency futures contract is computed using which formula?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[F = S × e^((r-rf)×t) where r is quote currency rate, rf is base currency rate]]></text></answer>
+            <answer correct="no"><text><![CDATA[F = S × (r/rf)]]></text></answer>
+            <answer correct="no"><text><![CDATA[F = S + r - rf]]></text></answer>
+            <answer correct="no"><text><![CDATA[F = S × e^(r×t)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The theoretical (no-arbitrage) price uses continuous compounding: F = S × e^((r-rf)×t), where S = spot, r = quote currency interest rate, rf = base currency rate, t = time to expiry.
+**The Trap:** The discrete compounding formula is F = S × (1+RQC×t)/(1+RBC×t). Both are valid but the exponential form is the theoretical formula used by exchanges.
+**Cross-Exam Context:** Futures pricing formulas are tested in Series I, VIII, and IV.
+**Distributor's Pro-Tip:** The base price on the first day of a new contract is set to this theoretical price.]]></text></explanation>
+    </question>
+</QF>

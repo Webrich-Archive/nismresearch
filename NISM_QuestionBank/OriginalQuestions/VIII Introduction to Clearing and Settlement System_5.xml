@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Through the process of novation, if Trader X sells Nifty futures to Trader Y, the legal counterparty relationships become:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Trader X's counterparty is the clearing corporation (as buyer), and Trader Y's counterparty is the clearing corporation (as seller)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trader X and Trader Y remain direct counterparties to each other]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both traders' counterparty is the exchange, not the clearing corporation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trader X's counterparty is Trader Y's clearing member]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** After novation: X sold futures, so the CC is the buyer to X (X sells to CC). Y bought futures, so the CC is the seller to Y (CC sells to Y). Neither X nor Y has any direct contractual relationship with each other. The CC interposes itself.
+
+**The Trap:** The exchange and the clearing corporation are separate entities. The counterparty is the clearing corporation, NOT the exchange. Also, clearing members are intermediaries but the legal counterparty is the CC.
+
+**Cross-Exam Context:** Understanding the flow: Trade on exchange -> Novation by CC -> Settlement via CC.
+
+**Key Takeaway:** Post-novation: Seller's counterparty = CC as buyer. Buyer's counterparty = CC as seller. No direct link between original parties.]]></text></explanation>
+    </question>
+</QF>

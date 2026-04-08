@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_71" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A put option has strike Rs. 800 and premium Rs. 35. At expiry, stock is at Rs. 765. What is the profit/loss?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Breakeven (zero profit/loss)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 35]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 35]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 0]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Put Profit = max(X - S, 0) - Premium
+
+Step-by-step:
+1. X = 800, S = 765, P = 35
+2. Payoff = max(800 - 765, 0) = Rs. 35
+3. Profit = 35 - 35 = Rs. 0 (Breakeven)
+4. BEP = X - P = 800 - 35 = 765 ✓ (stock is exactly at BEP)
+
+**The Trap:** At BEP, the payoff exactly equals the premium. The position breaks even.
+
+**Cross-Exam Context:** Put BEP = Strike - Premium. Below BEP = profit. Above BEP = loss.
+
+**Key Takeaway:** Put BEP = X - P = 800 - 35 = 765. At BEP: payoff = premium = no profit/loss.]]></text></explanation>
+    </question>
+</QF>

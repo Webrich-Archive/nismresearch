@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_45" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A clearing member's open position is arrived at by:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Aggregating the open positions of all trading members and custodial participants clearing through them]]></text></answer>
+            <answer correct="no"><text><![CDATA[Counting only proprietary positions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Counting only the largest client's positions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Taking the net of all member positions]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** CM's position = sum of positions of all TMs and CPs clearing through them. A TM's position = sum of proprietary + all client positions.
+**The Trap:** It's an AGGREGATE, including all entities clearing through the CM.
+**Cross-Exam Context:** Position aggregation is tested in Series I and VII.
+**Distributor's Pro-Tip:** This cascading aggregation ensures that each level (client → TM → CM → market) captures the true exposure.]]></text></explanation>
+    </question>
+</QF>

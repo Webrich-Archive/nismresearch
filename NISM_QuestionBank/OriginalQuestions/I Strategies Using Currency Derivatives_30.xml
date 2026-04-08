@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_30" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A bear put spread with 83 put (bought at 0.07) and 82.50 put (sold at 0.05) has a maximum profit of:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 0.48 per unit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.02 per unit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.50 per unit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.07 per unit]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Max profit = Strike difference - Net premium = (83 - 82.50) - (0.07 - 0.05) = 0.50 - 0.02 = Rs. 0.48. Occurs when USDINR ≤ 82.50 (both exercised).
+**The Trap:** Max LOSS = Net premium = 0.02. BEP = 83 - 0.02 = 82.98.
+**Cross-Exam Context:** Bear put spread calculation is from the workbook.
+**Distributor's Pro-Tip:** This is a limited risk, limited reward bearish strategy. Max reward (0.48) is much larger than max risk (0.02), but probability of reaching max profit is lower.]]></text></explanation>
+    </question>
+</QF>

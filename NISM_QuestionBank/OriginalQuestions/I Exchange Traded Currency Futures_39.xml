@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_39" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the contract value for 20 lots of JPYINR futures if the trade price is 55.00 (per 100 JPY)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 11,00,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 55,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,10,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,10,00,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** JPYINR: Contract value = Trade price × 100,000/100 × Lots = 55.00 × 1000 × 20 = Rs. 11,00,000. Note: 100,000 JPY per lot, but price is per 100 JPY, so multiplier = 100,000/100 = 1,000.
+**The Trap:** The JPYINR lot size is 100,000 JPY but the effective multiplier is 1,000 (same as other INR pairs).
+**Cross-Exam Context:** JPYINR contract value is specific to Series I.
+**Distributor's Pro-Tip:** All INR-based pairs effectively use a multiplier of 1000, making calculations consistent: Value = Price × 1000 × Lots.]]></text></explanation>
+    </question>
+</QF>

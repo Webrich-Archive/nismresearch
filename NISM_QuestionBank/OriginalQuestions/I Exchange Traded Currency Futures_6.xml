@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The Final Settlement Price (FSP) for USD-INR currency futures is based on:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[FBIL reference rate on the last trading day]]></text></answer>
+            <answer correct="no"><text><![CDATA[RBI reference rate on the last trading day]]></text></answer>
+            <answer correct="no"><text><![CDATA[The closing futures price on expiry day]]></text></answer>
+            <answer correct="no"><text><![CDATA[The average spot rate during the last week of the contract]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The FSP for INR-based currency futures is the FBIL reference rate on the last trading day. This ensures convergence of futures price to spot price at expiry.
+**The Trap:** The FSP is from the SPOT market (FBIL reference rate), not from the futures market closing price.
+**Cross-Exam Context:** FBIL reference rates are tested in Series I Chapter 1 and here.
+**Distributor's Pro-Tip:** For cross-currency futures (EUR-USD, GBP-USD, USD-JPY), the FSP is computed using FBIL USD-INR rate and corresponding cross rates.]]></text></explanation>
+    </question>
+</QF>

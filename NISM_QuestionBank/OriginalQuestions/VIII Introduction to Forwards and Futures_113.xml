@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_113" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The Nifty spot is 24,000. January futures are at 24,150 and February futures are at 24,320. A trader expects the spread to widen. What calendar spread should the trader execute?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy February futures (far month) and sell January futures (near month), profiting if the spread between February and January widens]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy January futures and sell February futures to profit from spread widening]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy both January and February futures to take a bullish position]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell both January and February futures to take a bearish position]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Current spread = Feb - Jan = 24,320 - 24,150 = 170 points.
+If the trader expects the spread to WIDEN (become larger), they should be LONG the spread:
+- Buy the higher-priced contract (February at 24,320)
+- Sell the lower-priced contract (January at 24,150)
+
+If the spread widens to, say, 220 points, the profit is 220 - 170 = 50 points per lot.
+
+**The Trap:** To profit from widening spread, buy the far month and sell the near month. Buying both or selling both is a directional bet, not a spread trade.
+
+**Cross-Exam Context:** Calendar spread trading is tested in Series VIII. These positions get margin benefits on exchanges.
+
+**Key Takeaway:** Spread widening: Buy far month + Sell near month. Spread narrowing: Sell far month + Buy near month.]]></text></explanation>
+    </question>
+</QF>

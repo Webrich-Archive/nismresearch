@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Foreign Exchange Derivatives_17" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[As per FEMA regulations, while offering an OTC foreign exchange derivative contract involving INR (other than NDDCs) to a user, what must the Authorised Dealer ensure?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The contract is for the purpose of hedging]]></text></answer>
+            <answer correct="no"><text><![CDATA[The contract value does not exceed USD 10 million]]></text></answer>
+            <answer correct="no"><text><![CDATA[The user has prior approval from RBI]]></text></answer>
+            <answer correct="no"><text><![CDATA[The contract maturity is less than one year]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For OTC INR derivatives (except NDDCs), ADs must ensure the contract is for hedging purposes. This is a regulatory requirement under FEMA. All OTC FX derivative contracts are settled through delivery except NDDCs.
+**The Trap:** Exchange-traded currency derivatives do NOT have this hedging-only restriction — anyone can trade.
+**Cross-Exam Context:** FEMA hedging requirements are tested in Series I and VIII.
+**Distributor's Pro-Tip:** The hedging purpose requirement for OTC INR derivatives distinguishes India's regime from fully liberalized markets where OTC speculation is also permitted.]]></text></explanation>
+    </question>
+</QF>

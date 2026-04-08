@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_72" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the approximate forward premium (in paisa) for a 1-month USDINR contract if spot is 84.00, INR rate is 6.5% p.a., and USD rate is 5% p.a.?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[10.5 paise approximately]]></text></answer>
+            <answer correct="no"><text><![CDATA[126 paise]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.5 paise]]></text></answer>
+            <answer correct="no"><text><![CDATA[42 paise]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** 1-month premium ≈ S × (RINR - RUSD) × (1/12) = 84 × (0.065-0.05) × (1/12) = 84 × 0.015 × 0.0833 = 84 × 0.00125 = 0.105 = 10.5 paise.
+**The Trap:** Don't forget to divide by 12 for monthly premium. Annual premium would be 126 paise.
+**Cross-Exam Context:** Monthly forward premium calculation is common in Series I.
+**Distributor's Pro-Tip:** Rough rule: 1.5% annual differential on spot of 84 = about 10.5 paise per month.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_62" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Using simple interest approximation, if the spot price is Rs. 10,000, risk-free rate is 7%, dividend yield is 1.5%, and time to expiry is 45 days, what is the approximate fair futures price?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 10,067.81 (approximately)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 10,550.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 10,700.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 10,000.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation using simple interest approximation:
+F = S x [1 + (r - q) x T/365]
+F = 10,000 x [1 + (0.07 - 0.015) x 45/365]
+F = 10,000 x [1 + 0.055 x 0.1233]
+F = 10,000 x [1 + 0.006781]
+F = 10,000 x 1.006781
+F = Rs. 10,067.81
+
+**The Trap:** Rs. 10,550 uses full-year carry of 5.5%. Rs. 10,700 uses 7% for full year. The time fraction 45/365 is critical - the carry for 45 days is much less than a full year.
+
+**Cross-Exam Context:** Simple interest approximation gives results close to compounding for short durations, commonly used in Series VIII.
+
+**Key Takeaway:** Simple interest: F = S x [1 + (r-q) x T/365] = 10,000 x [1 + 0.055 x 45/365] = Rs. 10,067.81.]]></text></explanation>
+    </question>
+</QF>

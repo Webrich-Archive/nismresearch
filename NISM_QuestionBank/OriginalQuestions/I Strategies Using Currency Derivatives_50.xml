@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_50" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The maximum loss in a short straddle (83 strike, call premium 0.20, put premium 0.15) occurs when:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[USDINR makes a very large move in either direction from the strike]]></text></answer>
+            <answer correct="no"><text><![CDATA[USDINR closes exactly at the strike price]]></text></answer>
+            <answer correct="no"><text><![CDATA[USDINR moves slightly in one direction]]></text></answer>
+            <answer correct="no"><text><![CDATA[Volatility decreases]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Short straddle max loss = unlimited (theoretically). Losses increase as USDINR moves further from the strike in EITHER direction. The BEPs are 82.65 and 83.35.
+**The Trap:** Max PROFIT (not loss) occurs at the strike. Max loss has no theoretical limit.
+**Cross-Exam Context:** Short straddle risk is tested in Series I and VIII.
+**Distributor's Pro-Tip:** Short straddle sellers must monitor positions closely and may use stop-losses to limit downside.]]></text></explanation>
+    </question>
+</QF>

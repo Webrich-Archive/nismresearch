@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_79" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An importer buys 100 lots of USDINR futures at 83.40 to hedge. At expiry, the spot is 84.10. What is the futures P&L and what rate does the importer effectively pay?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Futures profit of Rs. 70,000; effective rate approximately Rs. 83.40 per USD]]></text></answer>
+            <answer correct="no"><text><![CDATA[Futures loss of Rs. 70,000; effective rate Rs. 84.10 per USD]]></text></answer>
+            <answer correct="no"><text><![CDATA[Futures profit of Rs. 7,000; effective rate Rs. 83.40 per USD]]></text></answer>
+            <answer correct="no"><text><![CDATA[No profit or loss as hedge neutralizes everything]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Futures P&L = (84.10 - 83.40) × 1000 × 100 = Rs. 70,000 profit. The importer buys USD at spot (84.10) but gains Rs. 70,000 from futures. Net cost = (84.10 × 100,000) - 70,000 = Rs. 84,10,000 - 70,000 = Rs. 83,40,000. Effective rate = Rs. 83.40/USD.
+**The Trap:** The hedge works! Futures profit offsets the higher spot rate, locking in approximately the entry rate.
+**Cross-Exam Context:** Hedging effectiveness is tested in Series I.
+**Distributor's Pro-Tip:** The hedge locks in the futures entry rate regardless of spot movement — that's the purpose of hedging.]]></text></explanation>
+    </question>
+</QF>

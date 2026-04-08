@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Risk Return and Performance_55" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Jensen's Alpha is calculated as: Alpha = Actual Return - [Rf + Beta x (Market Return - Rf)]. A positive alpha indicates that ________.]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The fund manager outperformed the benchmark on a risk-adjusted basis]]></text></answer>
+            <answer correct="no"><text><![CDATA[The fund manager took more risk than the benchmark]]></text></answer>
+            <answer correct="no"><text><![CDATA[The fund had lower expense ratios than its peers]]></text></answer>
+            <answer correct="no"><text><![CDATA[The fund had higher assets under management than the benchmark]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Alpha measures the difference between a fund's actual return and its expected return based on its beta (systematic risk exposure). A positive alpha means the fund manager generated returns ABOVE what was expected given the level of systematic risk taken. This is attributed to the manager's stock-picking or market-timing skill.
+
+**The Trap:** "Took more risk" (Option B) confuses higher returns with higher alpha -- a fund can earn high returns simply by taking more risk (higher beta) without generating any alpha. Lower expense ratios (Option C) and higher AUM (Option D) are unrelated to alpha. The key insight: alpha isolates SKILL from RISK-TAKING by adjusting for the fund's beta exposure.
+
+**Cross-Exam Context:** Alpha is the definitive measure of active fund management skill. If alpha is positive, the manager added value beyond what a passive beta exposure would have delivered. If negative, the manager destroyed value relative to the risk taken.
+
+**Key Takeaway:** Positive alpha = manager beat the benchmark after adjusting for risk. It measures skill, not just returns.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IFSCA Maintenance of Records Rules_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under the PML Rules, a reporting entity filing client KYC records with the Central KYC Records Registry must do so within how many days after commencement of an account-based relationship?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[7 days]]></text></answer>
+            <answer correct="yes"><text><![CDATA[10 days]]></text></answer>
+            <answer correct="no"><text><![CDATA[15 days]]></text></answer>
+            <answer correct="no"><text><![CDATA[30 days]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Rule 9(1A) requires every reporting entity, within 10 days after the commencement of an account-based relationship, to file the electronic copy of the client's KYC records with the Central KYC Records Registry (CKYCRR). However, in an IFSC, no such filing is required for a client who is a foreign national.
+
+**The Trap:** The 10-day window is from the commencement of the relationship, not from the completion of KYC verification. Also, the IFSC has a specific exemption for foreign national clients from CKYCRR filing, which candidates should note.
+
+**Cross-Exam Context:** Series XXIV tests the CKYCRR filing requirement for domestic entities. The IFSCA exam adds the important exemption that foreign nationals in the IFSC are not subject to CKYCRR filing.
+
+**Distributor's Pro-Tip:** For IFSC entities: domestic clients require CKYCRR filing within 10 days, but foreign national clients are exempt. The Central KYC Registry assigns a unique KYC Identifier that can be used for subsequent verifications.]]></text></explanation>
+    </question>
+</QF>

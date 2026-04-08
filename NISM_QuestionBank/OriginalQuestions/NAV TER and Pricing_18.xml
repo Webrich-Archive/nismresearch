@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV TER and Pricing_18" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investor submits a purchase application for Rs. 3,00,000 in an equity scheme at 2:30 PM on a business day with a valid cheque. The NAV on that day is Rs. 45.00 and the next day's NAV is Rs. 46.00. Since the investment amount is Rs. 2 lakh or more, what NAV will be applicable and how many units will be allotted?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[NAV of Rs. 45.00; approximately 6,666.67 units]]></text></answer>
+            <answer correct="no"><text><![CDATA[NAV of Rs. 46.00; approximately 6,521.74 units]]></text></answer>
+            <answer correct="no"><text><![CDATA[NAV of Rs. 45.00; approximately 6,521.74 units]]></text></answer>
+            <answer correct="no"><text><![CDATA[NAV of Rs. 46.00; approximately 6,666.67 units]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For equity/debt schemes with investment of Rs. 2 lakh or more, if the application and funds are received before the cut-off time of 3:00 PM on a business day, the same day's NAV applies. Since the application was received at 2:30 PM (before 3:00 PM), same-day NAV of Rs. 45.00 applies. Units = Rs. 3,00,000 / Rs. 45.00 = 6,666.67 units.
+
+**The Trap:** Rs. 46.00 NAV (next day) would apply only if the application/funds were received after 3:00 PM. The third option uses the right NAV but calculates units using the wrong NAV in the denominator. The fourth option gets both NAV and units calculation confused.
+
+**Cross-Exam Context:** Cut-off timing rules are heavily tested in NISM V-A. For purchases of Rs. 2 lakh or more in equity/debt schemes, same-day NAV applies only if BOTH application and funds are received before 3:00 PM. This is different from liquid/overnight fund rules.
+
+**Distributor's Pro-Tip:** Always ensure clients submit applications with valid payment instruments well before 3:00 PM to get same-day NAV. For large investments on days when markets are rising, getting same-day NAV is advantageous. Advise clients on the cut-off timings to help them make informed decisions.]]></text></explanation>
+    </question>
+</QF>

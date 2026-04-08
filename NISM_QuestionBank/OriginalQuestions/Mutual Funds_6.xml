@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Mutual Funds_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The Net Asset Value (NAV) of a mutual fund scheme represents:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The net assets of the fund divided by the number of outstanding units]]></text></answer>
+            <answer correct="no"><text><![CDATA[The total market value of all securities held in the portfolio]]></text></answer>
+            <answer correct="no"><text><![CDATA[The face value of each unit multiplied by the number of units issued]]></text></answer>
+            <answer correct="no"><text><![CDATA[The original investment amount adjusted for inflation]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** NAV is calculated by taking the current market value (MTM) of the portfolio, adding any income earned (dividend, interest), deducting expenses incurred, and dividing the resulting net assets by the number of outstanding units. NAV is declared every business day so investors know the value of their investments.
+
+**The Trap:** Total market value of securities is NOT the NAV — you must add income and deduct expenses to arrive at net assets first, then divide by units. Face value is typically Rs.10 per unit and is different from NAV. NAV has nothing to do with inflation adjustment.
+
+**Cross-Exam Context:** MF topics overlap with Series V-A, V-B. NAV calculation is a fundamental concept tested across all mutual fund examinations.
+
+**Distributor's Pro-Tip:** Explain to clients that NAV is like a daily "price tag" per unit. It goes up when the portfolio performs well (after expenses) and goes down when it does not. Units are bought and sold at NAV-linked prices.]]></text></explanation>
+    </question>
+</QF>

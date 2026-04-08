@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV TER and Pricing_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investor invests Rs. 5,00,000 in a debt fund at a NAV of Rs. 20.00. After 8 months, the NAV rises to Rs. 21.00. The scheme charges an exit load of 0.50% for redemptions within 1 year. If the investor redeems all units, what is the total profit (redemption amount minus investment)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 22,375]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 25,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 22,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 24,375]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Units allotted = Rs. 5,00,000 / Rs. 20.00 = 25,000 units. Repurchase price = Rs. 21.00 - (Rs. 21.00 x 0.50%) = Rs. 21.00 - Rs. 0.105 = Rs. 20.895. Redemption amount = 25,000 x Rs. 20.895 = Rs. 5,22,375. Profit = Rs. 5,22,375 - Rs. 5,00,000 = Rs. 22,375.
+
+**The Trap:** Rs. 25,000 ignores exit load (25,000 x Rs. 21 = Rs. 5,25,000; profit = Rs. 25,000). Rs. 22,500 applies exit load on purchase NAV instead of redemption NAV. Rs. 24,375 may come from applying exit load only on the profit portion rather than on the full redemption NAV.
+
+**Cross-Exam Context:** This multi-step calculation combining unit allotment, exit load, and profit computation is typical of NISM V-A exam questions. Remember: exit load is on the redemption NAV, not on profit or on purchase price.
+
+**Distributor's Pro-Tip:** When clients ask about expected returns, always factor in exit load for early redemptions. In this case, the exit load of 0.50% on Rs. 5,22,500 is Rs. 2,625 — a meaningful amount. Advise clients to hold beyond the exit load period when possible to maximize returns.]]></text></explanation>
+    </question>
+</QF>

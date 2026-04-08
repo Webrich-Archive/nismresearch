@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV TER and Pricing_32" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Why does NAV of a scheme decrease immediately after an IDCW (Income Distribution cum Capital Withdrawal) is paid out?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Because the IDCW is paid from the scheme's assets, reducing total assets while units remain unchanged, leading to a lower NAV]]></text></answer>
+            <answer correct="no"><text><![CDATA[Because SEBI mandates a NAV reduction as a penalty for distributing income]]></text></answer>
+            <answer correct="no"><text><![CDATA[Because the market value of the scheme's investments falls on the IDCW payment date]]></text></answer>
+            <answer correct="no"><text><![CDATA[Because new units are created during IDCW distribution which dilutes the NAV]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When IDCW is paid out, cash leaves the scheme to go to unitholders. This reduces the scheme's total assets. Since units outstanding remain the same (no new units issued), the NAV = (Total Assets - Liabilities) / Units falls by the IDCW amount per unit. It is a simple mathematical consequence, not a penalty or market event.
+
+**The Trap:** NAV drop after IDCW is not a penalty — it is a mechanical result of cash leaving the scheme. It has nothing to do with market movements on that specific date. No new units are created during IDCW distribution (units are only created in IDCW reinvestment option). The reduction is exactly equal to the IDCW per unit distributed.
+
+**Cross-Exam Context:** This concept is heavily tested in NISM V-A because many investors misunderstand IDCW. The total wealth of the investor (holding value + IDCW received) remains the same pre-tax. Post-tax, the IDCW option may be less efficient due to taxation on the distribution.
+
+**Distributor's Pro-Tip:** Use a simple example to explain: Rs. 100 NAV, Rs. 5 IDCW = Rs. 95 NAV + Rs. 5 cash. Total wealth is still Rs. 100. The investor has not "earned" Rs. 5 — they have simply moved Rs. 5 from their investment to their bank account. This is the most powerful explanation to debunk the "IDCW is extra income" myth.]]></text></explanation>
+    </question>
+</QF>

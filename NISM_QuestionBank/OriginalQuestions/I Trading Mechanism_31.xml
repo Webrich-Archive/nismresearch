@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Trading Mechanism_31" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In a limit order, what happens if the specified price is not available?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The order waits in the order book until a matching counter order arrives or the order expires]]></text></answer>
+            <answer correct="no"><text><![CDATA[The order is automatically converted to a market order]]></text></answer>
+            <answer correct="no"><text><![CDATA[The order is cancelled immediately]]></text></answer>
+            <answer correct="no"><text><![CDATA[The exchange adjusts the price to the nearest available level]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Limit orders execute only at the specified price or better. If no matching counter order exists, the order sits in the book as a passive order until matched, modified, or cancelled at day end.
+**The Trap:** Limit orders are NOT automatically converted to market orders.
+**Cross-Exam Context:** Limit order behavior is tested in Series I.
+**Distributor's Pro-Tip:** Use limit orders when you have a specific price target; use market orders when execution speed is more important than price.]]></text></explanation>
+    </question>
+</QF>

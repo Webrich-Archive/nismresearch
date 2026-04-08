@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_45" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[At expiry, in-the-money stock options are:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Automatically exercised by the clearing corporation unless the holder specifically requests not to exercise]]></text></answer>
+            <answer correct="no"><text><![CDATA[Automatically lapsed if not explicitly exercised by the holder]]></text></answer>
+            <answer correct="no"><text><![CDATA[Settled in cash without any exercise action needed]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rolled over to the next expiry automatically]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** ITM options at expiry are automatically exercised by the clearing corporation. This is called automatic exercise. The holder does not need to take any action. However, if a holder does NOT want their ITM option exercised (rare scenario), they must specifically submit a Do-Not-Exercise instruction before the cutoff time.
+
+**The Trap:** ITM options do NOT lapse - they are auto-exercised. There is no automatic rollover. Since physical settlement applies to stock options, actual delivery of shares takes place.
+
+**Cross-Exam Context:** Automatic exercise and the Do-Not-Exercise exception are specific procedural details tested in the exam.
+
+**Key Takeaway:** ITM options at expiry = auto-exercised. Do-Not-Exercise instruction needed to prevent. Physical settlement follows for stock options.]]></text></explanation>
+    </question>
+</QF>

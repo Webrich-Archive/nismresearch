@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Understanding Index_8" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the ideal price used in the calculation of impact cost?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The average of the best bid price and the best ask price: (Best Bid + Best Ask) / 2]]></text></answer>
+            <answer correct="no"><text><![CDATA[The last traded price of the security]]></text></answer>
+            <answer correct="no"><text><![CDATA[The closing price of the previous trading day]]></text></answer>
+            <answer correct="no"><text><![CDATA[The volume-weighted average price (VWAP) of the day]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The ideal price for impact cost calculation is the average of the best bid and best ask prices: Ideal Price = (Best Bid + Best Ask) / 2. Impact cost measures the percentage degradation from this ideal price when actually executing a trade of a given size.
+**The Trap:** Last traded price and previous closing price are historical prices, not the current mid-price. VWAP is an average over a period, not the instantaneous ideal price used for impact cost.
+**Cross-Exam Context:** Impact cost is specifically tested in NISM Series VIII as a measure of liquidity for index inclusion criteria.
+**Key Takeaway:** Ideal Price = (Best Bid + Best Ask) / 2. Impact Cost = percentage difference between actual execution price and this ideal price. Lower impact cost = higher liquidity.]]></text></explanation>
+    </question>
+</QF>

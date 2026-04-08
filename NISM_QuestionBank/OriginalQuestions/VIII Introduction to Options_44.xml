@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_44" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The option Greek 'Delta' measures:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The change in option premium for a one-unit change in the price of the underlying asset]]></text></answer>
+            <answer correct="no"><text><![CDATA[The rate at which the option premium decays over time]]></text></answer>
+            <answer correct="no"><text><![CDATA[The sensitivity of the option premium to changes in volatility]]></text></answer>
+            <answer correct="no"><text><![CDATA[The change in option premium due to changes in interest rates]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Delta (Δ) = Change in Option Price / Change in Underlying Price
+
+Delta tells you how much the option premium will change when the underlying moves by Re. 1.
+
+**The Trap:** Theta = time decay. Vega = volatility sensitivity. Rho = interest rate sensitivity. Don't confuse the Greeks.
+
+**Cross-Exam Context:** Delta is the most important and most frequently used Greek for hedging.
+
+**Key Takeaway:** Delta = sensitivity of option price to underlying price change. Most important Greek.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_91" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An index is at 20,000. Fair futures value is 20,300. Actual futures are at 20,500. If a trader executes cash-and-carry with 50 units and the lot size is 50, what is the total arbitrage profit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 10,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 25,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 15,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 5,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+1. Fair value = 20,300, Actual futures = 20,500
+2. Mispricing = 20,500 - 20,300 = 200 points per unit
+3. Total arbitrage profit = 200 x 50 (units) = Rs. 10,000
+
+Breakdown: Buy index at 20,000, sell futures at 20,500
+Gross gain = 500 points, Cost of carry = 300 points (20,300 - 20,000)
+Net = 500 - 300 = 200 points per unit = 200 x 50 = Rs. 10,000
+
+**The Trap:** Rs. 25,000 uses the gross spread (500 x 50). Rs. 15,000 uses the fair value spread (300 x 50). Only the MISPRICING (200 points) is the arbitrage profit.
+
+**Cross-Exam Context:** Arbitrage profit = Market Futures - Fair Futures, not Market Futures - Spot.
+
+**Key Takeaway:** Arbitrage profit = (Actual Futures - Fair Futures) x Lot Size = (20,500 - 20,300) x 50 = Rs. 10,000.]]></text></explanation>
+    </question>
+</QF>

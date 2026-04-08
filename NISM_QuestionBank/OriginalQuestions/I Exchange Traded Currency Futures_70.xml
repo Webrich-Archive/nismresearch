@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_70" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The approximate formula for futures price using interest rate parity is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[F = S + S × (RQC - RBC) × Period]]></text></answer>
+            <answer correct="no"><text><![CDATA[F = S × (RQC + RBC)]]></text></answer>
+            <answer correct="no"><text><![CDATA[F = S - S × (RQC - RBC)]]></text></answer>
+            <answer correct="no"><text><![CDATA[F = S / (RQC - RBC)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The quick approximation: F = S + S × (RQC - RBC) × Period. For USDINR: F = Spot + Spot × (RINR - RUSD) × t. The exact formula: F = S × (1 + RQC × t) / (1 + RBC × t).
+**The Trap:** The approximation uses subtraction (RQC - RBC), not addition.
+**Cross-Exam Context:** Both exact and approximate formulas are tested in Series I.
+**Distributor's Pro-Tip:** The approximate formula works well when interest rate differentials are small. For exam purposes, both formulas should give answers within 0.1-0.2 of each other.]]></text></explanation>
+    </question>
+</QF>

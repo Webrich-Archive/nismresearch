@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_102" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A mutual fund manager holds a diversified equity portfolio worth Rs. 100 crore with beta 1.1. Due to an upcoming budget announcement, she expects short-term volatility. She wants to temporarily reduce the portfolio beta to 0.3. Nifty futures are at 25,000 (lot size 65). How should she proceed?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Sell approximately 492 Nifty futures contracts to reduce beta from 1.1 to 0.3, using the formula: Contracts = Portfolio Value x (Current Beta - Target Beta) / Futures Value]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell all equity holdings and move to cash, then rebuy after the budget]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell approximately 677 contracts to bring beta to zero]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy 492 put options instead, as futures create unlimited downside risk]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+1. Beta reduction = 1.1 - 0.3 = 0.8
+2. Contracts = (100,00,00,000 x 0.8) / (25,000 x 65) = 80,00,00,000 / 16,25,000 = 492.3
+3. Sell 492 contracts
+
+This temporarily reduces market exposure without selling the portfolio (avoiding transaction costs, capital gains tax, and the risk of not being able to buy back at same prices).
+
+**The Trap:** Selling all holdings is impractical and costly. 677 contracts brings beta to zero (full hedge). The question asks for beta 0.3, not zero. Put options are a valid alternative but the question asks about futures strategy.
+
+**Cross-Exam Context:** Tactical beta adjustment is an advanced portfolio management topic in Series VIII.
+
+**Key Takeaway:** Contracts to sell = PV x (Current Beta - Target Beta) / Contract Value. Tactical, not permanent.]]></text></explanation>
+    </question>
+</QF>

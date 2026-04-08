@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IFSCA AML CFT KYC Guidelines_21" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Simplified Customer Due Diligence (SCDD) measures include verifying identity after establishing the relationship, reducing frequency of identity updates, and reducing ongoing monitoring based on monetary thresholds. However, under what circumstance shall SCDD NOT be conducted?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[When there is a suspicion of money laundering or terrorist financing]]></text></answer>
+            <answer correct="no"><text><![CDATA[SCDD can still be applied as long as the customer falls in the low-risk category]]></text></answer>
+            <answer correct="no"><text><![CDATA[SCDD is always acceptable regardless of circumstances once approved by the compliance officer]]></text></answer>
+            <answer correct="no"><text><![CDATA[SCDD cannot be conducted only when senior management specifically disapproves it]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** While SCDD allows for reduced due diligence measures for low-risk customers (such as post-establishment identity verification, reduced update frequency, and lower monitoring intensity), it shall NOT be conducted when there is a suspicion of money laundering or terrorist financing. Suspicion of ML/TF automatically elevates the situation beyond the scope of simplified measures, regardless of the customer's initial risk categorization.
+
+**The Trap:** "SCDD can still be applied in low-risk category" ignores the overriding principle that ANY suspicion of ML/TF invalidates simplified measures. "Always acceptable once approved by compliance officer" suggests individual approval can override the regulatory prohibition. "Only when senior management disapproves" incorrectly frames SCDD restriction as a management decision rather than a regulatory mandate triggered by suspicion.
+
+**Cross-Exam Context:** This restriction on SCDD is a critical safeguard in the IFSCA framework. It ensures that the convenience of simplified measures never compromises the ability to detect and prevent ML/TF. Even the lowest-risk customer must receive full CDD if suspicion arises.
+
+**Key Takeaway:** SCDD is prohibited when there is ANY suspicion of ML/TF. Suspicion = automatic escalation from simplified to standard or enhanced CDD, regardless of the customer's original risk rating.]]></text></explanation>
+    </question>
+</QF>

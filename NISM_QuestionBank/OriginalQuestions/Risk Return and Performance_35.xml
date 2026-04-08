@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Risk Return and Performance_35" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Fund P has a return of 20%, risk-free rate is 8%, and beta is 1.5. The market return is 16%. What is the Alpha of Fund P?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[0%]]></text></answer>
+            <answer correct="no"><text><![CDATA[4%]]></text></answer>
+            <answer correct="no"><text><![CDATA[2%]]></text></answer>
+            <answer correct="no"><text><![CDATA[-2%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Alpha = Fund Return - [Rf + Beta x (Market Return - Rf)] = 20% - [8% + 1.5 x (16% - 8%)] = 20% - [8% + 1.5 x 8%] = 20% - [8% + 12%] = 20% - 20% = 0%. The fund returned exactly what was expected based on its level of systematic risk. The fund manager added no value beyond what a passive beta exposure would have delivered.
+
+**The Trap:** 4% would come from simply subtracting market return from fund return (20-16), ignoring the beta adjustment. 2% might result from a calculation error. The key insight is that despite returning 20% (4% above the market's 16%), the fund's higher beta (1.5) means it was EXPECTED to return 20%. The alpha is zero -- no value added.
+
+**Cross-Exam Context:** This is a powerful example of why raw return comparison is misleading. Fund P beat the market by 4 percentage points, but this was entirely due to taking more systematic risk (beta 1.5), not fund manager skill. Alpha of zero means the market exposure alone explains the entire return.
+
+**Distributor's Pro-Tip:** This example is crucial for client conversations. "Just because a fund beat the Nifty does not mean the fund manager is skilled. If the fund takes 50% more market risk than Nifty, it SHOULD earn more in a rising market. True skill is measured by alpha -- returns beyond what the risk level warrants."]]></text></explanation>
+    </question>
+</QF>

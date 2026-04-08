@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_50" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader buys 15 lots of GBPINR futures at 104.00 and sells at 105.25. What is the total profit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 18,750]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,875]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 187,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 15,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Profit = (105.25 - 104.00) × 1000 × 15 = 1.25 × 15,000 = Rs. 18,750.
+**The Trap:** GBPINR lot size is 1000 GBP (same as USDINR). Multiply price difference by lot size by number of lots.
+**Cross-Exam Context:** P&L calculations across different currency pairs are tested in Series I.
+**Distributor's Pro-Tip:** GBPINR has higher absolute values than USDINR, so the same percentage move generates higher absolute P&L per lot.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_47" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A company with net imports exceeding exports in USD should hedge the residual exposure by:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Going long on USDINR futures for the net import amount]]></text></answer>
+            <answer correct="no"><text><![CDATA[Going short on USDINR futures for the gross import amount]]></text></answer>
+            <answer correct="no"><text><![CDATA[Not hedging since imports and exports partially offset]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buying EURUSD futures]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Net imports > exports means net USD outflow. The company needs to BUY USD → go LONG USDINR futures for the RESIDUAL (net) amount only.
+**The Trap:** Hedging gross amounts would over-hedge. Not hedging at all leaves the residual exposed.
+**Cross-Exam Context:** Net exposure hedging is from the workbook.
+**Distributor's Pro-Tip:** Natural offsetting of imports and exports reduces hedging costs — only the net mismatch needs derivatives coverage.]]></text></explanation>
+    </question>
+</QF>

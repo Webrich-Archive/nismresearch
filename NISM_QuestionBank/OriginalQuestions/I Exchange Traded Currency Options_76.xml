@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_76" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The final settlement price for exchange-traded currency options is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[FBIL reference rate on the last trading day]]></text></answer>
+            <answer correct="no"><text><![CDATA[The last traded premium of the option]]></text></answer>
+            <answer correct="no"><text><![CDATA[The previous day's settlement price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The average spot rate of the last week]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Same as futures — the FSP for currency options is the FBIL reference rate on the last trading day, ensuring convergence with spot.
+**The Trap:** The option's final settlement is based on the UNDERLYING's reference rate, not the option's own traded price.
+**Cross-Exam Context:** Settlement price methodology is tested in Series I.
+**Distributor's Pro-Tip:** At expiry, option payoff = max(S-X, 0) for calls or max(X-S, 0) for puts, where S = FBIL reference rate.]]></text></explanation>
+    </question>
+</QF>

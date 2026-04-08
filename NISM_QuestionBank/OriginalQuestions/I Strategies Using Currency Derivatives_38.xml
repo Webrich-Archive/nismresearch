@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_38" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the education fee example, the 6-month USDINR futures rate of 83.64 was calculated as:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[82 + (2% × 82) = 82 + 1.64 = 83.64]]></text></answer>
+            <answer correct="no"><text><![CDATA[82 × (1 + 6%) = 86.92]]></text></answer>
+            <answer correct="no"><text><![CDATA[82 + 2 = 84]]></text></answer>
+            <answer correct="no"><text><![CDATA[82 / (1 + 2%) = 80.39]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Current USDINR = 82. 6-month premium = 2%. Futures rate = 82 + (2% × 82) = 82 + 1.64 = 83.64.
+**The Trap:** The 2% premium is on the SPOT rate, giving 1.64 paise premium, not a flat Rs. 2 addition.
+**Cross-Exam Context:** Futures rate calculation is from the workbook.
+**Distributor's Pro-Tip:** The 2% premium reflects the interest rate differential between India and the US for the 6-month period.]]></text></explanation>
+    </question>
+</QF>

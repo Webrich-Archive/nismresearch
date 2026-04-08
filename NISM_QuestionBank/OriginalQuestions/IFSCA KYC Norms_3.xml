@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IFSCA KYC Norms_3" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Which of the following is NOT a factor indicating high ML/TF risk related to a customer?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The customer is a government entity]]></text></answer>
+            <answer correct="no"><text><![CDATA[The customer's business relations are conducted under unusual circumstances]]></text></answer>
+            <answer correct="no"><text><![CDATA[Companies have nominee shareholders or shares in bearer form]]></text></answer>
+            <answer correct="no"><text><![CDATA[The corporate structure of the customer is unusual or excessively complex]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A government entity is actually a factor indicating LOW ML/TF risk, not high risk. Factors indicating high risk include: customers from high-risk sectors, unusual ownership structures, unusual business circumstances, nominee shareholders/bearer shares, personal asset holding vehicles, and excessively complex corporate structures.
+
+**The Trap:** Government entities are specifically listed as LOW risk factors. This is a common trick question — students may associate 'government' with complexity or political exposure (PEP), but as an entity type, governments are low risk.
+
+**Cross-Exam Context:** Risk factor identification is a core FATF concept tested across IFSCA-01, Series XXIV, and III-A. The distinction between entity-level risk (government = low) and individual-level risk (PEP = high) is critical.
+
+**Distributor's Pro-Tip:** Low risk indicators: government entities, listed companies with disclosure requirements, regulated financial institutions, and public bodies. Don't confuse entity risk with individual PEP risk.]]></text></explanation>
+    </question>
+</QF>

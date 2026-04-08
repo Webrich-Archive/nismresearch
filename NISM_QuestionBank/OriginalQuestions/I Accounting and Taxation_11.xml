@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Accounting and Taxation_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Ind AS 109 requires derivatives (unless in a hedging relationship) to be measured at:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Fair Value Through Profit or Loss (FVTPL)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Amortized cost]]></text></answer>
+            <answer correct="no"><text><![CDATA[Historical cost]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fair Value Through OCI]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Default treatment under Ind AS 109: derivatives measured at FVTPL. Only if hedge accounting criteria are met can alternative treatments (equity/OCI) be used.
+**The Trap:** FVTPL is the DEFAULT. Hedge accounting is the EXCEPTION (requires specific criteria and documentation).
+**Cross-Exam Context:** Ind AS 109 default measurement is tested in Series I.
+**Distributor's Pro-Tip:** The hedge accounting criteria are strict: formal documentation, economic relationship, credit risk not dominant, consistent hedge ratio.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_56" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Vega is positive for:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Both long call and long put positions because higher volatility benefits all option buyers]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only long call positions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only long put positions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only short (written) option positions]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Vega is POSITIVE for ALL long (bought) options:
+- Long call: positive vega (higher vol = higher premium = good for buyer)
+- Long put: positive vega (higher vol = higher premium = good for buyer)
+
+Short options have NEGATIVE vega (higher vol = higher premium = bad for writer).
+
+**The Trap:** Both calls AND puts benefit from higher volatility. More uncertainty helps ALL option buyers.
+
+**Cross-Exam Context:** Option writers prefer low/declining volatility. Option buyers prefer high/increasing volatility.
+
+**Key Takeaway:** Long options: positive vega. Short options: negative vega. Vol up = all premiums up.]]></text></explanation>
+    </question>
+</QF>

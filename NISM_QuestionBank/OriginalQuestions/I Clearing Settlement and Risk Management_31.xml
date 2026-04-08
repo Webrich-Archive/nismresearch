@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_31" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Initial margin is payable on:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[All open positions of clearing members (both buy and sell)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only long positions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only short positions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only positions exceeding Rs. 1 lakh]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Initial margin is payable on ALL open positions — both buy (long) and sell (short). The CC collects from CMs, CMs from TMs, and TMs from clients.
+**The Trap:** Margins are on ALL positions, not just one direction.
+**Cross-Exam Context:** Initial margin applicability is tested in Series I and VIII.
+**Distributor's Pro-Tip:** SPAN considers the entire portfolio, so offsetting positions may result in lower total margin than the sum of individual margins.]]></text></explanation>
+    </question>
+</QF>

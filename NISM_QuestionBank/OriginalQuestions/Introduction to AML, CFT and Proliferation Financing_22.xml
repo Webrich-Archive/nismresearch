@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="Introduction to AML, CFT and Proliferation Financing_22" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[In the context of digital currency-based money laundering, "chain-hopping" as a modern layering technique refers to:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rapidly moving funds between multiple bank accounts across different countries]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Converting one digital currency to another across different blockchains to obscure the transaction trail]]></text></answer>
+            <answer correct="no"><text><![CDATA[Using mixing or tumbling services to pool and redistribute digital currency among multiple users]]></text></answer>
+            <answer correct="no"><text><![CDATA[Breaking large digital currency transactions into smaller amounts below the reporting threshold]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Chain-hopping is a modern layering technique specific to digital currencies where launderers convert one cryptocurrency to another across different blockchains. This creates complexity in tracing the funds because investigators must follow the trail across multiple, often incompatible, blockchain networks.
+
+**The Trap:** The third option describes mixing/tumbling, which is a different digital currency layering technique. The fourth option describes structuring (smurfing), which is a traditional placement method. The first option describes traditional layering through multiple bank accounts. All are real ML techniques but chain-hopping is specifically about cross-blockchain conversion.
+
+**Cross-Exam Context:** Digital currency-based money laundering techniques are a newer addition to the NISM XXIV syllabus. Three key techniques to remember: chain-hopping (cross-blockchain conversion), mixing/tumbling (pooling and redistributing), and cycling (converting between fiat and digital currencies).
+
+**Key Takeaway:** Chain-hopping = converting between different digital currencies across blockchains. Mixing/tumbling = pooling funds. Cycling = fiat-to-crypto-to-fiat conversion. Know all three for the exam.]]></text></explanation>
+    </question>
+</QF>

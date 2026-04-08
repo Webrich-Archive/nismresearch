@@ -1,0 +1,512 @@
+================================================================================
+NISM SERIES XII - CHAPTER 4: SECONDARY MARKETS
+QUESTION BANK AUDIT REPORT
+================================================================================
+Audited against: NISM-Series-XII Securities Markets Foundation Certification
+                 Examination Workbook (Dec 2025), Chapter 4, Pages 111-160
+Date of Audit: 2026-04-08
+Questions Audited: Secondary Markets_1.xml through Secondary Markets_50.xml
+================================================================================
+
+
+================================================================================
+SECTION 1: CORRECTIONS NEEDED
+================================================================================
+
+------------------------------------------------------------------------------
+1. Secondary Markets_41.xml - Circuit Breaker: Distractor (c) is ALSO correct
+------------------------------------------------------------------------------
+ISSUE: The question asks "What is the market-wide circuit breaker limit that
+triggers trading halt for the rest of the day?" The correct answer is given as
+"20 percent decline in the index at any time during market hours."
+
+However, distractor (c) "15 percent decline in the index after 2 PM" is ALSO
+correct per the PDF. Table 4.1 (page 133) clearly states that a 15% decline
+"On or after 2 p.m." triggers a halt for "Rest of the Day."
+
+FIX: Either (a) reword the question to ask "What percentage decline ALWAYS
+triggers a rest-of-day halt regardless of the time of occurrence?" to make
+only 20% correct, or (b) change distractor (c) to something clearly wrong like
+"15 percent decline in the index before 1 PM" (which only causes a 1h 45min
+halt, not rest-of-day).
+
+RECOMMENDED REWRITE of distractor (c):
+  "15 percent decline in the index before 1 PM"
+
+------------------------------------------------------------------------------
+2. Secondary Markets_50.xml - Trading Cost Calculation: Answer Includes DP
+   Charges Not Stated in the Question
+------------------------------------------------------------------------------
+ISSUE: The question states specific components: brokerage 0.3%, STT 0.1%,
+GST 18% on brokerage, stamp duty 0.015%, SEBI turnover fee 0.0001%.
+Calculating these: 300 + 100 + 54 + 15 + 0.10 = Rs. 469.10.
+
+The correct answer is stated as "Rs. 489" which matches the PDF workbook
+illustration (page 138) that also includes DP charges of Rs. 20 (0.02%).
+However, the QUESTION TEXT does not mention DP charges as a component.
+
+The explanation acknowledges this by saying "Adding DP charges of approximately
+Rs. 20, total is about Rs. 489" -- but DP charges are not listed in the
+question stem.
+
+FIX: Either (a) add "DP charges at 0.02%" to the question stem to make the
+Rs. 489 answer fully derivable from the stated inputs, or (b) change the
+correct answer to "Rs. 469" (matching only the stated components). Option (a)
+is preferred since it matches the PDF workbook illustration exactly.
+
+RECOMMENDED REWRITE of question text:
+  Add ", and DP charges at 0.02%" before "What is the approximate total cost"
+
+------------------------------------------------------------------------------
+3. Secondary Markets_11.xml - Circuit Breaker Explanation: Minor Inaccuracy
+------------------------------------------------------------------------------
+ISSUE: The explanation states "10% decline = 45 min halt (before 1 PM)."
+This is correct for the 10% trigger before 1 PM. However, it is stated in
+a context that could be misleading as it omits the fact that 10% after
+2:30 PM triggers NO halt at all. Not a question/answer error, but the
+explanation oversimplifies Table 4.1.
+
+FIX: No change needed to question or answer. Consider expanding the
+explanation to note the full table. LOW PRIORITY.
+
+------------------------------------------------------------------------------
+4. Secondary Markets_46.xml - Block Deal Explanation: Minor Inaccuracy in
+   Distractor Explanation
+------------------------------------------------------------------------------
+ISSUE: The explanation states "Rs. 50 crores is the threshold for mandatory
+EBP usage in private placement of debt, not for block deals." This EBP
+reference is not from Chapter 4 (it is from Chapter 3). While not wrong, it
+could confuse students auditing against Chapter 4 alone. Not a question/answer
+error.
+
+FIX: No change needed to question or answer. Consider removing the EBP
+cross-reference from the explanation for clarity. LOW PRIORITY.
+
+------------------------------------------------------------------------------
+5. Secondary Markets_15.xml - Pre-Open Session Timing: Explanation Slightly
+   Misleading
+------------------------------------------------------------------------------
+ISSUE: The explanation says "9:00-9:15 AM" for the pre-open session. The PDF
+(page 128) states the pre-open session is "generally 15 minutes before trading
+starts for the day" and trading starts at 9:15 AM, which would place it at
+9:00-9:15 AM. This is consistent. However, the question answer says "A
+15-minute session before regular trading begins" which is correct.
+
+The explanation breakdown says "7-8 min order entry -> 4 min matching -> 3 min
+buffer -> 9:15 AM regular trading starts." The PDF says the order entry period
+is "randomly stopped between the 7th and 8th minute" -- the explanation is
+accurate here.
+
+FIX: No fix needed. CONFIRMED FINE.
+
+------------------------------------------------------------------------------
+6. Secondary Markets_18.xml - STT Explanation: Needs Nuance
+------------------------------------------------------------------------------
+ISSUE: The explanation says "For delivery-based equity trades, both buyer and
+seller pay 0.100% each." This is correct per the PDF table on page 135.
+However, the explanation also says "For intra-day (non-delivery), the seller
+pays 0.025%." The PDF (page 135, row 4) confirms the 0.025% rate for sale of
+equity settled "otherwise than by actual delivery."
+
+The explanation also says "Options sale = 0.1% on premium" which matches PDF
+page 136 ("Sale of an option in securities: 0.1 percent, Seller - on the
+option premium").
+
+FIX: No fix needed. All figures verified correct. CONFIRMED FINE.
+
+------------------------------------------------------------------------------
+7. Secondary Markets_47.xml - Cross-Margining: Spread Margin Percentage
+------------------------------------------------------------------------------
+ISSUE: The explanation states "only a spread margin of 25% of applicable
+upfront margin is charged on offsetting positions." The PDF (page 142) confirms
+"the exchange, therefore, charges a spread margin equal to 25 per cent of the
+applicable upfront margin on the positions in the cash and futures segment that
+offset each other."
+
+HOWEVER, the PDF (page 143) also states a DIFFERENT rate for highly
+co-related equity indices: "stock exchanges are to charge a spread margin of
+30 percent of the total applicable margin on the eligible off-setting
+positions."
+
+FIX: The question and answer are correct as stated (25% for cash-futures
+offsetting). Consider adding a note in the explanation that the 30% rate
+applies to highly co-related equity indices specifically. LOW PRIORITY.
+
+
+================================================================================
+SECTION 2: CONFIRMED FINE
+================================================================================
+
+The following questions have been verified against the PDF and are factually
+accurate in their correct answers, distractors, and key numerical details:
+
+Q1  (Secondary Markets_1.xml)  - Primary function of secondary market. CORRECT.
+    PDF p.111 confirms liquidity, price discovery, information signaling roles.
+
+Q2  (Secondary Markets_2.xml)  - Two depositories in India (NSDL, CDSL). CORRECT.
+    PDF p.117-118 confirms both names.
+
+Q3  (Secondary Markets_3.xml)  - Contract note definition. CORRECT.
+    PDF p.133-134 confirms: issued within 24 hours, contains trade details,
+    STT, GST, UCC, PAN, arbitration clause. Two copies generated.
+
+Q4  (Secondary Markets_4.xml)  - T+1 settlement cycle. CORRECT.
+    PDF p.116-117 confirms T+1 as current standard, optional T+0 introduced.
+    All equity trades on T+1 since January 27, 2023 (PDF p.139).
+
+Q5  (Secondary Markets_5.xml)  - Market order definition. CORRECT.
+    PDF p.127 confirms market order executed at current prevailing price.
+
+Q6  (Secondary Markets_6.xml)  - Clearing corporation role as CCP. CORRECT.
+    PDF p.117 confirms CC acts as central counterparty, guarantees settlement.
+
+Q7  (Secondary Markets_7.xml)  - Limit order definition. CORRECT.
+    PDF p.126 confirms limit order specifies price, lapses at end of day.
+
+Q8  (Secondary Markets_8.xml)  - Stop-loss order purpose. CORRECT.
+    PDF p.127-128 confirms stop-loss triggers opposite order at trigger price.
+
+Q9  (Secondary Markets_9.xml)  - Squaring off definition. CORRECT.
+    PDF p.139 confirms buy+sell same day = squared off = intra-day/day trading.
+
+Q10 (Secondary Markets_10.xml) - Market capitalization definition. CORRECT.
+    PDF p.148 confirms market cap = shares outstanding x market price per share.
+
+Q11 (Secondary Markets_11.xml) - Circuit breakers purpose. CORRECT.
+    PDF p.132 confirms circuit breakers halt trading on abnormal price movement.
+
+Q12 (Secondary Markets_12.xml) - Sensex: 30 stocks, base 100, April 1 1979.
+    CORRECT. PDF p.149 confirms all details.
+
+Q13 (Secondary Markets_13.xml) - DP role as depository agent. CORRECT.
+    PDF p.117-118 confirms DPs are banks/brokers providing demat services.
+
+Q14 (Secondary Markets_14.xml) - Bulk deal (0.50%) vs block deal (Rs 25 cr).
+    CORRECT. PDF p.131-132 confirms both thresholds and trading windows.
+
+Q15 (Secondary Markets_15.xml) - Pre-open session (15 min). CORRECT.
+    PDF p.128-129 confirms 15-minute session, three phases described accurately.
+
+Q16 (Secondary Markets_16.xml) - Price-time priority. CORRECT.
+    PDF p.129 confirms price-time priority rule for order matching.
+
+Q17 (Secondary Markets_17.xml) - Netting definition. CORRECT.
+    PDF p.139-140 confirms netting at client and member level.
+
+Q18 (Secondary Markets_18.xml) - STT definition. CORRECT.
+    PDF p.135 confirms STT rates and that it goes to Central Government.
+
+Q19 (Secondary Markets_19.xml) - Custodians role. CORRECT.
+    PDF p.118 confirms custodians hold funds/securities for institutions.
+
+Q20 (Secondary Markets_20.xml) - Bid-ask spread definition. CORRECT.
+    PDF p.137 confirms spread = gap between best buy and best sell price.
+
+Q21 (Secondary Markets_21.xml) - 3-in-1 account definition. CORRECT.
+    PDF p.122 confirms trading + bank + demat integration.
+
+Q22 (Secondary Markets_22.xml) - UCC definition. CORRECT.
+    PDF p.122 confirms UCC generated by broker, required for orders.
+
+Q23 (Secondary Markets_23.xml) - Core SGF purpose. CORRECT.
+    PDF p.152 confirms SGF covers residual risk after margins exhausted.
+
+Q24 (Secondary Markets_24.xml) - IOC order definition. CORRECT.
+    PDF p.127 confirms IOC executes immediately, unfilled portion cancelled.
+
+Q25 (Secondary Markets_25.xml) - IPF purpose. CORRECT.
+    PDF p.156-157 confirms IPF compensates for broker default losses.
+
+Q26 (Secondary Markets_26.xml) - SCORES platform. CORRECT.
+    PDF p.155 confirms SCORES is SEBI's online grievance system. Entity must
+    resolve within 21 days.
+
+Q27 (Secondary Markets_27.xml) - Price discovery. CORRECT.
+    PDF p.111-112 confirms collective investor activity determines prices.
+
+Q28 (Secondary Markets_28.xml) - Algorithmic trading definition. CORRECT.
+    PDF p.124 confirms algo trading uses predefined rules and conditions.
+
+Q29 (Secondary Markets_29.xml) - SLBM definition. CORRECT.
+    PDF p.147 confirms borrowing securities for agreed period and fee.
+    Conducted on exchange platform since 2008.
+
+Q30 (Secondary Markets_30.xml) - BMC Rs. 25 lakhs for prop+client no algo.
+    CORRECT. PDF p.151 table confirms all four BMC slabs exactly.
+
+Q31 (Secondary Markets_31.xml) - Record date definition. CORRECT.
+    PDF p.144 confirms record date determines corporate action beneficiaries.
+
+Q32 (Secondary Markets_32.xml) - Cum-basis vs ex-basis. CORRECT.
+    PDF p.144 confirms cum = includes benefit, ex = excludes benefit.
+
+Q33 (Secondary Markets_33.xml) - Interoperability framework. CORRECT.
+    PDF p.144-145 confirms SEBI introduced in 2018, implemented June 2019.
+    Applies to all segments except commodity derivatives.
+
+Q34 (Secondary Markets_34.xml) - DDPI replaces PoA. CORRECT.
+    PDF p.123 confirms DDPI replaces PoA for pay-in and margin pledging.
+
+Q35 (Secondary Markets_35.xml) - Nifty 50: 50 stocks, base 1000, Nov 3 1995.
+    CORRECT. PDF p.149 confirms all details.
+
+Q36 (Secondary Markets_36.xml) - Impact cost definition. CORRECT.
+    PDF p.137 confirms impact cost = deviation from ideal (average) price.
+
+Q37 (Secondary Markets_37.xml) - Three margin types (VaR, ELM, MTM). CORRECT.
+    PDF p.141 confirms all three. ELM = 3.5% confirmed.
+
+Q38 (Secondary Markets_38.xml) - Short selling definition. CORRECT.
+    PDF p.146-147 confirms selling securities not owned.
+
+Q39 (Secondary Markets_39.xml) - MIIs = exchanges + CCs + depositories.
+    CORRECT. PDF p.119 confirms the three types.
+
+Q40 (Secondary Markets_40.xml) - GST at 18% on brokerage. CORRECT.
+    PDF p.136 confirms "Goods and Services Tax (GST) is charged at 18 percent
+    on brokerage."
+
+Q42 (Secondary Markets_42.xml) - T+1 settlement meaning. CORRECT.
+    PDF p.138-139 confirms T+1 = next business day settlement.
+
+Q43 (Secondary Markets_43.xml) - Auction for short delivery. CORRECT.
+    PDF p.143 confirms CC conducts auction to buy shares for delivery.
+
+Q44 (Secondary Markets_44.xml) - Disclosed quantity order. CORRECT.
+    PDF p.128 confirms only broker knows full quantity.
+
+Q45 (Secondary Markets_45.xml) - SEBI role in secondary market. CORRECT.
+    PDF p.118 confirms SEBI's primary function is investor protection and
+    market development/regulation.
+
+Q46 (Secondary Markets_46.xml) - Block deal minimum Rs. 25 crores. CORRECT.
+    PDF p.132 confirms "The minimum order size for a block deal is Rs. 25
+    crores."
+
+Q48 (Secondary Markets_48.xml) - T+1 settlement practical example. CORRECT.
+    Consistent with PDF p.138-139.
+
+Q49 (Secondary Markets_49.xml) - Stock split price adjustment. CORRECT.
+    Matches PDF p.144 example exactly (face value Rs. 10 to Rs. 2, price
+    Rs. 500 adjusts to Rs. 100).
+
+
+================================================================================
+SECTION 3: CONCEPT GAPS - Important PDF Content Not Covered by Any Question
+================================================================================
+
+The following significant concepts from Chapter 4 are NOT tested by any of
+the 50 questions:
+
+------------------------------------------------------------------------------
+GAP 1: IFSC / GIFT City (HIGH PRIORITY)
+------------------------------------------------------------------------------
+PDF Box 4.1 (p.119) extensively covers:
+- GIFT City as India's first IFSC in Gandhinagar
+- NSE IX and India International Exchange (IndiaINX) set up by NSE and BSE
+- Tax exemptions: STT, commodities transaction tax, capital gain tax, income tax
+- Indian International Bullion Exchange (IIBX)
+- SGX Nifty derivatives shifted exclusively to NSE IX since July 2023
+- IFSCA as the regulator
+No question covers any of this material.
+
+SUGGESTED QUESTION: "Which of the following exchanges operates in India's
+International Financial Services Centre (IFSC) at GIFT City?"
+
+------------------------------------------------------------------------------
+GAP 2: Trading Hours and Debt Market Timings (MEDIUM PRIORITY)
+------------------------------------------------------------------------------
+PDF p.128 states:
+- Equity trading: Monday to Friday, 9:15 AM to 3:30 PM
+- Debt Market segment on NSE: 9:00 AM to 5:15 PM
+- No trading on Saturdays, Sundays, and public holidays
+No question tests specific trading hours or the difference between equity
+and debt market timings.
+
+SUGGESTED QUESTION: "What are the regular trading hours for equity on
+Indian stock exchanges?"
+
+------------------------------------------------------------------------------
+GAP 3: High-Frequency Trading (HFT) and Co-Location (MEDIUM PRIORITY)
+------------------------------------------------------------------------------
+PDF p.125 extensively covers:
+- HFT features per US SEC definition: fast computer programs, very small
+  holding periods (minutes/seconds), high order-to-trade ratios, positions
+  closed by end of day
+- Co-location: brokers locate servers at exchange premises to reduce latency
+- Co-location as revenue source for exchanges
+No question tests HFT characteristics or co-location concepts.
+
+SUGGESTED QUESTION: "What is co-location in the context of stock exchange
+trading?"
+
+------------------------------------------------------------------------------
+GAP 4: Direct Market Access (DMA) (MEDIUM PRIORITY)
+------------------------------------------------------------------------------
+PDF p.131 covers:
+- SEBI permitted DMA for institutional clients since 2008
+- DMA connects institutional client orders directly to exchange order book
+- Bypasses broker's server for faster execution
+- Reduces risks of manual order entry
+No question covers DMA.
+
+SUGGESTED QUESTION: "What is Direct Market Access (DMA) in the securities
+market?"
+
+------------------------------------------------------------------------------
+GAP 5: Active vs Passive Orders (MEDIUM PRIORITY)
+------------------------------------------------------------------------------
+PDF p.130-131 covers:
+- Passive orders add liquidity (limit orders sitting in order book)
+- Active orders drain liquidity (market orders matching existing orders)
+- Passive orders create depth in the order book
+No question distinguishes active from passive orders.
+
+SUGGESTED QUESTION: "Which type of order adds liquidity to the market?"
+
+------------------------------------------------------------------------------
+GAP 6: NDS-OM Platform for Government Securities (MEDIUM PRIORITY)
+------------------------------------------------------------------------------
+PDF p.114, 157 covers:
+- NDS-OM is anonymous, electronic, screen-based, order-driven
+- Owned by RBI, managed by CCIL
+- Trading restricted to institutional investors on NDS-OM
+- All investors can trade G-Sec on exchange platforms
+- RBI Retail Direct Scheme for retail investors
+No question tests the G-Sec trading infrastructure.
+
+SUGGESTED QUESTION: "What is the NDS-OM platform used for?"
+
+------------------------------------------------------------------------------
+GAP 7: Corporate Bond Market Measures (MEDIUM PRIORITY)
+------------------------------------------------------------------------------
+PDF p.157-159 covers:
+- Mandatory reporting of OTC corporate bond trades (within 15 minutes)
+- Centralized database by NSDL and CDSL
+- Dedicated debt segment on exchanges (introduced 2013)
+- Institutional platform minimum lot Rs. 1 crore
+- Request for Quote (RFQ) platform
+- Mandatory RFQ usage by mutual funds and PMS
+No question tests corporate bond market structure.
+
+SUGGESTED QUESTION: "Within what timeframe must OTC trades in corporate bonds
+be reported on exchange reporting platforms?"
+
+------------------------------------------------------------------------------
+GAP 8: Online Dispute Resolution (ODR) Portal (LOW PRIORITY)
+------------------------------------------------------------------------------
+PDF p.156 covers:
+- ODR portal established by all MIIs
+- All listed companies and intermediaries enrolled
+- ODR institutions provide arbitrators and conciliators
+- Online/audio-video participation enabled
+No question specifically tests ODR (Q26 covers SCORES but not ODR).
+
+SUGGESTED QUESTION: "What is the purpose of the Online Dispute Resolution
+(ODR) portal in the securities market?"
+
+------------------------------------------------------------------------------
+GAP 9: SEBI Turnover Fees Rates (LOW PRIORITY)
+------------------------------------------------------------------------------
+PDF p.136 specifies:
+- Non-debt securities: 0.0001% (Rs. 10 per crore)
+- Debt securities: 0.000025% (Rs. 2.5 per crore)
+While Q50 mentions the 0.0001% rate, no question specifically tests the
+distinction between debt and non-debt turnover fee rates.
+
+------------------------------------------------------------------------------
+GAP 10: Stamp Duty Regime (LOW PRIORITY)
+------------------------------------------------------------------------------
+PDF p.136 covers:
+- Uniform stamp duty rates across India (Government of India initiative)
+- Collection by Stock Exchange, Clearing Corporation, or Depositories
+- Collecting agents deduct a specified percent before transferring to state
+No question tests stamp duty specifics.
+
+------------------------------------------------------------------------------
+GAP 11: Gandhi Committee Recommendations on MII Governance (LOW PRIORITY)
+------------------------------------------------------------------------------
+PDF p.119-120 covers:
+- Committee under Shri R. Gandhi, former Dy Governor RBI
+- Report submitted March 2018
+- Recommendations: widely held ownership, MD term review, SEBI permission
+  for unrelated activities, KMP identification, transparency in compensation
+- Mandatory committees: Member Committee, Grievance Redressal Committee,
+  Nomination & Remuneration Committee, Oversight Committees
+- Public Interest Directors chair each committee
+- BCP and DRS mandated for all MIIs
+No question tests MII governance recommendations.
+
+------------------------------------------------------------------------------
+GAP 12: e-NAM Platform (LOW PRIORITY)
+------------------------------------------------------------------------------
+PDF p.115 covers:
+- electronic National Agricultural Market launched in 2016
+- Vision: 'One Nation, One Market'
+- Online bidding, electronic payment, quality assaying services
+No question tests this concept.
+
+------------------------------------------------------------------------------
+GAP 13: Authorized Persons (APs) (LOW PRIORITY)
+------------------------------------------------------------------------------
+PDF p.115, 120 covers:
+- APs are agents of brokers (previously called sub-brokers)
+- Registered with respective stock exchanges (not SEBI)
+- Can be individuals, partnership firms, or companies
+No question specifically tests AP registration or role.
+
+------------------------------------------------------------------------------
+GAP 14: Proprietary Trades (LOW PRIORITY)
+------------------------------------------------------------------------------
+PDF p.120 covers:
+- Brokers can trade on their own account using own funds
+- Such transactions are called proprietary trades
+- Separate trading account required for proprietary vs client trades
+Q30 touches on this via BMC categories but no question asks what proprietary
+trades are.
+
+------------------------------------------------------------------------------
+GAP 15: SLBM Strategies (LOW PRIORITY)
+------------------------------------------------------------------------------
+PDF p.147-148 covers specific strategies:
+- Short-selling for bearish view
+- Reverse cash-and-carry arbitrage
+- Pairs trading
+- Meeting delivery shortages
+Q29 covers SLBM basics but not these specific strategies.
+
+------------------------------------------------------------------------------
+GAP 16: Trading Supported by Blocked Amount (UPI Block) (LOW PRIORITY)
+------------------------------------------------------------------------------
+PDF p.146 covers:
+- SEBI introduced trading supported by blocked amount using UPI block mechanism
+- Applicable to Qualified Stock Brokers
+- Alternative to traditional upfront fund transfer to broker
+- Effective from February 1, 2025
+No question covers this new mechanism.
+
+
+================================================================================
+SECTION 4: AUDIT SUMMARY
+================================================================================
+
+Total Questions Audited:          50
+Corrections Needed (High):         2 (Q41 and Q50)
+Corrections Needed (Low):          2 (Q11 explanation, Q46 explanation)
+Confirmed Accurate:               46
+Concept Gaps Identified:          16 (3 High, 5 Medium, 8 Low priority)
+
+KEY FINDINGS:
+1. Q41 (circuit breaker rest-of-day) has a distractor that is also technically
+   correct -- 15% after 2 PM also triggers rest-of-day halt. This must be fixed.
+2. Q50 (trading cost) includes DP charges in the answer but not in the question
+   stem, making it impossible to derive the correct answer from stated inputs.
+3. Overall question quality is HIGH. Facts, numbers, and thresholds are
+   overwhelmingly accurate against the Dec 2025 workbook.
+4. The biggest content gaps are IFSC/GIFT City, HFT/Co-location, DMA, and
+   corporate bond market infrastructure -- all substantial PDF sections with
+   no corresponding questions.
+
+================================================================================
+END OF AUDIT REPORT
+================================================================================

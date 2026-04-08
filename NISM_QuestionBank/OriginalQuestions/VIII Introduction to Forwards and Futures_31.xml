@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_31" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The cost of carry for equity futures consists of:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Financing cost (interest rate) minus the expected dividend income from the underlying stock/index]]></text></answer>
+            <answer correct="no"><text><![CDATA[Brokerage charges plus exchange transaction fees plus GST on the trades]]></text></answer>
+            <answer correct="no"><text><![CDATA[Storage cost plus insurance cost minus convenience yield]]></text></answer>
+            <answer correct="no"><text><![CDATA[The premium paid to buy the futures contract]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For equity futures, the cost of carry = financing cost (risk-free interest rate 'r') minus dividend yield ('q'). The formula is F = S x (1 + r - q)^T. The financing cost represents the opportunity cost of locking capital in the stock. Dividends reduce the cost because the stockholder receives them while holding.
+
+**The Trap:** Storage and insurance costs apply to physical commodities, NOT equities. Brokerage and transaction costs are trading costs, not cost of carry. There is no 'premium' in futures (that is an options concept).
+
+**Cross-Exam Context:** Cost of carry formula is tested in Series VIII calculations. For commodities (Series XVI), it includes storage costs.
+
+**Key Takeaway:** Equity cost of carry = Interest rate - Dividend yield. Commodity cost of carry adds storage costs.]]></text></explanation>
+    </question>
+</QF>

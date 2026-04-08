@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Risk Return and Performance_29" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Fund B has a return of 16%, the risk-free rate is 6%, and the fund's beta is 0.8. What is the Treynor ratio of Fund B?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[20.00]]></text></answer>
+            <answer correct="yes"><text><![CDATA[12.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[7.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[10.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Treynor Ratio = (Fund Return - Risk-Free Rate) / Beta = (16% - 6%) / 0.8 = 10% / 0.8 = 12.50. The Treynor ratio measures the excess return earned per unit of systematic risk (beta). A higher Treynor ratio indicates better risk-adjusted performance relative to market risk.
+
+**The Trap:** 20.00 would result from dividing total return by beta (16/0.8) instead of excess return. 7.50 might result from subtracting risk-free rate from total return and multiplying by beta instead of dividing. 10.00 is just the excess return without dividing by beta. Always remember: excess return (Rp - Rf) divided by beta.
+
+**Cross-Exam Context:** The Treynor ratio uses beta (systematic risk) instead of standard deviation (total risk). This makes it more appropriate for well-diversified portfolios where unsystematic risk has been diversified away. If a fund has beta of 0.8, it takes less market risk than the benchmark, so the Treynor ratio rewards this lower risk-taking.
+
+**Distributor's Pro-Tip:** A fund with a Treynor ratio of 12.50 and beta of 0.8 is generating strong risk-adjusted returns while taking less market risk than the benchmark. This is ideal for conservative investors who want market participation with lower volatility. Compare Treynor ratios only when funds have similar R-squared values.]]></text></explanation>
+    </question>
+</QF>

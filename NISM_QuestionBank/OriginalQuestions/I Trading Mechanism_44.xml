@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Trading Mechanism_44" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Membership for the Currency Derivatives Segment can be taken as:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Trading Member, Trading cum Self-Clearing Member, or Trading cum Clearing Member]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only as a Trading Member]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only as a Clearing Member]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only as a combination member]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Three membership options: TM only (needs separate clearing arrangement), TM cum SCM (clears own trades), TM cum CM (clears own + others' trades).
+**The Trap:** TM-only members cannot clear their own trades — they must route through a CM.
+**Cross-Exam Context:** Membership categories are tested in Series I.
+**Distributor's Pro-Tip:** Banks often take TM cum CM membership to clear trades for both their proprietary desk and client orders.]]></text></explanation>
+    </question>
+</QF>

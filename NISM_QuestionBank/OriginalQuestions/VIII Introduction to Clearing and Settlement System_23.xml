@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_23" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader buys 1 lot of Nifty futures (lot size 25) at 22,000 on Monday. The daily settlement prices are: Monday 22,100, Tuesday 21,900, Wednesday 22,200. What is the MTM profit/loss on Tuesday?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Loss of Rs. 5,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 2,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 5,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 7,500]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step MTM calculation for Tuesday:
+1. Previous settlement price (Monday) = 22,100
+2. Current settlement price (Tuesday) = 21,900
+3. MTM for Tuesday = (21,900 - 22,100) x 25 = (-200) x 25 = -Rs. 5,000 (Loss)
+
+Note: MTM is calculated from the previous settlement price, NOT from the trade price. Monday's MTM = (22,100 - 22,000) x 25 = +Rs. 2,500 (Profit).
+
+**The Trap:** Using the original trade price (22,000) instead of the previous day's settlement price (22,100). MTM is always calculated from the last settlement price.
+
+**Cross-Exam Context:** Day-by-day MTM calculation is a standard exam question format.
+
+**Key Takeaway:** Daily MTM = (Current settlement price - Previous settlement price) x Lot size. Always use the previous settlement price, not the original trade price.]]></text></explanation>
+    </question>
+</QF>

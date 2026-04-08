@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Risk Return and Performance_28" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Fund A has a return of 15%, the risk-free rate is 6%, and the fund's standard deviation is 12%. What is the Sharpe ratio of Fund A?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[1.25]]></text></answer>
+            <answer correct="yes"><text><![CDATA[0.75]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Sharpe Ratio = (Fund Return - Risk-Free Rate) / Standard Deviation = (15% - 6%) / 12% = 9% / 12% = 0.75. This means the fund generated 0.75% of excess return for every 1% of total risk (standard deviation) it took.
+
+**The Trap:** 1.25 would result from dividing total return by standard deviation (15/12) instead of excess return. 0.50 might result from using the wrong numerator or denominator. 1.00 would mean excess return equals standard deviation. Remember: always subtract the risk-free rate FIRST, then divide by standard deviation.
+
+**Cross-Exam Context:** The Sharpe ratio uses standard deviation (total risk) in the denominator. This distinguishes it from the Treynor ratio, which uses beta (systematic risk). A Sharpe ratio of 0.75 means modest risk-adjusted performance. Compare this with other funds in the same category to determine if it is above or below average.
+
+**Distributor's Pro-Tip:** When clients ask "is 15% return good?", the Sharpe ratio gives context. A 15% return with 12% volatility (Sharpe 0.75) is different from 15% return with 20% volatility (Sharpe 0.45). The first fund delivers the same return with much less risk -- that is the better choice for most investors.]]></text></explanation>
+    </question>
+</QF>

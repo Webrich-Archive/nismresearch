@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Risk Return and Performance_33" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A mutual fund's NAV was Rs. 50 six months ago and is Rs. 55 today. As per SEBI norms, how should this return be reported?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[10% absolute return]]></text></answer>
+            <answer correct="no"><text><![CDATA[20% annualized return]]></text></answer>
+            <answer correct="no"><text><![CDATA[10% CAGR]]></text></answer>
+            <answer correct="no"><text><![CDATA[21% CAGR]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Absolute return = (55 - 50) / 50 x 100 = 10%. Since the holding period is 6 months (less than 1 year), SEBI mandates that the return must be reported as absolute return (10%) and NOT annualized. Annualizing to 20% (10% x 2) or computing CAGR would be misleading and non-compliant with SEBI norms.
+
+**The Trap:** 20% annualized return is mathematically possible (10% in 6 months x 2 = 20% per year) but this representation is PROHIBITED by SEBI for periods less than 1 year. 21% CAGR would come from (55/50)^(1/0.5) - 1 = 1.1^2 - 1 = 21%, but again, CAGR must not be used for sub-1-year periods. The correct and SEBI-compliant answer is simply 10% absolute return.
+
+**Cross-Exam Context:** This is a frequently tested SEBI compliance question. The rule is clear: returns for less than 1 year = absolute only; returns for more than 1 year = CAGR only. This prevents fund houses from making short-term performance look spectacular through annualization.
+
+**Distributor's Pro-Tip:** If a client sees a fund's 3-month return of 8% and says "that is 32% annualized!", correct them politely. Explain that SEBI does not allow annualization for periods less than 1 year because short-term performance rarely sustains. Always present returns as per SEBI guidelines to maintain compliance and credibility.]]></text></explanation>
+    </question>
+</QF>

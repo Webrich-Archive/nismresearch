@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Investor Services_55" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Mrs. Patel sets up an SWP of Rs. 25,000 per month from an equity fund. She holds 5,000 units at a current NAV of Rs. 120. How many units will be redeemed in the first month, and how many units will remain?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[250 units redeemed, 4,750 units remaining]]></text></answer>
+            <answer correct="yes"><text><![CDATA[208.33 units redeemed, 4,791.67 units remaining]]></text></answer>
+            <answer correct="no"><text><![CDATA[200 units redeemed, 4,800 units remaining]]></text></answer>
+            <answer correct="no"><text><![CDATA[208.33 units redeemed, 5,000 units remaining (new units are added)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Calculation:
+SWP amount: Rs. 25,000
+Current NAV: Rs. 120
+Units redeemed = SWP amount / NAV = Rs. 25,000 / Rs. 120 = 208.33 units
+
+Remaining units = 5,000 - 208.33 = 4,791.67 units
+
+The value of remaining units = 4,791.67 x Rs. 120 = Rs. 5,75,000
+Cash received = Rs. 25,000
+Total = Rs. 6,00,000 (same as original 5,000 x Rs. 120)
+
+**The Trap:** SWP redeems UNITS, not the NAV. The number of units redeemed varies each month depending on the NAV at the time of withdrawal. If NAV rises, fewer units are redeemed for the same Rs. 25,000; if NAV falls, more units are redeemed. This is the reverse of SIP's rupee cost averaging.
+
+**Cross-Exam Context:** The sustainability of SWP depends on the relationship between the withdrawal rate and the fund's return. If the fund earns more than the withdrawal rate, the corpus can potentially last indefinitely. If withdrawals exceed returns, the corpus depletes over time.
+
+**Distributor's Pro-Tip:** When setting up SWP for retirees, calculate the withdrawal rate as a percentage of corpus. A common guideline is 6-8% annual withdrawal (Rs. 25,000 monthly from Rs. 6 lakh means about 50% annual withdrawal — this is too high). Help clients set sustainable SWP amounts that balance income needs with corpus preservation.]]></text></explanation>
+    </question>
+</QF>

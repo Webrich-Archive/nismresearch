@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_75" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The premium for currency options shall be quoted in:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Indian Rupees (for INR-based options) and quote currency for cross-currency options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Always in US Dollars]]></text></answer>
+            <answer correct="no"><text><![CDATA[Always in the base currency of the pair]]></text></answer>
+            <answer correct="no"><text><![CDATA[In percentage of contract value]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** INR-based options: premium in INR. Cross-currency: EURUSD and GBPUSD premium in USD; USDJPY premium in JPY.
+**The Trap:** The premium is in the QUOTE currency of the pair, which is INR for all INR-based pairs.
+**Cross-Exam Context:** Premium quotation convention is tested in Series I.
+**Distributor's Pro-Tip:** For USDINR: premium of Rs. 0.10 per unit × 1000 lot = Rs. 100 total premium per lot.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV TER and Pricing_47" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[CASE STUDY: Mr. Rajesh holds 10,000 units of the "Sunrise Equity Growth Fund," an open-ended equity scheme. The scheme has the following details as of March 31:
+- Market value of investments: Rs. 720 crore
+- Cash and bank balance: Rs. 15 crore
+- Receivables and accrued income: Rs. 10 crore
+- Other assets: Rs. 5 crore
+- Accrued expenses: Rs. 8 crore
+- Payables and other liabilities: Rs. 2 crore
+- Total units outstanding: 75 crore
+- TER of the scheme: 2.10% per annum
+- Exit load: 1% if redeemed within 1 year (Mr. Rajesh invested 8 months ago)
+
+Question 1 of 4: Based on the above data, what is the NAV per unit of the Sunrise Equity Growth Fund?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 9.87]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 10.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 9.60]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 10.13]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Total Assets = Rs. 720 crore (investments) + Rs. 15 crore (cash) + Rs. 10 crore (receivables & accrued income) + Rs. 5 crore (other assets) = Rs. 750 crore. Total Liabilities = Rs. 8 crore (accrued expenses) + Rs. 2 crore (payables & other liabilities) = Rs. 10 crore. NAV = (Rs. 750 crore - Rs. 10 crore) / 75 crore units = Rs. 740 crore / 75 crore = Rs. 9.8667, rounded to Rs. 9.87.
+
+**The Trap:** Rs. 10.00 comes from dividing Rs. 750 crore by 75 crore (forgetting to subtract liabilities). Rs. 9.60 comes from dividing only the investments (Rs. 720 crore) by 75 crore (forgetting cash and other assets). Rs. 10.13 divides total assets by a wrong number of units. The detailed NAV computation requires including ALL asset components and subtracting ALL liability components.
+
+**Cross-Exam Context:** This case study tests the detailed NAV formula: NAV = (Market Value of Investments + Cash + Receivables + Accrued Income + Other Assets - Accrued Expenses - Payables - Other Liabilities) / Units Outstanding. This is the most detailed version tested in NISM V-A.
+
+**Distributor's Pro-Tip:** Note that the NAV (Rs. 9.87) is below the face value of Rs. 10. This means the scheme has generated negative returns since inception (or has paid out IDCW that reduced NAV below face value). A NAV below Rs. 10 does not mean the fund is "bad" — it depends on when it was launched and market conditions. Always evaluate performance over appropriate time periods, not just NAV level.]]></text></explanation>
+    </question>
+</QF>

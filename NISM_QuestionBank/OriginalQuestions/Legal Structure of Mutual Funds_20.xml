@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Legal Structure of Mutual Funds_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[ABC Mutual Fund has a Board of Trustees consisting of 6 members. During a review, it is discovered that only 3 of the 6 trustees are independent. The fund also plans to appoint Mr. Sharma, who is currently a director on the AMC board, as the 7th trustee to resolve the independence issue. Which of the following correctly identifies the compliance problems?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The current board violates the two-thirds independence requirement, and Mr. Sharma cannot be appointed as a trustee because he is an AMC director]]></text></answer>
+            <answer correct="no"><text><![CDATA[The current board is compliant since 3 out of 6 is exactly 50%, which meets the independence threshold, but Mr. Sharma cannot be appointed]]></text></answer>
+            <answer correct="no"><text><![CDATA[The current board violates the independence requirement, but appointing Mr. Sharma as the 7th trustee would resolve it since 4 out of 7 exceeds half]]></text></answer>
+            <answer correct="no"><text><![CDATA[There is no compliance issue — both the current board composition and Mr. Sharma's proposed appointment are permissible]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Two separate compliance issues exist here. First, SEBI requires at least two-thirds of trustees to be independent. With 6 trustees, at least 4 must be independent (2/3 x 6 = 4). Currently only 3 are independent, violating this rule. Second, SEBI absolutely prohibits any AMC director from serving as a trustee of the same mutual fund. Therefore, Mr. Sharma's appointment is barred regardless of whether it would improve the independence ratio.
+
+**The Trap:** Option B wrongly applies the 50% independence standard (which is the AMC board requirement) to the trustee board. Option C correctly identifies the first problem but then wrongly assumes Mr. Sharma's appointment would fix it — ignoring that an AMC director CANNOT become a trustee under any circumstances. Option D ignores both violations entirely.
+
+**Cross-Exam Context:** This scenario-based question combines two Chapter 3 rules that are frequently tested individually. For NISM III-C, compliance officers must be able to spot MULTIPLE violations simultaneously in a single governance scenario, which is exactly what this question trains.
+
+**Distributor's Pro-Tip:** In practice, when you hear about governance changes at a fund house, look for these structural compliance signals. A fund house that maintains proper trustee independence and AMC-trustee separation is one that takes investor protection seriously — and that is a fund house worth recommending to your clients.]]></text></explanation>
+    </question>
+</QF>

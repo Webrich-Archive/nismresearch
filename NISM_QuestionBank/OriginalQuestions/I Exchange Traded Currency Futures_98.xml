@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_98" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader holding a long USDINR futures position will receive which margin call if the market moves against them?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The loss amount calculated through daily MTM settlement is debited from their margin account]]></text></answer>
+            <answer correct="no"><text><![CDATA[They must pay the entire contract value upfront]]></text></answer>
+            <answer correct="no"><text><![CDATA[No margin call — exchange absorbs the loss]]></text></answer>
+            <answer correct="no"><text><![CDATA[A fixed penalty is charged regardless of the loss amount]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Through daily MTM, losses are calculated using the DSP and debited from the margin account on T+1. If the margin falls below the maintenance level, a margin call requires the trader to top up.
+**The Trap:** MTM collects the ACTUAL loss amount, not a fixed penalty. Gains are credited the same way.
+**Cross-Exam Context:** Margin mechanism is tested in Series I, VII, and VIII.
+**Distributor's Pro-Tip:** MTM ensures credit risk never exceeds one day's price movement — this is how the clearing corporation maintains the trade guarantee.]]></text></explanation>
+    </question>
+</QF>

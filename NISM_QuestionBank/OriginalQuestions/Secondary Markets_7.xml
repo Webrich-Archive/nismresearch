@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="Secondary Markets_7" sectionNumber="" articleNumber="0" articleName="">
+    <question><text>What is a limit order?</text>
+        <answers>
+            <answer correct="yes"><text>An order that specifies the price at which the investor is willing to buy or sell, executed only when that price or better is available</text></answer>
+            <answer correct="no"><text>An order that is executed immediately at whatever market price is available</text></answer>
+            <answer correct="no"><text>An order that is automatically cancelled if not executed within one hour</text></answer>
+            <answer correct="no"><text>An order that limits the maximum number of shares an investor can buy</text></answer>
+        </answers>
+        <explanation><text>**The Logic:** A limit order specifies the price at which the investor wants to trade. A buy limit order executes at the specified price or lower; a sell limit order executes at the specified price or higher. Unexecuted limit orders lapse at the end of the trading day.
+**The Trap:** Option (b) describes a market order, not a limit order. Limit orders provide price certainty but not execution certainty - the order may not get filled if the market doesn't reach the specified price.
+**Cross-Exam Context:** Limit orders are passive orders that add liquidity to the market. They sit in the order book until matched or cancelled. Price-time priority determines matching order.
+**Distributor's Pro-Tip:** Limit order = Price control, no execution guarantee. Market order = Execution guarantee, no price control. Choose based on whether price or speed matters more.</text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_42" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The clearing corporation releases collateral:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Both intraday and at end of day, as per facility provided]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only at end of day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only at end of month]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only when the position is closed]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** CCs provide facility to release collateral both intraday and at end of day. This allows CMs to efficiently manage their collateral across markets.
+**The Trap:** Collateral release is not restricted to end of day — intraday release is available.
+**Cross-Exam Context:** Collateral management is tested in Series I and VII.
+**Distributor's Pro-Tip:** Efficient collateral management (timely release and redeployment) is crucial for cost-effective trading operations.]]></text></explanation>
+    </question>
+</QF>

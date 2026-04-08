@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_48" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A diagonal spread uses options with:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Different strike prices AND different expiry dates]]></text></answer>
+            <answer correct="no"><text><![CDATA[Same strike price and same expiry date]]></text></answer>
+            <answer correct="no"><text><![CDATA[Same strike but different expiry dates]]></text></answer>
+            <answer correct="no"><text><![CDATA[Different strikes but same expiry date]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Diagonal = different strikes + different expiries. Vertical = same expiry, different strikes. Horizontal = same strike, different expiries. Diagonal is the most complex.
+**The Trap:** Payoff diagrams CANNOT be drawn for diagonal spreads (different expiries).
+**Cross-Exam Context:** Spread classification is tested in Series I.
+**Distributor's Pro-Tip:** Diagonal spreads are rarely used by exam candidates in practice — focus on understanding the classification for the exam.]]></text></explanation>
+    </question>
+</QF>

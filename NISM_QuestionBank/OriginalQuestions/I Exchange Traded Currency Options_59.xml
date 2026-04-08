@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_59" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The effect of higher volatility on option premiums is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Higher premium for both calls and puts]]></text></answer>
+            <answer correct="no"><text><![CDATA[Higher premium for calls, lower for puts]]></text></answer>
+            <answer correct="no"><text><![CDATA[Lower premium for both calls and puts]]></text></answer>
+            <answer correct="no"><text><![CDATA[No effect on premiums]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Higher volatility increases the probability that an option will end ITM, regardless of direction. Therefore, both calls and puts become more valuable.
+**The Trap:** Unlike spot price changes (which affect calls and puts oppositely), volatility affects both the SAME way.
+**Cross-Exam Context:** Volatility impact is tested in Series I and VIII.
+**Distributor's Pro-Tip:** This is why option premiums spike during crisis periods — volatility surges increase both call and put values.]]></text></explanation>
+    </question>
+</QF>

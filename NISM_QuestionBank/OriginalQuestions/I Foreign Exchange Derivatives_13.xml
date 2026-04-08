@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Foreign Exchange Derivatives_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[As per BIS data (June 2023), which asset class has the largest notional amount outstanding in OTC derivatives?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Interest rate contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[Foreign exchange contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equity-linked contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[Credit derivatives]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Interest rate contracts had $573,697 billion outstanding, dwarfing FX contracts at $120,250 billion. The total OTC derivatives outstanding was $714,744 billion.
+**The Trap:** While FX has the largest daily turnover, interest rate contracts have the largest outstanding notional amount.
+**Cross-Exam Context:** Global derivatives market data is tested in Series I.
+**Distributor's Pro-Tip:** Notional outstanding ≠ actual risk. Most interest rate derivatives are swaps that exchange only interest differentials, not principal.]]></text></explanation>
+    </question>
+</QF>

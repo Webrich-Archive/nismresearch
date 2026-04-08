@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_100" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A farmer sells wheat futures at Rs. 2,500 per quintal (hedging his crop) with lot size 100 quintals. At expiry, wheat spot is Rs. 2,300. What is the farmer's effective selling price per quintal including the futures profit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 2,500 per quintal (spot sale at 2,300 + futures profit of 200)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,300 per quintal (only the spot price matters)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,700 per quintal]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 4,800 per quintal (spot + futures price combined)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+1. Farmer sells wheat in spot market at Rs. 2,300 per quintal
+2. Farmer's futures position: Short at Rs. 2,500
+3. Futures profit per quintal = 2,500 - 2,300 = Rs. 200 (short gains from price fall)
+4. Effective selling price = Spot sale + Futures profit = 2,300 + 200 = Rs. 2,500 per quintal
+
+The hedge locked in the futures price of Rs. 2,500 regardless of where spot ended up.
+
+**The Trap:** Rs. 2,300 ignores the futures gain. Rs. 2,700 incorrectly adds the profit. Rs. 4,800 adds both prices. The hedge effectively locks in the futures price as the effective transaction price.
+
+**Cross-Exam Context:** Understanding how hedging locks in a price is fundamental to Series VIII.
+
+**Key Takeaway:** Effective price with hedge = Spot Price + Futures Profit (for short hedge) = Locked-in futures price at entry.]]></text></explanation>
+    </question>
+</QF>

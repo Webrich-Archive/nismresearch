@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_76" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader buys a Nifty put with strike 17,000 at premium Rs. 90. Nifty closes at 16,800 at expiry. What is the profit per unit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 110]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 200]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 90]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 290]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Put Profit = max(X - S, 0) - Premium
+
+Step-by-step:
+1. X = 17,000, S = 16,800, P = 90
+2. Payoff = max(17,000 - 16,800, 0) = Rs. 200
+3. Profit = 200 - 90 = Rs. 110
+
+**The Trap:** Profit is payoff minus premium, not payoff alone.
+
+**Cross-Exam Context:** BEP = 17,000 - 90 = 16,910. Spot 16,800 < 16,910, in profit zone.
+
+**Key Takeaway:** Put Profit = (X - S) - P = 200 - 90 = Rs. 110 per unit.]]></text></explanation>
+    </question>
+</QF>

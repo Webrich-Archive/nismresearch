@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_91" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A deep ITM call with strike Rs. 400 has premium Rs. 130 when stock is at Rs. 525. What percentage of the premium is intrinsic value?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Approximately 96.2%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 76.0%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 50.0%]]></text></answer>
+            <answer correct="no"><text><![CDATA[100%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:**
+Step-by-step:
+1. Call IV = max(S - X, 0) = max(525 - 400, 0) = Rs. 125
+2. Time Value = 130 - 125 = Rs. 5
+3. IV as % of premium = 125/130 × 100 = 96.15% ≈ 96.2%
+
+**The Trap:** Deep ITM options have very HIGH intrinsic value and very LOW time value as % of premium.
+
+**Cross-Exam Context:** Deep ITM options behave almost like the underlying (delta near 1).
+
+**Key Takeaway:** Deep ITM: premium ≈ intrinsic value. Very little time value. Delta ≈ 1.]]></text></explanation>
+    </question>
+</QF>

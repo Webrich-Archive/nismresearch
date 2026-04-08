@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_99" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The strike price interval for USDJPY cross-currency options is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[JPY 0.5]]></text></answer>
+            <answer correct="no"><text><![CDATA[USD 0.005]]></text></answer>
+            <answer correct="no"><text><![CDATA[JPY 0.01]]></text></answer>
+            <answer correct="no"><text><![CDATA[JPY 1]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** USDJPY option strikes are at JPY 0.5 intervals (e.g., 150.00, 150.50, 151.00). EURUSD and GBPUSD use USD 0.005. INR options use Rs. 0.25.
+**The Trap:** Each product has its own strike interval in its respective quote currency.
+**Cross-Exam Context:** Cross-currency option strike intervals are specific to Series I.
+**Distributor's Pro-Tip:** With JPY 0.5 intervals and 25 strikes, traders have about JPY 6.25 range of available strikes.]]></text></explanation>
+    </question>
+</QF>

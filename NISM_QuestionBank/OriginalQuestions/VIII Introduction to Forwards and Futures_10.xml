@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How does the standardization of futures contracts contribute to market efficiency?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Standardization ensures all market participants trade identical contract specifications, improving liquidity, enabling transparent price discovery, and facilitating easy entry and exit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Standardization allows each trader to customize the contract terms to match their specific hedging needs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Standardization means only large institutional investors can participate, ensuring higher quality counterparties]]></text></answer>
+            <answer correct="no"><text><![CDATA[Standardization eliminates the need for margins, reducing the cost of trading futures]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When all contracts have the same specifications (lot size, expiry, tick size, etc.), many participants trade the same product. This creates deep liquidity, narrow bid-ask spreads, transparent price discovery, and easy entry/exit. A trader who wants to close their position simply takes an opposite trade.
+
+**The Trap:** Standardization means traders CANNOT customize terms (that is the trade-off compared to forwards). Retail investors CAN participate in futures. Margins are REQUIRED in futures, not eliminated.
+
+**Cross-Exam Context:** The liquidity advantage of standardized futures over customized forwards is a key concept in Series VIII.
+
+**Key Takeaway:** Standardization -> Fungibility -> Liquidity -> Efficient price discovery.]]></text></explanation>
+    </question>
+</QF>

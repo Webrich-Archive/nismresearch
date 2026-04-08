@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Accounting and Taxation_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For the purpose of determining tax audit requirement, derivative turnover includes:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Sum of favorable differences, unfavorable differences, and option premiums received on sale]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only profitable trades]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the total contract value]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the margin amount]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Turnover = |Favorable differences| + |Unfavorable differences| + Premium on options sold + Reverse trade settlements. This absolute value approach captures the true trading activity.
+**The Trap:** BOTH profits AND losses are included (absolute values). It's not net profit/loss.
+**Cross-Exam Context:** Turnover computation for tax audit is tested in Series I.
+**Distributor's Pro-Tip:** If this computed turnover exceeds the prescribed threshold, tax audit under Section 44AB becomes mandatory.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_47" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If a call option has a delta of 0.7, and the underlying stock price increases by Rs. 5, the approximate change in the option premium is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 3.50 increase]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 5.00 increase]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.70 increase]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 7.00 increase]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Change in option price = Delta × Change in underlying price
+= 0.7 × Rs. 5 = Rs. 3.50
+
+Step-by-step:
+1. Delta = 0.7
+2. Change in underlying = +Rs. 5
+3. Change in option premium = 0.7 × 5 = Rs. 3.50
+
+**The Trap:** Don't multiply delta by the stock price itself. Multiply by the CHANGE in price.
+
+**Cross-Exam Context:** This is a high-frequency calculation question. Delta is linear approximation (accurate for small moves).
+
+**Key Takeaway:** ΔOption Price ≈ Delta × ΔUnderlying Price.]]></text></explanation>
+    </question>
+</QF>

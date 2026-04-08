@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Trading Mechanism_28" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Contract notes are issued by:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The broker to the client as official communication of executed trades]]></text></answer>
+            <answer correct="no"><text><![CDATA[The exchange to the broker]]></text></answer>
+            <answer correct="no"><text><![CDATA[SEBI to the exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[The client to the broker]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The broker communicates executed trades to clients through contract notes, which serve as official records of the transaction including trade number, time, quantity, and price.
+**The Trap:** The exchange sends trade confirmations to the broker (not contract notes). The broker then issues contract notes to clients.
+**Cross-Exam Context:** Contract notes are tested in Series I and VII.
+**Distributor's Pro-Tip:** A single order can result in multiple trades (and trade numbers), but all are consolidated in the contract note.]]></text></explanation>
+    </question>
+</QF>

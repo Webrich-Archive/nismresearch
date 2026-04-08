@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Risk Return and Performance_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Rolling returns of a mutual fund are useful because they:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Show the maximum and minimum possible returns]]></text></answer>
+            <answer correct="no"><text><![CDATA[Are mandated by SEBI for all fund disclosures]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Provide a more comprehensive picture of fund performance by showing returns over multiple overlapping periods]]></text></answer>
+            <answer correct="no"><text><![CDATA[Eliminate the impact of market cycles on returns]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Rolling returns calculate the fund's return for every possible holding period of a specified length within a given time frame. For example, 3-year rolling returns from 2015-2025 would calculate returns for every possible 3-year period: Jan 2015-Jan 2018, Feb 2015-Feb 2018, and so on. This eliminates the bias of choosing specific start and end dates and provides a comprehensive view of fund consistency.
+
+**The Trap:** Rolling returns do NOT show maximum/minimum possible returns (though they reveal the range of historical returns). They are NOT mandated by SEBI for standard disclosures (SEBI mandates point-to-point returns for 1, 3, 5 years and since inception). They do NOT eliminate market cycle impact -- rather, they show how the fund performed across different market cycles.
+
+**Cross-Exam Context:** Point-to-point returns can be misleading because they depend heavily on the chosen start and end dates. Rolling returns overcome this limitation. A fund with high average rolling returns AND low variation in rolling returns demonstrates consistent performance across market conditions.
+
+**Distributor's Pro-Tip:** Use rolling returns when selecting funds for clients. A fund may show excellent 5-year point-to-point returns, but rolling return analysis might reveal that this was due to one exceptional year. Consistent positive rolling returns across most periods indicate a genuinely reliable fund.]]></text></explanation>
+    </question>
+</QF>

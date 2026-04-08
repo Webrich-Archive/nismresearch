@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_99" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader buys a Nifty call with strike 17,500 at premium Rs. 200 and simultaneously buys a Nifty put with strike 17,500 at premium Rs. 180 (long straddle). If Nifty closes at 17,900 at expiry, what is the net profit/loss?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Profit of Rs. 20]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 400]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 380]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 200]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Long Straddle: Buy Call + Buy Put (same strike)
+
+Step-by-step:
+1. Call payoff = max(17,900 - 17,500, 0) = Rs. 400
+2. Put payoff = max(17,500 - 17,900, 0) = Rs. 0
+3. Total payoff = 400 + 0 = Rs. 400
+4. Total premium paid = 200 + 180 = Rs. 380
+5. Net profit = 400 - 380 = Rs. 20
+
+**The Trap:** Must subtract BOTH premiums (call + put) from combined payoff.
+
+**Cross-Exam Context:** Straddle BEPs: Upper = X + (Pc + Pp) = 17,880. Lower = X - (Pc + Pp) = 17,120.
+
+**Key Takeaway:** Straddle profit = |S - X| - (Call premium + Put premium). Profits from big moves.]]></text></explanation>
+    </question>
+</QF>

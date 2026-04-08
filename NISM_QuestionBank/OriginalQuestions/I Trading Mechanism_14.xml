@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Trading Mechanism_14" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A 'buy spread' order in USDINR MAR/MAY means:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Sell near-month (MAR) leg and buy far-month (MAY) leg simultaneously]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy both near-month and far-month legs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy near-month and sell far-month]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell both near-month and far-month legs]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Buy spread = sell near-month (first leg) + buy far-month (second leg). Sell spread = buy near-month + sell far-month. The advantage of spread orders is simultaneous execution, avoiding adverse price movement between legs.
+**The Trap:** 'Buy' in spread context means buying the SPREAD (far minus near), not buying both legs.
+**Cross-Exam Context:** Calendar spread trading is tested in Series I.
+**Distributor's Pro-Tip:** Spread orders reduce execution risk compared to placing two separate orders.]]></text></explanation>
+    </question>
+</QF>

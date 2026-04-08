@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Foreign Exchange Derivatives_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following risks does NOT arise in exchange-traded derivatives (ETD) due to the trade guarantee by the Clearing Corporation?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Counterparty credit risk and settlement risk]]></text></answer>
+            <answer correct="no"><text><![CDATA[Market price risk]]></text></answer>
+            <answer correct="no"><text><![CDATA[Liquidity risk]]></text></answer>
+            <answer correct="no"><text><![CDATA[Operational risk]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The Clearing Corporation's trade guarantee (through novation as CCP) eliminates counterparty credit risk and settlement risk. However, market risk, liquidity risk, and operational risk still exist in ETD.
+**The Trap:** Market risk (price movements) cannot be eliminated by the exchange mechanism — it's inherent to all market positions.
+**Cross-Exam Context:** Risk types in derivatives are tested in Series I, VIII, and VII.
+**Distributor's Pro-Tip:** The Clearing Corporation protects itself from counterparty risk through margining and mark-to-market processes.]]></text></explanation>
+    </question>
+</QF>

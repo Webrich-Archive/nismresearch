@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_89" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What happens to a trader's open position if they don't close it before the expiry of the contract?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The position is settled at the final settlement price (FBIL reference rate) through cash settlement]]></text></answer>
+            <answer correct="no"><text><![CDATA[The position is automatically rolled over to the next month's contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[The trader must take physical delivery of the currency]]></text></answer>
+            <answer correct="no"><text><![CDATA[The position is cancelled with no profit or loss]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Positions open at expiry are marked to the Final Settlement Price (FBIL reference rate) and cash settled in INR. There is no automatic rollover or physical delivery.
+**The Trap:** Exchange-traded currency futures do NOT auto-rollover. If you want to maintain a position, you must manually close the expiring contract and open a new one.
+**Cross-Exam Context:** Expiry settlement is tested in Series I and VIII.
+**Distributor's Pro-Tip:** Traders often roll positions a few days before expiry when the near-month contract's liquidity starts declining.]]></text></explanation>
+    </question>
+</QF>

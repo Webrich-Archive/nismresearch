@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_43" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which factor has a DIFFERENT directional effect on call option premium versus put option premium?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Spot price - an increase raises call premium but decreases put premium]]></text></answer>
+            <answer correct="no"><text><![CDATA[Volatility - an increase raises both call and put premiums equally]]></text></answer>
+            <answer correct="no"><text><![CDATA[Time to expiry - more time raises both call and put premiums]]></text></answer>
+            <answer correct="no"><text><![CDATA[Lot size - a larger lot size raises both call and put contract values]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Spot price effect:
+- Call premium INCREASES when spot price rises (closer to/deeper ITM)
+- Put premium DECREASES when spot price rises (closer to/deeper OTM)
+
+Volatility and time to expiry affect both calls and puts in the SAME direction (increase premiums).
+
+**The Trap:** Interest rates also have differential effects (increase helps calls, hurts puts), but the effect is much smaller than spot price changes.
+
+**Cross-Exam Context:** Delta captures the spot price sensitivity: positive for calls, negative for puts.
+
+**Key Takeaway:** Spot price up: call premium up, put premium down. Volatility up: both premiums up.]]></text></explanation>
+    </question>
+</QF>

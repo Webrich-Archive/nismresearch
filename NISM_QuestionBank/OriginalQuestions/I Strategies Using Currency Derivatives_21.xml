@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The maximum loss in a long straddle with 83 strike, call premium 0.20, and put premium 0.15 is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 0.35 per unit (sum of both premiums)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.20 per unit (call premium only)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.15 per unit (put premium only)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Unlimited]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Max loss = Call premium + Put premium = 0.20 + 0.15 = Rs. 0.35. This occurs when USDINR closes exactly at the strike (83.00) — both options expire worthless.
+**The Trap:** Only ONE premium is lost if the move is in one direction (the other option has value). Max loss is when NEITHER option pays off.
+**Cross-Exam Context:** Straddle payoff calculations are from the workbook.
+**Distributor's Pro-Tip:** The straddle buyer needs USDINR to move at least Rs. 0.35 in either direction to break even.]]></text></explanation>
+    </question>
+</QF>

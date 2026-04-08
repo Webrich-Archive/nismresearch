@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_45" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader buys Nifty futures at 25,100 and sells them at 25,380 the same day. Lot size is 65. What is the intraday profit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 18,200]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 280]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 16,31,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 16,49,700]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+1. Buy price: 25,100
+2. Sell price: 25,380
+3. Per unit profit = 25,380 - 25,100 = 280 points
+4. Total profit = 280 x 65 = Rs. 18,200
+
+**The Trap:** Rs. 280 is per unit profit. Rs. 16,31,500 and Rs. 16,49,700 are contract values at buy and sell prices respectively, not profits.
+
+**Cross-Exam Context:** Intraday trading profit calculations are common in Series VIII.
+
+**Key Takeaway:** Intraday profit = (Sell Price - Buy Price) x Lot Size for a long intraday trade.]]></text></explanation>
+    </question>
+</QF>

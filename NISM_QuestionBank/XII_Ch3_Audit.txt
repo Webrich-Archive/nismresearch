@@ -1,0 +1,400 @@
+================================================================================
+NISM SERIES XII - CHAPTER 3: PRIMARY MARKETS
+QUESTION BANK AUDIT REPORT (50 QUESTIONS)
+================================================================================
+Audited against: NISM-Series-XII Securities Markets Foundation Certification
+Examination Workbook (December 2025 edition), Chapter 3 (Pages 76-110)
+================================================================================
+
+
+========================================
+SECTION A: CORRECTIONS NEEDED
+========================================
+
+1. Primary Markets_16.xml
+   ISSUE: The correct answer states private placement is "an offer of securities
+   made to a select group of not more than 50 identified investors."
+   PROBLEM: The PDF (page 106, section 3.17) states: "According to the Companies
+   Act, 2013, an offer to subscribe to securities is made to not more than 50
+   persons is called private placement of securities." The answer text says
+   "50 identified investors" but the PDF says "50 persons." While conceptually
+   similar, the precise legal language is "persons" not "investors." More
+   importantly, the correct answer conflates the definition. The PDF defines it
+   as an offer made to "not more than 50 persons" under the Companies Act, but
+   the broader SEBI/market definition describes it as an offer to "a select
+   group of institutional investors and other eligible investors" which is the
+   QIB/wholesale market concept. The 50-person limit is the Companies Act
+   threshold, while SEBI's ICDR regulations define private placement more
+   broadly for QIP etc.
+   FIX: Change the correct answer to: "An offer of securities made to a select
+   group of not more than 50 persons as defined under the Companies Act, 2013"
+   to match the PDF's precise language ("persons" not "investors"). Alternatively,
+   simply say "An offer to subscribe to securities made to not more than 50
+   persons" to mirror the workbook language.
+   SEVERITY: Minor (wording precision)
+
+2. Primary Markets_19.xml
+   ISSUE: The question asks "Which document is filed with SEBI before a book-built
+   public issue opens?" and the correct answer is "Draft Red Herring Prospectus
+   (DRHP)."
+   PROBLEM: The PDF (page 94, section 3.10) says "The draft prospectus is filed
+   with SEBI" as a step in the public issue process. For book-built issues, the
+   PDF (page 97) says "A preliminary red herring prospectus is filed with SEBI
+   before the issue opens." The document filed with SEBI is technically the
+   "preliminary red herring prospectus" not the "Draft Red Herring Prospectus
+   (DRHP)." However, in common market practice the DRHP and preliminary RHP are
+   used interchangeably. The PDF also states on page 94: "The draft prospectus
+   is filed with SEBI." The question's explanation correctly describes the
+   sequence but the PDF's own terminology uses "draft prospectus" and
+   "preliminary red herring prospectus" rather than "DRHP."
+   FIX: This is acceptable as-is since DRHP is the widely understood market
+   term. However, the explanation could note that the PDF uses "preliminary red
+   herring prospectus" language. No critical change needed.
+   SEVERITY: Very minor (terminology nuance, functionally correct)
+
+3. Primary Markets_29.xml
+   ISSUE: The correct answer says minimum subscription is "90 percent of the net
+   offer to the public." The explanation says "including subscription by
+   underwriters."
+   PROBLEM: The PDF (page 89, section on Underwriting) states: "SEBI's
+   regulations on public issues and the Companies Act require that an issue
+   should receive subscription of a minimum of 90 percent of the net offer to
+   the public, failing which the company has to refund the entire subscription
+   amount received to the applicants not later than 4 days from the closure of
+   the issue." And later (page 96): "For an issue that is underwritten, SEBI's
+   minimum subscription requirement is 90 percent of the net public offer
+   including the subscription by the underwriters."
+   The answer and explanation are correct per the PDF. CONFIRMED FINE.
+   (Re-classified below.)
+
+4. Primary Markets_40.xml
+   ISSUE: The question states refund must happen "within 4 days" if less than
+   90% subscription is received.
+   VERIFICATION: PDF page 89 confirms: "refund the entire subscription amount
+   received to the applicants not later than 4 days from the closure of the
+   issue." CONFIRMED FINE.
+   (Re-classified below.)
+
+5. Primary Markets_30.xml
+   ISSUE: The correct answer says allotment in an oversubscribed IPO is "On a
+   proportionate basis based on the oversubscription ratio, with minimum
+   allotment being the minimum application size."
+   PROBLEM: The PDF (page 99-100) describes proportionate allotment for
+   oversubscribed issues. However, in practice (and acknowledged in the
+   explanation), when proportionate allotment would result in less than one
+   lot per applicant, a lottery system is used. The explanation hedges this
+   ("While lottery may be used for very small lot sizes..."). The PDF does
+   not explicitly mention lottery; it only describes proportionate allotment
+   with the statement "The minimum allotment will be the minimum application
+   size as disclosed by the issuer." The answer as stated is correct per the
+   PDF text.
+   FIX: No change needed to the answer. The explanation's hedging about lottery
+   is reasonable context but should note this is practical implementation, not
+   explicitly stated in the workbook.
+   SEVERITY: None (answer is correct per PDF)
+
+6. Primary Markets_41.xml
+   ISSUE: The correct answer states NII allocation is "One-third for
+   applications of Rs. 2-10 lakhs and two-thirds for applications above
+   Rs. 10 lakhs."
+   VERIFICATION: PDF page 93 states: "one-third of the portion available to
+   non-institutional investors shall be reserved for applicants applying for
+   amounts more than Rs. 2 lakhs and up to Rs. 10 lakhs; and the remaining,
+   i.e., two-thirds of the portion shall be reserved for applicants with
+   application size of more than Rs. 10 lakhs."
+   The answer matches the PDF precisely. CONFIRMED FINE.
+
+7. Primary Markets_46.xml
+   ISSUE: The explanation states EBP is compulsory for "private placements of
+   debt of Rs. 50 crores or more."
+   VERIFICATION: PDF page 108 states the EBP is compulsory for "a single issue,
+   for an amount equal to or greater than Rs. 50 crores (inclusive of green
+   shoe option)." Also for shelf issues cumulatively amounting to Rs. 50 crore
+   or more in a financial year. CONFIRMED FINE.
+
+8. Primary Markets_17.xml
+   ISSUE: The explanation states "No SEBI filing required like in a public
+   issue" for QIP.
+   PROBLEM: The PDF does not explicitly state this. The PDF (page 107) says QIP
+   is defined by SEBI ICDR Regulations. While it is true that QIP does not
+   require a prospectus filing with SEBI like a public issue does, the
+   explanation's characterization could be misleading. The PDF is silent on
+   this specific point.
+   FIX: Consider removing "No SEBI filing required like in a public issue"
+   from the Distributor's Pro-Tip to avoid potential inaccuracy, or qualify it
+   as "does not require SEBI-reviewed prospectus like a public issue."
+   SEVERITY: Minor (explanation only, not the answer itself)
+
+9. Primary Markets_8.xml
+   ISSUE: The explanation says "underwriting is discretionary for fixed price
+   issues but mandatory for book-built issues."
+   VERIFICATION: PDF page 89 states: "Underwriting for a fixed price issue is
+   discretionary... However, in the case of a book built issue, underwriting is
+   mandatory by the lead managers and syndicate members." And page 96 repeats:
+   "Underwriting for a fixed price issue is discretionary. However, in the case
+   of a book-built issue underwriting is mandatory."
+   The explanation matches the PDF. However, the PDF adds an important nuance on
+   page 89: "Under book-built issue, the issuer is required to allot at least
+   75 percent of the net offer to Qualified Institutional Buyers (QIB) to meet
+   the eligibility criteria; however, such QIB portion cannot be underwritten."
+   The explanation omits the fact that the QIB portion cannot be underwritten.
+   FIX: Consider adding to the explanation that in book-built issues, while
+   underwriting is mandatory, the QIB portion cannot be underwritten.
+   SEVERITY: Minor (explanation enhancement, answer is correct)
+
+
+========================================
+SECTION B: CONFIRMED FINE
+========================================
+
+The following questions have been verified against the PDF and are factually
+accurate in their correct answers, distractors, and key thresholds:
+
+Q1  (Primary Markets_1.xml)  - Primary market definition. Correct per PDF p.76.
+Q2  (Primary Markets_2.xml)  - "New issue market" term. Correct per PDF p.76.
+Q3  (Primary Markets_3.xml)  - Merchant banker as key intermediary. Correct per
+                                PDF p.76, p.80.
+Q4  (Primary Markets_4.xml)  - OFS proceeds go to selling shareholders. Correct
+                                per PDF p.90-91.
+Q5  (Primary Markets_5.xml)  - Rights issue definition. Correct per PDF p.101.
+Q6  (Primary Markets_6.xml)  - RTA role. Correct per PDF p.80, p.95-96.
+Q7  (Primary Markets_7.xml)  - Bonus issue definition. Correct per PDF p.82
+                                ("allotment of additional shares without any
+                                consideration").
+Q8  (Primary Markets_8.xml)  - Underwriting purpose. Correct per PDF p.89.
+                                (See minor note in Section A regarding explanation.)
+Q9  (Primary Markets_9.xml)  - 20% minimum promoter contribution. Correct per
+                                PDF p.87.
+Q10 (Primary Markets_10.xml) - Fixed price vs book built. Correct per PDF p.92.
+Q11 (Primary Markets_11.xml) - ASBA definition. Correct per PDF p.98.
+Q12 (Primary Markets_12.xml) - Rs. 2 lakhs retail investor threshold. Correct
+                                per PDF p.84.
+Q13 (Primary Markets_13.xml) - FPO definition. Correct per PDF p.91.
+Q14 (Primary Markets_14.xml) - Bidding at cut-off meaning. Correct per PDF p.98.
+Q15 (Primary Markets_15.xml) - Debenture trustee role. Correct per PDF p.81.
+Q18 (Primary Markets_18.xml) - Green Shoe Option: 15% of issue size, 30-day
+                                stabilization. Correct per PDF p.100.
+Q20 (Primary Markets_20.xml) - Min 3 working days, max 10 working days for
+                                public issue. Correct per PDF p.88.
+Q21 (Primary Markets_21.xml) - Preferential allotment definition. Correct per
+                                PDF p.106.
+Q22 (Primary Markets_22.xml) - Banker to the issue role. Correct per PDF p.80.
+Q23 (Primary Markets_23.xml) - Price band significance. Correct per PDF p.92.
+Q24 (Primary Markets_24.xml) - Daily liquidity NOT a primary market function.
+                                Correct per PDF p.77-79 (functions listed).
+Q25 (Primary Markets_25.xml) - 35% retail allocation in book-built eligible
+                                issue. Correct per PDF p.93.
+Q26 (Primary Markets_26.xml) - "Going public" meaning. Correct per PDF p.76.
+Q27 (Primary Markets_27.xml) - Shelf prospectus definition. Correct per PDF
+                                p.103.
+Q28 (Primary Markets_28.xml) - Primary dealers authorized by RBI. Correct per
+                                PDF p.81.
+Q29 (Primary Markets_29.xml) - 90% minimum subscription for equity. Correct
+                                per PDF p.89.
+Q30 (Primary Markets_30.xml) - Proportionate allotment in oversubscribed IPO.
+                                Correct per PDF p.99-100.
+Q31 (Primary Markets_31.xml) - 3-year lock-in for capex IPO minimum promoter
+                                contribution. Correct per PDF p.87.
+Q32 (Primary Markets_32.xml) - Corporate bonds regulated by SEBI. Correct per
+                                PDF p.77.
+Q33 (Primary Markets_33.xml) - 10% max retail discount in book-built issue.
+                                Correct per PDF p.93.
+Q34 (Primary Markets_34.xml) - ADR/GDR eligibility. Correct per PDF p.77.
+Q35 (Primary Markets_35.xml) - Final prospectus filed with RoC. Correct per
+                                PDF p.94.
+Q36 (Primary Markets_36.xml) - IPO grading 1-5 scale, optional. Correct per
+                                PDF p.89.
+Q37 (Primary Markets_37.xml) - Brokers/syndicate members role. Correct per
+                                PDF p.81, p.96.
+Q38 (Primary Markets_38.xml) - Rs. 3 crore net tangible assets for 3 years.
+                                Correct per PDF p.86.
+Q39 (Primary Markets_39.xml) - Rs. 5 lakh UPI-ASBA mandate. Correct per PDF
+                                p.98-99.
+Q40 (Primary Markets_40.xml) - Refund within 4 days if under 90% subscription.
+                                Correct per PDF p.89.
+Q41 (Primary Markets_41.xml) - NII sub-allocation (1/3 and 2/3). Correct per
+                                PDF p.93.
+Q42 (Primary Markets_42.xml) - Rs. 15 crore avg operating profit. Correct per
+                                PDF p.86.
+Q43 (Primary Markets_43.xml) - At least one credit rating for debt issue.
+                                Correct per PDF p.103.
+Q44 (Primary Markets_44.xml) - 75% minimum subscription for debt. Correct per
+                                PDF p.103.
+Q45 (Primary Markets_45.xml) - Debenture Redemption Reserve. Correct per PDF
+                                p.104.
+Q46 (Primary Markets_46.xml) - EBP platform for debt private placement. Correct
+                                per PDF p.107-109.
+Q47 (Primary Markets_47.xml) - 15% max Green Shoe Option. Correct per PDF p.100.
+Q48 (Primary Markets_48.xml) - Oversubscription calculation (100/2 = 50).
+                                Correct per PDF p.99-100 (consistent with
+                                proportionate allotment logic).
+Q49 (Primary Markets_49.xml) - Cut-off price determination at Rs. 110. Correct
+                                per PDF p.92-93 book building logic.
+Q50 (Primary Markets_50.xml) - Rights issue calculation (1:4 ratio, 100 shares,
+                                Rs. 5000). Correct per PDF p.101.
+Q16 (Primary Markets_16.xml) - Private placement definition. Substantially
+                                correct but see minor wording note in Section A.
+Q17 (Primary Markets_17.xml) - QIP definition. Correct per PDF p.107. See minor
+                                explanation note in Section A.
+Q19 (Primary Markets_19.xml) - DRHP filed with SEBI. Substantially correct.
+                                See minor terminology note in Section A.
+
+
+========================================
+SECTION C: CONCEPT GAPS
+========================================
+
+The following important concepts from Chapter 3 of the PDF are NOT covered by
+any of the 50 questions. These represent potential exam topics that should be
+addressed:
+
+1. MINIMUM OFFER TO PUBLIC THRESHOLDS (PDF p.88)
+   GAP: No question tests the tiered minimum public offer requirements:
+   - At least 25% if post-issue capital <= Rs. 1,600 crore
+   - At least Rs. 400 crore equivalent if post-issue capital is Rs. 1,600-4,000 crore
+   - At least 10% if post-issue capital is Rs. 4,000 crore to Rs. 1 lakh crore
+   - Must increase to 25% within 3 years from listing date
+   IMPORTANCE: HIGH. These are frequently tested thresholds.
+
+2. MINIMUM NET WORTH REQUIREMENT FOR IPO (PDF p.86)
+   GAP: While Q38 covers the Rs. 3 crore net tangible asset requirement, no
+   question specifically tests the separate Rs. 1 crore net worth requirement
+   per year for 3 years.
+   IMPORTANCE: MEDIUM. Often tested alongside the other eligibility criteria.
+
+3. SR EQUITY SHARES (Superior Rights) IN IPO CONTEXT (PDF p.87-88)
+   GAP: No question covers the concept that companies with SR equity shares
+   must list both SR and ordinary shares, and can only issue ordinary shares
+   to the public through IPO on the Main Board.
+   IMPORTANCE: MEDIUM. This is a newer regulation (2019 amendment).
+
+4. EXCESS PROMOTER HOLDING LOCK-IN PERIODS (PDF p.87-88)
+   GAP: While Q31 covers the minimum promoter contribution lock-in (18 months
+   / 3 years for capex), no question tests the lock-in for EXCESS promoter
+   holding: 6 months normally, or 1 year if majority proceeds are for capex.
+   IMPORTANCE: MEDIUM. The four-tier lock-in structure is a common exam topic.
+
+5. ALTERNATIVE ENTITIES FOR MEETING PROMOTER CONTRIBUTION SHORTFALL (PDF p.87)
+   GAP: No question covers the provision that AIFs, foreign venture capital
+   investors, scheduled commercial banks, PFIs, insurance companies, or
+   non-individual public shareholders holding >= 5% can contribute up to 10%
+   of post-issue capital to meet promoter contribution shortfall.
+   IMPORTANCE: LOW-MEDIUM. Specific provision from 2024 amendment.
+
+6. RIGHTS ISSUE OPEN PERIOD (PDF p.102)
+   GAP: No question tests the rights issue subscription period: not less than
+   7 days and not exceeding 30 days. The explanation in Q20 mentions it but
+   no standalone question tests it.
+   IMPORTANCE: MEDIUM. Frequently compared with public issue period (3-10 days).
+
+7. NON-COMPETITIVE BIDDING FOR GOVERNMENT SECURITIES (PDF p.105-106)
+   GAP: No question covers the non-competitive bidding facility for retail
+   investors in government securities auctions through stock exchanges, or
+   the distinction between competitive and non-competitive bidding.
+   IMPORTANCE: MEDIUM. Important for understanding government securities market.
+
+8. COMPANIES ACT REGULATORY FRAMEWORK FOR ISSUERS (PDF p.85-86)
+   GAP: No question tests the requirement that a business seeking equity
+   capital must be structured as a limited company, or that sole proprietorships
+   and partnerships cannot make public issues.
+   IMPORTANCE: MEDIUM.
+
+9. e-IPO FACILITY (PDF p.98)
+   GAP: No question covers the e-IPO facility introduced from 2013 under which
+   investors can bid through any exchange broker's electronic trading facility.
+   IMPORTANCE: LOW-MEDIUM.
+
+10. INFORMATION CONTENT OF PROSPECTUS (PDF p.96-97)
+    GAP: No question tests the specific contents required in a prospectus
+    (details of issuer, objectives, financial statements, risk factors, etc.)
+    or the grounds on which SEBI can reject a draft offer document (promoter
+    contribution non-compliance, unclear usage of proceeds, misleading business
+    model, financial inconsistencies, litigation issues).
+    IMPORTANCE: MEDIUM-HIGH.
+
+11. CREATION OF SECURITY FOR DEBENTURES (PDF p.104)
+    GAP: No question covers the distinction between secured and unsecured
+    debentures, the requirement to disclose charge/security proposals, or that
+    unsecured debentures are treated as deposits under Companies Act rules.
+    IMPORTANCE: MEDIUM.
+
+12. SHELF PROSPECTUS ELIGIBLE ENTITIES (PDF p.103)
+    GAP: While Q27 covers the concept of shelf prospectus, no question tests
+    which entities are eligible to file one (PFIs, scheduled banks, entities
+    allowed by CBDT for tax-free bonds, Infrastructure Debt Funds, listed
+    entities, NBFCs, Housing Finance Companies meeting criteria).
+    IMPORTANCE: LOW-MEDIUM.
+
+13. FIXED PRICE ISSUE ALLOCATION (PDF p.93)
+    GAP: No question tests the allocation for issues made through a fixed
+    price (non-book-built) method: minimum 50% to retail individual investors,
+    remaining to individual applicants other than retail and other investors.
+    IMPORTANCE: MEDIUM. Often compared with book-built allocation.
+
+14. PUBLIC ISSUE OF DEBT - WILLFUL DEFAULTER RESTRICTION (PDF p.104-105)
+    GAP: No question tests the requirement that an issuer of debt securities
+    should not be declared a willful defaulter or barred from accessing the
+    capital market.
+    IMPORTANCE: LOW-MEDIUM.
+
+15. PRICE BAND ANNOUNCEMENT TIMING (PDF p.98)
+    GAP: While Q23 covers price band significance, no question specifically
+    tests the requirement that the price band must be announced at least 2
+    working days before the issue opens.
+    IMPORTANCE: MEDIUM. A specific numerical threshold likely to be tested.
+
+16. MINIMUM BID LOT / APPLICATION VALUE RANGE (PDF p.98)
+    GAP: No question tests the SEBI-prescribed minimum application value
+    range of Rs. 10,000 to Rs. 15,000 for book-built issues.
+    IMPORTANCE: MEDIUM. Important threshold for exam purposes.
+
+17. QIP LISTING REQUIREMENT (PDF p.107)
+    GAP: No question tests the requirement that a company must have been
+    listed for at least 1 year before making a QIP, or that QIP shares can
+    only be sold on a recognized stock exchange within 1 year of allotment.
+    IMPORTANCE: MEDIUM.
+
+18. EBP BIDDING LIMIT (PDF p.109)
+    GAP: No question tests the EBP bidding limit: an eligible participant
+    cannot bid for more than Rs. 100 crore or 5% of the base issue size,
+    whichever is lower, through arrangers on the EBP platform.
+    IMPORTANCE: LOW-MEDIUM.
+
+19. CHANGED NAME RULE FOR IPO/FPO (PDF p.86, p.91)
+    GAP: No question tests the rule that if a company changed its name
+    within the last 1 year, at least 50% of revenue for the preceding 1
+    year must have been earned from the activity indicated by the new name.
+    IMPORTANCE: LOW-MEDIUM.
+
+
+========================================
+SECTION D: AUDIT SUMMARY
+========================================
+
+Total Questions Audited:     50
+Corrections Needed:          3 (all minor/wording issues)
+  - Q16: "persons" vs "investors" wording
+  - Q17: explanation overstates ease of QIP (minor)
+  - Q8:  explanation could note QIB portion not underwritable (minor)
+Confirmed Fine:              47
+Concept Gaps Identified:     19
+
+OVERALL ASSESSMENT:
+The question bank is factually sound. All 50 correct answers align with the
+PDF's content. The three issues identified are minor wording/explanation
+refinements, not factual errors in the answer choices themselves. No
+distractors were found to be accidentally correct.
+
+The most significant gaps are:
+  (1) Minimum offer to public tiered thresholds (HIGH priority)
+  (2) Prospectus contents and SEBI rejection grounds (MEDIUM-HIGH)
+  (3) Fixed price issue allocation pattern (MEDIUM)
+  (4) Rights issue open period of 7-30 days (MEDIUM)
+  (5) Minimum application value Rs. 10,000-15,000 (MEDIUM)
+
+These gaps represent testable content from Chapter 3 that should be covered
+in additional questions.
+
+================================================================================
+END OF AUDIT REPORT
+================================================================================

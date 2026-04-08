@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Risk Return and Performance_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following is a risk specific to derivative instruments held in a mutual fund portfolio?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Inflation risk]]></text></answer>
+            <answer correct="no"><text><![CDATA[Political risk]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Counterparty risk]]></text></answer>
+            <answer correct="no"><text><![CDATA[Re-investment risk]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Counterparty risk is particularly relevant for derivative instruments, especially over-the-counter (OTC) derivatives. It refers to the risk that the other party in a derivative contract may fail to fulfill their obligations. In exchange-traded derivatives, the clearing corporation acts as counterparty, reducing this risk. But in OTC derivatives, the fund directly faces the counterparty's credit risk.
+
+**The Trap:** Inflation risk and political risk are general economy-wide risks, not specific to derivatives. Re-investment risk is specific to fixed-income instruments. Derivatives carry unique risks including counterparty risk, leverage risk (amplified gains/losses), and basis risk (mismatch between hedge and underlying).
+
+**Cross-Exam Context:** SEBI regulates derivative usage in mutual funds -- funds can use derivatives primarily for hedging and portfolio rebalancing, not for speculative purposes. The exposure norms limit derivative positions to manage leverage risk.
+
+**Distributor's Pro-Tip:** When clients ask about funds that use derivatives (such as arbitrage funds), explain that while exchange-traded derivatives have minimal counterparty risk due to clearing corporation guarantees, the leverage inherent in derivatives can amplify both gains and losses.]]></text></explanation>
+    </question>
+</QF>

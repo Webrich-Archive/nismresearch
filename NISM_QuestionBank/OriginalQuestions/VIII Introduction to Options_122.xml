@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_122" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the settlement method for Nifty 50 index options at expiry?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Cash settlement - the difference between spot and strike is paid/received in cash]]></text></answer>
+            <answer correct="no"><text><![CDATA[Physical delivery of all 50 constituent stocks in proportion to their index weight]]></text></answer>
+            <answer correct="no"><text><![CDATA[Physical delivery of the most liquid stock in the index]]></text></answer>
+            <answer correct="no"><text><![CDATA[Settlement through exchange of index ETF units]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Index options are CASH SETTLED because:
+1. An index is a calculated value, not a physical asset
+2. Delivering all constituent stocks would be impractical
+3. Cash settlement: difference between settlement price and strike is paid/received
+
+For Nifty: settlement price = closing value of Nifty on expiry day.
+
+**The Trap:** Stock options use physical delivery, but index options MUST use cash settlement.
+
+**Cross-Exam Context:** Cash settlement: ITM call buyer receives (S - X) in cash per unit.
+
+**Key Takeaway:** Index options = always cash settled. Cannot physically deliver an index.]]></text></explanation>
+    </question>
+</QF>

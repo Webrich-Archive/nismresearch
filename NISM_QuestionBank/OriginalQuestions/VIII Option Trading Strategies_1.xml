@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Option Trading Strategies_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A wheat flour manufacturer expects to purchase 1,000 quintals of wheat after 3 months. The current spot price is Rs. 2,200 per quintal. To hedge against a price rise, the manufacturer should:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy wheat futures contracts (long hedge)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell wheat futures contracts (short hedge)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy put options on wheat]]></text></answer>
+            <answer correct="no"><text><![CDATA[Do nothing and buy at the prevailing spot price later]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A long hedge involves buying futures to lock in the purchase price. The manufacturer needs to buy wheat in the future, so buying futures protects against price increases. If prices rise, the gain on futures offsets the higher purchase cost.
+
+**The Trap:** Selling futures (short hedge) is for someone who already owns the asset and wants to protect against price decline - that is the seller's hedge, not the buyer's.
+
+**Cross-Exam Context:** Hedging concepts appear in NISM Currency Derivatives and Commodity Derivatives modules as well.
+
+**Key Takeaway:** Long hedge = Buy futures to lock in purchase price. Used by consumers/buyers of the underlying.]]></text></explanation>
+    </question>
+</QF>

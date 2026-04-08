@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Understanding Index_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In an equal-weighted index, what happens when stock prices change?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The index requires periodic rebalancing to maintain equal weights for all constituent stocks]]></text></answer>
+            <answer correct="no"><text><![CDATA[The weights automatically remain equal regardless of price changes]]></text></answer>
+            <answer correct="no"><text><![CDATA[The index converts to a market-cap weighted methodology]]></text></answer>
+            <answer correct="no"><text><![CDATA[Stocks that increase in price are removed from the index]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In an equal-weighted index, each stock initially has the same weight. However, as prices change, the weights drift — stocks that go up gain higher weight and those that go down lose weight. Therefore, periodic rebalancing is needed to restore equal weights.
+**The Trap:** Weights do NOT automatically stay equal — price movements cause drift. The index does not change its methodology. Stocks are not removed just because they go up.
+**Cross-Exam Context:** NISM Series VIII covers the three main index methodologies: market-cap weighted, price-weighted, and equal-weighted.
+**Key Takeaway:** Equal-weighted index = all stocks have same weight = requires periodic rebalancing. This is more costly to replicate than market-cap weighted indices.]]></text></explanation>
+    </question>
+</QF>

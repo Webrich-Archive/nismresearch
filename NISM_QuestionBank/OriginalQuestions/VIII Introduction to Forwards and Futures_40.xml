@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_40" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following is the MOST accurate statement about the relationship between forward and futures prices for the same underlying and expiry?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[In theory, forward and futures prices should be identical for the same underlying and expiry if interest rates are constant, but daily marking-to-market of futures can create minor differences]]></text></answer>
+            <answer correct="no"><text><![CDATA[Futures prices are always higher than forward prices because futures have the additional cost of exchange fees]]></text></answer>
+            <answer correct="no"><text><![CDATA[Forward prices are always higher than futures prices because forwards have counterparty risk premium]]></text></answer>
+            <answer correct="no"><text><![CDATA[There is no theoretical relationship between forward and futures prices; they are determined by entirely different market forces]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under the assumption of constant interest rates and no credit risk differences, forward and futures prices on the same underlying with the same expiry should be identical. However, the daily MTM in futures means gains/losses are realized daily (and can be reinvested or need to be funded), creating a subtle difference related to the correlation between futures prices and interest rates.
+
+**The Trap:** There IS a theoretical relationship. Futures are not always higher or lower than forwards. The difference, if any, is due to the MTM cash flow timing, not exchange fees or counterparty risk premiums.
+
+**Cross-Exam Context:** This theoretical equivalence is an advanced concept in Series VIII and relevant for understanding pricing models.
+
+**Key Takeaway:** Forward and futures prices are theoretically equal if interest rates are constant. Daily MTM creates minor practical differences.]]></text></explanation>
+    </question>
+</QF>

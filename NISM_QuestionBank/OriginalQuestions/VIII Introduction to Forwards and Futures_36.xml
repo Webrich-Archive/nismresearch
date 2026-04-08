@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_36" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A 'calendar spread' position in futures involves:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Simultaneously holding a long position in one expiry month and a short position in a different expiry month of the same underlying asset]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buying futures contracts on the same underlying across different exchanges (e.g., NSE and BSE)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Holding both a futures position and an options position on the same underlying with the same expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Taking a long position in an index futures and a short position in a stock futures that is part of that index]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A calendar spread (also called time spread or horizontal spread) involves opposite positions in the SAME underlying but DIFFERENT expiry months. For example: Long Nifty January futures + Short Nifty February futures. The spread profits from changes in the price difference between the two contract months.
+
+**The Trap:** A spread across exchanges is an inter-exchange arbitrage, not a calendar spread. A futures + options combination is not a calendar spread. Long index + short stock is a different strategy.
+
+**Cross-Exam Context:** Calendar spreads receive favorable margin treatment on exchanges. This is tested in Series VIII margin and trading chapters.
+
+**Key Takeaway:** Calendar spread = same underlying, different expiry months, opposite positions. Gets margin benefit.]]></text></explanation>
+    </question>
+</QF>

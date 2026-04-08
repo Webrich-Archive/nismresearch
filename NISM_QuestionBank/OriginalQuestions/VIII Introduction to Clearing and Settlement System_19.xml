@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For stock futures, the exposure margin is computed as:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Higher of 5% of notional value or 1.5 standard deviations of daily logarithmic returns]]></text></answer>
+            <answer correct="no"><text><![CDATA[3% of notional value]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fixed at 5% of notional value]]></text></answer>
+            <answer correct="no"><text><![CDATA[Lower of 5% or 1.5 standard deviations]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For stock futures, the exposure margin is the HIGHER of: (a) 5% of the notional value, or (b) 1.5 standard deviations of the daily logarithmic returns of the stock price over the last 6 months (applied to the notional value). This ensures that more volatile stocks attract higher exposure margins.
+
+**The Trap:** It is the HIGHER of the two, not the lower. This is a conservative approach to ensure adequate margin coverage. For indices, it is a flat 3% (simpler).
+
+**Cross-Exam Context:** The use of standard deviation in margin computation links statistics concepts to risk management.
+
+**Key Takeaway:** Stock futures exposure margin = max(5%, 1.5 SD). More volatile stocks = higher margins. Ensures proportional risk coverage.]]></text></explanation>
+    </question>
+</QF>

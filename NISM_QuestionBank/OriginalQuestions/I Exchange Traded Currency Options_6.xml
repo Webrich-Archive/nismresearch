@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Option premium consists of:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Intrinsic value + Time value]]></text></answer>
+            <answer correct="no"><text><![CDATA[Strike price + Spot price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Intrinsic value + Volatility value]]></text></answer>
+            <answer correct="no"><text><![CDATA[Time value + Delta value]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Option premium = Intrinsic value + Time value. ITM options have both components; ATM and OTM options have only time value (intrinsic = 0). At expiry, time value = 0, so premium = intrinsic value only.
+**The Trap:** Volatility affects time value but is not a separate component of the premium.
+**Cross-Exam Context:** Premium decomposition is tested in Series I and VIII.
+**Distributor's Pro-Tip:** Time value is always >= 0 before expiry. It decreases as expiry approaches (time decay) and becomes zero at expiry.]]></text></explanation>
+    </question>
+</QF>

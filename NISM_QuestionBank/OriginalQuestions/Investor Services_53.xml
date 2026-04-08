@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Investor Services_53" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[An investor starts a monthly SIP of Rs. 5,000 in an equity fund. In the first 3 months, the NAVs on SIP dates are Rs. 100, Rs. 50, and Rs. 100 respectively. What is the average cost per unit after 3 months?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 83.33 (simple average of the three NAVs)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 75.00 (total investment divided by total units)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 100.00 (the NAV on the first SIP date)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 50.00 (the lowest NAV during the period)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Calculate step by step:
+Month 1: Rs. 5,000 / Rs. 100 NAV = 50 units
+Month 2: Rs. 5,000 / Rs. 50 NAV = 100 units
+Month 3: Rs. 5,000 / Rs. 100 NAV = 50 units
+Total invested: Rs. 15,000
+Total units: 50 + 100 + 50 = 200 units
+Average cost per unit = Rs. 15,000 / 200 = Rs. 75.00
+
+The simple average of NAVs = (100 + 50 + 100) / 3 = Rs. 83.33
+The actual average cost through SIP = Rs. 75.00
+
+The average cost (Rs. 75) is LOWER than the simple average of NAVs (Rs. 83.33). This demonstrates rupee cost averaging — more units were bought when NAV was low (100 units at Rs. 50) compared to when NAV was high (50 units at Rs. 100).
+
+**The Trap:** Students often calculate the simple average of NAVs and select that as the answer. The actual average cost through SIP is always less than or equal to the simple average of NAVs when there is price volatility. This difference is the mathematical basis of rupee cost averaging.
+
+**Cross-Exam Context:** The benefit of rupee cost averaging increases with volatility. If the NAV were constant at Rs. 100 for all 3 months, the average cost would equal the simple average (Rs. 100). It is the variation in NAV that creates the averaging benefit.
+
+**Distributor's Pro-Tip:** Use this exact type of calculation with real fund data to demonstrate SIP benefits to clients. Show them how investing a fixed amount regularly results in a lower average cost than the average market price. This mathematical proof is more convincing than theoretical explanations.]]></text></explanation>
+    </question>
+</QF>

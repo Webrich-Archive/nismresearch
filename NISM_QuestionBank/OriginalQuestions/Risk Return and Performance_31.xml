@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Risk Return and Performance_31" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investor invested Rs. 1,00,000 in a mutual fund scheme. After 3 years, the value of the investment is Rs. 1,72,800. What is the approximate CAGR?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[24.27%]]></text></answer>
+            <answer correct="no"><text><![CDATA[72.80%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[20%]]></text></answer>
+            <answer correct="no"><text><![CDATA[17.28%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** CAGR = (Ending Value / Beginning Value)^(1/n) - 1 = (1,72,800 / 1,00,000)^(1/3) - 1 = (1.728)^(1/3) - 1. Now, 1.728 = 1.2^3, so the cube root of 1.728 = 1.2. Therefore, CAGR = 1.2 - 1 = 0.20 = 20%.
+
+**The Trap:** 24.27% is the simple annualized return (72.8%/3), which does not account for compounding. 72.80% is the absolute return over 3 years, not the annualized rate. 17.28% might be obtained by dividing the absolute return by some incorrect factor. Remember: CAGR accounts for compounding, so it will always be less than simple average annual return for positive returns.
+
+**Cross-Exam Context:** This is a clean calculation where the cube root works out perfectly. In the exam, SEBI mandates that this 3-year return must be expressed as CAGR (20%), not as absolute return (72.8%) or simple annualized return (24.27%). The CAGR formula is one of the most frequently tested calculations in NISM VA.
+
+**Distributor's Pro-Tip:** Use this example to explain compounding to clients: "Rs. 1 lakh grew to Rs. 1.2 lakh in year 1 (20%), then Rs. 1.2 lakh grew to Rs. 1.44 lakh in year 2 (20%), then Rs. 1.44 lakh grew to Rs. 1.728 lakh in year 3 (20%). Each year's growth builds on the previous year's total."]]></text></explanation>
+    </question>
+</QF>

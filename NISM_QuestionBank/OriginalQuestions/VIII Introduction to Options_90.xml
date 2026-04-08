@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_90" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A put option with strike Rs. 1,000 trades at Rs. 45 when the stock is at Rs. 1,050. What are the intrinsic and time values?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Intrinsic value: Rs. 0, Time value: Rs. 45]]></text></answer>
+            <answer correct="no"><text><![CDATA[Intrinsic value: Rs. 50, Time value: Rs. -5]]></text></answer>
+            <answer correct="no"><text><![CDATA[Intrinsic value: Rs. 45, Time value: Rs. 0]]></text></answer>
+            <answer correct="no"><text><![CDATA[Intrinsic value: Rs. -50, Time value: Rs. 95]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:**
+Step-by-step:
+1. Put IV = max(X - S, 0) = max(1,000 - 1,050, 0) = max(-50, 0) = Rs. 0
+2. Time Value = Premium - IV = 45 - 0 = Rs. 45
+3. This put is OTM (S > X), so entire premium is time value.
+
+**The Trap:** OTM put (S > X) has zero intrinsic value. The Rs. 45 premium is purely time value.
+
+**Cross-Exam Context:** If this put reaches expiry with S still > X, the entire Rs. 45 will be lost.
+
+**Key Takeaway:** OTM put (S > X): IV = 0. All premium is time value, which decays to zero at expiry.]]></text></explanation>
+    </question>
+</QF>

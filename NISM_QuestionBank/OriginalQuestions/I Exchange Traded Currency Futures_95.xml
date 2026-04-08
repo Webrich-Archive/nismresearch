@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_95" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Cross-currency futures contracts have which contract cycle?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[12 serial monthly trading cycle only (no weekly contracts)]]></text></answer>
+            <answer correct="no"><text><![CDATA[11 serial weekly and 12 monthly cycles]]></text></answer>
+            <answer correct="no"><text><![CDATA[4 quarterly contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[52 weekly contracts]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Cross-currency futures (EURUSD, GBPUSD, USDJPY) have only 12 serial monthly contracts. Unlike INR-based pairs, they do NOT have weekly contracts.
+**The Trap:** Weekly contracts are available only for INR-based currency pairs, not cross-currency.
+**Cross-Exam Context:** Contract cycle differences are tested in Series I.
+**Distributor's Pro-Tip:** The absence of weekly contracts in cross-currency reflects lower trading activity compared to INR pairs.]]></text></explanation>
+    </question>
+</QF>

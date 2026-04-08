@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_62" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If a Nifty futures contract with lot size 25 is trading at 22,000 and the total margin (SPAN + Exposure) is Rs. 80,000 per lot, the effective leverage is approximately:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[6.875 times]]></text></answer>
+            <answer correct="no"><text><![CDATA[3.5 times]]></text></answer>
+            <answer correct="no"><text><![CDATA[10 times]]></text></answer>
+            <answer correct="no"><text><![CDATA[22 times]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step:
+1. Contract value per lot = 22,000 x 25 = Rs. 5,50,000
+2. Margin per lot = Rs. 80,000
+3. Leverage = Contract value / Margin = 5,50,000 / 80,000 = 6.875 times
+
+The trader controls Rs. 5,50,000 worth of exposure by depositing only Rs. 80,000.
+
+**The Trap:** Leverage is contract value divided by margin, not the margin percentage. Higher margin = lower leverage.
+
+**Cross-Exam Context:** Leverage calculation helps understand the risk amplification in derivatives.
+
+**Key Takeaway:** Leverage = Contract value / Margin deposited. Higher leverage = higher risk and return amplification.]]></text></explanation>
+    </question>
+</QF>

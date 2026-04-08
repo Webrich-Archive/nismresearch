@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following correctly identifies the 'spot price' in options trading?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The current market price of the underlying asset in the cash/spot market]]></text></answer>
+            <answer correct="no"><text><![CDATA[The price at which the option contract is currently trading]]></text></answer>
+            <answer correct="no"><text><![CDATA[The strike price of the option contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[The closing price of the underlying asset on the option's expiry date]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Spot price is the CURRENT market price of the underlying asset in the cash/spot market. It changes continuously during trading hours and is a key input in determining option premiums and moneyness.
+
+**The Trap:** Spot price is different from strike price (predetermined) and option premium (price of the option itself).
+
+**Cross-Exam Context:** Spot price (S) vs Strike price (X) comparison determines moneyness (ITM, ATM, OTM).
+
+**Key Takeaway:** Spot price = current market price of underlying. Strike price = contractual exercise price.]]></text></explanation>
+    </question>
+</QF>

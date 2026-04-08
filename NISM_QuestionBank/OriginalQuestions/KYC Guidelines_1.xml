@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="KYC Guidelines_1" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[For the purpose of Client Due Diligence, the KYC process requires every SEBI registered intermediary to obtain and verify which documents from the client?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Both Proof of Identity (PoI) and Proof of Address (PoA)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only Proof of Identity (PoI)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only Proof of Address (PoA)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only PAN card]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The KYC process requires every SEBI registered intermediary to obtain and verify BOTH Proof of Identity (PoI) AND Proof of Address (PoA) from the client at the time of commencement of an account-based relationship.
+
+**The Trap:** PAN is mandatory separately but PoI and PoA are the two fundamental KYC documents. Neither alone is sufficient. PAN card can serve as PoI but additional PoA is still needed.
+
+**Cross-Exam Context:** This is from the sample questions in the workbook itself. In NISM V-A and III-A, the same PoI + PoA requirement applies for all client onboarding across securities market intermediaries.
+
+**Distributor's Pro-Tip:** Always collect BOTH PoI and PoA. A common mistake is accepting only PAN (which is PoI) without obtaining PoA. Ensure the name on PoI matches the name on the KYC form exactly.]]></text></explanation>
+    </question>
+</QF>

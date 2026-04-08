@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_33" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Value at Risk (VaR) in the context of derivatives margining represents:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The maximum potential loss on a portfolio over a given time period at a specified confidence level]]></text></answer>
+            <answer correct="no"><text><![CDATA[The current market value of the derivative position]]></text></answer>
+            <answer correct="no"><text><![CDATA[The total premium paid for options contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[The difference between the futures price and spot price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** VaR quantifies the maximum expected loss for a given confidence level and time horizon. For example, a 99% 1-day VaR of Rs. 1 lakh means there is a 99% probability that the portfolio will not lose more than Rs. 1 lakh in one day. This forms the basis for initial margin computation.
+
+**The Trap:** VaR is not the current value or premium. It is a statistical risk measure based on historical price movements and volatility.
+
+**Cross-Exam Context:** VaR is a fundamental risk management concept tested in NISM Series VIII and risk management modules.
+
+**Key Takeaway:** VaR = maximum loss at a given confidence level over a specified time. 99% VaR = 1% chance of exceeding. Used for margin computation.]]></text></explanation>
+    </question>
+</QF>

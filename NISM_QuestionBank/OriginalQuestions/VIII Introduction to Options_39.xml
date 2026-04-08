@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_39" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which statement about cost structure is TRUE when comparing futures and options?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Futures require margin from both parties; options require premium from buyer and margin from seller only]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both futures and options require the same margin from both parties]]></text></answer>
+            <answer correct="no"><text><![CDATA[Options require margin from both parties while futures require premium payment]]></text></answer>
+            <answer correct="no"><text><![CDATA[Neither futures nor options require any upfront payment]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** 
+- Futures: BOTH buyer and seller pay margin (initial + maintenance margin)
+- Options: Buyer pays PREMIUM (not margin). Seller pays MARGIN (because seller has obligation and risk)
+
+**The Trap:** Option buyers don't pay margin because their maximum loss is limited to premium. Sellers need margin because their potential loss can be large.
+
+**Cross-Exam Context:** This cost difference is a key factor in choosing between futures and options.
+
+**Key Takeaway:** Option buyer: pays premium, no margin. Option seller: receives premium, pays margin.]]></text></explanation>
+    </question>
+</QF>

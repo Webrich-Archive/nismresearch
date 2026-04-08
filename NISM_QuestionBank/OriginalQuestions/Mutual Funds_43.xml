@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Mutual Funds_43" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investor invests Rs. 10,000 per month through SIP for 3 months. The NAV on the SIP dates is Rs. 100, Rs. 50, and Rs. 200 respectively. What is the total number of units accumulated?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[350 units]]></text></answer>
+            <answer correct="no"><text><![CDATA[300 units]]></text></answer>
+            <answer correct="no"><text><![CDATA[400 units]]></text></answer>
+            <answer correct="no"><text><![CDATA[250 units]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Units purchased each month = SIP Amount / NAV on that date. Month 1: 10,000/100 = 100 units. Month 2: 10,000/50 = 200 units. Month 3: 10,000/200 = 50 units. Total units = 100 + 200 + 50 = 350 units. Note how more units (200) were purchased when NAV was lowest (Rs. 50) — this is rupee cost averaging in action.
+
+**The Trap:** 300 units results from using the average NAV incorrectly. The correct method is to calculate units for each installment separately at that date's NAV and then sum them. Each SIP installment is an independent purchase transaction.
+
+**Cross-Exam Context:** MF topics overlap with Series V-A, V-B. SIP unit calculations are a standard numerical question type in all MF certification exams.
+
+**Distributor's Pro-Tip:** Use this type of example to show clients how SIPs work. When markets dip (NAV falls to Rs. 50), the same Rs. 10,000 buys 200 units instead of 100. This averaging down effect reduces the per-unit cost over time.]]></text></explanation>
+    </question>
+</QF>

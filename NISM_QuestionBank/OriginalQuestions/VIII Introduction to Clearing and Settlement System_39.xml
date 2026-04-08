@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_39" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Client-level position limits for index futures and options contracts are:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Higher of Rs. 500 crore or 15% of total open interest in the market]]></text></answer>
+            <answer correct="no"><text><![CDATA[10% of market-wide position limit]]></text></answer>
+            <answer correct="no"><text><![CDATA[No limits exist for clients]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fixed at Rs. 100 crore for all clients]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For index derivatives, client-level position limits are the higher of: (a) Rs. 500 crore in terms of gross open position, or (b) 15% of the total open interest in the market. This allows larger participants to hold bigger positions while still maintaining a cap.
+
+**The Trap:** Client limits for stock derivatives are different (20% of MWPL for each stock). The limit is the HIGHER of the two thresholds, not the lower.
+
+**Cross-Exam Context:** Client, TM, and market-wide position limits form a hierarchy of limits tested in the exam.
+
+**Key Takeaway:** Index client limit: higher of Rs. 500 crore or 15% of OI. Stock client limit: 20% of MWPL per stock.]]></text></explanation>
+    </question>
+</QF>

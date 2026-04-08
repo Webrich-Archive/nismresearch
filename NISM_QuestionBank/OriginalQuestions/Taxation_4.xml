@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Taxation_4" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[An investor sold equity MF units worth Rs. 15,00,000 at redemption. What is the Securities Transaction Tax (STT) payable on this redemption?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 1,500 (0.01% of redemption value)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 150 (0.001% of redemption value)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 15,000 (0.1% of redemption value)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Nil - STT is not applicable on mutual fund redemptions]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** STT on redemption of equity-oriented mutual fund units is levied at 0.001% of the redemption value. STT = Rs. 15,00,000 x 0.001% = Rs. 15,00,000 x 0.00001 = Rs. 150. STT is payable by the seller (investor) and collected by the AMC.
+
+**The Trap:** Option A uses 0.01% (10 times higher). Option C uses 0.1% which is the STT rate for equity delivery trades on stock exchanges. Option D incorrectly claims STT is not applicable to MF redemptions.
+
+**Cross-Exam Context:** STT applies only to equity-oriented MFs, not to debt MFs. The payment of STT on equity MF units is what enables the concessional LTCG/STCG rates under Sections 112A and 111A.
+
+**Distributor's Pro-Tip:** STT is a negligible cost (0.001%) but its payment is crucial because it qualifies the transaction for lower capital gains tax rates. Without STT, gains would be taxed at regular rates.]]></text></explanation>
+    </question>
+</QF>

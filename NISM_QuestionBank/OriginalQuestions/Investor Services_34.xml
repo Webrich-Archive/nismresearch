@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Investor Services_34" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is the role of a KRA (KYC Registration Agency) in mutual fund investments?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[KRA processes mutual fund redemption requests]]></text></answer>
+            <answer correct="no"><text><![CDATA[KRA manages the NAV calculation for mutual fund schemes]]></text></answer>
+            <answer correct="yes"><text><![CDATA[KRA maintains a centralized database of KYC-compliant investors for the securities market]]></text></answer>
+            <answer correct="no"><text><![CDATA[KRA decides which investors are eligible to invest in mutual funds]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** KRA (KYC Registration Agency) is a SEBI-registered entity that maintains a centralized repository of investor KYC records for the securities market. When an investor completes KYC with any SEBI-registered intermediary, the records are uploaded to a KRA. Other intermediaries can then verify the investor's KYC status from the KRA database instead of requiring fresh KYC.
+
+**The Trap:** KRA is specific to securities/capital markets, while CKYC is broader covering all financial services. An investor who is KRA-KYC compliant for mutual funds may still need separate KYC for banking or insurance through CKYC. However, the integration between the two systems is improving.
+
+**Cross-Exam Context:** Major KRAs in India include CAMS KRA, KFin Technologies KRA (formerly Karvy KRA), NSDL KRA, and CVL KRA. The KRA system was introduced by SEBI to make KYC a one-time exercise for investors across the securities market.
+
+**Distributor's Pro-Tip:** Check the KRA status of new clients before starting the investment process. If they have already completed KYC with any other SEBI intermediary, you may not need to repeat the full process. This saves time and improves the client onboarding experience.]]></text></explanation>
+    </question>
+</QF>

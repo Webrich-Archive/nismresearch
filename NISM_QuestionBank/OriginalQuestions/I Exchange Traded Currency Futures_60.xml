@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_60" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How are new serial weekly/monthly futures contracts introduced?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[After expiry of the respective week's/month's contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[On the first trading day of each calendar month]]></text></answer>
+            <answer correct="no"><text><![CDATA[Simultaneously when the exchange opens for the year]]></text></answer>
+            <answer correct="no"><text><![CDATA[When SEBI approves new contracts]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** New contracts are introduced on a rolling basis — after the expiry of each week's/month's contract, a new contract of the same type is listed, maintaining the serial cycle.
+**The Trap:** Contracts are NOT all introduced at once — they follow a rolling introduction cycle.
+**Cross-Exam Context:** Contract introduction mechanics are specific to Series I.
+**Distributor's Pro-Tip:** This rolling introduction ensures there are always 11 weekly and 12 monthly contracts available for trading.]]></text></explanation>
+    </question>
+</QF>

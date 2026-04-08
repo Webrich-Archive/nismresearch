@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_95" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader notices that near-month Nifty futures (expiring in 10 days) are at 25,050 while the spot Nifty is at 25,030. The fair value for 10 days with r=7% and q=2% is approximately 25,063. What can the trader conclude?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Near-month futures at 25,050 are slightly underpriced relative to fair value of 25,063, but the mispricing of 13 points may not be enough to cover transaction costs for arbitrage]]></text></answer>
+            <answer correct="no"><text><![CDATA[The futures are significantly overpriced and offer a major arbitrage opportunity]]></text></answer>
+            <answer correct="no"><text><![CDATA[The futures are perfectly priced at fair value]]></text></answer>
+            <answer correct="no"><text><![CDATA[The basis of -20 points indicates a strongly bearish market]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step analysis:
+1. Fair value = 25,063
+2. Actual futures = 25,050
+3. Underpricing = 25,063 - 25,050 = 13 points
+4. Basis = Spot - Futures = 25,030 - 25,050 = -20 (normal contango)
+5. While futures are technically underpriced by 13 points, this may not cover transaction costs (brokerage, STT, impact cost)
+
+In practice, arbitrage is only profitable when mispricing exceeds total transaction costs.
+
+**The Trap:** The futures are underpriced (not overpriced). The basis of -20 is normal contango, not bearish signal. "Perfectly priced" is incorrect as there is a 13-point gap.
+
+**Cross-Exam Context:** Practical arbitrage considerations (transaction costs, impact costs) are important Series VIII concepts.
+
+**Key Takeaway:** Theoretical arbitrage may not be practical if mispricing is less than transaction costs (brokerage, taxes, impact cost).]]></text></explanation>
+    </question>
+</QF>

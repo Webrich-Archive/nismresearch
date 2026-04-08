@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Investor Services_36" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Mr. Sharma submits a purchase application for an equity fund at 2:45 PM on Monday with a cheque. The cheque is cleared on Wednesday. Which day's NAV will be applicable for his purchase?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Monday's NAV because the application was submitted before 3 PM]]></text></answer>
+            <answer correct="no"><text><![CDATA[Tuesday's NAV as the next business day]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Wednesday's NAV because for amounts involving cheques, the NAV of the day of fund realization applies]]></text></answer>
+            <answer correct="no"><text><![CDATA[The average of Monday's and Wednesday's NAV]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For purchase transactions, the applicable NAV depends on both the time of application receipt AND the availability of funds. Even though Mr. Sharma's application was received before the 3 PM cut-off, the funds (via cheque) were not available until Wednesday. The NAV applicable is of the day when funds are actually available/realized.
+
+**The Trap:** Simply submitting the application before 3 PM does not guarantee same-day NAV if payment is by cheque. This rule specifically addresses the gap between application submission and fund availability. For electronic payments (RTGS/NEFT/UPI), funds are typically available the same day.
+
+**Cross-Exam Context:** This rule was introduced to prevent gaming of the system where investors could submit applications before cut-off with post-dated cheques, getting current NAV while funds arrive days later. It levels the playing field between cheque and electronic payments.
+
+**Distributor's Pro-Tip:** Always advise clients to use electronic payment modes (RTGS, NEFT, UPI, net banking) for mutual fund purchases. This ensures same-day fund availability and eliminates the uncertainty of cheque clearing. For large transactions, RTGS is preferred for immediate credit.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_41" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader buys one Nifty futures contract at 24,500. On the expiry day, the Nifty spot index closes at 24,850. If the lot size is 65, what is the trader's profit or loss?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Profit of Rs. 22,750]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 350]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 22,750]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 1,59,25,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+1. Position: Long (bought) futures at 24,500
+2. Final settlement price (spot at expiry): 24,850
+3. Per unit profit = Settlement Price - Buy Price = 24,850 - 24,500 = 350 points
+4. Total profit = Per unit profit x Lot size = 350 x 65 = Rs. 22,750
+
+For a LONG position: Profit = (Spot at expiry - Futures price) x Lot size
+
+**The Trap:** Rs. 350 is the per-unit profit, not the total. Rs. 1,59,25,000 is the contract value, not profit. The loss figure reverses the sign.
+
+**Cross-Exam Context:** Long futures payoff is the most basic calculation in Series VIII.
+
+**Key Takeaway:** Long futures profit = (Expiry Spot - Entry Price) x Lot Size. Positive = profit, Negative = loss.]]></text></explanation>
+    </question>
+</QF>

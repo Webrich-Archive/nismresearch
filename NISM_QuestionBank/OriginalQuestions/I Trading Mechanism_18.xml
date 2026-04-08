@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Trading Mechanism_18" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The IRRA (Investor Risk Reduction Access) facility allows:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Investors to square off/close open positions and cancel pending orders when their broker's system fails]]></text></answer>
+            <answer correct="no"><text><![CDATA[Investors to open new positions directly]]></text></answer>
+            <answer correct="no"><text><![CDATA[Brokers to trade on behalf of any client]]></text></answer>
+            <answer correct="no"><text><![CDATA[The exchange to automatically close all positions]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** IRRA allows investors to close positions and cancel orders when their broker faces technical issues. It does NOT allow opening new positions. IRRA is for individual investors only (not algo or institutional).
+**The Trap:** IRRA can only REDUCE risk (close/cancel), not INCREASE it (open new positions).
+**Cross-Exam Context:** Investor protection mechanisms are tested in Series I.
+**Distributor's Pro-Tip:** Brokers must inform the exchange to enable IRRA, and all investors are notified via email/SMS.]]></text></explanation>
+    </question>
+</QF>

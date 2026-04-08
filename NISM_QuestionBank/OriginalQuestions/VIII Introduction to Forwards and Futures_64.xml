@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_64" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A stock is priced at Rs. 400. Using continuous compounding with r = 10%, q = 3%, and T = 180 days, what is the fair futures price? (Given: e^0.0345 = 1.0351)]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 414.04 (approximately)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 428.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 400.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 407.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+F = S x e^((r-q) x T/365)
+F = 400 x e^((0.10 - 0.03) x 180/365)
+F = 400 x e^(0.07 x 0.4932)
+F = 400 x e^(0.03452)
+F = 400 x 1.0351 (given)
+F = Rs. 414.04
+
+**The Trap:** Rs. 428 uses r = 7% for full year (400 x 1.07). Rs. 400 ignores carry. Rs. 407 uses only half the rate or incorrect time fraction.
+
+**Cross-Exam Context:** When the exam provides the value of e^x, use it directly. Series VIII may test with or without the given exponential value.
+
+**Key Takeaway:** F = 400 x e^(0.07 x 180/365) = 400 x e^(0.0345) = 400 x 1.0351 = Rs. 414.04.]]></text></explanation>
+    </question>
+</QF>

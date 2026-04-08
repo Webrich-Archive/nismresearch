@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_121" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Since October 2019, how are stock options settled in India?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Stock options are settled by physical delivery of the underlying shares]]></text></answer>
+            <answer correct="no"><text><![CDATA[Stock options are settled in cash based on the settlement price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Stock options can be settled either by physical delivery or cash at the buyer's choice]]></text></answer>
+            <answer correct="no"><text><![CDATA[Stock options are settled through a combination of cash and shares]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI mandated PHYSICAL SETTLEMENT for all stock options and stock futures in India from October 2019. This means:
+- ITM call exercised → buyer receives actual shares, pays strike price
+- ITM put exercised → buyer delivers actual shares, receives strike price
+
+Index options continue to be CASH settled (index cannot be physically delivered).
+
+**The Trap:** Only STOCK options are physically settled. INDEX options remain cash settled.
+
+**Cross-Exam Context:** Physical settlement reduces speculative excessive trading in stock derivatives.
+
+**Key Takeaway:** Since Oct 2019: stock options = physical delivery. Index options = cash settlement.]]></text></explanation>
+    </question>
+</QF>

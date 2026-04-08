@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A key advantage of SPAN margining over flat percentage-based margining is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[SPAN recognizes the risk-reducing effect of hedged positions and charges lower margins for offset portfolios]]></text></answer>
+            <answer correct="no"><text><![CDATA[SPAN always charges higher margins than flat percentage methods]]></text></answer>
+            <answer correct="no"><text><![CDATA[SPAN is simpler to compute than flat percentage margins]]></text></answer>
+            <answer correct="no"><text><![CDATA[SPAN does not require daily margin recalculation]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SPAN evaluates the entire portfolio and recognizes offsetting positions. For example, a long futures + long put combination has lower risk than a naked long futures, so SPAN charges lower margin for the hedged position. Flat percentage margining treats each position independently and does not give credit for hedges.
+
+**The Trap:** SPAN is more complex to compute, not simpler. It requires daily recalculation. It does not always charge higher margins - it can charge LOWER margins for hedged positions.
+
+**Cross-Exam Context:** Portfolio-based margining vs position-based margining is a key concept.
+
+**Key Takeaway:** SPAN advantage: portfolio-based, recognizes hedges, gives margin offsets for offsetting positions. More capital efficient.]]></text></explanation>
+    </question>
+</QF>

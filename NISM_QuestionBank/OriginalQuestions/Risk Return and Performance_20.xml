@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Risk Return and Performance_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The Sharpe ratio of a mutual fund measures:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The fund's total return relative to the market return]]></text></answer>
+            <answer correct="no"><text><![CDATA[The fund's excess return per unit of systematic risk (beta)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The fund's excess return per unit of total risk (standard deviation)]]></text></answer>
+            <answer correct="no"><text><![CDATA[The fund's return above the benchmark return]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The Sharpe ratio measures risk-adjusted performance by dividing the fund's excess return (fund return minus risk-free rate) by the fund's standard deviation (total risk). Formula: Sharpe Ratio = (Rp - Rf) / Standard Deviation. A higher Sharpe ratio indicates better risk-adjusted returns -- the fund is generating more excess return per unit of total risk taken.
+
+**The Trap:** The Treynor ratio (not Sharpe) measures excess return per unit of systematic risk (beta). Alpha measures the fund's return above the expected return based on CAPM. The Sharpe ratio uses standard deviation (total risk), which is its key distinguishing feature.
+
+**Cross-Exam Context:** Sharpe ratio is most useful when comparing funds that are NOT well-diversified, because standard deviation captures both systematic and unsystematic risk. For well-diversified funds (where unsystematic risk is negligible), the Treynor ratio may be more appropriate since it uses only systematic risk.
+
+**Distributor's Pro-Tip:** When comparing two funds in the same category, the one with the higher Sharpe ratio has delivered better returns per unit of risk. Always compare Sharpe ratios within the same category and time period. A Sharpe ratio above 1 is generally considered good; above 2 is excellent.]]></text></explanation>
+    </question>
+</QF>

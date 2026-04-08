@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Understanding Index_14" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An index has a base period market capitalization of Rs. 50,000 crore and a base value of 1,000. If the current market capitalization of its constituent stocks is Rs. 75,000 crore, what is the current index value?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[1,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[1,250]]></text></answer>
+            <answer correct="no"><text><![CDATA[750]]></text></answer>
+            <answer correct="no"><text><![CDATA[2,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+1. Base Market Cap = Rs. 50,000 crore
+2. Current Market Cap = Rs. 75,000 crore
+3. Base Index Value = 1,000
+4. Current Index Value = (Current Market Cap / Base Market Cap) x Base Index Value
+5. Current Index Value = (75,000 / 50,000) x 1,000 = 1.5 x 1,000 = 1,500
+
+The market cap has increased by 50%, so the index value has also increased by 50% from its base of 1,000 to 1,500.
+**The Trap:** 1,250 would result from a 25% increase calculation. 750 would incorrectly suggest a decline. 2,000 would imply a 100% increase.
+**Cross-Exam Context:** NISM Series VIII tests this basic index value calculation formula.
+**Key Takeaway:** Index Value = (Current MCap / Base MCap) x Base Value. The percentage change in the index equals the percentage change in total market capitalization of constituents.]]></text></explanation>
+    </question>
+</QF>

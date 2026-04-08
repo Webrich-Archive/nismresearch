@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A company with imports in EUR and exports in USD can hedge EURUSD risk by:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Going long on EURUSD futures, or alternatively short USDINR + long EURINR]]></text></answer>
+            <answer correct="no"><text><![CDATA[Going short on EURUSD futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buying USDINR put options only]]></text></answer>
+            <answer correct="no"><text><![CDATA[Selling EURINR futures only]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The company earns USD and pays EUR — exposed to EURUSD rising. Long EURUSD hedges this. If EURUSD futures are illiquid, the synthetic hedge: short USDINR + long EURINR effectively creates a long EURUSD position.
+**The Trap:** Going short EURUSD would be for a company that receives EUR and pays USD (opposite situation).
+**Cross-Exam Context:** Cross-currency hedging and synthetic positions are tested in Series I.
+**Distributor's Pro-Tip:** Synthetic cross-currency positions are useful when direct cross-currency contracts have low liquidity.]]></text></explanation>
+    </question>
+</QF>

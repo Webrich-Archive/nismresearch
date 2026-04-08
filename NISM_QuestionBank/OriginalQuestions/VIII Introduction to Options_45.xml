@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_45" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the typical range of delta for a call option?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[0 to +1]]></text></answer>
+            <answer correct="no"><text><![CDATA[-1 to 0]]></text></answer>
+            <answer correct="no"><text><![CDATA[-1 to +1]]></text></answer>
+            <answer correct="no"><text><![CDATA[0 to infinity]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Call delta ranges from 0 to +1:
+- Deep OTM call: delta ≈ 0 (barely moves with underlying)
+- ATM call: delta ≈ 0.5 (moves about half as much as underlying)
+- Deep ITM call: delta ≈ 1 (moves almost one-for-one with underlying)
+
+**The Trap:** PUT delta ranges from -1 to 0 (negative because puts move opposite to underlying).
+
+**Cross-Exam Context:** |Call delta| + |Put delta| ≈ 1 for same-strike options.
+
+**Key Takeaway:** Call delta: 0 to +1. Put delta: -1 to 0. ATM delta ≈ ±0.5.]]></text></explanation>
+    </question>
+</QF>

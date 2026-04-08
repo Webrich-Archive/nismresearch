@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Derivative Markets_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[At any point in time, how many monthly equity derivative contracts are available for trading?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Three — near month, next month, and far month]]></text></answer>
+            <answer correct="no"><text><![CDATA[One — only the current month's contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[Six — contracts for the next six months]]></text></answer>
+            <answer correct="no"><text><![CDATA[Twelve — contracts for the next twelve months]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** At any time, three monthly contracts are available: (a) NEAR month — expiring on the last Tuesday or Thursday of the current month, (b) NEXT month — expiring the following month, and (c) FAR month — expiring in the third month. Additionally, quarterly and semi-annual contracts are also available for longer maturities.
+
+**The Trap:** It is not just one month or six months — exactly three monthly contracts are always available. When the near month contract expires, a new far month contract is introduced. The exchange also specifies quarterly and semi-annual contracts separately.
+
+**Cross-Exam Context:** Derivatives basics overlap with Series VIII, XIII. Understanding the contract cycle is essential for all derivatives exams.
+
+**Distributor's Pro-Tip:** Near month contracts are the most actively traded and liquid. As a result, they have the tightest spreads and lowest impact costs. Most retail traders should stick to near month contracts for better liquidity.]]></text></explanation>
+    </question>
+</QF>

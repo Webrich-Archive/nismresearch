@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_30" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For a long call option position, which statement about profit potential and maximum loss is correct?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Profit potential is theoretically unlimited, and maximum loss is limited to the premium paid]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both profit potential and maximum loss are unlimited]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit potential is limited to the premium, and maximum loss is unlimited]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both profit potential and maximum loss are limited to the premium paid]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Long Call:
+- Maximum Profit: UNLIMITED (underlying can rise infinitely)
+- Maximum Loss: LIMITED to premium paid (if option expires worthless)
+- BEP = Strike Price + Premium
+
+**The Trap:** This is opposite to short call (max profit = premium, unlimited loss).
+
+**Cross-Exam Context:** The asymmetric payoff (limited loss, unlimited profit) is why buyers pay premium.
+
+**Key Takeaway:** Long call: Unlimited profit, Limited loss (premium). BEP = X + P.]]></text></explanation>
+    </question>
+</QF>

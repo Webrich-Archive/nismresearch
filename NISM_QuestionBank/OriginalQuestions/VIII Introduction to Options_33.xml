@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_33" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The breakeven point for a long put option buyer is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Strike Price - Premium Paid]]></text></answer>
+            <answer correct="no"><text><![CDATA[Strike Price + Premium Paid]]></text></answer>
+            <answer correct="no"><text><![CDATA[Spot Price - Premium Paid]]></text></answer>
+            <answer correct="no"><text><![CDATA[Premium Paid - Strike Price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Put BEP = Strike Price - Premium Paid
+At BEP, the put payoff exactly covers the premium paid.
+
+Example: Strike = 17,500, Premium = 177.60
+BEP = 17,500 - 177.60 = 17,322.40
+At spot 17,322.40: Payoff = 17,500 - 17,322.40 = 177.60 = Premium. Net P/L = 0.
+
+**The Trap:** Call BEP = Strike + Premium (add). Put BEP = Strike - Premium (subtract).
+
+**Cross-Exam Context:** For profit: underlying must go BELOW BEP for puts, ABOVE BEP for calls.
+
+**Key Takeaway:** Put BEP = X - P. Profit when spot < BEP.]]></text></explanation>
+    </question>
+</QF>

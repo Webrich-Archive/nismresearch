@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Scheme Performance_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What does Tracking Error measure in the context of index fund performance?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The total return of the fund minus the risk-free rate]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The standard deviation of the difference between the fund's return and the benchmark index return]]></text></answer>
+            <answer correct="no"><text><![CDATA[The maximum drawdown of the fund from its peak NAV]]></text></answer>
+            <answer correct="no"><text><![CDATA[The ratio of fund return to benchmark return]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Tracking Error is the standard deviation of the difference between the fund's return and the benchmark index return over a given period. For index funds and ETFs, tracking error measures how consistently the fund replicates the benchmark. A lower tracking error indicates better replication -- the fund is closely following its benchmark.
+
+**The Trap:** Tracking error is NOT just the simple difference between fund return and benchmark return (that would be the tracking difference or active return). Tracking error measures the CONSISTENCY (standard deviation) of that difference. A fund could have a zero average tracking difference but still have high tracking error if the difference fluctuates widely.
+
+**Cross-Exam Context:** In NISM V-B, tracking error is tested as a key metric for evaluating index funds. In NISM VIII (Equity Derivatives), tracking error concepts apply to arbitrage strategies and hedging effectiveness.
+
+**Distributor's Pro-Tip:** When comparing index funds tracking the same benchmark, the one with the lower tracking error is doing a better job of replication. However, also check the tracking difference (actual return gap) -- a fund with low tracking error but consistently underperforming by 1% is worse than one with slightly higher tracking error but closer returns.]]></text></explanation>
+    </question>
+</QF>

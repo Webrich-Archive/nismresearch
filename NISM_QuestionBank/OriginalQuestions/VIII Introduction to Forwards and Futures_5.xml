@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Counterparty risk in a forward contract refers to:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The risk that one party may default on their obligation, as there is no clearing corporation guarantee]]></text></answer>
+            <answer correct="no"><text><![CDATA[The risk of the exchange suspending trading in the contract due to excessive volatility]]></text></answer>
+            <answer correct="no"><text><![CDATA[The risk that the counterparty may demand additional margin during the life of the contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[The risk that SEBI may cancel the forward contract if it finds irregularities]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In a forward contract, the two parties deal directly with each other. There is no clearing corporation or exchange acting as a central counterparty to guarantee performance. If one party (say the seller) finds it unprofitable to honor the contract, they may simply default. The other party has no recourse except legal action.
+
+**The Trap:** Margin calls and exchange suspensions are features of exchange-traded derivatives (futures), not forward contracts. Forward contracts typically do not have a margin mechanism.
+
+**Cross-Exam Context:** The elimination of counterparty risk through the clearing corporation is the major advantage of futures over forwards, tested in Series I, VIII, and XVI.
+
+**Key Takeaway:** Forward = counterparty/credit/default risk because no clearing corporation guarantee exists.]]></text></explanation>
+    </question>
+</QF>

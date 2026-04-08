@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_38" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the contract value for 5 lots of USDINR futures if the trade price is 83.00?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 4,15,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 83,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 41,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 8,30,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Contract value = Trade price × Lot size × Number of lots = 83.00 × 1000 × 5 = Rs. 4,15,000.
+**The Trap:** Contract value for ONE lot = 83 × 1000 = Rs. 83,000. For 5 lots, multiply by 5.
+**Cross-Exam Context:** Contract value calculations are tested in Series I.
+**Distributor's Pro-Tip:** Contract value determines margin requirements. Higher contract value = higher margin amount.]]></text></explanation>
+    </question>
+</QF>

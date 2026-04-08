@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_86" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A long straddle involves buying both a call and a put at the same strike. This benefits when:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The underlying makes a large move in EITHER direction]]></text></answer>
+            <answer correct="no"><text><![CDATA[The underlying remains stable near the strike]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only when the underlying rises significantly]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only when the underlying falls significantly]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A straddle buyer pays two premiums but profits from any large move. Profit = |Move| - (Call premium + Put premium). Direction doesn't matter — only magnitude.
+**The Trap:** The underlying must move enough to overcome BOTH premiums. Small moves result in losses.
+**Cross-Exam Context:** Straddle strategies are tested in Series I Chapter 5 and VIII.
+**Distributor's Pro-Tip:** Straddles are typically bought before events expected to cause large moves (RBI policy, US jobs data, elections).]]></text></explanation>
+    </question>
+</QF>

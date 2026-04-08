@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Taxation_9" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Which of the following is the correct holding period classification for determining short-term vs long-term capital gains on mutual fund units?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[12 months for all mutual fund types]]></text></answer>
+            <answer correct="no"><text><![CDATA[36 months for equity funds and 12 months for debt funds]]></text></answer>
+            <answer correct="yes"><text><![CDATA[12 months for equity-oriented funds; 24 months for non-equity funds (purchased before 1 April 2023)]]></text></answer>
+            <answer correct="no"><text><![CDATA[24 months for all mutual fund types]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For equity-oriented MFs (>=65% in listed Indian equity): holding period for LTCG is >12 months. For non-equity MFs purchased before 1 April 2023: holding period for LTCG is >24 months. For non-equity MFs purchased on/after 1 April 2023: no LTCG distinction - all gains taxed at slab rate regardless of holding period.
+
+**The Trap:** Option A applies equity's 12-month rule universally. Option B reverses the periods. The old 36-month rule for debt funds was replaced by 24 months for non-equity funds, and later eliminated entirely for post-April 2023 purchases.
+
+**Cross-Exam Context:** The holding period threshold has changed multiple times. The current regime (post-Budget 2024) uses 12 months for equity and 24 months for other listed assets. Debt fund purchases after April 2023 have no LTCG benefit at all.
+
+**Distributor's Pro-Tip:** Always check the purchase date of debt MF investments. Pre-April 2023 purchases still enjoy the 24-month LTCG threshold, while newer purchases get no such benefit.]]></text></explanation>
+    </question>
+</QF>

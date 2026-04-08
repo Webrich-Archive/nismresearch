@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_77" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[IV (Implied Volatility) does NOT predict:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The direction of price change]]></text></answer>
+            <answer correct="no"><text><![CDATA[The magnitude of expected price swings]]></text></answer>
+            <answer correct="no"><text><![CDATA[The market's risk perception]]></text></answer>
+            <answer correct="no"><text><![CDATA[The expected range of price movement]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** IV indicates expected magnitude of price swings but NOT direction. High IV means large price swings (up OR down). IV cannot tell you whether the price will go up or down.
+**The Trap:** IV is about the SIZE of expected moves, not their direction.
+**Cross-Exam Context:** IV interpretation is tested in Series I and VIII.
+**Distributor's Pro-Tip:** A 10% IV on an annual basis means the market expects the underlying to move about ±10% over a year (roughly ±2.9% per month).]]></text></explanation>
+    </question>
+</QF>

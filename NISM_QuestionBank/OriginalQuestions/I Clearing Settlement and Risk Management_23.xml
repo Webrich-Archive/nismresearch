@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_23" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Liquid Net Worth of a clearing member is computed as:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Liquid assets minus initial margin and extreme loss margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[Total assets minus total liabilities]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cash deposits minus outstanding obligations]]></text></answer>
+            <answer correct="no"><text><![CDATA[Net worth as per audited financial statements]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Liquid Net Worth = Liquid assets - Initial margin - ELM. This represents the free collateral available after meeting margin obligations.
+**The Trap:** It's not the same as accounting net worth — it's a clearing-specific computation.
+**Cross-Exam Context:** Liquid net worth concept is tested in Series I and VII.
+**Distributor's Pro-Tip:** CMs must maintain minimum liquid net worth levels. If it falls below the threshold, restrictions on new positions may apply.]]></text></explanation>
+    </question>
+</QF>

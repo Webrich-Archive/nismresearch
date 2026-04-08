@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Trading Systems_8" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A Professional Clearing Member (PCM) in the equity derivatives segment:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Can only clear and settle trades executed by Trading Members but cannot trade themselves]]></text></answer>
+            <answer correct="no"><text><![CDATA[Can both trade and clear for any member]]></text></answer>
+            <answer correct="no"><text><![CDATA[Can only clear their own proprietary trades]]></text></answer>
+            <answer correct="no"><text><![CDATA[Must also be registered as a stock broker with SEBI]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A PCM is exclusively a clearing entity. They do not execute trades themselves. Their role is to clear and settle trades executed by TMs who have an arrangement with them. Banks and custodians often act as PCMs.
+
+**The Trap:** PCMs do not need to be registered as stock brokers since they do not execute trades. They need clearing membership from the clearing corporation. TM-CMs can trade AND clear; PCMs can only clear.
+
+**Cross-Exam Context:** The distinction between trading and clearing functions is important for understanding market infrastructure.
+
+**Key Takeaway:** PCM = clearing-only member. Typically banks and custodians. No trading rights. Provides clearing services to TMs.]]></text></explanation>
+    </question>
+</QF>

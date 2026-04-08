@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_83" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investor holds 10,000 shares of XYZ stock at Rs. 500 per share. XYZ futures are at Rs. 510 with lot size 1,000. To fully hedge, how many lots of XYZ futures should be sold?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[10 lots]]></text></answer>
+            <answer correct="no"><text><![CDATA[5 lots]]></text></answer>
+            <answer correct="no"><text><![CDATA[20 lots]]></text></answer>
+            <answer correct="no"><text><![CDATA[9.8 lots]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+For a single stock hedge (beta = 1 for the same stock):
+1. Number of shares held = 10,000
+2. Lot size = 1,000
+3. Number of lots = Shares held / Lot size = 10,000 / 1,000 = 10 lots
+
+When hedging with the same stock's futures, beta = 1, so we simply divide shares by lot size.
+
+**The Trap:** 5 lots halves the amount incorrectly. 20 lots doubles it. 9.8 lots uses price ratio (500/510 x 10) which is incorrect for a same-stock hedge. Fractional lots are not possible.
+
+**Cross-Exam Context:** Stock-specific hedging is simpler than index hedging and is tested in Series VIII.
+
+**Key Takeaway:** Single stock hedge: Lots = Number of shares / Lot size. No beta adjustment needed for same-stock hedge.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Risk Return and Performance_18" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Standard deviation as a risk measure for mutual funds indicates:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Only the downside risk of the fund]]></text></answer>
+            <answer correct="no"><text><![CDATA[The fund's return relative to the benchmark]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The total volatility of the fund's returns around its mean return]]></text></answer>
+            <answer correct="no"><text><![CDATA[The systematic risk of the fund]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Standard deviation measures the total volatility (dispersion) of a fund's returns around its average (mean) return. A higher standard deviation means the fund's returns vary widely -- both on the upside and downside -- indicating higher risk. It captures TOTAL risk, including both systematic (market) and unsystematic (specific) risk.
+
+**The Trap:** Standard deviation measures TOTAL volatility (both upside and downside deviations), not just downside risk. Beta measures systematic risk specifically, not standard deviation. The fund's return relative to benchmark is measured by alpha or tracking error, not standard deviation.
+
+**Cross-Exam Context:** Standard deviation is used in calculating the Sharpe ratio (excess return per unit of total risk). A fund with higher standard deviation needs to deliver proportionally higher returns to achieve the same Sharpe ratio. For comparing funds within the same category, standard deviation helps assess which fund takes more risk.
+
+**Distributor's Pro-Tip:** Help clients understand standard deviation in practical terms: "If a fund has an average return of 12% with a standard deviation of 8%, approximately two-thirds of the time, its annual return will fall between 4% and 20% (mean plus/minus one standard deviation)." This helps set realistic expectations.]]></text></explanation>
+    </question>
+</QF>

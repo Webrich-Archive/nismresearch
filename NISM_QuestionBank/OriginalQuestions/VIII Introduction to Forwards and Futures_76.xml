@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_76" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader buys one lot of Nifty futures at 22,250. The lot size is 25 and the initial margin requirement is 10%. What initial margin must the trader deposit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 55,625]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,225]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 5,56,250]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 22,250]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+1. Contract value = Futures price x Lot size = 22,250 x 25 = Rs. 5,56,250
+2. Initial margin = Contract value x Margin % = 5,56,250 x 10% = Rs. 55,625
+
+**The Trap:** Rs. 2,225 calculates 10% of price only (22,250 x 10%). Rs. 5,56,250 is the full contract value. Rs. 22,250 is just the price. Must multiply price by lot size FIRST, then apply margin percentage.
+
+**Cross-Exam Context:** Margin calculations are fundamental to Series VIII clearing and settlement chapter.
+
+**Key Takeaway:** Initial Margin = Futures Price x Lot Size x Margin %. Here: 22,250 x 25 x 10% = Rs. 55,625.]]></text></explanation>
+    </question>
+</QF>

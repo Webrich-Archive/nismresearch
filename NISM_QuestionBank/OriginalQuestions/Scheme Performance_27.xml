@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Scheme Performance_27" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Fund Alpha returned 22% and Fund Beta returned 19% over a 1-year period. The benchmark returned 16% and both funds had a tracking error of 4%. Which of the following statements is correct?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Fund Beta has a higher Information Ratio than Fund Alpha]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Fund Alpha has an Information Ratio of 1.50 while Fund Beta has an Information Ratio of 0.75]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both funds have the same Information Ratio since tracking error is identical]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fund Alpha's Information Ratio is 5.50 and Fund Beta's is 4.75]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:**
+Fund Alpha's Information Ratio = (22% - 16%) / 4% = 6% / 4% = 1.50
+Fund Beta's Information Ratio = (19% - 16%) / 4% = 3% / 4% = 0.75
+
+Fund Alpha has double the Information Ratio of Fund Beta because it generated twice the excess return (6% vs 3%) with the same level of tracking error (4%).
+
+**The Trap:** Option C is wrong because even though tracking error is the same, the excess returns differ, so Information Ratios differ. Option D (5.50, 4.75) would result from dividing total returns by tracking error instead of excess returns. Same tracking error does NOT mean same Information Ratio -- the numerator matters equally.
+
+**Cross-Exam Context:** This question tests both calculation ability and interpretation. An IR of 1.50 (Fund Alpha) is exceptional, while 0.75 (Fund Beta) is good but not as impressive. In real-world fund selection, this difference would be significant.
+
+**Distributor's Pro-Tip:** When two funds have similar tracking error but different excess returns, the one with higher IR is clearly the better-managed fund. Fund Alpha's IR of 1.50 suggests exceptional and consistent alpha generation. However, always verify over multiple time periods -- one great year can inflate the ratio.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_27" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An exporter receives EUR 1 million in 3 months. If EUR depreciates against INR, the exporter loses money. Which is the appropriate hedge?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Sell EURINR futures (1000 lots) or buy EURINR put options (1000 lots)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy EURINR futures (1000 lots)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell USDINR futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy EURINR call options]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Exporter receives EUR → needs to SELL EUR for INR → exposed to EUR depreciation. Hedge: Sell EURINR futures (lock in selling rate) or buy put (insurance against EUR fall). Lots = 1,000,000/1,000 = 1,000.
+**The Trap:** Buying calls profits from EUR APPRECIATION — the opposite of what the exporter needs protection against.
+**Cross-Exam Context:** This is the shoe exporter example from the workbook.
+**Distributor's Pro-Tip:** If EUR appreciates instead, the exporter's spot conversion is better but futures show a loss — the NET effect is locked in.]]></text></explanation>
+    </question>
+</QF>

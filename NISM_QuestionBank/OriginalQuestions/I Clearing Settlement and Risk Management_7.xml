@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How many 'what-if' scenarios does SPAN generate for computing initial margin?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[16 scenarios]]></text></answer>
+            <answer correct="no"><text><![CDATA[5 scenarios]]></text></answer>
+            <answer correct="no"><text><![CDATA[10 scenarios]]></text></answer>
+            <answer correct="no"><text><![CDATA[100 scenarios]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SPAN generates 16 what-if scenarios to stress-test the portfolio. The second important feature is portfolio-wide margin computation (not per position).
+**The Trap:** SPAN is based on VaR but improves upon it with 16 scenarios and portfolio-level computation.
+**Cross-Exam Context:** SPAN specifics are tested in Series I and VIII.
+**Distributor's Pro-Tip:** The 16 scenarios test various combinations of price moves and volatility changes to find the worst-case loss.]]></text></explanation>
+    </question>
+</QF>

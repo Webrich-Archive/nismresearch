@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_82" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The number of exchange rates needed in a system of n currencies with one vehicle currency is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[n-1]]></text></answer>
+            <answer correct="no"><text><![CDATA[n(n-1)/2]]></text></answer>
+            <answer correct="no"><text><![CDATA[n]]></text></answer>
+            <answer correct="no"><text><![CDATA[n²]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** With a vehicle currency, each of the other (n-1) currencies only needs one exchange rate against the vehicle. Without a vehicle, you'd need n(n-1)/2 rates.
+**The Trap:** n(n-1)/2 is without a vehicle currency (bilateral rates). With a vehicle, it's simply n-1.
+**Cross-Exam Context:** This concept from Chapter 1 is applied in Chapter 3 for understanding futures market structure.
+**Distributor's Pro-Tip:** For 10 currencies: without vehicle = 45 rates; with vehicle = 9 rates — a 5x reduction.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV TER and Pricing_46" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[As per SEBI regulations, which of the following is the correct formula for calculating the repurchase price of a mutual fund unit in an open-ended scheme?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Repurchase Price = Applicable NAV - Exit Load (where Exit Load = NAV x Exit Load percentage)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Repurchase Price = Applicable NAV + Exit Load]]></text></answer>
+            <answer correct="no"><text><![CDATA[Repurchase Price = Face Value - Exit Load]]></text></answer>
+            <answer correct="no"><text><![CDATA[Repurchase Price = Purchase Price - Exit Load]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Repurchase Price (the price at which the fund buys back units from investors) = Applicable NAV - Exit Load. Exit Load = NAV x Exit Load %. Since entry load is abolished, Sale Price = NAV. But Repurchase Price factors in exit load, which is deducted from NAV at the time of redemption.
+
+**The Trap:** Adding exit load to NAV would be the sale price formula (when entry load existed). Using face value instead of NAV is wrong — repurchase is always based on current NAV, not face value. Using purchase price is incorrect — exit load is calculated on the redemption NAV, not the original purchase price.
+
+**Cross-Exam Context:** The repurchase price formula is a fundamental SEBI regulation tested in NISM V-A and V-B. Remember the simplified formulas: Sale Price = NAV (since entry load = 0); Repurchase Price = NAV - (NAV x Exit Load %). For schemes with no exit load, Repurchase Price = NAV.
+
+**Distributor's Pro-Tip:** Always calculate and disclose the repurchase price to clients before they invest. Inform them about the exit load structure — typically 1% for equity funds if redeemed within 1 year, and varying rates for debt funds. Help clients understand that holding beyond the exit load period means Repurchase Price = NAV, maximizing their redemption proceeds.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV TER and Pricing_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A scheme has a gross return of 14% per annum. The TER charged is 2.00% per annum. What is the approximate net return to the investor?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[12.00% per annum]]></text></answer>
+            <answer correct="no"><text><![CDATA[14.00% per annum]]></text></answer>
+            <answer correct="no"><text><![CDATA[16.00% per annum]]></text></answer>
+            <answer correct="no"><text><![CDATA[7.00% per annum]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Net Return = Gross Return - TER = 14.00% - 2.00% = 12.00% per annum (approximate). TER is deducted from the scheme's assets daily, which reduces the NAV growth, effectively lowering the return the investor earns.
+
+**The Trap:** 14.00% ignores TER completely, assuming it has no impact on returns. 16.00% adds TER to gross return instead of subtracting. 7.00% divides gross return by TER or applies some other wrong formula.
+
+**Cross-Exam Context:** The relationship between gross return, TER, and net return is conceptually tested in NISM V-A and V-B. While the exact calculation is more complex (TER is deducted daily from NAV), for exam purposes, Net Return approximately equals Gross Return minus TER.
+
+**Distributor's Pro-Tip:** This is why TER matters enormously for long-term investors. On a Rs. 10 lakh investment, 2% TER means approximately Rs. 20,000 per year in expenses. Over 20 years with compounding, even a 0.50% TER difference can mean lakhs of rupees difference in final corpus. This is the strongest argument for comparing TER across similar schemes.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_37" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A 'naked' or 'uncovered' futures position refers to:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A long or short futures position that is not offset by any opposite position in the underlying asset or another derivative]]></text></answer>
+            <answer correct="no"><text><![CDATA[A futures position where the trader has not deposited the required initial margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[A futures position that has expired without being settled]]></text></answer>
+            <answer correct="no"><text><![CDATA[A futures position held by a Foreign Portfolio Investor (FPI) without SEBI registration]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A naked position means the trader has directional exposure without any hedging or offsetting position. For example, a trader who is simply long Nifty futures without holding any Nifty stocks or protective put options has a naked long position. Naked positions carry the highest risk because there is no hedge against adverse price movements.
+
+**The Trap:** 'Naked' does not relate to margin (that would be 'margin shortfall'), settlement (that would be 'delivery default'), or registration issues.
+
+**Cross-Exam Context:** Naked vs hedged/spread positions affect margin requirements in Series VIII. Naked positions require higher margins.
+
+**Key Takeaway:** Naked = unhedged directional position. Carries full market risk. Requires higher margin than spread positions.]]></text></explanation>
+    </question>
+</QF>

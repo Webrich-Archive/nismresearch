@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_75" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A short seller has a position at Rs. 800 (lot size 1,000). Day 1 settlement: Rs. 820, Day 2 settlement: Rs. 790, Day 3 settlement: Rs. 810. What is the net MTM after 3 days?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Loss of Rs. 10,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Gain of Rs. 10,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 20,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Gain of Rs. 30,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step for short position:
+Day 1: (800 - 820) x 1,000 = -20,000 (loss, price rose)
+Day 2: (820 - 790) x 1,000 = +30,000 (gain, price fell)
+Day 3: (790 - 810) x 1,000 = -20,000 (loss, price rose)
+
+Net MTM = -20,000 + 30,000 - 20,000 = -Rs. 10,000 (loss)
+
+Verification: (800 - 810) x 1,000 = -10 x 1,000 = -Rs. 10,000. Matches.
+
+**The Trap:** The final price (810) is above entry (800), so the short LOSES overall. Don't just add absolute values.
+
+**Cross-Exam Context:** Multi-day short position MTM with mixed gains and losses is a challenging Series VIII question.
+
+**Key Takeaway:** Net MTM for short = (Entry - Final) x Lot Size = (800-810) x 1000 = -Rs. 10,000 (loss).]]></text></explanation>
+    </question>
+</QF>

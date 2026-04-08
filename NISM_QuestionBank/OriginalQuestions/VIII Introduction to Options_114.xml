@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_114" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investor holds a portfolio of blue-chip stocks worth Rs. 50 lakhs and wants to protect against a market crash. Which strategy provides downside protection?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy put options on Nifty 50 index to hedge the portfolio]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell call options on individual stock holdings]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy more stocks to average down the cost]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell put options on Nifty 50 to earn premium income]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** PROTECTIVE PUT strategy: Buy puts on the index to protect a stock portfolio.
+- If market crashes: put options gain value, offsetting portfolio losses
+- If market rises: puts expire worthless, portfolio gains continue (minus premium)
+- Cost: premium paid for puts (like insurance premium)
+
+**The Trap:** Selling puts would INCREASE exposure to downside, not protect against it.
+
+**Cross-Exam Context:** Index puts are used for portfolio hedging because they provide broad market protection.
+
+**Key Takeaway:** Portfolio protection = buy index puts. Premium = cost of insurance.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_25" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the USDINR currency pair, the USDINR futures price is higher than the spot price. This means:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[INR is at a forward discount to USD (or USD is at a forward premium to INR)]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR is at a forward premium to USD]]></text></answer>
+            <answer correct="no"><text><![CDATA[The futures market expects INR to appreciate]]></text></answer>
+            <answer correct="no"><text><![CDATA[There is an arbitrage opportunity]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When futures > spot, you need MORE INR to buy 1 USD in the future → the future value of INR is worth less → INR is at a discount. This happens because India's interest rate is higher than the US rate.
+**The Trap:** A higher futures price does NOT mean the market 'expects' INR to depreciate — it simply reflects the interest rate differential (cost of carry).
+**Cross-Exam Context:** Premium/discount concepts are tested in Series I and IV.
+**Distributor's Pro-Tip:** USDINR futures almost always trade above spot because India's interest rates are typically higher than US rates.]]></text></explanation>
+    </question>
+</QF>

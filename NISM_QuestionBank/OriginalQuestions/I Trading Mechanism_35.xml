@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Trading Mechanism_35" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Trade modification is allowed for which parameters?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Client code and custodian participant code]]></text></answer>
+            <answer correct="no"><text><![CDATA[Price and quantity]]></text></answer>
+            <answer correct="no"><text><![CDATA[Contract type and expiry date]]></text></answer>
+            <answer correct="no"><text><![CDATA[No modifications are allowed after trade execution]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** After trade execution, only client code and CP code can be modified (within certain conditions). Price and quantity of an executed trade CANNOT be changed.
+**The Trap:** ORDER modification (before execution) allows price and quantity changes. TRADE modification (after execution) only allows client code/CP changes.
+**Cross-Exam Context:** Trade modification rules are tested in Series I.
+**Distributor's Pro-Tip:** Trade modification is mainly used to correct client code allocation errors after execution.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_35" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How does trading volume differ from open interest in a futures market?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Volume measures the total number of contracts traded during a specific period (like a day), while open interest measures the total number of contracts still outstanding at the end of the day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Volume and open interest are the same measure expressed in different units - volume in number of contracts and open interest in rupee value]]></text></answer>
+            <answer correct="no"><text><![CDATA[Volume is tracked by the exchange while open interest is tracked by SEBI; both measure the same thing]]></text></answer>
+            <answer correct="no"><text><![CDATA[Volume includes only buy trades while open interest includes only sell trades]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Volume = flow measure (how many contracts changed hands in a period). Open Interest = stock measure (how many contracts are still open at the end of the period). Volume resets to zero at the start of each day; OI carries forward. High volume means active trading; high OI means many outstanding positions.
+
+**The Trap:** They are fundamentally different concepts - not the same measure in different units. Both are tracked by the exchange. Both include buy and sell sides.
+
+**Cross-Exam Context:** The relationship between volume, OI, and price trend is used for market analysis in Series VIII.
+
+**Key Takeaway:** Volume = contracts traded (flow, resets daily). OI = contracts outstanding (stock, carries forward).]]></text></explanation>
+    </question>
+</QF>

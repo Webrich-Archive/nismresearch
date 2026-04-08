@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_18" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The exposure margin for index futures contracts is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[3% of the notional value of the contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[5% of the notional value of the contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[10% of the notional value of the contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equal to the SPAN margin]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For index futures, the exposure margin is fixed at 3% of the notional value of the open position. For stock futures, it is the higher of 5% or 1.5 standard deviations of the daily logarithmic returns of the stock (whichever is higher).
+
+**The Trap:** 5% applies to stock futures, not index futures. The exposure margin is separate from and additional to the SPAN margin.
+
+**Cross-Exam Context:** Exposure margin rates are regulatory facts that are directly tested.
+
+**Key Takeaway:** Exposure margin: Index futures = 3%. Stock futures = higher of 5% or 1.5 SD. Always in addition to SPAN margin.]]></text></explanation>
+    </question>
+</QF>

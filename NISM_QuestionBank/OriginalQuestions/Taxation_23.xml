@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Taxation_23" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Mr. Kapoor has the following mutual fund income in FY 2025-26: STCG from equity MF = Rs. 60,000; LTCG from equity MF = Rs. 2,00,000; IDCW received = Rs. 4,500. He is in the 20% tax bracket. What is his total tax liability from MF investments (including cess)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 23,166 (STCG tax Rs. 12,480 + LTCG tax Rs. 9,750 + IDCW tax Rs. 936)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 22,230 (STCG tax Rs. 12,480 + LTCG tax Rs. 9,750 + no tax on IDCW since below Rs. 5,000)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 34,216 (all gains taxed at 20% slab rate including IDCW)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 14,850 (STCG at 15% old rate + LTCG at 10% old rate + IDCW at slab)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:**
+(1) STCG on equity MF (Section 111A): Rs. 60,000 x 20% = Rs. 12,000. Cess = Rs. 480. Total = Rs. 12,480.
+(2) LTCG on equity MF (Section 112A): Rs. 2,00,000 - Rs. 1,25,000 exemption = Rs. 75,000 taxable. Tax = Rs. 75,000 x 12.5% = Rs. 9,375. Cess = Rs. 375. Total = Rs. 9,750.
+(3) IDCW: Rs. 4,500 added to total income, taxed at 20% slab = Rs. 900. Cess = Rs. 36. Total = Rs. 936. (No TDS since below Rs. 5,000 threshold, but still fully taxable.)
+Grand Total = Rs. 12,480 + Rs. 9,750 + Rs. 936 = Rs. 23,166.
+
+**The Trap:** Option B confuses TDS threshold (Rs. 5,000) with tax-free threshold. The Rs. 5,000 limit is for TDS deduction only - IDCW is always taxable in the investor's hands regardless of amount. Option C applies slab rate to all gains incorrectly. Option D uses pre-Budget 2024 rates (15% STCG, 10% LTCG).
+
+**Cross-Exam Context:** Three different tax rates apply simultaneously: 20% STCG (equity), 12.5% LTCG (equity with exemption), and slab rate (IDCW). Each component must be calculated separately.
+
+**Distributor's Pro-Tip:** Prepare a consolidated tax summary for clients showing each component separately. This demonstrates value-add and helps in accurate ITR filing.]]></text></explanation>
+    </question>
+</QF>

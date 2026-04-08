@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following scenarios BEST illustrates the credit risk in a forward contract?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Company A agrees to buy USD from Bank B at Rs. 84 per USD after 3 months, but Bank B goes bankrupt before the settlement date and cannot deliver the USD]]></text></answer>
+            <answer correct="no"><text><![CDATA[Company A's forward contract position shows a mark-to-market loss of Rs. 5 lakhs due to adverse price movement]]></text></answer>
+            <answer correct="no"><text><![CDATA[The forward rate moves against Company A, requiring it to post additional collateral with the exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[Company A is unable to find a counterparty to enter into a new forward contract at favorable terms]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Credit risk (also called counterparty risk or default risk) materializes when one party FAILS to honor its obligation. In this scenario, Bank B's bankruptcy means it cannot deliver the USD it promised - this is a textbook example of counterparty default in a forward contract.
+
+**The Trap:** MTM losses are market risk, not credit risk. Collateral posting with exchanges is a futures market feature, not forwards. Difficulty finding a counterparty is liquidity risk, not credit risk.
+
+**Cross-Exam Context:** Distinguishing between market risk, credit risk, and liquidity risk is tested across Series I, VIII, and XVI.
+
+**Key Takeaway:** Credit risk = counterparty fails to perform their obligation (default).]]></text></explanation>
+    </question>
+</QF>

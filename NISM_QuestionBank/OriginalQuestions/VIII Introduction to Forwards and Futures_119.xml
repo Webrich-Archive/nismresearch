@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_119" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Why does the exchange provide a margin benefit for calendar spread positions compared to naked futures positions?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Because the long and short positions in different months partially offset each other's risk, reducing the overall portfolio risk significantly compared to a naked position]]></text></answer>
+            <answer correct="no"><text><![CDATA[Because SEBI mandates lower margins for all spread positions regardless of the risk involved]]></text></answer>
+            <answer correct="no"><text><![CDATA[Because calendar spreads always generate profits, so there is no risk to the clearing corporation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Because spread positions cannot be maintained overnight, eliminating overnight risk]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In a calendar spread, the trader is long one month and short another. If the market rises, the long gains and the short loses (partially offsetting). If the market falls, the short gains and the long loses (partially offsetting). The net risk is only the SPREAD risk (the difference between months), which is much lower than the directional risk of a naked position.
+
+**The Trap:** SEBI does not mandate specific spread margins - exchanges set them based on risk. Spreads do NOT always generate profits. Spread positions CAN be held overnight.
+
+**Cross-Exam Context:** Margin benefits for spread positions are a key incentive structure tested in Series VIII.
+
+**Key Takeaway:** Calendar spread risk = spread risk only (not directional risk), so margin is significantly lower than naked positions.]]></text></explanation>
+    </question>
+</QF>

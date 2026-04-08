@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Scheme Performance_31" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A risk-averse investor is choosing between two equity funds in the same SEBI category. Fund P has a Sharpe Ratio of 1.2 and Sortino Ratio of 1.8, while Fund Q has a Sharpe Ratio of 1.1 and Sortino Ratio of 2.5. Which fund should be recommended to this investor and why?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Fund P, because it has a higher Sharpe Ratio indicating better overall risk-adjusted performance]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Fund Q, because its significantly higher Sortino Ratio indicates better downside risk management, which is more important for a risk-averse investor]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fund P, because the higher Sharpe Ratio always makes it the safer fund]]></text></answer>
+            <answer correct="no"><text><![CDATA[Neither fund, because risk-averse investors should never invest in equity funds]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For a risk-averse investor, downside protection is paramount. The Sortino Ratio specifically measures return per unit of downside risk. Fund Q's Sortino Ratio of 2.5 (vs Fund P's 1.8) indicates it delivers significantly more return per unit of downside volatility. While Fund P has a marginally higher Sharpe Ratio (1.2 vs 1.1), the Sharpe Ratio penalizes both upside and downside volatility equally. Fund Q's much higher Sortino suggests its volatility is more heavily weighted to the upside.
+
+**The Trap:** A higher Sharpe Ratio does not automatically mean "safer." Fund P's higher Sharpe but lower Sortino suggests its total volatility is low, but when losses do occur, they may be relatively significant. Fund Q's higher Sortino indicates its downside is better controlled. Risk-averse investors should focus on Sortino. Also, risk-averse investors CAN invest in equity -- they need suitable equity funds, not avoidance of equity altogether.
+
+**Cross-Exam Context:** This question integrates multiple performance measures and investor suitability concepts. In NISM III-C, matching performance metrics to investor profiles is a key competency.
+
+**Distributor's Pro-Tip:** Use the Sortino Ratio as a key tool when recommending funds to conservative investors. Explain it simply: "This ratio measures how well the fund protects your money when markets fall, while still capturing gains when markets rise." Practical, relatable explanations build client confidence.]]></text></explanation>
+    </question>
+</QF>

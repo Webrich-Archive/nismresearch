@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_88" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Gamma is highest for:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[At-the-money (ATM) options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Deep In-the-money (ITM) options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Deep Out-of-the-money (OTM) options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Options with longest time to expiry]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Gamma peaks at ATM because that's where delta changes most rapidly with small underlying moves. Deep ITM (delta ≈ 1) and deep OTM (delta ≈ 0) have low gamma.
+**The Trap:** Gamma INCREASES as expiry approaches for ATM options — this is called 'gamma risk' near expiry.
+**Cross-Exam Context:** Gamma behavior by moneyness is tested in Series I and VIII.
+**Distributor's Pro-Tip:** High gamma near expiry is risky for sellers — small underlying moves cause large delta changes, making hedging difficult.]]></text></explanation>
+    </question>
+</QF>

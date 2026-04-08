@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader who expects the price of Reliance shares to fall should buy which type of option?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Put option on Reliance]]></text></answer>
+            <answer correct="no"><text><![CDATA[Call option on Reliance]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both call and put options on Reliance simultaneously]]></text></answer>
+            <answer correct="no"><text><![CDATA[An index option on Nifty 50]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A PUT option gives the right to SELL at the strike price. If the market price falls below the strike, the put buyer profits because they can sell at a higher price (strike) than the current market price.
+
+**The Trap:** Buying a call would be appropriate for a bullish (rising price) view, not bearish.
+
+**Cross-Exam Context:** Matching market view to option type is tested in application-based questions.
+
+**Key Takeaway:** Bearish view = Buy Put. Bullish view = Buy Call.]]></text></explanation>
+    </question>
+</QF>

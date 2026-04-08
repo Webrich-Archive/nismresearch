@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A person invests Rs. 200,000 in Indian FD at 6% p.a. for 6 months and hedges USD at a futures rate of 83.64. How many USD can be remitted after 6 months?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[USD 2,462.94 approximately]]></text></answer>
+            <answer correct="no"><text><![CDATA[USD 2,500.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[USD 2,439.02]]></text></answer>
+            <answer correct="no"><text><![CDATA[USD 2,400.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** FD maturity = 200,000 + (200,000 × 6% × 0.5) = Rs. 206,000. USDINR futures = 82 + 2% × 82 = 83.64. USD available = 206,000 / 83.64 = USD 2,462.94.
+**The Trap:** The futures premium (2%) is already factored into the 83.64 rate.
+**Cross-Exam Context:** This is directly from the workbook education fee example.
+**Distributor's Pro-Tip:** By hedging, the person knows exactly how much USD they'll get, regardless of how USDINR moves in the next 6 months.]]></text></explanation>
+    </question>
+</QF>

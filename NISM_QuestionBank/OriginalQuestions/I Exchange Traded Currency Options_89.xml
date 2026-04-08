@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_89" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader writes (sells) a USDINR 83 put at Rs. 0.05 premium. Maximum profit per lot is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 5]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Unlimited]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Max profit for short put = Premium × Lot size = 0.05 × 1000 = Rs. 50 per lot. This occurs when USDINR stays at or above 83.
+**The Trap:** Maximum LOSS is limited only by USDINR going to 0 (highly unlikely for USD): (83 - 0) × 1000 - 50 = Rs. 82,950.
+**Cross-Exam Context:** Short option max profit is tested in Series I.
+**Distributor's Pro-Tip:** Collecting Rs. 50 per lot while risking thousands — this risk-reward must be carefully managed with position sizing and stop-losses.]]></text></explanation>
+    </question>
+</QF>

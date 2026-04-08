@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_62" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For a long put on USDINR at strike 83, the option becomes profitable (before premium) when:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[USDINR falls below 83 at expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[USDINR rises above 83 at expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[USDINR stays exactly at 83 at expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[USDINR remains unchanged from the purchase date]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Put buyer profits when spot falls below strike. At spot < 83, intrinsic value = 83 - spot > 0. Net profit begins below the BEP (strike - premium).
+**The Trap:** The put buyer benefits from FALLING prices. Call buyer benefits from RISING prices.
+**Cross-Exam Context:** Put payoff conditions are tested in Series I and VIII.
+**Distributor's Pro-Tip:** Long put on USDINR = expect INR to appreciate = expect USDINR to fall.]]></text></explanation>
+    </question>
+</QF>

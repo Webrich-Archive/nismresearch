@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Investor Services_43" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Sunita has Rs. 3 lakh in a liquid fund. She submits a purchase application for Rs. 3 lakh in an equity fund at 1:00 PM along with a switch request from the liquid fund. Which NAV will apply for the equity fund purchase?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Same day's NAV for the equity fund since the switch request was received before 3 PM]]></text></answer>
+            <answer correct="no"><text><![CDATA[Next day's NAV because liquid fund redemption takes T+1]]></text></answer>
+            <answer correct="no"><text><![CDATA[Same day's NAV only for the liquid fund redemption, next day for equity purchase]]></text></answer>
+            <answer correct="no"><text><![CDATA[NAV cannot be determined until the liquid fund redemption proceeds are received]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A switch is treated as a simultaneous redemption from the source scheme and purchase into the target scheme. Since the switch request was received before 3 PM, same-day NAV applies for BOTH legs — the redemption from the liquid fund AND the purchase into the equity fund. The AMC processes both transactions internally without waiting for external fund movement.
+
+**The Trap:** A switch within the same AMC does not require external fund movement — the AMC handles the internal transfer. This is different from redeeming from one AMC and investing in another, where the investor must wait for redemption proceeds before investing.
+
+**Cross-Exam Context:** Switch transactions have tax implications — the redemption from the liquid fund triggers capital gains tax. The investor gets a new cost of acquisition for the equity fund units at the purchase NAV. The switch is operationally seamless but creates two taxable events.
+
+**Distributor's Pro-Tip:** Switches within the same AMC are convenient for portfolio rebalancing. However, always inform clients about the tax implications before executing. For cross-AMC rebalancing, consider whether the tax cost of switching justifies the change or if the client should simply redirect future SIPs.]]></text></explanation>
+    </question>
+</QF>

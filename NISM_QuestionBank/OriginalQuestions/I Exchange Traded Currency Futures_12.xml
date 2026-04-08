@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_12" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When does a monthly currency futures contract expire?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Two working days prior to the last business day of the expiry month at 12:30 PM]]></text></answer>
+            <answer correct="no"><text><![CDATA[On the last business day of the expiry month at 5:00 PM]]></text></answer>
+            <answer correct="no"><text><![CDATA[On the last Thursday of the expiry month at 3:30 PM]]></text></answer>
+            <answer correct="no"><text><![CDATA[One working day before the last business day at 12:30 PM]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Monthly currency futures expire two working days prior to the last business day of the expiry month at 12:30 PM (not the regular close of 5:00 PM or 7:30 PM).
+**The Trap:** The last Thursday rule applies to equity derivatives (Nifty/Bank Nifty), not currency derivatives.
+**Cross-Exam Context:** Expiry conventions differ between equity (Series VIII) and currency derivatives (Series I).
+**Distributor's Pro-Tip:** If the last business day of April is 30th (Tuesday), the expiry date is 26th April (Friday), assuming no holidays.]]></text></explanation>
+    </question>
+</QF>

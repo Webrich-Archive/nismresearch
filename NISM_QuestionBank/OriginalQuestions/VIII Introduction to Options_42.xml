@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_42" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How does an increase in volatility of the underlying asset affect option premiums?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[It increases the premium of both call and put options]]></text></answer>
+            <answer correct="no"><text><![CDATA[It increases call premiums but decreases put premiums]]></text></answer>
+            <answer correct="no"><text><![CDATA[It decreases the premium of both call and put options]]></text></answer>
+            <answer correct="no"><text><![CDATA[It has no impact on option premiums]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Higher volatility = greater chance of large price movements = higher probability of the option ending ITM = higher premium for BOTH calls and puts.
+
+Volatility always increases option value because:
+- More uncertainty benefits the option buyer (limited downside, unlimited/large upside)
+- The seller demands more premium for higher risk
+
+**The Trap:** Volatility increases BOTH call AND put premiums, not just one.
+
+**Cross-Exam Context:** This is measured by the Greek "Vega." Vega is positive for both calls and puts.
+
+**Key Takeaway:** Higher volatility = higher premiums for ALL options (calls and puts).]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_81" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A fund manager has a portfolio worth Rs. 10 crore with beta of 0.8. Nifty futures are at 24,000 with lot size 65. How many contracts should be sold for a complete hedge?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[51 contracts (approximately)]]></text></answer>
+            <answer correct="no"><text><![CDATA[64 contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[42 contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[51 lots of underlying stocks]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+1. Portfolio value = Rs. 10,00,00,000
+2. Beta = 0.8
+3. Futures contract value = 24,000 x 65 = Rs. 15,60,000
+4. Number of contracts = (10,00,00,000 x 0.8) / 15,60,000
+   = 8,00,00,000 / 15,60,000
+   = 51.28
+   = 51 contracts (rounded)
+
+**The Trap:** 64 contracts ignores beta (10Cr/15.6L = 64.1). 42 contracts subtracts beta instead of multiplying. The answer is in futures contracts, not lots of underlying.
+
+**Cross-Exam Context:** Beta < 1 means fewer contracts needed than a beta-1 portfolio. Key Series VIII concept.
+
+**Key Takeaway:** Beta < 1 reduces the number of contracts needed. Portfolio with beta 0.8 needs 20% fewer contracts.]]></text></explanation>
+    </question>
+</QF>

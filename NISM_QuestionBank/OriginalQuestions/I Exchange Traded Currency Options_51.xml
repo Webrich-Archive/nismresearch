@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_51" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A put option is Out of the Money (OTM) when:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Spot price of underlying > Strike price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Spot price of underlying < Strike price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Spot price of underlying = Strike price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The option premium is negative]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Put OTM: Spot > Strike (no benefit from exercising the right to sell at a lower price than market). Call OTM: Spot < Strike.
+**The Trap:** For CALL options, OTM is Spot < Strike (opposite of puts).
+**Cross-Exam Context:** Moneyness is tested in Series I and VIII.
+**Distributor's Pro-Tip:** OTM options have zero intrinsic value — their entire premium is time value.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_26" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the base price for a currency futures contract on subsequent trading days (after the first day)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The daily settlement price of the futures contract as computed by the Clearing Corporation]]></text></answer>
+            <answer correct="no"><text><![CDATA[The previous day's closing trade price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The FBIL reference rate]]></text></answer>
+            <answer correct="no"><text><![CDATA[The opening price of the day]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** On the first day (introduction), the base price is the theoretical futures price. On all subsequent days, it's the daily settlement price (DSP) computed by the Clearing Corporation.
+**The Trap:** The base price is not the last traded price or FBIL rate — it's specifically the DSP.
+**Cross-Exam Context:** Base price determination is tested in Series I.
+**Distributor's Pro-Tip:** The base price serves as the reference for operating ranges (price bands) that prevent erroneous orders.]]></text></explanation>
+    </question>
+</QF>

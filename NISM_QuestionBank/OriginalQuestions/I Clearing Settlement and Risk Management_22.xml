@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_22" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[SPAN margin parameters are updated at which times during the day?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[11:00 AM, 12:30 PM, 2:00 PM, 3:30 PM, 5:00 PM, 6:30 PM, EOD, and BOD]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only at end of day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only at 9:00 AM and 5:00 PM]]></text></answer>
+            <answer correct="no"><text><![CDATA[Every 30 minutes throughout the day]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SPAN parameters are updated 8 times: 11:00, 12:30, 2:00, 3:30, 5:00, 6:30, end of day, and beginning of next day. This ensures margins reflect current market conditions.
+**The Trap:** Updates are not continuous — they happen at specific intervals.
+**Cross-Exam Context:** Margin update frequency is tested in Series I.
+**Distributor's Pro-Tip:** Intraday margin updates can trigger additional margin calls if volatility increases during the trading day.]]></text></explanation>
+    </question>
+</QF>

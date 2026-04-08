@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Theta measures:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The change in option premium for a one-day decrease in time to expiration (time decay)]]></text></answer>
+            <answer correct="no"><text><![CDATA[The change in delta for a change in underlying price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The change in premium for a change in volatility]]></text></answer>
+            <answer correct="no"><text><![CDATA[The change in premium for a change in interest rates]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Theta measures time decay — how much the option premium loses per day. Long option positions have NEGATIVE theta (lose value daily). Short positions have POSITIVE theta (benefit from time decay).
+**The Trap:** Theta is always present — options lose time value every day, even if the underlying doesn't move.
+**Cross-Exam Context:** Theta and time decay are tested in Series I and VIII.
+**Distributor's Pro-Tip:** Option sellers benefit from theta — this is why selling options is sometimes called 'selling time'. Time works against the buyer.]]></text></explanation>
+    </question>
+</QF>

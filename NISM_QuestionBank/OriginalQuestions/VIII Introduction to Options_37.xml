@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_37" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader writes a put option with strike Rs. 500 and receives a premium of Rs. 30. What is the trader's maximum loss?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 470]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 30]]></text></answer>
+            <answer correct="no"><text><![CDATA[Unlimited]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Short Put Maximum Loss = Strike Price - Premium = 500 - 30 = Rs. 470
+
+Step-by-step:
+1. Worst case: stock falls to Rs. 0
+2. Put buyer exercises: writer must buy at strike Rs. 500
+3. Writer pays Rs. 500 but gets worthless stock (value = 0)
+4. Loss from exercise = Rs. 500
+5. Net loss = 500 - 30 (premium received) = Rs. 470
+
+**The Trap:** Maximum loss is NOT just the strike price. Subtract the premium received.
+
+**Cross-Exam Context:** Compare: Short call max loss = unlimited. Short put max loss = X - P (bounded).
+
+**Key Takeaway:** Short put max loss = X - P. Occurs when underlying goes to zero.]]></text></explanation>
+    </question>
+</QF>

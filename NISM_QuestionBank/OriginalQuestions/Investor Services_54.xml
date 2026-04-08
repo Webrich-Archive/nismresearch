@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Investor Services_54" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[An investor holds 10,000 units of a mutual fund scheme with a NAV of Rs. 25. The scheme declares an IDCW of Rs. 3 per unit. If the investor is in the IDCW Payout option, what will be the ex-IDCW NAV and the total IDCW received?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Ex-IDCW NAV: Rs. 25, Total IDCW: Rs. 30,000]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Ex-IDCW NAV: Rs. 22, Total IDCW: Rs. 30,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Ex-IDCW NAV: Rs. 22, Total IDCW: Rs. 25,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Ex-IDCW NAV: Rs. 28, Total IDCW: Rs. 30,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Calculation:
+Pre-IDCW NAV: Rs. 25
+IDCW per unit: Rs. 3
+Ex-IDCW NAV = Rs. 25 - Rs. 3 = Rs. 22
+
+Total IDCW received = 10,000 units x Rs. 3 = Rs. 30,000
+
+Before IDCW: Total value = 10,000 x Rs. 25 = Rs. 2,50,000
+After IDCW: Investment value = 10,000 x Rs. 22 = Rs. 2,20,000
+Cash received = Rs. 30,000
+Total value = Rs. 2,20,000 + Rs. 30,000 = Rs. 2,50,000 (same as before, pre-tax)
+
+**The Trap:** Many investors think IDCW is "extra" money — like a bonus. This calculation clearly shows that the total value (investment + cash) remains exactly the same before and after IDCW distribution, pre-tax. The IDCW is simply a withdrawal from the investor's own money.
+
+**Cross-Exam Context:** After tax, the investor is actually worse off with IDCW Payout because the Rs. 30,000 will be taxed at the investor's slab rate. If the investor were in the 30% tax bracket, they would pay Rs. 9,000 in tax, making the effective post-tax value Rs. 2,41,000 instead of Rs. 2,50,000.
+
+**Distributor's Pro-Tip:** Use this calculation to show clients why IDCW is not "free income." The NAV drops by exactly the distribution amount. Compare the before-and-after values and then layer on the tax impact. This clarity helps clients make informed choices between Growth and IDCW options.]]></text></explanation>
+    </question>
+</QF>

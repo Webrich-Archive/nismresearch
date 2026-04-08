@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Risk Return and Performance_37" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A fund has a return of 13%, risk-free rate is 5%, beta is 0.9, and market return is 12%. What is the Alpha, and what does it indicate?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Alpha = 1.0%, indicating underperformance]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Alpha = 1.7%, indicating outperformance after adjusting for risk]]></text></answer>
+            <answer correct="no"><text><![CDATA[Alpha = -1.7%, indicating underperformance]]></text></answer>
+            <answer correct="no"><text><![CDATA[Alpha = 0.7%, indicating marginal outperformance]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Alpha = Fund Return - [Rf + Beta x (Market Return - Rf)] = 13% - [5% + 0.9 x (12% - 5%)] = 13% - [5% + 0.9 x 7%] = 13% - [5% + 6.3%] = 13% - 11.3% = 1.7%. The positive alpha of 1.7% indicates that the fund outperformed its expected return (11.3%) by 1.7 percentage points, suggesting the fund manager added value through skill.
+
+**The Trap:** 1.0% would come from subtracting market return from fund return (13-12), which ignores beta adjustment. -1.7% reverses the sign. 0.7% might result from a calculation error. With beta of 0.9, the fund took LESS systematic risk than the market, yet still returned 13% vs market's 12%. After adjusting for lower risk, the outperformance is even more impressive at 1.7%.
+
+**Cross-Exam Context:** This example shows a fund with beta < 1 that still outperforms the market. The alpha captures this: despite taking less risk, the fund outperformed expectations by 1.7%. This is strong evidence of fund manager skill -- delivering higher returns with lower risk.
+
+**Distributor's Pro-Tip:** A fund with positive alpha AND beta less than 1 is the holy grail for conservative investors. "This fund took less risk than the market (beta 0.9) but still delivered 1% more than the market, and after adjusting for the lower risk, the manager actually added 1.7% through stock selection skill."]]></text></explanation>
+    </question>
+</QF>

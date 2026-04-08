@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Scheme Performance_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What does the Information Ratio measure in the context of fund manager performance evaluation?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The fund's total return divided by its total risk]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The excess return of the fund over the benchmark per unit of tracking error]]></text></answer>
+            <answer correct="no"><text><![CDATA[The fund's return in excess of the risk-free rate per unit of standard deviation]]></text></answer>
+            <answer correct="no"><text><![CDATA[The percentage of the fund's return explained by benchmark movements]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The Information Ratio is calculated as: (Fund Return - Benchmark Return) / Tracking Error. It measures the fund manager's ability to generate excess returns (alpha) relative to the benchmark per unit of active risk (tracking error). A higher Information Ratio indicates better risk-adjusted active management. It essentially tells you how consistently a manager can beat the benchmark.
+
+**The Trap:** Do not confuse Information Ratio with Sharpe Ratio. Sharpe Ratio uses risk-free rate and total standard deviation: (Fund Return - Rf) / Standard Deviation. Information Ratio uses benchmark return and tracking error. The description of "return explained by benchmark movements" refers to R-squared, not Information Ratio.
+
+**Cross-Exam Context:** In NISM III-C (Investment Adviser), the Information Ratio is a key metric for evaluating actively managed funds. In NISM V-B, it is tested alongside other quantitative performance measures.
+
+**Distributor's Pro-Tip:** An Information Ratio above 0.5 is generally considered good, and above 1.0 is excellent. When comparing two actively managed funds in the same category, the one with the higher Information Ratio is generating more consistent excess returns per unit of risk taken relative to the benchmark.]]></text></explanation>
+    </question>
+</QF>

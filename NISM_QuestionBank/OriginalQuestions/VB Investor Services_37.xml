@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VB Investor Services_37" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[An investor did two SIP installments: Rs. 5,000 when NAV was Rs. 25, and Rs. 5,000 when NAV was Rs. 50. What is the average cost per unit?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 37.50]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 33.33]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 25.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 50.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** First installment: Rs. 5,000 / Rs. 25 = 200 units. Second installment: Rs. 5,000 / Rs. 50 = 100 units. Total investment = Rs. 10,000. Total units = 300. Average cost per unit = Rs. 10,000 / 300 = Rs. 33.33. Note that the average cost (Rs. 33.33) is less than the simple average of NAVs (Rs. 37.50). This is rupee cost averaging in action.
+**The Trap:** Rs. 37.50 is the simple average of the two NAVs (25+50)/2. But the actual average cost is lower because more units were bought at the lower NAV. This is the power of rupee cost averaging.
+**Cross-Exam Context:** Also tested in V-A and Series XXIV. Classic rupee cost averaging calculation.
+**Distributor's Pro-Tip:** This example beautifully illustrates rupee cost averaging for retired investors. The average cost (Rs. 33.33) is lower than the average NAV (Rs. 37.50) because the same fixed amount bought more units when the price was lower.]]></text></explanation>
+    </question>
+</QF>

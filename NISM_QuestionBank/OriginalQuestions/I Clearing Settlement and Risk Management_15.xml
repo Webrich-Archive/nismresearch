@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Unlike currency futures, options positions are settled through:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Premium settlement (variation in premium adjusted against collateral, not daily cash settlement)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Daily cash MTM like futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Physical delivery of currency]]></text></answer>
+            <answer correct="no"><text><![CDATA[Weekly settlement only]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For options, the variation in premium is adjusted against collateral placed — NOT settled in cash daily like futures MTM. Option premiums are settled when trades occur. Final settlement for exercised options is at T+2.
+**The Trap:** Options do NOT have daily mark-to-market cash settlement like futures.
+**Cross-Exam Context:** Options vs futures settlement is tested in Series I.
+**Distributor's Pro-Tip:** This means option positions don't generate daily cash flows — the premium is paid/received upfront, and settlement happens only at expiry for exercised options.]]></text></explanation>
+    </question>
+</QF>

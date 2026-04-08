@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_93" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If a call option's delta is 0.30, a Re 1 increase in the underlying will cause the premium to increase by approximately:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 0.30]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.03]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 30]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Delta = 0.30 means for every Re 1 change in underlying, premium changes by Rs. 0.30. For a 100-point change, premium changes by 30 points.
+**The Trap:** Delta is a RATIO (0 to 1), not a fixed amount.
+**Cross-Exam Context:** Delta interpretation is the most tested Greek in Series I.
+**Distributor's Pro-Tip:** Delta 0.30 also roughly indicates a 30% probability of the option expiring ITM.]]></text></explanation>
+    </question>
+</QF>

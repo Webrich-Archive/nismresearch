@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Derivative Markets_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A call option with a strike price of Rs. 10,000 is said to be "in-the-money" when the market price of the underlying is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Above Rs. 10,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Below Rs. 10,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Exactly Rs. 10,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equal to the premium paid]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A call option is "in-the-money" (ITM) when the market price exceeds the strike price — the buyer can exercise the option to buy at the lower strike price and benefit from the difference. If the market price is Rs. 10,200 and strike is Rs. 10,000, the buyer profits by exercising. Conversely, when market price is below the strike, the call is "out-of-the-money" (OTM).
+
+**The Trap:** Below Rs. 10,000 makes the call out-of-the-money (buyer would not exercise). Exactly Rs. 10,000 is "at-the-money" (ATM). The premium paid is irrelevant to whether the option is ITM/OTM — it only affects the net profit/loss calculation.
+
+**Cross-Exam Context:** Derivatives basics overlap with Series VIII, XIII. ITM/OTM/ATM concepts are essential for understanding option payoffs and are tested in all derivatives exams.
+
+**Distributor's Pro-Tip:** For call options: ITM when market > strike (profitable to exercise). For put options: ITM when market < strike (profitable to exercise). The option buyer will exercise only when the option is ITM.]]></text></explanation>
+    </question>
+</QF>

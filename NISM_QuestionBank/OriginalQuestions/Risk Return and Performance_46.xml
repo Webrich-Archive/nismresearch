@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Risk Return and Performance_46" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An index fund tracking the Nifty 50 has an annual return of 11.5%, while the Nifty 50 TRI returned 12.3% over the same period. The fund has an expense ratio of 0.5% and maintained average cash holdings of 3%. Which factor MOST likely explains the underperformance?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Poor stock selection by the fund manager]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The combined effect of expense ratio and cash drag]]></text></answer>
+            <answer correct="no"><text><![CDATA[Currency fluctuations]]></text></answer>
+            <answer correct="no"><text><![CDATA[Benchmark manipulation]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The fund underperformed the benchmark by 0.8% (12.3% - 11.5%). This is explained by the expense ratio (0.5%) plus cash drag. With 3% cash earning near-zero returns while the index returned 12.3%, the cash drag is approximately 0.3% (3% x ~12.3% opportunity cost, simplified). Together, expense ratio (0.5%) + cash drag (~0.3%) accounts for approximately 0.8% underperformance, matching the actual shortfall.
+
+**The Trap:** An index fund does NOT have stock selection -- it replicates the index mechanically, so poor stock selection is irrelevant. Currency fluctuations are not applicable to a domestic index fund. Benchmark manipulation is not a realistic scenario for widely-tracked indices like Nifty 50.
+
+**Cross-Exam Context:** Sources of tracking error for index funds include: (1) expense ratio, (2) cash drag from holding cash for redemptions, (3) transaction costs during rebalancing, and (4) timing differences in executing index changes. These are fundamental concepts for understanding passive fund performance.
+
+**Distributor's Pro-Tip:** When selecting index funds for clients, compare expense ratios (lower is better), tracking error (lower is better), and AUM (larger AUM typically means lower impact costs). The difference between a 0.1% and 0.5% expense ratio on a Nifty 50 index fund compounds significantly over 20-30 years.]]></text></explanation>
+    </question>
+</QF>

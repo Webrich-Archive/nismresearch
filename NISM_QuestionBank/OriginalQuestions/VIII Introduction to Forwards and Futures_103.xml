@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_103" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A gold jeweler needs to purchase 10 kg of gold in 2 months. Current gold spot is Rs. 75,000 per 10 grams. He is worried about gold prices rising. How should he hedge using MCX gold futures?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy gold futures contracts equivalent to 10 kg to lock in the current price level, so any increase in spot gold price will be offset by profits on the long futures position]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell gold futures because he is in the gold business and should always sell]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy gold in the spot market now and store it for 2 months]]></text></answer>
+            <answer correct="no"><text><![CDATA[Short sell gold in the spot market and buy it back later at lower prices]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The jeweler has a SHORT gold position (needs to buy gold in the future). To hedge, he should take a LONG position in gold futures. If gold prices rise, his futures profit offsets the higher purchase cost. If prices fall, his futures loss is offset by cheaper spot purchase.
+
+**The Trap:** He should BUY (not sell) futures because he needs to ACQUIRE gold. Buying spot now ties up capital and incurs storage costs. Short selling means he's betting on price decline, increasing risk.
+
+**Cross-Exam Context:** Commodity hedging with futures is tested in Series VIII (concept) and Series XVI (commodity derivatives).
+
+**Key Takeaway:** Need to BUY in future -> BUY futures. Need to SELL in future -> SELL futures. Always take opposite position.]]></text></explanation>
+    </question>
+</QF>

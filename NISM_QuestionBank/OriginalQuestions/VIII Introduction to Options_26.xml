@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_26" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An OTM call option has an intrinsic value of:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Zero, because the spot price is below the strike price making exercise unprofitable]]></text></answer>
+            <answer correct="no"><text><![CDATA[Negative, because the holder would lose money if they exercised]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equal to the premium paid for the option]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equal to the difference between strike price and spot price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** An OTM call has S < X. Intrinsic Value = max(S - X, 0). Since S < X, the value S - X is negative, and max of (negative, 0) = 0.
+
+OTM and ATM options have ZERO intrinsic value. Only ITM options have positive intrinsic value.
+
+**The Trap:** Intrinsic value is NEVER negative. It is either positive (ITM) or zero (ATM/OTM).
+
+**Cross-Exam Context:** If an OTM option has a premium, that entire premium is TIME VALUE.
+
+**Key Takeaway:** OTM intrinsic value = 0. ATM intrinsic value = 0. Only ITM options have IV > 0.]]></text></explanation>
+    </question>
+</QF>

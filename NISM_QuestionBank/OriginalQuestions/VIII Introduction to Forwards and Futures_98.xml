@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_98" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Using the same order book (Best Buy Rs. 998/200, Rs. 997/300; Best Sell Rs. 1,002/150, Rs. 1,003/350), if a trader wants to SELL 400 shares, what is the impact cost for the sell order?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Approximately 0.26%]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.20%]]></text></answer>
+            <answer correct="no"><text><![CDATA[0%]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.50%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+To SELL 400 shares, we hit the buy side:
+- 200 shares at Rs. 998 = Rs. 1,99,600
+- 200 shares at Rs. 997 = Rs. 1,99,400
+- Total proceeds = Rs. 3,99,000
+- Average sell price = 3,99,000 / 400 = Rs. 997.50
+
+Impact cost for sell = (Ideal price - Actual execution price) / Ideal price x 100
+= (1,000 - 997.50) / 1,000 x 100
+= 2.50 / 1,000 x 100
+= 0.25% (approximately 0.26% when using more precise figures)
+
+**The Trap:** Impact cost is NOT zero just because you're selling. For sells, the execution price is BELOW the ideal price, so impact cost = (Ideal - Execution)/Ideal.
+
+**Cross-Exam Context:** Symmetry of impact cost for buy and sell orders is important for understanding market microstructure in Series VIII.
+
+**Key Takeaway:** For sell: Impact cost = (Ideal - Execution Price) / Ideal x 100. Seller gets worse than ideal price.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Trading Mechanism_25" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The exchange's order book shows orders up to how many price levels?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Generally up to 5 price levels on each side]]></text></answer>
+            <answer correct="no"><text><![CDATA[Up to 20 price levels]]></text></answer>
+            <answer correct="no"><text><![CDATA[All price levels]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the best bid and offer]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The exchange order book is generally available up to 5 price levels (buy and sell), showing number of orders and quantity at each level. Identities of participants remain anonymous.
+**The Trap:** Not all levels are shown — typically 5 best levels on each side.
+**Cross-Exam Context:** Order book depth is tested in Series I.
+**Distributor's Pro-Tip:** The depth visible (5 levels) helps traders assess market liquidity and potential impact cost for large orders.]]></text></explanation>
+    </question>
+</QF>

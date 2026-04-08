@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Investor Services_37" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Mrs. Gupta invests Rs. 5 lakh in a debt fund at 3:30 PM on a business day via RTGS (immediate credit). Which NAV will be applicable?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Same day's NAV since payment was made via RTGS]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Next business day's NAV since the application was received after the 3 PM cut-off]]></text></answer>
+            <answer correct="no"><text><![CDATA[The higher of same day or next day NAV]]></text></answer>
+            <answer correct="no"><text><![CDATA[No NAV will apply until the amount exceeds Rs. 10 lakh]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Even though the payment was made via RTGS (which provides immediate fund availability), the application was received at 3:30 PM — AFTER the 3 PM cut-off for debt fund purchases. Therefore, the next business day's NAV will apply. Both conditions must be met for same-day NAV: application before cut-off AND funds available before cut-off.
+
+**The Trap:** RTGS provides instant fund transfer, but it cannot override the cut-off time rule. The mode of payment only matters for determining when funds are AVAILABLE. The cut-off time determines which NAV is applicable. Both conditions must be satisfied simultaneously.
+
+**Cross-Exam Context:** For transactions of Rs. 2 lakh or more, the additional condition is that funds must be credited and available before the cut-off time. In this case, even though funds were available via RTGS, the late application submission determined the next-day NAV.
+
+**Distributor's Pro-Tip:** Always submit applications well before 3 PM, especially for large transactions. A 15-minute buffer is ideal. If a client calls at 2:50 PM wanting to invest, explain that rushing the application risks missing the cut-off and getting the next day's NAV, which could be higher or lower.]]></text></explanation>
+    </question>
+</QF>

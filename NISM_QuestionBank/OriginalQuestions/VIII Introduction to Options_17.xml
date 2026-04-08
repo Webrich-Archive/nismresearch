@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_17" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[On NSE, the standard trading cycle for monthly index options includes:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Three monthly contracts - near month, next month, and far month]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the current month contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[Six monthly contracts at any given time]]></text></answer>
+            <answer correct="no"><text><![CDATA[Twelve monthly contracts covering the entire calendar year]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** NSE offers three monthly option contracts at any time: near month (current), next month, and far month (month after next). As the near-month contract expires, a new far-month contract is introduced.
+
+**The Trap:** While weekly options also exist for benchmark indices, the standard monthly cycle is 3 months.
+
+**Cross-Exam Context:** This 3-month rolling cycle is the same for both futures and options.
+
+**Key Takeaway:** Trading cycle = 3 monthly contracts (near, next, far). New far-month added when near-month expires.]]></text></explanation>
+    </question>
+</QF>

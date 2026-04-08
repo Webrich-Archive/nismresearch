@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Client collateral in the form of securities can be provided only by way of:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Margin pledge created in the Depository system]]></text></answer>
+            <answer correct="no"><text><![CDATA[Physical delivery of share certificates]]></text></answer>
+            <answer correct="no"><text><![CDATA[Power of Attorney to the broker]]></text></answer>
+            <answer correct="no"><text><![CDATA[Transfer of shares to the broker's account]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI mandates that client securities collateral can ONLY be provided through margin pledge/re-pledge in the depository system. This protects against misuse by brokers.
+**The Trap:** POA and share transfer are NOT acceptable methods — only depository pledge.
+**Cross-Exam Context:** Client collateral protection is tested in Series I and VII.
+**Distributor's Pro-Tip:** The pledge system ensures securities remain in the client's demat account — only a lien is created, preventing broker misappropriation.]]></text></explanation>
+    </question>
+</QF>

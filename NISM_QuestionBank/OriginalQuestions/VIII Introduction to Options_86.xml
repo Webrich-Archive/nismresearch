@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_86" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A Nifty call option with strike 17,500 trades at Rs. 310. Above what level does the call buyer start making profit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 17,810]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 17,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 17,190]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 17,810]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Call BEP = Strike + Premium = 17,500 + 310 = Rs. 17,810
+
+The call buyer starts making profit when Nifty goes ABOVE Rs. 17,810.
+- At 17,810: Payoff = 310 = Premium → breakeven
+- Above 17,810: Profit = (S - 17,500) - 310 > 0
+
+**The Trap:** Profit starts above BEP, not above the strike price. Between strike and BEP, buyer recovers part of premium.
+
+**Cross-Exam Context:** This "above which level" format is a common exam question.
+
+**Key Takeaway:** Call buyer profits when S > X + P = 17,810. The BEP is the profit threshold.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Trading Systems_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Two sell orders for Nifty futures are in the order book: Order A at Rs. 22,100 entered at 10:05 AM, and Order B at Rs. 22,100 entered at 10:03 AM. A buy order comes at Rs. 22,100. Which sell order gets matched first?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Order B, because it was entered earlier (time priority at the same price)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Order A, because it was entered later]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both orders are matched simultaneously]]></text></answer>
+            <answer correct="no"><text><![CDATA[The order with the larger quantity gets matched first]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Both sell orders are at the same price (Rs. 22,100). Since price priority is the same, the system moves to time priority. Order B was entered at 10:03 AM, earlier than Order A at 10:05 AM. Therefore, Order B gets matched first.
+
+**The Trap:** Time priority favors EARLIER orders, not later ones. There is no quantity priority - a smaller earlier order is matched before a larger later order at the same price.
+
+**Cross-Exam Context:** Price-time priority examples are standard calculation questions in the exam.
+
+**Key Takeaway:** At the same price, the order entered first gets priority. This is why time-stamping of orders is critical.]]></text></explanation>
+    </question>
+</QF>

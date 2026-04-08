@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Scheme Related Information_33" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[CASE STUDY (Continued): Priya asks why the scheme performance in the SID is compared against "Nifty 200 TRI" and "CRISIL Composite Bond TRI" rather than just "Nifty 200" and "CRISIL Composite Bond Index."
+
+Question 3: Mr. Verma should explain that the "TRI" (Total Return Index) is mandated because:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[TRI includes both price appreciation and dividend/interest income reinvested, providing a fairer comparison since mutual funds also reinvest income, whereas a Price Return Index would make fund performance appear artificially better]]></text></answer>
+            <answer correct="no"><text><![CDATA[TRI adjusts for inflation, giving investors a real return figure that is more meaningful than nominal returns]]></text></answer>
+            <answer correct="no"><text><![CDATA[TRI deducts the fund's expense ratio from the benchmark return so that the comparison is on a net-of-fees basis]]></text></answer>
+            <answer correct="no"><text><![CDATA[TRI is simply a newer version of the index with no material difference from the regular index]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI mandates TRI because mutual funds reinvest dividends and interest income they receive from underlying securities. The TRI benchmark also accounts for this reinvestment, creating an apples-to-apples comparison. Using PRI (which ignores dividend income) would make fund outperformance appear larger than it actually is.
+
+**The Trap:** TRI does NOT adjust for inflation — that would be a "real return" calculation. TRI does NOT deduct expense ratios — it is a gross return measure. TRI is fundamentally different from PRI, not just a newer version.
+
+**Cross-Exam Context:** NISM V-B and XII test the TRI vs PRI distinction extensively. The key insight is that TRI prevents AMCs from inflating their apparent alpha by comparing against an incomplete benchmark.
+
+**Distributor's Pro-Tip:** Explain to Priya with a simple example: if a stock index yields 2% in dividends, a fund that merely matches the index would show 2% outperformance against PRI. With TRI, the same fund shows 0% outperformance — the honest picture. This helps clients truly evaluate fund manager skill.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_34" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the approximate 6-month USDINR futures price if spot is 83, India's rate is 7% p.a. and US rate is 5% p.a.?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[83.81 (approximately)]]></text></answer>
+            <answer correct="no"><text><![CDATA[84.58]]></text></answer>
+            <answer correct="no"><text><![CDATA[83.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[82.19]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** F = S × (1 + RINR × 0.5) / (1 + RUSD × 0.5) = 83 × (1.035) / (1.025) = 83 × 1.00976 = 83.8097 ≈ 83.81.
+**The Trap:** For periods less than 1 year, multiply the annual rate by the fraction of the year.
+**Cross-Exam Context:** Period-adjusted pricing is tested in Series I.
+**Distributor's Pro-Tip:** Quick estimate: F ≈ 83 + 83 × (0.07-0.05) × 0.5 = 83 + 0.83 = 83.83 (approximate).]]></text></explanation>
+    </question>
+</QF>

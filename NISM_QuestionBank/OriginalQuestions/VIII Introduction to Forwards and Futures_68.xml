@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_68" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader buys one lot of Nifty futures at 22,250. The lot size is 25. The daily settlement price on Day 1 is 22,308.70. What is the MTM gain or loss for Day 1?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[MTM gain of Rs. 1,467.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[MTM gain of Rs. 58.70]]></text></answer>
+            <answer correct="no"><text><![CDATA[MTM gain of Rs. 14,675.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[MTM loss of Rs. 1,467.50]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+1. Entry price: 22,250
+2. Day 1 settlement price: 22,308.70
+3. Price change = 22,308.70 - 22,250 = +58.70 points
+4. MTM gain = 58.70 x 25 (lot size) = Rs. 1,467.50
+
+Since the settlement price is higher than entry, the long position has a gain.
+
+**The Trap:** Rs. 58.70 is the per-unit gain. Rs. 14,675 multiplies by an extra 10. The long position GAINS when price rises, not loses.
+
+**Cross-Exam Context:** Daily MTM calculations are a core topic in Series VIII clearing and settlement.
+
+**Key Takeaway:** MTM = (Settlement Price - Previous Price) x Lot Size. Positive = gain for longs, loss for shorts.]]></text></explanation>
+    </question>
+</QF>

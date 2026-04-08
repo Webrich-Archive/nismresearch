@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_100" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An option writer must be aware that ___ is a distinct possibility:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Assignment (being required to fulfill the obligation if the buyer exercises)]]></text></answer>
+            <answer correct="no"><text><![CDATA[The option being cancelled by the exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[The premium being refunded to the buyer]]></text></answer>
+            <answer correct="no"><text><![CDATA[The strike price being changed by the exchange]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Option writers can be 'assigned' — meaning the buyer exercises and the writer must fulfill their obligation (buy or sell the underlying at the strike). This is a key risk for writers.
+**The Trap:** Assignment happens when the buyer exercises. In European options, this can only happen at expiry.
+**Cross-Exam Context:** Assignment risk is tested in Series I and VIII.
+**Distributor's Pro-Tip:** For cash-settled Indian currency options, assignment means the writer pays the intrinsic value — not physical delivery of currency.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The Price Scan Range (PSR) used in SPAN margin is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The probable price change over a one-day period, based on 6 sigma subject to minimum percentage]]></text></answer>
+            <answer correct="no"><text><![CDATA[The maximum daily price limit set by the exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[The bid-ask spread of the contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[The daily average trading range]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** PSR is the expected one-day price change (based on 6σ of volatility). It's the key parameter for SPAN margin calculation and is specified by the clearing corporation.
+**The Trap:** PSR is not a price band — it's an input for margin calculation.
+**Cross-Exam Context:** PSR is tested in Series I.
+**Distributor's Pro-Tip:** PSR is updated multiple times daily, meaning margin requirements can change intraday based on market volatility.]]></text></explanation>
+    </question>
+</QF>

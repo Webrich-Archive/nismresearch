@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Derivative Markets_8" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the Indian derivatives market, the options traded are:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[European options, which can be exercised only on the expiry date]]></text></answer>
+            <answer correct="no"><text><![CDATA[American options, which can be exercised any time before expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both European and American options depending on the exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[Bermuda options, which can be exercised on specific dates before expiry]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In the Indian markets, only European options are currently traded. A European option can be exercised only on the expiry date. An American option can be exercised at any time before or on the expiry date. Contract codes indicate the type: CE = Call European, PE = Put European. Note: Per SEBI circular (May 2025), the expiry day may be the last Tuesday or Thursday of the month.
+
+**The Trap:** American options are not currently traded in Indian stock exchanges despite the name suggesting otherwise. Bermuda options are exotic options not available on Indian exchanges. The terminology can confuse — "European" and "American" refer to exercise style, not geography.
+
+**Cross-Exam Context:** Derivatives basics overlap with Series VIII, XIII. The European-only nature of Indian exchange-traded options is a commonly tested fact.
+
+**Distributor's Pro-Tip:** European options are simpler to understand and price. Since they can only be exercised on expiry, the decision is straightforward — exercise if ITM on the last day, otherwise let it expire. This makes them more accessible for new derivatives participants.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_29" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The position limit linked to open interest is applicable:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[At the time of opening a position (not retroactively if OI decreases)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Continuously throughout the day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only at end of day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only at the time of contract expiry]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Position limits linked to OI are checked when OPENING new positions. If a member's existing position exceeds the limit due to OI decrease (not new positions), they're not forced to reduce but can't add more.
+**The Trap:** You won't be forced to close existing positions if OI drops — the limit applies only to NEW position creation.
+**Cross-Exam Context:** OI-linked position limit rules are tested in Series I.
+**Distributor's Pro-Tip:** This means during low OI periods, position limits become tighter for new positions.]]></text></explanation>
+    </question>
+</QF>

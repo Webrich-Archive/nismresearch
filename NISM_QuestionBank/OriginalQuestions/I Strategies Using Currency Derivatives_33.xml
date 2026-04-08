@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_33" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A long straddle trader is bullish on:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Volatility (expects large price movement in either direction)]]></text></answer>
+            <answer correct="no"><text><![CDATA[The underlying asset's price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The underlying asset's price stability]]></text></answer>
+            <answer correct="no"><text><![CDATA[Interest rates]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A straddle buyer doesn't care about DIRECTION — they bet on VOLATILITY (large movement either way). Max loss occurs at the strike (no movement). Profit increases with distance from strike.
+**The Trap:** Being bullish on the ASSET would mean just buying a call, not a straddle.
+**Cross-Exam Context:** Volatility trading is tested in Series I and VIII.
+**Distributor's Pro-Tip:** Straddles are typically bought before high-impact events (RBI policy, US Fed, elections) where direction is uncertain but large moves are expected.]]></text></explanation>
+    </question>
+</QF>

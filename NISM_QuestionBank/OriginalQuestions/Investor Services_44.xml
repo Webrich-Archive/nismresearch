@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Investor Services_44" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[An investor submits a purchase application for a liquid fund at 2:00 PM on a business day with funds transferred via RTGS. Which NAV will be applicable?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Same day's NAV since the application was received before 3 PM]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Next business day's NAV since for liquid fund purchases, the cut-off time is 1:30 PM]]></text></answer>
+            <answer correct="no"><text><![CDATA[Same day's NAV since RTGS provides immediate fund availability]]></text></answer>
+            <answer correct="no"><text><![CDATA[Previous day's NAV as per liquid fund regulations]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For liquid fund purchases, the cut-off time is 1:30 PM, not 3 PM. Since the application was received at 2:00 PM (after 1:30 PM), the next business day's NAV will apply — even though the funds were available via RTGS and the time was before the general 3 PM cut-off.
+
+**The Trap:** This is one of the most commonly confused cut-off scenarios in the exam. Students who remember the general 3 PM cut-off often forget the earlier 1:30 PM cut-off for liquid and overnight fund purchases. The mode of payment (RTGS) is irrelevant if the cut-off time is missed.
+
+**Cross-Exam Context:** Different cut-off times exist for different fund categories and transaction types. For liquid fund REDEMPTIONS, the standard 3 PM cut-off applies. Only PURCHASES in liquid/overnight funds have the earlier 1:30 PM cut-off.
+
+**Distributor's Pro-Tip:** If a client wants to park money in a liquid fund for even one day of extra return, ensure the application is submitted before 1:30 PM. A common mistake is rushing to submit before 3 PM thinking it is the universal cut-off, only to miss the 1:30 PM deadline for liquid funds.]]></text></explanation>
+    </question>
+</QF>

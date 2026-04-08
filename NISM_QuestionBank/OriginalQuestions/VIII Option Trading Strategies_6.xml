@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Option Trading Strategies_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Infosys spot price is Rs. 1,500, risk-free rate is 8% p.a., and the 3-month futures price is Rs. 1,560. The fair futures price is Rs. 1,530. An arbitrageur should:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy Infosys in the spot market and sell Infosys futures (cash and carry arbitrage)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell Infosys in the spot market and buy Infosys futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy both Infosys spot and futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[No arbitrage opportunity exists]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step:
+1. Fair futures price = 1,500 x (1 + 0.08 x 3/12) = 1,500 x 1.02 = Rs. 1,530
+2. Actual futures price = Rs. 1,560 (overpriced relative to fair value)
+3. Since F(actual) > F(fair), the futures are overpriced
+4. Strategy: Buy spot at Rs. 1,500 + Sell futures at Rs. 1,560
+5. Arbitrage profit = 1,560 - 1,530 = Rs. 30 (after adjusting for cost of carry)
+
+**The Trap:** Reverse cash and carry (sell spot + buy futures) is used when futures are underpriced (F < Fair F). Here futures are overpriced, so cash and carry is correct.
+
+**Cross-Exam Context:** Arbitrage pricing is a core concept tested in NISM Series VIII and also appears in NISM Investment Adviser.
+
+**Key Takeaway:** Cash and carry arbitrage: Buy spot + Sell futures when actual futures price > fair futures price.]]></text></explanation>
+    </question>
+</QF>

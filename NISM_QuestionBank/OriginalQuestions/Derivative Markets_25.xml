@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Derivative Markets_25" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investor buys a call option on Nifty at a strike price of Rs. 10,000 by paying a premium of Rs. 100. On expiry, Nifty closes at Rs. 10,300. What is the investor's net profit per unit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 200]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 300]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 100]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 10,300]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The call option is in-the-money since Nifty (10,300) > Strike (10,000). Intrinsic value at expiry = Market Price - Strike Price = 10,300 - 10,000 = Rs. 300. Net profit = Intrinsic Value - Premium Paid = 300 - 100 = Rs. 200 per unit. The investor exercises the option, gaining Rs. 300 but had already paid Rs. 100 as premium.
+
+**The Trap:** Rs. 300 is the gross payoff but ignores the premium already paid. Rs. 100 confuses the premium with the profit. Rs. 10,300 is the Nifty closing value, not the profit. Always deduct the premium paid from the gross payoff to arrive at net profit.
+
+**Cross-Exam Context:** Derivatives basics overlap with Series VIII, XIII. Option payoff calculations are a standard numerical question type in all derivatives certification exams.
+
+**Distributor's Pro-Tip:** This example shows the power of options — an Rs. 100 premium investment generates Rs. 200 profit (200% return). But remember, if Nifty had closed below 10,000, the entire Rs. 100 premium would be lost. Options offer asymmetric payoffs — limited loss (premium) with potentially large gains.]]></text></explanation>
+    </question>
+</QF>

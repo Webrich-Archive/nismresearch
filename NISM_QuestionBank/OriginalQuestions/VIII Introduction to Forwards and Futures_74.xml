@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_74" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader buys futures at Rs. 5,000 with lot size 300. The margin rate is 15%. At the end of Day 1, the settlement price is Rs. 4,920. What is the margin balance after Day 1 MTM? (Assume initial margin is exactly 15% of contract value at entry)]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 2,01,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,25,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,21,400]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 24,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+1. Contract value at entry = 5,000 x 300 = Rs. 15,00,000
+2. Initial margin = 15% x 15,00,000 = Rs. 2,25,000
+3. Day 1 MTM loss = (4,920 - 5,000) x 300 = -80 x 300 = -Rs. 24,000
+4. Margin balance after Day 1 = 2,25,000 - 24,000 = Rs. 2,01,000
+
+**The Trap:** Rs. 2,25,000 is the initial margin before MTM. Rs. 2,21,400 may use a wrong calculation. Rs. 24,000 is just the MTM loss, not the remaining margin.
+
+**Cross-Exam Context:** Margin tracking after daily MTM is a core Series VIII clearing concept.
+
+**Key Takeaway:** Margin balance = Initial Margin +/- Cumulative MTM. After loss: 2,25,000 - 24,000 = Rs. 2,01,000.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_35" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The VaR margin methodology uses which of the following approaches in the Indian derivatives market?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Exponentially Weighted Moving Average (EWMA) method for volatility estimation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Simple average of last 30 days' returns]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fixed percentage based on market capitalization]]></text></answer>
+            <answer correct="no"><text><![CDATA[Monte Carlo simulation with 10,000 scenarios]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Indian markets use the EWMA (Exponentially Weighted Moving Average) method for estimating volatility in VaR calculations. EWMA gives more weight to recent observations, making the volatility estimate responsive to current market conditions. This is used alongside the SPAN system for margin computation.
+
+**The Trap:** Simple averages give equal weight to all observations and are less responsive. Monte Carlo is used in some markets but the Indian framework uses EWMA-based parametric VaR.
+
+**Cross-Exam Context:** EWMA is the specific methodology mandated by SEBI for VaR margin computation in India.
+
+**Key Takeaway:** Indian VaR uses EWMA for volatility estimation. EWMA gives higher weight to recent data. More responsive to current market conditions.]]></text></explanation>
+    </question>
+</QF>

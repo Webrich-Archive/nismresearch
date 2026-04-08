@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VB Investor Services_26" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[If an investor submits a mutual fund purchase request at 2:30 PM on a business day with valid payment, which NAV will be applied?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[That same day's NAV]]></text></answer>
+            <answer correct="no"><text><![CDATA[The previous day's NAV]]></text></answer>
+            <answer correct="no"><text><![CDATA[The next business day's NAV]]></text></answer>
+            <answer correct="no"><text><![CDATA[The NAV at the time of application]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Since the purchase request was submitted before the 3:00 PM cut-off time and valid payment was also received, the same day's closing NAV will be applied. The actual NAV is calculated at the end of the day, but since the application was received before cut-off, the investor gets the benefit of that day's NAV.
+**The Trap:** NAV is not known at 2:30 PM when the application is submitted. It is calculated at the end of the day. But the rule is: applications received before 3:00 PM get that day's NAV. Applications after 3:00 PM get the next business day's NAV.
+**Cross-Exam Context:** Also tested in V-A and Series XXIV. Very frequently tested.
+**Distributor's Pro-Tip:** Advise retired investors to submit their transactions early in the day, well before 3:00 PM. This avoids the risk of missing the cut-off due to technical issues or processing delays.]]></text></explanation>
+    </question>
+</QF>

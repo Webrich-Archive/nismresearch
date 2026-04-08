@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Foreign Exchange Derivatives_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the difference between a foreign exchange swap and a currency swap?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[FX swap involves exchange of principal only, while currency swap involves exchange of both interest payments and principal]]></text></answer>
+            <answer correct="no"><text><![CDATA[FX swap is exchange-traded while currency swap is OTC]]></text></answer>
+            <answer correct="no"><text><![CDATA[FX swap involves only INR while currency swap involves only USD]]></text></answer>
+            <answer correct="no"><text><![CDATA[There is no difference — they are the same product]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** An FX swap involves actual exchange of two currencies on a specified date (short leg) and reverse exchange on a future date (long leg) — principal only. A currency swap (cross currency swap) involves exchange of streams of interest payments AND/OR principal amounts in different currencies.
+**The Trap:** Both are OTC products — the distinction is about what is exchanged (principal only vs. principal + interest streams).
+**Cross-Exam Context:** Swap types are tested in Series I and IV (Interest Rate Derivatives).
+**Distributor's Pro-Tip:** Currency swaps help companies convert foreign currency borrowings into domestic currency obligations, eliminating both exchange rate and foreign interest rate risk.]]></text></explanation>
+    </question>
+</QF>

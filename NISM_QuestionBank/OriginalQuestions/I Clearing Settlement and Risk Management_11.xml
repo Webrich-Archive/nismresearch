@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Haircut on Treasury Bills and liquid G-Sec with residual maturity less than 3 years is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[2%]]></text></answer>
+            <answer correct="no"><text><![CDATA[5%]]></text></answer>
+            <answer correct="no"><text><![CDATA[10%]]></text></answer>
+            <answer correct="no"><text><![CDATA[0% (no haircut)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** G-Sec haircuts: <3 years liquid = 2%, >3 years liquid = 5%, illiquid G-Sec = 10%. Only FPIs can offer foreign sovereign securities (AAA rated).
+**The Trap:** The haircut increases with maturity and decreases with liquidity.
+**Cross-Exam Context:** Collateral haircuts are tested in Series I and VII.
+**Distributor's Pro-Tip:** Higher haircut means less collateral value is recognized — illiquid securities lose 10% of their value for margin purposes.]]></text></explanation>
+    </question>
+</QF>

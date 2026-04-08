@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Risk Return and Performance_45" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A conservative investor who already has a well-diversified equity portfolio is looking to add one more equity fund. Fund P has a Sharpe ratio of 0.85 and Fund Q has a Sharpe ratio of 0.72. However, Fund Q has a lower correlation with the investor's existing portfolio. Which fund should the investor consider and why?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Fund P, because it has a higher Sharpe ratio which is always the deciding factor]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Fund Q, because its lower correlation with the existing portfolio may provide better diversification benefits]]></text></answer>
+            <answer correct="no"><text><![CDATA[Neither, because the investor should not add more equity funds]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both, because they complement each other perfectly]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** While Fund P has a higher standalone Sharpe ratio, portfolio construction is not just about individual fund metrics. Fund Q's lower correlation with the existing portfolio means adding it would provide greater diversification benefits, potentially reducing overall portfolio risk without proportionally reducing returns. In portfolio context, the marginal contribution to portfolio risk-adjusted return matters more than standalone metrics.
+
+**The Trap:** The Sharpe ratio measures standalone risk-adjusted performance but does NOT capture how a fund interacts with existing portfolio holdings. A fund with a slightly lower Sharpe ratio but lower correlation can actually improve the overall portfolio Sharpe ratio more than a higher-Sharpe fund that is highly correlated with existing holdings.
+
+**Cross-Exam Context:** This application-level question tests understanding beyond individual fund metrics to portfolio-level thinking. Modern Portfolio Theory (MPT) demonstrates that combining assets with low correlations reduces portfolio risk. This is why adding international funds or sector-specific funds with low correlation to core holdings can improve overall portfolio efficiency.
+
+**Distributor's Pro-Tip:** When building client portfolios, don't just pick the highest-rated funds. Consider how each new addition interacts with existing holdings. An international fund or a gold fund with moderate standalone returns but low correlation to Indian equity can significantly improve the portfolio's risk-return profile.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Concept and Role of Mutual Fund_23" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Mr. Verma has Rs. 20 lakh to invest for 3 months while he waits for a property deal to close. He wants minimal risk and instant access to funds. His distributor recommends a Long Duration Debt Fund citing "higher yields." Which of the following best describes the issue with this recommendation?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A Long Duration Fund carries significant interest rate risk and is unsuitable for a 3-month horizon; a Liquid Fund or Overnight Fund would be more appropriate]]></text></answer>
+            <answer correct="no"><text><![CDATA[Long Duration Funds are perfectly suitable because they invest in government securities which are risk-free]]></text></answer>
+            <answer correct="no"><text><![CDATA[The recommendation is fine because all debt funds carry the same level of risk regardless of duration]]></text></answer>
+            <answer correct="no"><text><![CDATA[Mr. Verma should invest in an equity fund instead since 3 months is sufficient for equity markets to generate positive returns]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A Long Duration Fund has a Macaulay duration greater than 7 years, meaning its NAV is highly sensitive to interest rate changes. If interest rates rise during Mr. Verma's 3-month holding period, the NAV could drop significantly, potentially resulting in capital loss. For a 3-month horizon with need for capital safety and liquidity, a Liquid Fund (up to 91-day maturity securities) or Overnight Fund (1-day maturity) is appropriate. The investment horizon must match the fund's duration profile.
+
+**The Trap:** Option B is dangerously wrong -- even government securities carry interest rate risk (no credit risk, but duration risk remains). Option C shows ignorance of duration risk -- longer duration = higher interest rate sensitivity. Option D is absurd for a 3-month horizon with capital safety needs. This question tests the practical application of matching fund duration to investment horizon.
+
+**Cross-Exam Context:** In NISM V-B, suitability of debt fund categories to investment horizons is a critical topic. In NISM III-C (Investment Adviser), recommending inappropriate debt fund categories based on yield alone (ignoring duration mismatch) is a suitability violation. The distributor in this question is potentially violating suitability norms.
+
+**Distributor's Pro-Tip:** NEVER recommend a debt fund category based solely on yield. The golden rule is: "Match the fund's duration to the client's investment horizon." Higher yield in a long-duration fund comes with higher interest rate risk -- this is NOT free return, it's compensation for additional risk. A Liquid Fund yielding 6% is better for 3 months than a Long Duration Fund yielding 7.5% that could lose 3% in NAV from a rate hike.]]></text></explanation>
+    </question>
+</QF>

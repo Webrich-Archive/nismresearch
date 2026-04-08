@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="Secondary Markets_17" sectionNumber="" articleNumber="0" articleName="">
+    <question><text>What is meant by 'netting' in the settlement process?</text>
+        <answers>
+            <answer correct="yes"><text>Calculating the net outstanding position by offsetting buy and sell transactions to arrive at a single net obligation</text></answer>
+            <answer correct="no"><text>Adding all buy and sell transactions together for settlement</text></answer>
+            <answer correct="no"><text>Cancelling all trades that were not executed during the day</text></answer>
+            <answer correct="no"><text>Distributing dividends to shareholders on the record date</text></answer>
+        </answers>
+        <explanation><text>**The Logic:** Netting calculates net positions by offsetting buys and sells. If an investor bought 100 shares and sold 50 of the same stock, the net obligation is delivery of 50 shares. Not all trades are settled individually (gross); only net positions are settled.
+**The Trap:** Option (b) describes gross settlement where every transaction is settled separately. Indian exchanges use net settlement, which is more efficient and reduces the volume of actual fund/security transfers.
+**Cross-Exam Context:** Netting happens at both client level and trading member level. At the member level, netting is across all securities so each member has a single pay or receive obligation.
+**Distributor's Pro-Tip:** Netting = Simplification. If you bought 100 and sold 50 of the same stock, you only need to take delivery of 50 shares and pay for 50 shares, not process two separate transactions.</text></explanation>
+    </question>
+</QF>

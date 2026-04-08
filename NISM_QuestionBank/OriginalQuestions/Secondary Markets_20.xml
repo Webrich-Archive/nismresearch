@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="Secondary Markets_20" sectionNumber="" articleNumber="0" articleName="">
+    <question><text>What is the bid-ask spread?</text>
+        <answers>
+            <answer correct="yes"><text>The difference between the best buy price (bid) and the best sell price (ask) in the order book</text></answer>
+            <answer correct="no"><text>The difference between the opening and closing price of a stock</text></answer>
+            <answer correct="no"><text>The difference between the highest and lowest price of a stock during the day</text></answer>
+            <answer correct="no"><text>The commission charged by the broker on each trade</text></answer>
+        </answers>
+        <explanation><text>**The Logic:** The bid-ask spread is the gap between the highest price a buyer is willing to pay (bid) and the lowest price a seller is willing to accept (ask). In the example from the workbook, if best buy = Rs. 350 and best sell = Rs. 400, the spread is Rs. 50.
+**The Trap:** The spread is NOT the day's price range (option c, that's the intraday range). It's a real-time measure of the gap between buyers and sellers at any given moment.
+**Cross-Exam Context:** A narrower spread indicates better liquidity. Impact cost, which measures the deviation from the ideal price (average of bid and ask), is related to the spread.
+**Distributor's Pro-Tip:** Lower spread = More liquid stock = Lower cost for investors. If a stock has a bid of Rs. 99 and ask of Rs. 101, the spread is Rs. 2. The 'ideal' mid-price is Rs. 100.</text></explanation>
+    </question>
+</QF>

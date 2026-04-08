@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Understanding Index_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the key difference between a full market capitalization weighted index and a free-float market capitalization weighted index?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Free-float method considers only shares that are freely available for trading in the market, excluding promoter holdings and locked-in shares]]></text></answer>
+            <answer correct="no"><text><![CDATA[Free-float method gives equal weight to all companies regardless of their size]]></text></answer>
+            <answer correct="no"><text><![CDATA[Full market cap method considers only shares available for trading]]></text></answer>
+            <answer correct="no"><text><![CDATA[Free-float method uses the face value of shares instead of market price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In a free-float market cap weighted index, only shares that are freely available for trading in the open market are considered. Shares held by promoters, strategic investors, government, and other locked-in holdings are excluded. This gives a more accurate picture of the investable market.
+**The Trap:** Equal weighting is a separate methodology, not free-float. Full market cap includes ALL shares (including promoter holdings). Free-float uses market price, not face value.
+**Cross-Exam Context:** Both Sensex and Nifty 50 use the free-float market cap methodology. This is important for NISM Series VIII.
+**Key Takeaway:** Free-float MCap = (Total shares - Non-tradeable shares) x Price. Only publicly tradeable shares are counted. Both Sensex and Nifty use free-float methodology.]]></text></explanation>
+    </question>
+</QF>

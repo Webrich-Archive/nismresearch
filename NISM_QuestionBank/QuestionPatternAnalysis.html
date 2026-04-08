@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NISM Exam Question Pattern Analysis</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#f0f2f5;color:#1a1a2e;padding:20px;line-height:1.5}
+h1{font-size:1.5rem;margin-bottom:2px}
+.subtitle{color:#666;font-size:.82rem;margin-bottom:18px}
+.stats{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:20px}
+.stat{background:#fff;border-radius:10px;padding:12px 18px;box-shadow:0 1px 3px rgba(0,0,0,.07)}
+.stat .n{font-size:1.6rem;font-weight:700;color:#1565c0}
+.stat .l{font-size:.7rem;color:#888;text-transform:uppercase;letter-spacing:.4px}
+.stat.green .n{color:#2e7d32}
+.stat.orange .n{color:#e65100}
+.stat.purple .n{color:#6a1b9a}
+
+/* Filters */
+.filters{margin-bottom:16px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.filters label{font-size:.8rem;font-weight:600;color:#555}
+.fbtn{padding:5px 12px;border:1px solid #d0d5dd;border-radius:16px;background:#fff;cursor:pointer;font-size:.73rem;transition:.15s}
+.fbtn:hover{border-color:#1565c0;color:#1565c0}
+.fbtn.active{background:#1565c0;color:#fff;border-color:#1565c0}
+
+/* Cards grid */
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(370px,1fr));gap:14px;margin-bottom:24px}
+.card{background:#fff;border-radius:10px;padding:16px;box-shadow:0 1px 3px rgba(0,0,0,.07);transition:box-shadow .15s;cursor:pointer}
+.card:hover{box-shadow:0 3px 12px rgba(0,0,0,.12)}
+.card.hidden{display:none}
+.card-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px}
+.card-title{font-size:.85rem;font-weight:700;color:#1a1a2e}
+.badge{font-size:.65rem;padding:2px 8px;border-radius:10px;font-weight:600}
+.badge-easy{background:#e8f5e9;color:#2e7d32}
+.badge-moderate{background:#fff3e0;color:#e65100}
+.badge-hard{background:#fce4ec;color:#c62828}
+
+/* Stacked bar */
+.bar-wrap{height:22px;border-radius:6px;overflow:hidden;display:flex;margin-bottom:8px;background:#f5f5f5}
+.bar-seg{height:100%;display:flex;align-items:center;justify-content:center;font-size:.6rem;font-weight:700;color:#fff;min-width:0;transition:width .3s}
+.bar-calc{background:#e53935}
+.bar-case{background:#ff9800}
+.bar-concept{background:#42a5f5}
+.bar-reg{background:#7e57c2}
+
+/* Bar legend */
+.bar-legend{display:flex;gap:12px;font-size:.68rem;margin-bottom:10px;flex-wrap:wrap}
+.bar-legend-item{display:flex;align-items:center;gap:3px}
+.bar-legend-dot{width:10px;height:10px;border-radius:2px}
+
+/* Card details */
+.card-details{font-size:.75rem;color:#555}
+.card-details dt{font-weight:600;color:#333;display:inline}
+.card-details dd{display:inline;margin:0 12px 0 0}
+.calc-topics{margin-top:6px;display:flex;flex-wrap:wrap;gap:4px}
+.calc-tag{font-size:.65rem;background:#ffebee;color:#c62828;padding:1px 7px;border-radius:8px}
+.case-tag{font-size:.65rem;background:#fff3e0;color:#e65100;padding:1px 7px;border-radius:8px}
+
+/* Sample questions (expandable) */
+.samples{margin-top:8px;display:none}
+.samples.open{display:block}
+.samples h4{font-size:.72rem;color:#1565c0;margin-bottom:4px}
+.samples ul{list-style:none;padding:0}
+.samples li{font-size:.7rem;color:#444;padding:3px 0;border-bottom:1px solid #f5f5f5}
+.samples li::before{content:"Q: ";font-weight:700;color:#888}
+.expand-btn{font-size:.68rem;color:#1565c0;background:none;border:none;cursor:pointer;padding:4px 0;text-decoration:underline}
+
+/* Prep tips */
+.prep-tip{margin-top:6px;font-size:.7rem;color:#2e7d32;background:#f1f8e9;padding:6px 10px;border-radius:6px;border-left:3px solid #66bb6a}
+
+/* Heatmap section */
+.section{margin-top:28px;background:#fff;border-radius:10px;padding:20px;box-shadow:0 1px 3px rgba(0,0,0,.07)}
+.section h2{font-size:1.1rem;margin-bottom:14px;color:#1565c0}
+.heatmap-wrap{overflow-x:auto}
+table.hm{border-collapse:collapse;font-size:.68rem;width:max-content}
+table.hm th,table.hm td{padding:5px 7px;text-align:center;border:1px solid #e8ecef}
+table.hm th{background:#f8f9fa;font-weight:600;white-space:nowrap}
+table.hm th:first-child,table.hm td:first-child{text-align:left;position:sticky;left:0;background:#fff;z-index:1;min-width:200px;border-right:2px solid #ccc}
+.hm-h{background:#e53935!important;color:#fff;font-weight:700}
+.hm-m{background:#ffcc80!important;color:#333;font-weight:600}
+.hm-l{background:#fff9c4!important;color:#666}
+.hm-none{background:#fafafa;color:#e0e0e0}
+
+/* Caselet section */
+.caselet-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+.caselet-card{border:1px solid #ffe0b2;border-radius:8px;padding:12px;background:#fff8e1}
+.caselet-card h3{font-size:.82rem;color:#e65100;margin-bottom:6px}
+.caselet-card p{font-size:.72rem;color:#555;margin-bottom:4px}
+.caselet-card .marks-bar{height:8px;background:#ffe0b2;border-radius:4px;overflow:hidden;margin-top:4px}
+.caselet-card .marks-fill{height:100%;background:#ff9800;border-radius:4px}
+
+/* Groups section */
+.group{margin-bottom:16px;border-left:4px solid;padding-left:14px}
+.group-theory{border-color:#7e57c2}
+.group-balanced{border-color:#42a5f5}
+.group-calc{border-color:#e53935}
+.group h3{font-size:.85rem;margin-bottom:4px}
+.group p{font-size:.75rem;color:#555}
+.group .exams{font-size:.72rem;color:#333;margin-top:4px}
+</style>
+</head>
+<body>
+
+<h1>NISM Exam Question Pattern Analysis</h1>
+<p class="subtitle">Question types, calculation intensity, caselet structure & prep strategies for 31 active NISM exams | April 2026</p>
+
+<div class="stats" id="stats"></div>
+
+<div class="bar-legend">
+  <div class="bar-legend-item"><div class="bar-legend-dot" style="background:#e53935"></div> Calculation</div>
+  <div class="bar-legend-item"><div class="bar-legend-dot" style="background:#ff9800"></div> Caselet/Case-Study</div>
+  <div class="bar-legend-item"><div class="bar-legend-dot" style="background:#42a5f5"></div> Conceptual</div>
+  <div class="bar-legend-item"><div class="bar-legend-dot" style="background:#7e57c2"></div> Regulatory</div>
+</div>
+
+<div class="filters" id="filters"></div>
+
+<div class="cards" id="cards"></div>
+
+<div class="section">
+  <h2>Caselet / Case-Study Exams</h2>
+  <p style="font-size:.78rem;color:#666;margin-bottom:12px;">These exams include scenario-based questions where multiple MCQs are grouped around a case.</p>
+  <div class="caselet-cards" id="caseletCards"></div>
+</div>
+
+<div class="section">
+  <h2>Calculation Intensity Heatmap (Exam x Topic)</h2>
+  <p style="font-size:.78rem;color:#666;margin-bottom:12px;">Shows which exam-topic combinations have significant calculation questions. H = Heavy (5+ calc Qs), M = Moderate (2-4), L = Light (1-2)</p>
+  <div class="heatmap-wrap"><table class="hm" id="heatmap"></table></div>
+</div>
+
+<div class="section">
+  <h2>Prep Strategy Groups</h2>
+  <div id="groups"></div>
+</div>
+
+<script>
+const exams = [
+  {id:"I",name:"Series I - Currency Derivatives",diff:"Moderate",calc:25,case_:0,concept:45,reg:20,app:10,timeQ:"72s",
+   calcTopics:["Futures pricing","Options payoff","Cross-rate calculations","Forward premium","Margin calculations"],
+   caselets:null,
+   sampleCalc:["If USD/INR spot is 83.50 and 3-month forward is 84.20, what is the annualized forward premium?","What is the settlement method for USDINR futures?"],
+   sampleConcept:["Which of the following is the role of derivatives?","Which of the following is true about currency options?"],
+   tip:"Focus on Chapters 3-5 (futures, options, strategies) = 54% weightage. Practice cross-rate and forward premium calculations."},
+  {id:"II-A",name:"Series II-A - RTA Corporate",diff:"Easy",calc:5,case_:0,concept:60,reg:25,app:10,timeQ:"72s",
+   calcTopics:["Bonus/split ratio","Dividend computation"],caselets:null,
+   sampleCalc:[],sampleConcept:["Which of the following is a hybrid security?","Which of the following is/are examples of corporate actions?"],
+   tip:"Mostly memory-based. Focus on IPO processes, corporate actions, SEBI LODR."},
+  {id:"II-B",name:"Series II-B - RTA Mutual Fund",diff:"Easy",calc:5,case_:0,concept:60,reg:25,app:10,timeQ:"72s",
+   calcTopics:["NAV computation","Entry/exit load impact"],caselets:null,
+   sampleCalc:[],sampleConcept:["Which of the following is NOT an example of corporate actions?","Which of the following is NOT necessary for an Investor Service Centre?"],
+   tip:"MF operational concepts (Ch 11) and investor services carry highest weightage."},
+  {id:"III-A",name:"Series III-A - Compliance (Non-Fund)",diff:"Moderate",calc:5,case_:0,concept:35,reg:55,app:5,timeQ:"72s",
+   calcTopics:["Penalty amounts"],caselets:null,
+   sampleCalc:[],sampleConcept:["Unhealthy practice in Securities Markets includes which of the following?","Which Act provides for establishment of depositories?"],
+   tip:"Regulation-heavy. Memorize SEBI Act, PIT, FUTP, PMLA. Part A=60%, Part B=40%."},
+  {id:"III-C",name:"Series III-C - Compliance (Fund)",diff:"Moderate",calc:5,case_:0,concept:30,reg:60,app:5,timeQ:"72s",
+   calcTopics:[],caselets:null,
+   sampleCalc:[],sampleConcept:["Under FEMA, 'Import of goods' qualifies under which type of transaction?","Critical Reporting by Compliance officers includes which of the following?"],
+   tip:"Similar to III-A but fund-focused. Part B covers MF, AIF, InvIT, REIT regulations. Know FEMA."},
+  {id:"IV",name:"Series IV - Interest Rate Derivatives",diff:"Hard",calc:35,case_:0,concept:35,reg:20,app:10,timeQ:"72s",
+   calcTopics:["Bond pricing (YTM)","Duration & convexity","PVBP","IRD futures pricing","Options on bonds","Hedging strategies"],caselets:null,
+   sampleCalc:["Calculate modified duration of a bond with Macaulay duration 5.2 years and YTM 8%","Calculate PVBP for a bond portfolio"],
+   sampleConcept:["Which of the following has higher credit risk?","Which derivatives have the largest market size globally?"],
+   tip:"Hardest calculation content among single-segment derivatives. Master bond math. Chapters 1,3-5 = 70% weightage."},
+  {id:"V-A",name:"Series V-A - MF Distributors",diff:"Easy",calc:15,case_:0,concept:55,reg:15,app:15,timeQ:"72s",
+   calcTopics:["NAV computation","Expense ratio impact","CAGR","Absolute return","Sharpe ratio","Tax on MF gains"],caselets:null,
+   sampleCalc:["Calculate the NAV per unit given total assets and total liabilities"],sampleConcept:["The NAV of scheme is disclosed on the website of ______?"],
+   tip:"No negative marking, 50% passing - attempt everything. Investor Services (15%) and Scheme Selection (15%) highest weightage."},
+  {id:"V-B",name:"Series V-B - MF Foundation",diff:"Easy",calc:10,case_:0,concept:60,reg:15,app:15,timeQ:"144s",
+   calcTopics:["Basic NAV","Simple returns"],caselets:null,
+   sampleCalc:[],sampleConcept:["Which of the following would be close-ended mutual fund scheme?","What is the purpose of the mutual fund Risk-o-meter?"],
+   tip:"Easiest MF exam (50 Qs, 2 hrs = 144s per Q). No negative marking. Focus on Investor Services (20%)."},
+  {id:"VI",name:"Series VI - Depository Operations",diff:"Moderate",calc:5,case_:0,concept:55,reg:30,app:10,timeQ:"72s",
+   calcTopics:["Settlement cycle"],caselets:null,
+   sampleCalc:[],sampleConcept:["Which of the following is NOT directly a part of the Primary Market?","What is the maturity period of Treasury Bills?"],
+   tip:"DP functions (Ch 4-11) = 81% weightage. Know account opening, demat, trading & settlement, pledge."},
+  {id:"VII",name:"Series VII - Securities Ops & Risk",diff:"Moderate",calc:10,case_:0,concept:50,reg:25,app:15,timeQ:"72s",
+   calcTopics:["Margin calculations","Capital adequacy","Settlement obligations"],caselets:null,
+   sampleCalc:[],sampleConcept:["Which of the following best describes 'Private Placement'?","The fractional ownership in a company is represented by which of the following?"],
+   tip:"Broking Operations (Ch 3, 20%) is biggest chapter. Understand front/middle/back office and trade life cycle."},
+  {id:"VIII",name:"Series VIII - Equity Derivatives",diff:"Hard",calc:30,case_:0,concept:40,reg:20,app:10,timeQ:"72s",
+   calcTopics:["Futures fair value","Options payoff","Greeks (Delta/Gamma/Theta/Vega)","Strategy P&L","Margin calculations","Put-Call Parity"],caselets:null,
+   sampleCalc:["Calculate the payoff of a bull call spread with strikes 100 and 110","If Delta of a call option is 0.6, what happens to the option premium when stock moves up by Rs.10?"],
+   sampleConcept:["Which of the following is a hedged position?","Which situation indicates a bullish trend?"],
+   tip:"Chapters 3 (Futures 25%) + 4 (Options 25%) = 50% weightage. Practice payoff diagrams and strategy P&L tables."},
+  {id:"IX",name:"Series IX - Merchant Banking",diff:"Moderate",calc:10,case_:0,concept:45,reg:35,app:10,timeQ:"72s",
+   calcTopics:["IPO pricing","Underwriting commission","Allotment calculations"],caselets:null,
+   sampleCalc:[],sampleConcept:["Who is a Qualified Institutional Buyer?","Merchant Banker is involved in which of the following activities?"],
+   tip:"Issue Management (Ch 4-6) = 38% weightage. Know SEBI ICDR and SAST regulations."},
+  {id:"X-A",name:"Series X-A - Investment Adviser L1",diff:"Hard",calc:25,case_:40,concept:25,reg:10,app:0,timeQ:"109s",
+   calcTopics:["TVM (PV/FV/annuities)","Retirement corpus","Real vs nominal returns","Portfolio return/risk","Sharpe/Treynor/Jensen"],
+   caselets:{count:9,qPer:"~1",marksPer:"~7",total:60,pct:40},
+   sampleCalc:["Calculate the future value of Rs. 10,000 invested for 5 years at 8% p.a.","What is the real rate of return if nominal return is 12% and inflation is 5%?"],
+   sampleConcept:["Which of the following is not a part of the financial planning process?","Which of the following is an unsecured loan?"],
+   tip:"3-hour exam. Allocate 90 min MCQs, 90 min caselets. Module 1 (Financial Planning, 37 marks) is heaviest. TVM recurs across caselets."},
+  {id:"X-B",name:"Series X-B - Investment Adviser L2",diff:"Hard",calc:30,case_:40,concept:20,reg:10,app:0,timeQ:"90s",
+   calcTopics:["Insurance premiums","Retirement math","Income tax computation","Capital gains with indexation","DTAA relief","Risk profiling scores"],
+   caselets:{count:6,qPer:5,marksPer:10,total:60,pct:40},
+   sampleCalc:["On retirement, how much will Mr. Z have in his retirement corpus?","Calculate capital gains with indexation for a property sold after 3 years"],
+   sampleConcept:["Which characteristics are required for a risk to be insurable?","Which product is a pure insurance product?"],
+   tip:"Taxation modules (VII-XI) most calculation-heavy. Master capital gains with indexation. Caselets are financial planning scenarios."},
+  {id:"X-C",name:"Series X-C - IA Renewal",diff:"Easy",calc:10,case_:0,concept:60,reg:20,app:10,timeQ:"72s",
+   calcTopics:["Refresher level"],caselets:null,
+   sampleCalc:[],sampleConcept:[],
+   tip:"Online, no negative marking, 50% passing. Complete 3-hour pre-recorded training first. Tests regulatory updates."},
+  {id:"XII",name:"Series XII - Securities Foundation",diff:"Easy",calc:5,case_:0,concept:65,reg:20,app:10,timeQ:"72s",
+   calcTopics:["Basic NAV","Simple P/E ratio"],caselets:null,
+   sampleCalc:[],sampleConcept:["Which of the following is the primary function of secondary markets?","The NAV of a mutual fund primarily reflects which one of the following?"],
+   tip:"Entry-level, no negative marking. Equal 20% weightage across Ch 2-5. Good breadth coverage required."},
+  {id:"XIII",name:"Series XIII - Common Derivatives",diff:"Hard",calc:30,case_:0,concept:40,reg:20,app:10,timeQ:"72s",
+   calcTopics:["All from Series I+IV+VIII","Currency forward pricing","Bond math","Equity futures/options","Greeks","Strategy payoffs","Margins"],caselets:null,
+   sampleCalc:["Calculate modified duration","Compute cost of carry for equity futures","Calculate options payoff for a straddle"],
+   sampleConcept:["Which of the following is NOT a type of derivative?"],
+   tip:"150 Qs in 3 hrs. Bond math (from Series IV) is hardest. Study material = 3 workbooks. Budget extra time for calculations."},
+  {id:"XV",name:"Series XV - Research Analyst",diff:"Hard",calc:25,case_:20,concept:35,reg:15,app:5,timeQ:"72s",
+   calcTopics:["P/E, P/B, EV/EBITDA","DCF valuation","DDM","FCFE/FCFF","Financial ratios","Earnings yield","ROE/ROCE","Technical indicators"],
+   caselets:{count:5,qPer:4,marksPer:4,total:20,pct:20},
+   sampleCalc:["What is the earnings yield if price is Rs. 195 and EPS is Rs. 13?","How is price to earnings ratio calculated?"],
+   sampleConcept:["What is the role of Research Analyst?","Which method measures national income?"],
+   tip:"Revised Jan 2026: adds Technical Analysis (15 marks) + 5 case studies. Solve theory in 45-50 min; save time for cases."},
+  {id:"XVI",name:"Series XVI - Commodity Derivatives",diff:"Moderate",calc:20,case_:0,concept:45,reg:25,app:10,timeQ:"72s",
+   calcTopics:["Commodity futures pricing","Basis calculations","Options payoff","Hedging P&L","Margin requirements"],caselets:null,
+   sampleCalc:[],sampleConcept:["Which macroeconomic factors impact commodity prices?","Which of the following can be used as a Hedging Instrument?"],
+   tip:"Mirrors Series VIII for commodities. Ch 3-4 (futures+options, 30%) are calculation core. Know physical delivery differences."},
+  {id:"XVII",name:"Series XVII - Retirement Adviser",diff:"Moderate",calc:15,case_:0,concept:50,reg:20,app:15,timeQ:"72s",
+   calcTopics:["Retirement corpus","NPS tier structure","Annuity calculations","Replacement ratio","Inflation-adjusted returns"],caselets:null,
+   sampleCalc:[],sampleConcept:["Who defines eligibility norms of intermediaries in NPS?"],
+   tip:"NPS chapter (Ch 4, 20%) is highest weightage. Know NPS architecture, investment choices, exit rules."},
+  {id:"XIX-A",name:"Series XIX-A - AIF Dist (Cat I&II)",diff:"Moderate",calc:15,case_:0,concept:55,reg:20,app:10,timeQ:"72s",
+   calcTopics:["NAV computation","Management/performance fee","IRR/XIRR","TVPI","DPI"],caselets:null,
+   sampleCalc:[],sampleConcept:["Which persons are eligible to be sponsor of an AIF?","Which is the minimum stipulated corpus of an AIF scheme?"],
+   tip:"10% negative marking (lighter). Fund Due Diligence (Ch 8, 15%) is highest-weightage chapter."},
+  {id:"XIX-B",name:"Series XIX-B - AIF Dist (Cat III)",diff:"Moderate",calc:15,case_:0,concept:55,reg:20,app:10,timeQ:"72s",
+   calcTopics:["NAV computation","Long-short P&L","Leverage ratios","Fee impact"],caselets:null,
+   sampleCalc:[],sampleConcept:[],
+   tip:"Regulatory Framework (Ch 5, 15%) and Fee Structure (Ch 6, 15%) are highest-weightage chapters."},
+  {id:"XIX-C",name:"Series XIX-C - AIF Mgrs (All)",diff:"Hard",calc:25,case_:40,concept:25,reg:10,app:0,timeQ:"90s",
+   calcTopics:["IRR","TVPI/DPI/RVPI/MOIC","J-Curve modeling","NAV with waterfall","Carried interest","Hurdle rate","DCF","Mark-to-market"],
+   caselets:{count:6,qPer:5,marksPer:10,total:60,pct:40},
+   sampleCalc:[],sampleConcept:["Which of the following is/are the function(s) of secondary markets?","Which statement is False about AIF regulations?"],
+   tip:"Most comprehensive AIF exam (573 pages, 150 marks, 3 hrs). Caselets = fund structuring/performance scenarios. Master AIF metrics."},
+  {id:"XIX-D",name:"Series XIX-D - AIF Mgrs (Cat I&II)",diff:"Hard",calc:20,case_:40,concept:30,reg:10,app:0,timeQ:"90s",
+   calcTopics:["VC fund IRR","PE fund waterfall","Infra fund metrics","Valuation"],
+   caselets:{count:4,qPer:5,marksPer:10,total:40,pct:40},
+   sampleCalc:[],sampleConcept:["Which investors CANNOT invest in an Angel Fund?","Which persons are eligible to be sponsor of an AIF?"],
+   tip:"Subset of XIX-C. Investment Strategies (Ch 9) and Valuation (Ch 11) are calculation-heavy."},
+  {id:"XIX-E",name:"Series XIX-E - AIF Mgrs (Cat III)",diff:"Hard",calc:20,case_:40,concept:30,reg:10,app:0,timeQ:"90s",
+   calcTopics:["Hedge fund NAV","Long-short portfolio","Derivatives P&L","Leverage analysis","Risk-adjusted returns"],
+   caselets:{count:4,qPer:5,marksPer:10,total:40,pct:40},
+   sampleCalc:[],sampleConcept:["Which funds are NOT registered under SEBI AIF Regulations?"],
+   tip:"Investment Strategies (Ch 10, ~12%) focuses on hedge fund strategies - long/short, market neutral, event-driven."},
+  {id:"XXI-A",name:"Series XXI-A - PMS Distributors",diff:"Moderate",calc:15,case_:0,concept:50,reg:25,app:10,timeQ:"72s",
+   calcTopics:["Portfolio return","Sharpe ratio","Benchmark comparison","Fee impact"],caselets:null,
+   sampleCalc:["What is the expected return of the three stock portfolio?"],sampleConcept:["Which statement about Speculation is FALSE?","Which is essential for public issue of debt security?"],
+   tip:"10% negative marking. Revised March 2025. Know PMS minimum investment, fee structures, regulations."},
+  {id:"XXI-B",name:"Series XXI-B - Portfolio Managers",diff:"Hard",calc:25,case_:40,concept:15,reg:10,app:10,timeQ:"90s",
+   calcTopics:["MPT (efficient frontier/CAPM/beta)","Duration/convexity","Equity valuation","Performance attribution","TWRR vs MWRR","Tracking error","Information ratio"],
+   caselets:{count:6,qPer:5,marksPer:10,total:60,pct:40},
+   sampleCalc:[],sampleConcept:["Which is a step in the portfolio management process?","Which is an example of trading rules and indicators?"],
+   tip:"Highest caselet proportion (40%). 150 marks in 3 hrs. Practice caselets extensively. Ch 15-16 (MPT) + Ch 18-20 (strategies) are calc-heavy."},
+  {id:"XXIII",name:"Series XXIII - Social Impact",diff:"Moderate",calc:5,case_:15,concept:55,reg:20,app:5,timeQ:"72s",
+   calcTopics:["SROI calculations"],
+   caselets:{count:3,qPer:5,marksPer:5,total:15,pct:15},
+   sampleCalc:[],sampleConcept:["Social Enterprises have access to which of the following?","What is the Logical Framework (Logframe) used for?"],
+   tip:"Unique social sector exam. Ch 4-6 (impact assessment frameworks) carry most weightage. Cases are real-world scenarios."},
+  {id:"XXIV",name:"Series XXIV - AML & CFT",diff:"Easy",calc:0,case_:0,concept:50,reg:45,app:5,timeQ:"72s",
+   calcTopics:[],caselets:null,
+   sampleCalc:[],sampleConcept:["Which activities should NOT be done by a reporting entity?","Which statement about intermediary actions is TRUE?"],
+   tip:"Shortest/easiest exam. Pure knowledge recall of PMLA, AML guidelines, KYC norms. No negative marking. Attempt all."},
+  {id:"XXV-A",name:"Series XXV-A - Research Services",diff:"Easy",calc:0,case_:0,concept:55,reg:40,app:5,timeQ:"72s",
+   calcTopics:[],caselets:null,
+   sampleCalc:[],sampleConcept:[],
+   tip:"New (Feb 2026), remotely proctored. Complete course content 5 days before exam. No negative marking, 50% passing."},
+  {id:"IFSCA",name:"IFSCA-01 - AML in IFSC",diff:"Easy",calc:0,case_:0,concept:50,reg:45,app:5,timeQ:"72s",
+   calcTopics:[],caselets:null,
+   sampleCalc:[],sampleConcept:["Criminals practice money laundering by which of the following ways?","Which is correct about duty of a Regulated Entity?"],
+   tip:"Similar to XXIV but IFSC-focused. Ch 6 (IFSCA KYC Norms) = 10/50 marks. Only 2-year validity."}
+];
+
+// ===== STATS =====
+const calcHeavy = exams.filter(e => e.calc >= 25).length;
+const caseletExams = exams.filter(e => e.caselets).length;
+const easyExams = exams.filter(e => e.diff === "Easy").length;
+document.getElementById('stats').innerHTML = `
+  <div class="stat"><div class="n">${exams.length}</div><div class="l">Active Exams</div></div>
+  <div class="stat orange"><div class="n">${calcHeavy}</div><div class="l">Calculation-Heavy (25%+)</div></div>
+  <div class="stat purple"><div class="n">${caseletExams}</div><div class="l">Exams with Caselets</div></div>
+  <div class="stat green"><div class="n">${easyExams}</div><div class="l">Easy Difficulty</div></div>
+`;
+
+// ===== FILTERS =====
+let activeFilter = 'all';
+function renderFilters() {
+  const f = document.getElementById('filters');
+  const filters = [
+    {key:'all',label:'All Exams'},
+    {key:'calc',label:'Calculation-Heavy (25%+)'},
+    {key:'caselet',label:'Has Caselets'},
+    {key:'easy',label:'Easy'},
+    {key:'moderate',label:'Moderate'},
+    {key:'hard',label:'Hard'},
+    {key:'noreg',label:'No/Low Regulation'},
+    {key:'purereg',label:'Pure Regulatory'}
+  ];
+  f.innerHTML = '<label>Filter:</label>' + filters.map(fl =>
+    `<button class="fbtn${activeFilter===fl.key?' active':''}" onclick="setFilter('${fl.key}')">${fl.label}</button>`
+  ).join('');
+}
+function setFilter(key) {
+  activeFilter = key;
+  renderFilters();
+  renderCards();
+}
+function matchesFilter(e) {
+  if (activeFilter === 'all') return true;
+  if (activeFilter === 'calc') return e.calc >= 25;
+  if (activeFilter === 'caselet') return !!e.caselets;
+  if (activeFilter === 'easy') return e.diff === 'Easy';
+  if (activeFilter === 'moderate') return e.diff === 'Moderate';
+  if (activeFilter === 'hard') return e.diff === 'Hard';
+  if (activeFilter === 'noreg') return e.reg <= 15;
+  if (activeFilter === 'purereg') return e.reg >= 40;
+  return true;
+}
+
+// ===== CARDS =====
+function renderCards() {
+  const container = document.getElementById('cards');
+  container.innerHTML = exams.map((e, idx) => {
+    const hidden = matchesFilter(e) ? '' : ' hidden';
+    const badgeClass = e.diff === 'Easy' ? 'badge-easy' : e.diff === 'Moderate' ? 'badge-moderate' : 'badge-hard';
+    const calcW = e.calc;
+    const caseW = e.case_;
+    const conceptW = e.concept;
+    const regW = e.reg;
+    const appW = e.app || 0;
+
+    let calcTagsHTML = e.calcTopics.length ? '<div class="calc-topics">' + e.calcTopics.map(t => `<span class="calc-tag">${t}</span>`).join('') + '</div>' : '';
+    let caseletHTML = e.caselets ? `<div class="calc-topics"><span class="case-tag">${e.caselets.count} caselets = ${e.caselets.total} marks (${e.caselets.pct}%)</span></div>` : '';
+
+    let samplesHTML = '';
+    const allSamples = [...(e.sampleCalc||[]).map(q=>({type:'Calc',q})), ...(e.sampleConcept||[]).map(q=>({type:'Concept',q}))];
+    if (allSamples.length) {
+      samplesHTML = `<div class="samples" id="samples-${idx}"><h4>Sample Questions from Workbook</h4><ul>${allSamples.slice(0,5).map(s=>`<li><strong>[${s.type}]</strong> ${s.q}</li>`).join('')}</ul></div>
+      <button class="expand-btn" onclick="toggleSamples(${idx})">Show sample questions</button>`;
+    }
+
+    return `<div class="card${hidden}" data-idx="${idx}">
+      <div class="card-header">
+        <div class="card-title">${e.name}</div>
+        <span class="badge ${badgeClass}">${e.diff}</span>
+      </div>
+      <div class="bar-wrap">
+        <div class="bar-seg bar-calc" style="width:${calcW}%" title="Calculation ${calcW}%">${calcW>=10?calcW+'%':''}</div>
+        <div class="bar-seg bar-case" style="width:${caseW}%" title="Caselet ${caseW}%">${caseW>=10?caseW+'%':''}</div>
+        <div class="bar-seg bar-concept" style="width:${conceptW}%" title="Conceptual ${conceptW}%">${conceptW>=10?conceptW+'%':''}</div>
+        <div class="bar-seg bar-reg" style="width:${regW}%" title="Regulatory ${regW}%">${regW>=10?regW+'%':''}</div>
+      </div>
+      <div class="card-details">
+        <dl>
+          <dt>Calc:</dt><dd>${calcW}%</dd>
+          <dt>Caselet:</dt><dd>${caseW}%</dd>
+          <dt>Conceptual:</dt><dd>${conceptW}%</dd>
+          <dt>Regulatory:</dt><dd>${regW}%</dd>
+          <dt>Time/Q:</dt><dd>${e.timeQ}</dd>
+        </dl>
+      </div>
+      ${calcTagsHTML}${caseletHTML}
+      <div class="prep-tip">${e.tip}</div>
+      ${samplesHTML}
+    </div>`;
+  }).join('');
+}
+function toggleSamples(idx) {
+  const el = document.getElementById('samples-'+idx);
+  const btn = el.nextElementSibling;
+  if (el.classList.contains('open')) {
+    el.classList.remove('open');
+    btn.textContent = 'Show sample questions';
+  } else {
+    el.classList.add('open');
+    btn.textContent = 'Hide sample questions';
+  }
+}
+
+// ===== CASELET CARDS =====
+function renderCaselets() {
+  const ce = exams.filter(e => e.caselets);
+  document.getElementById('caseletCards').innerHTML = ce.map(e => {
+    const pct = e.caselets.pct;
+    return `<div class="caselet-card">
+      <h3>${e.name}</h3>
+      <p><strong>${e.caselets.count}</strong> caselets | <strong>${e.caselets.qPer}</strong> Qs each | <strong>${e.caselets.total}</strong> marks out of total</p>
+      <p>Caselet contribution: <strong>${pct}%</strong> of total marks</p>
+      <div class="marks-bar"><div class="marks-fill" style="width:${pct}%"></div></div>
+    </div>`;
+  }).join('');
+}
+
+// ===== HEATMAP =====
+function renderHeatmap() {
+  const topics = ["Futures Pricing","Options/Greeks","Bond Math","NAV Computation","Time Value of Money","Performance Metrics","Valuation (DCF)","AIF Metrics","Taxation","Margin/Risk"];
+  const heatExams = [
+    {id:"I",data:["H","H","","","","","","","","M"]},
+    {id:"IV",data:["H","H","H","","","","","","","M"]},
+    {id:"VIII",data:["H","H","","","","","","","M","M"]},
+    {id:"XIII",data:["H","H","H","","","","","","M","M"]},
+    {id:"XVI",data:["H","M","","","","","","","","M"]},
+    {id:"V-A",data:["","","","H","","","","","M",""]},
+    {id:"X-A",data:["","","M","","H","H","","","",""]},
+    {id:"X-B",data:["","","M","","H","","","","H",""]},
+    {id:"XV",data:["","","","","","","H","","",""]},
+    {id:"XVII",data:["","","","","H","M","","","",""]},
+    {id:"XIX-A",data:["","","","M","","M","","M","M",""]},
+    {id:"XIX-C",data:["","","","","","H","H","H","M",""]},
+    {id:"XIX-D",data:["","","","","","M","M","M","M",""]},
+    {id:"XIX-E",data:["","","","","","M","M","M","M",""]},
+    {id:"XXI-A",data:["","","","","","M","","","M",""]},
+    {id:"XXI-B",data:["","M","H","","","H","M","","M","M"]}
+  ];
+
+  let html = '<thead><tr><th>Exam</th>' + topics.map(t => `<th>${t}</th>`).join('') + '</tr></thead><tbody>';
+  heatExams.forEach(e => {
+    const exam = exams.find(x => x.id === e.id);
+    html += `<tr><td>${exam ? exam.name : e.id}</td>`;
+    e.data.forEach(v => {
+      const cls = v === 'H' ? 'hm-h' : v === 'M' ? 'hm-m' : v === 'L' ? 'hm-l' : 'hm-none';
+      html += `<td class="${cls}">${v || '-'}</td>`;
+    });
+    html += '</tr>';
+  });
+  html += '</tbody>';
+  document.getElementById('heatmap').innerHTML = html;
+}
+
+// ===== GROUPS =====
+function renderGroups() {
+  const groups = [
+    {name:"Group 1: Pure Theory / Regulatory",cls:"group-theory",
+     strategy:"Flashcard-heavy, regulation memorization, practice MCQs for recall speed",
+     exams:["XXIV","IFSCA","XXV-A","III-A","III-C","II-A","II-B","VI","X-C"]},
+    {name:"Group 2: Balanced (Theory + Moderate Calculations)",cls:"group-balanced",
+     strategy:"Concept understanding + targeted numerical practice on specific chapters",
+     exams:["V-A","V-B","VII","IX","XII","XVI","XVII","XIX-A","XIX-B","XXI-A","XXIII"]},
+    {name:"Group 3: Calculation-Heavy + Caselets",cls:"group-calc",
+     strategy:"Formula sheets, extensive calculation practice, caselet mock tests, time management drills",
+     exams:["I","IV","VIII","XIII","X-A","X-B","XV","XIX-C","XIX-D","XIX-E","XXI-B"]}
+  ];
+  document.getElementById('groups').innerHTML = groups.map(g => {
+    const examNames = g.exams.map(id => {
+      const e = exams.find(x => x.id === id);
+      return e ? e.name : id;
+    });
+    return `<div class="group ${g.cls}">
+      <h3>${g.name}</h3>
+      <p><strong>Strategy:</strong> ${g.strategy}</p>
+      <div class="exams">${examNames.join(' | ')}</div>
+    </div>`;
+  }).join('');
+}
+
+// ===== INIT =====
+renderFilters();
+renderCards();
+renderCaselets();
+renderHeatmap();
+renderGroups();
+</script>
+</body>
+</html>

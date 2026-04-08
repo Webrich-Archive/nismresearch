@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_92" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How is the DSP calculated if there is no close price available?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[It is set equal to the theoretical price of the futures contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[The previous day's DSP is used]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trading is suspended until a price is available]]></text></answer>
+            <answer correct="no"><text><![CDATA[The FBIL reference rate is used]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** If the VWAP from the last 30 minutes (close price) is not available, the DSP defaults to the theoretical futures price calculated using interest rate parity.
+**The Trap:** The FBIL reference rate is used for FINAL settlement, not daily settlement when close price is unavailable.
+**Cross-Exam Context:** DSP calculation methodology is specific to Series I.
+**Distributor's Pro-Tip:** The theoretical price ensures that even illiquid contracts have a fair daily settlement price.]]></text></explanation>
+    </question>
+</QF>

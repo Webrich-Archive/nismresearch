@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_111" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A portfolio manager expects the IT sector to outperform in the next month due to strong earnings. Which option strategy is MOST appropriate?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy call options on IT stocks or IT sector index]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy put options on IT stocks]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell call options on IT stocks]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy put options on Nifty 50]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** BULLISH view → Buy Calls. The manager expects IT stocks to RISE, so buying calls gives the right to buy at today's price and profit from the expected increase.
+
+Benefits of buying calls over buying stocks:
+- Lower capital outlay (only premium, not full stock price)
+- Limited downside risk (maximum loss = premium)
+- Higher percentage returns (leverage)
+
+**The Trap:** Selling calls would be appropriate for a neutral/slightly bearish view, not bullish.
+
+**Cross-Exam Context:** Bullish = Buy Calls. Bearish = Buy Puts. Neutral = Sell options / Spreads.
+
+**Key Takeaway:** Bullish expectation → Buy calls. Limited risk, leveraged upside.]]></text></explanation>
+    </question>
+</QF>

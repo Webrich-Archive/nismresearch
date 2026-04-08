@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_54" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For JPYINR currency futures, the price is quoted in Indian Rupees for:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[100 Japanese Yen]]></text></answer>
+            <answer correct="no"><text><![CDATA[1 Japanese Yen]]></text></answer>
+            <answer correct="no"><text><![CDATA[1,000 Japanese Yen]]></text></answer>
+            <answer correct="no"><text><![CDATA[10,000 Japanese Yen]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** JPYINR is quoted per 100 JPY (not per 1 JPY). This convention is used because 1 JPY has a very small value in INR (less than Re 1), making per-unit quotation impractical.
+**The Trap:** All other INR pairs (USDINR, EURINR, GBPINR) are quoted per 1 unit of base currency.
+**Cross-Exam Context:** Quotation conventions are specific to Series I.
+**Distributor's Pro-Tip:** In the spot market, FBIL also publishes JPY/INR rate per 100 JPY units.]]></text></explanation>
+    </question>
+</QF>

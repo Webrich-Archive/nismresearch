@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_22" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When the spot price of Nifty is 17,500 and a trader holds a call option with strike price 17,500, the option is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[At-the-Money (ATM) because the spot price equals the strike price]]></text></answer>
+            <answer correct="no"><text><![CDATA[In-the-Money (ITM) because the option has been purchased]]></text></answer>
+            <answer correct="no"><text><![CDATA[Out-of-the-Money (OTM) because there is no profit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Neither ITM nor OTM - it is called a neutral option]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When Spot Price = Strike Price, the option is AT-THE-MONEY (ATM). This applies to BOTH calls and puts.
+- ATM Call: S = X (17,500 = 17,500)
+- ATM Put: S = X (17,500 = 17,500)
+
+**The Trap:** ATM does not mean "no profit." An ATM option still has time value and can become profitable.
+
+**Cross-Exam Context:** ATM options have the highest time value and the highest gamma among all strike prices.
+
+**Key Takeaway:** ATM: Spot = Strike. True for both calls and puts. ATM options have maximum time value.]]></text></explanation>
+    </question>
+</QF>

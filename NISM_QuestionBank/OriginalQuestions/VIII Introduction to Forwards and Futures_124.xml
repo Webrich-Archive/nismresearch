@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_124" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Since October 2019, how are stock futures (single stock derivatives) settled in India?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Through physical delivery settlement, where the actual shares are delivered by the seller and received by the buyer on expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Through cash settlement, where only the price difference is exchanged between buyer and seller]]></text></answer>
+            <answer correct="no"><text><![CDATA[Through a combination of cash and physical settlement, at the trader's choice]]></text></answer>
+            <answer correct="no"><text><![CDATA[Index futures are physically settled while stock futures are cash settled]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI mandated compulsory physical settlement for all stock derivatives (futures and options on individual stocks) with effect from October 2019. This means:
+- At expiry, if a stock futures position is not closed, the ACTUAL SHARES are delivered
+- The seller must deliver shares, the buyer must accept and pay
+- This was done to improve price discovery and reduce manipulation near expiry
+
+Index futures continue to be CASH SETTLED (since an index cannot be physically delivered).
+
+**The Trap:** It is the REVERSE of the last option - STOCK futures are physically settled, INDEX futures are cash settled. There is no choice - physical settlement is mandatory for stock derivatives.
+
+**Cross-Exam Context:** Physical settlement rules are extensively tested in Series VIII clearing and settlement chapter.
+
+**Key Takeaway:** Since Oct 2019: Stock derivatives = physical settlement (mandatory). Index derivatives = cash settlement.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Risk Return and Performance_38" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investor is comparing two large-cap equity funds with similar R-squared values close to 1. Which risk-adjusted performance measure would be MOST appropriate for comparison?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Standard deviation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sharpe ratio]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Treynor ratio]]></text></answer>
+            <answer correct="no"><text><![CDATA[Absolute return]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When funds have high R-squared values (close to 1), it means they closely track their benchmark, and most of their risk is systematic (market) risk. In such cases, the Treynor ratio is more appropriate because it uses beta (systematic risk) in the denominator. Since unsystematic risk has been diversified away, measuring risk-adjusted returns per unit of systematic risk provides a more meaningful comparison.
+
+**The Trap:** The Sharpe ratio uses standard deviation (total risk), which includes both systematic and unsystematic risk. When R-squared is high, unsystematic risk is minimal, so standard deviation and beta-based measures should give similar rankings -- but the Treynor ratio is theoretically more appropriate. Standard deviation alone is a risk measure, not a risk-adjusted performance measure. Absolute return ignores risk entirely.
+
+**Cross-Exam Context:** The choice between Sharpe and Treynor depends on the fund's R-squared. High R² = use Treynor (systematic risk dominates). Low R² = use Sharpe (unsystematic risk is significant, so total risk is more relevant). This nuance is frequently tested in NISM and CFA exams.
+
+**Distributor's Pro-Tip:** For well-diversified large-cap funds that closely track the Nifty 50, the Treynor ratio provides the clearest picture of risk-adjusted performance. For more concentrated or thematic funds with lower R-squared, the Sharpe ratio is the better choice because total risk is more relevant.]]></text></explanation>
+    </question>
+</QF>

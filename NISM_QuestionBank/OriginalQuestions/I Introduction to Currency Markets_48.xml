@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Introduction to Currency Markets_48" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader in Mumbai wants to convert INR 10 million into Philippine Pesos (PHP). What is the most efficient conversion path?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Sell INR for USD, then sell USD for PHP (using USD as vehicle currency)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Directly exchange INR for PHP in the interbank market]]></text></answer>
+            <answer correct="no"><text><![CDATA[Convert INR to EUR first, then EUR to PHP]]></text></answer>
+            <answer correct="no"><text><![CDATA[Wait for a direct INR/PHP quote from an Indian bank]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The USD/INR and USD/PHP markets are much more liquid than a bilateral INR/PHP market. Using USD as a vehicle currency results in two transactions but with better pricing and liquidity.
+**The Trap:** While a direct INR/PHP conversion might seem simpler, the bilateral market is illiquid with wide spreads.
+**Cross-Exam Context:** Vehicle currency concept is specific to Series I.
+**Distributor's Pro-Tip:** For any exotic currency conversion, going through USD (or EUR) as a vehicle currency almost always yields better rates due to superior liquidity.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Trading Mechanism_27" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A 'Kill Switch' in the trading system allows:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A member to cancel all outstanding orders across all segments instantly]]></text></answer>
+            <answer correct="no"><text><![CDATA[The exchange to shut down the entire market]]></text></answer>
+            <answer correct="no"><text><![CDATA[A client to cancel the broker's orders]]></text></answer>
+            <answer correct="no"><text><![CDATA[SEBI to suspend a member's trading rights]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Kill Switch is a risk management tool that allows a member to cancel ALL outstanding orders across segments in a single action, typically used during technical glitches or extreme market conditions.
+**The Trap:** Kill Switch is for the MEMBER (broker), not the exchange or client.
+**Cross-Exam Context:** Risk management tools are tested in Series I.
+**Distributor's Pro-Tip:** Kill Switch provides rapid risk reduction when algo systems malfunction or during unexpected market events.]]></text></explanation>
+    </question>
+</QF>

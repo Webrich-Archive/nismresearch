@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A company with both USD imports and USD exports can hedge by:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Hedging only the residual net exposure (imports minus exports or vice versa)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Hedging the full import amount and full export amount separately]]></text></answer>
+            <answer correct="no"><text><![CDATA[Not hedging at all since imports and exports cancel out]]></text></answer>
+            <answer correct="no"><text><![CDATA[Using only options, never futures]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When a company has both USD inflows and outflows, the natural offset reduces the net exposure. Only the RESIDUAL amount (net of imports and exports) needs hedging, provided there's no significant timing gap.
+**The Trap:** Complete offsetting (no hedge) is risky if there are significant timing gaps between receivables and payables.
+**Cross-Exam Context:** Net exposure hedging is tested in Series I.
+**Distributor's Pro-Tip:** If imports > exports, the residual is a net USD outflow — hedge by buying USDINR futures. If exports > imports, hedge by selling USDINR futures.]]></text></explanation>
+    </question>
+</QF>

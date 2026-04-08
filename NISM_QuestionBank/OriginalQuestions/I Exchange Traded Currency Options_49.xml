@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_49" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An importer buys 50 lots of USDINR 84 call at Rs. 0.15 premium. Total premium outflow is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 7,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 750]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 75,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 150]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Total premium = Premium × Lot size × Lots = 0.15 × 1000 × 50 = Rs. 7,500.
+**The Trap:** Don't forget the lot size multiplier (1000).
+**Cross-Exam Context:** Premium outflow is tested in Series I.
+**Distributor's Pro-Tip:** This Rs. 7,500 is the maximum the importer can lose — it's the cost of 'insurance' against USD appreciation above 84.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_46" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader sells Nifty futures at 25,200 in the morning and buys them back at 24,950 in the afternoon. Lot size is 65. What is the profit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 16,250]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 16,250]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 250]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 250]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+1. Sell price: 25,200 (opened short)
+2. Buy price: 24,950 (closed short by buying back)
+3. Per unit profit = 25,200 - 24,950 = 250 points (short profits from price fall)
+4. Total profit = 250 x 65 = Rs. 16,250
+
+**The Trap:** This is a SHORT intraday trade. The trader sold first and bought back later at a lower price, making a profit. Don't reverse the calculation direction for short trades.
+
+**Cross-Exam Context:** Short selling for intraday profit is a key trading concept in Series VIII.
+
+**Key Takeaway:** Short intraday profit = (Sell Price - Buy Price) x Lot Size. Shorts profit when they buy back lower.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Gamma measures:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The rate of change of delta with respect to change in the price of the underlying asset]]></text></answer>
+            <answer correct="no"><text><![CDATA[The rate of change of option premium with respect to time]]></text></answer>
+            <answer correct="no"><text><![CDATA[The rate of change of premium with respect to volatility]]></text></answer>
+            <answer correct="no"><text><![CDATA[The rate of change of premium with respect to interest rates]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Gamma = Change in delta / Unit change in underlying. It's the 'acceleration' of the option — how fast delta changes. Gamma is highest for ATM options and decreases for deep ITM/OTM.
+**The Trap:** Gamma is the SECOND derivative of option price with respect to underlying price (delta is the first).
+**Cross-Exam Context:** Gamma concept is tested in Series I and VIII.
+**Distributor's Pro-Tip:** High gamma means delta changes rapidly with small price moves — making the option harder to delta-hedge.]]></text></explanation>
+    </question>
+</QF>

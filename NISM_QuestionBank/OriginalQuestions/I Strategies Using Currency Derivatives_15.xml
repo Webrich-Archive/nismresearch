@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An arbitrager buys in the cash market at Rs. 100 and sells futures at Rs. 110 (lot size 50). If spot at expiry is Rs. 108, what is the total profit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 500 (regardless of the expiry price)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 400]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 100]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 750]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Cash: buy 100, sell 108 = +8. Futures: sell 110, buy 108 = +2. Total per unit = 10 × 50 lots = Rs. 500. Even if spot was 95: Cash -5, Futures +15 = +10 × 50 = Rs. 500.
+**The Trap:** The profit is LOCKED at Rs. 10 per unit regardless of where spot ends — that's the beauty of arbitrage.
+**Cross-Exam Context:** This is directly from the workbook arbitrage example.
+**Distributor's Pro-Tip:** In reality, transaction costs, carry costs, and execution risk reduce the actual arbitrage profit.]]></text></explanation>
+    </question>
+</QF>

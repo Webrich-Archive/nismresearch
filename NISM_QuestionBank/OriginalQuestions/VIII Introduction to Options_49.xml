@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_49" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which type of option typically has the HIGHEST gamma?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[ATM options near expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Deep ITM options with long time to expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Deep OTM options with long time to expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[ITM options at the start of the trading cycle]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Gamma is HIGHEST for ATM options near expiry because:
+- ATM options have the most uncertain outcome (could end ITM or OTM)
+- Near expiry, small price changes cause large delta swings
+- Delta can rapidly shift from 0.5 to 0 or 1
+
+**The Trap:** Deep ITM and deep OTM options have LOW gamma because their deltas are already near 1 or 0 respectively.
+
+**Cross-Exam Context:** High gamma near expiry creates "gamma risk" for option writers.
+
+**Key Takeaway:** Maximum gamma: ATM + near expiry. Gamma risk is highest for short-term ATM options.]]></text></explanation>
+    </question>
+</QF>

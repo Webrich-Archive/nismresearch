@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV TER and Pricing_30" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How are debt and money market instruments typically valued for NAV computation in a mutual fund scheme?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Through amortization-based valuation or mark-to-market valuation, as prescribed by SEBI and AMFI guidelines]]></text></answer>
+            <answer correct="no"><text><![CDATA[Always at their face value until maturity]]></text></answer>
+            <answer correct="no"><text><![CDATA[At the purchase price paid by the mutual fund]]></text></answer>
+            <answer correct="no"><text><![CDATA[At the last traded price on the stock exchange only]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Debt and money market instruments are valued using amortization-based methods (where the discount/premium is spread over the remaining maturity) or mark-to-market methods (reflecting current market yields and prices). SEBI has progressively moved towards mark-to-market valuation for greater transparency and accuracy.
+
+**The Trap:** Valuing at face value ignores the impact of interest rate changes on bond prices. Purchase price (historical cost) does not reflect current market conditions. While some debt instruments may trade on exchanges, many do not, so "last traded price only" is insufficient. Debt valuation requires specialized methods.
+
+**Cross-Exam Context:** After the Franklin Templeton crisis, SEBI tightened debt valuation norms, requiring more instruments to be marked to market. This means debt fund NAVs can fluctuate based on interest rate movements and credit events, unlike the earlier amortization-based approach that showed smooth NAV growth. Tested in NISM V-A.
+
+**Distributor's Pro-Tip:** Explain to clients that debt funds are not "fixed deposit substitutes" — their NAV can fluctuate due to mark-to-market valuation. When interest rates rise, existing bond prices fall, leading to NAV decline in debt funds. This is why duration and credit quality matter when selecting debt funds. Help clients match their investment horizon with the fund's portfolio duration.]]></text></explanation>
+    </question>
+</QF>

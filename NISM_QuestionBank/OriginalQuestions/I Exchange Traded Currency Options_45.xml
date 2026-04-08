@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_45" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A car insurance premium is analogous to which option concept?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The option premium paid by the option buyer]]></text></answer>
+            <answer correct="no"><text><![CDATA[The strike price of the option]]></text></answer>
+            <answer correct="no"><text><![CDATA[The intrinsic value of the option]]></text></answer>
+            <answer correct="no"><text><![CDATA[The delta of the option]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Car insurance is like buying a put option: you pay a premium (insurance premium) for protection against loss. If no damage occurs, the insurer keeps the premium (like an OTM option expiring).
+**The Trap:** The insurance premium protects against downside — exactly like an option premium provides downside protection.
+**Cross-Exam Context:** Real-world option analogies are tested in Series I.
+**Distributor's Pro-Tip:** Extended warranty = put option (pay extra for protection). Insurance premium = option premium. Claim = exercising the option.]]></text></explanation>
+    </question>
+</QF>

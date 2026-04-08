@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Risk Return and Performance_27" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A mutual fund's NAV grew from Rs. 10 to Rs. 25 over 5 years. What is the approximate CAGR?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[30%]]></text></answer>
+            <answer correct="no"><text><![CDATA[15%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[20.11%]]></text></answer>
+            <answer correct="no"><text><![CDATA[25%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** CAGR = (Ending Value / Beginning Value)^(1/n) - 1 = (25/10)^(1/5) - 1 = (2.5)^(0.2) - 1. Computing: 2.5^0.2 = e^(0.2 x ln 2.5) = e^(0.2 x 0.9163) = e^(0.1833) = 1.2011. So CAGR = 1.2011 - 1 = 0.2011 = 20.11%.
+
+**The Trap:** 30% is the simple annual return trap: (150% total return / 5 years = 30%), which ignores compounding. 15% is the absolute return divided by some arbitrary factor. 25% might be confused with the ending NAV value. CAGR accounts for compounding and gives the true annualized growth rate.
+
+**Cross-Exam Context:** CAGR is the SEBI-mandated way to express returns for periods exceeding 1 year. The total absolute return here is 150% ((25-10)/10 x 100), but expressing it as CAGR (20.11%) gives a meaningful annualized figure that investors can compare with other investments.
+
+**Distributor's Pro-Tip:** Help clients understand the power of compounding by working through CAGR calculations. "Your Rs. 10 became Rs. 25 in 5 years -- that is a 20.11% annual compounded growth rate, NOT 30% per year. This is because each year's return compounds on the previous year's accumulated value."]]></text></explanation>
+    </question>
+</QF>

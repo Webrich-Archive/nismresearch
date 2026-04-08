@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_114" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A stock trades at Rs. 1,000 on both NSE and BSE. On NSE, the futures are at Rs. 1,025 and on BSE, the same stock's futures are at Rs. 1,015 (same expiry). How can a trader profit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy the cheaper BSE futures at Rs. 1,015 and sell the expensive NSE futures at Rs. 1,025, locking in a Rs. 10 per share profit as both converge at expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy NSE futures because NSE has higher liquidity and better price discovery]]></text></answer>
+            <answer correct="no"><text><![CDATA[The Rs. 10 difference is normal across exchanges and cannot be arbitraged]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell both NSE and BSE futures to benefit from the convergence]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** This is an inter-exchange arbitrage:
+1. Buy BSE futures at Rs. 1,015 (cheaper)
+2. Sell NSE futures at Rs. 1,025 (more expensive)
+3. At expiry, both settle at the same spot price
+4. Guaranteed profit = 1,025 - 1,015 = Rs. 10 per share (minus transaction costs)
+
+The key is that both futures on the SAME stock must converge to the SAME spot price at expiry.
+
+**The Trap:** Higher liquidity does not mean better prices. The Rs. 10 difference CAN be arbitraged. Selling both creates directional risk, not arbitrage.
+
+**Cross-Exam Context:** Inter-exchange arbitrage is a valid strategy tested in Series VIII.
+
+**Key Takeaway:** Inter-exchange arbitrage: Buy cheap exchange, sell expensive exchange. Both converge to same spot at expiry.]]></text></explanation>
+    </question>
+</QF>

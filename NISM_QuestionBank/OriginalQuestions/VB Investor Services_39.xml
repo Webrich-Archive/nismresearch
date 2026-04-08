@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VB Investor Services_39" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[An investor invests Rs. 6,000 monthly via SIP. In the first month NAV is Rs. 30, second month NAV is Rs. 20, and third month NAV is Rs. 60. What is the total number of units accumulated after 3 months?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[600 units]]></text></answer>
+            <answer correct="no"><text><![CDATA[450 units]]></text></answer>
+            <answer correct="no"><text><![CDATA[500 units]]></text></answer>
+            <answer correct="no"><text><![CDATA[300 units]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Month 1: Rs. 6,000 / Rs. 30 = 200 units. Month 2: Rs. 6,000 / Rs. 20 = 300 units. Month 3: Rs. 6,000 / Rs. 60 = 100 units. Total units = 200 + 300 + 100 = 600 units. Total investment = Rs. 18,000. Average cost per unit = Rs. 18,000 / 600 = Rs. 30.
+**The Trap:** Notice how the most units (300) were accumulated in Month 2 when the NAV was lowest (Rs. 20). This is rupee cost averaging at work - fixed amount investing automatically buys more at lower prices.
+**Cross-Exam Context:** Also tested in V-A and Series XXIV. Multi-month SIP calculation.
+**Distributor's Pro-Tip:** Use this 3-month example to show retired investors how SIP works in practice. Point out that the market dropped in Month 2 but the investor actually benefited by getting more units at the lower price. This helps reduce the fear of market dips.]]></text></explanation>
+    </question>
+</QF>

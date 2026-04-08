@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Legal and Regulatory Framework_56" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under SEBI's guidelines on unclaimed redemption and dividend amounts, if the amount remains unclaimed for more than 3 years, the investor upon claiming will receive payment at ________.]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The NAV prevailing at the end of the 3rd year from the due date]]></text></answer>
+            <answer correct="no"><text><![CDATA[The latest prevailing NAV at the time of claim]]></text></answer>
+            <answer correct="no"><text><![CDATA[The face value of the units]]></text></answer>
+            <answer correct="no"><text><![CDATA[The lower of the NAV at 3 years or the current NAV]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI's framework for unclaimed amounts works in two phases: (1) Within 3 years of the due date, if the investor claims, they receive payment at the prevailing NAV at the time of claim. (2) After 3 years, payment is fixed at the NAV prevailing at the end of the 3rd year from the due date. The unclaimed amounts are invested in a separate plan (typically a money market plan), and any gains from this investment accrue to the AMC, not the investor, after the 3-year mark.
+
+**The Trap:** "Latest prevailing NAV" (Option B) is correct only for claims within 3 years, not after. "Face value" (Option C) ignores market appreciation/depreciation entirely. "Lower of two NAVs" (Option D) is a fabricated formula. The critical distinction is the 3-year cutoff: before 3 years = current NAV, after 3 years = NAV at end of year 3.
+
+**Cross-Exam Context:** Unclaimed amounts treatment is tested to assess knowledge of investor protection mechanisms. The AMC must make genuine efforts to contact investors before amounts become unclaimed, and must maintain a separate plan for these amounts.
+
+**Key Takeaway:** Unclaimed amounts: within 3 years = prevailing NAV at claim date. After 3 years = NAV at end of 3rd year (frozen). Claim early to get current NAV.]]></text></explanation>
+    </question>
+</QF>

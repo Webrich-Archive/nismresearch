@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_29" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When the Nifty 50 spot index is at 25,000 and the Nifty 50 futures contract is trading at 25,120, the basis is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Negative 120 (or -120), because Spot (25,000) - Futures (25,120) = -120]]></text></answer>
+            <answer correct="no"><text><![CDATA[Positive 120 (or +120), because the futures premium is Rs. 120]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.48%, calculated as (120/25,000) x 100]]></text></answer>
+            <answer correct="no"><text><![CDATA[Positive 25,000, which is the spot price component of the basis]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Basis = Spot Price - Futures Price = 25,000 - 25,120 = -120. The basis is negative because the futures are trading above the spot price (i.e., futures are at a premium). This is the normal situation when cost of carry is positive.
+
+**The Trap:** The most common mistake is calculating Futures - Spot = +120 (reversing the formula). The percentage calculation is not how basis is expressed. And basis is a difference, not a level.
+
+**Cross-Exam Context:** Calculating basis and understanding its sign is essential for hedging and arbitrage questions in Series VIII.
+
+**Key Takeaway:** Basis = Spot - Futures = 25,000 - 25,120 = -120 (negative means futures at premium).]]></text></explanation>
+    </question>
+</QF>

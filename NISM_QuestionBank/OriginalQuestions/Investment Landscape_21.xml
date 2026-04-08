@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Investment Landscape_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Duration, as a measure of bond risk, indicates:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The remaining time until the bond matures]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The sensitivity of a bond's price to changes in interest rates]]></text></answer>
+            <answer correct="no"><text><![CDATA[The probability that the bond issuer will default on payments]]></text></answer>
+            <answer correct="no"><text><![CDATA[The yield to maturity of the bond investment]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Duration (specifically Macaulay duration or modified duration) measures the sensitivity of a bond's price to changes in interest rates. A bond with a duration of 5 years will see its price change by approximately 5% for every 1% change in interest rates. Higher duration means greater price sensitivity to rate changes.
+
+**The Trap:** Option A is the most common confusion -- "duration" sounds like it should mean "time to maturity," and while they are related (longer maturity generally means longer duration), duration is a weighted average measure of cash flow timing, not simply the maturity date. Zero-coupon bonds have duration equal to maturity, but coupon-paying bonds have duration shorter than maturity.
+
+**Cross-Exam Context:** Duration is tested in NISM V-A (debt fund classification uses duration) and XII. SEBI's mutual fund categorization directly uses Macaulay duration to classify debt funds: short duration (1-3 years), medium duration (3-4 years), long duration (>7 years).
+
+**Distributor's Pro-Tip:** When selecting debt funds, match the fund's duration to the client's investment horizon. If a client plans to invest for 2 years, recommend a short-duration fund (duration 1-3 years) to minimize interest rate risk. Mismatching duration to horizon is a common advisory error.]]></text></explanation>
+    </question>
+</QF>

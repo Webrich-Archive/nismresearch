@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_61" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The spot price of a stock is Rs. 3,000 and a 2-month futures contract is fairly priced at Rs. 3,045. What is the annualized cost of carry (r-q) implied by this pricing?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Approximately 9.1% per annum]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 1.5% per annum]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 45% per annum]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 18% per annum]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+F = S x [1 + (r-q) x T/365] (using simple interest approximation)
+3,045 = 3,000 x [1 + (r-q) x 60/365]
+3,045/3,000 = 1 + (r-q) x 0.1644
+1.015 = 1 + (r-q) x 0.1644
+0.015 = (r-q) x 0.1644
+(r-q) = 0.015/0.1644 = 0.09124 = 9.12% per annum
+
+**The Trap:** 1.5% is the 2-month carry (not annualized). 45% incorrectly annualizes. 18% doubles the 9% figure. The key step is annualizing by multiplying by 365/60.
+
+**Cross-Exam Context:** Implied cost of carry helps traders assess if futures are cheap or expensive, relevant for arbitrage in Series VIII.
+
+**Key Takeaway:** Implied annualized carry = [(F/S) - 1] x 365/T = [3045/3000 - 1] x 365/60 = 9.1% p.a.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An importer hedges 50% of USD 1,600,000 exposure at futures rate 81.50. Spot at payment is 82, futures at 82.05. What is the effective exchange rate?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 81.725]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 82.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 81.45]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 81.775]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Futures P&L on hedged half: 82.05 - 81.50 = +0.55. Hedged rate = 82 - 0.55 = 81.45. Unhedged rate = 82. Effective = (82 × 0.5) + (81.45 × 0.5) = 81.725.
+**The Trap:** Only 50% was hedged, so the effective rate is the weighted average of hedged and unhedged rates.
+**Cross-Exam Context:** Partial hedging is directly from the workbook example.
+**Distributor's Pro-Tip:** Full hedge would have given 81.45. No hedge would have given 82. Partial hedge gives a blended rate.]]></text></explanation>
+    </question>
+</QF>

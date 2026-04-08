@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_32" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A Custodial Participant (CP) is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A client eligible for trading through multiple trading members while clearing through a single clearing member]]></text></answer>
+            <answer correct="no"><text><![CDATA[A clearing member who acts as custodian of client funds]]></text></answer>
+            <answer correct="no"><text><![CDATA[A government-appointed custodian of exchange records]]></text></answer>
+            <answer correct="no"><text><![CDATA[A backup clearing member for emergencies]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** CPs trade through multiple TMs but clear all trades through one CM. The CP must confirm trades entered by TMs. Unconfirmed trades are treated as TM proprietary trades.
+**The Trap:** CPs are typically institutional investors who need the flexibility of multiple brokers.
+**Cross-Exam Context:** CP concept is tested in Series I and VII.
+**Distributor's Pro-Tip:** CPs must confirm trades within a specified timeframe; unconfirmed trades are reclassified to the TM's proprietary account.]]></text></explanation>
+    </question>
+</QF>

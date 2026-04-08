@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_77" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following is the key reason why the futures price is not determined by demand and supply for the futures contract?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Because the price of derivatives is determined by the underlying asset's price through the no-arbitrage relationship]]></text></answer>
+            <answer correct="no"><text><![CDATA[Because SEBI fixes the futures price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Because the exchange sets maximum and minimum prices]]></text></answer>
+            <answer correct="no"><text><![CDATA[Because only hedgers trade in the futures market]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The derivative price is linked to the underlying (spot) price through interest rate parity. If futures deviate from fair value, arbitrageurs step in to restore equilibrium. Thus, the underlying drives the derivative, not vice versa.
+**The Trap:** While demand-supply can cause temporary deviations, arbitrage forces restore the relationship quickly.
+**Cross-Exam Context:** Price discovery mechanism is tested in Series I and VIII.
+**Distributor's Pro-Tip:** This is why understanding the interest rate parity formula is critical — it tells you the 'fair' futures price at any given time.]]></text></explanation>
+    </question>
+</QF>

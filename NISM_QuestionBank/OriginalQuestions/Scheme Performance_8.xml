@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Scheme Performance_8" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which performance measure penalizes ONLY downside volatility, not upside volatility?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Sharpe Ratio]]></text></answer>
+            <answer correct="no"><text><![CDATA[Information Ratio]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Sortino Ratio]]></text></answer>
+            <answer correct="no"><text><![CDATA[Tracking Error]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The Sortino Ratio uses downside deviation instead of total standard deviation in its denominator. The formula is: Sortino Ratio = (Fund Return - Risk-free Rate) / Downside Deviation. Unlike the Sharpe Ratio which penalizes both upside and downside volatility equally, the Sortino Ratio only penalizes returns that fall below a minimum acceptable return (typically the risk-free rate). This makes it a more refined measure since investors generally do not mind upside volatility.
+
+**The Trap:** The Sharpe Ratio uses total standard deviation (both up and down movements), making it penalize even positive surprises. Information Ratio measures excess return per unit of tracking error. Tracking Error is a measure of replication consistency, not a risk-adjusted return ratio.
+
+**Cross-Exam Context:** In NISM III-C (Investment Adviser), the Sortino Ratio is tested as an advanced risk-adjusted measure. Understanding when to use Sortino vs Sharpe is critical for proper fund evaluation.
+
+**Distributor's Pro-Tip:** When a fund has high returns but high volatility, the Sharpe Ratio may look mediocre because it penalizes all volatility. The Sortino Ratio can reveal whether that volatility was mostly on the upside (good) or downside (bad). A fund with a higher Sortino than Sharpe ratio likely has more upside volatility than downside.]]></text></explanation>
+    </question>
+</QF>

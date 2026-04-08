@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_63" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Using continuous compounding F = S x e^((r-q) x T/365), if the spot price is 17,500, r = 12%, q = 4%, and T = 90 days, what is the fair futures price?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 17,848.63 (approximately)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 17,835.26]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 18,900.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 17,500.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation using continuous compounding:
+F = S x e^((r-q) x T/365)
+F = 17,500 x e^((0.12 - 0.04) x 90/365)
+F = 17,500 x e^(0.08 x 0.2466)
+F = 17,500 x e^(0.01973)
+F = 17,500 x 1.01992
+F = Rs. 17,848.63
+
+**The Trap:** Rs. 17,835.26 is the discrete compounding answer (using (1+r-q)^T). The continuous compounding answer is slightly higher. Rs. 18,900 uses simple multiplication. Rs. 17,500 ignores carry.
+
+**Cross-Exam Context:** Both discrete and continuous compounding formulas are tested in Series VIII. Continuous compounding gives a slightly higher fair value.
+
+**Key Takeaway:** Continuous: F = Se^((r-q)T/365). Discrete: F = S(1+r-q)^(T/365). Continuous gives slightly higher value.]]></text></explanation>
+    </question>
+</QF>

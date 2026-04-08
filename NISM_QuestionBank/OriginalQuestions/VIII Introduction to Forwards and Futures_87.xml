@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_87" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The hedge ratio for a portfolio hedged using futures is calculated as:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Hedge Ratio = (Portfolio Value x Portfolio Beta) / (Futures Price x Lot Size)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Hedge Ratio = Futures Price / Spot Price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Hedge Ratio = Portfolio Beta / Number of contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[Hedge Ratio = (Futures Price x Lot Size) / Portfolio Value]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The hedge ratio gives the NUMBER of futures contracts needed to offset the portfolio's market risk. The formula accounts for: (1) portfolio size (larger portfolio needs more contracts), (2) beta (higher beta needs more contracts), and (3) futures contract value (larger contract value means fewer contracts needed).
+
+Number of contracts = (Portfolio Value x Beta) / (Futures Price x Lot Size)
+
+**The Trap:** F/S is the futures-to-spot ratio, not hedge ratio. Beta/contracts is meaningless. Inverting the formula gives the wrong answer.
+
+**Cross-Exam Context:** This hedge ratio formula is THE key formula for portfolio hedging questions in Series VIII.
+
+**Key Takeaway:** Hedge ratio = (PV x Beta) / (F x Lot Size). This gives the number of contracts to sell for hedging.]]></text></explanation>
+    </question>
+</QF>

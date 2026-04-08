@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Trading Mechanism_34" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If the base rate of GBPINR 1-month futures is Rs. 100, what is its operating range?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 97 to Rs. 103 (±3% for contracts up to 6 months)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 95 to Rs. 105]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 99 to Rs. 101]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 90 to Rs. 110]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Operating range = ±3% for contracts with tenure ≤6 months. For base price 100: 100 ± 3% = 97 to 103. For >6 months, it would be ±5% = 95 to 105.
+**The Trap:** This is from the NISM workbook sample questions. ±5% applies only to contracts >6 months tenure.
+**Cross-Exam Context:** Price band calculation is tested in Series I.
+**Distributor's Pro-Tip:** These are operating ranges to prevent erroneous orders, not circuit breakers. They can be relaxed in 1% increments.]]></text></explanation>
+    </question>
+</QF>

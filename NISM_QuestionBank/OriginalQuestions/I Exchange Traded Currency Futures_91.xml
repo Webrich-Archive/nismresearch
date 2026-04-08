@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_91" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the DSP used for in currency futures?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Daily Mark-to-Market (MTM) settlement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Setting the opening price for the next day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Calculating the final settlement amount]]></text></answer>
+            <answer correct="no"><text><![CDATA[Determining the margin requirement]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The Daily Settlement Price is primarily used for MTM settlement — calculating daily gains and losses on open positions. It's the VWAP of the last 30 minutes.
+**The Trap:** DSP is for DAILY settlement, not FINAL settlement. FSP (FBIL rate) is used for final settlement.
+**Cross-Exam Context:** DSP vs FSP distinction is tested in Series I.
+**Distributor's Pro-Tip:** DSP also becomes the base price for the next trading day.]]></text></explanation>
+    </question>
+</QF>

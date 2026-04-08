@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_99" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The contract value for cross-currency futures is denominated in:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The quote currency of the pair (e.g., USD for EURUSD, JPY for USDJPY)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Always in INR]]></text></answer>
+            <answer correct="no"><text><![CDATA[Always in USD]]></text></answer>
+            <answer correct="no"><text><![CDATA[The base currency of the pair]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Cross-currency contract value = Price × Lot size, expressed in the quote currency. EURUSD = USD value, GBPUSD = USD value, USDJPY = JPY value. For margin purposes, this is then converted to INR.
+**The Trap:** While margins are collected in INR, the contract value is naturally in the quote currency.
+**Cross-Exam Context:** Cross-currency value concepts are specific to Series I.
+**Distributor's Pro-Tip:** EURUSD: Value in USD, convert to INR via FBIL USD-INR. USDJPY: Value in JPY, convert via FBIL JPY-INR per 100 JPY.]]></text></explanation>
+    </question>
+</QF>

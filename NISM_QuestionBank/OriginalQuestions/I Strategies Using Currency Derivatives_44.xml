@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_44" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A short straddle has maximum profit of:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Total premium received (call premium + put premium)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Unlimited]]></text></answer>
+            <answer correct="no"><text><![CDATA[The strike price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The difference between the call and put premiums]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Short straddle = sell call + sell put. Max profit = call premium + put premium (when USDINR closes exactly at strike — both expire worthless). Max loss = unlimited.
+**The Trap:** Max profit for SHORT straddle = max LOSS for long straddle.
+**Cross-Exam Context:** Short straddle is tested in Series I and VIII.
+**Distributor's Pro-Tip:** Short straddle sellers bet on stability — they profit if USDINR stays between the two BEPs.]]></text></explanation>
+    </question>
+</QF>

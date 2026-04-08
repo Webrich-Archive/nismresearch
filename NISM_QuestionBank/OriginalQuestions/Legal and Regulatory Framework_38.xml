@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Legal and Regulatory Framework_38" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which KYC (Know Your Customer) identification is accepted as valid for all financial sector participants in India through the centralized system?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[KYC done by any individual mutual fund AMC]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Central KYC (CKYC) registered through the Central KYC Records Registry (CKYCR) maintained by CERSAI]]></text></answer>
+            <answer correct="no"><text><![CDATA[KYC done only through Aadhaar-based eKYC]]></text></answer>
+            <answer correct="no"><text><![CDATA[KYC verification done by the distributor independently]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The Central KYC (CKYC) system, maintained by the Central KYC Records Registry (CKYCR) under CERSAI (Central Registry of Securitisation Asset Reconstruction and Security Interest of India), provides a centralized KYC repository. Once an investor completes CKYC with any financial sector entity, the KYC record is uploaded to CKYCR and can be accessed by other regulated entities. This eliminates the need for investors to undergo KYC verification separately with each AMC, bank, or intermediary.
+
+**The Trap:** KYC by an individual AMC (KRA-registered KYC) was the earlier system but CKYC has broader applicability across all financial sectors. Aadhaar-based eKYC is ONE method of completing KYC but is not the centralized system itself. Distributors cannot independently verify KYC — it must be done through authorized entities and registered with CKYCR.
+
+**Cross-Exam Context:** CKYC is tested in Series V-A, V-B, III-A, and XXIV. The evolution from AMC-specific KYC → KRA-based KYC → CKYC represents progressive centralization. Series III-A tests the broader KYC/AML framework. Aadhaar-based eKYC (digital) vs in-person KYC (physical) is another frequently tested distinction.
+
+**Distributor's Pro-Tip:** Guide your clients through the CKYC process — once completed, it simplifies future investments across all financial products (mutual funds, demat accounts, insurance, bank accounts). A 14-digit CKYC Identification Number (KIN) is generated, which serves as the universal KYC identifier.]]></text></explanation>
+    </question>
+</QF>

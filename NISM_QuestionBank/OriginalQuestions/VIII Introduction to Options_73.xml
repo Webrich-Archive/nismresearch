@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_73" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader buys a put option with strike Rs. 500 at premium Rs. 20. Stock closes at Rs. 510. What is the loss?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 20]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 10]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 30]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Put Profit = max(X - S, 0) - Premium
+
+Step-by-step:
+1. X = 500, S = 510, P = 20
+2. S > X, put is OTM
+3. Payoff = max(500 - 510, 0) = max(-10, 0) = 0
+4. Loss = 0 - 20 = -Rs. 20
+
+**The Trap:** Loss is the entire premium (Rs. 20), NOT Rs. 10. When OTM, option is not exercised.
+
+**Cross-Exam Context:** For put buyer, max loss = premium. Occurs when S >= X at expiry.
+
+**Key Takeaway:** Put OTM (S > X): option expires worthless, loss = full premium = Rs. 20.]]></text></explanation>
+    </question>
+</QF>

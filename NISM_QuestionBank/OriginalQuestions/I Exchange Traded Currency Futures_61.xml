@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_61" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An exporter expects to receive USD 200,000 in 3 months. To hedge using USDINR futures, the exporter should:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Sell 200 lots of 3-month USDINR futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy 200 lots of 3-month USDINR futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell 20 lots of 3-month USDINR futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy 20 lots of 3-month USDINR futures]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** An exporter will receive USD and needs to sell USD → INR. To hedge, sell USDINR futures. Number of lots = 200,000/1,000 = 200 lots. If USD weakens (USDINR falls), futures profit offsets lower spot conversion.
+**The Trap:** Exporters SELL futures (to lock in the selling rate); importers BUY futures (to lock in the buying rate).
+**Cross-Exam Context:** Hedging strategy is fundamental to Series I and VIII.
+**Distributor's Pro-Tip:** The hedge locks in approximately the current futures rate, regardless of where spot moves by the time of actual conversion.]]></text></explanation>
+    </question>
+</QF>

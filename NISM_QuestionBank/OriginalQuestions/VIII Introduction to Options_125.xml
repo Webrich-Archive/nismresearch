@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_125" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Regarding the expiry day of options contracts in India, which statement is CORRECT?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[SEBI allows exchanges to choose their expiry day; NSE uses Tuesday and BSE uses Thursday for monthly expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[All exchanges must use Friday as the expiry day as mandated by SEBI]]></text></answer>
+            <answer correct="no"><text><![CDATA[SEBI mandates that all exchanges must use the same expiry day]]></text></answer>
+            <answer correct="no"><text><![CDATA[The expiry day is decided by the option buyer at the time of purchase]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI allows exchanges to choose their own expiry day:
+- NSE: monthly expiry on last TUESDAY of the month
+- BSE: monthly expiry on last THURSDAY of the month
+- If the chosen day is a holiday, expiry shifts to the previous trading day
+
+This flexibility was introduced to allow exchanges to differentiate and reduce systemic risk from all contracts expiring simultaneously.
+
+**The Trap:** Expiry day is NOT uniform across exchanges. NSE and BSE have DIFFERENT expiry days.
+
+**Cross-Exam Context:** NSE = Tuesday. BSE = Thursday. This is a frequently tested factual question.
+
+**Key Takeaway:** NSE monthly expiry = last Tuesday. BSE monthly expiry = last Thursday. SEBI allows choice.]]></text></explanation>
+    </question>
+</QF>

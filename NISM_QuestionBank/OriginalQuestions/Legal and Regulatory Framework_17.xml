@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Legal and Regulatory Framework_17" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the SEBI-mandated time limit for processing mutual fund redemption proceeds for liquid and overnight fund schemes?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[1 business day from the date of redemption request]]></text></answer>
+            <answer correct="no"><text><![CDATA[3 business days from the date of redemption request]]></text></answer>
+            <answer correct="no"><text><![CDATA[5 business days from the date of redemption request]]></text></answer>
+            <answer correct="no"><text><![CDATA[10 business days from the date of redemption request]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI mandates that redemption proceeds for liquid and overnight fund schemes must be dispatched within 1 business day (T+1) from the date of the redemption request. For all other mutual fund schemes, the standard redemption period is 3 business days (T+3). For equity schemes settling through exchanges, the timeline follows the exchange settlement cycle. The 10-business-day rule applies as the outer limit, beyond which AMCs must pay penal interest to investors.
+
+**The Trap:** 3 business days is the standard for non-liquid schemes, not for liquid/overnight funds. 10 business days is the penalty trigger point (after which AMCs pay 15% p.a. interest to investors), not the standard processing time. Candidates often confuse these different timelines for different scheme types.
+
+**Cross-Exam Context:** Redemption timelines are tested in Series V-A and V-B. Series III-A tests settlement cycles for various securities. The T+1 for liquid funds was introduced to align with the instant liquidity expectation from these products. SEBI also introduced instant redemption for up to Rs. 50,000 in liquid funds through select mechanisms.
+
+**Distributor's Pro-Tip:** Always set correct redemption timeline expectations with clients. Liquid fund investors expect T+1 settlement. If there are delays beyond the mandated period, advise clients that they are entitled to penal interest at 15% p.a. from the AMC — this is their regulatory right.]]></text></explanation>
+    </question>
+</QF>

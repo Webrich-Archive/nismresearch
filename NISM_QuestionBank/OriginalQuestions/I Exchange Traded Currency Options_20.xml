@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The BEP for a put option is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Strike price - Premium paid]]></text></answer>
+            <answer correct="no"><text><![CDATA[Strike price + Premium paid]]></text></answer>
+            <answer correct="no"><text><![CDATA[Spot price + Premium paid]]></text></answer>
+            <answer correct="no"><text><![CDATA[Spot price - Premium paid]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Put BEP = X - P (Strike minus Put premium). Below this point, the long put starts making a net profit (intrinsic value exceeds premium paid).
+**The Trap:** Call BEP = X + C. Put BEP = X - P. Don't mix them up.
+**Cross-Exam Context:** Put BEP is tested in Series I and VIII.
+**Distributor's Pro-Tip:** If strike = 83 and put premium = 0.075, BEP = 83 - 0.075 = 82.925.]]></text></explanation>
+    </question>
+</QF>

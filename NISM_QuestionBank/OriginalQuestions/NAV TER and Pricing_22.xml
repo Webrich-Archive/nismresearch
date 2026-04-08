@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV TER and Pricing_22" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How are traded equity securities valued for the purpose of NAV computation in a mutual fund scheme?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[At the last quoted closing price on the recognized stock exchange where the security is principally traded]]></text></answer>
+            <answer correct="no"><text><![CDATA[At the average of high and low prices during the trading day]]></text></answer>
+            <answer correct="no"><text><![CDATA[At the purchase price paid by the mutual fund scheme]]></text></answer>
+            <answer correct="no"><text><![CDATA[At the face value of the security]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** As per SEBI's fair valuation principles, traded equity securities are valued at the last quoted closing price on the recognized stock exchange where the security is principally traded. This ensures NAV reflects the current market value of holdings.
+
+**The Trap:** Average of high and low is not the standard valuation method — closing price is used. Purchase price (historical cost) would not reflect current market conditions. Face value has no relation to market valuation. The key term is "last quoted closing price" on the "principal" stock exchange.
+
+**Cross-Exam Context:** SEBI has laid down 10 principles for fair valuation of securities. The valuation of traded securities using closing price is Principle 1. Non-traded securities follow different valuation norms. This appears in NISM V-A and is also referenced in V-B.
+
+**Distributor's Pro-Tip:** Understanding valuation methodology helps explain to clients why NAV changes daily. The closing price valuation means that if markets close sharply higher or lower, the NAV will reflect that movement. For international fund of funds, the valuation considers time zone differences and uses the last available closing prices of overseas markets.]]></text></explanation>
+    </question>
+</QF>

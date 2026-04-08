@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Scheme Performance_26" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An index fund tracking Nifty 50 generated a NAV-based return of 14.5% while the Nifty 50 TRI returned 15.2% over the same period. The monthly return differences between the fund and benchmark over the last 12 months had a standard deviation of 0.30%. What is the annualized tracking error approximately?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[0.30%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[1.04%]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.70%]]></text></answer>
+            <answer correct="no"><text><![CDATA[3.60%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** To annualize monthly tracking error, we multiply by the square root of 12 (number of months in a year):
+Monthly Tracking Error = 0.30%
+Annualized Tracking Error = Monthly TE x sqrt(12)
+Annualized Tracking Error = 0.30% x 3.464
+Annualized Tracking Error = 1.039% (approximately 1.04%)
+
+Note: The tracking error measures the CONSISTENCY of the return gap, not the gap itself. The actual return gap (tracking difference) is 15.2% - 14.5% = 0.70%.
+
+**The Trap:** Option A (0.30%) is just the monthly tracking error without annualization. Option C (0.70%) is the tracking difference (return gap), not the tracking error. Option D (3.60%) might result from multiplying by 12 instead of sqrt(12). Remember: annualization of standard deviation uses square root of time, not time itself.
+
+**Cross-Exam Context:** In NISM V-B and finance theory, annualization of volatility measures always uses the square root of time rule. This applies to tracking error, standard deviation, and other volatility metrics.
+
+**Distributor's Pro-Tip:** For a Nifty 50 index fund, a tracking error of about 1% is moderate. The best index funds maintain annualized tracking errors below 0.5%. When comparing index funds, lower tracking error combined with lower expense ratio makes for a better product.]]></text></explanation>
+    </question>
+</QF>

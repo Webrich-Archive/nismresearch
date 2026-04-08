@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_26" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader buys a USDINR 83 call option at Rs. 0.10 premium. At expiry USDINR is 83.50. What is the net profit per unit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 0.40]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.10]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. -0.10]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Payoff = max(83.50 - 83, 0) = 0.50. Net profit = Payoff - Premium = 0.50 - 0.10 = Rs. 0.40 per unit.
+**The Trap:** Rs. 0.50 is the payoff (gross), not the net profit. Always subtract the premium paid.
+**Cross-Exam Context:** Call option P&L calculations are tested in Series I and VIII.
+**Distributor's Pro-Tip:** Per lot: Rs. 0.40 × 1000 = Rs. 400 profit.]]></text></explanation>
+    </question>
+</QF>

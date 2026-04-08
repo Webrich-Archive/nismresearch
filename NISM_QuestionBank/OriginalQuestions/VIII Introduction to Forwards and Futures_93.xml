@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_93" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader observes Nifty spot at 24,000 and Nifty futures at 24,050. Fair value is 24,120. The trader executes reverse cash-and-carry. If the lot size is 65, what is the profit per contract?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 4,550]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 3,250]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 7,800]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 4,550 loss]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+1. Fair value = 24,120, Actual futures = 24,050
+2. Futures are UNDERPRICED by 24,120 - 24,050 = 70 points
+3. Reverse cash-and-carry: Short spot at 24,000 + Buy futures at 24,050
+4. Profit per unit = Fair value - Actual futures = 70 points
+5. Profit per contract = 70 x 65 = Rs. 4,550
+
+**The Trap:** Rs. 3,250 uses spot-futures difference (50 x 65). Rs. 7,800 uses fair-spot difference (120 x 65). The arbitrage profit is specifically the mispricing (fair - actual for underpriced futures).
+
+**Cross-Exam Context:** Reverse cash-and-carry for underpriced futures is tested alongside regular cash-and-carry in Series VIII.
+
+**Key Takeaway:** Reverse arbitrage profit = (Fair Futures - Actual Futures) x Lot Size = 70 x 65 = Rs. 4,550.]]></text></explanation>
+    </question>
+</QF>

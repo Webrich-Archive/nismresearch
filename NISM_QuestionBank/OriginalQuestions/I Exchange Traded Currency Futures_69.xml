@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_69" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the primary purpose of the operating range (price band) in currency futures?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[To prevent erroneous order entry at non-genuine prices]]></text></answer>
+            <answer correct="no"><text><![CDATA[To limit daily price movements]]></text></answer>
+            <answer correct="no"><text><![CDATA[To ensure profits for market makers]]></text></answer>
+            <answer correct="no"><text><![CDATA[To control speculative trading]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The operating range is a 'dummy' range to prevent fat-finger errors (erroneous order entry at extreme prices). There are NO actual daily price limits (circuit breakers) for currency futures.
+**The Trap:** Operating ranges are NOT circuit breakers — they're just error-prevention mechanisms. They're relaxed in 1% increments on market-wide trends.
+**Cross-Exam Context:** Price band concepts differ between equity (circuit breakers) and currency (operating ranges) — tested in Series I.
+**Distributor's Pro-Tip:** Unlike equity markets which have upper/lower circuits that halt trading, currency futures have no trading halts based on price movement.]]></text></explanation>
+    </question>
+</QF>

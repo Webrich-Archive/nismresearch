@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_90" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Historical volatility is calculated from:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Past closing prices of the underlying asset]]></text></answer>
+            <answer correct="no"><text><![CDATA[Current option premiums]]></text></answer>
+            <answer correct="no"><text><![CDATA[Future expected price movements]]></text></answer>
+            <answer correct="no"><text><![CDATA[The Black-Scholes model outputs]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Historical volatility uses PAST price data (closing prices) to calculate standard deviation of returns. Implied volatility is derived from current option PRICES. Forecasted volatility uses statistical models.
+**The Trap:** IV comes from option prices (market-based). HV comes from historical price data (statistical).
+**Cross-Exam Context:** Volatility types are tested in Series I and VIII.
+**Distributor's Pro-Tip:** When IV > HV, options are considered 'expensive'. When IV < HV, options are considered 'cheap'. This helps in deciding whether to buy or sell options.]]></text></explanation>
+    </question>
+</QF>

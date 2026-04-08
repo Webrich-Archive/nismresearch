@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Accounting and Taxation_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Turnover for exchange-traded derivatives is computed as:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Total of favourable and unfavourable differences, plus premium received on sale of options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Total contract value of all trades]]></text></answer>
+            <answer correct="no"><text><![CDATA[Total premium paid and received]]></text></answer>
+            <answer correct="no"><text><![CDATA[Gross buy value plus gross sell value]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Turnover = total of favorable differences + unfavorable differences + premium received on option sales + any reverse trade settlement amounts. This is per ICAI Guidance Note on Tax Audit.
+**The Trap:** Turnover is NOT the contract value — it's the sum of absolute P&L amounts.
+**Cross-Exam Context:** Turnover computation is tested in Series I.
+**Distributor's Pro-Tip:** This turnover figure is crucial for determining whether tax audit under Section 44AB is applicable.]]></text></explanation>
+    </question>
+</QF>

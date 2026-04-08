@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_97" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A Nifty option has premium Rs. 200, lot size 50. If the premium moves from Rs. 200 to Rs. 235, what is the total profit for a buyer holding 2 lots?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 3,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,750]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 35]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 70]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Total Profit = Change in Premium × Lot Size × Number of Lots
+
+Step-by-step:
+1. Change in premium = 235 - 200 = Rs. 35
+2. Lot size = 50
+3. Number of lots = 2
+4. Total profit = 35 × 50 × 2 = Rs. 3,500
+
+**The Trap:** Profit is based on CHANGE in premium, not the absolute premium. Multiply by total units.
+
+**Cross-Exam Context:** Options can be squared off before expiry by selling in the market.
+
+**Key Takeaway:** P/L = (Exit premium - Entry premium) × Lot Size × Lots = 35 × 50 × 2 = Rs. 3,500.]]></text></explanation>
+    </question>
+</QF>

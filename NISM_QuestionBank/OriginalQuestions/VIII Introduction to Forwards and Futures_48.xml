@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_48" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader has a short position of 5 lots in HDFC Bank futures at Rs. 1,750 per share. Lot size is 550. At expiry, HDFC Bank closes at Rs. 1,680. What is the total profit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 1,92,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 38,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 70]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 1,92,500]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+1. Position: Short 5 lots at Rs. 1,750
+2. Settlement price: Rs. 1,680
+3. Per share profit (short) = 1,750 - 1,680 = Rs. 70
+4. Per lot profit = 70 x 550 = Rs. 38,500
+5. Total profit for 5 lots = 38,500 x 5 = Rs. 1,92,500
+
+**The Trap:** Rs. 38,500 is profit for ONE lot. Rs. 70 is per share profit. It is a PROFIT (not loss) because the short seller benefits from the price falling from 1,750 to 1,680.
+
+**Cross-Exam Context:** Multi-lot short position calculations with realistic lot sizes are common in Series VIII.
+
+**Key Takeaway:** Short profit = (Entry - Exit) x Lot Size x Number of Lots. Remember to multiply by ALL lots.]]></text></explanation>
+    </question>
+</QF>

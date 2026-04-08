@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_92" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Nifty is at 18,000. A call with strike 17,500 has premium Rs. 600 and a call with strike 18,500 has premium Rs. 120. Which has higher time value?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The 18,500 strike call has higher time value (Rs. 120 vs Rs. 100)]]></text></answer>
+            <answer correct="no"><text><![CDATA[The 17,500 strike call has higher time value (Rs. 600 vs Rs. 120)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both have equal time value]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cannot be determined without knowing the expiry date]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:**
+17,500 strike call (ITM):
+- IV = max(18,000 - 17,500, 0) = 500
+- TV = 600 - 500 = Rs. 100
+
+18,500 strike call (OTM):
+- IV = max(18,000 - 18,500, 0) = 0
+- TV = 120 - 0 = Rs. 120
+
+The OTM call has higher time value (120 > 100).
+
+**The Trap:** Higher premium does NOT mean higher time value. Decompose into IV and TV.
+
+**Cross-Exam Context:** ATM options generally have the highest time value of all strikes.
+
+**Key Takeaway:** Compare time values, not total premiums. ATM options typically have maximum time value.]]></text></explanation>
+    </question>
+</QF>

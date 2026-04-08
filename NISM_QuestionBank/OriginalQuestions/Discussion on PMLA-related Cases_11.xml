@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Discussion on PMLA-related Cases_11" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[In the Paytm Payments Bank case, one of the charges was reliance on a non-compliant entity for KYC. Which specific PML Rule was violated?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rule 9(2)(c) and Rule 9(2)(f) -- relying on a non-compliant/unregulated entity for third-party KYC]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rule 3(1) -- failure to maintain transaction records]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rule 5 -- failure to register with FIU-IND]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rule 12 -- failure to submit annual compliance report]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Among the payout-related charges, Paytm was found to have violated Rule 9(2)(c) and Rule 9(2)(f) of PML Rules by relying on a non-compliant/unregulated entity for third-party KYC. The third party for CDD reliance must be regulated, supervised, and monitored for AML compliance.
+
+**The Trap:** Rule 3 deals with transaction records and Rule 7/8 with reporting -- these were also violated but the specific third-party KYC violation is under Rule 9(2). Knowing which rule covers which obligation is important.
+
+**Cross-Exam Context:** Third-party KYC reliance is a common practice in the digital payments ecosystem. This violation shows that convenience cannot override regulatory requirements. In NISM V-A, AMCs relying on third-party KYC must ensure the same Rule 9(2) compliance.
+
+**Distributor's Pro-Tip:** If your intermediary uses any third-party service for client onboarding or KYC verification, verify that the third party is: (a) regulated by a financial regulator, (b) supervised for AML compliance, and (c) not based in a high-risk jurisdiction. The Paytm case shows the cost of cutting corners on third-party due diligence.]]></text></explanation>
+    </question>
+</QF>

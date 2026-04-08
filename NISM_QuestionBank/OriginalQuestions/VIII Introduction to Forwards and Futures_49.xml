@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_49" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If the Nifty 50 futures contract is trading at 25,006.60 and the lot size is 65, what is the contract value?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 16,25,429]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 25,006.60]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,62,54,290]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 16,25,429,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+Contract Value = Futures Price x Lot Size
+= 25,006.60 x 65
+= Rs. 16,25,429
+
+This represents the total monetary value of one Nifty futures contract.
+
+**The Trap:** Rs. 25,006.60 is just the price per unit. Rs. 1,62,54,290 multiplies by an extra factor of 10. Rs. 16,25,429,000 adds extra zeros. Always double-check the multiplication.
+
+**Cross-Exam Context:** Contract value calculations are fundamental to Series VIII. SEBI requires contract values to be in the range of Rs. 15-20 lakhs.
+
+**Key Takeaway:** Contract Value = Futures Price x Lot Size. For Nifty: 25,006.60 x 65 = Rs. 16,25,429.]]></text></explanation>
+    </question>
+</QF>

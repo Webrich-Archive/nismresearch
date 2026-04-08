@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_65" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Price bands for currency options are:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Based on the delta of the option contract, calculated using previous close and volatility]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fixed at ±3% for all contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[The same as currency futures price bands]]></text></answer>
+            <answer correct="no"><text><![CDATA[Not applicable — there are no price bands for options]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Option price bands are delta-based: computed daily using previous close of underlying and volatility. This differs from futures which use simple percentage-based operating ranges.
+**The Trap:** Options price bands are more complex than futures because option sensitivity varies with moneyness.
+**Cross-Exam Context:** Price band methodology for options is specific to Series I.
+**Distributor's Pro-Tip:** The operating range may be flexed during the day if option prices cross a certain percentage of the set range.]]></text></explanation>
+    </question>
+</QF>

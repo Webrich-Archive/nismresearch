@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Premium margin in options trading is collected from:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Option buyers, equal to the premium payable for the option purchased]]></text></answer>
+            <answer correct="no"><text><![CDATA[Option sellers, based on the premium received]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both option buyers and sellers equally]]></text></answer>
+            <answer correct="no"><text><![CDATA[Neither buyers nor sellers, as it is handled by the clearing corporation]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Premium margin is collected from option buyers. It equals the option premium payable multiplied by the quantity. This ensures that the buyer has sufficient funds to pay the premium. For option sellers (writers), SPAN margin and exposure margin are collected instead, as they face the obligation to perform.
+
+**The Trap:** Option sellers pay SPAN margin + exposure margin, not premium margin. The buyer's maximum loss is limited to the premium, so premium margin covers their full risk.
+
+**Cross-Exam Context:** Different margin requirements for option buyers vs sellers is a key exam topic.
+
+**Key Takeaway:** Option buyer: pays premium margin (= premium amount). Option seller: pays SPAN + Exposure margin. Buyers have limited risk; sellers have unlimited risk.]]></text></explanation>
+    </question>
+</QF>

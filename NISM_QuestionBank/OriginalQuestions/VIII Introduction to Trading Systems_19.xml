@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Trading Systems_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Unique Client Code (UCC) in derivatives trading is mandatory for:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Every client must have a unique identification code mapped to their PAN, which must be used for all orders]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only institutional clients trading above Rs. 1 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only for proprietary trades of the trading member]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only for trades in index derivatives]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI mandates that every client must have a Unique Client Code (UCC) linked to their PAN. The broker must collect client details and assign UCC before allowing any trading. All orders must carry the client's UCC. This ensures audit trail and prevents misuse.
+
+**The Trap:** UCC is mandatory for ALL clients, not just institutional ones. It applies to all derivative trades, not just specific products. Post-trade modification of client codes is not allowed.
+
+**Cross-Exam Context:** UCC/KYC requirements are regulatory mandates tested across multiple NISM certifications.
+
+**Key Takeaway:** UCC = mandatory for every client, linked to PAN. Must be assigned before trading. Cannot be modified post-trade.]]></text></explanation>
+    </question>
+</QF>

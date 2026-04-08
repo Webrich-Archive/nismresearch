@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Risk Return and Performance_41" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An equity fund has consistently positive alpha over 5 years but has high tracking error and low R-squared relative to its benchmark. What can be inferred about this fund?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The fund is a closet index fund]]></text></answer>
+            <answer correct="no"><text><![CDATA[The fund manager lacks skill]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The fund is a truly active fund where the manager takes positions significantly different from the benchmark]]></text></answer>
+            <answer correct="no"><text><![CDATA[The fund's benchmark is inappropriate]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A fund with positive alpha, high tracking error, and low R-squared is a genuinely active fund. The fund manager takes positions that deviate significantly from the benchmark (hence high tracking error and low R-squared), and these active bets have been successful (hence positive alpha). This is the profile of a skilled active manager who earns their fees.
+
+**The Trap:** A closet index fund would have LOW tracking error and HIGH R-squared (it mimics the benchmark). The fund manager clearly has skill, as evidenced by consistent positive alpha. While the benchmark might need review, the combination of positive alpha with active metrics suggests the benchmark is acceptable but the manager is genuinely different from it.
+
+**Cross-Exam Context:** The relationship between alpha, tracking error, and R-squared tells a complete story about fund management approach. Active share (related to tracking error) combined with positive alpha is the ideal profile for active fund management. SEBI has discussed regulations around closet indexing to protect investors from paying active fees for passive management.
+
+**Distributor's Pro-Tip:** When recommending actively managed funds, look for this combination: positive alpha + meaningful tracking error + consistent outperformance. This justifies the higher expense ratio. A fund with high R-squared and minimal alpha may be a closet indexer -- in which case, a lower-cost index fund would be more appropriate for the client.]]></text></explanation>
+    </question>
+</QF>

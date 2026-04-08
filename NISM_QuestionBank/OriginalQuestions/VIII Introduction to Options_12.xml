@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_12" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The 'premium' of an option represents:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The price paid by the option buyer to the option writer for acquiring the right]]></text></answer>
+            <answer correct="no"><text><![CDATA[The margin deposited by the option writer with the exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[The intrinsic value of the option at expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[The brokerage charged by the broker for executing the option trade]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Premium is the PRICE of the option contract. The buyer pays it to the seller (writer) to acquire the right to buy/sell the underlying. It is determined by market forces of supply and demand.
+
+**The Trap:** Premium is NOT margin, not intrinsic value (though intrinsic value is a component), and not brokerage.
+
+**Cross-Exam Context:** Premium = Intrinsic Value + Time Value. This decomposition is critical for pricing questions.
+
+**Key Takeaway:** Premium is the cost of the option right. It has two components: intrinsic value and time value.]]></text></explanation>
+    </question>
+</QF>

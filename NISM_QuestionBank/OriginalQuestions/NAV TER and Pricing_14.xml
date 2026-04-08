@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV TER and Pricing_14" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investor holds 12,000 units in a mutual fund with current NAV of Rs. 40.00. The scheme declares a bonus in the ratio of 1:4 (one bonus unit for every four units held). What will be the NAV after the bonus issue and how many total units will the investor hold?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[NAV Rs. 32.00 and 15,000 units]]></text></answer>
+            <answer correct="no"><text><![CDATA[NAV Rs. 40.00 and 15,000 units]]></text></answer>
+            <answer correct="no"><text><![CDATA[NAV Rs. 32.00 and 12,000 units]]></text></answer>
+            <answer correct="no"><text><![CDATA[NAV Rs. 36.00 and 15,000 units]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Bonus units = 12,000 / 4 = 3,000 units. Total units after bonus = 12,000 + 3,000 = 15,000 units. The total value of holding does not change: 12,000 x Rs. 40 = Rs. 4,80,000. New NAV = Rs. 4,80,000 / 15,000 = Rs. 32.00. Verification: 15,000 x Rs. 32.00 = Rs. 4,80,000 (same value).
+
+**The Trap:** NAV Rs. 40.00 and 15,000 units implies the total value increases to Rs. 6,00,000 — bonus does not create new wealth. NAV Rs. 32.00 and 12,000 units forgets to add bonus units. NAV Rs. 36.00 miscalculates the NAV adjustment.
+
+**Cross-Exam Context:** Bonus issues in mutual funds are similar to stock splits — they increase units but proportionally reduce NAV so total value remains unchanged. This is tested in NISM V-A to ensure candidates understand that bonus does not create additional wealth.
+
+**Distributor's Pro-Tip:** Some investors get excited about bonus announcements thinking they are getting "free" units. Explain clearly that a 1:4 bonus is like exchanging a Rs. 500 note for five Rs. 100 notes — the total value remains the same. Bonus is purely cosmetic and has no impact on investor wealth.]]></text></explanation>
+    </question>
+</QF>

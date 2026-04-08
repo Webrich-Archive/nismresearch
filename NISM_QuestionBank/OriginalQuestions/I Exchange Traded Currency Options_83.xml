@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_83" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Put-Call parity holds for which type of options?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[European options only]]></text></answer>
+            <answer correct="no"><text><![CDATA[American options only]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both European and American]]></text></answer>
+            <answer correct="no"><text><![CDATA[OTC options only]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Put-Call Parity (C + PV(X) = P + S) holds ONLY for European options with the same underlying, strike, and expiry.
+**The Trap:** American options can be exercised early, which breaks the parity relationship.
+**Cross-Exam Context:** Put-Call parity conditions are tested in Series I and VIII.
+**Distributor's Pro-Tip:** Since all Indian exchange-traded currency options are European, Put-Call parity is always applicable.]]></text></explanation>
+    </question>
+</QF>

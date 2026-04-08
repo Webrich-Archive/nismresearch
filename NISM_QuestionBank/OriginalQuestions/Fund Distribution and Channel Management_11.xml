@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Fund Distribution and Channel Management_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the context of mutual fund transactions through stock exchange platforms, which of the following statements is correct?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Stock exchanges provide settlement guarantee for mutual fund transactions just like equity trades]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only institutional investors can use stock exchange platforms for mutual fund transactions]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Stock exchange platforms provide order routing infrastructure but do not guarantee settlement of mutual fund transactions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Mutual fund transactions on exchange platforms are settled through the clearing corporation within T+1]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** While stock exchange platforms (NSE NMF II, BSE StAR MF) provide the infrastructure for placing mutual fund orders, they do NOT provide settlement guarantee for these transactions. This is a critical distinction from equity trading where the clearing corporation guarantees settlement. For mutual fund orders, the exchange merely routes the order to the AMC/RTA.
+
+**The Trap:** Option A is the most dangerous distractor — candidates familiar with equity markets naturally assume exchange settlement guarantee extends to MF transactions. Option D also sounds plausible but MF settlement follows the scheme's own timeline (T+1 for liquid funds, T+2 for debt, T+3 for equity), not exchange clearing timelines.
+
+**Cross-Exam Context:** SEBI issued a circular in February 2020 allowing investors direct access to stock exchange mutual fund infrastructure, without necessarily going through a broker. This expanded the reach of exchange platforms beyond just broker-assisted transactions. This no-settlement-guarantee concept is a top exam question.
+
+**Distributor's Pro-Tip:** When using exchange platforms for MF transactions, make clients aware that unlike their equity trades, there is no exchange settlement guarantee. The convenience of the platform is in order processing and confirmation, but the settlement risk lies with the AMC.]]></text></explanation>
+    </question>
+</QF>

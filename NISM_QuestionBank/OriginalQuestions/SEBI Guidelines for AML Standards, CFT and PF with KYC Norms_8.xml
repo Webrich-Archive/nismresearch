@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="SEBI Guidelines for AML Standards, CFT and PF with KYC Norms_8" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What should a registered intermediary do when it suspects that performing the CDD process will "tip off" the client?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Not pursue the CDD process and instead file a Suspicious Transaction Report (STR) with FIU-IND]]></text></answer>
+            <answer correct="no"><text><![CDATA[Continue the CDD process and inform the client about the suspicion]]></text></answer>
+            <answer correct="no"><text><![CDATA[Close the client's account immediately without any reporting]]></text></answer>
+            <answer correct="no"><text><![CDATA[Wait for SEBI to give specific instructions before taking any action]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When the intermediary suspects that performing CDD will tip off the client about the suspicion, it should NOT pursue the CDD process. Instead, it must directly file a Suspicious Transaction Report (STR) with FIU-IND. The priority shifts from CDD to reporting.
+
+**The Trap:** Never inform the client about the suspicion -- that would be "tipping off" which is strictly prohibited. Do not close the account unilaterally, and do not wait for SEBI instructions. Immediate STR filing is the correct action.
+
+**Cross-Exam Context:** The anti-tipping-off principle is a cornerstone of AML regulation globally. In NISM III-A and V-A, this principle applies equally -- never alert the client about suspicious activity investigations.
+
+**Distributor's Pro-Tip:** If during re-KYC you notice something suspicious and feel that asking more questions would alert the client, STOP the questioning. Quietly escalate to your Principal Officer who will file the STR. Continue normal dealing with the client to avoid tipping off.]]></text></explanation>
+    </question>
+</QF>

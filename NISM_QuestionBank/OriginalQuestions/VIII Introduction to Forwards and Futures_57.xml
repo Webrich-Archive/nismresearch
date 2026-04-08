@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_57" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If a stock's spot price is Rs. 800, the risk-free rate is 9%, the dividend yield is 1%, and the futures expire in 120 days, what is the theoretical futures price using discrete compounding?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 820.80 (approximately)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 864.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 826.30]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 808.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+F = S x (1 + r - q)^(T/365)
+F = 800 x (1 + 0.09 - 0.01)^(120/365)
+F = 800 x (1.08)^(0.3288)
+F = 800 x 1.02600
+F = Rs. 820.80
+
+**The Trap:** Rs. 864 uses full-year carry (800 x 1.08). Rs. 826.30 may use an incorrect exponent. Rs. 808 uses simple 1% (ignoring proper compounding and time).
+
+**Cross-Exam Context:** These step-by-step calculations are the core of Series VIII Chapter 3 exam questions.
+
+**Key Takeaway:** F = 800 x (1.08)^(120/365). Net carry = 9% - 1% = 8%. Apply for 120/365 of a year.]]></text></explanation>
+    </question>
+</QF>

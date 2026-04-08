@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Risk Return and Performance_32" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Fund X has a return of 14%, risk-free rate is 5%, and standard deviation is 18%. Fund Y has a return of 11%, risk-free rate is 5%, and standard deviation is 10%. Which fund has a better Sharpe ratio?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Fund X with Sharpe ratio of 0.78]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Fund Y with Sharpe ratio of 0.60]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fund X with Sharpe ratio of 0.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both have equal Sharpe ratios]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Fund X Sharpe = (14% - 5%) / 18% = 9/18 = 0.50. Fund Y Sharpe = (11% - 5%) / 10% = 6/10 = 0.60. Fund Y has a HIGHER Sharpe ratio (0.60 vs 0.50), meaning it delivers better risk-adjusted returns despite having lower absolute returns. Fund Y generates more excess return per unit of total risk.
+
+**The Trap:** The question tests whether you can calculate correctly AND interpret properly. Fund X has higher absolute return (14% vs 11%), which might lead to a hasty conclusion that X is better. But the Sharpe ratio reveals that Fund Y delivers better returns RELATIVE to the risk taken. Option A shows an incorrect Sharpe calculation for Fund X (0.78 instead of 0.50).
+
+**Cross-Exam Context:** This question demonstrates why risk-adjusted measures matter. A fund with higher absolute returns is not necessarily better if it takes disproportionately more risk. The Sharpe ratio normalizes returns for risk, enabling meaningful comparison between funds with different risk profiles.
+
+**Distributor's Pro-Tip:** Use this example with clients who chase high-return funds without considering risk. "Fund X returned 14% but with wild swings (18% standard deviation). Fund Y returned 11% with much less turbulence (10% standard deviation). Per unit of risk, Fund Y actually performed better. The smoother ride of Fund Y is also less likely to cause panic selling during downturns."]]></text></explanation>
+    </question>
+</QF>

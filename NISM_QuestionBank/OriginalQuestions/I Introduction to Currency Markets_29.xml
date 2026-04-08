@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Introduction to Currency Markets_29" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In a system of 100 currencies with no vehicle currency, how many potential exchange rates would exist?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[4,950]]></text></answer>
+            <answer correct="no"><text><![CDATA[9,900]]></text></answer>
+            <answer correct="no"><text><![CDATA[10,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[99]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Using the formula n(n-1)/2: 100 × 99 / 2 = 4,950. With a single vehicle currency, this reduces to just 99 pairs.
+**The Trap:** 9,900 is n(n-1) without dividing by 2. Remember each pair involves two currencies and should be counted only once.
+**Cross-Exam Context:** Directly from the NISM workbook — a standard Series I exam question.
+**Distributor's Pro-Tip:** This calculation demonstrates the massive efficiency gain from using the US Dollar as a vehicle currency.]]></text></explanation>
+    </question>
+</QF>

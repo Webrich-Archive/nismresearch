@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_37" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When opening a new position, margins are first blocked from:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Client collateral, then TM proprietary collateral, then CM collateral]]></text></answer>
+            <answer correct="no"><text><![CDATA[CM collateral first]]></text></answer>
+            <answer correct="no"><text><![CDATA[TM collateral first]]></text></answer>
+            <answer correct="no"><text><![CDATA[A common pool maintained by the exchange]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Margin blocking hierarchy: (1) Client's own collateral first, (2) If insufficient, TM's proprietary collateral, (3) If still insufficient, CM's collateral. This ensures client-level segregation.
+**The Trap:** Client funds are used first — this protects against misuse of one client's margin for another.
+**Cross-Exam Context:** Margin blocking sequence is tested in Series I and VII.
+**Distributor's Pro-Tip:** This waterfall mechanism ensures each participant bears their own margin cost first.]]></text></explanation>
+    </question>
+</QF>

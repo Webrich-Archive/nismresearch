@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NISM Exam Topic Overlap Matrix</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f7fa; color: #1a1a2e; padding: 20px; }
+  h1 { font-size: 1.6rem; margin-bottom: 4px; }
+  .subtitle { color: #666; font-size: 0.85rem; margin-bottom: 20px; }
+
+  /* Stats Panel */
+  .stats-panel { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 20px; }
+  .stat-card { background: #fff; border-radius: 10px; padding: 14px 20px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); min-width: 150px; }
+  .stat-card .num { font-size: 1.8rem; font-weight: 700; color: #2d6a4f; }
+  .stat-card .label { font-size: 0.75rem; color: #888; text-transform: uppercase; letter-spacing: 0.5px; }
+
+  /* Filter controls */
+  .filters { margin-bottom: 16px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  .filters label { font-size: 0.8rem; font-weight: 600; margin-right: 4px; color: #555; }
+  .filter-btn { padding: 5px 12px; border: 1px solid #d0d5dd; border-radius: 16px; background: #fff; cursor: pointer; font-size: 0.75rem; transition: all 0.15s; }
+  .filter-btn:hover { border-color: #2d6a4f; color: #2d6a4f; }
+  .filter-btn.active { background: #2d6a4f; color: #fff; border-color: #2d6a4f; }
+
+  /* Matrix container */
+  .matrix-wrap { overflow-x: auto; background: #fff; border-radius: 10px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); padding: 0; }
+  table { border-collapse: collapse; font-size: 0.7rem; width: max-content; }
+  th, td { padding: 4px 6px; text-align: center; border: 1px solid #e8ecef; white-space: nowrap; }
+
+  /* Sticky first column */
+  th:first-child, td:first-child { position: sticky; left: 0; z-index: 2; background: #fff; text-align: left; min-width: 200px; font-weight: 600; border-right: 2px solid #c0c0c0; }
+  thead th:first-child { z-index: 3; }
+
+  /* Header rows */
+  thead th { background: #f8f9fa; position: sticky; top: 0; z-index: 1; font-weight: 600; }
+  .theme-header { background: #2d6a4f !important; color: #fff; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.3px; }
+  .subtopic-header { background: #e8f5e9 !important; font-size: 0.65rem; writing-mode: vertical-lr; text-orientation: mixed; transform: rotate(180deg); height: 140px; vertical-align: bottom; padding: 6px 3px; }
+  .count-col { background: #fff3e0 !important; font-weight: 700; }
+
+  /* Cells */
+  .cell-yes { background: #4caf50; color: #fff; font-weight: 700; font-size: 0.75rem; }
+  .cell-no { background: #fafafa; color: #e0e0e0; }
+  .cell-count { background: #fff8e1; font-weight: 700; color: #e65100; }
+
+  /* Row highlight */
+  tr.highlight td { outline: 2px solid #ff6f00; outline-offset: -1px; }
+  tr:hover td:first-child { color: #2d6a4f; }
+
+  /* Hidden columns */
+  .col-hidden { display: none; }
+
+  /* Overlap pairs section */
+  .section { margin-top: 30px; background: #fff; border-radius: 10px; padding: 20px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+  .section h2 { font-size: 1.1rem; margin-bottom: 12px; color: #2d6a4f; }
+  .pair-table { width: 100%; border-collapse: collapse; font-size: 0.8rem; }
+  .pair-table th, .pair-table td { padding: 8px 12px; border-bottom: 1px solid #eee; text-align: left; }
+  .pair-table th { background: #f8f9fa; font-weight: 600; }
+  .bar { display: inline-block; height: 14px; background: linear-gradient(90deg, #4caf50, #81c784); border-radius: 3px; vertical-align: middle; margin-left: 6px; }
+
+  /* Legend */
+  .legend { display: flex; gap: 16px; margin-bottom: 12px; font-size: 0.75rem; align-items: center; }
+  .legend-item { display: flex; align-items: center; gap: 4px; }
+  .legend-box { width: 14px; height: 14px; border-radius: 3px; }
+</style>
+</head>
+<body>
+
+<h1>NISM Exam Topic Overlap Matrix</h1>
+<p class="subtitle">Interactive view of shared topics across 31 active NISM certification exams | April 2026</p>
+
+<div class="stats-panel" id="statsPanel"></div>
+
+<div class="legend">
+  <span style="font-weight:600;">Legend:</span>
+  <div class="legend-item"><div class="legend-box" style="background:#4caf50;"></div> Topic covered</div>
+  <div class="legend-item"><div class="legend-box" style="background:#fafafa;border:1px solid #e0e0e0;"></div> Not covered</div>
+  <div class="legend-item"><div class="legend-box" style="background:#fff8e1;border:1px solid #ffe082;"></div> Count</div>
+</div>
+
+<div class="filters" id="filters">
+  <label>Filter by theme:</label>
+</div>
+
+<div class="matrix-wrap">
+  <table id="matrix"></table>
+</div>
+
+<div class="section">
+  <h2>Top 15 Most Overlapping Exam Pairs</h2>
+  <table class="pair-table" id="pairsTable"></table>
+</div>
+
+<div class="section">
+  <h2>Exam Clusters (5+ shared sub-topics)</h2>
+  <div id="clusters"></div>
+</div>
+
+<script>
+// ========== DATA ==========
+const themes = [
+  { name: "Securities Markets", subtopics: ["Market Structure & Participants", "Primary Markets / IPO", "Secondary Markets / Trading"] },
+  { name: "Derivatives", subtopics: ["Derivatives Basics", "Forwards & Futures", "Options & Greeks", "Trading Strategies", "Currency Derivatives", "Interest Rate Derivatives", "Commodity Derivatives"] },
+  { name: "Mutual Funds", subtopics: ["Fund Types & Schemes", "NAV & Valuation", "Distribution Practices", "SIP/STP/SWP"] },
+  { name: "Fixed Income", subtopics: ["Bond Pricing & Yield", "Debt Instruments", "Government Securities"] },
+  { name: "Portfolio Mgmt", subtopics: ["Modern Portfolio Theory", "Asset Allocation", "Performance Measurement", "PMS Process"] },
+  { name: "Alt. Investments", subtopics: ["AIF Structure & Categories", "AIF Fund Management", "AIF Distribution", "Hedge Fund Strategies"] },
+  { name: "Advisory & Planning", subtopics: ["Financial Planning", "Risk Profiling", "Behavioral Finance", "Retirement Planning", "Insurance"] },
+  { name: "Regulatory", subtopics: ["SEBI Act & Regulations", "Insider Trading (PIT)", "FUTP Regulations", "Compliance Obligations", "FEMA"] },
+  { name: "AML / KYC", subtopics: ["PMLA", "AML/CFT Guidelines", "KYC Norms", "FATF Recommendations"] },
+  { name: "Operations", subtopics: ["Clearing & Settlement", "Depository Operations", "Risk Mgmt (Operational)", "Trade Life Cycle"] },
+  { name: "Taxation", subtopics: ["Securities Taxation", "MF Taxation", "AIF Taxation", "DTAA"] },
+  { name: "Investor Protection", subtopics: ["Code of Conduct", "Investor Services & Grievances", "Sales Practices"] },
+  { name: "Specialized", subtopics: ["Merchant Banking / IPO", "Research & Analysis", "Social Impact / SSE", "Corporate Actions", "REITs / InvITs"] }
+];
+
+const exams = [
+  { id: "I", name: "Series I - Currency Derivatives" },
+  { id: "II-A", name: "Series II-A - RTA Corporate" },
+  { id: "II-B", name: "Series II-B - RTA Mutual Fund" },
+  { id: "III-A", name: "Series III-A - Compliance (Non-Fund)" },
+  { id: "III-C", name: "Series III-C - Compliance (Fund)" },
+  { id: "IV", name: "Series IV - Interest Rate Derivatives" },
+  { id: "V-A", name: "Series V-A - MF Distributors" },
+  { id: "V-B", name: "Series V-B - MF Foundation" },
+  { id: "VI", name: "Series VI - Depository Operations" },
+  { id: "VII", name: "Series VII - Securities Ops & Risk" },
+  { id: "VIII", name: "Series VIII - Equity Derivatives" },
+  { id: "IX", name: "Series IX - Merchant Banking" },
+  { id: "X-A", name: "Series X-A - Investment Adviser L1" },
+  { id: "X-B", name: "Series X-B - Investment Adviser L2" },
+  { id: "X-C", name: "Series X-C - IA Renewal" },
+  { id: "XII", name: "Series XII - Securities Foundation" },
+  { id: "XIII", name: "Series XIII - Common Derivatives" },
+  { id: "XV", name: "Series XV - Research Analyst" },
+  { id: "XVI", name: "Series XVI - Commodity Derivatives" },
+  { id: "XVII", name: "Series XVII - Retirement Adviser" },
+  { id: "XIX-A", name: "Series XIX-A - AIF Dist (Cat I&II)" },
+  { id: "XIX-B", name: "Series XIX-B - AIF Dist (Cat III)" },
+  { id: "XIX-C", name: "Series XIX-C - AIF Mgrs (All)" },
+  { id: "XIX-D", name: "Series XIX-D - AIF Mgrs (Cat I&II)" },
+  { id: "XIX-E", name: "Series XIX-E - AIF Mgrs (Cat III)" },
+  { id: "XXI-A", name: "Series XXI-A - PMS Distributors" },
+  { id: "XXI-B", name: "Series XXI-B - Portfolio Managers" },
+  { id: "XXIII", name: "Series XXIII - Social Impact" },
+  { id: "XXIV", name: "Series XXIV - AML & CFT" },
+  { id: "XXV-A", name: "Series XXV-A - Research Services" },
+  { id: "IFSCA", name: "IFSCA-01 - AML in IFSC" }
+];
+
+// Topic mapping: exam id -> set of subtopic strings
+// Built from PDF TOC analysis and BasicResearch.md
+const mapping = {
+  "I":     ["Market Structure & Participants","Derivatives Basics","Forwards & Futures","Options & Greeks","Trading Strategies","Currency Derivatives","Clearing & Settlement","Risk Mgmt (Operational)","SEBI Act & Regulations","Securities Taxation","Code of Conduct","Sales Practices"],
+  "II-A":  ["Market Structure & Participants","Primary Markets / IPO","Debt Instruments","SEBI Act & Regulations","Depository Operations","Investor Services & Grievances","Corporate Actions"],
+  "II-B":  ["Market Structure & Participants","Fund Types & Schemes","NAV & Valuation","Debt Instruments","SEBI Act & Regulations","KYC Norms","Investor Services & Grievances"],
+  "III-A": ["Market Structure & Participants","SEBI Act & Regulations","Insider Trading (PIT)","FUTP Regulations","Compliance Obligations","PMLA","AML/CFT Guidelines","KYC Norms","Code of Conduct"],
+  "III-C": ["Market Structure & Participants","Fund Types & Schemes","AIF Structure & Categories","SEBI Act & Regulations","Insider Trading (PIT)","FUTP Regulations","Compliance Obligations","FEMA","PMLA","AML/CFT Guidelines","KYC Norms","Code of Conduct","REITs / InvITs"],
+  "IV":    ["Market Structure & Participants","Derivatives Basics","Forwards & Futures","Options & Greeks","Trading Strategies","Interest Rate Derivatives","Bond Pricing & Yield","Debt Instruments","Government Securities","Clearing & Settlement","Risk Mgmt (Operational)","SEBI Act & Regulations","Securities Taxation","Code of Conduct"],
+  "V-A":   ["Market Structure & Participants","Fund Types & Schemes","NAV & Valuation","Distribution Practices","SIP/STP/SWP","Financial Planning","SEBI Act & Regulations","KYC Norms","MF Taxation","Investor Services & Grievances","Sales Practices"],
+  "V-B":   ["Market Structure & Participants","Fund Types & Schemes","NAV & Valuation","Distribution Practices","SIP/STP/SWP","Financial Planning","SEBI Act & Regulations","MF Taxation","Investor Services & Grievances"],
+  "VI":    ["Market Structure & Participants","Primary Markets / IPO","Secondary Markets / Trading","Debt Instruments","Government Securities","Depository Operations","SEBI Act & Regulations","Investor Services & Grievances","Corporate Actions"],
+  "VII":   ["Market Structure & Participants","Secondary Markets / Trading","Clearing & Settlement","Risk Mgmt (Operational)","Trade Life Cycle","SEBI Act & Regulations","KYC Norms","Investor Services & Grievances"],
+  "VIII":  ["Market Structure & Participants","Secondary Markets / Trading","Derivatives Basics","Forwards & Futures","Options & Greeks","Trading Strategies","Clearing & Settlement","Risk Mgmt (Operational)","SEBI Act & Regulations","Securities Taxation","Code of Conduct","Sales Practices"],
+  "IX":    ["Market Structure & Participants","Primary Markets / IPO","SEBI Act & Regulations","Compliance Obligations","Code of Conduct","Merchant Banking / IPO"],
+  "X-A":   ["Market Structure & Participants","Secondary Markets / Trading","Derivatives Basics","Fund Types & Schemes","Bond Pricing & Yield","Debt Instruments","AIF Structure & Categories","Asset Allocation","Performance Measurement","PMS Process","Financial Planning","Risk Profiling","Insurance","SEBI Act & Regulations","Compliance Obligations","Securities Taxation","Code of Conduct"],
+  "X-B":   ["Derivatives Basics","AIF Structure & Categories","Bond Pricing & Yield","Debt Instruments","Asset Allocation","Financial Planning","Risk Profiling","Behavioral Finance","Retirement Planning","Insurance","Securities Taxation","MF Taxation","DTAA"],
+  "X-C":   ["Financial Planning"],
+  "XII":   ["Market Structure & Participants","Primary Markets / IPO","Secondary Markets / Trading","Derivatives Basics","Fund Types & Schemes","NAV & Valuation","Debt Instruments","SEBI Act & Regulations"],
+  "XIII":  ["Market Structure & Participants","Secondary Markets / Trading","Derivatives Basics","Forwards & Futures","Options & Greeks","Trading Strategies","Currency Derivatives","Interest Rate Derivatives","Clearing & Settlement","Risk Mgmt (Operational)","SEBI Act & Regulations","Securities Taxation","Code of Conduct","Sales Practices"],
+  "XV":    ["Market Structure & Participants","Secondary Markets / Trading","Bond Pricing & Yield","Debt Instruments","SEBI Act & Regulations","Compliance Obligations","Code of Conduct","Research & Analysis","Corporate Actions"],
+  "XVI":   ["Market Structure & Participants","Derivatives Basics","Forwards & Futures","Options & Greeks","Trading Strategies","Commodity Derivatives","Clearing & Settlement","Risk Mgmt (Operational)","SEBI Act & Regulations","Securities Taxation","Code of Conduct","Sales Practices"],
+  "XVII":  ["Market Structure & Participants","Fund Types & Schemes","Asset Allocation","Performance Measurement","Financial Planning","Retirement Planning","SEBI Act & Regulations"],
+  "XIX-A": ["AIF Structure & Categories","AIF Distribution","Performance Measurement","AIF Taxation","SEBI Act & Regulations"],
+  "XIX-B": ["AIF Structure & Categories","AIF Distribution","Hedge Fund Strategies","Performance Measurement","AIF Taxation","SEBI Act & Regulations"],
+  "XIX-C": ["Market Structure & Participants","Modern Portfolio Theory","AIF Structure & Categories","AIF Fund Management","Hedge Fund Strategies","Performance Measurement","AIF Taxation","SEBI Act & Regulations","FEMA"],
+  "XIX-D": ["Market Structure & Participants","AIF Structure & Categories","AIF Fund Management","Performance Measurement","AIF Taxation","SEBI Act & Regulations"],
+  "XIX-E": ["Market Structure & Participants","Modern Portfolio Theory","AIF Structure & Categories","AIF Fund Management","Hedge Fund Strategies","Performance Measurement","AIF Taxation","SEBI Act & Regulations","FEMA","Insider Trading (PIT)","FUTP Regulations","PMLA"],
+  "XXI-A": ["Market Structure & Participants","Derivatives Basics","Debt Instruments","Performance Measurement","PMS Process","SEBI Act & Regulations","Securities Taxation","Code of Conduct"],
+  "XXI-B": ["Market Structure & Participants","Secondary Markets / Trading","Derivatives Basics","Forwards & Futures","Options & Greeks","Fund Types & Schemes","Bond Pricing & Yield","Debt Instruments","Government Securities","Modern Portfolio Theory","Asset Allocation","Performance Measurement","PMS Process","Behavioral Finance","SEBI Act & Regulations","Compliance Obligations","Securities Taxation","Code of Conduct"],
+  "XXIII": ["SEBI Act & Regulations","Securities Taxation","Social Impact / SSE"],
+  "XXIV":  ["PMLA","AML/CFT Guidelines","KYC Norms","FATF Recommendations"],
+  "XXV-A": ["SEBI Act & Regulations","Code of Conduct","Research & Analysis"],
+  "IFSCA": ["PMLA","AML/CFT Guidelines","KYC Norms","FATF Recommendations"]
+};
+
+// ========== BUILD ALL SUBTOPICS LIST ==========
+const allSubtopics = [];
+const themeForSubtopic = {};
+themes.forEach(t => {
+  t.subtopics.forEach(s => {
+    allSubtopics.push(s);
+    themeForSubtopic[s] = t.name;
+  });
+});
+
+// ========== STATS ==========
+const totalExams = exams.length;
+const totalSubtopics = allSubtopics.length;
+let totalCoverage = 0;
+exams.forEach(e => { totalCoverage += (mapping[e.id] || []).length; });
+
+// Most shared subtopic
+const subtopicCounts = {};
+allSubtopics.forEach(s => { subtopicCounts[s] = 0; });
+exams.forEach(e => {
+  (mapping[e.id] || []).forEach(s => { if (subtopicCounts[s] !== undefined) subtopicCounts[s]++; });
+});
+const topSubtopic = Object.entries(subtopicCounts).sort((a,b) => b[1] - a[1])[0];
+
+document.getElementById('statsPanel').innerHTML = `
+  <div class="stat-card"><div class="num">${totalExams}</div><div class="label">Active Exams</div></div>
+  <div class="stat-card"><div class="num">${totalSubtopics}</div><div class="label">Sub-Topics Tracked</div></div>
+  <div class="stat-card"><div class="num">${totalCoverage}</div><div class="label">Total Mappings</div></div>
+  <div class="stat-card"><div class="num">${topSubtopic[1]}</div><div class="label">Max Overlap (${topSubtopic[0]})</div></div>
+`;
+
+// ========== FILTERS ==========
+let activeThemes = new Set(themes.map(t => t.name));
+
+function renderFilters() {
+  const container = document.getElementById('filters');
+  container.innerHTML = '<label>Filter by theme:</label>';
+  const allBtn = document.createElement('button');
+  allBtn.className = 'filter-btn active';
+  allBtn.textContent = 'All';
+  allBtn.id = 'btnAll';
+  allBtn.onclick = () => {
+    activeThemes = new Set(themes.map(t => t.name));
+    renderFilters();
+    renderMatrix();
+  };
+  container.appendChild(allBtn);
+
+  themes.forEach(t => {
+    const btn = document.createElement('button');
+    btn.className = 'filter-btn' + (activeThemes.has(t.name) ? ' active' : '');
+    btn.textContent = t.name;
+    btn.onclick = () => {
+      if (activeThemes.size === themes.length) {
+        activeThemes = new Set([t.name]);
+      } else if (activeThemes.has(t.name) && activeThemes.size > 1) {
+        activeThemes.delete(t.name);
+      } else {
+        activeThemes.add(t.name);
+      }
+      renderFilters();
+      renderMatrix();
+    };
+    container.appendChild(btn);
+  });
+
+  if (activeThemes.size < themes.length) {
+    document.getElementById('btnAll').classList.remove('active');
+  }
+}
+
+// ========== MATRIX ==========
+let highlightedRow = null;
+
+function renderMatrix() {
+  const table = document.getElementById('matrix');
+  const visibleSubtopics = allSubtopics.filter(s => activeThemes.has(themeForSubtopic[s]));
+
+  // Theme header row
+  let themeRow = '<tr><th class="theme-header" rowspan="2" style="vertical-align:middle;">Exam</th>';
+  themes.forEach(t => {
+    if (!activeThemes.has(t.name)) return;
+    themeRow += `<th class="theme-header" colspan="${t.subtopics.length}">${t.name}</th>`;
+  });
+  themeRow += '<th class="theme-header" rowspan="2" style="vertical-align:middle;">Total</th></tr>';
+
+  // Subtopic header row
+  let subRow = '<tr>';
+  visibleSubtopics.forEach(s => {
+    subRow += `<th class="subtopic-header" title="${s}">${s}</th>`;
+  });
+  subRow += '</tr>';
+
+  // Count row (how many exams cover each subtopic)
+  let countRow = '<tr><td style="font-weight:700;background:#fff3e0;">Exam Count</td>';
+  visibleSubtopics.forEach(s => {
+    countRow += `<td class="cell-count">${subtopicCounts[s]}</td>`;
+  });
+  countRow += `<td class="cell-count"></td></tr>`;
+
+  // Exam rows
+  let bodyRows = '';
+  exams.forEach((e, idx) => {
+    const topics = new Set(mapping[e.id] || []);
+    const visibleCount = visibleSubtopics.filter(s => topics.has(s)).length;
+    const rowClass = highlightedRow === idx ? 'highlight' : '';
+    bodyRows += `<tr class="${rowClass}" onclick="toggleHighlight(${idx})" style="cursor:pointer;">`;
+    bodyRows += `<td title="${e.name}">${e.name}</td>`;
+    visibleSubtopics.forEach(s => {
+      if (topics.has(s)) {
+        bodyRows += '<td class="cell-yes">Y</td>';
+      } else {
+        bodyRows += '<td class="cell-no">-</td>';
+      }
+    });
+    bodyRows += `<td class="cell-count">${visibleCount}</td>`;
+    bodyRows += '</tr>';
+  });
+
+  table.innerHTML = `<thead>${themeRow}${subRow}</thead><tbody>${countRow}${bodyRows}</tbody>`;
+}
+
+function toggleHighlight(idx) {
+  highlightedRow = (highlightedRow === idx) ? null : idx;
+  renderMatrix();
+}
+
+// ========== OVERLAP PAIRS ==========
+function computePairs() {
+  const pairs = [];
+  for (let i = 0; i < exams.length; i++) {
+    for (let j = i + 1; j < exams.length; j++) {
+      const a = new Set(mapping[exams[i].id] || []);
+      const b = new Set(mapping[exams[j].id] || []);
+      const shared = [...a].filter(x => b.has(x));
+      if (shared.length >= 3) {
+        pairs.push({ a: exams[i].name, b: exams[j].name, count: shared.length, topics: shared });
+      }
+    }
+  }
+  pairs.sort((a, b) => b.count - a.count);
+  return pairs.slice(0, 15);
+}
+
+function renderPairs() {
+  const pairs = computePairs();
+  const maxCount = pairs.length ? pairs[0].count : 1;
+  let html = '<thead><tr><th>#</th><th>Exam A</th><th>Exam B</th><th>Shared Topics</th><th>Details</th></tr></thead><tbody>';
+  pairs.forEach((p, i) => {
+    const barW = Math.round((p.count / maxCount) * 120);
+    html += `<tr>
+      <td>${i + 1}</td>
+      <td>${p.a}</td>
+      <td>${p.b}</td>
+      <td>${p.count} <span class="bar" style="width:${barW}px;"></span></td>
+      <td style="font-size:0.7rem;color:#666;white-space:normal;max-width:300px;">${p.topics.join(', ')}</td>
+    </tr>`;
+  });
+  html += '</tbody>';
+  document.getElementById('pairsTable').innerHTML = html;
+}
+
+// ========== CLUSTERS ==========
+function renderClusters() {
+  const clusters = [
+    { name: "Derivatives Cluster", exams: ["I","IV","VIII","XIII","XVI"],
+      shared: "Derivatives Basics, Forwards & Futures, Options & Greeks, Trading Strategies, Clearing & Settlement, Risk Management, SEBI Regulations, Taxation, Code of Conduct" },
+    { name: "AIF Family Cluster", exams: ["XIX-A","XIX-B","XIX-C","XIX-D","XIX-E"],
+      shared: "AIF Structure & Categories, Performance Measurement, AIF Taxation, SEBI Regulations" },
+    { name: "Compliance Cluster", exams: ["III-A","III-C"],
+      shared: "SEBI Act, Insider Trading (PIT), FUTP, PMLA, AML/CFT, KYC, Compliance Obligations, Code of Conduct" },
+    { name: "Investment Advisory Cluster", exams: ["X-A","X-B","X-C"],
+      shared: "Financial Planning, Risk Profiling, Asset Allocation, Regulatory Framework" },
+    { name: "Mutual Fund Cluster", exams: ["V-A","V-B","II-B"],
+      shared: "Fund Types, NAV & Valuation, Distribution Practices, Investor Services, SEBI Regulations" },
+    { name: "Portfolio Management Cluster", exams: ["XXI-A","XXI-B","X-A"],
+      shared: "Performance Measurement, PMS Process, Securities Markets, SEBI Regulations, Taxation" },
+    { name: "AML/KYC Cluster", exams: ["XXIV","IFSCA","III-A","III-C"],
+      shared: "PMLA, AML/CFT Guidelines, KYC Norms" },
+    { name: "Research Cluster", exams: ["XV","XXV-A"],
+      shared: "SEBI Regulations, Code of Conduct, Research & Analysis" }
+  ];
+
+  let html = '<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(350px,1fr));gap:12px;">';
+  clusters.forEach(c => {
+    const examNames = c.exams.map(id => {
+      const e = exams.find(x => x.id === id);
+      return e ? e.name : id;
+    });
+    html += `<div style="border:1px solid #e0e0e0;border-radius:8px;padding:12px;">
+      <div style="font-weight:700;color:#2d6a4f;margin-bottom:6px;">${c.name}</div>
+      <div style="font-size:0.78rem;margin-bottom:6px;"><strong>Exams:</strong> ${examNames.join(', ')}</div>
+      <div style="font-size:0.72rem;color:#666;"><strong>Shared:</strong> ${c.shared}</div>
+    </div>`;
+  });
+  html += '</div>';
+  document.getElementById('clusters').innerHTML = html;
+}
+
+// ========== INIT ==========
+renderFilters();
+renderMatrix();
+renderPairs();
+renderClusters();
+</script>
+</body>
+</html>

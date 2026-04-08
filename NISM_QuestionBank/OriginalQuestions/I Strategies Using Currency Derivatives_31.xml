@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_31" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In a bull call spread, the maximum loss equals:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The net premium paid (lower strike call premium minus higher strike call premium received)]]></text></answer>
+            <answer correct="no"><text><![CDATA[The difference between the two strike prices]]></text></answer>
+            <answer correct="no"><text><![CDATA[Unlimited]]></text></answer>
+            <answer correct="no"><text><![CDATA[Zero]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Bull call spread max loss = Net premium = Premium paid for lower call - Premium received for higher call. This occurs when USDINR stays at or below the lower strike price.
+**The Trap:** Max loss is NOT the full premium of the lower call — it's reduced by the premium received from selling the higher call.
+**Cross-Exam Context:** Spread P&L limits are tested in Series I and VIII.
+**Distributor's Pro-Tip:** This reduced cost (vs naked long call) is the main advantage of the bull call spread.]]></text></explanation>
+    </question>
+</QF>

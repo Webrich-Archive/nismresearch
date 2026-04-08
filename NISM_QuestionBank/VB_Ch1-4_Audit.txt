@@ -1,0 +1,481 @@
+===============================================================================
+NISM SERIES V-B (MFF) QUESTION BANK AUDIT REPORT
+Chapters 1-4 vs. PDF Workbook (November 2025 Edition)
+Audit Date: 2026-04-08
+===============================================================================
+
+PDF SOURCE: NISM SERIES V-B MFF Workbook version-November-2025.pdf
+TOPICS AUDITED:
+  1. VB Investment Landscape (15 questions)
+  2. VB Concept and Role of Mutual Fund (30 questions)
+  3. VB Legal Structure of Mutual Funds (20 questions)
+  4. MF Products for New Cadre (15 questions)
+TOTAL QUESTIONS AUDITED: 80
+
+===============================================================================
+SECTION A: CORRECTIONS NEEDED
+===============================================================================
+
+-------------------------------------------------------------------------------
+A1. VB Concept and Role of Mutual Fund_12.xml
+ISSUE: Minimum SIP amount stated as Rs. 500; PDF says Rs. 500 but also mentions
+Rs. 50 and Rs. 100 as starting amounts for some investments.
+DETAIL: The question says "As low as Rs. 500 per month" as the correct answer.
+The PDF (Ch.1, section 1.2) mentions "There are some avenues where an investor can
+start investing amounts as small as Rs. 50 or Rs. 100". While Rs. 500 is a common
+SIP minimum across most AMCs, the question's explanation itself says "Some even
+offer SIPs starting at Rs. 100" which contradicts the correct answer of Rs. 500.
+FIX: Minor issue. Either change the correct answer to "As low as Rs. 100 per month"
+or adjust the question to say "typically" or "commonly" Rs. 500. The explanation
+already acknowledges Rs. 100 SIPs exist, so the answer should be more precise.
+SEVERITY: LOW - The answer is practically correct for most funds, but the
+explanation contradicts it.
+-------------------------------------------------------------------------------
+
+A2. VB Concept and Role of Mutual Fund_2.xml
+ISSUE: This question about mutual fund structure as a trust belongs more to
+Chapter 3 (Legal Structure) than Chapter 2 (Concept and Role). While the PDF does
+mention the trust form in Ch.2 section 2.1 ("Mutual fund is a vehicle (in the form
+of a trust)..."), the detailed legal treatment is in Ch.3.
+DETAIL: The question is factually correct - mutual funds are structured as trusts
+under Indian Trusts Act, 1882 per PDF page 46.
+FIX: No factual correction needed. Consider re-categorizing to Legal Structure
+topic for better topical alignment, or keep as-is since Ch.2 does reference it.
+SEVERITY: INFORMATIONAL ONLY
+-------------------------------------------------------------------------------
+
+A3. VB Legal Structure of Mutual Funds_8.xml
+ISSUE: AMFI described as a "self-regulatory organization" in the explanation.
+DETAIL: The PDF (Ch.3, page 59) explicitly states: "An important point to note here
+is that AMFI is neither a regulatory body nor a Self-Regulatory Organisation (SRO)."
+The explanation says AMFI is "the industry body (self-regulatory organization)".
+FIX: Remove "(self-regulatory organization)" from the explanation. Replace with
+"the industry association" or "the industry body (note: AMFI is neither a regulator
+nor an SRO)". This is a direct contradiction of the PDF.
+SEVERITY: HIGH - The explanation contains factually incorrect information that
+directly contradicts the workbook.
+-------------------------------------------------------------------------------
+
+A4. VB Legal Structure of Mutual Funds_16.xml
+ISSUE: Question says "The Trustees" appoint the AMC.
+DETAIL: The PDF (Ch.3, page 50) states: "The sponsor or, the trustees if so,
+authorized by the trust deed, shall appoint the AMC with the approval of SEBI."
+So the appointment can be by the sponsor OR the trustees. The question's answer
+"The Trustees" is not fully accurate - the sponsor can also appoint the AMC.
+FIX: Change the correct answer to "The Sponsor or Trustees (with SEBI approval)"
+or add nuance. Alternatively, keep the answer but fix the explanation to acknowledge
+the sponsor's role too. The PDF also states on page 47: "The AMC is appointed by
+the sponsor or the Trustees."
+SEVERITY: MEDIUM - The answer is partially correct but oversimplified.
+-------------------------------------------------------------------------------
+
+A5. VB Concept and Role of Mutual Fund_9.xml
+ISSUE: Explanation states conservative hybrid funds have "75-90% debt and 10-25%
+equity". This is accurate per PDF (page 40: "Investment in debt instruments shall
+be between 75 percent and 90 percent of total assets while investment in equity
+and equity instruments shall be between 10 percent and 25 percent of total
+assets"). However, the question asks about hybrid funds generally, and the answer
+says "Both equity (shares) and debt (bonds) instruments" which is correct.
+FIX: No correction needed. Confirmed accurate.
+SEVERITY: NONE - Verified correct.
+-------------------------------------------------------------------------------
+
+A6. VB Legal Structure of Mutual Funds_11.xml
+ISSUE: The hierarchy "Sponsor -> Trust (Trustees) -> AMC -> Custodian/RTA" is a
+reasonable simplification but the PDF structure is more nuanced.
+DETAIL: Per PDF page 47, the AMC is appointed by "the sponsor or the Trustees."
+The custodian is "appointed by the Trustees" (page 51), not by the AMC. So
+Custodian is not really "below" AMC in the hierarchy - it's appointed by Trustees
+directly.
+FIX: Consider adjusting the correct answer to better reflect that the Custodian is
+appointed by the Trustees (not the AMC). The current linear hierarchy is a
+simplification. However, for exam purposes, this ordering is commonly used.
+SEVERITY: LOW - Acceptable simplification for exam purposes.
+-------------------------------------------------------------------------------
+
+A7. MF Products for New Cadre_10.xml
+ISSUE: The question says "Retired government officials with at least 10 years of
+service" qualify as new cadre distributors. The explanation adds "retired teachers".
+DETAIL: The PDF (Ch.4, page 61) lists the eligibility:
+  1. Postal agents
+  2. Retired government and semi-government officials (class III and above or
+     equivalent) with a service of at least 10 years
+  3. Retired bank officers with a service of at least 10 years
+  4. Other similar persons (such as bank correspondents) as may be notified by
+     AMFI/AMC from time to time
+The question's correct answer mentions only "Retired government officials" but the
+PDF includes postal agents (no 10-year requirement mentioned for them) and retired
+bank officers too.
+FIX: The answer is technically correct but incomplete. The explanation should not
+add "retired teachers" as a category since the PDF does not list teachers. The PDF
+says "class III and above or equivalent" for government officials - this detail is
+also missing.
+SEVERITY: MEDIUM - The explanation adds "retired teachers" which is NOT in the PDF.
+This could mislead exam takers.
+-------------------------------------------------------------------------------
+
+A8. MF Products for New Cadre_11.xml
+ISSUE: Question states retirement benefit schemes offer "tax benefits".
+DETAIL: The PDF (Ch.4, page 65) describes retirement funds as having "a lock-in of
+5 years or till retirement age (whichever is earlier)". The PDF Ch.4 list says
+"Retirement benefit schemes having tax benefits" as a permitted product.
+FIX: The answer is correct. The PDF explicitly lists "Retirement benefit schemes
+having tax benefits" as one of the five permitted products. However, the question's
+explanation should clarify this refers specifically to retirement schemes WITH tax
+benefits, not all retirement schemes. Not all retirement mutual fund schemes
+necessarily have tax benefits - only those that qualify under specific tax sections.
+SEVERITY: LOW - Answer is correct per the PDF listing.
+-------------------------------------------------------------------------------
+
+A9. MF Products for New Cadre_14.xml
+ISSUE: The question about Year 2 underperformance (scheme: 8%, Nifty: 9%) is
+well-constructed and the answer is correct per PDF.
+DETAIL: PDF (Ch.4, page 61) states: "These products should have returns equal to
+or better than their scheme benchmark returns during each of the last three years."
+The question correctly interprets "each" year - not average.
+FIX: No correction needed. Confirmed accurate.
+SEVERITY: NONE
+-------------------------------------------------------------------------------
+
+A10. VB Concept and Role of Mutual Fund_26.xml
+ISSUE: The question recommends a "conservative hybrid fund" for a retiree.
+DETAIL: Per PDF (page 40), conservative hybrid funds have 75-90% debt and 10-25%
+equity. However, this question is categorized under "Concept and Role of Mutual
+Fund" (Ch.2) but references detailed scheme categorization knowledge. The answer
+and factual content are correct.
+FIX: No factual correction needed. The recommendation is sound per PDF definitions.
+SEVERITY: NONE
+-------------------------------------------------------------------------------
+
+===============================================================================
+SECTION B: CONFIRMED FINE (All facts verified against PDF)
+===============================================================================
+
+VB INVESTMENT LANDSCAPE (15 questions):
+- Q1: Retirement income goal - Correct per Ch.1 section 1.3.4
+- Q2: Saving vs investing difference - Correct per Ch.1 section 1.1
+- Q3: Bank FD as safest option - Correct per Ch.1 asset class discussion
+- Q4: Inflation reduces purchasing power - Correct per Ch.1 section 1.4
+- Q5: Gold jewellery as physical asset - Correct per Ch.1 section 1.2 (real
+       assets are physical; equity/debt are financial)
+- Q6: Market risk definition - Correct per Ch.1 general concepts
+- Q7: Inflation risk definition - Correct per Ch.1 section 1.4
+- Q8: Credit risk definition - Correct per Ch.1 fixed income discussion
+- Q9: Conservative investor in fixed income - Correct per Ch.1 asset class logic
+- Q10: Bank savings account most liquid - Correct per Ch.1 liquidity discussion
+- Q11: Diversification concept - Correct per Ch.1 section 1.5
+- Q12: Small investment amounts in MFs - Correct per Ch.1/2 (Rs. 500 SIP)
+- Q13: Risk-return trade-off - Correct per Ch.1 section 1.1.1
+- Q14: Inflation calculation (Rs. 9,43,396) - Correct: 10,00,000/1.06 = 9,43,396
+- Q15: Simple interest calculation (Rs. 1,07,000) - Correct: 1,00,000 x 7% = 7,000
+
+VB CONCEPT AND ROLE OF MUTUAL FUND (30 questions):
+- Q1: MF as pool of money - Correct per Ch.2 section 2.1
+- Q2: MF structured as trust - Correct per Ch.2/3
+- Q3: NAV = Net Asset Value - Correct per Ch.2 section 2.1.4
+- Q4: Face value Rs. 10 - Correct per Ch.2 section 2.1.4 ("every unit has a face
+       value of Rs. 10")
+- Q5: Open-ended fund buy/sell any business day - Correct per Ch.2 section 2.2.1
+- Q6: Close-ended fund buy only during NFO - Correct per Ch.2 section 2.2.1
+- Q7: Equity fund invests in shares - Correct per Ch.2 section 2.2.3
+- Q8: Debt fund invests in bonds/G-secs - Correct per Ch.2 section 2.2.3
+- Q9: Hybrid fund = equity + debt - Correct per Ch.2 section 2.2.4 (hybrid schemes)
+- Q10: Professional management advantage - Correct per Ch.2 section 2.1.5
+- Q11: Diversification definition - Correct per Ch.2 section 2.1.5
+- Q12: SIP minimum Rs. 500 - See A1 above (minor issue with explanation)
+- Q13: No guaranteed returns disadvantage - Correct per Ch.2 section 2.1.6
+- Q14: TER concept - Correct per Ch.2 section 2.1.4 (recurring expenses)
+- Q15: SEBI as regulator - Correct per Ch.2/3
+- Q16: NAV calculated every business day - Correct per Ch.2 section 2.1.4 (mark to
+        market done daily) and Ch.5 confirmation
+- Q17: Unitholder definition - Correct per Ch.2 section 2.1.4
+- Q18: SEBI categorization for uniformity (2017) - Correct per Ch.2 section 2.2.4
+- Q19: Liquidity definition - Correct per Ch.2 section 2.1.5
+- Q20: NFO purpose - Correct per Ch.2 section 2.2.1
+- Q21: Exit load definition - Correct per Ch.2 general concepts
+- Q22: Growth option - profits reinvested - Correct per Ch.2 section 2.1.4
+        (IDCW vs growth mentioned)
+- Q23: IDCW option - distributes profits, NAV decreases - Correct per Ch.2
+        section 2.1.4
+- Q24: SIP definition - Correct per Ch.2 section 2.1.5 (systematic approach)
+- Q25: SID and KIM as essential documents - Correct (covered in Ch.5 but
+        referenced in Ch.2)
+- Q26: Conservative hybrid fund with SWP - Correct per Ch.2 categorization
+- Q27: Exit load calculation (Rs. 99,000) - Correct: 1% of 1,00,000 = 1,000
+- Q28: Cannot guarantee returns - Correct per Ch.2 section 2.1.6
+- Q29: NAV calculation (Rs. 10) - Correct: (50L-2L)/4.8L = 48L/4.8L = Rs. 10
+- Q30: Unit allotment (500 units) - Correct: 10,000/20 = 500
+
+VB LEGAL STRUCTURE OF MUTUAL FUNDS (20 questions):
+- Q1: Indian Trusts Act, 1882 - Correct per Ch.3 section 3.1
+- Q2: Sponsor role - Correct per Ch.3 section 3.2.1
+- Q3: Trustee role (protect unitholders) - Correct per Ch.3 section 3.2.2
+- Q4: AMC = Asset Management Company - Correct per Ch.3 section 3.2.4
+- Q5: AMC day-to-day management - Correct per Ch.3 section 3.2.4
+- Q6: Custodian holds securities - Correct per Ch.3 section 3.2.5
+- Q7: RTA = Registrar and Transfer Agent - Correct per Ch.3 section 3.4.2
+- Q8: AMFI = Association of Mutual Funds in India - Correct per Ch.3 section 3.5
+       BUT SEE A3 ABOVE (explanation incorrectly calls AMFI an SRO)
+- Q9: ARN = AMFI Registration Number - Correct per Ch.3 section 3.4.4
+- Q10: SEBI regulates MFs - Correct per Ch.3 section 3.1
+- Q11: Structure hierarchy - Correct as simplification (see A6 above)
+- Q12: Checks and balances purpose - Correct per Ch.3 section 3.1
+- Q13: NISM certification + ARN required - Correct per Ch.3 section 3.4.4
+- Q14: SEBI (Mutual Funds) Regulations, 1996 - Correct per Ch.3 section 3.1
+- Q15: AMC shutdown - investor money safe with custodian - Correct per Ch.3
+- Q16: Trustees appoint AMC - Partially correct (see A4 above)
+- Q17: AMFI registers distributors/issues ARN - Correct per Ch.3
+- Q18: Trustees prevent anti-unitholder activities - Correct per Ch.3 section 3.2.2
+- Q19: Must get ARN before selling - Correct per Ch.3 section 3.4.4
+- Q20: AMC shutdown scenario - investor protected - Correct per Ch.3
+
+MF PRODUCTS FOR NEW CADRE (15 questions):
+- Q1: Liquid schemes permitted - Correct per Ch.4 section 4.1
+- Q2: Liquid fund maturity 91 days - Correct per Ch.4 section 4.2
+- Q3: Index fund 95% minimum - Correct per Ch.4 section 4.3
+- Q4: Index fund = passive management - Correct per Ch.4 section 4.3
+- Q5: Lower TER advantage - Correct per Ch.4 section 4.3
+- Q6: FMP = close-ended debt scheme - Correct per Ch.4 section 4.6
+- Q7: Money market fund maturity up to 1 year - Correct per Ch.4 section 4.2
+- Q8: Sectoral funds NOT permitted - Correct per Ch.4 section 4.1
+- Q9: 3-year benchmark outperformance required - Correct per Ch.4 section 4.1
+- Q10: Retired govt officials with 10 years - Partially correct (see A7 above)
+- Q11: Retirement schemes with tax benefits - Correct per Ch.4 section 4.1
+- Q12: Diversified equity across sectors - Correct per Ch.4 section 4.4
+- Q13: Mid-cap fund outside permitted range - Correct per Ch.4 section 4.1
+- Q14: Year-by-year benchmark check - Correct per Ch.4 section 4.1
+- Q15: TER calculation (Rs. 500) - Correct: 1,00,000 x 0.5% = 500
+
+===============================================================================
+SECTION C: CONCEPT GAPS (Important PDF content NOT covered by any question)
+===============================================================================
+
+CHAPTER 1 - INVESTMENT LANDSCAPE:
+Gap 1: FOUR BROAD ASSET CLASSES
+  The PDF explicitly identifies four broad asset categories: Real Estate,
+  Commodities, Equity, and Fixed Income (with Real Estate and Commodities as
+  "real assets" and Equity and Debt as "financial assets"). No question directly
+  tests this four-way classification.
+
+Gap 2: FOUR BROAD FINANCIAL NEEDS
+  The PDF identifies four financial needs: (1) Transaction needs, (2) Protection
+  needs, (3) Investment needs, (4) Retirement needs. No question covers this
+  framework specifically.
+
+Gap 3: INTERNATIONAL ASSETS / CURRENCY RISK
+  The PDF discusses international investments and exchange rate risk (page 17).
+  No question covers this concept.
+
+Gap 4: INFLATION CALCULATION FORMULA
+  The PDF provides a case study (Sapna's education, page 20) using the formula
+  Future Value = Present Value x (1 + inflation rate)^years. While Q14 tests
+  inflation impact, no question uses the compound inflation formula from the
+  PDF's example (Rs. 10 lac becoming Rs. 21.59 lac at 8% over 10 years).
+
+Gap 5: REAL ESTATE CHARACTERISTICS
+  The PDF discusses real estate as an asset class extensively (illiquidity, high
+  ticket size, maintenance costs, difficulty of purity assessment in gold). No
+  question tests real estate or commodity characteristics specifically.
+
+Gap 6: COST OF SELF-MANAGING vs. MUTUAL FUND
+  PDF section 1.5 discusses three key questions about mutual fund choice: Can one
+  do it oneself? Does one want to? Can one afford to outsource? This framework is
+  not tested.
+
+CHAPTER 2 - CONCEPT AND ROLE OF MUTUAL FUND:
+Gap 7: SEBI CATEGORIZATION DETAIL - 5 BROAD CATEGORIES
+  The PDF lists 5 categories: (A) Equity (11 sub-categories), (B) Debt (16
+  sub-categories), (C) Hybrid (6 sub-categories), (D) Solution Oriented (2
+  sub-categories), (E) Other (2 sub-categories). No question tests the number
+  of categories or sub-categories.
+
+Gap 8: SPECIFIC EQUITY SCHEME THRESHOLDS
+  Large Cap Fund: 80% minimum in large cap
+  Multi Cap Fund: 25% each in large/mid/small cap (75% total equity)
+  Mid Cap Fund: 65% minimum in mid cap
+  Small Cap Fund: 65% minimum in small cap
+  ELSS: 80% equity, 3-year lock-in
+  Focused Fund: maximum 30 stocks
+  No question tests these specific thresholds.
+
+Gap 9: DEBT SCHEME DURATION BANDS
+  The PDF provides detailed Macaulay duration bands for each debt sub-category
+  (e.g., Ultra-Short: 3-6 months, Low Duration: 6-12 months, Short: 1-3 years,
+  Medium: 3-4 years, Medium-to-Long: 4-7 years, Long: >7 years). None tested.
+
+Gap 10: INTERVAL FUNDS
+  The PDF discusses interval funds (combining features of open-ended and
+  close-ended) with specific details: minimum transaction period of 2 days,
+  compulsorily listed on stock exchange. No question covers interval funds.
+
+Gap 11: ETFs (Exchange Traded Funds)
+  Box 2.1 in the PDF discusses ETFs in detail - traded on stock exchange, track
+  indices, passive in nature, require demat account. Silver ETF mentioned. No
+  question covers ETFs specifically.
+
+Gap 12: MF LITE FRAMEWORK
+  The PDF mentions SEBI's "Mutual Fund Lite" framework for passively managed
+  schemes. Not tested.
+
+Gap 13: MARK TO MARKET (MTM)
+  PDF section 2.1.4 explains MTM valuation for daily NAV calculation.
+  Not tested directly.
+
+Gap 14: INVESTMENT POLICY (Asset Allocation + Investment Style)
+  PDF section 2.1.3 discusses that scheme's investment policy includes asset
+  allocation AND investment style (growth style, value style, focused vs.
+  diversified). Not tested.
+
+Gap 15: AUM CONCEPT
+  While NAV is tested, the AUM (Assets Under Management) concept and how it
+  changes is not directly tested. PDF section 2.1.4 provides detailed treatment.
+
+Gap 16: ONE SCHEME PER CATEGORY RULE
+  SEBI rule that there can be only one scheme per category (with specific
+  exceptions for index funds/ETFs tracking different indices). Not tested.
+
+Gap 17: SPECIALIZED INVESTMENT FUND (SIF)
+  PDF mentions SIF with minimum Rs. 10 lakh investment. Not tested.
+
+Gap 18: ESG INVESTING
+  PDF discusses ESG as a sub-category under thematic equity with 6 strategies.
+  Not tested.
+
+Gap 19: SMART BETA FUNDS / QUANT FUNDS
+  PDF section 2.2.5 discusses these new fund types. Not tested.
+
+Gap 20: INDUSTRY GROWTH DATA
+  PDF mentions AUM grew from Rs. 11.89 lakh crore (March 2015) to Rs. 66.70
+  lakh crore (March 2025). SIP contribution grew from Rs. 8,055 crore (March
+  2019) to Rs. 26,400 crore (January 2025). Not tested.
+
+CHAPTER 3 - LEGAL STRUCTURE:
+Gap 21: SPONSOR ELIGIBILITY CRITERIA
+  PDF states sponsor must have: (1) sound track record, (2) 5+ years in
+  financial services, (3) positive net worth in all preceding 5 years, (4) fit
+  and proper person. No question tests these specific criteria.
+
+Gap 22: TRUSTEE REQUIREMENTS - MINIMUM NUMBER AND INDEPENDENCE
+  PDF states: minimum 4 trustees, at least two-thirds must be independent
+  (not associated with sponsor). No question tests these numbers.
+
+Gap 23: TRUSTEE SPECIFIC DUTIES
+  PDF lists extensive trustee duties including: half-yearly reports to SEBI,
+  quarterly review of AMC transactions, ensuring change in fundamental
+  attributes requires written notice + newspaper + exit at NAV without load.
+  These specifics are not tested.
+
+Gap 24: CUSTODIAN INDEPENDENCE RULE (50% THRESHOLD)
+  PDF states: If sponsor controls 50% or more voting rights of custodian, or 50%
+  or more directors represent sponsor's interest, that custodian cannot be
+  appointed (unless specific conditions are met). Not tested.
+
+Gap 25: UNIT HOLDER PROTECTION COMMITTEE (UHPC)
+  PDF section on UHPC and its three mandated responsibilities. Not tested.
+
+Gap 26: AMC ORGANIZATION STRUCTURE
+  PDF describes departments: Compliance, Fund Management (analysts, fund
+  managers, dealers), Operations/Customer Services, Sales/Marketing, and Other
+  functions (Finance, Admin, HRD, IT). Not tested.
+
+Gap 27: FUND ACCOUNTANT ROLE
+  PDF section 3.4.1 describes fund accountant's role in NAV calculation. Not
+  tested.
+
+Gap 28: KYC REGISTRATION AGENCIES (KRAs)
+  PDF section 3.4.6 discusses KRAs and central KYC since 2011. Not tested.
+
+Gap 29: COLLECTING BANKERS / PAYMENT AGGREGATORS
+  PDF section 3.4.5 discusses banks and new payment aggregators. Not tested.
+
+Gap 30: DEPOSITORIES AND DEMAT
+  PDF section 3.4.9 discusses depositories, demat form for units, ETFs must be
+  in demat. Not tested.
+
+Gap 31: STOCK EXCHANGE PLATFORMS
+  PDF mentions BSE-Star MF, NSE NMF-II, MF Utilities India. Not tested.
+
+Gap 32: AMFI'S SPECIFIC OBJECTIVES
+  PDF lists multiple AMFI objectives (define professional standards, recommend
+  best practices, interact with SEBI, represent to government/RBI). Not tested.
+
+Gap 33: CYBER SECURITY FRAMEWORK (CSCRF)
+  PDF mentions SEBI's CSCRF with 5 goals: Anticipate, Withstand, Contain,
+  Recover, Evolve. Not tested.
+
+Gap 34: TRUST DEED AND INDIAN REGISTRATION ACT, 1908
+  PDF states the trust instrument is registered under Indian Registration Act,
+  1908. Not tested.
+
+Gap 35: CREDIT RATING AGENCIES ROLE
+  PDF section 3.4.8 discusses credit rating agencies' role in debt funds. Not
+  tested.
+
+CHAPTER 4 - MF PRODUCTS FOR NEW CADRE:
+Gap 36: STP (SYSTEMATIC TRANSFER PLAN) USAGE
+  PDF section 4.2 mentions using liquid funds with STP to periodically transfer
+  to equity funds. Not tested.
+
+Gap 37: STOCK MARKET INDEX DEFINITION AND EXAMPLES
+  PDF section 4.3 lists specific indices: S&P BSE Sensex (30 stocks), NIFTY 50
+  (50 stocks), NIFTY SmallCap 250, CRISIL Liquid Fund Index, I-Sec Li-Bex,
+  Russell 3000, Nifty Bank Index. No question tests index knowledge.
+
+Gap 38: EQUITY RISK - COMPANY-SPECIFIC RISK
+  PDF section 4.4 discusses company-specific risk in equity (company may fail
+  entirely, shareholder loses). Not tested specifically.
+
+Gap 39: DIVERSIFIED EQUITY - SEGMENT AWARENESS
+  PDF section 4.4 discusses that distributors must check whether the fund invests
+  in large/mid/small companies, and large companies are less risky than small.
+  Not tested.
+
+Gap 40: FMP LISTING REQUIREMENT
+  PDF section 4.6 states FMP units must be listed on recognized stock exchange,
+  but listing does not guarantee liquidity. Not tested.
+
+Gap 41: DRIVERS OF RETURNS BY FUND TYPE
+  PDF discusses return drivers: liquid/money market = yield from debt instruments;
+  equity/index funds = stock portfolio returns; retirement funds = depend on
+  allocation. Not tested.
+
+Gap 42: AMC REQUIRED TO PUBLISH LIST OF ELIGIBLE SCHEMES
+  PDF states AMCs must publish list of simple and performing schemes on their
+  websites for new cadre distributors. Not tested.
+
+Gap 43: RETIREMENT FUND LOCK-IN DETAIL
+  PDF specifies "lock-in of 5 years or till retirement age (whichever is
+  earlier)". The lock-in detail (whichever is earlier) is not precisely tested.
+
+===============================================================================
+SECTION D: SUMMARY OF FINDINGS
+===============================================================================
+
+TOTAL QUESTIONS: 80
+
+CORRECTIONS NEEDED:
+  HIGH SEVERITY:   1 (Legal Structure Q8 - AMFI wrongly called SRO)
+  MEDIUM SEVERITY: 2 (Legal Structure Q16 - AMC appointment; Products Q10 -
+                       teachers not in PDF)
+  LOW SEVERITY:    3 (Concept Q12 - SIP min amount; Legal Q11 - hierarchy
+                       simplification; Products Q11 - tax benefits scope)
+  INFORMATIONAL:   1 (Concept Q2 - topical categorization)
+
+QUESTIONS CONFIRMED CORRECT: 73 out of 80
+
+CONCEPT GAPS IDENTIFIED: 43 significant gaps across all four chapters
+
+PRIORITY RECOMMENDATIONS:
+1. URGENT: Fix Legal Structure Q8 explanation - remove SRO designation for AMFI
+2. IMPORTANT: Fix Legal Structure Q16 - acknowledge sponsor can also appoint AMC
+3. IMPORTANT: Fix Products Q10 explanation - remove "retired teachers" (not in PDF)
+4. CONSIDER: Add questions on SEBI categorization thresholds (80/65/25% rules)
+5. CONSIDER: Add questions on trustee requirements (min 4, two-thirds independent)
+6. CONSIDER: Add questions on the 4 broad asset classes and financial needs
+7. CONSIDER: Add questions on interval funds and ETFs
+8. CONSIDER: Add questions on sponsor eligibility criteria (5 years financial
+   services, positive net worth for 5 years)
+
+===============================================================================
+END OF AUDIT REPORT
+===============================================================================

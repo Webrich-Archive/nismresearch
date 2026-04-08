@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Basics of Derivatives_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If the price of the underlying asset is zero, what is the value of a derivative based on that asset?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The derivative will also have no value]]></text></answer>
+            <answer correct="no"><text><![CDATA[The derivative will retain its original purchase value]]></text></answer>
+            <answer correct="no"><text><![CDATA[The derivative will have a negative value equal to the premium paid]]></text></answer>
+            <answer correct="no"><text><![CDATA[The derivative value remains unaffected by the underlying price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Since a derivative has no independent value and derives its value entirely from the underlying asset, if the underlying has zero value, the derivative also has no value. A derivative cannot exist independently of its underlying.
+**The Trap:** "Retains original purchase value" confuses the cost paid to acquire the derivative with its current market value. The premium paid for an option is a sunk cost and does not determine current value when the underlying is worthless.
+**Cross-Exam Context:** NISM Series VIII and Series XIII both emphasize that derivative value depends entirely on the underlying.
+**Key Takeaway:** No underlying value = no derivative value. The derivative is entirely dependent on the underlying asset.]]></text></explanation>
+    </question>
+</QF>

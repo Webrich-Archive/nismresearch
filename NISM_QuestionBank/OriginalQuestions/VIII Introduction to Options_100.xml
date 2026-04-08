@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_100" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader buys a call with strike Rs. 500 at premium Rs. 30 and sells a call with strike Rs. 550 at premium Rs. 12 (bull call spread). If stock closes at Rs. 570, what is the net profit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 32]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 70]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 18]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Bull Call Spread: Buy lower strike call + Sell higher strike call
+
+Step-by-step:
+1. Long 500 call payoff = max(570 - 500, 0) = Rs. 70
+2. Short 550 call payoff = -max(570 - 550, 0) = -Rs. 20
+3. Net payoff = 70 - 20 = Rs. 50
+4. Net premium paid = 30 - 12 = Rs. 18
+5. Net profit = 50 - 18 = Rs. 32
+
+**The Trap:** Must account for both the premium paid AND received, and both payoffs.
+
+**Cross-Exam Context:** Bull call spread: limited profit (50 - 18 = 32), limited loss (18).
+
+**Key Takeaway:** Max profit = (Higher strike - Lower strike) - Net premium = 50 - 18 = Rs. 32.]]></text></explanation>
+    </question>
+</QF>

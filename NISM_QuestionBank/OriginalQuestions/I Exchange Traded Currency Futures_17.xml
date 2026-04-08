@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_17" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The interest rate parity theory states that:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The difference between forward and spot exchange rates is approximately equal to the interest rate differential between the two currencies]]></text></answer>
+            <answer correct="no"><text><![CDATA[Interest rates in all countries must be equal]]></text></answer>
+            <answer correct="no"><text><![CDATA[Higher interest rate currencies always appreciate in the spot market]]></text></answer>
+            <answer correct="no"><text><![CDATA[Forward rates are always higher than spot rates]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Interest rate parity says: F/S = (1+RQC)/(1+RBC). The forward premium/discount reflects the interest rate differential, ensuring no risk-free arbitrage from borrowing in one currency and investing in another.
+**The Trap:** Forward rates can be lower than spot if the base currency has a higher interest rate than the quote currency.
+**Cross-Exam Context:** Interest rate parity is the foundation for futures pricing — tested in Series I, IV, and VIII.
+**Distributor's Pro-Tip:** If INR interest rate > USD interest rate, USDINR futures will trade at a premium (higher than spot). INR is at a forward discount to USD.]]></text></explanation>
+    </question>
+</QF>

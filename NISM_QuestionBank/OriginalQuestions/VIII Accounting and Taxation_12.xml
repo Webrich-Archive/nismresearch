@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Accounting and Taxation_12" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When an option is exercised, the STT applicable is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[0.125% of the settlement price (intrinsic value), payable by the buyer (exerciser)]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.0625% of the premium, payable by the seller]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.0125% of the contract value, payable by both parties]]></text></answer>
+            <answer correct="no"><text><![CDATA[No STT on exercised options]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** On exercise of options:
+- Rate: 0.125% (12.5 paise per Rs. 100)
+- Payable on: the settlement price (intrinsic value at exercise)
+- Payable by: the buyer who exercises the option
+
+For example, if a call option with strike 500 is exercised when stock is at 550, the intrinsic value per share is Rs. 50. STT = 50 x lot size x 0.125%.
+
+**The Trap:** The 0.125% on exercise is significantly higher than the 0.0625% on premium for sale. This makes option exercise more expensive from an STT perspective, which is why many traders prefer to square off rather than exercise.
+
+**Cross-Exam Context:** The high STT on exercise vs. selling is a practical consideration for option traders.
+
+**Key Takeaway:** Option exercise STT: 0.125% on intrinsic value. Higher than sale STT. Buyer pays on exercise. Practical impact on trading decisions.]]></text></explanation>
+    </question>
+</QF>

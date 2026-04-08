@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Introduction to Currency Markets_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the 'spot' value date in the forex market?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Settlement on the second business day after the trade date (T+2), subject to both centers being open]]></text></answer>
+            <answer correct="no"><text><![CDATA[Settlement on the same day as the trade date (T+0)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Settlement on the next business day after the trade date (T+1)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Settlement within 5 business days of the trade date]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The spot value date is T+2, meaning settlement happens on the second business day after the trade date, provided both settlement centers are open. If one center is closed, settlement moves to the next mutually open business day.
+**The Trap:** T+0 is the 'cash' or 'ready' rate, T+1 is the 'tom' rate — neither is spot.
+**Cross-Exam Context:** Settlement conventions are tested in Series I, VIII, and VII (Securities Operations).
+**Distributor's Pro-Tip:** Cash (T+0), Tom (T+1), Spot (T+2) — remember the sequence for exam calculations.]]></text></explanation>
+    </question>
+</QF>

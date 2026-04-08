@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV TER and Pricing_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A mutual fund scheme has a regular plan TER of 1.80%. The distributor commission component included in this TER is 0.60%. What should be the maximum TER of the direct plan of the same scheme?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[1.20%]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.80%]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.60%]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.50%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Direct plan TER must be lower than regular plan TER by at least the distribution/commission component. Maximum Direct Plan TER = Regular Plan TER - Distributor Commission = 1.80% - 0.60% = 1.20%.
+
+**The Trap:** 1.80% assumes direct and regular plans have the same TER — which is incorrect since direct plans exclude distributor commission. 0.60% confuses the distributor commission itself with the direct plan TER. 1.50% subtracts only a partial amount (0.30%) instead of the full commission component.
+
+**Cross-Exam Context:** SEBI mandates that direct plans must have a lower TER than regular plans, with the difference being at least the distribution commission. This is tested in NISM V-A and is a key distinguishing factor between direct and regular plans.
+
+**Distributor's Pro-Tip:** The TER difference between direct and regular plans is essentially your commission as a distributor. Clients increasingly compare direct vs. regular plan returns. Be prepared to justify your value — advisory, hand-holding during volatile markets, portfolio construction, and ongoing service. Your commission must be earned through genuine value addition.]]></text></explanation>
+    </question>
+</QF>

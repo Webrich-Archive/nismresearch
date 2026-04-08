@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_88" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A stock trades at Rs. 750. A put option with strike Rs. 800 has a premium of Rs. 75. What is the intrinsic value and time value?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Intrinsic value: Rs. 50, Time value: Rs. 25]]></text></answer>
+            <answer correct="no"><text><![CDATA[Intrinsic value: Rs. 75, Time value: Rs. 0]]></text></answer>
+            <answer correct="no"><text><![CDATA[Intrinsic value: Rs. 0, Time value: Rs. 75]]></text></answer>
+            <answer correct="no"><text><![CDATA[Intrinsic value: Rs. 25, Time value: Rs. 50]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:**
+Step-by-step:
+1. Put Intrinsic Value = max(X - S, 0) = max(800 - 750, 0) = Rs. 50
+2. Time Value = Premium - Intrinsic Value = 75 - 50 = Rs. 25
+
+**The Trap:** For puts, IV = X - S (not S - X). Getting the formula backwards gives wrong answers.
+
+**Cross-Exam Context:** This put is ITM (S < X), so it has both intrinsic value and time value.
+
+**Key Takeaway:** Put IV = max(X-S, 0) = 50. TV = Premium - IV = 75 - 50 = 25.]]></text></explanation>
+    </question>
+</QF>

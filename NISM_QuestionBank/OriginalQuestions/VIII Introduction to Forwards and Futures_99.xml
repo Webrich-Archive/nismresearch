@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_99" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Nifty spot is at 24,000 and 3-month futures are at 24,300. After one month, Nifty spot is 24,500 and futures are at 24,650. How has the basis changed?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Basis weakened from -300 to -150, meaning the futures premium narrowed, which is expected as time to expiry decreases]]></text></answer>
+            <answer correct="no"><text><![CDATA[Basis strengthened from -300 to -150]]></text></answer>
+            <answer correct="no"><text><![CDATA[Basis remained constant at -300]]></text></answer>
+            <answer correct="no"><text><![CDATA[Basis changed from +300 to +150]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+Initially: Basis = Spot - Futures = 24,000 - 24,300 = -300
+After 1 month: Basis = 24,500 - 24,650 = -150
+
+The basis moved from -300 to -150 (became less negative / closer to zero). In basis terminology, when a negative basis becomes less negative, it is said to have 'strengthened' (moved toward zero). The narrowing of the futures premium is expected as time to expiry decreases.
+
+**The Trap:** The sign is negative (spot minus futures). Basis moving toward zero from negative territory is actually called 'strengthening' in market terminology (though 'weakening' of the premium). It did NOT remain constant.
+
+**Cross-Exam Context:** Basis changes over time and their impact on hedging are tested in Series VIII.
+
+**Key Takeaway:** Basis = Spot - Futures. As expiry approaches, negative basis moves toward zero (basis strengthens).]]></text></explanation>
+    </question>
+</QF>

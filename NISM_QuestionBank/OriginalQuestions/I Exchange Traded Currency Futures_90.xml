@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_90" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader buys 10 lots of USDINR futures at 83.00. Next day DSP is 83.20, then 82.90, then at expiry FSP is 83.50. What is the total P&L?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 5,000 profit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 3,000 profit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,000 profit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 500 profit]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Total P&L = (FSP - Entry) × 1000 × 10 = (83.50 - 83.00) × 10,000 = Rs. 5,000 profit. The intermediate MTM settlements (Day 1: +Rs. 2,000, Day 2: -Rs. 3,000, Expiry: +Rs. 6,000) net to the same total.
+**The Trap:** Total P&L = Final price minus entry price. Daily MTM is just intermediate cash flow — the total is the same.
+**Cross-Exam Context:** Multi-day P&L tracking is tested in Series I and VIII.
+**Distributor's Pro-Tip:** While total P&L is the same, daily MTM affects cash flow requirements. The Day 2 loss of Rs. 3,000 would require margin top-up.]]></text></explanation>
+    </question>
+</QF>

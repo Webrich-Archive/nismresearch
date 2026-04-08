@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_71" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A USDINR 82 call is priced at Rs. 1.20 when spot is 83.20. It is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[In the Money with intrinsic value of Rs. 1.20 and minimal time value]]></text></answer>
+            <answer correct="no"><text><![CDATA[Out of the Money]]></text></answer>
+            <answer correct="no"><text><![CDATA[At the Money]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cannot determine moneyness from given information]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Spot (83.20) > Strike (82) → Call is ITM. Intrinsic = 83.20 - 82 = 1.20. Premium = 1.20, so time value = 1.20 - 1.20 = 0 (or very small). This is a deep ITM call with delta near 1.
+**The Trap:** Even though premium = intrinsic (near-zero time value), the option is ITM, not ATM.
+**Cross-Exam Context:** Deep ITM option characteristics are tested in Series I.
+**Distributor's Pro-Tip:** Deep ITM options behave like the underlying itself (delta ≈ 1). They have minimal time value decay.]]></text></explanation>
+    </question>
+</QF>

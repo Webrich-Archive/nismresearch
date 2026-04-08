@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="Primary Markets_49" sectionNumber="" articleNumber="0" articleName="">
+    <question><text>In a book-built IPO with a price band of Rs. 100-120, bids are received as follows: 2,000 shares at Rs. 120, 3,000 shares at Rs. 115, 4,000 shares at Rs. 110, and 1,000 shares at Rs. 100. If the company wants to issue 8,000 shares, what is the cut-off price?</text>
+        <answers>
+            <answer correct="yes"><text>Rs. 110</text></answer>
+            <answer correct="no"><text>Rs. 115</text></answer>
+            <answer correct="no"><text>Rs. 120</text></answer>
+            <answer correct="no"><text>Rs. 100</text></answer>
+        </answers>
+        <explanation><text>**The Logic:** Cumulative demand: At Rs. 120 = 2,000; At Rs. 115 = 2,000+3,000 = 5,000; At Rs. 110 = 5,000+4,000 = 9,000; At Rs. 100 = 9,000+1,000 = 10,000. The issue of 8,000 shares gets fully subscribed at Rs. 110 (9,000 cumulative demand &gt;= 8,000 shares). So the cut-off price is Rs. 110.
+**The Trap:** Some may think it's the price where exact demand equals supply, but it's the price at which cumulative demand first meets or exceeds the issue size. At Rs. 115, only 5,000 shares are demanded cumulatively - not enough.
+**Cross-Exam Context:** All investors who bid at Rs. 110 or higher are eligible for allotment. Those who bid Rs. 100 will have their blocked amount unblocked.
+**Distributor's Pro-Tip:** To find cut-off: Stack bids from highest to lowest, compute cumulative demand. The price at which cumulative demand first covers the issue size is the cut-off.</text></explanation>
+    </question>
+</QF>

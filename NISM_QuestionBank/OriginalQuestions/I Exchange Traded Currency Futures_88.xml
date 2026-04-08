@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_88" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An Indian company needs JPY 10 million for import payments in 2 months. How many lots of JPYINR futures should they buy?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[100 lots]]></text></answer>
+            <answer correct="no"><text><![CDATA[10 lots]]></text></answer>
+            <answer correct="no"><text><![CDATA[1,000 lots]]></text></answer>
+            <answer correct="no"><text><![CDATA[10,000 lots]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** JPYINR lot size = 100,000 JPY. Lots needed = 10,000,000 / 100,000 = 100 lots.
+**The Trap:** JPYINR lot is 100,000 JPY (not 1,000 like other pairs). 10 million / 100,000 = 100.
+**Cross-Exam Context:** Position sizing for JPY is tested in Series I.
+**Distributor's Pro-Tip:** Remember: JPYINR lot = 100,000 JPY (largest lot size among INR pairs by unit count).]]></text></explanation>
+    </question>
+</QF>

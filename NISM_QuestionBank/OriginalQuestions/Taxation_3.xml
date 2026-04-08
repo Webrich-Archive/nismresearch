@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Taxation_3" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Mrs. Gupta receives an IDCW (dividend) of Rs. 12,000 from an equity mutual fund during the financial year. She is in the 20% tax bracket. What is the TDS deducted by the AMC and her total tax on this income?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[TDS of Rs. 1,200 (10% on Rs. 12,000); total tax at slab rate = Rs. 2,400 + cess]]></text></answer>
+            <answer correct="no"><text><![CDATA[No TDS since IDCW from equity funds is tax-free; total tax = Nil]]></text></answer>
+            <answer correct="no"><text><![CDATA[TDS of Rs. 1,200 (10%); no further tax as TDS is the final tax]]></text></answer>
+            <answer correct="no"><text><![CDATA[No TDS as amount is below Rs. 15,000; total tax at slab rate = Rs. 2,400 + cess]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** IDCW (dividend) from mutual funds is added to investor's total income and taxed at slab rate. TDS is deducted at 10% if IDCW exceeds Rs. 5,000 in a financial year. Here, Rs. 12,000 > 5,000, so TDS = 10% x 12,000 = Rs. 1,200. Total tax at 20% slab = Rs. 2,400 (+ 4% cess = Rs. 2,496). TDS of Rs. 1,200 is adjustable against total liability.
+
+**The Trap:** Option B reflects the old DDT regime (pre-April 2020) where dividends were tax-free for investors. Option C wrongly treats TDS as final tax. Option D uses incorrect TDS threshold of Rs. 15,000.
+
+**Cross-Exam Context:** The shift from DDT to taxing dividends in investor's hands happened from April 2020. The TDS threshold is Rs. 5,000 per AMC per year for resident investors.
+
+**Distributor's Pro-Tip:** For high-tax-bracket investors, Growth option is more tax-efficient than IDCW since dividend is taxed at slab rate immediately, while capital gains can be deferred and may attract lower rates.]]></text></explanation>
+    </question>
+</QF>

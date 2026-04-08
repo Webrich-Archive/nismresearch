@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the Daily Settlement Price (DSP) for currency futures contracts?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Volume Weighted Average Futures Price (VWAP) of the last half hour of trading across exchanges]]></text></answer>
+            <answer correct="no"><text><![CDATA[The closing price of the last trade of the day]]></text></answer>
+            <answer correct="no"><text><![CDATA[The simple average of the day's high and low prices]]></text></answer>
+            <answer correct="no"><text><![CDATA[The opening price of the next trading day]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** DSP is the VWAP of the last 30 minutes of trading across exchanges. If the close price is not available, the theoretical futures price is used. DSP is used for daily mark-to-market settlement.
+**The Trap:** It's not the last traded price or the opening price — it's a VWAP across exchanges.
+**Cross-Exam Context:** Settlement price methodology is tested in Series I and VIII.
+**Distributor's Pro-Tip:** Using VWAP across exchanges prevents manipulation and ensures fair pricing for MTM settlements.]]></text></explanation>
+    </question>
+</QF>

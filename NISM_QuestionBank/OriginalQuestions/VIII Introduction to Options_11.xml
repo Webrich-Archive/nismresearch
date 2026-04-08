@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The 'strike price' or 'exercise price' of an option refers to:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The predetermined price at which the underlying asset can be bought or sold when the option is exercised]]></text></answer>
+            <answer correct="no"><text><![CDATA[The current market price of the underlying asset]]></text></answer>
+            <answer correct="no"><text><![CDATA[The premium paid by the option buyer]]></text></answer>
+            <answer correct="no"><text><![CDATA[The price at which the option contract itself is traded in the market]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Strike price (also called exercise price) is the PREDETERMINED price at which the option buyer can buy (call) or sell (put) the underlying asset. It is fixed at the time of contract creation.
+
+**The Trap:** Strike price is NOT the market price (spot price) or the premium. It is the price written into the contract.
+
+**Cross-Exam Context:** Understanding strike price is essential for all payoff and moneyness calculations.
+
+**Key Takeaway:** Strike price = predetermined, fixed price in the contract for buying/selling the underlying asset.]]></text></explanation>
+    </question>
+</QF>

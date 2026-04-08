@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_68" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Rho of a call option is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Positive (call premium increases when interest rates rise)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Negative (call premium decreases when interest rates rise)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Zero (interest rates don't affect calls)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Always equal to 1]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Call Rho is positive: higher rates increase call values (higher opportunity cost of buying now vs later). Put Rho is negative: higher rates decrease put values.
+**The Trap:** Rho's effect is typically small for short-term options but can matter for longer-dated ones.
+**Cross-Exam Context:** Rho is tested in Series I and VIII.
+**Distributor's Pro-Tip:** In currency options, Rho is more significant because interest rate differentials directly affect forward pricing.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_50" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Gamma is always positive for:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Both long call and long put option positions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only long call positions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only short call positions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both short call and short put positions]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Gamma is POSITIVE for ALL long (bought) options and NEGATIVE for all short (sold) options.
+- Long call: positive gamma
+- Long put: positive gamma
+- Short call: negative gamma
+- Short put: negative gamma
+
+**The Trap:** Gamma sign depends on whether you are long or short, NOT on whether it is a call or put.
+
+**Cross-Exam Context:** Positive gamma benefits from large moves. Negative gamma (writers) suffers from large moves.
+
+**Key Takeaway:** Long options = positive gamma (benefit from moves). Short options = negative gamma (hurt by moves).]]></text></explanation>
+    </question>
+</QF>

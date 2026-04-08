@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Understanding Index_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A stock has a best bid of Rs. 99 and a best ask of Rs. 101. A buy order for a large quantity gets executed at Rs. 102. What is the impact cost for the buy side?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[2%]]></text></answer>
+            <answer correct="no"><text><![CDATA[1%]]></text></answer>
+            <answer correct="no"><text><![CDATA[3%]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.99%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+1. Ideal Price = (Best Bid + Best Ask) / 2 = (99 + 101) / 2 = Rs. 100
+2. Actual Execution Price = Rs. 102
+3. Impact Cost = [(Actual Price - Ideal Price) / Ideal Price] x 100
+4. Impact Cost = [(102 - 100) / 100] x 100 = 2%
+
+The buy order moved the price 2% above the ideal price due to insufficient liquidity at the best ask level.
+**The Trap:** 1% would be if you used best ask (101) as the reference. 3% would be if you compared to best bid (99). The correct reference is always the ideal (mid) price.
+**Cross-Exam Context:** Impact cost calculations may appear in NISM Series VIII. Always use the mid-price (average of bid and ask) as the reference.
+**Key Takeaway:** Impact Cost for Buy = [(Actual Buy Price - Ideal Price) / Ideal Price] x 100. Higher transaction size generally means higher impact cost.]]></text></explanation>
+    </question>
+</QF>

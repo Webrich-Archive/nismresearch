@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_73" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A call option buyer would exercise the option only if:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The price of the underlying asset is higher than the strike price at expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[The price of the underlying asset is lower than the strike price at expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[The option premium has increased since purchase]]></text></answer>
+            <answer correct="no"><text><![CDATA[The market volatility has increased]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A call buyer exercises when spot > strike because they can buy at the (lower) strike and profit. If spot ≤ strike, the call expires worthless — no rational buyer exercises an OTM call.
+**The Trap:** Premium increase alone doesn't require exercise — the buyer could simply sell the option for a profit instead.
+**Cross-Exam Context:** Exercise decision is tested in Series I and VIII.
+**Distributor's Pro-Tip:** Similarly, a put buyer exercises only when spot < strike (can sell at the higher strike price).]]></text></explanation>
+    </question>
+</QF>

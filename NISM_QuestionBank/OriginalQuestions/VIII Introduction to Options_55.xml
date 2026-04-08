@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_55" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which options generally have the HIGHEST vega (most sensitive to volatility changes)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Longer-dated ATM options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Shorter-dated deep OTM options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Shorter-dated deep ITM options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Longer-dated deep OTM options]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Vega is highest for:
+1. LONGER-DATED options (more time for volatility to impact the price)
+2. ATM options (most sensitive to uncertainty)
+
+Longer-dated ATM options have the maximum vega because they have the most time value at stake and are most affected by volatility changes.
+
+**The Trap:** Shorter-dated options have LOWER vega. Deep ITM/OTM have lower vega than ATM.
+
+**Cross-Exam Context:** Contrast with theta which is highest for short-dated ATM options.
+
+**Key Takeaway:** Highest vega: long-dated ATM. Vega decreases with less time and away from ATM.]]></text></explanation>
+    </question>
+</QF>

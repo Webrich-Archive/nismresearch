@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_37" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The key risk of an arbitrage strategy involving futures is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Time gap between execution of both legs, especially if one market is illiquid]]></text></answer>
+            <answer correct="no"><text><![CDATA[Interest rate changes]]></text></answer>
+            <answer correct="no"><text><![CDATA[Currency appreciation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Margin requirements]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Arbitrage requires SIMULTANEOUS execution. Even with electronic systems, a time gap exists. If one leg executes but the other doesn't (illiquidity), the arbitrager has a naked position instead of a hedged one.
+**The Trap:** Arbitrage itself is risk-free in theory — it's the EXECUTION that introduces risk.
+**Cross-Exam Context:** Execution risk in arbitrage is from the workbook.
+**Distributor's Pro-Tip:** In non-cash-settled markets, reversal of trades for unwinding adds additional execution risk.]]></text></explanation>
+    </question>
+</QF>

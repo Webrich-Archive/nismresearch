@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The role of the clearing corporation in a futures market is BEST described as:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[It interposes itself between the buyer and seller, becoming the counterparty to both, thereby eliminating counterparty risk]]></text></answer>
+            <answer correct="no"><text><![CDATA[It helps buyers and sellers negotiate the terms of the futures contract before trading begins]]></text></answer>
+            <answer correct="no"><text><![CDATA[It provides financing to traders who do not have sufficient funds to buy futures contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[It determines the daily price limits for futures contracts and halts trading if limits are breached]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The clearing corporation performs 'novation' - it steps in between every trade and becomes the buyer to every seller and the seller to every buyer. This means each party's counterparty is the clearing corporation (backed by margins, settlement guarantee fund, etc.), not the other trader. This eliminates counterparty/credit risk.
+
+**The Trap:** The clearing corporation does not negotiate terms (exchanges set specifications), does not provide financing (traders deposit their own margins), and price limits are set by the exchange, not the clearing corporation.
+
+**Cross-Exam Context:** The clearing corporation's role is extensively tested in Series VIII Chapter on clearing and settlement.
+
+**Key Takeaway:** Clearing corporation = central counterparty = novation = eliminates counterparty risk.]]></text></explanation>
+    </question>
+</QF>

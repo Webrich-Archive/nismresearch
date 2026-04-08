@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Scheme Selection_32" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A debt fund has a modified duration of 6 years. If interest rates increase by 0.50%, what will be the approximate impact on the fund's NAV?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[NAV will increase by approximately 3%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[NAV will decrease by approximately 3%]]></text></answer>
+            <answer correct="no"><text><![CDATA[NAV will decrease by approximately 6%]]></text></answer>
+            <answer correct="no"><text><![CDATA[NAV will decrease by approximately 0.5%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The approximate percentage change in bond price/NAV = -(Modified Duration) x (Change in interest rate). Here: -(6) x (0.50%) = -3.0%. So the NAV will decrease by approximately 3% when interest rates rise by 0.50%. The negative sign indicates the inverse relationship between bond prices and interest rates.
+
+**The Trap:** The most common error is forgetting the inverse relationship -- when rates INCREASE, bond prices/NAV DECREASE (and vice versa). Another common mistake is using the duration directly (thinking NAV falls by 6%) instead of multiplying duration by the rate change. The impact is proportional to BOTH the duration AND the rate change.
+
+**Cross-Exam Context:** This calculation is fundamental to debt fund selection. A liquid fund with modified duration of 0.1 years would lose only 0.05% (0.1 x 0.5%) for the same rate hike, while a gilt fund with modified duration of 10 years would lose 5% (10 x 0.5%). This illustrates why duration matching to investment horizon is critical.
+
+**Distributor's Pro-Tip:** Use this formula to set expectations before investing in debt funds. Tell clients: 'This fund has duration of 6 years, so a 0.5% rate hike means about 3% temporary NAV drop. But if you hold for the full duration, the higher reinvestment rates will eventually compensate.' This prepares them for mark-to-market volatility.]]></text></explanation>
+    </question>
+</QF>

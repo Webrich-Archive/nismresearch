@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV TER and Pricing_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A mutual fund scheme has total assets worth Rs. 500 crore and total liabilities of Rs. 5 crore. If there are 49.5 crore units outstanding, what is the NAV per unit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 10.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 10.10]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 9.90]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 10.50]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** NAV = (Total Assets - Total Liabilities) / Total Units Outstanding = (Rs. 500 crore - Rs. 5 crore) / 49.5 crore units = Rs. 495 crore / 49.5 crore = Rs. 10.00 per unit.
+
+**The Trap:** Rs. 10.10 comes from dividing total assets (Rs. 500 crore) by units (49.5 crore) without subtracting liabilities — the classic "Formula Slip" where candidates forget to deduct liabilities. Rs. 9.90 is a random distractor. Rs. 10.50 comes from dividing Rs. 500 crore by a wrong denominator.
+
+**Cross-Exam Context:** NAV computation is tested across NISM V-A, V-B (Mutual Fund Foundation), and XII (Securities Markets Foundation). The formula NAV = (Total Assets - Total Liabilities) / Units Outstanding is fundamental and appears in multiple certifications.
+
+**Distributor's Pro-Tip:** When a new scheme launches at face value of Rs. 10, the NAV stays at Rs. 10 only if assets equal liabilities plus initial corpus. Over time, NAV reflects the scheme's performance. Always explain to clients that a low NAV does not mean a "cheap" fund — it is simply assets minus liabilities divided by units.]]></text></explanation>
+    </question>
+</QF>

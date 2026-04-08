@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A horizontal (calendar/time) spread involves:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Options of the same type and strike but different expiry dates]]></text></answer>
+            <answer correct="no"><text><![CDATA[Options of the same type and expiry but different strikes]]></text></answer>
+            <answer correct="no"><text><![CDATA[A call and a put at the same strike and expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Futures and options on the same underlying]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Horizontal spread = same type, same strike, DIFFERENT expiries. It's a play on the difference in time values decaying at different rates. Payoff chart cannot be drawn as expiries differ.
+**The Trap:** VERTICAL spread = same expiry, different strikes. DIAGONAL = different expiry AND different strikes.
+**Cross-Exam Context:** Spread types are tested in Series I and VIII.
+**Distributor's Pro-Tip:** Calendar spreads profit from the difference in time decay rates between near and far month options.]]></text></explanation>
+    </question>
+</QF>

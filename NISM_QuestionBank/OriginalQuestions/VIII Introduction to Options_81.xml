@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_81" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader writes a put with strike Rs. 600 at premium Rs. 25. At expiry, stock is at Rs. 620. What is the writer's profit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 25]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 20]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 45]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Short Put Profit = Premium - max(X - S, 0)
+
+Step-by-step:
+1. Premium = 25, X = 600, S = 620
+2. S > X, put expires OTM
+3. Payoff to buyer = max(600 - 620, 0) = 0
+4. Writer's profit = 25 - 0 = Rs. 25
+
+Best case for put writer: stock rises above strike, option expires worthless.
+
+**The Trap:** When S > X, put expires worthless and writer keeps full premium.
+
+**Cross-Exam Context:** Put writer wants stock to RISE or stay flat. Max profit = premium.
+
+**Key Takeaway:** Short put max profit = premium. Occurs when S >= X at expiry.]]></text></explanation>
+    </question>
+</QF>

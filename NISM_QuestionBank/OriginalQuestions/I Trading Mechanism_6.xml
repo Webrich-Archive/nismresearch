@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Trading Mechanism_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A market order is an order where:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The trader buys/sells at the best available price without specifying a price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The order is valid for the entire day]]></text></answer>
+            <answer correct="no"><text><![CDATA[The order can only be placed by market makers]]></text></answer>
+            <answer correct="no"><text><![CDATA[The order is matched only at the opening price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A market order executes at the best available price. No price specification is needed. Two types: 'without protection' (executed at any available price) and 'with protection' (combination of market and limit — executed up to a specified level).
+**The Trap:** A DAY order is a time condition, not a market order. Market orders are price conditions.
+**Cross-Exam Context:** Order types are tested in Series I and VIII.
+**Distributor's Pro-Tip:** Market orders guarantee execution but not price. Limit orders guarantee price but not execution.]]></text></explanation>
+    </question>
+</QF>

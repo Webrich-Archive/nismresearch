@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_100" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the minimum price at which traders can enter bids and offers called?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Tick size]]></text></answer>
+            <answer correct="no"><text><![CDATA[Base price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Price band]]></text></answer>
+            <answer correct="no"><text><![CDATA[Strike price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The tick size is the minimum trading increment (minimum price differential) at which bids and offers can be entered. For USDINR: Rs. 0.0025 means prices move in multiples of 0.25 paise.
+**The Trap:** Base price is the reference price for the day; price band is the allowed range; strike price is for options.
+**Cross-Exam Context:** Tick size definition is tested in Series I and VIII.
+**Distributor's Pro-Tip:** Valid prices must be in exact multiples of the tick size from the base price. Invalid prices are rejected by the exchange system.]]></text></explanation>
+    </question>
+</QF>

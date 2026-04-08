@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Risk Return and Performance_49" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[CASE STUDY (continued): Using the same data:
+- Fund Alpha: Return = 18%, Std Dev = 15%, Beta = 1.3
+- Fund Beta: Return = 14%, Std Dev = 10%, Beta = 0.9
+- Risk-Free Rate = 7%, Market Return = 14%
+
+Question 3 of 4: Which fund would be more suitable for an aggressive investor seeking maximum growth, and which for a conservative investor seeking stability?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Fund Alpha for conservative, Fund Beta for aggressive -- because Alpha has higher risk]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fund Beta for both -- because it has lower risk and similar Sharpe ratio]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Fund Alpha for aggressive investors (higher return, higher beta amplifying market gains), Fund Beta for conservative investors (lower volatility, lower beta providing cushion in downturns)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fund Alpha for both -- because it has higher absolute returns]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Fund Alpha with beta 1.3 amplifies market movements -- it rises more in bull markets (suitable for aggressive investors who can tolerate the corresponding larger falls in bear markets) and has higher absolute return potential (18%). Fund Beta with beta 0.9 dampens market movements -- it falls less in bear markets (suitable for conservative investors who prioritize capital preservation) and has lower volatility (10% std dev vs 15%).
+
+**The Trap:** Fund Alpha for conservative is wrong because its higher beta and standard deviation make it unsuitable for risk-averse investors. Fund Beta for both ignores the aggressive investor's need for growth. Fund Alpha for both ignores the conservative investor's need for stability. The correct approach matches risk profiles -- aggressive investors can absorb Fund Alpha's volatility for its higher return potential.
+
+**Cross-Exam Context:** Beta directly links to investor suitability. A beta of 1.3 means in a 20% market decline, Fund Alpha is expected to fall about 26% -- can the aggressive investor handle this? A beta of 0.9 means Fund Beta would fall about 18% in the same scenario -- more manageable for conservative investors. Risk profiling must align with fund characteristics.
+
+**Distributor's Pro-Tip:** Never recommend funds based solely on returns. An aggressive client with a 20-year horizon can benefit from Fund Alpha's higher beta because market recovery periods allow the amplified gains to compensate for amplified losses. A conservative client nearing retirement needs Fund Beta's stability because they cannot afford large drawdowns.]]></text></explanation>
+    </question>
+</QF>

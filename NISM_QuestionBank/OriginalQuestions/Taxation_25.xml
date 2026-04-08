@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Taxation_25" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[An investor redeemed equity MF units on 15 March 2026 at a gain of Rs. 1,80,000. He also redeemed listed equity shares on 20 March 2026 at a gain of Rs. 70,000. Both are LTCG. What is his total tax liability under Section 112A including cess?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 16,250 (12.5% on Rs. 1,25,000 taxable LTCG after combined Rs. 1.25 lakh exemption + 4% cess)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 32,500 (12.5% on each separately with Rs. 1.25 lakh exemption each + cess)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 6,875 (12.5% on Rs. 55,000 MF gain after exemption + cess, shares gain exempt)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 23,400 (10% old rate on Rs. 1,25,000 taxable + cess)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The Rs. 1.25 lakh LTCG exemption under Section 112A is a COMBINED limit for all equity-oriented assets (equity MFs + listed shares) per financial year. Total LTCG = Rs. 1,80,000 + Rs. 70,000 = Rs. 2,50,000. Exemption = Rs. 1,25,000 (combined). Taxable = Rs. 2,50,000 - Rs. 1,25,000 = Rs. 1,25,000. Tax = 1,25,000 x 12.5% = Rs. 15,625. Cess = Rs. 625. Total = Rs. 16,250.
+
+**The Trap:** Option B wrongly assumes separate Rs. 1.25 lakh exemptions for MF and shares. Option C applies the exemption only to MF gains. The exemption is a single, combined threshold across all Section 112A assets.
+
+**Cross-Exam Context:** This is a critical distinction - the Rs. 1.25 lakh is NOT per scheme or per asset type, but per person per financial year across all equity LTCG combined.
+
+**Distributor's Pro-Tip:** Investors with both direct equity and equity MF holdings must plan redemptions considering the combined Rs. 1.25 lakh cap. Spreading redemptions across financial years can optimize the exemption.]]></text></explanation>
+    </question>
+</QF>

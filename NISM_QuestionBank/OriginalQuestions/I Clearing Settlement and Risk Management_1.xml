@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The Clearing Corporation guarantees settlement through the process of:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Novation — becoming the buyer to every seller and seller to every buyer]]></text></answer>
+            <answer correct="no"><text><![CDATA[Insurance — insuring each trade against default]]></text></answer>
+            <answer correct="no"><text><![CDATA[Escrow — holding funds in escrow]]></text></answer>
+            <answer correct="no"><text><![CDATA[Guarantee — providing written guarantees for each trade]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Through novation, the CC interposes itself as the Central Counterparty (CCP) between buyer and seller. If one party defaults, the CC fulfills the obligation to the other party.
+**The Trap:** Novation is a legal concept of substituting counterparties, not just insurance or guarantee.
+**Cross-Exam Context:** Novation is tested in Series I and VII.
+**Distributor's Pro-Tip:** Novation eliminates counterparty credit risk — you only face the CC, not the unknown trader on the other side.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_44" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The Consolidated Crystallized Obligation margin at end of day includes:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Futures MTM P&L, Options premium payable/receivable, Exercise/assignment for expired contracts, and Futures final settlement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only futures MTM P&L]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only options premium]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the initial margin amount]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** EOD crystallized obligation includes all cash flows: futures MTM, option premiums, exercise/assignment amounts, and final settlement — computed at client level.
+**The Trap:** It's a comprehensive calculation, not limited to any single component.
+**Cross-Exam Context:** Margin computation details are tested in Series I.
+**Distributor's Pro-Tip:** If the overall amount at client level is payable, it becomes a margin obligation that must be covered by available collateral.]]></text></explanation>
+    </question>
+</QF>

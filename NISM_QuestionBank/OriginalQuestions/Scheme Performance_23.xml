@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Scheme Performance_23" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[During a quarter when the benchmark rose by 8%, a mutual fund scheme rose by 10%. What is the Up-Capture Ratio of the fund for this quarter?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[80%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[125%]]></text></answer>
+            <answer correct="no"><text><![CDATA[120%]]></text></answer>
+            <answer correct="no"><text><![CDATA[108%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The Up-Capture Ratio is calculated as:
+Up-Capture Ratio = (Fund Return in Up Markets / Benchmark Return in Up Markets) x 100
+Up-Capture Ratio = (10% / 8%) x 100
+Up-Capture Ratio = 1.25 x 100
+Up-Capture Ratio = 125%
+
+This means the fund captured 125% of the benchmark's upside return -- it outperformed the benchmark during the up-market period.
+
+**The Trap:** Option A (80%) is the inverse (8/10 x 100) -- this would be wrong because you divide fund return BY benchmark return, not the reverse. Option C (120%) may come from adding the 2% difference to 100%. Option D (108%) incorrectly adds the fund return to 100%.
+
+**Cross-Exam Context:** For a single period calculation, the up-capture ratio is straightforward. In practice, it is calculated over multiple up-market periods to get a more reliable measure. An up-capture ratio of 125% is desirable for aggressive funds.
+
+**Distributor's Pro-Tip:** An up-capture of 125% suggests the fund has higher beta or takes more concentrated bets in rising markets. Ensure the client understands that this fund will likely also have higher down-capture. Check the down-capture ratio to see the complete picture of the fund's market sensitivity.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_92" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Stock PQR spot price is Rs. 600. Risk-free rate 9%, dividend yield 3%, time to expiry 60 days. Futures are trading at Rs. 612. Is there an arbitrage opportunity?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Yes, futures are slightly overpriced. Fair value is approximately Rs. 605.93, so the futures at Rs. 612 offer a cash-and-carry arbitrage profit of approximately Rs. 6.07 per share]]></text></answer>
+            <answer correct="no"><text><![CDATA[No, futures should trade above spot, so Rs. 612 is normal]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, but the profit is Rs. 12 per share (the full premium)]]></text></answer>
+            <answer correct="no"><text><![CDATA[No, the difference of Rs. 12 is exactly the cost of carry for 60 days]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+1. Fair futures = S x [1 + (r-q) x T/365] = 600 x [1 + (0.09-0.03) x 60/365]
+   = 600 x [1 + 0.06 x 0.1644] = 600 x [1 + 0.009863] = 600 x 1.009863 = Rs. 605.92
+2. Actual futures = Rs. 612
+3. Mispricing = 612 - 605.92 = Rs. 6.08 (overpriced)
+4. Strategy: Cash-and-carry (buy spot at 600, sell futures at 612)
+5. Arbitrage profit = Rs. 6.08 per share
+
+**The Trap:** Rs. 12 is the total premium, not the arbitrage profit. The cost of carry is approximately Rs. 5.92, not Rs. 12. Futures above spot is normal, but the DEGREE of premium matters.
+
+**Cross-Exam Context:** Identifying whether an arbitrage opportunity exists requires comparing actual price to fair value, not just spot to futures.
+
+**Key Takeaway:** Arbitrage exists when actual futures != fair futures. Profit = |Actual - Fair| per share.]]></text></explanation>
+    </question>
+</QF>

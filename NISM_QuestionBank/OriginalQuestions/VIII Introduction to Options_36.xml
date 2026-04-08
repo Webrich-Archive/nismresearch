@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_36" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A short put (put writer) position has:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Maximum profit limited to premium received and maximum loss equal to (Strike Price - Premium)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Unlimited profit potential and limited loss]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both profit and loss are unlimited]]></text></answer>
+            <answer correct="no"><text><![CDATA[Maximum loss limited to premium paid and unlimited profit]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Short Put (Put Writer):
+- Maximum Profit = Premium received (when option expires worthless, S >= X)
+- Maximum Loss = Strike Price - Premium received (when underlying falls to 0)
+- BEP = Strike - Premium
+
+**The Trap:** Short put loss is NOT unlimited (unlike short call). It is capped at X - P because stock can't go below zero.
+
+**Cross-Exam Context:** Put writing is less risky than call writing due to the bounded downside.
+
+**Key Takeaway:** Short put: Max profit = premium. Max loss = X - P. BEP = X - P.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_27" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Final settlement of futures contracts on the expiry day is based on:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The closing price of the underlying in the spot/cash market on the expiry day]]></text></answer>
+            <answer correct="no"><text><![CDATA[The last traded price of the futures contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[The opening price of the underlying on expiry day]]></text></answer>
+            <answer correct="no"><text><![CDATA[The average of the last 30 minutes of futures trading]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** On the expiry day, all open futures positions are settled at the closing price of the underlying asset in the spot/cash market. For index futures, this is the closing value of the index. For stock futures, it is the closing price of the stock. This ensures convergence of futures and spot prices at expiry.
+
+**The Trap:** The last 30-min VWAP is used for DAILY MTM settlement, not final settlement. Final settlement uses the SPOT market closing price, not the futures price.
+
+**Cross-Exam Context:** The distinction between daily MTM price and final settlement price is important.
+
+**Key Takeaway:** Daily MTM: last 30-min VWAP of futures. Final settlement: closing price of underlying in spot market. At expiry, futures converge to spot.]]></text></explanation>
+    </question>
+</QF>

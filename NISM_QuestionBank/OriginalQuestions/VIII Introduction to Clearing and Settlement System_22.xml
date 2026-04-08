@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_22" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Mark-to-market (MTM) settlement in futures is carried out:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Daily, based on the daily settlement price, which is the weighted average price of the last 30 minutes of trading]]></text></answer>
+            <answer correct="no"><text><![CDATA[Weekly, based on the closing price on Friday]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only at contract expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Daily, based on the opening price of the next day]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** MTM settlement occurs every day for all open futures positions. The daily settlement price is computed as the volume-weighted average price (VWAP) of the last 30 minutes of trading. All open positions are marked to this price, and the profit/loss is settled in cash on T+1 basis.
+
+**The Trap:** MTM is DAILY, not weekly or only at expiry. The settlement price is the last 30-minute VWAP, not the closing price or next day's opening price.
+
+**Cross-Exam Context:** MTM mechanism is a core clearing concept tested across all derivatives exams.
+
+**Key Takeaway:** MTM = daily settlement using last 30-min VWAP. Settled in cash on T+1. Ensures daily profit/loss realization.]]></text></explanation>
+    </question>
+</QF>

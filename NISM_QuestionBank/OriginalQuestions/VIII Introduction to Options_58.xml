@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_58" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Among the five option Greeks (Delta, Gamma, Theta, Vega, Rho), which is generally considered the LEAST significant for short-term option trading?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rho, because interest rates change slowly and their impact on short-dated options is minimal]]></text></answer>
+            <answer correct="no"><text><![CDATA[Delta, because underlying price changes are unpredictable]]></text></answer>
+            <answer correct="no"><text><![CDATA[Theta, because time decay is negligible for short-term options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Gamma, because delta remains relatively stable for most options]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Rho is the least significant Greek because:
+1. Interest rates change very slowly compared to other factors
+2. The impact on short-dated options is very small
+3. Rate changes of 0.25% have minimal effect on most options
+
+Order of significance (typically): Delta > Gamma/Theta/Vega > Rho
+
+**The Trap:** Theta is actually MOST significant for short-dated options (not negligible).
+
+**Cross-Exam Context:** For exam purposes: Delta is most important, Rho is least important.
+
+**Key Takeaway:** Rho = least significant Greek. Interest rates matter more for long-dated options.]]></text></explanation>
+    </question>
+</QF>

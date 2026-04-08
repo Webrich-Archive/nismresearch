@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Introduction to Currency Markets_18" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The FBIL USD/INR reference rate is computed based on transaction data from which time window?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A randomly selected 15-minute period within 11:30 to 12:30 hours]]></text></answer>
+            <answer correct="no"><text><![CDATA[The entire trading session from 9:00 AM to 5:00 PM]]></text></answer>
+            <answer correct="no"><text><![CDATA[The opening 30 minutes from 9:00 AM to 9:30 AM]]></text></answer>
+            <answer correct="no"><text><![CDATA[A fixed 15-minute period from 12:00 to 12:15 hours]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** FBIL selects a random 15-minute window between 11:30 and 12:30 hours. The threshold requires at least 10 transactions with aggregate amount of USD 25 million. If insufficient, up to 5 random windows are tried.
+**The Trap:** The window is randomly selected, not fixed — this prevents manipulation.
+**Cross-Exam Context:** Benchmark computation methodology is unique to Series I.
+**Distributor's Pro-Tip:** If all 5 random windows fail, the entire 1-hour window data is used. If even that fails, polled submissions from AD banks are used.]]></text></explanation>
+    </question>
+</QF>

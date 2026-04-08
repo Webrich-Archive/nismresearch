@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_86" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A portfolio worth Rs. 6 crore has a beta of 1.3. The fund manager wants to INCREASE the portfolio beta to 1.8 using Nifty futures (at 25,000, lot size 65). How many contracts should be BOUGHT?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[18 contracts (approximately)]]></text></answer>
+            <answer correct="no"><text><![CDATA[18 contracts should be SOLD]]></text></answer>
+            <answer correct="no"><text><![CDATA[48 contracts should be bought]]></text></answer>
+            <answer correct="no"><text><![CDATA[67 contracts should be bought]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+1. Beta increase needed = 1.8 - 1.3 = 0.5
+2. Portfolio value = Rs. 6,00,00,000
+3. Futures contract value = 25,000 x 65 = Rs. 16,25,000
+4. Contracts to BUY = (6,00,00,000 x 0.5) / 16,25,000 = 3,00,00,000 / 16,25,000 = 18.46 = 18 contracts
+
+Since we want to INCREASE beta (increase market exposure), we BUY futures.
+
+**The Trap:** Selling futures DECREASES beta. 48 contracts uses 1.3 as the multiplier. 67 uses 1.8. Only the DIFFERENCE (0.5) is used.
+
+**Cross-Exam Context:** Using futures to increase beta is the reverse of hedging, tested as an advanced Series VIII topic.
+
+**Key Takeaway:** Increase beta -> BUY futures. Decrease beta -> SELL futures. Use beta DIFFERENCE in the formula.]]></text></explanation>
+    </question>
+</QF>

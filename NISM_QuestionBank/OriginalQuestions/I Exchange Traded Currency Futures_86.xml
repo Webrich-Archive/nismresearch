@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_86" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If a contract expires on a Friday and that Friday is a trading holiday, when does the weekly contract expire?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The previous trading day (Thursday, assuming no other holidays)]]></text></answer>
+            <answer correct="no"><text><![CDATA[The next Monday]]></text></answer>
+            <answer correct="no"><text><![CDATA[The contract is cancelled]]></text></answer>
+            <answer correct="no"><text><![CDATA[The following Friday]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** If Friday (normal expiry for weekly contracts) is a trading holiday, the expiry moves to the previous trading day. The contract cannot expire on a non-trading day.
+**The Trap:** It moves BACKWARD to the previous trading day, not forward to Monday.
+**Cross-Exam Context:** Holiday adjustment for expiry is tested in Series I.
+**Distributor's Pro-Tip:** Always check the exchange holiday calendar when planning positions around expiry.]]></text></explanation>
+    </question>
+</QF>

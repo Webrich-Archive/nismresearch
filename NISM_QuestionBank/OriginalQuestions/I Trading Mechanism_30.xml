@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Trading Mechanism_30" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Self-Trade Check ensures that:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Orders from the same PAN on both buy and sell side are not matched against each other]]></text></answer>
+            <answer correct="no"><text><![CDATA[The broker's proprietary orders don't interfere with client orders]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only one order per client is allowed at a time]]></text></answer>
+            <answer correct="no"><text><![CDATA[Stop loss orders trigger correctly]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Self-Trade Check prevents orders with the same PAN or CP code on both active and passive sides from creating a self-trade. If detected, the active or passive order is cancelled.
+**The Trap:** Self-trade prevention is at the PAN level, not just at the client code level.
+**Cross-Exam Context:** Pre-trade risk checks are tested in Series I.
+**Distributor's Pro-Tip:** Self-trades can be a sign of market manipulation (wash trades) and are actively monitored by exchanges.]]></text></explanation>
+    </question>
+</QF>

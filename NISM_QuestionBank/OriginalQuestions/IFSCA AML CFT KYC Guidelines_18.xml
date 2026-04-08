@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IFSCA AML CFT KYC Guidelines_18" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What must a Regulated Entity do when an intermediary institution faces technical limitations preventing wire transfer originator information from accompanying a domestic wire transfer?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Preserve a record of the information for at least six years]]></text></answer>
+            <answer correct="no"><text><![CDATA[Reject the wire transfer entirely]]></text></answer>
+            <answer correct="no"><text><![CDATA[File an STR with FIU-IND within 24 hours]]></text></answer>
+            <answer correct="no"><text><![CDATA[Request the originating bank to resend the transfer with complete information]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Where technical limitations prevent the required wire transfer originator or beneficiary information from remaining with a related domestic wire transfer, a record shall be preserved by the receiving intermediary institution for at least six years.
+
+**The Trap:** The wire transfer is not rejected — instead, the intermediary must preserve the record. This is a pragmatic approach to handle technical constraints while maintaining audit trail.
+
+**Cross-Exam Context:** FATF Recommendation 16 covers wire transfer obligations. IFSCA-01's treatment of intermediary institution duties is particularly relevant given IFSC's role in international payment chains.
+
+**Distributor's Pro-Tip:** The intermediary institution must also implement risk-based policies for determining when to execute, reject, or suspend wire transfers lacking required information. It's not automatic rejection.]]></text></explanation>
+    </question>
+</QF>

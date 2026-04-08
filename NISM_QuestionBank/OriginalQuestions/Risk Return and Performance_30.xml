@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Risk Return and Performance_30" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A fund has a return of 18%, the risk-free rate is 7%, the fund's beta is 1.2, and the market return is 14%. What is the Alpha of this fund?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[4.0%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[2.6%]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.4%]]></text></answer>
+            <answer correct="no"><text><![CDATA[3.2%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Alpha = Fund Return - [Rf + Beta x (Market Return - Rf)] = 18% - [7% + 1.2 x (14% - 7%)] = 18% - [7% + 1.2 x 7%] = 18% - [7% + 8.4%] = 18% - 15.4% = 2.6%. The expected return based on CAPM is 15.4%, but the fund delivered 18%, so the alpha (outperformance due to fund manager skill) is 2.6%.
+
+**The Trap:** 4.0% would result from simply subtracting the market return from the fund return (18-14), ignoring beta adjustment. 1.4% might come from a calculation error. 3.2% could be confused with other computation. Alpha specifically adjusts for the level of systematic risk taken -- a higher-beta fund is expected to earn more, so the hurdle is higher.
+
+**Cross-Exam Context:** Alpha is derived from Jensen's Alpha formula based on CAPM. Positive alpha means the fund manager has added value beyond what is expected for the risk taken. This is the ultimate measure of active fund management skill. Note: with beta of 1.2, the fund is expected to earn MORE than the market, yet it still delivered alpha.
+
+**Distributor's Pro-Tip:** Alpha is the purest measure of fund manager skill. When recommending actively managed funds, look for consistent positive alpha over 3-5 years. A fund with 2.6% alpha means the manager generated 2.6% more than what a passive beta exposure would have delivered -- this justifies the higher expense ratio of active management.]]></text></explanation>
+    </question>
+</QF>

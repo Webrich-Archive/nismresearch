@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Derivative Markets_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If the Put-Call Ratio (PCR) is greater than 1, it indicates that:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The number of outstanding put options exceeds the number of outstanding call options]]></text></answer>
+            <answer correct="no"><text><![CDATA[The market is strongly bullish with more call buyers]]></text></answer>
+            <answer correct="no"><text><![CDATA[Options are more expensive than futures contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[The number of call options traded exceeds put options]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** PCR = Number of Put options outstanding / Number of Call options outstanding. If PCR > 1, puts outnumber calls. If PCR < 1, calls outnumber puts. Traders interpret these signals in various ways — a high PCR may indicate bearish sentiment (more puts being bought) or could be contrarian bullish (excessive fear often precedes market recovery).
+
+**The Trap:** PCR > 1 means more puts, not calls. The interpretation of bullish/bearish from PCR is nuanced and can be contrarian. PCR compares put and call volumes, not options vs futures pricing.
+
+**Cross-Exam Context:** Derivatives basics overlap with Series VIII, XIII. PCR is a key market sentiment indicator tested in derivatives exams.
+
+**Distributor's Pro-Tip:** PCR is widely watched by F&O traders as a sentiment gauge. Very high PCR (excessive puts) can sometimes signal a market bottom as fear reaches extremes. However, using PCR alone for trading decisions is risky — it should be combined with other indicators.]]></text></explanation>
+    </question>
+</QF>

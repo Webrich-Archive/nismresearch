@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_49" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What does the shoe exporter example in the workbook illustrate?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[How an exporter uses short EURINR futures or EURINR put options to hedge currency risk]]></text></answer>
+            <answer correct="no"><text><![CDATA[How to speculate on EURINR]]></text></answer>
+            <answer correct="no"><text><![CDATA[How to arbitrage between EUR and INR]]></text></answer>
+            <answer correct="no"><text><![CDATA[How to invest in European equities]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The shoe exporter ships to Europe, earning EUR. He faces risk of EUR depreciation against INR. He shorts EURINR futures or buys EURINR puts to lock in/protect the conversion rate.
+**The Trap:** This is a HEDGING example, not speculation or arbitrage.
+**Cross-Exam Context:** The shoe exporter is the primary hedging illustration in the workbook.
+**Distributor's Pro-Tip:** This example demonstrates all three hedging parameters: contract (EURINR), type (short/put), and month (matching payment timeline).]]></text></explanation>
+    </question>
+</QF>

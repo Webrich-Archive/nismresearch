@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_43" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How many strike prices are provided at minimum for each currency option contract?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Minimum 12 ITM + 12 OTM + 1 Near ATM = at least 25 strikes]]></text></answer>
+            <answer correct="no"><text><![CDATA[5 strikes only]]></text></answer>
+            <answer correct="no"><text><![CDATA[3 strikes (ITM, ATM, OTM)]]></text></answer>
+            <answer correct="no"><text><![CDATA[100 strikes]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** At minimum: 12 In-the-money, 12 Out-of-the-money, and 1 Near-the-money strike must be available for all contracts.
+**The Trap:** 25 is the minimum — more strikes may be available depending on exchange policy.
+**Cross-Exam Context:** Strike availability rules are specific to Series I.
+**Distributor's Pro-Tip:** With Rs. 0.25 intervals and 25 strikes, traders have a range of about Rs. 3 above and below ATM to choose from.]]></text></explanation>
+    </question>
+</QF>

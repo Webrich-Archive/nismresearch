@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Introduction to Currency Markets_35" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The abbreviated bid-offer price for USD/JPY is 115.55/57. What is the full offer price?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[115.57]]></text></answer>
+            <answer correct="no"><text><![CDATA[115.55]]></text></answer>
+            <answer correct="no"><text><![CDATA[115.75]]></text></answer>
+            <answer correct="no"><text><![CDATA[115.05]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** USD/JPY is quoted to 2 decimal places. The abbreviated offer '57' replaces the 2 decimal places, giving 115.57.
+**The Trap:** The bid is 115.55 (not the offer). In abbreviated form, only the offer is shortened.
+**Cross-Exam Context:** Quote conventions differ by currency pair — tested in Series I.
+**Distributor's Pro-Tip:** EUR/USD and GBP/USD may also be quoted to 5 decimal places in some markets — always check the convention.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_18" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[On which day do monthly equity derivative contracts (options) expire on NSE?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Last Tuesday of the expiry month (or previous trading day if Tuesday is a holiday)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Last Friday of the expiry month]]></text></answer>
+            <answer correct="no"><text><![CDATA[Last Thursday of the expiry month]]></text></answer>
+            <answer correct="no"><text><![CDATA[Last business day of the expiry month]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** On NSE, monthly equity derivative contracts expire on the LAST TUESDAY of the expiry month. If that Tuesday is a trading holiday, expiry shifts to the previous trading day.
+
+**The Trap:** NSE changed from Thursday to Tuesday for monthly expiry. BSE uses Thursday. Students often confuse the two.
+
+**Cross-Exam Context:** Expiry day is exchange-specific. NSE = Tuesday, BSE = Thursday. SEBI allows exchanges to choose.
+
+**Key Takeaway:** NSE monthly expiry = last Tuesday. BSE monthly expiry = last Thursday. Holiday = previous trading day.]]></text></explanation>
+    </question>
+</QF>

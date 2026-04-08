@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Foreign Exchange Derivatives_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the key difference between a forward contract and a futures contract?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Forwards are OTC customized contracts while futures are standardized exchange-traded contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[Forwards require margin while futures do not]]></text></answer>
+            <answer correct="no"><text><![CDATA[Futures are customized to specific requirements while forwards are standardized]]></text></answer>
+            <answer correct="no"><text><![CDATA[Forwards are settled in cash while futures are settled by delivery]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Forwards are OTC, customized, and generally settled by delivery with no margin. Futures are exchange-traded, standardized (lot size, expiry), mainly cash settled, with margins and mark-to-market.
+**The Trap:** It's futures (not forwards) that require margins. It's forwards (not futures) that are customized.
+**Cross-Exam Context:** Forward vs futures distinction is fundamental to Series I, VIII, and XIII.
+**Distributor's Pro-Tip:** Futures = Standardized exchange-traded forwards with trade guarantee by the clearing corporation.]]></text></explanation>
+    </question>
+</QF>

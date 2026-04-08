@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Taxation_8" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[An investor has the following capital gains in FY 2025-26: Short-term capital loss of Rs. 80,000 from equity MF, Long-term capital gain of Rs. 2,50,000 from equity MF, and Short-term capital gain of Rs. 40,000 from debt MF. After set-off, what are the net taxable gains?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[LTCG of Rs. 2,50,000 and STCG of Rs. 40,000 (losses cannot be set off across types)]]></text></answer>
+            <answer correct="no"><text><![CDATA[LTCG of Rs. 1,70,000 and STCG of Rs. 40,000 (STCL set off only against LTCG)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Net STCG = Nil (after setting off Rs. 40,000 STCL against STCG) and Net LTCG = Rs. 2,10,000 (after setting off remaining Rs. 40,000 STCL against LTCG)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Net STCG = Rs. 40,000 and Net LTCG = Rs. 1,70,000 (STCL set off only against LTCG first)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Set-off rules: STCL can be set off against both STCG and LTCG. The optimal strategy is to first set off STCL against STCG (taxed at higher rate), then remaining STCL against LTCG. STCL of Rs. 80,000: First set off Rs. 40,000 against STCG of Rs. 40,000 (Net STCG = 0). Remaining STCL of Rs. 40,000 set off against LTCG of Rs. 2,50,000 (Net LTCG = Rs. 2,10,000).
+
+**The Trap:** Option A wrongly claims losses cannot cross types. Option B incorrectly sets off all STCL only against LTCG. Option D reverses the optimal order by setting off against LTCG first.
+
+**Cross-Exam Context:** Remember: STCL can be set off against STCG AND LTCG, but LTCL can ONLY be set off against LTCG. This asymmetry is a favorite exam topic.
+
+**Distributor's Pro-Tip:** Tax-loss harvesting near year-end - booking short-term losses in underperforming funds to offset gains in profitable ones - is a legitimate strategy that adds value to client relationships.]]></text></explanation>
+    </question>
+</QF>

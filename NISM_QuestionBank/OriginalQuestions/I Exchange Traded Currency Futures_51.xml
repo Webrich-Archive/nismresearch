@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_51" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In a futures contract, Mark-to-Market (MTM) means:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Positions are valued at the daily settlement price and gains/losses are settled daily]]></text></answer>
+            <answer correct="no"><text><![CDATA[The contract is transferred to another market participant]]></text></answer>
+            <answer correct="no"><text><![CDATA[The spot market price is used to set the futures price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The margin amount is fixed at the market rate]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** MTM is the daily settlement process where all open positions are revalued to the Day Settlement Price. Losses are collected from losers and paid to gainers daily, preventing buildup of unsettled obligations.
+**The Trap:** MTM is about daily settlement of P&L, not about contract transfer or margin setting.
+**Cross-Exam Context:** MTM is a fundamental concept tested in Series I, VIII, and VII.
+**Distributor's Pro-Tip:** Daily MTM is what makes futures safer than forwards — credit risk never accumulates beyond one day.]]></text></explanation>
+    </question>
+</QF>

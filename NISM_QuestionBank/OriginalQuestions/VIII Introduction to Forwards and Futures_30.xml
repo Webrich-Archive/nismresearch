@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_30" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[As a futures contract approaches its expiry date, the basis is expected to:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Converge towards zero, because the futures price and spot price must be equal at expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Increase steadily because the cost of carry increases with time]]></text></answer>
+            <answer correct="no"><text><![CDATA[Remain constant throughout the life of the contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[Become highly unpredictable and volatile as expiry approaches]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** At expiry, the futures price must equal the spot price (because the final settlement price IS the spot price). Therefore, basis (Spot - Futures) must approach zero. This convergence occurs because as time to expiry decreases, the cost of carry component shrinks to zero, and arbitrage activity forces convergence.
+
+**The Trap:** The cost of carry DECREASES (not increases) as time to expiry shortens, which is why basis converges. While there may be short-term fluctuations, the overall trend is towards zero.
+
+**Cross-Exam Context:** Basis convergence is fundamental to understanding hedging effectiveness and is tested in Series VIII.
+
+**Key Takeaway:** At expiry: Futures Price = Spot Price, therefore Basis = 0. This is guaranteed by the settlement mechanism.]]></text></explanation>
+    </question>
+</QF>

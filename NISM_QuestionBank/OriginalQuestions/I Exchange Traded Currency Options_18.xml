@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_18" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Implied volatility (IV) represents:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The market's expectation of future volatility over the life of the option]]></text></answer>
+            <answer correct="no"><text><![CDATA[The historical volatility of the underlying asset]]></text></answer>
+            <answer correct="no"><text><![CDATA[The actual volatility that will occur in the future]]></text></answer>
+            <answer correct="no"><text><![CDATA[The volatility set by SEBI for margin calculation]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** IV is derived from the market price of an option by reverse-engineering the Black-Scholes formula. It represents consensus among market participants about expected future price fluctuation.
+**The Trap:** IV ≠ historical volatility (past) or realized volatility (actual future). It's the MARKET'S EXPECTATION.
+**Cross-Exam Context:** IV is tested in Series I and VIII.
+**Distributor's Pro-Tip:** IV generally increases in bearish markets (more fear/uncertainty) and decreases in bullish markets.]]></text></explanation>
+    </question>
+</QF>

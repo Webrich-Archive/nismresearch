@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_46" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If an ATM put option has delta of -0.50 and gamma of 0.004, and the underlying drops by 10 points, what is the new delta?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[-0.54]]></text></answer>
+            <answer correct="no"><text><![CDATA[-0.46]]></text></answer>
+            <answer correct="no"><text><![CDATA[-0.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[-0.60]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** New delta = -0.50 + (0.004 × -10) = -0.50 - 0.04 = -0.54. The put becomes more sensitive (deeper ITM) as underlying falls.
+**The Trap:** Gamma is always positive. When underlying falls, put delta becomes more negative (closer to -1).
+**Cross-Exam Context:** Delta-gamma interaction for puts is tested in Series I and VIII.
+**Distributor's Pro-Tip:** As the put goes deeper ITM, delta approaches -1 (moves almost 1:1 with underlying).]]></text></explanation>
+    </question>
+</QF>

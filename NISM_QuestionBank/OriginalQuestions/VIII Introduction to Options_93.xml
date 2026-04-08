@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_93" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A stock is at Rs. 300. A call with strike Rs. 280 has premium Rs. 28. A put with strike Rs. 280 has premium Rs. 5. What is the intrinsic value of each?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Call IV = Rs. 20, Put IV = Rs. 0]]></text></answer>
+            <answer correct="no"><text><![CDATA[Call IV = Rs. 0, Put IV = Rs. 20]]></text></answer>
+            <answer correct="no"><text><![CDATA[Call IV = Rs. 28, Put IV = Rs. 5]]></text></answer>
+            <answer correct="no"><text><![CDATA[Call IV = Rs. 20, Put IV = Rs. 20]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:**
+Call IV = max(S - X, 0) = max(300 - 280, 0) = Rs. 20 (ITM)
+Put IV = max(X - S, 0) = max(280 - 300, 0) = Rs. 0 (OTM)
+
+The call is ITM (S > X) with IV = 20. The put is OTM (S > X) with IV = 0.
+
+**The Trap:** Same strike, opposite moneyness. Call ITM = Put OTM (and vice versa).
+
+**Cross-Exam Context:** At the same strike: if call has positive IV, put has zero IV (and vice versa).
+
+**Key Takeaway:** Call IV = max(S-X, 0). Put IV = max(X-S, 0). Opposite moneyness at same strike.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_58" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The operating range for currency futures contracts with tenure greater than 6 months is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[+/- 5% of the base price]]></text></answer>
+            <answer correct="no"><text><![CDATA[+/- 3% of the base price]]></text></answer>
+            <answer correct="no"><text><![CDATA[+/- 10% of the base price]]></text></answer>
+            <answer correct="no"><text><![CDATA[+/- 1% of the base price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Operating ranges: ±3% for tenure ≤6 months, ±5% for tenure >6 months. These are relaxed in 1% increments during market-wide trends.
+**The Trap:** The wider band for longer tenure contracts accounts for their greater price uncertainty.
+**Cross-Exam Context:** Price band mechanisms are tested in Series I.
+**Distributor's Pro-Tip:** These are operating ranges to prevent erroneous orders, not circuit breakers. There are no daily price limits for currency futures.]]></text></explanation>
+    </question>
+</QF>

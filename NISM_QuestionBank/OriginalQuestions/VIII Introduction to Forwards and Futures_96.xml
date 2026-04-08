@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_96" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The order book for a stock shows: Best Buy at Rs. 998 (qty 200), Second Buy at Rs. 997 (qty 300). Best Sell at Rs. 1,002 (qty 150), Second Sell at Rs. 1,003 (qty 350). What is the ideal price (mid-price)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 1,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 998]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,002]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,000.50]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+Ideal price (mid-price) = (Best Buy + Best Sell) / 2
+= (998 + 1,002) / 2
+= 2,000 / 2
+= Rs. 1,000
+
+The ideal price is the midpoint between the best bid (buy) and best ask (sell).
+
+**The Trap:** Rs. 998 is only the best buy price. Rs. 1,002 is only the best sell price. Rs. 1,000.50 might use some other calculation. The mid-price formula is simply (Best Bid + Best Ask) / 2.
+
+**Cross-Exam Context:** Impact cost and order book analysis are tested in Series VIII trading chapter.
+
+**Key Takeaway:** Ideal price = (Best Bid + Best Ask) / 2 = (998 + 1002) / 2 = Rs. 1,000.]]></text></explanation>
+    </question>
+</QF>

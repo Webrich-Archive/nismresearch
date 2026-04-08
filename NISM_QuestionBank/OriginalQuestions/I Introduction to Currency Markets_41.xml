@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Introduction to Currency Markets_41" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the minimum threshold for computing the FBIL USD/INR reference rate?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[10 transactions with aggregate amount of USD 25 million]]></text></answer>
+            <answer correct="no"><text><![CDATA[50 transactions with aggregate amount of USD 100 million]]></text></answer>
+            <answer correct="no"><text><![CDATA[5 transactions with aggregate amount of USD 10 million]]></text></answer>
+            <answer correct="no"><text><![CDATA[20 transactions with aggregate amount of USD 50 million]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The threshold criteria requires at least 10 transactions with aggregate amount of USD 25 million in the randomly selected 15-minute window. If not met, another random window is tried, up to 5 attempts.
+**The Trap:** The threshold has two conditions (both must be met): minimum transaction count AND minimum aggregate value.
+**Cross-Exam Context:** Benchmark methodology is tested in Series I.
+**Distributor's Pro-Tip:** After removing outliers using the ±3 standard deviation rule, the reference rate equals the volume-weighted average (VWAP) of surviving transactions.]]></text></explanation>
+    </question>
+</QF>

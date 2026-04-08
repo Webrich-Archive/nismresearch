@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Why does an American-style option typically command a higher premium than an otherwise identical European-style option?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Because the American option provides the additional flexibility of early exercise at any time before expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Because American options are traded on larger exchanges with more liquidity]]></text></answer>
+            <answer correct="no"><text><![CDATA[Because American options have lower margin requirements]]></text></answer>
+            <answer correct="no"><text><![CDATA[Because American options always expire on the last business day of the month]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** American options provide MORE flexibility (exercise anytime) compared to European options (exercise only at expiry). More flexibility = more value = higher premium.
+
+**The Trap:** The premium difference is due to exercise flexibility, not exchange size or margin requirements.
+
+**Cross-Exam Context:** Since India uses only European options, this is tested as a theoretical concept.
+
+**Key Takeaway:** More flexibility = higher value. American option premium >= European option premium (all else equal).]]></text></explanation>
+    </question>
+</QF>

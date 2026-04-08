@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Regulatory Framework_23" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A synthetic USD-INR position created using cross-currency contracts:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Must be within the position limit applicable for USDINR]]></text></answer>
+            <answer correct="no"><text><![CDATA[Has no position limit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Has double the position limit of USDINR]]></text></answer>
+            <answer correct="no"><text><![CDATA[Is not permitted]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Synthetic USD-INR positions from cross-currency + INR contracts must be counted within USDINR position limits. This prevents circumvention of limits through synthetic positions.
+**The Trap:** Synthetic positions are allowed but must comply with the same limits.
+**Cross-Exam Context:** Synthetic position limits are tested in Series I.
+**Distributor's Pro-Tip:** Example: Long EURUSD + Short EURINR = synthetic short USDINR. This must count toward USDINR position limits.]]></text></explanation>
+    </question>
+</QF>

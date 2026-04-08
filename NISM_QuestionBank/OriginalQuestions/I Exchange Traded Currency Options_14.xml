@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_14" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Put-Call parity states:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[C + PV(X) = P + S, where C is call price, PV(X) is present value of strike, P is put price, S is spot]]></text></answer>
+            <answer correct="no"><text><![CDATA[C + P = S + X]]></text></answer>
+            <answer correct="no"><text><![CDATA[C - P = S - X]]></text></answer>
+            <answer correct="no"><text><![CDATA[C × P = S × X]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Put-Call Parity: C + PV(X) = P + S. This holds ONLY for European options with the same underlying, strike, and expiry. It allows derivation of put price from call price and vice versa.
+**The Trap:** This parity holds only for European options, not American options.
+**Cross-Exam Context:** Put-Call parity is tested in Series I and VIII.
+**Distributor's Pro-Tip:** If parity is violated, arbitrage opportunities exist. Traders monitor this relationship continuously.]]></text></explanation>
+    </question>
+</QF>

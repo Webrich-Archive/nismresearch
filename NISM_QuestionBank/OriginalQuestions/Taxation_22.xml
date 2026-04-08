@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Taxation_22" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[An investor bought equity MF units at Rs. 80 per unit before 31 January 2018. The NAV on 31 January 2018 was Rs. 120. He sells the units in 2025 at Rs. 100 per unit. What is the deemed cost of acquisition per unit for computing LTCG?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 80 (original purchase price)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 120 (NAV on 31 January 2018)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 100 (NAV on 31 Jan 2018 capped at sale price since sale price is lower)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 110 (average of purchase price and NAV on 31 January 2018)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Grandfathering rule: Cost of acquisition = Higher of (actual cost) or (NAV on 31 Jan 2018), BUT capped at the sale price. Here: Actual cost = Rs. 80, NAV on 31 Jan 2018 = Rs. 120. Higher value = Rs. 120. But sale price = Rs. 100 < Rs. 120, so cost is capped at Rs. 100 (sale price). LTCG = 100 - 100 = Rs. 0 (no gain, no loss).
+
+**The Trap:** Option B takes Rs. 120 without applying the cap. The cap at sale price prevents artificial losses. If NAV on 31 Jan 2018 > sale price, then deemed cost = sale price, resulting in nil gain/loss. Option D uses an averaging method that does not exist.
+
+**Cross-Exam Context:** The capping provision is crucial - it ensures that when the sale price falls below the 31 Jan 2018 NAV, the investor neither gets taxed on the gain up to 31 Jan 2018 NOR gets to claim a loss on the decline from 31 Jan 2018.
+
+**Distributor's Pro-Tip:** For clients holding pre-2018 equity MF units, document the 31 Jan 2018 NAV. In scenarios where current value is below that NAV, the grandfathering effectively results in nil taxable gain.]]></text></explanation>
+    </question>
+</QF>

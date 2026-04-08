@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_106" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A speculator believes that Nifty will rise significantly in the next month. She has Rs. 2 lakhs. Nifty is at 25,000, lot size 65, margin 10%. What is her leverage and maximum exposure?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Leverage is 10x (due to 10% margin). She can buy 1 lot with Rs. 1,62,500 margin, getting exposure of Rs. 16,25,000, which is approximately 8 times her capital]]></text></answer>
+            <answer correct="no"><text><![CDATA[She can buy 12 lots because 2,00,000 / (25,000 x 65 / 100) = 12.3]]></text></answer>
+            <answer correct="no"><text><![CDATA[Leverage is 1x because she must pay the full contract value of Rs. 16,25,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[She cannot speculate in futures because the minimum capital requirement is Rs. 10 lakhs]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+1. Contract value per lot = 25,000 x 65 = Rs. 16,25,000
+2. Margin per lot = 16,25,000 x 10% = Rs. 1,62,500
+3. With Rs. 2,00,000, she can afford 1 lot (1,62,500 < 2,00,000)
+4. Exposure = Rs. 16,25,000 for a margin of Rs. 1,62,500
+5. Leverage = Contract value / Margin = 16,25,000 / 1,62,500 = 10x
+
+If Nifty rises 2%, her profit = 25,000 x 2% x 65 = Rs. 32,500 = 20% return on margin. This is the leverage effect.
+
+**The Trap:** 12 lots is a calculation error. Leverage is NOT 1x - the whole point of futures is leverage through margin. There is no Rs. 10 lakh minimum.
+
+**Cross-Exam Context:** Leverage in futures is both an advantage and risk, extensively tested in Series VIII.
+
+**Key Takeaway:** Leverage = 1/Margin% = 1/10% = 10x. A 2% market move = 20% return (or loss) on margin.]]></text></explanation>
+    </question>
+</QF>

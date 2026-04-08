@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Derivative Markets_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Since October 2019, SEBI has mandated that all stock derivatives (futures and options on individual securities) expiring with open positions must be settled by:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Physical delivery of the underlying stock]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cash settlement based on the closing price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Either cash or physical delivery at the trader's choice]]></text></answer>
+            <answer correct="no"><text><![CDATA[Automatic rollover to the next month's contract]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Since October 2019, SEBI has mandated physical settlement (delivery of underlying stock) for all stock derivatives — all positions in futures and options on individual securities remaining open on expiry must be settled by physical delivery. However, Index futures and Index options continue to be settled in cash.
+
+**The Trap:** Cash settlement was the earlier norm but is now limited to index derivatives. There is no choice between cash and physical for stock derivatives — physical delivery is mandatory. Contracts do not automatically roll over; they must be actively rolled.
+
+**Cross-Exam Context:** Derivatives basics overlap with Series VIII, XIII. The physical settlement mandate for stock derivatives is a recent regulatory change commonly tested.
+
+**Distributor's Pro-Tip:** Physical settlement means traders must actually deliver or receive shares if they hold positions till expiry. This has significant implications — traders need sufficient shares (for short positions) or funds (for long positions). Encourage clients to close positions before expiry if they do not intend to take/give delivery.]]></text></explanation>
+    </question>
+</QF>

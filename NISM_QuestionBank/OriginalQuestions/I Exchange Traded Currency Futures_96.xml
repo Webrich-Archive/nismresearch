@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_96" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the value of e (Euler's number) used in the continuous compounding formula for theoretical futures price?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[2.71828]]></text></answer>
+            <answer correct="no"><text><![CDATA[3.14159]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.41421]]></text></answer>
+            <answer correct="no"><text><![CDATA[2.30259]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** e (Euler's number) ≈ 2.71828, used in F = S × e^((r-rf)×t). It's the base of natural logarithms.
+**The Trap:** π (3.14159) is for geometry, √2 (1.41421) is for trigonometry, ln(10) ≈ 2.30259.
+**Cross-Exam Context:** Mathematical constants used in pricing are tested in Series I and VIII.
+**Distributor's Pro-Tip:** For exam purposes, remember e ≈ 2.718. Calculators with e^x function are available at test centers.]]></text></explanation>
+    </question>
+</QF>

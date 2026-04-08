@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VB Taxation_5" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is the TDS rate on mutual fund dividend (IDCW) if the annual dividend from a single fund house exceeds Rs. 5,000?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[10%]]></text></answer>
+            <answer correct="no"><text><![CDATA[20%]]></text></answer>
+            <answer correct="no"><text><![CDATA[5%]]></text></answer>
+            <answer correct="no"><text><![CDATA[No TDS is deducted on mutual fund dividends]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** If the total dividend (IDCW) from a single mutual fund house exceeds Rs. 5,000 in a financial year, TDS at 10% is deducted by the fund house before paying the dividend. If the investor does not provide PAN, TDS is deducted at 20%.
+**The Trap:** The Rs. 5,000 limit is per fund house, not per scheme. So if you have multiple schemes from the same AMC, the total dividend from all of them is considered together.
+**Cross-Exam Context:** Also tested in V-A with more detailed scenarios.
+**Distributor's Pro-Tip:** Retired investors who rely on IDCW for regular income should be aware of TDS. If their total income is below the taxable limit, they can submit Form 15G/15H to avoid TDS deduction.]]></text></explanation>
+    </question>
+</QF>

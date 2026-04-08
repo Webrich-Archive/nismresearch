@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Trading Mechanism_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is co-location?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A facility where brokers' trading systems are located within or near the exchange premises for faster connectivity]]></text></answer>
+            <answer correct="no"><text><![CDATA[Multiple brokers sharing the same office space]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trading from two different exchanges simultaneously]]></text></answer>
+            <answer correct="no"><text><![CDATA[Backup server arrangement for disaster recovery]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Co-location/proximity hosting allows brokers and data vendors to place their systems at or near the exchange premises, connecting through direct private networks for minimal latency.
+**The Trap:** It's about physical proximity to exchange servers, not shared office space.
+**Cross-Exam Context:** Co-location is tested in Series I and VIII.
+**Distributor's Pro-Tip:** Co-location is primarily used by algorithmic and high-frequency traders who need microsecond-level speed advantages.]]></text></explanation>
+    </question>
+</QF>

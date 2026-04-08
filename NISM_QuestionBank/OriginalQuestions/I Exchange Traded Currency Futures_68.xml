@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_68" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If a trader has short 5 USDINR and long 3 EURUSD contracts, and then sells 2 EURUSD of the same maturity, what is the new open position?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Short 5 USDINR and long 1 EURUSD]]></text></answer>
+            <answer correct="no"><text><![CDATA[Short 5 USDINR and long 3 EURUSD]]></text></answer>
+            <answer correct="no"><text><![CDATA[Short 5 USDINR and short 2 EURUSD]]></text></answer>
+            <answer correct="no"><text><![CDATA[Long 3 USDINR and short 2 EURUSD]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Original: Short 5 USDINR + Long 3 EURUSD. Selling 2 EURUSD closes 2 of the 3 long positions, leaving Long 1 EURUSD. USDINR position unchanged.
+**The Trap:** Selling reduces the existing LONG position by 2 (from 3 to 1), it doesn't create a new short.
+**Cross-Exam Context:** Position management is tested in Series I and VIII.
+**Distributor's Pro-Tip:** The USDINR position is unaffected because it's a different contract — each contract is tracked independently.]]></text></explanation>
+    </question>
+</QF>

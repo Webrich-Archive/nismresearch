@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Scheme Performance_30" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A client shows their distributor a fund that returned 35% absolute over the past 3 years and asks if it is a good performer. What is the most appropriate way for the distributor to evaluate this claim?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Confirm it is a good fund since 35% over 3 years is a strong absolute return]]></text></answer>
+            <answer correct="no"><text><![CDATA[Reject the fund since 35% over 3 years is only about 11.67% simple annualized return]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Convert to CAGR (approximately 10.5%), compare against the TRI benchmark and peer group within the same SEBI category]]></text></answer>
+            <answer correct="no"><text><![CDATA[Compare the 35% return directly against the current bank fixed deposit rate]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The correct approach involves multiple steps: (1) Convert the absolute return to CAGR for fair annualized comparison: CAGR = (1.35)^(1/3) - 1 = approximately 10.5%. (2) Compare this CAGR against the fund's TRI benchmark over the same period. (3) Compare against peers in the same SEBI category. Simply looking at absolute returns without context is misleading.
+
+**The Trap:** Absolute returns over multi-year periods are misleading. Option A accepts the raw number without analysis. Option B uses simple annualized return (35/3 = 11.67%) instead of CAGR. Option D compares across different asset classes (equity vs FD), which is inappropriate. SEBI mandates CAGR for periods exceeding one year.
+
+**Cross-Exam Context:** This tests practical application of performance evaluation concepts -- CAGR calculation, benchmark comparison, and peer comparison within SEBI categories. All three elements are essential for meaningful evaluation.
+
+**Distributor's Pro-Tip:** Clients often look at absolute returns without context. Your value as a distributor is providing that context: "Your fund gave 10.5% CAGR, the benchmark gave 12% CAGR, and the category average was 11% CAGR." This objective evaluation builds trust and helps set realistic expectations.]]></text></explanation>
+    </question>
+</QF>

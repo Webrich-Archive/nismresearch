@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_35" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The maximum loss per lot for a long USDINR call option with premium Rs. 0.10 is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 100]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 10]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Unlimited]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Max loss = Premium × Lot size = 0.10 × 1000 = Rs. 100 per lot.
+**The Trap:** Rs. 10 would be for only 100 units. The USDINR lot is 1000 units.
+**Cross-Exam Context:** Lot-level loss calculations are tested in Series I.
+**Distributor's Pro-Tip:** This is the insurance cost — Rs. 100 per lot gives you the right to benefit from any USD appreciation above the strike.]]></text></explanation>
+    </question>
+</QF>

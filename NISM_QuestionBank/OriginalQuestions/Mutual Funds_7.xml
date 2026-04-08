@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Mutual Funds_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A mutual fund scheme has 10,000 outstanding units. The current market value of its portfolio is Rs. 1,50,000. Income earned is Rs. 5,000 and expenses incurred are Rs. 3,000. What is the NAV per unit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 15.20]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 15.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 15.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 15.80]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** NAV = (Market Value of Portfolio + Income Earned - Expenses Incurred) / Outstanding Units = (1,50,000 + 5,000 - 3,000) / 10,000 = 1,52,000 / 10,000 = Rs. 15.20. The net assets include income and exclude expenses from the market value.
+
+**The Trap:** Rs. 15.00 ignores income and expenses altogether (just divides market value by units). Rs. 15.50 adds income but forgets to deduct expenses. Rs. 15.80 may result from adding both income and expenses instead of deducting expenses.
+
+**Cross-Exam Context:** MF topics overlap with Series V-A, V-B. Simple NAV calculations appear frequently in foundation-level exams.
+
+**Distributor's Pro-Tip:** While the actual NAV calculation is done by the fund house daily, understanding the formula helps you explain to investors why NAV changes — market movements, income earned, and expenses charged all play a role.]]></text></explanation>
+    </question>
+</QF>

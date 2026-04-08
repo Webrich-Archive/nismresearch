@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_17" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In a bull call spread with 83 call (bought at 0.10) and 83.50 call (sold at 0.04), the maximum profit is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 0.44 per unit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.06 per unit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.50 per unit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Unlimited]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Max profit = (83.50 - 83.00) - Net premium = 0.50 - (0.10 - 0.04) = 0.50 - 0.06 = Rs. 0.44. Achieved when USDINR ≥ 83.50.
+**The Trap:** Max LOSS is the net premium = 0.06. BEP = 83 + 0.06 = 83.06.
+**Cross-Exam Context:** Bull call spread calculations are directly from the workbook.
+**Distributor's Pro-Tip:** This spread sacrifices unlimited upside (from naked long call) in exchange for lower cost (net premium 0.06 vs 0.10).]]></text></explanation>
+    </question>
+</QF>

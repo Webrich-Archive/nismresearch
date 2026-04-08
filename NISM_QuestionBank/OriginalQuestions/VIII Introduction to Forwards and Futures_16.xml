@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_16" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Regarding settlement, how do forward and futures contracts fundamentally differ?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Forwards settle only at maturity with the full contract value, while futures are marked-to-market daily with gains/losses settled every day through the margin account]]></text></answer>
+            <answer correct="no"><text><![CDATA[Forwards are settled in cash only, while futures are always settled by physical delivery of the underlying asset]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both forwards and futures are settled identically at maturity; there is no intermediate settlement in either]]></text></answer>
+            <answer correct="no"><text><![CDATA[Forwards require upfront payment of the full contract value, while futures require only margin payment upfront]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** This is a critical operational difference. Futures have daily mark-to-market (MTM) settlement where the clearing corporation calculates gains/losses daily and credits/debits margin accounts. Forwards do not have daily settlement - all gains/losses accumulate and are settled only at maturity.
+
+**The Trap:** Both forwards and futures can be settled in cash or physical delivery. Forwards do NOT require upfront full payment (they are contracts for future settlement).
+
+**Cross-Exam Context:** MTM settlement is a major topic in Series VIII clearing and settlement chapter.
+
+**Key Takeaway:** Daily MTM in futures prevents accumulation of losses and reduces default risk compared to forwards.]]></text></explanation>
+    </question>
+</QF>

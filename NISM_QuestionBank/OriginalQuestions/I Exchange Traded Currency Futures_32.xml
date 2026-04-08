@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_32" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader sells 10 lots of USDINR futures at 84.20. At expiry, the FBIL reference rate is 83.80. What is the profit/loss?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Profit of Rs. 4,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 4,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 400]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 40,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Short position profits when price falls. P&L = (Entry - Final) × Lot × Lots = (84.20 - 83.80) × 1000 × 10 = 0.40 × 10000 = Rs. 4,000 profit.
+**The Trap:** For short positions, profit = entry price MINUS settlement price (not the other way around).
+**Cross-Exam Context:** Short futures P&L is tested in Series I and VIII.
+**Distributor's Pro-Tip:** The final settlement price is the FBIL reference rate, not the last traded futures price.]]></text></explanation>
+    </question>
+</QF>

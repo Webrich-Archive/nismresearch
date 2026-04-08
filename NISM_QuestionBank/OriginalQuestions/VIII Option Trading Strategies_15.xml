@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Option Trading Strategies_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A long straddle is most profitable when:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[There is a large price movement in either direction beyond the breakeven points]]></text></answer>
+            <answer correct="no"><text><![CDATA[The stock price remains stable near the strike price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The stock price rises moderately]]></text></answer>
+            <answer correct="no"><text><![CDATA[Implied volatility decreases after setting up the position]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A long straddle buyer pays premiums for both a call and a put at the same strike. The maximum loss equals the total premium (when the stock stays exactly at the strike). Profit is theoretically unlimited on the upside and substantial on the downside. The strategy benefits from high volatility and large price swings.
+
+**The Trap:** A stable stock price is the WORST outcome for a long straddle (maximum loss). Moderate moves may not cover the total premium cost.
+
+**Cross-Exam Context:** Understanding when each strategy is appropriate based on market outlook is frequently tested.
+
+**Key Takeaway:** Long straddle = betting on high volatility. Short straddle = betting on low volatility/stability.]]></text></explanation>
+    </question>
+</QF>

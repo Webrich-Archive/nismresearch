@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_41" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Using the interest rate parity formula, if EURJPY spot is 123.40, JPY 1-year rate is 0.25%, and EUR 1-year rate is 1%, what is the 1-year forward rate?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[122.48 (approximately)]]></text></answer>
+            <answer correct="no"><text><![CDATA[124.33]]></text></answer>
+            <answer correct="no"><text><![CDATA[123.40]]></text></answer>
+            <answer correct="no"><text><![CDATA[125.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** F = S × (1+RJPY)/(1+REUR) = 123.40 × (1.0025)/(1.01) = 123.40 × 0.99257 = 122.4837 ≈ 122.48. Since EUR has a higher rate, EUR is at a forward discount to JPY.
+**The Trap:** JPY is the quote currency here. The forward rate is LOWER than spot because EUR (base) has higher interest.
+**Cross-Exam Context:** Cross-currency pricing is tested in Series I.
+**Distributor's Pro-Tip:** EUR at forward discount to JPY means you get fewer JPY per EUR in the future — EUR weakens against JPY in forward markets.]]></text></explanation>
+    </question>
+</QF>

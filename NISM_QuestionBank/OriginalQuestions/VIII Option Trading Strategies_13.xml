@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Option Trading Strategies_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader sets up a bear put spread on Nifty: buys 22000 PE at Rs. 250 and sells 21700 PE at Rs. 120. Nifty lot size is 25. If Nifty expires at 21,600, what is the total profit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 4,250]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 3,250]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 7,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 10,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+1. Net premium paid per unit = 250 - 120 = Rs. 130
+2. At expiry, Nifty = 21,600 (below both strikes - max profit zone)
+3. Bought 22000 PE payoff = 22,000 - 21,600 = Rs. 400
+4. Sold 21700 PE payoff = -(21,700 - 21,600) = -Rs. 100
+5. Net option payoff = 400 - 100 = Rs. 300
+6. Net profit per unit = 300 - 130 = Rs. 170
+7. Total profit = 170 x 25 = Rs. 4,250
+
+Verification: Max profit = (300 - 130) x 25 = 170 x 25 = Rs. 4,250
+
+**The Trap:** Forgetting to account for the sold put's obligation when both puts are ITM. The sold 21700 PE also has value when Nifty is at 21,600.
+
+**Cross-Exam Context:** Multi-lot calculations with Nifty lot size are standard exam format.
+
+**Key Takeaway:** When both puts in a bear put spread are ITM, calculate payoffs for BOTH options before netting.]]></text></explanation>
+    </question>
+</QF>

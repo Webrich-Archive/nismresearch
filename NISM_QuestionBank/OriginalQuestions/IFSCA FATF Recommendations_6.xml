@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IFSCA FATF Recommendations_6" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Which FATF Recommendation covers wire transfer transparency (payment transparency)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Recommendation 16]]></text></answer>
+            <answer correct="no"><text><![CDATA[Recommendation 20]]></text></answer>
+            <answer correct="no"><text><![CDATA[Recommendation 10]]></text></answer>
+            <answer correct="no"><text><![CDATA[Recommendation 13]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** FATF Recommendation 16 covers Payment Transparency (wire transfers). It was previously Special Recommendation VII on wire transfers. This recommendation requires that originator and beneficiary information accompany wire transfers through the payment chain.
+
+**The Trap:** Recommendation 13 deals with Correspondent Banking, not wire transfers. Wire transfers (Rec 16) and Correspondent Banking (Rec 13) are related but distinct — one deals with payment information, the other with banking relationships.
+
+**Cross-Exam Context:** Recommendation 16 directly corresponds to IFSCA Guidelines Section 5.6.2 on Wire Transfers, including the USD 1,000 threshold for cross-border transfers in IFSC. This is particularly relevant for IFSCA-01 given IFSC's role in international payments.
+
+**Distributor's Pro-Tip:** Rec 16 = Wire Transfers (payment transparency). Key requirement: originator information must travel with the payment through the entire chain. IFSCA has specific rules for transfers above/below USD 1,000.]]></text></explanation>
+    </question>
+</QF>

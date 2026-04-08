@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Option Trading Strategies_14" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader buys a Nifty 22000 CE at Rs. 200 and buys a Nifty 22000 PE at Rs. 180. This strategy is a:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Long straddle with breakeven points at 21,620 and 22,380]]></text></answer>
+            <answer correct="no"><text><![CDATA[Short straddle with breakeven points at 21,620 and 22,380]]></text></answer>
+            <answer correct="no"><text><![CDATA[Long straddle with breakeven points at 21,800 and 22,200]]></text></answer>
+            <answer correct="no"><text><![CDATA[Long strangle with breakeven points at 21,620 and 22,380]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step:
+1. Long straddle = Buy call + Buy put at the SAME strike price (both at 22000)
+2. Total premium paid = 200 + 180 = Rs. 380
+3. Upper BEP = Strike + Total premium = 22,000 + 380 = 22,380
+4. Lower BEP = Strike - Total premium = 22,000 - 380 = 21,620
+5. Profit occurs when Nifty moves beyond either BEP
+
+**The Trap:** A strangle uses different strike prices. Since both options have the same strike (22000), this is a straddle, not a strangle. Also, BEPs use TOTAL premium (380), not individual premiums.
+
+**Cross-Exam Context:** Straddle BEP calculations are among the most tested option strategy questions.
+
+**Key Takeaway:** Long straddle BEPs: Strike +/- Total Premium. Profits on large moves in either direction.]]></text></explanation>
+    </question>
+</QF>

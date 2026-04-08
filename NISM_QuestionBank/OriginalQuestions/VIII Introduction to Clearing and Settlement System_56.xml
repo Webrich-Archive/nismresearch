@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_56" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader buys 4 lots of Nifty futures at 22,500 (lot size = 25). The initial margin rate is 10% and exposure margin rate is 3%. What is the total margin required?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 2,92,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,25,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 67,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 22,50,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+1. Contract value per lot = 22,500 x 25 = Rs. 5,62,500
+2. Total contract value = 5,62,500 x 4 = Rs. 22,50,000
+3. Initial margin = 22,50,000 x 10% = Rs. 2,25,000
+4. Exposure margin = 22,50,000 x 3% = Rs. 67,500
+5. Total margin = 2,25,000 + 67,500 = Rs. 2,92,500
+
+**The Trap:** Rs. 2,25,000 is only initial margin (forgetting exposure margin). Rs. 67,500 is only exposure margin. Total margin includes BOTH.
+
+**Cross-Exam Context:** Total margin = Initial (SPAN) + Exposure is a standard calculation.
+
+**Key Takeaway:** Total margin = SPAN margin + Exposure margin. Both are collected upfront. Exposure margin is an ADDITIONAL requirement.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="Secondary Markets_34" sectionNumber="" articleNumber="0" articleName="">
+    <question><text>What does DDPI (Demat Debit and Pledge Instruction) replace?</text>
+        <answers>
+            <answer correct="yes"><text>Power of Attorney (PoA) for the limited purpose of meeting client's obligations towards securities pay-in and margins</text></answer>
+            <answer correct="no"><text>The contract note issued by the broker</text></answer>
+            <answer correct="no"><text>The KYC documentation required for opening a trading account</text></answer>
+            <answer correct="no"><text>The account opening form for demat accounts</text></answer>
+        </answers>
+        <explanation><text>**The Logic:** SEBI introduced DDPI to replace PoA for meeting client's obligations towards securities pay-in and margin pledging. Unlike PoA, DDPI has a limited purpose and can be revoked by the client at any time. This protects against misuse of broad PoA powers.
+**The Trap:** DDPI is not a replacement for KYC or contract notes. It specifically addresses the issue of brokers misusing broad PoA powers to misappropriate client securities.
+**Cross-Exam Context:** Many brokers were found forcing clients to execute PoA and then misusing it. DDPI restricts broker access to only pay-in delivery and margin pledging. After DDPI implementation, PoA cannot be executed for these purposes.
+**Distributor's Pro-Tip:** DDPI = Limited, revocable authorization. PoA = Broad powers, harder to control. SEBI replaced PoA with DDPI to protect investors from broker misuse of their demat accounts.</text></explanation>
+    </question>
+</QF>

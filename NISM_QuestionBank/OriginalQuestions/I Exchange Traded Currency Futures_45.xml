@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_45" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader buys 1 lot of USDINR futures at 82.9975 and sells at 83.0025. How many ticks is this move and what is the profit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[2 ticks, profit of Rs. 5.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[1 tick, profit of Rs. 2.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[4 ticks, profit of Rs. 10.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[2 ticks, profit of Rs. 50.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Move = 83.0025 - 82.9975 = 0.0050. Tick size = 0.0025. Number of ticks = 0.0050/0.0025 = 2. Profit = 2 × Rs. 2.50 = Rs. 5.00.
+**The Trap:** Each tick = Rs. 2.50 per lot. Two ticks = Rs. 5.00 per lot.
+**Cross-Exam Context:** Tick-based P&L is tested in Series I.
+**Distributor's Pro-Tip:** Always verify your price entries are in valid tick multiples (multiples of 0.0025 for INR pairs).]]></text></explanation>
+    </question>
+</QF>

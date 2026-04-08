@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A bear call spread involves:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buying a call at a higher strike and selling a call at a lower strike (same expiry)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buying a call at a lower strike and selling at a higher strike]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buying two put options at different strikes]]></text></answer>
+            <answer correct="no"><text><![CDATA[Selling a call and buying a put at the same strike]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Bear call spread: Short call (lower strike) + Long call (higher strike). It's the opposite of a bull call spread. The trader is bearish and collects NET premium (lower call premium > higher call premium).
+**The Trap:** Bull call spread buys the LOWER strike call. Bear call spread SELLS the lower strike call.
+**Cross-Exam Context:** Bear spreads are tested in Series I and VIII.
+**Distributor's Pro-Tip:** Bear call spread: Max profit = net premium received. Max loss = strike difference - net premium. It's a net premium receipt strategy.]]></text></explanation>
+    </question>
+</QF>

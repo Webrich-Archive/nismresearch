@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader buys 2 lots of Nifty futures at 22,000. The lot size is 25 and the initial margin rate is 12%. What is the total initial margin required?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 1,32,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 66,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 11,00,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,64,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+1. Contract value per lot = 22,000 x 25 = Rs. 5,50,000
+2. Total contract value = 5,50,000 x 2 lots = Rs. 11,00,000
+3. Initial margin = 11,00,000 x 12% = Rs. 1,32,000
+
+**The Trap:** Rs. 66,000 is margin for only 1 lot. Rs. 11,00,000 is the full contract value, not the margin. Rs. 2,64,000 would be at 24% margin rate.
+
+**Cross-Exam Context:** Margin calculations are standard numerical questions in the NISM exam.
+
+**Key Takeaway:** Initial margin = Contract value x Margin rate. Contract value = Price x Lot size x Number of lots.]]></text></explanation>
+    </question>
+</QF>

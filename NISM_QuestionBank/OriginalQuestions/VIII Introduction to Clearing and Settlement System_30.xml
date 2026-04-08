@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_30" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under physical settlement of stock derivatives, a trader with a short futures position at expiry must:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Deliver the underlying shares to the clearing corporation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Pay only the cash difference between futures and spot price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Roll over the position to the next month automatically]]></text></answer>
+            <answer correct="no"><text><![CDATA[Pay a penalty and square off the position]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In physical settlement, the short position holder must deliver the underlying shares. The long position holder must take delivery and pay the settlement amount. This applies to stock futures and ITM stock options at expiry.
+
+**The Trap:** Physical settlement means actual delivery, not cash adjustment. Positions do not automatically roll over - the trader must actively roll over before expiry if they want to continue.
+
+**Cross-Exam Context:** Physical settlement obligations are important for traders to understand to avoid delivery defaults.
+
+**Key Takeaway:** Physical settlement: Short delivers shares, Long takes delivery and pays. Applies to stock futures and ITM stock options at expiry.]]></text></explanation>
+    </question>
+</QF>

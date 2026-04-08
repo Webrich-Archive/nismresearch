@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV TER and Pricing_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investor holds 8,000 units in a scheme with NAV of Rs. 30.00. The scheme declares an IDCW of Rs. 5.00 per unit. What is the value of the investor's holding after the IDCW is paid out?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 2,00,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,40,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,80,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,60,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** After IDCW payout, the ex-IDCW NAV = Rs. 30.00 - Rs. 5.00 = Rs. 25.00. Value of holding = 8,000 units x Rs. 25.00 = Rs. 2,00,000. Note: The investor also receives Rs. 40,000 as IDCW (8,000 x Rs. 5.00), so total wealth remains Rs. 2,40,000, but the question asks specifically about the holding value (units x NAV).
+
+**The Trap:** Rs. 2,40,000 is the holding value BEFORE IDCW (8,000 x Rs. 30.00) — the candidate forgets that NAV drops after IDCW. Rs. 2,80,000 incorrectly adds IDCW to the holding value. Rs. 1,60,000 may come from subtracting IDCW from both NAV and then using a wrong multiplier.
+
+**Cross-Exam Context:** IDCW impact on NAV and holding value is a critical concept in NISM V-A. The total wealth (holding value + IDCW received) remains unchanged before tax. This concept also appears in V-B and is relevant for tax planning discussions.
+
+**Distributor's Pro-Tip:** Show clients this math: Before IDCW, holding = Rs. 2,40,000. After IDCW, holding = Rs. 2,00,000 + Rs. 40,000 cash = Rs. 2,40,000. Total wealth is unchanged. IDCW is NOT extra income — it reduces NAV. Plus, IDCW is now taxable in the investor's hands, making growth option more tax-efficient for most investors.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VB Performance of Mutual Funds_20" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[If an equity fund gave 40% return in 6 months, as per SEBI norms, this return should be reported as __________.]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[40% absolute return (since the period is less than 1 year)]]></text></answer>
+            <answer correct="no"><text><![CDATA[80% CAGR (annualized)]]></text></answer>
+            <answer correct="no"><text><![CDATA[6.67% monthly return]]></text></answer>
+            <answer correct="no"><text><![CDATA[20% quarterly return]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI rule: for periods less than 1 year, returns must be shown as absolute returns. Since 6 months is less than 1 year, the return should be reported as 40% absolute return, NOT annualized to 80%.
+
+**The Trap:** Annualizing a 6-month return to 80% would be misleading because it assumes the same performance will repeat in the next 6 months, which is not guaranteed. SEBI prevents this misleading practice.
+
+**Cross-Exam Context:** Also tested in Series V-A. This is a very practical application of SEBI's return reporting norms.
+
+**Distributor's Pro-Tip:** Never annualize short-term returns when talking to investors. A 10% return in 3 months sounds much more attractive when annualized to 40%, but it sets unrealistic expectations.]]></text></explanation>
+    </question>
+</QF>

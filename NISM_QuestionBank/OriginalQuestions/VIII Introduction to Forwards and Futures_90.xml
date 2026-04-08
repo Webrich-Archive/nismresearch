@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_90" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader executes a cash-and-carry arbitrage: buys a stock at Rs. 2,000 and sells 3-month futures at Rs. 2,065. The borrowing cost is 10% p.a. What is the arbitrage profit per share?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 15 per share]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 65 per share]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 50 per share]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0 (no profit)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+1. Spot purchase price = Rs. 2,000
+2. Futures selling price = Rs. 2,065
+3. Gross profit = 2,065 - 2,000 = Rs. 65
+4. Financing cost = 2,000 x 10% x 90/365 = Rs. 49.32 (approximately Rs. 50)
+5. Arbitrage profit = 65 - 50 = Rs. 15 per share
+
+**The Trap:** Rs. 65 ignores the financing cost. The gross spread is NOT the profit - you must subtract the cost of carry. Rs. 50 is just the financing cost. The net profit after deducting carry cost is Rs. 15.
+
+**Cross-Exam Context:** Calculating net arbitrage profit after costs is essential for Series VIII.
+
+**Key Takeaway:** Arbitrage profit = Futures Price - Spot Price - Cost of Carry = 2065 - 2000 - 50 = Rs. 15.]]></text></explanation>
+    </question>
+</QF>

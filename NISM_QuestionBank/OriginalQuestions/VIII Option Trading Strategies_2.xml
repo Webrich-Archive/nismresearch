@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Option Trading Strategies_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A portfolio manager holds shares of Reliance Industries currently trading at Rs. 2,500. She fears a short-term decline. To protect her portfolio, she sells Reliance futures at Rs. 2,520. This strategy is called:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Short hedge]]></text></answer>
+            <answer correct="no"><text><![CDATA[Long hedge]]></text></answer>
+            <answer correct="no"><text><![CDATA[Covered call writing]]></text></answer>
+            <answer correct="no"><text><![CDATA[Protective put strategy]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A short hedge involves selling futures when you already hold the underlying asset. If the price falls, the loss on the physical holding is offset by profit on the short futures position. The manager locked in a selling price of Rs. 2,520.
+
+**The Trap:** A covered call also provides some downside protection but only to the extent of premium received, not a full hedge. A protective put uses options, not futures.
+
+**Cross-Exam Context:** Short hedging is frequently tested in both equity and commodity derivatives exams.
+
+**Key Takeaway:** Short hedge = Sell futures to lock in the selling price. Used by holders of the underlying asset who fear a price decline.]]></text></explanation>
+    </question>
+</QF>

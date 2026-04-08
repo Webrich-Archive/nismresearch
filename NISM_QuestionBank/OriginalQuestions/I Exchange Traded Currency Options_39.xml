@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_39" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the intrinsic value of a USDINR 84 put option when USDINR spot is at 83.50?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 0.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 84]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. -0.50]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Put intrinsic = max(Strike - Spot, 0) = max(84 - 83.50, 0) = Rs. 0.50. This put is ITM.
+**The Trap:** Intrinsic can never be negative — it's max(X-S, 0) for puts.
+**Cross-Exam Context:** Put intrinsic value is tested in Series I and VIII.
+**Distributor's Pro-Tip:** If premium is Rs. 0.70, time value = 0.70 - 0.50 = Rs. 0.20.]]></text></explanation>
+    </question>
+</QF>

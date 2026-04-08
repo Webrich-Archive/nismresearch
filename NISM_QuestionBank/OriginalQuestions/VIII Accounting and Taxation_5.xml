@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Accounting and Taxation_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When an option buyer purchases a call option, the premium paid is recorded as:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Debit: Option Premium Paid Account (Asset); Credit: Bank/Broker Account]]></text></answer>
+            <answer correct="no"><text><![CDATA[Debit: Expense Account; Credit: Bank Account (immediately expensed)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Debit: Investment Account; Credit: Bank Account]]></text></answer>
+            <answer correct="no"><text><![CDATA[No entry until the option is exercised]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The premium paid for an option is initially recorded as an asset (Option Premium Paid Account). It represents the right acquired. The entry is:
+Debit: Option Premium Paid Account (Asset)
+Credit: Bank/Broker Account
+
+On exercise or expiry, this asset is either converted to profit/loss or written off.
+
+**The Trap:** Premium is not immediately expensed - it is an asset until exercise/expiry. It is not an investment account in the traditional sense.
+
+**Cross-Exam Context:** Option accounting differs from futures accounting (no daily MTM for buyers).
+
+**Key Takeaway:** Option premium paid = asset initially. Debit Premium Account, Credit Bank. Written off on expiry if OTM.]]></text></explanation>
+    </question>
+</QF>

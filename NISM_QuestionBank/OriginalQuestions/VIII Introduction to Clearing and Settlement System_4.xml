@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Novation in the context of derivatives clearing means:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The clearing corporation becomes the buyer to every seller and the seller to every buyer, replacing the original counterparty relationship]]></text></answer>
+            <answer correct="no"><text><![CDATA[A new derivative product is introduced by the exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[An existing derivative contract is modified with new terms]]></text></answer>
+            <answer correct="no"><text><![CDATA[A trader replaces one position with another]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Novation is the legal process where the clearing corporation substitutes itself as the counterparty. When Trader A sells to Trader B, after novation: (1) A's counterparty becomes the CC (not B), and (2) B's counterparty becomes the CC (not A). The original A-B contract is replaced by two contracts: A-CC and CC-B.
+
+**The Trap:** Novation is not about new products or contract modifications. It specifically refers to the substitution of counterparties through the CCP.
+
+**Cross-Exam Context:** Novation is a legal and risk management concept tested in multiple NISM exams.
+
+**Key Takeaway:** Novation = CC becomes buyer to every seller and seller to every buyer. Original counterparty relationship is replaced.]]></text></explanation>
+    </question>
+</QF>

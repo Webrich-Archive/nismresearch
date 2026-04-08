@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Legal and Regulatory Framework_41" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A mutual fund investor submits a redemption request for an equity scheme at 2:45 PM on a business day, with the cut-off time being 3:00 PM. The NAV on that day is Rs. 150.2345 and the next day's NAV is Rs. 152.5678. At what NAV will the redemption be processed?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 150.2345 (same day's NAV, as the request was received before the 3:00 PM cut-off)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 152.5678 (next day's NAV, as equity schemes always use T+1 NAV)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 151.4012 (average of both days' NAVs)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 150.23 (same day's NAV rounded to two decimal places)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Since the redemption request was received at 2:45 PM, which is BEFORE the 3:00 PM cut-off time, the same day's closing NAV of Rs. 150.2345 applies. For redemption requests in equity and debt schemes, if the valid request is received before the cut-off time, the same day's NAV is applicable. The NAV is calculated at the end of the business day based on closing market prices. The four-decimal precision (Rs. 150.2345) is maintained as per SEBI's rounding rules.
+
+**The Trap:** Option B incorrectly assumes T+1 NAV for equity schemes — this is wrong for redemptions received before cut-off. Option C's "average NAV" concept does not exist in mutual fund regulation. Option D rounds to two decimals instead of the mandated four decimals. The precise combination of cut-off timing + four-decimal NAV is the key to getting this right.
+
+**Cross-Exam Context:** NAV application scenarios are among the most frequently tested application-type questions in Series V-A and V-B. The rules differ for purchase (where fund realization matters) vs redemption. Series III-A tests similar settlement timing concepts for other securities.
+
+**Distributor's Pro-Tip:** For clients making large redemptions, advise them to submit requests well before the cut-off time to avoid last-minute technical issues (system downtime, network problems) that could push the application past the cut-off. Even 15 minutes of buffer can save a client from receiving a potentially unfavorable next-day NAV.]]></text></explanation>
+    </question>
+</QF>

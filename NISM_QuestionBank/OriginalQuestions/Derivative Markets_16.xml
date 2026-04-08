@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Derivative Markets_16" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the futures market, initial margin is collected to:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Cover the estimated risk to an open position over a 2-day horizon]]></text></answer>
+            <answer correct="no"><text><![CDATA[Pay for the full value of the underlying asset upfront]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cover the brokerage charges of the trading member]]></text></answer>
+            <answer correct="no"><text><![CDATA[Act as a deposit for the exchange membership fee]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Initial margin is collected using a formula that estimates the risk to an open position over a 2-day horizon. In addition, exposure margin is collected as a percentage of the notional value of the open position. Both margins are payable in advance before taking trading positions. Not paying margins attracts penalties including suspension and closure of positions.
+
+**The Trap:** Margins are NOT the full value of the contract — this is the leverage aspect of derivatives. They are NOT brokerage charges or membership fees. Margins are risk management tools that ensure settlement obligations can be met.
+
+**Cross-Exam Context:** Derivatives basics overlap with Series VIII, XIII. The margin system is a critical risk management concept tested across all derivatives exams.
+
+**Distributor's Pro-Tip:** The margin requirement is typically 10-20% of the contract value — this means derivatives are leveraged. A 10% margin means 10x leverage, amplifying both gains and losses. Ensure clients understand this leverage risk before they trade derivatives.]]></text></explanation>
+    </question>
+</QF>

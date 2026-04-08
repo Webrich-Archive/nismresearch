@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Accounting and Taxation_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader sells Nifty futures worth Rs. 11,00,000 (contract value). The STT payable by the trader is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 137.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,375]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 687.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 13.75]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step:
+1. Contract value = Rs. 11,00,000
+2. STT rate for futures sale = 0.0125%
+3. STT = 11,00,000 x 0.0125/100 = 11,00,000 x 0.000125 = Rs. 137.50
+
+**The Trap:** Using the wrong STT rate (0.125% instead of 0.0125%) gives Rs. 1,375. Using 0.0625% gives Rs. 687.50. Be careful with decimal places.
+
+**Cross-Exam Context:** STT calculation is a straightforward numerical question but requires the correct rate.
+
+**Key Takeaway:** Futures sale STT = Contract value x 0.0125%. Be precise with decimal places: 0.0125% = 0.000125 as a multiplier.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IFSCA AML CFT KYC Guidelines_10" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[In a cross-border wire transfer where the amount exceeds USD 1,000, what additional information must the ordering bank include beyond the originator's name and account number?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The originator's residential or business address, or unique identification number, or date and place of birth/incorporation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the originator's email address and phone number]]></text></answer>
+            <answer correct="no"><text><![CDATA[The originator's bank account balance and credit history]]></text></answer>
+            <answer correct="no"><text><![CDATA[No additional information is required regardless of the amount]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For cross-border wire transfers exceeding USD 1,000, the ordering institution must include, in addition to name and account number: (i) residential/business address; OR (ii) unique identification number (passport, identity card, etc.); OR (iii) date and place of birth, incorporation, or registration.
+
+**The Trap:** The USD 1,000 threshold is specific to IFSC wire transfer rules. Below or equal to USD 1,000, only name, account number, beneficiary name, and beneficiary account are required. Above USD 1,000, additional identification is mandatory.
+
+**Cross-Exam Context:** FATF Recommendation 16 covers wire transfer transparency. This is particularly important in IFSCA-01 given IFSC's role as an international financial hub processing cross-border wire transfers.
+
+**Distributor's Pro-Tip:** Remember the USD 1,000 threshold for IFSC wire transfers — below it: basic info; above it: additional identification. This is a frequently tested concept.]]></text></explanation>
+    </question>
+</QF>

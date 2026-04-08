@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Trading Systems_17" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following actions can a trader perform after placing an order in the derivatives segment?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Modify the price, quantity, or cancel the order, provided it has not been fully executed]]></text></answer>
+            <answer correct="no"><text><![CDATA[Modify orders even after full execution]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only cancel the order but cannot modify it]]></text></answer>
+            <answer correct="no"><text><![CDATA[Modify the order type from limit to market after placement]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Pending orders (not yet executed or partially executed) can be modified or cancelled. The trader can change the price, reduce/increase the pending quantity, or cancel entirely. However, once an order is fully executed, no modifications are possible.
+
+**The Trap:** Fully executed orders cannot be modified or cancelled. Also, certain order attributes like the order type or transaction type (buy/sell) typically cannot be changed - you would need to cancel and place a new order.
+
+**Cross-Exam Context:** Order management is a practical skill tested in trading-related certifications.
+
+**Key Takeaway:** Pending orders can be modified (price, quantity) or cancelled. Executed orders cannot be changed.]]></text></explanation>
+    </question>
+</QF>

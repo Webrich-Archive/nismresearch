@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Securities Types Features and Asset Allocation Concepts_50" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[An investor purchases a bond with face value Rs.100, coupon rate 12% per annum, and the bond is currently trading at Rs.109.50 in the market. What is the current yield of this bond?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Approximately 10.95%]]></text></answer>
+            <answer correct="no"><text><![CDATA[12%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 9.13%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 14.6%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Current yield = Annual coupon / Market price = (12 / 109.50) x 100 = 10.95% (as calculated in the NISM workbook). Since the bond is trading above face value (at a premium), the current yield is LOWER than the coupon rate. The coupon remains Rs.12 annually, but the investor paid Rs.109.50, so the yield on investment is less than 12%.
+
+**The Trap:** 12% (option B) is the coupon rate, not the current yield -- a common mistake. 9.13% (option C) might result from dividing market price by coupon. 14.6% (option D) might result from an incorrect formula inversion.
+
+**Cross-Exam Context:** Foundation topic tested across 22 NISM exams. This exact example (12% coupon, Rs.109.50 price) is from the NISM XII workbook.
+
+**Distributor's Pro-Tip:** This calculation demonstrates why coupon rate and yield are different. When a bond trades at premium (above face value), yield is less than coupon. At discount (below face value), yield is more than coupon. At par, they are equal. This is critical for comparing bond investments.]]></text></explanation>
+    </question>
+</QF>

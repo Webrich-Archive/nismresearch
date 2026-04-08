@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_120" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A large institutional investor needs to hedge a Rs. 100 crore equity portfolio against a potential 15% market decline. Compared to selling futures, what advantage does buying put options offer?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Puts allow the investor to retain upside potential while protecting the downside, unlike futures which eliminate both]]></text></answer>
+            <answer correct="no"><text><![CDATA[Puts provide complete protection at zero cost]]></text></answer>
+            <answer correct="no"><text><![CDATA[Puts have no expiry date so the hedge never needs to be rolled over]]></text></answer>
+            <answer correct="no"><text><![CDATA[Puts require lower margin than futures and can never lose value]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Put options vs Futures for hedging:
+
+Puts: Protect DOWNSIDE while retaining UPSIDE. Like insurance - pay premium, get protection.
+- Market falls: puts gain → offset portfolio losses
+- Market rises: puts expire worthless → portfolio continues to gain (minus premium)
+
+Futures: Eliminate BOTH downside AND upside. Total hedge.
+- Market falls: futures gain → offset portfolio losses
+- Market rises: futures lose → offset portfolio gains (no net benefit)
+
+**The Trap:** Puts are NOT free - premium must be paid. But they preserve upside opportunity.
+
+**Cross-Exam Context:** Institutional hedging often uses puts for asymmetric protection.
+
+**Key Takeaway:** Puts = asymmetric hedge (protect downside, keep upside). Futures = symmetric hedge (remove both).]]></text></explanation>
+    </question>
+</QF>

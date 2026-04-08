@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Risk Return and Performance_43" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Two funds have identical returns of 15%. Fund M has a standard deviation of 20% and beta of 1.4, while Fund N has a standard deviation of 12% and beta of 0.8. The risk-free rate is 6%. For a well-diversified investor who already holds multiple funds, which fund offers better risk-adjusted value?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Fund M, because it has higher beta indicating more growth potential]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Fund N, because it has a higher Treynor ratio]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both are equal since they have the same return]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fund M, because higher standard deviation means more return potential]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For a well-diversified investor, the Treynor ratio is most relevant (unsystematic risk is diversified away). Fund M Treynor = (15-6)/1.4 = 6.43. Fund N Treynor = (15-6)/0.8 = 11.25. Fund N has a significantly higher Treynor ratio, meaning it delivers much more excess return per unit of systematic risk. Fund N achieves the same 15% return while taking far less market risk.
+
+**The Trap:** Equal returns do NOT mean equal risk-adjusted performance. Fund M's higher beta and higher standard deviation mean it takes substantially more risk for the same return. Higher standard deviation does NOT indicate more return potential -- it indicates more risk. The question specifically mentions a well-diversified investor, making Treynor ratio the appropriate measure.
+
+**Cross-Exam Context:** This question tests the application of Treynor ratio in a practical portfolio context. The phrase "well-diversified investor" is the cue to use Treynor (systematic risk) rather than Sharpe (total risk). The Sharpe ratios also favor Fund N: (15-6)/12 = 0.75 vs (15-6)/20 = 0.45.
+
+**Distributor's Pro-Tip:** When clients compare funds with similar returns, help them look beneath the surface. "Both funds gave 15%, but Fund N did it with much less risk. If markets drop 10%, Fund M could drop 14% while Fund N might drop only 8%. Fund N is the smarter choice -- same destination, smoother journey."]]></text></explanation>
+    </question>
+</QF>

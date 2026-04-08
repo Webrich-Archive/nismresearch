@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Multilateral netting procedure is used to determine:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Net settlement obligations (pay-in or pay-out) of clearing members]]></text></answer>
+            <answer correct="no"><text><![CDATA[The futures price at expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[The margin requirement for each trade]]></text></answer>
+            <answer correct="no"><text><![CDATA[The brokerage charges for members]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Multilateral netting aggregates all obligations across trades and determines whether a CM has a net pay-in (owes money) or pay-out (receives money) obligation.
+**The Trap:** Netting reduces the actual settlement amounts — not every trade is settled separately.
+**Cross-Exam Context:** Netting is tested in Series I and VII.
+**Distributor's Pro-Tip:** Netting significantly reduces the total settlement value, making the process efficient and reducing liquidity requirements.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VB Performance of Mutual Funds_36" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The Information Ratio of a mutual fund scheme is calculated as __________, using the Tier-1 benchmark specified in the Scheme Information Document.]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[(Portfolio Return - Benchmark Return) / Standard Deviation of Excess Return]]></text></answer>
+            <answer correct="no"><text><![CDATA[(Portfolio Return - Risk-Free Rate) / Standard Deviation of Portfolio Return]]></text></answer>
+            <answer correct="no"><text><![CDATA[(Portfolio Return - Benchmark Return) / Beta of the Portfolio]]></text></answer>
+            <answer correct="no"><text><![CDATA[(Benchmark Return - Portfolio Return) / Tracking Error]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The Information Ratio = (Portfolio Return - Benchmark Return) / Standard Deviation of Excess Return. The numerator is the active return (how much the fund beat or lagged the benchmark), and the denominator is the tracking error (standard deviation of excess returns), which measures the consistency of outperformance. The Tier-1 benchmark from the SID is used.
+
+**The Trap:** (Portfolio Return - Risk-Free Rate) / Std Dev is closer to the Sharpe Ratio formula. Using Beta in the denominator would be a Treynor-like measure. The distractor with reversed numerator (Benchmark - Portfolio) would give a negative ratio when the fund outperforms, which is incorrect.
+
+**Cross-Exam Context:** The Information Ratio is central to NISM V-B given the January 2025 SEBI mandate for daily disclosure.
+
+**Key Takeaway:** Information Ratio = Active Return / Tracking Error. It measures how consistently a fund outperforms its benchmark per unit of active risk.]]></text></explanation>
+    </question>
+</QF>

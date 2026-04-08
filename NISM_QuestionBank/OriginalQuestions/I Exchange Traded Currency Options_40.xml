@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_40" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An option has premium Rs. 0.30 and intrinsic value Rs. 0.20. What is the time value?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 0.10]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.20]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.30]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Time value = Premium - Intrinsic value = 0.30 - 0.20 = Rs. 0.10.
+**The Trap:** Time value is the RESIDUAL after subtracting intrinsic value from premium.
+**Cross-Exam Context:** Premium decomposition is tested in Series I and VIII.
+**Distributor's Pro-Tip:** As expiry approaches, this Rs. 0.10 time value will decay to zero. At expiry, premium = intrinsic value only.]]></text></explanation>
+    </question>
+</QF>

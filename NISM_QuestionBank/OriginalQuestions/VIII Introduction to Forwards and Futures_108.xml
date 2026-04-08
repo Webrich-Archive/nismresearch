@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_108" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A day trader consistently makes 20 trades per day in Nifty futures. Each trade captures an average of 5 points profit. Lot size is 65. Assuming brokerage of Rs. 20 per trade (one way), what is the approximate daily net profit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 5,700]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 6,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 5,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 100]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+1. Gross profit per trade = 5 points x 65 = Rs. 325
+2. Total gross profit = 325 x 20 trades = Rs. 6,500
+3. Total brokerage = Rs. 20 x 20 trades x 2 (buy + sell) = Rs. 800
+4. Net profit = 6,500 - 800 = Rs. 5,700
+
+Note: This excludes other charges like STT, exchange fees, GST, etc.
+
+**The Trap:** Rs. 6,500 ignores brokerage. Rs. 5,500 uses wrong brokerage calculation. Rs. 100 is the per-unit profit only. Remember brokerage is charged on BOTH legs (buy and sell).
+
+**Cross-Exam Context:** Transaction cost awareness for day trading is a practical topic in Series VIII.
+
+**Key Takeaway:** Net profit = Gross profit - Total transaction costs. Brokerage on both legs: 20 x 20 x 2 = Rs. 800.]]></text></explanation>
+    </question>
+</QF>

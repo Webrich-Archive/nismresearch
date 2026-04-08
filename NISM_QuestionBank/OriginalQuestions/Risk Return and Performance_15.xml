@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Risk Return and Performance_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[As per SEBI norms, mutual fund returns for a period of more than one year must be represented as:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Simple annualized returns]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Compounded Annual Growth Rate (CAGR)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Absolute returns]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rolling returns]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI mandates that mutual fund returns for periods exceeding one year must be expressed as CAGR (Compounded Annual Growth Rate). CAGR provides a smoothed annualized rate of return that accounts for compounding, giving investors a realistic picture of how their money has grown on a per-year basis over the period.
+
+**The Trap:** Simple annualized returns do not account for the compounding effect and can overstate or understate actual growth. Absolute returns show total gain/loss but do not normalize for time, making it difficult to compare investments held for different periods. Rolling returns are useful for analysis but are not the SEBI-mandated representation format.
+
+**Cross-Exam Context:** SEBI requires funds to disclose returns for 1 year, 3 years, 5 years, and since inception. For periods less than one year, returns must be shown as absolute (point-to-point) returns and NOT annualized, because annualizing short-period returns can be misleading (e.g., a 5% return in 1 month would annualize to 60%).
+
+**Distributor's Pro-Tip:** Always explain CAGR to clients in simple terms: "If your Rs. 1 lakh became Rs. 2 lakh in 5 years, the CAGR is about 14.87% -- meaning your money grew at approximately 14.87% per year, compounded." This helps set realistic expectations versus point-to-point figures.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Trading Mechanism_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A Disclosed Quantity (DQ) order allows:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Only a portion of the total order quantity to be visible to the market at a time]]></text></answer>
+            <answer correct="no"><text><![CDATA[The full order quantity to be hidden permanently]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trading in odd lot sizes]]></text></answer>
+            <answer correct="no"><text><![CDATA[Orders to be placed without a price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** DQ orders show only a part of the total quantity. E.g., 1000 lots with DQ 200 shows only 200 at a time. After 200 is traded, the next 200 is automatically released.
+**The Trap:** The order is not fully hidden — portions are shown sequentially. The full quantity still gets executed.
+**Cross-Exam Context:** DQ is tested in Series I.
+**Distributor's Pro-Tip:** DQ is used by large traders to avoid market impact — showing the full size might move the market against them.]]></text></explanation>
+    </question>
+</QF>

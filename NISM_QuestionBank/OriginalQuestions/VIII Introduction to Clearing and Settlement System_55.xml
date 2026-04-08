@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_55" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For availing cross-margining benefit, the positions in cash and derivatives segments must be:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[In the same underlying security and held by the same client/entity with positions cleared through the same clearing member]]></text></answer>
+            <answer correct="no"><text><![CDATA[In any securities as long as they are in different segments]]></text></answer>
+            <answer correct="no"><text><![CDATA[Held by different clients of the same broker]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only applicable for institutional investors]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Cross-margining requires: (1) Same underlying security (e.g., Reliance cash + Reliance futures), (2) Same client/entity holding both positions, (3) Both positions cleared through the same clearing member. These conditions ensure that the hedge is genuine and the risk offset is real.
+
+**The Trap:** Cross-margining cannot be applied across different securities or different clients. The conditions are strict to prevent abuse.
+
+**Cross-Exam Context:** Eligibility criteria for cross-margining are regulatory details tested in the exam.
+
+**Key Takeaway:** Cross-margin eligibility: same underlying + same client + same CM. All three conditions must be met.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_83" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A call option has strike Rs. 17,800 and premium Rs. 240. What is the breakeven point for the buyer?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 18,040]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 17,560]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 17,800]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 18,280]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Call BEP = Strike + Premium
+
+Step-by-step:
+1. X = 17,800, P = 240
+2. BEP = 17,800 + 240 = Rs. 18,040
+3. At 18,040: Payoff = 18,040 - 17,800 = 240 = Premium. P/L = 0.
+
+**The Trap:** For calls, ADD premium to strike. For puts, SUBTRACT premium from strike.
+
+**Cross-Exam Context:** Above BEP = profit zone for call buyer. Below BEP = loss zone.
+
+**Key Takeaway:** Call BEP = X + P = 17,800 + 240 = Rs. 18,040.]]></text></explanation>
+    </question>
+</QF>

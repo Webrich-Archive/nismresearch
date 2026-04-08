@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Investment Landscape_8" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which risk measure indicates the sensitivity of a security's returns relative to the overall market?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Standard deviation]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Beta]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sharpe ratio]]></text></answer>
+            <answer correct="no"><text><![CDATA[Duration]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Beta measures the systematic (market) risk of a security or portfolio relative to the market as a whole. A beta of 1 means the security moves in line with the market, above 1 means more volatile than the market, and below 1 means less volatile. It captures how much an investment's price moves in response to market movements.
+
+**The Trap:** Option A (Standard deviation) measures total risk (both systematic and unsystematic) as the dispersion of returns around the mean, not specifically market sensitivity. Option C (Sharpe ratio) measures risk-adjusted returns, not market sensitivity. Option D (Duration) measures bond price sensitivity to interest rate changes.
+
+**Cross-Exam Context:** Beta is extensively tested across NISM V-A, X-A, and XII. Key relationships: Beta > 1 = aggressive stock, Beta < 1 = defensive stock, Beta = 0 = risk-free asset. The Capital Asset Pricing Model (CAPM) uses beta to determine expected returns.
+
+**Distributor's Pro-Tip:** Use beta to match fund selection to client risk profiles. Conservative clients should look at funds with portfolio beta below 1 (e.g., large-cap funds), while aggressive clients can consider higher-beta funds (e.g., small-cap or sectoral funds).]]></text></explanation>
+    </question>
+</QF>

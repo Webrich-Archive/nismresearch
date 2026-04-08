@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_47" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under physical settlement, a client with a long ITM put option position at expiry must:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Deliver the underlying shares and receive the settlement amount (strike price)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Pay the settlement amount and receive shares]]></text></answer>
+            <answer correct="no"><text><![CDATA[Receive cash profit without any delivery]]></text></answer>
+            <answer correct="no"><text><![CDATA[The put option expires worthless at expiry]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A long put option holder has the right to SELL the underlying. When exercised at expiry under physical settlement, the holder delivers the underlying shares and receives the strike price (settlement amount). The short put writer must accept delivery and pay.
+
+**The Trap:** Long put = right to sell = deliver shares. This is opposite to long call (which receives shares). Many confuse the delivery obligation of calls and puts.
+
+**Cross-Exam Context:** Delivery obligations table: Long Call = receive shares. Short Call = deliver. Long Put = deliver. Short Put = receive.
+
+**Key Takeaway:** Long put at expiry: deliver shares, receive strike price. Short put: accept shares, pay strike price.]]></text></explanation>
+    </question>
+</QF>

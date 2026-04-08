@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_74" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Using continuous compounding: F = S × e^((r-rf)×t). If S = 83, r (INR rate) = 7%, rf (USD rate) = 5%, t = 0.5 years, what is F?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[83.84 (approximately)]]></text></answer>
+            <answer correct="no"><text><![CDATA[84.58]]></text></answer>
+            <answer correct="no"><text><![CDATA[83.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[82.17]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** F = 83 × e^((0.07-0.05)×0.5) = 83 × e^(0.01) = 83 × 1.01005 = 83.8341 ≈ 83.84. Using discrete compounding: 83 × (1.035)/(1.025) = 83.8097.
+**The Trap:** The continuous compounding result (83.84) is slightly higher than discrete (83.81) — both are valid.
+**Cross-Exam Context:** Continuous vs discrete compounding is tested in Series I and VIII.
+**Distributor's Pro-Tip:** For exam purposes, the discrete formula F = S × (1+r×t)/(1+rf×t) is more commonly used in calculations.]]></text></explanation>
+    </question>
+</QF>

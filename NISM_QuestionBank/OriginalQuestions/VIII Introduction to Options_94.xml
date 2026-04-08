@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_94" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A call option with strike Rs. 1,800 trades at premium Rs. 110 when the stock is at Rs. 1,850. At expiry, the stock is still at Rs. 1,850. How much time value has the buyer lost?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 60]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 110]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:**
+At purchase:
+- IV = max(1,850 - 1,800, 0) = Rs. 50
+- TV = 110 - 50 = Rs. 60
+
+At expiry (same spot):
+- Option value = max(1,850 - 1,800, 0) = Rs. 50 (pure IV, TV = 0)
+- Time value lost = Rs. 60
+
+**The Trap:** At expiry, ALL time value is gone. The option is worth only its intrinsic value.
+
+**Cross-Exam Context:** Even if price doesn't move, the buyer loses time value (theta effect).
+
+**Key Takeaway:** At expiry: TV = 0. Time value decay = initial TV = Rs. 60. This is theta in action.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_14" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For single stock derivatives, the initial margin is computed using a VaR approach with:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[99% confidence level and 2-day time horizon]]></text></answer>
+            <answer correct="no"><text><![CDATA[95% confidence level and 1-day time horizon]]></text></answer>
+            <answer correct="no"><text><![CDATA[99% confidence level and 1-day time horizon]]></text></answer>
+            <answer correct="no"><text><![CDATA[95% confidence level and 5-day time horizon]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For single stock derivatives, SEBI mandates a 99% VaR with a 2-day time horizon. The 2-day horizon (instead of 1-day for indices) reflects the higher volatility and lower liquidity of individual stocks. A 2-day horizon accounts for the time it might take to close out a position in a single stock.
+
+**The Trap:** Index derivatives use a 1-day horizon (as indices are more liquid and less volatile). The 99% confidence level is the same for both.
+
+**Cross-Exam Context:** The distinction between index and stock derivative margin parameters is a frequently tested detail.
+
+**Key Takeaway:** Stock derivatives: 99% VaR, 2-day horizon. Index derivatives: 99% VaR, 1-day horizon. Stocks need higher margins due to greater volatility.]]></text></explanation>
+    </question>
+</QF>

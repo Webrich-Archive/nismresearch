@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_40" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Trading Member (TM) level position limits for stock derivatives are:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[15% of the market-wide position limit or Rs. 50 crore, whichever is higher]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equal to the market-wide position limit]]></text></answer>
+            <answer correct="no"><text><![CDATA[10% of the client-level position limit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fixed at 5% of free-float market cap]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For stock derivatives, TM-level position limits are the higher of: (a) 15% of MWPL, or (b) Rs. 50 crore (in notional value). This ensures that no single TM accumulates an excessively large position in any stock derivative relative to the market-wide limit.
+
+**The Trap:** TM limits are lower than MWPL but apply per member. Client limits (within a TM's positions) are further restricted.
+
+**Cross-Exam Context:** The hierarchy: Client limit < TM limit < MWPL ensures multi-layered position control.
+
+**Key Takeaway:** Stock TM limit: higher of 15% MWPL or Rs. 50 crore. Position limits: Client < TM < Market-wide.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Trading Mechanism_33" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which risk type arises from denial of matched orders by clients?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Operational risk]]></text></answer>
+            <answer correct="no"><text><![CDATA[Market risk]]></text></answer>
+            <answer correct="no"><text><![CDATA[Credit risk]]></text></answer>
+            <answer correct="no"><text><![CDATA[Liquidity risk]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Denial of matched orders by clients is an operational risk for the broker — it falls under inadequate processes/manual errors. Market risk is from price movements; credit risk is from payment default.
+**The Trap:** This is from the NISM workbook sample questions — operational risk covers process failures.
+**Cross-Exam Context:** Risk classification is tested in Series I.
+**Distributor's Pro-Tip:** Other operational risks include trading errors, non-delivery, sudden bank closure, and system failures.]]></text></explanation>
+    </question>
+</QF>

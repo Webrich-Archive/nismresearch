@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="Secondary Markets_11" sectionNumber="" articleNumber="0" articleName="">
+    <question><text>What is the purpose of circuit breakers in the stock market?</text>
+        <answers>
+            <answer correct="yes"><text>To halt trading temporarily when there is an abnormal or rapid movement in an index or stock price</text></answer>
+            <answer correct="no"><text>To increase the speed of order execution during high volume periods</text></answer>
+            <answer correct="no"><text>To prevent new investors from entering the market during volatile times</text></answer>
+            <answer correct="no"><text>To permanently stop trading in a stock that has fallen below face value</text></answer>
+        </answers>
+        <explanation><text>**The Logic:** Circuit breakers are pre-determined percentage values that trigger automatic trading halts when there is rapid price movement in either direction. They allow market participants to assess the situation rather than making panic-driven transactions.
+**The Trap:** Circuit breakers are temporary halts, not permanent stops (option d). Trading resumes after a cooling-off period with a pre-open call auction session.
+**Cross-Exam Context:** Market-wide circuit breakers: 10% decline = 45 min halt (before 1 PM), 15% = 1 hr 45 min halt, 20% = rest of day. Individual stock price bands: 2%, 5%, 10%, or 20%.
+**Distributor's Pro-Tip:** Circuit breakers = Market's emergency brake. 10-15-20% are the three levels. Time of day matters - late-day triggers have shorter or no halts.</text></explanation>
+    </question>
+</QF>

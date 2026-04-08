@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What does 'open interest' in the currency futures market represent?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The total number of outstanding (unsettled) contracts for an underlying asset]]></text></answer>
+            <answer correct="no"><text><![CDATA[The total trading volume for the day]]></text></answer>
+            <answer correct="no"><text><![CDATA[The number of new contracts opened during the day]]></text></answer>
+            <answer correct="no"><text><![CDATA[The difference between buy and sell orders]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Open interest is the total number of contracts that are outstanding (not yet settled). Long positions always equal short positions, so only one side is counted. It indicates market depth.
+**The Trap:** Open interest is NOT the same as trading volume. Volume counts all trades in a day; open interest counts only outstanding positions.
+**Cross-Exam Context:** Open interest analysis is tested in Series I, VIII, and XIII.
+**Distributor's Pro-Tip:** Rising open interest with rising prices suggests new money entering and bullish sentiment. Falling open interest suggests positions being unwound.]]></text></explanation>
+    </question>
+</QF>

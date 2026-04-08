@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_41" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Collateral from clients in the form of bank guarantees should NOT be issued by:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Banks that are associates of the trading/clearing member]]></text></answer>
+            <answer correct="no"><text><![CDATA[Any nationalized bank]]></text></answer>
+            <answer correct="no"><text><![CDATA[Any private sector bank]]></text></answer>
+            <answer correct="no"><text><![CDATA[Any foreign bank operating in India]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Bank guarantees provided by clients should NOT be from banks that are associates of the TM/CM — to avoid conflict of interest. 'Associate' is defined under SECC Regulations 2012.
+**The Trap:** The restriction is on ASSOCIATED banks, not on bank type (nationalized, private, etc.).
+**Cross-Exam Context:** Collateral restrictions are tested in Series I and VII.
+**Distributor's Pro-Tip:** This prevents a scenario where a failing TM/CM could use their own associated bank's guarantee as collateral.]]></text></explanation>
+    </question>
+</QF>

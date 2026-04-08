@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_42" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In a bull call spread, if USDINR at expiry is exactly at the lower strike, the result is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Maximum loss (both options expire worthless, trader loses net premium paid)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Maximum profit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Break-even]]></text></answer>
+            <answer correct="no"><text><![CDATA[Partial profit]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** At or below the lower strike: both calls are OTM, both expire worthless. Net result = net premium PAID = maximum loss.
+**The Trap:** Above the lower strike but below BEP: partial recovery of premium but still a loss.
+**Cross-Exam Context:** Spread payoff at different levels is tested in Series I.
+**Distributor's Pro-Tip:** Max loss region: ≤ lower strike. Max profit region: ≥ higher strike. Between: partial P&L.]]></text></explanation>
+    </question>
+</QF>

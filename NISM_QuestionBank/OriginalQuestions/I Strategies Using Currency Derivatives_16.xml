@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_16" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A bull call spread involves:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buying a call at a lower strike and selling a call at a higher strike (same expiry)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buying calls at two different strikes]]></text></answer>
+            <answer correct="no"><text><![CDATA[Selling calls at two different strikes]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buying a call and selling a put at the same strike]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Bull call spread: Long call (lower strike) + Short call (higher strike). The long call profits from price rise; the short call caps the profit at the higher strike but reduces the net premium cost.
+**The Trap:** Selling a put with a call is a different strategy (risk reversal/combo), not a spread.
+**Cross-Exam Context:** Option spreads are tested in Series I and VIII.
+**Distributor's Pro-Tip:** Max profit = Higher strike - Lower strike - Net premium. Max loss = Net premium paid. It's a limited profit, limited loss strategy.]]></text></explanation>
+    </question>
+</QF>

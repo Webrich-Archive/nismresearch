@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_34" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If the 99% 1-day VaR of a Nifty futures position is Rs. 80,000, it means:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[There is a 99% probability that the loss will not exceed Rs. 80,000 in one day, or a 1% chance it will exceed]]></text></answer>
+            <answer correct="no"><text><![CDATA[The position will definitely lose Rs. 80,000 in one day]]></text></answer>
+            <answer correct="no"><text><![CDATA[The maximum possible loss is capped at Rs. 80,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[The expected daily profit is Rs. 80,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A 99% 1-day VaR of Rs. 80,000 means: on 99 out of 100 trading days, the loss will be less than or equal to Rs. 80,000. However, on 1 out of 100 days (the 1% tail), the loss could exceed Rs. 80,000. VaR does not cap losses - extreme events can cause losses beyond VaR.
+
+**The Trap:** VaR does NOT cap losses. It is a probabilistic measure. Extreme events (black swans) can cause losses exceeding VaR. This is why additional margins (exposure margin, extreme loss margin) are collected.
+
+**Cross-Exam Context:** Understanding VaR limitations is as important as understanding VaR itself.
+
+**Key Takeaway:** VaR is probabilistic, not deterministic. 99% VaR = 1% tail risk. Losses CAN exceed VaR in extreme scenarios.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Option Trading Strategies_8" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A stock is trading at Rs. 500. Risk-free rate is 12% p.a. The stock is expected to pay a dividend of Rs. 10 in 2 months. What is the fair 3-month futures price (using simple interest)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 505]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 515]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 490]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+1. Spot price (S) = Rs. 500
+2. Cost of carry = S x r x t = 500 x 0.12 x (3/12) = Rs. 15
+3. Present value of dividend (approximately) = Rs. 10 (received in 2 months, ignoring time value for simplicity)
+4. Fair futures price = S + Cost of carry - Dividend = 500 + 15 - 10 = Rs. 505
+
+**The Trap:** Forgetting to subtract the dividend would give Rs. 515. Dividends reduce the fair futures price because the futures buyer does not receive dividends.
+
+**Cross-Exam Context:** Fair value calculations with dividends are commonly tested in NISM Series VIII.
+
+**Key Takeaway:** Fair futures price = Spot + Cost of carry - Dividends. Dividends reduce the fair futures price.]]></text></explanation>
+    </question>
+</QF>

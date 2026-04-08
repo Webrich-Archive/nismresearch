@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Introduction to Currency Markets_32" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[GBP/USD = 1.3300/1.3325 and USD/INR = 75.64/75.65. What is the offer rate for GBP/INR?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[100.8036]]></text></answer>
+            <answer correct="no"><text><![CDATA[100.6012]]></text></answer>
+            <answer correct="no"><text><![CDATA[100.7000]]></text></answer>
+            <answer correct="no"><text><![CDATA[101.0000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** GBP/INR offer = GBP/USD offer × USD/INR offer = 1.3325 × 75.65 = 100.8036.
+**The Trap:** Using bid rates would give the GBP/INR bid (1.3300 × 75.64 = 100.6012), not the offer.
+**Cross-Exam Context:** Cross rate calculations are extensively tested in Series I.
+**Distributor's Pro-Tip:** For GBP/INR (like EUR/INR), multiply the two rates because GBP is base in GBP/USD and USD is base in USD/INR.]]></text></explanation>
+    </question>
+</QF>

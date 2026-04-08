@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_22" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The two BEPs for the long straddle in Q21 are:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[82.65 (Strike - Total premium) and 83.35 (Strike + Total premium)]]></text></answer>
+            <answer correct="no"><text><![CDATA[82.80 and 83.20]]></text></answer>
+            <answer correct="no"><text><![CDATA[82.85 and 83.15]]></text></answer>
+            <answer correct="no"><text><![CDATA[82.00 and 84.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Lower BEP = 83 - 0.35 = 82.65. Upper BEP = 83 + 0.35 = 83.35. Between these, the position is a loss. Outside this range, it profits.
+**The Trap:** The BEPs are symmetric around the strike (both 0.35 away from 83).
+**Cross-Exam Context:** Straddle BEP calculations are from the workbook.
+**Distributor's Pro-Tip:** The wider the BEP range (higher premium), the bigger the move needed. This is why straddles are expensive — you're buying volatility.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Trading Mechanism_17" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Algorithmic orders must be routed through:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Broker servers located in India]]></text></answer>
+            <answer correct="no"><text><![CDATA[Servers located anywhere in the world]]></text></answer>
+            <answer correct="no"><text><![CDATA[Exchange servers directly]]></text></answer>
+            <answer correct="no"><text><![CDATA[SEBI-approved cloud servers only]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI mandates that all algorithmic orders are routed through broker servers located in India. Algo systems must undergo half-yearly system audits.
+**The Trap:** International servers are not permitted for algo order routing.
+**Cross-Exam Context:** Algo trading requirements are tested in Series I.
+**Distributor's Pro-Tip:** SEBI requires minimum order-level risk controls for algo trading: price check and quantity limit check.]]></text></explanation>
+    </question>
+</QF>

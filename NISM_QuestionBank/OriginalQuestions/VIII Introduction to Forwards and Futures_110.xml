@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_110" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader is bearish on the market. Nifty spot is at 25,000. She sells 2 lots of Nifty futures at 25,050 (lot size 65). Nifty drops to 24,200. She closes her position. What is her percentage return on the margin of Rs. 3,25,000?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Approximately 34% return on margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[3.4% return]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 110.5% return on margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 3.4% return on margin]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+1. Entry: Short 2 lots at 25,050
+2. Exit: Buy back at 24,200
+3. Profit per unit = 25,050 - 24,200 = 850 points
+4. Total profit = 850 x 65 x 2 = Rs. 1,10,500
+5. Margin invested = Rs. 3,25,000
+6. Return on margin = 1,10,500 / 3,25,000 x 100 = 34%
+
+The market fell approximately 3.4%, but due to leverage, the return on margin is about 34%.
+
+**The Trap:** 3.4% is the market's percentage decline, not the return on margin. 110.5% is a miscalculation. The leverage factor amplifies the return approximately 10x (if margin is ~10%).
+
+**Cross-Exam Context:** Understanding the relationship between market move and leveraged return is crucial for Series VIII.
+
+**Key Takeaway:** Return on margin = (P&L / Margin deposited) x 100. Leverage amplifies both profits and losses.]]></text></explanation>
+    </question>
+</QF>

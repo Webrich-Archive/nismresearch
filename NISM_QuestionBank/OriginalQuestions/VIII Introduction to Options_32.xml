@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_32" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For a long put option, the maximum profit is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Limited to (Strike Price - Premium) since the underlying cannot go below zero]]></text></answer>
+            <answer correct="no"><text><![CDATA[Unlimited as the price can fall indefinitely]]></text></answer>
+            <answer correct="no"><text><![CDATA[Limited to the premium paid]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equal to the strike price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Long Put:
+- Maximum Profit = Strike Price - Premium (when underlying falls to 0)
+- The underlying price cannot go below zero, so profit is bounded.
+- Maximum Loss = Premium paid
+
+Example: Put Strike = 500, Premium = 20
+Max Profit = 500 - 20 = Rs. 480 (if stock goes to 0)
+
+**The Trap:** Unlike calls (unlimited upside), put profit is limited because prices can't go below zero.
+
+**Cross-Exam Context:** Long put: limited profit (X - P), limited loss (P). BEP = X - P.
+
+**Key Takeaway:** Long put max profit = X - P (bounded by zero floor on prices).]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Accounting and Taxation_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When a trader enters into a futures contract, the initial margin paid is recorded in the books as:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A deposit/asset account (Initial Margin - Equity Futures Account), debiting the margin account and crediting the bank account]]></text></answer>
+            <answer correct="no"><text><![CDATA[An expense in the profit and loss account]]></text></answer>
+            <answer correct="no"><text><![CDATA[A liability in the balance sheet]]></text></answer>
+            <answer correct="no"><text><![CDATA[Revenue in the trading account]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Initial margin is a deposit with the clearing corporation/broker, not an expense. The accounting entry is:
+Debit: Initial Margin - Equity Futures Account (Asset)
+Credit: Bank Account (Asset reduction)
+
+The margin remains an asset until the position is closed or the margin is released.
+
+**The Trap:** Margin is NOT an expense - it is a refundable deposit. It should appear on the balance sheet as an asset, not in the P&L.
+
+**Cross-Exam Context:** Accounting treatment of derivatives is tested in NISM Series VIII with specific journal entries.
+
+**Key Takeaway:** Initial margin = asset/deposit. Debit margin account, Credit bank. Released when position is closed.]]></text></explanation>
+    </question>
+</QF>

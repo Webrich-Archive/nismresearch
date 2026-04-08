@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_103" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader buys a put with strike Rs. 900 at premium Rs. 50 and sells a put with strike Rs. 850 at premium Rs. 22 (bear put spread). If stock closes at Rs. 830, what is the profit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 22]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 70]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 28]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Bear Put Spread: Buy higher strike put + Sell lower strike put
+
+Step-by-step:
+1. Long 900 put payoff = max(900 - 830, 0) = Rs. 70
+2. Short 850 put payoff = -max(850 - 830, 0) = -Rs. 20
+3. Net payoff = 70 - 20 = Rs. 50
+4. Net premium paid = 50 - 22 = Rs. 28
+5. Net profit = 50 - 28 = Rs. 22
+
+**The Trap:** Max payoff is capped at the difference between strikes (50), not unlimited.
+
+**Cross-Exam Context:** Bear put spread: limited profit, limited loss. Max profit = spread - net premium.
+
+**Key Takeaway:** Max profit = (900 - 850) - (50 - 22) = 50 - 28 = Rs. 22.]]></text></explanation>
+    </question>
+</QF>

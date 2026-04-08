@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_65" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If last business day of June is 30th (Monday), what is the expiry date for the June monthly USDINR futures contract?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[26th June (Thursday)]]></text></answer>
+            <answer correct="no"><text><![CDATA[30th June (Monday)]]></text></answer>
+            <answer correct="no"><text><![CDATA[27th June (Friday)]]></text></answer>
+            <answer correct="no"><text><![CDATA[28th June (Saturday)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Expiry = 2 working days prior to the last business day. Last business day = 30th June (Monday). Two working days back: 27th (Friday) and 26th (Thursday). So expiry = 26th June (Thursday) at 12:30 PM.
+**The Trap:** Count WORKING days backward (excluding weekends and holidays). Saturday and Sunday don't count.
+**Cross-Exam Context:** Expiry date calculation is frequently tested in Series I.
+**Distributor's Pro-Tip:** Always check the holiday calendar — if there's a holiday in between, you need to go back one more working day.]]></text></explanation>
+    </question>
+</QF>

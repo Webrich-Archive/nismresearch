@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_8" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following has the highest net worth requirement among clearing member categories?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Professional Clearing Member (PCM)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Self-Clearing Member (SCM)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trading Member only (TM)]]></text></answer>
+            <answer correct="no"><text><![CDATA[All clearing members have the same net worth requirement]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** PCMs typically have the highest net worth requirements because they clear for multiple TMs and bear the risk of all those TMs' positions. The higher the clearing responsibility, the higher the capital adequacy requirement. TM-CMs have higher requirements than SCMs, and PCMs (which clear for many TMs) have the highest.
+
+**The Trap:** A plain TM has the lowest requirement as they only trade. Net worth requirements are proportional to clearing responsibility.
+
+**Cross-Exam Context:** Capital adequacy norms for different member categories are regulatory requirements set by SEBI and exchanges.
+
+**Key Takeaway:** Net worth requirements: PCM > TM-CM > SCM > TM. Higher clearing responsibility = higher capital requirement.]]></text></explanation>
+    </question>
+</QF>

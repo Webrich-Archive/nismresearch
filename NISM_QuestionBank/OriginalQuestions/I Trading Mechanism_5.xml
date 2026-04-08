@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Trading Mechanism_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The exchange trading system matches orders on which priority basis?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Price-Time priority]]></text></answer>
+            <answer correct="no"><text><![CDATA[Quantity-Time priority]]></text></answer>
+            <answer correct="no"><text><![CDATA[First-Come-First-Served only]]></text></answer>
+            <answer correct="no"><text><![CDATA[Random matching]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Orders are matched on price-time priority: best price first, and if prices are equal, earliest order first. Quantity is NOT a factor for matching priority.
+**The Trap:** Quantity doesn't determine priority — a 1-lot order at a better price gets matched before a 100-lot order at a worse price.
+**Cross-Exam Context:** Order matching principles are tested in Series I and VIII.
+**Distributor's Pro-Tip:** Passive orders (already in the book) are matched against active orders (newly entered). Trades always execute at the passive order price.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_64" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The Black-Scholes model was designed for which type of option?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[European options (exercisable only at maturity)]]></text></answer>
+            <answer correct="no"><text><![CDATA[American options (exercisable any time)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both European and American options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Asian options (based on average price)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Black-Scholes was designed for European options with no dividends. It doesn't account for early exercise (American options). The Binomial model can handle American options.
+**The Trap:** While Black-Scholes can be modified for dividends and other factors, its core design is for European options.
+**Cross-Exam Context:** Model applicability is tested in Series I and VIII.
+**Distributor's Pro-Tip:** Since all Indian exchange-traded currency options are European, Black-Scholes is perfectly suited for them.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_30" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The tick size for EURUSD cross-currency futures is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[USD 0.0001]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.0025]]></text></answer>
+            <answer correct="no"><text><![CDATA[USD 0.01]]></text></answer>
+            <answer correct="no"><text><![CDATA[EUR 0.0001]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** EURUSD and GBPUSD cross-currency futures have a tick size of USD 0.0001. USDJPY has a tick size of JPY 0.01. INR-based pairs use Rs. 0.0025.
+**The Trap:** Rs. 0.0025 is for INR-based pairs, not cross-currency pairs. The tick is in the quote currency.
+**Cross-Exam Context:** Tick sizes by currency pair are tested in Series I.
+**Distributor's Pro-Tip:** Change per tick for cross-currency = lot size × tick = 1000 × 0.0001 = USD 0.10 for EURUSD.]]></text></explanation>
+    </question>
+</QF>

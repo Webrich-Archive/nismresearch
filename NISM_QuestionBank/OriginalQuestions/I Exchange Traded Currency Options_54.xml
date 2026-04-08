@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_54" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Weekly USDINR options are available for how many serial weeks?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[11 serial weekly contracts (excluding expiry week of monthly contracts)]]></text></answer>
+            <answer correct="no"><text><![CDATA[52 weekly contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[4 weekly contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[12 weekly contracts]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** 11 serial weekly USDINR options are available, excluding the week when monthly contracts expire on Friday. Cross-currency options do NOT have weekly contracts.
+**The Trap:** The weekly cycle excludes the monthly expiry week to avoid confusion with monthly contracts.
+**Cross-Exam Context:** Weekly option availability is specific to Series I.
+**Distributor's Pro-Tip:** Weekly options are popular for short-term hedging and trading around events like RBI policies or US data releases.]]></text></explanation>
+    </question>
+</QF>

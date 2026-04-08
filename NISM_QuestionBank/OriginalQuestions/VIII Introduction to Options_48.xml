@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_48" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The option Greek 'Gamma' measures:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The rate of change of delta with respect to changes in the underlying price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The sensitivity of option price to changes in volatility]]></text></answer>
+            <answer correct="no"><text><![CDATA[The daily time decay of the option premium]]></text></answer>
+            <answer correct="no"><text><![CDATA[The sensitivity of option price to changes in interest rates]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Gamma (Γ) = Change in Delta / Change in Underlying Price
+
+Gamma is the "delta of delta" - it tells you how fast delta changes as the underlying moves. High gamma means delta is changing rapidly.
+
+**The Trap:** Gamma measures how delta changes, NOT how the option price changes directly (that's delta).
+
+**Cross-Exam Context:** Gamma is important for dynamic hedging - it tells you how often to rebalance delta.
+
+**Key Takeaway:** Gamma = rate of change of delta. High gamma = delta is unstable/changing fast.]]></text></explanation>
+    </question>
+</QF>

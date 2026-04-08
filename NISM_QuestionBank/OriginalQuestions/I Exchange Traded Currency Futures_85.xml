@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_85" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader shorts 25 lots of USDINR futures at 84.00 and buys back at 83.25. What is the total profit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 18,750]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,875]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 187,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 18,750]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Short: P&L = (Entry - Exit) × 1000 × Lots = (84.00 - 83.25) × 1000 × 25 = 0.75 × 25,000 = Rs. 18,750 profit.
+**The Trap:** Buying back closes the short position. Profit = selling price - buying price for shorts.
+**Cross-Exam Context:** Short futures P&L is tested in Series I.
+**Distributor's Pro-Tip:** 75 paise × 25 lots × 1000 = Rs. 18,750. Each paisa move = Rs. 250 for 25 lots.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VB Investor Services_38" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A retired investor has 10,000 units in a mutual fund with current NAV of Rs. 150. He sets up a monthly SWP of Rs. 10,000. How many units will be redeemed in the first month?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[100 units]]></text></answer>
+            <answer correct="yes"><text><![CDATA[66.67 units (approximately)]]></text></answer>
+            <answer correct="no"><text><![CDATA[150 units]]></text></answer>
+            <answer correct="no"><text><![CDATA[10,000 units]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Units redeemed = SWP amount / NAV = Rs. 10,000 / Rs. 150 = 66.67 units (approximately). The remaining units after the first SWP = 10,000 - 66.67 = 9,933.33 units. The number of units redeemed each month will vary depending on the NAV at the time of withdrawal.
+**The Trap:** Do not confuse the SWP amount with the number of units. The fund redeems enough units to generate the required withdrawal amount. If NAV rises, fewer units are redeemed; if NAV falls, more units are redeemed.
+**Cross-Exam Context:** Also tested in V-A. Practical SWP calculation for retirees.
+**Distributor's Pro-Tip:** Show retired investors that with SWP, if the fund's returns are higher than the withdrawal rate, the corpus may actually grow even while providing regular income. For example, if the fund earns 10% and the withdrawal rate is 7%, the corpus keeps growing.]]></text></explanation>
+    </question>
+</QF>

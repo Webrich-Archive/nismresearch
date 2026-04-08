@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_46" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An ATM call option typically has a delta of approximately:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[0.5, meaning the option price changes by about half the change in the underlying]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.0, meaning the option moves exactly with the underlying]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.0, meaning the option is insensitive to underlying price changes]]></text></answer>
+            <answer correct="no"><text><![CDATA[-0.5, meaning the option moves opposite to the underlying]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** ATM call delta ≈ 0.5. This means:
+- If underlying moves up by Rs. 10, ATM call premium increases by approximately Rs. 5
+- 50% probability interpretation: roughly 50% chance of ending ITM
+
+**The Trap:** ATM put delta ≈ -0.5 (negative). Don't confuse call and put deltas.
+
+**Cross-Exam Context:** Delta is also interpreted as the approximate probability of the option expiring ITM.
+
+**Key Takeaway:** ATM call delta ≈ +0.5. ATM put delta ≈ -0.5. Delta also ≈ probability of expiring ITM.]]></text></explanation>
+    </question>
+</QF>

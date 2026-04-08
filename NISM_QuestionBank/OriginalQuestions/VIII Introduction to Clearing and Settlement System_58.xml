@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_58" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A client writes (sells) 5 lots of Nifty 22000 CE at a premium of Rs. 150. Lot size is 25. The SPAN margin rate is 12% and exposure margin is 3%. What is the total upfront margin required from the option writer? (Nifty at 22,000)]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 4,12,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 18,750]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 3,30,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 82,500]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step:
+1. Contract value = 22,000 x 25 x 5 = Rs. 27,50,000
+2. SPAN margin = 27,50,000 x 12% = Rs. 3,30,000
+3. Exposure margin = 27,50,000 x 3% = Rs. 82,500
+4. Total margin = 3,30,000 + 82,500 = Rs. 4,12,500
+
+Note: The premium received (150 x 25 x 5 = Rs. 18,750) may be adjusted against the margin requirement, but the total margin obligation is computed on the contract value.
+
+**The Trap:** Rs. 18,750 is just the premium amount (option buyer's obligation). The option WRITER needs SPAN + Exposure margin on the full contract value.
+
+**Cross-Exam Context:** Option writer margin calculations are distinct from buyer margin (premium only).
+
+**Key Takeaway:** Option writer margin = SPAN + Exposure on contract value. Option buyer margin = Premium only. Writers face higher margin burden.]]></text></explanation>
+    </question>
+</QF>

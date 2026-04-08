@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Taxation_30" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[CASE STUDY (Continued): Mr. Sharma's investments:
+Investment 1: Equity MF - LTCG Rs. 3,00,000 (held 15 months)
+Investment 2: Debt MF - purchased Feb 2024, gain Rs. 50,000 (held 8 months)
+Investment 3: ELSS - LTCG Rs. 80,000 (held 4 years)
+Investment 4: IDCW of Rs. 8,000 received
+
+Question 4: What is Mr. Sharma's TOTAL tax liability across ALL four mutual fund components including 4% cess?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 41,080 (using old LTCG rate of 10% for equity and old Rs. 1 lakh exemption)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 51,246 (Equity LTCG: Rs. 22,750 + Debt: Rs. 15,600 + ELSS LTCG: Rs. 10,400 + IDCW: Rs. 2,496)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 48,750 (forgetting 4% cess on all components)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 50,446 (incorrectly netting TDS of Rs. 800 from total tax liability instead of treating it as adjustable credit)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:**
+Investment 1 (Equity MF LTCG): Taxable = Rs. 3,00,000 - Rs. 1,25,000 exemption = Rs. 1,75,000. Tax = 1,75,000 x 12.5% = Rs. 21,875. Cess = Rs. 875. Total = Rs. 22,750.
+
+Investment 2 (Debt MF, purchased Feb 2024 - post April 2023): ALL gains at slab rate. Tax = 50,000 x 30% = Rs. 15,000. Cess = Rs. 600. Total = Rs. 15,600.
+
+Investment 3 (ELSS LTCG, equity-oriented): Rs. 1.25 lakh exemption already fully consumed by Investment 1. Tax = 80,000 x 12.5% = Rs. 10,000. Cess = Rs. 400. Total = Rs. 10,400.
+
+Investment 4 (IDCW): Rs. 8,000 at 30% slab = Rs. 2,400. Cess = Rs. 96. Total tax = Rs. 2,496. TDS of 10% x Rs. 8,000 = Rs. 800 (since IDCW > Rs. 5,000) is deducted and available as credit.
+
+Grand Total Tax Liability = Rs. 22,750 + Rs. 15,600 + Rs. 10,400 + Rs. 2,496 = Rs. 51,246.
+TDS credit available = Rs. 800 (adjustable when filing ITR, but total TAX LIABILITY remains Rs. 51,246).
+
+**The Trap:** Option A uses old 10% LTCG rate and old Rs. 1 lakh exemption. Option C arrives at the correct pre-cess figure but forgets to add 4% health and education cess. Option D subtracts TDS from tax liability - TDS is a credit against tax due, but the total tax computed remains Rs. 51,246.
+
+**Cross-Exam Context:** In comprehensive case studies, compute each component separately with the correct rate, add cess to each, then aggregate. TDS is a payment against tax liability, not a reduction of it.
+
+**Distributor's Pro-Tip:** Mr. Sharma's blended effective tax across Rs. 4,38,000 total MF income is approximately 11.7%. Equity-oriented investments (Investments 1 and 3) are taxed at lower rates than the debt component, illustrating why equity MFs remain more tax-efficient for high-tax-bracket investors.]]></text></explanation>
+    </question>
+</QF>

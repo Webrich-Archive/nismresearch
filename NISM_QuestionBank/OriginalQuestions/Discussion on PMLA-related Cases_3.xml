@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Discussion on PMLA-related Cases_3" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[In the SEBI vs Raima Equities case, what was found regarding the broker's STR handling?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[STRs received from the depository were closed by the Principal Officer without stipulating any reason in writing]]></text></answer>
+            <answer correct="no"><text><![CDATA[STRs were filed promptly within 7 days as required]]></text></answer>
+            <answer correct="no"><text><![CDATA[STRs were forwarded to SEBI instead of FIU-IND]]></text></answer>
+            <answer correct="no"><text><![CDATA[No STRs were ever received by the broker]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Raima Equities had multiple AML failures: (1) arbitrary client risk classification with no documented basis, (2) no AML-specific transaction monitoring system (only stock market risk management), (3) STRs from depository were closed by the Principal Officer WITHOUT stipulating any reason in writing, and (4) no system to identify PEPs. A Rs. 2 lakh penalty was imposed.
+
+**The Trap:** The STRs were not handled properly -- they were received but closed without documentation. This is a critical process failure. STRs must be analyzed and either escalated to FIU-IND or closed with documented reasons.
+
+**Cross-Exam Context:** The Raima case demonstrates that having a "risk management" system is not enough if it only covers market risk. AML risk management requires separate, dedicated monitoring. This distinction appears in NISM III-A and V-A.
+
+**Distributor's Pro-Tip:** If you receive STR alerts from exchanges or depositories, NEVER close them without written analysis. Document: what was reviewed, what additional information was sought, what the conclusion was, and why. An undocumented closure is treated as non-compliance.]]></text></explanation>
+    </question>
+</QF>

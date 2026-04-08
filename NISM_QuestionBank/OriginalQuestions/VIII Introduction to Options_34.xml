@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_34" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A short call (call writer) position has:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Maximum profit limited to premium received and theoretically unlimited loss potential]]></text></answer>
+            <answer correct="no"><text><![CDATA[Unlimited profit potential and limited loss]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both profit and loss limited to the premium]]></text></answer>
+            <answer correct="no"><text><![CDATA[Maximum profit equal to the strike price and maximum loss equal to the premium]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Short Call (Call Writer):
+- Maximum Profit = Premium received (when option expires worthless, S <= X)
+- Maximum Loss = UNLIMITED (underlying can rise infinitely)
+- BEP = Strike + Premium
+
+**The Trap:** Short call is the MIRROR IMAGE of long call. Short call writer hopes the option expires OTM.
+
+**Cross-Exam Context:** Writing naked calls is extremely risky due to unlimited loss potential.
+
+**Key Takeaway:** Short call: Max profit = premium received. Max loss = unlimited. Needs margin deposit.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_58" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A stock trades at Rs. 2,000 in the spot market. The 3-month futures (90 days) are trading at Rs. 2,015. If the risk-free rate is 10%, what is the approximate implied dividend yield priced in by the market?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Approximately 6.9% per annum]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 0.75% per annum]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 10% per annum]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 3.1% per annum]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation using simple interest approximation:
+F = S x [1 + (r - q) x T/365]
+2,015 = 2,000 x [1 + (0.10 - q) x 90/365]
+2,015/2,000 = 1 + (0.10 - q) x 0.2466
+1.0075 = 1 + (0.10 - q) x 0.2466
+0.0075 = (0.10 - q) x 0.2466
+(0.10 - q) = 0.0075 / 0.2466 = 0.03042
+q = 0.10 - 0.03042 = 0.0696 = approximately 6.9%
+
+**The Trap:** 0.75% is the 90-day carry percentage, not the annualized dividend yield. 10% assumes no dividend. 3.1% confuses r-q with q.
+
+**Cross-Exam Context:** Implied dividend yield calculation is an advanced but testable concept in Series VIII.
+
+**Key Takeaway:** Implied q = r - [(F/S - 1) x 365/T]. Higher actual dividend yield means lower futures premium.]]></text></explanation>
+    </question>
+</QF>

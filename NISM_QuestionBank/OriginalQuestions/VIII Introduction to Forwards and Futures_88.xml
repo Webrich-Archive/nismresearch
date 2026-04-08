@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_88" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A stock is trading at Rs. 1,000 in the spot market. The 3-month futures are at Rs. 1,050. The cost of carry for 3 months is Rs. 25 (i.e., fair value = Rs. 1,025). What arbitrage strategy should a trader execute?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Cash-and-carry arbitrage: Buy the stock at Rs. 1,000 in the spot market and simultaneously sell the futures at Rs. 1,050, locking in a profit of Rs. 25 per share above the cost of carry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Reverse cash-and-carry: Sell the stock at Rs. 1,000 and buy the futures at Rs. 1,050]]></text></answer>
+            <answer correct="no"><text><![CDATA[No arbitrage opportunity exists because futures are supposed to trade above spot]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy both the stock at Rs. 1,000 and the futures at Rs. 1,050 to maximize exposure]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step analysis:
+1. Fair futures value = Spot + Cost of carry = 1,000 + 25 = Rs. 1,025
+2. Actual futures price = Rs. 1,050
+3. Futures are OVERPRICED (1,050 > 1,025) by Rs. 25
+
+Cash-and-carry arbitrage:
+- Buy spot at Rs. 1,000 (incur carry cost of Rs. 25)
+- Sell futures at Rs. 1,050
+- At expiry: deliver stock, receive Rs. 1,050
+- Profit = 1,050 - 1,000 - 25 = Rs. 25 per share (risk-free)
+
+**The Trap:** Reverse cash-and-carry is for UNDERPRICED futures (F < fair value). Buying both gives directional exposure, not arbitrage. Yes, futures above spot is normal, but the DEGREE of premium matters.
+
+**Cross-Exam Context:** Cash-and-carry arbitrage is a cornerstone concept in Series VIII.
+
+**Key Takeaway:** Overpriced futures (F > Fair F): Cash-and-carry = Buy spot + Sell futures.]]></text></explanation>
+    </question>
+</QF>

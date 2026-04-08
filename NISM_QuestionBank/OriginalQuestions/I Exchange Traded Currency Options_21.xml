@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which pricing model does the Indian exchange use for computing theoretical prices of exchange-traded currency options?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Black-Scholes model]]></text></answer>
+            <answer correct="no"><text><![CDATA[Black (1976) model]]></text></answer>
+            <answer correct="no"><text><![CDATA[Binomial model]]></text></answer>
+            <answer correct="no"><text><![CDATA[Monte Carlo simulation]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Indian exchanges use the Black-Scholes model for currency options and the Black (1976) model for interest rate options (where the underlying is government securities).
+**The Trap:** Black (1976) uses forward prices instead of spot prices and is for futures options/interest rate options, not currency options.
+**Cross-Exam Context:** Pricing model selection is tested in Series I.
+**Distributor's Pro-Tip:** The key difference: Black-Scholes uses spot prices; Black 1976 substitutes spot with discounted futures price (F×e^(-rt)).]]></text></explanation>
+    </question>
+</QF>

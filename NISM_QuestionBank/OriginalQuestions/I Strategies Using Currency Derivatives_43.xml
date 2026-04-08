@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_43" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If both options in a bull call spread are exercised (USDINR ≥ higher strike), the trader:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Achieves maximum profit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Achieves maximum loss]]></text></answer>
+            <answer correct="no"><text><![CDATA[Breaks even]]></text></answer>
+            <answer correct="no"><text><![CDATA[Has unlimited profit]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When USDINR ≥ higher strike: long call payoff = (USDINR - lower strike), short call liability = (USDINR - higher strike). Net = higher strike - lower strike - net premium = max profit.
+**The Trap:** Above the higher strike, additional gains on the long call are exactly offset by losses on the short call — profit is capped.
+**Cross-Exam Context:** Spread mechanics are tested in Series I and VIII.
+**Distributor's Pro-Tip:** This cap on profit is the price paid for reducing the cost of the position (net premium is less than naked call premium).]]></text></explanation>
+    </question>
+</QF>

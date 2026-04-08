@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_42" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The contract trading cycle for monthly INR-based currency options is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[3 serial monthly contracts followed by 3 quarterly contracts (March/June/September/December cycle)]]></text></answer>
+            <answer correct="no"><text><![CDATA[12 serial monthly contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[4 quarterly contracts only]]></text></answer>
+            <answer correct="no"><text><![CDATA[6 serial monthly contracts]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Options have 3 serial monthly + 3 quarterly contracts. Additionally, weekly USDINR options have 11 serial weekly cycles. This is DIFFERENT from futures which have 12 serial monthly.
+**The Trap:** Futures have 12 monthly; Options have 3 monthly + 3 quarterly. Don't mix them up.
+**Cross-Exam Context:** Contract cycles differ between futures and options — tested in Series I.
+**Distributor's Pro-Tip:** The quarterly cycle (Mar/Jun/Sep/Dec) provides longer-dated options for strategic hedging needs.]]></text></explanation>
+    </question>
+</QF>

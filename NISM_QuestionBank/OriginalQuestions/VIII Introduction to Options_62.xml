@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_62" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader purchases a call option on a stock with strike Rs. 500 at a premium of Rs. 25. At expiry, the stock closes at Rs. 480. What is the trader's profit or loss?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Loss of Rs. 25 (the premium paid)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 45]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 20]]></text></answer>
+            <answer correct="no"><text><![CDATA[No profit, no loss]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Call Profit = max(S - X, 0) - Premium
+
+Step-by-step:
+1. S = Rs. 480, X = Rs. 500
+2. Since S < X, option expires OTM (worthless)
+3. Payoff = max(480 - 500, 0) = max(-20, 0) = Rs. 0
+4. Net Profit = 0 - 25 = -Rs. 25 (Loss)
+
+The option expires worthless. Maximum loss for call buyer = premium paid.
+
+**The Trap:** The loss is NOT Rs. 45 (difference + premium). When option is OTM, it simply expires worthless.
+
+**Cross-Exam Context:** OTM expiry: buyer loses entire premium. This is the maximum loss scenario.
+
+**Key Takeaway:** When S < X for call: option expires worthless, loss = premium paid.]]></text></explanation>
+    </question>
+</QF>

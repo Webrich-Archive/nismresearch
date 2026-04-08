@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Trading Mechanism_43" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The order book in the exchange is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Dynamic — constantly updated in real-time throughout the trading day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Static — updated only at end of day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Updated every 5 minutes]]></text></answer>
+            <answer correct="no"><text><![CDATA[Visible only to exchange officials]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The order book is dynamic and updated in real-time as orders are entered, modified, cancelled, or executed. It provides current market depth information to all participants.
+**The Trap:** The order book is transparent and available to all market participants, not just exchange officials.
+**Cross-Exam Context:** Order book characteristics are tested in Series I.
+**Distributor's Pro-Tip:** Real-time order book data is essential for informed trading decisions, especially for limit order placement.]]></text></explanation>
+    </question>
+</QF>

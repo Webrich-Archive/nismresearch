@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_23" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following combinations of moneyness is CORRECT for options with strike price Rs. 500 when the underlying stock trades at Rs. 480?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Call is OTM and Put is ITM]]></text></answer>
+            <answer correct="no"><text><![CDATA[Call is ITM and Put is OTM]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both call and put are OTM]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both call and put are ATM]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Spot (480) < Strike (500):
+- Call option: OTM because S (480) < X (500) - no point exercising right to buy at 500 when market is 480
+- Put option: ITM because S (480) < X (500) - profitable to exercise right to sell at 500 when market is only 480
+
+**The Trap:** Call and put moneyness are always OPPOSITE for the same strike (except ATM).
+
+**Cross-Exam Context:** This inverse relationship is key for understanding option strategies and put-call parity.
+
+**Key Takeaway:** If S < X: Call = OTM, Put = ITM. If S > X: Call = ITM, Put = OTM.]]></text></explanation>
+    </question>
+</QF>

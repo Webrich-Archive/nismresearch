@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="Secondary Markets_46" sectionNumber="" articleNumber="0" articleName="">
+    <question><text>What is the minimum order size for a block deal?</text>
+        <answers>
+            <answer correct="yes"><text>Rs. 25 crores</text></answer>
+            <answer correct="no"><text>Rs. 10 crores</text></answer>
+            <answer correct="no"><text>Rs. 50 crores</text></answer>
+            <answer correct="no"><text>Rs. 1 crore</text></answer>
+        </answers>
+        <explanation><text>**The Logic:** The minimum order size for a block deal is Rs. 25 crores. Block deals are executed in two special windows: morning (8:45-9:00 AM) and afternoon (2:05-2:20 PM). The order price must be within +/- 3% of the reference price.
+**The Trap:** Rs. 50 crores (option c) is the threshold for mandatory EBP usage in private placement of debt, not for block deals. Don't confuse the two thresholds.
+**Cross-Exam Context:** Block deals must be settled by actual delivery (no squaring off). The morning window reference price is the previous day's closing. Afternoon window uses VWAP from 1:45-2:00 PM.
+**Distributor's Pro-Tip:** Block deal essentials: Rs. 25 crore minimum, special windows (morning + afternoon), +/- 3% price limit, mandatory delivery, disclosed after market hours.</text></explanation>
+    </question>
+</QF>

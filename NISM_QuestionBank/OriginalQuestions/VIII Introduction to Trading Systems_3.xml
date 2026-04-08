@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Trading Systems_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A limit order in the derivatives segment is an order where:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The trader specifies the maximum price to buy or minimum price to sell]]></text></answer>
+            <answer correct="no"><text><![CDATA[The order is executed immediately at the best available price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The order gets triggered only when a stop-loss price is reached]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only a portion of the order quantity is displayed to the market]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A limit order specifies a price limit - the maximum price for buy orders and minimum price for sell orders. The order will be executed only at the specified price or better. It provides price certainty but not execution certainty.
+
+**The Trap:** A market order executes immediately at the best price (no price specification). A stop-loss order is triggered at a specified price. A disclosed quantity order hides part of the quantity.
+
+**Cross-Exam Context:** Order types are fundamental knowledge tested in all trading-related NISM exams.
+
+**Key Takeaway:** Limit order = price certainty, no execution guarantee. Market order = execution certainty, no price guarantee.]]></text></explanation>
+    </question>
+</QF>

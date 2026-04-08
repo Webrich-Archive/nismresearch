@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_50" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How does the Black (1976) model differ from the Black-Scholes model?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Black 1976 uses forward/futures prices instead of spot prices as input]]></text></answer>
+            <answer correct="no"><text><![CDATA[Black 1976 can price American options while Black-Scholes cannot]]></text></answer>
+            <answer correct="no"><text><![CDATA[Black 1976 uses historical volatility while Black-Scholes uses implied volatility]]></text></answer>
+            <answer correct="no"><text><![CDATA[There is no difference — they give the same results]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The key difference: Black (1976) substitutes spot price (S) with discounted futures price (F×e^(-rt)). It was designed for valuing options on futures contracts and is used for interest rate options in India.
+**The Trap:** Both models use implied or assumed volatility. The difference is in how they handle the underlying price.
+**Cross-Exam Context:** Model comparison is tested in Series I.
+**Distributor's Pro-Tip:** Indian exchanges use Black-Scholes for CURRENCY options and Black 1976 for INTEREST RATE options (where underlying is G-Sec).]]></text></explanation>
+    </question>
+</QF>

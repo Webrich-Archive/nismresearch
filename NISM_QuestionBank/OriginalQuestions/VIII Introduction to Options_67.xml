@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_67" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader buys a call option on Infosys with strike Rs. 1,500 at a premium of Rs. 45. At expiry, Infosys is at Rs. 1,530. What is the profit/loss per share?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Loss of Rs. 15]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 30]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 15]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 45]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Call Profit = max(S - X, 0) - Premium
+
+Step-by-step:
+1. S = 1,530, X = 1,500, P = 45
+2. Payoff = max(1,530 - 1,500, 0) = Rs. 30
+3. Profit = 30 - 45 = -Rs. 15 (LOSS)
+4. BEP = 1,500 + 45 = 1,545. Stock at 1,530 < 1,545, so still in loss.
+
+**The Trap:** Even though the option is ITM (S > X), the buyer has a net LOSS because the payoff doesn't cover the premium.
+
+**Cross-Exam Context:** ITM at expiry does NOT guarantee profit. Profit only when S > BEP = X + P.
+
+**Key Takeaway:** ITM but below BEP = partial loss. Profit only when Spot > Strike + Premium.]]></text></explanation>
+    </question>
+</QF>

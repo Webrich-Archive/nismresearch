@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Risk Return and Performance_53" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A mutual fund scheme delivered a return of 15%, the risk-free rate is 6%, and the standard deviation of the scheme is 12%. The Sharpe Ratio of this scheme is ________.]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[0.75]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.25]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Sharpe Ratio = (Portfolio Return - Risk-free Rate) / Standard Deviation = (15% - 6%) / 12% = 9% / 12% = 0.75. The fund earned 0.75 units of excess return for every unit of total risk taken.
+
+**The Trap:** 0.50 results from using 6/12 (only the risk-free rate divided by std dev). 1.00 could come from incorrectly using 12/12 or rounding errors. 1.25 results from dividing 15/12 (using total return instead of excess return). The most common exam mistake is forgetting to subtract the risk-free rate from the portfolio return before dividing.
+
+**Cross-Exam Context:** Numerical Sharpe Ratio calculations are a staple of NISM exams. Always follow these steps: (1) Calculate excess return = Rs - Rf, (2) Divide by Standard Deviation. Keep the formula sequence clear to avoid errors under time pressure.
+
+**Key Takeaway:** Sharpe = (15 - 6) / 12 = 0.75. Always subtract the risk-free rate first, then divide by standard deviation.]]></text></explanation>
+    </question>
+</QF>

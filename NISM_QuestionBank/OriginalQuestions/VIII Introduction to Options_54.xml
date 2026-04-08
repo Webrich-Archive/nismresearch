@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_54" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The option Greek 'Vega' measures:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The sensitivity of option price to changes in implied volatility of the underlying]]></text></answer>
+            <answer correct="no"><text><![CDATA[The rate of time decay of the option premium]]></text></answer>
+            <answer correct="no"><text><![CDATA[The change in option price per unit change in the underlying]]></text></answer>
+            <answer correct="no"><text><![CDATA[The rate of change of delta with respect to underlying price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Vega (ν) = Change in Option Price / Change in Volatility
+
+Vega measures how much the option premium changes when implied volatility changes by 1 percentage point.
+
+**The Trap:** Vega is NOT a Greek letter (it's named after the star). But it's still called a "Greek."
+
+**Cross-Exam Context:** Vega is important because volatility changes can have large impacts on option premiums.
+
+**Key Takeaway:** Vega = volatility sensitivity. Higher vega means option price is more sensitive to volatility changes.]]></text></explanation>
+    </question>
+</QF>

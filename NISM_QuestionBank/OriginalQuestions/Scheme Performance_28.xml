@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Scheme Performance_28" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investor is comparing two Nifty 50 index funds. Fund X has a tracking error of 0.15% and expense ratio of 0.10%, while Fund Y has a tracking error of 0.45% and expense ratio of 0.05%. Which fund would you recommend for an investor seeking close index replication and why?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Fund X, because lower tracking error indicates more consistent benchmark replication despite the slightly higher expense ratio]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fund Y, because the lower expense ratio will always result in better long-term returns]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fund Y, because higher tracking error means the fund takes active bets that may outperform]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both are equivalent since they track the same index]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For an investor specifically seeking close index replication, tracking error is the primary metric. Fund X with 0.15% tracking error provides significantly more consistent replication than Fund Y with 0.45% tracking error. While Fund Y has a lower expense ratio (0.05% vs 0.10%), the 0.05% expense ratio saving does not compensate for the 3x higher tracking error, which means Fund Y's returns deviate much more from the index.
+
+**The Trap:** Lower expense ratio does NOT automatically mean better index fund. Fund Y's higher tracking error could mean inconsistent replication due to cash drag, rebalancing delays, or poor execution. An index fund's primary job is to replicate the index, not to minimize costs at the expense of tracking quality.
+
+**Cross-Exam Context:** This is a practical application question testing whether candidates can weigh multiple factors. In real-world fund selection, tracking error and expense ratio must be evaluated together, but tracking error takes priority for index funds.
+
+**Distributor's Pro-Tip:** When recommending index funds, present both metrics side by side. Explain that tracking error shows how closely the fund follows the index, while expense ratio shows the annual cost. An index fund with rock-bottom fees but poor replication defeats the purpose of passive investing.]]></text></explanation>
+    </question>
+</QF>

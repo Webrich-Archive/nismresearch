@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For cross-currency futures contracts, how is the contract value converted to INR for EUR-USD and GBP-USD?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Using the latest available FBIL reference rate for USD-INR]]></text></answer>
+            <answer correct="no"><text><![CDATA[Using the RBI reference rate for USD-INR]]></text></answer>
+            <answer correct="no"><text><![CDATA[Using the previous day's closing rate]]></text></answer>
+            <answer correct="no"><text><![CDATA[Using a fixed conversion rate set by the exchange]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For EUR-USD and GBP-USD contracts, the latest available FBIL USD-INR reference rate is used for INR conversion. For USD-JPY, the FBIL JPY-INR rate is used.
+**The Trap:** Different cross-currency pairs use different FBIL rates for INR conversion — it depends on the quote currency.
+**Cross-Exam Context:** Cross-currency contract valuation is specific to Series I.
+**Distributor's Pro-Tip:** This conversion is important for margin calculations, as margins for cross-currency futures are also levied in INR.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Basics of Derivatives_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A swap can best be described as:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A series of forward contracts bundled together, involving periodic exchange of cash flows between two parties]]></text></answer>
+            <answer correct="no"><text><![CDATA[A single forward contract with multiple settlement dates]]></text></answer>
+            <answer correct="no"><text><![CDATA[An exchange-traded contract similar to futures with daily settlement]]></text></answer>
+            <answer correct="no"><text><![CDATA[A type of option where the buyer can swap the underlying asset]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A swap is essentially a series of forward contracts combined together. It involves periodic exchanges of cash flows between two parties based on agreed-upon terms. For example, an interest rate swap involves exchanging fixed rate payments for floating rate payments.
+**The Trap:** A swap is not a single forward contract — it involves multiple periodic exchanges. Swaps are OTC instruments, not exchange-traded. They are not related to options despite the word "swap" suggesting exchange.
+**Cross-Exam Context:** NISM Series IV (Interest Rate Derivatives) covers interest rate swaps in detail. Series VIII introduces the concept.
+**Key Takeaway:** Swap = series of forwards = periodic cash flow exchanges. Common types: interest rate swaps, currency swaps, equity swaps.]]></text></explanation>
+    </question>
+</QF>

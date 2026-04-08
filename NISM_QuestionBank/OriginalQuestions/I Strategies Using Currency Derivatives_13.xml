@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader expecting INR to appreciate against EUR should:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Sell EURINR futures or buy EURINR put options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy EURINR futures or buy EURINR call options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell USDINR futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy EURUSD futures]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** INR appreciation against EUR = EURINR falls. To profit: sell EURINR futures (profit when price falls) or buy EURINR puts (right to sell EUR at a higher price).
+**The Trap:** Buying EURINR futures would profit from EUR appreciation (INR depreciation), which is the opposite view.
+**Cross-Exam Context:** Directional trading is tested in Series I.
+**Distributor's Pro-Tip:** Always match: Bearish on base currency = Sell futures/Buy puts. Bullish on base currency = Buy futures/Buy calls.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Derivative Markets_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A call option gives its buyer the:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Right, but not the obligation, to buy the underlying asset at the strike price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Obligation to buy the underlying asset at the strike price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Right, but not the obligation, to sell the underlying asset at the strike price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Obligation to sell the underlying asset at the strike price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** An option gives its buyer the right, but not an obligation, to buy or sell the underlying asset. A Call option gives the buyer the right to BUY. A Put option gives the buyer the right to SELL. The option buyer pays a premium to the seller (writer) for this right. The seller/writer has the obligation to honor the contract if the buyer exercises.
+
+**The Trap:** The buyer has rights, not obligations — that is the defining feature of options. Obligations fall on the writer/seller. Right to sell is a Put option, not a Call option. Remember: Call = right to buy; Put = right to sell.
+
+**Cross-Exam Context:** Derivatives basics overlap with Series VIII, XIII. Call vs Put distinction is the most fundamental options concept tested in every derivatives exam.
+
+**Distributor's Pro-Tip:** A simple way to remember: Call option buyers "call" the asset to themselves (they want to buy). Put option buyers "put" the asset away from themselves (they want to sell). The buyer always has the choice; the writer always has the obligation.]]></text></explanation>
+    </question>
+</QF>

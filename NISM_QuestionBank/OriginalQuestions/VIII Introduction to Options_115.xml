@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_115" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A farmer expects to harvest wheat in 3 months and wants to lock in a minimum selling price. Which option strategy is appropriate?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy put options on wheat to guarantee a minimum selling price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy call options on wheat to benefit from price increases]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell call options on wheat to earn premium income]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell put options on wheat to lock in the purchase price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The farmer wants to SELL wheat → needs protection against FALLING prices.
+Buy put options: guarantees a minimum selling price (strike price).
+- If price falls below strike: exercise put, sell at strike price
+- If price rises: don't exercise put, sell at higher market price (lose premium only)
+
+**The Trap:** Buying calls is for buyers (consumers), not sellers (producers). Wrong direction.
+
+**Cross-Exam Context:** Producers hedge with puts (sell protection). Consumers hedge with calls (buy protection).
+
+**Key Takeaway:** Seller/producer hedging = buy puts. Guarantees minimum selling price = strike - premium.]]></text></explanation>
+    </question>
+</QF>

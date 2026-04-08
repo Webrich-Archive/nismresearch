@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Risk Return and Performance_54" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A mutual fund scheme delivered a return of 16%, the risk-free rate is 6%, and the Beta of the scheme is 0.8. The Treynor Ratio of this scheme is ________.]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[12.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[10.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[8.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[20.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Treynor Ratio = (Portfolio Return - Risk-free Rate) / Beta = (16% - 6%) / 0.8 = 10% / 0.8 = 12.50. The fund earned 12.50 units of excess return for every unit of systematic risk (beta) taken.
+
+**The Trap:** 10.00 comes from simply calculating the excess return (16 - 6) without dividing by beta. 8.00 results from multiplying excess return by beta (10 x 0.8) instead of dividing. 20.00 comes from dividing total return by beta (16/0.8) instead of excess return. Note that dividing by a beta less than 1 produces a Treynor Ratio HIGHER than the excess return, which is logical -- the fund took less systematic risk than the market.
+
+**Cross-Exam Context:** When beta is less than 1, the Treynor Ratio exceeds the excess return, and when beta exceeds 1, it is lower. This trips up candidates who expect the ratio to always be smaller than the return differential.
+
+**Key Takeaway:** Treynor = (16 - 6) / 0.8 = 12.50. Dividing by beta < 1 amplifies the ratio, reflecting efficient use of systematic risk.]]></text></explanation>
+    </question>
+</QF>

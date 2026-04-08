@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IFSCA KYC Norms_15" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Under Simplified Customer Due Diligence (SCDD), which of the following is permitted when ML/TF risks are LOW?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Reducing the frequency of customer identification updates and degree of ongoing monitoring]]></text></answer>
+            <answer correct="no"><text><![CDATA[Completely waiving all CDD requirements]]></text></answer>
+            <answer correct="no"><text><![CDATA[Not maintaining any records of the customer relationship]]></text></answer>
+            <answer correct="no"><text><![CDATA[Accepting anonymous accounts for low-risk customers]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SCDD measures may include: (i) verifying identity after establishing business relationship; (ii) reducing frequency of identification updates; (iii) reducing ongoing monitoring based on reasonable monetary threshold; and (iv) inferring business purpose from transaction type instead of collecting specific information.
+
+**The Trap:** SCDD means REDUCED measures — NOT no measures. CDD is still conducted, just at a lower intensity. And critically, SCDD shall NOT be conducted where there is a suspicion of ML/TF, regardless of risk rating.
+
+**Cross-Exam Context:** SCDD is part of the risk-based approach across IFSCA-01, Series XXIV, and FATF standards. The key principle: low risk = simplified, not eliminated.
+
+**Distributor's Pro-Tip:** SCDD cannot be applied if there's any ML/TF suspicion. Even a low-risk customer showing suspicious activity must immediately be upgraded to standard or enhanced CDD.]]></text></explanation>
+    </question>
+</QF>

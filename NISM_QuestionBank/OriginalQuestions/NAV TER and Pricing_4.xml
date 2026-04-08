@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV TER and Pricing_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A mutual fund scheme has AUM (Assets Under Management) of Rs. 800 crore. The scheme charges a Total Expense Ratio (TER) of 2.10%. What is the total annual expense amount charged to the scheme?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 16.80 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 168.00 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1.68 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 8.00 crore]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Annual Expense Amount = AUM x TER = Rs. 800 crore x 2.10% = Rs. 800 crore x 0.021 = Rs. 16.80 crore. This is the total amount deducted from the scheme's assets annually to cover management fees, administrative costs, and other expenses.
+
+**The Trap:** Rs. 168.00 crore comes from multiplying by 21% instead of 2.10% (decimal point error). Rs. 1.68 crore comes from multiplying by 0.21% instead of 2.10% (another decimal error). Rs. 8.00 crore might come from applying 1% flat or a miscalculation.
+
+**Cross-Exam Context:** TER calculation is important across NISM V-A and V-B. Remember that TER is charged daily on a pro-rata basis (daily TER = annual TER / 365), and it is adjusted from NAV daily — investors never receive a separate bill.
+
+**Distributor's Pro-Tip:** TER directly impacts investor returns. A scheme earning 12% gross return with 2.10% TER delivers approximately 9.90% net return. Always compare TER across similar schemes — even a 0.50% difference compounds significantly over long investment horizons. Direct plans have lower TER than regular plans.]]></text></explanation>
+    </question>
+</QF>

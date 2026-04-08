@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IFSCA Maintenance of Records Rules_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under Rule 9 of the PML Rules, no reporting entity shall allow the opening of or keep which type of accounts?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Small accounts opened with relaxed documentation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Joint accounts held by two or more individuals]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Anonymous accounts, accounts in fictitious names, or accounts where the identity of beneficial owner has not been disclosed]]></text></answer>
+            <answer correct="no"><text><![CDATA[NRE accounts held by non-resident Indians]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Rule 9(11) explicitly prohibits reporting entities from allowing the opening of or keeping any anonymous account or account in fictitious names or account on behalf of other persons whose identity has not been disclosed or cannot be verified. This is a fundamental KYC requirement that ensures every account has a verified owner.
+
+**The Trap:** Small accounts (Rule 9(5)) are permitted with relaxed documentation under specific conditions. Joint accounts and NRE accounts are legitimate account types. The prohibition is specifically against anonymous, fictitious, or unverified accounts.
+
+**Cross-Exam Context:** Series XXIV tests the same prohibition. The IFSCA exam emphasizes this because IFSC entities may face pressure from international clients seeking confidentiality, but anonymous accounts are absolutely prohibited.
+
+**Distributor's Pro-Tip:** Zero tolerance for anonymous or fictitious accounts -- this is a non-negotiable PMLA requirement. Even for international clients who may expect privacy, the beneficial owner must always be identified and verified. Shell structures must be looked through.]]></text></explanation>
+    </question>
+</QF>

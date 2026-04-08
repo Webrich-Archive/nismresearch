@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="Secondary Markets_30" sectionNumber="" articleNumber="0" articleName="">
+    <question><text>What is the Base Minimum Capital (BMC) requirement for a trading member who does proprietary trading and client trading without algorithmic trading?</text>
+        <answers>
+            <answer correct="yes"><text>Rs. 25 lakhs</text></answer>
+            <answer correct="no"><text>Rs. 10 lakhs</text></answer>
+            <answer correct="no"><text>Rs. 15 lakhs</text></answer>
+            <answer correct="no"><text>Rs. 50 lakhs</text></answer>
+        </answers>
+        <explanation><text>**The Logic:** SEBI stipulates BMC slabs: Proprietary only (no algo) = Rs. 10 lakhs; Client only (no algo) = Rs. 15 lakhs; Proprietary + Client (no algo) = Rs. 25 lakhs; All with Algo = Rs. 50 lakhs. At least 50% must be in cash and cash equivalents.
+**The Trap:** Rs. 50 lakhs (option d) is for brokers with algo trading. Rs. 10 lakhs (option b) is for proprietary-only trading. The question asks for combined proprietary and client trading without algo.
+**Cross-Exam Context:** BMC is deposited with the exchange and clearing corporation. No exposure is granted against it. It ensures members have minimum skin in the game to protect against defaults.
+**Distributor's Pro-Tip:** BMC ladder: Rs. 10L (own trading only) → Rs. 15L (client only) → Rs. 25L (both) → Rs. 50L (with algo). Higher risk activities = Higher capital requirement.</text></explanation>
+    </question>
+</QF>

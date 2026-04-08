@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_26" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A Trading cum Self-Clearing Member (SCM) can clear trades for:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Only their own trades (proprietary and client)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Their own trades plus trades of other trading members]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only proprietary trades, not client trades]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only client trades, not proprietary trades]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SCM clears only their own trades (both proprietary and client). TCM clears their own AND other TMs' trades. PCM only clears (no trading).
+**The Trap:** SCM cannot clear for other TMs — that's the TCM's role.
+**Cross-Exam Context:** CM roles are tested in Series I and VII.
+**Distributor's Pro-Tip:** The key difference: SCM = self-clearing. TCM = self + others. PCM = others only (no trading).]]></text></explanation>
+    </question>
+</QF>

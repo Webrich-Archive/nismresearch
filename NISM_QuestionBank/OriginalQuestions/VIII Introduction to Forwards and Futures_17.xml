@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_17" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Regarding the operational risk of trading, which statement CORRECTLY compares forwards and futures?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Futures have lower operational risk because the exchange provides a standardized platform with automated clearing, settlement, and risk management systems]]></text></answer>
+            <answer correct="no"><text><![CDATA[Forwards have lower operational risk because the bilateral nature allows direct communication between parties]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both have identical operational risk because SEBI regulates both forward and futures markets equally]]></text></answer>
+            <answer correct="no"><text><![CDATA[Futures have higher operational risk because the involvement of multiple intermediaries (exchange, clearing corp, brokers) increases complexity]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Futures markets have sophisticated risk management infrastructure: automated order matching, real-time margining, daily MTM, position limits, and circuit breakers. Forward contracts lack this infrastructure - settlement is managed bilaterally, creating higher operational risk (documentation errors, settlement failures, etc.).
+
+**The Trap:** While futures do involve more intermediaries, this actually REDUCES operational risk through standardization and automation, rather than increasing it.
+
+**Cross-Exam Context:** Risk management in derivatives markets is a key theme in Series VIII.
+
+**Key Takeaway:** More infrastructure in futures = lower (not higher) operational risk despite more intermediaries.]]></text></explanation>
+    </question>
+</QF>

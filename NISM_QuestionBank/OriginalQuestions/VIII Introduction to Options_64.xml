@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_64" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader buys a Bank Nifty call option with strike Rs. 44,000 at a premium of Rs. 350. At expiry, Bank Nifty closes at Rs. 44,800. What is the profit per unit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 450]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 800]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 350]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 44,800]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Call Profit = max(S - X, 0) - Premium
+
+Step-by-step:
+1. S = 44,800, X = 44,000, P = 350
+2. Payoff = max(44,800 - 44,000, 0) = Rs. 800
+3. Profit = 800 - 350 = Rs. 450
+
+**The Trap:** Payoff (Rs. 800) is not profit. Always subtract premium to get net profit.
+
+**Cross-Exam Context:** For Bank Nifty, multiply by lot size to get total profit in rupees.
+
+**Key Takeaway:** Call Profit = max(S - X, 0) - P = 800 - 350 = Rs. 450 per unit.]]></text></explanation>
+    </question>
+</QF>

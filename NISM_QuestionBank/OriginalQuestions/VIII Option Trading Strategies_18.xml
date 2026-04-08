@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Option Trading Strategies_18" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investor holds 500 shares of TCS at Rs. 3,600 and sells a TCS 3700 CE at Rs. 80. If TCS rises to Rs. 3,900 at expiry, what is the net profit from this covered call strategy?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 180 per share]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 300 per share]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 380 per share]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 80 per share]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+1. Stock purchase price = Rs. 3,600; Stock at expiry = Rs. 3,900
+2. Stock profit = 3,900 - 3,600 = Rs. 300 BUT stock gets called away at 3,700
+3. Effective stock profit = 3,700 - 3,600 = Rs. 100 (capped at strike)
+4. Premium received = Rs. 80
+5. Net profit = 100 + 80 = Rs. 180 per share
+6. The call is exercised at 3,700, so the upside above 3,700 is foregone
+
+**The Trap:** Calculating full stock gain of Rs. 300 ignores that the stock is called away at 3,700. The covered call caps upside at the strike price. Maximum gain = (Strike - Purchase price) + Premium.
+
+**Cross-Exam Context:** Covered call is one of the most practical strategies tested, relevant to portfolio managers.
+
+**Key Takeaway:** Covered call caps upside at strike price + premium. Max profit = (Strike - Stock cost) + Premium received.]]></text></explanation>
+    </question>
+</QF>

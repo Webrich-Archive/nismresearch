@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_33" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The final settlement of currency options contracts is on:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[T+2 basis from the expiry date]]></text></answer>
+            <answer correct="no"><text><![CDATA[T+1 basis from the expiry date]]></text></answer>
+            <answer correct="no"><text><![CDATA[Same day as expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[T+3 basis from the expiry date]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Final settlement for both futures and options = T+2 from last trading day. Open positions at expiry are settled using the FBIL reference rate.
+**The Trap:** Both futures and options have T+2 final settlement — same timeline.
+**Cross-Exam Context:** Options settlement timeline is tested in Series I.
+**Distributor's Pro-Tip:** For exercised ITM options, the holder receives the intrinsic value (spot - strike for calls, strike - spot for puts) on T+2.]]></text></explanation>
+    </question>
+</QF>

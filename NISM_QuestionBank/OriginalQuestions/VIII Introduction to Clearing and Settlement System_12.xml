@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_12" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the SPAN margin framework, the scan range represents:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The maximum expected price movement of the underlying asset over one trading day, based on a specified confidence level]]></text></answer>
+            <answer correct="no"><text><![CDATA[The range of strike prices available for options]]></text></answer>
+            <answer correct="no"><text><![CDATA[The bid-ask spread of the derivative contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[The range of lot sizes permitted for trading]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The scan range is the expected maximum price change of the underlying over the risk horizon (typically one day). It is computed based on statistical measures (like standard deviation) at a specified confidence level (usually 99%). The SPAN system scans price changes within this range to compute potential portfolio losses.
+
+**The Trap:** Scan range has nothing to do with strike prices, bid-ask spreads, or lot sizes. It is a statistical risk measure used in margin calculation.
+
+**Cross-Exam Context:** Understanding scan range is essential for comprehending how SPAN margins are computed.
+
+**Key Takeaway:** Scan range = expected max price move over one day at 99% confidence. Forms the basis of SPAN risk scenarios.]]></text></explanation>
+    </question>
+</QF>

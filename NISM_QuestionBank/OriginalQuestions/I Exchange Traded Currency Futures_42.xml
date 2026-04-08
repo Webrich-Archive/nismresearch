@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_42" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The change in contract value for each tick in an EURUSD cross-currency futures contract is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[USD 0.10]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[USD 1.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[EUR 0.10]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Tick value = Lot size × Tick size = 1000 × USD 0.0001 = USD 0.10. This is in the quote currency (USD for EURUSD).
+**The Trap:** The tick value is in USD (quote currency), not in INR or EUR. To convert to INR, multiply by FBIL USD-INR rate.
+**Cross-Exam Context:** Cross-currency tick values are specific to Series I.
+**Distributor's Pro-Tip:** For USDJPY: tick value = 1000 × JPY 0.01 = JPY 10 per tick.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_50" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The purpose of the Settlement Guarantee Fund (SGF) is to:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Ensure completion of settlement obligations even if one or more clearing members default]]></text></answer>
+            <answer correct="no"><text><![CDATA[Provide insurance to investors against trading losses]]></text></answer>
+            <answer correct="no"><text><![CDATA[Compensate brokers for technology failures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fund the operations of the clearing corporation]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SGF is specifically designed to ensure that settlement is completed even when a clearing member defaults on their obligations. The default waterfall typically uses: (1) Defaulting member's margins and deposits, (2) Defaulting member's other assets, (3) SGF, (4) Insurance/other resources. SGF is a critical safety net.
+
+**The Trap:** SGF does not insure against trading losses (that is the investor's risk). It is not for operational expenses. It is specifically for handling member defaults.
+
+**Cross-Exam Context:** The default waterfall and SGF's role in it are important for understanding systemic risk management.
+
+**Key Takeaway:** SGF ensures settlement completion despite member defaults. Part of the default waterfall. Not for trading loss insurance.]]></text></explanation>
+    </question>
+</QF>

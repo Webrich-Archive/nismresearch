@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Option Trading Strategies_17" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A short straddle position is ideal when the trader expects:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Low volatility and the underlying price to remain near the strike price]]></text></answer>
+            <answer correct="no"><text><![CDATA[A large upward movement in the underlying price]]></text></answer>
+            <answer correct="no"><text><![CDATA[A large downward movement in the underlying price]]></text></answer>
+            <answer correct="no"><text><![CDATA[High volatility with uncertain direction]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The short straddle seller collects premiums from both the call and put. Maximum profit occurs when the stock stays exactly at the strike price (both options expire worthless). Any large move in either direction causes losses. Therefore, the ideal scenario is low volatility and a stable price.
+
+**The Trap:** High volatility benefits the long straddle buyer, NOT the seller. A short straddle seller wants the market to be as quiet as possible.
+
+**Cross-Exam Context:** Volatility-based strategy selection is a key exam topic across derivatives modules.
+
+**Key Takeaway:** Short straddle profits from low volatility/time decay. Long straddle profits from high volatility/large moves.]]></text></explanation>
+    </question>
+</QF>

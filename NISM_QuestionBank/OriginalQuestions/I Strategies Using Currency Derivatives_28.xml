@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_28" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the main risk faced by arbitragers?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Execution risk — a time gap between executing the two legs, or one leg being illiquid]]></text></answer>
+            <answer correct="no"><text><![CDATA[They have unlimited directional risk]]></text></answer>
+            <answer correct="no"><text><![CDATA[They must post margins equal to the full contract value]]></text></answer>
+            <answer correct="no"><text><![CDATA[Their positions always expire worthless]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Arbitrage requires simultaneous execution in two markets. If one leg executes and the other doesn't (due to illiquidity or time gap), the 'hedged' position becomes a naked directional bet.
+**The Trap:** Arbitrage is theoretically risk-free, but EXECUTION RISK makes it risky in practice.
+**Cross-Exam Context:** Arbitrage risks are tested in Series I.
+**Distributor's Pro-Tip:** In non-cash-settled markets, unwinding positions adds additional risk. Electronic platforms reduce but don't eliminate execution risk.]]></text></explanation>
+    </question>
+</QF>

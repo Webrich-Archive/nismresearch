@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_28" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader has an open long position in Nifty futures. The previous day's settlement price was 22,400 and the final settlement price (spot closing) on expiry day is 22,600. The final settlement profit per lot (25 units) is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 5,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 15,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 10,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step:
+1. Previous settlement price = 22,400
+2. Final settlement price (spot closing) = 22,600
+3. Final settlement = (22,600 - 22,400) x 25 = 200 x 25 = Rs. 5,000 (Profit)
+
+The final settlement compares the previous day's settlement price to the spot closing price on expiry.
+
+**The Trap:** Do not use the original trade price - use the PREVIOUS day's settlement price, as all prior movements have already been settled through daily MTM.
+
+**Cross-Exam Context:** Final settlement calculations are tested along with daily MTM in multi-day problems.
+
+**Key Takeaway:** Final settlement = (Spot closing on expiry - Previous settlement price) x Lot size. Previous MTM settlements already accounted for earlier movements.]]></text></explanation>
+    </question>
+</QF>

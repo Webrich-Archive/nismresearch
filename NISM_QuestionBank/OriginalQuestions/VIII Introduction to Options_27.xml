@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_27" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A call option with strike Rs. 17,500 is trading at a premium of Rs. 250 when spot is Rs. 17,600. What is the time value of this option?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 150]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 250]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 100]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Time Value = Premium - Intrinsic Value
+
+Step-by-step:
+1. Premium = Rs. 250
+2. Intrinsic Value (Call) = max(S - X, 0) = max(17,600 - 17,500, 0) = Rs. 100
+3. Time Value = 250 - 100 = Rs. 150
+
+**The Trap:** Students often confuse total premium with intrinsic value. Time value is what remains AFTER subtracting IV.
+
+**Cross-Exam Context:** Time value decreases as expiry approaches (time decay / theta).
+
+**Key Takeaway:** Time Value = Premium - Intrinsic Value. Always decompose premium into these two components.]]></text></explanation>
+    </question>
+</QF>

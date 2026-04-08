@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_38" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the fundamental difference between a futures contract and an options contract?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[In futures, both parties have obligations; in options, only the seller has an obligation while the buyer has a right]]></text></answer>
+            <answer correct="no"><text><![CDATA[Futures are traded on exchanges while options are traded over-the-counter]]></text></answer>
+            <answer correct="no"><text><![CDATA[Futures have no expiry date while options expire on a fixed date]]></text></answer>
+            <answer correct="no"><text><![CDATA[Futures require no upfront payment while options require premium payment]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** 
+- Futures: BOTH buyer and seller have OBLIGATIONS to fulfill the contract
+- Options: Buyer has a RIGHT (can choose), Seller has an OBLIGATION (must honor if exercised)
+
+**The Trap:** Both futures and options are exchange-traded in India. Both have expiry dates. Futures require margin (not "no upfront payment").
+
+**Cross-Exam Context:** This distinction explains why option buyers pay premium but futures buyers pay only margin.
+
+**Key Takeaway:** Futures = mutual obligation. Options = right (buyer) + obligation (seller).]]></text></explanation>
+    </question>
+</QF>

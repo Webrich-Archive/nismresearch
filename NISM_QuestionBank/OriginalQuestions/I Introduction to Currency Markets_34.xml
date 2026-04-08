@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Introduction to Currency Markets_34" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The abbreviated bid-offer price for USD/INR is quoted as 82.0525/75. What is the full offer price?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[82.0575]]></text></answer>
+            <answer correct="no"><text><![CDATA[82.7500]]></text></answer>
+            <answer correct="no"><text><![CDATA[82.0075]]></text></answer>
+            <answer correct="no"><text><![CDATA[82.0525]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When USD/INR is quoted to 4 decimal places, the abbreviated offer shows only the last 2 digits. So '75' means the last two decimals are 75, giving full offer price = 82.0575.
+**The Trap:** 82.7500 incorrectly treats '75' as replacing the first two decimals after the point.
+**Cross-Exam Context:** Quote abbreviation conventions are tested in Series I.
+**Distributor's Pro-Tip:** For 4-decimal quotes (like USD/INR, EUR/USD), the abbreviated offer replaces the LAST 2 decimal places. For 2-decimal quotes (like USD/JPY), it replaces BOTH decimal places.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_44" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If USDINR spot is 83.50, India's 3-month rate is 6.5% p.a., and US 3-month rate is 4.5% p.a., what is the approximate 3-month futures price?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[83.92]]></text></answer>
+            <answer correct="no"><text><![CDATA[83.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[84.33]]></text></answer>
+            <answer correct="no"><text><![CDATA[83.08]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** F = 83.50 × (1 + 0.065 × 0.25) / (1 + 0.045 × 0.25) = 83.50 × 1.01625 / 1.01125 = 83.50 × 1.004944 = 83.9129 ≈ 83.91.
+Quick: F ≈ 83.50 + 83.50 × (0.065-0.045) × 0.25 = 83.50 + 0.4175 ≈ 83.92.
+**The Trap:** Use 0.25 for 3 months (3/12). Annual rates must be adjusted for the period.
+**Cross-Exam Context:** Multi-period pricing is heavily tested in Series I.
+**Distributor's Pro-Tip:** The forward premium for 3 months is about 42 paise — much less than the annual 1.66 difference because you only carry for 3 months.]]></text></explanation>
+    </question>
+</QF>

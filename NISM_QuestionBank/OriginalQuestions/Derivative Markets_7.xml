@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Derivative Markets_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When an option buyer exercises a call option, the option writer is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Legally bound to sell the underlying at the strike price to the buyer]]></text></answer>
+            <answer correct="no"><text><![CDATA[Free to choose whether to honor the contract or not]]></text></answer>
+            <answer correct="no"><text><![CDATA[Entitled to receive the premium amount again from the buyer]]></text></answer>
+            <answer correct="no"><text><![CDATA[Required to buy the underlying from the buyer at the strike price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The option writer has the obligation in the contract. When the buyer decides to exercise a call option, the writer is legally bound to sell the underlying at the strike price. The writer earned the premium upfront as compensation for bearing this obligation. The buyer exercises only when it is favorable (ITM), so the writer faces a potential loss.
+
+**The Trap:** The writer cannot choose whether to honor the contract — the obligation is binding. No additional premium is paid upon exercise. For a call option, the writer SELLS (not buys) to the buyer. The writer's risk is that the underlying price goes much higher than the strike.
+
+**Cross-Exam Context:** Derivatives basics overlap with Series VIII, XIII. Understanding the asymmetry between option buyer (right) and writer (obligation) is fundamental to all derivatives exams.
+
+**Distributor's Pro-Tip:** Option writing is riskier than option buying because the writer's loss potential is theoretically unlimited (for call writers) while the premium earned is limited. This is why SEBI requires margin deposits from option writers but not from option buyers.]]></text></explanation>
+    </question>
+</QF>

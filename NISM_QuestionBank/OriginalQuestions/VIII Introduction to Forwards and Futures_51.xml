@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_51" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A stock futures contract is trading at Rs. 2,200 with a lot size of 700. If SEBI's recommended contract value range is Rs. 15-20 lakhs, does this contract comply?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Yes, the contract value is Rs. 15,40,000 (Rs. 15.40 lakhs), which falls within the Rs. 15-20 lakh range]]></text></answer>
+            <answer correct="no"><text><![CDATA[No, the contract value is Rs. 1,54,000, which is below the minimum range]]></text></answer>
+            <answer correct="no"><text><![CDATA[No, the contract value is Rs. 1,54,00,000, which exceeds the maximum range]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, the contract value is Rs. 22,00,000, which is within range]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+Contract Value = Price x Lot Size = 2,200 x 700 = Rs. 15,40,000 = Rs. 15.40 lakhs
+
+SEBI's Oct 2024 circular (effective Nov 2024) requires contract values to be in the range of Rs. 15-20 lakhs. Rs. 15.40 lakhs falls within this range, so the contract complies.
+
+**The Trap:** Rs. 1,54,000 divides by 10 incorrectly. Rs. 1,54,00,000 multiplies by an extra 10. Rs. 22,00,000 uses 1000 as lot size instead of 700.
+
+**Cross-Exam Context:** SEBI's contract value range is a regulatory requirement tested in Series VIII.
+
+**Key Takeaway:** SEBI mandates contract values of Rs. 15-20 lakhs. Contract Value = Price x Lot Size.]]></text></explanation>
+    </question>
+</QF>

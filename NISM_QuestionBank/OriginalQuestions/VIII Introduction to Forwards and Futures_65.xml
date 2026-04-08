@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_65" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If the continuous compounding fair futures price is Rs. 5,125 and the discrete compounding fair futures price is Rs. 5,118 for the same contract, which statement is correct?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Continuous compounding always gives a slightly higher futures price than discrete compounding, and the Rs. 7 difference is consistent with this theory]]></text></answer>
+            <answer correct="no"><text><![CDATA[The discrete compounding price should always be higher; there must be a calculation error]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both methods should give exactly the same price; the Rs. 7 difference indicates market inefficiency]]></text></answer>
+            <answer correct="no"><text><![CDATA[Continuous compounding gives a lower price because e^x < (1+x) for all positive x]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Continuous compounding always produces a slightly HIGHER value than discrete compounding because e^x > (1+x) for all x > 0. This is a mathematical property. The difference is small and decreases as the time period shortens or the rates are lower.
+
+For example: e^(0.08 x 90/365) = 1.01992 vs (1.08)^(90/365) = 1.01916. The continuous compounding factor (1.01992) is slightly larger.
+
+**The Trap:** e^x > (1+x) for positive x, so continuous compounding always gives a HIGHER (not lower) result. The methods give close but NOT identical results.
+
+**Cross-Exam Context:** Understanding the relationship between the two methods is conceptually tested in Series VIII.
+
+**Key Takeaway:** e^x > (1+x) for x > 0, so continuous compounding fair value > discrete compounding fair value.]]></text></explanation>
+    </question>
+</QF>

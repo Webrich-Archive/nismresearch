@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Basics of Derivatives_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the context of derivative products, who pays the premium?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The buyer of an option pays premium to the seller]]></text></answer>
+            <answer correct="no"><text><![CDATA[The buyer of a futures contract pays premium to the exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both parties in a forward contract pay premium to each other]]></text></answer>
+            <answer correct="no"><text><![CDATA[The seller of an option pays premium to the buyer]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Premium is a concept specific to options. The option buyer pays a premium to the option seller (writer) for acquiring the right (but not obligation) to buy or sell the underlying. Futures and forwards do not involve premium payments.
+**The Trap:** Futures involve margins, not premiums. Forwards have no upfront payments. The option seller receives the premium — they do not pay it.
+**Cross-Exam Context:** Understanding premium is essential for NISM Series VIII and XIII (Equity Derivatives and Common Derivatives).
+**Key Takeaway:** Premium exists only in options. Buyer pays premium (cost of the right). Seller receives premium (compensation for taking on the obligation).]]></text></explanation>
+    </question>
+</QF>

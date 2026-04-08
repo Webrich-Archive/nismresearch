@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_38" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When aggregate open interest in a stock derivative reaches 95% of the Market Wide Position Limit:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Only square-off/closing transactions are permitted; no new positions can be created]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trading in that stock derivative is halted completely]]></text></answer>
+            <answer correct="no"><text><![CDATA[Margin requirements are doubled]]></text></answer>
+            <answer correct="no"><text><![CDATA[The exchange extends trading hours]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When open interest reaches 95% of MWPL, the exchange restricts trading to only square-off (closing) transactions. No fresh/new positions are allowed. This prevents the position limit from being breached. Normal trading resumes when OI falls below 80% of MWPL.
+
+**The Trap:** Trading is not completely halted - square-off transactions are still allowed. The trigger is 95% (not 100%). The restriction is lifted at 80% (not when OI drops below 95%).
+
+**Cross-Exam Context:** The 95% trigger and 80% release thresholds are specific factual details tested in exams.
+
+**Key Takeaway:** 95% MWPL: no new positions, only square-off. Resumes at 80%. Prevents position limit breach.]]></text></explanation>
+    </question>
+</QF>

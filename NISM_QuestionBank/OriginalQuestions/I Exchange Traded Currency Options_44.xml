@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_44" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The strike price interval for EURUSD cross-currency options is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[USD 0.005]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.25]]></text></answer>
+            <answer correct="no"><text><![CDATA[USD 0.01]]></text></answer>
+            <answer correct="no"><text><![CDATA[USD 0.001]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Cross-currency option strikes: EURUSD and GBPUSD = USD 0.005 interval. USDJPY = JPY 0.5 interval. INR-based options = Rs. 0.25.
+**The Trap:** Each product type has its own strike interval denomination in its quote currency.
+**Cross-Exam Context:** Cross-currency option specs are specific to Series I.
+**Distributor's Pro-Tip:** USD 0.005 intervals mean strikes at 1.0800, 1.0850, 1.0900, etc. for EURUSD options.]]></text></explanation>
+    </question>
+</QF>

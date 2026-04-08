@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Taxation_11" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[An investor bought equity MF units for Rs. 4,00,000 and sold them after 8 months for Rs. 4,75,000. What is the tax on this transaction under Section 111A including cess?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 15,600 (20% of Rs. 75,000 + 4% cess)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 9,375 (12.5% of Rs. 75,000, no cess)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 11,250 (15% of Rs. 75,000 + 4% cess, old rate)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Nil - Rs. 75,000 is below the Rs. 1,25,000 exemption limit]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Holding period of 8 months (<=12 months) for equity MF = Short-Term Capital Gain (STCG). STCG on equity MFs is taxed at 20% under Section 111A (post-Budget 2024). STCG = 4,75,000 - 4,00,000 = Rs. 75,000. Tax = 75,000 x 20% = Rs. 15,000. Cess = 15,000 x 4% = Rs. 600. Total = Rs. 15,600.
+
+**The Trap:** Option B applies the LTCG rate of 12.5% instead of STCG rate. Option C uses the old 15% STCG rate (pre-Budget 2024). Option D wrongly applies the Rs. 1.25 lakh LTCG exemption to STCG - this exemption is ONLY for LTCG under Section 112A.
+
+**Cross-Exam Context:** Budget 2024 changed equity STCG rate from 15% to 20%. The Rs. 1.25 lakh exemption applies ONLY to LTCG, never to STCG. This is a common confusion point.
+
+**Distributor's Pro-Tip:** Advise clients to hold equity MF units beyond 12 months where possible - the tax rate drops from 20% (STCG) to 12.5% (LTCG) with an additional Rs. 1.25 lakh exemption.]]></text></explanation>
+    </question>
+</QF>

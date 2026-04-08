@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_47" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader is long one lot of Infosys futures at Rs. 1,900. Lot size is 300. Over 3 days, the settlement prices are: Day 1: Rs. 1,880, Day 2: Rs. 1,920, Day 3: Rs. 1,950. What is the TOTAL profit at the end of Day 3?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 15,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 21,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 6,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 9,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+Total profit = (Final Price - Entry Price) x Lot Size
+= (1,950 - 1,900) x 300 = 50 x 300 = Rs. 15,000
+
+Daily breakdown (for MTM purposes):
+- Day 1 MTM: (1,880 - 1,900) x 300 = -20 x 300 = -Rs. 6,000 (loss)
+- Day 2 MTM: (1,920 - 1,880) x 300 = 40 x 300 = +Rs. 12,000 (gain)
+- Day 3 MTM: (1,950 - 1,920) x 300 = 30 x 300 = +Rs. 9,000 (gain)
+- Total = -6,000 + 12,000 + 9,000 = Rs. 15,000
+
+**The Trap:** Rs. 21,000 would be if you added all absolute daily MTMs. Rs. 6,000 is only Day 1 loss. Rs. 9,000 is only Day 3 gain. The total must account for signs.
+
+**Cross-Exam Context:** Multi-day MTM calculations are commonly tested in Series VIII.
+
+**Key Takeaway:** Total P&L = Sum of daily MTM OR (Final Price - Entry Price) x Lot Size. Both give the same answer.]]></text></explanation>
+    </question>
+</QF>

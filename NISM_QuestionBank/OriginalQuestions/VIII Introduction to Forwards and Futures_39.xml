@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_39" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When the Nifty futures contract is trading at a discount to the spot Nifty index (i.e., futures price < spot price), the market is said to be in:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Backwardation, which can occur when expected dividends are high or when there is strong bearish sentiment]]></text></answer>
+            <answer correct="no"><text><![CDATA[Contango, which is the normal state of the market reflecting positive cost of carry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Arbitrage equilibrium, indicating that the market is fairly priced]]></text></answer>
+            <answer correct="no"><text><![CDATA[Basis risk, indicating that the hedge will not be effective]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Backwardation occurs when Futures < Spot (negative basis magnitude, positive basis value since Basis = Spot - Futures > 0). For equity markets, this can happen when: (1) expected dividends are very high (making q > r in the cost of carry formula), or (2) strong bearish sentiment drives futures prices down as speculators aggressively sell futures.
+
+**The Trap:** Contango is when futures > spot, not futures < spot. Backwardation is a market condition, not a risk measure.
+
+**Cross-Exam Context:** Understanding when markets shift between contango and backwardation is important for trading strategies in Series VIII.
+
+**Key Takeaway:** Backwardation: Futures < Spot. Causes: high dividends (q > r) or bearish sentiment.]]></text></explanation>
+    </question>
+</QF>

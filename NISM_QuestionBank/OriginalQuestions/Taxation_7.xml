@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Taxation_7" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Mr. Reddy invested Rs. 10,00,000 in an equity mutual fund. The NAV on 31 January 2018 was Rs. 12,00,000 (grandfathering date). He sold the units in March 2025 for Rs. 18,00,000. What is his taxable LTCG under Section 112A?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 8,00,000 (Sale price minus original cost)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 6,00,000 (Sale price minus higher of cost or NAV on 31 Jan 2018)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 4,75,000 (Rs. 6,00,000 minus Rs. 1,25,000 exemption)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 6,75,000 (Rs. 8,00,000 minus Rs. 1,25,000 exemption)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For equity MF units acquired before 1 Feb 2018, the grandfathering provision applies. Cost of acquisition = Higher of (actual cost of Rs. 10,00,000) or (NAV on 31 Jan 2018 of Rs. 12,00,000), but capped at sale price. Here, NAV on 31 Jan 2018 (Rs. 12,00,000) > actual cost (Rs. 10,00,000), so deemed cost = Rs. 12,00,000. LTCG = 18,00,000 - 12,00,000 = Rs. 6,00,000. Note: The question asks for taxable LTCG before exemption, which is Rs. 6,00,000.
+
+**The Trap:** Option A ignores grandfathering entirely. Option C correctly applies the exemption but the question asks for LTCG, not taxable amount after exemption. Option D uses original cost and then deducts exemption.
+
+**Cross-Exam Context:** Grandfathering protects gains accrued up to 31 Jan 2018 from LTCG tax introduced by Budget 2018. Read questions carefully - "taxable LTCG" vs "tax payable" are different things.
+
+**Distributor's Pro-Tip:** For clients holding pre-2018 equity MF investments, the grandfathering benefit means a significant portion of their gains may be sheltered from tax. Document the 31 Jan 2018 NAV for client records.]]></text></explanation>
+    </question>
+</QF>

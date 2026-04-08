@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Introduction to Currency Markets_46" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An Indian importer needs to buy EUR to pay for machinery. In the OTC market, the bank quotes EUR/USD at 1.0850/1.0875 and USD/INR at 83.40/83.42. What rate will the importer pay per EUR?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[90.72 INR (calculated as 1.0875 × 83.42)]]></text></answer>
+            <answer correct="no"><text><![CDATA[90.49 INR (calculated as 1.0850 × 83.40)]]></text></answer>
+            <answer correct="no"><text><![CDATA[90.60 INR (average of bid and offer)]]></text></answer>
+            <answer correct="no"><text><![CDATA[91.00 INR (rounded up for bank profit)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The importer is BUYING EUR. From the bank's perspective, the bank is SELLING EUR. The importer pays the offer price: EUR/INR offer = EUR/USD offer × USD/INR offer = 1.0875 × 83.42 = 90.7207 ≈ 90.72.
+**The Trap:** Using bid prices would give the rate at which the bank BUYS EUR, not sells.
+**Cross-Exam Context:** Practical cross rate application is tested in Series I.
+**Distributor's Pro-Tip:** Always identify who is buying/selling and apply the correct side of the two-way quote.]]></text></explanation>
+    </question>
+</QF>

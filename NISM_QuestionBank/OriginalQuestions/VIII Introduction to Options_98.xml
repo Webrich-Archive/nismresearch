@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_98" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An option writer sells 5 lots of a call option at premium Rs. 60. Lot size is 30. At expiry, the option expires worthless. What is the total profit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 9,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 300]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,800]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 60]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Writer's Profit (when option expires worthless) = Premium × Lot Size × Lots
+
+Step-by-step:
+1. Premium received = Rs. 60 per unit
+2. Lot size = 30
+3. Lots = 5
+4. Total profit = 60 × 30 × 5 = Rs. 9,000
+
+Option expires worthless → writer keeps entire premium.
+
+**The Trap:** When option expires OTM, writer's profit = total premium received (best case).
+
+**Cross-Exam Context:** This is the maximum profit scenario for an option writer.
+
+**Key Takeaway:** Writer max profit = Premium × Lot Size × Lots = 60 × 30 × 5 = Rs. 9,000.]]></text></explanation>
+    </question>
+</QF>

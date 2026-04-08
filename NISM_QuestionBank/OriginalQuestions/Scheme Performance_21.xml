@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Scheme Performance_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A mutual fund scheme generated a return of 18% while its benchmark returned 14%. If the tracking error is 5%, what is the Information Ratio of the fund?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[3.60]]></text></answer>
+            <answer correct="yes"><text><![CDATA[0.80]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.25]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.28]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The Information Ratio is calculated as:
+Information Ratio = (Fund Return - Benchmark Return) / Tracking Error
+Information Ratio = (18% - 14%) / 5%
+Information Ratio = 4% / 5%
+Information Ratio = 0.80
+
+This means the fund generated 0.80 units of excess return for every unit of active risk (tracking error) taken.
+
+**The Trap:** Option A (3.60) would result from dividing fund return by tracking error (18/5) -- incorrect because you must subtract the benchmark return first. Option C (1.25) is the inverse (5/4). Option D (0.28) might result from dividing tracking error by total return. Always remember: numerator = excess return over BENCHMARK (not risk-free rate).
+
+**Cross-Exam Context:** An Information Ratio of 0.80 is quite good. Generally, IR above 0.5 indicates skilled active management. In NISM III-C, candidates are expected to compute and interpret such ratios for fund selection.
+
+**Distributor's Pro-Tip:** When presenting this to clients, explain that an IR of 0.80 means the fund manager is generating meaningful and consistent outperformance. However, verify this over at least 3-5 year periods to confirm it is not just a short-term anomaly.]]></text></explanation>
+    </question>
+</QF>

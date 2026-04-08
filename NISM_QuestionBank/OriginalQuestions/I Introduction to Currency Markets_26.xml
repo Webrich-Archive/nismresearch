@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Introduction to Currency Markets_26" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Given USD/JPY = 115.08/115.09 and USD/INR = 75.64/75.65, what is the bid rate for JPY/INR (per 100 JPY)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[65.72]]></text></answer>
+            <answer correct="no"><text><![CDATA[65.74]]></text></answer>
+            <answer correct="no"><text><![CDATA[65.70]]></text></answer>
+            <answer correct="no"><text><![CDATA[66.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** To SELL JPY: (1) Sell JPY to get USD — sell at USD/JPY offer = 115.09 (you get 1 USD for 115.09 JPY, so selling 100 JPY gives USD 100/115.09). (2) Sell USD at bid = 75.64 INR. Price of 100 JPY = 75.64/115.09 × 100 = 65.72 INR.
+**The Trap:** When USD is base in BOTH pairs, DIVIDE instead of multiply. Use offer USD/JPY for JPY/INR bid.
+**Cross-Exam Context:** JPY/INR cross rate computation is unique to Series I.
+**Distributor's Pro-Tip:** JPY/INR = USD/INR ÷ USD/JPY. For bid: use INR bid ÷ JPY offer. For offer: use INR offer ÷ JPY bid.]]></text></explanation>
+    </question>
+</QF>

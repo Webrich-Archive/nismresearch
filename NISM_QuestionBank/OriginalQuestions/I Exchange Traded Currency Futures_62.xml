@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_62" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An Indian company has a EUR 500,000 payable in 1 month. If the company wants to hedge using exchange-traded futures, which contract should it use?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy 500 lots of EURINR futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell 500 lots of EURINR futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy 500 lots of EURUSD futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell 50 lots of EURINR futures]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** An importer with EUR payable needs to BUY EUR → buy EURINR futures. Lots = 500,000/1,000 = 500 lots. If EUR strengthens (EURINR rises), futures profit offsets higher spot cost.
+**The Trap:** 50 lots would only cover EUR 50,000. Also, EURUSD futures would leave INR exposure unhedged.
+**Cross-Exam Context:** Currency pair selection for hedging is tested in Series I.
+**Distributor's Pro-Tip:** Using EURINR directly is better than EURUSD + USDINR because it provides a single direct hedge.]]></text></explanation>
+    </question>
+</QF>

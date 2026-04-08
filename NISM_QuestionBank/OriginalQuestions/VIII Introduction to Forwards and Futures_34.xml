@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_34" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If Trader A buys 10 Nifty futures contracts from Trader B (who is initiating a new short position), the open interest will:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Increase by 10 contracts, because both A and B are opening new positions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Increase by 20 contracts, because 10 new longs and 10 new shorts are created]]></text></answer>
+            <answer correct="no"><text><![CDATA[Remain unchanged, because one person's buy is another person's sell]]></text></answer>
+            <answer correct="no"><text><![CDATA[Decrease by 10 contracts, because contracts are being traded and settled]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When BOTH parties to a trade are initiating NEW positions (A opens a new long, B opens a new short), OI increases by the number of contracts traded (10). OI is one-sided, so we count 10 new open contracts, not 20.
+
+OI changes: (1) Both new positions -> OI increases, (2) Both closing positions -> OI decreases, (3) One new, one closing -> OI unchanged.
+
+**The Trap:** OI is counted one-sided (10, not 20). The statement "one person's buy is another's sell" is true but does not mean OI stays constant - it depends on whether positions are new or closing.
+
+**Cross-Exam Context:** Understanding how different trade scenarios affect OI is a frequently tested concept in Series VIII.
+
+**Key Takeaway:** OI increases only when BOTH parties open new positions. OI decreases when BOTH close existing positions.]]></text></explanation>
+    </question>
+</QF>

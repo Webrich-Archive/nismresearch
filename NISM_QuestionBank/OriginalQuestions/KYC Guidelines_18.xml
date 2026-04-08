@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="KYC Guidelines_18" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Bank account details of a client during digital KYC can be verified through which mechanism?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Penny Drop mechanism or any other mechanism using API of the Bank]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only by physically visiting the bank branch]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only through a letter from the bank manager]]></text></answer>
+            <answer correct="no"><text><![CDATA[No verification of bank details is required]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** During digital KYC, bank account details are captured online and a signed cancelled cheque is provided as photo/scan under e-signature. Bank details are then verified through PENNY DROP MECHANISM or any other mechanism using API of the bank. The name and bank details obtained must be verified with information provided by the client.
+
+**The Trap:** Physical bank visit is not required in digital KYC. A bank manager letter is an outdated method. Bank verification IS required -- it is not optional.
+
+**Cross-Exam Context:** Penny drop verification is a technology solution widely used in fintech and securities market onboarding. In NISM V-A, mutual fund platforms use penny drop to verify bank accounts before processing redemptions.
+
+**Distributor's Pro-Tip:** Penny drop works by depositing a small amount (e.g., Re. 1) to the client's bank account and verifying the account holder name. This ensures the bank account genuinely belongs to the client, preventing fraud during redemption payouts.]]></text></explanation>
+    </question>
+</QF>

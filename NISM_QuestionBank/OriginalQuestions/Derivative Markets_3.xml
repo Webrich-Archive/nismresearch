@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Derivative Markets_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The key difference between a forward contract and a futures contract is that futures are:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Exchange-traded with standardized terms and cleared through a clearing corporation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Customized contracts traded between known counterparties]]></text></answer>
+            <answer correct="no"><text><![CDATA[Always settled by physical delivery of the underlying asset]]></text></answer>
+            <answer correct="no"><text><![CDATA[Available only for commodity transactions, not financial assets]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Futures are exchange-traded forwards. The terms of the contract are specified by the exchange, making them standardized. The clearing corporation acts as counterparty to each transaction, eliminating counterparty risk. Buyers and sellers maintain margins with the clearing corporation, enabling anonymous trading.
+
+**The Trap:** Customized contracts between known parties describes forwards, not futures. Futures can be cash-settled or physically settled. Futures are available for both commodities and financial assets (equities, indices, currencies).
+
+**Cross-Exam Context:** Derivatives basics overlap with Series VIII, XIII. This forward vs futures comparison is one of the most commonly tested derivative concepts.
+
+**Distributor's Pro-Tip:** The clearing corporation mechanism is what makes futures "safe" for retail investors to participate in derivatives. Without it, each trader would need to trust their counterparty — which is impractical in anonymous electronic markets.]]></text></explanation>
+    </question>
+</QF>

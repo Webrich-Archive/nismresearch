@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_44" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Assignment of exercised options to option writers is done on:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Random basis among all short option positions of the same series at the clearing member level]]></text></answer>
+            <answer correct="no"><text><![CDATA[First-in-first-out basis based on when positions were written]]></text></answer>
+            <answer correct="no"><text><![CDATA[Pro-rata basis based on the size of short positions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Assigned to the writer with the largest short position first]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When option holders exercise their options, the clearing corporation assigns the exercise obligation to option writers using a random assignment method. This ensures fairness - no writer is systematically targeted for assignment. The assignment is done at the CM level first, then the CM assigns to TMs/clients.
+
+**The Trap:** It is NOT FIFO or pro-rata. Random assignment means any writer could be assigned regardless of when they wrote the option or the size of their position.
+
+**Cross-Exam Context:** Assignment mechanics are important for option writers to understand their risk of early/expiry assignment.
+
+**Key Takeaway:** Option assignment = random basis. Any writer can be assigned. Done at CM level first, then distributed to TMs/clients.]]></text></explanation>
+    </question>
+</QF>

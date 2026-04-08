@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Legal and Regulatory Framework_18" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under the SEBI Mutual Fund Regulations, what is the role of the "cut-off time" in NAV determination?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[It determines the applicable NAV for purchase and redemption transactions based on the time of receipt of valid application and funds]]></text></answer>
+            <answer correct="no"><text><![CDATA[It determines the time after which the AMC cannot accept any new investments]]></text></answer>
+            <answer correct="no"><text><![CDATA[It determines the deadline for the fund manager to complete all portfolio transactions for the day]]></text></answer>
+            <answer correct="no"><text><![CDATA[It determines the time by which the NAV must be published on the AMFI website]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The cut-off time (generally 3:00 PM for equity/debt schemes and 1:30 PM/2:00 PM for liquid funds) determines which day's NAV applies to a purchase or redemption transaction. If a valid application with funds is received before the cut-off time, the same day's NAV applies. If received after the cut-off, the next business day's NAV applies. SEBI mandated "time stamping" of applications to ensure fairness and prevent NAV arbitrage.
+
+**The Trap:** Cut-off time is NOT about when the AMC stops accepting investments (they can accept anytime, but applicable NAV changes). It is NOT about the fund manager's trading deadline or NAV publication time. The key concept is "applicability of NAV" — not "deadline for operations."
+
+**Cross-Exam Context:** NAV cut-off timing is tested extensively in Series V-A and V-B, often with scenario-based questions. Series III-A tests similar concepts for other securities settlement. The interplay between cut-off time, time stamping, and fund realization is a complex area with multiple SEBI circulars.
+
+**Distributor's Pro-Tip:** Always ensure your clients' applications reach the AMC/registrar before the cut-off time if same-day NAV is desired. For large purchases in liquid/debt funds, remind clients that both the application AND the funds must be received before cut-off. Late submission by even minutes can result in a different (potentially unfavorable) NAV.]]></text></explanation>
+    </question>
+</QF>

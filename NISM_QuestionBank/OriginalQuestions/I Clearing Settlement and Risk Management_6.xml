@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Initial margin in ETCD is computed using which methodology?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[SPAN (Standard Portfolio Analysis of Risk) based on Value-at-Risk (VaR)]]></text></answer>
+            <answer correct="no"><text><![CDATA[A fixed percentage of contract value]]></text></answer>
+            <answer correct="no"><text><![CDATA[Historical loss analysis]]></text></answer>
+            <answer correct="no"><text><![CDATA[Black-Scholes option pricing model]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Initial margin uses SPAN, which considers the entire portfolio of an investor. SPAN generates 16 'what-if' scenarios and computes portfolio-wide margin, not per-position margin.
+**The Trap:** SPAN is portfolio-based (not position-by-position) and uses VaR methodology.
+**Cross-Exam Context:** SPAN margin is tested in Series I, VIII, and VII.
+**Distributor's Pro-Tip:** SPAN margin parameters are updated multiple times daily (11:00, 12:30, 2:00, 3:30, 5:00, 6:30, EOD, BOD).]]></text></explanation>
+    </question>
+</QF>

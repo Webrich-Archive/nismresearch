@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_59" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The Black-Scholes option pricing model requires which of the following inputs?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Spot price, strike price, time to expiry, risk-free rate, and volatility]]></text></answer>
+            <answer correct="no"><text><![CDATA[Spot price, strike price, time to expiry, dividend yield, and trading volume]]></text></answer>
+            <answer correct="no"><text><![CDATA[Strike price, futures price, open interest, volatility, and interest rate]]></text></answer>
+            <answer correct="no"><text><![CDATA[Spot price, market sentiment, lot size, trading volume, and margin requirement]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Black-Scholes 5 inputs:
+1. S - Spot price of underlying
+2. X - Strike price of option
+3. T - Time to expiry
+4. r - Risk-free interest rate
+5. σ (sigma) - Volatility of underlying
+
+**The Trap:** Trading volume, open interest, and lot size are NOT inputs. The model is theoretical.
+
+**Cross-Exam Context:** Black-Scholes assumes: European options, constant volatility, no dividends (basic version), lognormal returns.
+
+**Key Takeaway:** Black-Scholes inputs: S, X, T, r, σ. Five variables, one output (option price).]]></text></explanation>
+    </question>
+</QF>

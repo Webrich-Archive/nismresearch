@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A long straddle involves:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buying a call AND a put at the same strike and same expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Selling a call and a put at the same strike]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buying a call at one strike and a put at a different strike]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buying two calls at different strikes]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Long straddle = Long call + Long put (same strike, same expiry). Profits from large moves in EITHER direction. Max loss = sum of both premiums (occurs if underlying stays at strike).
+**The Trap:** Buying call and put at DIFFERENT strikes is a strangle, not a straddle.
+**Cross-Exam Context:** Straddle strategy is tested in Series I and VIII.
+**Distributor's Pro-Tip:** Two BEPs: Upper = Strike + Total premium. Lower = Strike - Total premium. The underlying must move beyond these for profit.]]></text></explanation>
+    </question>
+</QF>

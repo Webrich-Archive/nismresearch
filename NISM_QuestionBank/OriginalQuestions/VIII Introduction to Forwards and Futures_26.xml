@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_26" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Why is the final settlement price of an index futures contract based on the spot market closing price rather than the futures price?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[To ensure convergence of futures and spot prices at expiry, thereby connecting the derivatives market to the underlying cash market and preventing persistent mispricing]]></text></answer>
+            <answer correct="no"><text><![CDATA[Because futures prices are always inaccurate and cannot be trusted for settlement purposes]]></text></answer>
+            <answer correct="no"><text><![CDATA[Because SEBI mandates that all derivatives must be settled using spot prices to protect retail investors]]></text></answer>
+            <answer correct="no"><text><![CDATA[Because the futures market closes earlier than the spot market on expiry day]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The fundamental principle of derivatives pricing is that at expiry, the futures price must equal the spot price (basis = 0). By using the closing spot price for final settlement, the exchange enforces this convergence. This prevents the futures market from disconnecting from the underlying cash market and ensures that hedging and arbitrage strategies work as intended.
+
+**The Trap:** Futures prices are not 'inaccurate' - they serve as valid price discovery tools during the contract's life. Both markets close at the same time. The reason is economic convergence, not regulatory mandate.
+
+**Cross-Exam Context:** Convergence at expiry is directly related to basis theory and cost of carry, tested throughout Series VIII.
+
+**Key Takeaway:** At expiry, futures price MUST equal spot price. Using spot closing price for settlement enforces this.]]></text></explanation>
+    </question>
+</QF>

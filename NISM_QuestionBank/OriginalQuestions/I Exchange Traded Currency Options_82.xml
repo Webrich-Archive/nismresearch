@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_82" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Option sellers benefit from which Greek?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Theta (time decay)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Delta]]></text></answer>
+            <answer correct="no"><text><![CDATA[Gamma]]></text></answer>
+            <answer correct="no"><text><![CDATA[Vega]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Theta is positive for short positions — sellers benefit as options lose time value daily. Sellers have negative gamma and negative vega (hurt by volatility increases).
+**The Trap:** Sellers are hurt by high gamma (rapid delta changes) and high vega (volatility spikes).
+**Cross-Exam Context:** Greek preferences by position are tested in Series I and VIII.
+**Distributor's Pro-Tip:** Ideal selling environment: Low volatility (low vega risk), near expiry (high theta benefit), ATM options (maximum time value to collect).]]></text></explanation>
+    </question>
+</QF>

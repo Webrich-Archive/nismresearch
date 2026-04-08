@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_36" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An exporter buys 20 lots of USDINR 83 put at Rs. 0.075. The premium paid and premium received on squaring off at Rs. 0.04 gives a net loss of:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 700]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 800]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 350]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Premium paid = 20,000 × 0.075 = Rs. 1,500. Premium received on square-off = 20,000 × 0.04 = Rs. 800. Net loss = 1,500 - 800 = Rs. 700.
+**The Trap:** 20 lots × 1000 = 20,000 units. Don't forget the lot multiplier.
+**Cross-Exam Context:** Square-off P&L calculation is from the workbook example.
+**Distributor's Pro-Tip:** Squaring off before expiry recovers some time value, reducing the total loss compared to holding till an OTM expiry.]]></text></explanation>
+    </question>
+</QF>

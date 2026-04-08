@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_79" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader's initial margin deposit is Rs. 1,00,000 for a futures position. After MTM losses of Rs. 35,000, the margin balance drops to Rs. 65,000. If the maintenance margin is 75% of initial margin, what happens?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The margin balance (Rs. 65,000) is below the maintenance margin (Rs. 75,000), so the trader receives a margin call to bring the balance back to the initial margin of Rs. 1,00,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Nothing happens because the margin balance is still positive at Rs. 65,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[The trader's position is automatically squared off at the next day's opening]]></text></answer>
+            <answer correct="no"><text><![CDATA[The exchange waives the margin shortfall since it is less than 50% of the initial margin]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step analysis:
+1. Initial margin = Rs. 1,00,000
+2. Maintenance margin = 75% x 1,00,000 = Rs. 75,000
+3. Current margin balance = 1,00,000 - 35,000 = Rs. 65,000
+4. Since 65,000 < 75,000 (maintenance level), a margin call is triggered
+5. Trader must deposit: 1,00,000 - 65,000 = Rs. 35,000 to restore to initial margin level
+
+**The Trap:** The position is not immediately squared off - the trader first gets a chance to add funds. The exchange does not waive shortfalls. Having a positive balance is not sufficient - it must be above the maintenance margin.
+
+**Cross-Exam Context:** Margin call mechanics are extensively tested in Series VIII clearing and settlement chapter.
+
+**Key Takeaway:** Margin call triggered when balance falls below maintenance margin. Must restore to INITIAL margin level.]]></text></explanation>
+    </question>
+</QF>

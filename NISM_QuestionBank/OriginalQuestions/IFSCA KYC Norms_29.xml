@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IFSCA KYC Norms_29" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[When the risk categorization assigned by the Financial Group differs from that assigned by the Regulated Entity in IFSC for a resident Indian customer, which periodicity for CDD updation shall apply?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The stricter of the two periodicities shall apply]]></text></answer>
+            <answer correct="no"><text><![CDATA[The more lenient of the two periodicities shall apply]]></text></answer>
+            <answer correct="no"><text><![CDATA[The Financial Group's periodicity shall always prevail]]></text></answer>
+            <answer correct="no"><text><![CDATA[The Regulated Entity's own periodicity shall always prevail]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When there is a difference in risk categorization between the Financial Group and the Regulated Entity in IFSC, the STRICTER of the two periodicities applies. This follows the conservative principle in AML/CFT compliance -- when in doubt, apply the higher standard of due diligence to ensure adequate protection against ML/TF risks.
+
+**The Trap:** "The more lenient periodicity" would undermine the protective purpose of CDD. Neither the Financial Group's nor the Regulated Entity's categorization automatically prevails -- it is always the STRICTER one that applies, regardless of which entity assigned it. This prevents regulatory arbitrage within a group structure.
+
+**Cross-Exam Context:** This principle of applying the stricter standard is consistent with the overall IFSCA approach to AML/CFT, where higher-risk assessments trigger more rigorous compliance obligations. It also aligns with the FATF principle that risk mitigation measures should be commensurate with the identified risks.
+
+**Key Takeaway:** When risk categorizations differ between Financial Group and Regulated Entity, always apply the STRICTER periodicity. Conservative approach = more frequent CDD = better protection.]]></text></explanation>
+    </question>
+</QF>

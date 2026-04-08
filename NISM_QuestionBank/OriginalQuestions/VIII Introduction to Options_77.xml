@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_77" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader writes (sells) a call option with strike Rs. 18,000 and receives a premium of Rs. 180. At expiry, the underlying is at Rs. 18,300. What is the writer's profit/loss?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Loss of Rs. 120]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 180]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 300]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 300]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Short Call Profit = Premium - max(S - X, 0)
+
+Step-by-step:
+1. Premium received = Rs. 180
+2. S = 18,300, X = 18,000
+3. Payoff to buyer = max(18,300 - 18,000, 0) = Rs. 300
+4. Writer's P/L = 180 - 300 = -Rs. 120 (LOSS)
+
+**The Trap:** The writer's loss is the buyer's gain minus premium received, NOT just the difference.
+
+**Cross-Exam Context:** Short call writer loses when S > X + P (BEP). Here BEP = 18,180, spot is above.
+
+**Key Takeaway:** Short call P/L = Premium received - max(S - X, 0). Loss when S > X + P.]]></text></explanation>
+    </question>
+</QF>

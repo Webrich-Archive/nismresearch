@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Risk Return and Performance_48" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[CASE STUDY (continued): Using the same data:
+- Fund Alpha: Return = 18%, Std Dev = 15%, Beta = 1.3
+- Fund Beta: Return = 14%, Std Dev = 10%, Beta = 0.9
+- Risk-Free Rate = 7%, Market Return = 14%
+
+Question 2 of 4: What are the Treynor ratios of Fund Alpha and Fund Beta respectively?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Fund Alpha = 13.85, Fund Beta = 15.56]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Fund Alpha = 8.46, Fund Beta = 7.78]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fund Alpha = 11.00, Fund Beta = 7.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fund Alpha = 7.78, Fund Beta = 8.46]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Treynor Ratio = (Fund Return - Risk-Free Rate) / Beta.
+Fund Alpha Treynor = (18% - 7%) / 1.3 = 11/1.3 = 8.46.
+Fund Beta Treynor = (14% - 7%) / 0.9 = 7/0.9 = 7.78.
+Fund Alpha has a higher Treynor ratio (8.46 vs 7.78), indicating it delivers more excess return per unit of systematic (market) risk.
+
+**The Trap:** Option A (13.85, 15.56) would result from dividing total return by beta instead of excess return. Option D reverses the values between the two funds. Option C uses the wrong formula. Remember: Treynor uses BETA (systematic risk) in the denominator, unlike Sharpe which uses standard deviation (total risk).
+
+**Cross-Exam Context:** Note the interesting divergence from Sharpe ratios. While Sharpe ratios were very close (0.73 vs 0.70), the Treynor ratios show Fund Alpha more clearly ahead (8.46 vs 7.78). This is because Fund Alpha's total risk (15% std dev) is proportionally higher than its systematic risk (1.3 beta), while Fund Beta's risks are more proportional.
+
+**Distributor's Pro-Tip:** The divergence between Sharpe and Treynor rankings provides insight into risk composition. Fund Alpha carries relatively more unsystematic (specific) risk compared to Fund Beta. For a well-diversified investor, the Treynor ratio is more relevant, and Fund Alpha looks better on that measure.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Legal and Regulatory Framework_27" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under SEBI regulations, what happens if a mutual fund AMC fails to dispatch redemption proceeds within 10 business days from the date of redemption request?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The AMC faces a one-time penalty from SEBI but no payment to the investor]]></text></answer>
+            <answer correct="no"><text><![CDATA[The redemption request is automatically cancelled]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The AMC must pay interest at 15% per annum to the investor for the period of delay]]></text></answer>
+            <answer correct="no"><text><![CDATA[The trustee must compensate the investor from the sponsor's contribution]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under SEBI Mutual Fund Regulations, if an AMC fails to dispatch redemption proceeds within 10 business days from the date of the redemption request, it must pay interest at 15% per annum to the investor for the delayed period. This penal interest is paid by the AMC from its own resources (not from the scheme's assets). The standard processing timeline is T+3 for most schemes and T+1 for liquid/overnight funds, but 10 business days is the absolute outer limit.
+
+**The Trap:** The redemption is NOT cancelled — the investor retains the right to receive proceeds plus penal interest. The penalty is paid TO the investor (not to SEBI as a fine). The trustee does not compensate from sponsor funds — it is the AMC's responsibility. This investor-protection mechanism ensures AMCs prioritize timely redemption processing.
+
+**Cross-Exam Context:** Redemption timelines and penalties are tested in Series V-A, V-B, and Series III-A. The 15% p.a. penal interest rate is a specific number that must be memorized. This connects to investor rights and obligations — a key topic across multiple NISM certifications.
+
+**Distributor's Pro-Tip:** If your client's redemption is delayed beyond 10 business days, proactively follow up with the AMC and inform the client about their right to penal interest. Document the delay with timestamps. In most cases, AMCs process within T+3, but during extreme market stress (like March 2020), processing delays were reported.]]></text></explanation>
+    </question>
+</QF>

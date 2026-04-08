@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The BEP (Break-Even Point) for a long call option is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Strike price + Premium paid]]></text></answer>
+            <answer correct="no"><text><![CDATA[Strike price - Premium paid]]></text></answer>
+            <answer correct="no"><text><![CDATA[Spot price + Premium paid]]></text></answer>
+            <answer correct="no"><text><![CDATA[Spot price - Premium paid]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Long call BEP = X + C (Strike + Call premium). At this point, the intrinsic value exactly offsets the premium paid, resulting in zero net profit/loss.
+**The Trap:** For put options, BEP = X - P (Strike minus Put premium).
+**Cross-Exam Context:** BEP calculations are tested in Series I and VIII.
+**Distributor's Pro-Tip:** BEP is instrument-specific (call or put), not position-specific. Both long and short call have the same BEP = X + C.]]></text></explanation>
+    </question>
+</QF>

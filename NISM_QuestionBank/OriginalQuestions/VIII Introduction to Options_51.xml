@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_51" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The option Greek 'Theta' measures:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The rate at which an option loses value as time passes (time decay)]]></text></answer>
+            <answer correct="no"><text><![CDATA[The sensitivity of option price to changes in the underlying price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The rate of change of delta over time]]></text></answer>
+            <answer correct="no"><text><![CDATA[The sensitivity of option price to changes in volatility]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Theta (Θ) = Change in Option Price / Change in Time
+
+Theta represents TIME DECAY - how much value an option loses each day as expiry approaches. It is usually expressed as a negative number for long options.
+
+**The Trap:** Theta is NOT the same as vega (volatility) or delta (price sensitivity).
+
+**Cross-Exam Context:** Theta is the option writer's best friend (they benefit from time decay) and the buyer's enemy.
+
+**Key Takeaway:** Theta = time decay per day. Negative for long options. Positive for short options.]]></text></explanation>
+    </question>
+</QF>

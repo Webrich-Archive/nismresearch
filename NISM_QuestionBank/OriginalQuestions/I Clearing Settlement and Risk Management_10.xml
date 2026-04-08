@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The cash component of liquid assets deposited by a clearing member must be at least:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[50% of the total liquid assets]]></text></answer>
+            <answer correct="no"><text><![CDATA[25% of total liquid assets]]></text></answer>
+            <answer correct="no"><text><![CDATA[75% of total liquid assets]]></text></answer>
+            <answer correct="no"><text><![CDATA[100% (all must be cash)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Cash component ≥ 50% of total liquid assets. Non-cash exceeding cash is not counted. Cash includes: actual cash, bank guarantees, FDRs, money market MF units, gilt funds, G-Sec.
+**The Trap:** If non-cash exceeds 50%, the excess is disregarded for liquid asset calculation.
+**Cross-Exam Context:** Collateral requirements are tested in Series I and VII.
+**Distributor's Pro-Tip:** Non-cash component includes demat securities (from approved list), other mutual fund units, and other approved collateral.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_64" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader buys Nifty futures at 22,000 and on expiry day the closing Nifty spot value is 22,350. The previous day's settlement price was 22,200. The final settlement profit per lot (25 units) is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 3,750]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 8,750]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 5,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 3,500]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step:
+1. Previous settlement price = 22,200 (all prior movement already settled via MTM)
+2. Final settlement price (spot closing) = 22,350
+3. Final settlement = (22,350 - 22,200) x 25 = 150 x 25 = Rs. 3,750
+
+Note: The total profit from entry = (22,350 - 22,000) x 25 = Rs. 8,750, but Rs. 5,000 was already received through daily MTM, leaving Rs. 3,750 for final settlement.
+
+**The Trap:** Rs. 8,750 is the TOTAL profit, not the final settlement amount. Daily MTMs already settled Rs. 5,000 (22,200 - 22,000 = 200 x 25). Only the remaining Rs. 3,750 is settled on expiry.
+
+**Cross-Exam Context:** Distinguishing between total P&L and final settlement amount is a common exam trap.
+
+**Key Takeaway:** Final settlement = Spot closing - Previous settlement price. NOT from original entry price (prior MTMs already covered that).]]></text></explanation>
+    </question>
+</QF>

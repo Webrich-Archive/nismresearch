@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV TER and Pricing_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investor invested Rs. 2,00,000 in an equity fund when the NAV was Rs. 100. After 2 years, the NAV has grown to Rs. 130. During this period, the scheme's TER was 2% per annum. What was the approximate gross return (before TER) per annum that the scheme's portfolio generated?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Approximately 17% per annum]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 15% per annum]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 13% per annum]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 30% per annum]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The NAV grew from Rs. 100 to Rs. 130 in 2 years, which is a net return of 30% over 2 years, or approximately 15% per annum (simple approximation). Since NAV already reflects deduction of TER (2% p.a.), the gross return = net return + TER = 15% + 2% = approximately 17% per annum. (Note: Exact compounded calculation would differ slightly, but for exam purposes this approximation is used.)
+
+**The Trap:** 15% per annum is the net return (after TER deduction) — the candidate forgets to add back TER to get gross return. 13% subtracts TER from net return instead of adding it. 30% per annum takes the total 2-year return without annualizing.
+
+**Cross-Exam Context:** Understanding the relationship between gross return, TER, and net return (reflected in NAV) is key in NISM V-A. Gross Portfolio Return = Net Return to Investor + TER. NAV reflects the net return after TER deduction.
+
+**Distributor's Pro-Tip:** When evaluating fund manager performance, look at the gross return (before TER) to assess stock-picking skill, but always quote net returns to clients since that is what they actually earn. A fund with higher gross returns but very high TER may deliver lower net returns than a fund with moderate gross returns and low TER.]]></text></explanation>
+    </question>
+</QF>

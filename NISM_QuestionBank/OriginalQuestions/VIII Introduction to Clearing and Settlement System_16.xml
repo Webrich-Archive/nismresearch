@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_16" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Initial margin is collected from:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Both buyers and sellers of futures contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the seller of futures contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the buyer of futures contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only from institutional participants]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In futures trading, both the buyer (long) and the seller (short) face the risk of adverse price movements. The buyer risks price falling, and the seller risks price rising. Therefore, initial margin is collected from BOTH parties to ensure they can meet their obligations.
+
+**The Trap:** Unlike options (where only the seller faces unlimited risk), futures positions have symmetric risk for both parties. Hence both need to post margin.
+
+**Cross-Exam Context:** Understanding who posts margin and why is fundamental to derivatives risk management.
+
+**Key Takeaway:** Futures: both buyer and seller post initial margin. Options: seller posts margin, buyer pays premium.]]></text></explanation>
+    </question>
+</QF>

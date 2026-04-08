@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_55" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For a short (seller) call position, maximum profit is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Equal to the premium received]]></text></answer>
+            <answer correct="no"><text><![CDATA[Unlimited]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equal to the strike price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equal to the contract value minus premium]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The call seller's maximum profit = premium received. This occurs when the option expires OTM (spot ≤ strike) and the buyer doesn't exercise.
+**The Trap:** Maximum LOSS for the seller is unlimited (if spot keeps rising above BEP).
+**Cross-Exam Context:** Seller's risk-reward is tested in all options exams.
+**Distributor's Pro-Tip:** Option selling is a high-probability, low-reward strategy. Most options expire worthless, but the few that don't can cause significant losses.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Option Trading Strategies_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In a bull call spread, if the stock price at expiry is between the two strike prices, the investor's profit or loss depends on:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The extent to which the stock price exceeds the lower strike minus the net premium paid]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the premium received from the sold call]]></text></answer>
+            <answer correct="no"><text><![CDATA[The difference between the two strike prices]]></text></answer>
+            <answer correct="no"><text><![CDATA[The total premium paid for both options]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Between the two strikes: the bought call (lower strike) is in-the-money and has intrinsic value, while the sold call (higher strike) expires worthless. The P&L = (Stock price - Lower strike) - Net premium paid. This can be a profit or loss depending on how far above the lower strike the stock is.
+
+**The Trap:** The maximum profit is NOT achieved between the strikes - it is achieved only above the higher strike. Between strikes, the position is partially profitable.
+
+**Cross-Exam Context:** Understanding the payoff zones (below lower strike, between strikes, above upper strike) is key for all spread questions.
+
+**Key Takeaway:** In a bull call spread between the strikes: P&L = (Spot - Lower Strike) - Net Premium. Full profit only above upper strike.]]></text></explanation>
+    </question>
+</QF>

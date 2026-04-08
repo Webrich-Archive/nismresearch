@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Option Trading Strategies_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investor owns 200 shares of ICICI Bank at Rs. 1,100. She buys a 1050 PE at Rs. 40. If ICICI Bank falls to Rs. 950 at expiry, what is her net loss per share?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 90]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 150]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 40]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation (Protective Put):
+1. Stock bought at Rs. 1,100; Stock at expiry = Rs. 950
+2. Stock loss = 1,100 - 950 = Rs. 150
+3. Put payoff = Strike - Spot = 1,050 - 950 = Rs. 100 (ITM)
+4. Put cost = Rs. 40
+5. Net put gain = 100 - 40 = Rs. 60
+6. Net loss = Stock loss - Net put gain = 150 - 60 = Rs. 90
+
+Alternative: Max loss = (Stock price - Put strike) + Premium = (1,100 - 1,050) + 40 = Rs. 90
+
+**The Trap:** Without the protective put, the loss would be Rs. 150. The put limits loss to Rs. 90 (the gap between stock cost and strike, plus premium). Some may forget to add the premium cost.
+
+**Cross-Exam Context:** Protective put creates a floor on losses, similar to insurance. Frequently compared to covered call.
+
+**Key Takeaway:** Protective put = Long stock + Long put. Max loss = (Stock price - Strike) + Premium paid. Acts as portfolio insurance.]]></text></explanation>
+    </question>
+</QF>

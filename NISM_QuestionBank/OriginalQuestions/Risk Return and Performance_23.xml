@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Risk Return and Performance_23" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Total return of a mutual fund includes:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Only the capital appreciation (change in NAV)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the dividends/IDCW distributed]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Both capital appreciation and dividends/IDCW distributed]]></text></answer>
+            <answer correct="no"><text><![CDATA[Capital appreciation minus the expense ratio]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Total return captures the complete gain from an investment, including both capital appreciation (increase in NAV) and income distributions (dividends/IDCW). When a fund distributes IDCW, the NAV drops by the distribution amount. Looking at NAV change alone would understate the fund's actual performance because it ignores the cash received through distributions.
+
+**The Trap:** Many investors mistakenly judge fund performance solely by NAV change, ignoring IDCW distributions. This makes IDCW-option funds appear to underperform growth-option funds when comparing NAVs. Total return adjusts for this by adding back distributions to the NAV change.
+
+**Cross-Exam Context:** SEBI requires benchmark comparison using TRI (Total Return Index), which similarly accounts for dividends in the index. This ensures that a fund's total return is compared against the benchmark's total return, providing a fair comparison. The SEBI requirement for 1-year, 3-year, 5-year, and since-inception returns uses total return methodology.
+
+**Distributor's Pro-Tip:** When presenting returns of funds under the IDCW option to clients, always use total return figures. Simply comparing NAVs between IDCW and growth options is misleading. Most factsheets and data providers report total returns by default, but always verify this with clients who may be looking at raw NAV data.]]></text></explanation>
+    </question>
+</QF>

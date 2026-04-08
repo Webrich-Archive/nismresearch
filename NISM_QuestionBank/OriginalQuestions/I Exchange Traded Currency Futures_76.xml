@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_76" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the context of currency futures, 'convergence' means:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[At expiry, the futures price equals the spot price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Multiple exchanges quoting the same price]]></text></answer>
+            <answer correct="no"><text><![CDATA[All currency pairs moving in the same direction]]></text></answer>
+            <answer correct="no"><text><![CDATA[Interest rates in two countries becoming equal]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Convergence refers to futures price moving towards and eventually equaling the spot price at expiry. This is guaranteed because the final settlement uses the spot rate (FBIL reference rate).
+**The Trap:** Convergence is about price convergence over time, not simultaneous pricing across exchanges.
+**Cross-Exam Context:** Convergence is a universal concept tested in all derivatives exams.
+**Distributor's Pro-Tip:** The convergence mechanism prevents the futures price from permanently deviating from fair value.]]></text></explanation>
+    </question>
+</QF>

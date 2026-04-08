@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A put option with a strike price of Rs. 17,500 when the underlying spot price is Rs. 18,000 is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Out-of-the-Money (OTM) because the spot price is above the strike price]]></text></answer>
+            <answer correct="no"><text><![CDATA[In-the-Money (ITM) because the spot price is above the strike price]]></text></answer>
+            <answer correct="no"><text><![CDATA[At-the-Money (ATM) because both values are close to 18,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[In-the-Money because the strike price is a round number]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For a PUT option: OTM when Spot > Strike. Here Spot (18,000) > Strike (17,500), so the put is OTM.
+- Put ITM: S < X (spot below strike - put buyer benefits)
+- Put ATM: S ≈ X
+- Put OTM: S > X (spot above strike - put has no exercise value)
+
+**The Trap:** Moneyness for puts is OPPOSITE to calls. When a call is ITM, the same-strike put is OTM.
+
+**Cross-Exam Context:** If call with strike X is ITM, put with same strike X is OTM (and vice versa).
+
+**Key Takeaway:** Put ITM: S < X (underlying below strike). Put OTM: S > X (underlying above strike).]]></text></explanation>
+    </question>
+</QF>

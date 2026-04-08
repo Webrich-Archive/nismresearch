@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_70" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In India, which option exercise style is permitted for OTC currency options?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[European only]]></text></answer>
+            <answer correct="no"><text><![CDATA[American only]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both European and American]]></text></answer>
+            <answer correct="no"><text><![CDATA[Bermuda style]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In India, ONLY European options are permitted for both OTC and exchange-traded currency options. This means exercise is allowed only at maturity.
+**The Trap:** Some students assume OTC allows American style due to its flexibility — but this is not the case in India.
+**Cross-Exam Context:** This regulatory restriction is specific to Series I.
+**Distributor's Pro-Tip:** The European-only restriction simplifies pricing and reduces the risk of unexpected early exercise for sellers.]]></text></explanation>
+    </question>
+</QF>

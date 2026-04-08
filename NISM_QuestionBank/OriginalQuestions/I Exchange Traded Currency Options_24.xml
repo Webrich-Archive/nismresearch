@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The Binomial Option Pricing Model was developed by:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[William Sharpe in 1978]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fischer Black and Myron Scholes in 1973]]></text></answer>
+            <answer correct="no"><text><![CDATA[Black in 1976]]></text></answer>
+            <answer correct="no"><text><![CDATA[John Cox in 1985]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The Binomial model was developed by William Sharpe in 1978. It represents price evolution as a binomial tree (up or down at each step). Black-Scholes was published in 1973.
+**The Trap:** Cox, Ross, and Rubinstein (1979) also developed a binomial model, but the NISM workbook attributes it to Sharpe (1978).
+**Cross-Exam Context:** Model attribution is tested in Series I.
+**Distributor's Pro-Tip:** Binomial is more flexible (works for American options too) but slower to compute. Black-Scholes is faster but works best for European options.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_49" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The Settlement Guarantee Fund (SGF) is maintained by:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The clearing corporation, funded by contributions from the clearing corporation, exchanges, and clearing members]]></text></answer>
+            <answer correct="no"><text><![CDATA[Individual trading members for their own default protection]]></text></answer>
+            <answer correct="no"><text><![CDATA[SEBI directly as a regulatory reserve]]></text></answer>
+            <answer correct="no"><text><![CDATA[Client investors through a percentage of their trades]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The SGF is a dedicated fund maintained by the clearing corporation to guarantee settlement even if a member defaults. It is funded by contributions from the clearing corporation's own resources, the exchange, and clearing members. It acts as the last line of defense in the default waterfall.
+
+**The Trap:** SGF is not funded by clients directly or by SEBI. It is a mutual guarantee fund within the clearing ecosystem.
+
+**Cross-Exam Context:** SGF is part of the default waterfall mechanism discussed in clearing and settlement chapters.
+
+**Key Takeaway:** SGF = settlement guarantee fund at CC level. Funded by CC + exchange + members. Ensures settlement even in member default.]]></text></explanation>
+    </question>
+</QF>

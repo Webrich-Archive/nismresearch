@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_80" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader writes (sells) a put option with strike Rs. 17,500 and receives premium Rs. 200. At expiry, the underlying is at Rs. 17,200. What is the writer's profit/loss?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Loss of Rs. 100]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 200]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 300]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 300]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Short Put Profit = Premium - max(X - S, 0)
+
+Step-by-step:
+1. Premium = 200, X = 17,500, S = 17,200
+2. Payoff to buyer = max(17,500 - 17,200, 0) = Rs. 300
+3. Writer's P/L = 200 - 300 = -Rs. 100 (LOSS)
+
+**The Trap:** Writer's loss = buyer's payoff - premium received. Not just the price difference.
+
+**Cross-Exam Context:** Put writer's BEP = X - P = 17,300. Spot 17,200 < 17,300, so writer has loss.
+
+**Key Takeaway:** Short put P/L = Premium - max(X - S, 0). Loss when S < X - P.]]></text></explanation>
+    </question>
+</QF>

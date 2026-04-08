@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_18" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The 'lot size' or 'contract multiplier' in a futures contract refers to:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The fixed number of units of the underlying asset covered by one futures contract, as specified by the exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[The maximum number of contracts a single trader can hold at any point in time]]></text></answer>
+            <answer correct="no"><text><![CDATA[The number of contracts traded in a single trading session]]></text></answer>
+            <answer correct="no"><text><![CDATA[The minimum price movement allowed in the futures contract]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The lot size (or contract multiplier) defines how many units of the underlying asset are covered by one futures contract. For example, if Nifty futures have a lot size of 65, one contract represents 65 units of the Nifty index. The contract value = futures price x lot size.
+
+**The Trap:** Maximum position is called 'position limit,' not lot size. Contracts traded is 'volume.' Minimum price movement is 'tick size.' All different concepts.
+
+**Cross-Exam Context:** Lot sizes are specified by SEBI/exchanges and tested in Series VIII. SEBI's Oct 2024 circular revised contract values to Rs. 15-20 lakhs.
+
+**Key Takeaway:** Lot size = number of units per contract. Contract value = Price x Lot size.]]></text></explanation>
+    </question>
+</QF>

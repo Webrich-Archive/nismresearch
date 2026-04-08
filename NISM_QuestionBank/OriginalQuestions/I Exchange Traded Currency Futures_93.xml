@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_93" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An exporter shorts 150 lots of USDINR futures at 84.50 to hedge USD 150,000 receivable. At expiry, spot is 83.00. What is the effective rate realized?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Approximately Rs. 84.50 per USD]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 83.00 per USD]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 85.00 per USD]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 83.75 per USD]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Futures profit = (84.50 - 83.00) × 1000 × 150 = Rs. 2,25,000. Spot conversion: 150,000 × 83 = Rs. 1,24,50,000. Total INR = 1,24,50,000 + 2,25,000 = Rs. 1,26,75,000. Effective rate = 1,26,75,000/150,000 = Rs. 84.50.
+**The Trap:** The hedge locks in approximately the futures entry rate, regardless of spot movement.
+**Cross-Exam Context:** Hedging effectiveness is the core application in Series I.
+**Distributor's Pro-Tip:** The Rs. 1.50 that spot fell below the entry rate is exactly compensated by the futures profit.]]></text></explanation>
+    </question>
+</QF>

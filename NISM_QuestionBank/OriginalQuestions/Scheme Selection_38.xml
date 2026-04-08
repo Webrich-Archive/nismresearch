@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Scheme Selection_38" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A debt fund portfolio has the following composition: 40% in bonds with modified duration 2 years, 35% in bonds with modified duration 5 years, and 25% in bonds with modified duration 8 years. What is the portfolio's weighted average modified duration?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[5.0 years]]></text></answer>
+            <answer correct="yes"><text><![CDATA[4.55 years]]></text></answer>
+            <answer correct="no"><text><![CDATA[3.75 years]]></text></answer>
+            <answer correct="no"><text><![CDATA[6.20 years]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Weighted average modified duration = (Weight1 x Duration1) + (Weight2 x Duration2) + (Weight3 x Duration3). = (0.40 x 2) + (0.35 x 5) + (0.25 x 8) = 0.80 + 1.75 + 2.00 = 4.55 years. This means if interest rates change by 1%, the portfolio NAV will change by approximately 4.55%.
+
+**The Trap:** Simply averaging the durations (2+5+8)/3 = 5 years ignores the different weights. The portfolio has the heaviest allocation (40%) in the shortest-duration bonds, which pulls the average duration lower than a simple average. Always use weighted average for portfolio-level metrics.
+
+**Cross-Exam Context:** This calculation helps classify the fund into SEBI categories. With a Macaulay duration of approximately 4.55 years (modified duration is slightly lower than Macaulay), this fund would fall in the 'Medium to Long Duration' category (Macaulay duration 4-7 years). Understanding portfolio duration helps assess whether the fund's risk level matches the investor's horizon and risk tolerance.
+
+**Distributor's Pro-Tip:** Use portfolio duration to explain interest rate risk concretely. Tell the client: 'This fund has a duration of 4.55 years, meaning a 0.50% rate hike could cause a temporary NAV decline of about 2.27%. But if you hold for approximately 4.55 years, the higher reinvestment returns will compensate.' This frames volatility as temporary and manageable.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Trading Mechanism_46" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is a 'market order with protection'?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A combination of market and limit order that executes up to a specified price level mentioned by the trader]]></text></answer>
+            <answer correct="no"><text><![CDATA[A market order that is guaranteed by the exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[A market order with automatic stop loss]]></text></answer>
+            <answer correct="no"><text><![CDATA[A market order that cannot be cancelled]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Market with protection order limits execution to a specified price level, protecting against extreme price slippage. It's better than a pure market order for large quantities.
+**The Trap:** It's not 'guaranteed' by the exchange — it simply limits the execution price range.
+**Cross-Exam Context:** Order types are tested in Series I.
+**Distributor's Pro-Tip:** Useful when you want quick execution but want to avoid getting filled at wildly different prices in an illiquid market.]]></text></explanation>
+    </question>
+</QF>

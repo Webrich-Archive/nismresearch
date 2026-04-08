@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="Secondary Markets_43" sectionNumber="" articleNumber="0" articleName="">
+    <question><text>What happens in an auction conducted by the clearing corporation?</text>
+        <answers>
+            <answer correct="yes"><text>The clearing corporation buys shares in the market to deliver to a buyer whose counterparty failed to deliver securities (short delivery)</text></answer>
+            <answer correct="no"><text>The clearing corporation sells its own shares to raise funds</text></answer>
+            <answer correct="no"><text>Investors bid for new shares being issued by a company</text></answer>
+            <answer correct="no"><text>The clearing corporation auctions the membership of defaulting brokers</text></answer>
+        </answers>
+        <explanation><text>**The Logic:** When a member fails to deliver securities (short delivery), the clearing corporation conducts an auction to buy the required shares and deliver them to the buyer. The defaulting member pays the closing price value plus any price difference from the auction.
+**The Trap:** Auction is not about issuing new shares (option c) or selling membership (option d). It is specifically to resolve short delivery situations where the seller fails to deliver.
+**Cross-Exam Context:** Bad delivery (technical rejection by depository) also triggers auction. The clearing member must close the shortfall by paying the clearing corporation. This protects the buying investor.
+**Distributor's Pro-Tip:** Auction = CC's solution for short delivery. If your counterparty doesn't deliver shares, the CC buys them from the market and delivers to you. The defaulter bears the cost.</text></explanation>
+    </question>
+</QF>

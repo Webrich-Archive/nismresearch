@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_40" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader shorts 8 lots of GBPINR futures at 104.25. The settlement is at 103.50. What is the profit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 6,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 600]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 60,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 6,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Short position: P&L = (Entry - Settlement) × 1000 × Lots = (104.25 - 103.50) × 1000 × 8 = 0.75 × 8000 = Rs. 6,000 profit.
+**The Trap:** Short profits when price falls. GBPINR lot size is 1000 GBP.
+**Cross-Exam Context:** Short futures P&L is tested in Series I and VIII.
+**Distributor's Pro-Tip:** GBP typically has the highest absolute price among INR pairs, meaning each lot has a higher contract value and higher absolute P&L per point move.]]></text></explanation>
+    </question>
+</QF>

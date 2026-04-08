@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An exporter sells 4-month USDINR futures at 81.75 and squares up at 83.05 when spot is 83. The effective exchange rate for the exporter is approximately:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 81.70 per USD]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 83.00 per USD]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 83.05 per USD]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 81.75 per USD]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Spot conversion: 83. Futures loss: 83.05 - 81.75 = 1.30. Effective rate = 83 - 1.30 = 81.70 (or: budgeted 81 + combined effect 0.70 = 81.70).
+**The Trap:** The hedge locks in approximately the futures entry rate (81.75) minus basis difference, regardless of spot movement.
+**Cross-Exam Context:** This is directly from the NISM workbook hedging example.
+**Distributor's Pro-Tip:** If INR had appreciated instead (spot = 80, futures = 80.05), the effective rate would still be approximately 81.70.]]></text></explanation>
+    </question>
+</QF>

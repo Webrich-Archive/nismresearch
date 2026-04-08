@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_35" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An option writer who sells a call option at a premium of Rs. 150 with strike price Rs. 18,000 will make a profit when:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The underlying price stays at or below Rs. 18,150 (Strike + Premium) at expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[The underlying price rises above Rs. 18,000 at expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[The underlying price falls to zero at expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[The underlying price equals exactly Rs. 18,000 at expiry]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Short call writer's BEP = Strike + Premium = 18,000 + 150 = 18,150
+- Profit when S <= 18,150 at expiry
+- Maximum profit (Rs. 150) when S <= 18,000 (option expires worthless)
+- Between 18,000 and 18,150: partial profit (premium received > payoff to buyer)
+- Loss when S > 18,150
+
+**The Trap:** The writer can still profit even if S is slightly above the strike, as long as S < BEP.
+
+**Cross-Exam Context:** Writer profits when option expires OTM or loss is less than premium received.
+
+**Key Takeaway:** Short call profit zone: S <= X + P. Max profit = P (when S <= X).]]></text></explanation>
+    </question>
+</QF>

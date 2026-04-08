@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Introduction to Currency Markets_50" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An Indian company receives an export payment of EUR 500,000 in one month. To hedge the currency risk, it enters a forward contract to sell EUR. If the forward EUR/INR rate is 84.00, what INR amount is the company guaranteed to receive?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[INR 4,20,00,000 (INR 4.2 crore)]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 42,00,000 (INR 42 lakh)]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 4,200]]></text></answer>
+            <answer correct="no"><text><![CDATA[The amount depends on the spot rate at maturity]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In a forward contract, the rate is fixed on the trade date. EUR 500,000 × 84.00 = INR 42,000,000 = INR 4.2 crore. This amount is guaranteed regardless of the spot rate at maturity.
+**The Trap:** The whole point of the forward contract is to lock in the rate — the actual spot rate at maturity is irrelevant.
+**Cross-Exam Context:** Forward contracts are the foundation for futures (tested in depth in Series I Chapter 3).
+**Distributor's Pro-Tip:** Exporters use forward contracts to lock in INR receivables; importers use them to lock in INR payables. This eliminates exchange rate uncertainty.]]></text></explanation>
+    </question>
+</QF>

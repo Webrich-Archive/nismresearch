@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the intrinsic value of a call option with strike price Rs. 17,500 when Nifty spot is at Rs. 18,200?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 700]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 18,200]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 17,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Intrinsic Value of Call = max(S - X, 0) = max(18,200 - 17,500, 0) = max(700, 0) = Rs. 700
+
+Step-by-step:
+1. S (Spot) = 18,200
+2. X (Strike) = 17,500
+3. S - X = 18,200 - 17,500 = 700
+4. Since 700 > 0, Intrinsic Value = 700
+
+**The Trap:** Intrinsic value can NEVER be negative. If S < X for a call, intrinsic value = 0 (not negative).
+
+**Cross-Exam Context:** Intrinsic value is the "exercise value" - what you'd get if you exercised right now.
+
+**Key Takeaway:** Call IV = max(S - X, 0). Put IV = max(X - S, 0). IV is always >= 0.]]></text></explanation>
+    </question>
+</QF>

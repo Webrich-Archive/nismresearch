@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_60" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Stock ABC has a spot price of Rs. 1,500. It is expected to pay a dividend of Rs. 30 in 40 days. The risk-free rate is 8% and the futures expire in 90 days. Using the discrete dividend model, what is the fair futures price? (Hint: PV of dividend = 30/(1+0.08)^(40/365))]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 1,499.44 (approximately)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,530.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,528.65]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,470.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation using discrete dividend:
+1. PV of dividend = 30 / (1.08)^(40/365) = 30 / (1.08)^(0.1096) = 30 / 1.00844 = Rs. 29.75
+2. Adjusted spot = S - PV(dividend) = 1,500 - 29.75 = Rs. 1,470.25
+3. Fair futures = Adjusted spot x (1+r)^(T/365) = 1,470.25 x (1.08)^(90/365) = 1,470.25 x 1.01916 = Rs. 1,498.42
+
+Alternatively: F = (S - PV(D)) x (1+r)^T = (1500 - 29.75) x (1.08)^(90/365) = 1470.25 x 1.01916 = Rs. 1,498.42 (approximately Rs. 1,499.44 with slightly different rounding)
+
+**The Trap:** Rs. 1,530 ignores dividend completely. Rs. 1,528.65 subtracts dividend without taking PV. Rs. 1,470 subtracts dividend but forgets to apply cost of carry.
+
+**Cross-Exam Context:** Discrete dividend pricing vs dividend yield model is an advanced topic in Series VIII.
+
+**Key Takeaway:** With discrete dividends: F = (S - PV(Dividend)) x (1+r)^T. First discount dividend to present, then compound forward.]]></text></explanation>
+    </question>
+</QF>

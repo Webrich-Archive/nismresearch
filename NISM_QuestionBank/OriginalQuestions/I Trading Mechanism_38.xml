@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Trading Mechanism_38" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Business Continuity for interoperable segments means:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[If one exchange faces an outage, participants can hedge/offset positions on another exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both exchanges must close simultaneously]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trades are cancelled if an exchange goes down]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only one exchange operates at a time]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For interoperable segments (CDS, equity derivatives), if identical products are on another exchange, participants can take offsetting positions there. NSE acts as alternative for BSE and vice versa.
+**The Trap:** Trading doesn't stop — the alternative venue provides continuity.
+**Cross-Exam Context:** Business continuity is tested in Series I.
+**Distributor's Pro-Tip:** Interoperability means positions taken on one exchange can be netted against positions on another, releasing margin.]]></text></explanation>
+    </question>
+</QF>

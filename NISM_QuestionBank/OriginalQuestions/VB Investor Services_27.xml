@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VB Investor Services_27" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[If an investor submits a mutual fund purchase request at 3:30 PM on a business day, which NAV will be applied?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[That same day's NAV]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The next business day's NAV]]></text></answer>
+            <answer correct="no"><text><![CDATA[The previous day's NAV]]></text></answer>
+            <answer correct="no"><text><![CDATA[The average of that day's and next day's NAV]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Since the purchase request was submitted after the 3:00 PM cut-off time, the next business day's closing NAV will be applied. The 3:00 PM cut-off is strict. Even 1 minute late means the transaction rolls over to the next business day.
+**The Trap:** There is no concept of average NAV or previous day NAV. The rule is simple: before 3 PM = same day's NAV; after 3 PM = next business day's NAV. If the next day is a holiday, the NAV of the next working day applies.
+**Cross-Exam Context:** Also tested in V-A and Series XXIV.
+**Distributor's Pro-Tip:** This is why timing matters. If markets are falling and a retired investor wants to buy at a lower NAV, submitting before 3 PM ensures they get that day's (lower) NAV. Submitting after 3 PM means they get the next day's NAV, which might be higher if markets recover.]]></text></explanation>
+    </question>
+</QF>

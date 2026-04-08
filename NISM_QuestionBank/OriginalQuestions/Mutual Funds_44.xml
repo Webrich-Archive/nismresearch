@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Mutual Funds_44" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investor bought 1,000 units of a mutual fund at NAV of Rs. 20. After one year, the NAV has risen to Rs. 24. What is the investor's return on investment?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[20%]]></text></answer>
+            <answer correct="no"><text><![CDATA[24%]]></text></answer>
+            <answer correct="no"><text><![CDATA[16.67%]]></text></answer>
+            <answer correct="no"><text><![CDATA[4%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Return = (Current NAV - Purchase NAV) / Purchase NAV x 100 = (24 - 20) / 20 x 100 = 4/20 x 100 = 20%. The number of units (1,000) is irrelevant for calculating percentage return — it is the same whether the investor holds 100 units or 10,000 units.
+
+**The Trap:** 24% incorrectly divides the gain by the current NAV instead of purchase NAV. 16.67% divides gain by current NAV (4/24). 4% simply states the absolute gain per unit without computing the percentage. Always divide gain by the original (purchase) value.
+
+**Cross-Exam Context:** MF topics overlap with Series V-A, V-B. Simple return calculations are fundamental and tested across all investment-related NISM exams.
+
+**Distributor's Pro-Tip:** Returns should always be discussed as percentages, not absolute amounts. A Rs. 4 gain on a Rs. 20 investment (20%) is more impressive than the same Rs. 4 gain on a Rs. 100 investment (4%). Help clients think in percentage terms.]]></text></explanation>
+    </question>
+</QF>

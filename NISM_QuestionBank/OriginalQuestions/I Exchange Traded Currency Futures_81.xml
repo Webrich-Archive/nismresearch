@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_81" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A person goes short in GBPINR futures at Rs. 99.75 and at expiry the GBPINR FBIL reference rate is Rs. 100.75. What is the result?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Loss of Re 1 per GBP (Rs. 1,000 per lot)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Re 1 per GBP]]></text></answer>
+            <answer correct="no"><text><![CDATA[No profit no loss]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 100]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Short P&L = (Entry - FSP) × Lot = (99.75 - 100.75) × 1000 = -1.00 × 1000 = -Rs. 1,000 per lot (loss). The GBP appreciated, causing a loss on the short position.
+**The Trap:** Short position loses when price RISES above the entry price.
+**Cross-Exam Context:** This is directly from the NISM workbook sample questions.
+**Distributor's Pro-Tip:** An exporter who shorted GBPINR to hedge would offset this futures loss with the better spot conversion rate.]]></text></explanation>
+    </question>
+</QF>

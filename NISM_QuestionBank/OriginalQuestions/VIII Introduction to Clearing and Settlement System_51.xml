@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_51" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When a clearing member defaults on their settlement obligation, the clearing corporation's first course of action is to:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Utilize the defaulting member's margins, security deposits, and other available collateral]]></text></answer>
+            <answer correct="no"><text><![CDATA[Immediately use the Settlement Guarantee Fund]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cancel all trades of the defaulting member]]></text></answer>
+            <answer correct="no"><text><![CDATA[Ask other clearing members to share the loss equally]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The default waterfall follows a specific sequence: (1) First, the defaulting member's own margins, deposits, and collateral are used. (2) Then, the defaulting member's other assets/contributions. (3) Only if these are insufficient, the SGF and other resources are tapped. This ensures that the defaulter bears the maximum cost before mutualized resources are used.
+
+**The Trap:** SGF is NOT the first resource - it is used only after the defaulter's own resources are exhausted. Trades are not simply cancelled.
+
+**Cross-Exam Context:** The default waterfall sequence is a standard exam topic.
+
+**Key Takeaway:** Default waterfall: Defaulter's margins first -> Defaulter's other assets -> SGF -> Other resources. Defaulter pays first.]]></text></explanation>
+    </question>
+</QF>

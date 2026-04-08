@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_85" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When can a European option be SOLD (not exercised) in the secondary market?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[At any time before expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only on the expiration date]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only after the option becomes ITM]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only with prior approval from the exchange]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** European options can only be EXERCISED at expiry, but they can be SOLD (traded) in the secondary market at any time during trading hours. This is an important distinction.
+**The Trap:** Exercise ≠ Trading. European restriction is on exercise only, not on secondary market trading.
+**Cross-Exam Context:** This distinction is explicitly noted in the workbook and tested in Series I.
+**Distributor's Pro-Tip:** Most option traders square off before expiry by selling in the market, rather than waiting for exercise at expiry.]]></text></explanation>
+    </question>
+</QF>

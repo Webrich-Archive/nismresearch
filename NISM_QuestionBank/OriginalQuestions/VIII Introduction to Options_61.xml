@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_61" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader buys a Nifty call option with strike price Rs. 18,000 at a premium of Rs. 95. At expiry, Nifty closes at Rs. 18,500. What is the trader's net profit per unit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 405]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 95]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 18,500]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Call Profit = max(S - X, 0) - Premium
+
+Step-by-step:
+1. S (Spot at expiry) = Rs. 18,500
+2. X (Strike) = Rs. 18,000
+3. Payoff = max(18,500 - 18,000, 0) = max(500, 0) = Rs. 500
+4. Net Profit = Payoff - Premium = 500 - 95 = Rs. 405
+
+**The Trap:** Don't forget to subtract the premium paid. Payoff (500) is not profit (405).
+
+**Cross-Exam Context:** Always distinguish between payoff (exercise value) and profit (payoff minus premium).
+
+**Key Takeaway:** Call Profit = max(S - X, 0) - Premium. Here: 500 - 95 = Rs. 405.]]></text></explanation>
+    </question>
+</QF>

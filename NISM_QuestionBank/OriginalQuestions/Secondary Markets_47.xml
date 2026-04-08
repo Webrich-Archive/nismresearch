@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="Secondary Markets_47" sectionNumber="" articleNumber="0" articleName="">
+    <question><text>What is cross-margining?</text>
+        <answers>
+            <answer correct="yes"><text>A reduction in margin requirement when a client's positions in cash and derivatives segments offset each other</text></answer>
+            <answer correct="no"><text>Charging margins on multiple client accounts simultaneously</text></answer>
+            <answer correct="no"><text>A penalty for maintaining insufficient margins</text></answer>
+            <answer correct="no"><text>A method of collecting margins from cross-border transactions</text></answer>
+        </answers>
+        <explanation><text>**The Logic:** Cross-margining provides a margin reduction benefit when positions in cash and derivatives segments offset each other. Example: buying shares in cash and shorting equivalent futures reduces overall risk, so only a spread margin of 25% of applicable upfront margin is charged on offsetting positions.
+**The Trap:** Cross-margining is a benefit (reduction), not a penalty (option c). It recognizes that hedged positions have lower risk than unhedged ones.
+**Cross-Exam Context:** Available for: index futures vs. constituent stocks, cash vs. futures on same stock, ETFs vs. constituents. The benefit equals the margin difference between total portfolio and non-offsetting portions.
+**Distributor's Pro-Tip:** Cross-margining = Margin discount for hedged positions. If you're long in cash and short in futures, your risk is low. The exchange recognizes this and charges less margin.</text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_31" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In cash settlement of index derivatives, the settlement amount is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The difference between the futures/option price and the spot index closing price, settled in cash]]></text></answer>
+            <answer correct="no"><text><![CDATA[The full notional value of the contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[The initial margin deposited by the trader]]></text></answer>
+            <answer correct="no"><text><![CDATA[A fixed percentage of the contract value]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Cash settlement means no physical delivery takes place. The profit or loss is computed as the difference between the contract price and the final settlement price (spot index closing), and this difference is settled in cash. Only the net obligation is exchanged.
+
+**The Trap:** The full contract value is NOT settled - only the difference. Cash settlement is efficient as it requires only the net P&L to change hands.
+
+**Cross-Exam Context:** Cash vs physical settlement mechanics are important for understanding settlement obligations.
+
+**Key Takeaway:** Cash settlement = only the difference (P&L) is settled in cash. No delivery of underlying. Used for index derivatives.]]></text></explanation>
+    </question>
+</QF>

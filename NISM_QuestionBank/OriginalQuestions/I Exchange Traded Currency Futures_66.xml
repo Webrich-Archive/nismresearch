@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_66" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A short futures position profits when:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The price of the underlying falls below the entry price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The price of the underlying rises above the entry price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The price remains unchanged]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trading volume increases]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Short position: Profit = Entry price - Settlement price. When price falls below entry, the difference is positive = profit. The payoff is linear with unlimited profit downward.
+**The Trap:** Short profits from FALLING prices, long profits from RISING prices.
+**Cross-Exam Context:** Short position payoff is tested in all derivatives exams.
+**Distributor's Pro-Tip:** Short USDINR = expect INR to appreciate = expect USDINR to fall.]]></text></explanation>
+    </question>
+</QF>

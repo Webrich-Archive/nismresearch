@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_36" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the bear call spread from the workbook (short 83 call at 0.10, long 83.50 call at 0.04), the maximum profit is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 0.06 per unit (net premium received)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.44 per unit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.50 per unit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Unlimited]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Bear call spread is a NET premium receipt strategy. Max profit = Net premium = 0.10 - 0.04 = Rs. 0.06. Achieved when USDINR ≤ 83 (both expire OTM). Max loss = 0.50 - 0.06 = Rs. 0.44.
+**The Trap:** 0.44 is the max LOSS (not profit) — it's the mirror image of the bull call spread.
+**Cross-Exam Context:** Bear call spread is from the workbook.
+**Distributor's Pro-Tip:** Bear call spread: limited profit (0.06), limited loss (0.44). Good when moderately bearish and wanting to collect premium.]]></text></explanation>
+    </question>
+</QF>

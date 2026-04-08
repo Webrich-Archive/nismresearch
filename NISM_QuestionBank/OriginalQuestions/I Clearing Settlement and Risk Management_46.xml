@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_46" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The Extreme Loss Margin for USDINR options is calculated on:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The notional value based on the latest available FBIL rate for short option positions]]></text></answer>
+            <answer correct="no"><text><![CDATA[The premium of the option]]></text></answer>
+            <answer correct="no"><text><![CDATA[The strike price of the option]]></text></answer>
+            <answer correct="no"><text><![CDATA[The contract value of long options]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Options ELM is on notional value of SHORT option positions. Notional = based on latest FBIL rate for INR pairs. Cross-currency ELM is collected in INR using FBIL conversion rates.
+**The Trap:** ELM for options is on NOTIONAL value (not premium), and only on SHORT positions (not long).
+**Cross-Exam Context:** Options margin specifics are tested in Series I.
+**Distributor's Pro-Tip:** Long option holders have already paid the premium (max risk) — no ELM needed. Short holders face unlimited risk, hence ELM applies.]]></text></explanation>
+    </question>
+</QF>

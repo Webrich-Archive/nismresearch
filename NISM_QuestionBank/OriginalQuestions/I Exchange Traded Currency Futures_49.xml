@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_49" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If USDINR spot is 84 and 6-month futures is trading at 84.80, what is the annualized forward premium (approximate)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[1.90% approximately]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.95%]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.80%]]></text></answer>
+            <answer correct="no"><text><![CDATA[3.81%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Forward premium = ((F-S)/S) × (12/months) × 100 = ((84.80-84)/84) × (12/6) × 100 = (0.8/84) × 2 × 100 = 0.009524 × 2 × 100 = 1.90%.
+**The Trap:** Don't forget to annualize by multiplying by 12/months.
+**Cross-Exam Context:** Forward premium calculation is tested in Series I.
+**Distributor's Pro-Tip:** The annualized premium approximately equals the interest rate differential between India and the US.]]></text></explanation>
+    </question>
+</QF>

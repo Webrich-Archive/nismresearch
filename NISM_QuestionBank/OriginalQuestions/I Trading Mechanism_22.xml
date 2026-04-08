@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Trading Mechanism_22" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The brokerage on options contracts cannot exceed:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[2.5% of the premium amount or Rs. 100 per lot, whichever is higher]]></text></answer>
+            <answer correct="no"><text><![CDATA[2.5% of the contract value]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 100 per lot only]]></text></answer>
+            <answer correct="no"><text><![CDATA[1% of the premium amount]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Options brokerage maximum = 2.5% of premium OR Rs. 100 per lot, WHICHEVER IS HIGHER. For futures, it's 2.5% of contract value.
+**The Trap:** For options, brokerage is on PREMIUM (not contract value). The Rs. 100 floor ensures minimum brokerage even for very cheap options.
+**Cross-Exam Context:** Brokerage rules are tested in Series I.
+**Distributor's Pro-Tip:** Example: If premium is Rs. 500/lot, max brokerage = max(2.5% × 500, 100) = max(12.50, 100) = Rs. 100.]]></text></explanation>
+    </question>
+</QF>

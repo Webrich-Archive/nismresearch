@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A wheat farmer enters into a forward contract to sell wheat at Rs. 2,500 per quintal after 3 months. On the delivery date, the spot price of wheat is Rs. 3,000 per quintal. What is the likely outcome?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The farmer may be tempted to default on the forward contract since selling at the spot price of Rs. 3,000 would give Rs. 500 more per quintal, illustrating the counterparty risk problem]]></text></answer>
+            <answer correct="no"><text><![CDATA[The farmer will receive Rs. 3,000 per quintal because forward contracts automatically adjust to spot prices at expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[The clearing corporation will force the farmer to deliver at Rs. 2,500, preventing any default]]></text></answer>
+            <answer correct="no"><text><![CDATA[The farmer can renegotiate the forward price to Rs. 2,750 as a compromise between forward and spot prices]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When the spot price (Rs. 3,000) is higher than the forward price (Rs. 2,500), the seller has an incentive to default because they can sell in the open market at a higher price. This is precisely the counterparty risk problem in forward contracts - there is no clearing corporation to enforce performance.
+
+**The Trap:** Forward contracts do NOT automatically adjust to spot prices. There is no clearing corporation in forwards (that is a futures market feature). Renegotiation is not a standard feature.
+
+**Cross-Exam Context:** This farmer hedging example is commonly tested in Series VIII and also appears in commodity derivatives concepts.
+
+**Key Takeaway:** The party that is "out of the money" at settlement has an incentive to default in a forward contract.]]></text></explanation>
+    </question>
+</QF>

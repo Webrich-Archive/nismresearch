@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="IFSCA AML CFT KYC Guidelines_11" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[What is a 'Domestic Wire Transfer' as defined under the IFSCA (AML, CFT and KYC) Guidelines?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A wire transfer where both the ordering institution and beneficiary institution are located in the IFSC, or any chain of wire transfers entirely within the IFSC]]></text></answer>
+            <answer correct="no"><text><![CDATA[Any wire transfer between two banks within India, including IFSC]]></text></answer>
+            <answer correct="no"><text><![CDATA[A wire transfer between an IFSC entity and a mainland Indian bank]]></text></answer>
+            <answer correct="no"><text><![CDATA[Any wire transfer denominated in Indian Rupees regardless of the location of the parties]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A Domestic Wire Transfer under the IFSCA Guidelines means a wire transfer where both the ordering institution and beneficiary institution are located in the IFSC and also refers to any chain of wire transfers that takes place entirely within the IFSC.
+
+**The Trap:** IFSC has its own definition of 'domestic' — it means within IFSC only, NOT within India generally. A transfer from IFSC to a mainland Indian bank would be treated as cross-border in this context.
+
+**Cross-Exam Context:** This is unique to IFSCA-01. In Series XXIV, domestic means within India. In IFSCA-01, IFSC is treated as a distinct jurisdiction for wire transfer purposes.
+
+**Distributor's Pro-Tip:** IFSC is essentially treated as a separate financial jurisdiction. 'Domestic' in IFSC means IFSC-to-IFSC, not India-to-India. This distinction is critical for exam questions.]]></text></explanation>
+    </question>
+</QF>

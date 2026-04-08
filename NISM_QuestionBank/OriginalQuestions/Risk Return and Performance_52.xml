@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Risk Return and Performance_52" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The Treynor Ratio is calculated as ________. It is best suited for evaluating diversified equity portfolios, and a higher ratio indicates superior risk-adjusted performance.]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[(Portfolio Return - Risk-free Rate) / Beta]]></text></answer>
+            <answer correct="no"><text><![CDATA[(Portfolio Return - Risk-free Rate) / Standard Deviation]]></text></answer>
+            <answer correct="no"><text><![CDATA[(Portfolio Return - Market Return) / Beta]]></text></answer>
+            <answer correct="no"><text><![CDATA[(Market Return - Risk-free Rate) / Beta]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The Treynor Ratio formula is (Rs - Rf) / Beta, where Rs is the portfolio return, Rf is the risk-free rate, and Beta measures systematic risk. It evaluates excess return per unit of systematic (market) risk. Since diversified equity portfolios have eliminated most unsystematic risk, Beta is the relevant risk measure, making Treynor the preferred metric for such portfolios.
+
+**The Trap:** Option B is the Sharpe Ratio (uses Standard Deviation). Options C and D use incorrect numerators. The numerator is always the fund's excess return over the risk-free rate -- never the excess over market return (that concept relates to Alpha, not Treynor).
+
+**Cross-Exam Context:** The exam tests awareness that Treynor is ideal for well-diversified portfolios because Beta captures only systematic risk. For undiversified portfolios, Sharpe (which captures total risk including unsystematic) is more appropriate.
+
+**Key Takeaway:** Treynor Ratio = Excess Return / Beta. Best for diversified equity funds. Higher is better.]]></text></explanation>
+    </question>
+</QF>

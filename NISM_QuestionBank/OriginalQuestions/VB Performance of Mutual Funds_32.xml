@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VB Performance of Mutual Funds_32" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A mutual fund scheme has a return of 7%, the risk-free rate is 5%, and the standard deviation of the scheme is 0.5%. The Sharpe Ratio of this scheme is __________.]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[4]]></text></answer>
+            <answer correct="no"><text><![CDATA[2]]></text></answer>
+            <answer correct="no"><text><![CDATA[3.5]]></text></answer>
+            <answer correct="no"><text><![CDATA[14]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Sharpe Ratio = (Rs - Rf) / Standard Deviation = (7% - 5%) / 0.5% = 2% / 0.5% = 4. The scheme generates 4 units of excess return for every unit of total risk taken.
+
+**The Trap:** The distractor 14 comes from dividing 7 by 0.5 (forgetting to subtract the risk-free rate). The distractor 2 comes from just computing the numerator (7 - 5 = 2) without dividing by standard deviation. Always apply the full formula step by step.
+
+**Cross-Exam Context:** Numerical calculations of Sharpe Ratio are commonly tested in NISM V-B. The PDF provides this exact example with these values.
+
+**Key Takeaway:** Always subtract the risk-free rate first to get excess return, then divide by standard deviation. Sharpe Ratio = (7 - 5) / 0.5 = 4.]]></text></explanation>
+    </question>
+</QF>

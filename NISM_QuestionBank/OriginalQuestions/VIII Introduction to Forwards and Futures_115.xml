@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_115" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An arbitrageur has identified that Nifty futures are overpriced. He executes a cash-and-carry arbitrage by buying the Nifty basket of stocks. However, he can only buy 48 of the 50 Nifty stocks (2 are in the F&O ban period). What risk does this create?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Tracking error risk - the 48-stock portfolio may not perfectly replicate the Nifty index, creating basis risk between the portfolio performance and the index futures settlement]]></text></answer>
+            <answer correct="no"><text><![CDATA[No additional risk because 48 out of 50 stocks is close enough for practical purposes]]></text></answer>
+            <answer correct="no"><text><![CDATA[The arbitrage will be cancelled by the exchange because the replication is incomplete]]></text></answer>
+            <answer correct="no"><text><![CDATA[The arbitrageur will be penalized by SEBI for attempting arbitrage with an incomplete basket]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** With only 48 of 50 stocks, the portfolio is not a perfect replica of the Nifty index. If the 2 missing stocks move differently from the rest, the portfolio return will deviate from the index return. This creates tracking error (a form of basis risk), meaning the 'risk-free' arbitrage is no longer truly risk-free.
+
+**The Trap:** The exchange does not cancel the trade. SEBI does not penalize for this. 48/50 may seem close, but if the missing stocks have significant weight, the tracking error can be material.
+
+**Cross-Exam Context:** Practical implementation challenges in index arbitrage are tested in advanced Series VIII questions.
+
+**Key Takeaway:** Incomplete index replication creates tracking error, converting a 'risk-free' arbitrage into a risky trade.]]></text></explanation>
+    </question>
+</QF>

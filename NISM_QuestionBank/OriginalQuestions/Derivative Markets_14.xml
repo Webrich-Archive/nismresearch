@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Derivative Markets_14" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A speculative trade in derivatives is characterized by:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[No underlying position in cash, implementing a view on future prices at a lower cost]]></text></answer>
+            <answer correct="no"><text><![CDATA[Simultaneously buying and selling to capture price differentials]]></text></answer>
+            <answer correct="no"><text><![CDATA[Protecting an existing portfolio from adverse price movements]]></text></answer>
+            <answer correct="no"><text><![CDATA[Providing continuous buy and sell quotes to ensure market liquidity]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A speculative trade is not supported by an underlying position in cash — it simply implements a view on future prices at a lower cost. The cost of this position is the margin (for futures) or premium (for options). A buyer of futures believes prices will rise; a seller believes they will fall.
+
+**The Trap:** Simultaneous buying and selling describes arbitrage, not speculation. Protecting an existing portfolio is hedging. Providing continuous quotes is market making. Speculation is a pure directional bet on price movement.
+
+**Cross-Exam Context:** Derivatives basics overlap with Series VIII, XIII. Understanding the risk profile of speculation vs hedging is important for all derivatives exams.
+
+**Distributor's Pro-Tip:** SEBI research shows most individual F&O traders lose money. Speculation in derivatives is highly risky due to leverage — small adverse price moves can result in large losses. Always caution clients about the risks of speculative derivative trading.]]></text></explanation>
+    </question>
+</QF>

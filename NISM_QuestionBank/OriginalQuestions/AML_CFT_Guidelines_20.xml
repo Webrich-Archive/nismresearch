@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="AML_CFT_Guidelines_20" sectionNumber="" articleNumber="0" articleName="">
+    <question><text>Which of the following is a mandatory element of the Digital KYC process as specified under the PML Rules?</text>
+        <answers>
+            <answer correct="yes"><text>Capturing a live photograph of the client with GPS coordinates (geo-tagging) and applying date-time watermarking</text></answer>
+            <answer correct="no"><text>Video recording of the client reading their Aadhaar number aloud for verification</text></answer>
+            <answer correct="no"><text>Capturing a scanned copy of the OVD with digital signature of the bank officer</text></answer>
+            <answer correct="no"><text>Uploading a pre-existing passport-size photograph with biometric fingerprint scan</text></answer>
+        </answers>
+        <explanation><text>**The Logic:** The Digital KYC process under the PML Rules involves capturing a live photograph of the client along with officially valid documents or proof of possession of Aadhaar. The process requires: (i) live photograph of the client, (ii) geo-tagging with GPS coordinates (latitude and longitude), (iii) date-time watermarking on the photograph, (iv) OTP-based verification, and (v) a declaration by an authorized officer of the reporting entity.
+
+**The Trap:** Video recording of reading Aadhaar aloud is not part of Digital KYC (Video KYC is a separate process). Scanned copies with digital signatures describe a different document handling process. Pre-existing photographs defeat the purpose of Digital KYC, which requires LIVE capture. The key elements are live photo + geo-tagging + watermarking.
+
+**Cross-Exam Context:** Digital KYC was introduced to facilitate remote account opening while maintaining identity verification integrity. It is distinct from Video-based Customer Identification Process (V-CIP), which involves video interaction with a bank official.
+
+**Key Takeaway:** Digital KYC = Live photo + GPS geo-tagging + Date-time watermark + OTP validation + Authorized officer declaration. The emphasis is on "live" and "geo-tagged" to prevent fraud.</text></explanation>
+    </question>
+</QF>

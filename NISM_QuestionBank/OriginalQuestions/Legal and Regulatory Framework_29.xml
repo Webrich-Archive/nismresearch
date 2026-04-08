@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Legal and Regulatory Framework_29" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under SEBI regulations, how should the NAV of a mutual fund scheme be rounded off for computation purposes?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[To the nearest whole rupee]]></text></answer>
+            <answer correct="no"><text><![CDATA[Up to two decimal places]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Up to four decimal places for index/liquid/debt funds, and at least two decimal places for equity/balanced funds]]></text></answer>
+            <answer correct="no"><text><![CDATA[Up to six decimal places]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI mandates different decimal place precision depending on scheme type: NAV of index funds, liquid funds, and other debt funds must be computed up to four decimal places (e.g., Rs. 23.4567). For equity and balanced funds, NAV is computed up to at least two decimal places. The higher precision for debt/liquid funds is necessary because even small rounding differences, when multiplied by large transaction amounts, can create significant value discrepancies.
+
+**The Trap:** Two decimal places is the common rounding for general financial calculations but is insufficient for NAV precision. The nearest whole rupee would create massive rounding errors. Six decimal places would be unnecessarily precise. The four-decimal standard is specifically mandated by SEBI and must be memorized.
+
+**Cross-Exam Context:** NAV computation details are tested in Series V-A and V-B. This connects to the broader theme of NAV accuracy and investor fairness. Series XII may test general securities valuation principles that differ from the mutual fund NAV framework.
+
+**Distributor's Pro-Tip:** When calculating approximate investment amounts or returns for clients, use the full four-decimal NAV for accuracy. A common mistake in client statements or back-of-envelope calculations is rounding to two decimals, which can create discrepancies with the official allotment/redemption figures.]]></text></explanation>
+    </question>
+</QF>

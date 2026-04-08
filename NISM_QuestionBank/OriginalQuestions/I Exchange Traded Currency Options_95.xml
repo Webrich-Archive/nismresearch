@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_95" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the context of the Black-Scholes model, N(x) represents:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The standard normal cumulative distribution function]]></text></answer>
+            <answer correct="no"><text><![CDATA[The number of options contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[Net asset value]]></text></answer>
+            <answer correct="no"><text><![CDATA[The notional principal amount]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** N(x) is the standard normal CDF — it gives the probability that a normally distributed variable falls below x. It's used in Black-Scholes to calculate the probability-weighted expected payoff.
+**The Trap:** N(x) is a mathematical function, not a market term.
+**Cross-Exam Context:** Black-Scholes formula components are tested in Series I.
+**Distributor's Pro-Tip:** N(d1) is approximately equal to the delta of the option. N(d2) relates to the probability of the option expiring ITM.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_29" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A bullish vertical spread using puts involves:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Selling a higher strike put and buying a lower strike put]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buying a higher strike put and selling a lower strike put]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buying two calls at different strikes]]></text></answer>
+            <answer correct="no"><text><![CDATA[Selling two puts at the same strike]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Bull put spread: Short put (higher strike, higher premium) + Long put (lower strike, lower premium). Net = premium received. Profit if USDINR stays above higher strike.
+**The Trap:** Bear put spread is the OPPOSITE — buy higher strike put, sell lower strike put.
+**Cross-Exam Context:** Put spreads are tested in Series I.
+**Distributor's Pro-Tip:** Bull put spread is a NET premium RECEIPT strategy (you collect more than you pay). It profits from stable or rising prices.]]></text></explanation>
+    </question>
+</QF>

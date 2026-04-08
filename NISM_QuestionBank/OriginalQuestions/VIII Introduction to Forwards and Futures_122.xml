@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_122" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Following the SEBI circular of October 2024 on contract values, which of the following would be a COMPLIANT lot size for a stock trading at Rs. 3,000?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Lot size of 500 (contract value = Rs. 15,00,000 = Rs. 15 lakhs, within the Rs. 15-20 lakh range)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Lot size of 100 (contract value = Rs. 3,00,000 = Rs. 3 lakhs, below the range)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Lot size of 1,000 (contract value = Rs. 30,00,000 = Rs. 30 lakhs, above the range)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Lot size of 50 (contract value = Rs. 1,50,000 = Rs. 1.5 lakhs, well below the range)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step verification:
+Contract value = Price x Lot Size = 3,000 x 500 = Rs. 15,00,000 = Rs. 15 lakhs
+This falls within the SEBI-mandated range of Rs. 15-20 lakhs. Compliant.
+
+Other options:
+- 100: 3,000 x 100 = Rs. 3L (below range - non-compliant)
+- 1,000: 3,000 x 1,000 = Rs. 30L (above range - non-compliant)
+- 50: 3,000 x 50 = Rs. 1.5L (well below range - non-compliant)
+
+**The Trap:** Lot sizes must be set so that contract values fall within the mandated range. Exchanges adjust lot sizes periodically to stay within the range as stock prices change.
+
+**Cross-Exam Context:** Understanding how lot sizes relate to SEBI's contract value norms is practical knowledge for Series VIII.
+
+**Key Takeaway:** Lot size = Contract value range / Stock price. For Rs. 3,000 stock: 15L/3000 = 500 to 20L/3000 = 667.]]></text></explanation>
+    </question>
+</QF>

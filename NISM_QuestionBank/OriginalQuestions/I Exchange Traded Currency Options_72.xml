@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_72" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which option pricing model can be used for BOTH European and American options?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Binomial Pricing Model]]></text></answer>
+            <answer correct="no"><text><![CDATA[Black-Scholes Model]]></text></answer>
+            <answer correct="no"><text><![CDATA[Black (1976) Model]]></text></answer>
+            <answer correct="no"><text><![CDATA[Put-Call Parity]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The Binomial model is the most flexible — it can price both European and American options through iterative calculation. Black-Scholes is designed for European options only.
+**The Trap:** Black-Scholes can be MODIFIED for some American option features, but the standard form is European-only.
+**Cross-Exam Context:** Model capabilities are tested in Series I.
+**Distributor's Pro-Tip:** The Binomial model is more accurate but computationally slower. Black-Scholes is fast but less flexible.]]></text></explanation>
+    </question>
+</QF>

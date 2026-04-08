@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Trading Systems_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following is a key feature of the NEAT-F&O trading system?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[It provides anonymous order matching based on price-time priority]]></text></answer>
+            <answer correct="no"><text><![CDATA[It allows negotiated deals between known counterparties]]></text></answer>
+            <answer correct="no"><text><![CDATA[It operates on an open-outcry system]]></text></answer>
+            <answer correct="no"><text><![CDATA[It matches orders based solely on time priority]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** NEAT-F&O is an anonymous order-driven system where orders are matched on price-time priority. Buyers and sellers do not know each other's identity. The best price gets priority; among orders at the same price, the one entered earlier gets matched first.
+
+**The Trap:** Open-outcry systems are old pit-based trading methods, not used in Indian derivatives. Negotiated deals happen in OTC markets, not exchange-traded derivatives.
+
+**Cross-Exam Context:** Price-time priority is a universal matching principle tested across all exchange-related NISM exams.
+
+**Key Takeaway:** NEAT-F&O features: anonymous trading, order-driven, price-time priority matching, fully electronic.]]></text></explanation>
+    </question>
+</QF>

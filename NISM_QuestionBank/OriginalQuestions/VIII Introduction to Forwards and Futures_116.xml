@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_116" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader has a long position in the January Nifty futures that is about to expire. He wants to maintain his long position. What is the roll-over process?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Sell the expiring January futures contract and simultaneously buy the February (next month) futures contract, effectively transferring the position to the next contract month]]></text></answer>
+            <answer correct="no"><text><![CDATA[The exchange automatically rolls over the position to the next month; no action is needed]]></text></answer>
+            <answer correct="no"><text><![CDATA[Close the January position and wait for February to start trading before opening a new position]]></text></answer>
+            <answer correct="no"><text><![CDATA[Convert the futures position into an options position for the next month]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Roll-over involves two simultaneous transactions:
+1. SELL (close) the expiring near-month contract (January)
+2. BUY (open) the next-month contract (February)
+
+This is done simultaneously (ideally as a spread order) to maintain continuous market exposure while avoiding the physical/cash settlement of the expiring contract.
+
+**The Trap:** Exchanges do NOT automatically roll over positions. Waiting creates a gap in exposure (risk). Converting to options changes the risk profile entirely. Roll-over must be done BEFORE expiry.
+
+**Cross-Exam Context:** Roll-over activity near expiry is a key market activity tested in Series VIII.
+
+**Key Takeaway:** Roll-over = Close expiring month + Open next month simultaneously. Done before expiry to maintain exposure.]]></text></explanation>
+    </question>
+</QF>

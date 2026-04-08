@@ -1,0 +1,551 @@
+==============================================================================
+NISM SERIES V-B (MFF) QUESTION BANK AUDIT REPORT
+Chapters 5-7: Scheme Related Information, Fund Distribution, Performance
+PDF: NISM SERIES V-B MFF Workbook version-November-2025
+Date: 2026-04-08
+==============================================================================
+
+Total Questions Audited: 85
+- VB Scheme Related Information: 30 questions (_1 through _30)
+- VB Fund Distribution and Channel Management: 25 questions (_1 through _25)
+- VB Performance of Mutual Funds: 30 questions (_1 through _30)
+
+
+==============================================================================
+SECTION 1: CORRECTIONS NEEDED
+==============================================================================
+
+------------------------------------------------------------------------------
+1.1 VB Scheme Related Information_25.xml
+    ISSUE: Incorrect/imprecise SID update frequency
+    QUESTION: "How often must the AMC update the SID?"
+    CURRENT CORRECT ANSWER: "At least once a year"
+    PDF SAYS (Section 5.1.5, p.72-73): The SID shall be updated within next six
+    months from the end of the 1st half or 2nd half of the financial year in
+    which schemes were launched. Subsequently, SID shall be updated within ONE
+    MONTH from the end of each half-year (based on data as at end of September
+    and March respectively).
+    PROBLEM: The PDF indicates SID updates are effectively TWICE a year (each
+    half-year), not merely "at least once a year." The answer "At least once a
+    year" is technically not wrong (twice a year satisfies "at least once") but
+    is misleading and imprecise. The PDF clearly specifies a half-yearly update
+    cycle.
+    FIX: Change correct answer to "At least once every half-year (within one
+    month from end of each half-year)" or similar. Update explanation to
+    reference the half-yearly update requirement from Section 5.1.5.
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+1.2 VB Scheme Related Information_30.xml
+    ISSUE: Terminology - "Offer documents" vs "Scheme Related Documents"
+    QUESTION: "The SID, SAI, and KIM together form the __________ of a mutual
+    fund scheme."
+    CURRENT CORRECT ANSWER: "Offer documents"
+    PDF SAYS (Section 5.1, p.68-69): The PDF consistently uses the term
+    "scheme related documents" to describe SID and SAI. The KIM is described
+    as a "summary of the SID and SAI" that accompanies the application form.
+    The PDF heading is "Scheme Related Information" and the mandatory
+    disclaimer says "read all scheme related documents."
+    PROBLEM: The PDF's primary terminology is "scheme related documents," not
+    "offer documents." While "offer documents" is not technically incorrect
+    (the SID is part of the offer), the PDF's own terminology would be "scheme
+    related documents." This could confuse students who studied the PDF.
+    FIX: Consider changing correct answer to "Scheme related documents" to
+    match the PDF's actual terminology, or accept both terms in the
+    explanation.
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+1.3 VB Scheme Related Information_13.xml and _14.xml
+    ISSUE: TRI questions reference Chapter 7 content, not Chapter 5
+    QUESTION _13: "What is TRI in the context of mutual fund benchmarks?"
+    QUESTION _14: "Since February 2018, SEBI has made it mandatory..."
+    PDF LOCATION: TRI and benchmark concepts are in Chapter 7, Section 7.5
+    (pp.113-115), NOT in Chapter 5 (Scheme Related Information).
+    PROBLEM: These questions are filed under "Scheme Related Information"
+    (Chapter 5 topic) but the content is from Chapter 7 (Performance of Mutual
+    Funds). This is a categorization issue rather than a factual error. The
+    facts themselves are correct per the PDF: TRI = Total Return Index, and
+    SEBI mandated TRI from February 1, 2018.
+    FIX: Consider moving these questions to the "VB Performance of Mutual
+    Funds" topic where they logically belong, or keep them here with a note
+    that the content spans chapters. The factual content is accurate.
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+1.4 VB Scheme Related Information_12.xml
+    ISSUE: Benchmark question categorization
+    QUESTION: "What is a 'benchmark' in mutual funds?"
+    Similar to 1.3 above - benchmark is a Chapter 7 concept (Section 7.5)
+    rather than a Chapter 5 concept. The factual content is correct but it
+    is categorized under the wrong topic.
+    FIX: Consider moving to "VB Performance of Mutual Funds" topic.
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+1.5 VB Fund Distribution and Channel Management_7.xml
+    ISSUE: Platform name precision
+    QUESTION: "What is the NSE platform for mutual fund transactions called?"
+    CURRENT CORRECT ANSWER: "NSE NMF II (NSE Mutual Fund Platform)"
+    PDF SAYS (Section 6.3.2, p.84): "NSE's platform is called NMF II
+    Platform."
+    PROBLEM: The answer expands "NMF" as "NSE Mutual Fund" but the PDF only
+    says "NMF II Platform" without expanding the acronym. The expansion in
+    the answer is likely correct in practice but is not sourced from this PDF.
+    Minor issue.
+    FIX: No critical fix needed, but the explanation could note that the PDF
+    refers to it as "NMF II Platform."
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+1.6 VB Fund Distribution and Channel Management_10.xml
+    ISSUE: Trail commission described slightly imprecisely
+    QUESTION: "Trail commission in mutual funds is __________."
+    CURRENT CORRECT ANSWER: "An ongoing fee paid to the distributor based on
+    the investor's AUM (Assets Under Management)"
+    PDF SAYS (Section 6.5.1, p.90): "Trail commission is calculated as a
+    percentage of the net assets attributable to the Units sold by the
+    distributor." It is calculated on "daily balances" and "paid out
+    periodically."
+    PROBLEM: The answer says "based on the investor's AUM" which is slightly
+    imprecise. The PDF says it is based on "net assets attributable to the
+    Units sold by the distributor" - meaning it is based on the value of
+    units specifically procured by THAT distributor, not the investor's
+    total AUM across all distributors.
+    FIX: Consider refining the answer or explanation to note that trail is
+    on the AUM attributable to units sold by that specific distributor.
+    Minor precision issue.
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+1.7 VB Performance of Mutual Funds - Missing Sharpe/Treynor/IR content
+    ISSUE: No questions on Sharpe Ratio, Treynor Ratio, Information Ratio,
+    or Tracking Error despite significant PDF coverage
+    PDF COVERAGE (Section 7.4, pp.110-112): The PDF devotes substantial
+    content to:
+    - Sharpe Ratio formula and example (Sharpe = (Rs - Rf) / Std Dev)
+    - Treynor Ratio formula and example (Treynor = (Rs - Rf) / Beta)
+    - Information Ratio (mandatory disclosure per SEBI circular Jan 2025)
+    - Tracking Error for index funds
+    CURRENT QUESTIONS: The 30 Performance questions cover NAV, absolute
+    return, CAGR, standard deviation, benchmarks, and general concepts but
+    have ZERO questions on these four risk-adjusted return measures.
+    FIX: This is a significant gap. Add questions on:
+    (a) Sharpe Ratio formula and interpretation (higher = better)
+    (b) Treynor Ratio formula and when to use it (diversified equity)
+    (c) Information Ratio - the only mandatory risk-adjusted measure to
+        disclose per SEBI
+    (d) Tracking Error - especially for index funds
+    (e) Numerical calculation questions for Sharpe and Treynor
+    These are testable concepts per the PDF's sample questions (Ch7 Q1 asks
+    about risk-adjusted returns with Sharpe Ratio as correct answer).
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+1.8 VB Performance of Mutual Funds - Missing exit load impact content
+    ISSUE: No questions on exit load reducing investor returns
+    PDF COVERAGE (Section 7.2, p.103): "If an exit load of 1 percent was
+    applicable, then the investor will receive only 99 percent of Rs. 15
+    i.e. Rs. 14.85 on re-purchase. Thus, the investment return would be
+    lower than the scheme returns." Also: "Entry load is not allowed."
+    FIX: Add at least one question on:
+    (a) How exit load reduces the redemption amount
+    (b) The fact that entry load is not currently allowed
+    (c) Calculation: if NAV is Rs. 15 and exit load is 1%, redemption
+        price = Rs. 14.85
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+1.9 VB Performance of Mutual Funds - Missing Total Return calculation
+    ISSUE: No question on total return formula (capital gains + dividends)
+    PDF COVERAGE (Section 7.1.4, p.103): Detailed example with Ashish
+    investing Rs. 1 lakh at NAV 10, getting 10,000 units, dividend of Rs. 2,
+    current NAV Rs. 12, total return = 40%.
+    Formula: Total Return = (End Value - Begin Value + Dividend) / Begin Value
+    FIX: Add a question testing the total return calculation including
+    both capital gains and dividends.
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+1.10 VB Performance of Mutual Funds_4.xml
+    ISSUE: Terminology mismatch - "absolute return" vs "simple return"
+    QUESTION: "What is 'absolute return' in mutual funds?"
+    PDF TERMINOLOGY (Section 7.1.1): The PDF calls this "Simple Return" not
+    "absolute return." The formula shown is (Later NAV - Initial NAV) /
+    Initial NAV. The term "absolute return" does not appear explicitly in
+    Chapter 7 of this PDF.
+    PROBLEM: While "absolute return" and "simple return" are used
+    interchangeably in practice, the PDF specifically uses the term "Simple
+    Return" in Section 7.1.1.
+    FIX: Minor issue. The explanation in _6.xml correctly uses both terms
+    together ("Absolute return (simple return)"). Consider updating _4.xml
+    explanation to also reference "simple return" as the PDF's term.
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+1.11 VB Performance of Mutual Funds_5.xml
+    ISSUE: CAGR terminology
+    QUESTION: "What does CAGR stand for?"
+    CORRECT ANSWER: "Compound Annual Growth Rate"
+    PDF SAYS (Section 7.1.3, p.102): "CAGR i.e. Compounded Annualized
+    Growth Rate"
+    PROBLEM: The PDF uses "Compounded Annualized Growth Rate" while the
+    question answer says "Compound Annual Growth Rate." Both are commonly
+    used but do not match the PDF exactly.
+    FIX: Very minor. Consider changing to "Compounded Annualized Growth Rate"
+    to match the PDF verbatim, or note both forms are acceptable.
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+1.12 VB Fund Distribution and Channel Management - Missing content on
+    commission disclosure thresholds
+    ISSUE: No questions on SEBI-mandated commission disclosure criteria
+    PDF COVERAGE (Section 6.6, p.93): SEBI mandated disclosure when
+    distributor meets ANY of:
+    (i) Multiple points of presence (More than 20 locations)
+    (ii) AUM raised over Rs. 100 crores across industry (non-institutional)
+    (iii) Commission received over Rs. 1 crore p.a. across industry
+    (iv) Commission received over Rs. 50 lakhs from a single AMC
+    Also: excessive portfolio turnover ratio > 2x industry average triggers
+    additional due diligence.
+    FIX: Add questions on these specific thresholds - they are highly
+    testable numerical facts.
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+1.13 VB Fund Distribution and Channel Management - Missing content on
+    change of distributor rules
+    ISSUE: No questions on distributor change provisions
+    PDF COVERAGE (Section 6.10, pp.97-99): Important rules including:
+    - Investor can change distributor without giving reasons
+    - No NOC required from existing distributor
+    - When distributor code changes, NO commission payable to either old
+      or new distributor (key fact)
+    - Exception: if change is due to voluntary cessation by distributor,
+      new distributor gets trail commission
+    FIX: Add questions on the no-commission rule for distributor changes,
+    as this is a distinctive and testable provision.
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+1.14 VB Fund Distribution and Channel Management - Missing content on
+    nomination/legal heir provisions for distributors
+    ISSUE: No questions on MFD nomination facility
+    PDF COVERAGE (Section 6.9, pp.96-97): Detailed provisions including:
+    - Commission paid to nominees/legal heirs of deceased MFD
+    - Nominee need not be an ARN holder to receive commission
+    - No new business permitted under deceased MFD's ARN
+    - Commission payable till AUM under deceased ARN becomes nil
+    FIX: Add at least one question on these provisions.
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+1.15 VB Fund Distribution and Channel Management - Missing content on
+    mis-selling definition
+    ISSUE: No questions on SEBI's definition of mis-selling
+    PDF COVERAGE (Box 6.8.3, pp.95-96): Mis-selling defined as:
+    1. Making a false or misleading statement, or
+    2. Concealing or omitting material facts, or
+    3. Concealing associated risk factors, or
+    4. Not taking reasonable care to ensure suitability
+    FIX: Add a question on the definition of mis-selling per SEBI
+    regulations. This is a high-priority testable concept.
+------------------------------------------------------------------------------
+
+
+==============================================================================
+SECTION 2: CONFIRMED FINE (Questions verified as factually accurate per PDF)
+==============================================================================
+
+--- VB Scheme Related Information ---
+_1:  SID = Scheme Information Document. CORRECT per PDF Section 5.1.1.
+_2:  SAI = Statement of Additional Information. CORRECT per PDF Section 5.1.2.
+_3:  KIM = Key Information Memorandum. CORRECT per PDF Section 5.1.3.
+_4:  SID is most detailed scheme document. CORRECT per PDF Section 5.1.1.
+_5:  SAI common to all schemes of same AMC. CORRECT per PDF Section 5.1.2.
+_6:  Risk-o-meter has 6 levels. CORRECT per PDF Section 5.1.6 diagram (p.75).
+_7:  Lowest risk level is "Low". CORRECT per Risk-o-meter diagram.
+_8:  Highest risk level is "Very High". CORRECT per Risk-o-meter diagram.
+_9:  Risk-o-meter shows risk level. CORRECT per PDF Section 5.1.6.
+_10: Caveat Emptor = Buyer Beware. CORRECT per PDF Section 5.1 (p.68).
+_11: SEBI vets but does not approve/guarantee. CORRECT per PDF Section 5.1 (p.69).
+_15: Exit without load for fundamental attribute changes. CORRECT per PDF 5.1.5.
+_16: Investment objective is a fundamental attribute. CORRECT per PDF 5.1.5.
+_17: KIM is a short summary of SID. CORRECT per PDF Section 5.1.3.
+_18: SAI has sponsor/trustee info. CORRECT per PDF Section 5.1.2 table.
+_19: Disclaimer linked to Caveat Emptor. CORRECT per PDF Section 5.1.
+_20: Risk-o-meter shows risk visually. CORRECT per PDF Section 5.1.6.
+_21: Correct order of 6 risk levels. CORRECT per PDF Risk-o-meter diagram.
+_22: Overnight fund = Low risk. CORRECT per PDF implication (p.109).
+_23: Small-cap fund = Very High risk. CORRECT per PDF implication (p.106).
+_24: SID has detailed info not in KIM. CORRECT per PDF Sections 5.1.1 vs 5.1.3.
+_26: SEBI vets documents for compliance. CORRECT per PDF Section 5.1 (p.69).
+_27: PRI excluded dividends, making funds look better. CORRECT per PDF 7.5.
+_28: Fundamental attribute change requires exit option. CORRECT per PDF 5.1.5.
+_29: KIM is good for quick overview. CORRECT per PDF Section 5.1.3.
+
+--- VB Fund Distribution and Channel Management ---
+_1:  Distributor helps investors select schemes. CORRECT per PDF Section 6.1.
+_2:  Direct Plan has no distributor commission, lower expense. CORRECT per PDF.
+_3:  NISM Series V-A certification mandatory. CORRECT per PDF Section 6.4.
+_4:  ARN = AMFI Registration Number. CORRECT per PDF Section 6.4.
+_5:  AMFI issues ARN. CORRECT per PDF Section 6.4.
+_6:  BSE StAR MF for mutual fund transactions. CORRECT per PDF Section 6.3.2.
+_8:  MFU = MF Utilities shared platform. CORRECT per PDF Section 6.3.3.
+_9:  CAN = Common Account Number. CORRECT per PDF Section 6.3.3.
+_11: Direct Plan bypasses distributor. CORRECT per PDF.
+_12: Multiple channels available. CORRECT per PDF Chapter 6.
+_13: Direct Plan NAV higher due to lower expense. CORRECT per PDF.
+_14: First step is NISM Series V-A exam. CORRECT per PDF Section 6.4.
+_15: MFU with CAN for multi-AMC transactions. CORRECT per PDF Section 6.3.3.
+_16: Trail commission paid for as long as investor stays. CORRECT per PDF 6.5.1.
+_17: No valid ARN = cannot sell or earn commissions. CORRECT per PDF 6.4.
+_18: Mobile apps available for MF transactions. CORRECT per PDF Section 6.3.4.
+_19: BSE StAR MF and NSE NMF II. CORRECT per PDF Section 6.3.2.
+_20: Direct Plan for no distributor commission. CORRECT per PDF.
+_21: Distributor valuable for personal guidance. CORRECT per PDF Section 6.1.
+_22: MFU+CAN for multi-AMC single account. CORRECT per PDF Section 6.3.3.
+_23: Regular Plan expense higher due to distributor commission. CORRECT.
+_24: Unauthorized agents without ARN not valid. CORRECT per PDF Section 6.4.
+_25: Trail commission based on AUM. CORRECT per PDF Section 6.5.1.
+
+--- VB Performance of Mutual Funds ---
+_1:  Benchmark = standard index for comparison. CORRECT per PDF Section 7.5.
+_2:  NAV = Net Asset Value. CORRECT per PDF.
+_3:  Performance measured by NAV change. CORRECT per PDF Section 7.1.
+_6:  Less than 1 year = absolute return per SEBI. CORRECT per PDF Section 7.2.
+_7:  1 year or more = CAGR per SEBI. CORRECT per PDF Section 7.2.
+_8:  Past performance does not guarantee future. CORRECT per PDF Section 7.3.
+_9:  Compare within same category. CORRECT per PDF (implied).
+_10: Higher potential returns = higher risk. CORRECT per PDF Section 7.3.
+_11: Standard deviation measures volatility. CORRECT per PDF Section 7.4.
+_12: Higher std dev = more volatile. CORRECT per PDF Section 7.4.
+_13: AMFI website for performance data. CORRECT per PDF Section 5.1.6.
+_14: Fact sheets published monthly. CORRECT per PDF Section 5.2.
+_16: NAV 100 to 115 = 15% absolute return. CORRECT per formula in PDF 7.1.1.
+_17: NAV 50 to 60 = 20% absolute return. CORRECT per formula in PDF 7.1.1.
+_18: Rs 1L to Rs 1.21L in 2 years = 10% CAGR. CORRECT per PDF 7.1.3.
+_19: Rs 10K to Rs 13,310 in 3 years = 10% CAGR. CORRECT per PDF 7.1.3.
+_20: 40% in 6 months = 40% absolute (not annualized). CORRECT per SEBI norms.
+_21: Benchmark comparison shows fund manager value. CORRECT per PDF 7.5.
+_22: Best evaluation = benchmark + peers + multiple periods. CORRECT.
+_23: NAV level not indicator of quality. CORRECT per PDF.
+_24: Higher std dev = more volatile. CORRECT per PDF.
+_25: AMFI, fact sheets, Value Research are reliable sources. CORRECT.
+_26: 5L to 6.5L = 30% absolute return. CORRECT per formula.
+_27: Same category, similar risk, higher CAGR = better. CORRECT.
+_28: Retired investor should prefer low std dev. CORRECT per PDF.
+_29: Past performance does not guarantee future. CORRECT.
+_30: Compare equity fund with its benchmark index. CORRECT per PDF 7.5.
+_15: Value Research as independent source. CORRECT (general knowledge, not
+     explicitly in PDF but not contradicted).
+
+
+==============================================================================
+SECTION 3: CONCEPT GAPS (Important PDF content not covered by any question)
+==============================================================================
+
+*** HIGH PRIORITY GAPS ***
+
+GAP 1: SHARPE RATIO (Chapter 7, Section 7.4)
+  The PDF provides a detailed formula, example (risk-free 5%, return 7%,
+  std dev 0.5% = Sharpe Ratio of 4), and states higher is better.
+  The PDF's own sample question Q1 tests Sharpe Ratio.
+  NO QUESTION covers this in the bank.
+  RECOMMENDED: Add 2-3 questions including formula and calculation.
+
+GAP 2: TREYNOR RATIO (Chapter 7, Section 7.4)
+  Formula: (Rs - Rf) / Beta. Example given. Best for diversified equity.
+  PDF states higher is better.
+  NO QUESTION covers this.
+  RECOMMENDED: Add 1-2 questions.
+
+GAP 3: INFORMATION RATIO (Chapter 7, Section 7.4)
+  The PDF states this is the ONLY mandatory risk-adjusted return measure
+  per SEBI (circular dated January 17, 2025). Must be disclosed daily on
+  AMC website and AMFI website.
+  Formula: (Portfolio Return - Benchmark Return) / Std Dev of Excess Return
+  NO QUESTION covers this.
+  RECOMMENDED: Add 2 questions - one on the formula, one on the mandatory
+  disclosure requirement (this is a very testable regulatory fact).
+
+GAP 4: TRACKING ERROR (Chapter 7, Section 7.4)
+  Standard deviation of excess returns. Critical for index funds (should be
+  very low). PDF provides clear explanation.
+  NO QUESTION covers this.
+  RECOMMENDED: Add 1-2 questions.
+
+GAP 5: BETA CONCEPT (Chapter 7, Section 7.4)
+  Beta is mentioned in Treynor Ratio context and as market risk measure.
+  Beta of market = 1 by definition. Used in Treynor Ratio.
+  NO QUESTION covers Beta specifically.
+  RECOMMENDED: Add 1 question.
+
+GAP 6: EXIT LOAD IMPACT ON RETURNS (Chapter 7, Section 7.2)
+  Specific example: NAV Rs. 15, exit load 1%, investor gets Rs. 14.85.
+  Entry load is NOT currently allowed.
+  NO QUESTION covers this.
+  RECOMMENDED: Add 1-2 questions including a calculation.
+
+GAP 7: TOTAL RETURN FORMULA (Chapter 7, Section 7.1.4)
+  Total Return = (End Value - Begin Value + Dividend) / Begin Value
+  Detailed numerical example in PDF.
+  NO QUESTION covers this.
+  RECOMMENDED: Add 1-2 questions with numerical calculation.
+
+GAP 8: MIS-SELLING DEFINITION (Chapter 6, Box 6.8.3)
+  Four-part definition under SEBI regulations. Highly testable.
+  NO QUESTION covers this.
+  RECOMMENDED: Add 1-2 questions.
+
+GAP 9: COMMISSION DISCLOSURE THRESHOLDS (Chapter 6, Section 6.6)
+  Four specific numerical thresholds (20 locations, Rs.100 crore AUM,
+  Rs.1 crore commission, Rs.50 lakhs from single AMC).
+  Excessive turnover ratio > 2x industry average triggers due diligence.
+  NO QUESTION covers these specific numbers.
+  RECOMMENDED: Add 1-2 questions.
+
+GAP 10: CHANGE OF DISTRIBUTOR RULES (Chapter 6, Section 6.10)
+  Key rule: when distributor code changes, NO commission to either old or
+  new distributor. No NOC required. Exception for voluntary cessation.
+  NO QUESTION covers this.
+  RECOMMENDED: Add 1 question.
+
+*** MEDIUM PRIORITY GAPS ***
+
+GAP 11: ANNUALIZED RETURN (Chapter 7, Section 7.1.2)
+  Formula provided for annualizing sub-year returns. Example: Investment 1
+  = 5% in 6 months annualized to 10%, Investment 2 = 3% in 4 months
+  annualized to 9%.
+  No question specifically tests the annualization formula.
+
+GAP 12: TWO-TIER BENCHMARK STRUCTURE (Chapter 7, Section 7.5)
+  SEBI circular October 27, 2021 introduced Tier-1 (broad market index per
+  category) and Tier-2 (bespoke per investment style/strategy).
+  Different structures for income/equity/hybrid/thematic/index/FoF schemes.
+  No question covers this.
+
+GAP 13: SIMPLE VS COMPOUND INTEREST COMPARISON (Chapter 7, Section 7.1.3)
+  The PDF provides a detailed table comparing Rs.1 lakh at 8% for 5 years
+  under simple interest (Rs.1,40,000) vs compound (Rs.1,46,933).
+  No question tests the compounding effect difference.
+
+GAP 14: PORTFOLIO DISCLOSURE REQUIREMENTS (Chapter 5, Section 5.1.6)
+  - Monthly/half-yearly for equity schemes (within 10 days)
+  - Fortnightly for debt schemes (within 5 days)
+  - Must include ISIN
+  No question tests the specific disclosure timelines.
+
+GAP 15: NAV DISCLOSURE REQUIREMENTS (Chapter 5, Section 5.1.6)
+  - NAV disclosed at end of each business day
+  - Uploaded by 11:00 PM on AMFI and AMC websites
+  - Liquid/Overnight funds declare NAV on Sundays/holidays too
+  - Closed-ended schemes: NAV at least once a week
+  No question tests these specific timelines.
+
+GAP 16: ADDENDUM (Chapter 5, Section 5.1.4)
+  The addendum is an interim update to scheme documents. It is considered
+  part of scheme related documents and must accompany the KIM.
+  No question covers the addendum concept.
+
+GAP 17: KYD (KNOW YOUR DISTRIBUTOR) PROCESS (Chapter 6, Section 6.4)
+  Document verification + biometric process (right hand index finger).
+  Done at CAMS-PoS. New cadre distributors exempted from KYD/biometrics.
+  No question covers this process.
+
+GAP 18: EUIN (Employee Unique Identification Number) (Chapter 6, Section 6.4)
+  Employees of institutional distributors need EUIN from AMFI.
+  Must be quoted in application forms.
+  No separate ARN needed for employees (operate under institution's ARN).
+  No question covers EUIN.
+
+GAP 19: GST ON DISTRIBUTOR COMMISSION (Chapter 6, Section 6.5.4)
+  GST applicable if turnover > Rs. 20 lakhs. Reverse charge mechanism
+  applies for unregistered distributors (AMC pays GST).
+  No question covers this.
+
+GAP 20: SYSTEMATIC vs UNSYSTEMATIC RISK (Chapter 7, Section 7.3)
+  PDF clearly distinguishes:
+  - Systematic (market) risk: non-diversifiable, affects whole economy
+  - Unsystematic (company-specific) risk: diversifiable
+  - Finance theory: investors rewarded only for systematic risk
+  No question specifically tests this distinction.
+
+GAP 21: WITHDRAWAL OF TRANSACTION CHARGES (Chapter 6, Section 6.5.3)
+  SEBI 2025 circular withdrew the transaction charges framework.
+  Distributors now compensated only via trail commission from AMCs.
+  No upfront commission or transaction charges from investors.
+  No question covers this specific 2025 change (one of Chapter 6's
+  sample questions does test this).
+
+GAP 22: ASSURED RETURNS SCHEMES (Chapter 7, Section 7.2)
+  Mutual funds cannot promise returns unless it is an assured returns
+  scheme with a named guarantor in the SID.
+  No question covers this concept.
+
+GAP 23: SEGREGATED PORTFOLIO RISK (Chapter 7, Section 7.3)
+  Risk that investors holding segregated portfolio units may not be able
+  to liquidate holdings. Listed units may trade below NAV.
+  No question covers this.
+
+GAP 24: SPECIFIC RISK TYPES IN PDF (Chapter 7, Section 7.3)
+  The PDF covers numerous specific risks not tested by any question:
+  - Political Risk
+  - Economic Risk
+  - Foreign Currency Risk
+  - Settlement Risk (Counterparty Risk)
+  - Rating Migration Risk
+  - Term Structure of Interest Rates Risk
+  - Risks associated with REITs and InvITs
+  - Risks associated with short selling and stock lending
+  Only liquidity risk and interest rate risk are indirectly covered.
+
+GAP 25: MF CENTRAL PLATFORM (Chapter 6, Section 6.3.3)
+  "MF Central has been launched, promoted by KFintech and CAMS."
+  This is mentioned alongside MFU but no question covers it.
+
+
+==============================================================================
+SECTION 4: SUMMARY STATISTICS
+==============================================================================
+
+CORRECTIONS NEEDED:
+  - Factual errors requiring fix: 2 (items 1.1, 1.2)
+  - Terminology mismatches: 2 (items 1.10, 1.11)
+  - Categorization issues: 3 (items 1.3, 1.4, 1.12-1.15 are gaps)
+  - Precision improvements: 2 (items 1.5, 1.6)
+
+CONFIRMED CORRECT: 76 out of 85 questions have factually accurate answers
+
+CONCEPT GAPS: 25 significant gaps identified
+  - High priority (missing testable content): 10
+  - Medium priority: 15
+
+OVERALL ASSESSMENT:
+The existing 85 questions are broadly accurate in their factual content.
+The correct answers align with the PDF in the vast majority of cases. The
+main concerns are:
+
+1. CRITICAL: The Performance of Mutual Funds section (30 questions) has a
+   major gap in risk-adjusted return measures (Sharpe, Treynor, Information
+   Ratio, Tracking Error). These are covered extensively in the PDF and
+   appear in the PDF's own sample questions but are entirely absent from
+   the question bank.
+
+2. IMPORTANT: The Fund Distribution section (25 questions) lacks questions
+   on commission disclosure thresholds, change of distributor rules,
+   mis-selling definitions, EUIN, and KYD process.
+
+3. MODERATE: Several questions under "Scheme Related Information" actually
+   test Chapter 7 (Performance) concepts (benchmarks, TRI).
+
+4. MINOR: A few terminology differences between question answers and the
+   exact PDF wording (CAGR expansion, SID update frequency).
+
+The question bank would benefit most from adding 15-20 questions covering
+the high-priority gaps, particularly the risk-adjusted return measures
+and the regulatory-specific numerical thresholds.
+
+==============================================================================
+END OF AUDIT REPORT
+==============================================================================

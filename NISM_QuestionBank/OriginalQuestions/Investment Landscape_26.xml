@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Investment Landscape_26" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Ramesh invested Rs. 5,00,000 in a fixed deposit offering 8% annual return. If inflation during the same period was 6%, what is the approximate real rate of return on his investment?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Approximately 2%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 8%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 14%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 6%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The real rate of return is calculated by adjusting the nominal return for inflation. Using the approximate formula: Real Return = Nominal Return - Inflation Rate = 8% - 6% = 2%. The precise Fisher formula gives: (1.08/1.06) - 1 = 1.89%, which is approximately 2%. On Rs. 5,00,000, the nominal gain is Rs. 40,000 but the real gain (in purchasing power terms) is only about Rs. 10,000.
+
+**The Trap:** Option B (8%) simply states the nominal return without adjusting for inflation -- this is the most common mistake among investors who confuse nominal and real returns. Option C (14%) incorrectly adds the two rates instead of subtracting. Option D (6%) confuses the inflation rate with the real return.
+
+**Cross-Exam Context:** The real return calculation is directly tested in NISM V-A and XII. Candidates must know both the approximate formula (Nominal - Inflation) and the precise Fisher equation: (1 + Nominal) = (1 + Real) x (1 + Inflation).
+
+**Distributor's Pro-Tip:** This simple calculation is your most powerful tool. Show clients: "Your Rs. 5 lakh FD earns Rs. 40,000 nominally, but inflation eats Rs. 30,000 of purchasing power. Your real gain is only Rs. 10,000 -- and after 30% tax on interest, you actually lose purchasing power." This motivates the shift to equity mutual funds.]]></text></explanation>
+    </question>
+</QF>

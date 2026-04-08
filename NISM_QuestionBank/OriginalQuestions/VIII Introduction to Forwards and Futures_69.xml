@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_69" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Continuing from the previous scenario, on Day 2 the settlement price falls to 22,180.50. What is the MTM for Day 2? (Previous settlement was 22,308.70, lot size 25)]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[MTM loss of Rs. 3,205.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[MTM loss of Rs. 128.20]]></text></answer>
+            <answer correct="no"><text><![CDATA[MTM gain of Rs. 3,205.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[MTM loss of Rs. 1,737.50]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+1. Previous day settlement: 22,308.70
+2. Day 2 settlement price: 22,180.50
+3. Price change = 22,180.50 - 22,308.70 = -128.20 points
+4. MTM loss = -128.20 x 25 = -Rs. 3,205.00
+
+Important: MTM on Day 2 is calculated from Day 1 settlement price (22,308.70), NOT from the original entry price (22,250).
+
+**The Trap:** Rs. 128.20 is per-unit loss. Rs. 1,737.50 calculates from original entry price (22,250 to 22,180.50 = 69.5 x 25). Each day's MTM uses the PREVIOUS day's settlement price as reference.
+
+**Cross-Exam Context:** Multi-day MTM tracking is a common Series VIII exam question pattern.
+
+**Key Takeaway:** Day N MTM = (Day N Settlement - Day N-1 Settlement) x Lot Size. Always use previous day's settlement.]]></text></explanation>
+    </question>
+</QF>

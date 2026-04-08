@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_67" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An index is at 18,000. Futures with 120 days to expiry are trading at 18,400. Using continuous compounding, the fair value (with r=9%, q=1.5%) is 18,300. What can a trader conclude?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Futures are overpriced relative to fair value (18,400 > 18,300), creating a potential cash-and-carry arbitrage opportunity]]></text></answer>
+            <answer correct="no"><text><![CDATA[Futures are underpriced, creating a reverse cash-and-carry arbitrage opportunity]]></text></answer>
+            <answer correct="no"><text><![CDATA[Futures are fairly priced because the difference of 100 points is within acceptable limits]]></text></answer>
+            <answer correct="no"><text><![CDATA[No conclusion can be drawn because continuous compounding is not used in Indian markets]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step analysis:
+1. Fair value = Rs. 18,300 (calculated using continuous compounding)
+2. Market futures price = Rs. 18,400
+3. Since 18,400 > 18,300, futures are OVERPRICED by Rs. 100
+
+Strategy: Cash-and-carry arbitrage
+- Buy the underlying at 18,000 (spot)
+- Sell the overpriced futures at 18,400
+- Lock in an arbitrage profit above the cost of carry
+
+**The Trap:** Overpriced futures call for cash-and-carry (buy spot, sell futures), NOT reverse. Both compounding methods are valid for analysis. A 100-point mispricing on 18,000 base is significant.
+
+**Cross-Exam Context:** Identifying mispricing and the correct arbitrage strategy is a key Series VIII exam topic.
+
+**Key Takeaway:** Futures > Fair Value = Overpriced = Cash-and-carry arbitrage (Buy spot + Sell futures).]]></text></explanation>
+    </question>
+</QF>

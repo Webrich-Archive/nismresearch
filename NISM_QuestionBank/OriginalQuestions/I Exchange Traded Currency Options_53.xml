@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_53" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which volatility type is used when plugging the current option market price back into the Black-Scholes model to derive the volatility estimate?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Implied Volatility]]></text></answer>
+            <answer correct="no"><text><![CDATA[Historical Volatility]]></text></answer>
+            <answer correct="no"><text><![CDATA[Forecasted Volatility]]></text></answer>
+            <answer correct="no"><text><![CDATA[Realized Volatility]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Implied volatility is derived by reverse-engineering Black-Scholes: given the market price and the other four inputs, find the volatility that makes the model price equal the market price.
+**The Trap:** Historical volatility is calculated from past prices. IV is forward-looking, derived from current option prices.
+**Cross-Exam Context:** IV derivation methodology is tested in Series I and VIII.
+**Distributor's Pro-Tip:** IV is the ONLY input to Black-Scholes that is not directly observable — it must be derived from market prices.]]></text></explanation>
+    </question>
+</QF>

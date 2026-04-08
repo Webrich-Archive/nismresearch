@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_89" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A stock trades at Rs. 800 in the spot market. The 2-month futures are at Rs. 805. The fair value of futures (including cost of carry) is Rs. 815. What arbitrage should a trader execute?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Reverse cash-and-carry arbitrage: Sell (short) the stock at Rs. 800 and simultaneously buy the futures at Rs. 805, earning the Rs. 10 mispricing]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cash-and-carry arbitrage: Buy the stock at Rs. 800 and sell the futures at Rs. 805]]></text></answer>
+            <answer correct="no"><text><![CDATA[No arbitrage is possible because futures are still above spot price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Wait for the futures to reach Rs. 815 before executing any strategy]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step analysis:
+1. Fair futures value = Rs. 815
+2. Actual futures price = Rs. 805
+3. Futures are UNDERPRICED (805 < 815) by Rs. 10
+
+Reverse cash-and-carry arbitrage:
+- Short sell the stock at Rs. 800 (invest proceeds, earn Rs. 15 carry)
+- Buy futures at Rs. 805
+- At expiry: take delivery via futures at Rs. 805, return stock
+- Profit = 800 + 15 - 805 = Rs. 10 per share (risk-free)
+
+**The Trap:** Cash-and-carry is for OVERPRICED futures. The fact that futures are above spot does not mean they are overpriced - you must compare with FAIR VALUE. Waiting serves no purpose in arbitrage.
+
+**Cross-Exam Context:** Reverse cash-and-carry requires the ability to short sell, which has specific rules tested in Series VIII.
+
+**Key Takeaway:** Underpriced futures (F < Fair F): Reverse cash-and-carry = Short spot + Buy futures.]]></text></explanation>
+    </question>
+</QF>

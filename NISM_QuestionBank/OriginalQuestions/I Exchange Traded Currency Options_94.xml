@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_94" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The time value of an option is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Directly proportional to the time remaining to expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Inversely proportional to the time remaining to expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Independent of time to expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equal to the intrinsic value]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Longer time to expiry = higher uncertainty = greater chance of becoming profitable = higher time value. Time value decays as expiry approaches, reaching zero at maturity.
+**The Trap:** Time value DECREASES as expiry approaches — but it's proportional to remaining time.
+**Cross-Exam Context:** Time value relationship is tested in Series I and VIII.
+**Distributor's Pro-Tip:** Time decay is not linear — it accelerates near expiry. The last month sees the steepest decay.]]></text></explanation>
+    </question>
+</QF>

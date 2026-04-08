@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_29" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The final settlement price for cross-currency futures (e.g., EUR-USD) is computed using:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[FBIL reference rates for USD-INR and the corresponding cross-currency rate published by FBIL]]></text></answer>
+            <answer correct="no"><text><![CDATA[The last traded futures price on expiry day]]></text></answer>
+            <answer correct="no"><text><![CDATA[The RBI reference rate for EUR-USD directly]]></text></answer>
+            <answer correct="no"><text><![CDATA[An average of the last 5 days' closing prices]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Since FBIL doesn't directly publish EUR-USD rates, the FSP for cross-currency futures is computed using FBIL's USD-INR reference rate combined with the corresponding EUR-INR (or GBP-INR, JPY-INR) rate published by FBIL.
+**The Trap:** There is no direct FBIL EUR-USD rate — it must be derived from INR cross rates.
+**Cross-Exam Context:** Cross-currency settlement is specific to Series I.
+**Distributor's Pro-Tip:** This derived methodology means cross-currency futures prices at expiry depend on BOTH the cross rate AND the USD-INR rate.]]></text></explanation>
+    </question>
+</QF>

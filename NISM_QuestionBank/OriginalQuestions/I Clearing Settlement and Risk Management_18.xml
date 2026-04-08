@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_18" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Interoperability among clearing corporations benefits participants by:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Allowing positions on different exchanges to be netted, reducing margin requirements]]></text></answer>
+            <answer correct="no"><text><![CDATA[Requiring higher margins for cross-exchange positions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Restricting trading to a single exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[Eliminating the need for clearing members]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Interoperability allows offsetting positions across exchanges to be netted at the CC level, reducing margin requirements and improving capital efficiency for participants.
+**The Trap:** Interoperability REDUCES (not increases) margin requirements through cross-exchange netting.
+**Cross-Exam Context:** Interoperability is tested in Series I and VII.
+**Distributor's Pro-Tip:** For example, a long USDINR position on NSE and short on BSE can be netted, significantly reducing the total margin needed.]]></text></explanation>
+    </question>
+</QF>

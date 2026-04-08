@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_78" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The minimum number of OTM strikes available for each currency option contract is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[12]]></text></answer>
+            <answer correct="no"><text><![CDATA[5]]></text></answer>
+            <answer correct="no"><text><![CDATA[25]]></text></answer>
+            <answer correct="no"><text><![CDATA[3]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** At minimum: 12 ITM + 12 OTM + 1 Near ATM. So 12 is the minimum number of OTM strikes.
+**The Trap:** 25 is the total minimum (12+12+1), not just OTM.
+**Cross-Exam Context:** Strike availability is tested in Series I.
+**Distributor's Pro-Tip:** OTM options are popular for low-cost hedging and speculative strategies.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The payoff graph for a long futures position shows:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Unlimited profit potential when price rises and unlimited loss when price falls — a linear payoff]]></text></answer>
+            <answer correct="no"><text><![CDATA[Limited profit with unlimited loss potential]]></text></answer>
+            <answer correct="no"><text><![CDATA[Limited loss with unlimited profit potential]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fixed profit regardless of price movement]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Futures have linear (symmetric) payoffs. Long position: profit = (Settlement price - Entry price) × Lot size. Profits are unlimited upward, losses unlimited downward.
+**The Trap:** Limited loss (with unlimited profit) describes a LONG OPTION position, not futures.
+**Cross-Exam Context:** Payoff diagrams are tested in Series I, VIII, and XIII.
+**Distributor's Pro-Tip:** Both long and short futures have unlimited profit AND unlimited loss potential — this symmetry is what makes futures different from options.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Option Trading Strategies_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A covered call strategy involves:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Owning the underlying stock and selling a call option on it to generate premium income]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buying the underlying stock and buying a call option for additional upside]]></text></answer>
+            <answer correct="no"><text><![CDATA[Selling a naked call option without owning the underlying stock]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buying a put option while owning the underlying stock]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A covered call = long stock + short call. The "cover" comes from owning the underlying stock, which can be delivered if the call is exercised. The premium received provides income and limited downside cushion but caps the upside profit.
+
+**The Trap:** Buying a put with stock is a protective put (different strategy). Selling a call WITHOUT owning stock is a naked call (much riskier). The key distinction is owning the stock makes the short call "covered."
+
+**Cross-Exam Context:** Covered call vs protective put are the two most commonly tested hedging strategies with options.
+
+**Key Takeaway:** Covered call = Long stock + Short call. Generates income, caps upside. Used for moderate bullish to neutral outlook.]]></text></explanation>
+    </question>
+</QF>

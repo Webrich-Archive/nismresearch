@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Scheme Performance_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[As per SEBI regulations, how should mutual fund scheme performance for periods greater than one year be disclosed?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[As absolute returns only]]></text></answer>
+            <answer correct="yes"><text><![CDATA[As CAGR (Compounded Annual Growth Rate)]]></text></answer>
+            <answer correct="no"><text><![CDATA[As simple annualized returns]]></text></answer>
+            <answer correct="no"><text><![CDATA[As rolling returns over 12-month periods]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI mandates that mutual fund scheme performance for periods greater than one year must be disclosed as CAGR (Compounded Annual Growth Rate). For periods less than or equal to one year, absolute returns must be shown. Performance must be disclosed for standardized periods: 1 year, 3 years, 5 years, and since inception.
+
+**The Trap:** Simple annualized returns can be misleading because they do not account for compounding. For example, a fund that returns 100% over 3 years would show 33.33% as simple annualized return but approximately 26% as CAGR. Absolute returns for multi-year periods would also be misleading as they do not normalize for time.
+
+**Cross-Exam Context:** In NISM V-B, understanding return calculation methods (absolute, CAGR, XIRR) is essential. In NISM III-C, advisers must present performance data in the regulated format.
+
+**Distributor's Pro-Tip:** Always use CAGR when discussing multi-year performance with clients. If a client says their fund gave 60% return in 3 years, help them understand the CAGR is about 17%, which is the true annualized picture. This prevents unrealistic expectations about future annual returns.]]></text></explanation>
+    </question>
+</QF>

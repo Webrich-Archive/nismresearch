@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VB Performance of Mutual Funds_31" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The Sharpe Ratio is calculated as __________, where Rs is the scheme return and Rf is the risk-free return.]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[(Rs - Rf) / Standard Deviation of scheme returns]]></text></answer>
+            <answer correct="no"><text><![CDATA[(Rs - Rf) / Beta of the scheme]]></text></answer>
+            <answer correct="no"><text><![CDATA[(Rs - Rf) / Tracking Error of the scheme]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs / Standard Deviation of scheme returns]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The Sharpe Ratio measures excess return per unit of total risk (standard deviation). The formula is (Rs - Rf) / Standard Deviation. A higher Sharpe Ratio indicates better risk-adjusted performance. It uses standard deviation as the risk measure because it captures total risk (both systematic and unsystematic).
+
+**The Trap:** (Rs - Rf) / Beta is the Treynor Ratio, not the Sharpe Ratio. Beta measures only systematic risk. Forgetting to subtract the risk-free rate (Rs / Std Dev) ignores the concept of excess return, which is fundamental to risk-adjusted measurement.
+
+**Cross-Exam Context:** Sharpe Ratio is tested across NISM Series V-A and V-B. Understanding the distinction between Sharpe (uses std dev) and Treynor (uses beta) is critical.
+
+**Key Takeaway:** Sharpe uses Standard Deviation (total risk); Treynor uses Beta (systematic risk). Both measure excess return per unit of their respective risk measures.]]></text></explanation>
+    </question>
+</QF>

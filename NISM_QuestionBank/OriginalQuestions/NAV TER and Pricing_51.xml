@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV TER and Pricing_51" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[SEBI mandates that NAV must be calculated to a specific number of decimal places. The requirement is ________.]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[4 decimal places for index, liquid, and other debt funds; at least 2 decimal places for equity and balanced funds]]></text></answer>
+            <answer correct="no"><text><![CDATA[Uniform 4 decimal places for all categories of mutual fund schemes]]></text></answer>
+            <answer correct="no"><text><![CDATA[Uniform 2 decimal places for all categories of mutual fund schemes]]></text></answer>
+            <answer correct="no"><text><![CDATA[3 decimal places for all categories of mutual fund schemes]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI requires different decimal precision for different fund categories. Index funds, liquid funds, and other debt funds must calculate NAV up to 4 decimal places. Equity and balanced (hybrid) funds must calculate NAV to at least 2 decimal places. The higher precision for debt and liquid funds is necessary because these funds have smaller daily NAV movements, and rounding errors at fewer decimal places could materially impact investors, especially in large-value institutional transactions.
+
+**The Trap:** "Uniform 4 decimal places" (Option B) overstates the requirement for equity funds. "Uniform 2 decimal places" (Option C) understates the requirement for debt and index funds. "3 decimal places for all" (Option D) is not prescribed by any regulation. The differential treatment based on fund category is the key exam point.
+
+**Cross-Exam Context:** This question tests precision about NAV computation rules. The rationale for 4 decimal places in debt/liquid funds is that even tiny NAV rounding differences can significantly impact returns on large institutional investments with short holding periods.
+
+**Key Takeaway:** NAV precision: 4 decimals for index/liquid/debt funds, minimum 2 decimals for equity/balanced funds. Higher precision where daily movements are smaller.]]></text></explanation>
+    </question>
+</QF>

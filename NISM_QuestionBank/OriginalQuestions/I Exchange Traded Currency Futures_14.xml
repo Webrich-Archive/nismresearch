@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_14" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What are the trading hours for INR-based currency futures?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Monday to Friday, 9:00 AM to 5:00 PM]]></text></answer>
+            <answer correct="no"><text><![CDATA[Monday to Friday, 9:15 AM to 3:30 PM]]></text></answer>
+            <answer correct="no"><text><![CDATA[Monday to Friday, 9:00 AM to 7:30 PM]]></text></answer>
+            <answer correct="no"><text><![CDATA[Monday to Saturday, 9:00 AM to 5:00 PM]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** INR-based currency futures trade from 9:00 AM to 5:00 PM, Monday to Friday. On expiry day, the expiring contract stops trading at 12:30 PM.
+**The Trap:** 9:15 AM - 3:30 PM is the equity market timing. 9:00 AM - 7:30 PM is the timing for CROSS-CURRENCY futures (not INR pairs).
+**Cross-Exam Context:** Market timings differ between segments — tested in Series I and VIII.
+**Distributor's Pro-Tip:** Cross-currency futures (EURUSD, GBPUSD, USDJPY) have extended hours to 7:30 PM to overlap with European and US market hours.]]></text></explanation>
+    </question>
+</QF>

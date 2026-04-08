@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VB Performance of Mutual Funds_33" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[The Treynor Ratio is calculated as __________, where Rs is the scheme return, Rf is the risk-free return, and it is best suited for evaluating well-diversified equity schemes.]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[(Rs - Rf) / Beta of the scheme]]></text></answer>
+            <answer correct="no"><text><![CDATA[(Rs - Rf) / Standard Deviation of scheme returns]]></text></answer>
+            <answer correct="no"><text><![CDATA[(Rs - Rf) / Tracking Error of the scheme]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs / Beta of the scheme]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The Treynor Ratio measures excess return per unit of systematic risk (Beta). The formula is (Rs - Rf) / Beta. It is most appropriate for well-diversified portfolios where unsystematic risk has been eliminated through diversification, leaving only systematic (market) risk measured by Beta.
+
+**The Trap:** (Rs - Rf) / Standard Deviation is the Sharpe Ratio, not Treynor. Students often confuse these two. The key difference is the denominator: Sharpe uses total risk (std dev), Treynor uses systematic risk (beta). Rs / Beta forgets to subtract the risk-free rate.
+
+**Cross-Exam Context:** Both NISM V-A and V-B test the distinction between Sharpe and Treynor ratios. A higher Treynor Ratio indicates better performance per unit of market risk.
+
+**Key Takeaway:** Treynor = excess return / Beta. Best for diversified portfolios. Sharpe = excess return / Standard Deviation. Better for undiversified or standalone portfolios.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV TER and Pricing_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The NAV of a mutual fund scheme is Rs. 50.00 per unit. An IDCW (Income Distribution cum Capital Withdrawal) of Rs. 3.00 per unit is declared. What will be the ex-IDCW NAV?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 47.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 53.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 50.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 47.50]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When IDCW is declared, the NAV falls by the exact amount of IDCW distributed per unit. Ex-IDCW NAV = NAV before IDCW - IDCW per unit = Rs. 50.00 - Rs. 3.00 = Rs. 47.00. The distribution comes out of the scheme's assets, reducing NAV.
+
+**The Trap:** Rs. 53.00 results from adding IDCW to NAV instead of subtracting — a fundamental misunderstanding. Rs. 50.00 assumes NAV does not change after IDCW, which is wrong since IDCW is paid from scheme assets. Rs. 47.50 might come from subtracting only half the IDCW or applying some imaginary tax deduction at source.
+
+**Cross-Exam Context:** The IDCW impact on NAV is tested in NISM V-A and V-B. Earlier called "dividend," SEBI renamed it to IDCW to clarify that mutual fund distributions are not like company dividends — they come from the investor's own corpus, not company profits.
+
+**Distributor's Pro-Tip:** Many investors mistakenly believe IDCW is "extra income." Explain clearly that IDCW reduces NAV proportionally — it is essentially returning their own money. This is why SEBI renamed dividend option to IDCW option — to prevent investor confusion. Growth option is often better for long-term wealth creation.]]></text></explanation>
+    </question>
+</QF>

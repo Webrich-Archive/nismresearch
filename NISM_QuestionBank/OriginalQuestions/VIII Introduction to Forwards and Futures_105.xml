@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_105" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A portfolio manager holds shares of 15 different stocks worth Rs. 20 crore. Rather than hedging each stock individually, she uses Nifty futures. After 1 month, the Nifty is down 4% but her portfolio is down 5.5%. What does this indicate about her hedge?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The hedge was imperfect because the portfolio had a higher effective beta than estimated, or stock-specific (unsystematic) risk caused additional losses not captured by the index hedge]]></text></answer>
+            <answer correct="no"><text><![CDATA[The hedge was perfect because both the portfolio and the index declined]]></text></answer>
+            <answer correct="no"><text><![CDATA[The hedge failed completely and should not have been attempted]]></text></answer>
+            <answer correct="no"><text><![CDATA[The Nifty futures contract was mispriced, causing the hedge to underperform]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Index futures hedging only removes SYSTEMATIC (market) risk. The portfolio fell 5.5% while Nifty fell only 4%. The extra 1.5% decline could be due to: (1) actual beta > estimated beta, (2) stock-specific (unsystematic) risk, or (3) both. This demonstrates that index hedging is imperfect for individual stock portfolios.
+
+**The Trap:** The hedge is not 'perfect' - the portfolio lost more than the hedge offset. The hedge did not 'fail completely' - it still offset most of the decline. Mispricing of futures is unlikely to be the cause.
+
+**Cross-Exam Context:** Hedging effectiveness and its limitations are important practical topics in Series VIII.
+
+**Key Takeaway:** Index hedging removes systematic risk only. Stock-specific risk remains unhedged, causing tracking error.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_37" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader buys 3 lots of EURINR futures at 89.50. The settlement price is 88.75. What is the MTM amount?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Loss of Rs. 2,250]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 2,250]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 225]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 750]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** MTM = (Settlement - Entry) × Lot size × Lots = (88.75 - 89.50) × 1000 × 3 = -0.75 × 3000 = -Rs. 2,250 (loss).
+**The Trap:** Long position loses when price falls below entry. The EURINR lot size is also 1000 (like USDINR).
+**Cross-Exam Context:** MTM calculations are tested in Series I and VIII.
+**Distributor's Pro-Tip:** This MTM loss would be debited to the trader's margin account on T+1. If margin falls below maintenance level, a margin call follows.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What does the Greek 'Delta' measure?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The change in option premium for a unit change in the price of the underlying asset]]></text></answer>
+            <answer correct="no"><text><![CDATA[The change in option premium due to time decay]]></text></answer>
+            <answer correct="no"><text><![CDATA[The change in option premium for a change in volatility]]></text></answer>
+            <answer correct="no"><text><![CDATA[The change in option premium for a change in interest rates]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Delta = Change in option premium / Unit change in underlying price. It measures the speed of premium change with respect to underlying price movement. Call delta: 0 to +1. Put delta: 0 to -1.
+**The Trap:** Time decay = Theta, Volatility sensitivity = Vega, Interest rate sensitivity = Rho.
+**Cross-Exam Context:** Greeks are tested in Series I and VIII.
+**Distributor's Pro-Tip:** A delta of 0.55 means the premium changes by Rs. 0.55 for every Re 1 change in the underlying.]]></text></explanation>
+    </question>
+</QF>

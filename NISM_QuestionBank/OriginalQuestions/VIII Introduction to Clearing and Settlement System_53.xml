@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Clearing and Settlement System_53" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Cross-margining between cash and derivatives segments means:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Offsetting positions across cash and derivatives segments are considered together, resulting in reduced overall margin requirements]]></text></answer>
+            <answer correct="no"><text><![CDATA[The same margin amount is applied across all segments]]></text></answer>
+            <answer correct="no"><text><![CDATA[Margins from one segment can be used for trading in another segment]]></text></answer>
+            <answer correct="no"><text><![CDATA[No margin is required if positions exist in both segments]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Cross-margining recognizes that a position in one segment may offset the risk of a position in another segment. For example, if a trader is long in a stock in the cash market and short in the same stock's futures, the combined risk is lower. Cross-margining gives a margin benefit for such offsetting positions.
+
+**The Trap:** Cross-margining reduces margins, it does not eliminate them. It is NOT about transferring margins between segments. Both positions must be genuinely offsetting.
+
+**Cross-Exam Context:** Cross-margining improves capital efficiency and is a SEBI-encouraged practice.
+
+**Key Takeaway:** Cross-margining = margin reduction for offsetting positions across cash and derivatives. Recognizes portfolio-level risk reduction.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_43" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader goes long 5 EURUSD futures at 1.0800. The price moves to 1.0850. What is the profit in USD?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[USD 25]]></text></answer>
+            <answer correct="no"><text><![CDATA[USD 250]]></text></answer>
+            <answer correct="no"><text><![CDATA[USD 2.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[USD 50]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Profit = (1.0850 - 1.0800) × 1000 × 5 = 0.0050 × 5000 = USD 25.
+**The Trap:** Don't confuse the lot size (1000 EUR) with the multiplication. The price difference is 0.0050 USD.
+**Cross-Exam Context:** Cross-currency P&L calculations are tested in Series I.
+**Distributor's Pro-Tip:** 50 pips (0.0050) × 5 lots × 1000 = USD 25. Convert to INR using FBIL rate for margin purposes.]]></text></explanation>
+    </question>
+</QF>

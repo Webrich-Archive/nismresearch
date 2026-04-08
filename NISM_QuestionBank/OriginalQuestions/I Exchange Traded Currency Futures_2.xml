@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In a futures contract, the exchange decides all contract terms EXCEPT:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Lot size]]></text></answer>
+            <answer correct="no"><text><![CDATA[Expiry date]]></text></answer>
+            <answer correct="no"><text><![CDATA[Underlying asset]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Futures contracts are standardized — the exchange decides lot size, underlying asset, expiry date, tick size, etc. The ONLY thing left for the buyer and seller to decide is the PRICE through free interaction on the trading platform.
+**The Trap:** Lot size and expiry date ARE set by the exchange, unlike in OTC forwards where everything is negotiable.
+**Cross-Exam Context:** This is fundamental to all NISM derivatives exams (Series I, VIII, XIII).
+**Distributor's Pro-Tip:** This is the key difference between futures (only price is negotiated) and forwards (everything is negotiated).]]></text></explanation>
+    </question>
+</QF>

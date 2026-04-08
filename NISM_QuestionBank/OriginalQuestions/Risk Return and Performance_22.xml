@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Risk Return and Performance_22" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Tracking error of a mutual fund measures:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The absolute difference between fund return and benchmark return]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The standard deviation of the difference between fund returns and benchmark returns over time]]></text></answer>
+            <answer correct="no"><text><![CDATA[The error in calculating the fund's NAV]]></text></answer>
+            <answer correct="no"><text><![CDATA[The deviation of actual expense ratio from the stated expense ratio]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Tracking error is the standard deviation of the difference between a fund's returns and its benchmark returns over a given period. It measures the consistency of the deviation, not just the average deviation. A low tracking error means the fund closely mirrors the benchmark; a high tracking error means the fund's returns diverge significantly from the benchmark.
+
+**The Trap:** Tracking error is NOT the simple difference between fund and benchmark returns (that is just active return or excess return). It is NOT an error in NAV calculation or expense ratio discrepancy. It is specifically the VOLATILITY (standard deviation) of the return differences over time.
+
+**Cross-Exam Context:** Tracking error is most relevant for index funds and ETFs where the objective is to replicate the benchmark. Sources of tracking error include expense ratio, cash drag, rebalancing timing, and transaction costs. For actively managed funds, higher tracking error is expected and may even be desirable if it comes with positive alpha.
+
+**Distributor's Pro-Tip:** For clients choosing between index funds tracking the same index, lower tracking error is better. Typical tracking error for a good Nifty 50 index fund is 0.05-0.20%. If tracking error is significantly higher, the fund may have operational inefficiencies. Compare tracking error alongside expense ratio when selecting passive funds.]]></text></explanation>
+    </question>
+</QF>

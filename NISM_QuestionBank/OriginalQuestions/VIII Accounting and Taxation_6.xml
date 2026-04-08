@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Accounting and Taxation_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When an option writer (seller) receives premium, the accounting entry is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Debit: Bank/Broker Account; Credit: Option Premium Received Account (Liability)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Debit: Bank Account; Credit: Revenue Account (immediately recognized as income)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Debit: Margin Account; Credit: Option Premium Account]]></text></answer>
+            <answer correct="no"><text><![CDATA[No entry until the option expires]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Premium received by the option writer is initially recorded as a liability (obligation exists until expiry). Entry:
+Debit: Bank/Broker Account (cash received)
+Credit: Option Premium Received Account (Liability)
+
+On expiry, if the option expires worthless, this liability is transferred to income. If exercised, the settlement amount is adjusted against this liability.
+
+**The Trap:** Premium is NOT immediately income - it is a liability because the writer has an obligation. Income recognition happens only on expiry/exercise.
+
+**Cross-Exam Context:** The asymmetric accounting treatment of option buyers vs sellers is a key concept.
+
+**Key Takeaway:** Option premium received = liability initially. Income recognized only on expiry/exercise. Not immediate revenue.]]></text></explanation>
+    </question>
+</QF>

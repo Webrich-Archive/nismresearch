@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Risk Return and Performance_56" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A fund delivered a return of 18%, the risk-free rate is 7%, the fund's Beta is 1.2, and the market return is 14%. The expected return using CAPM is 7% + 1.2 x (14% - 7%) = 15.4%. The Jensen's Alpha of this fund is ________.]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[2.6%]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.8%]]></text></answer>
+            <answer correct="no"><text><![CDATA[3.4%]]></text></answer>
+            <answer correct="no"><text><![CDATA[4.0%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Alpha = Actual Return - Expected Return (from CAPM). Expected Return = Rf + Beta x (Market Return - Rf) = 7% + 1.2 x (14% - 7%) = 7% + 1.2 x 7% = 7% + 8.4% = 15.4%. Alpha = 18% - 15.4% = 2.6%. The fund manager generated 2.6% return above what was expected given the fund's systematic risk level.
+
+**The Trap:** 4.0% comes from simply comparing fund return to market return (18 - 14) without adjusting for beta -- this ignores that the fund's beta of 1.2 means it was EXPECTED to outperform the market. 1.8% and 3.4% result from calculation errors in the CAPM expected return. The critical insight: with beta 1.2, the fund SHOULD have beaten the 14% market return even with zero skill.
+
+**Cross-Exam Context:** Alpha calculations are high-yield exam questions. The three-step process is: (1) Calculate expected return using CAPM, (2) Subtract from actual return, (3) Positive = outperformance, Negative = underperformance.
+
+**Key Takeaway:** Alpha = 18% - 15.4% = 2.6%. Always compute CAPM expected return first before comparing to actual return.]]></text></explanation>
+    </question>
+</QF>

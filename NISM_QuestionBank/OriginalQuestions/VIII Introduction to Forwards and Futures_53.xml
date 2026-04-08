@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_53" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The spot price of Nifty is 17,500, the risk-free rate is 12% per annum, the expected dividend yield is 4% per annum, and the futures contract expires in 90 days. Using discrete compounding F = S(1+r-q)^(T/365), what is the theoretical futures price?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 17,835.26 (approximately)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 18,900.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 17,500.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 17,346.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation using discrete compounding:
+F = S x (1 + r - q)^(T/365)
+F = 17,500 x (1 + 0.12 - 0.04)^(90/365)
+F = 17,500 x (1.08)^(0.2466)
+F = 17,500 x 1.01916 (using calculator: 1.08^0.2466)
+F = Rs. 17,835.26
+
+**The Trap:** Rs. 18,900 uses simple multiplication (17500 x 1.08). Rs. 17,500 ignores cost of carry entirely. Rs. 17,346 subtracts the carry cost instead of adding. Remember to use the exponent T/365, not just multiply by (1+r-q).
+
+**Cross-Exam Context:** This is the most important calculation formula in Series VIII Chapter 3.
+
+**Key Takeaway:** F = S(1+r-q)^(T/365). Net cost of carry = r - q = 12% - 4% = 8%. Apply for 90/365 of a year.]]></text></explanation>
+    </question>
+</QF>

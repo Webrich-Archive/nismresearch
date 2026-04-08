@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_53" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What happens to the futures price as the contract approaches its expiry date?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The futures price converges with the spot price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The futures price moves further away from the spot price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The futures price becomes zero]]></text></answer>
+            <answer correct="no"><text><![CDATA[The futures price remains constant]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** At expiry, futures price must equal the spot price (convergence). This is because the time value (interest rate differential component) reduces to zero as time to expiry approaches zero.
+**The Trap:** The convergence is guaranteed — at expiry, the final settlement uses the FBIL spot rate, forcing exact convergence.
+**Cross-Exam Context:** Convergence is a universal futures concept tested in Series I, VIII, and XIII.
+**Distributor's Pro-Tip:** If futures and spot don't converge near expiry, it creates an arbitrage opportunity that market participants will quickly exploit.]]></text></explanation>
+    </question>
+</QF>

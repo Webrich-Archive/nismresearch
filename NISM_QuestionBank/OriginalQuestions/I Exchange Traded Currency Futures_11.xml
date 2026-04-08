@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The contract cycle for INR-based currency futures includes:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[11 serial weekly cycles and 12 serial monthly trading cycles]]></text></answer>
+            <answer correct="no"><text><![CDATA[4 weekly and 3 monthly cycles]]></text></answer>
+            <answer correct="no"><text><![CDATA[12 monthly cycles only]]></text></answer>
+            <answer correct="no"><text><![CDATA[52 weekly cycles and 4 quarterly cycles]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** INR-based currency futures (USDINR, EURINR, GBPINR, JPYINR) have 11 serial weekly cycles (excluding the expiry week where monthly contracts expire on Friday) and 12 serial monthly cycles.
+**The Trap:** Cross-currency futures (EURUSD, GBPUSD, USDJPY) have only 12 monthly cycles — no weekly contracts.
+**Cross-Exam Context:** Contract cycle details are specific to Series I.
+**Distributor's Pro-Tip:** New weekly/monthly contracts are introduced after the expiry of the respective contract, maintaining a rolling cycle.]]></text></explanation>
+    </question>
+</QF>

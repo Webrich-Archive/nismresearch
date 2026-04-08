@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV TER and Pricing_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The NAV of an equity mutual fund scheme is Rs. 25.00. If the exit load applicable is 1%, what is the repurchase price per unit that the investor will receive?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 24.75]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 25.25]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 24.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 25.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Repurchase Price = NAV - Exit Load = NAV - (NAV x Exit Load %) = Rs. 25.00 - (Rs. 25.00 x 1%) = Rs. 25.00 - Rs. 0.25 = Rs. 24.75.
+
+**The Trap:** Rs. 25.25 is the result of ADDING the exit load instead of subtracting — confusing sale price formula with repurchase price. Rs. 24.00 comes from subtracting Rs. 1 flat (1% misread as Rs. 1). Rs. 25.00 assumes no exit load applies, which would only be true if the holding period exceeds the exit load period.
+
+**Cross-Exam Context:** Repurchase price calculations appear in NISM V-A and V-B. Remember: since entry load is abolished (August 2009), Sale Price = NAV for open-ended schemes. Only exit load affects the repurchase/redemption price.
+
+**Distributor's Pro-Tip:** Always inform clients about exit load applicability before they invest. For equity funds, typical exit load is 1% if redeemed within 1 year. After 1 year, repurchase price equals NAV. This knowledge helps clients plan their redemption timing to avoid unnecessary charges.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Accounting and Taxation_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When a trader receives a Mark-to-Market (MTM) profit on their futures position, the accounting entry is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Debit: Broker/Margin Account; Credit: Profit on Futures Trading Account]]></text></answer>
+            <answer correct="no"><text><![CDATA[Debit: Cash Account; Credit: Capital Account]]></text></answer>
+            <answer correct="no"><text><![CDATA[Debit: Initial Margin Account; Credit: Bank Account]]></text></answer>
+            <answer correct="no"><text><![CDATA[No entry is required until the position is closed]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** MTM profits must be recognized daily as they represent realized gains (settled in cash). Entry:
+Debit: Broker/Margin Account (Asset increases as money is received)
+Credit: Profit on Futures Trading Account (Income recognition)
+
+For MTM loss: Debit: Loss on Futures Trading Account; Credit: Broker/Margin Account
+
+**The Trap:** MTM is a DAILY settlement - it must be recorded daily, not only at position close. The profit/loss is realized, not notional.
+
+**Cross-Exam Context:** Daily MTM accounting is a unique feature of derivatives accounting.
+
+**Key Takeaway:** MTM profit: Debit Margin, Credit P&L. MTM loss: Debit P&L, Credit Margin. Record daily.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Scheme Performance_33" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[CASE STUDY (Continued): Rajesh, a 40-year-old salaried professional, wants to invest in an equity mutual fund from the SEBI Large Cap category for his daughter's higher education in 10 years. His distributor shortlists three funds and presents the following fact sheet data:
+
+BENCHMARK for all three funds: Nifty 50 TRI
+Nifty 50 TRI Returns: 1-year: 14.0%, 3-year CAGR: 13.5%, 5-year CAGR: 12.8%
+
+FUND CRESCENDO:
+- 1-year return: 16.2%, 3-year CAGR: 14.8%, 5-year CAGR: 13.5%
+- Sharpe Ratio: 1.10, Information Ratio: 0.65, Expense Ratio: 1.80%
+- Fund Manager tenure: 7 years, AUM: Rs 18,000 crore
+
+FUND DYNAMO:
+- 1-year return: 19.5%, 3-year CAGR: 15.2%, 5-year CAGR: 11.8%
+- Sharpe Ratio: 0.95, Information Ratio: 0.40, Expense Ratio: 2.10%
+- Fund Manager tenure: 2 years, AUM: Rs 5,500 crore
+
+FUND ELITE:
+- 1-year return: 15.0%, 3-year CAGR: 14.2%, 5-year CAGR: 13.8%
+- Sharpe Ratio: 1.25, Information Ratio: 0.72, Expense Ratio: 0.85%
+- Fund Manager tenure: 5 years, AUM: Rs 25,000 crore
+
+Considering the risk-adjusted performance metrics, which fund offers the BEST risk-adjusted return per unit of total risk and per unit of active risk?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Fund Crescendo, with Sharpe Ratio 1.10 and Information Ratio 0.65]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fund Dynamo, as its high 1-year return compensates for lower ratios]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Fund Elite, with the highest Sharpe Ratio (1.25) and highest Information Ratio (0.72)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fund Dynamo, with Sharpe Ratio 0.95 indicating moderate risk]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Comparing risk-adjusted metrics:
+- Sharpe Ratio (return per unit of TOTAL risk): Elite 1.25 > Crescendo 1.10 > Dynamo 0.95
+- Information Ratio (excess return per unit of ACTIVE risk): Elite 0.72 > Crescendo 0.65 > Dynamo 0.40
+
+Fund Elite leads on BOTH risk-adjusted metrics. It generates the most return per unit of total risk (Sharpe) and the most consistent excess return per unit of tracking error (Information Ratio). This double leadership indicates superior risk-adjusted management.
+
+**The Trap:** Fund Dynamo's high 1-year return (19.5%) might attract attention, but its low Sharpe Ratio (0.95) and Information Ratio (0.40) reveal that this return came with disproportionately higher risk. High returns without risk adjustment can be misleading.
+
+**Cross-Exam Context:** Sharpe Ratio and Information Ratio measure different aspects of risk-adjusted performance. Sharpe uses total risk (standard deviation), while Information Ratio uses active risk (tracking error). A fund leading on both metrics demonstrates comprehensive superior management.
+
+**Distributor's Pro-Tip:** When presenting to clients, explain risk-adjusted ratios simply: "Fund Elite gives you more return per unit of risk taken -- like getting better mileage per litre of fuel. Higher ratios mean more efficient portfolio management."]]></text></explanation>
+    </question>
+</QF>

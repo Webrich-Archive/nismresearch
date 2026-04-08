@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_64" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Trader A buys 10 lots and Trader B sells 10 lots of USDINR futures in a new contract. What is the open interest?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[10 contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[20 contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[0 contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[5 contracts]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Open interest counts ONLY ONE SIDE (since total longs always equal total shorts). 10 contracts were opened (10 long + 10 short), but OI = 10 contracts.
+**The Trap:** Don't add both sides — OI is 10, not 20. It's the total outstanding contracts, counting only one direction.
+**Cross-Exam Context:** Open interest interpretation is tested in Series I, VIII, and XIII.
+**Distributor's Pro-Tip:** If Trader A later sells 5 lots (closing position) and Trader C buys those 5, OI stays at 10 (existing shorts unchanged). OI changes only when new positions are created or existing positions are closed.]]></text></explanation>
+    </question>
+</QF>

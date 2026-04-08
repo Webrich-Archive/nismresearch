@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_96" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader buys 3 lots of a put option with premium Rs. 85 per unit. Lot size is 25 units. What is the total premium paid?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 6,375]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,125]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 255]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 85]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Total Premium = Premium × Lot Size × Number of Lots
+
+Step-by-step:
+1. Premium per unit = Rs. 85
+2. Lot size = 25
+3. Number of lots = 3
+4. Total = 85 × 25 × 3 = Rs. 6,375
+
+**The Trap:** Don't forget to multiply by number of lots if multiple contracts are purchased.
+
+**Cross-Exam Context:** Real trading always involves lot size. 1 contract = 1 lot = lot size units.
+
+**Key Takeaway:** Total premium for multiple lots = Premium × Lot Size × Number of Lots.]]></text></explanation>
+    </question>
+</QF>

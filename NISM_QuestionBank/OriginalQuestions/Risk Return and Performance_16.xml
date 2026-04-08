@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Risk Return and Performance_16" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[As per SEBI regulations, mutual fund returns for periods less than one year must be shown as:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Absolute returns (point-to-point), not annualized]]></text></answer>
+            <answer correct="no"><text><![CDATA[Annualized returns using CAGR formula]]></text></answer>
+            <answer correct="no"><text><![CDATA[Returns adjusted for inflation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Returns net of taxes]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI mandates that mutual fund returns for periods less than one year must be presented as absolute (point-to-point) returns and must NOT be annualized. This prevents misleading representation. For example, if a fund returns 3% in one month, annualizing it to 36% would be highly misleading as it assumes the same monthly return sustains for 12 months.
+
+**The Trap:** CAGR is required only for periods EXCEEDING one year, not for shorter periods. Returns are not adjusted for inflation or taxes in standard SEBI-mandated disclosures. The key rule to remember: greater than 1 year = CAGR; less than 1 year = absolute return only.
+
+**Cross-Exam Context:** This SEBI norm prevents fund houses from cherry-picking short high-return periods and annualizing them to attract investors. Combined with the mandatory disclaimer "past performance is not indicative of future results," these norms form the regulatory framework for fair return representation.
+
+**Distributor's Pro-Tip:** When showing fund factsheets to clients, ensure you explain that the 6-month or 3-month return shown is absolute, not annualized. Clients often mistakenly assume a 6% six-month return means 12% annually -- clarify that past short-term returns may not sustain.]]></text></explanation>
+    </question>
+</QF>

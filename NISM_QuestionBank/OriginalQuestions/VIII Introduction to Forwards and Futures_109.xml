@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_109" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A speculator is bullish on TCS. TCS spot is Rs. 3,500 and futures are at Rs. 3,530. He has two choices: buy 1,000 shares in cash (Rs. 35 lakhs) or buy 5 lots of futures (lot size 200, margin 15%). If TCS rises 5%, compare the return on investment for both strategies.]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Cash market: 5% return on Rs. 35 lakhs = Rs. 1,75,000 (5% ROI). Futures: same Rs. 1,75,000 profit but on margin of Rs. 5,29,500 = approximately 33% ROI. Futures deliver higher ROI due to leverage]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both strategies give 5% return because the underlying price change is the same]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cash market gives higher return because there is no cost of carry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Futures give lower return because the entry price (3,530) is higher than spot (3,500)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+Cash market:
+- Investment = 1,000 x 3,500 = Rs. 35,00,000
+- Profit if 5% rise = 35,00,000 x 5% = Rs. 1,75,000
+- ROI = 1,75,000 / 35,00,000 = 5%
+
+Futures market:
+- Exposure = 5 lots x 200 x 3,530 = Rs. 35,30,000
+- Profit = 1,000 shares x 3,500 x 5% = Rs. 1,75,000 (approximately)
+- Margin = 35,30,000 x 15% = Rs. 5,29,500
+- ROI = 1,75,000 / 5,29,500 = approximately 33%
+
+**The Trap:** The return on INVESTED CAPITAL is 33% for futures vs 5% for cash. The absolute profit is similar, but leverage amplifies the ROI.
+
+**Cross-Exam Context:** Leverage advantage (and risk) of futures over cash market is a key Series VIII concept.
+
+**Key Takeaway:** Futures leverage amplifies ROI: 5% market move = 33% return on margin (with 15% margin requirement).]]></text></explanation>
+    </question>
+</QF>

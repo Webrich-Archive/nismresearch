@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_40" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The bull put spread in the workbook (short 83 put at 0.07, long 82.50 put at 0.05) is a:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Net premium receipt strategy with limited profit and limited loss]]></text></answer>
+            <answer correct="no"><text><![CDATA[Net premium payment strategy with unlimited profit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Zero-cost strategy]]></text></answer>
+            <answer correct="no"><text><![CDATA[Net premium receipt strategy with unlimited loss]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Short put at higher strike receives MORE premium (0.07) than long put at lower strike pays (0.05). Net receipt = 0.02. Max profit = 0.02 (when USDINR ≥ 83). Max loss = 0.50 - 0.02 = 0.48 (when USDINR ≤ 82.50).
+**The Trap:** All spread strategies have LIMITED profit and LIMITED loss.
+**Cross-Exam Context:** Bull put spread characteristics are from the workbook.
+**Distributor's Pro-Tip:** Bull put spread is commonly used by traders who are moderately bullish and want to collect upfront premium while having defined risk.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_44" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Trader X shorts 2 lots of TCS futures at Rs. 3,600. The lot size is 175. TCS spot closes at Rs. 3,720 on expiry. What is Trader X's total profit or loss?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Loss of Rs. 42,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 42,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 21,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 120]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+1. Position: Short 2 lots at Rs. 3,600
+2. Settlement price: Rs. 3,720
+3. Per share loss for short = 3,600 - 3,720 = -120 (loss because spot > entry for short)
+4. Per lot loss = -120 x 175 = -Rs. 21,000
+5. Total loss for 2 lots = -21,000 x 2 = -Rs. 42,000
+
+**The Trap:** Short sellers LOSE when prices rise. Rs. 21,000 is per lot. Rs. 120 is per share. Don't confuse the direction of profit for short positions.
+
+**Cross-Exam Context:** Understanding short position risk is crucial for Series VIII risk management questions.
+
+**Key Takeaway:** Short futures loss = (Entry - Expiry Spot) x Lot Size x Lots. When spot rises above entry, shorts lose.]]></text></explanation>
+    </question>
+</QF>

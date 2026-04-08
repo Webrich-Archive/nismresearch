@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Clearing Settlement and Risk Management_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The daily settlement of ETCD trades is done on:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[T+1 working day basis]]></text></answer>
+            <answer correct="no"><text><![CDATA[Same day (T+0)]]></text></answer>
+            <answer correct="no"><text><![CDATA[T+2 basis]]></text></answer>
+            <answer correct="no"><text><![CDATA[T+3 basis]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Daily MTM settlement = T+1. Final settlement = T+2 (from last trading day). Funds pay-in and pay-out are effected before market opening on the settlement day.
+**The Trap:** T+2 is for FINAL settlement, not daily. Don't confuse the two.
+**Cross-Exam Context:** Settlement timelines are tested in Series I and VII.
+**Distributor's Pro-Tip:** The T+1 daily settlement ensures that gains/losses are exchanged promptly, preventing buildup of credit risk.]]></text></explanation>
+    </question>
+</QF>

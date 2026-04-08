@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Option Trading Strategies_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investor creates a bull call spread on Stock X: buys 600 CE at Rs. 45 and sells 700 CE at Rs. 10. If the stock closes at Rs. 680 at expiry, what is the net payoff per share?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 45 profit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 80 profit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 35 loss]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 65 profit]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+1. Net premium paid = 45 - 10 = Rs. 35
+2. At expiry, stock = Rs. 680
+3. Bought 600 CE: Payoff = 680 - 600 = Rs. 80 (ITM)
+4. Sold 700 CE: Payoff = Rs. 0 (OTM, expires worthless)
+5. Gross payoff = 80 - 0 = Rs. 80
+6. Net payoff = 80 - 35 (net premium) = Rs. 45 profit
+
+**The Trap:** Forgetting to subtract the net premium paid gives Rs. 80 (gross payoff only). Also, the sold 700 CE is OTM at 680, so it contributes zero payoff.
+
+**Cross-Exam Context:** Calculation of spread payoffs at various expiry levels is a standard exam question.
+
+**Key Takeaway:** Always account for the net premium paid/received when calculating spread payoffs. Net payoff = Gross payoff from options - Net premium.]]></text></explanation>
+    </question>
+</QF>

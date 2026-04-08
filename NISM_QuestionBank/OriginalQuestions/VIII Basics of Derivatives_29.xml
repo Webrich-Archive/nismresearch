@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Basics of Derivatives_29" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In exchange-traded derivatives, margins are required to be maintained. What is the primary purpose of margins?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[To mitigate the risk of default by ensuring participants have adequate collateral]]></text></answer>
+            <answer correct="no"><text><![CDATA[To provide profit to the exchange from derivatives trading]]></text></answer>
+            <answer correct="no"><text><![CDATA[To pay the premium for options contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[To compensate brokers for their services in executing trades]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Margins serve as collateral or a performance guarantee in exchange-traded derivatives. They ensure that both parties have adequate funds to honor their obligations, thereby mitigating the risk of default and protecting the integrity of the clearing system.
+**The Trap:** Margins are not exchange revenue (exchanges earn from transaction fees). Premium is separate from margin and applies only to options. Brokerage is a separate fee paid to brokers for their services.
+**Cross-Exam Context:** Margin concepts are tested extensively in NISM Series VIII, particularly in the context of risk management.
+**Key Takeaway:** Margin = collateral/performance guarantee = default risk mitigation. This is why exchange-traded derivatives have lower counterparty risk than OTC derivatives.]]></text></explanation>
+    </question>
+</QF>

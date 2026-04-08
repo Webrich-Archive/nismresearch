@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Accounting and Taxation_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[STT on the sale of option contracts (where option is sold/written) is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[0.0625% of the option premium, payable by the seller]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.0125% of the contract value]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.1% of the option premium]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.125% of the settlement price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** STT on sale of options:
+- Rate: 0.0625% (6.25 paise per Rs. 100)
+- Payable on: the option premium amount (not the contract value)
+- Payable by: the seller of the option
+
+This is different from the STT on exercise of options (0.125% on settlement/intrinsic value).
+
+**The Trap:** Note the different bases: futures STT is on turnover/contract value, option sale STT is on premium, and option exercise STT is on settlement value. Different bases with different rates.
+
+**Cross-Exam Context:** Distinguishing STT rates and bases across different derivative transactions is a key exam skill.
+
+**Key Takeaway:** Option sale STT: 0.0625% on premium (seller pays). Option exercise: 0.125% on settlement price (buyer pays).]]></text></explanation>
+    </question>
+</QF>

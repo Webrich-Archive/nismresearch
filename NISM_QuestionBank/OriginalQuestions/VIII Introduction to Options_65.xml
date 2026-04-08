@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_65" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A call option buyer pays Rs. 200 premium for a call with strike Rs. 1,000. At expiry, the stock is at Rs. 1,350. What is the percentage return on the premium invested?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[75%]]></text></answer>
+            <answer correct="no"><text><![CDATA[35%]]></text></answer>
+            <answer correct="no"><text><![CDATA[150%]]></text></answer>
+            <answer correct="no"><text><![CDATA[20%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** 
+Step-by-step:
+1. Payoff = max(1,350 - 1,000, 0) = Rs. 350
+2. Profit = 350 - 200 = Rs. 150
+3. Return on investment = Profit / Premium × 100 = 150 / 200 × 100 = 75%
+
+**The Trap:** Return is calculated on PREMIUM PAID (investment), not on stock price or strike price.
+
+**Cross-Exam Context:** Leverage effect: 35% stock move creates 75% return on option premium.
+
+**Key Takeaway:** Option return % = (Profit / Premium) × 100. Options provide leveraged returns.]]></text></explanation>
+    </question>
+</QF>

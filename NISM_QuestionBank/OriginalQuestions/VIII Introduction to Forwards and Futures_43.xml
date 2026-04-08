@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_43" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader goes long on 3 lots of Reliance futures at Rs. 2,850 per share. The lot size is 250. At expiry, Reliance spot closes at Rs. 2,780. What is the total profit or loss?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Loss of Rs. 52,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 17,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs. 52,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs. 70]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+1. Position: Long 3 lots at Rs. 2,850
+2. Settlement price: Rs. 2,780
+3. Per share loss = 2,780 - 2,850 = -70 (loss because spot < entry)
+4. Per lot loss = -70 x 250 = -Rs. 17,500
+5. Total loss for 3 lots = -17,500 x 3 = -Rs. 52,500
+
+**The Trap:** Rs. 17,500 is the loss for ONE lot, not three. Rs. 70 is the per-share loss. Don't forget to multiply by number of lots AND lot size.
+
+**Cross-Exam Context:** Multi-lot calculations are common in Series VIII practical questions.
+
+**Key Takeaway:** Total P&L = (Settlement - Entry) x Lot Size x Number of Lots. Negative = loss for long.]]></text></explanation>
+    </question>
+</QF>

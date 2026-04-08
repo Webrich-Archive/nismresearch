@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Option Trading Strategies_16" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader sells a Nifty 22000 CE at Rs. 210 and sells a Nifty 22000 PE at Rs. 190. What is the maximum profit and the breakeven points?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Max profit = Rs. 400, BEPs at 21,600 and 22,400]]></text></answer>
+            <answer correct="no"><text><![CDATA[Max profit = Rs. 210, BEPs at 21,790 and 22,210]]></text></answer>
+            <answer correct="no"><text><![CDATA[Max profit = Rs. 400, BEPs at 21,800 and 22,200]]></text></answer>
+            <answer correct="no"><text><![CDATA[Max profit is unlimited, BEPs at 21,600 and 22,400]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step:
+1. Short straddle = Sell call + Sell put at the SAME strike
+2. Total premium received = 210 + 190 = Rs. 400
+3. Maximum profit = Total premium = Rs. 400 (when Nifty expires exactly at 22,000)
+4. Upper BEP = Strike + Total premium = 22,000 + 400 = 22,400
+5. Lower BEP = Strike - Total premium = 22,000 - 400 = 21,600
+6. Loss is theoretically unlimited beyond the BEPs
+
+**The Trap:** Maximum profit for short straddle is LIMITED to total premium (not unlimited). Losses are potentially unlimited. This is the opposite of long straddle risk profile.
+
+**Cross-Exam Context:** Short straddle is considered one of the riskiest option strategies due to unlimited loss potential.
+
+**Key Takeaway:** Short straddle: Max profit = Total premium received. BEPs = Strike +/- Total premium. Loss potential is unlimited.]]></text></explanation>
+    </question>
+</QF>

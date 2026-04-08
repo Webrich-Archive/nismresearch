@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Strategies Using Currency Derivatives_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What are the three parameters to decide when hedging with currency derivatives?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Derivative contract (currency pair), type of hedge (long/short), and contract month]]></text></answer>
+            <answer correct="no"><text><![CDATA[Exchange, broker, and margin amount]]></text></answer>
+            <answer correct="no"><text><![CDATA[Lot size, tick size, and price band]]></text></answer>
+            <answer correct="no"><text><![CDATA[Spot rate, forward rate, and interest rate]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** (1) Derivative contract = linked to the currency pair of exposure, (2) Long or short = depends on whether receiving or paying foreign currency, (3) Contract month = matches timing of expected receipt/payment.
+**The Trap:** These are STRATEGIC decisions, not technical specifications.
+**Cross-Exam Context:** Hedging parameter selection is directly from the Series I workbook.
+**Distributor's Pro-Tip:** The contract month should expire AFTER (but close to) the expected date of receipt/payment.]]></text></explanation>
+    </question>
+</QF>

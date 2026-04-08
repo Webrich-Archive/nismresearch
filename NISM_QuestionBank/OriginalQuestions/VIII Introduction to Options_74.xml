@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Options_74" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader buys a put option on HDFC Bank with strike Rs. 1,600 at premium Rs. 55. At expiry, the stock is at Rs. 1,520. What is the profit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 25]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 80]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 55]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 135]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Put Profit = max(X - S, 0) - Premium
+
+Step-by-step:
+1. X = 1,600, S = 1,520, P = 55
+2. Payoff = max(1,600 - 1,520, 0) = Rs. 80
+3. Profit = 80 - 55 = Rs. 25
+
+**The Trap:** Don't forget to subtract premium. Payoff (80) minus premium (55) = profit (25).
+
+**Cross-Exam Context:** BEP = 1,600 - 55 = 1,545. Spot 1,520 < 1,545, confirming profit zone.
+
+**Key Takeaway:** Put Profit = max(X - S, 0) - P = 80 - 55 = Rs. 25.]]></text></explanation>
+    </question>
+</QF>

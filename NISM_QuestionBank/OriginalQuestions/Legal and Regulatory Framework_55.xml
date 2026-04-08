@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Legal and Regulatory Framework_55" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[CASE STUDY (continued): Ravi's business grows over the next year. He hires two assistants to help manage client relationships. A new client, Mr. Kapoor, walks in and is attended by Ravi's assistant, Priya. Priya helps Mr. Kapoor fill in the application form for a debt fund investment. On the form, the ARN field shows Ravi's ARN number but the EUIN field is left blank.
+
+Question 5: What is the regulatory concern with the blank EUIN field, and what should Ravi do to rectify this?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[No concern — EUIN is optional for debt fund investments and only required for equity funds]]></text></answer>
+            <answer correct="no"><text><![CDATA[Ravi's ARN is sufficient for all transactions — EUIN is only required for institutional investors]]></text></answer>
+            <answer correct="yes"><text><![CDATA[EUIN is mandatory to identify the specific individual (Priya) who interacted with the investor. Ravi must ensure Priya obtains her own EUIN through NISM certification and AMFI registration, and it must be mentioned on every transaction she facilitates]]></text></answer>
+            <answer correct="no"><text><![CDATA[Ravi can use his own EUIN for all transactions since Priya is his employee]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** EUIN (Employee Unique Identification Number) is mandatory for every individual employee/representative of a distribution entity who interacts with investors for advisory transactions. Each person in Ravi's team who advises or facilitates mutual fund transactions must have their own EUIN. Priya, as the person who interacted with Mr. Kapoor and facilitated the transaction, must have her own EUIN mentioned on the form. Leaving it blank or using Ravi's EUIN would violate SEBI's individual accountability framework.
+
+**The Trap:** EUIN is NOT optional for any fund type — it applies to all advisory transactions across equity and debt (Option A). It is NOT only for institutional investors (Option B). Ravi CANNOT use his own EUIN for Priya's transactions (Option D) — this would defeat the purpose of individual identification. If Mr. Kapoor's transaction goes wrong, the EUIN should trace back to Priya as the individual who advised.
+
+**Cross-Exam Context:** EUIN compliance is tested in Series V-A, V-B, and XXIV. The case study tests the practical implications for a growing distribution business. Series III-A tests similar individual identification requirements for other intermediaries. The ARN + EUIN combination creates a two-level accountability framework (entity + individual).
+
+**Distributor's Pro-Tip:** As your business grows and you hire team members, ensure each person interacting with clients has: (1) NISM Series V-A certification, (2) their own EUIN through AMFI registration. Build a compliance checklist for onboarding new team members. Non-compliance with EUIN requirements can result in AMFI/SEBI action against your ARN, potentially impacting your entire business.]]></text></explanation>
+    </question>
+</QF>

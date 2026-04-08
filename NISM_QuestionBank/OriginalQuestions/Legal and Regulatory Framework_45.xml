@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Legal and Regulatory Framework_45" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A debt mutual fund scheme holds a bond rated AA+ which gets downgraded to BB (below investment grade) due to a credit event. The AMC decides to create a segregated portfolio. What happens to the existing unitholders?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[All unitholders are forced to redeem their entire investment at the current (reduced) NAV]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only new investors after the credit event receive segregated units]]></text></answer>
+            <answer correct="yes"><text><![CDATA[All existing unitholders as on the day of the credit event receive proportionate units in both the main portfolio and the segregated portfolio, and can continue or exit the main portfolio]]></text></answer>
+            <answer correct="no"><text><![CDATA[The AMC absorbs the loss and maintains the original NAV for all unitholders]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When a segregated portfolio is created, ALL existing unitholders as on the date of the credit event receive proportionate units in both: (1) the main portfolio (which excludes the distressed security and continues to operate normally), and (2) the segregated portfolio (which holds only the distressed security). The main portfolio NAV reflects the remaining "healthy" securities. Unitholders can redeem from the main portfolio normally. The segregated portfolio units are listed on exchanges for price discovery and any recovery proceeds are distributed to holders.
+
+**The Trap:** Forced redemption (Option A) is the opposite of what segregation aims to prevent. The AMC does NOT absorb losses (Option D) — unitholders bear the mark-to-market impact of the distressed security through the segregated portfolio NAV. Only NEW investors after the credit event receive units only in the main portfolio, not the segregated portfolio — protecting them from inheriting old credit problems.
+
+**Cross-Exam Context:** Segregated portfolio mechanics are tested in Series V-A and V-B. The IL&FS and DHFL cases serve as real-world examples. Series III-A may test the broader concept of ring-fencing distressed assets. Understanding who gets what (existing vs new investors) is the key exam focus.
+
+**Distributor's Pro-Tip:** If a scheme in your client's portfolio announces a segregated portfolio, contact them immediately. Explain: (1) their main portfolio units continue normally, (2) the segregated units represent recovery potential, (3) they can sell segregated units on the exchange if they want to exit that exposure. Transparency and proactive communication during credit events build lasting client relationships.]]></text></explanation>
+    </question>
+</QF>

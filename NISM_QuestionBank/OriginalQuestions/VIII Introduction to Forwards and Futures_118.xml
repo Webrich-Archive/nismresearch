@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_118" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader enters a calendar spread: Long February Nifty futures at 25,200 and Short January Nifty futures at 25,050. The initial spread is 150 points. After one week, January is at 25,100 and February is at 25,300. What is the profit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 650 per unit (spread widened from 150 to 200, profit = 50 points per unit). Wait - let me recalculate: Total P&L = (25,300-25,200) + (25,050-25,100) = 100 + (-50) = 50 points per unit. With lot size 65: Rs. 3,250]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 150 per unit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0 because the gains and losses cancel out]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 200 per unit]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+Long February P&L = 25,300 - 25,200 = +100 points (gain)
+Short January P&L = 25,050 - 25,100 = -50 points (loss)
+Net P&L = 100 - 50 = +50 points per unit
+
+Alternatively: Initial spread = Feb - Jan = 25,200 - 25,050 = 150
+New spread = 25,300 - 25,100 = 200
+Spread change = 200 - 150 = 50 points profit (spread widened as desired)
+
+Per contract (lot 65): 50 x 65 = Rs. 3,250
+
+**The Trap:** Gains and losses do NOT fully cancel - the spread changed. The profit is the CHANGE in spread, not the spread itself.
+
+**Cross-Exam Context:** Calendar spread P&L calculations are tested in Series VIII.
+
+**Key Takeaway:** Calendar spread profit = Change in spread = New spread - Initial spread. Here: 200 - 150 = 50 points.]]></text></explanation>
+    </question>
+</QF>

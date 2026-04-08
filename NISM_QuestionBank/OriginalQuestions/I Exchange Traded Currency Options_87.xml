@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Options_87" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The five primary Greek risk measures are:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Delta, Gamma, Theta, Vega, and Rho]]></text></answer>
+            <answer correct="no"><text><![CDATA[Alpha, Beta, Sigma, Mu, and Lambda]]></text></answer>
+            <answer correct="no"><text><![CDATA[Delta, Sigma, Pi, Tau, and Phi]]></text></answer>
+            <answer correct="no"><text><![CDATA[Delta, Gamma, Theta, Vega, and Sigma]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The five Greeks: Delta (price sensitivity), Gamma (delta sensitivity), Theta (time decay), Vega (volatility sensitivity), Rho (interest rate sensitivity).
+**The Trap:** Sigma (σ) is the symbol for volatility, not a Greek risk measure. Alpha and Beta are from portfolio theory.
+**Cross-Exam Context:** Greek definitions are tested in Series I and VIII.
+**Distributor's Pro-Tip:** In practice, Delta and Theta are most important for short-term trading. Vega matters most around events.]]></text></explanation>
+    </question>
+</QF>

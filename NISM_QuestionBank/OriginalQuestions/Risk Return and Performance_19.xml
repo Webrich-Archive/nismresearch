@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Risk Return and Performance_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A mutual fund with a Beta of 1.0 indicates that:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The fund has zero risk]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The fund's returns are expected to move in line with the benchmark market]]></text></answer>
+            <answer correct="no"><text><![CDATA[The fund always outperforms the market]]></text></answer>
+            <answer correct="no"><text><![CDATA[The fund has no correlation with the market]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Beta measures a fund's systematic risk relative to its benchmark. A beta of 1.0 means the fund's returns are expected to move in the same direction and magnitude as the benchmark. If the market rises 10%, the fund is expected to rise approximately 10%. If the market falls 10%, the fund is expected to fall approximately 10%.
+
+**The Trap:** Beta of 1.0 does NOT mean zero risk -- the fund still carries market risk. It does NOT guarantee outperformance. A beta of 0 would mean no correlation with the market (not beta of 1.0). Beta greater than 1.0 means more volatile than market; beta less than 1.0 means less volatile than market.
+
+**Cross-Exam Context:** Beta is used in the CAPM (Capital Asset Pricing Model) to calculate expected return: E(R) = Rf + Beta x (Rm - Rf). It is also used in calculating the Treynor ratio and Alpha. An aggressive equity fund typically has beta > 1, while a balanced fund has beta < 1 relative to a pure equity benchmark.
+
+**Distributor's Pro-Tip:** Use beta to match fund selection with client risk appetite. For aggressive investors comfortable with market swings, funds with beta > 1 offer amplified returns in bull markets. For conservative investors, beta < 1 funds provide cushion during market falls. Always discuss beta alongside actual historical drawdowns.]]></text></explanation>
+    </question>
+</QF>

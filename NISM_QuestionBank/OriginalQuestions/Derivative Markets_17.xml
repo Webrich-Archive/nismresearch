@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Derivative Markets_17" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Daily mark-to-market (MTM) settlement in derivatives means that:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Open positions are valued at the daily settlement price and gains/losses are settled on T+1 basis]]></text></answer>
+            <answer correct="no"><text><![CDATA[All contracts are closed and settled at the end of each trading day]]></text></answer>
+            <answer correct="no"><text><![CDATA[The margin requirement remains constant throughout the contract period]]></text></answer>
+            <answer correct="no"><text><![CDATA[Settlement happens only on the expiry date of the contract]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** All derivative contracts are settled daily on T+1 basis by computing the difference between the traded price and the daily settlement price (weighted average price of the last 30 minutes of trading). Positions in profit receive pay-out; positions in loss require pay-in. This daily settlement prevents accumulation of large unsettled obligations.
+
+**The Trap:** Contracts are NOT closed daily — positions remain open but are marked to the settlement price. Margins change dynamically based on positions and market conditions. Settlement on expiry date only describes the FINAL settlement, not the daily process.
+
+**Cross-Exam Context:** Derivatives basics overlap with Series VIII, XIII. MTM settlement mechanics are fundamental to understanding derivative market operations.
+
+**Distributor's Pro-Tip:** Daily MTM ensures that losses do not accumulate unchecked. If a trader's position is losing money, they must fund the loss each day. This is why derivative trading requires maintaining adequate funds — margin calls can come daily.]]></text></explanation>
+    </question>
+</QF>

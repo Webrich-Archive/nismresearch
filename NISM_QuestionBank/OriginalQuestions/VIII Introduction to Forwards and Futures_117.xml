@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="VIII Introduction to Forwards and Futures_117" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader rolls over a short Nifty position from January (selling January at 24,800, buying back at 24,850) to February (selling February at 25,000). What is the roll-over cost?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 50 per unit loss on closing January (bought back 50 higher), and the new short is at 25,000. The net roll-over cost is Rs. 50 per unit (the loss on closing the near month)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 200 per unit (difference between January close and February open)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Zero cost because the trader maintains the same short position]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 150 per unit (25,000 - 24,850)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step analysis:
+1. Close January short: Originally shorted at 24,800, bought back at 24,850
+   Loss = 24,850 - 24,800 = Rs. 50 per unit
+2. Open February short: Sold at 25,000
+3. Roll-over cost = Loss on closing expiring month = Rs. 50 per unit
+
+The February short at 25,000 is a new position. The total cost of rolling includes the loss on closing the near month and any spread between the two months.
+
+**The Trap:** Rs. 200 compares January entry to February entry which is not the roll-over cost. The roll-over is NOT zero cost. Rs. 150 compares closing and opening prices incorrectly.
+
+**Cross-Exam Context:** Roll-over cost analysis is a practical trading concept in Series VIII.
+
+**Key Takeaway:** Roll-over cost = Loss/gain on closing the expiring contract + spread between months.]]></text></explanation>
+    </question>
+</QF>

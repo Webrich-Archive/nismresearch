@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Investor Services_41" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[An investor redeems units from an equity mutual fund on Monday at 2 PM. By when should she expect to receive the redemption proceeds?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[By Monday evening itself]]></text></answer>
+            <answer correct="no"><text><![CDATA[By Tuesday end of day (T+1)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[By Thursday end of day (T+3 working days)]]></text></answer>
+            <answer correct="no"><text><![CDATA[By the following Monday (T+5 working days)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The redemption request was submitted before 3 PM on Monday, so Monday's NAV applies. SEBI mandates that redemption proceeds for equity funds must be dispatched within 3 working days (T+3). Assuming no holidays, the proceeds should reach the investor by Thursday (Monday = T, Tuesday = T+1, Wednesday = T+2, Thursday = T+3).
+
+**The Trap:** The 3 working days count starts from the day of the transaction (when the applicable NAV is determined), not from the day the application is submitted. If the application were submitted after 3 PM on Monday, the applicable NAV would be Tuesday's, and the 3-day count would start from Tuesday.
+
+**Cross-Exam Context:** Many AMCs process equity fund redemptions faster than 3 working days — often in T+1 or T+2. The T+3 is the maximum allowed. If the AMC exceeds this, they must pay 15% per annum interest on the delayed amount.
+
+**Distributor's Pro-Tip:** When clients need urgent liquidity, help them redeem online before 3 PM for the fastest processing. Some AMCs offer instant redemption for equity funds up to a certain limit. For planned expenses, start the redemption process at least 3-4 working days in advance to account for potential delays.]]></text></explanation>
+    </question>
+</QF>

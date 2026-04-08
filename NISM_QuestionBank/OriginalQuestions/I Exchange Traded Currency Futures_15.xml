@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="I Exchange Traded Currency Futures_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What are the trading hours for cross-currency futures (EUR-USD, GBP-USD, USD-JPY)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Monday to Friday, 9:00 AM to 7:30 PM]]></text></answer>
+            <answer correct="no"><text><![CDATA[Monday to Friday, 9:00 AM to 5:00 PM]]></text></answer>
+            <answer correct="no"><text><![CDATA[Monday to Friday, 9:15 AM to 3:30 PM]]></text></answer>
+            <answer correct="no"><text><![CDATA[24 hours, Monday to Friday]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Cross-currency futures trade from 9:00 AM to 7:30 PM — 2.5 hours longer than INR-based pairs. This extended session allows overlap with European and early US market hours.
+**The Trap:** INR-based futures close at 5:00 PM, not 7:30 PM.
+**Cross-Exam Context:** Extended trading hours for cross-currency pairs is specific to Series I.
+**Distributor's Pro-Tip:** The extended hours provide better price discovery since cross-currency pairs derive value from global markets active beyond Indian OTC hours.]]></text></explanation>
+    </question>
+</QF>
