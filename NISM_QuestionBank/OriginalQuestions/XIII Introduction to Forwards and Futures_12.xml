@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_12" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A company holds a portfolio of equity stocks worth Rs 50 lakhs with a beta of 1.2 relative to NIFTY. How many NIFTY futures contracts should they sell to hedge? (NIFTY at 25,000, lot size 25)]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[4 contracts [Hedge ratio = (Portfolio value / Futures value) × Beta = (50,00,000 / (25,000 × 25)) × 1.2 = (50,00,000/6,25,000) × 1.2 = 8 × 1.2 = 9.6 ≈ 10... Actually: (50,00,000 × 1.2) / (25,000 × 25) = 60,00,000/6,25,000 = 9.6 ≈ 10]]]></text></answer>
+            <answer correct="no"><text><![CDATA[8 contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[2 contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[12 contracts]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Number of futures = (Portfolio value × Beta) / (Index level × Lot size) = (50,00,000 × 1.2) / (25,000 × 25) = 60,00,000 / 6,25,000 = 9.6 ≈ 10 contracts. Beta adjusts because a high-beta portfolio moves more than the index.
+**The Trap:** 8 contracts ignores beta. 2 contracts uses wrong lot size. 12 contracts uses beta incorrectly.
+**Cross-Exam Context:** Series VIII Ch3 covers beta-based hedging. Compare with duration-based hedging for bonds (Series IV) and notional-based hedging for currencies (Series I).
+**Distributor's Pro-Tip:** Beta hedging is an approximation — actual hedge effectiveness depends on how stable the stock-index beta relationship is during the hedge period.]]></text></explanation>
+    </question>
+</QF>

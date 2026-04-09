@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the maximum contract duration available for equity index futures vs currency futures on Indian exchanges?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Equity index: 3 monthly contracts (near, mid, far). Currency (USDINR): up to 12 monthly contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both have identical 12-month contract duration]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equity index: 12 months. Currency: 3 months]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equity index: 1 month only. Currency: 6 months]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Equity index futures (NIFTY/SENSEX) have 3 serial monthly contracts plus weekly expiries. USDINR currency futures extend up to 12 months. This difference reflects the different hedging horizons — forex hedgers often need longer-term coverage for trade exposures.
+**The Trap:** The availability of weeklies in equity doesn't extend the monthly horizon beyond 3 months. Currency futures offering 12 months doesn't mean all months are equally liquid.
+**Cross-Exam Context:** Series VIII Ch3 covers equity futures contract cycle. Series I Ch3 covers currency futures contract cycle. This comparison is a key Series XIII topic.
+**Distributor's Pro-Tip:** Currency futures' longer availability (12 months) reflects the needs of exporters/importers with longer receivable/payable cycles — equity hedgers typically need shorter horizons.]]></text></explanation>
+    </question>
+</QF>

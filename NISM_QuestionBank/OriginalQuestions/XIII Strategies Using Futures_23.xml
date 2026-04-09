@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_23" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A portfolio manager buys protective puts on index options to protect an equity portfolio. What is the primary advantage and limitation of this strategy compared to shorting index futures?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Advantage: retains upside potential if market rises; Limitation: requires payment of option premium which is the cost of insurance]]></text></answer>
+            <answer correct="no"><text><![CDATA[Advantage: no upfront cost; Limitation: locks out all upside and downside]]></text></answer>
+            <answer correct="no"><text><![CDATA[Advantage: unlimited profit with zero risk; Limitation: only works for small portfolios]]></text></answer>
+            <answer correct="no"><text><![CDATA[Advantage: earns premium income; Limitation: exposes portfolio to unlimited downside risk]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Protective puts provide downside insurance (loss limited to strike - portfolio value + premium) while preserving upside if the market rises. Unlike shorting futures (which eliminates both upside and downside), puts allow participation in rallies. The cost is the option premium.
+**The Trap:** Shorting futures has no upfront cost (only margin) but locks out all gains. Protective puts cost premium but preserve upside — this is the key trade-off.
+**Cross-Exam Context:** Series VIII Ch5 compares protective puts with short futures hedging. Series IV Ch5 discusses buying GOI bond puts to hedge bond portfolios.
+**Distributor's Pro-Tip:** Think of protective puts as insurance: you pay a premium (cost) for protection against large losses while keeping the right to benefit from favorable moves.]]></text></explanation>
+    </question>
+</QF>

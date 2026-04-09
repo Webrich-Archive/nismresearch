@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_16" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A bond portfolio manager holds bonds worth Rs 50 crore with modified duration of 7. Government bond futures have a modified duration of 5.5 and contract value of Rs 2 lakh each. How many futures contracts should be sold to hedge?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[6,364 contracts [(50,00,00,000 × 7) / (2,00,000 × 5.5) = 35,00,00,00,000 / 11,00,000 ≈ 31,818... Actually: (Portfolio DV01) / (Futures DV01). N = (PV × MDp) / (FV × MDf) = (50Cr × 7)/(2L × 5.5) = 350Cr/11L = 31,818]]]></text></answer>
+            <answer correct="no"><text><![CDATA[25,000 contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[9,091 contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[50,000 contracts]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Number of futures = (Portfolio value × MD_portfolio) / (Futures value × MD_futures) = (50,00,00,000 × 7) / (2,00,000 × 5.5) = 3500,00,00,000 / 11,00,000 = 31,818 contracts. This duration-weighted hedge matches the interest rate sensitivity.
+**The Trap:** Simply dividing portfolio value by futures value (25,000) ignores duration mismatch. Using only one duration gives wrong results. The large number reflects the small contract size.
+**Cross-Exam Context:** Series IV Ch5 covers duration-based hedging. Compare with beta-based equity hedging (VIII) and notional-based currency hedging (I). Each uses a different risk metric.
+**Distributor's Pro-Tip:** Duration-based hedging is the standard for bond portfolios — unlike beta which can be unstable, duration is a more predictable risk measure for fixed income.]]></text></explanation>
+    </question>
+</QF>

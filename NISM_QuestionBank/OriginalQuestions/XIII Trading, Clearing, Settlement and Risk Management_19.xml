@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is a calendar spread in the context of futures margin calculation?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A position where a trader is long in one contract month and short in another month of the same underlying — this receives a margin benefit (lower margin) because the two legs partially offset each other]]></text></answer>
+            <answer correct="no"><text><![CDATA[A position where a trader holds futures across different underlying assets for the same month]]></text></answer>
+            <answer correct="no"><text><![CDATA[A single futures position held across two consecutive trading days]]></text></answer>
+            <answer correct="no"><text><![CDATA[A position that must be squared off before the calendar month ends]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A calendar spread (same underlying, different expiry months, opposite directions) has reduced risk because both legs are on the same underlying and tend to move together. Exchanges recognize this and charge lower margins (spread margin) instead of full margins on both legs.
+**The Trap:** Calendar spread is NOT across different underlying assets — it's the SAME underlying with different months. It's also not about holding overnight — it's about simultaneous long and short positions.
+**Cross-Exam Context:** Calendar spread margins apply across all derivative segments — currency, interest rate, and equity. The margin benefit concept is the same.
+**Distributor's Pro-Tip:** Calendar spreads are popular for carry trades — they benefit from the change in the spread between near and far month prices, with lower capital requirement due to margin offsets.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_52" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How can a fund manager change the effective duration of a bond portfolio using interest rate futures without buying or selling the actual bonds?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[To increase duration: buy bond futures. To decrease duration: sell bond futures. The number of contracts is calculated using the duration-based hedge ratio formula.]]></text></answer>
+            <answer correct="no"><text><![CDATA[Duration can only be changed by selling existing bonds and buying new ones with different maturities]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy equity index futures to increase the portfolio's effective duration]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell currency futures to reduce the portfolio's interest rate sensitivity]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Bond futures have their own duration. Going long bond futures adds positive duration to the portfolio; going short reduces it. The formula: Number of contracts = [(Target Duration - Current Duration) × Portfolio Value] / [Futures Duration × Futures Price × Lot Size].
+**The Trap:** Equity and currency futures do not change a bond portfolio's duration — only interest rate derivatives can do this. And you don't need to sell bonds — futures provide a synthetic overlay.
+**Cross-Exam Context:** Series IV Ch5 Section 5.4.3 covers changing portfolio duration using futures. This is a key concept for fund managers managing fixed income portfolios.
+**Distributor's Pro-Tip:** Using futures to adjust duration is faster, cheaper, and more flexible than buying/selling bonds — no impact on the underlying portfolio holdings.]]></text></explanation>
+    </question>
+</QF>

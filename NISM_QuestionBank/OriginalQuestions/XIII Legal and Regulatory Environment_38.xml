@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Legal and Regulatory Environment_38" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the concept of 'novation' in the context of derivative clearing, and why is it important?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Novation means the clearing corporation interposes itself between buyer and seller, becoming the counterparty to both sides — this eliminates bilateral counterparty risk and ensures settlement even if one party defaults]]></text></answer>
+            <answer correct="no"><text><![CDATA[Novation means the original derivative contract is cancelled and replaced with a new contract at a different price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Novation means transferring a derivative position from one broker to another without the client's consent]]></text></answer>
+            <answer correct="no"><text><![CDATA[Novation means converting an exchange-traded derivative into an OTC contract for customized settlement]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When a trade is executed on the exchange and accepted by the clearing corporation, novation occurs — the original bilateral contract between buyer and seller is replaced by two separate contracts: one between the clearing corporation and the buyer, and one between the clearing corporation and the seller. The CC guarantees both sides.
+**The Trap:** Novation does not change the price or cancel the trade. It does not transfer positions between brokers or convert exchange to OTC. It specifically restructures the counterparty relationship.
+**Cross-Exam Context:** Novation is a fundamental concept across all exchange-traded derivatives. It works the same way in equity, currency, and IR derivative clearing.
+**Distributor's Pro-Tip:** Novation is what makes exchange-traded derivatives 'safe' — your counterparty is always the clearing corporation (AAA-rated), not the unknown entity on the other side of the trade.]]></text></explanation>
+    </question>
+</QF>

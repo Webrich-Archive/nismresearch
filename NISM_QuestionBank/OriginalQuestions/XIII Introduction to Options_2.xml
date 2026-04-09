@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the difference between 'intrinsic value' and 'time value' of an option?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Intrinsic value is the option's value if exercised immediately (max of in-the-money amount or zero); time value is the additional premium above intrinsic value reflecting the probability of future favorable price movement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Intrinsic value is the strike price; time value is the market price of the underlying]]></text></answer>
+            <answer correct="no"><text><![CDATA[Intrinsic value only applies to call options; time value only applies to put options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Intrinsic value increases over time; time value decreases over time]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Option premium = Intrinsic value + Time value. For a call: Intrinsic = max(S-K, 0). For a put: Intrinsic = max(K-S, 0). Time value = Premium - Intrinsic. Time value is always ≥ 0 and decreases as expiry approaches (time decay), reaching zero at expiry.
+**The Trap:** Intrinsic value can be zero (OTM options) but never negative. Time value applies to ALL options. Intrinsic doesn't increase over time automatically — it depends on spot price.
+**Cross-Exam Context:** This decomposition applies to all options across asset classes. Series VIII Ch4, I Ch4, IV Ch4, XVI Ch4 all cover this.
+**Distributor's Pro-Tip:** Time value decays fastest in the last 30 days — option sellers benefit from this 'theta decay' while buyers fight against it. This asymmetry favors systematic option writing strategies.]]></text></explanation>
+    </question>
+</QF>

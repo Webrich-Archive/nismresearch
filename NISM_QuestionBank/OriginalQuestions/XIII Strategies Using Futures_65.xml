@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_65" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An insurance company expects Rs. 200 crore in policy premiums in March. The fund manager is worried about interest rates falling. How should the fund manager hedge using bond futures?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Go long (buy) GOI bond futures to lock in current yields — if rates fall, the futures gain compensates for the lower reinvestment yield]]></text></answer>
+            <answer correct="no"><text><![CDATA[Go short (sell) GOI bond futures to lock in current yields — if rates fall, the futures gain protects against lower rates]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy USDINR futures to hedge the currency component of fixed income returns]]></text></answer>
+            <answer correct="no"><text><![CDATA[No hedging is possible for expected cash flows that have not yet been received]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The fund manager expects cash inflows and wants to invest in bonds. Risk: rates fall → bond prices rise → more expensive to buy. Long bond futures lock in today's yield. If rates fall, futures gain offsets the higher purchase price of bonds.
+**The Trap:** Short futures hedge EXISTING bond holdings against rising rates. For FUTURE purchases worried about falling rates, you need LONG futures — the hedge direction is opposite.
+**Cross-Exam Context:** Series IV Ch5 covers this exact insurance company example (Section 5.2.4 — Long Hedge). Series XIII compares it with equity long hedges (buying futures before planned stock purchase).
+**Distributor's Pro-Tip:** The key is to match the hedge direction with the risk: existing position + adverse move = short hedge. Future purchase + favorable move disappearing = long hedge.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_37" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In which scenario would a reverse cash-and-carry arbitrage be profitable in equity futures?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[When the traded futures price is below the fair futures price — sell spot (borrow shares), buy futures, and earn the difference]]></text></answer>
+            <answer correct="no"><text><![CDATA[When the traded futures price is above the fair futures price — buy spot and sell futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[When the futures premium equals the cost of carry — no arbitrage, but reverse carry locks in higher returns]]></text></answer>
+            <answer correct="no"><text><![CDATA[When dividend yield is zero and risk-free rate is negative]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Reverse cash-and-carry: when futures are underpriced (traded price < fair price), sell the asset in spot market, invest proceeds at risk-free rate, and buy futures to lock in the repurchase. At expiry, receive the asset via futures delivery. Profit = Fair price - Traded price.
+**The Trap:** When futures are OVERPRICED (traded > fair), it's normal cash-and-carry (buy spot, sell futures). Reverse applies when futures are underpriced.
+**Cross-Exam Context:** Series VIII Ch3 covers both cash-and-carry and reverse cash-and-carry for equity. Similar arbitrage mechanics apply in currency (I) and bond (IV) markets.
+**Distributor's Pro-Tip:** Reverse cash-and-carry requires the ability to short-sell the underlying — if short-selling is restricted, the arbitrage may not be executable.]]></text></explanation>
+    </question>
+</QF>

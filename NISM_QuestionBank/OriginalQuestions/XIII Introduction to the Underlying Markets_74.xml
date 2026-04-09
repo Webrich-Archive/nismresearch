@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to the Underlying Markets_74" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An Indian company has a USD-denominated export receivable of USD 500,000 due in 1 month. The USDINR spot is 83.25. Which derivative market(s) could they use to hedge?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Both the exchange-traded currency futures market (sell USDINR futures) and the OTC forward market (book a forward contract with a bank to sell USD)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the equity derivatives market through hedging with Nifty futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the interest rate derivatives market through buying IR futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[No derivative market can hedge this risk — only insurance can cover it]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** An exporter with USD receivables faces the risk of USD depreciation (USDINR falling). They can: (1) Sell USDINR futures on the exchange (standardized, CCP-guaranteed), or (2) Book an OTC forward contract with a bank (customizable amount and date). Both lock in the exchange rate.
+**The Trap:** Nifty futures hedge equity risk, not forex risk. IR futures hedge interest rate risk. The exporter needs currency-specific hedging. Insurance products (like currency risk insurance) exist but derivatives are more common.
+**Cross-Exam Context:** Series I Ch5 covers hedging for exporters/importers. This is a practical application question connecting underlying market exposure to appropriate derivative instruments.
+**Distributor's Pro-Tip:** Exchange-traded futures are often preferred for smaller hedges (standard lot size, no minimum requirement), while OTC forwards suit large, exact-amount hedges.]]></text></explanation>
+    </question>
+</QF>

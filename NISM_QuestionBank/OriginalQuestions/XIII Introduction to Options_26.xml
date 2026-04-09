@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_26" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the maximum loss for an option buyer and an option seller?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Option buyer: maximum loss is the premium paid (limited). Option seller: maximum loss is theoretically unlimited for naked calls, or strike minus premium for naked puts]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both buyer and seller face unlimited losses]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both buyer and seller have losses limited to the premium amount]]></text></answer>
+            <answer correct="no"><text><![CDATA[The option buyer can lose more than the premium due to margin calls]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Buyer's max loss = premium paid (can't lose more because they simply don't exercise). Seller's max loss: Naked call seller = unlimited (price can rise infinitely). Naked put seller = K - Premium (if underlying goes to zero). This asymmetry is why sellers must deposit margin while buyers don't.
+**The Trap:** Only sellers face potentially unlimited losses. Buyers never get margin calls (they've already paid the full premium upfront). Both sides don't have symmetric risk.
+**Cross-Exam Context:** This risk asymmetry is universal across all option markets. It's why option selling requires margin while buying doesn't.
+**Distributor's Pro-Tip:** Never sell naked options without understanding the worst-case loss — hedge with spreads (bull/bear spreads, iron condors) to cap your maximum loss at a defined amount.]]></text></explanation>
+    </question>
+</QF>

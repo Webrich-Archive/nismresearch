@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_81" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Co-location services offered by exchanges allow trading members to:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Place their trading servers in the same data center as the exchange's matching engine to minimize order execution latency]]></text></answer>
+            <answer correct="no"><text><![CDATA[Share office space with exchange officials for better coordination]]></text></answer>
+            <answer correct="no"><text><![CDATA[Access insider information about pending orders in the exchange system]]></text></answer>
+            <answer correct="no"><text><![CDATA[Bypass pre-trade risk management checks for faster execution]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Co-location means housing the trading member's servers physically close to the exchange's matching engine within the exchange's data center. This minimizes network latency (to microseconds), providing a speed advantage for order execution. SEBI regulates co-location to ensure fair and equal access.
+**The Trap:** Co-location is about server proximity, not office sharing. It does NOT provide access to non-public order information — that would be illegal. Pre-trade risk checks cannot be bypassed even with co-location — SEBI mandates risk controls regardless of connectivity type.
+**Cross-Exam Context:** Co-location is relevant across all exchange-traded derivative segments. The SEBI investigation into NSE co-location practices highlighted the regulatory importance of ensuring equal latency access. Series I and VIII both reference co-location infrastructure.
+**Distributor's Pro-Tip:** Co-location is primarily used by algo traders and HFT firms. Retail clients do not need co-location, but they should understand that co-located participants may have a speed advantage — this is why limit orders are generally safer than market orders for retail traders.]]></text></explanation>
+    </question>
+</QF>

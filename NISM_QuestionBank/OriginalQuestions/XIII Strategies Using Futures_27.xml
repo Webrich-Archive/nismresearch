@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_27" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An importer needs to pay USD 5 million in 3 months. USDINR spot is Rs. 83. Which of the following strategies provides the BEST hedge?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy USDINR futures contracts maturing in 3 months to lock in the purchase rate]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell USDINR futures contracts maturing in 3 months to lock in the selling rate]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy USDINR put options maturing in 3 months for downside protection]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell USDINR call options maturing in 3 months to earn premium income]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The importer needs to BUY USD to make payment, so he faces risk of USD appreciation (USDINR going up). Buying USDINR futures locks in the purchase rate. Alternatively, buying USDINR call options provides insurance while retaining benefit if USD depreciates.
+**The Trap:** Selling futures would hedge an exporter (USD receiver), not an importer. Buying puts protects against USD decline, but the importer wants protection against USD rise.
+**Cross-Exam Context:** Series I Ch5 covers importer hedging in detail. Series XIII tests the student's ability to correctly identify hedge direction across derivative types.
+**Distributor's Pro-Tip:** Importer = needs to buy foreign currency = fears price rise = buy futures or buy call options.]]></text></explanation>
+    </question>
+</QF>

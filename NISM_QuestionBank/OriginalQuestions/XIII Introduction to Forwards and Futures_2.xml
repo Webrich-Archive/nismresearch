@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If USDINR spot is Rs 83, Indian risk-free rate is 7% and US risk-free rate is 5%, what is the theoretical 1-year USDINR futures price?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 84.58 [F = 83 × (1.07)/(1.05) = 83 × 1.01905 = 84.58]]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 81.42 [F = 83 × (1.05)/(1.07)]]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 86.32 [F = 83 × 1.04]]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 83.00 [futures = spot]]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** F = S × (1 + RINR)/(1 + RUSD) = 83 × 1.07/1.05 = 83 × 1.01905 = 84.58. The futures price exceeds spot because Indian rates are higher — INR is at a forward discount. The 1.58 INR premium reflects the 2% interest rate differential.
+**The Trap:** 81.42 inverts the ratio. 86.32 adds the full 4% differential without compounding. 83.00 ignores the interest rate differential entirely.
+**Cross-Exam Context:** Series I Ch3 provides this exact example with S=83, RUSD=5%, RINR=7%. This is the core pricing calculation for currency derivatives.
+**Distributor's Pro-Tip:** Quick approximation: Forward premium ≈ Spot × (Rd - Rf) = 83 × 2% = 1.66. The exact answer (1.58) is slightly less due to the compounding effect in the denominator.]]></text></explanation>
+    </question>
+</QF>

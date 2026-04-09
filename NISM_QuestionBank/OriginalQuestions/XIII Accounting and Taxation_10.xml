@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Accounting and Taxation_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How does mark-to-market (MTM) accounting for open derivative positions work at year-end?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Open positions are valued at fair value (market price) on the balance sheet date, with unrealized gains/losses recognized in the P&L — for futures, this is the daily settlement price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only realized gains are recorded — unrealized positions are not accounted for until settlement]]></text></answer>
+            <answer correct="no"><text><![CDATA[MTM is only required for positions held for more than 30 days]]></text></answer>
+            <answer correct="no"><text><![CDATA[Open positions are valued at cost (entry price) and not marked to market until expiry]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under Ind AS 109 and ICAI guidance, all derivative positions must be measured at fair value at the balance sheet date. For futures, the fair value is the daily settlement price. For options, it's the closing premium. The unrealized gain/loss is recognized in P&L unless hedge accounting is applied.
+**The Trap:** ALL open positions must be marked to market at year-end, not just long-term ones. You cannot use cost accounting for derivatives — fair value is mandatory.
+**Cross-Exam Context:** MTM accounting applies uniformly across currency (I), interest rate (IV), and equity (VIII) derivatives. Series XIII tests this universal accounting concept.
+**Distributor's Pro-Tip:** MTM accounting means derivative trading affects your financial statements even for positions not yet closed — this has real implications for reported profits, tax planning, and covenant compliance.]]></text></explanation>
+    </question>
+</QF>

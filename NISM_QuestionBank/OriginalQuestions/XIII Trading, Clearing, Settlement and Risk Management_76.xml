@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_76" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A client buys 50 lots of USDINR options (lot size USD 1,000 each) paying a premium of Rs 0.50 per USD. If stamp duty on options is 0.003% of the premium value, what stamp duty is payable?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 0.75]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 7.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 75]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 12.53]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Premium value = 50 lots x USD 1,000 x Rs 0.50 = Rs 25,000. Stamp duty = 0.003% x Rs 25,000 = Rs 0.75. For options, stamp duty is calculated on the premium value, not the notional value of the contract.
+**The Trap:** Rs 7.50 uses 0.03% instead of 0.003%. Rs 75 uses 0.3%. Rs 12.53 wrongly calculates stamp duty on the notional value (50 x 1000 x 83.50 x 0.003%). The key distinction is that options stamp duty is on premium, not notional.
+**Cross-Exam Context:** Stamp duty rates and calculation base differ between futures (on traded value) and options (on premium value). This applies across all derivative segments — Series I, VIII, XVI. The Indian Stamp Act amendments in 2020 standardized electronic stamp duty collection.
+**Distributor's Pro-Tip:** Stamp duty on derivatives is very small but adds up for high-frequency traders. Ensure clients factor in all transaction costs — brokerage, exchange fees, clearing fees, GST, stamp duty, and STT (for equity derivatives) — when evaluating trading strategies.]]></text></explanation>
+    </question>
+</QF>

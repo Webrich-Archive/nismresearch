@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Accounting and Taxation_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the STT rate applicable to the seller of equity futures contracts?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[0.02% of the traded price (applicable on the seller of futures)]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.10% of the traded price (applicable on both buyer and seller)]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.0125% of the premium (applicable on the buyer of futures)]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.05% of the settlement price (applicable on the clearing corporation)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** STT on equity futures: 0.02% on the seller, calculated on the actual traded price × quantity. For equity options: 0.10% on the seller when the option is exercised (on settlement price). These rates apply to exchange-traded equity derivatives only.
+**The Trap:** 0.10% is for options (on exercise), not futures. The buyer does NOT pay STT on futures — only the seller does. The rate is applied on traded price, not settlement price.
+**Cross-Exam Context:** Series VIII Ch9 covers STT rates. Series XIII compares STT applicability across segments (equity-only vs. currency/IR where no STT applies).
+**Distributor's Pro-Tip:** STT impacts trading costs significantly for high-frequency equity F&O traders. Currency and IR derivatives have a cost advantage as they don't attract STT.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_72" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is a 'strangle' and how does it differ from a straddle?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buying a call and put at DIFFERENT strikes (call strike above current price, put strike below) — it's cheaper than a straddle but requires a larger move to be profitable]]></text></answer>
+            <answer correct="no"><text><![CDATA[Selling both a call and put at the same strike]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buying two calls at different expiry dates]]></text></answer>
+            <answer correct="no"><text><![CDATA[A strangle is the same as a straddle — just different terminology]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Long strangle = Long OTM call + Long OTM put. Example: buy 25,500 call + buy 24,500 put when NIFTY is at 25,000. Cheaper than straddle (both options are OTM) but needs a bigger move. BEP: upper strike + total premium, or lower strike - total premium.
+**The Trap:** Strangles and straddles are different — straddles use the same strike, strangles use different strikes. Selling both is a short strangle. Different expiries is a calendar spread.
+**Cross-Exam Context:** Strangles are used in all option markets (VIII, I, XVI). They're the preferred pre-event trade when premiums are expensive (cheaper than straddles).
+**Distributor's Pro-Tip:** Short strangles are the most popular option selling strategy — sell OTM call + OTM put to collect premium in rangebound markets. But losses can be large if the underlying breaks out of the range.]]></text></explanation>
+    </question>
+</QF>

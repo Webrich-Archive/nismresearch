@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Legal and Regulatory Environment_17" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A bank with a net worth of Rs 400 Cr, CRAR of 12%, and net NPA of 2% applies to become a Trading Member on both the equity derivatives and currency derivatives segments. What is the outcome?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The bank can become a TM on the equity derivatives segment but NOT on the currency derivatives segment, as it fails the Rs 500 Cr net worth criterion set by RBI]]></text></answer>
+            <answer correct="no"><text><![CDATA[The bank can become a TM on both segments since it meets all SEBI and RBI criteria]]></text></answer>
+            <answer correct="no"><text><![CDATA[The bank cannot become a TM on either segment because SEBI requires Rs 500 Cr net worth for all derivative segments]]></text></answer>
+            <answer correct="no"><text><![CDATA[The bank can become a TM on the currency derivatives segment but NOT the equity derivatives segment]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For currency derivatives, RBI requires: net worth >= Rs 500 Cr, CRAR >= 10%, NPA <= 3%. This bank has Rs 400 Cr net worth — below the Rs 500 Cr threshold. For equity derivatives, SEBI has not specified a net worth requirement for TMs (only for CMs: Rs 3 Cr). So the bank qualifies for equity but not currency.
+**The Trap:** Students assume the Rs 500 Cr requirement applies to all segments. It's RBI-specific for currency/IR derivatives. SEBI's equity derivatives TM norms are different and less stringent on net worth.
+**Cross-Exam Context:** This is a classic cross-segment comparison question testing knowledge of different regulatory thresholds across equity, currency, and IR derivatives.
+**Distributor's Pro-Tip:** The higher net worth bar for currency derivatives reflects the systemic importance of forex markets and the need to ensure only well-capitalized institutions participate.]]></text></explanation>
+    </question>
+</QF>

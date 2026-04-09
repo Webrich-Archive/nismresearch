@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_71" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The clearing corporation in the derivatives market acts as the central counterparty (CCP). What does this mean in practice?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The CC becomes the buyer to every seller and the seller to every buyer, thereby guaranteeing settlement]]></text></answer>
+            <answer correct="no"><text><![CDATA[The CC only facilitates matching of buy and sell orders on the exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[The CC provides credit to trading members who face margin shortfalls]]></text></answer>
+            <answer correct="no"><text><![CDATA[The CC directly trades in the market to provide liquidity]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** As the CCP, the clearing corporation interposes itself between every buyer and seller after trade execution. This novation process means each counterparty faces only the CC, eliminating bilateral counterparty credit risk. The CC guarantees settlement through its settlement guarantee fund and margin framework.
+**The Trap:** Order matching is done by the exchange, not the CC. The CC does NOT provide credit — it collects margins to manage risk. The CC does not trade for its own account or provide liquidity.
+**Cross-Exam Context:** The CCP function is universal across all derivative segments. In India, NSE Clearing Limited, Indian Clearing Corporation Limited (BSE), and MCXCCL are the major clearing corporations. Series I, IV, VIII, and XVI all reference CCP concepts.
+**Distributor's Pro-Tip:** The CCP model is what makes exchange-traded derivatives safer than OTC contracts — clients should understand that their counterparty risk is to the CC, not to the other side of their trade.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the ELM rate for equity index derivatives vs. individual stock derivatives?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[2% for index derivatives and 3.5% for individual stock derivatives]]></text></answer>
+            <answer correct="no"><text><![CDATA[3.5% for both index and individual stock derivatives]]></text></answer>
+            <answer correct="no"><text><![CDATA[1% for index derivatives and 2% for individual stock derivatives]]></text></answer>
+            <answer correct="no"><text><![CDATA[5% for index derivatives and 7% for individual stock derivatives]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For equity derivatives: Index futures/options ELM = 2% of notional value. Individual stock futures/options ELM = 3.5% of notional value. The higher ELM for individual stocks reflects their higher idiosyncratic risk compared to diversified indices.
+**The Trap:** 1% is the ELM for USDINR currency derivatives, not equity. 3.5% applies only to individual stocks, not index derivatives.
+**Cross-Exam Context:** Series VIII Ch7 specifies equity ELM rates. Series I Ch7 specifies currency ELM (1%/0.50%). Series XIII compares margin frameworks across asset classes.
+**Distributor's Pro-Tip:** ELM rates reflect the tail risk of each asset: individual stocks are more volatile (3.5%), indices less so (2%), major currency pairs even less (1%), and cross-currencies the least (0.50%).]]></text></explanation>
+    </question>
+</QF>

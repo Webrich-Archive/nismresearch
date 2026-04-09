@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_22" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is a covered call strategy in equity derivatives?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Holding the underlying stock and selling a call option on it to earn premium income while capping upside potential]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buying a call option to cover a short position in the stock]]></text></answer>
+            <answer correct="no"><text><![CDATA[Selling a call option without owning the underlying stock for maximum premium income]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buying both a stock and a call option to maximize leverage]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A covered call involves holding the underlying stock and selling (writing) a call option. The writer earns the call premium as income but gives up the upside above the strike price. If the stock rises above the strike, the call is exercised and the stock is delivered.
+**The Trap:** A naked call (selling without owning the stock) has unlimited risk and is NOT a covered call. Buying a call alongside stock is NOT covered writing — it's leveraged buying.
+**Cross-Exam Context:** Series VIII Ch5 covers covered calls extensively. The concept applies across all derivative markets where the underlying can be held.
+**Distributor's Pro-Tip:** Covered calls work best in range-bound markets — you earn premium but sacrifice upside. Not suitable when you expect a sharp rally.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Option Trading Strategies_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Comparing option strategy risk profiles across all derivative markets, which statement is universally true?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Defined-risk strategies (spreads, iron condors) limit both profit and loss; naked option selling has unlimited risk for calls and substantial risk for puts; option buying has limited risk (premium paid) but unlimited potential profit — these relationships hold across equity, currency, IR, and commodity options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Option strategies have different risk profiles in different markets]]></text></answer>
+            <answer correct="no"><text><![CDATA[All option strategies have unlimited risk and unlimited reward]]></text></answer>
+            <answer correct="no"><text><![CDATA[Risk profiles depend on the exchange, not the strategy structure]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The fundamental risk/reward characteristics of option strategies are universal: (1) Long option: limited risk (premium), unlimited/substantial profit potential. (2) Short naked option: limited profit (premium), unlimited/substantial risk. (3) Spreads: limited on both sides. (4) Combinations: depend on construction. These apply identically whether the underlying is a stock, currency pair, interest rate, or commodity.
+**The Trap:** While premium levels and Greeks differ across markets, the structural risk/reward profiles are IDENTICAL for the same strategy across asset classes. Risk depends on strategy structure, not the exchange.
+**Cross-Exam Context:** This is the capstone synthesis question for Series XIII option strategy knowledge — strategies are portable across asset classes.
+**Distributor's Pro-Tip:** Master option strategy risk profiles once, and you can apply them across any derivative market. The underlying changes, but the payoff mathematics stays the same — this is the power of understanding options at a structural level.]]></text></explanation>
+    </question>
+</QF>

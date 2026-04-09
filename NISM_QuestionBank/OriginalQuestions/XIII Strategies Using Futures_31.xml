@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_31" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In duration-based hedging, what is the key limitation of the hedge ratio formula?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Duration measures are only accurate for small changes in yield — for large yield changes, convexity effects cause underhedging]]></text></answer>
+            <answer correct="no"><text><![CDATA[Duration cannot be calculated for bonds with maturities greater than 10 years]]></text></answer>
+            <answer correct="no"><text><![CDATA[The formula does not account for the number of lots, only the notional value]]></text></answer>
+            <answer correct="no"><text><![CDATA[Duration-based hedging only works for zero-coupon bonds, not coupon-paying bonds]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Modified duration assumes a linear price-yield relationship, but the actual relationship is convex. For large yield changes, duration underestimates the price change, leading to underhedging. Additionally, portfolio and futures duration may not move in tandem, creating basis risk.
+**The Trap:** Duration can be calculated for any bond regardless of maturity. It works for coupon bonds too — it's just not perfectly accurate for large yield shifts.
+**Cross-Exam Context:** Series IV Ch5 explicitly discusses this limitation. Series XIII tests understanding of hedging limitations across asset classes.
+**Distributor's Pro-Tip:** For large expected yield moves, consider convexity-adjusted hedge ratios or using options instead of futures for better hedge performance.]]></text></explanation>
+    </question>
+</QF>

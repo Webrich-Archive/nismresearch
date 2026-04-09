@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Basics of Derivatives_17" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the role of 'margin' in exchange-traded derivative markets?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Margin is a performance guarantee deposited by traders with the clearing corporation, serving as collateral against potential losses on open positions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Margin is the profit earned by the exchange from facilitating derivative trades]]></text></answer>
+            <answer correct="no"><text><![CDATA[Margin is the brokerage fee charged by trading members to their clients]]></text></answer>
+            <answer correct="no"><text><![CDATA[Margin is the maximum loss a trader can incur on any derivative position]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Margin serves as collateral: Initial margin (upfront deposit, typically calculated using SPAN/VaR), Extreme Loss Margin (ELM, additional buffer), and MTM margin (daily settlement). Together, they ensure traders can meet their obligations. Margin is returned when the position is closed.
+**The Trap:** Margin is not the exchange's income or brokerage fee — it's a refundable deposit. It's also not the maximum loss — losses can exceed initial margin during extreme moves (though MTM prevents this from accumulating).
+**Cross-Exam Context:** All derivative exams cover margin systems — SPAN is used across equity (VIII), currency (I), IR (IV), and commodity (XVI) markets.
+**Distributor's Pro-Tip:** Margin = cost of leverage. Higher margin requirements reduce leverage and risk. During volatile markets, exchanges increase margins — traders must maintain sufficient capital buffer.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_12" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is 'implied volatility' and why is it more important than historical volatility for option traders?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Implied volatility is the market's expectation of future volatility, derived by working backward from the observed option price through the Black-Scholes formula — it reflects forward-looking information while historical volatility is backward-looking]]></text></answer>
+            <answer correct="no"><text><![CDATA[Implied volatility is always higher than historical volatility]]></text></answer>
+            <answer correct="no"><text><![CDATA[Implied volatility is calculated from the stock's past price movements]]></text></answer>
+            <answer correct="no"><text><![CDATA[Implied volatility is set by the exchange and cannot change during the trading day]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** IV is the volatility input that makes the Black-Scholes price equal to the market price. It captures all market information including expectations about future events. When IV > historical volatility, options are considered 'expensive'; when IV < historical, they're 'cheap'.
+**The Trap:** IV can be lower than historical volatility (when markets expect calmer conditions). IV is derived from CURRENT option prices, not past stock prices. It changes continuously during trading.
+**Cross-Exam Context:** IV is used in all option markets — equity (VIII), currency (I), IR (IV), commodity (XVI). India VIX is the market-wide IV indicator for NIFTY options.
+**Distributor's Pro-Tip:** IV rank (where current IV stands relative to its own historical range) is a powerful tool — high IV rank suggests options are expensive (good time to sell), low IV rank suggests they're cheap (good time to buy).]]></text></explanation>
+    </question>
+</QF>

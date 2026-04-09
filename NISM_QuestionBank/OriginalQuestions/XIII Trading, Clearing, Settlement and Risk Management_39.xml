@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_39" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is Direct Market Access (DMA) in the context of exchange-traded derivatives, and what is the broker's role?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[DMA allows institutional clients to directly place orders into the exchange system using the broker's infrastructure, with the broker maintaining risk management controls and regulatory compliance]]></text></answer>
+            <answer correct="no"><text><![CDATA[DMA eliminates the need for a broker entirely, allowing institutions to become direct trading members of the exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[DMA is a special order type that gives institutional orders priority over retail orders in the matching engine]]></text></answer>
+            <answer correct="no"><text><![CDATA[DMA allows clients to bypass the exchange and trade directly with other institutions in a dark pool arrangement]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Direct Market Access enables institutional clients (mutual funds, FIIs, etc.) to send orders directly to the exchange matching engine using the broker's trading infrastructure and connectivity. The broker remains responsible for risk management, margining, and compliance — orders still pass through broker risk checks.
+**The Trap:** DMA does NOT eliminate the broker. The broker's membership, connectivity, and risk controls are still used. DMA orders receive NO priority over other orders — they follow the same price-time priority. DMA is not a dark pool.
+**Cross-Exam Context:** DMA is available across equity, currency, and interest rate derivative segments. It complements algorithmic trading and co-location services. Series XIII tests understanding of trading infrastructure across segments.
+**Distributor's Pro-Tip:** SEBI mandates pre-trade risk controls for DMA — including price bands, quantity limits, and order value limits. The broker bears regulatory responsibility for all orders, including those placed via DMA.]]></text></explanation>
+    </question>
+</QF>

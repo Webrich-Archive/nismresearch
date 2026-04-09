@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_45" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A currency put option on USDINR has strike 84, premium 1.20. What is the breakeven for the put buyer at expiry?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 82.80 (K - Premium = 84 - 1.20 = 82.80). Profit begins when USDINR falls below 82.80]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 85.20 (K + Premium)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 84.00 (the strike price)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 82.00 (84 - 2 × 1.00)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Put BEP = K - Premium = 84 - 1.20 = Rs 82.80. At 82.80: gross payoff = 84 - 82.80 = 1.20, which exactly equals the premium paid. Below 82.80: net profit. Between 82.80 and 84.00: exercised but net loss (payoff < premium). Above 84.00: expires worthless, full premium lost.
+**The Trap:** 85.20 is the BEP for a call, not a put. 84.00 is the exercise trigger, not the profit trigger. 82.00 uses an incorrect calculation.
+**Cross-Exam Context:** Put BEP calculation is the same across all markets. For USDINR put, this is relevant for exporters hedging INR appreciation risk.
+**Distributor's Pro-Tip:** An exporter buying this put is protected below Rs 82.80 — the Rs 1.20 premium is the 'deductible' they accept. If USDINR stays above 84, they lose only the premium but benefit from the favorable rate.]]></text></explanation>
+    </question>
+</QF>

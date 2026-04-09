@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An exporter who will receive EUR after 3 months wants to hedge currency risk. What is the appropriate strategy using exchange-traded currency derivatives?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Sell EURINR futures or buy EURINR put options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy EURINR futures or buy EURINR call options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell USDINR futures or buy USDINR put options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy EURUSD futures or sell EURUSD put options]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** An exporter receiving EUR faces risk of EUR depreciation against INR. Selling EURINR futures locks in the conversion rate. Buying EURINR puts provides insurance against EUR decline while retaining upside.
+**The Trap:** Buying futures/calls would hedge an importer who needs to pay in EUR, not an exporter who will receive EUR.
+**Cross-Exam Context:** Series I Chapter 5 covers currency hedging for exporters/importers. Series XIII compares hedging approaches across asset classes.
+**Distributor's Pro-Tip:** Remember the rule: Receive foreign currency = Sell futures/Buy puts. Pay foreign currency = Buy futures/Buy calls.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_58" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which statement correctly describes the concept of 'contango' and 'backwardation' in futures markets?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Contango: futures price > spot price (normal for financial assets). Backwardation: futures price < spot price (common in commodities with convenience yield)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Contango: futures price < spot price. Backwardation: futures price > spot price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both terms refer to the daily mark-to-market adjustment in futures positions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Contango and backwardation only apply to commodity futures, not financial derivatives]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Contango occurs when futures price exceeds spot price — typical for financial assets where cost of carry (interest) makes futures costlier. Backwardation occurs when futures trade below spot — common in commodities where holding the physical asset has a convenience yield exceeding storage and financing costs.
+**The Trap:** The definitions are often reversed in error. Remember: contango = futures premium (above spot), backwardation = futures discount (below spot). While more common in commodities, backwardation can occur in any market.
+**Cross-Exam Context:** Series VIII Ch3 covers contango/backwardation for equity, Series XVI for commodities. Series XIII compares across asset classes.
+**Distributor's Pro-Tip:** In contango, roll cost is negative (you sell cheap expiring and buy expensive new contracts). In backwardation, rolling is profitable. This matters for long-term futures-based strategies.]]></text></explanation>
+    </question>
+</QF>

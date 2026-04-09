@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_39" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the relationship between the choice of contract month and the timing of the underlying exposure in hedging?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The contract month should expire on or shortly after the date of the underlying exposure to minimize basis risk]]></text></answer>
+            <answer correct="no"><text><![CDATA[The contract month should be as far out as possible to get the lowest futures premium]]></text></answer>
+            <answer correct="no"><text><![CDATA[The contract month is irrelevant as all futures contracts provide the same hedge]]></text></answer>
+            <answer correct="no"><text><![CDATA[The contract month should expire well before the exposure date to allow time for rolling the position]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The futures contract month should be chosen so that the expiry date is close to but after the date of the underlying exposure. This minimizes basis risk because at or near expiry, the futures price converges to spot. Using too distant a contract introduces more basis risk.
+**The Trap:** Using the farthest contract does NOT give a better hedge — it increases basis risk because the convergence benefit is lost. The closest matching expiry is optimal.
+**Cross-Exam Context:** Series I, IV, and VIII all emphasize choosing the nearest appropriate contract month for effective hedging.
+**Distributor's Pro-Tip:** If no contract expires near your exposure date, use the next available month after your exposure date, not before — settling a hedge before the exposure date leaves the position unhedged.]]></text></explanation>
+    </question>
+</QF>

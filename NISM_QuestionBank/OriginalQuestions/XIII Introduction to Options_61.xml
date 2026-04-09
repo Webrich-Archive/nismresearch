@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_61" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Comparing option exercise styles across derivative markets in India: which is correct?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[All exchange-traded options in India are European-style — equity (index and stock), currency, and commodity options can only be exercised at expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equity options are American; currency options are European; commodity options vary]]></text></answer>
+            <answer correct="no"><text><![CDATA[All options in India are American-style allowing exercise at any time]]></text></answer>
+            <answer correct="no"><text><![CDATA[Index options are European; all others are American-style]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** All exchange-traded options in India are European-style. This includes NIFTY/SENSEX options, stock options, USDINR options, and commodity options. The European style simplifies pricing (Black-Scholes applies directly) and eliminates early assignment risk for sellers.
+**The Trap:** While stock options COULD be American (as in some other countries), India chose European for all exchange-traded options. OTC options may use either style.
+**Cross-Exam Context:** This is confirmed across Series VIII (equity), Series I (currency), and Series XVI (commodity). It's a key fact for Series XIII.
+**Distributor's Pro-Tip:** European options mean no early exercise risk — this is particularly beneficial for dividend capture strategies where sellers of American-style calls face early assignment near ex-dividend dates.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_58" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is 'option premium erosion' (time decay) behavior for ITM vs OTM options?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[OTM options lose their entire value to time decay since they have no intrinsic value. ITM options lose only their time value component — the intrinsic value portion is preserved. ATM options experience the highest absolute time decay]]></text></answer>
+            <answer correct="no"><text><![CDATA[ITM options have the fastest time decay because they are the most expensive]]></text></answer>
+            <answer correct="no"><text><![CDATA[OTM options have no time decay because they have no value to lose]]></text></answer>
+            <answer correct="no"><text><![CDATA[All options decay at the same rate regardless of moneyness]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Time decay affects only the time value component: ATM options have the most time value → most absolute theta. OTM options have modest time value → less theta but 100% of their value is subject to decay. ITM options: only the time value portion decays; intrinsic is preserved.
+**The Trap:** OTM options DO have time value (their entire premium is time value). ITM options are expensive but have less time value (more intrinsic). Decay rates differ by moneyness.
+**Cross-Exam Context:** Time decay behavior is universal across all option markets. Understanding this helps select the right strikes for different strategies.
+**Distributor's Pro-Tip:** Option sellers prefer ATM (highest absolute decay) for income generation, while buyers prefer OTM (cheaper, higher leverage) for directional bets.]]></text></explanation>
+    </question>
+</QF>

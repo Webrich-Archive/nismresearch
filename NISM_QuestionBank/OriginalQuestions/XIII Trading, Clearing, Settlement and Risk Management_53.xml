@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_53" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What regulatory safeguard ensures that the Clearing Corporation maintains adequate resources to meet settlement obligations even during extreme market conditions?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[SEBI mandates stress testing of CC resources, maintenance of Core SGF with minimum CC contribution of 50% MRC, and a defined default waterfall to ensure settlement guarantee]]></text></answer>
+            <answer correct="no"><text><![CDATA[The government provides a sovereign guarantee to all Clearing Corporations ensuring they cannot default under any circumstances]]></text></answer>
+            <answer correct="no"><text><![CDATA[Clearing Corporations are required to maintain a minimum net worth of Rs 10,000 crore as a buffer against extreme market events]]></text></answer>
+            <answer correct="no"><text><![CDATA[The Reserve Bank of India provides emergency liquidity assistance to Clearing Corporations during market stress, similar to lender of last resort]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI requires Clearing Corporations to: maintain Core SGF with CC contributing minimum 50% of MRC, conduct regular stress testing of resources against extreme but plausible scenarios, follow a defined default waterfall, maintain adequate liquid resources, and report regularly to SEBI on risk metrics.
+**The Trap:** There is NO sovereign/government guarantee for CCs. The CC must self-fund its guarantee through margins, SGF, and its own capital. RBI does not provide lender-of-last-resort facilities to CCs. The adequacy is ensured through regulation, not external guarantees.
+**Cross-Exam Context:** CC risk management (stress testing, SGF, default waterfall) applies across all segments — equity, currency, and interest rate. This is the regulatory backbone of the settlement guarantee system tested in Series XIII.
+**Distributor's Pro-Tip:** Post-2008 global reforms emphasized CCP resilience. Indian CCs are regulated as Market Infrastructure Institutions (MIIs) under SEBI with specific capital, risk management, and governance requirements. The principle is 'Cover 2' — resources should cover default of the two largest members simultaneously.]]></text></explanation>
+    </question>
+</QF>

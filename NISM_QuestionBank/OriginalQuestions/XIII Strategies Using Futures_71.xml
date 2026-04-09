@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_71" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the maximum profit for a short strangle on USDINR where a trader sells an 83.25 call at Rs. 0.17 and an 82.75 put at Rs. 0.12?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 0.29 — when USDINR expires between 82.75 and 83.25, both options expire worthless]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.17 — only the call premium since the put will be exercised]]></text></answer>
+            <answer correct="no"><text><![CDATA[Unlimited — since the underlying can move infinitely in either direction]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.12 — only the put premium since the call will be exercised]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Maximum profit = Total premium received = 0.17 + 0.12 = Rs. 0.29. This occurs when USDINR expires between the two strikes (82.75 to 83.25) and both options expire worthless. Outside this range, profits reduce and eventually turn to losses.
+**The Trap:** The short strangle has LIMITED profit but UNLIMITED loss potential. Maximum profit is the sum of BOTH premiums, not just one.
+**Cross-Exam Context:** Series I Ch5 covers short strangles. The strategy is identical across currency, bond, and equity options markets.
+**Distributor's Pro-Tip:** Short strangle = selling volatility. Profitable in quiet markets but dangerous in volatile ones. Always define exit points before entering this position.]]></text></explanation>
+    </question>
+</QF>

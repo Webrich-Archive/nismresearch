@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_50" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When do arbitrage opportunities between spot and futures markets cease to exist?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[When sufficient arbitrageurs exploit the mispricing, driving prices back to equilibrium where the futures price equals its fair value]]></text></answer>
+            <answer correct="no"><text><![CDATA[When the exchange imposes position limits on arbitrage traders]]></text></answer>
+            <answer correct="no"><text><![CDATA[When market volatility reaches zero and all trading stops]]></text></answer>
+            <answer correct="no"><text><![CDATA[When the central bank intervenes to fix both spot and futures prices]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Arbitrage activity is self-correcting. When traders identify mispricing (futures above or below fair value), they simultaneously trade in spot and futures markets. This buying/selling pressure moves prices back toward equilibrium. The opportunity disappears once prices are aligned.
+**The Trap:** Exchanges don't stop arbitrage through position limits — they facilitate it. Central banks don't fix futures prices. Arbitrage ceases when price equilibrium is restored, not when trading stops.
+**Cross-Exam Context:** All three series (I, IV, VIII) describe this self-correcting mechanism of arbitrage in their respective markets.
+**Distributor's Pro-Tip:** Arbitrage is the invisible hand that keeps spot and futures prices aligned — without it, markets would have persistent mispricings.]]></text></explanation>
+    </question>
+</QF>

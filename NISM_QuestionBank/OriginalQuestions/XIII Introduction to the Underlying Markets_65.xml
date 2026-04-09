@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to the Underlying Markets_65" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the 'day count convention' and why does it matter across bond and money markets?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[It specifies how the number of days between two dates is calculated for interest computation, affecting accrued interest and yield calculations — common conventions include Actual/365, Actual/360, and 30/360]]></text></answer>
+            <answer correct="no"><text><![CDATA[It is the number of trading days in a year, which is always 252]]></text></answer>
+            <answer correct="no"><text><![CDATA[It is the method of counting calendar days for calculating the expiry of derivative contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[It determines the number of working days banks must keep their forex desks open]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Day count convention determines how fractional year periods are calculated for interest. Actual/365 (common in India for bonds) uses actual days/365. Actual/360 (used in money markets globally) uses actual days/360. 30/360 assumes 30 days per month. Different conventions give different interest amounts for the same rate.
+**The Trap:** The convention is not about trading days or derivative expiry — it's about how interest accrual is calculated. Using the wrong convention can lead to pricing errors.
+**Cross-Exam Context:** Series IV Ch1 covers day count conventions for bonds. Series I uses them for currency forward pricing. Understanding conventions is essential for IR derivative pricing.
+**Distributor's Pro-Tip:** Always confirm the day count convention before pricing any fixed income derivative — a mismatch between the convention used for the underlying and the derivative can create hidden P&L.]]></text></explanation>
+    </question>
+</QF>

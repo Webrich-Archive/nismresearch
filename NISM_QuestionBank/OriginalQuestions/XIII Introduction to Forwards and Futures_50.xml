@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_50" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A bond has modified duration of 8 and the yield changes by 25 basis points. What is the approximate percentage price change?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[2% price change (MD × Δy = 8 × 0.0025 = 0.02 = 2%)]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.2% price change]]></text></answer>
+            <answer correct="no"><text><![CDATA[20% price change]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.025% price change]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** % Price change ≈ -MD × Δy = -8 × 0.25% = -8 × 0.0025 = -0.02 = -2%. If yields rise by 25bps, bond price falls approximately 2%. This is the first-order duration approximation.
+**The Trap:** 0.2% forgets to multiply (divides by 10). 20% uses 25% instead of 0.25%. 0.025% confuses basis points with percent.
+**Cross-Exam Context:** Series IV Ch1 covers this calculation. It's the foundation for sizing IR futures hedges — the number of contracts needed depends on this price sensitivity.
+**Distributor's Pro-Tip:** 25bps is a common RBI rate change — knowing that a duration-8 portfolio moves ~2% per 25bps helps portfolio managers quickly estimate impact and size their hedges.]]></text></explanation>
+    </question>
+</QF>

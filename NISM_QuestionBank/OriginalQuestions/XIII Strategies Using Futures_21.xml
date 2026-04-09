@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader creates a long call butterfly on USDINR: buys 82.50 call at Rs. 0.60, sells two 83.00 calls at Rs. 0.30 each, and buys 83.50 call at Rs. 0.20. What is the net cost and maximum profit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Net cost: Rs. 0.20, Maximum profit: Rs. 0.30]]></text></answer>
+            <answer correct="no"><text><![CDATA[Net cost: Rs. 0.30, Maximum profit: Rs. 0.20]]></text></answer>
+            <answer correct="no"><text><![CDATA[Net cost: Rs. 0.20, Maximum profit: Rs. 0.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Net cost: Rs. 0.10, Maximum profit: Rs. 0.40]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Net cost = 0.60 + 0.20 - (2 × 0.30) = 0.80 - 0.60 = Rs. 0.20. Maximum profit = Strike spacing - Net cost = (83.00 - 82.50) - 0.20 = 0.50 - 0.20 = Rs. 0.30, occurring at the middle strike (83.00) at expiry.
+**The Trap:** The maximum profit is NOT the strike difference (0.50) — you must deduct the net cost of establishing the position.
+**Cross-Exam Context:** Series I Ch5 covers butterfly spreads for currency options. The same mechanics apply in Series IV (bond options) and VIII (equity options).
+**Distributor's Pro-Tip:** A long butterfly is a low-cost, limited-risk play on low volatility — maximum profit occurs when the underlying expires exactly at the middle strike.]]></text></explanation>
+    </question>
+</QF>

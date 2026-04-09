@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_59" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A company hedges its EUR payment using EURINR futures. However, the EURINR futures contract is illiquid. What alternative cross-hedge can the company construct?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Short USDINR futures and long EURINR futures, or alternatively, construct a synthetic EURUSD position using available liquid contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy EURUSD futures directly on the Indian exchange for better liquidity]]></text></answer>
+            <answer correct="no"><text><![CDATA[Use GBPINR futures as a proxy since GBP and EUR are highly correlated]]></text></answer>
+            <answer correct="no"><text><![CDATA[Wait for the EURINR contract to become liquid rather than using an imperfect hedge]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** If EURINR is illiquid, the company can construct the exposure through more liquid pairs. For example: EURINR ≈ EURUSD × USDINR. So shorting USDINR and going long EURINR (if available) or constructing via USDINR and EURUSD creates the synthetic position.
+**The Trap:** Using GBPINR as proxy introduces significant basis risk since GBP and EUR don't move identically. Waiting for liquidity means remaining unhedged — always suboptimal when hedge instruments are available.
+**Cross-Exam Context:** Series I Ch5 covers cross-hedging with multiple currency pairs. This is a practical hedging challenge unique to currency derivatives.
+**Distributor's Pro-Tip:** Cross-hedging introduces additional basis risk from the imperfect correlation between the proxy and the actual exposure. Use it only when direct hedging is not feasible.]]></text></explanation>
+    </question>
+</QF>

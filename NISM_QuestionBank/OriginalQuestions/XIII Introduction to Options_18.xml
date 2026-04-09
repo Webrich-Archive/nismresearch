@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_18" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is 'Black-76 model' and for which type of options is it primarily used?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Black-76 is a variant of Black-Scholes used for pricing options on futures contracts — it uses the futures price instead of the spot price as the primary input, appropriate for IR options and commodity options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Black-76 is the original Black-Scholes model published in 1976]]></text></answer>
+            <answer correct="no"><text><![CDATA[Black-76 is used exclusively for equity index options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Black-76 calculates the theoretical futures price, not option prices]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Black-76 (Fischer Black, 1976) prices options on futures: C = e^(-rT) × [F×N(d1) - K×N(d2)]. Since the underlying is the futures price (not spot), the cost-of-carry is already embedded. Used for IR options (caps, floors, swaptions), commodity options on futures, and some bond options.
+**The Trap:** Black-76 is a different model from Black-Scholes (uses futures price, not spot). It prices options, not futures. It's used across multiple asset classes, not just equity.
+**Cross-Exam Context:** Series IV Ch4 uses Black-76 for IR option pricing. Series XVI references it for commodity options on futures. This is a key Series XIII comparison — different option types use different pricing models.
+**Distributor's Pro-Tip:** In practice, exchange-traded options on futures (common in commodities and IR) are priced using Black-76, while spot-based options (equity, currency) use Black-Scholes/Garman-Kohlhagen.]]></text></explanation>
+    </question>
+</QF>

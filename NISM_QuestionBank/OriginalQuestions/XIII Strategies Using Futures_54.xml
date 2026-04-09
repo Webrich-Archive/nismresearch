@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_54" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the maximum loss for a long call butterfly spread?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Limited to the net premium paid to establish the position]]></text></answer>
+            <answer correct="no"><text><![CDATA[Unlimited, as the short calls can generate infinite losses]]></text></answer>
+            <answer correct="no"><text><![CDATA[The difference between the outer strikes minus the net premium]]></text></answer>
+            <answer correct="no"><text><![CDATA[Zero, because butterfly spreads are always risk-free]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A long call butterfly involves: buy 1 ITM call, sell 2 ATM calls, buy 1 OTM call. The net cost is the premium paid for the wings minus premiums received from selling the body. Maximum loss is this net premium, occurring when the underlying moves far from the middle strike.
+**The Trap:** Although the position includes short calls, they are covered by the long calls — so losses are limited, not unlimited. Butterflies are NOT risk-free; they have a defined max loss.
+**Cross-Exam Context:** Butterfly spreads are covered in Series I, IV, and VIII Ch5. The mechanics are identical across asset classes.
+**Distributor's Pro-Tip:** The butterfly is a low-cost, low-risk play on low volatility. Max loss = net premium paid. Max profit = strike spacing - net premium, achieved only if the underlying expires exactly at the middle strike.]]></text></explanation>
+    </question>
+</QF>

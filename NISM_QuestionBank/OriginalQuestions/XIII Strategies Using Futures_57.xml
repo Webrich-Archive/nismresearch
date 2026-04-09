@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_57" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investor holds a US equity portfolio worth USD 100,000. The USDINR rate was 83 at investment and is now 81. If the investor had shorted USDINR futures at 83.50, what would be the approximate hedge benefit per USD?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 2.50 per USD — the gain on short futures partially offsets the USDINR depreciation impact on the portfolio]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2.00 per USD — exactly matching the spot rate decline]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.50 per USD — the futures premium over spot at entry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0 per USD — futures cannot hedge equity investment currency risk]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Short USDINR futures at 83.50, spot falls to 81. If futures also fall to approximately 81 at closeout, gain = 83.50 - 81 = Rs. 2.50 per USD. This offsets the loss from converting USD back to INR at 81 instead of 83. The extra 0.50 comes from the forward premium captured.
+**The Trap:** The hedge gain approximates 2.50, not exactly 2.00, because the futures entry included the forward premium. Futures CAN hedge foreign investment currency risk — that's their purpose.
+**Cross-Exam Context:** Series I Ch5 covers foreign investment currency hedging. Series XIII compares currency hedging with equity/bond hedging across asset classes.
+**Distributor's Pro-Tip:** When hedging overseas investments, the forward premium (rate differential) in futures actually provides additional return in high-interest-rate countries like India.]]></text></explanation>
+    </question>
+</QF>

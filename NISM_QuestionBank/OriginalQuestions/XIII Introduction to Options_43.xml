@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_43" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In interest rate options, how does a 'cap' work as a hedging tool?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A cap sets a maximum interest rate on a floating-rate loan — if the reference rate exceeds the cap strike, the cap pays the difference, protecting the borrower against rate rises while allowing benefit from rate declines]]></text></answer>
+            <answer correct="no"><text><![CDATA[A cap fixes the interest rate at a constant level, eliminating all rate variability]]></text></answer>
+            <answer correct="no"><text><![CDATA[A cap limits the maximum principal amount of a loan]]></text></answer>
+            <answer correct="no"><text><![CDATA[A cap is only used by the lending bank, not the borrower]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A cap is like a strip of call options on the interest rate. For each reset period, if the reference rate (e.g., MIBOR) exceeds the cap rate, the cap seller pays the borrower the difference × notional × period. The borrower pays a premium upfront for this protection. This is superior to a swap because it allows benefit from rate declines.
+**The Trap:** A cap doesn't fix the rate (that's a swap). It sets a ceiling while allowing the rate to float below. Borrowers buy caps; lenders buy floors. Both can benefit from the asymmetric payoff.
+**Cross-Exam Context:** Series IV Ch4 covers caps as IR options. This is unique to the IR market — equity and currency don't have equivalent structured products.
+**Distributor's Pro-Tip:** Caps are popular with corporate treasurers managing floating-rate loans — they provide certainty on maximum interest cost while preserving the benefit of rate reductions.]]></text></explanation>
+    </question>
+</QF>

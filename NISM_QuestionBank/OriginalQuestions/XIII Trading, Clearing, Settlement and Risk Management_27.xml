@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_27" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The Core Settlement Guarantee Fund (Core SGF) requires the Clearing Corporation to contribute 50% of the Minimum Required Corpus (MRC). If the MRC for a segment is Rs 200 crore, how much must the CC contribute?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 100 crore (50% of MRC of Rs 200 crore)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 200 crore — the CC must contribute the entire MRC]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 50 crore — the CC contributes 25% of MRC, with exchanges contributing the other 25%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 150 crore — the CC contributes 75% of MRC as the primary guarantor]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** As per SEBI regulations, the Clearing Corporation must contribute a minimum of 50% of the Minimum Required Corpus (MRC) to the Core SGF. For MRC of Rs 200 crore, CC contribution = 50% x 200 = Rs 100 crore.
+**The Trap:** The CC contributes 50%, not 100% of MRC. The remaining comes from penalties, member contributions, and other sources. The CC's contribution demonstrates skin-in-the-game for settlement guarantee.
+**Cross-Exam Context:** Core SGF exists across all segments — equity, currency, and interest rate. The default waterfall is: defaulter's margin → defaulter's other assets → Core SGF → CC resources.
+**Distributor's Pro-Tip:** The SGF is the ultimate backstop for settlement. Its adequacy is stress-tested regularly. The CC's 50% MRC contribution ensures it has the strongest incentive to manage risk prudently.]]></text></explanation>
+    </question>
+</QF>

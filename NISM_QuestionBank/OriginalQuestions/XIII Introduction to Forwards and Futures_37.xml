@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_37" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is 'position limit' in futures markets and how does it differ across asset classes?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Maximum number of contracts/exposure a participant can hold — equity uses MWPL (20% of free float); currency has USD 20M client limit for USDINR; IR futures have separate limits based on market capitalization]]></text></answer>
+            <answer correct="no"><text><![CDATA[There are no position limits in any futures market — traders can hold unlimited contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[Position limits are identical across all asset classes at Rs 500 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Position limits only apply to retail traders, not institutions]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Each market has specific limits: Equity — client level, TM level, and MWPL (20% free float for stocks; % of total OI for index). Currency — USD 20M for clients (USDINR), different for bank TMs. IR — linked to outstanding G-Sec supply. Limits prevent concentration and manipulation.
+**The Trap:** All markets have position limits — they're a fundamental risk management tool. Limits differ by participant type (client, TM, FPI, MF) and by market.
+**Cross-Exam Context:** Series VIII Ch7, Series I Ch7, Series IV Ch7 each specify position limits. Comparing these structures is a key Series XIII topic.
+**Distributor's Pro-Tip:** Position limits can be binding constraints for large hedgers — understanding the limits for each market helps plan hedging strategies across asset classes efficiently.]]></text></explanation>
+    </question>
+</QF>

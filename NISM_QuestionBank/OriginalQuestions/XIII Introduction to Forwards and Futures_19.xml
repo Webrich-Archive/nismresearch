@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is 'tick value' in futures trading and how is it calculated?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Tick value = Tick size × Lot size. It represents the monetary value of a one-tick price movement. For USDINR: Rs 2.50 (0.0025 × 1000). For NIFTY: Rs 1.25 (0.05 × 25)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Tick value is the total value of one futures contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[Tick value is the margin required per lot of futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Tick value is the maximum daily price change allowed]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Tick value = minimum price move × contract size. USDINR: 0.0025 × 1000 = Rs 2.50 per tick per lot. NIFTY: 0.05 × 25 = Rs 1.25 per tick per lot. Tick value determines the monetary impact of each price tick on P&L.
+**The Trap:** Contract value (price × lot size) is different from tick value. Margin is a separate concept. Price bands set the allowed range, not tick value.
+**Cross-Exam Context:** Series I Ch3 gives USDINR tick value. Series VIII Ch3 gives equity futures tick value. Series XVI Ch3 gives commodity futures tick value.
+**Distributor's Pro-Tip:** Tick value is essential for calculating risk — knowing that each tick in NIFTY futures is Rs 1.25 helps traders quickly estimate P&L impact of any price movement.]]></text></explanation>
+    </question>
+</QF>

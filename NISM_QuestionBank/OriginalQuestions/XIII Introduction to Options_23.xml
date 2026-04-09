@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_23" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is 'delta neutral' hedging?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Constructing a portfolio where the net delta is zero — so small changes in the underlying price don't affect the portfolio value. Achieved by combining options and the underlying in proportions based on delta]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buying equal numbers of calls and puts on the same underlying]]></text></answer>
+            <answer correct="no"><text><![CDATA[Holding only options with delta close to zero (deep OTM options)]]></text></answer>
+            <answer correct="no"><text><![CDATA[A strategy that guarantees zero loss regardless of market movement]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Delta neutral means portfolio delta = 0. Example: If you're long 100 shares (delta +100) and need to hedge, sell calls with delta 0.50 — you need 200 calls (200 × 0.50 = 100 delta). Now the portfolio is delta neutral: +100 (shares) - 100 (from short calls) = 0.
+**The Trap:** Equal calls and puts doesn't achieve delta neutrality (call delta ≠ put delta in magnitude for same OTM distance). Deep OTM options already have near-zero delta but that's not a hedge. Delta neutrality protects against small moves, not large moves (gamma risk remains).
+**Cross-Exam Context:** Delta hedging is used across all option markets by market makers and institutional traders. Series VIII Ch4 covers the hedge ratio concept.
+**Distributor's Pro-Tip:** Delta neutral isn't 'set and forget' — as the underlying moves, delta changes (gamma), requiring frequent rebalancing. This dynamic hedging is the core activity of professional option market makers.]]></text></explanation>
+    </question>
+</QF>

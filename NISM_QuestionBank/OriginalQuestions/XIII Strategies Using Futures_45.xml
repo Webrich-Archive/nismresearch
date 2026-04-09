@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_45" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following is a key advantage of using options for hedging over futures?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Options allow the hedger to retain favorable price movement upside while providing protection against adverse moves, at the cost of the premium]]></text></answer>
+            <answer correct="no"><text><![CDATA[Options are always cheaper than futures for hedging purposes]]></text></answer>
+            <answer correct="no"><text><![CDATA[Options eliminate basis risk entirely, unlike futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Options require no margin deposits while futures require daily margin maintenance]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Options hedging (e.g., buying puts for downside protection) sets a floor on losses but allows participation in gains. Futures hedging locks in a price, eliminating both downside and upside. The cost of this asymmetric protection is the option premium.
+**The Trap:** Options are NOT always cheaper — the premium can be substantial. Options do NOT eliminate basis risk. Option buyers don't pay margin but do pay premium.
+**Cross-Exam Context:** All three series compare options vs. futures for hedging. Series IV Ch5 mentions that GOI bond put options can replace short futures while preserving upside.
+**Distributor's Pro-Tip:** Think of options as insurance: you pay a known premium (cost) for protection, but unlike futures, you still benefit if the market moves in your favor.]]></text></explanation>
+    </question>
+</QF>

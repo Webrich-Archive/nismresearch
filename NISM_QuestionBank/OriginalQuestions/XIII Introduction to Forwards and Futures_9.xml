@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An equity index is at 25,000 and the risk-free rate is 8% per annum. What is the theoretical 1-month futures price assuming no dividends?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[25,166.67 [F = 25000 × (1 + 0.08/12) = 25000 × 1.00667 = 25,166.67]]]></text></answer>
+            <answer correct="no"><text><![CDATA[27,000 [F = 25000 × 1.08]]]></text></answer>
+            <answer correct="no"><text><![CDATA[25,000 [futures = spot when no dividends]]]></text></answer>
+            <answer correct="no"><text><![CDATA[25,083.33 [F = 25000 × (1 + 0.04/12)]]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** F = S × (1 + r × t) = 25000 × (1 + 0.08 × 1/12) = 25000 × 1.006667 = 25,166.67. For 1 month, we use 1/12 of the annual rate. No dividends means the full interest cost is carried.
+**The Trap:** 27,000 uses the full annual rate instead of 1/12. 25,000 ignores carrying cost. 25,083.33 uses 4% instead of 8%.
+**Cross-Exam Context:** Series VIII Ch3 covers this calculation. Compare with currency IRP (Series I) where two interest rates matter, and commodity carry (Series XVI) where storage costs add to carry.
+**Distributor's Pro-Tip:** If actual futures price < theoretical, there may be a dividend expectation or borrowing constraints. If > theoretical, there may be demand premium or low lending rates for that stock.]]></text></explanation>
+    </question>
+</QF>

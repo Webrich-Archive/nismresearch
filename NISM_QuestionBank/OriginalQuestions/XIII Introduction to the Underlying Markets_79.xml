@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to the Underlying Markets_79" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is 'Herstatt Risk' in the context of foreign exchange markets?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The risk that one party to a forex transaction delivers currency but the counterparty fails to deliver the other currency due to time zone differences or default — named after the failure of Bankhaus Herstatt in 1974]]></text></answer>
+            <answer correct="no"><text><![CDATA[The risk of exchange rate fluctuation during the settlement period]]></text></answer>
+            <answer correct="no"><text><![CDATA[The regulatory risk imposed by the German financial authority on forex trades]]></text></answer>
+            <answer correct="no"><text><![CDATA[The risk that a currency pair's exchange rate becomes too volatile for trading]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Herstatt risk (settlement risk) arose when Bankhaus Herstatt (Germany) was closed by regulators on June 26, 1974 after receiving DEM payments but before making corresponding USD payments to counterparties in the US (due to time zone difference). This highlighted the risk of non-simultaneous settlement in forex.
+**The Trap:** Herstatt risk is specifically about counterparty default during the settlement gap caused by time zones — not about exchange rate volatility. DvP and CLS (Continuous Linked Settlement) were developed to mitigate it.
+**Cross-Exam Context:** Series I covers settlement risk. This is specific to forex markets and doesn't apply the same way to equity or bond markets where DvP handles both legs domestically.
+**Distributor's Pro-Tip:** Exchange-traded currency derivatives eliminate Herstatt risk through the CCP mechanism — this is a key advantage over OTC forex for managing counterparty risk.]]></text></explanation>
+    </question>
+</QF>

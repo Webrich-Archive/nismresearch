@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_78" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How do client-level position limits differ between equity derivatives and currency derivatives in India?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Equity derivatives have position limits linked to MWPL (Market Wide Position Limit) of the underlying stock, while currency derivatives have gross position limits specified in USD notional terms]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both segments have identical position limits of 5% of total open interest]]></text></answer>
+            <answer correct="no"><text><![CDATA[Currency derivatives have no client-level position limits since they are OTC-equivalent]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equity derivatives position limits are set by RBI while currency derivatives limits are set by SEBI]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In equity derivatives, client-level position limits for single-stock derivatives are linked to the MWPL (e.g., higher of Rs 500 crore or 15% of total OI). For currency derivatives, position limits are specified in notional USD terms (or equivalent) as per RBI/SEBI guidelines, reflecting the different nature of the underlying.
+**The Trap:** Position limits are NOT identical across segments — each segment has limits tailored to its market structure. Currency derivatives DO have client-level position limits. SEBI sets equity derivatives limits while currency derivatives limits involve both SEBI and RBI jointly.
+**Cross-Exam Context:** Series VIII covers equity position limits (MWPL framework), Series I covers currency position limits. Series XIII tests the comparative understanding across segments. Position limits for interest rate derivatives (Series IV) are based on notional value.
+**Distributor's Pro-Tip:** Clients trading across segments must track position limits separately for each segment. A breach in one segment does not affect limits in another, but the regulatory consequences are equally serious across all segments.]]></text></explanation>
+    </question>
+</QF>

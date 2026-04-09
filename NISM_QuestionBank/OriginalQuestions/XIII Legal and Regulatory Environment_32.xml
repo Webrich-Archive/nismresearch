@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Legal and Regulatory Environment_32" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Why does SEBI mandate that all derivative exchanges must have a SEBI-approved clearing corporation?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[To ensure centralized counterparty clearing, novation of trades, proper margining, and elimination of bilateral counterparty risk between trading members]]></text></answer>
+            <answer correct="no"><text><![CDATA[To generate additional revenue for SEBI through clearing fees charged by the corporation]]></text></answer>
+            <answer correct="no"><text><![CDATA[To restrict derivative trading only to members who can afford clearing corporation membership fees]]></text></answer>
+            <answer correct="no"><text><![CDATA[To allow SEBI to directly execute trades on behalf of market participants during volatile periods]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A SEBI-approved clearing corporation acts as the Central Counterparty (CCP). Through novation, it becomes the buyer to every seller and seller to every buyer, eliminating bilateral counterparty risk. It also administers margins, manages the settlement guarantee fund, and ensures orderly settlement.
+**The Trap:** The clearing corporation is not a revenue tool for SEBI, nor does SEBI trade through it. Its sole purpose is risk management and settlement guarantee.
+**Cross-Exam Context:** The L.C. Gupta Committee specifically recommended SEBI-approved clearing corporations. This requirement applies to all derivative segments and is a cornerstone of the Indian derivative market infrastructure.
+**Distributor's Pro-Tip:** Novation is the key concept — when a trade is matched, the clearing corporation interposes itself, breaking the bilateral link between buyer and seller. This is what makes exchange-traded derivatives safer than OTC.]]></text></explanation>
+    </question>
+</QF>

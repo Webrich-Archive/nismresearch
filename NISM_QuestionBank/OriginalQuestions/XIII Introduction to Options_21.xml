@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the payoff of a long put option at expiry?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[max(K - S, 0) - Premium paid. Profit potential is substantial (up to K - Premium if the underlying falls to zero)]]></text></answer>
+            <answer correct="no"><text><![CDATA[S - K if S > K; otherwise zero]]></text></answer>
+            <answer correct="no"><text><![CDATA[Always equal to the premium received]]></text></answer>
+            <answer correct="no"><text><![CDATA[K - S regardless of whether K > S or K < S]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** At expiry: if K > S, the put is exercised: payoff = K - S (gross), profit = K - S - Premium. If K ≤ S, put expires worthless: payoff = 0, loss = Premium. BEP = K - Premium. Max loss = Premium. Max profit = K - Premium (if underlying goes to zero).
+**The Trap:** S - K is the call payoff. The premium is paid by the buyer, not received. K - S without max would give negative payoffs.
+**Cross-Exam Context:** Put payoffs are universal across all option markets. Currency puts protect against depreciation of the base currency (useful for importers).
+**Distributor's Pro-Tip:** Puts provide portfolio insurance — buying an index put protects against market crashes while allowing unlimited upside. This is the 'protective put' strategy.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_67" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If an option's vega is 0.25 and implied volatility drops by 3%, what is the approximate impact on the option premium?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Premium decreases by Rs 0.75 (0.25 × 3 = 0.75)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Premium increases by Rs 0.75]]></text></answer>
+            <answer correct="no"><text><![CDATA[Premium decreases by Rs 0.25]]></text></answer>
+            <answer correct="no"><text><![CDATA[Premium decreases by Rs 7.50]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** ΔPremium = Vega × ΔIV = 0.25 × (-3) = -0.75. The premium decreases by Rs 0.75. This applies to long options (positive vega). For short options (negative vega), the position would profit from the IV decline.
+**The Trap:** Premium DECREASES (not increases) when IV falls for long options. 0.25 is the per-percentage-point effect, not the total effect. 7.50 multiplies by 30 instead of 3.
+**Cross-Exam Context:** Vega impact calculation is the same across all option markets. It's particularly important before/after events when IV changes rapidly.
+**Distributor's Pro-Tip:** Post-event IV collapse (e.g., after RBI policy) can cause significant losses for long option holders even if the underlying moves favorably — this 'vol crush' effect often catches beginners off guard.]]></text></explanation>
+    </question>
+</QF>

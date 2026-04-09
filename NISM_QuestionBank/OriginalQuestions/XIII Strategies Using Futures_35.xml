@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_35" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A bond trader expects interest rates to remain stable. Which option strategy should the trader use to profit from low volatility?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Short straddle on GOI bond options — sell both a call and a put at the same strike to collect premiums]]></text></answer>
+            <answer correct="no"><text><![CDATA[Long straddle on GOI bond options — buy both a call and a put to benefit from any move]]></text></answer>
+            <answer correct="no"><text><![CDATA[Long strangle on GOI bond options — buy OTM call and OTM put for cheaper volatility play]]></text></answer>
+            <answer correct="no"><text><![CDATA[Bull call spread on GOI bond options — buy lower strike call and sell higher strike call]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A short straddle profits when the underlying stays near the strike price. The trader collects premiums from both the call and put. If bond prices (and hence yields) remain stable, both options expire worthless and the trader keeps the full premium.
+**The Trap:** Long straddle and long strangle are volatility-buying strategies — they profit from large moves, which is the opposite of what a stable-rate view requires.
+**Cross-Exam Context:** Series IV Ch5 covers short straddles on bond options. The same concept applies across currency (I) and equity (VIII) markets.
+**Distributor's Pro-Tip:** Short straddle has unlimited risk — only use when you have very high conviction that rates/prices will remain stable. Always set stop-losses.]]></text></explanation>
+    </question>
+</QF>

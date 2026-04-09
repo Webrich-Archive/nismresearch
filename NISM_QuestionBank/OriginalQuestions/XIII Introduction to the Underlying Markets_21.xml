@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to the Underlying Markets_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is 'accrued interest' in the context of bond trading?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The interest earned on a bond since the last coupon payment date up to but not including the settlement date]]></text></answer>
+            <answer correct="no"><text><![CDATA[The total interest earned over the entire life of the bond]]></text></answer>
+            <answer correct="no"><text><![CDATA[The interest paid by the buyer to the exchange as a trading fee]]></text></answer>
+            <answer correct="no"><text><![CDATA[The penalty interest charged for late settlement of bond trades]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When a bond is traded between coupon dates, the buyer pays the seller the accrued interest — the interest earned from the last coupon date to the settlement date. The bond price including accrued interest is called the 'dirty price'; without it, it's the 'clean price'.
+**The Trap:** Accrued interest is not a trading fee — it compensates the seller for holding the bond during the current coupon period. The buyer gets the full next coupon.
+**Cross-Exam Context:** Series IV Ch1 covers accrued interest, clean price, and dirty price. This concept is important for pricing IR derivatives in Series XIII.
+**Distributor's Pro-Tip:** Bond futures pricing accounts for accrued interest through the conversion factor — understanding this is critical for IR futures trading.]]></text></explanation>
+    </question>
+</QF>

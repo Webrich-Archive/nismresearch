@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_49" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under the default waterfall mechanism of the Clearing Corporation, what is the correct sequence for utilizing resources to cover a member's default?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Defaulter's margin and collateral → Defaulter's other deposits with CC → Core SGF (proportionate) → CC's own resources → Remaining SGF and insurance → Other non-defaulting members' contributions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Core SGF first → Defaulter's margin → CC's resources → Insurance → Other members' contributions]]></text></answer>
+            <answer correct="no"><text><![CDATA[CC's own resources first → Core SGF → Defaulter's margin → Insurance → Other members' contributions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Insurance proceeds first → Defaulter's margin → Core SGF → CC's resources → Other members' contributions]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI prescribes a specific default waterfall: (1) Defaulter's own margins/collateral, (2) Defaulter's additional deposits/assets with CC, (3) Core SGF (CC's contribution of 50% MRC used proportionally), (4) CC's own resources, (5) Remaining SGF and insurance, (6) Any remaining shortfall may involve assessments on non-defaulting members.
+**The Trap:** The defaulter's OWN resources are ALWAYS used first — the SGF is NOT the first line of defense. The CC's own capital comes after SGF, demonstrating skin-in-the-game. Insurance is a later resort, not the first.
+**Cross-Exam Context:** The default waterfall applies across all derivative segments. It protects the settlement guarantee. Series XIII tests understanding of this mechanism as it's the backbone of CCP risk management.
+**Distributor's Pro-Tip:** The CC's 50% MRC contribution to Core SGF being used before other members' money creates the right incentive — the CC has the most to lose from poor risk management, ensuring it maintains rigorous margin and surveillance standards.]]></text></explanation>
+    </question>
+</QF>

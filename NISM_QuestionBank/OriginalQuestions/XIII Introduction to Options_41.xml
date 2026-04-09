@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_41" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How does the delta of a call option change as the underlying price rises from well below to well above the strike?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Delta increases from near 0 (deep OTM) through approximately 0.5 (ATM) to near 1 (deep ITM) — the option increasingly behaves like the underlying itself]]></text></answer>
+            <answer correct="no"><text><![CDATA[Delta remains constant at 0.5 regardless of the underlying price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Delta decreases as the underlying rises because the option becomes less valuable]]></text></answer>
+            <answer correct="no"><text><![CDATA[Delta jumps from 0 to 1 exactly at the strike price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Call delta follows a sigmoid (S-curve) shape: Deep OTM: delta ≈ 0 (option barely responds to underlying). ATM: delta ≈ 0.5 (option moves about half as much as underlying). Deep ITM: delta ≈ 1 (option moves point-for-point with underlying). The transition is smooth, not abrupt.
+**The Trap:** Delta is NOT constant — it changes continuously with the underlying price (this change rate is gamma). Delta doesn't jump at the strike — it transitions smoothly.
+**Cross-Exam Context:** This delta behavior is universal for all call options across equity, currency, IR, and commodity markets.
+**Distributor's Pro-Tip:** Understanding delta's non-linear behavior is key to option hedging — as your option moves from OTM to ITM, your effective market exposure increases, requiring position adjustment.]]></text></explanation>
+    </question>
+</QF>

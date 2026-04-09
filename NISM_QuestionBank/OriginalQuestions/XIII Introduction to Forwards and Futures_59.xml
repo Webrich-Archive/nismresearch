@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_59" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the maximum position limit for a client in USDINR futures across all exchanges?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[USD 20 million net long or short across all exchanges combined]]></text></answer>
+            <answer correct="no"><text><![CDATA[USD 100 million]]></text></answer>
+            <answer correct="no"><text><![CDATA[USD 5 million]]></text></answer>
+            <answer correct="no"><text><![CDATA[There is no position limit for USDINR futures]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For USDINR futures, the client-level position limit is USD 20 million (net long or net short) across all exchanges. This is lower than the trading member limit (higher of Rs 500 crore or 15% of total OI) and the bank trading member limit (higher of Rs 1000 crore or 15% of total OI).
+**The Trap:** USD 100 million is the bank TM limit. USD 5 million is too low. Position limits absolutely exist for currency derivatives.
+**Cross-Exam Context:** Series I Ch7 specifies USDINR position limits. Compare with equity MWPL (20% of free float) in Series VIII. Position limit structures differ across markets.
+**Distributor's Pro-Tip:** The USD 20M client limit means large hedgers may need to access the OTC forward market for exposures beyond this — the exchange-traded market has capacity constraints for very large positions.]]></text></explanation>
+    </question>
+</QF>

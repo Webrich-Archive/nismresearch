@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_38" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the 'intrinsic value' of a deep ITM USDINR call with strike Rs 80 when spot is Rs 84?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 4.00 (S - K = 84 - 80 = 4.00)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 80.00 (the strike price)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 84.00 (the spot price)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 0 (only time value matters for deep ITM)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Call intrinsic = max(S - K, 0) = max(84 - 80, 0) = Rs 4.00. Per lot (1000 USD): 4.00 × 1000 = Rs 4,000. This deep ITM option has high intrinsic value and behaves almost like a futures position (delta close to 1).
+**The Trap:** The strike and spot prices individually are not the intrinsic value. Deep ITM options have the MOST intrinsic value, not zero.
+**Cross-Exam Context:** Intrinsic value calculation is identical across all option markets. USDINR options have the same lot size (1000 USD) as futures.
+**Distributor's Pro-Tip:** Deep ITM options can sometimes be bought instead of futures — they have limited downside (only premium) while providing similar upside. The trade-off is the higher upfront cost.]]></text></explanation>
+    </question>
+</QF>

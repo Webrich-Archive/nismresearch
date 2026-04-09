@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_63" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What determines whether a commodity market is in contango or backwardation?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[If storage cost + interest cost > convenience yield, the market is in contango (F > S). If convenience yield > storage cost + interest cost, the market is in backwardation (F < S)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only supply and demand determine whether markets are in contango or backwardation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Commodity markets are always in contango because storage costs are always positive]]></text></answer>
+            <answer correct="no"><text><![CDATA[Government price controls determine contango or backwardation]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The cost-of-carry model: F = S × e^(r + s - c)t where r = interest, s = storage, c = convenience yield. When (r+s) > c: F > S (contango). When c > (r+s): F < S (backwardation). High convenience yield (tight supply) drives backwardation; low convenience yield (ample supply) supports contango.
+**The Trap:** While supply-demand affects convenience yield, the formal relationship involves all three costs. Storage-only markets (no convenience yield) are always in contango.
+**Cross-Exam Context:** Series XVI Ch3 covers commodity carry dynamics. Financial futures (equity, currency) don't have storage costs or convenience yield — their contango/backwardation is simpler.
+**Distributor's Pro-Tip:** Commodity traders read contango/backwardation as a market signal: persistent backwardation = supply tightness; persistent contango = ample supply. This guides physical and derivatives trading.]]></text></explanation>
+    </question>
+</QF>

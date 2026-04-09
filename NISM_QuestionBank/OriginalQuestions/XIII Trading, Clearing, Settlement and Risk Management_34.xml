@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_34" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the purpose of the IRRA (Investor Risk Reduction Access) platform in the equity derivatives segment?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[IRRA allows investors to directly close their open derivative positions on the exchange if their trading member is disabled, expelled, or declared a defaulter]]></text></answer>
+            <answer correct="no"><text><![CDATA[IRRA is a risk analytics platform that provides real-time margin calculations and portfolio risk metrics to retail investors]]></text></answer>
+            <answer correct="no"><text><![CDATA[IRRA allows investors to reduce their risk by automatically converting futures positions into options positions during high volatility]]></text></answer>
+            <answer correct="no"><text><![CDATA[IRRA is an insurance platform that compensates investors for losses incurred due to exchange system failures]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** IRRA (Investor Risk Reduction Access) is a facility that enables clients to close/square off their open positions directly on the exchange platform when their trading member is disabled or declared a defaulter. This protects investors from being locked into positions.
+**The Trap:** IRRA is NOT a risk analytics tool or insurance mechanism. Its sole purpose is providing investors emergency exit access when their broker/TM is incapacitated. Only closing/square-off trades are allowed, not new positions.
+**Cross-Exam Context:** IRRA was introduced by SEBI for equity derivatives. Series XIII tests awareness of investor protection mechanisms across segments. Currency and IR segments have similar member-default protocols.
+**Distributor's Pro-Tip:** IRRA is activated by the exchange, not by the investor. It provides a crucial safety net — without it, clients of a defaulted broker could face mark-to-market losses with no ability to exit positions.]]></text></explanation>
+    </question>
+</QF>

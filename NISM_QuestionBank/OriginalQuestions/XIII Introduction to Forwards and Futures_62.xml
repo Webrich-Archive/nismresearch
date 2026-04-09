@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_62" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the theoretical 3-month USDINR forward premium rate if Indian rate is 6.5% and US rate is 4%?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Approximately 0.60% for 3 months or 2.40% annualized [(6.5% - 4%) × 3/12 = 0.625% for 3 months; annualized = 2.5%]]]></text></answer>
+            <answer correct="no"><text><![CDATA[10.5% annualized]]></text></answer>
+            <answer correct="no"><text><![CDATA[2.5% for 3 months]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.15% annualized]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Approximate annualized forward premium ≈ (Rd - Rf) = 6.5% - 4% = 2.5%. For 3 months: 2.5% × 3/12 = 0.625%. More precisely: F = S × (1.065^0.25)/(1.04^0.25), but the approximation is close. The premium reflects the interest rate differential.
+**The Trap:** 10.5% adds instead of subtracting. 2.5% for 3 months doesn't pro-rate. 0.15% is too low.
+**Cross-Exam Context:** Series I Ch3 covers forward premium calculations. This is a core calculation for currency derivatives in Series XIII.
+**Distributor's Pro-Tip:** Quick estimation: annualized premium ≈ rate differential ≈ 2.5%. If spot is 84, 3-month forward ≈ 84 × (1 + 0.025 × 0.25) = 84 × 1.00625 = 84.53. Useful for quick mental math.]]></text></explanation>
+    </question>
+</QF>

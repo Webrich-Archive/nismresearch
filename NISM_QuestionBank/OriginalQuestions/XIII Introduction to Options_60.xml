@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_60" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the 'gamma risk' faced by option sellers?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The risk that delta changes rapidly against the seller's position as the underlying moves — gamma creates losses that accelerate as the move gets larger, making short option positions increasingly risky during volatile markets]]></text></answer>
+            <answer correct="no"><text><![CDATA[Gamma risk is the same as delta risk — both measure directional exposure]]></text></answer>
+            <answer correct="no"><text><![CDATA[Gamma risk only affects option buyers, not sellers]]></text></answer>
+            <answer correct="no"><text><![CDATA[Gamma risk is eliminated by diversifying across many option strikes]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Short options have negative gamma: as the underlying moves against the seller, delta moves FURTHER against them, creating accelerating losses. Example: a short call at delta -0.50 that moves to delta -0.80 as the stock rises — the seller's loss accelerates. This is the fundamental risk of option writing.
+**The Trap:** Gamma risk is about the CHANGE in delta, not delta itself. Sellers face negative gamma (delta moves against them). Diversification across strikes reduces but doesn't eliminate gamma risk.
+**Cross-Exam Context:** Gamma risk is universal for option sellers across all markets. It's particularly severe near expiry for ATM options where gamma is highest.
+**Distributor's Pro-Tip:** The theta premium sellers earn is compensation for gamma risk — this is the 'theta-gamma tradeoff'. Always evaluate whether the theta earned justifies the gamma risk taken.]]></text></explanation>
+    </question>
+</QF>

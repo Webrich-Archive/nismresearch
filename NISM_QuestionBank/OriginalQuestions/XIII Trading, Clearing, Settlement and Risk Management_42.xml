@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_42" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In equity derivatives, what are the eligibility criteria for a stock to be included in the futures and options segment?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The stock must meet criteria including being among top stocks by MQSOS (median quarter-sigma order size), minimum trading days requirement, and adequate market-wide position limit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Any stock listed on the exchange for more than 6 months is automatically eligible for F&O trading]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only Nifty 50 constituent stocks are eligible for individual stock futures and options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Stock eligibility is determined solely by market capitalization — top 500 stocks by market cap qualify automatically]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI has specific eligibility criteria for stock derivatives: the stock must rank among top stocks by MQSOS (median quarter-sigma order size — a measure of liquidity), must have traded on at least 80-90% of trading days, must have sufficient free-float market capitalization, and the MWPL must be at least Rs 500 crore equivalent.
+**The Trap:** Eligibility is NOT automatic or based on listing period alone. Nifty 50 membership is not the criterion — many non-Nifty stocks have F&O contracts. Market cap alone is insufficient; liquidity (MQSOS) is a critical criterion.
+**Cross-Exam Context:** Stock eligibility criteria apply to equity derivatives only. Currency derivatives are available for specified currency pairs (USDINR, EURINR, etc.). Interest rate derivatives are available for specified government bond maturities.
+**Distributor's Pro-Tip:** MQSOS measures the order size at which impact cost exceeds 0.25 standard deviations. Stocks can be excluded from F&O if they fail to meet ongoing eligibility criteria during periodic reviews, even if previously included.]]></text></explanation>
+    </question>
+</QF>

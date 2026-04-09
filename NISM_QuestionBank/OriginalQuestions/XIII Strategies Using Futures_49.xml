@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_49" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In a long hedge using stock futures, an investor buys futures at Rs. 457.30 (lot size 1500). On the purchase date, the stock is at Rs. 520 and futures at Rs. 521.20. What is the effective cost per share?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 456.10]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 520.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 457.30]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 521.20]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Cash market purchase: 1500 × 520 = Rs. 7,80,000. Futures gain: (521.20 - 457.30) × 1500 = Rs. 95,850. Net cost = 7,80,000 - 95,850 = Rs. 6,84,150. Effective cost per share = 6,84,150 / 1500 = Rs. 456.10.
+**The Trap:** Rs. 520 is the spot price without considering the hedge gain. Rs. 457.30 was the entry futures price. The effective cost is close to but not exactly the original futures price due to basis.
+**Cross-Exam Context:** Series VIII Ch5 covers long hedge calculations. Series XIII compares this with currency long hedge (importer hedging in Series I).
+**Distributor's Pro-Tip:** A long hedge in futures locks in a purchase price close to the initial futures price — whether the spot rises or falls, the effective cost stays roughly constant.]]></text></explanation>
+    </question>
+</QF>

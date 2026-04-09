@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_75" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trading member wants to offer internet-based trading (IBT) in derivatives to retail clients. Which of the following is a mandatory requirement?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The IBT system must have adequate risk management and order validation checks equivalent to those on the broker's main trading terminal]]></text></answer>
+            <answer correct="no"><text><![CDATA[IBT is permitted only for equity derivatives, not currency or commodity derivatives]]></text></answer>
+            <answer correct="no"><text><![CDATA[Clients using IBT are exempt from upfront margin requirements]]></text></answer>
+            <answer correct="no"><text><![CDATA[The trading member must obtain separate SEBI registration for offering IBT]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Internet-based trading systems must implement the same pre-trade risk checks, margin validation, and order controls as the broker's primary trading terminals. The exchange must approve the IBT system, and it must meet specific requirements for security, reliability, and risk management.
+**The Trap:** IBT is available across all derivative segments, not just equity. IBT clients must meet the same margin requirements as any other client. No separate SEBI registration is needed — the existing TM registration covers IBT after exchange approval.
+**Cross-Exam Context:** IBT requirements are covered across Series I (Currency) and Series VIII (Equity). Series XIII addresses the unified framework for electronic access to derivatives markets including IBT, DMA, and algo trading.
+**Distributor's Pro-Tip:** The proliferation of mobile trading apps is essentially IBT — distributors should ensure clients understand that the same regulatory protections (margins, risk checks, UCC) apply whether trading via app, web, or traditional terminal.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_31" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the key difference between option premium calculation for equity options vs currency options?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Equity options use one interest rate and dividend yield (Black-Scholes); currency options use two interest rates — domestic and foreign (Garman-Kohlhagen) — because both currencies earn interest]]></text></answer>
+            <answer correct="no"><text><![CDATA[There is no difference — the same formula applies to both]]></text></answer>
+            <answer correct="no"><text><![CDATA[Currency options are always cheaper because currencies are less volatile than stocks]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equity options use delta; currency options use a different Greek called 'phi']]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In equity: C = S×N(d1) - K×e^(-rT)×N(d2) with dividends as adjustment. In currency: C = S×e^(-rf×T)×N(d1) - K×e^(-rd×T)×N(d2) where rf = foreign rate, rd = domestic rate. The foreign rate acts like a continuous dividend yield for the spot exchange rate.
+**The Trap:** The models are structurally similar but the INPUTS differ. Currency options can be more or less expensive than equity options depending on volatility levels. Both use standard Greeks.
+**Cross-Exam Context:** Series VIII Ch4 covers equity option pricing. Series I Ch4 covers currency option pricing. This comparison is central to Series XIII.
+**Distributor's Pro-Tip:** When advising on cross-asset hedging, remember that currency option premiums are affected by BOTH central banks' rates — a rate change in either country affects currency option pricing.]]></text></explanation>
+    </question>
+</QF>

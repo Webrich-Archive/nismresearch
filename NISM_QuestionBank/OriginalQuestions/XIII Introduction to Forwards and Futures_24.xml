@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the 'final settlement price' for equity index futures in India?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The closing price of the underlying index in the cash market on the last trading day of the futures contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[The last traded price of the futures contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[The volume-weighted average price (VWAP) of the futures contract in the last hour]]></text></answer>
+            <answer correct="no"><text><![CDATA[The opening price of the underlying index on the expiry day]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For equity index futures in India, the final settlement price is the closing spot value of the underlying index (e.g., NIFTY) on the expiration date. This ensures convergence — the futures price equals the spot price at expiry.
+**The Trap:** The daily settlement price uses the last half-hour VWAP of FUTURES. But the FINAL settlement uses the closing SPOT index value. This distinction is important.
+**Cross-Exam Context:** Series VIII Ch3 specifies this. For USDINR futures, the final settlement uses the FBIL reference rate. For commodity futures, it uses the spot polling price. Each market has a different reference.
+**Distributor's Pro-Tip:** The choice of final settlement reference can create 'settlement risk' — large positions may try to manipulate the reference price, which is why exchanges use averaging or official reference rates.]]></text></explanation>
+    </question>
+</QF>

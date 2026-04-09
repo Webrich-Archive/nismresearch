@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_55" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the impact of 'negative carry' on futures pricing in bond markets?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[When short-term rates exceed the bond's coupon yield (inverted curve), carrying a bond has negative carry — this can cause bond futures to trade below their simple cost-of-carry estimate]]></text></answer>
+            <answer correct="no"><text><![CDATA[Negative carry means the futures price is always negative]]></text></answer>
+            <answer correct="no"><text><![CDATA[Negative carry only applies to commodity futures with high storage costs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Negative carry increases the futures premium above spot]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** If short-term borrowing cost > bond coupon, holding the bond costs money (negative carry). The bond's carry = coupon income - financing cost. When this is negative (inverted yield curve), the economic incentive to hold bonds decreases, affecting futures pricing. F ≈ S + Financing cost - Coupon = S + (negative carry).
+**The Trap:** Futures prices don't become negative — negative carry means the carry cost calculation results in a smaller futures premium (or backwardation). Negative carry is specific to fixed income, not commodities.
+**Cross-Exam Context:** Series IV covers negative carry in inverted yield curve scenarios. This doesn't apply to equity (where dividends reduce carry but rarely turn it negative) or currency markets.
+**Distributor's Pro-Tip:** During inverted yield curves, bond futures can trade near or below spot — this creates unusual trading dynamics where the normal contango assumption breaks down.]]></text></explanation>
+    </question>
+</QF>

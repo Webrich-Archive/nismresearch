@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader creates a bear put spread on GOI bond options: buys a 99.50 strike put at Rs. 0.30 premium and sells an 99.00 strike put at Rs. 0.05 premium. What is the maximum profit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 0.25]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.30]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.35]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Net premium paid = 0.30 - 0.05 = Rs. 0.25. Maximum profit = Strike difference - Net premium = (99.50 - 99.00) - 0.25 = 0.50 - 0.25 = Rs. 0.25. This occurs when the bond price falls to or below 99.00.
+**The Trap:** Rs. 0.50 is the strike difference without deducting the net premium. Rs. 0.30 is just the long put premium, not accounting for the short put premium received.
+**Cross-Exam Context:** Series IV Ch5 covers bear spreads on interest rate options. Series I and VIII cover similar strategies for their respective underlyings.
+**Distributor's Pro-Tip:** Bear put spread = limited profit, limited loss bearish strategy. Max profit = strike spread - net premium. Max loss = net premium paid.]]></text></explanation>
+    </question>
+</QF>

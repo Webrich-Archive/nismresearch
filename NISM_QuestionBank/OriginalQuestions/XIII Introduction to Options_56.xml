@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_56" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the lot size for USDINR options on Indian exchanges?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[1000 USD (same as USDINR futures)]]></text></answer>
+            <answer correct="no"><text><![CDATA[100 USD]]></text></answer>
+            <answer correct="no"><text><![CDATA[10,000 USD]]></text></answer>
+            <answer correct="no"><text><![CDATA[500 USD]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** USDINR options have the same lot size as USDINR futures: 1000 USD. The tick size for USDINR options is Rs 0.0025 (same as futures). The premium is quoted in INR per USD.
+**The Trap:** The lot size matches the corresponding futures contract. Other currency pairs also have 1000 units of base currency per lot.
+**Cross-Exam Context:** Series I Ch4 specifies USDINR option contract specs. Matching lot sizes between futures and options simplifies hedging and spread strategies.
+**Distributor's Pro-Tip:** Since option and futures lot sizes match, delta-hedging an option position with futures is straightforward — 1 lot of delta-1 option ≈ 1 lot of futures.]]></text></explanation>
+    </question>
+</QF>

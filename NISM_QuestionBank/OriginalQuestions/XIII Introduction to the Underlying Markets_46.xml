@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to the Underlying Markets_46" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An Indian exporter expecting to receive EUR 1 million in 3 months wants to hedge forex risk. Which underlying market dynamics would affect their hedging decision?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The interest rate differential between India and the Eurozone, the EUR/USD and USD/INR exchange rates, and the liquidity of EURINR derivatives on Indian exchanges]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the current spot rate of EURINR]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the RBI's monetary policy decisions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the European Central Bank's interest rate decisions]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The hedging decision involves multiple market dynamics: (1) Interest rate differential affects forward/futures pricing via interest rate parity, (2) EURINR is a cross rate derived from EURUSD and USDINR, so both pairs matter, (3) Liquidity of EURINR derivatives determines hedging cost (impact cost).
+**The Trap:** Looking at only one factor misses the cross-market nature of currency hedging. Both Indian and Eurozone monetary policies matter, not just one.
+**Cross-Exam Context:** This integrates Series I (currency market), Series IV (interest rates), and hedging concepts from Series VIII. It's a quintessential Series XIII cross-asset question.
+**Distributor's Pro-Tip:** Cross-currency hedging requires monitoring multiple markets simultaneously — this is why composite derivative exams like XIII test cross-market understanding.]]></text></explanation>
+    </question>
+</QF>

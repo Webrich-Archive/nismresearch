@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_37" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How do option margin requirements differ between buyers and sellers?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Option buyers pay the full premium upfront and have no further margin obligation. Option sellers must deposit margin (similar to futures) because they face potentially unlimited losses]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both buyers and sellers deposit the same margin amount]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only buyers deposit margin; sellers receive premium and have no margin requirement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Neither buyers nor sellers deposit margin — options are fully premium-based]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Buyer pays premium = maximum risk. No margin needed because they can't lose more than the premium. Seller receives premium but faces open-ended risk, so they must deposit margin (SPAN margin + premium margin for equity options) to cover potential losses.
+**The Trap:** Sellers definitely need margin — their risk is much larger than the premium received. The asymmetry in risk (limited for buyer, potentially unlimited for seller) drives the asymmetry in margin requirements.
+**Cross-Exam Context:** This margin asymmetry applies across all option markets (VIII, I, IV, XVI). It's a fundamental feature of options different from futures where both sides deposit margin.
+**Distributor's Pro-Tip:** Margin for option selling can be substantial — for a Bank NIFTY option, margin might be Rs 1-2 lakhs. Ensure adequate capital before writing options to avoid margin calls during volatile markets.]]></text></explanation>
+    </question>
+</QF>

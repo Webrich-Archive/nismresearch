@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Option Trading Strategies_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is a 'bear put spread'?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy a higher strike put and sell a lower strike put with the same expiry — profits from a moderate decline in the underlying. Max profit = (high strike - low strike) - net premium; max loss = net premium paid]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy two puts at different strikes]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell a put and simultaneously sell a call]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy a put and buy the underlying stock simultaneously]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Bear put spread: long K2 put + short K1 put (K2 > K1). Net premium = K2 put premium - K1 put premium (paid). Max profit (at S ≤ K1) = (K2-K1) - net premium. Max loss (at S ≥ K2) = net premium. BEP = K2 - net premium. It's a debit spread for bearish view.
+**The Trap:** Two puts without selling is just two separate put positions. Selling put + selling call is a short straddle/strangle. Put + stock is a protective put.
+**Cross-Exam Context:** Bear put spreads work in equity (VIII), currency (I Ch5 — for bearish USDINR view), and IR options. Structure is identical across markets.
+**Distributor's Pro-Tip:** Bear put spreads are ideal when you're moderately bearish — they cost less than buying a put outright but cap your downside profit. Use when you have a specific price target on the downside.]]></text></explanation>
+    </question>
+</QF>

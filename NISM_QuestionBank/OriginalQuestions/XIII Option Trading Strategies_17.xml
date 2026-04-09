@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Option Trading Strategies_17" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the key difference between a 'debit spread' and a 'credit spread'?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A debit spread costs money upfront (net premium paid) and has limited risk — the trader pays for the spread. A credit spread earns money upfront (net premium received) and has limited risk if properly structured — the trader receives premium]]></text></answer>
+            <answer correct="no"><text><![CDATA[Debit spreads are always bullish; credit spreads are always bearish]]></text></answer>
+            <answer correct="no"><text><![CDATA[Debit spreads use calls only; credit spreads use puts only]]></text></answer>
+            <answer correct="no"><text><![CDATA[There is no practical difference — both terms describe the same strategy]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Bull call spread = debit spread (pay net premium, risk = net premium). Bear call spread = credit spread (receive net premium, risk = spread width - net premium). Bull put spread = credit spread. Bear put spread = debit spread. The terms describe the cash flow direction, not the market view.
+**The Trap:** Both debit and credit spreads can be bullish or bearish depending on construction. Both can use calls or puts. They are different — one pays, the other receives.
+**Cross-Exam Context:** Debit/credit classification applies to all option spreads across equity, currency, IR, and commodity options.
+**Distributor's Pro-Tip:** Credit spreads are popular for income generation (you receive money upfront); debit spreads are popular for directional bets (you pay for a defined risk/reward position). Choose based on your strategy objective.]]></text></explanation>
+    </question>
+</QF>

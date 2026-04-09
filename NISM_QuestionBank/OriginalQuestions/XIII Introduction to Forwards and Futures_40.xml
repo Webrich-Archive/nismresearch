@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_40" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the role of SPAN (Standard Portfolio Analysis of Risk) in futures markets?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[SPAN is a margining system that calculates initial margin by simulating the portfolio's value under 16 different price and volatility scenarios, using the worst-case loss as the margin requirement]]></text></answer>
+            <answer correct="no"><text><![CDATA[SPAN is a trading algorithm used by exchanges to match buyer and seller orders]]></text></answer>
+            <answer correct="no"><text><![CDATA[SPAN is a regulatory framework that determines position limits for all market participants]]></text></answer>
+            <answer correct="no"><text><![CDATA[SPAN is a settlement system that processes all futures trade settlements]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SPAN (developed by CME) evaluates portfolio risk through 16 scenarios combining different price moves and volatility changes. The scenario producing the maximum loss becomes the initial margin. SPAN also provides margin offsets for calendar spreads and inter-commodity spreads.
+**The Trap:** SPAN is a risk-based margining methodology, not a trading system, regulatory framework, or settlement system. It's used by clearing corporations to set margins.
+**Cross-Exam Context:** SPAN is used across all exchange-traded derivative markets in India — equity (VIII Ch7), currency (I Ch7), IR (IV Ch7), and commodity (XVI Ch7).
+**Distributor's Pro-Tip:** SPAN-based margins are risk-sensitive — they increase during volatile markets and decrease during calm markets. Traders should plan for margin increases during volatile events.]]></text></explanation>
+    </question>
+</QF>

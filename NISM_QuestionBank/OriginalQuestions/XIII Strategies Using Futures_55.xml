@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_55" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In which scenario does a short hedge using bond futures perform BETTER than selling the bonds and investing in T-bills?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[When interest rates rise significantly — the futures gain compensates for the bond price decline while retaining accrued interest on the held bonds]]></text></answer>
+            <answer correct="no"><text><![CDATA[When interest rates fall — the bond price appreciation adds to the futures gain]]></text></answer>
+            <answer correct="no"><text><![CDATA[When interest rates remain stable — the futures converge to spot price at zero gain/loss]]></text></answer>
+            <answer correct="no"><text><![CDATA[In all scenarios — futures hedging always outperforms selling bonds]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** From Series IV Ch5 scenario comparison: Holding bonds + short futures = Rs. 50,881,527. Selling bonds + T-bills = Rs. 50,753,106. The futures hedge outperformed because: (1) accrued interest was earned on held bonds, and (2) futures gain offset the price decline. Selling bonds meant losing accrued interest and earning lower T-bill returns.
+**The Trap:** Futures hedging doesn't always outperform — if rates fall, the futures loss reduces gains. The advantage is mainly in rising rate scenarios where bonds would be sold at a loss.
+**Cross-Exam Context:** Series IV Ch5 provides detailed scenario comparisons for bond hedging alternatives. Series XIII compares hedging approaches across asset classes.
+**Distributor's Pro-Tip:** Futures hedging preserves the income stream (coupons/accrued interest) from holding the bonds while protecting against price risk — selling bonds sacrifices this income.]]></text></explanation>
+    </question>
+</QF>

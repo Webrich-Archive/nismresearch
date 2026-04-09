@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_16" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A put option on USDINR with strike Rs 84.00 has a premium of Rs 0.50 when USDINR spot is Rs 83.50. What is its intrinsic value?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 0.50 (K - S = 84.00 - 83.50 = 0.50, and the premium is also 0.50, so time value is zero)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 0 (the put is out of the money)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 83.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 84.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Put intrinsic = max(K - S, 0) = max(84.00 - 83.50, 0) = Rs 0.50. Premium = Rs 0.50. So time value = 0.50 - 0.50 = Rs 0. This option is ITM with intrinsic equal to premium (likely near expiry).
+**The Trap:** The put IS ITM (strike > spot for puts). The intrinsic is the difference between strike and spot, not the spot or strike alone.
+**Cross-Exam Context:** Series I Ch4 covers USDINR option pricing. Put intrinsic for currency options works the same as for equity options.
+**Distributor's Pro-Tip:** An option with zero time value near expiry is essentially a synthetic spot position — it will move point-for-point with the underlying.]]></text></explanation>
+    </question>
+</QF>

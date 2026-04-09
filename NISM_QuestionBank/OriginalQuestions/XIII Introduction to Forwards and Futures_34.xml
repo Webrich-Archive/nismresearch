@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_34" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A USDINR futures trader buys 20 lots at 83.25 and the settlement price is 83.45. The lot size is 1000 USD. What is the daily MTM credit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 4,000 [(83.45 - 83.25) × 1000 × 20 = 0.20 × 20,000 = 4,000]]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 400]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 40,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 2,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** MTM = (Settlement - Entry) × Lot size × Lots = (83.45 - 83.25) × 1000 × 20 = 0.20 × 20,000 = Rs 4,000 credit. A 20 paise favorable move on 20 lots of 1000 USD each.
+**The Trap:** Rs 400 uses only 2 lots. Rs 40,000 adds an extra zero. Rs 2,000 uses 10 lots.
+**Cross-Exam Context:** Series I covers USDINR futures P&L calculations. Currency futures P&L is straightforward: price change × lot size × number of lots.
+**Distributor's Pro-Tip:** 20 paise × 20 lots = Rs 4,000 profit on what might be Rs 30,000-40,000 initial margin — about 10-13% return in one day. This illustrates both the opportunity and risk of leveraged currency trading.]]></text></explanation>
+    </question>
+</QF>

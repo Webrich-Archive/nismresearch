@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_61" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How does the settlement of equity stock futures differ from equity index futures in India?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Stock futures are physically settled (actual delivery of shares) since October 2019; index futures are cash settled (payment of price difference in INR)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both are cash settled]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both require physical delivery of the underlying]]></text></answer>
+            <answer correct="no"><text><![CDATA[Stock futures are cash settled; index futures require delivery of the constituent stocks]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Since October 2019, equity stock futures in India are physically settled — the long must take delivery of shares and the short must deliver them. Index futures remain cash settled because delivering a basket of stocks in exact index proportions is impractical. This is a SEBI mandate to reduce speculation in individual stock derivatives.
+**The Trap:** Before 2019, both were cash settled. The change to physical settlement for stock F&O was a significant market structure change. You can't physically deliver an index.
+**Cross-Exam Context:** Series VIII Ch7 covers this change. Currency futures (Series I) are cash settled. Commodity futures (Series XVI) can be both. This comparison is key for Series XIII.
+**Distributor's Pro-Tip:** Physical settlement means you need the stock in your demat account (if short) or sufficient funds (if long) at expiry — plan exits before the last few days to avoid delivery obligations you can't meet.]]></text></explanation>
+    </question>
+</QF>

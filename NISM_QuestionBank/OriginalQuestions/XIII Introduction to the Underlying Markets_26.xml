@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to the Underlying Markets_26" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the key difference between a 'forward' contract and a 'futures' contract across all derivative markets?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Forwards are customized OTC contracts between two parties; futures are standardized contracts traded on exchanges with a central clearing counterparty]]></text></answer>
+            <answer correct="no"><text><![CDATA[Forwards can only be used for currencies; futures can be used for any underlying asset]]></text></answer>
+            <answer correct="no"><text><![CDATA[Forwards require daily mark-to-market settlement; futures are settled only at maturity]]></text></answer>
+            <answer correct="no"><text><![CDATA[Forwards are always physically settled; futures are always cash settled]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The key distinction applies across all asset classes: forwards are bilateral OTC contracts (customizable terms, counterparty risk) while futures are exchange-traded (standardized, CCP guarantee, daily MTM). This applies to equity, currency, IR, and commodity derivatives.
+**The Trap:** Both forwards and futures exist for multiple asset classes (not just currencies). Daily MTM is a feature of futures, not forwards. Both can be physically or cash settled depending on the contract.
+**Cross-Exam Context:** Series VIII Ch1 defines forwards vs futures for equities. Series I Ch2-3 for currencies. Series IV Ch2-3 for interest rates. This is a universal derivative concept.
+**Distributor's Pro-Tip:** The daily MTM in futures eliminates credit risk buildup but creates interim cash flow volatility — this is a key consideration when choosing between OTC forwards and exchange-traded futures.]]></text></explanation>
+    </question>
+</QF>

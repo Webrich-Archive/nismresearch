@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Option Trading Strategies_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Comparing option strategies across asset classes: which strategy is uniquely important for IR options?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Caps, floors, and collars — these are structured as strips of individual options (caplets/floorlets) spanning multiple reset periods, providing ongoing rate protection rather than single-expiry hedging]]></text></answer>
+            <answer correct="no"><text><![CDATA[Bull call spreads — unique to IR options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Straddles — only used in IR options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Covered calls — specific to interest rate markets]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** While individual options, spreads, straddles, and strangles exist in all markets, caps/floors/collars are uniquely structured for IR markets. A cap is a series of caplets (one for each rate reset period), providing ongoing protection against rate rises over multiple periods. This multi-period structure doesn't exist in equity or currency options.
+**The Trap:** Bull spreads, straddles, and covered calls are universal strategies used in all markets. Caps/floors are the IR-specific structure.
+**Cross-Exam Context:** Series IV Ch4 covers caps/floors. This comparison between single-period equity/FX options and multi-period IR caps/floors is a key Series XIII distinction.
+**Distributor's Pro-Tip:** A floating-rate borrower should consider IR caps when rates are expected to rise — the multi-period protection is more practical than rolling single-period options each quarter.]]></text></explanation>
+    </question>
+</QF>

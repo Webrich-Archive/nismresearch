@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is 'moneyness' of an option and how is it classified?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[ITM (In-The-Money): option has positive intrinsic value. ATM (At-The-Money): strike equals spot. OTM (Out-Of-The-Money): option has zero intrinsic value and would not be exercised at current prices]]></text></answer>
+            <answer correct="no"><text><![CDATA[Moneyness refers to how much money the option costs (premium)]]></text></answer>
+            <answer correct="no"><text><![CDATA[ITM means the option is profitable; OTM means it has expired worthless]]></text></answer>
+            <answer correct="no"><text><![CDATA[Moneyness only applies to American-style options, not European-style]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Call: ITM when S > K, ATM when S ≈ K, OTM when S < K. Put: ITM when K > S, ATM when K ≈ S, OTM when K < S. Moneyness determines intrinsic value and the likelihood of exercise. Deep ITM options behave more like the underlying.
+**The Trap:** Moneyness doesn't mean profitability — an ITM option can still produce a net loss after accounting for the premium paid. Moneyness applies to all option styles.
+**Cross-Exam Context:** Moneyness classification is identical across equity (VIII), currency (I), IR (IV), and commodity (XVI) options. Universal concept for Series XIII.
+**Distributor's Pro-Tip:** ATM options have the highest time value and are most sensitive to volatility changes — they're the preferred strike for traders expressing volatility views.]]></text></explanation>
+    </question>
+</QF>

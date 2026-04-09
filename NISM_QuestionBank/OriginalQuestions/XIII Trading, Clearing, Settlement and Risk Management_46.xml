@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_46" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What are the position limits for a Trading Member in USDINR currency futures and options?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The Trading Member's gross open position limit across all USDINR contracts is USD 100 million or 15% of the total open interest, whichever is higher]]></text></answer>
+            <answer correct="no"><text><![CDATA[The Trading Member's limit is USD 50 million, which is uniform across all currency pairs]]></text></answer>
+            <answer correct="no"><text><![CDATA[The Trading Member has no specific position limit — only the client-level limit of USD 20 million is enforced]]></text></answer>
+            <answer correct="no"><text><![CDATA[The Trading Member's limit is USD 100 million for proprietary positions only; client positions have no TM-level limit]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For USDINR futures and options, the Trading Member's gross open position across all contracts shall not exceed USD 100 million or 15% of the total open interest of the market in USDINR contracts, whichever is higher. For non-INR cross-currency pairs, the TM limit is USD 50 million.
+**The Trap:** USD 50 million is for non-INR cross-currency pairs (EURUSD, GBPUSD), not USDINR. The limit is the HIGHER of the two thresholds (USD 100M or 15% OI), not the lower. The limit covers all client + proprietary positions of the TM.
+**Cross-Exam Context:** Compare TM limits: Currency USDINR USD 100M; Currency cross-pairs USD 50M; Equity — no fixed TM limit but MWPL of 20% free-float applies at stock level. Different limit structures reflect different market characteristics.
+**Distributor's Pro-Tip:** The 15% OI alternative threshold ensures that as the market grows, TM limits grow proportionally. This prevents a situation where fixed limits become too restrictive as market activity expands.]]></text></explanation>
+    </question>
+</QF>

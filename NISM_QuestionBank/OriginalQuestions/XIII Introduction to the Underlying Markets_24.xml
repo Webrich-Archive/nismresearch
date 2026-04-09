@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to the Underlying Markets_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following currency pairs traded on Indian exchanges does NOT have USD as one of the currencies?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[EURINR]]></text></answer>
+            <answer correct="no"><text><![CDATA[USDINR]]></text></answer>
+            <answer correct="no"><text><![CDATA[USDJPY]]></text></answer>
+            <answer correct="no"><text><![CDATA[GBPUSD]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** EURINR is a cross-rate pair where EUR is the base currency and INR is the quote currency — neither is USD. Indian exchanges trade USDINR, EURINR, GBPINR, and JPYINR as well as cross pairs like EURUSD, GBPUSD, and USDJPY.
+**The Trap:** EURINR looks like it might involve USD because EUR is often quoted against USD, but the pair itself is EUR vs INR directly. USDJPY and GBPUSD both contain USD.
+**Cross-Exam Context:** Series I Ch1 lists all currency pairs available on Indian exchanges. Cross-rate calculations for pairs like EURINR are derived from EURUSD and USDINR.
+**Distributor's Pro-Tip:** Non-USD pairs like EURINR have lower liquidity than USDINR — the bid-ask spread is wider, which affects derivative pricing and hedging costs.]]></text></explanation>
+    </question>
+</QF>

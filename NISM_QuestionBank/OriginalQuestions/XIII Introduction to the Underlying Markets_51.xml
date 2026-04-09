@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to the Underlying Markets_51" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the concept of 'Spot Rate' (also called 'Zero Rate') in bond markets?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The yield on a zero-coupon instrument for a specific maturity, representing the pure time value of money for that period]]></text></answer>
+            <answer correct="no"><text><![CDATA[The current market price of a bond]]></text></answer>
+            <answer correct="no"><text><![CDATA[The exchange rate for immediate delivery in forex markets]]></text></answer>
+            <answer correct="no"><text><![CDATA[The overnight lending rate between banks]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The spot rate (zero rate) is the yield on a zero-coupon bond for a specific maturity. It represents the pure discount rate for that period without any reinvestment assumption. The term structure of spot rates (zero curve) is derived from coupon-bearing bond yields through a process called bootstrapping.
+**The Trap:** 'Spot rate' in bond markets is different from 'spot rate' in forex markets (which means the current exchange rate). The overnight rate is just one point on the yield curve, not the general concept.
+**Cross-Exam Context:** Series IV Ch1 covers spot rates and bootstrapping. Spot rates are fundamental for pricing IR derivatives, swaps, and forward rate agreements.
+**Distributor's Pro-Tip:** Spot rates are the building blocks of the yield curve — all IR derivative pricing ultimately rests on the zero curve, making this the most important concept in fixed income.]]></text></explanation>
+    </question>
+</QF>

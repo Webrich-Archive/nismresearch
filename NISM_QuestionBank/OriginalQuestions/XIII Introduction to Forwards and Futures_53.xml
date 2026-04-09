@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_53" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How does beta-based equity hedge ratio compare to duration-based bond hedge ratio conceptually?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Both adjust the number of futures for risk sensitivity: beta measures equity portfolio sensitivity to the index, while duration measures bond portfolio sensitivity to interest rate changes — both translate the hedge from notional matching to risk matching]]></text></answer>
+            <answer correct="no"><text><![CDATA[They are identical calculations — beta and duration measure the same thing for different markets]]></text></answer>
+            <answer correct="no"><text><![CDATA[Beta-based hedging is always more accurate than duration-based hedging]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only duration-based hedging is used in practice; beta-based hedging is theoretical only]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Both are risk-adjusted hedge ratios: Equity: N = (PV × β) / FV, Bond: N = (PV × MDp) / (FV × MDf). Beta adjusts for how much the portfolio moves relative to the index. Duration adjusts for how much the bond portfolio's price sensitivity differs from the futures contract's sensitivity. Both transform a simple notional hedge into a risk-effective hedge.
+**The Trap:** While conceptually similar, they measure different risks (market risk vs interest rate risk). Neither is always more accurate — effectiveness depends on stability of the risk measure.
+**Cross-Exam Context:** Series VIII Ch3 for beta hedging, Series IV Ch5 for duration hedging. This cross-asset comparison is unique to Series XIII.
+**Distributor's Pro-Tip:** Both beta and duration can change over time — hedge ratios should be periodically recalculated and positions adjusted (dynamic hedging) for both equity and bond portfolios.]]></text></explanation>
+    </question>
+</QF>

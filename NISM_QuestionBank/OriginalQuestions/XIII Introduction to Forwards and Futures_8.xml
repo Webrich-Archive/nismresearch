@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_8" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is 'basis' in futures markets and how is it calculated?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Basis = Spot price - Futures price. It can be positive or negative and converges to zero at expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Basis = Futures price - Spot price. It is always positive]]></text></answer>
+            <answer correct="no"><text><![CDATA[Basis = Current month futures - Next month futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Basis = Opening price - Closing price of a futures contract]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Basis = Spot - Futures. In contango (futures > spot), basis is negative. In backwardation (futures < spot), basis is positive. Basis converges to zero at expiry as futures settle to spot. Understanding basis behavior is crucial for hedging effectiveness.
+**The Trap:** Some sources define basis as Futures - Spot (opposite sign convention). The key concept is the same: the gap narrows to zero at expiry. Calendar spread (near - far futures) is different from basis.
+**Cross-Exam Context:** Series VIII Ch3 defines basis for equity futures. The concept applies identically across currency (I), IR (IV), and commodity (XVI) futures.
+**Distributor's Pro-Tip:** A hedger's effective price = Target price ± Basis at close of hedge. If basis is stable, the hedge is effective. Basis volatility = residual risk after hedging.]]></text></explanation>
+    </question>
+</QF>

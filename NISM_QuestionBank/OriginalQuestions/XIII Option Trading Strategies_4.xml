@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Option Trading Strategies_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is a 'long straddle' and when is it the optimal strategy?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy a call AND a put at the SAME strike price and expiry — optimal when expecting high volatility (large move) but uncertain about direction. Max loss = total premium of both options. BEP: K ± total premium]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy a call only when expecting high volatility]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell a call and a put at the same strike for income generation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy a call at one strike and a put at a different strike]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Long straddle = Long call + Long put (same K, same T). Profits from large moves in EITHER direction. Upper BEP = K + total premium. Lower BEP = K - total premium. Max loss at S = K (both options expire worthless). Used before events (budget, earnings, RBI policy).
+**The Trap:** Buying only a call is directional, not a straddle. Selling both is a SHORT straddle (income strategy with unlimited risk). Different strikes is a strangle, not a straddle.
+**Cross-Exam Context:** Straddles are used across all option markets — equity (VIII Ch5), currency (I Ch5 — before RBI policy), commodity (before crop reports).
+**Distributor's Pro-Tip:** The enemy of a long straddle is time decay — both options lose time value daily. If the expected event doesn't produce a large move, the straddle loses money rapidly. Time your entry close to the event.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_68" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the 'theta-gamma tradeoff' that applies to all option markets?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Long options have positive gamma (favorable delta movement) but negative theta (time decay cost). Short options have negative gamma (adverse delta movement) but positive theta (time decay income). The tradeoff is: pay for gamma protection vs earn from time decay]]></text></answer>
+            <answer correct="no"><text><![CDATA[Theta and gamma always move in the same direction]]></text></answer>
+            <answer correct="no"><text><![CDATA[This tradeoff only applies to equity options, not currency or IR options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Theta-gamma tradeoff means you can only trade one Greek at a time]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Long options: positive gamma (delta adjusts favorably as price moves in your direction) but negative theta (you pay for this benefit through time decay). Short options: opposite. This tradeoff is the fundamental tension in options — you can't have favorable gamma without paying theta, and you can't earn theta without accepting gamma risk.
+**The Trap:** Theta and gamma are OPPOSITE in sign for any position (long gamma = short theta, and vice versa). The tradeoff applies to ALL option markets universally.
+**Cross-Exam Context:** This is the most fundamental concept in option trading theory, applicable across Series VIII, I, IV, and XVI.
+**Distributor's Pro-Tip:** Whether to be long or short gamma depends on your market view: expect big moves → long gamma (buy options). Expect calm markets → short gamma (sell options). The theta income/cost is the price of this view.]]></text></explanation>
+    </question>
+</QF>

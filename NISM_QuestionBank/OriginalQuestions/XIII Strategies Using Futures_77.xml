@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_77" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What risk does a hedger using bond futures face if yields change by a large amount (e.g., 200 basis points)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Convexity risk — duration-based hedge ratios underestimate the price change for large yield moves, resulting in underhedging]]></text></answer>
+            <answer correct="no"><text><![CDATA[Liquidity risk — bond futures become illiquid during large yield movements]]></text></answer>
+            <answer correct="no"><text><![CDATA[Credit risk — the exchange may default on the futures contract during extreme moves]]></text></answer>
+            <answer correct="no"><text><![CDATA[Basis risk disappears completely during large yield moves as convergence accelerates]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Duration assumes a linear price-yield relationship. For large yield changes, the actual relationship is convex — bond prices change more than duration predicts. The duration-based hedge ratio underestimates the required number of contracts, leaving the portfolio underhedged.
+**The Trap:** Basis risk does NOT disappear — it may actually increase during volatile periods. Exchange credit risk is minimal due to margin systems. Liquidity may decline but that's separate from the convexity issue.
+**Cross-Exam Context:** Series IV Ch5 explicitly mentions this limitation. Series XIII tests understanding of hedging limitations across asset classes.
+**Distributor's Pro-Tip:** For portfolios expecting large rate movements, consider convexity-adjusted hedge ratios or options-based hedging which naturally handles non-linearity.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A fund manager has an equity portfolio worth Rs. 1.5 crore with a portfolio beta of 1.2. The Nifty futures are trading at 18,000 with a lot size of 50. How many Nifty futures contracts should the fund manager sell to fully hedge the portfolio?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[20 contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[17 contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[25 contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[15 contracts]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Number of contracts = (Portfolio Beta × Portfolio Value) / (Futures Price × Lot Size) = (1.2 × 1,50,00,000) / (18,000 × 50) = 1,80,00,000 / 9,00,000 = 20 contracts.
+**The Trap:** Forgetting to multiply by beta would give 16.67 ≈ 17 contracts, which underhedges the portfolio since beta > 1.
+**Cross-Exam Context:** Series VIII Ch3 covers beta-based hedging with index futures. Series XIII compares this with duration-based hedging for bonds.
+**Distributor's Pro-Tip:** For aggressive portfolios (beta > 1), you need MORE contracts than the simple ratio of portfolio value to contract value.]]></text></explanation>
+    </question>
+</QF>

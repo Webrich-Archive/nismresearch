@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_45" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under SEBI regulations, what is the Market Wide Position Limit (MWPL) for equity derivative contracts on a stock?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[MWPL is set at 20% of the free-float market capitalization of the underlying stock, expressed in terms of number of shares]]></text></answer>
+            <answer correct="no"><text><![CDATA[MWPL is 20% of the total (not free-float) market capitalization of the underlying stock]]></text></answer>
+            <answer correct="no"><text><![CDATA[MWPL is 10% of the free-float market capitalization, ensuring derivatives markets remain smaller than the cash market]]></text></answer>
+            <answer correct="no"><text><![CDATA[MWPL is determined by the exchange based on historical trading volumes, with no fixed percentage]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** MWPL is defined as 20% of the free-float market capitalization (in terms of number of shares) of the underlying stock. This limits the total open interest across all exchanges for all derivative contracts on that stock.
+**The Trap:** MWPL is based on FREE-FLOAT capitalization, not total market cap. The 20% is a fixed regulatory percentage, not determined by exchanges. It's measured in number of shares, not rupee value.
+**Cross-Exam Context:** MWPL is equity-specific. Currency derivatives use absolute USD position limits (USD 20M client, USD 100M TM). Interest rate derivatives have separate position limit frameworks. Series XIII requires comparing these across segments.
+**Distributor's Pro-Tip:** Free-float excludes promoter holdings, government holdings, and strategic investments. A stock with 50% promoter holding has its MWPL based on only the remaining 50% free-float, significantly reducing the allowable OI.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_17" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How does a long strangle differ from a long straddle?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[In a strangle, both options are out-of-the-money with different strikes, making it cheaper but requiring a larger price move to profit]]></text></answer>
+            <answer correct="no"><text><![CDATA[In a strangle, both options are in-the-money with different strikes, making it more expensive but more likely to profit]]></text></answer>
+            <answer correct="no"><text><![CDATA[A strangle uses options with the same strike but different expiry dates]]></text></answer>
+            <answer correct="no"><text><![CDATA[A strangle only uses call options while a straddle uses both calls and puts]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A long strangle involves buying an OTM call and an OTM put with different strikes. Since both options are OTM, the total premium is lower than a straddle (where both are ATM). However, the underlying must move further for the strategy to profit, creating a wider loss zone.
+**The Trap:** A strangle is NOT cheaper because options are ITM — it's cheaper because they are OTM. And it uses both calls and puts, just like a straddle.
+**Cross-Exam Context:** Series I Ch5 covers strangles for USDINR. The same concept applies in Series IV (bond prices) and VIII (equity prices).
+**Distributor's Pro-Tip:** Choose straddle for higher conviction of a big move (but at higher cost), strangle for lower cost but needing an even bigger move to break even.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Match the correct hedging action for each scenario: (i) Exporter receiving EUR, (ii) Bond holder expecting rate rise, (iii) Portfolio manager fearing market crash.]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[(i) Sell EURINR futures (ii) Sell bond futures (iii) Sell index futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[(i) Buy EURINR futures (ii) Buy bond futures (iii) Buy index futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[(i) Sell EURINR futures (ii) Buy bond futures (iii) Sell index futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[(i) Buy EURINR futures (ii) Sell bond futures (iii) Buy index futures]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** (i) Exporter will receive EUR, risks EUR depreciation → sell EURINR futures. (ii) Bond holder with rising rates → bond prices fall → sell bond futures (go long on interest rate). (iii) Portfolio manager fears crash → sell index futures to offset portfolio losses.
+**The Trap:** For bond futures, the inverse price-yield relationship means selling futures = hedging against rising rates. Many confuse this with the direct relationship in currency and equity markets.
+**Cross-Exam Context:** Series I Ch5 (currency hedging), Series IV Ch5 (bond hedging), Series VIII Ch5 (equity hedging) each cover their respective hedge directions.
+**Distributor's Pro-Tip:** The common thread: all three are SHORT hedges — selling futures to protect against adverse price movements in their respective assets.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_29" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If a call option has delta = 0.45, gamma = 0.05, and the underlying moves up by Rs 3, what is the approximate new delta?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[0.60 (New delta = Old delta + Gamma × Price change = 0.45 + 0.05 × 3 = 0.60)]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.50 (0.45 + 0.05)]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.48 (0.45 + 0.05 × 0.60)]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.35 (0.45 × 3)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** New delta ≈ Old delta + (Gamma × ΔPrice) = 0.45 + (0.05 × 3) = 0.45 + 0.15 = 0.60. Gamma tells us how much delta changes per Rs 1 move. A Rs 3 move changes delta by 0.15.
+**The Trap:** 0.50 adds gamma only once instead of multiplying by the price change. 0.48 uses an incorrect formula. 1.35 multiplies delta by the price change.
+**Cross-Exam Context:** This gamma calculation is universal across all option markets. Understanding gamma helps predict how delta hedges need to be adjusted.
+**Distributor's Pro-Tip:** The delta moved from 0.45 to 0.60 — if you had a delta-neutral portfolio, you now need to re-hedge. This is why gamma creates hedging costs for market makers.]]></text></explanation>
+    </question>
+</QF>

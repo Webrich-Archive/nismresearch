@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Basics of Derivatives_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the context of derivative risks, what is 'leverage risk'?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The risk that arises because derivatives require only a fraction of the contract value as margin, amplifying both gains and losses relative to the capital deployed]]></text></answer>
+            <answer correct="no"><text><![CDATA[The risk of a company taking too much debt on its balance sheet]]></text></answer>
+            <answer correct="no"><text><![CDATA[The risk that the exchange will increase margin requirements during volatile periods]]></text></answer>
+            <answer correct="no"><text><![CDATA[The risk that a trader cannot find a counterparty for their derivative position]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Derivatives are leveraged instruments — an equity futures position worth Rs 10 lakhs may require only Rs 1-2 lakhs as margin. This leverage amplifies returns: a 10% move in the underlying creates a 50-100% change in the margin capital. Both gains and losses are magnified.
+**The Trap:** While margin increases do create risk, leverage risk is fundamentally about the amplification effect. Liquidity risk (finding counterparties) is a separate concept.
+**Cross-Exam Context:** Leverage exists in all derivative markets — equity F&O (Series VIII), currency futures (Series I), IR futures (Series IV), and commodity futures (Series XVI). Series XIII compares leverage across markets.
+**Distributor's Pro-Tip:** Leverage is a double-edged sword — always calculate maximum loss scenarios before taking derivative positions. Never risk more capital than you can afford to lose.]]></text></explanation>
+    </question>
+</QF>

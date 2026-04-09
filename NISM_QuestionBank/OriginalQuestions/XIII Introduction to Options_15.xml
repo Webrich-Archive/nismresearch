@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A call option on NIFTY with strike 25,000 is trading at Rs 350 when NIFTY is at 25,200. What is its intrinsic value and time value?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Intrinsic value: Rs 200 (25,200 - 25,000). Time value: Rs 150 (350 - 200)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Intrinsic value: Rs 350. Time value: Rs 0]]></text></answer>
+            <answer correct="no"><text><![CDATA[Intrinsic value: Rs 0. Time value: Rs 350]]></text></answer>
+            <answer correct="no"><text><![CDATA[Intrinsic value: Rs 150. Time value: Rs 200]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Call intrinsic = max(S - K, 0) = max(25,200 - 25,000, 0) = Rs 200. Time value = Premium - Intrinsic = 350 - 200 = Rs 150. This ITM option has both intrinsic and time value.
+**The Trap:** Rs 350 is the total premium, not just intrinsic. The option IS ITM (S > K), so intrinsic is not zero. Time value is the residual after subtracting intrinsic.
+**Cross-Exam Context:** This decomposition applies identically to equity (VIII), currency (I), IR (IV), and commodity (XVI) options.
+**Distributor's Pro-Tip:** As expiry approaches, time value erodes — this Rs 150 time value will decay to zero. The Rs 200 intrinsic will remain as long as NIFTY stays above 25,000.]]></text></explanation>
+    </question>
+</QF>

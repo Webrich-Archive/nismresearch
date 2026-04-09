@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the fundamental right that an option buyer purchases?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The right, but not the obligation, to buy (call) or sell (put) the underlying asset at a predetermined price (strike) on or before a specified date]]></text></answer>
+            <answer correct="no"><text><![CDATA[The obligation to buy or sell the underlying asset at the current market price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The right to receive dividends from the underlying asset without owning it]]></text></answer>
+            <answer correct="no"><text><![CDATA[The right to extend the maturity of a futures contract]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** An option gives the buyer asymmetric rights — they can choose to exercise or not. The buyer pays a premium for this right. The seller (writer) receives the premium but has an OBLIGATION if the buyer exercises.
+**The Trap:** Futures create obligations for both parties. Options are asymmetric — only the buyer has a choice. The right is to buy/sell at the STRIKE price, not the market price.
+**Cross-Exam Context:** This definition applies to all options — equity (VIII Ch4), currency (I Ch4), IR (IV Ch4), and commodity (XVI Ch4). Universal across Series XIII.
+**Distributor's Pro-Tip:** The asymmetric payoff is why options are preferred for hedging — you're protected against adverse moves but can benefit from favorable moves (minus premium paid).]]></text></explanation>
+    </question>
+</QF>

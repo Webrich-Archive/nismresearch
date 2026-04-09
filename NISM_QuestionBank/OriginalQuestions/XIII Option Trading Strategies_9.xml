@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Option Trading Strategies_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is a 'butterfly spread' and what market view does it express?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy 1 lower strike option + sell 2 middle strike options + buy 1 higher strike option (all same type) — it profits when the underlying stays near the middle strike at expiry, expressing a view that the underlying will not move much]]></text></answer>
+            <answer correct="no"><text><![CDATA[A strategy involving three different underlying assets]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buying and selling the same option at different times]]></text></answer>
+            <answer correct="no"><text><![CDATA[A spread using weekly and monthly options simultaneously]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Long butterfly (calls): Buy K1 call + Sell 2×K2 calls + Buy K3 call (K1 < K2 < K3, evenly spaced). Max profit at S = K2 (middle strike). Max loss = net premium (limited). It's a neutral strategy expressing low-volatility view. Can also be constructed with puts (same payoff).
+**The Trap:** A butterfly uses options on the SAME underlying at three strikes, not three underlyings. It's not about timing entry/exit. Weekly/monthly combinations are calendar strategies.
+**Cross-Exam Context:** Butterfly spreads exist in equity (VIII Ch5) and can be adapted for currency and IR options. They're pure volatility selling strategies with defined risk.
+**Distributor's Pro-Tip:** Butterflies are cheaper than iron condors for narrow range views — use them when you expect the underlying to pin to a specific level at expiry. Perfect for expiry-day strategies.]]></text></explanation>
+    </question>
+</QF>

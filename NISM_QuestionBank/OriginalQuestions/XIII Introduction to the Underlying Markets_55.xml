@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to the Underlying Markets_55" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In a system of 10 currencies, how many bilateral exchange rates would exist without a vehicle currency, and how many with USD as the vehicle currency?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[45 bilateral rates without vehicle currency; 9 rates with USD as vehicle currency]]></text></answer>
+            <answer correct="no"><text><![CDATA[100 bilateral rates without; 10 with]]></text></answer>
+            <answer correct="no"><text><![CDATA[90 bilateral rates without; 20 with]]></text></answer>
+            <answer correct="no"><text><![CDATA[55 bilateral rates without; 10 with]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Without a vehicle currency: n(n-1)/2 = 10×9/2 = 45 bilateral rates. With USD as vehicle: each of the other 9 currencies is quoted against USD, giving just 9 exchange rates. This massive simplification is why USD became the dominant vehicle currency.
+**The Trap:** n(n-1)/2 gives combinations (not permutations). 100 would be n² which counts both directions. 55 is n(n+1)/2 which is incorrect for unique pairs.
+**Cross-Exam Context:** Series I Ch1 explains the vehicle currency concept with this exact calculation. It illustrates why the global forex market organizes around USD.
+**Distributor's Pro-Tip:** This formula explains why cross-rate currency derivatives exist — directly trading INR/PHP would be illiquid, but trading both against USD provides efficient price discovery.]]></text></explanation>
+    </question>
+</QF>

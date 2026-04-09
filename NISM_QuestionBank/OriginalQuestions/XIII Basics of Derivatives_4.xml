@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Basics of Derivatives_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What distinguishes an 'option' from a 'future' as derivative instruments?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[An option gives the buyer the right but not the obligation to buy/sell the underlying, while a futures contract creates an obligation for both parties]]></text></answer>
+            <answer correct="no"><text><![CDATA[An option can only be used for equities while futures can be used for any asset]]></text></answer>
+            <answer correct="no"><text><![CDATA[Options are always settled in cash while futures always require physical delivery]]></text></answer>
+            <answer correct="no"><text><![CDATA[Options are OTC instruments while futures are always exchange-traded]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The key distinction: options are asymmetric (buyer has a right, seller has an obligation) while futures are symmetric (both parties are obligated). The option buyer pays a premium for this right. This applies across equity, currency, IR, and commodity options and futures.
+**The Trap:** Both options and futures exist for all asset classes. Both can be cash or physically settled. Options can be exchange-traded or OTC.
+**Cross-Exam Context:** Series VIII Ch1 and Ch4, Series I Ch2-4, Series IV Ch2-4 all cover this distinction. It's the most fundamental derivative concept in Series XIII.
+**Distributor's Pro-Tip:** The asymmetric payoff of options makes them ideal for hedging where you want protection but also want to benefit from favorable moves — futures lock you in both directions.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Option Trading Strategies_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is a 'collar' strategy in equity and currency markets?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Long the underlying + buy an OTM put (downside protection) + sell an OTM call (finance the put premium) — it creates a range where profit and loss are both limited, often at zero or low net cost]]></text></answer>
+            <answer correct="no"><text><![CDATA[A regulatory limit on maximum position sizes]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buying both a call and put at the same strike]]></text></answer>
+            <answer correct="no"><text><![CDATA[A special order type that prevents execution outside a price range]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Equity collar: Long stock + Long OTM put + Short OTM call. Currency collar for importer: Long USD exposure + Long USDINR put + Short USDINR call. The call premium received partly or fully offsets the put premium paid. Result: downside capped at put strike, upside capped at call strike. Zero-cost collar when premiums match.
+**The Trap:** A collar is not a position limit or an order type. Buying call + put at same strike is a straddle. The collar specifically involves the underlying position.
+**Cross-Exam Context:** Collars are used in equity (VIII Ch5), currency (I Ch5), and IR markets (cap + floor = collar). The structure is identical across asset classes.
+**Distributor's Pro-Tip:** Zero-cost collars are the most capital-efficient hedging strategy — they provide downside protection at no premium cost, but you give up upside beyond the call strike. Popular with corporate treasurers.]]></text></explanation>
+    </question>
+</QF>

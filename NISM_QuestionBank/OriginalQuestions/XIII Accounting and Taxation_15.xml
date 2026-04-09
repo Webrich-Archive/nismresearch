@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Accounting and Taxation_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How does the daily MTM settlement of futures contracts affect accounting and taxation?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Each daily MTM settlement is an accounting event — profits are credited and losses debited to the margin account daily, and the cumulative effect determines the total P&L for tax purposes]]></text></answer>
+            <answer correct="no"><text><![CDATA[Daily MTM is only for margin calculation and does not affect accounting entries]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the final settlement at expiry creates an accounting entry]]></text></answer>
+            <answer correct="no"><text><![CDATA[MTM settlements are tax-free intermediate settlements — only the net P&L at closure is taxable]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Daily MTM settlements in futures create actual cash flows (credits/debits to margin account). These must be accounted for as they occur. For tax purposes, the total P&L is the sum of all MTM settlements plus the final settlement or closure gain/loss.
+**The Trap:** MTM is NOT just for margin calculation — it involves actual cash settlement. Each daily settlement IS a taxable event contributing to the overall business income.
+**Cross-Exam Context:** MTM applies to futures across all segments (I, IV, VIII). Options premiums are settled differently (upfront, no daily MTM on premium changes).
+**Distributor's Pro-Tip:** Keep detailed records of all daily MTM settlements for tax computation. The turnover for tax audit purposes includes the absolute sum of all daily settlements.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_65" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An exchange takes 4 random margin snapshots during a trading day. A client's margin requirement at each snapshot is Rs 5 lakh, Rs 6 lakh, Rs 4.5 lakh, and Rs 7 lakh. The trading member has collected Rs 5.5 lakh from the client. What is the peak margin shortfall?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 1.5 lakh]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 50,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 2 lakh]]></text></answer>
+            <answer correct="no"><text><![CDATA[No shortfall exists]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Peak margin is the highest margin requirement across all snapshots in the day = max(5, 6, 4.5, 7) = Rs 7 lakh. Margin collected = Rs 5.5 lakh. Shortfall = Rs 7 lakh - Rs 5.5 lakh = Rs 1.5 lakh. The TM must ensure the client has sufficient margin at the peak level.
+**The Trap:** Rs 50,000 compares with the average (Rs 5.625L). Rs 2 lakh uses an incorrect peak value. 'No shortfall' wrongly assumes the collected amount covers enough since it exceeds two of the four snapshots.
+**Cross-Exam Context:** Peak margin monitoring via random snapshots applies across all derivative segments. Series VIII covers 4-snapshot methodology in detail. This is a SEBI-mandated framework to prevent intraday leverage abuse.
+**Distributor's Pro-Tip:** Always collect margin based on worst-case scenarios, not average expectations. The peak margin framework means that even a momentary spike in margin requirements during the day can trigger a shortfall penalty.]]></text></explanation>
+    </question>
+</QF>

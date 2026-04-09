@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to the Underlying Markets_18" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following correctly describes the concept of 'vehicle currency' in international forex markets?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A commonly used third currency (usually USD) through which two less-traded currencies are exchanged rather than trading them directly against each other]]></text></answer>
+            <answer correct="no"><text><![CDATA[The domestic currency of the country where a trade physically takes place]]></text></answer>
+            <answer correct="no"><text><![CDATA[A digital currency used exclusively for settling international trade]]></text></answer>
+            <answer correct="no"><text><![CDATA[The currency in which derivatives contracts are denominated on exchanges]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A vehicle currency (usually USD) is used as an intermediary. For example, to convert INR to Philippine Pesos, one sells INR for USD and then sells USD for Pesos. This reduces the number of exchange rates from 45 to 9 in a 10-currency system.
+**The Trap:** Vehicle currency is about trading efficiency, not about where trade takes place or digital currencies. It reduces the n(n-1)/2 bilateral pairs to just (n-1) pairs.
+**Cross-Exam Context:** Series I Ch1 explains vehicle currency in detail. This concept helps understand why USDINR is the most liquid currency pair on Indian exchanges.
+**Distributor's Pro-Tip:** The dominance of USD as vehicle currency means almost all cross-currency derivative pricing flows through USD — understanding this is key for cross-rate trading.]]></text></explanation>
+    </question>
+</QF>

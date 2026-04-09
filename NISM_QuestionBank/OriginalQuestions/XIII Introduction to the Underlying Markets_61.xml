@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to the Underlying Markets_61" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the concept of 'Cheapest to Deliver' (CTD) in the context of bond futures?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Among all bonds eligible for delivery against a futures contract, the CTD is the bond that minimizes the cost for the short position holder to fulfill the delivery obligation]]></text></answer>
+            <answer correct="no"><text><![CDATA[The bond with the lowest market price in the entire bond market]]></text></answer>
+            <answer correct="no"><text><![CDATA[The bond that the exchange selects for settlement of all futures contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[The newest government bond issue available for trading]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Bond futures allow delivery of any bond from a basket of eligible securities. The short position holder chooses which bond to deliver. The CTD is the bond where (Market Price - Futures Price × Conversion Factor) is minimized, i.e., the cheapest bond to deliver relative to the futures price.
+**The Trap:** CTD is not simply the cheapest bond — it's the one most economical to deliver against the specific futures contract, considering the conversion factor that adjusts for different coupons and maturities.
+**Cross-Exam Context:** Series IV Ch3 covers CTD for IR futures. This concept has no direct equivalent in equity or currency futures (which have standardized underlying), making it unique to IR derivatives.
+**Distributor's Pro-Tip:** CTD can change as yields move — tracking CTD shifts is essential for IR futures traders as it affects the futures basis and hedging effectiveness.]]></text></explanation>
+    </question>
+</QF>

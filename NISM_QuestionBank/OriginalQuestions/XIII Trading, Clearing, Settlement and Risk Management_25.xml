@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_25" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the SPAN margin system, the standard risk array uses 16 scenarios. If Scenario 7 uses +1/3 of the price scan range and +2/3 of the volatility scan range, what is the coverage fraction of the resulting loss in Scenario 7?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[100% — Scenarios 1 through 14 cover their computed profit/loss at full (100%) coverage]]></text></answer>
+            <answer correct="no"><text><![CDATA[35% — the coverage equals the fraction of the price scan range used (1/3 = 33.33%, rounded to 35%)]]></text></answer>
+            <answer correct="no"><text><![CDATA[67% — the coverage fraction matches the volatility scan range fraction (2/3)]]></text></answer>
+            <answer correct="no"><text><![CDATA[50% — all intermediate scenarios are covered at half their computed loss]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In SPAN's 16-scenario risk array, Scenarios 1–14 cover profit/loss at 100%. Only Scenarios 15 and 16 (extreme moves of 3x price scan range up/down) are covered at a reduced fraction (typically 35%). Scenario 7, being within the first 14, gets 100% coverage.
+**The Trap:** Many candidates confuse the price/volatility scan fractions WITHIN a scenario with the COVERAGE fraction applied to the result. These are different concepts. The 35% coverage applies only to the two extreme scenarios (15 and 16).
+**Cross-Exam Context:** SPAN is used identically across equity, currency, and interest rate derivative segments. The 16-scenario framework is universal across all Indian exchanges using SPAN.
+**Distributor's Pro-Tip:** The two extreme scenarios (15-16) capture tail risk. Their reduced coverage (35%) balances between protecting against extreme moves and not over-margining participants.]]></text></explanation>
+    </question>
+</QF>

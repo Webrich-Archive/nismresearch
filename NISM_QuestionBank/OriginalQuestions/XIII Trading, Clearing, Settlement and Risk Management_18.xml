@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_18" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In equity derivatives, what is the settlement mechanism for stock futures at expiry?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Stock futures can be physically settled — the buyer takes delivery of shares and the seller delivers shares, though some contracts are cash settled]]></text></answer>
+            <answer correct="no"><text><![CDATA[All equity futures are always cash settled, similar to currency derivatives]]></text></answer>
+            <answer correct="no"><text><![CDATA[Stock futures are settled through auction mechanism only]]></text></answer>
+            <answer correct="no"><text><![CDATA[Physical settlement is only for options, not for futures]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI mandated physical settlement for stock F&O contracts. At expiry, stock futures positions result in delivery — the buyer receives shares and pays the settlement price, the seller delivers shares. Index futures remain cash settled.
+**The Trap:** Stock futures ARE physically settled (not just cash settled like currency derivatives). Physical settlement applies to both futures AND options on individual stocks.
+**Cross-Exam Context:** Series VIII Ch7 covers physical settlement for equity. Series I (currency) and IV (interest rate - some physical via conversion factor) have different settlement mechanisms.
+**Distributor's Pro-Tip:** Physical settlement changed trading behavior — traders now need to ensure they have delivery margins and shares/funds for contracts held to expiry.]]></text></explanation>
+    </question>
+</QF>

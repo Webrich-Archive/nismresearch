@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_75" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What does convergence of basis at futures expiry ensure for hedgers?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[At expiry, the hedge becomes almost perfect because the futures price equals (or closely approximates) the spot price, eliminating basis risk]]></text></answer>
+            <answer correct="no"><text><![CDATA[Hedgers are guaranteed zero loss on their combined position at expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[The futures position automatically converts into a spot position at expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Hedgers can delay closing their position indefinitely without any impact]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Basis = Spot - Futures. As expiry approaches, basis converges to zero (futures price → spot price). This means the gain/loss on the futures leg almost exactly offsets the loss/gain on the spot position, making the hedge effective. Without convergence, hedging would not work reliably.
+**The Trap:** Convergence doesn't guarantee zero loss on the overall position — it ensures the HEDGE works as intended. The hedger may still realize a loss relative to the original budgeted price.
+**Cross-Exam Context:** Convergence is fundamental to all futures markets (I, IV, VIII, XVI). Series XIII tests this universal concept across asset classes.
+**Distributor's Pro-Tip:** For best hedge effectiveness, choose the futures contract month closest to your exposure date — this ensures maximum convergence at the time you need the hedge to perform.]]></text></explanation>
+    </question>
+</QF>

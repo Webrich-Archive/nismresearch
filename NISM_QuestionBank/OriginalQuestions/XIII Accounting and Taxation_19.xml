@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Accounting and Taxation_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How is the speculative vs. non-speculative classification determined for loss set-off purposes?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Exchange-traded derivative transactions are non-speculative under Section 43(5). Speculative transactions are those in securities settled without actual delivery (excluding recognized exchange-traded derivatives).]]></text></answer>
+            <answer correct="no"><text><![CDATA[All derivative transactions are speculative by default regardless of where they are traded]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only physically settled derivatives are non-speculative — cash settled ones are speculative]]></text></answer>
+            <answer correct="no"><text><![CDATA[The classification depends on whether the trader has an underlying exposure or not]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Section 43(5) defines speculative transactions as those settled without delivery. However, the 2005 amendment specifically EXCLUDES exchange-traded derivative transactions from this definition. So: exchange F&O = non-speculative. Cash equity day trading (settled without delivery) = speculative. The distinction is based on where traded (exchange) and what (derivative), not on the trader's intent.
+**The Trap:** Cash settlement does NOT make a derivative speculative — the exchange-traded exemption overrides the settlement method. Having or not having underlying exposure is irrelevant for tax classification.
+**Cross-Exam Context:** This classification applies uniformly to all exchange-traded derivatives across Series I, IV, and VIII. Series XIII tests the unified understanding.
+**Distributor's Pro-Tip:** Key distinction: equity intraday cash trading = speculative; equity F&O trading = non-speculative. Both are on exchanges, but the derivative exemption only applies to F&O, not to cash market square-offs.]]></text></explanation>
+    </question>
+</QF>

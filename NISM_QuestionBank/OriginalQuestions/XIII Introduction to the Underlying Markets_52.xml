@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to the Underlying Markets_52" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If a bond has a face value of Rs 1000, coupon rate of 10% paid semi-annually, and is trading at Rs 1,050, what is the semi-annual coupon payment?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 100]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 52.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 105]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Semi-annual coupon = Face value × Coupon rate / 2 = 1000 × 10% / 2 = Rs 50. The coupon is calculated on face value (not market price) and divided by 2 for semi-annual payments.
+**The Trap:** Rs 100 is the annual coupon, not semi-annual. Rs 52.50 incorrectly uses the market price. Rs 105 incorrectly applies the coupon rate to the market price.
+**Cross-Exam Context:** Series IV Ch1 covers bond cash flow calculations. This basic calculation underlies all bond pricing and IR derivative valuation.
+**Distributor's Pro-Tip:** Coupons are always on face value, never on market price — this seemingly simple fact trips up many exam candidates and affects bond derivative pricing.]]></text></explanation>
+    </question>
+</QF>

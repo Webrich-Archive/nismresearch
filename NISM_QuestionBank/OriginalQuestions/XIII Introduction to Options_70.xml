@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_70" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What determines whether a currency option is classified as European or American in India?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[In India, all exchange-traded currency options are European-style — this is mandated by exchange/SEBI rules and cannot be chosen by individual traders]]></text></answer>
+            <answer correct="no"><text><![CDATA[The trader can choose European or American style when placing the order]]></text></answer>
+            <answer correct="no"><text><![CDATA[USDINR options are American-style; cross-currency options are European]]></text></answer>
+            <answer correct="no"><text><![CDATA[The exchange determines the style randomly for each contract]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** All exchange-traded options in India (including currency) are European by exchange rules. This is a design choice — European options are simpler to price, don't require early assignment processing, and Black-Scholes/Garman-Kohlhagen directly applies.
+**The Trap:** Traders have no choice — the exchange determines the exercise style for all contracts. All Indian exchange-traded currency options are European regardless of the currency pair.
+**Cross-Exam Context:** Series I Ch4 confirms European style for currency options. This aligns with equity options (VIII) and commodity options (XVI) — all European in India.
+**Distributor's Pro-Tip:** European-style means your option can only be exercised at expiry — even if it's deep ITM during the contract life, you can't exercise early. You can always SELL the option to capture its value.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader executing a bull call spread on USDINR buys an 83 strike call at Rs. 0.10 premium and sells an 83.50 strike call at Rs. 0.04 premium. What is the maximum profit and maximum loss?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Maximum profit: Rs. 0.44, Maximum loss: Rs. 0.06]]></text></answer>
+            <answer correct="no"><text><![CDATA[Maximum profit: Rs. 0.06, Maximum loss: Rs. 0.44]]></text></answer>
+            <answer correct="no"><text><![CDATA[Maximum profit: Rs. 0.50, Maximum loss: Rs. 0.10]]></text></answer>
+            <answer correct="no"><text><![CDATA[Maximum profit: Rs. 0.10, Maximum loss: Rs. 0.04]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Net premium paid = 0.10 - 0.04 = Rs. 0.06 (max loss when both expire worthless, i.e., USDINR ≤ 83). Maximum profit = Strike difference - Net premium = (83.50 - 83) - 0.06 = Rs. 0.44 (when both are exercised, i.e., USDINR ≥ 83.50). BEP = 83 + 0.06 = 83.06.
+**The Trap:** Reversing profit/loss figures is common — remember the buyer's max loss is limited to net premium paid.
+**Cross-Exam Context:** Series I Ch5 and IV Ch5 both cover bull/bear spreads. Series XIII compares their application across currency and interest rate markets.
+**Distributor's Pro-Tip:** Bull call spread = limited profit, limited loss. Use when you're moderately bullish but want to reduce the cost of a long call position.]]></text></explanation>
+    </question>
+</QF>

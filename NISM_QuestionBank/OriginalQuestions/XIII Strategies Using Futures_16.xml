@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_16" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A portfolio manager holds 1200 shares of PQR Ltd at Rs. 1,690 each. He shorts 2 lots of PQR futures (lot size 600) at Rs. 1,706. If the stock falls to Rs. 1,440 and futures to Rs. 1,441 at square-off, what is the effective selling price per share?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 1,705]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,440]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,706]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,573]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Cash market: 1200 × Rs. 1,440 = Rs. 17,28,000. Futures gain: (1706 - 1441) × 600 × 2 = Rs. 3,18,000. Total received = 17,28,000 + 3,18,000 = Rs. 20,46,000. Effective price per share = 20,46,000 / 1200 = Rs. 1,705.
+**The Trap:** Rs. 1,440 is the spot selling price without the hedge. The hedge gain almost fully compensates for the price decline, giving an effective price close to the original futures price.
+**Cross-Exam Context:** Series VIII Ch5 covers equity short hedge calculations. Series XIII compares this with currency exporter hedging and bond portfolio hedging.
+**Distributor's Pro-Tip:** The effective selling price will be close to the futures price at initiation — that's the whole point of hedging: locking in a known price.]]></text></explanation>
+    </question>
+</QF>

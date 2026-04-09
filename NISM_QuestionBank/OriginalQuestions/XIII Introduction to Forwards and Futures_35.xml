@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_35" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How do dividends affect equity futures pricing versus other asset class futures?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Expected dividends reduce equity futures prices below what cost-of-carry alone would predict; currency futures use interest rate differentials (no dividends); commodity futures use storage costs (no dividends)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Dividends increase equity futures prices]]></text></answer>
+            <answer correct="no"><text><![CDATA[Dividends affect all derivative markets equally]]></text></answer>
+            <answer correct="no"><text><![CDATA[Dividends have no impact on any futures pricing]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Equity futures: F = S(1+r-d)t where d = dividend yield. Higher dividends mean lower futures price relative to spot. Currency futures: F = S(1+Rd)/(1+Rf) — no dividends, uses two interest rates. Commodity futures: F = S(1+r+s-c)t — uses storage costs and convenience yield, no dividends.
+**The Trap:** Dividends REDUCE futures prices (carrying the stock earns dividends, reducing net carry cost). This is unique to equity futures.
+**Cross-Exam Context:** Series VIII Ch3 covers dividend impact on equity futures. This is a key differentiator from currency (I) and IR (IV) futures pricing.
+**Distributor's Pro-Tip:** Before dividend season, equity futures basis narrows — the expected dividend is already priced in. Unexpected dividend announcements cause immediate futures price adjustments.]]></text></explanation>
+    </question>
+</QF>

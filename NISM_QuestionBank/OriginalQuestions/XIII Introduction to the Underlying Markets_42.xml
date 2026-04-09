@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to the Underlying Markets_42" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the 'current yield' of a bond trading at Rs 950 with a face value of Rs 1000 and annual coupon of 8%?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[8.42% (calculated as 80/950 × 100)]]></text></answer>
+            <answer correct="no"><text><![CDATA[8.00% (the coupon rate)]]></text></answer>
+            <answer correct="no"><text><![CDATA[8.84% (calculated as 80/905 × 100)]]></text></answer>
+            <answer correct="no"><text><![CDATA[7.60% (calculated as 80/1050 × 100)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Current yield = Annual coupon / Current market price = (8% × 1000) / 950 = 80/950 = 8.42%. When a bond trades below par (at a discount), current yield exceeds coupon rate.
+**The Trap:** 8% is the coupon rate, not the current yield. Current yield doesn't account for capital gain/loss at maturity — that's YTM's job.
+**Cross-Exam Context:** Series IV Ch1 covers current yield, coupon rate, and YTM. Understanding yield metrics is essential for IR derivative pricing.
+**Distributor's Pro-Tip:** Current yield is a quick approximation but ignores time value — for precise bond derivative pricing, always use YTM or spot rates.]]></text></explanation>
+    </question>
+</QF>

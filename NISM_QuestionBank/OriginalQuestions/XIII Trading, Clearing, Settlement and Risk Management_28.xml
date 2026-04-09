@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_28" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A bond futures contract uses a conversion factor of 0.9450. If the futures settlement price is Rs 102.50 per Rs 100 face value, what is the invoice price per Rs 100 face value (ignoring accrued interest)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 96.86 (Futures settlement price x Conversion factor = 102.50 x 0.9450 = Rs 96.8625, rounded to Rs 96.86)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 108.47 (Futures settlement price / Conversion factor = 102.50 / 0.9450)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 102.50 — the invoice price equals the futures settlement price regardless of conversion factor]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 97.38 (Face value x Conversion factor = 100 x 0.9450 + accrued interest estimate)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In bond futures with physical delivery, Invoice Price = Futures Settlement Price x Conversion Factor + Accrued Interest. Ignoring accrued interest: 102.50 x 0.9450 = Rs 96.8625 ≈ Rs 96.86 per Rs 100 face value.
+**The Trap:** The conversion factor is MULTIPLIED by the futures price, not divided. Division would inflate the price incorrectly. The conversion factor adjusts for the difference between the delivered bond's coupon and the notional coupon.
+**Cross-Exam Context:** Physical delivery via conversion factor is specific to interest rate (bond) futures. Currency derivatives are all cash-settled in INR. Equity stock F&O moved to physical settlement but without conversion factors.
+**Distributor's Pro-Tip:** The conversion factor system allows multiple bonds to be deliverable against one futures contract, increasing liquidity. The cheapest-to-deliver (CTD) bond concept arises from this mechanism.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_69" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A client trades 100 lots of USDINR futures at Rs 83.50 per USD. Each lot is USD 1,000. If the brokerage is 0.05% of the traded value, what is the total brokerage payable (one side)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 4,175]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 41,750]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 4,175,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 417.50]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Traded value = 100 lots x USD 1,000 x Rs 83.50 = Rs 83,50,000. Brokerage = 0.05% x Rs 83,50,000 = Rs 4,175. The brokerage is calculated on the INR value of the trade.
+**The Trap:** Rs 41,750 uses 0.5% instead of 0.05%. Rs 4,175,000 uses 5% instead of 0.05%. Rs 417.50 uses only 10 lots instead of 100.
+**Cross-Exam Context:** Series I covers brokerage and transaction costs for currency derivatives. The brokerage calculation method is similar across equity (Series VIII) and commodity (Series XVI) derivatives — always a percentage of traded value.
+**Distributor's Pro-Tip:** Currency derivatives brokerage is typically lower than equity derivatives due to thinner margins and higher volumes. Distributors should help clients compare all-in costs (brokerage + exchange fees + GST + stamp duty) across segments.]]></text></explanation>
+    </question>
+</QF>

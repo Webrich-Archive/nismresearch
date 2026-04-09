@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_53" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader expects the spread between near-month and far-month USDINR futures to widen. What calendar spread position should the trader take?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy far-month futures and sell near-month futures (long calendar spread)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell far-month futures and buy near-month futures (short calendar spread)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy both near-month and far-month futures to benefit from rising rates]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell both near-month and far-month futures to profit from falling rates]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** If the spread is expected to widen (far month premium increases relative to near month), the trader profits by buying far-month futures (which will gain more) and selling near-month futures. This is a long calendar spread.
+**The Trap:** Buying or selling both months is directional trading, not spread trading. A calendar spread profits from the change in the price difference between months, not from the absolute direction.
+**Cross-Exam Context:** Calendar spreads are used across all derivative markets — currency (I Ch5), interest rate (IV Ch5), and equity (VIII Ch5).
+**Distributor's Pro-Tip:** Calendar spreads have lower margin requirements than outright positions because the two legs partially offset each other's risk.]]></text></explanation>
+    </question>
+</QF>

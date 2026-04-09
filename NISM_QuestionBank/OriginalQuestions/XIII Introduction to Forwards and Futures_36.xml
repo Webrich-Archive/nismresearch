@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_36" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the difference between 'daily settlement price' and 'final settlement price' for futures?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Daily settlement is the VWAP of futures in the last 30 minutes of trading, used for daily MTM; final settlement is the closing spot price of the underlying on expiry day, used for final settlement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both are the same — the last traded price of the futures contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[Daily settlement uses the spot price; final settlement uses the futures price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Daily settlement is calculated by the regulator; final settlement by the exchange]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Daily settlement: calculated from the futures contract itself (typically last 30-min VWAP) — used for daily MTM margins. Final settlement: based on the UNDERLYING's spot price (closing value of NIFTY, FBIL reference rate for USDINR) — ensures convergence at expiry.
+**The Trap:** They are deliberately different references. Daily uses futures prices; final uses spot prices. Both are calculated by the exchange/CC, not the regulator directly.
+**Cross-Exam Context:** Series VIII Ch3 and Ch7 cover equity futures settlement. Series I Ch7 covers currency. The final settlement reference differs across markets (NIFTY close, FBIL rate, spot polling).
+**Distributor's Pro-Tip:** The final settlement using spot (not futures) is what forces convergence — any divergence between futures and spot on expiry day gets arbitraged away.]]></text></explanation>
+    </question>
+</QF>

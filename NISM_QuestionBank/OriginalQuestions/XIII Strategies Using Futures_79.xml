@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_79" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the significance of MIBOR futures in the context of interest rate hedging in India?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[MIBOR futures allow hedging of short-term overnight interest rate risk — going long on MIBOR futures hedges against rising short-term rates]]></text></answer>
+            <answer correct="no"><text><![CDATA[MIBOR futures are used only for hedging long-term government bond portfolios]]></text></answer>
+            <answer correct="no"><text><![CDATA[MIBOR futures work identically to GOI bond futures with the same hedge direction]]></text></answer>
+            <answer correct="no"><text><![CDATA[MIBOR futures are only traded in the OTC market and are not exchange-traded]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** MIBOR (Mumbai Interbank Offered Rate) futures reference the overnight interbank rate. For MIBOR futures, the relationship with rates is DIRECT (unlike bond futures which have an inverse relationship). Going long on MIBOR futures profits from rising rates. This makes the hedge direction opposite to bond futures for the same rate view.
+**The Trap:** MIBOR and bond futures have OPPOSITE hedge directions for the same rate expectation. For rising rates: buy MIBOR futures BUT sell bond futures. This is because MIBOR futures reference rates directly, while bond futures reference prices (inversely related to rates).
+**Cross-Exam Context:** Series IV Ch5 distinguishes MIBOR from bond futures hedging. Series XIII tests understanding of different IR derivative instruments.
+**Distributor's Pro-Tip:** MIBOR futures hedge short-term (overnight) rate risk. Bond futures hedge medium-to-long-term rate risk. Choose the instrument matching your exposure tenor.]]></text></explanation>
+    </question>
+</QF>

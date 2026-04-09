@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Option Trading Strategies_12" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is a 'short strangle' strategy and what are its risks?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Sell an OTM call and sell an OTM put — profits from time decay in rangebound markets. Max profit = total premium received. Risk: unlimited on the upside (short call) and substantial on the downside (short put)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy an OTM call and buy an OTM put for directional exposure]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell an ATM call and sell an ATM put (this would be a short straddle)]]></text></answer>
+            <answer correct="no"><text><![CDATA[A risk-free strategy that guarantees premium income]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Short strangle: receive premium from selling both OTM call and OTM put. Profit if underlying stays between the two strikes. Max profit = total premium. Loss = unlimited above the call strike, substantial below the put strike. Requires significant margin.
+**The Trap:** Buying both is a LONG strangle (different payoff). Selling ATM is a short straddle (narrower profit range). Short strangles are definitely NOT risk-free — they have potentially unlimited losses.
+**Cross-Exam Context:** Short strangles are popular in equity (VIII), currency, and commodity options. They're the primary income-generation strategy for option sellers.
+**Distributor's Pro-Tip:** Short strangles have the highest win rate among option strategies (~80-85% of trades profit) but the losses when they occur can be devastating. Always have a stop-loss plan and position sizing discipline.]]></text></explanation>
+    </question>
+</QF>

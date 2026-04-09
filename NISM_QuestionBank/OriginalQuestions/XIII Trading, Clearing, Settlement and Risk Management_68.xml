@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_68" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Direct Market Access (DMA) in derivatives trading allows institutional clients to place orders directly on the exchange using the broker's infrastructure. Which of the following is a regulatory requirement for DMA?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The broker must have pre-trade risk management controls to check all DMA orders before they reach the exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[DMA clients are exempt from margin requirements as they are institutional]]></text></answer>
+            <answer correct="no"><text><![CDATA[DMA is available only for equity derivatives, not currency or commodity derivatives]]></text></answer>
+            <answer correct="no"><text><![CDATA[DMA clients do not require UCC registration since they trade directly]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Even though DMA allows clients to access the exchange directly, all orders must pass through the broker's pre-trade risk management system. This ensures order-level checks for price limits, quantity limits, and margin adequacy. The broker remains responsible for all DMA orders.
+**The Trap:** DMA clients are NOT exempt from margins — they must meet the same margin requirements. DMA is available across segments, not just equity. UCC is mandatory for all clients regardless of the order routing method.
+**Cross-Exam Context:** DMA is covered in Series I (Currency), Series VIII (Equity), and Series XIII. The regulatory framework is similar across all segments — SEBI mandates pre-trade risk checks for all DMA arrangements.
+**Distributor's Pro-Tip:** Even with DMA, the broker bears regulatory responsibility for the client's trades. Ensure that DMA clients understand that risk controls may occasionally reject their orders if they breach pre-set limits.]]></text></explanation>
+    </question>
+</QF>

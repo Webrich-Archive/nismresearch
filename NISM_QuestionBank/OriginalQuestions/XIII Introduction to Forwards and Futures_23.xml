@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_23" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What are the contract specifications for USDINR futures on NSE?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Lot size: 1000 USD, Tick size: Rs 0.0025, Expiry: 2 working days before last business day of month at 12:30 PM, Settlement: Cash in INR, Contracts: up to 12 months]]></text></answer>
+            <answer correct="no"><text><![CDATA[Lot size: 100 USD, Tick size: Rs 0.01, Expiry: Last Thursday of month]]></text></answer>
+            <answer correct="no"><text><![CDATA[Lot size: 10,000 USD, Tick size: Rs 0.0001, Expiry: Last Friday of month]]></text></answer>
+            <answer correct="no"><text><![CDATA[Lot size: 1000 USD, Tick size: Rs 0.05, Expiry: Last Tuesday of month]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** USDINR futures: 1000 USD lot size, Rs 0.0025 tick size (tick value = Rs 2.50), expiry 2 working days before last business day of the month at 12:30 PM, cash settled in INR using FBIL reference rate, available for up to 12 monthly contracts.
+**The Trap:** Rs 0.05 tick size is for NIFTY futures, not currency. Last Tuesday is NIFTY expiry. The expiry rule for currency is unique — 2 working days before last business day, not last Thursday or Tuesday.
+**Cross-Exam Context:** Series I Ch3 specifies these details. Compare with NIFTY futures (lot size 25, tick 0.05, last Tuesday expiry) in Series VIII.
+**Distributor's Pro-Tip:** The 12:30 PM early expiry for currency futures (vs 3:30 PM for equity) means different risk windows — currency positions must be managed before noon on expiry day.]]></text></explanation>
+    </question>
+</QF>

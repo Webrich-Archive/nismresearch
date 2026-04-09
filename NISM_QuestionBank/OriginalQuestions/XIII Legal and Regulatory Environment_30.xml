@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Legal and Regulatory Environment_30" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A non-bank entity wants to trade derivatives in all three segments — equity, currency, and interest rate. From which regulators does it need segment-specific approvals?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[SEBI/exchange membership for equity; SEBI/exchange membership for currency (with product specifications approved by RBI-SEBI jointly); SEBI/exchange membership for IR derivatives (with underlying framework set by RBI)]]></text></answer>
+            <answer correct="no"><text><![CDATA[SEBI alone for all three segments — RBI has no role in exchange-level membership]]></text></answer>
+            <answer correct="no"><text><![CDATA[RBI alone for currency and IR; SEBI alone for equity — the entity needs separate RBI registration for currency and IR]]></text></answer>
+            <answer correct="no"><text><![CDATA[Ministry of Finance for all three segments as derivatives are fiscal instruments]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For a non-bank entity, exchange/broker membership is always through SEBI and the exchange. However, the product framework differs: equity is purely SEBI; currency product specs involve RBI-SEBI coordination; IR derivative underlying framework is set by RBI. Non-bank entities don't need direct RBI approval but must comply with the jointly approved product framework.
+**The Trap:** Non-bank entities don't register separately with RBI. RBI's role is at the product/framework level, not individual membership level (unlike banks which need direct RBI eligibility).
+**Cross-Exam Context:** Banks need RBI eligibility; non-banks don't. But both operate within frameworks that RBI helps shape for currency and IR segments.
+**Distributor's Pro-Tip:** The practical difference: a bank must separately satisfy RBI criteria (Rs 500 Cr, CRAR, NPA); a non-bank simply needs exchange membership and must trade within the jointly approved product framework.]]></text></explanation>
+    </question>
+</QF>

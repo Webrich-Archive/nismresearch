@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to the Underlying Markets_40" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the context of the three underlying markets, which statement about settlement methods is correct?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Equity trades settle on T+1, OTC forex spot settles on T+2, and government bond trades settle on T+1 through CCIL]]></text></answer>
+            <answer correct="no"><text><![CDATA[All three markets settle on T+2]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equity and bond trades settle on T+1 while forex settles on T+0]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equity settles on T+0, forex on T+1, and bonds on T+2]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Indian equity market: T+1 settlement. OTC forex spot: T+2 (standard convention). Government bond trades through CCIL: T+1 (for most transactions). These different settlement cycles affect cross-market hedging strategies.
+**The Trap:** Settlement cycles vary significantly across markets — assuming uniform settlement is a common error. Exchange-traded currency derivatives settle on T+1 or T+2 depending on the contract.
+**Cross-Exam Context:** Series VII covers equity settlement. Series I covers forex settlement. Series IV covers bond settlement. This comparison is a key XIII concept.
+**Distributor's Pro-Tip:** Settlement cycle differences create basis risk in cross-market hedging — a currency hedge for equity exposure must account for the 1-day settlement gap.]]></text></explanation>
+    </question>
+</QF>

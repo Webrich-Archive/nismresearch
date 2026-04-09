@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is novation in the context of clearing corporations?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The process by which the CC interposes itself between buyer and seller, becoming the counterparty to both — buyer to every seller and seller to every buyer]]></text></answer>
+            <answer correct="no"><text><![CDATA[The process of introducing new derivative contracts to the exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[The transfer of a trading member's positions to another trading member]]></text></answer>
+            <answer correct="no"><text><![CDATA[The renewal of an expired futures contract into the next contract month]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Through novation, the CC eliminates bilateral counterparty risk. The original trade between Buyer A and Seller B is replaced by two contracts: CC buys from Seller B and CC sells to Buyer A. This means neither party needs to worry about the other's creditworthiness.
+**The Trap:** Novation is not about new contracts or position transfers — it's specifically about the CC becoming the central counterparty to all trades.
+**Cross-Exam Context:** Novation is a fundamental concept across all derivative segments (I, IV, VIII, XVI). The CC's role as CCP through novation is the backbone of exchange-traded derivatives.
+**Distributor's Pro-Tip:** Novation is what makes exchange-traded derivatives virtually free of counterparty risk — unlike OTC derivatives where each party bears the credit risk of the other.]]></text></explanation>
+    </question>
+</QF>

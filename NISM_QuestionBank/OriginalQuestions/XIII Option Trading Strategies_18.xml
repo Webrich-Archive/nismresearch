@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Option Trading Strategies_18" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An equity portfolio manager wants to protect against a market crash but finds put premiums expensive. What strategy could reduce the hedging cost?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A put spread (buy ATM put, sell OTM put) — the sold put premium partially offsets the bought put cost, but limits downside protection to the sold put's strike level]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy more puts to get a volume discount]]></text></answer>
+            <answer correct="no"><text><![CDATA[Convert all equity to cash — the only way to avoid loss]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy call options instead of puts to reverse the portfolio direction]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Put spread (bear put spread for hedging): Buy 25,000 put, sell 24,000 put. Protected between 24,000-25,000; below 24,000, protection stops. Cheaper than a naked put because the sold put's premium is received. Alternatively, use a collar (sell OTM call to finance the put).
+**The Trap:** Volume doesn't reduce per-contract premium. Converting to cash has opportunity cost and tax implications. Calls provide upside exposure, not crash protection.
+**Cross-Exam Context:** Cost-reduction hedging strategies (put spreads, collars) apply across equity (VIII Ch5), currency (I Ch5), and IR options. This is a practical Series XIII application.
+**Distributor's Pro-Tip:** The put spread is the most practical crash protection strategy — it covers the most likely crash scenario (5-10% fall) at a fraction of the cost of full put protection. Accept that extreme tail risk beyond the spread width is not covered.]]></text></explanation>
+    </question>
+</QF>

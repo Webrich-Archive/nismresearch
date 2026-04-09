@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to the Underlying Markets_41" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If USDJPY is quoted at 115.08/115.09 and USDINR at 75.64/75.65, what is the offer rate for JPYINR (price of 100 JPY in INR)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[65.73 (calculated as 75.65/115.08 × 100)]]></text></answer>
+            <answer correct="no"><text><![CDATA[65.74 (calculated as 75.65/115.09 × 100)]]></text></answer>
+            <answer correct="no"><text><![CDATA[65.70 (calculated as 75.64/115.09 × 100)]]></text></answer>
+            <answer correct="no"><text><![CDATA[65.76 (calculated as 75.66/115.08 × 100)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** To buy 100 JPY with INR (offer): Buy USD with INR at USDINR offer (75.65), then sell USD for JPY at USDJPY bid (115.08 — bank buys USD at bid, giving you JPY). JPYINR offer = (75.65/115.08) × 100 = 65.7369 ≈ 65.74. Note: we use USDJPY bid because we want to SELL USD for JPY, and the bank buys at bid.
+**The Trap:** When USD is base currency in both pairs, we divide (not multiply). Using the wrong USDJPY rate (bid vs offer) is the common error. The bid side: 75.64/115.09 × 100 = 65.72.
+**Cross-Exam Context:** Series I Ch1 covers JPYINR cross-rate calculation. This involves division unlike EURINR/GBPINR which use multiplication.
+**Distributor's Pro-Tip:** JPYINR cross-rate calculation is trickier because USD is base in both underlying pairs — always identify which side (bid/offer) corresponds to your buy/sell intent.]]></text></explanation>
+    </question>
+</QF>

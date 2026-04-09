@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_64" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is 'delivery margin' in the context of physical settlement of futures contracts?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Additional margin charged on physically-settled futures contracts close to expiry to ensure both parties can fulfill delivery obligations — it is imposed during the delivery period on top of regular margins]]></text></answer>
+            <answer correct="no"><text><![CDATA[The margin refunded when a futures contract is settled by delivery]]></text></answer>
+            <answer correct="no"><text><![CDATA[The standard initial margin that applies throughout the life of the contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[A margin specific to digital delivery of contract notes]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** As physically-settled contracts approach expiry, the exchange imposes delivery margin (higher than normal) to ensure the long has funds for delivery and the short has securities. This typically starts 4-5 days before expiry and increases progressively. It applies to stock F&O and commodity futures with physical settlement.
+**The Trap:** Delivery margin is ADDITIONAL, not the regular margin. It's not refunded — it's a temporary increased margin requirement. It only applies to physically-settled contracts.
+**Cross-Exam Context:** Series VIII Ch7 covers delivery margins for stock F&O. Series XVI Ch7 covers commodity delivery margins. Cash-settled contracts (index futures, currency futures) don't have delivery margins.
+**Distributor's Pro-Tip:** Delivery margin increases can significantly raise capital requirements near expiry — plan to close or roll positions well before the delivery margin kicks in unless you intend to take/give delivery.]]></text></explanation>
+    </question>
+</QF>

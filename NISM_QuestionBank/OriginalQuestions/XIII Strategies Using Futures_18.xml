@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_18" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is a calendar spread (also called a horizontal spread or time spread) in options trading?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A position using options of the same type and strike but with different expiry dates, exploiting differences in time value decay]]></text></answer>
+            <answer correct="no"><text><![CDATA[A position using options of different types with the same strike and expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[A position using futures contracts of different months with opposite sides]]></text></answer>
+            <answer correct="no"><text><![CDATA[A position combining a spot purchase with a far-month futures sale]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A calendar spread (horizontal spread) involves buying and selling options of the same type (both calls or both puts) with the same strike price but different expiration dates. The strategy exploits the difference in time decay between near and far-month options.
+**The Trap:** A vertical spread uses the same expiry with different strikes, which is the opposite. A futures calendar spread is a different concept from an options calendar spread.
+**Cross-Exam Context:** All three series (I, IV, VIII Ch5) discuss calendar spreads. The concept is universal across asset classes.
+**Distributor's Pro-Tip:** Calendar spreads benefit from the near-month option decaying faster than the far-month — they are essentially a play on the rate of time decay.]]></text></explanation>
+    </question>
+</QF>

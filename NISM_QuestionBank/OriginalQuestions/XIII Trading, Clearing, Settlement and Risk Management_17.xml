@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_17" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the key difference between daily settlement and final settlement of currency futures?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Daily settlement settles MTM profit/loss on T+1 based on daily settlement price, while final settlement at expiry settles all positions on T+2 based on the final settlement price (RBI reference rate)]]></text></answer>
+            <answer correct="no"><text><![CDATA[There is no difference — both are settled on T+1]]></text></answer>
+            <answer correct="no"><text><![CDATA[Daily settlement uses the last traded price while final settlement uses a separate auction price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Daily settlement is optional while final settlement is mandatory]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Daily settlement: open positions are marked to the daily settlement price (VWAP of last 30 minutes or as prescribed), settled in cash on T+1. Final settlement: at contract expiry, all remaining open positions are settled at the final settlement price (typically the RBI reference rate for USDINR), settled on T+2.
+**The Trap:** The settlement timeline differs (T+1 vs T+2). The price basis also differs — daily uses exchange-computed price, final uses RBI/exchange reference rate. Both are mandatory.
+**Cross-Exam Context:** Series I Ch7 covers currency settlement specifics. Equity (VIII) has similar daily MTM but physical delivery options at final settlement for stock F&O.
+**Distributor's Pro-Tip:** For currency derivatives, the final settlement price (RBI reference rate) is the critical benchmark — it determines the actual P&L for positions held to expiry.]]></text></explanation>
+    </question>
+</QF>

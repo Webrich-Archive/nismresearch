@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Accounting and Taxation_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is STT (Securities Transaction Tax) and which derivative transactions attract STT?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[STT is a tax on securities transactions on Indian exchanges — it applies to equity F&O (sale of futures and exercise/sale of options) but NOT to currency or interest rate derivatives]]></text></answer>
+            <answer correct="no"><text><![CDATA[STT applies to all derivative transactions including currency, interest rate, and equity]]></text></answer>
+            <answer correct="no"><text><![CDATA[STT applies only to delivery-based equity transactions, not to any derivatives]]></text></answer>
+            <answer correct="no"><text><![CDATA[STT is a tax collected by RBI on all forex transactions including currency derivatives]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** STT is levied under the Securities Transaction Tax Act on transactions in securities on recognized stock exchanges. It applies to equity derivatives: 0.02% on sale of futures, 0.10% on sale of options (on exercise). STT does NOT apply to currency or interest rate derivatives.
+**The Trap:** Currency derivatives attract CTT (Commodity Transaction Tax) rules or no transaction tax. Interest rate derivatives also don't attract STT. Only equity derivatives do.
+**Cross-Exam Context:** Series VIII Ch9 covers STT in detail. Series I Ch9 confirms no STT on currency derivatives. Series XIII compares tax treatment across segments.
+**Distributor's Pro-Tip:** For equity F&O traders, STT paid allows the income to be treated as non-speculative business income under Section 43(5). This is the linkage between STT and income classification.]]></text></explanation>
+    </question>
+</QF>

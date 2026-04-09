@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the Black-Scholes model used for in derivative markets?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[It is a mathematical model for pricing European-style options, using five inputs: spot price, strike price, time to expiry, volatility, and risk-free rate to compute the theoretical fair value of an option]]></text></answer>
+            <answer correct="no"><text><![CDATA[It is a model for pricing futures contracts based on cost-of-carry]]></text></answer>
+            <answer correct="no"><text><![CDATA[It is used only for pricing commodity options, not financial options]]></text></answer>
+            <answer correct="no"><text><![CDATA[It calculates the margin required for derivative positions]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Black-Scholes (1973) provides a closed-form solution for European option pricing: C = S×N(d1) - K×e^(-rT)×N(d2), P = K×e^(-rT)×N(-d2) - S×N(-d1). Key assumptions: constant volatility, no dividends (basic version), lognormal price distribution, continuous trading.
+**The Trap:** Black-Scholes is for options, not futures. It applies to financial options broadly, not just commodities. It's a pricing model, not a margin model.
+**Cross-Exam Context:** Series VIII Ch4 covers Black-Scholes for equity options. Modified versions (Garman-Kohlhagen for FX, Black-76 for IR) are used in Series I and IV.
+**Distributor's Pro-Tip:** While the model has known limitations (assumes constant volatility, no jumps), it remains the market standard for quoting implied volatility — all option traders use it as a common language.]]></text></explanation>
+    </question>
+</QF>

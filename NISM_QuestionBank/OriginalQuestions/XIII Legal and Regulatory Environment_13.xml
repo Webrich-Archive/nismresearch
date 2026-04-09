@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Legal and Regulatory Environment_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under which legislation does RBI derive its authority to regulate foreign exchange transactions that form the underlying basis for exchange-traded currency derivatives?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Foreign Exchange Management Act (FEMA), 1999]]></text></answer>
+            <answer correct="no"><text><![CDATA[Securities Contracts (Regulation) Act (SCRA), 1956]]></text></answer>
+            <answer correct="no"><text><![CDATA[Reserve Bank of India Act, 1934]]></text></answer>
+            <answer correct="no"><text><![CDATA[Banking Regulation Act, 1949]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** FEMA 1999 replaced FERA 1973 and governs all foreign exchange transactions in India. Since currency derivatives derive their value from foreign exchange rates, RBI's regulatory authority over the underlying comes from FEMA. SCRA governs the exchange-traded aspect, not the underlying forex market.
+**The Trap:** SCRA gives legal validity to exchange-traded derivatives (Section 18A) but does not regulate the underlying forex market. The RBI Act gives RBI its general powers but FEMA specifically covers forex.
+**Cross-Exam Context:** For interest rate derivatives, RBI's authority over the underlying G-Sec market comes from the RBI Act and Government Securities Act. For equity, SEBI Act and SCRA together cover both the underlying and the derivative.
+**Distributor's Pro-Tip:** FEMA is a civil law (unlike FERA which was criminal). Violations are adjudicated through penalty proceedings, not criminal prosecution — an important distinction for compliance officers.]]></text></explanation>
+    </question>
+</QF>

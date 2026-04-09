@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to the Underlying Markets_58" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is 'Holding Period Return' (HPR) of a bond?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The total return earned by an investor during the period they hold the bond, including coupon income and any capital gain or loss]]></text></answer>
+            <answer correct="no"><text><![CDATA[The coupon rate of the bond multiplied by the holding period]]></text></answer>
+            <answer correct="no"><text><![CDATA[The return earned only from reinvesting coupon payments]]></text></answer>
+            <answer correct="no"><text><![CDATA[The yield to maturity of the bond at the time of purchase]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** HPR = (Coupon income + Price change) / Purchase price. It captures the actual total return during the holding period, which may differ from YTM if the bond is sold before maturity or if reinvestment rates differ from YTM.
+**The Trap:** HPR is the actual realized return, while YTM is the expected return if held to maturity with coupons reinvested at YTM. They can differ significantly if interest rates change during the holding period.
+**Cross-Exam Context:** Series IV Ch1 covers HPR as a return measure. Understanding HPR vs YTM is important for evaluating IR derivative hedging effectiveness.
+**Distributor's Pro-Tip:** HPR is the true measure of performance — IR derivative hedges should be evaluated based on the portfolio's HPR, not the individual bond's YTM.]]></text></explanation>
+    </question>
+</QF>

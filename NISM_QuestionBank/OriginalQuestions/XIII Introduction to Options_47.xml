@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_47" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the 'protective put' strategy?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buying a put option on an asset you already own (long stock + long put) — it limits downside risk to Strike minus Stock price plus Premium, while retaining unlimited upside potential]]></text></answer>
+            <answer correct="no"><text><![CDATA[Selling a put option to generate income on a stock you own]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buying a call option to protect against stock price declines]]></text></answer>
+            <answer correct="no"><text><![CDATA[Shorting the underlying stock and buying a put as insurance]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Protective put = Long stock + Long put. If stock falls below K, the put compensates for the loss below K. Max loss = (Stock price - K) + Premium. The portfolio's downside is capped but upside remains unlimited (minus the premium cost). It's like buying insurance on your stock holding.
+**The Trap:** Selling a put generates income (covered put/cash-secured put) but doesn't protect the stock position. A call protects against missing upside, not downside. Shorting stock + put is a different strategy.
+**Cross-Exam Context:** Protective puts apply across all markets — equity (VIII Ch5), currency (hedging with puts), bonds (puts on IR futures).
+**Distributor's Pro-Tip:** Protective puts are the simplest hedging strategy — they provide 'portfolio insurance'. The cost (put premium) is the price of peace of mind during uncertain markets.]]></text></explanation>
+    </question>
+</QF>

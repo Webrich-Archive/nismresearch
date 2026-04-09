@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_54" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the minimum tick size and tick value for NIFTY futures on NSE?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Tick size: Rs 0.05; Tick value: Rs 1.25 (0.05 × 25 lot size)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Tick size: Rs 0.01; Tick value: Rs 0.25]]></text></answer>
+            <answer correct="no"><text><![CDATA[Tick size: Rs 0.0025; Tick value: Rs 2.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Tick size: Rs 1.00; Tick value: Rs 25.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** NIFTY futures tick size = Rs 0.05 (5 paisa). With lot size of 25, tick value = 0.05 × 25 = Rs 1.25. So the minimum P&L change per lot is Rs 1.25.
+**The Trap:** Rs 0.0025 is USDINR tick size (different market). Rs 0.01 and Rs 1.00 are not the correct tick sizes for NIFTY.
+**Cross-Exam Context:** Series VIII Ch3 specifies NIFTY specs. Compare with USDINR tick (Rs 0.0025, value Rs 2.50) in Series I. Different tick sizes reflect different price granularity needs.
+**Distributor's Pro-Tip:** Tick value helps quick P&L estimation — a 100-point NIFTY move = 2000 ticks × Rs 1.25 = Rs 2,500 per lot. On 10 lots, that's Rs 25,000.]]></text></explanation>
+    </question>
+</QF>

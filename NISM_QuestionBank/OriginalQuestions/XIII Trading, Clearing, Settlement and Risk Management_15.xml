@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How does mark-to-market (MTM) settlement work for exchange-traded futures contracts?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[All open positions are marked to the daily settlement price at end of day, and the profit/loss is settled in cash on T+1 — this eliminates accumulated counterparty risk]]></text></answer>
+            <answer correct="no"><text><![CDATA[MTM is only applied at expiry of the futures contract, not daily]]></text></answer>
+            <answer correct="no"><text><![CDATA[MTM adjusts the margin requirement but does not involve actual cash settlement]]></text></answer>
+            <answer correct="no"><text><![CDATA[MTM applies only to the seller of futures, not the buyer]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Every open futures position is valued at the daily settlement price at close of trading. The difference from the previous day's settlement price is the MTM profit/loss, settled in cash on T+1. This daily settlement prevents large accumulated losses and reduces counterparty risk.
+**The Trap:** MTM is DAILY, not just at expiry. It involves actual cash settlement (debit/credit), not just margin adjustment. Both buyers AND sellers are marked to market.
+**Cross-Exam Context:** Daily MTM is universal across all futures segments — currency (I Ch7), interest rate (IV Ch7), equity (VIII Ch7). Series XIII tests understanding of this unified mechanism.
+**Distributor's Pro-Tip:** Daily MTM means your cash flows from futures are spread across the contract life — a large favorable/adverse price move results in daily cash credits/debits, not a lump sum at expiry.]]></text></explanation>
+    </question>
+</QF>

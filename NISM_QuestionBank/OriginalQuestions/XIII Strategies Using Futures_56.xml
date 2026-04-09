@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_56" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the 'no-arbitrage bound' concept in the context of futures pricing?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Transaction costs create a band around the fair futures price within which arbitrage is not profitable — futures price must move outside this band for arbitrage to be triggered]]></text></answer>
+            <answer correct="no"><text><![CDATA[A regulatory limit set by exchanges on how far futures prices can deviate from spot prices]]></text></answer>
+            <answer correct="no"><text><![CDATA[The maximum position limit that arbitrageurs can hold in futures contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[A circuit breaker that halts futures trading when prices deviate significantly from fair value]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Costs like commissions, margins, taxes, and bid-ask spreads create friction. Even if the futures price differs from fair value, the profit from arbitrage may not exceed these costs. The no-arbitrage bounds define the range around fair price where arbitrage is not profitable.
+**The Trap:** No-arbitrage bounds are NOT regulatory limits or circuit breakers — they are market-driven phenomena resulting from transaction costs.
+**Cross-Exam Context:** Series VIII Ch3 covers no-arbitrage bounds in equity futures. The concept applies equally to currency (I) and bond (IV) futures markets.
+**Distributor's Pro-Tip:** In illiquid markets with wide bid-ask spreads, no-arbitrage bounds are wider — meaning futures can trade further from fair value without attracting arbitrage activity.]]></text></explanation>
+    </question>
+</QF>

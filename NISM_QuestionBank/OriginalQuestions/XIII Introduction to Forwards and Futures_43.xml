@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_43" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is 'basis risk' and why can't it be eliminated completely even with futures hedging?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Basis risk is the risk that the spot-futures price relationship changes unpredictably — it can't be eliminated because futures contracts are standardized (fixed lot, expiry) while underlying exposures may differ in timing, quantity, or exact specification]]></text></answer>
+            <answer correct="no"><text><![CDATA[Basis risk can always be eliminated by choosing the correct futures contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[Basis risk only exists in commodity markets where physical delivery causes uncertainty]]></text></answer>
+            <answer correct="no"><text><![CDATA[Basis risk is the same as market risk — the risk that prices move against your position]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Basis risk persists because: (1) Expiry mismatch — hedge may end before futures expiry, (2) Quantity mismatch — lot sizes may not match exposure exactly, (3) Asset mismatch — underlying may not be identical (e.g., hedging a stock with index futures), (4) Basis at close of hedge is uncertain.
+**The Trap:** No hedge is perfect unless the underlying and the derivative match exactly in every dimension. Basis risk is residual risk AFTER hedging, not market risk itself.
+**Cross-Exam Context:** Basis risk is universal across all derivative markets — equity cross-hedging (VIII), currency cross-rate hedging (I), duration-based bond hedging (IV), and commodity location basis (XVI).
+**Distributor's Pro-Tip:** Minimize basis risk by: (1) matching contract expiry to hedge horizon, (2) choosing the most correlated futures contract, (3) adjusting for beta/duration/notional as appropriate.]]></text></explanation>
+    </question>
+</QF>

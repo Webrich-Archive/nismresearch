@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What margining system is used by Indian clearing corporations for real-time computation of initial margins in derivatives?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[SPAN (Standard Portfolio Analysis of Risk) — a scenario-based approach that generates 16 what-if scenarios to determine the worst-case loss]]></text></answer>
+            <answer correct="no"><text><![CDATA[Value at Risk (VaR) at 95% confidence level applied uniformly to all positions]]></text></answer>
+            <answer correct="no"><text><![CDATA[A fixed percentage margin applied to all derivative contracts regardless of risk]]></text></answer>
+            <answer correct="no"><text><![CDATA[Black-Scholes model-based margining that uses option Greeks for margin calculation]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Indian clearing corporations use SPAN®, developed by CME. SPAN takes an integrated view of the portfolio, generates 16 scenarios of price and volatility changes over a 2-day horizon, and uses the highest loss scenario as the margin requirement. This portfolio-based approach is more capital-efficient than individual position margining.
+**The Trap:** VaR is a component of SPAN, not a separate system. Fixed percentage margins are too crude for derivatives. Black-Scholes is for pricing, not margining.
+**Cross-Exam Context:** SPAN is used across ALL derivative segments in India — currency (I Ch7), interest rate (IV Ch7), equity (VIII Ch7), and commodity (XVI Ch7). Series XIII tests this unified concept.
+**Distributor's Pro-Tip:** SPAN gives portfolio margin benefit — offsetting positions in the same underlying reduce the margin requirement compared to summing individual position margins.]]></text></explanation>
+    </question>
+</QF>

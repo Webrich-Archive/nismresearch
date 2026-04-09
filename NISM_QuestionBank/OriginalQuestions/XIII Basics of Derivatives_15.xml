@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Basics of Derivatives_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How do 'physical settlement' and 'cash settlement' differ in derivative contracts?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Physical settlement involves actual delivery of the underlying asset; cash settlement involves payment of the price difference without delivery of the underlying]]></text></answer>
+            <answer correct="no"><text><![CDATA[Physical settlement is for equity derivatives only; cash settlement is for currency derivatives only]]></text></answer>
+            <answer correct="no"><text><![CDATA[Physical settlement happens on the expiry date; cash settlement happens daily]]></text></answer>
+            <answer correct="no"><text><![CDATA[Physical settlement is mandatory for all exchange-traded derivatives in India]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Physical settlement: the short delivers the actual underlying (stocks, bonds, commodities) to the long. Cash settlement: only the difference between contract price and settlement price is exchanged. In India: stock F&O shifted to physical settlement (2018-19), index F&O is cash settled, currency futures are cash settled.
+**The Trap:** Settlement type varies by product and market, not by asset class. Daily MTM is not cash settlement — it's interim margin adjustment. Both settlement types exist across markets.
+**Cross-Exam Context:** Series VIII Ch7 (equity: physical for stocks, cash for index), Series I Ch7 (currency: cash settled), Series IV (IR: physical delivery of bonds), Series XVI (commodity: both options).
+**Distributor's Pro-Tip:** Physical settlement means you must have the stock to deliver (or cash to take delivery) at expiry — traders must plan their exit before expiry week to avoid unexpected delivery obligations.]]></text></explanation>
+    </question>
+</QF>

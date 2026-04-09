@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Legal and Regulatory Environment_14" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How does the regulatory structure differ between equity derivatives and currency derivatives in India?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Equity derivatives are regulated solely by SEBI, while currency derivatives are under dual regulation by both SEBI (exchange/intermediaries) and RBI (underlying forex market)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both equity and currency derivatives are regulated solely by SEBI with no involvement of any other regulator]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equity derivatives are regulated by RBI while currency derivatives are regulated by SEBI]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both equity and currency derivatives are under dual regulation by SEBI and RBI]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** This is a fundamental cross-asset comparison. SEBI is the sole regulator for equity derivatives — it regulates both the underlying equity market and the derivative market. For currency derivatives, dual regulation applies: RBI regulates the underlying forex market under FEMA, while SEBI regulates the exchange platform and intermediaries.
+**The Trap:** Equity derivatives do NOT have dual regulation. RBI has no role in equity derivative regulation. Conversely, currency derivatives always involve RBI for the underlying.
+**Cross-Exam Context:** Series VIII focuses on SEBI-only regulation for equity. Series I and IV cover the dual regulation framework. Series XIII tests the ability to compare these frameworks.
+**Distributor's Pro-Tip:** This distinction matters practically — a bank wanting to trade currency derivatives needs both RBI approval (as a bank) and SEBI/exchange membership, while for equity derivatives only SEBI/exchange requirements apply.]]></text></explanation>
+    </question>
+</QF>

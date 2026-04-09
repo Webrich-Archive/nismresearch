@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to the Underlying Markets_28" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the concept of 'convexity' in bond valuation?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A measure of the curvature in the relationship between bond prices and yields, indicating that duration alone underestimates price changes for large yield movements]]></text></answer>
+            <answer correct="no"><text><![CDATA[The tendency of bond prices to move in a straight line when yields change]]></text></answer>
+            <answer correct="no"><text><![CDATA[The credit risk premium added to the risk-free rate for corporate bonds]]></text></answer>
+            <answer correct="no"><text><![CDATA[The time value component of a bond option's premium]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Convexity measures the rate of change of duration as yields change. For a given change in yields, duration provides a linear approximation of price change, but the actual price-yield relationship is curved (convex). For large yield changes, convexity adjustment improves accuracy.
+**The Trap:** Bond prices do NOT move linearly with yields — that's exactly why convexity matters. It's a risk measure, not a credit concept.
+**Cross-Exam Context:** Series IV Ch1 covers convexity alongside duration. Duration and convexity together are used in IR derivative hedging strategies (Series IV Ch5).
+**Distributor's Pro-Tip:** Bonds with higher convexity outperform in volatile rate environments — this makes convexity a valuable property that IR derivative traders specifically price and trade.]]></text></explanation>
+    </question>
+</QF>

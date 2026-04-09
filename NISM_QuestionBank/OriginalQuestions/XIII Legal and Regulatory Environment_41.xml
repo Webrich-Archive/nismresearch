@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Legal and Regulatory Environment_41" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A scheduled commercial bank has a net worth of Rs 600 Cr, CRAR of 9.5%, and net NPA of 2.5%. How many of the three RBI eligibility criteria for becoming a currency derivative exchange TM does the bank satisfy?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Two out of three — net worth (Rs 600 Cr >= Rs 500 Cr) and NPA (2.5% <= 3%) are satisfied, but CRAR (9.5% < 10%) is not met]]></text></answer>
+            <answer correct="no"><text><![CDATA[All three criteria are satisfied, and the bank is eligible to become a TM]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only one criterion (net worth) is satisfied; both CRAR and NPA fail]]></text></answer>
+            <answer correct="no"><text><![CDATA[None of the three criteria are satisfied because all thresholds have been raised recently]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Check each criterion: (1) Net worth Rs 600 Cr >= Rs 500 Cr — PASS; (2) CRAR 9.5% < 10% — FAIL; (3) Net NPA 2.5% <= 3% — PASS. The bank satisfies 2 out of 3 criteria but is NOT eligible because ALL three must be met simultaneously.
+**The Trap:** Meeting two out of three is insufficient. The bank fails on CRAR (9.5% vs required 10%), making it ineligible. All three criteria are cumulative requirements.
+**Cross-Exam Context:** This type of multi-criteria evaluation question tests precise knowledge of all three RBI thresholds and the fact that all must be satisfied — not just a majority.
+**Distributor's Pro-Tip:** A bank failing on CRAR typically needs to raise capital or reduce risk-weighted assets. This is a fundamental banking health metric that takes time to improve.]]></text></explanation>
+    </question>
+</QF>

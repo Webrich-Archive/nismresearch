@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If USDINR spot is Rs 84 and the 3-month futures price is Rs 84.60, what is the implied annualized interest rate differential?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Approximately 2.86% [(84.60/84 - 1) × 12/3 × 100 = 0.00714 × 4 × 100]]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 0.71%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 7.14%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 11.43%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Forward premium rate = [(F-S)/S] × (12/months) = [(84.60-84)/84] × 4 = 0.00714 × 4 = 0.02857 = 2.86%. This approximates the annualized difference between INR and USD interest rates.
+**The Trap:** 0.71% doesn't annualize (it's the 3-month rate). 7.14% doubles the correct answer. 11.43% uses an incorrect formula.
+**Cross-Exam Context:** Series I Ch3 covers forward premium calculations. This is a key calculation for understanding currency futures pricing and cross-checking IRP.
+**Distributor's Pro-Tip:** Comparing implied rate differential from futures with actual market rates reveals mispricing — significant divergences signal arbitrage opportunities or market stress.]]></text></explanation>
+    </question>
+</QF>

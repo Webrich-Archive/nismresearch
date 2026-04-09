@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_67" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the primary function of a Smart Order Routing (SOR) system in derivatives trading?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[To scan multiple exchanges and route orders to the exchange offering the best price]]></text></answer>
+            <answer correct="no"><text><![CDATA[To automatically split large orders into smaller tranches over time]]></text></answer>
+            <answer correct="no"><text><![CDATA[To verify the client's KYC and margin availability before order execution]]></text></answer>
+            <answer correct="no"><text><![CDATA[To encrypt order data for secure transmission to the exchange]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SOR automatically compares prices across exchanges (e.g., NSE and BSE) for the same derivative contract and routes the order to the venue offering the best execution price. This enhances best execution for clients by leveraging competition between trading venues.
+**The Trap:** Order slicing/time-weighted execution is an algorithmic trading strategy, not SOR. KYC/margin verification is a pre-trade risk check. Encryption is a technology feature, not SOR's purpose.
+**Cross-Exam Context:** SOR is relevant across equity derivatives (Series VIII) and potentially currency derivatives (Series I) where the same contracts trade on multiple exchanges. Series XIII covers SOR as part of trading infrastructure.
+**Distributor's Pro-Tip:** SOR benefits are greatest for liquid contracts where price differences between exchanges are small but frequent — for illiquid contracts, the benefit may be limited as only one exchange may have meaningful depth.]]></text></explanation>
+    </question>
+</QF>

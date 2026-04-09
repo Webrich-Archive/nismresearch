@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_77" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In daily mark-to-market (MTM) settlement of futures contracts, the settlement price used is typically the:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Closing price of the futures contract on that trading day as determined by the exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[Opening price of the next trading day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Average of the high and low prices of the day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Price at which the client originally entered the position]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Daily MTM settlement uses the closing/settlement price of the futures contract as determined by the exchange (typically the volume-weighted average price of the last 30 minutes of trading). Each day, the profit or loss is computed as the difference between the current day's settlement price and the previous day's settlement price (or trade price for new positions) and is settled in cash.
+**The Trap:** The opening price of the next day is not used — MTM is backward-looking. High-low average is not the standard methodology. The original entry price is used only on the first day; subsequent days use the previous day's settlement price as the base.
+**Cross-Exam Context:** Daily MTM is universal across all futures segments — equity (Series VIII), currency (Series I), interest rate (Series IV), and commodity (Series XVI). The mechanism is identical; only the settlement price determination methodology may vary slightly.
+**Distributor's Pro-Tip:** Daily MTM means futures positions generate cash flows every day — clients must maintain adequate cash in their trading account to meet MTM debit obligations. Failure to pay MTM can lead to position square-off.]]></text></explanation>
+    </question>
+</QF>

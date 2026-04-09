@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_62" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader executes a bullish vertical spread using puts on USDINR: sells an 83.00 put at Rs. 0.07 and buys an 82.50 put at Rs. 0.05. What is the BEP and maximum profit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[BEP: Rs. 82.98, Maximum profit: Rs. 0.02 (when USDINR expires at or above 83.00)]]></text></answer>
+            <answer correct="no"><text><![CDATA[BEP: Rs. 82.52, Maximum profit: Rs. 0.48 (when USDINR expires at or below 82.50)]]></text></answer>
+            <answer correct="no"><text><![CDATA[BEP: Rs. 83.07, Maximum profit: Rs. 0.07 (when USDINR expires at or above 83.07)]]></text></answer>
+            <answer correct="no"><text><![CDATA[BEP: Rs. 82.93, Maximum profit: Rs. 0.50 (when both options expire)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Net premium received = 0.07 - 0.05 = Rs. 0.02 (max profit when both options expire worthless, i.e., USDINR ≥ 83.00). Max loss = Strike difference - Net premium = 0.50 - 0.02 = Rs. 0.48 (when USDINR ≤ 82.50). BEP = Higher strike - Net premium = 83.00 - 0.02 = Rs. 82.98.
+**The Trap:** This is a net credit strategy (receives premium). Maximum profit is the net premium, not the strike difference. BEP is below the higher strike.
+**Cross-Exam Context:** Series I Ch5 covers bull put spreads. Series XIII compares these across asset classes — mechanics are identical.
+**Distributor's Pro-Tip:** Bull put spread = credit spread with bullish view. You earn small premium if you're right, but risk larger loss if wrong. Always calculate max loss before entry.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_33" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which order matching principle do Indian derivative exchanges follow, and how does it determine trade execution priority?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Price-time priority — orders are first ranked by best price (highest buy / lowest sell), and among orders at the same price, the order entered earliest gets priority]]></text></answer>
+            <answer correct="no"><text><![CDATA[Time-price priority — orders are ranked purely by time of entry regardless of price, with oldest orders executed first]]></text></answer>
+            <answer correct="no"><text><![CDATA[Pro-rata allocation — orders at the same price are filled proportionally based on order size rather than time]]></text></answer>
+            <answer correct="no"><text><![CDATA[Size-time priority — larger orders get priority over smaller orders, with time as the secondary criterion]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Indian exchanges use price-time priority (also called FIFO within price level). Buy orders are ranked from highest to lowest price; sell orders from lowest to highest. At the same price level, the order that arrived first is matched first.
+**The Trap:** Some global exchanges use pro-rata matching (especially for interest rate futures), but Indian exchanges uniformly use price-time priority. Size/volume does NOT determine priority.
+**Cross-Exam Context:** Price-time priority is consistent across all segments on Indian exchanges — equity, currency, and interest rate derivatives. This is a fundamental market microstructure concept for Series XIII.
+**Distributor's Pro-Tip:** This principle incentivizes aggressive pricing (better prices get priority) and speed (earlier orders at same price get priority), which is why co-location services and algorithmic trading have become important.]]></text></explanation>
+    </question>
+</QF>

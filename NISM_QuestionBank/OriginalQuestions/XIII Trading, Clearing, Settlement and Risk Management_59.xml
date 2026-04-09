@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_59" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A brokerage firm wants to offer algorithmic trading to its institutional clients on equity derivatives. Which of the following is NOT a requirement for deploying algo trading?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Each algorithm must be individually approved by SEBI before deployment]]></text></answer>
+            <answer correct="no"><text><![CDATA[The algorithm must be tested and certified by the exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[Adequate risk management controls must be built into the system]]></text></answer>
+            <answer correct="no"><text><![CDATA[The broker must have a co-location or proximity hosting arrangement or equivalent connectivity]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Algorithms need exchange-level testing and certification, not individual SEBI approval for each algo. SEBI sets the regulatory framework, but day-to-day algo approval and testing is delegated to exchanges. Brokers must have risk controls, and typically use co-location/DMA infrastructure.
+**The Trap:** Confusing exchange-level certification with SEBI-level approval is common. While SEBI mandates the overall framework for algo trading, it does not individually approve each algorithm.
+**Cross-Exam Context:** Algo trading and DMA requirements apply across equity (Series VIII), currency (Series I), and commodity derivatives. Co-location facilities are discussed in the trading infrastructure context of all derivative segments.
+**Distributor's Pro-Tip:** When clients ask about algo trading, clarify that the exchange conducts conformance testing — this is not the same as SEBI approving a trading strategy.]]></text></explanation>
+    </question>
+</QF>

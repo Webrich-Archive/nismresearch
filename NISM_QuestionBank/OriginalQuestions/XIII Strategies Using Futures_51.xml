@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_51" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In which derivative market is the concept of 'cheapest-to-deliver' (CTD) bond relevant?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Interest rate futures — where the seller can choose which eligible bond to deliver, selecting the one that minimizes cost]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equity derivatives — where the seller delivers the cheapest stock from the index basket]]></text></answer>
+            <answer correct="no"><text><![CDATA[Currency derivatives — where the seller delivers the cheapest currency pair]]></text></answer>
+            <answer correct="no"><text><![CDATA[Commodity derivatives — where the seller delivers the lowest-grade commodity]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Bond futures contracts allow delivery of any bond from a basket of eligible deliverable bonds. The seller chooses the bond with the lowest cost of delivery, known as the cheapest-to-deliver (CTD) bond. The conversion factor adjusts the settlement price for different coupons and maturities.
+**The Trap:** CTD is unique to bond futures — equity, currency, and commodity derivatives are cash-settled or have fixed delivery specifications.
+**Cross-Exam Context:** Series IV Ch3 covers the CTD concept extensively. Series XIII tests whether students understand which market-specific concepts apply to which derivative type.
+**Distributor's Pro-Tip:** The CTD bond changes as yields move — when yields rise, longer duration bonds tend to become CTD; when yields fall, shorter duration bonds become CTD.]]></text></explanation>
+    </question>
+</QF>

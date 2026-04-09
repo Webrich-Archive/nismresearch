@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_39" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the 'option writer's' (seller's) maximum profit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The premium received — this is earned when the option expires worthless (OTM at expiry), meaning the buyer doesn't exercise]]></text></answer>
+            <answer correct="no"><text><![CDATA[Unlimited profit when the underlying moves in the seller's favor]]></text></answer>
+            <answer correct="no"><text><![CDATA[The strike price minus the premium]]></text></answer>
+            <answer correct="no"><text><![CDATA[There is no profit potential for option sellers]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Option seller's max profit = premium received. For a call seller: max profit if S ≤ K at expiry (call expires OTM). For a put seller: max profit if S ≥ K at expiry (put expires OTM). In both cases, the seller keeps the entire premium. This is the opposite of the buyer's limited loss.
+**The Trap:** Option seller's profit IS limited (unlike their loss which can be unlimited for naked calls). The profit is the premium, not the strike or strike minus premium.
+**Cross-Exam Context:** Seller's limited profit / potentially unlimited loss is universal across all option markets.
+**Distributor's Pro-Tip:** Option selling is like being an insurance company — you collect many small premiums but face occasional large payouts. Risk management through diversification and position sizing is critical.]]></text></explanation>
+    </question>
+</QF>

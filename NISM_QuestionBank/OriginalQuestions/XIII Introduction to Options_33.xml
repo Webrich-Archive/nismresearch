@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_33" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the 'VIX' (Volatility Index) and what does India VIX measure?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[India VIX measures the market's expectation of near-term volatility based on NIFTY option prices — a higher VIX indicates greater expected volatility and is often called the 'fear gauge']]></text></answer>
+            <answer correct="no"><text><![CDATA[VIX measures the actual historical volatility of NIFTY over the past 30 days]]></text></answer>
+            <answer correct="no"><text><![CDATA[VIX is the price of a specific options contract traded on NSE]]></text></answer>
+            <answer correct="no"><text><![CDATA[VIX is calculated by RBI based on economic indicators and monetary policy]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** India VIX is derived from the order book of NIFTY options. It represents the market's expectation of 30-day volatility (annualized). VIX typically rises during market stress (fear → demand for puts → higher IV → higher VIX) and falls during calm periods. India VIX is calculated by NSE.
+**The Trap:** VIX is forward-looking (expected volatility from option prices), not backward-looking (historical volatility). It's an index, not a tradable contract (though VIX futures exist in some markets). It's calculated by NSE, not RBI.
+**Cross-Exam Context:** India VIX is derived from NIFTY options (Series VIII). Similar volatility indices exist for other markets. VIX is a key cross-market risk indicator.
+**Distributor's Pro-Tip:** VIX above 20 is considered elevated; above 30 is high fear. Sell options when VIX is high (expensive premiums) and buy when VIX is low (cheap insurance). Use VIX as a timing tool.]]></text></explanation>
+    </question>
+</QF>

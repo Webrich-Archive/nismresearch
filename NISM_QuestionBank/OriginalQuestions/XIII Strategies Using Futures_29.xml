@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_29" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What happens to the basis (spot price minus futures price) as a futures contract approaches expiry?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The basis converges toward zero as spot and futures prices align at expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[The basis widens as expiry approaches due to increased uncertainty]]></text></answer>
+            <answer correct="no"><text><![CDATA[The basis remains constant throughout the life of the contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[The basis becomes negative only for commodity derivatives at expiry]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** At expiry, the futures price must equal the spot price (for cash-settled contracts) or converge very closely (for physically settled). This is because any difference at expiry would create a riskless arbitrage opportunity. Therefore, basis converges to zero.
+**The Trap:** Basis does NOT remain constant — it changes daily due to changing interest rates, dividends, convenience yields, and time to expiry. But it always converges at expiry.
+**Cross-Exam Context:** Convergence is a fundamental concept tested in Series I (currency), IV (bond), VIII (equity), and XVI (commodity) derivatives.
+**Distributor's Pro-Tip:** Convergence is what makes futures hedging work — at expiry, the hedge gain/loss exactly offsets the spot market loss/gain.]]></text></explanation>
+    </question>
+</QF>

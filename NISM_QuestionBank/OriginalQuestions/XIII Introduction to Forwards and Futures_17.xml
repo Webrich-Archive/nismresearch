@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_17" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If NIFTY spot is at 24,894 and the Oct futures are at 25,007, what is the basis?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[-113 (Basis = Spot - Futures = 24,894 - 25,007 = -113, negative basis indicates contango)]]></text></answer>
+            <answer correct="no"><text><![CDATA[+113 (Basis = Futures - Spot = 25,007 - 24,894 = +113)]]></text></answer>
+            <answer correct="no"><text><![CDATA[-113 (indicating backwardation)]]></text></answer>
+            <answer correct="no"><text><![CDATA[0 (at expiry basis is always zero)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Using the convention Basis = Spot - Futures: 24,894 - 25,007 = -113. Negative basis means futures > spot (contango), which is normal when carrying cost is positive. The 113-point premium reflects the cost of carrying the index.
+**The Trap:** +113 uses the reverse formula (Futures - Spot). While basis IS zero at expiry, we're calculating it during the contract's life. Negative basis is contango, not backwardation.
+**Cross-Exam Context:** Series VIII Ch3 provides this example. Basis analysis is used across all futures markets to assess relative value.
+**Distributor's Pro-Tip:** Track basis over time — widening negative basis (increasing contango) may signal rising carry costs or bearish spot sentiment, while narrowing basis signals convergence.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_48" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the 'covered call' strategy?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Selling a call option on an asset you already own (long stock + short call) — it generates premium income but caps the upside at the strike price. It works best when you expect modest price movement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buying a call option while simultaneously buying the underlying stock]]></text></answer>
+            <answer correct="no"><text><![CDATA[Selling a call on a stock you don't own (naked call writing)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buying both a call and put on the same stock simultaneously]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Covered call = Long stock + Short call. The premium earned enhances return if the stock stays below K. If stock rises above K, the shares are called away at K — upside is capped. Max profit = (K - Stock price) + Premium. Max loss = Stock price - Premium (stock falls to zero).
+**The Trap:** Buying a call WITH stock is not a standard covered call — it's a leveraged long. Naked call writing has unlimited risk. Buying call AND put is a straddle.
+**Cross-Exam Context:** Covered calls exist in equity (VIII Ch5) and can be adapted for currency hedging (writing calls on currency holdings).
+**Distributor's Pro-Tip:** Covered calls are the most popular income-generating option strategy — they work well in rangebound or mildly bullish markets. The risk is missing a big rally when the stock gets called away.]]></text></explanation>
+    </question>
+</QF>

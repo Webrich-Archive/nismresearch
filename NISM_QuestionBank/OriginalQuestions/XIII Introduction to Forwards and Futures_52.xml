@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_52" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is 'contango' specifically in the context of USDINR currency futures?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[USDINR futures price > spot price, which is the normal state because Indian interest rates are higher than US rates — the premium reflects the interest rate differential via IRP]]></text></answer>
+            <answer correct="no"><text><![CDATA[USDINR spot is rising on a day-to-day basis]]></text></answer>
+            <answer correct="no"><text><![CDATA[USDINR futures price < spot price]]></text></answer>
+            <answer correct="no"><text><![CDATA[USDINR futures volume is increasing]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For USDINR, contango (futures > spot) is the normal state because India has higher interest rates than the US. Per IRP: F = S × (1+RINR)/(1+RUSD) > S when RINR > RUSD. The premium reflects the carry cost differential. If you could borrow USD cheaply and invest in INR, the forward/futures premium offsets this advantage.
+**The Trap:** Rising spot is price appreciation, not contango. Contango is about the spot-futures relationship at a point in time. Volume increase is a separate concept.
+**Cross-Exam Context:** Series I Ch3 explains why USDINR is normally in contango. In equity markets, contango reflects the risk-free rate minus dividends. The economic drivers differ but the concept is the same.
+**Distributor's Pro-Tip:** USDINR almost always trades in contango — the premium narrows as the contract approaches expiry (convergence). Tracking the premium can signal changes in market-implied interest rate expectations.]]></text></explanation>
+    </question>
+</QF>

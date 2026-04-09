@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_60" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A bond holder taking a short hedge in GOI bond futures will face what outcome if interest rates unexpectedly fall instead of rising?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The bond portfolio will gain value, but the short futures position will make a loss — the hedge locks in a price, preventing the holder from benefiting from the rate decline]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both the bond portfolio and short futures will profit since falling rates benefit all bond positions]]></text></answer>
+            <answer correct="no"><text><![CDATA[The short futures will profit while the bond portfolio loses value]]></text></answer>
+            <answer correct="no"><text><![CDATA[The hedge will automatically expire worthless since rates moved in the wrong direction]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Falling rates → rising bond prices → portfolio gains. However, short futures also lose (must buy back at higher price). The hedge offsets the gain with the loss, locking in the price. This is the cost of hedging — protection against adverse moves also prevents benefiting from favorable moves.
+**The Trap:** Short futures LOSE when bond prices rise (rates fall). The hedge doesn't expire worthless — it's settled daily through MTM. Hedging is a two-way lock.
+**Cross-Exam Context:** Series IV Ch5 explains this hedging trade-off. Series I and VIII show the same dynamic — hedging locks in a price in all directions.
+**Distributor's Pro-Tip:** If you want protection against adverse moves but want to retain upside, use options (buy puts) instead of futures. Options cost premium but don't lock out favorable moves.]]></text></explanation>
+    </question>
+</QF>

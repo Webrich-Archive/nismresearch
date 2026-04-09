@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_14" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How do European-style options differ from American-style options?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[European options can only be exercised at expiry; American options can be exercised at any time before and including expiry — in India, equity index options are European while stock options are also European]]></text></answer>
+            <answer correct="no"><text><![CDATA[European options are traded only in Europe; American options are traded only in America]]></text></answer>
+            <answer correct="no"><text><![CDATA[European options are always cheaper than American options for the same parameters]]></text></answer>
+            <answer correct="no"><text><![CDATA[European options have no time value; American options do]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The exercise style determines WHEN the option can be exercised. European: only at expiry. American: any time up to and including expiry. In India, equity options (both index and stock) are European. Currency options on exchanges are also European. The American option is worth ≥ European option because of the additional exercise flexibility.
+**The Trap:** The names refer to exercise style, not geography. European options DO have time value. American options are ≥ European in value, but for non-dividend stocks the difference is minimal for calls.
+**Cross-Exam Context:** Series VIII specifies European for Indian equity options. Series I specifies European for currency options. Series XVI notes European for commodity options. All India exchange-traded options are European.
+**Distributor's Pro-Tip:** Since all Indian exchange-traded options are European, early exercise isn't possible — this simplifies pricing (Black-Scholes works directly) but means deep ITM options can't be exercised to capture immediate profit.]]></text></explanation>
+    </question>
+</QF>

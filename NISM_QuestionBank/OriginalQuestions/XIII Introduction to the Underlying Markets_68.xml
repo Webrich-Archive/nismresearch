@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to the Underlying Markets_68" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is 'bootstrapping' in the context of bond markets?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A mathematical technique to derive zero-coupon (spot) rates from the yields of coupon-bearing bonds, building the zero curve sequentially from shorter to longer maturities]]></text></answer>
+            <answer correct="no"><text><![CDATA[A technique for starting a new bond fund with minimal initial capital]]></text></answer>
+            <answer correct="no"><text><![CDATA[The process of gradually increasing leverage in a bond portfolio]]></text></answer>
+            <answer correct="no"><text><![CDATA[A method of reinvesting coupons to compound returns over time]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Bootstrapping derives spot rates from observed coupon bond yields. Starting with the shortest maturity (where yield = spot rate), each subsequent spot rate is derived by using previously calculated shorter-term spot rates to discount earlier cash flows, solving for the unknown longer-term spot rate.
+**The Trap:** Bootstrapping is a yield curve construction technique, not a funding or investment strategy. It's fundamental to deriving the zero curve from market data.
+**Cross-Exam Context:** Series IV Ch1 covers bootstrapping in detail. The spot rate curve derived through bootstrapping is the foundation for pricing IR derivatives, swaps, and FRAs.
+**Distributor's Pro-Tip:** The bootstrapped zero curve is what quantitative traders use for IR derivative pricing — it's more accurate than using par yields directly because it eliminates the reinvestment assumption.]]></text></explanation>
+    </question>
+</QF>

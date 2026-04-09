@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is 'open interest' and how does it change with different trading scenarios?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[OI increases when a new buyer AND new seller open positions; OI decreases when an existing long AND existing short close positions; OI remains unchanged when an existing position is transferred to a new participant]]></text></answer>
+            <answer correct="no"><text><![CDATA[OI increases with every trade executed during the day]]></text></answer>
+            <answer correct="no"><text><![CDATA[OI equals the total trading volume for the day]]></text></answer>
+            <answer correct="no"><text><![CDATA[OI only tracks long positions, not short positions]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** OI tracks outstanding contracts: New long + New short = OI +1. Existing long closes + Existing short closes = OI -1. New long + Existing short closes = OI unchanged (position transfer). OI always represents matched pairs — every long has a corresponding short.
+**The Trap:** Volume counts every transaction; OI counts only net outstanding positions. OI ≠ volume. OI counts both long and short in a single figure (since they're always equal).
+**Cross-Exam Context:** Open interest analysis is used across all futures markets (VIII, I, IV, XVI). Rising OI with rising prices = new money flowing in (bullish). Rising OI with falling prices = new shorts (bearish).
+**Distributor's Pro-Tip:** OI buildup at specific strike prices (for options) or price levels (for futures) indicates positions that traders are defending — these become support/resistance levels.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_49" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In commodity futures, what is 'convenience yield' and how does it affect pricing?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The non-monetary benefit of holding the physical commodity (e.g., ability to maintain production) — it REDUCES futures price relative to spot, potentially creating backwardation: F = S × e^(r+s-c)t]]></text></answer>
+            <answer correct="no"><text><![CDATA[The yield earned by lending commodities to short sellers]]></text></answer>
+            <answer correct="no"><text><![CDATA[The interest rate earned by depositing commodity sale proceeds]]></text></answer>
+            <answer correct="no"><text><![CDATA[A fee paid by the exchange for the convenience of electronic trading]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Convenience yield reflects the value of having the physical commodity available — important for producers who need it for manufacturing (e.g., crude oil for refineries). When convenience yield > (storage + interest costs), futures < spot → backwardation. This is unique to commodities.
+**The Trap:** Convenience yield is not an explicit monetary payment — it's an implied benefit. It doesn't exist for financial derivatives (equities, currencies, bonds) because holding financial assets provides no production benefit.
+**Cross-Exam Context:** Series XVI Ch3 covers convenience yield. This concept distinguishes commodity futures pricing from financial futures pricing — a key Series XIII comparison.
+**Distributor's Pro-Tip:** High convenience yield (backwardation) signals supply tightness — commodity traders use this as a fundamental signal for the physical market conditions.]]></text></explanation>
+    </question>
+</QF>

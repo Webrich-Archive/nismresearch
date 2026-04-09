@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to the Underlying Markets_36" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If EURUSD is quoted at 1.1125/1.1150 and USDINR at 75.64/75.65, what is the bid rate for EURINR?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[84.1495 (calculated as 1.1125 × 75.64)]]></text></answer>
+            <answer correct="no"><text><![CDATA[84.3498 (calculated as 1.1150 × 75.65)]]></text></answer>
+            <answer correct="no"><text><![CDATA[67.95 (calculated as 75.64 ÷ 1.1125)]]></text></answer>
+            <answer correct="no"><text><![CDATA[83.9250 (calculated as 1.1125 × 75.44)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** To sell 1 EUR and receive INR (bid side): Sell EUR to get USD at EURUSD bid (1.1125), then sell USD to get INR at USDINR bid (75.64). So EURINR bid = 1.1125 × 75.64 = 84.1495.
+**The Trap:** 84.3498 is the offer rate (1.1150 × 75.65). Division would be used if USD were the base currency in both pairs, but here USD is the quote in EURUSD and base in USDINR, so multiplication is correct.
+**Cross-Exam Context:** Series I Ch1 provides this exact example. Cross-rate calculations are heavily tested in Series I and Series XIII.
+**Distributor's Pro-Tip:** Getting the bid/offer side wrong in cross-rate calculations directly impacts hedging costs — always think from the market maker's perspective (bank buys at bid, sells at offer).]]></text></explanation>
+    </question>
+</QF>

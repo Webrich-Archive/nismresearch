@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_41" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which statement correctly describes algorithmic trading (algo trading) regulation on Indian exchanges?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[All algorithmic orders must be tagged with a unique algo identifier, and the broker must obtain exchange approval before deploying any algorithm]]></text></answer>
+            <answer correct="no"><text><![CDATA[Algorithmic trading is permitted only for institutional investors with a minimum net worth of Rs 100 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Algorithmic trading has no special regulatory requirements — it follows the same rules as manual order placement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the exchange's own approved algorithms can be used; brokers cannot develop proprietary algorithms]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI requires that all algorithmic strategies must be approved by the exchange before deployment. Each algo order must be tagged with a unique identifier for audit trail purposes. Brokers must have adequate risk management systems for their algo strategies.
+**The Trap:** Algo trading is not restricted to large institutions — any broker with proper approvals can offer it. It has specific additional regulatory requirements beyond manual trading. Brokers can develop proprietary algorithms but need exchange approval.
+**Cross-Exam Context:** Algo trading regulation applies across all derivative segments — equity, currency, and interest rate. Co-location facilities complement algo trading by providing low-latency access. Series XIII tests cross-segment trading infrastructure awareness.
+**Distributor's Pro-Tip:** SEBI has progressively tightened algo regulations including order-to-trade ratio monitoring, minimum resting time proposals, and kill switch requirements. Brokers must maintain logs of all algo modifications and parameters.]]></text></explanation>
+    </question>
+</QF>

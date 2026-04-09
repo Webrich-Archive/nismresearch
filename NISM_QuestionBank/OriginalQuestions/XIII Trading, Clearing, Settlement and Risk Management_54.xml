@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_54" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A corporate treasurer needs to hedge a USD 15 million receivable due in 3 months. Considering the client-level position limit of USD 20 million in USDINR, the ELM of 1%, and that currency derivatives are cash-settled in INR, which practical challenge should the treasurer anticipate?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The hedge is within the USD 20M client limit and can be executed, but the treasurer must arrange INR margin (including 1% ELM) and manage daily MTM cash flows in INR since the underlying receivable is in USD, creating a cash flow mismatch until the receivable is received]]></text></answer>
+            <answer correct="no"><text><![CDATA[The USD 15 million position exceeds the client limit of USD 10 million per currency pair, requiring the hedge to be split across multiple brokers]]></text></answer>
+            <answer correct="no"><text><![CDATA[The hedge cannot be executed on exchanges because corporate hedging requires RBI approval and is permitted only in the OTC market]]></text></answer>
+            <answer correct="no"><text><![CDATA[The cash settlement in INR means the hedge will not provide any effective protection against USD/INR exchange rate movements]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The USD 15M is within the USD 20M client limit. However, the treasurer faces practical challenges: (1) Daily MTM settlement in INR creates cash flow needs before the USD receivable arrives, (2) ELM of 1% on USD 15M is significant margin, (3) The 50% cash collateral rule means substantial INR cash deployment, (4) The hedge gain/loss is in INR while the underlying exposure is in USD — timing mismatch.
+**The Trap:** The client limit is USD 20M, not USD 10M. Corporate hedging IS allowed on exchanges (since 2008 liberalization). Cash settlement DOES provide effective hedging — the INR profit/loss offsets the exchange rate impact on the receivable.
+**Cross-Exam Context:** This integrates currency derivative knowledge (Series I) with practical risk management. Compare with equity hedging (using index futures with MWPL constraints) and interest rate hedging (using bond futures with delivery options).
+**Distributor's Pro-Tip:** The daily MTM cash flow is the biggest practical challenge for corporates hedging on exchanges vs OTC forwards (where settlement happens only at maturity). Treasurers must arrange credit lines for interim margin calls.]]></text></explanation>
+    </question>
+</QF>

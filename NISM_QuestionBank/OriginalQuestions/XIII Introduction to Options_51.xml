@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_51" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What are 'weekly options' and how do they differ from monthly options in India?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Weekly options expire every week (typically Tuesday for NSE NIFTY), providing short-term trading and hedging opportunities with lower premiums but faster time decay compared to monthly options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Weekly options have the same expiry as monthly but with different lot sizes]]></text></answer>
+            <answer correct="no"><text><![CDATA[Weekly options are only available for currency derivatives, not equity]]></text></answer>
+            <answer correct="no"><text><![CDATA[Weekly options cannot be exercised — they are always cash-settled regardless of the underlying]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Weekly options expire every week. After SEBI's rationalization (2025), NSE can offer one weekly index option (NIFTY, expiring Tuesday). Weeklies have lower premiums (less time value), faster theta decay, and higher gamma near expiry. They're popular for event trading (weekly hedging, earnings).
+**The Trap:** Weeklies exist for equity index options in India (NIFTY, SENSEX), not just currency. They can be cash settled (index) or physically settled (stock). They have the same lot size as monthly options.
+**Cross-Exam Context:** Series VIII covers weekly equity options. SEBI rationalization limited the number of weekly products. This is primarily an equity derivatives feature.
+**Distributor's Pro-Tip:** Weekly options have become extremely popular for short-term directional and income trades — but their rapid time decay means option buyers must be right quickly, while sellers face high gamma risk.]]></text></explanation>
+    </question>
+</QF>

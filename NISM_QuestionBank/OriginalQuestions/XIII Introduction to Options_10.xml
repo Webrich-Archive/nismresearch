@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is 'Rho' in the context of option Greeks?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rho measures the sensitivity of option premium to changes in the risk-free interest rate — call options have positive Rho (higher rates increase call value) and put options have negative Rho (higher rates decrease put value)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rho measures the sensitivity of option premium to changes in the underlying stock price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rho is the same as delta but for put options only]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rho has no practical significance and is never used in trading]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Rho = ΔPremium / ΔInterest rate. Higher interest rates increase the cost of carrying the underlying, making calls more valuable (easier to buy later) and puts less valuable. Rho impact is larger for longer-dated options and less significant for short-dated options.
+**The Trap:** Price sensitivity is delta, not rho. Rho applies to both calls and puts. While Rho has less impact than delta/gamma/theta/vega for short-dated options, it matters for LEAPS and longer-term options.
+**Cross-Exam Context:** For currency options (I Ch4), Rho is particularly important because TWO interest rates affect pricing. For IR options (IV Ch4), the interest rate IS the underlying, making rate sensitivity dominant.
+**Distributor's Pro-Tip:** Rho matters most when rates are changing rapidly — during RBI rate hiking cycles, longer-dated option premiums adjust for Rho even before the underlying moves.]]></text></explanation>
+    </question>
+</QF>

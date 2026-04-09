@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How does time decay (theta) behave as an option approaches expiry?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Time decay accelerates as expiry approaches — an ATM option loses more time value per day in its final week than in its first month. The relationship is approximately proportional to the square root of time remaining]]></text></answer>
+            <answer correct="no"><text><![CDATA[Time decay is constant throughout the option's life]]></text></answer>
+            <answer correct="no"><text><![CDATA[Time decay slows down as expiry approaches because there's less time value remaining]]></text></answer>
+            <answer correct="no"><text><![CDATA[Time decay only occurs on the expiry day itself]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Theta decay follows approximately √T — so an option with 4 weeks to expiry has about twice the time value of one with 1 week (√4 = 2, √1 = 1). Daily theta is proportional to 1/√T, so it ACCELERATES near expiry. The last 30 days see the most rapid time decay.
+**The Trap:** Decay is NOT constant — it accelerates. The less time remaining, the faster the remaining time value evaporates. Decay occurs every day, not just on expiry.
+**Cross-Exam Context:** Time decay behavior is identical for all option types (equity, currency, IR, commodity). It's the most significant factor for short-dated option strategies.
+**Distributor's Pro-Tip:** Sell options with 30-45 days to expiry to capture the fastest theta decay period — this is the sweet spot for theta-positive strategies like covered calls and iron condors.]]></text></explanation>
+    </question>
+</QF>

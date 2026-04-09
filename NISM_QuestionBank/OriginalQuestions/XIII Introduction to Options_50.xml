@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_50" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the concept of 'synthetic positions' using options?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Creating a position that mimics the payoff of another instrument: Synthetic long stock = Long call + Short put (same strike); Synthetic short stock = Long put + Short call (same strike)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Positions created using only options with no involvement of the underlying asset]]></text></answer>
+            <answer correct="no"><text><![CDATA[Artificial positions created by exchanges for market making purposes]]></text></answer>
+            <answer correct="no"><text><![CDATA[Combining options from different underlyings to create a new payoff]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Synthetics replicate payoffs: Long call + Short put = Synthetic long futures/stock (same linear payoff). Long put + Short call = Synthetic short futures/stock. These follow from put-call parity: C - P = S - PV(K), so C - P ≈ synthetic forward.
+**The Trap:** While synthetics don't directly involve the underlying, they replicate its payoff through options. They're created by traders, not exchanges. Both options must be on the SAME underlying.
+**Cross-Exam Context:** Synthetic positions exist in all option markets. They allow creating effective stock/futures positions using only options, or vice versa.
+**Distributor's Pro-Tip:** Synthetic positions are used for arbitrage (when synthetic is cheaper than actual underlying) and for circumventing restrictions (e.g., if shorting stock is restricted, use synthetic short via options).]]></text></explanation>
+    </question>
+</QF>

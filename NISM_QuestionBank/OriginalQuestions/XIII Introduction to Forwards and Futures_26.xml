@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_26" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If USDINR spot is Rs 84.50, India rate 7.5%, US rate 4.5%, what is the theoretical 6-month futures price?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 85.73 [F = 84.50 × (1 + 0.075 × 0.5)/(1 + 0.045 × 0.5) = 84.50 × 1.0375/1.0225 = 84.50 × 1.01468 = 85.74]]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 83.27]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 87.04]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 84.50]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** F = S × (1 + RINR × t)/(1 + RUSD × t) = 84.50 × (1 + 0.075 × 0.5)/(1 + 0.045 × 0.5) = 84.50 × 1.0375/1.0225 = 84.50 × 1.01468 = Rs 85.74. The 1.24 premium over spot reflects the 3% annualized rate differential over 6 months.
+**The Trap:** Rs 83.27 inverts the formula. Rs 87.04 uses the full annual differential. Rs 84.50 assumes no carry cost.
+**Cross-Exam Context:** Series I Ch3 covers this calculation. The 6-month tenor is commonly used in exam questions as it's a practical hedging horizon.
+**Distributor's Pro-Tip:** Six-month forwards are popular for hedging export/import receivables — knowing the theoretical price helps assess whether the market quote is fair.]]></text></explanation>
+    </question>
+</QF>

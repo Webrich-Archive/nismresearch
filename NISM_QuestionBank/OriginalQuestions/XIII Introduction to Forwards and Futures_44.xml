@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_44" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If a 6.5% coupon government bond is priced at Rs 103 and the conversion factor for this bond in the futures contract is 0.98, what invoice price does the buyer pay (excluding accrued interest)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 100.94 (Futures settlement price × CF = 103 × 0.98 = 100.94)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 103.00 (the bond's market price)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 105.06 (103 / 0.98 = 105.06)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 101.97 (103 × 0.99 = 101.97)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Invoice price (clean) = Futures settlement price × Conversion factor = 103 × 0.98 = Rs 100.94. The full invoice = clean invoice + accrued interest. The CF adjusts the futures price to the specific bond being delivered.
+**The Trap:** The bond's market price (103) is used as the futures settlement price in this simplified example, but the actual invoice adjusts it by CF. Division by CF is incorrect.
+**Cross-Exam Context:** Series IV Ch3 covers invoice calculation for bond futures. This mechanism is unique to IR derivatives and has no equivalent in equity or currency futures.
+**Distributor's Pro-Tip:** The difference between market price and invoice price (103 - 100.94 = 2.06) affects the delivery decision — if the basis (market - invoice) is negative, the bond is a candidate for CTD.]]></text></explanation>
+    </question>
+</QF>

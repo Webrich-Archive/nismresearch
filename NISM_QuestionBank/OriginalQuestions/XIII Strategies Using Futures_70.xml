@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_70" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In which of the following scenarios would using options for hedging be PREFERRED over futures?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[When the hedger wants downside protection but also wants to benefit if the market moves favorably — such as an exporter who wants protection against currency decline but also wants to gain if the currency appreciates]]></text></answer>
+            <answer correct="no"><text><![CDATA[When the hedger wants the cheapest possible hedge with no upfront cost]]></text></answer>
+            <answer correct="no"><text><![CDATA[When the hedger wants to lock in a specific price with certainty]]></text></answer>
+            <answer correct="no"><text><![CDATA[When the hedger wants symmetric risk-reward profile from the hedge]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Options provide asymmetric protection: the put buyer has a floor on losses (strike - premium) but unlimited upside. The exporter buying puts on the foreign currency is protected if it depreciates but gains if it appreciates. Futures lock in a fixed rate (symmetric), eliminating both risk and opportunity.
+**The Trap:** Futures have no upfront cost (only margin), so they're cheaper than options which require premium. But options are preferred when the hedger wants to retain upside.
+**Cross-Exam Context:** All three series compare options vs futures hedging. Series IV explicitly states this at the end of Section 5.2.4 — participants can use options to hedge while retaining upside.
+**Distributor's Pro-Tip:** Choose your hedge instrument based on your risk tolerance: Futures for certainty at zero premium. Options for flexibility at premium cost. Many corporates use a mix of both.]]></text></explanation>
+    </question>
+</QF>

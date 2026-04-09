@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_60" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the concept of 'cost of carry' being negative (inverse carry) and when does it occur?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Negative cost of carry occurs when the income from holding the underlying (dividends for equity, coupon for bonds) exceeds the financing cost — resulting in futures trading below spot (backwardation)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Negative carry means the trader is losing money on their futures position]]></text></answer>
+            <answer correct="no"><text><![CDATA[Negative carry is impossible — carry cost is always positive]]></text></answer>
+            <answer correct="no"><text><![CDATA[Negative carry occurs only when interest rates are negative]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** If dividends > risk-free rate (equity) or coupon > repo rate (bonds), the net carry cost becomes negative. Holder earns more from the asset than their financing cost. This means F < S (backwardation). Example: high-dividend stock in a low-rate environment.
+**The Trap:** Carry cost can be negative without negative interest rates. The concept applies to the NET carry (income minus financing), not just financing alone.
+**Cross-Exam Context:** Series VIII Ch3 covers negative carry for high-dividend stocks. Series IV discusses negative carry in inverted yield curve scenarios. Series XVI covers it through convenience yield exceeding storage costs.
+**Distributor's Pro-Tip:** Stocks with dividend yield > risk-free rate will have futures at a discount to spot — don't misinterpret this as bearish sentiment. It's a mathematical consequence of the carry model.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_23" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An equity stock futures contract has a notional value of Rs 8,00,000. The SPAN margin computed is Rs 48,000 and the ELM rate for stock derivatives is 3.5%. What is the total initial margin required?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 76,000 (SPAN Rs 48,000 + ELM Rs 28,000 where ELM = 3.5% of Rs 8,00,000)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 48,000 — SPAN margin already includes ELM as a component]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 64,000 (SPAN Rs 48,000 + ELM at 2% of Rs 8,00,000 = Rs 16,000)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 96,000 (SPAN Rs 48,000 + ELM at 6% of Rs 8,00,000 = Rs 48,000)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Total initial margin = SPAN margin + ELM. SPAN margin = Rs 48,000. ELM for stock derivatives = 3.5% of notional value = 3.5% x Rs 8,00,000 = Rs 28,000. Total = Rs 48,000 + Rs 28,000 = Rs 76,000.
+**The Trap:** ELM is ADDITIONAL to SPAN, not included within it. The 2% ELM rate applies to index derivatives, not individual stock derivatives. Never confuse the two rates.
+**Cross-Exam Context:** ELM rates differ by segment: Equity index 2%, equity stock 3.5%, USDINR currency 1%, cross-currency 0.50%. SPAN methodology (16 scenarios) is common across all.
+**Distributor's Pro-Tip:** For stock F&O, the combined margin (SPAN + ELM) is typically 15-50% of contract value depending on volatility, making stock derivatives more capital-intensive than index derivatives.]]></text></explanation>
+    </question>
+</QF>

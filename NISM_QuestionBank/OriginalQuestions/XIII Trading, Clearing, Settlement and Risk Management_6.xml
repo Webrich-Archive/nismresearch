@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How are currency derivatives contracts settled in India?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[All exchange-traded currency derivatives are cash settled in Indian Rupees — daily settlement on T+1 and final settlement on T+2]]></text></answer>
+            <answer correct="no"><text><![CDATA[All currency derivatives are physically settled through actual delivery of foreign currency]]></text></answer>
+            <answer correct="no"><text><![CDATA[USDINR is physically settled while cross-currency pairs are cash settled]]></text></answer>
+            <answer correct="no"><text><![CDATA[Currency futures are cash settled but currency options require physical delivery]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** All ETCD contracts in India are cash settled. Daily mark-to-market is settled on T+1 (next working day). Final settlement at expiry is on T+2 (two business days after last trading day). Cross-currency profit/loss is calculated in quote currency but settled in INR.
+**The Trap:** Physical delivery of foreign currency requires RBI approval and is not done on exchanges. Both futures and options are cash settled in the ETCD segment.
+**Cross-Exam Context:** Series I Ch7 covers currency settlement. Series VIII covers equity settlement (which can be physical for stock F&O). Series XIII compares settlement mechanisms across segments.
+**Distributor's Pro-Tip:** Cash settlement eliminates delivery risk but introduces settlement price risk — the final settlement price may differ slightly from the closing spot rate.]]></text></explanation>
+    </question>
+</QF>

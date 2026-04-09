@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_30" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader takes a long position in stock futures worth Rs. 11,05,000 by paying a margin of Rs. 2,21,000 (20%). The stock rises and the futures profit is Rs. 39,100. What is the return on investment for the futures position versus buying shares directly for Rs. 11,03,300?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Futures ROI: approximately 17.69%, Stock ROI: approximately 3.62%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Futures ROI: approximately 3.62%, Stock ROI: approximately 17.69%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both have the same ROI since the absolute profit is similar]]></text></answer>
+            <answer correct="no"><text><![CDATA[Futures ROI: approximately 35.38%, Stock ROI: approximately 7.24%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Futures: ROI = 39,100 / 2,21,000 = 17.69%. Direct stock purchase: profit = (1345 - 1298) × 850 = Rs. 39,950; ROI = 39,950 / 11,03,300 = 3.62%. Futures leverage amplifies returns because the capital deployed is only the margin, not the full contract value.
+**The Trap:** While absolute profits are similar (~Rs. 39,000), ROI differs dramatically because the capital base is different (margin vs full investment).
+**Cross-Exam Context:** Series VIII Ch5 illustrates leverage with specific examples. This concept of margin-based leverage applies equally to currency (I) and bond (IV) futures.
+**Distributor's Pro-Tip:** Leverage is a double-edged sword — it amplifies both gains AND losses. A 20% margin means 5x leverage, so a 4% adverse move can wipe out the entire margin.]]></text></explanation>
+    </question>
+</QF>

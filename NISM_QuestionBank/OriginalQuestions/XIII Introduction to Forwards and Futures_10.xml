@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the key pricing difference between equity futures, currency futures, and interest rate futures?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Equity futures use cost-of-carry (one interest rate minus dividend yield); currency futures use interest rate parity (two interest rates); IR futures prices move inversely with yields and use conversion factors for bond delivery]]></text></answer>
+            <answer correct="no"><text><![CDATA[All three use the same cost-of-carry formula with identical inputs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only equity futures have a pricing model; currency and IR futures are priced by supply and demand alone]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equity futures use Black-Scholes; currency futures use IRP; IR futures use cost-of-carry]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Each asset class has a distinct pricing model: (1) Equity: F = S × e^(r-q)t — one domestic rate minus dividends, (2) Currency: F = S × (1+Rd)/(1+Rf) — two interest rates, (3) IR: Price quoted as (100 - yield) for short-term, or bond price × conversion factor for bond futures. The inverse price-yield relationship is unique to IR futures.
+**The Trap:** Black-Scholes is for options, not futures. Cost-of-carry applies to all but the INPUTS differ. Supply and demand always affect prices, but the theoretical model gives the arbitrage-free price.
+**Cross-Exam Context:** This is a quintessential Series XIII comparison question — understanding why pricing models differ is central to composite derivative knowledge.
+**Distributor's Pro-Tip:** The different pricing inputs mean that the same macro event (e.g., rate hike) affects futures prices differently across asset classes — this creates cross-market trading opportunities.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_25" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is 'implied volatility skew' (volatility smile/smirk)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The observed pattern where implied volatility varies across different strike prices for the same expiry — typically, OTM puts have higher IV than ATM options (creating a 'smirk'), reflecting greater demand for downside protection]]></text></answer>
+            <answer correct="no"><text><![CDATA[Implied volatility is the same for all strikes of the same expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[A strategy that profits from changes in volatility]]></text></answer>
+            <answer correct="no"><text><![CDATA[The difference between implied volatility of calls and puts at the same strike]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In theory (Black-Scholes), IV should be constant across strikes. In reality, OTM puts often have higher IV ('smirk' or 'skew') because investors buy puts for insurance, driving up their prices. In equity markets, the skew is typically negative (OTM puts more expensive). In currency markets, the skew can be positive or negative depending on market expectations.
+**The Trap:** IV is NOT the same across strikes — this deviation from Black-Scholes is called the volatility smile/skew. It's an observed market phenomenon, not a trading strategy.
+**Cross-Exam Context:** Volatility skew exists in equity (VIII), currency (I), IR (IV), and commodity (XVI) option markets. The shape of the skew differs by market and conditions.
+**Distributor's Pro-Tip:** The steepness of the skew indicates the market's fear level — steeper skew = more demand for downside protection = more fear. Monitor skew changes for risk sentiment shifts.]]></text></explanation>
+    </question>
+</QF>

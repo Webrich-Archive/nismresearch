@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the role of the Settlement Guarantee Fund (SGF) / Core SGF?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Core SGF provides settlement guarantee — if a clearing member defaults, the CC uses SGF funds to complete settlement and protect non-defaulting members]]></text></answer>
+            <answer correct="no"><text><![CDATA[SGF is a member's personal emergency fund that can be withdrawn during market stress]]></text></answer>
+            <answer correct="no"><text><![CDATA[SGF is used to pay dividends to exchange shareholders during profitable years]]></text></answer>
+            <answer correct="no"><text><![CDATA[SGF only applies to equity derivatives and does not cover currency or interest rate segments]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Core SGF is the ultimate backstop for settlement. If a clearing member defaults, the CC uses funds in this order: (1) defaulter's margins/deposits, (2) defaulter's excess in other segments, (3) CC penalty fund, (4) Core SGF (CC contribution first, then exchange, then pro-rata from non-defaulting members).
+**The Trap:** SGF is NOT a member's fund — it's a CC-maintained fund. It applies to ALL segments including currency and interest rate, not just equity.
+**Cross-Exam Context:** Core SGF structure is identical across segments. Series I Ch7, IV Ch7, and VIII Ch7 all cover it. CC contribution must be at least 50% of the Minimum Required Corpus.
+**Distributor's Pro-Tip:** The default waterfall protects non-defaulting members by first exhausting the defaulter's resources before touching the shared SGF pool.]]></text></explanation>
+    </question>
+</QF>

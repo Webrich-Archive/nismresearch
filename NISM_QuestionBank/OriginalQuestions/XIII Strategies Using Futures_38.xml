@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_38" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A bond portfolio manager expects interest rates to fall. To profit from this view using bond futures, what position should the manager take?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy (go long) GOI bond futures or buy GOI bond call options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell (go short) GOI bond futures or buy GOI bond put options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy T-bill futures and sell GOI bond futures simultaneously]]></text></answer>
+            <answer correct="no"><text><![CDATA[Take no position as bond prices and futures prices are always equal]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Falling interest rates → rising bond prices. To profit, the manager should buy bond futures (long position). Alternatively, buying call options on bonds profits from rising bond prices. Selling futures would be appropriate if rates were expected to rise.
+**The Trap:** The inverse relationship between rates and bond prices is the key — falling rates mean rising prices, so you want to be LONG (buy), not SHORT.
+**Cross-Exam Context:** Series IV Ch5 covers directional trading with bond futures. Series XIII contrasts this with equity futures (direct price relationship) where a bullish view also means going long.
+**Distributor's Pro-Tip:** In bond derivatives: expect rates to fall = bullish on bond prices = buy futures/calls. Expect rates to rise = bearish on bond prices = sell futures/buy puts.]]></text></explanation>
+    </question>
+</QF>

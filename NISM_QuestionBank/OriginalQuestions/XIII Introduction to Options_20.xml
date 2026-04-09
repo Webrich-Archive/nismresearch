@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the payoff of a long call option at expiry?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[max(S - K, 0) - Premium paid. Profit is unlimited if the underlying rises above the breakeven (K + Premium)]]></text></answer>
+            <answer correct="no"><text><![CDATA[K - S if S < K; otherwise zero]]></text></answer>
+            <answer correct="no"><text><![CDATA[Premium paid regardless of the underlying price]]></text></answer>
+            <answer correct="no"><text><![CDATA[S - K regardless of whether S > K or S < K]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** At expiry: if S > K, the call is exercised: payoff = S - K (gross), profit = S - K - Premium. If S ≤ K, the call expires worthless: payoff = 0, loss = Premium paid. The breakeven point is K + Premium. Maximum loss = Premium. Maximum profit = unlimited.
+**The Trap:** K - S is the put payoff (not call). Premium is the maximum loss, not the payoff. S - K without the max function would allow negative payoffs, which doesn't happen (the buyer simply doesn't exercise).
+**Cross-Exam Context:** Call option payoffs are identical across equity (VIII), currency (I), IR (IV), and commodity (XVI) options. Universal concept.
+**Distributor's Pro-Tip:** The breakeven at expiry is K + Premium — but during the option's life, the breakeven is lower due to remaining time value. Don't confuse expiry breakeven with interim breakeven.]]></text></explanation>
+    </question>
+</QF>

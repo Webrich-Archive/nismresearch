@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is 'Gamma' and why is it important for option traders?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Gamma measures the rate of change of delta per unit change in the underlying price — it indicates how quickly delta changes, effectively measuring the 'acceleration' of option price movement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Gamma measures the daily time decay of option premium]]></text></answer>
+            <answer correct="no"><text><![CDATA[Gamma is the ratio of call premium to put premium for the same strike]]></text></answer>
+            <answer correct="no"><text><![CDATA[Gamma only applies to deep out-of-the-money options]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Gamma = ΔDelta / ΔSpot. If delta = 0.50 and gamma = 0.08, a Rs 1 rise in underlying changes delta to 0.58. Gamma is highest for ATM options near expiry. Long options have positive gamma (delta moves in your favor). Short options have negative gamma (delta moves against you).
+**The Trap:** Time decay is theta. Call/put ratio is not gamma. Gamma is highest for ATM options, not OTM.
+**Cross-Exam Context:** Gamma is universal across all option types (VIII, I, IV, XVI). Gamma risk is a key concern for option sellers and market makers.
+**Distributor's Pro-Tip:** Positive gamma is the advantage of being long options — your effective exposure increases as the market moves in your favor and decreases as it moves against you. This is the insurance-like property of options.]]></text></explanation>
+    </question>
+</QF>

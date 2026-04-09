@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_29" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A stock's Market Wide Position Limit (MWPL) is 1,00,00,000 shares (1 crore). The current aggregate open interest across all exchanges is 96,00,000 shares. What trading restriction applies?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The stock enters a ban period since aggregate OI (96%) exceeds 95% of MWPL; only offsetting (square-off) trades are permitted]]></text></answer>
+            <answer correct="no"><text><![CDATA[No restriction — the ban triggers only when OI reaches 100% of MWPL]]></text></answer>
+            <answer correct="no"><text><![CDATA[New positions are restricted only for the exchange where OI is highest, not across all exchanges]]></text></answer>
+            <answer correct="no"><text><![CDATA[The stock enters risk reduction mode where margins are increased by 50%, but new positions are still allowed]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When aggregate open interest across all exchanges reaches or exceeds 95% of MWPL, the stock enters a ban period. At 96,00,000 / 1,00,00,000 = 96%, which exceeds 95%, the ban is triggered. Only offsetting/square-off positions are allowed; no new positions.
+**The Trap:** The ban threshold is 95% of MWPL, not 100%. Also, the ban is market-wide (across ALL exchanges), not exchange-specific. Risk reduction mode (at 90%) is a different concept specific to clearing member utilization.
+**Cross-Exam Context:** MWPL ban (95%) is equity-specific. Currency derivatives use absolute USD position limits without a ban mechanism. The 90%/85% risk reduction mode applies to clearing member collateral utilization.
+**Distributor's Pro-Tip:** Penalty for taking new positions during ban period is 1% of order value per day. The ban is lifted only when aggregate OI falls below 80% of MWPL — note the asymmetric thresholds (95% entry, 80% exit).]]></text></explanation>
+    </question>
+</QF>

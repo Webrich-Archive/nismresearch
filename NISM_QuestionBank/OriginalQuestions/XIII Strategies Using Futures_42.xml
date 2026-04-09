@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_42" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In put-call parity for European options, which formula correctly expresses the relationship?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Call - Put = Spot - Present Value of Strike Price (C - P = S - K×e^(-rt))]]></text></answer>
+            <answer correct="no"><text><![CDATA[Call + Put = Spot + Present Value of Strike Price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Call - Put = Strike Price - Spot]]></text></answer>
+            <answer correct="no"><text><![CDATA[Call × Put = Spot × Present Value of Strike Price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Put-call parity states: C - P = S - K×e^(-rt), where C = call premium, P = put premium, S = spot price, K = strike price, r = risk-free rate, t = time to expiry. Any deviation from this creates an arbitrage opportunity.
+**The Trap:** The relationship is Call MINUS Put, not Call PLUS Put. Also, the strike is discounted (present value), not at face value.
+**Cross-Exam Context:** Series VIII Ch5 covers put-call parity for equity options. The same principle applies across all European-style options in currency and interest rate markets.
+**Distributor's Pro-Tip:** Put-call parity is the fundamental no-arbitrage condition for European options — if violated, traders can construct synthetic positions to earn risk-free profits.]]></text></explanation>
+    </question>
+</QF>

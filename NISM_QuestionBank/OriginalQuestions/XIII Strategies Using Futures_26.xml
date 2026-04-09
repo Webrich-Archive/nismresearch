@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_26" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following correctly describes the futures pricing model used for each derivative type?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Currency futures use Interest Rate Parity (IRP), equity futures use Cost of Carry, and bond futures use yield-based conversion factors]]></text></answer>
+            <answer correct="no"><text><![CDATA[All three types use the same Cost of Carry model with identical inputs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Currency and equity futures use IRP while bond futures use the Black-Scholes model]]></text></answer>
+            <answer correct="no"><text><![CDATA[Bond futures use Cost of Carry, currency futures use duration-based pricing, and equity futures use IRP]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Currency futures: F = S × (1 + R_domestic × t) / (1 + R_foreign × t) — Interest Rate Parity based on rate differentials. Equity futures: F = S × e^(r-q)t or S × (1 + (r-d) × t) — Cost of Carry minus dividend yield. Bond futures use conversion factors to relate traded bond to notional bond.
+**The Trap:** While all models are variants of no-arbitrage pricing, the specific inputs differ — IRP uses two interest rates, equity CoC uses risk-free rate minus dividends, bond futures involve delivery options and CTD bonds.
+**Cross-Exam Context:** This is a XIII-unique cross-asset comparison question that synthesizes pricing knowledge from Series I (IRP), IV (bond futures pricing), and VIII (equity CoC).
+**Distributor's Pro-Tip:** The pricing model always reflects the cost of replicating the futures position synthetically — different assets have different replication costs.]]></text></explanation>
+    </question>
+</QF>

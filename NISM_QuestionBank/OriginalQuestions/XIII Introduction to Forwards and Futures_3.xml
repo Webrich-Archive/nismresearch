@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the 'cost of carry' model for equity futures pricing?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[F = S × e^(r-q)t or F = S(1+r-q)t, where S is spot price, r is risk-free rate, q is dividend yield, and t is time to expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[F = S × (1 + RINR)/(1 + RUSD) — the interest rate parity formula]]></text></answer>
+            <answer correct="no"><text><![CDATA[F = S + Storage costs - Convenience yield]]></text></answer>
+            <answer correct="no"><text><![CDATA[F = S × (1 + dividend yield × t)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For equity futures: F = S × e^(r-q)t (continuous) or F = S(1+r-d) for discrete compounding, where r = risk-free rate and q/d = dividend yield. The carrying cost is the interest on borrowing to buy the stock, minus dividends earned while holding.
+**The Trap:** The IRP formula is for currency futures, not equity. The storage cost model is for commodities. F = S × (1+dividend yield) would incorrectly increase the futures price — dividends REDUCE the carry cost.
+**Cross-Exam Context:** Series VIII Ch3 covers equity cost-of-carry. Compare with IRP (Series I) and bond futures pricing (Series IV). Each asset class has a different carry model.
+**Distributor's Pro-Tip:** When a stock goes ex-dividend, the futures price adjusts — understanding cost-of-carry helps predict and profit from these adjustments.]]></text></explanation>
+    </question>
+</QF>

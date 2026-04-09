@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_49" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How does the pricing of commodity options on futures differ from equity options on spot?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Commodity options (on futures) use the futures price as the underlying input (Black-76 model) instead of the spot price, because the futures price already incorporates carry costs]]></text></answer>
+            <answer correct="no"><text><![CDATA[There is no difference — both use the spot price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Commodity options are always cheaper because commodities are less volatile]]></text></answer>
+            <answer correct="no"><text><![CDATA[Commodity options use the storage cost as the primary pricing input instead of volatility]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In India, most commodity options are on futures contracts (not on spot). Therefore, Black-76 model is used: C = e^(-rT) × [F × N(d1) - K × N(d2)], where F is the futures price. Since F already incorporates carry costs (storage, financing, convenience yield), these don't need separate adjustment.
+**The Trap:** Storage cost affects the futures price (which is the input), not the option pricing formula directly. Commodity volatilities vary widely and aren't always lower than equity volatility.
+**Cross-Exam Context:** Series XVI Ch4 covers commodity options. Compare with equity options on spot (VIII Ch4) and currency options on spot (I Ch4). The underlying difference (spot vs futures) drives model selection.
+**Distributor's Pro-Tip:** When trading commodity options, monitor the underlying futures price (not spot) for delta hedging and P&L estimation — the option tracks the futures, not the physical spot price.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the Market Wide Position Limit (MWPL) concept in equity derivatives?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[MWPL is the maximum number of contracts (in terms of underlying shares) that can exist as open interest across all exchanges for a stock — it equals 20% of the free-float shares]]></text></answer>
+            <answer correct="no"><text><![CDATA[MWPL is the position limit for a single trading member on the exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[MWPL applies only to index derivatives, not individual stock derivatives]]></text></answer>
+            <answer correct="no"><text><![CDATA[MWPL is the minimum number of contracts required for a stock to be eligible for derivatives trading]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** MWPL for any underlying stock = 20% of the total number of shares held by non-promoters (free-float). It's the aggregate open position limit across all exchanges combined. When total OI reaches 95% of MWPL, no new positions are allowed. This prevents excessive speculation in single stocks.
+**The Trap:** 20% is of FREE-FLOAT shares, not total shares. MWPL applies to individual STOCK derivatives, not index derivatives (which have separate limits). It's a market-wide cap, not per-member.
+**Cross-Exam Context:** Series VIII Ch7 covers MWPL in detail. MWPL is unique to equity derivatives — currency (I) and interest rate (IV) derivatives use different position limit structures.
+**Distributor's Pro-Tip:** When MWPL approaches 95%, the stock enters a 'ban period' — only existing positions can be squared off, no new positions can be created in any contract of that underlying.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to the Underlying Markets_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the difference between 'duration' and 'maturity' of a bond?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Maturity is the time until the bond's final payment; duration is the weighted average time of all cash flows, measuring the bond's sensitivity to interest rate changes]]></text></answer>
+            <answer correct="no"><text><![CDATA[Duration is always longer than maturity for coupon-bearing bonds]]></text></answer>
+            <answer correct="no"><text><![CDATA[Maturity applies to government bonds while duration applies to corporate bonds]]></text></answer>
+            <answer correct="no"><text><![CDATA[They are identical concepts — both measure the time until a bond expires]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Maturity is simply when the bond matures. Duration (Macaulay duration) is the weighted average time of all cash flows (coupons and principal), weighted by their present values. Modified duration measures price sensitivity to yield changes. For zero-coupon bonds, duration equals maturity.
+**The Trap:** Duration is always less than or equal to maturity for coupon bonds (not longer). They are only equal for zero-coupon bonds.
+**Cross-Exam Context:** Series IV Ch1 covers duration, modified duration, and convexity. Duration-based hedging is covered in Series IV Ch5 and is key for Series XIII strategies.
+**Distributor's Pro-Tip:** Duration is the single most important risk measure for bond portfolios — IR futures hedging strategies use duration to calculate hedge ratios.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_66" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following correctly represents the payoff for a short USDINR futures position?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Profit when USDINR falls (INR appreciates) and loss when USDINR rises (INR depreciates): Payoff = Entry Price - Exit Price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit when USDINR rises and loss when USDINR falls: Payoff = Exit Price - Entry Price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fixed profit regardless of USDINR movement equal to the futures premium]]></text></answer>
+            <answer correct="no"><text><![CDATA[No payoff until expiry — profits and losses are only realized on the last trading day]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Short futures profit = Sell price - Buy price = Entry - Exit. If USDINR falls (say from 83 to 81), the short seller gains Rs. 2 per unit. If USDINR rises (say to 85), the short seller loses Rs. 2 per unit. This is ideal for exporters who will receive USD.
+**The Trap:** Futures don't have premiums like options. Also, futures are marked-to-market daily — profits and losses are realized daily, not just at expiry.
+**Cross-Exam Context:** Series I covers short futures for exporters. The same linear payoff structure applies to equity (VIII) and bond (IV) short futures.
+**Distributor's Pro-Tip:** Short futures = bearish on the underlying price. For currency: exporter shorts to lock in selling rate. For bonds: holder shorts to protect against rate rises.]]></text></explanation>
+    </question>
+</QF>

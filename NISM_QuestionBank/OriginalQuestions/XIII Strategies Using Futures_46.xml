@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_46" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader creates a collar strategy on an equity portfolio. What does this involve?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Holding the stock, buying an OTM put for downside protection, and selling an OTM call to partially finance the put premium]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buying both a put and a call at the same strike to create unlimited profit potential]]></text></answer>
+            <answer correct="no"><text><![CDATA[Selling both a put and a call at the same strike to earn maximum premium]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buying the stock and shorting two lots of futures for leveraged downside protection]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A collar combines a protective put (bought OTM) with a covered call (sold OTM). The put premium is partially or fully offset by the call premium received. This creates a range where the portfolio is protected on the downside (by the put) but capped on the upside (by the call).
+**The Trap:** A straddle involves buying both options, not a collar. Selling both options is a short straddle. A collar specifically combines long stock + long put + short call.
+**Cross-Exam Context:** Series VIII Ch5 covers collar strategies for equity. The concept can be applied to any asset class where options are available.
+**Distributor's Pro-Tip:** A zero-cost collar is when the call premium received exactly equals the put premium paid — downside protection at zero net cost, but with capped upside.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_25" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What happens to the margin account when a futures position is marked-to-market daily?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[If the position moves favorably, the margin account is credited; if it moves adversely, the account is debited — if the account falls below the maintenance margin, a margin call is triggered]]></text></answer>
+            <answer correct="no"><text><![CDATA[The margin account remains constant regardless of price movements]]></text></answer>
+            <answer correct="no"><text><![CDATA[The margin account only changes at contract expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[The margin account is credited daily regardless of price direction as a reward for holding the position]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Daily MTM: Long position profit/loss = (Today's settlement - Yesterday's settlement) × lots × lot size. Credit if positive, debit if negative. If the account balance falls below the maintenance margin, the trader receives a margin call and must restore it to the initial margin level.
+**The Trap:** Margin accounts change DAILY, not just at expiry. Credits and debits depend on price direction — there's no automatic reward for holding.
+**Cross-Exam Context:** MTM margin mechanism is identical across all exchange-traded futures — equity (VIII Ch7), currency (I Ch7), IR (IV Ch7), commodity (XVI Ch7).
+**Distributor's Pro-Tip:** Margin calls must be met within the prescribed time (typically same day) — failure triggers forced liquidation. Always maintain buffer capital above the minimum margin.]]></text></explanation>
+    </question>
+</QF>

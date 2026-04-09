@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_62" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Index-based circuit breakers in the equity derivatives market are triggered at 10%, 15%, and 20% movement from the previous close. Which of the following correctly describes how this differs from the currency derivatives market?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Currency derivatives use price bands (operating ranges) set by exchanges rather than market-wide circuit breakers based on index movement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Currency derivatives have the same 10%/15%/20% circuit breaker levels]]></text></answer>
+            <answer correct="no"><text><![CDATA[Currency derivatives have no price movement limits whatsoever]]></text></answer>
+            <answer correct="no"><text><![CDATA[Currency derivatives use a single 5% circuit breaker level]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Equity derivatives use market-wide circuit breakers (MWCB) at 10%, 15%, 20% based on index movement, halting all trading. Currency derivatives instead use operating price ranges (bands) that can be relaxed by the exchange during volatile sessions — they do not have the same MWCB mechanism.
+**The Trap:** Currency and equity markets have fundamentally different volatility management mechanisms. Currency derivatives are also influenced by RBI intervention and global forex markets, making rigid circuit breakers impractical.
+**Cross-Exam Context:** Series VIII covers equity circuit breakers in detail. Series I covers currency price bands. Understanding the difference is critical for cross-segment risk management questions in Series XIII.
+**Distributor's Pro-Tip:** During volatile sessions, currency price bands may be relaxed progressively — this is very different from equity circuit breakers that halt trading entirely. Clients trading both segments must understand these distinct mechanisms.]]></text></explanation>
+    </question>
+</QF>

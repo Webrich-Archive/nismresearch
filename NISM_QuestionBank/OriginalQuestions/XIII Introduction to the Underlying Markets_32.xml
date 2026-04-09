@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to the Underlying Markets_32" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is 'Modified Duration' and how is it used in bond risk management?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Modified Duration equals Macaulay Duration divided by (1 + yield/frequency), and it measures the approximate percentage change in bond price for a 1% change in yield]]></text></answer>
+            <answer correct="no"><text><![CDATA[Modified Duration is the time remaining until a bond matures, adjusted for inflation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Modified Duration measures the credit risk of a bond by adjusting duration for the issuer's credit rating]]></text></answer>
+            <answer correct="no"><text><![CDATA[Modified Duration calculates the reinvestment return on coupon payments]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Modified Duration = Macaulay Duration / (1 + y/n) where y is yield and n is compounding frequency. If Modified Duration is 5.2, a 1% rise in yields causes approximately 5.2% fall in bond price. It's the primary tool for measuring interest rate risk.
+**The Trap:** Modified duration doesn't relate to credit risk or inflation — it's purely about interest rate sensitivity. It's an approximation that works well for small yield changes.
+**Cross-Exam Context:** Series IV Ch1 covers Modified Duration. It's essential for duration-based hedging with IR futures (Series IV Ch5, Series XIII strategies).
+**Distributor's Pro-Tip:** Portfolio managers use Modified Duration to match asset and liability durations — IR futures allow quick duration adjustments without buying/selling physical bonds.]]></text></explanation>
+    </question>
+</QF>

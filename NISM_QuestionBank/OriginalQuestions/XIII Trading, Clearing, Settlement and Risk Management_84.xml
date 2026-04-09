@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_84" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader sells 5 lots of Nifty futures at 22,500. Lot size is 25 units. If the initial margin rate is 10% of the notional value, how much initial margin must be deposited?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 2,81,250]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 28,12,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 56,250]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 11,25,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Notional value = 5 lots x 25 units x Rs 22,500 = Rs 28,12,500. Initial margin = 10% x Rs 28,12,500 = Rs 2,81,250. The margin is the same whether buying or selling futures.
+**The Trap:** Rs 28,12,500 is the notional value itself, not the margin. Rs 56,250 uses only 1 lot instead of 5. Rs 11,25,000 uses 40% margin rate instead of 10%.
+**Cross-Exam Context:** While this example uses equity derivatives (Series VIII), the principle of margin as a percentage of notional value applies across all segments. In practice, SPAN margin varies based on volatility, but exam questions often use a flat percentage for simplicity.
+**Distributor's Pro-Tip:** Initial margin is not the maximum loss — it is a performance bond. Clients can lose more than the initial margin if the market moves sharply against them. Always explain the difference between margin and maximum potential loss to clients.]]></text></explanation>
+    </question>
+</QF>

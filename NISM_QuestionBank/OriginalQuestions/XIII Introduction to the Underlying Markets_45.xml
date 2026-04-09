@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to the Underlying Markets_45" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is 'basis risk' in the context of derivative markets, applicable across all asset classes?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The risk that the price relationship between the derivative and its underlying asset may change unexpectedly, resulting in an imperfect hedge]]></text></answer>
+            <answer correct="no"><text><![CDATA[The risk that the base currency will depreciate against the quote currency]]></text></answer>
+            <answer correct="no"><text><![CDATA[The risk of loss due to the base rate set by the central bank changing]]></text></answer>
+            <answer correct="no"><text><![CDATA[The minimum risk that must be accepted in any derivative position]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Basis = Spot price - Futures price (or vice versa). Basis risk arises when this difference changes unpredictably, meaning the derivative doesn't perfectly track the underlying. This applies to equity index futures, currency futures, IR futures, and commodity futures.
+**The Trap:** Basis risk is not about base currency depreciation or central bank base rate — it's specifically about the spot-futures price relationship.
+**Cross-Exam Context:** Basis risk is covered in Series VIII Ch3 (equity), Series I Ch3 (currency), Series IV Ch3 (IR), and Series XVI Ch5 (commodity). It's a universal derivative concept for Series XIII.
+**Distributor's Pro-Tip:** Basis risk is unavoidable in hedging — the key is understanding whether basis is expected to converge (at expiry) or may widen (before expiry).]]></text></explanation>
+    </question>
+</QF>

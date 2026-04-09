@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_73" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How does the 'smile' shape of the volatility curve differ between equity and currency options?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Equity options typically show a negative skew (smirk) with higher IV for OTM puts; currency options tend to show a more symmetric smile or slight skew depending on the market's directional expectations for the currency]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both equity and currency options always show identical smile shapes]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only equity options have a volatility smile; currency options have flat IV across strikes]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equity options show a symmetric smile; currency options show a steep skew]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Equity: crash risk creates demand for OTM puts → higher IV for lower strikes → negative skew (smirk). Currency: both appreciation and depreciation risks exist → more symmetric smile, though skew can tilt based on directional expectations (measured by risk reversal).
+**The Trap:** The smile shape differs between asset classes. Currency options DO have a volatility smile — it's just often more symmetric than equity. Neither always shows the same shape.
+**Cross-Exam Context:** Volatility smile patterns are covered in Series VIII (equity) and Series I (currency). Comparing smile shapes is a Series XIII topic.
+**Distributor's Pro-Tip:** The equity smirk exists because large market drops are more common than large rallies — this structural demand for downside protection persistently inflates OTM put premiums.]]></text></explanation>
+    </question>
+</QF>

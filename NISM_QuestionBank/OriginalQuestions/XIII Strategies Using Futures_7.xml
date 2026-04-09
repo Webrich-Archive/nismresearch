@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An exporter budgeted USDINR at 81 and sold futures at 81.75. At the time of receiving USD, spot USDINR is 83 and futures are at 83.05. What is the exporter's effective exchange rate?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 81.70]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 83.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 81.75]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 82.35]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Underlying gain: 83 - 81 = +Rs. 2 (received more INR per USD in spot). Futures loss: 81.75 - 83.05 = -Rs. 1.30 (loss on short futures as price rose). Combined effect: +2 + (-1.30) = +0.70. Effective rate = 81 + 0.70 = Rs. 81.70.
+**The Trap:** Rs. 83 is the spot rate without hedging. Rs. 81.75 is the futures rate, not the effective rate (basis risk means the two don't converge perfectly).
+**Cross-Exam Context:** Series I Ch5 covers this exact calculation for exporter hedging. Series XIII tests it in comparison with equity and interest rate hedging outcomes.
+**Distributor's Pro-Tip:** Hedging locks in a rate close to the futures price, but basis risk (spot-futures price difference at closeout) means the effective rate won't exactly match the original futures price.]]></text></explanation>
+    </question>
+</QF>

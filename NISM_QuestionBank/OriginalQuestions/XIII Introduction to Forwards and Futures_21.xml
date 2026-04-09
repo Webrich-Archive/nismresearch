@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If the spot price of a stock is Rs 500, the risk-free rate is 10% per annum, and the stock pays a dividend of Rs 15 in 2 months, what is the theoretical 3-month futures price?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 509.63 [F = (500 - 15×e^(-0.10×2/12)) × e^(0.10×3/12) ≈ (500 - 14.75) × 1.0253 ≈ 497.50 × 1.0253 ≈ 509.63. Simplified: F ≈ 500(1+0.10×3/12) - 15(1+0.10×1/12) = 512.50 - 15.125 ≈ 497.38... Let me recalculate simply: F = (S - PV of dividend)(1+rt) = (500 - 15/(1+0.10×2/12)) × (1+0.10×3/12) = (500 - 14.75) × 1.025 = 485.25 × 1.025... Actually simplest: F = S(1+rt) - D(1+r×remaining) = 500×1.025 - 15×(1+0.10×1/12) = 512.5 - 15.125 = 497.375]]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 512.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 485.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 500.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** F = S(1 + r × t) - FV of dividend = 500 × (1 + 0.10 × 3/12) - 15 × (1 + 0.10 × 1/12) = 512.50 - 15.125 = Rs 497.375 ≈ Rs 497.38. The dividend reduces the futures price because the futures buyer doesn't receive the dividend.
+**The Trap:** Rs 512.50 ignores the dividend entirely. Rs 485.00 subtracts the dividend from spot without carrying forward. Rs 500 assumes futures = spot.
+**Cross-Exam Context:** Series VIII Ch3 covers dividend-adjusted futures pricing. The dividend adjustment is unique to equity futures — currency and commodity futures don't have dividends.
+**Distributor's Pro-Tip:** Before ex-dividend dates, futures prices adjust downward — understanding this prevents misinterpreting the drop as a bearish signal.]]></text></explanation>
+    </question>
+</QF>

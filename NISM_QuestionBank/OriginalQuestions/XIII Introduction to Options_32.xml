@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_32" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A USDINR put option has strike Rs 83.00 and premium Rs 0.75. USDINR spot is Rs 83.50. Is this option ITM, ATM, or OTM?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[OTM — for a put option, it is OTM when spot (83.50) is above the strike (83.00), meaning the option has no intrinsic value]]></text></answer>
+            <answer correct="no"><text><![CDATA[ITM — because USDINR is trading at a higher level]]></text></answer>
+            <answer correct="no"><text><![CDATA[ATM — because the difference between spot and strike is small]]></text></answer>
+            <answer correct="no"><text><![CDATA[ITM — because any option with a premium is always ITM]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For a put: ITM when K > S, OTM when K < S. Here K (83.00) < S (83.50), so the put is OTM. The premium (0.75) is entirely time value. An importer holding this put as insurance would not exercise it currently because they can buy USD cheaper in the spot market.
+**The Trap:** The put being OTM doesn't mean it's worthless — it still has time value. Having a premium doesn't make an option ITM. A small difference doesn't automatically mean ATM.
+**Cross-Exam Context:** Series I Ch4 covers currency option moneyness. The same rules apply: call ITM when S > K, put ITM when K > S.
+**Distributor's Pro-Tip:** OTM options are cheaper (no intrinsic value to pay for) — exporters/importers often buy slightly OTM options as cheaper insurance, accepting a small deductible.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_57" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If a call option premium increases from Rs 15 to Rs 18 while the underlying moves from Rs 200 to Rs 205, what is the approximate delta?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[0.60 (ΔPremium / ΔSpot = 3/5 = 0.60)]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.83 (15/18)]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.36 (18/50 approximately)]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.20 (18/15)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Delta ≈ Change in premium / Change in underlying = (18-15)/(205-200) = 3/5 = 0.60. This means the option captures approximately 60% of the underlying's price movement.
+**The Trap:** 0.83 divides old by new premium (meaningless). 1.20 divides new by old premium. 0.36 uses wrong denominator.
+**Cross-Exam Context:** This empirical delta calculation applies to all option markets. It's a practical way to estimate delta from observed prices.
+**Distributor's Pro-Tip:** Comparing observed delta (from price changes) with theoretical delta (from Black-Scholes) reveals whether the model is accurately capturing market behavior.]]></text></explanation>
+    </question>
+</QF>

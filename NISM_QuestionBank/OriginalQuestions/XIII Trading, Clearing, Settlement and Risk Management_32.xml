@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_32" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the context of exchange-traded derivatives, what does 'novation' by the Clearing Corporation mean?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The CC interposes itself as the counterparty to both sides — becoming buyer to every seller and seller to every buyer, thereby eliminating bilateral counterparty risk]]></text></answer>
+            <answer correct="no"><text><![CDATA[The CC creates new derivative contracts to replace expired ones, ensuring continuous trading]]></text></answer>
+            <answer correct="no"><text><![CDATA[The CC transfers outstanding positions from one clearing member to another during default]]></text></answer>
+            <answer correct="no"><text><![CDATA[The CC novates OTC contracts onto the exchange platform for standardized trading]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Novation is the legal process where the Clearing Corporation substitutes itself as the central counterparty (CCP) to every trade. Once a trade is matched, the original bilateral contract between buyer and seller is replaced by two contracts: one between the CC and the buyer, another between the CC and the seller.
+**The Trap:** Novation is NOT about contract renewal or transfer. It specifically means the CC becomes the legal counterparty to both sides. This is the foundation of the settlement guarantee mechanism.
+**Cross-Exam Context:** Novation by CC applies uniformly across all exchange-traded derivative segments — equity, currency, and interest rate. It is the core risk mitigation mechanism tested in Series XIII.
+**Distributor's Pro-Tip:** Novation enables anonymous trading — participants don't need to assess counterparty creditworthiness. The CC manages this risk through margins, SGF, and the default waterfall.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_22" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A Trading Member's total collateral deposited with the Clearing Corporation is Rs 50 crore, of which Rs 20 crore is in cash and Rs 30 crore is in non-cash (securities). Does this meet the 50% cash collateral requirement?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[No — the member needs at least Rs 25 crore in cash (50% of Rs 50 crore), but has only Rs 20 crore in cash, creating a shortfall of Rs 5 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes — the member has deposited more than 50% of collateral in non-cash form, which is the actual requirement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes — the 50% cash rule applies only to initial margin, not to total collateral]]></text></answer>
+            <answer correct="no"><text><![CDATA[No — the 50% rule means at least 50% must be in government securities, not just cash]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The clearing corporation mandates that at least 50% of total collateral must be in cash or cash-equivalent form. With Rs 50 crore total, the minimum cash requirement is Rs 25 crore. The member has only Rs 20 crore in cash, so there is a Rs 5 crore shortfall.
+**The Trap:** The rule requires minimum 50% in CASH, not 50% in non-cash. Many candidates confuse which side the 50% applies to. Also, this rule applies to total collateral, not just initial margin.
+**Cross-Exam Context:** This 50% cash collateral requirement applies across currency (Series I), equity (Series VIII), and interest rate (Series IV) segments uniformly.
+**Distributor's Pro-Tip:** The cash component can include cash, fixed deposits, bank guarantees, and T-bills. Securities like shares count as non-cash. This rule ensures liquidity during stress events.]]></text></explanation>
+    </question>
+</QF>

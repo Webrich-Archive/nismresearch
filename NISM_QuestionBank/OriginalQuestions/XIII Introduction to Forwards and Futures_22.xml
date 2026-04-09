@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_22" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is 'cash and carry arbitrage' in futures markets?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[When futures are overpriced relative to theoretical value, buy the underlying in spot, carry it to futures expiry, and sell futures to lock in risk-free profit]]></text></answer>
+            <answer correct="no"><text><![CDATA[When the trader carries only cash and no positions overnight]]></text></answer>
+            <answer correct="no"><text><![CDATA[A strategy of buying and selling futures on the same day for quick profits]]></text></answer>
+            <answer correct="no"><text><![CDATA[Borrowing cash to buy futures contracts on margin]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** If Futures price > Theoretical futures price (S × e^rt), arbitrageurs can: (1) Buy spot, (2) Finance the purchase by borrowing at risk-free rate, (3) Sell futures. At expiry, deliver the underlying at the locked-in futures price. Profit = Futures price - Spot(1+r×t) > 0. The reverse (reverse cash-and-carry) works when futures are underpriced.
+**The Trap:** Cash-and-carry is not day trading or margin borrowing. It's a specific arbitrage that exploits the mispricing between spot and futures markets.
+**Cross-Exam Context:** This arbitrage exists in all futures markets — equity (VIII Ch3), currency (I Ch3), and commodity (XVI Ch5). It's the mechanism that enforces theoretical pricing.
+**Distributor's Pro-Tip:** In practice, transaction costs (STT, brokerage, impact cost) create a 'no-arbitrage band' — futures can deviate from theoretical by the band width without creating profitable arbitrage.]]></text></explanation>
+    </question>
+</QF>

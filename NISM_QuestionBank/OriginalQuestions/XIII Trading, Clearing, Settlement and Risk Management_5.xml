@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the position limit for a client in USDINR futures and options combined?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Higher of 6% of total open interest or USD 20 million equivalent across all exchanges]]></text></answer>
+            <answer correct="no"><text><![CDATA[Higher of 15% of total open interest or USD 100 million equivalent]]></text></answer>
+            <answer correct="no"><text><![CDATA[Higher of 6% of total open interest or USD 50 million equivalent]]></text></answer>
+            <answer correct="no"><text><![CDATA[USD 10 million per exchange with no open interest linkage]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Client-level position limits for USDINR: higher of 6% of total open interest or USD 20 million equivalent across all exchanges combined. For trading members: higher of 15% of total open interest or USD 100 million. Bank TMs authorized by RBI have separate higher limits.
+**The Trap:** USD 100 million is the TM limit (with RBI authorization), not the client limit. USD 50 million is the TM limit for non-INR pairs (EURUSD, GBPUSD, USDJPY).
+**Cross-Exam Context:** Series I Ch7 covers currency position limits in detail. Series XIII compares these with equity position limits (Series VIII) which use MWPL as the key metric.
+**Distributor's Pro-Tip:** Users intending to take positions beyond USD 100 million must provide a written declaration to the stock exchange of the underlying exposure justifying the position.]]></text></explanation>
+    </question>
+</QF>

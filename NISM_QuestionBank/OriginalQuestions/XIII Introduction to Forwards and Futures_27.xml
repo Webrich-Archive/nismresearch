@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_27" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader sells 10 lots of NIFTY futures at 25,200 (lot size 25). NIFTY closes at 25,350. What is the day's MTM?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Loss of Rs 37,500 [(25,200 - 25,350) × 25 × 10 = -150 × 250 = -37,500]]]></text></answer>
+            <answer correct="no"><text><![CDATA[Profit of Rs 37,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs 3,750]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs 375,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Short position MTM = (Sell price - Settlement price) × Lot size × Lots = (25,200 - 25,350) × 25 × 10 = -150 × 250 = -Rs 37,500 (loss). The trader is short, so a price rise causes a loss.
+**The Trap:** Profit would apply if the price had fallen. Rs 3,750 uses 1 lot. Rs 375,000 multiplies by an extra factor of 10.
+**Cross-Exam Context:** Series VIII Ch3 covers NIFTY futures P&L. The 25 lot size is standard for NIFTY futures.
+**Distributor's Pro-Tip:** A 150-point move is about 0.6% of NIFTY — but on a margin of ~Rs 1.5-2 lakh per lot, this Rs 37,500 loss represents about 2-2.5% of margin per lot. Leverage amplifies losses.]]></text></explanation>
+    </question>
+</QF>

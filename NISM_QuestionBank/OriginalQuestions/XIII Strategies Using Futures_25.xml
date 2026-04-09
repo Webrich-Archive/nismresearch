@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_25" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is basis risk in the context of hedging with futures?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The risk that the spot price and futures price may not move perfectly in tandem, resulting in an imperfect hedge]]></text></answer>
+            <answer correct="no"><text><![CDATA[The risk that the underlying asset does not exist in the spot market]]></text></answer>
+            <answer correct="no"><text><![CDATA[The risk of the exchange defaulting on the futures contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[The risk that margin requirements will increase during the hedge period]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Basis = Spot price - Futures price. Basis risk arises because the relationship between spot and futures prices can change during the hedge period. If basis widens or narrows unexpectedly, the hedge becomes imperfect and the hedger may not achieve the desired lock-in rate.
+**The Trap:** Basis risk is NOT about exchange default (that's counterparty risk) or margin calls (that's funding risk). It's specifically about the imperfect correlation between spot and futures price changes.
+**Cross-Exam Context:** Basis risk is discussed in all three derivative series — it affects currency hedging (I Ch5), bond hedging (IV Ch5), and equity hedging (VIII Ch3).
+**Distributor's Pro-Tip:** Basis risk is unavoidable in any hedge using futures. It's minimized when the futures contract closely matches the underlying exposure in terms of asset type and maturity.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to the Underlying Markets_48" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the equity derivative market, what does MWPL (Market Wide Position Limit) refer to?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The maximum number of open derivative contracts (futures and options) allowed on a single stock across all market participants combined]]></text></answer>
+            <answer correct="no"><text><![CDATA[The maximum amount a single trader can invest in the stock market]]></text></answer>
+            <answer correct="no"><text><![CDATA[The daily trading volume limit set by SEBI for each stock]]></text></answer>
+            <answer correct="no"><text><![CDATA[The maximum number of stocks that can be included in a market index]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** MWPL is the aggregate limit on open positions in F&O contracts for a specific underlying stock across all participants. It is typically set at 20% of the free-float market capitalization expressed in number of shares. When MWPL is breached, trading restrictions are triggered.
+**The Trap:** MWPL is not about individual trader limits (those are client-level position limits) or daily volume — it's about the total open interest in derivatives for that stock.
+**Cross-Exam Context:** Series VIII Ch7 covers MWPL in detail. Series I has position limits for currency derivatives (e.g., USD 20M client limit). Series XIII compares position limit structures across markets.
+**Distributor's Pro-Tip:** When MWPL utilization crosses 95%, the stock enters a ban period for F&O — no new positions allowed, only squaring off. Monitor MWPL data for risk management.]]></text></explanation>
+    </question>
+</QF>

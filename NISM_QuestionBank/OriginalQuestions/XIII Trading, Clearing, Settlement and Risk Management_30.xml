@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_30" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A futures seller's contract settles at Rs 4,50,000. The applicable STT rate for futures is 0.02% on the sell side. What is the STT payable?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 90 (0.02% x Rs 4,50,000 = Rs 90, paid by the seller)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 450 (0.10% x Rs 4,50,000 — using the options exercise STT rate)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 281.25 (0.0625% x Rs 4,50,000 — using the options premium STT rate)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 180 (0.02% x Rs 4,50,000 paid by both buyer and seller = Rs 90 x 2)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** STT on equity futures is 0.02% of the transaction value, payable by the SELLER only. On Rs 4,50,000: STT = 0.02% x 4,50,000 = Rs 90.
+**The Trap:** STT on futures is paid only by the seller, not both parties. The 0.10% rate applies to options on exercise. The 0.0625% rate applies to options premium on the sell side when not exercised.
+**Cross-Exam Context:** STT is levied ONLY on equity derivatives. Currency derivatives and interest rate derivatives are exempt from STT. This makes currency/IR derivatives relatively cheaper for traders from a tax perspective.
+**Distributor's Pro-Tip:** Remember the STT hierarchy: Futures sell 0.02% < Options sell (no exercise) 0.0625% < Options exercise 0.10%. Physical settlement of stock options also attracts STT at delivery rates.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is 'contango' and 'backwardation' in futures markets?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Contango: futures price > spot price (normal carry cost market). Backwardation: futures price < spot price (demand for immediate delivery exceeds forward supply)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Contango: futures price < spot price. Backwardation: futures price > spot price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Contango refers to rising prices. Backwardation refers to falling prices]]></text></answer>
+            <answer correct="no"><text><![CDATA[These terms only apply to commodity markets, not financial derivatives]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Contango (futures > spot) is the normal state when carrying costs are positive. Backwardation (futures < spot) occurs when there's high demand for immediate delivery or high convenience yield. At expiry, futures and spot prices converge regardless of whether the market was in contango or backwardation.
+**The Trap:** Contango/backwardation describe the spot-futures relationship, not price direction. These terms apply to ALL futures markets including equity, currency, and commodity.
+**Cross-Exam Context:** Series VIII Ch3 and Series XVI Ch3 cover these concepts. In currency markets, the equivalent is forward premium (contango) and forward discount (backwardation).
+**Distributor's Pro-Tip:** In contango, rolling long futures positions costs money (negative roll yield). In backwardation, rolling long positions earns money (positive roll yield) — critical for long-term derivative strategies.]]></text></explanation>
+    </question>
+</QF>

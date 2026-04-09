@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Basics of Derivatives_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the difference between a 'swap' and other derivative types?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A swap is an agreement to exchange cash flows over multiple future dates according to a formula — it is essentially a series of forward contracts bundled together]]></text></answer>
+            <answer correct="no"><text><![CDATA[A swap is the same as a futures contract but traded OTC]]></text></answer>
+            <answer correct="no"><text><![CDATA[A swap only involves exchanging equity shares between two parties]]></text></answer>
+            <answer correct="no"><text><![CDATA[Swaps are only used in commodity markets for physical delivery]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A swap involves exchanging cash flows (e.g., fixed for floating interest rate, or one currency for another) at multiple dates. An interest rate swap exchanges fixed payments for floating (MIBOR/SOFR-linked) payments. A currency swap exchanges principal and interest in two currencies. Conceptually, a swap = multiple forwards.
+**The Trap:** Swaps are not the same as futures — they are OTC, customized, and involve multiple exchanges. They exist across all asset classes (IR swaps, currency swaps, equity swaps, commodity swaps).
+**Cross-Exam Context:** Series I Ch2 covers currency swaps. Series IV covers interest rate swaps. Series VIII mentions equity swaps. Swaps are the largest OTC derivative market globally.
+**Distributor's Pro-Tip:** Interest rate swaps are the most liquid OTC derivative globally — they are used to convert floating-rate borrowings to fixed-rate or vice versa, managing interest rate risk efficiently.]]></text></explanation>
+    </question>
+</QF>

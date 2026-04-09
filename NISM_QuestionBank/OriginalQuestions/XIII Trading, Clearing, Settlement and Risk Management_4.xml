@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the ELM (Extreme Loss Margin) rate for USDINR futures contracts?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[1% of the notional value of the gross open position]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.50% of the notional value of the gross open position]]></text></answer>
+            <answer correct="no"><text><![CDATA[3.5% of the notional value of the gross open position]]></text></answer>
+            <answer correct="no"><text><![CDATA[5% of the notional value of the gross open position]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For USDINR currency futures, the ELM is 1% of the notional value. For cross-currency pairs (EURUSD, GBPUSD, USDJPY), the ELM is lower at 0.50%. ELM is charged in addition to SPAN margin for all open positions.
+**The Trap:** 0.50% applies to cross-currency pairs, not USDINR. 3.5% is the equity derivatives ELM for individual stocks. The rates differ across segments.
+**Cross-Exam Context:** Series I Ch7 specifies currency ELM rates. Series VIII Ch7 covers equity ELM (3.5% for stocks, 2% for index). Series XIII compares margin frameworks.
+**Distributor's Pro-Tip:** ELM is an additional margin above SPAN that covers extreme scenarios not captured by the SPAN model. Total initial margin = SPAN margin + ELM.]]></text></explanation>
+    </question>
+</QF>

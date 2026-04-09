@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Accounting and Taxation_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader using currency derivatives for hedging wants to apply hedge accounting. What additional benefit does hedge accounting provide over regular mark-to-market accounting?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Hedge accounting allows matching the timing of gains/losses on the hedging instrument with the hedged item, reducing P&L volatility from the hedging activity]]></text></answer>
+            <answer correct="no"><text><![CDATA[Hedge accounting provides a lower tax rate on derivative gains]]></text></answer>
+            <answer correct="no"><text><![CDATA[Hedge accounting eliminates the need to mark derivative positions to market value]]></text></answer>
+            <answer correct="no"><text><![CDATA[Hedge accounting allows derivative losses to be carried forward for 12 years instead of 8]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Without hedge accounting, derivative MTM goes to P&L immediately while the hedged item (e.g., a forecast transaction) may not yet affect P&L. This mismatch creates P&L volatility despite an economic hedge. Hedge accounting aligns the timing — e.g., in a cash flow hedge, the effective hedge gain/loss goes to OCI until the hedged item affects P&L.
+**The Trap:** Hedge accounting doesn't change tax rates or carry-forward periods. Derivatives still need to be measured at fair value — it changes WHERE the gain/loss is recognized (P&L vs OCI), not whether.
+**Cross-Exam Context:** Hedge accounting is particularly relevant for currency hedging (I Ch9) and interest rate hedging (IV Ch9). Series XIII tests the cross-asset benefit.
+**Distributor's Pro-Tip:** Hedge accounting is mainly used by corporates, not traders. Traders typically don't qualify because their derivative positions don't meet the formal hedging relationship criteria.]]></text></explanation>
+    </question>
+</QF>

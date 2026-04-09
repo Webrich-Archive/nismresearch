@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_74" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An ATM NIFTY call option has theta = -15 and gamma = 0.002. If 5 days pass with no movement in NIFTY, what is the approximate premium loss from time decay?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 75 per unit (15 × 5 = 75), which is Rs 1,875 per lot (75 × 25)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 15 per unit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 375 per unit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 0 (no movement means no change)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Theta = -15 means the option loses Rs 15 per day. Over 5 days (assuming constant theta): 15 × 5 = Rs 75 per unit. Per lot (25): 75 × 25 = Rs 1,875. Note: theta actually accelerates near expiry, so this is an approximation.
+**The Trap:** Rs 15 is for ONE day only. Rs 375 multiplies incorrectly. Even with no underlying movement, the option LOSES value from time decay — 'no movement' doesn't mean 'no change in premium'.
+**Cross-Exam Context:** Theta impact calculations are the same across all option markets. This demonstrates why options are called 'wasting assets'.
+**Distributor's Pro-Tip:** Rs 1,875 per lot over 5 days is the cost of holding this option — multiply by your number of lots to understand your daily 'carrying cost'. This helps decide whether to hold or cut a position.]]></text></explanation>
+    </question>
+</QF>

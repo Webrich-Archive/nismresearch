@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_71" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is an option 'straddle' and when is it used?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buying a call and put at the SAME strike and expiry — used when expecting a large price move in either direction but uncertain about the direction]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buying calls at two different strikes]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buying options on two different underlyings]]></text></answer>
+            <answer correct="no"><text><![CDATA[Selling a call and buying a put at different strikes]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Long straddle = Long call + Long put (same K, same T). Profit if underlying moves significantly above or below K (beyond the combined premium). Max loss = total premium paid (when underlying = K at expiry). BEP: K ± total premium. Used before events expected to cause volatility.
+**The Trap:** Two calls at different strikes is a vertical spread. Two different underlyings is a pair trade. Selling call + buying put at different strikes is a risk reversal.
+**Cross-Exam Context:** Straddles are used across equity (VIII Ch5), currency (I Ch5), and IR options markets. They're pure volatility plays.
+**Distributor's Pro-Tip:** Before budget, elections, or RBI policy, straddles capture the move regardless of direction — but premiums are already inflated (high IV), so the move needs to exceed the combined premium to profit.]]></text></explanation>
+    </question>
+</QF>

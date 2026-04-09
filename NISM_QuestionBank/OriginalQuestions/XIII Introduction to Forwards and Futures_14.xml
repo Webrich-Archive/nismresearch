@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_14" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In bond futures, how does the pricing model differ from equity and currency futures?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Bond futures price reflects the theoretical forward price of the cheapest-to-deliver bond, adjusted by the conversion factor, with the invoice price = Futures price × CF + Accrued interest]]></text></answer>
+            <answer correct="no"><text><![CDATA[Bond futures are priced exactly like equity futures using cost-of-carry with dividends replaced by coupons]]></text></answer>
+            <answer correct="no"><text><![CDATA[Bond futures have no theoretical pricing model — prices are purely supply-demand driven]]></text></answer>
+            <answer correct="no"><text><![CDATA[Bond futures price = 100 minus the spot yield of the underlying bond]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Bond futures are complex because: (1) Multiple bonds can be delivered (deliverable basket), (2) Each bond has a conversion factor to normalize coupons/maturities, (3) The CTD bond drives pricing, (4) Invoice price = Futures price × CF + Accrued interest. The price-yield inverse relationship adds complexity absent in equity futures.
+**The Trap:** While coupons are similar to dividends conceptually, the conversion factor mechanism has no equity equivalent. '100 minus yield' applies to short-term rate futures (like Eurodollar), not bond futures.
+**Cross-Exam Context:** Series IV Ch3 covers bond futures pricing in detail. This is the most complex futures pricing model compared to equity (VIII) and currency (I).
+**Distributor's Pro-Tip:** Bond futures pricing requires understanding the CTD mechanism — the futures price effectively tracks the CTD bond's forward price, and CTD can change as yields shift.]]></text></explanation>
+    </question>
+</QF>

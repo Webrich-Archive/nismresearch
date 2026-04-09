@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is 'calendar spread' in futures markets?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A position involving buying a futures contract of one expiry month and simultaneously selling a futures contract of a different expiry month on the same underlying]]></text></answer>
+            <answer correct="no"><text><![CDATA[A strategy of buying the underlying in the spot market and selling futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[The difference between the opening and closing price of a single futures contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[A strategy of trading futures on different underlyings with the same expiry]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Calendar spread = long one month + short another month on the same underlying. Example: long Nov NIFTY futures + short Dec NIFTY futures. The profit/loss depends on the change in the price difference between the two contract months, not on the absolute price level. Calendar spreads typically have lower margin requirements.
+**The Trap:** Buying spot and selling futures is a cash-and-carry arbitrage, not a calendar spread. Different underlyings with same expiry is an inter-commodity spread.
+**Cross-Exam Context:** Calendar spreads exist in all futures markets — equity (VIII), currency (I), IR (IV), and commodity (XVI). Margin benefits for calendar spreads are similar across markets.
+**Distributor's Pro-Tip:** Calendar spreads are lower-risk than outright positions and receive margin offsets — they're used to express views on the term structure of futures prices (carry/roll dynamics).]]></text></explanation>
+    </question>
+</QF>

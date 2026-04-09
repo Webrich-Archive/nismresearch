@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_38" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the clearing member collateral utilization framework, what happens when a clearing member's utilization reaches 90%?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The clearing member enters risk reduction mode at 90% utilization, where the exchange imposes restrictions on taking new positions and may require additional collateral]]></text></answer>
+            <answer correct="no"><text><![CDATA[The clearing member is immediately suspended from trading and all positions are liquidated]]></text></answer>
+            <answer correct="no"><text><![CDATA[The clearing member receives a warning but can continue trading normally until utilization reaches 100%]]></text></answer>
+            <answer correct="no"><text><![CDATA[The clearing member's margin requirements are reduced by 10% to bring utilization below the threshold]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When a clearing member's collateral utilization reaches 90%, the exchange activates risk reduction mode. In this mode, only offsetting trades (reducing positions) are permitted for the CM's clients. For proprietary positions, the threshold may be 85%. Additional margin/collateral is requested immediately.
+**The Trap:** Risk reduction mode does NOT mean immediate suspension or position liquidation. It restricts new position build-up while allowing square-offs. The 90% and 85% thresholds apply to different categories (client vs proprietary).
+**Cross-Exam Context:** Risk reduction mode is distinct from the MWPL ban (95% of MWPL). The former is CM-specific based on collateral utilization; the latter is stock-specific based on aggregate OI. Both restrict new positions.
+**Distributor's Pro-Tip:** CMs must actively monitor utilization. Risk reduction mode can cascade — if a CM enters risk reduction, all TMs clearing through it are affected, even those individually well-capitalized.]]></text></explanation>
+    </question>
+</QF>

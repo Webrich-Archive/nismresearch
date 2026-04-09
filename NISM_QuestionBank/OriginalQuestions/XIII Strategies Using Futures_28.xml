@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_28" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader creates a long strangle on USDINR by buying an 83.25 call at Rs. 0.17 and an 82.75 put at Rs. 0.12. What are the breakeven points?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Lower BEP: Rs. 82.46, Upper BEP: Rs. 83.54]]></text></answer>
+            <answer correct="no"><text><![CDATA[Lower BEP: Rs. 82.58, Upper BEP: Rs. 83.42]]></text></answer>
+            <answer correct="no"><text><![CDATA[Lower BEP: Rs. 82.75, Upper BEP: Rs. 83.25]]></text></answer>
+            <answer correct="no"><text><![CDATA[Lower BEP: Rs. 82.63, Upper BEP: Rs. 83.37]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Total premium = 0.17 + 0.12 = Rs. 0.29. Lower BEP = Put strike - Total premium = 82.75 - 0.29 = Rs. 82.46. Upper BEP = Call strike + Total premium = 83.25 + 0.29 = Rs. 83.54.
+**The Trap:** Using individual premiums instead of total premium gives wrong BEPs. The total cost of both options must be recovered for the position to break even.
+**Cross-Exam Context:** Series I Ch5 covers strangle BEP calculations for currency options. The same formula applies across all derivative markets.
+**Distributor's Pro-Tip:** The wider the strangle (further OTM strikes), the cheaper it is but the further the market must move to profit. The loss zone is between the two BEPs.]]></text></explanation>
+    </question>
+</QF>

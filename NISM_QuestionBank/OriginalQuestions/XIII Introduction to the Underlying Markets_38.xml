@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to the Underlying Markets_38" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following equity index construction methods is used by both SENSEX and NIFTY 50?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Free-float market capitalization weighted method]]></text></answer>
+            <answer correct="no"><text><![CDATA[Price-weighted method]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equal-weighted method]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fundamental-weighted method based on earnings]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Both SENSEX (BSE) and NIFTY 50 (NSE) use the free-float market capitalization weighted methodology, where each stock's weight depends on its market cap adjusted for the proportion of shares available for public trading.
+**The Trap:** Price-weighted is used by Dow Jones Industrial Average. Equal-weighted indices give the same weight to all constituents. Fundamental weighting is a newer alternative approach.
+**Cross-Exam Context:** Series VIII Ch2 covers index construction methods. Understanding index methodology is crucial for index futures/options pricing and basis risk.
+**Distributor's Pro-Tip:** Free-float weighting means large-cap stocks with high promoter holdings may have less index weight than expected — this affects how well index derivatives hedge individual stock portfolios.]]></text></explanation>
+    </question>
+</QF>

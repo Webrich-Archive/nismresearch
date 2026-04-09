@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the 'put-call parity' relationship?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[C + PV(K) = P + S, meaning a call plus the present value of the strike equals a put plus the underlying — any deviation from this creates an arbitrage opportunity]]></text></answer>
+            <answer correct="no"><text><![CDATA[Call premium is always equal to put premium for the same strike and expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[The sum of all call open interest equals the sum of all put open interest]]></text></answer>
+            <answer correct="no"><text><![CDATA[Put-call parity only works for American options, not European]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Put-call parity (for European options): C + K×e^(-rT) = P + S. It links call and put prices through an arbitrage relationship. If the equation doesn't hold, arbitrageurs can buy the cheap side and sell the expensive side for risk-free profit. This relationship holds across all asset classes.
+**The Trap:** C ≠ P (they're related but not equal). Put-call parity is exact for European options; for American options, it becomes an inequality. It's about pricing consistency, not open interest.
+**Cross-Exam Context:** Put-call parity applies to equity (VIII Ch4), currency (I Ch4), and IR (IV Ch4) options. For currency: C + K×e^(-rfT) = P + S×e^(-rdT) (adjusted for two interest rates).
+**Distributor's Pro-Tip:** Put-call parity violations are rare but indicate genuine mispricing — conversion/reversal arbitrage strategies exploit these deviations when they occur.]]></text></explanation>
+    </question>
+</QF>

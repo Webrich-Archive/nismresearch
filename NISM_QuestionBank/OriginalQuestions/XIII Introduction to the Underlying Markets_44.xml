@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to the Underlying Markets_44" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the Indian government securities market, what is the difference between a 'yield-based auction' and a 'price-based auction'?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Yield-based auctions are used for new securities where bidders bid in terms of yield; price-based auctions are used for reissued securities where bidders bid in terms of price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yield-based auctions are for short-term T-Bills; price-based auctions are for long-term bonds]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yield-based auctions are conducted by SEBI; price-based auctions are conducted by RBI]]></text></answer>
+            <answer correct="no"><text><![CDATA[There is no difference — both terms refer to the same auction mechanism]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For new securities without an existing market price, yield-based auctions are used (bidders specify desired yield). For reissued securities (already trading), price-based auctions are used (bidders specify the price they're willing to pay). The coupon is known for reissued securities.
+**The Trap:** Both types of auctions are conducted by RBI, not different regulators. The distinction is about new vs reissued securities, not tenor.
+**Cross-Exam Context:** Series IV Ch1 covers G-Sec auction mechanisms. Understanding primary market pricing feeds into secondary market and derivative pricing.
+**Distributor's Pro-Tip:** Auction results are closely watched by bond traders — they reveal the market's appetite for government paper and influence the yield curve.]]></text></explanation>
+    </question>
+</QF>

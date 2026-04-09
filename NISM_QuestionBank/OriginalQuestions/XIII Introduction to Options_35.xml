@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_35" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If an equity call option has delta = 0.70, vega = 0.15, theta = -2.50, and the underlying drops Rs 5 while IV rises 2%, what is the approximate change in option premium?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Approximately -Rs 3.20 [Delta effect: 0.70 × (-5) = -3.50; Vega effect: 0.15 × 2 = +0.30; Theta not counted (one-day passage not specified). Net ≈ -3.20]]]></text></answer>
+            <answer correct="no"><text><![CDATA[-Rs 3.50 (only delta effect)]]></text></answer>
+            <answer correct="no"><text><![CDATA[+Rs 0.30 (only vega effect)]]></text></answer>
+            <answer correct="no"><text><![CDATA[-Rs 5.70 (all three effects added)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Delta impact: 0.70 × (-5) = -3.50 (price drop hurts call). Vega impact: 0.15 × 2 = +0.30 (volatility rise helps). If we're looking at just these two effects (no time passage specified): -3.50 + 0.30 = -3.20.
+**The Trap:** Considering only delta ignores the volatility impact. Only vega ignores the larger price move impact. Adding theta requires specifying time period (it's daily decay).
+**Cross-Exam Context:** Multi-Greek scenario analysis applies across all option markets. Professional traders run these calculations for their entire book.
+**Distributor's Pro-Tip:** In real markets, multiple factors change simultaneously — understanding how Greeks interact helps predict whether your option position will gain or lose in complex scenarios.]]></text></explanation>
+    </question>
+</QF>

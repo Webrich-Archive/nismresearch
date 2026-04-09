@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Legal and Regulatory Environment_43" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the Standard Operating Procedure (SOP) for handling stock exchange outages as prescribed by SEBI?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The affected exchange must immediately inform SEBI and market participants; trading continues on unaffected exchanges; the affected exchange must try to restore operations and give 15 minutes notice before resuming]]></text></answer>
+            <answer correct="no"><text><![CDATA[All exchanges must halt trading simultaneously if any one exchange faces an outage]]></text></answer>
+            <answer correct="no"><text><![CDATA[There is no SOP — exchanges handle outages at their discretion without informing SEBI]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trading on all derivative segments is suspended for 24 hours when any exchange faces an outage]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI's SOP (Circular Jan 2023): (1) Affected exchange emails SEBI immediately, (2) Other exchanges continue trading normally, (3) Affected exchange attempts restoration, (4) 15-minute notice before resuming, (5) Extension of trading hours possible. Post-incident reports must be submitted to MIIs and SEBI.
+**The Trap:** Trading does NOT stop on all exchanges — only the affected one. There is a formal SOP, not discretionary handling. The 24-hour suspension is not mandated.
+**Cross-Exam Context:** Series VIII Ch8 covers this SOP. It applies to all exchange segments including derivatives. Series XIII tests understanding of market infrastructure resilience.
+**Distributor's Pro-Tip:** During exchange outages, investors can use the IRRA platform to close positions on the affected exchange, and continue trading on other unaffected exchanges.]]></text></explanation>
+    </question>
+</QF>

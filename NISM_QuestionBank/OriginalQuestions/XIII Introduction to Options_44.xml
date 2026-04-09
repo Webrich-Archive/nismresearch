@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_44" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the relationship between volatility and option premiums for BOTH calls and puts?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Higher volatility increases both call AND put premiums — because greater volatility increases the probability of large price movements in either direction, which benefits the option holder]]></text></answer>
+            <answer correct="no"><text><![CDATA[Higher volatility increases call premiums but decreases put premiums]]></text></answer>
+            <answer correct="no"><text><![CDATA[Higher volatility decreases both call and put premiums]]></text></answer>
+            <answer correct="no"><text><![CDATA[Volatility only affects call premiums, not put premiums]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Both calls and puts benefit from higher volatility: the option holder has limited downside (premium) but benefits from large moves. Higher volatility = greater chance of large favorable moves. This is captured by positive vega for both long calls and long puts.
+**The Trap:** Unlike price movement (which affects calls and puts oppositely), volatility affects both in the SAME direction — increasing both. This is a key insight for volatility trading.
+**Cross-Exam Context:** This volatility-premium relationship is universal across all option markets. It's the foundation of volatility trading strategies (straddles, strangles).
+**Distributor's Pro-Tip:** Before major events (RBI policy, elections, budget), volatility rises and so do premiums — option writers can capture this 'event premium' by selling before the event and covering after.]]></text></explanation>
+    </question>
+</QF>

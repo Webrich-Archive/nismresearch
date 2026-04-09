@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_42" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is 'roll cost' or 'rollover cost' in futures markets?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The cost incurred when an expiring futures position is closed and re-established in the next contract month — it equals the price difference between the two contract months (the calendar spread)]]></text></answer>
+            <answer correct="no"><text><![CDATA[The brokerage fee for trading futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[The margin that must be maintained while holding a futures position]]></text></answer>
+            <answer correct="no"><text><![CDATA[The penalty for holding a futures position past the expiry date]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Roll cost = Far month price - Near month price. In contango, rolling a long position costs money (buy at higher far-month price, sell at lower near-month). In backwardation, rolling a long position earns money. For hedgers maintaining long-term positions, roll cost is a significant ongoing expense.
+**The Trap:** Roll cost is the spread between two contract months, not brokerage or margin. You can't hold past expiry — you must roll before or let the position settle.
+**Cross-Exam Context:** Roll costs apply to all futures markets. In currency futures, roll cost reflects the interest rate differential over the period. In commodity futures, it reflects storage and convenience yield dynamics.
+**Distributor's Pro-Tip:** For long-term hedgers, roll costs can be substantial — a 50-point NIFTY roll cost every month is 600 points annually (~2.4% of NIFTY). Factor this into hedging cost calculations.]]></text></explanation>
+    </question>
+</QF>

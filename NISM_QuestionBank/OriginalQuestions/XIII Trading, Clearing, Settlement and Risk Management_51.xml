@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_51" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What are the regulatory requirements for the delivery options available to the short position holder in bond futures with physical settlement?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The short position holder has the delivery option to choose which eligible bond from the deliverable basket to deliver, typically choosing the cheapest-to-deliver (CTD) bond]]></text></answer>
+            <answer correct="no"><text><![CDATA[The exchange specifies exactly which bond must be delivered — there is no choice available to either party]]></text></answer>
+            <answer correct="no"><text><![CDATA[The long position holder (buyer) chooses which bond to receive from the deliverable basket]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both parties must agree on which bond to deliver, and if they disagree, the exchange assigns a random bond from the basket]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In physically delivered bond futures, the short position holder has the delivery option — they choose which bond from the deliverable basket to deliver. This creates the cheapest-to-deliver (CTD) concept, as the short will logically deliver the bond that minimizes their cost (invoice price minus bond market price).
+**The Trap:** The LONG (buyer) does NOT get to choose — the delivery option belongs to the SHORT (seller). The exchange does not specify the bond; it only defines the deliverable basket. This asymmetry significantly affects pricing.
+**Cross-Exam Context:** Delivery options exist in bond futures (Series IV) but not in equity physical settlement (specific stock delivered) or currency derivatives (all cash-settled). This is a unique feature of bond futures tested in Series XIII.
+**Distributor's Pro-Tip:** The CTD bond's yield and conversion factor determine the bond futures' fair value. When yields change, the CTD can switch from one bond to another, creating sudden basis risk for hedgers.]]></text></explanation>
+    </question>
+</QF>

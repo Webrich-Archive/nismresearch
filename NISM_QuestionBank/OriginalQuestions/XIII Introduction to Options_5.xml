@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is 'Delta' and how does it differ for call and put options?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Delta measures the change in option premium per unit change in underlying price — call delta is positive (0 to +1), put delta is negative (-1 to 0)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Delta measures the time decay of an option premium]]></text></answer>
+            <answer correct="no"><text><![CDATA[Delta is always +1 for calls and -1 for puts regardless of moneyness]]></text></answer>
+            <answer correct="no"><text><![CDATA[Delta measures the sensitivity of option premium to volatility changes]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Call delta: ranges from 0 (deep OTM) to +1 (deep ITM), with ATM ≈ 0.5. Put delta: ranges from -1 (deep ITM) to 0 (deep OTM), with ATM ≈ -0.5. Delta also represents the probability of expiring ITM (approximately) and the hedge ratio for delta-neutral portfolios.
+**The Trap:** Delta = +1/-1 only for deep ITM options. Time decay is theta, not delta. Volatility sensitivity is vega. Delta varies with moneyness, time, and volatility.
+**Cross-Exam Context:** Delta applies to all options — equity (VIII Ch4), currency (I Ch4), IR (IV Ch4). The interpretation and calculation is the same across asset classes.
+**Distributor's Pro-Tip:** Delta as 'probability of expiring ITM' is a practical interpretation — a delta-0.30 call has roughly 30% chance of being ITM at expiry. Use this for quick risk assessment.]]></text></explanation>
+    </question>
+</QF>

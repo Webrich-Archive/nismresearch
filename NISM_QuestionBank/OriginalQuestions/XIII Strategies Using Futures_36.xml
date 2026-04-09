@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_36" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What distinguishes a diagonal spread from vertical and horizontal (calendar) spreads?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A diagonal spread combines options with different strike prices AND different expiry dates]]></text></answer>
+            <answer correct="no"><text><![CDATA[A diagonal spread uses options of different types (one call and one put)]]></text></answer>
+            <answer correct="no"><text><![CDATA[A diagonal spread uses options on different underlying assets]]></text></answer>
+            <answer correct="no"><text><![CDATA[A diagonal spread combines a futures position with an options position]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Vertical spread: same expiry, different strikes. Horizontal (calendar) spread: same strike, different expiries. Diagonal spread: BOTH different strikes AND different expiries — it combines elements of both vertical and horizontal spreads.
+**The Trap:** A diagonal spread still uses the same option type (both calls or both puts) on the same underlying — it doesn't mix calls with puts or use different underlyings.
+**Cross-Exam Context:** All three series (I, IV, VIII Ch5) define these three spread types identically. The classification is universal across derivative markets.
+**Distributor's Pro-Tip:** Diagonal spreads are the most complex of the three — they profit from both directional moves and time decay differences simultaneously.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_46" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What happens to option Greeks near expiry for an ATM option?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Delta approaches 0.5, Gamma becomes very large (delta changes rapidly), Theta becomes very negative (rapid time decay), and Vega decreases (less time for volatility to matter)]]></text></answer>
+            <answer correct="no"><text><![CDATA[All Greeks approach zero near expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Delta approaches 1, Gamma approaches 0, Theta approaches 0]]></text></answer>
+            <answer correct="no"><text><![CDATA[All Greeks remain constant throughout the option's life]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Near expiry for ATM: Delta ≈ 0.5 (uncertain outcome). Gamma spikes (delta can flip rapidly between 0 and 1). Theta is very negative (time value evaporating rapidly). Vega decreases (less time for volatility to play out). This combination creates the 'gamma-theta tradeoff' — high gamma comes with high theta.
+**The Trap:** Greeks don't approach zero — they change dramatically near expiry. Delta doesn't approach 1 for ATM (it stays ≈ 0.5). Greeks are definitely NOT constant.
+**Cross-Exam Context:** This Greek behavior is identical for all ATM options across markets. It's why expiry-week trading is particularly volatile and risky.
+**Distributor's Pro-Tip:** The gamma spike near expiry makes ATM option writing extremely risky — a small move can cause the option to go from OTM to deep ITM rapidly. Many professional traders avoid writing ATM options in the last week.]]></text></explanation>
+    </question>
+</QF>

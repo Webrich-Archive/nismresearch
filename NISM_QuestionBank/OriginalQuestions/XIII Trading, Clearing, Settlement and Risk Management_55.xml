@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_55" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A portfolio manager holds Rs 500 crore in government bonds and wants to hedge interest rate risk using bond futures. The cheapest-to-deliver bond has a conversion factor of 0.92. If the bond portfolio's modified duration is 7.5 years and the CTD bond's modified duration is 6.8 years, approximately how many futures contracts (each with Rs 2 lakh face value) should be used for a duration-neutral hedge?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Approximately 29,891 contracts [Hedge ratio = (Portfolio value / Futures value per contract) x (Portfolio duration / CTD duration) x (1 / Conversion factor) = (500,00,00,000 / 2,00,000) x (7.5 / 6.8) x (1 / 0.92) ≈ 29,891]]]></text></answer>
+            <answer correct="no"><text><![CDATA[25,000 contracts (simply Rs 500 crore / Rs 2 lakh per contract, ignoring duration and conversion factor adjustments)]]></text></answer>
+            <answer correct="no"><text><![CDATA[27,574 contracts (adjusting for duration but not for conversion factor)]]></text></answer>
+            <answer correct="no"><text><![CDATA[20,000 contracts (using a standard 80% hedge ratio without duration or conversion factor adjustment)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Number of contracts = (Portfolio value / Contract face value) x (Portfolio modified duration / CTD modified duration) x (1 / Conversion factor). = (500,00,00,000 / 2,00,000) x (7.5 / 6.8) x (1 / 0.92) = 25,000 x 1.1029 x 1.0870 ≈ 29,891 contracts.
+**The Trap:** Simply dividing portfolio value by contract value (25,000) ignores the duration mismatch and conversion factor. Both adjustments are necessary: duration ratio accounts for different interest rate sensitivities, and the conversion factor adjustment accounts for the price relationship between the futures and CTD bond.
+**Cross-Exam Context:** This integrates interest rate derivative knowledge (Series IV) with practical portfolio hedging. Compare with equity hedging (using beta-adjusted hedge ratios) and currency hedging (using notional value matching).
+**Distributor's Pro-Tip:** The hedge ratio changes as duration, CTD identity, and conversion factors change. Dynamic rebalancing is needed. Also, if the portfolio contains bonds different from the CTD, basis risk remains — the hedge is approximate, not perfect.]]></text></explanation>
+    </question>
+</QF>

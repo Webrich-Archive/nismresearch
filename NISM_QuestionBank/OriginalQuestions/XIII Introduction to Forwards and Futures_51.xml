@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_51" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the settlement mechanism for USDINR currency futures at expiry?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Cash settlement in INR based on the RBI/FBIL reference rate on the last trading day — no physical delivery of USD takes place]]></text></answer>
+            <answer correct="no"><text><![CDATA[Physical delivery of USD against INR through bank accounts]]></text></answer>
+            <answer correct="no"><text><![CDATA[Settlement in USD through CCIL clearing]]></text></answer>
+            <answer correct="no"><text><![CDATA[The buyer chooses between cash settlement and physical delivery]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** USDINR futures on Indian exchanges are cash settled in INR. The final settlement price is the FBIL reference rate (previously RBI reference rate) for USDINR on the last trading day. No actual USD changes hands — only the difference between entry price and settlement price is exchanged in INR.
+**The Trap:** Physical delivery is not available for exchange-traded currency futures in India (unlike OTC forwards). The settlement is always in INR, not USD.
+**Cross-Exam Context:** Series I Ch7 covers currency futures settlement. Compare with equity stock futures (physical delivery since 2018-19 for stocks) and commodity futures (both physical and cash options).
+**Distributor's Pro-Tip:** Cash settlement means currency futures users who actually need USD must still transact in the spot/forward market — futures hedge the price risk but don't provide delivery.]]></text></explanation>
+    </question>
+</QF>

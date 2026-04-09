@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What are the five key factors that determine the price of an option?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Spot price of underlying, strike price, time to expiry, volatility of underlying, and risk-free interest rate]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only supply and demand in the options market]]></text></answer>
+            <answer correct="no"><text><![CDATA[Spot price, strike price, and the option's previous closing price]]></text></answer>
+            <answer correct="no"><text><![CDATA[GDP growth rate, inflation rate, exchange rate, fiscal deficit, and trade balance]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The five factors in the Black-Scholes model: (1) S — spot price, (2) K — strike price, (3) T — time to expiry, (4) σ — volatility, (5) r — risk-free rate. For dividend-paying stocks, a sixth factor (dividend yield) is also relevant. For currency options, two interest rates matter.
+**The Trap:** Supply-demand affects price but works THROUGH these five fundamental factors. Previous closing price is not a pricing input. Macro factors affect the underlying spot, not options directly.
+**Cross-Exam Context:** Series VIII Ch4 covers these for equity. Series I Ch4 for currency (adds foreign interest rate). Series IV Ch4 for IR options. The factors are universal.
+**Distributor's Pro-Tip:** Of the five factors, volatility has the most debatable value (it's forward-looking) — this is why option traders are essentially 'volatility traders' more than direction traders.]]></text></explanation>
+    </question>
+</QF>

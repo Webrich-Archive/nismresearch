@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A client has a net open position of USD 18 million in USDINR futures. The Extreme Loss Margin (ELM) rate for USDINR is 1%. What is the ELM amount the clearing corporation will levy on this position?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 18 lakh (USD 18 million x 1% = USD 180,000, which at notional INR conversion equals 1% of the notional value)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 9 lakh, because ELM for currency is 0.50% for all pairs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 36 lakh, because ELM is 2% for currency derivatives similar to equity index futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 63 lakh, because ELM is 3.5% for all exchange-traded derivatives]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** ELM for currency derivatives is 1% of the notional value for USDINR pairs and 0.50% for cross-currency pairs (EURUSD, GBPUSD, USDJPY). On USD 18 million notional, ELM = 1% x 18,000,000 = USD 180,000 equivalent in INR.
+**The Trap:** The 0.50% rate applies only to cross-currency pairs (non-INR), not to USDINR. The 2% and 3.5% rates are equity segment ELM rates for index and stock derivatives respectively.
+**Cross-Exam Context:** Compare ELM rates across segments — Currency: 1% USDINR / 0.50% cross; Equity: 2% index / 3.5% stocks. Interest rate derivatives use SPAN-based margining similar to equity.
+**Distributor's Pro-Tip:** ELM is charged over and above SPAN margin. Lower ELM for cross-currency pairs reflects their lower volatility compared to USDINR pairs.]]></text></explanation>
+    </question>
+</QF>

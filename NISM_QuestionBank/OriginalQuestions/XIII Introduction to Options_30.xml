@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_30" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the 'breakeven price' at expiry for a long call option with strike Rs 500 and premium Rs 30?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 530 (Strike + Premium = 500 + 30). The underlying must rise above Rs 530 for the option buyer to make a profit at expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 470 (Strike - Premium)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 500 (the strike price itself)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 530 for profit, but Rs 500 for the option to be exercised]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** BEP (call) = K + Premium = 500 + 30 = Rs 530. At 530, gross payoff (530-500 = 30) exactly equals premium paid (30), so net profit = 0. Above 530: profit. Below 530 but above 500: option is exercised but at a net loss. Below 500: option expires worthless, loss = 30.
+**The Trap:** Rs 470 is the BEP for a long put at the same strike. Rs 500 is the exercise point, not the profit point. The last option correctly notes both thresholds but isn't a single BEP answer.
+**Cross-Exam Context:** BEP calculations are the same across all option markets. For puts: BEP = K - Premium.
+**Distributor's Pro-Tip:** There's a gap between the exercise price (strike) and the profit point (BEP) — many traders lose money by exercising options that are ITM but below BEP. Always compare spot to BEP, not just to strike.]]></text></explanation>
+    </question>
+</QF>

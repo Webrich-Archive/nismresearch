@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_72" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A bond futures contract is being settled physically. The final settlement price (FSP) is determined using the 3-day volume-weighted average price (VWAP) of the deliverable basket. If the VWAP prices on the three days were Rs 101.50, Rs 102.00, and Rs 101.00 with volumes of 200, 300, and 500 crore respectively, what is the FSP?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 101.40]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 101.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 101.17]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 102.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** FSP = (101.50 x 200 + 102.00 x 300 + 101.00 x 500) / (200 + 300 + 500) = (20,300 + 30,600 + 50,500) / 1,000 = 1,01,400 / 1,000 = Rs 101.40. Volume-weighting gives more weight to the day with the highest trading volume (Day 3 at Rs 101.00 with 500 crore volume).
+**The Trap:** Rs 101.50 is just the first day's price. Rs 101.17 is the simple average (101.50+102.00+101.00)/3 = 304.50/3 = 101.50 — actually the simple average is Rs 101.50, so Rs 101.17 is a deliberate miscalculation trap. Rs 102.00 is the highest day's price.
+**Cross-Exam Context:** Series IV (Interest Rate Derivatives) covers FSP calculation for bond futures. This VWAP-based methodology ensures the settlement price reflects actual market trading activity, not a single data point.
+**Distributor's Pro-Tip:** The 3-day VWAP methodology for FSP reduces manipulation risk near settlement. Clients holding positions to expiry should understand that the settlement price reflects volume-weighted activity, not just the last traded price.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_62" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A NIFTY 25,000 put option is trading at Rs 250 when NIFTY is at 25,100. What is the option's delta approximately?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Approximately -0.40 to -0.45 (slightly OTM put, delta between 0 and -0.50)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately -0.80 (deep ITM put)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 0.00 (deep OTM put)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately -1.00 (at the money)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** This put is slightly OTM (strike 25,000 < spot 25,100). OTM puts have delta between 0 and -0.50, with closer-to-ATM puts having delta closer to -0.50. Given it's only 100 points OTM (0.4%), delta is approximately -0.40 to -0.45.
+**The Trap:** -0.80 would be deep ITM. 0.00 would be deep OTM. -1.00 is only for the deepest ITM puts. The premium (Rs 250) is entirely time value since the option is OTM.
+**Cross-Exam Context:** Estimating delta from moneyness is a practical skill tested across all option markets.
+**Distributor's Pro-Tip:** Quick delta estimation: ATM = 0.50, then adjust by ~0.03-0.05 per 1% of underlying price movement from ATM. This gets you close enough for practical hedging decisions.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Option Trading Strategies_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investor creates a bull call spread: buys NIFTY 25,000 call at Rs 350 and sells NIFTY 25,500 call at Rs 150. What are the maximum profit, maximum loss, and breakeven?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Max profit: Rs 300/unit (500-200). Max loss: Rs 200/unit (net premium). BEP: 25,200 (25,000+200)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Max profit: Rs 500/unit. Max loss: Rs 350/unit. BEP: 25,350]]></text></answer>
+            <answer correct="no"><text><![CDATA[Max profit: Rs 200/unit. Max loss: Rs 300/unit. BEP: 25,300]]></text></answer>
+            <answer correct="no"><text><![CDATA[Max profit: Rs 150/unit. Max loss: Rs 500/unit. BEP: 25,150]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Net premium = 350 - 150 = Rs 200 (paid). Max profit = (25,500 - 25,000) - 200 = 500 - 200 = Rs 300. Max loss = Rs 200 (net premium). BEP = 25,000 + 200 = 25,200. Per lot (25): max profit Rs 7,500, max loss Rs 5,000.
+**The Trap:** Rs 500 is the spread width, not max profit (must subtract net premium). Rs 350 is the premium paid for the long call only, not net.
+**Cross-Exam Context:** This calculation is tested in Series VIII Ch5. The same structure applies to currency spreads (Series I Ch5).
+**Distributor's Pro-Tip:** The risk-reward ratio here is 300:200 = 1.5:1. Look for spreads with at least 1.5:1 reward-to-risk. The trade-off is capping your upside at 25,500.]]></text></explanation>
+    </question>
+</QF>

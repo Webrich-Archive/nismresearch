@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to the Underlying Markets_47" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the 'Macaulay Duration' of a 5-year zero-coupon bond?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[5 years (equal to its maturity since there are no intermediate cash flows)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Less than 5 years because duration is always less than maturity]]></text></answer>
+            <answer correct="no"><text><![CDATA[2.5 years (half the maturity period)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cannot be determined without knowing the yield]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For a zero-coupon bond, all cash flow occurs at maturity. The weighted average time of cash flows = maturity itself. So Macaulay Duration = 5 years. This is the only case where duration equals maturity.
+**The Trap:** For coupon-bearing bonds, duration IS always less than maturity. But for zero-coupon bonds, the rule changes — duration = maturity exactly. Yield is not needed for this conclusion.
+**Cross-Exam Context:** Series IV Ch1 covers this fundamental property. Duration-based hedging strategies (Series IV Ch5) often use zero-coupon securities as benchmarks.
+**Distributor's Pro-Tip:** Zero-coupon bonds have maximum duration for their maturity — they provide the highest interest rate sensitivity, making them ideal for aggressive rate bets using IR derivatives.]]></text></explanation>
+    </question>
+</QF>

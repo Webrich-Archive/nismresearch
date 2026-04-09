@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_33" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the concept of 'normal backwardation' theory in futures markets?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The theory that futures prices are systematically below expected future spot prices because hedgers (who are net short futures) pay a risk premium to speculators (who are net long)]]></text></answer>
+            <answer correct="no"><text><![CDATA[The normal state where futures prices equal spot prices]]></text></answer>
+            <answer correct="no"><text><![CDATA[A situation where all futures contracts are in backwardation]]></text></answer>
+            <answer correct="no"><text><![CDATA[The theory that futures prices always predict future spot prices accurately]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Keynes' normal backwardation theory: commodity producers (hedgers) are typically net short futures, willing to sell below expected spot to lock in prices. Speculators go long, earning a risk premium for bearing this risk. So F < E(ST), where E(ST) is expected future spot price.
+**The Trap:** Normal backwardation is about futures vs EXPECTED spot (not current spot). A market in contango (futures > current spot) can still exhibit normal backwardation if F < E(ST).
+**Cross-Exam Context:** This theory is discussed in commodity (XVI) and equity (VIII) contexts. In currency markets, IRP dominates over risk premium theories.
+**Distributor's Pro-Tip:** If normal backwardation holds, systematic long futures strategies earn positive returns over time — this is the theoretical basis for commodity futures ETFs and trend-following strategies.]]></text></explanation>
+    </question>
+</QF>

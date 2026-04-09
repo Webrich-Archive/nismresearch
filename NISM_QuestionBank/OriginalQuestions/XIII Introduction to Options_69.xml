@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_69" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is 'pin risk' at option expiry?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The risk that the underlying closes very near the option strike price at expiry, creating uncertainty about whether the option will be exercised — this is particularly problematic for option sellers who don't know their assignment status until after market close]]></text></answer>
+            <answer correct="no"><text><![CDATA[The risk of being locked into a position that cannot be closed]]></text></answer>
+            <answer correct="no"><text><![CDATA[The risk associated with entering a Personal Identification Number (PIN) for trading]]></text></answer>
+            <answer correct="no"><text><![CDATA[The risk that the option premium falls to exactly zero before expiry]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** At expiry, if the underlying is very close to the strike (e.g., NIFTY at 24,995 with 25,000 strike), it's uncertain whether the option is ITM or OTM. For sellers, the uncertainty about whether they'll be assigned creates risk — they may or may not need to deliver/receive the underlying.
+**The Trap:** Pin risk is about expiry uncertainty, not about position lockup or security credentials. It's a genuine market risk, especially for physically-settled options.
+**Cross-Exam Context:** Pin risk exists across all option markets but is most significant for physically-settled equity stock options (Series VIII). Cash-settled options have pin risk too (unexpected assignment at margin).
+**Distributor's Pro-Tip:** Close or roll positions before the last few minutes of expiry day to avoid pin risk — the uncertainty isn't worth the few rupees of remaining time value.]]></text></explanation>
+    </question>
+</QF>

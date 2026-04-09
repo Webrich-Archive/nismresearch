@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_57" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In currency derivatives trading, when a trading member's collateral utilization reaches 90% of the available limit, what restriction is triggered?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Risk reduction mode — only square-off orders are permitted]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trading is completely suspended for the member]]></text></answer>
+            <answer correct="no"><text><![CDATA[New positions are allowed but with double margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[An alert is sent but no trading restriction is imposed]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** At 90% collateral utilization, the exchange places the trading member in risk reduction mode where only square-off (closing) orders are accepted. This prevents the member from increasing exposure when already near limits. At 85%, auto square-off of positions is triggered.
+**The Trap:** Complete suspension is too extreme — the member can still close positions. Double margin is not the mechanism used. A mere alert without restriction would fail to manage risk.
+**Cross-Exam Context:** Series I (Currency Derivatives) specifies the 90% and 85% thresholds. Equity derivatives (Series VIII) have similar risk management frameworks but the specific trigger levels may differ.
+**Distributor's Pro-Tip:** Risk reduction mode is a safety net — distributors should ensure clients maintain comfortable margin buffers well below 90% to avoid forced square-offs at unfavorable prices.]]></text></explanation>
+    </question>
+</QF>

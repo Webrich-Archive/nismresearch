@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_80" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A client has bought 1,000 shares of Reliance in the cash segment at Rs 2,500 each and sold 4 lots of Reliance futures (lot size 250, price Rs 2,510). The VaR margin on cash is 12% and SPAN margin on futures is 14%. What is the total margin without cross-margin benefit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 6,51,400]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 3,00,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 3,51,400]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 9,51,400]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Cash margin = 12% x 1,000 x Rs 2,500 = Rs 3,00,000. Futures margin = 14% x 4 lots x 250 x Rs 2,510 = 14% x Rs 25,10,000 = Rs 3,51,400. Total without cross-margin = Rs 3,00,000 + Rs 3,51,400 = Rs 6,51,400. Each segment's margin is computed independently and then added.
+**The Trap:** Rs 3,00,000 includes only the cash margin. Rs 3,51,400 includes only the futures margin. Rs 9,51,400 incorrectly adds an extra component. The key is to compute each leg's margin separately and sum them.
+**Cross-Exam Context:** Cross-margining between cash and F&O is covered in Series VIII (Equity Derivatives). This benefit is unique to equity derivatives — currency and commodity derivatives do not offer cross-segment margining with their cash markets in the same way.
+**Distributor's Pro-Tip:** Without cross-margining, hedged positions consume significant capital. Advisors should help clients apply for cross-margin benefit where eligible — this can free up substantial capital for clients running hedged books across cash and F&O segments.]]></text></explanation>
+    </question>
+</QF>

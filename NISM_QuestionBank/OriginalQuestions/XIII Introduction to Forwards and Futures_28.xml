@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_28" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the context of IR futures, what does '100 minus yield' pricing convention mean?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Short-term interest rate futures (like T-Bill futures) are quoted as 100 minus the annualized yield, so a yield of 6% gives a price of 94.00 — this means prices rise when yields fall]]></text></answer>
+            <answer correct="no"><text><![CDATA[The futures price is always Rs 100 minus the spot bond price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The maximum loss on an IR futures position is limited to 100 minus the entry price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The futures contract expires worthless if yield exceeds 100%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For short-term rate futures: Price = 100 - Yield. If yield is 5.5%, price = 94.50. If yield falls to 5.0%, price rises to 95.00. A buyer (long) profits when yields fall. This convention makes the price-yield relationship intuitive for trading — buying futures = expecting rate decline.
+**The Trap:** This applies to short-term rate futures (3-month, 91-day), not bond futures (which are quoted in price terms). The convention exists because it's easier to trade prices than yields.
+**Cross-Exam Context:** Series IV Ch3 covers this pricing convention. This is unique to IR futures — equity and currency futures are quoted directly in price terms.
+**Distributor's Pro-Tip:** Each basis point (0.01%) change in yield = 0.01 change in futures price. For a contract size of Rs 2 lakh, this means Rs 5 per basis point — use this for quick P&L estimation.]]></text></explanation>
+    </question>
+</QF>

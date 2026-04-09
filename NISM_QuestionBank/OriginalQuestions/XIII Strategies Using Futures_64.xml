@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_64" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the formula for calculating the number of equity index futures contracts to change portfolio beta from its current level to a target beta?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[(Target Beta - Current Beta) × Portfolio Value / (Futures Price × Lot Size)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Target Beta × Portfolio Value / (Futures Price × Lot Size)]]></text></answer>
+            <answer correct="no"><text><![CDATA[(Current Beta - Target Beta) × Portfolio Value / (Futures Price × Lot Size)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Current Beta × Target Beta × Portfolio Value / (Futures Price × Lot Size)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** To change beta: N = (βT - βC) × V / (F × L). If target > current, N is positive (buy futures to increase beta). If target < current, N is negative (sell futures to decrease beta). If target = 0, the formula reduces to the full hedge formula: -βC × V / (F × L).
+**The Trap:** The formula uses the difference in betas, not a product. Using (Current - Target) instead of (Target - Current) would reverse the trade direction.
+**Cross-Exam Context:** Series VIII Ch5 covers beta modification using futures. Series IV has an analogous formula for changing portfolio duration using bond futures.
+**Distributor's Pro-Tip:** You can also use futures to INCREASE portfolio beta (leverage) — buy futures to synthetically increase exposure. This is cheaper than buying additional stocks.]]></text></explanation>
+    </question>
+</QF>

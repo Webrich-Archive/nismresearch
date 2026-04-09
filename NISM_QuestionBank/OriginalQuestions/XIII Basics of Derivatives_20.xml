@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Basics of Derivatives_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the fundamental difference in how the three underlying markets (equity, currency, bond) determine value?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Equity value is driven by corporate earnings and growth expectations; currency value is driven by relative economic fundamentals and interest rate differentials between countries; bond value is driven by interest rates, credit quality, and maturity]]></text></answer>
+            <answer correct="no"><text><![CDATA[All three markets determine value solely based on supply and demand with no fundamental drivers]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equity and currency values are determined by government policy while bond values are market-determined]]></text></answer>
+            <answer correct="no"><text><![CDATA[All three markets use the same discounted cash flow model with identical inputs]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Each market has distinct value drivers: Equities = earnings (P/E), growth, dividends. Currencies = relative GDP, trade balance, interest rate differentials, inflation. Bonds = interest rates, credit risk, duration. While supply-demand affects all markets, the fundamental drivers differ, which is why different derivative pricing models are used.
+**The Trap:** While supply-demand is always a factor, fundamental drivers differ significantly. All markets are influenced by both government policy and market forces. DCF applies differently — equity DCF uses earnings, bond DCF uses coupon/principal.
+**Cross-Exam Context:** This is the quintessential Series XIII synthesis question — understanding different value drivers explains why derivative pricing models differ across asset classes.
+**Distributor's Pro-Tip:** Cross-asset derivative trading requires understanding these different drivers — a rate hike is positive for currency (via IRP), negative for bonds (inverse price-yield), and often negative for equities (higher discount rate).]]></text></explanation>
+    </question>
+</QF>

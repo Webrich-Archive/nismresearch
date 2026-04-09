@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to the Underlying Markets_78" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following is a key difference between how corporate actions affect equity derivatives versus other derivative markets?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[In equity derivatives, corporate actions (dividends, stock splits, bonuses) require contract adjustments to the strike price and lot size; currency and IR derivatives have no equivalent corporate actions affecting contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[Corporate actions affect all derivative markets equally]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only currency derivatives are affected by corporate actions through central bank actions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Corporate actions do not affect any derivative contracts]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Equity derivatives require adjustments for corporate actions like dividends (above ordinary threshold), stock splits, bonus issues, rights issues — the exchange adjusts strike prices and/or lot sizes. Currency pairs don't have dividends or splits. Bond futures may adjust for coupon changes but this is via the conversion factor, not corporate action adjustments.
+**The Trap:** Central bank actions (rate changes) affect currency markets but are not 'corporate actions.' Bond coupons are predetermined and don't require mid-contract adjustments.
+**Cross-Exam Context:** Series VIII Ch7 covers corporate action adjustments for equity F&O. This is unique to equity derivatives and doesn't apply to Series I or IV content.
+**Distributor's Pro-Tip:** Failure to account for corporate action adjustments is a common source of derivative mispricing — always check exchange circulars for pending adjustments before trading.]]></text></explanation>
+    </question>
+</QF>

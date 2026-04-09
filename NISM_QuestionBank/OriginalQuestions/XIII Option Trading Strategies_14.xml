@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Option Trading Strategies_14" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is a 'ratio spread' and when might it be used?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buying fewer options at one strike and selling more options at a different strike (e.g., buy 1 ATM call, sell 2 OTM calls) — used when expecting moderate movement to the sold strike level, but with risk beyond that level]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buying equal numbers of calls and puts at different ratios to their premium]]></text></answer>
+            <answer correct="no"><text><![CDATA[A spread where the ratio of premium to lot size is optimized]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trading options in a fixed ratio to futures contracts]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Ratio call spread: Buy 1×K1 call + Sell 2×K2 calls (K2 > K1). Max profit at K2. Net premium can be zero or credit. Risk: above K2, the extra short call creates unlimited upside risk. It's like a bull spread financed by extra short calls.
+**The Trap:** Ratio spreads are NOT about premium-to-lot ratios or option-to-futures ratios. The 'ratio' refers to the unequal number of long and short options. The unmatched short options create risk beyond the sold strike.
+**Cross-Exam Context:** Ratio spreads exist in all option markets. In currency options, they can be used for cheap hedging when willing to accept risk beyond a certain level.
+**Distributor's Pro-Tip:** Ratio spreads can be set up for zero cost or a credit — but the uncovered short options mean you're taking naked risk beyond the sold strike. Use only with strict stop-losses.]]></text></explanation>
+    </question>
+</QF>

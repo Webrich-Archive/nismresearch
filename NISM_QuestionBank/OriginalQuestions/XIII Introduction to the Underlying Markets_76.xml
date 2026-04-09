@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to the Underlying Markets_76" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the concept of 'novation' in derivative clearing and how does it apply across all exchange-traded derivative markets?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Novation is the process where the clearing corporation interposes itself between the buyer and seller, becoming the counterparty to both sides — replacing the original bilateral contract with two contracts involving the CCP]]></text></answer>
+            <answer correct="no"><text><![CDATA[Novation is the introduction of a new derivative product by an exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[Novation is the rolling over of an expiring derivative contract to the next month]]></text></answer>
+            <answer correct="no"><text><![CDATA[Novation is the process of converting an OTC derivative into an exchange-traded contract]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Through novation, the clearing corporation (CC) becomes the buyer to every seller and seller to every buyer. This eliminates counterparty risk in exchange-traded derivatives. The concept applies identically to equity, currency, IR, and commodity derivatives on exchanges.
+**The Trap:** Novation is about counterparty substitution, not product introduction or contract rollover. Converting OTC to exchange-traded is called 'clearing' not novation.
+**Cross-Exam Context:** Series VII, VIII, I, IV, and XVI all cover novation by clearing corporations. It's a fundamental exchange-traded derivative concept for Series XIII.
+**Distributor's Pro-Tip:** Novation is what makes exchange-traded derivatives 'safe' — even if your counterparty defaults, the CCP guarantees your trade. This is funded through the Settlement Guarantee Fund.]]></text></explanation>
+    </question>
+</QF>

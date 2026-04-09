@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_42" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the maximum loss for writing (selling) a naked call option?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Theoretically unlimited — because the underlying price can rise without bound. Loss = (S - K) - Premium received, which grows as S increases above K]]></text></answer>
+            <answer correct="no"><text><![CDATA[Limited to the premium received]]></text></answer>
+            <answer correct="no"><text><![CDATA[Limited to the strike price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Limited to twice the premium received]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Naked call seller: if the underlying rises significantly above K, the seller must deliver at K (or cash settle the difference). Since there's no upper bound on the underlying's price, the loss is theoretically unlimited. Example: if K = 100, premium = 5, and S expires at 150, loss = (150-100) - 5 = 45 per unit.
+**The Trap:** Premium received is the max PROFIT, not max loss. Strike price doesn't limit the loss. The loss has no theoretical upper bound.
+**Cross-Exam Context:** This unlimited risk applies to all naked call options across markets. It's why exchanges require substantial margin from option sellers.
+**Distributor's Pro-Tip:** NEVER sell naked calls without a risk management plan — always have a stop-loss or convert to a spread (by buying a higher strike call) to cap the maximum loss.]]></text></explanation>
+    </question>
+</QF>

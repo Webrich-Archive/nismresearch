@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader buys 5 lots of USDINR futures at Rs 83.50 (lot size 1000 USD). The settlement price moves to Rs 83.75. What is the MTM profit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 1,250 [(83.75 - 83.50) × 1000 × 5 = 0.25 × 5000 = 1,250]]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 125]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 12,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 250]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** MTM profit = (Settlement price - Entry price) × Lot size × Number of lots = (83.75 - 83.50) × 1000 × 5 = 0.25 × 5000 = Rs 1,250. Each lot is 1000 USD, so total exposure is 5000 USD.
+**The Trap:** Rs 125 uses only 1 lot. Rs 12,500 multiplies by an extra factor. Rs 250 uses 1 lot and rounds incorrectly.
+**Cross-Exam Context:** Series I Ch3 covers USDINR futures P&L. The lot size of 1000 USD is standard for USDINR contracts on NSE.
+**Distributor's Pro-Tip:** In currency futures, even small moves matter due to leverage — 0.25 paise move on 5 lots generates Rs 1,250, while the margin required might be only Rs 10,000-15,000 per lot.]]></text></explanation>
+    </question>
+</QF>

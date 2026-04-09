@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_76" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In which market does the futures pricing model explicitly use TWO interest rates as inputs?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Currency derivatives — the Interest Rate Parity model uses both domestic and foreign interest rates to determine the fair futures price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equity derivatives — the cost-of-carry model uses both risk-free rate and dividend yield]]></text></answer>
+            <answer correct="no"><text><![CDATA[Interest rate derivatives — the bond futures pricing uses both coupon rate and repo rate]]></text></answer>
+            <answer correct="no"><text><![CDATA[All derivative markets use exactly two interest rates for pricing]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Currency futures: F = S × (1 + R_domestic × t) / (1 + R_foreign × t). The formula explicitly uses two interest rates — the domestic currency rate and the foreign currency rate. Equity CoC uses risk-free rate minus dividend yield (not two interest rates). Bond futures use conversion factors and one reference yield.
+**The Trap:** Equity CoC does use rate minus yield, but the dividend yield is NOT an interest rate. Bond futures pricing involves coupon and market yield but doesn't use the IRP formula.
+**Cross-Exam Context:** This is a XIII-unique cross-asset comparison testing understanding of different pricing models across Series I, IV, and VIII.
+**Distributor's Pro-Tip:** The IRP model explains why currencies with higher interest rates trade at a forward premium — the rate differential is priced into futures.]]></text></explanation>
+    </question>
+</QF>

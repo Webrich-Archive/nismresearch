@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_44" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investor with foreign equity investments worth USD 100,000 purchased at USDINR 83 sees the stocks appreciate to USD 115,000 but USDINR falls to 81. What is the return in INR terms?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[12.23%]]></text></answer>
+            <answer correct="no"><text><![CDATA[15.00%]]></text></answer>
+            <answer correct="no"><text><![CDATA[17.77%]]></text></answer>
+            <answer correct="no"><text><![CDATA[10.00%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Initial investment in INR = 100,000 × 83 = Rs. 83,00,000. Final value in INR = 115,000 × 81 = Rs. 93,15,000. Return = (93,15,000 - 83,00,000) / 83,00,000 = 10,15,000 / 83,00,000 = 12.23%.
+**The Trap:** 15% is the USD return (ignoring currency effect). 17.77% would be the return if USDINR had risen to 85 instead of falling to 81. The INR appreciation reduced the return from 15% to 12.23%.
+**Cross-Exam Context:** Series I Ch5 covers this exact foreign investment return calculation. Series XIII uses it to demonstrate why currency hedging is critical for overseas investments.
+**Distributor's Pro-Tip:** For overseas investments, the total INR return = asset return + currency return. When INR appreciates, it erodes overseas investment returns.]]></text></explanation>
+    </question>
+</QF>

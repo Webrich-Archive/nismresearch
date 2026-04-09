@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Basics of Derivatives_18" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What does 'open interest' indicate in derivative markets?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The total number of outstanding derivative contracts that have not yet been settled — it increases when new contracts are created and decreases when existing contracts are closed]]></text></answer>
+            <answer correct="no"><text><![CDATA[The number of traders currently placing orders in the market]]></text></answer>
+            <answer correct="no"><text><![CDATA[The total trading volume for the day]]></text></answer>
+            <answer correct="no"><text><![CDATA[The number of contracts available for delivery]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Open interest = total outstanding contracts. When a new buyer and new seller create a contract, OI increases by 1. When an existing long and existing short close their positions against each other, OI decreases by 1. OI is different from volume (which counts all transactions, including opening and closing).
+**The Trap:** OI ≠ volume. Volume counts all trades during the day; OI counts only positions still open at end of day. High volume with flat OI means existing positions are being transferred, not new ones created.
+**Cross-Exam Context:** Open interest is tracked across all derivative markets. Rising OI with rising prices = bullish; rising OI with falling prices = bearish. This interpretation is universal.
+**Distributor's Pro-Tip:** Open interest analysis is one of the most powerful tools for derivative traders — it reveals whether money is flowing into or out of a contract, signaling conviction behind price moves.]]></text></explanation>
+    </question>
+</QF>

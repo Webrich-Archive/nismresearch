@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_27" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In currency options, what is the right an importer would typically buy to hedge against INR depreciation?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A call option on USDINR (right to buy USD at a fixed strike price in INR) — if INR depreciates (USDINR rises), the call gains value, offsetting the higher cost of imports]]></text></answer>
+            <answer correct="no"><text><![CDATA[A put option on USDINR]]></text></answer>
+            <answer correct="no"><text><![CDATA[A call option on INRUSD]]></text></answer>
+            <answer correct="no"><text><![CDATA[A futures contract, not an option — options can't hedge currency risk]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** An importer needs to buy USD to pay for imports. If INR depreciates (USDINR rises), imports become costlier. Buying a USDINR call lets them buy USD at the strike if the rate rises. If INR strengthens, they let the option expire and buy USD cheaper in the spot market — they benefit from favorable moves while being protected against adverse ones.
+**The Trap:** A USDINR put protects against INR appreciation (relevant for exporters, not importers). Options CAN and DO hedge currency risk — they offer better flexibility than futures because of the asymmetric payoff.
+**Cross-Exam Context:** Series I Ch4-5 cover currency option hedging. This practical application distinguishes options from futures — options allow benefiting from favorable moves.
+**Distributor's Pro-Tip:** The premium paid for the currency call is the 'cost of insurance' — compare it with the futures-implied hedge cost to decide between options and futures for hedging.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_70" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trading member's client has accumulated positions exceeding the client-level position limit in Nifty futures. The exchange detects this during end-of-day monitoring. What is the most likely consequence?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The exchange directs the trading member to reduce the client's position to within limits, and penalties may be imposed]]></text></answer>
+            <answer correct="no"><text><![CDATA[The exchange automatically liquidates all of the client's positions across all segments]]></text></answer>
+            <answer correct="no"><text><![CDATA[The trading member's license is immediately suspended]]></text></answer>
+            <answer correct="no"><text><![CDATA[No action is taken since position limits are only advisory]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When position limits are breached, the exchange typically directs the trading member to ensure the client reduces positions to within the permissible limit by the next trading day. Penalties for the breach may be imposed on the trading member. The exchange does not typically auto-liquidate all positions immediately.
+**The Trap:** Full liquidation across all segments is too drastic. License suspension is reserved for serious or repeated violations. Position limits are NOT advisory — they are mandatory regulatory requirements enforced by exchanges and clearing corporations.
+**Cross-Exam Context:** Position limits exist in all derivative segments — equity (Series VIII with MWPL), currency (Series I with RBI-prescribed limits), and interest rate (Series IV). Series XIII tests the monitoring and enforcement framework.
+**Distributor's Pro-Tip:** Monitor client positions proactively — especially near expiry when open interest tends to concentrate. A breach can lead to forced reduction at unfavorable prices and reputational risk for the trading member.]]></text></explanation>
+    </question>
+</QF>

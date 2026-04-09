@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_43" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the role of co-location services offered by exchanges, and how do they relate to fair market access?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Co-location allows members to place their trading servers within the exchange premises for lowest possible latency, with SEBI requiring equal access (same latency) for all co-located members]]></text></answer>
+            <answer correct="no"><text><![CDATA[Co-location gives certain members faster access to market data than others, creating a legitimate speed advantage]]></text></answer>
+            <answer correct="no"><text><![CDATA[Co-location is available only to clearing members and is prohibited for trading-only members]]></text></answer>
+            <answer correct="no"><text><![CDATA[Co-location services are provided free of cost by exchanges as part of their obligation to ensure fair access]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Co-location allows exchange members to host their trading servers in the same data center as the exchange matching engine, minimizing network latency. SEBI mandates that all co-located members must receive market data and order confirmations with equal latency — no member gets preferential speed.
+**The Trap:** Co-location does NOT provide unequal speed advantages among co-located members — SEBI's fair access norms ensure equal latency. It IS a paid service, not free. It is available to all categories of members, not restricted to clearing members.
+**Cross-Exam Context:** Co-location is available across equity, currency, and interest rate segments. Combined with DMA and algo trading, it forms the technology infrastructure layer tested in Series XIII cross-segment questions.
+**Distributor's Pro-Tip:** The SEBI order on co-location (the NSE co-location case) emphasized that exchanges must ensure no member gets preferential access. Tick-by-tick data dissemination through multicast ensures all co-located servers receive data simultaneously.]]></text></explanation>
+    </question>
+</QF>

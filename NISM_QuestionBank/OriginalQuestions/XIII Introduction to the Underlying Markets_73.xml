@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to the Underlying Markets_73" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the 'conversion factor' in the context of government bond futures?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A factor that adjusts the settlement price of a bond futures contract to account for the coupon and maturity differences among deliverable bonds, making them approximately equivalent]]></text></answer>
+            <answer correct="no"><text><![CDATA[The rate at which foreign currency bonds are converted to INR equivalent]]></text></answer>
+            <answer correct="no"><text><![CDATA[The ratio used to convert bond yields from annual to semi-annual compounding]]></text></answer>
+            <answer correct="no"><text><![CDATA[A regulatory factor applied by SEBI to determine position limits in bond futures]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Since bond futures allow delivery of multiple eligible bonds with different coupons and maturities, the conversion factor adjusts the invoice price so that bonds with different characteristics can be delivered against the same futures contract. CF makes all deliverable bonds approximately equal in value.
+**The Trap:** Conversion factor is specific to bond futures settlement — it has nothing to do with currency conversion or yield convention changes.
+**Cross-Exam Context:** Series IV Ch3 covers conversion factors for IR futures. This concept is unique to bond derivatives and has no equivalent in equity or currency futures.
+**Distributor's Pro-Tip:** Conversion factors only approximate equivalence — the CTD bond is the one where the approximation works most in the short seller's favor.]]></text></explanation>
+    </question>
+</QF>

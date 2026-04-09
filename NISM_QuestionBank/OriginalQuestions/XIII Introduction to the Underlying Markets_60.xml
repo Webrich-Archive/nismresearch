@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to the Underlying Markets_60" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A bond with Modified Duration of 7.5 is currently priced at Rs 1000. If the yield increases by 0.5%, what is the approximate price change?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The price decreases by approximately Rs 37.50 (7.5 × 0.5% × 1000)]]></text></answer>
+            <answer correct="no"><text><![CDATA[The price increases by approximately Rs 37.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[The price decreases by approximately Rs 75.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[The price decreases by approximately Rs 7.50]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Approximate price change = -Modified Duration × Δyield × Price = -7.5 × 0.005 × 1000 = -Rs 37.50. The negative sign indicates price falls when yield rises. This is the first-order (linear) approximation; convexity provides the second-order correction.
+**The Trap:** Rs 75 uses 1% instead of 0.5%. Rs 7.50 divides by 10 incorrectly. The price DECREASES (not increases) when yield rises — the inverse relationship is fundamental.
+**Cross-Exam Context:** Series IV Ch1 covers duration-based price estimation. This calculation is the basis for duration-based hedging with IR futures (Series IV Ch5, Series XIII strategies).
+**Distributor's Pro-Tip:** This calculation is the foundation of IR risk management — portfolio managers use it daily to estimate P&L impact of yield changes and size their derivative hedges accordingly.]]></text></explanation>
+    </question>
+</QF>

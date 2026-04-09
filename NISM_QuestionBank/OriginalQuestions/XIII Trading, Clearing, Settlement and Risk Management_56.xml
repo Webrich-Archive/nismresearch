@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_56" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader holds a long Nifty futures position worth Rs 10 lakh in the F&O segment and a short Nifty position worth Rs 10 lakh in the cash segment. If the initial margin on each leg is 15% and cross-margining provides a 70% reduction on the hedged portion, what is the approximate total margin required after cross-margin benefit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 90,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 3,00,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 1,50,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 45,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Without cross-margin: 15% x Rs 10L + 15% x Rs 10L = Rs 3,00,000. With cross-margin benefit of 70% reduction on the hedged (offsetting) portion: Rs 3,00,000 x (1 - 0.70) = Rs 90,000. Cross-margining recognizes that opposite positions in cash and F&O segments offset each other's risk.
+**The Trap:** Rs 3,00,000 ignores the cross-margin benefit entirely. Rs 1,50,000 applies only 50% benefit. Rs 45,000 wrongly applies the 70% reduction twice.
+**Cross-Exam Context:** Series VIII (Equity Derivatives) covers cross-margining between cash and F&O in detail. Currency derivatives (Series I) do not currently offer cross-margining with equity segments.
+**Distributor's Pro-Tip:** Cross-margin benefit is available only for offsetting positions — advisors should help clients understand that maintaining hedged books across segments can significantly reduce capital requirements.]]></text></explanation>
+    </question>
+</QF>

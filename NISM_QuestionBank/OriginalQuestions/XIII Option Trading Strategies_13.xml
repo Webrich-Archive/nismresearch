@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Option Trading Strategies_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An importer who needs to buy USD in 3 months creates a zero-cost collar on USDINR with spot at Rs 84: buys Rs 85 call and sells Rs 83 put. What is the effective exchange rate range?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The importer's effective buying rate will be between Rs 83 and Rs 85 — below Rs 83, they are obligated to buy at Rs 83 (due to short put); above Rs 85, they buy at Rs 85 (exercise call); between 83-85, they buy at market rate]]></text></answer>
+            <answer correct="no"><text><![CDATA[The effective rate is always Rs 84 regardless of market movement]]></text></answer>
+            <answer correct="no"><text><![CDATA[The importer buys at Rs 85 only if USDINR rises above Rs 85]]></text></answer>
+            <answer correct="no"><text><![CDATA[The collar guarantees the importer can always buy at Rs 83]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Collar creates a band: If USDINR < 83: put is exercised against importer — they must buy at 83 (floor). If 83 ≤ USDINR ≤ 85: both options expire OTM — buy at market rate. If USDINR > 85: call is exercised — buy at 85 (cap). The importer is protected above 85 but gives up benefit below 83.
+**The Trap:** The rate isn't fixed at 84 — it varies within the 83-85 band. Below 83, the put obligation kicks in. The importer can't always buy at 83 — they must buy at 83 even if the market rate is lower.
+**Cross-Exam Context:** Currency collars are covered in Series I Ch5. This is the most common hedging structure for importers/exporters in practice.
+**Distributor's Pro-Tip:** Zero-cost collars are the most popular corporate hedging tool because they cost nothing upfront — the trade-off is giving up favorable moves beyond the sold option's strike.]]></text></explanation>
+    </question>
+</QF>

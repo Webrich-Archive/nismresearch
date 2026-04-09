@@ -1,8 +1,8 @@
 # NISM Question Bank — Handoff Document
 
-**Date:** April 8, 2026 (Updated after Session 12 — Phase 8b: Series VII Generation)
-**Status:** 13 of 31 exams complete, 5,643 questions generated. Series I and VIII fully audited and type-rebalanced.
-**For:** Fresh conversation to continue. Next action: Phase 7 — Generate Series XIII (Common Derivatives), or Phase 10 — Generate Series IX (Merchant Banking)
+**Date:** April 9, 2026 (Updated after Phase 7 — Series XIII Complete)
+**Status:** 14 of 31 exams complete, 6,143 questions generated. Series XIII (Common Derivatives) fully generated — 500 questions from I+IV+VIII composite.
+**For:** Next session should start with Phase 10 — Series IX (Merchant Banking).
 
 ---
 
@@ -24,33 +24,33 @@
 | Series III-A - Securities Intermediaries Compliance (Non-Fund) | III-A | 500 | 10 | Hard | Generated from PDF (5% calc, 35% conceptual, 55% regulatory) |
 | Series III-C - Securities Intermediaries Compliance (Fund) | III-C | 500 | 17 | Hard | Generated from PDF (5% calc, 30% conceptual, 60% regulatory, 5% application) |
 | Series VII - Securities Operations and Risk Management | VII | 500 | 8 | Moderate | Generated from PDF (10% calc, 50% conceptual, 30% regulatory, 10% application) |
-| **Total** | | **5,250** | **125** | | |
+| Series XVI - Commodity Derivatives | XVI | 500 | 10 | Moderate | Generated from PDF (20% calc, 45% conceptual, 25% regulatory, 10% application) |
+| Series XIII - Common Derivatives (Composite) | XIII | 500 | 10 | Hard | Generated from I+IV+VIII PDFs (30% calc, 40% conceptual, 20% regulatory, 10% application) |
+| **Total** | | **6,143** | **142** | | |
 
 ### Generated Files
 
 ```
 /Users/shivam/aiworkspace/nismresearch/NISM_QuestionBank/
-├── ExamWeightages.plist          (31 exams, topic names aligned with file prefixes for 10 completed exams)
-├── Topics.plist                  (125 topics, 5,318 questions)
-├── TopicsLite.plist              (125 topics, ~1,915 free-tier questions)
-├── ChapterArticles.plist         (125 chapters, each with single "All Topics" article)
-├── QuestionToArticleNumber.plist (5,318 entries, all mapping to article "1")
-├── OriginalQuestions/            (5,318 XML files)
+├── ExamWeightages.plist          (31 exams, topic names aligned with file prefixes for 14 completed exams)
+├── Topics.plist                  (142 topics, 6,143 questions)
+├── TopicsLite.plist              (142 topics, ~2,209 free-tier questions)
+├── ChapterArticles.plist         (142 chapters, each with single "All Topics" article)
+├── QuestionToArticleNumber.plist (6,143 entries, all mapping to article "1")
+├── OriginalQuestions/            (6,143 XML files)
 ├── manifest.json                 (progress tracking — version 5.0)
 ├── TaxRatesReference_FY2025-26.md (verified tax rates)
 ├── 15 audit report files         (detailed per-chapter audit results for first 5 exams)
 └── HANDOFF.md                    (this file)
 ```
 
-### Validation Status (All Pass — verified Session 12)
+### Validation Status (All Pass — verified Session 15)
 - 5/5 plists: OK (plutil)
-- 5,318/5,318 XML files: valid (xml.etree.ElementTree)
-- 0 duplicates, all unique IDs
-- 125 plist topics == 125 file prefixes: PERFECT MATCH
-- Series III-C: 17 ExamWeightages topics ↔ 17 file prefixes: MATCH
-- Series III-A: 10 ExamWeightages topics ↔ 10 file prefixes: MATCH
-- Series VI: 13 ExamWeightages topics ↔ 13 file prefixes: MATCH
-- All TopicsLite ratios ≥ 30% for all topics
+- 6,143/6,143 XML files: valid (xml.etree.ElementTree)
+- 0 duplicates, all unique IDs (including cross-check XIII vs I/IV/VIII)
+- 142 plist topics == 142 file prefixes: PERFECT MATCH
+- Series XIII: 10 ExamWeightages topics ↔ 10 file prefixes: MATCH, weightages sum = 100%
+- All TopicsLite ratios ≥ 30% for all 142 topics
 
 ### Comprehensive Audit Results (Post-Session 4 Gap Analysis)
 
@@ -253,14 +253,92 @@ An audit session will:
 | 5 | **Audit Series I** | — | 1 | PDF page-by-page audit + gap-fill |
 | 6a | IV (Interest Rate Derivatives) | 500 | 1 | **DONE** — 500 Qs, 10 topics, all validated. Hard (35% calc). |
 | 6b | XVI (Commodity Derivatives) | 500 | 1 | **DONE** — 500 Qs, 10 topics, all validated. Moderate (20% calc). |
-| 7 | XIII (Common Derivatives) | 500 | 1 | Composite of I+IV+VIII. See "Series XIII Reuse Strategy" below. |
+| 7a | XIII (Common Derivatives) — Topics 1-5 | 260 | 1 | **DONE** — 260 Qs (80+20+65+75+20), 5 topics, from I+IV+VIII PDFs. |
+| 7b | XIII (Common Derivatives) — Topics 6-10 | 240 | 1 | **DONE** — 240 Qs (80+85+45+20+10), 5 topics, from I+IV+VIII PDFs. |
+
+---
+
+### Phase 7 Parallel Execution Plan — Series XIII (Common Derivatives)
+
+**Overview:** Series XIII is a 150-question, 3-hour composite exam covering Currency (I), Interest Rate (IV), and Equity (VIII) derivatives. No separate PDF exists — source material is the I, IV, and VIII workbooks. Pool target: 500 questions. Decision: Strategy A — all questions get new `"XIII "` prefixed IDs with content adapted/reworded from I+IV+VIII (not copy-pasted).
+
+**Pre-work completed (before either session starts):**
+- ExamWeightages.plist updated: all 10 XIII topics now have "XIII " prefix
+- Weightages verified: sum = 100%
+- Plist validated: plutil OK
+
+#### Phase 7a — Derivative Concepts & Instruments (Machine 1)
+
+**Topics to generate (5 topics, ~260 questions):**
+
+| Topic (file prefix) | Qs | Weightage | Source Chapters |
+|---|:-:|:-:|---|
+| XIII Introduction to the Underlying Markets | 80 | 16% | I Ch1-2 (currency/forex markets), IV Ch1 (bond markets, yield curve), VIII Ch1-2 (equity markets, index concepts) |
+| XIII Basics of Derivatives | 20 | 4% | VIII Ch1 (derivative definition, types, history), I Ch2 (FX derivatives overview), IV Ch2 (IR derivatives overview) |
+| XIII Introduction to Forwards and Futures | 65 | 13% | I Ch3 (currency futures, IRP pricing), IV Ch3 (IR futures, bond futures), VIII Ch3 (equity/index futures, cost-of-carry) |
+| XIII Introduction to Options | 75 | 15% | I Ch4 (currency options, Greeks), IV Ch4 (IR options, caps/floors/swaptions), VIII Ch4 (equity options, Black-Scholes) |
+| XIII Option Trading Strategies | 20 | 3% | I Ch5 (currency option strategies), VIII Ch5 (equity option strategies — spreads, straddles, strangles) |
+
+**Question mix target:** 30% calculation, 40% conceptual, 20% regulatory, 10% application
+
+**Key instructions:**
+1. Read relevant chapters from all 3 PDFs (I, IV, VIII) for each topic
+2. Questions must be REWORDED — do not copy verbatim from Series I/IV/VIII question banks
+3. ~70% of content adapts existing I+IV+VIII concepts; ~30% should be XIII-unique cross-asset comparisons (e.g., "Which derivative type uses interest rate parity for pricing?" comparing currency/IR/equity)
+4. File naming: `XIII {Topic Name}_{N}.xml` (e.g., `XIII Introduction to the Underlying Markets_1.xml`)
+5. ID inside XML must match filename without .xml extension
+6. Use CDATA wrapping for all text fields
+7. Explanation format: The Logic / The Trap / Cross-Exam Context / Distributor's Pro-Tip
+
+**Source PDFs:**
+- `/Users/shivam/aiworkspace/nismresearch/study material/1 NISM-Series-I Currency Derivatives Certification Examination_ December 2025.pdf`
+- `/Users/shivam/aiworkspace/nismresearch/study material/NISM-Series-IV Interest Rates Derivatives Certification Examination_December 2025.pdf`
+- `/Users/shivam/aiworkspace/nismresearch/study material/NISM-Series-VIII Equity Derivatives Certification Examination_December 2025_v1.pdf`
+
+**DO NOT regenerate plists or update HANDOFF.md at the end.** Just write the XML files and report what was generated. The cleanup session will handle plists.
+
+---
+
+#### Phase 7b — Strategies, Operations & Regulation (Machine 2)
+
+**Topics to generate (5 topics, ~240 questions):**
+
+| Topic (file prefix) | Qs | Weightage | Source Chapters |
+|---|:-:|:-:|---|
+| XIII Strategies Using Futures | 80 | 16% | I Ch5 (currency hedging/speculation/arbitrage), IV Ch5 (IR hedging, duration-based), VIII Ch3 (equity hedging, beta adjustment) |
+| XIII Trading, Clearing, Settlement and Risk Management | 85 | 17% | I Ch6-7 (currency trading/clearing, SPAN, ELM), IV Ch6-7 (IR trading/clearing), VIII Ch6-7 (equity trading/clearing, margins, position limits) |
+| XIII Legal and Regulatory Environment | 45 | 9% | I Ch8 (SEBI-RBI dual regulation, FEMA, bank eligibility), IV Ch8 (RBI guidelines, SCRA), VIII Ch8 (SEBI derivative regs, L.C. Gupta, net worth) |
+| XIII Accounting and Taxation | 20 | 4% | I Ch9 (ICAI guidance, Ind AS 109, forex taxation), IV Ch9 (IR derivative accounting), VIII Ch9 (F&O taxation, STT, non-speculative) |
+| XIII Sales Practices, Code of Conduct and Investor Protection | 10 | 3% | I Ch10 (KYC, SCORES, grievance), IV Ch10 (code of conduct), VIII Ch10 (investor protection, IRRA) |
+
+**Question mix target:** 30% calculation, 40% conceptual, 20% regulatory, 10% application
+(Note: Topics 8-10 will skew more regulatory/conceptual; Topic 6-7 will have more calculations)
+
+**Key instructions:** Same as Phase 7a (reword, don't copy; CDATA; explanation format; "XIII " prefix).
+
+**Source PDFs:** Same 3 PDFs as Phase 7a.
+
+**DO NOT regenerate plists or update HANDOFF.md at the end.** Just write the XML files and report what was generated. The cleanup session will handle plists.
+
+---
+
+#### After Both Sessions Complete — Cleanup Step
+
+Once BOTH Phase 7a and 7b are done, run a quick cleanup:
+1. Regenerate all 5 plists using the standard Python pipeline (see "Step 5: Regenerate Plists" section)
+2. Run full validation (plutil, XML validity, duplicates, topic alignment, TopicsLite ratios)
+3. Verify: no verbatim duplicates between XIII questions and I/IV/VIII questions
+4. Update HANDOFF.md with final XIII question counts
+5. Git commit
+
+---
 
 ### Priority 2: Operations and Compliance Cluster
 
 | Phase | Exams | Pool Target | Est. Sessions | Notes |
 |-------|-------|:-----------:|:-------------:|-------|
-| 8 | VI (Depository Ops) | 500 | 1 | Moderate. Heavy on DP functions. |
-| 8 | VII (Securities Ops) | 500 | 1 | Moderate. Trade life cycle, margins. |
+| 8a | VI (Depository Ops) | 500 | 1 | **DONE** — 500 Qs, 13 topics, all validated. |
+| 8b | VII (Securities Ops) | 500 | 1 | **DONE** — 500 Qs, 8 topics, all validated. |
 | 9 | III-A (Compliance Non-Fund) | 500 | 1 | **DONE** — 500 Qs, 10 topics, all validated. Heavy regulatory (55%). |
 | 9 | III-C (Compliance Fund) | 500 | 1 | **DONE** — 500 Qs, 17 topics, all validated. Heavy regulatory (60%). |
 
@@ -947,7 +1025,40 @@ When generating exam questions, every question MUST be based on content actually
 - **Validation: All 5,643 XML files valid, 0 errors, 0 duplicates, 132 topics aligned, all 5 plists OK**
 - **Total after Session 13: 5,643 questions, 132 topics, all plists valid**
 - **Next actions:**
-  - Phase 7: Generate Series XIII (Common Derivatives) — depends on I+IV+VIII audit completion
-  - Phase 8b already completed (Session 12: Series VII)
+  - Phase 7: Generate Series XIII (Common Derivatives) — split into 7a + 7b for parallel execution
 
-*Handoff document updated April 8, 2026 after Session 13 completion.*
+### Session 14 (April 9, 2026)
+- **Pre-Phase 7 setup:**
+  - ExamWeightages.plist updated: added "XIII " prefix to all 10 Series XIII topic names
+  - Validated: plutil OK, weightages sum = 100%
+  - HANDOFF.md updated with Phase 7a/7b parallel execution plan
+  - Phase 7a (Topics 1-5, ~260 Qs) and Phase 7b (Topics 6-10, ~240 Qs) designed for parallel execution on two machines
+  - Cleanup step documented: after both complete, regenerate plists + validate + commit
+
+### Session 15 (April 9, 2026)
+- **Phase 7b: Generate Series XIII (Common Derivatives) — Topics 6-10 (240 questions)**
+- Source material: Series I, IV, and VIII PDFs (Chapters 3-10 from each)
+- **240 new questions across 5 topics with "XIII " prefix:**
+  - Topic 6: XIII Strategies Using Futures — 80 Qs (35% calc, 40% conceptual, 15% regulatory, 10% application)
+    - Cross-asset hedging: beta (equity) vs duration (IR) vs notional (currency), option strategies, arbitrage, convergence
+  - Topic 7: XIII Trading, Clearing, Settlement and Risk Management — 85 Qs (25% calc, 40% conceptual, 25% regulatory, 10% application)
+    - SPAN, ELM rates across segments, position limits, settlement mechanisms, novation, Core SGF, IRRA
+  - Topic 8: XIII Legal and Regulatory Environment — 45 Qs (5% calc, 20% conceptual, 70% regulatory, 5% application)
+    - SEBI-RBI dual regulation, SCRA Section 18A, L.C. Gupta/J.R. Verma committees, FEMA, bank eligibility
+  - Topic 9: XIII Accounting and Taxation — 20 Qs (40% calc, 30% conceptual, 20% regulatory, 10% application)
+    - Non-speculative classification (Section 43(5)), STT/CTT comparison, hedge accounting, presumptive taxation
+  - Topic 10: XIII Sales Practices, Code of Conduct and Investor Protection — 10 Qs (0% calc, 40% conceptual, 50% regulatory, 10% application)
+    - Code of conduct, KYC, SCORES 2.0, grievance escalation, SMART ODR, RDD, NISM certification
+- **~30% of questions are XIII-unique cross-asset comparison questions**
+- **Phase 7 Cleanup completed:**
+  - All 5 plists regenerated: 142 topics, 6,143 questions
+  - plutil: all 5 OK
+  - Validation: 500/500 XIII XML files valid, 0 internal duplicates, 0 cross-exam duplicates (vs I/IV/VIII)
+  - Topic alignment: 10 ExamWeightages XIII topics == 10 file prefixes PERFECT MATCH
+  - TopicsLite: all 142 topics ≥ 30%
+  - HANDOFF.md updated with final XIII counts
+- **Combined Phase 7 result: Series XIII complete — 500 questions (260 Phase 7a + 240 Phase 7b)**
+- **Total after Session 15: 6,143 questions, 142 topics, 14 exams complete, all plists valid**
+- **Next action: Phase 10 — Series IX (Merchant Banking) — 500 questions from PDF**
+
+*Handoff document updated April 9, 2026 — Phase 7 complete, Series XIII fully generated.*

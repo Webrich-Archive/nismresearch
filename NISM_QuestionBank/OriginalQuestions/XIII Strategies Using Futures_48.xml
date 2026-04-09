@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_48" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What does the put-call ratio (PCR) indicate when it is significantly above 1?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[More puts are being traded than calls, which could indicate bearish sentiment or hedging activity in the market]]></text></answer>
+            <answer correct="no"><text><![CDATA[More calls are being traded than puts, indicating strong bullish sentiment]]></text></answer>
+            <answer correct="no"><text><![CDATA[The market is perfectly balanced between bulls and bears]]></text></answer>
+            <answer correct="no"><text><![CDATA[Options are overpriced relative to the underlying asset]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** PCR = Total Put Volume (or OI) / Total Call Volume (or OI). PCR > 1 means more puts are being traded/held. This could mean: (a) bearish sentiment (traders buying puts for downside bets), or (b) portfolio hedging (fund managers buying protective puts). Conversely, PCR < 1 suggests bullish sentiment.
+**The Trap:** A high PCR doesn't always mean the market will fall — it can also be contrarian bullish if excessive put buying indicates peak pessimism (market near a bottom).
+**Cross-Exam Context:** Series VIII Ch5 covers PCR interpretation for equity options. The concept applies to currency and interest rate options as well.
+**Distributor's Pro-Tip:** PCR is a sentiment indicator, not a directional predictor. Use it alongside other indicators like price trends and open interest changes for a complete picture.]]></text></explanation>
+    </question>
+</QF>

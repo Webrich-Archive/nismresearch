@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_34" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the 'time value' of an ATM option and how does it compare to ITM and OTM options?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[ATM options have the HIGHEST time value because the probability of ending either ITM or OTM is approximately 50% — ITM options have less time value (partially replaced by intrinsic) and OTM options also have less time value (lower probability of becoming profitable)]]></text></answer>
+            <answer correct="no"><text><![CDATA[All options have the same time value regardless of moneyness]]></text></answer>
+            <answer correct="no"><text><![CDATA[OTM options have the highest time value because they have no intrinsic value]]></text></answer>
+            <answer correct="no"><text><![CDATA[ITM options have the highest time value because they are the most valuable]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Time value reflects uncertainty about the option's final payoff. At ATM, uncertainty is maximum (50/50 ITM/OTM). ITM options: time value is lower because part of the value is 'locked in' as intrinsic. OTM options: time value is lower because the probability of payoff is small.
+**The Trap:** OTM options have ALL their value as time value, but the AMOUNT is lower than ATM. ITM options are the most valuable TOTAL, but their time value component is less than ATM.
+**Cross-Exam Context:** This relationship holds for all options — equity, currency, IR, and commodity. It's why ATM options are the most vega-sensitive.
+**Distributor's Pro-Tip:** ATM straddles are the purest volatility plays — their high time value means they benefit most from volatility increases (positive vega) and lose most from time decay (negative theta).]]></text></explanation>
+    </question>
+</QF>

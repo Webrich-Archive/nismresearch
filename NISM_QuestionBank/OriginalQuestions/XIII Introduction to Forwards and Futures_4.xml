@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How does the cost-of-carry model for commodity futures differ from equity futures?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Commodity futures include storage costs and may include a convenience yield: F = S + Storage costs - Convenience yield + Interest cost]]></text></answer>
+            <answer correct="no"><text><![CDATA[Commodity futures use the same formula as equity futures with no modifications]]></text></answer>
+            <answer correct="no"><text><![CDATA[Commodity futures are always priced at exactly the spot price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Commodity futures pricing ignores storage costs and only considers interest rates]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Commodities have physical storage costs (warehousing, insurance) that increase the carry cost. They also may have a 'convenience yield' — the benefit of holding the physical commodity (e.g., for production). So F = S(1+r+s-c)t where s = storage cost and c = convenience yield.
+**The Trap:** Equity futures don't have storage costs (shares are held in demat). Commodities don't have dividends. The convenience yield is unique to commodities.
+**Cross-Exam Context:** Series XVI Ch3 covers commodity cost-of-carry. Series VIII Ch3 for equity. Series XIII compares pricing models across asset classes.
+**Distributor's Pro-Tip:** When convenience yield exceeds carry cost, commodity futures trade below spot (backwardation) — this is a signal of supply tightness in the physical market.]]></text></explanation>
+    </question>
+</QF>

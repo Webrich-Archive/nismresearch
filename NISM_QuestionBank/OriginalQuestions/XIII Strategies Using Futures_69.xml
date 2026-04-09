@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_69" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A corporate issues NCDs at 50 bps spread over G-Secs. If the corporate sold IRF at Rs. 95.60 and the expiry price is Rs. 94.80, what is the gain on the futures position?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 0.80 per bond unit — this reduces the effective borrowing cost as the hedge locks in the lower yield]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 0.80 per bond unit — this increases the borrowing cost as the corporate is short futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 95.60 per bond unit — the full futures entry price is the gain]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 94.80 per bond unit — the expiry price represents the profit]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The corporate sold (shorted) IRF at 95.60 to hedge against rising rates. At expiry, price is 94.80 (rates rose). Gain = 95.60 - 94.80 = Rs. 0.80 per unit. This gain offsets the higher borrowing cost from risen rates. The institution effectively locked in borrowing cost at the lower rate.
+**The Trap:** The gain REDUCES borrowing cost, not increases it. The corporate hedged against rising rates by selling futures — the futures gain compensates for higher NCD issuance rates.
+**Cross-Exam Context:** Series IV Ch5 Section 5.2.3 covers this exact corporate borrowing hedge example. Series XIII tests cross-asset hedging understanding.
+**Distributor's Pro-Tip:** Corporates can use bond futures to lock in borrowing costs before actual issuance — short futures if expecting rates to rise, long futures if expecting rates to fall.]]></text></explanation>
+    </question>
+</QF>

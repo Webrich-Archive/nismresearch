@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_12" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How does the SPAN margining system differ from a simple fixed-percentage margin?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[SPAN uses a portfolio-based approach with 16 scenarios considering both price and volatility changes, providing margin offsets for hedged positions — fixed margins ignore portfolio effects]]></text></answer>
+            <answer correct="no"><text><![CDATA[SPAN charges higher margins than fixed-percentage systems for all positions]]></text></answer>
+            <answer correct="no"><text><![CDATA[SPAN applies only to futures while fixed margins apply to options]]></text></answer>
+            <answer correct="no"><text><![CDATA[There is no practical difference — both calculate the same margin amount]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SPAN evaluates the entire portfolio under 16 scenarios (combinations of price moves up/down/extreme with volatility up/down). It recognizes that offsetting positions reduce risk — e.g., a long futures + short call has less risk than a naked long futures. Fixed margins don't provide such offsets.
+**The Trap:** SPAN can actually result in LOWER margins for hedged portfolios (due to offsets). It applies to both futures and options.
+**Cross-Exam Context:** SPAN is used across all Indian derivative segments. Series XIII compares how SPAN parameters (price scan range, volatility scan range) differ across currency, bond, and equity markets.
+**Distributor's Pro-Tip:** SPAN margin benefit is maximized for hedged books — traders with offsetting positions across futures and options will have lower margin requirements than those with directional positions.]]></text></explanation>
+    </question>
+</QF>

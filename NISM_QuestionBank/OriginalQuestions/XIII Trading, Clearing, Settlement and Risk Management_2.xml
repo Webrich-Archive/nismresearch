@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What are the different types of clearing members in exchange-traded derivatives?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Professional Clearing Member (PCM), Trading cum Clearing Member (TCM), and Self Clearing Member (SCM)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only Trading Members and Clearing Members — there are no sub-categories]]></text></answer>
+            <answer correct="no"><text><![CDATA[Primary Clearing Member, Secondary Clearing Member, and Associate Clearing Member]]></text></answer>
+            <answer correct="no"><text><![CDATA[Bank Clearing Member, Non-Bank Clearing Member, and Institutional Clearing Member]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Three types: (1) PCM — clears trades of associate TMs and institutional clients, NOT a trading member itself. (2) TCM — both trades and clears for self, clients, and other TMs. (3) SCM — trades and clears only for self and own clients, not other TMs.
+**The Trap:** PCM cannot trade — it only clears. SCM cannot clear for other trading members. TCM is the most versatile, doing both.
+**Cross-Exam Context:** This classification is identical across all three derivative series (I, IV, VIII). Series XIII tests unified understanding of the clearing hierarchy.
+**Distributor's Pro-Tip:** A trading member that is NOT a clearing member must route settlement through a TCM or PCM. This is critical for risk management — the CM is responsible for settlement.]]></text></explanation>
+    </question>
+</QF>

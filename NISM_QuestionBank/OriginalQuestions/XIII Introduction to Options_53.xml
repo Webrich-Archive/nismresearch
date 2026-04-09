@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_53" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the relationship between call and put deltas for the same strike and expiry?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Call delta - Put delta = 1 (approximately). For example, if call delta = 0.60, put delta = -0.40. This follows from put-call parity]]></text></answer>
+            <answer correct="no"><text><![CDATA[Call delta = Put delta (they are always equal)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Call delta + Put delta = 0 (they always cancel out)]]></text></answer>
+            <answer correct="no"><text><![CDATA[There is no mathematical relationship between call and put deltas]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** From put-call parity: C - P = S - PV(K). Taking the derivative with respect to S: Δ_call - Δ_put = 1. So Δ_put = Δ_call - 1. If Δ_call = 0.60, then Δ_put = 0.60 - 1 = -0.40. This relationship holds across all European options.
+**The Trap:** They don't cancel to zero (that would mean Δ_call = -Δ_put, which isn't true). They're not equal. There IS a mathematical relationship — it's derived from put-call parity.
+**Cross-Exam Context:** This relationship is universal for European options in all markets (equity, currency, IR, commodity).
+**Distributor's Pro-Tip:** Use this relationship for quick mental math — if you know the call delta, you instantly know the put delta for the same strike. Useful for constructing hedges and synthetic positions.]]></text></explanation>
+    </question>
+</QF>

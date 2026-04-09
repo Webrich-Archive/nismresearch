@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_55" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How do interest rate changes affect call and put option premiums differently?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Higher interest rates increase call premiums (positive Rho) and decrease put premiums (negative Rho) — because higher rates increase the present value advantage of delaying purchase (call) and decrease the present value advantage of delaying sale (put)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Interest rate changes affect calls and puts equally]]></text></answer>
+            <answer correct="no"><text><![CDATA[Higher rates decrease both call and put premiums]]></text></answer>
+            <answer correct="no"><text><![CDATA[Interest rates only matter for IR options, not equity or currency options]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Higher rates: Call value increases (forward price of underlying increases; also, PV of strike decreases for the call buyer). Put value decreases (PV of strike received decreases). This effect is larger for long-dated options and smaller for short-dated. For currency options, BOTH domestic AND foreign rates matter.
+**The Trap:** Calls and puts are affected in OPPOSITE directions by rate changes. The effect applies to ALL options (equity, currency, commodity), not just IR options.
+**Cross-Exam Context:** Series VIII, I, IV, and XVI all discuss Rho. For currency options (I Ch4), the Garman-Kohlhagen model explicitly accounts for both interest rates.
+**Distributor's Pro-Tip:** During rate hike cycles, long-dated call premiums rise and put premiums fall — factor this into long-dated hedging strategies to avoid overpaying for protection.]]></text></explanation>
+    </question>
+</QF>

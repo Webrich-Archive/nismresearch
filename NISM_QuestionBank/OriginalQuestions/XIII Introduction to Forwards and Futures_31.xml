@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_31" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is 'reverse cash and carry arbitrage'?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[When futures are underpriced, sell (short) the underlying in spot, invest the proceeds at the risk-free rate, and buy (long) futures to lock in profit]]></text></answer>
+            <answer correct="no"><text><![CDATA[The opposite of any arbitrage trade — accepting a loss to maintain a position]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buying futures and simultaneously buying the underlying for double exposure]]></text></answer>
+            <answer correct="no"><text><![CDATA[Converting futures positions to options positions to reduce risk]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** If Futures < S(1+r×t), the futures are underpriced. Arbitrage: (1) Short sell the underlying in spot, (2) Invest cash proceeds at risk-free rate, (3) Buy futures. At expiry: take delivery via futures, return borrowed stock. Profit = S(1+r×t) - Futures price > 0.
+**The Trap:** This is a legitimate arbitrage strategy, not a way to accept losses. It requires the ability to short sell the underlying, which may face restrictions.
+**Cross-Exam Context:** Reverse cash-and-carry is possible in equity (VIII) and commodity (XVI) markets. In currency markets, the equivalent involves borrowing/lending in different currencies.
+**Distributor's Pro-Tip:** Short selling restrictions and stock borrowing costs limit reverse cash-and-carry in practice — this is why futures can trade slightly below theoretical without being arbitraged.]]></text></explanation>
+    </question>
+</QF>

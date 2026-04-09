@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_36" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the significance of the 'Final Settlement Price (FSP)' being the 3-day volume-weighted average price (VWAP) for bond futures?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Using 3-day VWAP reduces the risk of price manipulation at expiry and ensures the settlement price reflects genuine market activity over multiple sessions]]></text></answer>
+            <answer correct="no"><text><![CDATA[3-day VWAP is used because bond markets are illiquid and a single-day price would not be representative of fair value]]></text></answer>
+            <answer correct="no"><text><![CDATA[The 3-day VWAP applies only to cash-settled bond futures; physically delivered contracts use the last traded price]]></text></answer>
+            <answer correct="no"><text><![CDATA[3-day VWAP is an approximation method used only when the underlying bond does not trade on the expiry day]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The Final Settlement Price for bond futures is based on the 3-day VWAP of the underlying bond to minimize manipulation risk. A single closing price could be more easily influenced, while a 3-day weighted average is more robust and representative.
+**The Trap:** The 3-day VWAP is not merely a fallback for illiquid markets — it is the standard FSP methodology regardless of liquidity. It applies to the standard settlement mechanism for bond futures.
+**Cross-Exam Context:** Compare FSP methods: Bond futures use 3-day VWAP; equity index futures use last 30-minute weighted average; currency futures use RBI reference rate. Each methodology suits the underlying market's characteristics.
+**Distributor's Pro-Tip:** The FSP methodology directly impacts hedging effectiveness. Bond portfolio managers must understand that settlement is based on a multi-day average, not a point-in-time price, when designing hedge strategies.]]></text></explanation>
+    </question>
+</QF>

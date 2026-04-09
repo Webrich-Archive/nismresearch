@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_32" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the lot size for cross-currency futures (EURUSD, GBPUSD, USDJPY) on Indian exchanges?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[1000 units of the base currency (1000 EUR for EURUSD, 1000 GBP for GBPUSD, 1000 USD for USDJPY)]]></text></answer>
+            <answer correct="no"><text><![CDATA[10,000 units of the base currency]]></text></answer>
+            <answer correct="no"><text><![CDATA[100 units of the base currency]]></text></answer>
+            <answer correct="no"><text><![CDATA[The lot size varies depending on the current exchange rate]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Cross-currency futures on Indian exchanges have a standard lot size of 1000 units of the base currency. EURUSD: 1000 EUR, GBPUSD: 1000 GBP, USDJPY: 1000 USD. Tick sizes are USD 0.0001 for EUR/GBP pairs and JPY 0.01 for USDJPY.
+**The Trap:** The lot size is the same 1000 units across all pairs (matching the USDINR lot of 1000 USD). It doesn't vary with exchange rates.
+**Cross-Exam Context:** Series I Ch3 specifies cross-currency contract specs. These are relatively less liquid than USDINR on Indian exchanges.
+**Distributor's Pro-Tip:** Cross-currency pairs on Indian exchanges allow hedging EUR, GBP, JPY exposure without INR involvement — useful for companies with purely international (non-INR) currency risk.]]></text></explanation>
+    </question>
+</QF>

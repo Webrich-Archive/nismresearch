@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What are 'caps', 'floors', and 'collars' in the interest rate options market?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A cap is a series of call options on interest rates (protection against rate rises); a floor is a series of put options (protection against rate falls); a collar combines a cap and floor to limit rate exposure within a range]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cap, floor, and collar are types of equity option strategies only]]></text></answer>
+            <answer correct="no"><text><![CDATA[They are physical boundaries set by RBI on interest rate movements]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cap = maximum position size; Floor = minimum margin; Collar = combined limit]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** IR caps/floors/collars are OTC option structures: Cap = set of caplets (each a European call on a reference rate for a specific period) — protects a floating-rate borrower against rate rises. Floor = set of floorlets (European puts) — protects a lender. Collar = long cap + short floor — hedges within a range at lower net premium.
+**The Trap:** These are specific to IR markets — not equity strategies. They're market instruments, not regulatory limits. RBI doesn't set caps/floors on interest rates directly.
+**Cross-Exam Context:** Series IV Ch4 covers caps, floors, and collars. These have no direct equivalent in equity options (though collar strategies exist). This is IR-specific content for Series XIII.
+**Distributor's Pro-Tip:** Caps and floors are the most common IR hedging tools for corporates with floating-rate loans — a cap lets you benefit from low rates while protecting against rate spikes.]]></text></explanation>
+    </question>
+</QF>

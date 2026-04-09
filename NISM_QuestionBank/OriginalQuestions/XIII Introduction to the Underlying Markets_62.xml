@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to the Underlying Markets_62" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In a free-float market cap weighted index, if a company has total market cap of Rs 5,00,000 crore but promoter holding is 55%, what is its free-float market cap?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 2,25,000 crore (45% of total market cap)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 5,00,000 crore (total market cap)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 2,75,000 crore (55% of total market cap)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 1,25,000 crore (25% of total market cap)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Free-float market cap = Total market cap × (1 - Promoter holding%) = 5,00,000 × (1 - 0.55) = 5,00,000 × 0.45 = Rs 2,25,000 crore. Only shares available for public trading are counted.
+**The Trap:** Rs 2,75,000 uses the promoter percentage (55%) instead of free-float percentage (45%). Rs 5,00,000 is total market cap without free-float adjustment.
+**Cross-Exam Context:** Series VIII Ch2 covers free-float methodology. This affects index derivative pricing as stocks with low free-float have disproportionately less index weight.
+**Distributor's Pro-Tip:** Changes in promoter holdings (via buybacks, OFS, or stake sales) change free-float and thus index weights — this creates rebalancing-driven demand/supply in index constituents.]]></text></explanation>
+    </question>
+</QF>

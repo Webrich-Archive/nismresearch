@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_14" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What happens when open interest in a stock reaches 95% of the MWPL in equity derivatives?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The stock enters a 'ban period' where no new positions can be created — only existing positions can be squared off or closed]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trading in all derivatives of that stock is halted until OI falls below 80%]]></text></answer>
+            <answer correct="no"><text><![CDATA[The margin requirement doubles for all positions in that stock]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only institutional investors are allowed to trade; retail investors are banned]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When aggregate OI across exchanges reaches 95% of MWPL, the exchange bans fresh positions in all derivative contracts on that stock. Traders can only reduce or close existing positions. The ban is lifted when OI falls below 80% of MWPL on a sustained basis.
+**The Trap:** Trading is NOT completely halted — square-offs are allowed. It's not just margin increase; it's a position creation ban. The ban applies to ALL participants, not selectively.
+**Cross-Exam Context:** Series VIII Ch7 covers MWPL ban periods. This is unique to equity derivatives — currency and interest rate derivatives don't have an equivalent mechanism.
+**Distributor's Pro-Tip:** If your stock enters the ban period and you hold positions, you can exit but can't add. Also, a penalty is levied on any unhedged open positions during the ban period.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_66" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which statement correctly compares settlement mechanisms across different derivative segments in India?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Currency futures are cash-settled in INR, while interest rate bond futures can be physically settled with delivery of underlying bonds]]></text></answer>
+            <answer correct="no"><text><![CDATA[All derivative segments in India are mandatorily physically settled]]></text></answer>
+            <answer correct="no"><text><![CDATA[Currency futures are settled by actual delivery of foreign currency, while equity derivatives are cash-settled]]></text></answer>
+            <answer correct="no"><text><![CDATA[Interest rate futures and currency futures both require physical delivery of the underlying]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Currency futures on Indian exchanges are cash-settled in INR — no actual foreign currency changes hands. Interest rate bond futures (e.g., on government securities) can be physically settled, requiring delivery of bonds from the deliverable basket. Equity stock derivatives are now physically settled while index derivatives remain cash-settled.
+**The Trap:** Currency futures do NOT involve actual delivery of USD/EUR etc. — RBI regulations prohibit this. Not all segments follow the same settlement method. Interest rate futures on overnight rates (like TREPS) are cash-settled, while bond futures can be physically settled.
+**Cross-Exam Context:** Series I covers currency settlement, Series IV covers interest rate settlement, Series VIII covers equity settlement. Understanding these differences is core to Series XIII which spans all segments.
+**Distributor's Pro-Tip:** Physical settlement in equity derivatives means clients must arrange for delivery margins and stock delivery/receipt — this has significant implications for ITM options near expiry that many retail clients overlook.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to the Underlying Markets_35" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In bond markets, what is 'coupon stripping' or a 'zero-coupon bond'?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A zero-coupon bond pays no periodic interest and is issued at a discount to face value, with the return being the difference between purchase price and face value at maturity]]></text></answer>
+            <answer correct="no"><text><![CDATA[A bond where the coupon rate is reduced ('stripped') each year until maturity]]></text></answer>
+            <answer correct="no"><text><![CDATA[A bond that pays coupons only to the original buyer and not to secondary market purchasers]]></text></answer>
+            <answer correct="no"><text><![CDATA[A government bond that is exempt from all taxes on coupon income]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Zero-coupon bonds (or stripped bonds) pay no periodic coupons. They are issued at a discount — the investor's return is entirely from the price appreciation to par value at maturity. Treasury Bills are a common example of zero-coupon instruments.
+**The Trap:** Coupon stripping means separating a bond's coupons from its principal to create individual zero-coupon instruments — it doesn't mean reducing the coupon rate.
+**Cross-Exam Context:** Series IV Ch1 covers zero-coupon bonds. Their duration equals maturity (unlike coupon bonds). This property makes them useful for understanding spot rates and the term structure.
+**Distributor's Pro-Tip:** Zero-coupon bonds have the highest duration (and price sensitivity) for their maturity — they are used in IR derivative strategies requiring maximum rate exposure.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_66" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the 'risk reversal' in options trading?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buying an OTM call and selling an OTM put (bullish) or buying an OTM put and selling an OTM call (bearish) — it creates a directional position with reduced or zero net premium]]></text></answer>
+            <answer correct="no"><text><![CDATA[Reversing a previously opened option position]]></text></answer>
+            <answer correct="no"><text><![CDATA[Converting a call option into a put option through an exchange mechanism]]></text></answer>
+            <answer correct="no"><text><![CDATA[A regulatory mechanism to reverse trades found to be in error]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Risk reversal = long call + short put (bullish) at different strikes. Example: buy NIFTY 25,500 call, sell NIFTY 24,500 put. If premium received from put sale ≈ premium paid for call, it's a zero-cost collar. In FX markets, 25-delta risk reversals are a key indicator of market sentiment.
+**The Trap:** Risk reversal is not reversing a position — it's a specific strategy. You can't convert calls to puts directly. It's a trading strategy, not a regulatory mechanism.
+**Cross-Exam Context:** Risk reversals are used across equity, currency, and commodity options. In FX markets (Series I), 25-delta risk reversal is a standard volatility metric.
+**Distributor's Pro-Tip:** In currency markets, risk reversal quotes tell you the skew — a positive risk reversal (call vol > put vol) indicates market expects currency appreciation. Watch this for directional signals.]]></text></explanation>
+    </question>
+</QF>

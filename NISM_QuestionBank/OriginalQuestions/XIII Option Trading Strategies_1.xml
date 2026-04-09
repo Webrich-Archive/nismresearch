@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Option Trading Strategies_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is a 'bull call spread' and what is its payoff profile?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy a lower strike call and sell a higher strike call with the same expiry — max profit = (high strike - low strike) - net premium paid; max loss = net premium paid; both profit and loss are capped]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy two calls at different strikes without selling any]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy a call and simultaneously buy a put at a lower strike]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell a lower strike call and buy a higher strike call]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Bull call spread: long K1 call + short K2 call (K2 > K1). Net premium = premium paid - premium received. Max profit (at S ≥ K2) = (K2-K1) - net premium. Max loss (at S ≤ K1) = net premium. BEP = K1 + net premium. It's a debit spread (you pay net premium).
+**The Trap:** Selling the lower strike and buying the higher is a bear call spread (credit spread). Buying two calls is a different strategy (ratio spread or simply two directional bets).
+**Cross-Exam Context:** Bull call spreads work across equity (VIII Ch5), currency (I Ch5), and IR options. The structure is identical regardless of the underlying asset class.
+**Distributor's Pro-Tip:** Bull call spreads are the default moderately bullish strategy — they reduce premium cost by sacrificing unlimited upside. Choose strikes based on your expected price target.]]></text></explanation>
+    </question>
+</QF>

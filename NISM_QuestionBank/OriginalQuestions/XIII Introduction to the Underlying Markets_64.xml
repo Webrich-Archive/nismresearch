@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to the Underlying Markets_64" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If the risk-free rate for India is 7% and for the US is 3%, what does interest rate parity suggest about the USDINR forward rate if the spot is Rs 83?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The forward rate should be higher than Rs 83 (INR at a forward discount) because Indian interest rates are higher than US rates]]></text></answer>
+            <answer correct="no"><text><![CDATA[The forward rate should be lower than Rs 83 (INR at a forward premium)]]></text></answer>
+            <answer correct="no"><text><![CDATA[The forward rate should be exactly Rs 83 (no change from spot)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Interest rate parity does not apply to the USDINR pair]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per interest rate parity: F = S × (1 + Rd)/(1 + Rf) = 83 × (1.07)/(1.03) = 83 × 1.0388 ≈ 86.22. Since Indian rates > US rates, INR trades at a forward discount (more INR per USD in forward than spot). Higher domestic rates → currency at forward discount.
+**The Trap:** A common misconception is that higher rates strengthen a currency in forwards — actually, the opposite occurs due to IRP. The currency with higher interest rates depreciates in the forward market.
+**Cross-Exam Context:** Series I Ch3 covers IRP for currency futures pricing. Series IV discusses interest rate differentials. This cross-market concept is central to Series XIII.
+**Distributor's Pro-Tip:** IRP is the fundamental pricing relationship for currency futures — any deviation creates arbitrage opportunities that quickly get corrected by the market.]]></text></explanation>
+    </question>
+</QF>

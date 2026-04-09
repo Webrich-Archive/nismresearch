@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_40" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is 'Close to the Money' (CTM) in the context of option exercise at expiry?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Options that are ITM at expiry within a specified range of the settlement price are automatically exercised, while those barely OTM are not — the exchange defines CTM boundaries for automatic exercise]]></text></answer>
+            <answer correct="no"><text><![CDATA[Options that are exactly at the money (strike = spot at expiry)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Options that are close to being exercised by the buyer but are ultimately abandoned]]></text></answer>
+            <answer correct="no"><text><![CDATA[A classification used only for commodity options, not financial options]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Exchanges define CTM strikes — ITM options within the CTM range are automatically exercised at expiry. This prevents option holders from accidentally missing exercise of ITM options. The specific CTM range varies by product (number of strikes above/below settlement price).
+**The Trap:** CTM is a specific exchange mechanism for automatic exercise, not just a description of moneyness. It applies to all exchange-traded options, not just commodities.
+**Cross-Exam Context:** CTM exercise rules exist for equity options (VIII), currency options (I), and commodity options (XVI). The CTM range may differ across products.
+**Distributor's Pro-Tip:** Always check the CTM boundaries near expiry — if your ITM option is within CTM range, it will be auto-exercised (creating delivery obligation for stock options). Close positions manually if you don't want exercise.]]></text></explanation>
+    </question>
+</QF>

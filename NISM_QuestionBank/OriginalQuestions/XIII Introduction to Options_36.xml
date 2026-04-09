@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_36" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is 'option assignment' and when does it occur?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Assignment is the process where an option seller is notified that the option buyer has exercised their right — the seller must fulfill the obligation to buy (put) or sell (call) the underlying. In Indian exchange-traded options (European), assignment only occurs at expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Assignment is the process of allocating a new option contract to a market maker]]></text></answer>
+            <answer correct="no"><text><![CDATA[Assignment can happen at any time for any option type in India]]></text></answer>
+            <answer correct="no"><text><![CDATA[Assignment only applies to the option buyer, not the seller]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When an option is exercised, the clearing corporation assigns the obligation to an option seller through a random or proportional allocation process. In India, all exchange-traded options are European style, so assignment only happens at expiry (not before).
+**The Trap:** In American options (not traded on Indian exchanges), early assignment is possible. Assignment is the seller's obligation, not the buyer's — the buyer exercises, the seller gets assigned.
+**Cross-Exam Context:** Assignment rules are similar across equity (VIII), currency (I), and commodity (XVI) options in India — all European, so assignment only at expiry.
+**Distributor's Pro-Tip:** Since Indian options are European, sellers don't face early assignment risk — this is a significant advantage for option writing strategies compared to American-style options.]]></text></explanation>
+    </question>
+</QF>

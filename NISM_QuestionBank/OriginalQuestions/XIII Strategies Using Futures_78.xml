@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_78" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A company in India earns revenue in USD from exports and makes payments in EUR for raw material imports. To hedge the EURUSD risk, what strategy can the company use?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Go long on EURUSD futures, or alternatively short USDINR futures and go long EURINR futures to create a synthetic EURUSD position]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only sell USDINR futures since all currency risk can be managed through the USD-INR pair]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy gold futures since gold prices are correlated with EURUSD]]></text></answer>
+            <answer correct="no"><text><![CDATA[No hedging is possible for cross-currency risk in India]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The company earns USD but pays EUR, creating EURUSD risk. If EURUSD contract exists: buy EURUSD futures. If illiquid: create synthetic position through USDINR (sell) and EURINR (buy), which together replicate the EURUSD exposure.
+**The Trap:** Hedging only USDINR ignores the EUR side of the equation. The company's risk is specifically EURUSD, not just one currency pair. Gold is not a reliable proxy for EURUSD.
+**Cross-Exam Context:** Series I Ch5 Section 5.2.5 covers this exact multi-currency hedging scenario. Series XIII tests practical cross-currency hedging skills.
+**Distributor's Pro-Tip:** When direct hedging instruments aren't available, construct synthetic positions from available liquid pairs. This is common in markets where exotic currency pairs lack liquidity.]]></text></explanation>
+    </question>
+</QF>

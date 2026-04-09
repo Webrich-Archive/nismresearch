@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_33" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investor with a gold ETF priced in INR sees gold appreciating 15% in USD terms but the ETF rises only 10% due to INR appreciation against USD. How can the investor remove the currency component?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Short USDINR currency futures for the investment amount and matching tenor to eliminate the USDINR risk embedded in the ETF]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy USDINR currency futures to amplify returns from both gold and currency appreciation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Switch from a gold ETF to physical gold to avoid currency risk entirely]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy EURINR futures to hedge against the rupee appreciation]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Gold ETF in INR is affected by both gold prices in USD and USDINR exchange rate. If INR appreciates 5% against USD, the ETF gain is reduced by 5% (15% - 5% = 10%). Shorting USDINR futures offsets the currency impact — losses from INR appreciation are compensated by gains on the short futures position.
+**The Trap:** Buying USDINR futures would add MORE currency exposure, not remove it. Physical gold also has currency exposure if priced in INR.
+**Cross-Exam Context:** Series I Ch5 covers this gold ETF hedging example. Series XIII uses it to illustrate multi-dimensional risk management.
+**Distributor's Pro-Tip:** Any INR-denominated investment in a USD-priced asset carries implicit USDINR risk. Shorting USDINR futures extracts the currency component, leaving pure asset returns.]]></text></explanation>
+    </question>
+</QF>

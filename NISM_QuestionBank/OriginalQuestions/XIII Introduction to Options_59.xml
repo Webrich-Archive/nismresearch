@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_59" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the theoretical relationship between USDINR call option premium and USDINR put option premium with the same strike and expiry?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Put-call parity for currency options: C - P = S × e^(-rf×T) - K × e^(-rd×T), where rf is USD rate and rd is INR rate]]></text></answer>
+            <answer correct="no"><text><![CDATA[C = P always for the same strike and expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[C - P = S - K at all times]]></text></answer>
+            <answer correct="no"><text><![CDATA[There is no relationship between USDINR call and put premiums]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Currency put-call parity: C - P = S × e^(-rf×T) - K × e^(-rd×T). For equity: C - P = S - K × e^(-r×T). The key difference is that currency parity discounts BOTH the spot (by foreign rate) and the strike (by domestic rate), reflecting that both currencies earn interest.
+**The Trap:** C ≠ P (they're only equal when ATM forward). C - P ≠ S - K (that ignores discounting). There IS a mathematical relationship.
+**Cross-Exam Context:** Series I Ch4 covers currency put-call parity. Compare with equity put-call parity in Series VIII Ch4. This is a key Series XIII comparison.
+**Distributor's Pro-Tip:** Put-call parity violations in currency options signal arbitrage opportunities — conversion/reversal strategies can exploit these efficiently on liquid exchange-traded options.]]></text></explanation>
+    </question>
+</QF>

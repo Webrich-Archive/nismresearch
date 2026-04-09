@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_35" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How does the settlement mechanism differ between currency derivatives and equity stock futures in India?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Currency derivatives are exclusively cash-settled in INR, while equity stock futures are physically settled through delivery of underlying shares]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both currency and equity stock futures are cash-settled — physical delivery applies only to commodity derivatives]]></text></answer>
+            <answer correct="no"><text><![CDATA[Currency derivatives are settled in the respective foreign currency, while equity stock futures are cash-settled in INR]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both segments offer the choice of physical or cash settlement at the option of the buyer]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Currency derivatives in India are mandatorily cash-settled in INR — no foreign currency changes hands. Equity stock futures and options have moved to compulsory physical settlement, where actual shares are delivered. Index derivatives remain cash-settled.
+**The Trap:** Currency derivatives are settled in INR, NOT in the foreign currency. Also, equity stock F&O is now physically settled (not cash-settled). Index derivatives (Nifty, Bank Nifty) remain cash-settled.
+**Cross-Exam Context:** Settlement modes across segments: Currency (all cash/INR), Equity index (cash), Equity stock (physical delivery), Interest rate bond futures (physical delivery via conversion factor or cash via FSP).
+**Distributor's Pro-Tip:** Physical settlement of stock derivatives was introduced to curb excessive speculation and improve price convergence. Traders must ensure adequate shares/funds for delivery obligations near expiry.]]></text></explanation>
+    </question>
+</QF>

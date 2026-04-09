@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_12" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[USDINR spot is 83. Indian risk-free rate is 7% and US risk-free rate is 5%. What is the fair 6-month USDINR futures price using interest rate parity?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 83.79]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 83.83]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 84.66]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 82.21]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Using interest rate parity: F = S × (1 + R_INR × t) / (1 + R_USD × t) = 83 × (1 + 0.07 × 0.5) / (1 + 0.05 × 0.5) = 83 × 1.035 / 1.025 = 83 × 1.00976 = Rs. 83.81 ≈ Rs. 83.79.
+**The Trap:** Rs. 84.66 uses the full annual rate differential instead of 6-month. Rs. 82.21 wrongly applies the formula in reverse (dividing by INR rate instead of USD rate).
+**Cross-Exam Context:** Series I Ch3 covers IRP pricing for currency futures. Series XIII compares it with cost-of-carry for equity and duration for bonds.
+**Distributor's Pro-Tip:** In IRP, the currency with the higher interest rate (INR) trades at a premium in the futures market — this is the forward premium reflecting the rate differential.]]></text></explanation>
+    </question>
+</QF>

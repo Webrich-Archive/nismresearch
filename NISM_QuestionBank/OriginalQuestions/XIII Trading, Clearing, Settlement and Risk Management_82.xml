@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_82" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Comparing final settlement timelines across derivative segments, which of the following is correct?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Equity stock futures/options are settled on T+1 after expiry, while currency and interest rate derivatives may have different settlement cycles]]></text></answer>
+            <answer correct="no"><text><![CDATA[All derivative segments settle on the same day as expiry (T+0)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Currency derivatives settle on T+3 while equity derivatives settle on T+1]]></text></answer>
+            <answer correct="no"><text><![CDATA[Interest rate derivatives never have a final settlement as positions are perpetual]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Equity derivatives typically settle on T+1 day after expiry (for physically settled stock derivatives, delivery happens on T+1). Currency derivatives final settlement follows the forex settlement convention. Interest rate bond futures physical settlement follows the bond market convention. Each segment aligns with its underlying market's settlement cycle.
+**The Trap:** Not all segments settle on the same day. T+3 for currency is not correct — currency derivatives follow a shorter cycle. Interest rate derivatives DO have final settlement — positions are NOT perpetual; they have fixed expiry dates.
+**Cross-Exam Context:** Series VIII covers equity settlement (T+1), Series I covers currency settlement, Series IV covers interest rate settlement. Series XIII requires understanding of how different settlement cycles create different risk exposures.
+**Distributor's Pro-Tip:** Different settlement timelines mean different funding requirements. Clients trading across segments must plan their cash flows carefully, especially around expiry dates when settlement obligations from multiple segments may coincide.]]></text></explanation>
+    </question>
+</QF>

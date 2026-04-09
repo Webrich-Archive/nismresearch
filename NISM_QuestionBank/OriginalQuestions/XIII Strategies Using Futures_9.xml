@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An importer's total USD exposure is USD 1.6 million at spot USDINR 81. He hedges only 50% using futures at 81.50. At payment time, spot is 82 and futures are at 82.05. What is the effective USDINR rate?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 81.725]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 82.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 81.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 81.45]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Futures gain = 82.05 - 81.50 = Rs. 0.55 per USD (long futures profit as rate rose). Hedged portion effective rate = 82 - 0.55 = Rs. 81.45. Unhedged portion effective rate = Rs. 82. Overall: (81.45 × 0.5) + (82 × 0.5) = Rs. 81.725.
+**The Trap:** Rs. 81.45 would be correct if 100% was hedged. Rs. 81.50 is the futures entry price, not the effective rate.
+**Cross-Exam Context:** Series I Ch5 covers partial hedging calculations. Series XIII compares partial hedging across different derivative markets.
+**Distributor's Pro-Tip:** Partial hedging means the effective rate is a weighted average of hedged and unhedged rates — more hedging gives more rate certainty but less upside potential.]]></text></explanation>
+    </question>
+</QF>

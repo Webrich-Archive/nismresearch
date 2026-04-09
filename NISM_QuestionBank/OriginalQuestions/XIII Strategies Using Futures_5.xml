@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In which derivative segment does the hedger need to take an opposite position in futures to the expected price movement of the underlying asset due to an inverse price-yield relationship?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Interest rate derivatives — because bond prices and interest rates move inversely]]></text></answer>
+            <answer correct="no"><text><![CDATA[Currency derivatives — because exchange rates and interest rates move inversely]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equity derivatives — because stock prices and dividends move inversely]]></text></answer>
+            <answer correct="no"><text><![CDATA[Commodity derivatives — because commodity prices and storage costs move inversely]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In interest rate derivatives, if a bond holder expects interest rates to rise, bond prices will fall. To hedge, the holder sells bond futures (goes short on price/long on interest rate). This inverse relationship between bond prices and yields is unique to fixed income.
+**The Trap:** Currency and equity derivatives have a direct relationship between the underlying and the derivative — if the asset price goes up, the futures price also goes up.
+**Cross-Exam Context:** Series IV Ch5 discusses this inverse relationship extensively. Series I and VIII have direct price relationships for hedging.
+**Distributor's Pro-Tip:** Always remember: In bond futures, selling futures = going long on interest rates. This reversal confuses many candidates.]]></text></explanation>
+    </question>
+</QF>

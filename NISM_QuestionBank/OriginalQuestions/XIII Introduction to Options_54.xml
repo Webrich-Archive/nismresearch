@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_54" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is 'option moneyness' and its relationship to delta across all derivative markets?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Deep OTM: delta near 0 (call) or 0 (put abs). ATM: delta ≈ 0.50 (call) or -0.50 (put). Deep ITM: delta near 1 (call) or -1 (put). This relationship is consistent across equity, currency, IR, and commodity options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Delta is only related to moneyness for equity options, not other types]]></text></answer>
+            <answer correct="no"><text><![CDATA[Moneyness determines the premium but not the delta]]></text></answer>
+            <answer correct="no"><text><![CDATA[ATM options always have delta = 1.0]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Delta is a direct function of moneyness: as an option moves from OTM to ITM, call delta moves from 0 to 1, put delta from 0 to -1. This relationship holds universally. Delta also approximately equals the probability of expiring ITM. This is the most practical interpretation of delta.
+**The Trap:** The moneyness-delta relationship is universal. Moneyness affects BOTH premium and delta. ATM delta ≈ 0.50, not 1.0.
+**Cross-Exam Context:** This is a fundamental concept covered in all option chapters across Series VIII, I, IV, and XVI. It's the single most important practical relationship for option traders.
+**Distributor's Pro-Tip:** Select option strikes based on delta: 0.30-delta options = aggressive speculation (cheap, low probability). 0.50-delta = balanced risk/reward. 0.70-delta = conservative directional bet (expensive but high probability).]]></text></explanation>
+    </question>
+</QF>

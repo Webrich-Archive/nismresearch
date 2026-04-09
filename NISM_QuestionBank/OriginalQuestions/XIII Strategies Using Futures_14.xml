@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_14" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader buys a long straddle on USDINR at strike 83, paying Rs. 0.20 for the call and Rs. 0.15 for the put. What are the two breakeven points?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 82.65 and Rs. 83.35]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 82.80 and Rs. 83.20]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 82.85 and Rs. 83.15]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 82.65 and Rs. 83.65]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Total premium = 0.20 + 0.15 = Rs. 0.35. Lower BEP = Strike - Total premium = 83 - 0.35 = Rs. 82.65. Upper BEP = Strike + Total premium = 83 + 0.35 = Rs. 83.35. The trader profits when USDINR moves beyond either BEP.
+**The Trap:** Rs. 82.80/83.20 uses only the call premium for both sides. The total premium of both options must be recovered for the position to break even.
+**Cross-Exam Context:** Series I Ch5 and IV Ch5 cover straddles. Series XIII tests the concept across asset classes — the mechanics are identical but premiums differ.
+**Distributor's Pro-Tip:** Long straddle = long volatility play. Use when you expect a big move but are uncertain about direction (e.g., before a policy announcement).]]></text></explanation>
+    </question>
+</QF>

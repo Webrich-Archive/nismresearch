@@ -1,186 +1,212 @@
-# Session Prompts for Phase 5
+# Session Prompts for Phase 7 — Series XIII (Common Derivatives)
 
-Use these prompts to kick off Phase 5 on two machines. **Run Machine 1 first, push, then start Machine 2 after pulling.**
+Run both machines simultaneously. They write to different topic prefixes so there are NO file conflicts.
+
+**IMPORTANT:** Neither session regenerates plists or updates HANDOFF.md. After both complete, run the cleanup step.
 
 ---
 
-## Machine 1: Phase 5a — Audit Series VIII (Equity Derivatives)
+## Machine 1: Phase 7a — Derivative Concepts & Instruments (Topics 1-5, ~260 Qs)
 
 ```
-Read the file nismresearch/NISM_QuestionBank/HANDOFF.md carefully — it contains the full project context, rules, and action plan.
+Read the file nismresearch/NISM_QuestionBank/HANDOFF.md carefully — it contains the full project context, rules, and action plan. Pay special attention to the "Phase 7 Parallel Execution Plan" section.
 
 Then read nismresearch/NISM_QuestionBank/BEST_PRACTICES.md — it contains mandatory quality rules.
 
-Your task is Phase 5a: Audit Series VIII (Equity Derivatives).
+Your task is Phase 7a: Generate Series XIII (Common Derivatives) — Topics 1-5 (~260 questions).
 
-WHAT TO DO:
+BACKGROUND:
+Series XIII is a composite exam covering Currency (I), Interest Rate (IV), and Equity (VIII) derivatives. There is NO separate PDF — use the I, IV, and VIII workbooks as source material. Questions must be REWORDED (not copy-pasted) from existing exam content, with ~30% being XIII-unique cross-asset comparison questions.
 
-1. READ THE PDF: The workbook is at nismresearch/study material/NISM-Series-VIII Equity Derivatives Certification Examination_December 2025_v1.pdf
-   - Use pymupdf (fitz) to read it: import fitz; doc = fitz.open(path); text = doc[page].get_text()
-   - Read chapter by chapter (there are 10 chapters)
+TOPICS TO GENERATE (all use "XIII " prefix):
 
-2. FOR EACH CHAPTER: Read the PDF pages, then read the corresponding existing questions in nismresearch/NISM_QuestionBank/OriginalQuestions/ (files prefixed with "VIII "). Verify:
-   - Is the correct answer actually correct per the PDF?
-   - Are distractors plausibly wrong (not accidentally correct)?
-   - Are specific numbers, thresholds, section references accurate?
-   - Are there concept gaps (important PDF content not covered by any question)?
-   - Fix any errors directly in the XML files
+1. "XIII Introduction to the Underlying Markets" — 80 Qs (16%)
+   Source: I Ch1-2 (currency/forex markets, FBIL, BIS), IV Ch1 (bond markets, yield curve, G-Sec), VIII Ch1-2 (equity markets, index concepts, NIFTY/SENSEX)
+   Focus: Cross-asset comparison of underlying markets. What makes currency/bond/equity markets different? Market structure, participants, instruments.
 
-3. ADD ~55 REGULATORY QUESTIONS: The audit found Series VIII is low on regulatory questions (9% actual vs 20% target). After auditing each chapter, add regulatory questions covering:
-   - SEBI derivative regulations and circulars
-   - Position limits (client-level, TM-level, market-wide)
-   - Margin rules (SPAN, exposure margin, calendar spread margin)
-   - LODR provisions relevant to derivatives
-   - Penalty provisions
-   - Trading member eligibility criteria
-   Distribute across the 10 topics proportionally. Use EXACT topic prefixes from HANDOFF.md (they all start with "VIII "). Continue numbering from the highest existing number per topic.
+2. "XIII Basics of Derivatives" — 20 Qs (4%)
+   Source: VIII Ch1 (derivative definition, forward/futures/options/swaps, history), I Ch2 (FX derivatives overview), IV Ch2 (IR derivatives overview)
+   Focus: Universal derivative concepts that span all asset classes. OTC vs exchange-traded. Novation, CCP, netting.
 
-4. QUESTION XML FORMAT:
+3. "XIII Introduction to Forwards and Futures" — 65 Qs (13%)
+   Source: I Ch3 (currency futures, IRP pricing F=S*(1+RQC*t)/(1+RBC*t)), IV Ch3 (IR futures, bond futures, cheapest-to-deliver), VIII Ch3 (equity/index futures, cost-of-carry F=S*e^(r-q)*t)
+   Focus: Compare pricing models across asset classes. Convergence, basis, contango/backwardation. Contract specifications comparison. ~35% calculation questions.
+
+4. "XIII Introduction to Options" — 75 Qs (15%)
+   Source: I Ch4 (currency options, Greeks for FX), IV Ch4 (IR options, caps/floors/swaptions), VIII Ch4 (equity options, Black-Scholes, put-call parity)
+   Focus: Compare option pricing, Greeks behavior, moneyness across asset classes. How delta/gamma/theta/vega differ for currency vs equity options. ~30% calculation questions.
+
+5. "XIII Option Trading Strategies" — 20 Qs (3%)
+   Source: I Ch5 (currency hedging with options, spreads), VIII Ch5 (equity option strategies — bull/bear spreads, straddles, strangles, butterfly)
+   Focus: Cross-asset strategy comparison. When to use which strategy for which asset class. P&L calculations.
+
+QUESTION MIX TARGET: 30% calculation, 40% conceptual, 20% regulatory, 10% application
+
+HOW TO GENERATE:
+1. For each topic, read the relevant chapters from ALL THREE PDFs (I, IV, VIII) using pymupdf:
+   import fitz; doc = fitz.open(path); text = doc[page].get_text()
+   
+   PDF paths:
+   - "nismresearch/study material/1 NISM-Series-I Currency Derivatives Certification Examination_ December 2025.pdf"
+   - "nismresearch/study material/NISM-Series-IV Interest Rates Derivatives Certification Examination_December 2025.pdf"
+   - "nismresearch/study material/NISM-Series-VIII Equity Derivatives Certification Examination_December 2025_v1.pdf"
+
+2. Generate questions that COMPARE across asset classes where possible:
+   - "Which pricing model uses interest rate parity?" (Currency futures — comparing with cost-of-carry for equity)
+   - "In which derivative market does the underlying have a fixed maturity?" (Interest rate — comparing with perpetual equity/currency)
+   - Calculation Qs should use real formulas from the PDFs with worked numbers
+
+3. Write XML files to nismresearch/NISM_QuestionBank/OriginalQuestions/
+   File naming: "XIII {Topic Name}_{N}.xml" (e.g., "XIII Introduction to the Underlying Markets_1.xml")
+   ID inside XML must match filename without .xml
+
+4. XML FORMAT:
    <?xml version="1.0" encoding="UTF-8"?>
-   <QF id="{TopicName}_{number}" sectionNumber="" articleNumber="0" articleName="">
+   <QF id="XIII Introduction to the Underlying Markets_1" sectionNumber="" articleNumber="0" articleName="">
        <question>
-           <text><![CDATA[Question text]]></text>
+           <text><![CDATA[Question text here]]></text>
            <answers>
                <answer correct="yes"><text><![CDATA[Correct answer]]></text></answer>
                <answer correct="no"><text><![CDATA[Distractor 1]]></text></answer>
                <answer correct="no"><text><![CDATA[Distractor 2]]></text></answer>
                <answer correct="no"><text><![CDATA[Distractor 3]]></text></answer>
            </answers>
-           <explanation><text><![CDATA[**The Logic:** Why correct.
-   **The Trap:** Why a distractor was tempting.
-   **Cross-Exam Context:** Which other NISM exams test this.
-   **Distributor's Pro-Tip:** Real-world tip.]]></text></explanation>
+           <explanation><text><![CDATA[**The Logic:** Why the answer is correct.
+   **The Trap:** Why a specific distractor was tempting.
+   **Cross-Exam Context:** Which other NISM exams test this topic.
+   **Distributor's Pro-Tip:** Real-world golden rule.]]></text></explanation>
        </question>
    </QF>
 
-5. AFTER ALL CHAPTERS ARE DONE:
-   a. Regenerate all 4 plists using the Python script in HANDOFF.md (Step 5 of the pipeline)
-   b. Run validation: plutil on all plists, XML parsing on all files, duplicate check, prefix alignment check
-   c. Update HANDOFF.md:
-      - Change Series VIII audit status from "Generated from PDF, needs audit + type rebalancing" to "AUDITED + Type-rebalanced"
-      - Update question count
-      - Mark "Series I: +63 calc, +75 regulatory questions" as still PENDING
-      - Mark "Series VIII: +55 regulatory questions" as DONE
-      - Add a Session 6 entry to the session log with: chapters audited, errors found/fixed, questions added, validation results
-      - Update the "For:" line at the top to say next action is Phase 5b (Audit Series I)
-   d. Commit with message: "Phase 5a: Audit Series VIII — PDF verification + regulatory questions"
-   e. Push to remote
+DO NOT:
+- Copy questions verbatim from Series I, IV, or VIII question files
+- Regenerate plists (the cleanup session will do this)
+- Update HANDOFF.md (the cleanup session will do this)
+- Generate questions from memory without reading the PDF first
 
-CRITICAL RULES:
-- NEVER generate questions from memory. Always read the PDF chapter first.
-- If your context window is getting full and you can't read more PDF pages, STOP. Update HANDOFF.md with exactly where you stopped (which chapters done, which pending), regenerate plists, validate, commit, and tell me to start a fresh session.
-- Quality > quantity. It's better to audit 5 chapters thoroughly than 10 chapters superficially.
-- Verify calculations in existing questions — run the math, don't trust it blindly.
-- Use the verified tax rates from TaxRatesReference_FY2025-26.md for any tax questions.
+DO:
+- Read PDF chapters before generating each topic
+- Verify all calculations by running the math
+- Use CDATA wrapping for ALL text fields
+- Report at the end: total questions per topic, question type breakdown, any issues encountered
+
+CRITICAL: If your context window is getting full and you can't read more PDF pages, STOP. Write all generated questions so far, report exactly which topics are complete and which are pending, and tell me to start a fresh session.
 ```
 
 ---
 
-## Machine 2: Phase 5b — Audit Series I (Currency Derivatives)
-
-**IMPORTANT: Only start this AFTER Machine 1 has pushed. Run `git pull` first.**
+## Machine 2: Phase 7b — Strategies, Operations & Regulation (Topics 6-10, ~240 Qs)
 
 ```
-First run: git pull
-
-Then read the file nismresearch/NISM_QuestionBank/HANDOFF.md carefully — it contains the full project context, rules, and action plan.
+Read the file nismresearch/NISM_QuestionBank/HANDOFF.md carefully — it contains the full project context, rules, and action plan. Pay special attention to the "Phase 7 Parallel Execution Plan" section.
 
 Then read nismresearch/NISM_QuestionBank/BEST_PRACTICES.md — it contains mandatory quality rules.
 
-Your task is Phase 5b: Audit Series I (Currency Derivatives).
+Your task is Phase 7b: Generate Series XIII (Common Derivatives) — Topics 6-10 (~240 questions).
 
-WHAT TO DO:
+BACKGROUND:
+Series XIII is a composite exam covering Currency (I), Interest Rate (IV), and Equity (VIII) derivatives. There is NO separate PDF — use the I, IV, and VIII workbooks as source material. Questions must be REWORDED (not copy-pasted) from existing exam content, with ~30% being XIII-unique cross-asset comparison questions.
 
-1. READ THE PDF: The workbook is at nismresearch/study material/1 NISM-Series-I Currency Derivatives Certification Examination_ December 2025.pdf
-   - Use pymupdf (fitz) to read it: import fitz; doc = fitz.open(path); text = doc[page].get_text()
-   - Read chapter by chapter (there are 10 chapters, ~245 pages total)
+TOPICS TO GENERATE (all use "XIII " prefix):
 
-2. FOR EACH CHAPTER: Read the PDF pages, then read the corresponding existing questions in nismresearch/NISM_QuestionBank/OriginalQuestions/ (files prefixed with "I "). Verify:
-   - Is the correct answer actually correct per the PDF?
-   - Are distractors plausibly wrong (not accidentally correct)?
-   - Are specific numbers, thresholds, formulas, section references accurate?
-   - Are there concept gaps (important PDF content not covered by any question)?
-   - Fix any errors directly in the XML files
-   - PAY SPECIAL ATTENTION to calculation questions — verify the math step by step
+6. "XIII Strategies Using Futures" — 80 Qs (16%)
+   Source: I Ch5 (currency hedging for exporters/importers, speculation, arbitrage), IV Ch5 (duration-based hedging, immunization, IRF hedging), VIII Ch3 (equity hedging with beta adjustment, index arbitrage, calendar spreads)
+   Focus: Compare hedging approaches across asset classes. When does a company hedge with currency vs IR vs equity futures? Basis risk. Hedge ratio calculations. ~35% calculation.
 
-3. ADD ~63 CALCULATION QUESTIONS: The audit found Series I is very low on calculation questions (12% actual vs 25% target). After auditing each chapter, add calculation questions covering:
-   - Cross-rate calculations (Chapter 1)
-   - Forward rate premium/discount calculations (Chapter 3)
-   - Interest rate parity: F = S × (1 + RQC × t) / (1 + RBC × t) (Chapter 3)
-   - Futures P&L calculations (Chapter 3)
-   - Options payoff calculations: max(S-K, 0) for calls, max(K-S, 0) for puts (Chapter 4)
-   - Greeks calculations with numerical examples (Chapter 4)
-   - Strategy P&L: bull/bear spreads, straddles, strangles with worked numbers (Chapter 5)
-   - Margin calculations: SPAN scenarios, ELM rates (1% USDINR, 0.50% cross) (Chapter 7)
-   Every calculation question must have a verifiable numerical answer — run the math yourself.
+7. "XIII Trading, Clearing, Settlement and Risk Management" — 85 Qs (17%)
+   Source: I Ch6-7 (currency trading: TM/CM types, SPAN, ELM 1%/0.50%, position limits USD 20M), IV Ch6-7 (IR trading/clearing, bond delivery), VIII Ch6-7 (equity trading, margins, position limits, MWPL)
+   Focus: Compare trading mechanisms, margin systems, settlement cycles, position limits across derivative types. SPAN methodology. Risk management frameworks. ~25% calculation.
 
-4. ADD ~75 REGULATORY QUESTIONS: Series I is also low on regulatory (5% actual vs 20% target). Add questions covering:
-   - SEBI-RBI dual regulation framework (Chapter 8)
-   - FEMA 1999 provisions (Chapter 8)
-   - SCRA Section 18A (Chapter 8)
-   - Bank TM eligibility: Rs 500Cr net worth, CRAR 10%, NPA 3% (Chapter 8)
-   - FEDAI role (Chapter 8)
-   - Position limits for various participant categories (Chapter 7)
-   - KYC and Risk Disclosure Document requirements (Chapter 10)
-   - SCORES portal and grievance escalation (Chapter 10)
-   - Code of conduct provisions (Chapter 10)
-   Distribute across the 10 topics proportionally. Use EXACT topic prefixes from HANDOFF.md (they all start with "I "). Continue numbering from the highest existing number per topic.
+8. "XIII Legal and Regulatory Environment" — 45 Qs (9%)
+   Source: I Ch8 (SEBI-RBI dual regulation, FEMA, bank TM criteria Rs 500Cr/CRAR 10%/NPA 3%), IV Ch8 (RBI guidelines for IR derivatives), VIII Ch8 (SEBI derivative regs, L.C. Gupta Committee, J.R. Verma Committee, net worth requirements)
+   Focus: Unified regulatory framework. Which regulator governs which derivative? SCRA provisions. Committee recommendations. Exchange recognition criteria. ~80% regulatory.
 
-5. QUESTION XML FORMAT:
+9. "XIII Accounting and Taxation" — 20 Qs (4%)
+   Source: I Ch9 (ICAI 2021 guidance, Ind AS 109, forex P&L as business income), IV Ch9 (IR derivative accounting, hedge accounting for bonds), VIII Ch9 (F&O non-speculative income, STT rates 0.02%/0.10%, presumptive taxation)
+   Focus: Compare tax treatment: which derivatives are speculative vs non-speculative? STT/CTT differences. Hedge accounting requirements across asset classes. ~40% calculation.
+
+10. "XIII Sales Practices, Code of Conduct and Investor Protection" — 10 Qs (3%)
+    Source: I Ch10 (KYC, SCORES, grievance path, arbitration), IV Ch10 (code of conduct), VIII Ch10 (investor protection, running accounts, IRRA)
+    Focus: Universal investor protection principles. KYC requirements. Grievance redressal. Code of conduct for derivative intermediaries. ~90% regulatory/conceptual.
+
+QUESTION MIX TARGET: 30% calculation, 40% conceptual, 20% regulatory, 10% application
+(Note: Topics 8 and 10 will skew more regulatory; Topics 6-7 will have more calculations — that's expected)
+
+HOW TO GENERATE:
+1. For each topic, read the relevant chapters from ALL THREE PDFs (I, IV, VIII) using pymupdf:
+   import fitz; doc = fitz.open(path); text = doc[page].get_text()
+   
+   PDF paths:
+   - "nismresearch/study material/1 NISM-Series-I Currency Derivatives Certification Examination_ December 2025.pdf"
+   - "nismresearch/study material/NISM-Series-IV Interest Rates Derivatives Certification Examination_December 2025.pdf"
+   - "nismresearch/study material/NISM-Series-VIII Equity Derivatives Certification Examination_December 2025_v1.pdf"
+
+2. Generate questions that COMPARE across asset classes where possible:
+   - "Which derivative type uses duration-based hedge ratio?" (IR futures — vs beta for equity, notional for currency)
+   - "Which regulatory body must approve currency derivative products in India?" (Both SEBI and RBI — vs SEBI alone for equity)
+   - "In which derivative segment are gains always treated as non-speculative business income?" (Exchange-traded — comparing treatment across F&O, currency, commodity)
+
+3. Write XML files to nismresearch/NISM_QuestionBank/OriginalQuestions/
+   File naming: "XIII {Topic Name}_{N}.xml" (e.g., "XIII Strategies Using Futures_1.xml")
+   ID inside XML must match filename without .xml
+
+4. XML FORMAT:
    <?xml version="1.0" encoding="UTF-8"?>
-   <QF id="{TopicName}_{number}" sectionNumber="" articleNumber="0" articleName="">
+   <QF id="XIII Strategies Using Futures_1" sectionNumber="" articleNumber="0" articleName="">
        <question>
-           <text><![CDATA[Question text]]></text>
+           <text><![CDATA[Question text here]]></text>
            <answers>
                <answer correct="yes"><text><![CDATA[Correct answer]]></text></answer>
                <answer correct="no"><text><![CDATA[Distractor 1]]></text></answer>
                <answer correct="no"><text><![CDATA[Distractor 2]]></text></answer>
                <answer correct="no"><text><![CDATA[Distractor 3]]></text></answer>
            </answers>
-           <explanation><text><![CDATA[**The Logic:** Why correct.
-   **The Trap:** Why a distractor was tempting.
-   **Cross-Exam Context:** Which other NISM exams test this.
-   **Distributor's Pro-Tip:** Real-world tip.]]></text></explanation>
+           <explanation><text><![CDATA[**The Logic:** Why the answer is correct.
+   **The Trap:** Why a specific distractor was tempting.
+   **Cross-Exam Context:** Which other NISM exams test this topic.
+   **Distributor's Pro-Tip:** Real-world golden rule.]]></text></explanation>
        </question>
    </QF>
 
-6. AFTER ALL CHAPTERS ARE DONE:
-   a. Regenerate all 4 plists using the Python script in HANDOFF.md (Step 5 of the pipeline)
-   b. Run validation: plutil on all plists, XML parsing on all files, duplicate check, prefix alignment check
-   c. Update HANDOFF.md:
-      - Change Series I audit status from "Generated from PDF, needs audit + type rebalancing" to "AUDITED + Type-rebalanced"
-      - Update question count (total should be previous total + new questions added)
-      - Mark "Series I: +63 calc, +75 regulatory questions" as DONE
-      - Add a Session 7 entry to the session log with: chapters audited, errors found/fixed, questions added, validation results
-      - Update the "For:" line at the top to say next action is Phase 6 (Generate Series IV and XVI)
-   d. Commit with message: "Phase 5b: Audit Series I — PDF verification + calculation and regulatory questions"
-   e. Push to remote
+DO NOT:
+- Copy questions verbatim from Series I, IV, or VIII question files
+- Regenerate plists (the cleanup session will do this)
+- Update HANDOFF.md (the cleanup session will do this)
+- Generate questions from memory without reading the PDF first
 
-CRITICAL RULES:
-- NEVER generate questions from memory. Always read the PDF chapter first.
-- If your context window is getting full and you can't read more PDF pages, STOP. Update HANDOFF.md with exactly where you stopped (which chapters done, which pending), regenerate plists, validate, commit, and tell me to start a fresh session.
-- Quality > quantity. It's better to audit 5 chapters thoroughly than 10 chapters superficially.
-- VERIFY ALL CALCULATIONS — for existing calculation questions and new ones. Run the math step by step. Currency derivative math is error-prone (interest rate parity, cross rates, premium/discount).
-- Use the verified tax rates from TaxRatesReference_FY2025-26.md for any tax questions.
+DO:
+- Read PDF chapters before generating each topic
+- Verify all calculations by running the math
+- Use CDATA wrapping for ALL text fields
+- Report at the end: total questions per topic, question type breakdown, any issues encountered
+
+CRITICAL: If your context window is getting full and you can't read more PDF pages, STOP. Write all generated questions so far, report exactly which topics are complete and which are pending, and tell me to start a fresh session.
 ```
 
 ---
 
-## After Both Machines Complete
+## After Both Machines Complete — Cleanup Step
 
-Once both Phase 5a and 5b are done, the next session prompt is:
+Run this in a fresh session after both 7a and 7b are done:
 
 ```
-Read the file nismresearch/NISM_QuestionBank/HANDOFF.md carefully.
+Read nismresearch/NISM_QuestionBank/HANDOFF.md — pay attention to the Phase 7 parallel plan.
 
-Your task is Phase 6: Generate questions for Series IV (Interest Rate Derivatives) and Series XVI (Commodity Derivatives).
+Both Phase 7a (Topics 1-5) and Phase 7b (Topics 6-10) for Series XIII have been completed by parallel sessions. Your task is the cleanup step:
 
-Start with Series IV. Follow the Question Generation Pipeline in HANDOFF.md exactly:
-1. Check ExamWeightages.plist for topic names
-2. Read the PDF chapter by chapter
-3. Generate 500 questions following the question type distribution (35% calc, 35% conceptual, 20% regulatory, 10% application)
-4. Validate and regenerate plists
-5. Update HANDOFF.md
-
-If context runs low after Series IV, stop and hand off. Series XVI can be a separate session.
+1. COUNT all "XIII " prefixed XML files in nismresearch/NISM_QuestionBank/OriginalQuestions/ and report per-topic counts
+2. VALIDATE all XIII XML files (valid XML, correct structure, CDATA wrapping, ID matches filename)
+3. CHECK for duplicates — both within XIII questions AND between XIII and I/IV/VIII questions (compare question text)
+4. REGENERATE all 5 plists using the Python script in HANDOFF.md Step 5
+5. RUN plutil on all plists
+6. VERIFY plist topic alignment: all "XIII " prefixed topics in ExamWeightages == file prefixes
+7. VERIFY TopicsLite ratios >= 30% for all topics
+8. UPDATE HANDOFF.md:
+   - Mark Phase 7a and 7b as DONE
+   - Update total question count
+   - Update completed exams table (add Series XIII)
+   - Add Session 14 log entry with details
+   - Set next action to Phase 10 (Series IX Merchant Banking)
+9. Commit: "Phase 7: Generate Series XIII (Common Derivatives) — 500 questions from I+IV+VIII composite"
+10. Push to remote
 ```

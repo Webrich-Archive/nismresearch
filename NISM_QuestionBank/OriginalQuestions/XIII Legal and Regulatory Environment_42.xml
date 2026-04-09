@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Legal and Regulatory Environment_42" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A scheduled bank currently holds open positions of INR 35 billion in exchange-traded interest rate futures. What is the maximum additional position (in INR billion) it can take before hitting the RBI-prescribed position limit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[INR 15 billion — the limit is INR 50 billion, and 50 - 35 = 15]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 50 billion — the INR 50 billion limit applies per contract, not overall]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 65 billion — as the limit is calculated on a net basis, not gross]]></text></answer>
+            <answer correct="no"><text><![CDATA[There is no limit; scheduled banks have unlimited position capacity in IRF]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** RBI prescribes a gross open position limit of INR 50 billion for scheduled banks in exchange-traded IRF. Current position: INR 35 billion. Remaining capacity: 50 - 35 = INR 15 billion. Beyond this, the bank would breach the regulatory limit.
+**The Trap:** The INR 50 billion is a gross (not net) overall limit across all IRF contracts. It's not per contract or unlimited. Simple arithmetic but requires knowing the correct limit figure.
+**Cross-Exam Context:** Position limit calculations are tested across segments. The key is knowing the correct limit number and whether it's gross or net, per contract or aggregate.
+**Distributor's Pro-Tip:** Banks should maintain a position monitoring system with alerts well before the INR 50 billion limit — hitting the limit during volatile markets could prevent necessary hedging actions.]]></text></explanation>
+    </question>
+</QF>

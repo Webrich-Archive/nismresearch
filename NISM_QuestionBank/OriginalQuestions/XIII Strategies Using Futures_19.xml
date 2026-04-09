@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A corporate treasury has the following exposures: (1) USD receivable from exports, (2) a large bond portfolio sensitive to rising rates, (3) equity investments in Indian stocks. Which combination of hedges is correct?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Short USDINR futures, short bond futures, and short index futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Long USDINR futures, long bond futures, and long index futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Short USDINR futures, long bond futures, and short index futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Long USDINR futures, short bond futures, and long index futures]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** (1) USD receivable = risk of USD depreciation → sell USDINR futures. (2) Bond portfolio + rising rates = falling bond prices → sell bond futures. (3) Equity investments at risk → sell index futures. All three are short hedges protecting against adverse price movements.
+**The Trap:** The bond hedge direction is counterintuitive — selling bond futures actually protects against rising rates because bond prices and rates are inversely related.
+**Cross-Exam Context:** This is a XIII-unique cross-asset question combining hedging concepts from Series I (currency), IV (interest rate), and VIII (equity).
+**Distributor's Pro-Tip:** A corporate with multiple exposures needs a multi-dimensional hedging strategy — the direction of each hedge depends on the specific risk of that asset class.]]></text></explanation>
+    </question>
+</QF>

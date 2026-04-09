@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Option Trading Strategies_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How does a 'covered call' strategy compare to a 'protective put' strategy?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Covered call (long stock + short call): generates income, caps upside, full downside risk minus premium. Protective put (long stock + long put): costs premium, retains unlimited upside, limits downside to put strike. Covered call earns income; protective put costs money for insurance]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both strategies are identical in their payoff profile]]></text></answer>
+            <answer correct="no"><text><![CDATA[Covered calls provide downside protection while protective puts cap upside]]></text></answer>
+            <answer correct="no"><text><![CDATA[Covered calls are only for currency markets; protective puts are only for equities]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Covered call: income strategy (premium collected), but you sacrifice upside above the call strike and retain downside risk. Protective put: insurance strategy (premium paid), you keep all upside but limit downside to K - premium. They're opposite approaches — one generates income, the other buys protection.
+**The Trap:** Covered calls do NOT protect the downside (only the premium received provides small cushion). Protective puts do NOT cap the upside. They exist in all markets, not market-specific.
+**Cross-Exam Context:** Both strategies are in Series VIII Ch5. For currency: exporters use covered calls (sell USDINR calls against USD receivables); importers use protective puts (buy USDINR calls for protection).
+**Distributor's Pro-Tip:** Choose based on your outlook: mildly bullish/neutral → covered call (earn income). Concerned about crash → protective put (buy insurance). You can't have both income AND full protection without cost.]]></text></explanation>
+    </question>
+</QF>

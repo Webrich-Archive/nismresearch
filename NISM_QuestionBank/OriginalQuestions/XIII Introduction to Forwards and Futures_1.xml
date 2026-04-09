@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the fundamental pricing formula for currency futures based on Interest Rate Parity?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[F = S × (1 + RQC × Period) / (1 + RBC × Period), where RQC is the quote currency interest rate and RBC is the base currency interest rate]]></text></answer>
+            <answer correct="no"><text><![CDATA[F = S × (1 + RBC × Period) / (1 + RQC × Period)]]></text></answer>
+            <answer correct="no"><text><![CDATA[F = S + (RQC - RBC)]]></text></answer>
+            <answer correct="no"><text><![CDATA[F = S × e^(RQC × Period)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For currency futures (e.g., USDINR), the IRP formula is F = S × (1 + RINR × t) / (1 + RUSD × t). INR is the quoting currency (QC) and USD is the base currency (BC). Higher domestic rates mean the forward/futures price is higher than spot (INR at a forward discount).
+**The Trap:** Swapping RQC and RBC in the formula inverts the relationship. The simple addition formula is an approximation. The continuous compounding version uses e^ but the simple interest version is standard for this exam.
+**Cross-Exam Context:** Series I Ch3 derives this formula with detailed examples. Series IV compares with bond futures pricing. Series XIII tests across all asset classes.
+**Distributor's Pro-Tip:** IRP is the foundation of currency futures pricing — any deviation creates arbitrage. In practice, small deviations exist due to transaction costs and capital controls.]]></text></explanation>
+    </question>
+</QF>

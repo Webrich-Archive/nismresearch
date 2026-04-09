@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_52" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If a put option has delta = -0.40 and the underlying falls by Rs 10, what is the approximate change in put premium?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Increase of approximately Rs 4.00 (-0.40 × -10 = +4.00)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Decrease of Rs 4.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Increase of Rs 10.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Decrease of Rs 0.40]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** ΔPremium ≈ Delta × ΔSpot = (-0.40) × (-10) = +4.00. Negative delta × negative price change = positive premium change. The put gains Rs 4 when the underlying falls Rs 10 — this is the protective feature of puts.
+**The Trap:** Put delta is negative, and a price decrease is also negative — the double negative gives a positive premium change. The put GAINS value when the underlying falls.
+**Cross-Exam Context:** Put delta calculation is the same across all option markets. Understanding the sign convention is crucial for accurate P&L estimation.
+**Distributor's Pro-Tip:** A delta-0.40 put captures about 40% of the underlying's downward movement — for full protection, you'd need delta ≈ -1.0 (deep ITM put) or multiple OTM puts.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is 'convergence' in futures markets and why does it occur?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The phenomenon where the futures price converges to the spot price as the contract approaches expiry — it occurs because the final settlement price of futures is based on the underlying spot price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The tendency of different futures contracts to trade at the same price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The alignment of trading volumes across different exchanges]]></text></answer>
+            <answer correct="no"><text><![CDATA[The convergence of bid and ask prices to create a single market price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** At expiry, futures must equal spot because the final settlement is based on the underlying's spot price. If futures traded above spot at expiry, arbitrageurs would sell futures and buy spot; if below, they'd buy futures and sell spot. This forces convergence.
+**The Trap:** Convergence is about the spot-futures price gap narrowing to zero at expiry, not about different contracts or exchanges aligning.
+**Cross-Exam Context:** Convergence applies to all futures — equity index (settled at spot NIFTY), currency (settled at RBI reference rate), and commodity (settled at spot polling price).
+**Distributor's Pro-Tip:** Convergence is what makes hedging with futures effective — at expiry, the hedge gain/loss on the futures position offsets the loss/gain on the underlying.]]></text></explanation>
+    </question>
+</QF>

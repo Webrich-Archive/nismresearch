@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_8" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the minimum liquid net worth (collateral composition) requirement for clearing members in derivatives?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[At least 50% of total liquid assets must be in cash and cash equivalents — the non-cash component in excess of cash component is not counted]]></text></answer>
+            <answer correct="no"><text><![CDATA[100% of liquid assets must be in cash — no non-cash collateral is accepted]]></text></answer>
+            <answer correct="no"><text><![CDATA[At least 75% must be in cash with 25% allowed as securities]]></text></answer>
+            <answer correct="no"><text><![CDATA[There is no specific ratio — any combination of cash and non-cash is accepted]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Clearing corporations require at least 50% of total liquid assets as cash equivalents (cash, bank guarantees, FDRs, money market mutual fund units). Non-cash component (equities, bonds after haircuts) cannot exceed the cash component. Any excess non-cash is disregarded.
+**The Trap:** It's not 100% cash — non-cash is allowed up to 50%. And there IS a mandatory ratio — it's not flexible. This 50:50 rule applies across all derivative segments.
+**Cross-Exam Context:** The 50% cash rule is universal across currency (I Ch7), interest rate (IV Ch7), and equity (VIII Ch7) clearing. Series XIII tests this as a unified risk management concept.
+**Distributor's Pro-Tip:** The 50% cash rule ensures CCs can meet settlement obligations quickly — cash is liquid while securities may take time to convert during market stress.]]></text></explanation>
+    </question>
+</QF>

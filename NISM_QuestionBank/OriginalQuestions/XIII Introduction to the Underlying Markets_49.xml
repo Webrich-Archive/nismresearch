@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to the Underlying Markets_49" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How does the risk-free rate concept differ across the three underlying markets in India?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[In the bond market, G-Sec yields are the risk-free rate; in the equity market, the risk-free rate is used for derivative pricing (Black-Scholes); in the currency market, the interest rates of both currencies determine derivative pricing via interest rate parity]]></text></answer>
+            <answer correct="no"><text><![CDATA[The risk-free rate is the same concept applied identically in all three markets]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the bond market has a risk-free rate concept; equity and currency markets do not use it]]></text></answer>
+            <answer correct="no"><text><![CDATA[The risk-free rate is the RBI repo rate in all three markets]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** G-Sec yields serve as the risk-free benchmark in bond markets. Equity derivative pricing (Black-Scholes, cost-of-carry) uses the risk-free rate as an input. Currency derivative pricing uses interest rates of BOTH currencies (domestic and foreign) via interest rate parity: F = S × (1+Rd)/(1+Rf).
+**The Trap:** While the repo rate influences risk-free rates, it's not directly used in derivative pricing. The actual G-Sec yield for the relevant tenor is the market benchmark. Currency derivatives need TWO interest rates.
+**Cross-Exam Context:** Series IV Ch1 defines risk-free rate. Series VIII Ch3 uses it in cost-of-carry. Series I Ch3 uses interest rate differential. This is a key Series XIII comparison.
+**Distributor's Pro-Tip:** The risk-free rate is the foundation of all derivative pricing — understanding its different applications across asset classes is essential for accurate cross-market trading.]]></text></explanation>
+    </question>
+</QF>

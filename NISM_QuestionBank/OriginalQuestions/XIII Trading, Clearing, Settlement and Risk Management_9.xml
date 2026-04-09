@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which order type allows a trading member to buy or sell a derivative contract as soon as the order is released, with any unfilled portion being cancelled immediately?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[IOC (Immediate or Cancel) order]]></text></answer>
+            <answer correct="no"><text><![CDATA[Market order with protection]]></text></answer>
+            <answer correct="no"><text><![CDATA[Stop-loss order]]></text></answer>
+            <answer correct="no"><text><![CDATA[Day order with time validity]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** IOC (Immediate or Cancel) orders are designed for immediate execution — whatever quantity can be filled at the specified price or better is executed immediately, and any remaining unfilled portion is automatically cancelled. This prevents partial fills from lingering in the order book.
+**The Trap:** Market orders attempt to fill at any available price but don't auto-cancel unfilled portions. Stop-loss orders are triggered at a specific price level, not for immediate execution.
+**Cross-Exam Context:** IOC and other order types are identical across all derivative segments (I Ch6, IV Ch6, VIII Ch6). The trading system is the same across segments on each exchange.
+**Distributor's Pro-Tip:** IOC orders are useful when you want immediate execution and don't want an unfilled order sitting in the book and potentially getting filled later at a suboptimal time.]]></text></explanation>
+    </question>
+</QF>

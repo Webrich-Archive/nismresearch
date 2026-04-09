@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_29" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the 'conversion factor' in government bond futures and why is it needed?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[It adjusts the delivery price for bonds with different coupons and maturities so that any eligible bond can be fairly delivered against the same futures contract — CF = PV of bond's cash flows discounted at the notional coupon rate]]></text></answer>
+            <answer correct="no"><text><![CDATA[It converts foreign currency bond values to INR for settlement purposes]]></text></answer>
+            <answer correct="no"><text><![CDATA[It converts annual yields to semi-annual yields for comparison]]></text></answer>
+            <answer correct="no"><text><![CDATA[It is the ratio of the futures price to the spot price at any given time]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Bond futures allow delivery of any bond from a basket of eligible securities. Without CFs, the short would always deliver the cheapest bond regardless of quality. CFs normalize prices so bonds with different coupons/maturities are approximately equivalent: Invoice price = Futures × CF + Accrued interest.
+**The Trap:** CFs are specific to bond futures — they don't exist in equity, currency, or commodity futures where the underlying is standardized. CFs are not about currency conversion.
+**Cross-Exam Context:** Series IV Ch3 covers conversion factors in detail. This mechanism is unique to IR derivatives and is a key differentiator from other asset class futures.
+**Distributor's Pro-Tip:** CFs are imperfect — they only approximate equivalence. The bond where the imperfection most benefits the short seller is the CTD (cheapest to deliver), which drives actual futures pricing.]]></text></explanation>
+    </question>
+</QF>

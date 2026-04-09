@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_31" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the key difference between a Trading Member-Clearing Member (TM-CM) and a Professional Clearing Member (PCM) in the derivatives clearing hierarchy?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A TM-CM can both trade and clear, while a PCM only clears trades (for other TMs) and cannot trade on its own account]]></text></answer>
+            <answer correct="no"><text><![CDATA[A TM-CM handles only proprietary trades, while a PCM handles only client trades]]></text></answer>
+            <answer correct="no"><text><![CDATA[A TM-CM must be a bank, while a PCM can be any SEBI-registered entity]]></text></answer>
+            <answer correct="no"><text><![CDATA[A PCM has higher position limits than a TM-CM because it clears for multiple members]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In the clearing hierarchy: Trading Member (TM) only trades; Trading Member-Clearing Member (TM-CM) both trades and clears its own trades; Professional Clearing Member (PCM) only clears trades executed by other TMs but does not trade itself; Self-Clearing Member (SCM) clears only its own trades.
+**The Trap:** PCMs do NOT trade — they provide clearing services to TMs who lack clearing membership. A TM-CM is not restricted to proprietary trades; it handles both proprietary and client trades.
+**Cross-Exam Context:** This TM/CM hierarchy is identical across currency (Series I), interest rate (Series IV), and equity (Series VIII) derivative segments — a core Series XIII cross-segment concept.
+**Distributor's Pro-Tip:** Banks and custodians often become PCMs as it aligns with their settlement/custody expertise without needing trading infrastructure. The separation enhances systemic risk management.]]></text></explanation>
+    </question>
+</QF>

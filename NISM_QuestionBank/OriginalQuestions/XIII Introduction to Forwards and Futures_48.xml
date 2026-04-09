@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_48" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the difference between 'initial margin' and 'maintenance margin' in futures trading?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Initial margin is the upfront deposit required to open a position; maintenance margin is the minimum level below which the account cannot fall — if it does, a margin call requires the trader to restore it to initial margin level]]></text></answer>
+            <answer correct="no"><text><![CDATA[Initial margin is higher and is paid once; maintenance margin is a daily fee for holding the position]]></text></answer>
+            <answer correct="no"><text><![CDATA[Initial margin is for long positions; maintenance margin is for short positions]]></text></answer>
+            <answer correct="no"><text><![CDATA[They are the same — both refer to the minimum required deposit]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Initial margin: deposited when opening a position (typically the SPAN margin). Maintenance margin: the threshold (usually 75-80% of initial) below which the account triggers a margin call. If daily MTM losses erode the account below maintenance, the trader must bring it back to the initial margin level.
+**The Trap:** Maintenance margin is not a fee — it's a trigger level. Both apply to long AND short positions. They are different amounts (initial > maintenance).
+**Cross-Exam Context:** This margin structure is standard across all exchange-traded futures markets — equity (VIII), currency (I), IR (IV), commodity (XVI).
+**Distributor's Pro-Tip:** Always maintain margin well above the maintenance level — a margin call during volatile markets can force premature position exit at unfavorable prices.]]></text></explanation>
+    </question>
+</QF>

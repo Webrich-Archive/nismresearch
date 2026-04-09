@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Legal and Regulatory Environment_31" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the primary purpose of the Trade Guarantee Fund maintained by a clearing corporation in derivative markets?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[To guarantee settlement of trades even if a clearing member defaults, thereby eliminating counterparty risk for other market participants]]></text></answer>
+            <answer correct="no"><text><![CDATA[To provide insurance coverage to retail investors against trading losses in derivatives]]></text></answer>
+            <answer correct="no"><text><![CDATA[To fund the technology infrastructure upgrades of the derivative exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[To compensate brokers for losses arising from regulatory changes in margin requirements]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The Trade Guarantee Fund (TGF) is a critical risk management mechanism. All active clearing members contribute to it. If a CM defaults on settlement obligations, the TGF steps in to complete settlement, ensuring no cascading defaults. This eliminates counterparty risk for all participants.
+**The Trap:** TGF does not insure against trading losses — those are the trader's own risk. It only covers settlement default by a clearing member. It's not for infrastructure or regulatory compensation.
+**Cross-Exam Context:** TGF is part of the multi-layer risk management framework: margins (first line), member deposits (second line), TGF (third line). This applies across equity, currency, and IR derivative segments.
+**Distributor's Pro-Tip:** SEBI mandates contributions from all active members. The size of the TGF reflects the market's risk appetite and settlement volumes — larger, more active markets have larger TGFs.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Basics of Derivatives_16" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is 'marking to market' (MTM) in derivative markets?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The daily process of settling gains and losses on open derivative positions based on the closing market price, requiring parties to pay or receive the daily price difference]]></text></answer>
+            <answer correct="no"><text><![CDATA[The process of valuing a company's assets at current market prices on its balance sheet]]></text></answer>
+            <answer correct="no"><text><![CDATA[The initial margin that must be deposited when opening a derivative position]]></text></answer>
+            <answer correct="no"><text><![CDATA[The final settlement price used at contract expiry]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** MTM is the daily settlement of futures positions: if the closing price moves against your position, you pay the difference; if it moves in your favor, you receive it. This prevents losses from accumulating and reduces counterparty risk. It's a key feature of exchange-traded futures.
+**The Trap:** MTM is not the initial margin (which is deposited upfront). It's not balance sheet valuation (that's accounting mark-to-market). The final settlement is a separate process at expiry.
+**Cross-Exam Context:** MTM applies to all exchange-traded futures — equity (Series VIII Ch7), currency (Series I Ch7), IR (Series IV Ch7), and commodity (Series XVI Ch7).
+**Distributor's Pro-Tip:** Daily MTM means futures require active cash management — even if your long-term view is correct, you need cash to meet interim MTM calls, which can be substantial during volatile periods.]]></text></explanation>
+    </question>
+</QF>

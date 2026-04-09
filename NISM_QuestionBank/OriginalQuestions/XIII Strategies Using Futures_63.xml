@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_63" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How does execution risk affect arbitrage strategies in practice?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Time gap between executing the two legs can result in price movement, turning a perceived arbitrage into a naked directional position with potential loss]]></text></answer>
+            <answer correct="no"><text><![CDATA[Execution risk only affects market makers, not arbitrageurs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Arbitrage strategies are always risk-free regardless of execution timing]]></text></answer>
+            <answer correct="no"><text><![CDATA[Execution risk can be eliminated by using limit orders on both legs simultaneously]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Arbitrage requires simultaneous execution of opposite positions in different markets. In practice, there's always a time gap. If one leg executes but the other doesn't (due to price movement, illiquidity, or system issues), the trader is left with a naked position — speculative, not hedged.
+**The Trap:** Limit orders don't guarantee simultaneous execution — they may not fill if prices move away. No technology can guarantee truly simultaneous execution across different markets.
+**Cross-Exam Context:** All three series (I, IV, VIII) discuss execution risk as a key risk for arbitrageurs. It's particularly acute in illiquid markets.
+**Distributor's Pro-Tip:** Professional arbitrageurs use co-located servers and algorithmic trading to minimize execution lag. Even then, the risk exists — which is why 'risk-free' arbitrage is theoretical.]]></text></explanation>
+    </question>
+</QF>

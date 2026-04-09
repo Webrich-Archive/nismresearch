@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_41" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A corporate has both USD imports and exports. If imports exceed exports, what is the most efficient hedging strategy?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Hedge only the net residual USD exposure by buying USDINR futures, provided there is no significant gap between receivable and payable dates]]></text></answer>
+            <answer correct="no"><text><![CDATA[Hedge both imports and exports separately with individual futures contracts for each transaction]]></text></answer>
+            <answer correct="no"><text><![CDATA[No hedging is needed since imports and exports in the same currency cancel each other]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell USDINR futures for the total import amount to fully hedge]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When a company has both USD inflows and outflows, the natural hedge from netting reduces the residual exposure. Only the net position (imports - exports) needs to be hedged. Since imports exceed exports, the net exposure is USD payable, requiring long USDINR futures.
+**The Trap:** Complete cancellation only works if amounts and timing match perfectly. Date mismatches create residual risk that must be hedged.
+**Cross-Exam Context:** Series I Ch5 covers residual exposure hedging for corporates with both import and export flows.
+**Distributor's Pro-Tip:** Natural netting reduces hedging costs significantly — always net first, then hedge the residual exposure.]]></text></explanation>
+    </question>
+</QF>

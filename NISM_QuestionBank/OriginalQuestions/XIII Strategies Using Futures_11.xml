@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A stock is trading at Rs. 1,000 in the cash market. The risk-free rate is 12% per annum and the stock pays no dividend. The 3-month futures contract is trading at Rs. 1,050. What arbitrage strategy should a trader execute?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buy the stock in the cash market and sell futures, as the fair futures price of Rs. 1,030 is below the traded price of Rs. 1,050]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell the stock in the cash market and buy futures, as the futures are overpriced]]></text></answer>
+            <answer correct="no"><text><![CDATA[No arbitrage opportunity exists as futures premium is justified by cost of carry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy futures and wait for convergence at expiry to make risk-free profit]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Fair futures price = Spot × (1 + r × t) = 1000 × (1 + 0.12 × 3/12) = 1000 × 1.03 = Rs. 1,030. Since traded price (1,050) > fair price (1,030), cash-and-carry arbitrage is profitable: buy spot at 1,000 (borrow at 12%), sell futures at 1,050, earn Rs. 20 profit per share at expiry.
+**The Trap:** Simply buying futures alone is speculation, not arbitrage — you need both legs (buy spot + sell futures) to lock in the profit.
+**Cross-Exam Context:** Series VIII Ch3 covers cost-of-carry arbitrage for equity. Series XIII compares this with interest rate parity-based arbitrage in currency markets.
+**Distributor's Pro-Tip:** Arbitrage profit = Traded futures price - Fair futures price. If this is positive and exceeds transaction costs, execute cash-and-carry arbitrage.]]></text></explanation>
+    </question>
+</QF>

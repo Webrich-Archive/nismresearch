@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A short straddle strategy is most appropriate when a trader expects which of the following?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The underlying price will remain stable with low volatility]]></text></answer>
+            <answer correct="no"><text><![CDATA[The underlying price will move significantly in either direction]]></text></answer>
+            <answer correct="no"><text><![CDATA[The underlying price will increase sharply]]></text></answer>
+            <answer correct="no"><text><![CDATA[The underlying price will decrease sharply]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A short straddle involves selling both a call and a put at the same strike. The trader collects premiums from both and profits maximally when the price stays at the strike (both expire worthless). Any significant move erodes profits.
+**The Trap:** A long straddle (not short) benefits from large moves. Short straddle profits from stability — the trader is effectively selling volatility.
+**Cross-Exam Context:** Both Series I and IV Ch5 cover short straddles in their respective markets. The logic is identical across currency, interest rate, and equity markets.
+**Distributor's Pro-Tip:** Short straddle has unlimited loss potential — use only when you are very confident that the market will remain range-bound.]]></text></explanation>
+    </question>
+</QF>

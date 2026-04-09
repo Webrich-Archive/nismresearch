@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Basics of Derivatives_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is 'novation' by a Central Counterparty (CCP) and why is it crucial for exchange-traded derivatives?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The CCP interposes itself between buyer and seller, becoming counterparty to both, thereby eliminating bilateral counterparty credit risk]]></text></answer>
+            <answer correct="no"><text><![CDATA[The CCP introduces new derivative products to the market]]></text></answer>
+            <answer correct="no"><text><![CDATA[The CCP allows traders to rollover expiring contracts to the next series]]></text></answer>
+            <answer correct="no"><text><![CDATA[The CCP converts all physical settlement contracts to cash settlement]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Through novation, a single trade between A and B becomes two trades: A-CCP and CCP-B. The CCP guarantees both sides, backed by margin, settlement guarantee fund, and its own capital. This makes exchange-traded derivatives much safer than bilateral OTC contracts.
+**The Trap:** Novation is about counterparty substitution, not product innovation or contract rollover. It's the mechanism that makes exchange-traded derivatives virtually free of counterparty risk.
+**Cross-Exam Context:** Covered in Series VIII Ch7, Series I Ch7, Series IV Ch7, and Series XVI Ch7. Universal across all exchange-traded derivative markets.
+**Distributor's Pro-Tip:** After the 2008 financial crisis, regulators globally are pushing OTC derivatives toward central clearing (CCP) — novation is the mechanism that makes this possible.]]></text></explanation>
+    </question>
+</QF>

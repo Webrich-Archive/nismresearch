@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Option Trading Strategies_16" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is 'calendar spread' in options?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Buying a longer-dated option and selling a shorter-dated option at the same strike — profits from the differential time decay rate between the two options (shorter-dated option decays faster)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buying options that expire on different days of the week]]></text></answer>
+            <answer correct="no"><text><![CDATA[A spread between options on two different calendar year contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[The same as a bull call spread but with different expiry dates]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Calendar (horizontal/time) spread: Same strike, different expiries. The near-month option decays faster (higher theta) than the far-month. If the underlying stays near the strike, the near-month expires worthless while the far-month retains value. Net effect: profit from differential time decay.
+**The Trap:** Calendar spreads use SAME strike, DIFFERENT expiry (horizontal). Vertical spreads use DIFFERENT strikes, SAME expiry. It's not about week days or calendar years.
+**Cross-Exam Context:** Calendar spreads work in equity (VIII), currency, and commodity options. They're a key tool for trading the term structure of implied volatility.
+**Distributor's Pro-Tip:** Calendar spreads profit when the underlying stays near the strike — they're an alternative to iron condors for neutral strategies. They also benefit from IV expansion in the back month.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Option Trading Strategies_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is an 'iron condor' strategy?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Sell an OTM call and an OTM put, while buying a further OTM call and a further OTM put — it creates a range-bound income strategy with all four positions limiting risk. Max profit = net premium received. Max loss = width of either spread minus net premium]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy four options at four different strikes for maximum flexibility]]></text></answer>
+            <answer correct="no"><text><![CDATA[A combination of two bull spreads]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell a straddle and buy the underlying for protection]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Iron condor = Short OTM call spread + Short OTM put spread. Example: sell 25,500 call + buy 25,700 call + sell 24,500 put + buy 24,300 put. Profit zone: 24,500-25,500. Max profit = net premium. Max loss = (200 - net premium) on either side. All risks are defined.
+**The Trap:** An iron condor has FOUR legs, not random combinations. It's two credit spreads (bear call + bull put), not two bull spreads.
+**Cross-Exam Context:** Iron condors are popular in equity options (VIII Ch5). They can be constructed in currency options for range-bound markets and in commodity options for seasonal ranges.
+**Distributor's Pro-Tip:** Iron condors are the bread and butter of systematic option income strategies — they work in rangebound markets (which markets are ~70% of the time). Manage by adjusting when the underlying threatens a wing strike.]]></text></explanation>
+    </question>
+</QF>

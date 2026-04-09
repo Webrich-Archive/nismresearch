@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_73" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Comparing margin frameworks across derivative segments, which of the following statements is correct?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[SPAN (Standard Portfolio Analysis of Risk) methodology is used for computing initial margins across equity, currency, and interest rate derivatives]]></text></answer>
+            <answer correct="no"><text><![CDATA[Currency derivatives use a flat percentage margin while equity derivatives use SPAN]]></text></answer>
+            <answer correct="no"><text><![CDATA[Interest rate derivatives do not require initial margins due to low volatility]]></text></answer>
+            <answer correct="no"><text><![CDATA[Each derivative segment uses a completely different margin computation methodology]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SPAN is the standard methodology used by Indian clearing corporations to compute initial margins across all exchange-traded derivative segments. SPAN uses scenario-based analysis considering price and volatility changes to determine the worst-case portfolio loss, which becomes the margin requirement.
+**The Trap:** Currency derivatives do NOT use flat percentage margins — they also use SPAN. Interest rate derivatives DO require initial margins despite lower volatility. While the SPAN parameters (price scan range, volatility scan range) differ across segments, the underlying methodology is the same.
+**Cross-Exam Context:** SPAN methodology is covered in Series I (Currency), Series IV (Interest Rate), Series VIII (Equity), and Series XVI (Commodity). Series XIII tests the unified understanding across all segments.
+**Distributor's Pro-Tip:** SPAN margins are portfolio-based — a hedged portfolio will attract lower margins than naked positions. Advisors should help clients structure positions to optimize SPAN margin efficiency across their derivative portfolio.]]></text></explanation>
+    </question>
+</QF>

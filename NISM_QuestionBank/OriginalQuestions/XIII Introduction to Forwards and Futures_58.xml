@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_58" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If an equity futures contract on Stock XYZ (lot size 500) is bought at Rs 1,200 and the stock pays a dividend of Rs 25 during the contract period, what happens to the futures price?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The futures price is expected to decline by approximately Rs 25 (adjusted for time value) on the ex-dividend date, reflecting the reduction in carry benefit]]></text></answer>
+            <answer correct="no"><text><![CDATA[The futures price increases by Rs 25 because dividends add value]]></text></answer>
+            <answer correct="no"><text><![CDATA[The futures price is unaffected because dividends are separate from the derivatives market]]></text></answer>
+            <answer correct="no"><text><![CDATA[The exchange automatically credits Rs 12,500 (25 × 500) to the long futures holder]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When a stock goes ex-dividend, the spot price drops by approximately the dividend amount. Since futures are linked to spot via cost-of-carry, the futures price also adjusts downward. However, for extraordinary dividends (above ordinary threshold), the exchange may adjust the futures contract terms (strike/lot size adjustment).
+**The Trap:** Futures holders do NOT receive dividends — only actual shareholders do. The adjustment happens through price, not through a payment. Futures prices are affected because the underlying spot price drops on ex-date.
+**Cross-Exam Context:** Series VIII Ch7 covers corporate action adjustments for equity derivatives. This mechanism doesn't exist in currency or IR futures.
+**Distributor's Pro-Tip:** Track ex-dividend dates when holding equity futures — the price drop is expected and not a trading signal. For large dividends, check exchange circulars for contract adjustments.]]></text></explanation>
+    </question>
+</QF>

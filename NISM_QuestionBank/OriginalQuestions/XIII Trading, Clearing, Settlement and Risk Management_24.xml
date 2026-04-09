@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A seller of Nifty options exercises the contract and the settlement value is Rs 2,50,000. Calculate the Securities Transaction Tax (STT) payable on this transaction.]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 250 (STT on options exercised = 0.10% on settlement value, paid by seller = 0.10% x Rs 2,50,000)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 156.25 (0.0625% x Rs 2,50,000 — the rate for options not exercised)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 50 (0.02% x Rs 2,50,000 — the rate applicable to futures)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 500 (0.20% x Rs 2,50,000 — combining buyer and seller STT rates)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** STT on options that are exercised is 0.10% of the settlement value, payable by the seller/writer. On Rs 2,50,000, STT = 0.10% x 2,50,000 = Rs 250.
+**The Trap:** The STT rate of 0.0625% applies to options premium (seller side) when NOT exercised. The 0.02% rate is for futures (seller side). On exercise, the rate jumps to 0.10% — a 16x increase over the non-exercise rate.
+**Cross-Exam Context:** STT applies only to equity derivatives, NOT to currency or interest rate derivatives. This is a critical Series XIII cross-segment distinction. Currency and IR derivatives attract no STT.
+**Distributor's Pro-Tip:** The higher STT on exercise is why many traders prefer to square off deep-in-the-money options before expiry rather than letting them exercise — the STT saving can be significant.]]></text></explanation>
+    </question>
+</QF>

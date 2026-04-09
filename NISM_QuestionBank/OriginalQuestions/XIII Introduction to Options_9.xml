@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is 'Vega' and how does it affect option pricing?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Vega measures the change in option premium for a 1% change in implied volatility — higher volatility increases both call AND put premiums because it increases the probability of large price moves]]></text></answer>
+            <answer correct="no"><text><![CDATA[Vega only affects call options, not put options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Vega measures the impact of exchange rate changes on option premium]]></text></answer>
+            <answer correct="no"><text><![CDATA[Vega is always zero for at-the-money options]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Vega measures volatility sensitivity. If vega = 0.80, a 1% increase in implied volatility increases the option premium by Rs 0.80. Long options (both calls and puts) have positive vega — they benefit from volatility increases. Vega is highest for ATM options with long time to expiry.
+**The Trap:** Vega affects BOTH calls and puts positively (for longs). Exchange rate sensitivity is different from volatility sensitivity. ATM options have the HIGHEST vega, not zero.
+**Cross-Exam Context:** Vega is critical for all option markets. In currency options (I Ch4), implied volatility of exchange rates drives vega. In IR options (IV Ch4), yield volatility matters.
+**Distributor's Pro-Tip:** Before major events (RBI policy, earnings, elections), implied volatility rises — option premiums increase even if the underlying hasn't moved. This is vega at work.]]></text></explanation>
+    </question>
+</QF>

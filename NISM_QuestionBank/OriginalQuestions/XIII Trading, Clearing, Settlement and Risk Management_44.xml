@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_44" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How does the settlement of daily mark-to-market (MTM) differ from final settlement in currency futures?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Daily MTM is settled on T+1 basis in cash (INR) based on the daily settlement price, while final settlement is on T+2 basis based on the RBI reference rate on the expiry day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Daily MTM and final settlement both occur on T+1 basis, with the only difference being the reference price used]]></text></answer>
+            <answer correct="no"><text><![CDATA[Daily MTM is adjusted against margin and not actually settled in cash, while only final settlement involves cash movement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Daily MTM is settled in the underlying foreign currency, while final settlement is in INR]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Currency futures have two settlement timelines: daily MTM is settled on T+1 (next business day) using the daily settlement price (usually exchange closing price). Final settlement on expiry is on T+2 basis using the RBI reference rate for that currency pair. Both are in INR — no foreign currency changes hands.
+**The Trap:** Daily MTM IS actually settled in cash (INR credit/debit), not merely a margin adjustment. The final settlement uses a different price source (RBI reference rate, not exchange price). All settlements are in INR only.
+**Cross-Exam Context:** Compare settlement cycles: Currency daily T+1 / final T+2; Equity futures daily MTM T+1 / final T+1; Interest rate futures follow similar conventions. All use INR for settlement.
+**Distributor's Pro-Tip:** The RBI reference rate for final settlement is published at 12:30 PM on the expiry day. The switch from exchange-determined to RBI-determined price at expiry ensures convergence with the official exchange rate.]]></text></explanation>
+    </question>
+</QF>

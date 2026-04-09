@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_61" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the key difference between hedging with futures and hedging with options in terms of cost structure?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Futures hedging requires only margin (no upfront cost for the position itself) while options hedging requires upfront premium payment which is the maximum potential loss for the buyer]]></text></answer>
+            <answer correct="no"><text><![CDATA[Futures hedging requires premium payment while options hedging requires only margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both futures and options require identical cost structures for hedging]]></text></answer>
+            <answer correct="no"><text><![CDATA[Futures are always more expensive than options for hedging]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Futures hedging requires margin deposits (refundable) but no premium. The P&L is symmetric — gains offset losses. Options hedging requires premium (non-refundable cost). The P&L is asymmetric — loss limited to premium, but gains are unlimited (for buyer). This makes options 'insurance' while futures are 'locks'.
+**The Trap:** Margin is not a cost — it's a performance guarantee. Premium IS a cost — it's the price of insurance. This is a fundamental distinction between linear (futures) and non-linear (options) instruments.
+**Cross-Exam Context:** All three series compare futures vs options hedging costs. This is a universal derivatives concept tested across I, IV, and VIII.
+**Distributor's Pro-Tip:** Use futures when you want zero-cost protection and can accept symmetric outcomes. Use options when you want asymmetric protection (downside floor + upside participation) and can afford the premium.]]></text></explanation>
+    </question>
+</QF>

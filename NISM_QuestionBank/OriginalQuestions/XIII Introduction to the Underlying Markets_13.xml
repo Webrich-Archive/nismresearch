@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to the Underlying Markets_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is 'impact cost' in the context of equity markets?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The percentage price change caused by executing a specific order size against the available order book, compared to the ideal price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The brokerage fee charged by the exchange for processing trades]]></text></answer>
+            <answer correct="no"><text><![CDATA[The cost of listing a company's shares on a stock exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[The penalty imposed on market participants for failed deliveries]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Impact cost measures market liquidity by calculating the cost of executing a transaction of a specific value against the live order book. If the ideal price (midpoint of best bid and offer) is Rs 4.25 and a buy order for 3000 shares executes at an average of Rs 4.53, the impact cost is (4.53-4.25)/4.25 = 6.6%.
+**The Trap:** Impact cost is not a fee — it's a measure of how much the order book moves when you place a large order. Lower impact cost means higher liquidity.
+**Cross-Exam Context:** Series VIII Ch2 covers impact cost for index inclusion. Series VII (Securities Operations) discusses market microstructure and liquidity.
+**Distributor's Pro-Tip:** Impact cost is a key criterion for stock inclusion in derivative trading — SEBI uses impact cost thresholds to determine F&O eligibility.]]></text></explanation>
+    </question>
+</QF>

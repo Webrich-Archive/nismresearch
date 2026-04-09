@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_39" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If the NIFTY spot is at 25,000, risk-free rate 8%, and expected dividend yield 1.5%, what is the theoretical 2-month NIFTY futures price?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 25,270.83 [F = 25000 × (1 + (0.08-0.015) × 2/12) = 25000 × (1 + 0.065 × 0.1667) = 25000 × 1.01083 = 25,270.83]]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 25,333.33]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 25,000.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 25,125.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** F = S × (1 + (r - q) × t) = 25,000 × (1 + (0.08 - 0.015) × 2/12) = 25,000 × (1 + 0.065/6) = 25,000 × 1.01083 = 25,270.83. Net carry cost is 6.5% (8% - 1.5%) for 2 months.
+**The Trap:** Rs 25,333.33 ignores dividend yield (uses 8% only). Rs 25,000 assumes no carry. Rs 25,125 uses 1 month instead of 2.
+**Cross-Exam Context:** Series VIII Ch3 covers this calculation. Compare with currency IRP where two interest rates are used instead of rate minus dividend.
+**Distributor's Pro-Tip:** If the actual futures price is significantly different from theoretical, check whether a large dividend is expected — dividend expectations are the most common cause of equity futures mispricing.]]></text></explanation>
+    </question>
+</QF>

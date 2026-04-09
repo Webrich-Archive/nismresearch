@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Nifty spot is at 17,500 and the 3-month Nifty futures is trading at 17,800. Risk-free rate is 8% p.a. and expected dividend yield on Nifty stocks is 2% p.a. What is the fair futures price and is there an arbitrage opportunity?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Fair price is Rs. 17,762.50 and the futures are slightly overpriced, indicating a potential cash-and-carry arbitrage]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fair price is Rs. 17,850 and there is no arbitrage opportunity]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fair price is Rs. 17,500 and the futures premium is entirely justified]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fair price is Rs. 18,200 and the futures are underpriced, indicating reverse cash-and-carry arbitrage]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Fair futures price = Spot × (1 + (r - d) × t) = 17,500 × (1 + (0.08 - 0.02) × 0.25) = 17,500 × 1.015 = Rs. 17,762.50. Traded price (17,800) > Fair price (17,762.50), so cash-and-carry arbitrage is possible: buy spot basket, sell futures.
+**The Trap:** Using just the risk-free rate without subtracting dividend yield overestimates the fair price. Cost of carry for equity index = risk-free rate minus dividend yield.
+**Cross-Exam Context:** Series VIII Ch3 covers index arbitrage with cost-of-carry model. Series XIII compares equity cost-of-carry with IRP for currency and yield-based pricing for bonds.
+**Distributor's Pro-Tip:** For dividend-paying stocks/indices, the cost of carry is reduced by the dividend yield — dividends are a benefit of holding the spot asset.]]></text></explanation>
+    </question>
+</QF>

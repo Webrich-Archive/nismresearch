@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_67" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When constructing a hedge for a bond portfolio using single bond futures, why might the hedge not be perfect?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The portfolio contains multiple bonds of varying maturities and coupons, while futures are based on a single notional bond — duration mismatch creates basis risk]]></text></answer>
+            <answer correct="no"><text><![CDATA[Single bond futures are always cash-settled, preventing delivery of the actual portfolio bonds]]></text></answer>
+            <answer correct="no"><text><![CDATA[The exchange does not allow hedging of portfolios, only individual bond positions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Bond futures trade at par value regardless of the underlying bond's market price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A portfolio typically holds bonds with different maturities, coupons, and durations. The futures contract is based on a specific notional bond. Since the portfolio's weighted average duration may differ from the futures contract's duration, the hedge is imperfect — this is cross-hedging basis risk.
+**The Trap:** Exchanges allow portfolio hedging. Bond futures don't trade at par — they trade at market price reflecting yield levels. Physical settlement IS available for some contracts.
+**Cross-Exam Context:** Series IV Ch5 discusses portfolio-based hedging limitations. Series XIII compares this with equity index futures hedging (where basis risk comes from stock-specific vs index returns).
+**Distributor's Pro-Tip:** Portfolio hedging is approximate. Use the duration-based hedge ratio to get as close as possible, but accept that basis risk from portfolio composition will remain.]]></text></explanation>
+    </question>
+</QF>

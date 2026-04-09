@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Accounting and Taxation_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What transaction tax applies to commodity derivative transactions and how does it compare to STT on equity derivatives?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[CTT (Commodity Transaction Tax) at 0.01% on seller of commodity options — similar to STT in concept but different rates and applicability compared to equity derivatives STT of 0.02% on futures and 0.10% on options]]></text></answer>
+            <answer correct="no"><text><![CDATA[CTT applies at the same rate as equity STT (0.02% on futures, 0.10% on options)]]></text></answer>
+            <answer correct="no"><text><![CDATA[No transaction tax applies to commodity derivatives — only equity derivatives attract STT]]></text></answer>
+            <answer correct="no"><text><![CDATA[CTT applies at 0.05% on both buyer and seller of all commodity derivative transactions]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** CTT was introduced for commodity derivatives (non-agricultural) — it's similar in concept to STT but with different rates and scope. STT applies to equity derivatives (0.02% futures seller, 0.10% options on exercise). Neither STT nor CTT applies to currency or interest rate derivatives.
+**The Trap:** The rates and applicability differ between CTT and STT. Currency and IR derivatives are exempt from both.
+**Cross-Exam Context:** This is a XIII-unique cross-asset comparison. Series VIII covers STT, Series XVI covers CTT, Series I confirms no transaction tax on currency derivatives.
+**Distributor's Pro-Tip:** The absence of STT/CTT on currency and interest rate derivatives makes them relatively more cost-efficient for high-frequency trading compared to equity and commodity derivatives.]]></text></explanation>
+    </question>
+</QF>

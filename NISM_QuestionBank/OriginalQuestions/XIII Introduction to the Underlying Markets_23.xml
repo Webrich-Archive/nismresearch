@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to the Underlying Markets_23" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What does the term 'Yield to Maturity' (YTM) of a bond represent?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The total annualized return an investor earns if the bond is held until maturity and all coupons are reinvested at the same rate]]></text></answer>
+            <answer correct="no"><text><![CDATA[The current coupon rate of the bond expressed as a percentage of face value]]></text></answer>
+            <answer correct="no"><text><![CDATA[The annual dividend yield of the issuing company's equity shares]]></text></answer>
+            <answer correct="no"><text><![CDATA[The return earned only from the price appreciation of the bond]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** YTM is the internal rate of return (IRR) of a bond — the discount rate that makes the present value of all future cash flows (coupons + principal) equal to the current market price. It assumes all coupons are reinvested at the YTM rate.
+**The Trap:** The coupon rate is fixed at issuance and doesn't change with market conditions. YTM reflects the market's required return and changes as bond prices change.
+**Cross-Exam Context:** Series IV Ch1 covers YTM calculation in detail. YTM is the basis for IR derivative pricing and hedging strategies in Series XIII.
+**Distributor's Pro-Tip:** YTM is the most commonly used measure for comparing bonds — but remember its reinvestment assumption is often unrealistic in practice.]]></text></explanation>
+    </question>
+</QF>

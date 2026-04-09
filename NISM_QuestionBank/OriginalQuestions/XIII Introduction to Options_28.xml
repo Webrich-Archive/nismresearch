@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_28" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What are 'swaptions' in the interest rate options market?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Options on interest rate swaps — the holder has the right to enter into a specific interest rate swap at a future date. A payer swaption gives the right to pay fixed/receive floating; a receiver swaption gives the right to receive fixed/pay floating]]></text></answer>
+            <answer correct="no"><text><![CDATA[A combination of a swap and a futures contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[An option to swap equity holdings for bond holdings]]></text></answer>
+            <answer correct="no"><text><![CDATA[A type of currency swap where the parties can choose whether to exchange]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Swaptions are OTC options granting the right to enter a swap: Payer swaption = right to pay fixed rate (benefits from rate rises). Receiver swaption = right to receive fixed rate (benefits from rate falls). They are widely used by corporations and banks to manage future interest rate commitments.
+**The Trap:** Swaptions are not swaps + futures — they are options ON swaps. They're specific to interest rate markets. Currency swap options are called 'swaptions' too but specifically in the FX context.
+**Cross-Exam Context:** Series IV Ch4 covers swaptions. This is unique to IR derivatives and has no direct equivalent in equity or commodity options.
+**Distributor's Pro-Tip:** Swaptions are the most liquid long-dated IR option market — they provide companies with flexibility to lock in borrowing rates if needed, without commitment.]]></text></explanation>
+    </question>
+</QF>

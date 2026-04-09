@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_50" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following correctly describes the physical settlement process for equity stock options that expire in-the-money?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The buyer (long) of a call option receives shares upon paying the settlement value; the seller (short) of the call must deliver shares; positions are assigned through a random assignment process]]></text></answer>
+            <answer correct="no"><text><![CDATA[Physical settlement is optional — either party can choose cash settlement by paying a cash-settlement premium]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the seller can choose between physical delivery and cash settlement; the buyer must accept whatever the seller decides]]></text></answer>
+            <answer correct="no"><text><![CDATA[Physical settlement applies only to futures, not options — all options contracts are cash-settled even if the stock is eligible for physical settlement]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For equity stock derivatives, SEBI mandates physical settlement. For in-the-money call options: the call buyer pays the strike price and receives shares; the call seller delivers shares. For in-the-money put options: the put buyer delivers shares; the put seller pays the strike price and receives shares. Assignment is random among open short positions.
+**The Trap:** Physical settlement is MANDATORY, not optional, for stock derivatives. Both futures and options on eligible stocks are physically settled. There is no cash-settlement alternative for stock derivatives.
+**Cross-Exam Context:** Physical settlement: Equity stocks (mandatory), Bond futures (physical via conversion factor). Cash settlement: Equity index, Currency (all in INR), some bond futures. Series XIII requires knowing which segment uses which mode.
+**Distributor's Pro-Tip:** Traders must ensure they have shares in their demat account (for short call/long put) or funds (for long call/short put) before expiry. Failure to deliver attracts auction/close-out at penalty prices — a costly mistake for unprepared traders.]]></text></explanation>
+    </question>
+</QF>

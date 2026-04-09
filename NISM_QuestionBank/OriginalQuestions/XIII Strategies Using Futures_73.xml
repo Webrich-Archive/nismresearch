@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_73" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader holds an equity portfolio and writes covered calls on the index. If the market rallies sharply above the call strike, what is the outcome?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The portfolio gains value but the profit is capped at the strike price — the call buyer exercises and the writer delivers at the strike, losing the upside beyond the strike]]></text></answer>
+            <answer correct="no"><text><![CDATA[The portfolio loses value and the call expires worthless, giving the writer a net loss]]></text></answer>
+            <answer correct="no"><text><![CDATA[The covered call writer earns unlimited profit since they hold the underlying]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both the portfolio and the written call generate profits simultaneously]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Covered call = long stock + short call. If market rallies above strike: stock gains are offset by losses on the short call (exercised against writer). Net position: gains capped at strike price + premium received. The writer keeps the premium but misses out on gains above the strike.
+**The Trap:** The writer does NOT have unlimited profit — the short call caps the upside. Written calls and portfolio gains are inversely related above the strike.
+**Cross-Exam Context:** Series VIII Ch5 covers covered call outcomes in different scenarios. Series XIII tests understanding of this equity-specific strategy.
+**Distributor's Pro-Tip:** Covered calls are best in sideways to moderately bullish markets. In a sharp rally, you'll underperform a simple long portfolio — that's the cost of earning the premium income.]]></text></explanation>
+    </question>
+</QF>

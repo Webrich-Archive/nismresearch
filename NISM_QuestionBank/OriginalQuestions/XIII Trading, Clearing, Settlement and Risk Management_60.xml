@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_60" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In physically settled bond futures (interest rate derivatives), what is the primary purpose of the conversion factor?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[To equalize the value of different deliverable bonds so that they can be delivered against the same futures contract]]></text></answer>
+            <answer correct="no"><text><![CDATA[To convert the futures price from one currency to another]]></text></answer>
+            <answer correct="no"><text><![CDATA[To adjust the contract size based on market volatility]]></text></answer>
+            <answer correct="no"><text><![CDATA[To calculate the stamp duty payable on delivery]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Since multiple bonds with different coupons and maturities can be delivered against a single bond futures contract, the conversion factor adjusts the futures settlement price to account for the coupon and remaining maturity differences. This makes delivery of any eligible bond theoretically equivalent.
+**The Trap:** Currency conversion is irrelevant — these are INR-denominated contracts. Volatility-based adjustment relates to margins, not conversion factors. Stamp duty calculation is a separate administrative matter.
+**Cross-Exam Context:** Series IV (Interest Rate Derivatives) covers conversion factors and the cheapest-to-deliver (CTD) concept in detail. This concept is unique to interest rate derivatives — equity and currency derivatives do not use conversion factors.
+**Distributor's Pro-Tip:** Understanding conversion factors helps explain why the CTD bond trades at a premium or discount to the theoretical futures price — it is the bond whose delivery is most advantageous for the short position holder.]]></text></explanation>
+    </question>
+</QF>

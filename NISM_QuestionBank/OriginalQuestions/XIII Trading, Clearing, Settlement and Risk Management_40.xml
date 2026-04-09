@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_40" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How does the spread order facility benefit traders in derivative markets?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Spread orders allow simultaneous execution of two related legs (e.g., buy near-month, sell far-month) as a single order, reducing execution risk and potentially receiving margin benefits]]></text></answer>
+            <answer correct="no"><text><![CDATA[Spread orders guarantee a fixed profit equal to the difference between the two contract prices at the time of order placement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Spread orders are available only for calendar spreads in equity index derivatives, not for other segments or spread types]]></text></answer>
+            <answer correct="no"><text><![CDATA[Spread orders receive priority in the order matching system over regular non-spread orders at the same price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Spread orders combine two legs into a single order — typically a calendar spread (buy one expiry, sell another) or an inter-commodity spread. The exchange tries to execute both legs simultaneously, reducing leg risk. Spread positions typically receive lower margin requirements because the two legs partially offset each other.
+**The Trap:** Spread orders do NOT guarantee profits — they guarantee simultaneous execution of both legs. They are available across multiple segments and spread types, not limited to equity index calendar spreads. They follow normal price-time priority.
+**Cross-Exam Context:** Spread trading is available in currency futures (USDINR calendar spreads), interest rate futures (yield curve spreads), and equity (calendar and inter-commodity spreads). Margin netting applies across all segments.
+**Distributor's Pro-Tip:** The margin benefit of spreads can be substantial — a calendar spread may require only 40-60% of the combined outright margin for the two legs. This capital efficiency makes spreads popular among institutional traders.]]></text></explanation>
+    </question>
+</QF>

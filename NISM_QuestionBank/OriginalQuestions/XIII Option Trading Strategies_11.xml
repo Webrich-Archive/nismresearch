@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Option Trading Strategies_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How does hedging with options differ from hedging with futures across all asset classes?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Options provide asymmetric protection (limited downside, unlimited upside retained) at the cost of a premium; futures provide symmetric hedging (lock in a price for both upside and downside) at no premium cost but with margin requirements and MTM obligations]]></text></answer>
+            <answer correct="no"><text><![CDATA[Options are always better than futures for hedging]]></text></answer>
+            <answer correct="no"><text><![CDATA[Futures provide better protection because they don't cost a premium]]></text></answer>
+            <answer correct="no"><text><![CDATA[Hedging with options is only possible in equity markets, not currency or IR]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Options: pay premium upfront, protected against adverse moves, benefit from favorable moves. No margin calls for buyers. Futures: no upfront premium but require margin, daily MTM, and lock in both upside and downside. The choice depends on: cost tolerance, view on direction, operational capacity (margin management).
+**The Trap:** Neither is always better — each suits different situations. Futures' lack of premium doesn't make them free (opportunity cost + margin). Options work across ALL markets.
+**Cross-Exam Context:** This comparison applies to equity (VIII), currency (I), IR (IV), and commodity (XVI) hedging. It's a fundamental Series XIII concept.
+**Distributor's Pro-Tip:** Use futures when: cost-conscious, strong directional view, can manage margins. Use options when: want to retain upside, uncertain about direction, can't manage margin calls. Many hedgers use a combination.]]></text></explanation>
+    </question>
+</QF>

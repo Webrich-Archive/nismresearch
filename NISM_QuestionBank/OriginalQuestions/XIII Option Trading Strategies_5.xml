@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Option Trading Strategies_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A trader constructs a long straddle: buys NIFTY 25,000 call at Rs 300 and NIFTY 25,000 put at Rs 250. What are the breakeven points?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Upper BEP: 25,550 (25,000 + 550). Lower BEP: 24,450 (25,000 - 550). Total premium = 550]]></text></answer>
+            <answer correct="no"><text><![CDATA[Upper BEP: 25,300. Lower BEP: 24,750]]></text></answer>
+            <answer correct="no"><text><![CDATA[Upper BEP: 25,000. Lower BEP: 25,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Upper BEP: 25,550. Lower BEP: 24,700]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Total premium = 300 + 250 = Rs 550. Upper BEP = K + total premium = 25,000 + 550 = 25,550. Lower BEP = K - total premium = 25,000 - 550 = 24,450. NIFTY must move more than 550 points (≈2.2%) in either direction to profit.
+**The Trap:** 25,300/24,750 uses individual premiums instead of total. The strike itself is not a BEP. 24,700 subtracts only the call premium, not total.
+**Cross-Exam Context:** Straddle BEP calculations are identical across all option markets. For USDINR, the same logic applies with currency lot sizes.
+**Distributor's Pro-Tip:** A 2.2% NIFTY move is required to break even — check if the expected event has historically caused moves of this magnitude. If not, the straddle is likely to lose money.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_41" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If GBPUSD is 1.3300/1.3325 and USDINR is 75.64/75.65, what is the GBPINR offer rate?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs 100.80 (1.3325 × 75.65 = 100.80)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 100.60 (1.3300 × 75.64 = 100.60)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 56.84 (75.64 / 1.3300 = 56.84)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs 99.95 (1.3300 × 75.00 = 99.95)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** To buy 1 GBP with INR (offer): Buy USD with INR at USDINR offer (75.65), then buy GBP with USD at GBPUSD offer (1.3325). GBPINR offer = 1.3325 × 75.65 = 100.80. The logic is the same as EURINR — multiply when USD is quote in one and base in the other.
+**The Trap:** 100.60 is the bid rate (1.3300 × 75.64). Division would be used for JPYINR (where USD is base in both pairs). 99.95 uses wrong USDINR rate.
+**Cross-Exam Context:** Series I Ch1 covers GBPINR cross-rate calculation. This follows the same multiplication method as EURINR.
+**Distributor's Pro-Tip:** GBPINR cross-rate calculations are testable — remember: when USD appears on different sides (quote vs base) in the two pairs, multiply. When same side, divide.]]></text></explanation>
+    </question>
+</QF>

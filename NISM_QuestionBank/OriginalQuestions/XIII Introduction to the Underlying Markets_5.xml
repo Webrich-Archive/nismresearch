@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to the Underlying Markets_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following is the correct formula for calculating a cross rate for EURINR using EURUSD and USDINR?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[EURINR (offer) = EURUSD (offer) × USDINR (offer)]]></text></answer>
+            <answer correct="no"><text><![CDATA[EURINR (offer) = EURUSD (bid) × USDINR (offer)]]></text></answer>
+            <answer correct="no"><text><![CDATA[EURINR (offer) = EURUSD (offer) ÷ USDINR (bid)]]></text></answer>
+            <answer correct="no"><text><![CDATA[EURINR (offer) = EURUSD (bid) ÷ USDINR (offer)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** To buy 1 EUR (offer side), you first buy USD using INR (USDINR offer) and then buy EUR using USD (EURUSD offer). So EURINR offer = EURUSD offer × USDINR offer. For example: 1.1150 × 75.65 = 84.3498.
+**The Trap:** Using bid prices or division instead of multiplication is a common error. Since USD is the quote currency in EURUSD but the base currency in USDINR, multiplication is correct.
+**Cross-Exam Context:** Series I Ch1 covers cross-rate calculations extensively. This is a key calculation topic for Series XIII.
+**Distributor's Pro-Tip:** Cross-rate calculations are fundamental for anyone trading non-USD currency pairs in India — errors in bid/offer selection can lead to significant trading losses.]]></text></explanation>
+    </question>
+</QF>

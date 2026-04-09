@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_45" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the 'hedge ratio' and how does it differ across asset classes?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Hedge ratio is the number of futures contracts needed per unit of exposure — equity uses beta, bonds use duration (BPV), currencies use notional matching, and commodities use correlation × (σ_spot/σ_futures)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Hedge ratio is always 1:1 in all markets — one futures contract per unit of underlying]]></text></answer>
+            <answer correct="no"><text><![CDATA[Hedge ratio only applies to equity markets using beta adjustment]]></text></answer>
+            <answer correct="no"><text><![CDATA[Hedge ratio is the same as the conversion factor in bond futures]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Equity: N = (Portfolio value × Beta) / Futures value. Bonds: N = Portfolio BPV / Futures BPV (where BPV = price × MD × 0.01%). Currency: N = Exposure / Lot size (approximately, adjusted for correlation). Commodity: N = Exposure × (σ_spot/σ_futures) × ρ. Each metric reflects the specific risk factor of that asset class.
+**The Trap:** 1:1 hedging is optimal only when the underlying perfectly matches the derivative. In practice, risk metric adjustments (beta, duration, correlation) are needed.
+**Cross-Exam Context:** Series VIII covers beta hedging, Series IV covers duration hedging, Series I covers notional hedging, Series XVI covers minimum variance hedging.
+**Distributor's Pro-Tip:** The choice of risk metric for hedge ratio calculation is critical — using the wrong metric (e.g., notional instead of beta for equities) leads to over- or under-hedging.]]></text></explanation>
+    </question>
+</QF>

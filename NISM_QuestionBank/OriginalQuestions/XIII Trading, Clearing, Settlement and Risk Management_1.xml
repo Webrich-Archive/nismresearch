@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In exchange-traded derivatives markets, which two distinct entities handle trading and settlement?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The Stock Exchange handles trading while the Clearing Corporation handles clearing, settlement, and risk management]]></text></answer>
+            <answer correct="no"><text><![CDATA[The Stock Exchange handles both trading and settlement as a single entity]]></text></answer>
+            <answer correct="no"><text><![CDATA[SEBI directly handles all trading while the Exchange handles settlement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trading members handle trading while professional clearing members handle settlement independently]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Indian derivative exchanges follow a two-entity structure: the Exchange operates the trading platform (order matching, price dissemination), while the Clearing Corporation (CC) handles clearing, settlement, risk management, and provides the settlement guarantee.
+**The Trap:** The Exchange and CC are separate legal entities — the Exchange does NOT settle trades. SEBI regulates both but doesn't directly operate either.
+**Cross-Exam Context:** This structure is identical across all derivative segments — currency (I Ch6), interest rate (IV Ch6), and equity (VIII Ch6). Series XIII tests unified understanding.
+**Distributor's Pro-Tip:** The CC acts as the central counterparty (CCP) through novation — it becomes buyer to every seller and seller to every buyer, eliminating counterparty risk.]]></text></explanation>
+    </question>
+</QF>

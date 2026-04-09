@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_8" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is 'Theta' and why are options called 'wasting assets'?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Theta measures the daily decline in option premium due to the passage of time — options are 'wasting assets' because their time value erodes daily and reaches zero at expiry, even if nothing else changes]]></text></answer>
+            <answer correct="no"><text><![CDATA[Theta measures the sensitivity to interest rate changes]]></text></answer>
+            <answer correct="no"><text><![CDATA[Options are called wasting assets because they always expire worthless]]></text></answer>
+            <answer correct="no"><text><![CDATA[Theta is positive for option buyers, meaning they earn income daily]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Theta represents time decay: for a theta of -1.2, the option loses Rs 1.20 daily from time decay alone. Theta is negative for long options and positive for short options. Theta accelerates as expiry approaches — an option loses more time value per day in its final weeks than in earlier periods.
+**The Trap:** Not all options expire worthless — ITM options have value at expiry. Theta is NEGATIVE for buyers (they lose time value daily). Interest rate sensitivity is Rho.
+**Cross-Exam Context:** Theta decay is identical in concept across all option markets (VIII, I, IV, XVI). It's the fundamental cost of holding a long option position.
+**Distributor's Pro-Tip:** 'Sell time, buy gamma' — this captures the option trader's dilemma. Option sellers earn theta but face gamma risk. Option buyers pay theta but benefit from gamma. Choose based on your market view.]]></text></explanation>
+    </question>
+</QF>

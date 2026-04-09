@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_47" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An exporter expects to receive EUR 500,000 in 3 months. EURINR is trading at Rs 91. How many EURINR futures lots should they sell to hedge (assuming lot size is 1000 EUR)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[500 lots (500,000 EUR / 1000 EUR per lot = 500)]]></text></answer>
+            <answer correct="no"><text><![CDATA[50 lots]]></text></answer>
+            <answer correct="no"><text><![CDATA[5000 lots]]></text></answer>
+            <answer correct="no"><text><![CDATA[455 lots (500,000 / 1100)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Number of lots = Exposure / Lot size = 500,000 / 1000 = 500 lots. The exporter sells EURINR futures to lock in the rate — if EUR weakens (EURINR falls), the futures profit offsets the spot loss on receivables.
+**The Trap:** 50 lots is 10× too few. 5000 is 10× too many. 455 incorrectly uses the exchange rate in the calculation (exposure is in EUR, not INR).
+**Cross-Exam Context:** Series I covers currency hedging calculations. For currency, the hedge ratio is typically 1:1 in notional terms (unlike beta-based equity hedging).
+**Distributor's Pro-Tip:** With EURINR lot size of 1000 EUR, this is a clean hedge. But if the exposure were EUR 500,500, you'd need to decide between 500 (underhedge) or 501 (overhedge) lots — this is the lot size mismatch aspect of basis risk.]]></text></explanation>
+    </question>
+</QF>

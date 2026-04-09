@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_40" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An education fee of Rs. 2,00,000 is payable in USD after 6 months. USDINR spot is 82, 6-month premium is 2%, and the person earns 6% p.a. on domestic fixed income. If the person invests Rs. 2,00,000 and hedges with futures, how many USD can be remitted?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[USD 2,462.94]]></text></answer>
+            <answer correct="no"><text><![CDATA[USD 2,439.02]]></text></answer>
+            <answer correct="no"><text><![CDATA[USD 2,500.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[USD 2,512.20]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Investment maturity: Rs. 2,00,000 + interest (6% × 6/12 = Rs. 6,000) = Rs. 2,06,000. 6-month futures rate = 82 × (1 + 2%) = Rs. 83.64. USD available = 2,06,000 / 83.64 = USD 2,462.94.
+**The Trap:** Using spot rate of 82 instead of futures rate gives USD 2,512.20 — but the hedger locks in the futures rate, not the spot rate. USD 2,500 ignores the interest earned on the investment.
+**Cross-Exam Context:** Series I Ch5 covers this exact education fee hedging example. Series XIII tests whether students can combine investment returns with currency hedging.
+**Distributor's Pro-Tip:** For overseas remittances, always factor in: (1) domestic return on the invested amount, and (2) the forward premium reflected in the futures price.]]></text></explanation>
+    </question>
+</QF>

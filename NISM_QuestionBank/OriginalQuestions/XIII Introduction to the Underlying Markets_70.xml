@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to the Underlying Markets_70" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is 'Delivery versus Payment' (DvP) in securities settlement?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A settlement mechanism where delivery of securities and payment of funds occur simultaneously, eliminating the risk that one leg settles without the other]]></text></answer>
+            <answer correct="no"><text><![CDATA[A choice given to the buyer to either take delivery or pay cash for the difference]]></text></answer>
+            <answer correct="no"><text><![CDATA[A payment method where delivery charges are deducted from the settlement amount]]></text></answer>
+            <answer correct="no"><text><![CDATA[A settlement option available only for government securities, not equities]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** DvP ensures that securities transfer only occurs when the corresponding payment is made and vice versa. This eliminates settlement risk (Herstatt risk in forex). India's equity (through depositories) and bond (through CCIL) markets both use DvP.
+**The Trap:** DvP is not a choice between delivery and cash — it's simultaneous delivery AND payment. It applies to multiple markets, not just G-Secs. In forex, the equivalent risk is called Herstatt risk.
+**Cross-Exam Context:** Series VII covers DvP for equity settlement. Series IV and VI cover DvP for bonds. Series I covers settlement risk in forex (Herstatt risk). DvP is universal across markets.
+**Distributor's Pro-Tip:** DvP is a fundamental risk mitigation tool — in derivative markets, the clearing corporation serves a similar function by guaranteeing both legs of every trade.]]></text></explanation>
+    </question>
+</QF>

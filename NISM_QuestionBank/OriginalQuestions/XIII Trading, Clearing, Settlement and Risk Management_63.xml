@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_63" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the context of interest rate bond futures, the 'cheapest-to-deliver' (CTD) bond is the one that:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Maximizes the profit (or minimizes the loss) for the short futures position holder upon delivery]]></text></answer>
+            <answer correct="no"><text><![CDATA[Has the lowest coupon rate among all deliverable bonds]]></text></answer>
+            <answer correct="no"><text><![CDATA[Has the shortest remaining maturity among all deliverable bonds]]></text></answer>
+            <answer correct="no"><text><![CDATA[Is trading at the lowest price in the secondary market]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The CTD bond is the one that, after adjusting for the conversion factor, gives the short position the best outcome upon delivery. It is determined by comparing (Bond Price - Futures Price x Conversion Factor) for each deliverable bond — the bond with the lowest value is the CTD.
+**The Trap:** The CTD is NOT simply the bond with the lowest coupon or shortest maturity or lowest market price. It depends on the interaction between market price, conversion factor, and futures price. In a rising yield environment, higher-duration bonds tend to become CTD.
+**Cross-Exam Context:** Series IV (Interest Rate Derivatives) tests CTD extensively. This concept is unique to physically settled bond futures — equity and currency derivatives do not have this feature.
+**Distributor's Pro-Tip:** The CTD bond often drives the pricing of the futures contract. When the CTD changes (due to yield curve shifts), the futures price adjusts accordingly — understanding this helps in basis trading strategies.]]></text></explanation>
+    </question>
+</QF>

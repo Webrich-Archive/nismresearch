@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following correctly describes how hedge ratios differ across equity, interest rate, and currency derivatives?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Equity uses portfolio beta, interest rate uses modified duration, and currency uses notional exposure matching]]></text></answer>
+            <answer correct="no"><text><![CDATA[All three asset classes use the same beta-based hedge ratio formula]]></text></answer>
+            <answer correct="no"><text><![CDATA[Interest rate derivatives use beta, while equity derivatives use duration for hedging]]></text></answer>
+            <answer correct="no"><text><![CDATA[Currency derivatives use modified duration for computing the number of futures contracts]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Each asset class has a different risk measure: beta measures systematic risk for equities, modified duration measures interest rate sensitivity for bonds, and currency hedging typically matches notional exposure of the underlying foreign currency position.
+**The Trap:** Beta and duration are asset-class-specific measures — they cannot be interchanged across asset classes.
+**Cross-Exam Context:** Series VIII Ch3 covers beta-based hedging, Series IV Ch5 covers duration-based hedging, Series I Ch5 covers notional-based currency hedging.
+**Distributor's Pro-Tip:** The hedge ratio formula varies by asset class — always identify the correct risk metric before calculating the number of contracts.]]></text></explanation>
+    </question>
+</QF>

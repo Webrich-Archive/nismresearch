@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_26" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A client has a position of USD 22 million in USDINR futures. The client-level position limit for USDINR is USD 20 million. What action will the exchange take?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The exchange will not allow the client to take any further positions that increase the open interest beyond USD 20 million; the existing excess position may attract penalty]]></text></answer>
+            <answer correct="no"><text><![CDATA[The exchange will automatically square off the entire USD 22 million position at market price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The client can continue trading as the USD 20 million limit applies only at the Trading Member level]]></text></answer>
+            <answer correct="no"><text><![CDATA[No action needed — the client limit is USD 50 million for USDINR]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The client-level gross open position limit for USDINR futures and options is USD 20 million across all contracts. At USD 22 million, the client has breached this limit. The exchange restricts further position build-up and may levy penalties.
+**The Trap:** The USD 100 million limit is for Trading Members (not clients). USD 50 million is the limit for non-INR cross-currency pairs at the TM level. The exchange does NOT auto-square-off; it restricts new position increases.
+**Cross-Exam Context:** Position limits vary by segment: Currency has absolute USD limits; Equity uses MWPL (20% of free-float); Interest rate has specific lot-based limits for bond futures.
+**Distributor's Pro-Tip:** Position limits are monitored in real-time. Breaches attract penalties and can lead to disciplinary action. Always track net and gross positions across all expiries.]]></text></explanation>
+    </question>
+</QF>

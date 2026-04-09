@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_18" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the payoff for a long futures position at expiry?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Payoff = Final spot price - Entry price (unlimited profit potential, unlimited loss potential)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Payoff = Entry price - Final spot price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Payoff = max(Spot - Entry, 0) — no losses possible]]></text></answer>
+            <answer correct="no"><text><![CDATA[Payoff = fixed premium amount regardless of spot price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Long futures payoff at expiry = ST - F0 (spot at expiry minus entry price). If ST > F0, the long position profits. If ST < F0, it loses. The payoff is linear and symmetric — both profit and loss are theoretically unlimited. Short futures payoff = F0 - ST.
+**The Trap:** The max(S-K, 0) formula is for call options (capped downside), not futures. Futures have no premium and no loss protection — both sides face unlimited risk.
+**Cross-Exam Context:** This linear payoff applies to all futures — equity (VIII), currency (I), IR (IV), and commodity (XVI). Compare with the asymmetric option payoff (nonlinear).
+**Distributor's Pro-Tip:** The symmetric payoff of futures means both longs and shorts face equal risk — this is why margins are required from both parties, unlike options where only the seller deposits margin.]]></text></explanation>
+    </question>
+</QF>

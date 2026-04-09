@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to the Underlying Markets_33" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the Indian equity market, what is the current settlement cycle for regular trades?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[T+1 (trade date plus one business day)]]></text></answer>
+            <answer correct="no"><text><![CDATA[T+2 (trade date plus two business days)]]></text></answer>
+            <answer correct="no"><text><![CDATA[T+0 (same day settlement)]]></text></answer>
+            <answer correct="no"><text><![CDATA[T+3 (trade date plus three business days)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** India moved to T+1 settlement for equity markets, completing the transition from T+2. This makes Indian equity markets among the fastest settling globally for equity trades.
+**The Trap:** T+2 was the previous cycle (pre-transition). Forex spot remains T+2. T+3 was used historically in India before the shift to T+2 and then T+1.
+**Cross-Exam Context:** Series VII Ch6 covers T+1 settlement in detail. Series VIII Ch7 covers derivative settlement. Compare with forex T+2 (Series I) and commodity settlement (Series XVI).
+**Distributor's Pro-Tip:** T+1 in equity vs T+2 in forex creates a settlement mismatch for hedging — currency derivative traders must account for this when hedging equity portfolio forex exposure.]]></text></explanation>
+    </question>
+</QF>

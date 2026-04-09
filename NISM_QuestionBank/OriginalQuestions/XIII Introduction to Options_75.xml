@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_75" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Summarizing: if you expect a moderate rise in NIFTY, which option strategy across the three main approaches (directional, volatility, income) would be most appropriate?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A bull call spread (buy lower strike call, sell higher strike call) — it provides directional profit with limited risk and lower premium cost than a naked long call, appropriate for moderate (not extreme) bullish view]]></text></answer>
+            <answer correct="no"><text><![CDATA[A long straddle (buy ATM call and put) — for volatility regardless of direction]]></text></answer>
+            <answer correct="no"><text><![CDATA[A short naked put — for income generation in a bullish market]]></text></answer>
+            <answer correct="no"><text><![CDATA[A bear put spread — for bearish view]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Bull call spread: Buy 25,000 call, sell 25,500 call. Max profit = (25,500-25,000) - net premium = limited. Max loss = net premium = limited. The sold call reduces cost but caps upside. It's the right choice for 'moderate' bullish — not expecting a huge move.
+**The Trap:** Straddle is for volatility view, not directional. Naked put has unlimited downside and is for income (not directional profit). Bear spread is for bearish view.
+**Cross-Exam Context:** Bull call spreads exist in equity (VIII Ch5), currency (I Ch5), and can be constructed with IR options. This is a fundamental multi-market strategy.
+**Distributor's Pro-Tip:** Bull call spreads are the workhorse directional strategy — they define your risk upfront, require less capital than buying calls outright, and work well in moderately bullish markets. Master this strategy across all asset classes.]]></text></explanation>
+    </question>
+</QF>

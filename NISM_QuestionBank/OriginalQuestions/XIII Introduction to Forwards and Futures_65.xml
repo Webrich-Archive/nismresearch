@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Forwards and Futures_65" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Summarizing futures pricing across all three asset classes: if interest rates rise in India, what happens to each type of futures?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Equity futures premium increases (higher carry cost), USDINR futures premium increases (wider rate differential via IRP), and IR futures/bond futures prices FALL (inverse price-yield relationship)]]></text></answer>
+            <answer correct="no"><text><![CDATA[All three types of futures prices increase uniformly]]></text></answer>
+            <answer correct="no"><text><![CDATA[All three types of futures prices decrease uniformly]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only bond futures are affected; equity and currency futures are immune to interest rate changes]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Rate hike impact: (1) Equity futures: F = S(1+r-d)t → higher r increases the futures premium (even if spot falls due to rate impact on equities), (2) USDINR futures: F = S(1+RINR)/(1+RUSD) → higher RINR widens the premium (INR at greater forward discount), (3) Bond/IR futures: higher yields → lower bond prices → lower futures prices. The DIRECTION of impact differs across markets.
+**The Trap:** The same event (rate hike) has different effects on different futures — this is the core insight of Series XIII cross-asset understanding.
+**Cross-Exam Context:** This question synthesizes Series VIII (equity carry), Series I (IRP), and Series IV (bond price-yield) into one cross-market analysis. Quintessential Series XIII content.
+**Distributor's Pro-Tip:** RBI rate decisions create simultaneous trading opportunities across markets — understanding the differential impact is what separates multi-asset derivative traders from single-market specialists.]]></text></explanation>
+    </question>
+</QF>

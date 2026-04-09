@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_43" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is delta hedging in the context of options?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Continuously adjusting the hedge ratio by trading the underlying asset to maintain a delta-neutral portfolio as the underlying price changes]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buying or selling options with a delta of exactly 1.0 to perfectly replicate the underlying]]></text></answer>
+            <answer correct="no"><text><![CDATA[Using the delta of the portfolio to calculate the number of futures contracts needed for hedging]]></text></answer>
+            <answer correct="no"><text><![CDATA[Hedging only when the delta of the position exceeds a predetermined threshold]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Delta hedging involves continuously rebalancing a portfolio by buying or selling shares of the underlying to keep the overall delta at zero. As the underlying price changes, option delta changes, requiring adjustment of the hedge position.
+**The Trap:** Delta hedging is NOT a one-time hedge — it requires continuous rebalancing because delta changes with price movement (gamma effect).
+**Cross-Exam Context:** Series VIII Ch5 covers delta hedging for equity options. The concept applies identically to currency options (I) and interest rate options (IV).
+**Distributor's Pro-Tip:** Delta hedging in practice is costly due to frequent rebalancing — the trade-off is between hedge accuracy and transaction costs.]]></text></explanation>
+    </question>
+</QF>

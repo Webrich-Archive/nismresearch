@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to the Underlying Markets_67" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A forex trader notices USDINR spot at 83.50. The 3-month forward is at 84.30. What is the annualized forward premium/discount of INR against USD?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[INR is at approximately 3.83% annualized forward discount [(84.30-83.50)/83.50 × 12/3 × 100]]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR is at approximately 0.96% annualized forward premium]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR is at approximately 3.83% annualized forward premium]]></text></answer>
+            <answer correct="no"><text><![CDATA[USD is at approximately 3.83% annualized forward discount]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Forward premium/discount = [(Forward - Spot)/Spot] × (12/months) × 100 = [(84.30-83.50)/83.50] × (12/3) × 100 = (0.80/83.50) × 4 × 100 = 3.83%. Since forward > spot for USDINR, INR is at a discount (you need more INR in forward), reflecting India's higher interest rates.
+**The Trap:** 0.96% doesn't annualize (divides by 12 instead of multiplying). INR is at a DISCOUNT not premium (it weakens in forward). USD is at a premium against INR, not discount.
+**Cross-Exam Context:** Series I Ch3 covers forward premium/discount calculations. This reflects the interest rate differential between India and the US.
+**Distributor's Pro-Tip:** The annualized forward premium/discount approximates the interest rate differential — if this diverges significantly from actual rate differentials, arbitrage opportunities emerge.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_64" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How does the concept of 'volatility' differ in its application to equity, currency, and IR options?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[In equity options, stock/index price volatility is the key input; in currency options, exchange rate volatility drives pricing; in IR options, yield/rate volatility is used — the underlying 'price' being measured for volatility differs across asset classes]]></text></answer>
+            <answer correct="no"><text><![CDATA[Volatility is measured identically across all three markets with no differences]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only equity options use volatility as a pricing input]]></text></answer>
+            <answer correct="no"><text><![CDATA[Currency options use interest rate volatility, not exchange rate volatility]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The 'volatility' in each market measures fluctuations of different variables: Equity: stock price returns volatility. Currency: exchange rate returns volatility. IR: yield volatility or price volatility of bonds. India VIX captures NIFTY option IV. Currency IV is different and may be quoted in terms of delta (25-delta risk reversals).
+**The Trap:** While the concept is the same (σ of returns), the underlying variable differs. Currency options explicitly use exchange rate volatility, not interest rate volatility.
+**Cross-Exam Context:** Series VIII uses equity vol, Series I uses FX vol, Series IV uses rate/price vol. This comparison is central to Series XIII.
+**Distributor's Pro-Tip:** Volatility levels differ across markets — equity IV might be 15%, currency IV 5-7%, and IR vol depends on the tenor and benchmark. Don't compare absolute IV numbers across asset classes.]]></text></explanation>
+    </question>
+</QF>

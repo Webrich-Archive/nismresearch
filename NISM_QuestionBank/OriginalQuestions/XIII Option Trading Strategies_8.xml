@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Option Trading Strategies_8" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An exporter with USD receivables sells a USDINR call option at strike Rs 85 for Rs 0.60 when spot is Rs 84. This is equivalent to which equity strategy?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Covered call — the exporter owns the underlying (USD receivables) and writes a call to earn premium income, giving up upside above Rs 85]]></text></answer>
+            <answer correct="no"><text><![CDATA[Protective put — because it protects the export revenue]]></text></answer>
+            <answer correct="no"><text><![CDATA[Long straddle — because the exporter is taking a volatility position]]></text></answer>
+            <answer correct="no"><text><![CDATA[Naked call writing — because the exporter doesn't own any underlying]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The exporter has a natural long USD position (receivables). By selling a USDINR call, they create a covered call: if USDINR rises above 85, the call is exercised and they deliver USD at 85 (capped upside). If USDINR stays below 85, they keep the premium (Rs 0.60 × 1000 = Rs 600 per lot). Not a naked call because they HAVE the USD to deliver.
+**The Trap:** This IS a covered call because the exporter has the underlying. It's NOT a protective put (they'd need to buy a put for protection). Not a straddle (only one option).
+**Cross-Exam Context:** Series I Ch5 covers currency option hedging for exporters. This cross-asset analogy (currency covered call = equity covered call) is a key Series XIII insight.
+**Distributor's Pro-Tip:** Covered calls on currency are popular for exporters willing to cap their upside in exchange for premium income — particularly useful when the rupee is expected to remain stable.]]></text></explanation>
+    </question>
+</QF>

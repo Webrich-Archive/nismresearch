@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Strategies Using Futures_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investor has a Rs. 26 crore portfolio of GOI bonds with a portfolio modified duration of 6.1. The bond futures have a modified duration of 4.7 and are trading at Rs. 98.50. Each lot represents Rs. 2,00,000 face value. How many futures contracts are needed to fully hedge the portfolio?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Approximately 1,713 contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 2,600 contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 1,298 contracts]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 3,380 contracts]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Number of lots = (Portfolio Modified Duration × Market Value) / (Futures Modified Duration × Futures Price / PAR) = (6.1 × 26,00,00,000) / (4.7 × 98.50 × 2,000) = 15,86,00,00,000 / 9,25,900 ≈ 1,713 lots.
+**The Trap:** Using 2,600 ignores the duration adjustment — that would be the number if you simply divided portfolio value by contract value.
+**Cross-Exam Context:** Series IV Ch5 covers duration-based hedging formula. Series XIII compares this with beta-based hedging for equity portfolios.
+**Distributor's Pro-Tip:** Duration-based hedging is only accurate for small changes in yield — for large yield moves, convexity effects cause underhedging.]]></text></explanation>
+    </question>
+</QF>

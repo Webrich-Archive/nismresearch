@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Introduction to Options_17" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How does the Black-Scholes model need to be modified for pricing currency options?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The Garman-Kohlhagen model extends Black-Scholes by incorporating TWO interest rates: the domestic rate and the foreign rate — C = S×e^(-rf×T)×N(d1) - K×e^(-rd×T)×N(d2)]]></text></answer>
+            <answer correct="no"><text><![CDATA[No modification is needed — the same formula applies directly]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the strike price input is changed; everything else remains the same]]></text></answer>
+            <answer correct="no"><text><![CDATA[The model cannot be used for currency options at all]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Garman-Kohlhagen (1983) modifies Black-Scholes for currency options by treating the foreign interest rate as equivalent to a continuous dividend yield. The spot is discounted at the foreign rate, and the strike at the domestic rate. This reflects that both currencies earn interest.
+**The Trap:** A direct application without foreign rate adjustment would misprice currency options. The model is a well-established extension, not a limitation.
+**Cross-Exam Context:** Series I Ch4 covers currency option pricing. Compare with equity Black-Scholes (one rate, dividend yield) in VIII Ch4 and Black-76 for IR options in IV Ch4.
+**Distributor's Pro-Tip:** The foreign interest rate in Garman-Kohlhagen means currency option pricing is more sensitive to rate differentials than equity options — rate changes affect currency options through both delta and rho channels.]]></text></explanation>
+    </question>
+</QF>

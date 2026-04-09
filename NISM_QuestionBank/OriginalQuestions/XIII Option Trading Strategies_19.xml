@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Option Trading Strategies_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How are option strategies for exporters different from importers in currency markets?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Exporters (long USD) buy USDINR puts or sell USDINR calls for hedging. Importers (short USD) buy USDINR calls or sell USDINR puts. The strategies are mirror images because their underlying exposures are opposite]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both exporters and importers use the same strategies because they face the same risk]]></text></answer>
+            <answer correct="no"><text><![CDATA[Exporters can only use futures; importers can only use options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Exporters buy USDINR calls; importers buy USDINR puts]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Exporter (receives USD): fears USD depreciation (USDINR falling). Hedge: buy put (right to sell USD at K) or sell call (income but caps upside). Importer (pays USD): fears USD appreciation (USDINR rising). Hedge: buy call (right to buy USD at K) or sell put (income but obligated at K). They face opposite risks, so they use opposite strategies.
+**The Trap:** They face OPPOSITE risks (exporter fears USDINR falling, importer fears USDINR rising). Exporters buy puts (not calls) and importers buy calls (not puts). Both can use futures or options.
+**Cross-Exam Context:** Series I Ch5 covers hedging for exporters and importers in detail. This practical application is central to currency derivative knowledge in Series XIII.
+**Distributor's Pro-Tip:** Understanding which strategy suits which party prevents costly hedging mistakes — an exporter accidentally buying calls would have DOUBLE exposure to USD (natural + option), not a hedge.]]></text></explanation>
+    </question>
+</QF>

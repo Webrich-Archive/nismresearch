@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XIII Trading, Clearing, Settlement and Risk Management_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How does the position limit structure for interest rate derivatives differ from equity derivatives?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[IR derivatives use notional value-based limits (e.g., Rs. X crore), while equity derivatives primarily use MWPL (percentage of free-float shares) for individual stocks]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both use identical percentage-of-open-interest based limits]]></text></answer>
+            <answer correct="no"><text><![CDATA[IR derivatives have no position limits while equity derivatives have strict limits]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equity derivatives use notional limits while IR derivatives use MWPL]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** IR derivatives position limits are typically specified in terms of notional value of bonds (e.g., specific lot and position limits per entity). Equity stock derivatives use MWPL (20% of free-float shares). Index derivatives use separate OI-based limits. Currency derivatives use USD-denominated limits. Each segment has its own structure.
+**The Trap:** Every segment has position limits — IR is not exempt. The limits are structured differently based on the nature of the underlying.
+**Cross-Exam Context:** This is a XIII-unique cross-asset comparison. Series I (USD-based limits), IV (notional value), VIII (MWPL/OI percentage) each have distinct position limit frameworks.
+**Distributor's Pro-Tip:** Always check the specific position limit structure for the derivative segment you're trading in — exceeding limits results in penalties and forced closure of positions.]]></text></explanation>
+    </question>
+</QF>
