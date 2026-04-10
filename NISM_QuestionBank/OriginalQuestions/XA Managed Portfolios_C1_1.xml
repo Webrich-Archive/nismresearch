@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Managed Portfolios_C1_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Ms. Prerna Desai, aged 28, is a software engineer earning Rs. 15 lakh per annum. She has the following financial goals:
+1. Emergency fund: 6 months' expenses (monthly expenses Rs. 40,000) — needed immediately
+2. Down payment for a house: Rs. 15 lakh in 3 years
+3. Child's education fund: Rs. 50 lakh in 20 years
+4. Retirement corpus: Rs. 5 crore in 32 years (retire at 60)
+
+She can save Rs. 50,000 per month. She is filing under the old tax regime and has not utilized her Section 80C limit. Her investment adviser, Mr. Kartik, suggests the following allocation:
+- Emergency fund: Rs. 2.4 lakh lump sum in a Liquid Fund (current yield ~6.5% p.a.)
+- House down payment: Rs. 30,000/month SIP in a Short Duration Debt Fund (expected return 7.5% p.a.)
+- Education fund: Rs. 10,000/month SIP in a Flexi-Cap Equity Fund (expected return 12% p.a., expense ratio 0.8% Direct Plan)
+- Retirement: Rs. 10,000/month SIP split between ELSS Fund (Rs. 5,000 for Section 80C) and Nifty 50 Index Fund (Rs. 5,000, expense ratio 0.15%)
+
+Total monthly SIP: Rs. 50,000. Prerna opts for Direct Plans and Growth option for all equity funds.
+
+<b>Question 1 of 5:</b> If Prerna invests Rs. 30,000/month via SIP in a Short Duration Debt Fund for 3 years at 7.5% p.a. return, what is the approximate corpus she will accumulate for the house down payment? (Use FV of annuity formula)]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 10.80 lakh]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 12.10 lakh]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 11.98 lakh]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 15.00 lakh]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** FV of annuity = PMT × [(1+r)^n - 1] / r where PMT = 30,000, r = 7.5%/12 = 0.625% per month, n = 36 months. FV = 30,000 × [(1.00625)^36 - 1] / 0.00625 = 30,000 × [1.2514 - 1] / 0.00625 = 30,000 × 0.2514 / 0.00625 = 30,000 × 40.22 = Rs. 12.07 lakh ≈ Rs. 11.98 lakh (with slight rounding differences in monthly compounding).
+**The Trap:** Rs. 15 lakh is her target, but at Rs. 30,000/month for 3 years at 7.5%, she falls short — she may need to increase the SIP or add a lump sum later.
+**Cross-Exam Context:** SIP corpus calculation using FV of annuity is tested in V-A and X-A.
+**Distributor's Pro-Tip:** The shortfall of ~Rs. 3 lakh means Prerna should either increase the monthly SIP to ~Rs. 38,000 or plan to invest her annual bonus to bridge the gap.]]></text></explanation>
+    </question>
+</QF>

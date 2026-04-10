@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Personal Financial Planning_52" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[XYZ earns a gross salary of Rs. 10,000 (including employer PF contribution of Rs. 500), has a take-home salary of Rs. 9,000 after employee PF deduction of Rs. 500, earns Rs. 200 interest income, and has monthly expenses of Rs. 7,000. What is XYZ's savings ratio?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[20.0%]]></text></answer>
+            <answer correct="no"><text><![CDATA[22.0%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[31.4%]]></text></answer>
+            <answer correct="no"><text><![CDATA[29.4%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Total Income = Gross salary + Interest = 10,000 + 200 = Rs. 10,200. Savings = Take-home + Interest + Employer PF + Employee PF - Expenses = 9,000 + 200 + 500 + 500 - 7,000 = Rs. 3,200. Savings Ratio = 3,200/10,200 = 31.4%.
+**The Trap:** Ignoring PF contributions (both employer and employee) understates savings. PF is forced savings and must be included.
+**Cross-Exam Context:** This exact example is from the NISM X-A workbook. PF inclusion in savings is a frequent test point.
+**Distributor's Pro-Tip:** Always include mandatory savings (PF, NPS, etc.) when calculating a client's true savings rate — many clients don't realize how much they're already saving.]]></text></explanation>
+    </question>
+</QF>

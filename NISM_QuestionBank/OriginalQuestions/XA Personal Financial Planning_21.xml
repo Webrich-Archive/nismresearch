@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Personal Financial Planning_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investor expects to receive Rs. 80,000 after 4 years. If the discount rate is 9% per annum, what is the present value of this amount?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 56,670]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 56,275]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 58,890]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 54,321]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** PV = FV / (1+r)^n = 80,000 / (1.09)^4 = 80,000 / 1.41158 = Rs. 56,670 (approx).
+**The Trap:** Rs. 58,890 results from using 3 years instead of 4. Always verify the number of compounding periods.
+**Cross-Exam Context:** PV calculations are tested in X-A, X-B, IV (Interest Rate Derivatives), and XXI-B.
+**Distributor's Pro-Tip:** Present value helps clients understand how much they need to invest today to meet a future goal.]]></text></explanation>
+    </question>
+</QF>

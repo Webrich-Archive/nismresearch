@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Investment Products_70" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[As per SEBI mandate, all stock derivatives in India are being moved to which type of settlement?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Cash settlement]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Physical settlement (delivery of underlying stock)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Net settlement through clearing corporation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rolling settlement on T+1 basis]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI has mandated physical settlement (delivery of underlying stock) for all stock derivatives, moving away from cash settlement. This transition is being done in a phased manner as per SEBI circulars. Physical settlement requires actual delivery of shares on exercise/expiry.
+**The Trap:** Cash settlement was the earlier method — the shift to physical settlement is the current SEBI mandate.
+**Cross-Exam Context:** Settlement mechanisms for derivatives are tested in VIII, X-A, and VII (Securities Operations).
+**Distributor's Pro-Tip:** Physical settlement means clients must have shares in demat account (for short positions) or funds to take delivery (for long positions) — ensure clients don't accidentally go to expiry without preparation.]]></text></explanation>
+    </question>
+</QF>

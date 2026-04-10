@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Introduction to the Capital Market_25" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A zero coupon bond with a face value of Rs. 1,00,000 is issued at Rs. 70,000 and matures in 5 years. What is the approximate annualized return (CAGR) to the investor?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[6.0%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[7.4%]]></text></answer>
+            <answer correct="no"><text><![CDATA[8.6%]]></text></answer>
+            <answer correct="no"><text><![CDATA[30.0%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A zero coupon bond pays no periodic interest. The return comes entirely from the difference between the purchase price and face value at maturity. CAGR = (100000/70000)^(1/5) - 1 = (1.4286)^(0.2) - 1 ≈ 0.0739 or approximately 7.4%. The investor earns 30,000 over 5 years as a cumulated terminal payment.
+**The Trap:** 30% is the total return (30,000/1,00,000) without annualizing — a classic mistake. 6.0% results from dividing 30,000 by 5 years and then by 1,00,000 (simple interest on face value). 8.6% results from dividing annual gain by issue price using simple interest.
+**Cross-Exam Context:** NISM Series IX tests understanding of zero coupon bonds as a debt instrument. NISM Series V-A (Mutual Funds) tests bond yield calculations for fixed-income fund analysis.
+**Distributor's Pro-Tip:** Zero coupon bonds are ideal for goal-based planning (e.g., child's education) since there is no reinvestment risk — the return is locked in at purchase. However, they carry higher interest rate sensitivity (duration) than coupon bonds of the same maturity.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Investment Products_67" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A call option has a strike price of Rs. 500 and the underlying stock is currently trading at Rs. 550. This option is:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Out-of-the-Money (OTM)]]></text></answer>
+            <answer correct="no"><text><![CDATA[At-the-Money (ATM)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[In-the-Money (ITM) with intrinsic value of Rs. 50]]></text></answer>
+            <answer correct="no"><text><![CDATA[In-the-Money (ITM) with intrinsic value of Rs. 500]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A call option is ITM when the underlying price (Rs. 550) > strike price (Rs. 500). The intrinsic value = Current price - Strike price = Rs. 550 - Rs. 500 = Rs. 50. The holder can exercise to buy at Rs. 500 and immediately sell at Rs. 550, gaining Rs. 50.
+**The Trap:** Rs. 500 is the strike price, not the intrinsic value. Intrinsic value is always the favorable difference between market price and strike price.
+**Cross-Exam Context:** Option moneyness (ITM/ATM/OTM) and intrinsic value are core concepts in VIII and X-A.
+**Distributor's Pro-Tip:** ITM options have both intrinsic value and time value; OTM options have only time value. As expiry approaches, time value decays — advise clients to be aware of time decay when holding options.]]></text></explanation>
+    </question>
+</QF>

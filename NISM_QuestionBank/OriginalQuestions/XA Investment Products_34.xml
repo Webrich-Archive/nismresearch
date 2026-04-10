@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Investment Products_34" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A 10-year bond with a coupon rate of 8.24% is trading at Rs. 103 per Rs. 100 face value. What is its current yield?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[8.24%]]></text></answer>
+            <answer correct="no"><text><![CDATA[10.30%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[8.00%]]></text></answer>
+            <answer correct="no"><text><![CDATA[7.76%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Current yield = Annual coupon / Current market price = Rs. 8.24 / Rs. 103 = 0.08 = 8.00%. Current yield measures the annual income relative to the price paid, not the face value.
+**The Trap:** 8.24% is the coupon yield (coupon/face value), not the current yield. Since the bond trades at a premium, current yield < coupon yield.
+**Cross-Exam Context:** Current yield vs coupon yield vs YTM is a key distinction tested in X-A and IV.
+**Distributor's Pro-Tip:** For premium bonds: coupon rate > current yield > YTM. For discount bonds: coupon rate < current yield < YTM. This relationship helps quick sanity-check any yield calculation.]]></text></explanation>
+    </question>
+</QF>

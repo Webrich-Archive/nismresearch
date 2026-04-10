@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Registration, Code of Conduct and General Obligations_16" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A Category I MB has a net worth of Rs. 55 crore. It holds Rs. 8 crore in cash, Rs. 3 crore in Government Securities, and Rs. 2 crore in fixed deposits. Assuming no haircuts apply, does it meet the liquid net worth requirement?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[No, it needs at least Rs. 15 crore in liquid assets]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Yes, its liquid assets of Rs. 13 crore exceed the Rs. 12.50 crore requirement]]></text></answer>
+            <answer correct="no"><text><![CDATA[No, Government Securities cannot be counted as liquid assets]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, but only because fixed deposits are excluded from the computation]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Liquid assets = Cash (Rs. 8 crore) + G-Secs (Rs. 3 crore) + Fixed Deposits (Rs. 2 crore) = Rs. 13 crore. Category I requires liquid net worth of at least Rs. 12.50 crore. Since Rs. 13 crore > Rs. 12.50 crore, the requirement is met. All three asset types — cash, G-Secs, and fixed deposits — qualify as liquid assets under Regulation 7A.
+**The Trap:** The option stating G-Secs cannot be counted exploits uncertainty about what qualifies as liquid — in fact, G-Secs are among the most liquid assets recognized by SEBI.
+**Cross-Exam Context:** Liquid asset computation is a staple calculation in NISM Series VIII (Equity Derivatives) for margin and collateral purposes.
+**Distributor's Pro-Tip:** Maintain a buffer above the minimum liquid net worth — market movements and haircuts can erode your liquid position quickly.]]></text></explanation>
+    </question>
+</QF>

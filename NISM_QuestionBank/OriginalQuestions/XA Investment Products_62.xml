@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Investment Products_62" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The initial margin in derivative trading has two components. What are they?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Mark-to-Market margin and Premium margin]]></text></answer>
+            <answer correct="yes"><text><![CDATA[SPAN margin and Extreme Loss Margin (ELM)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Maintenance margin and Variation margin]]></text></answer>
+            <answer correct="no"><text><![CDATA[Initial deposit and Additional margin]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The initial margin has two components: SPAN margins (calculated using Standard Portfolio Analysis of Risk software developed by CME) and ELM (Extreme Loss Margin) based on exposure. Both must be mandatorily deposited before executing a trade.
+**The Trap:** Mark-to-Market margin is different from initial margin — it's the daily settlement of gains/losses.
+**Cross-Exam Context:** Margin components are tested extensively in VIII (Equity Derivatives) and also in X-A and I.
+**Distributor's Pro-Tip:** Initial margin should cover losses in 99% of cases — higher volatility stocks require higher margins. Always ensure clients understand margin obligations before derivative trading.]]></text></explanation>
+    </question>
+</QF>

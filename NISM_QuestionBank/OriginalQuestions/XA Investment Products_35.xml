@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Investment Products_35" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For a bond selling at a discount, which of the following relationships between Coupon Rate (CR), Current Yield (CY), and Yield to Maturity (YTM) holds true?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[CR > CY > YTM]]></text></answer>
+            <answer correct="no"><text><![CDATA[CR = CY = YTM]]></text></answer>
+            <answer correct="yes"><text><![CDATA[CR < CY < YTM]]></text></answer>
+            <answer correct="no"><text><![CDATA[YTM < CR < CY]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When a bond sells at a discount (market price < face value), the coupon rate is less than the market yield. The relationships are: CR < CY < YTM. This is because the discount bond provides capital gain on maturity (moving from discount to par), which YTM captures but current yield does not.
+**The Trap:** CR > CY > YTM applies to premium bonds, not discount bonds — candidates often reverse the direction.
+**Cross-Exam Context:** CR-CY-YTM relationships for premium, par, and discount bonds are tested in X-A and IV.
+**Distributor's Pro-Tip:** This relationship is a quick error-check — if you calculate YTM lower than coupon rate for a discount bond, something is wrong in your calculation.]]></text></explanation>
+    </question>
+</QF>

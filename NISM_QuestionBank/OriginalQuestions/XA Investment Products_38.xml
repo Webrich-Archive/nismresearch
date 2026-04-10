@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Investment Products_38" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which type of bond will have its Macaulay duration equal to its remaining maturity?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Fixed coupon bond]]></text></answer>
+            <answer correct="no"><text><![CDATA[Floating rate bond]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Zero-coupon bond]]></text></answer>
+            <answer correct="no"><text><![CDATA[Perpetual bond]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Only a zero-coupon bond has duration equal to its remaining maturity because there are no intermediate cash flows — the entire cash flow comes at maturity. For all coupon-bearing bonds, duration is less than maturity because earlier coupon payments reduce the weighted average time to receive cash flows.
+**The Trap:** Perpetual bonds have no maturity date and their duration converges to (1+y)/y, not infinity.
+**Cross-Exam Context:** Duration concepts are heavily tested in X-A and IV (Interest Rate Derivatives).
+**Distributor's Pro-Tip:** Duration is the key risk metric for bond portfolios — match portfolio duration to client's investment horizon to immunize against interest rate risk.]]></text></explanation>
+    </question>
+</QF>

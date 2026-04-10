@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Introduction to the Capital Market_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investor purchases 1,000 warrants at Rs. 50 each, giving the right to buy equity shares at Rs. 200 per share after 18 months. If the market price after 18 months is Rs. 180, what is the likely outcome?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The investor will exercise the warrants and make a profit of Rs. 30,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[The investor will exercise the warrants and break even]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The investor will not exercise the warrants and lose Rs. 50,000 (the amount paid for warrants)]]></text></answer>
+            <answer correct="no"><text><![CDATA[The issuer will refund the warrant price to the investor]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Warrants give the right but not the obligation to buy equity shares at a specified price. Here, the exercise price (Rs. 200) is higher than the market price (Rs. 180). Exercising would mean paying Rs. 200 for a share worth Rs. 180 — a loss. The investor will let the warrants lapse and lose Rs. 50,000 (1,000 x Rs. 50) paid for the warrants.
+**The Trap:** There is no refund mechanism for warrants. If not exercised, the investor loses the entire amount paid. This is the key risk of warrants.
+**Cross-Exam Context:** Warrant mechanics and risk are tested in NISM Series IX (Merchant Banking) and Series VIII (Equity Derivatives) exams.
+**Distributor's Pro-Tip:** Warrants are like call options — right but no obligation. If the market price is below the exercise price, the warrant expires worthless and the investor's loss is limited to the warrant price paid.]]></text></explanation>
+    </question>
+</QF>

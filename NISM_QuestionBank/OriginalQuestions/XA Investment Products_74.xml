@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Investment Products_74" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the maximum profit and maximum loss for a writer (seller) of a call option?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Maximum profit is unlimited; maximum loss is the premium received]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Maximum profit is the premium received; maximum loss is theoretically unlimited]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both maximum profit and loss are limited to the premium]]></text></answer>
+            <answer correct="no"><text><![CDATA[Maximum profit is the strike price; maximum loss is the spot price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A call option writer's maximum profit is limited to the premium received (when option expires worthless). However, the maximum loss is theoretically unlimited because the stock price can rise indefinitely, and the writer is obligated to sell at the lower strike price.
+**The Trap:** The premium limits the BUYER's loss, not the writer's loss. The writer's risk profile is the mirror image of the buyer's.
+**Cross-Exam Context:** Option payoff profiles are extensively tested in VIII and also in X-A and I.
+**Distributor's Pro-Tip:** Naked call writing is one of the riskiest strategies in the market — always ensure it's covered (holding the underlying stock) before recommending to any client.]]></text></explanation>
+    </question>
+</QF>

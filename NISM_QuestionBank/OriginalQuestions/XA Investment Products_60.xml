@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Investment Products_60" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Convexity in bond analysis measures:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The linear relationship between bond price and yield]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The degree of the curve in the relationship between bond prices and bond yields]]></text></answer>
+            <answer correct="no"><text><![CDATA[The credit risk of the bond issuer]]></text></answer>
+            <answer correct="no"><text><![CDATA[The reinvestment risk of coupon payments]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Convexity measures the degree of curvature in the price-yield relationship. Since the relationship is non-linear, duration alone (which approximates a linear change) is insufficient for large yield changes. Convexity improves the accuracy of price change estimates.
+**The Trap:** Duration measures the slope (first derivative), while convexity measures the curvature (second derivative) of the price-yield curve.
+**Cross-Exam Context:** Convexity is tested in X-A and IV (Interest Rate Derivatives) for advanced bond analytics.
+**Distributor's Pro-Tip:** Higher convexity is always desirable — a bond with higher convexity will gain more when yields fall and lose less when yields rise, all else being equal.]]></text></explanation>
+    </question>
+</QF>

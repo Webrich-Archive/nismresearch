@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Managed Portfolios_55" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When an investor redeems units from an open-ended mutual fund scheme, the immediate impact on the scheme's NAV is:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[NAV decreases because assets are reduced]]></text></answer>
+            <answer correct="no"><text><![CDATA[NAV increases because fewer units remain]]></text></answer>
+            <answer correct="yes"><text><![CDATA[No change in NAV because both assets and units decrease proportionally]]></text></answer>
+            <answer correct="no"><text><![CDATA[NAV becomes zero if all units are redeemed]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When units are redeemed, both net assets (cash outflow) and units outstanding decrease proportionally. Since NAV = Net Assets / Units, both numerator and denominator reduce by the same proportion, leaving NAV unchanged. The redemption happens AT the NAV, maintaining proportionality.
+**The Trap:** Intuitively, it seems like losing assets should reduce NAV — but the simultaneous reduction in units maintains the per-unit value.
+**Cross-Exam Context:** NAV mechanics are tested in V-A, V-B, and X-A.
+**Distributor's Pro-Tip:** Explain to clients that their redemption does NOT hurt other investors — the NAV mechanism ensures fair treatment. Large redemptions can create issues only if the fund is forced to sell securities at distressed prices.]]></text></explanation>
+    </question>
+</QF>

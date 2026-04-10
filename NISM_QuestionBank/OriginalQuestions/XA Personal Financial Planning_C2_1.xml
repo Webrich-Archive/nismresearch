@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Personal Financial Planning_C2_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Mrs. Lakshmi Iyer, aged 38, is a school teacher earning Rs. 8 lakh per annum. Her husband Mr. Venkat earns Rs. 14 lakh per annum as a bank officer. They have a daughter Ananya, aged 12, who they plan to send abroad for undergraduate studies at age 18. The estimated cost of the 4-year programme is Rs. 60 lakh at today's prices, with education inflation at 8% p.a. Their current education fund has Rs. 15 lakh in a recurring deposit earning 6.5% p.a. and Rs. 5 lakh in a balanced mutual fund earning 11% p.a. They can additionally save Rs. 25,000 per month specifically for this goal. They are in the 20% tax bracket. The household has monthly expenses of Rs. 85,000 and a car loan EMI of Rs. 12,000 with 2 years remaining.
+
+<b>Question 1 of 5:</b> What will be the actual cost of Ananya's education when she turns 18 (6 years from now), considering education inflation of 8% p.a.?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 75,60,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 81,60,000]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 95,23,270]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 88,00,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Future cost = Current cost × (1 + inflation)^n = 60,00,000 × (1.08)^6 = 60,00,000 × 1.58687 = Rs. 95,21,222 ≈ Rs. 95,23,270.
+**The Trap:** Rs. 88,00,000 uses simple inflation (60L + 60L × 8% × 6 = 60L + 28.8L). Must use compound inflation for accurate future cost estimation.
+**Cross-Exam Context:** Inflation-adjusted goal calculation is central to X-A (Ch 2) and XVII.
+**Distributor's Pro-Tip:** Education inflation (8-10%) is higher than general inflation (5-6%) — always use education-specific inflation when planning for this goal.]]></text></explanation>
+    </question>
+</QF>

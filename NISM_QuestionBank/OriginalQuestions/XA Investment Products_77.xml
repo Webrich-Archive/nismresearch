@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Investment Products_77" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A zero-coupon bond with face value Rs. 100 is maturing in 182 days. If the market yield is 6.5%, what is the approximate purchase price of this bond?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 93.50]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 96.86]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 100.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 95.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For a zero-coupon bond: Price = 100 / (1 + r × Days/365) = 100 / (1 + 0.065 × 182/365) = 100 / (1 + 0.0324) = 100 / 1.0324 = Rs. 96.86 approximately. The discount from par (Rs. 3.14) represents the investor's return.
+**The Trap:** Rs. 93.50 would result from using the full annual yield (6.5%) without adjusting for the actual number of days.
+**Cross-Exam Context:** Zero-coupon bond/T-bill pricing is tested in X-A, IV, and I.
+**Distributor's Pro-Tip:** T-bills are priced this way — when comparing T-bill yields with bond yields, remember to annualize on actual/365 basis for money market instruments vs 30/360 for bonds.]]></text></explanation>
+    </question>
+</QF>

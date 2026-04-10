@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Issue Management - General Obligations and Due Diligence_14" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A rights issue closes on April 5. The basis of allotment is finalized on April 25, but the issue fails and refunds are initiated on May 1. By when must the final post-issue report be submitted?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[May 10 (15 days from allotment finalization on April 25)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[May 16 (15 days from refund date on May 1)]]></text></answer>
+            <answer correct="no"><text><![CDATA[May 8 (7 days from refund date on May 1)]]></text></answer>
+            <answer correct="no"><text><![CDATA[April 20 (15 days from issue closure on April 5)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For a rights issue that fails, the final post-issue report must be submitted within 15 days from the date of refund (not from allotment finalization, since the issue failed). Refund date is May 1 + 15 days = May 16.
+
+**The Trap:** "May 10" counts 15 days from allotment finalization, but since the issue failed, the trigger event shifts to the refund date. "May 8" incorrectly applies the 7-day public issue timeline to a rights issue. Remember: failed rights issue = 15 days from refund.
+
+**Cross-Exam Context:** NISM exams frequently test "what happens when an issue fails" scenarios. Understanding the shift in trigger event (from allotment to refund) is crucial across multiple question types.
+
+**Distributor's Pro-Tip:** When an issue fails, your compliance timeline does not end — it shifts. The same report obligations apply, just with a different trigger date. Never assume a failed issue means fewer compliance requirements.]]></text></explanation>
+    </question>
+</QF>

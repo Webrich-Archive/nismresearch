@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Disinvestment, Buyback and Delisting_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A company has total debt of Rs. 800 crore. After a proposed buyback, its paid-up capital will be Rs. 300 crore and free reserves will be Rs. 100 crore. Can the company proceed with this buyback?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Yes, because the post-buyback debt-to-equity ratio is 2:1, which is within the permissible limit]]></text></answer>
+            <answer correct="no"><text><![CDATA[No, because the debt-to-equity ratio exceeds 1:1]]></text></answer>
+            <answer correct="no"><text><![CDATA[No, because the debt-to-equity ratio exceeds 2:1]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, because there is no debt-to-equity restriction on buyback]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Post-buyback debt:equity must not exceed 2:1. Here, debt = Rs. 800 crore, equity (paid-up capital + free reserves) = Rs. 300 + 100 = Rs. 400 crore. Ratio = 800/400 = 2:1, which is exactly at the permissible limit. The buyback can proceed.
+**The Trap:** "No, because the debt-to-equity ratio exceeds 2:1" might be selected by candidates who miscalculate or think "2:1" means the ratio must be strictly less than 2:1. The limit is "not more than" 2:1, so exactly 2:1 is permissible.
+**Cross-Exam Context:** Debt-equity ratio calculations appear across NISM Series IX (Merchant Banking) and NISM Series XV (Research Analyst) exams.
+**Distributor's Pro-Tip:** Model the exact post-buyback balance sheet — if the ratio is borderline at 2:1, any minor adjustment in reserves could tip it over, so build in a safety margin.]]></text></explanation>
+    </question>
+</QF>

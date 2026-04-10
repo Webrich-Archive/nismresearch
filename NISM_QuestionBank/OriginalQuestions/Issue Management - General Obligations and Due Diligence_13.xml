@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Issue Management - General Obligations and Due Diligence_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A company's IPO closes on March 10. The basis of allotment is finalized on March 20. By what date must the post-issue lead merchant banker submit the final post-issue report?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[March 17 (7 days from issue closure)]]></text></answer>
+            <answer correct="no"><text><![CDATA[March 30 (10 days from basis of allotment finalization)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[March 27 (7 days from basis of allotment finalization)]]></text></answer>
+            <answer correct="no"><text><![CDATA[April 4 (15 days from basis of allotment finalization)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For a public issue (IPO), the final post-issue report must be filed within 7 days of finalization of the basis of allotment. Basis of allotment finalized on March 20 + 7 days = March 27. The countdown starts from allotment finalization, NOT from issue closure.
+
+**The Trap:** "March 17" incorrectly counts 7 days from issue closure (March 10), confusing the trigger event. "April 4" uses 15 days, which is the rights issue timeline. The key is knowing WHAT triggers the countdown (allotment finalization) and HOW MANY days (7 for public issues).
+
+**Cross-Exam Context:** This is a classic calculation question format in NISM exams — understanding which event triggers the timeline and applying the correct number of days.
+
+**Distributor's Pro-Tip:** In real practice, the registrar typically communicates the allotment finalization date. Set a reminder for T+5 to begin preparing the report, giving yourself a 2-day buffer before the T+7 deadline.]]></text></explanation>
+    </question>
+</QF>

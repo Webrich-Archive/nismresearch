@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Personal Financial Planning_50" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[All other factors remaining constant, what happens to the present value of a future cash flow when the discount rate increases?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Present value increases]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Present value decreases]]></text></answer>
+            <answer correct="no"><text><![CDATA[Present value remains unchanged]]></text></answer>
+            <answer correct="no"><text><![CDATA[Present value first increases then decreases]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** PV = FV / (1+r)^n. As r increases, the denominator increases, making the PV smaller. Higher discount rate means future cash flows are worth less today because the opportunity cost of money is higher.
+**The Trap:** This is an inverse relationship — many students confuse the direction. Higher rates make future money less valuable today.
+**Cross-Exam Context:** The discount rate–PV relationship is fundamental to bond pricing (Ch 9), equity valuation (Ch 8), and all TVM problems.
+**Distributor's Pro-Tip:** This explains why bond prices fall when interest rates rise — existing bonds offer lower coupons than newly available rates.]]></text></explanation>
+    </question>
+</QF>

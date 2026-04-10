@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Mergers, Acquisitions and Takeovers_68" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A promoter holds 28% in a listed company as of April 1. During the financial year, he acquires 3% in July, sells 2% in October, and acquires another 3% in January. Has a mandatory open offer been triggered?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[No, because net acquisition is only 4% (3% + 3% - 2%)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Yes, because gross acquisitions of 6% (3% + 3%) exceed the 5% creeping acquisition limit]]></text></answer>
+            <answer correct="no"><text><![CDATA[No, because neither individual acquisition exceeds 5%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, but only for the January acquisition that pushed total holding above 30%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The creeping acquisition limit under Regulation 3(2) is based on GROSS acquisitions, not net acquisitions. The sale of 2% in October is irrelevant — gross acquisitions are 3% + 3% = 6%, which exceeds the 5% annual limit, triggering a mandatory open offer for at least 26% of total shares.
+**The Trap:** "Net acquisition of 4%" is the most tempting distractor — many candidates instinctively net purchases against sales, but the regulation explicitly uses gross acquisitions.
+**Cross-Exam Context:** NISM Series IX (Merchant Banking) tests this gross vs. net distinction. It is one of the most frequently tested calculation concepts in SAST.
+**Distributor's Pro-Tip:** Always advise promoter clients to track their cumulative gross purchases through the financial year — selling shares does NOT create room for additional purchases.]]></text></explanation>
+    </question>
+</QF>

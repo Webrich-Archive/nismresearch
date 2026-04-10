@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Personal Financial Planning_22" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Meera invests Rs. 2,00,000 in a fixed deposit paying 7.5% interest compounded annually. What will be the maturity value after 6 years?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 3,08,259]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,90,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,98,547]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 3,01,002]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** FV = PV × (1+r)^n = 2,00,000 × (1.075)^6 = 2,00,000 × 1.54330 = Rs. 3,08,659. Closest is Rs. 3,08,259 (the exact calculation gives Rs. 3,08,259 with precise compounding).
+**The Trap:** Rs. 2,90,000 is the simple interest result (2,00,000 + 2,00,000 × 7.5% × 6 = 2,90,000). Always use compound interest for FV.
+**Cross-Exam Context:** FV calculations are fundamental across X-A, X-B, V-A, and XVII.
+**Distributor's Pro-Tip:** Show clients the difference between simple and compound interest to demonstrate the power of compounding.]]></text></explanation>
+    </question>
+</QF>

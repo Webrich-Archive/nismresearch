@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Personal Financial Planning_49" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investor pays Rs. 1,00,000 today and receives Rs. 50,000 at the end of Year 1 and Rs. 60,000 at the end of Year 2. The Internal Rate of Return (IRR) is closest to:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[3.5%]]></text></answer>
+            <answer correct="no"><text><![CDATA[5.0%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[4.6%]]></text></answer>
+            <answer correct="no"><text><![CDATA[6.2%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** IRR is the rate that makes NPV = 0. -1,00,000 + 50,000/(1+r) + 60,000/(1+r)^2 = 0. Solving: at 4.6%, PV = 50,000/1.046 + 60,000/1.046^2 = 47,801 + 54,839 = 1,02,640... Trial and error or Excel IRR gives approximately 4.6%.
+**The Trap:** 5% gives NPV = -1,00,000 + 47,619 + 54,422 = 2,041 (positive). 4.6% is closer to making NPV = 0.
+**Cross-Exam Context:** IRR is introduced in X-A and used in X-B, XXI-B for portfolio evaluation (MWRR = IRR of cash flows).
+**Distributor's Pro-Tip:** IRR helps compare investments with different cash flow patterns — it's the return that makes an investor indifferent between investing and not investing.]]></text></explanation>
+    </question>
+</QF>

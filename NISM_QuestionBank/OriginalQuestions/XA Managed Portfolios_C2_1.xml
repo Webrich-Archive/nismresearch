@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Managed Portfolios_C2_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Mr. Harish Gupta, aged 50, is a business owner with a net worth of Rs. 8 crore. He has Rs. 1 crore available for equity investment and is evaluating two options:
+
+Option A — Equity Mutual Fund (Direct Plan, Growth): Large & Mid-Cap Fund with expense ratio 0.75%, SEBI-mandated diversification (minimum 35% large-cap, 35% mid-cap), no minimum investment, exit load 1% if redeemed within 1 year, daily NAV disclosure, SEBI Mutual Fund Regulations apply.
+
+Option B — Discretionary Equity PMS: Minimum investment Rs. 50 lakh, fixed management fee 1.5% p.a., performance fee 20% of profits above 10% hurdle rate (no catch-up, high watermark applies), portfolio of 15-25 stocks customized to Harish's risk profile, Rs. 5 crore net worth of PMS provider, quarterly portfolio disclosure.
+
+Additional information: Harish is in the 30% income tax bracket. He expects a 5-year investment horizon. He wants concentrated, high-conviction stock picking rather than broad diversification. He has a separate emergency fund and does not need liquidity from this investment.
+
+<b>Question 1 of 5:</b> If Option B (PMS) generates a gross return of 18% in Year 1 on the Rs. 1 crore investment, what is the approximate performance fee payable (assuming no catch-up, hurdle rate 10%)?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 3,60,000 (20% of total 18% gain)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 1,60,000 (20% of 8% gain above hurdle)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,00,000 (20% of 10% hurdle rate)]]></text></answer>
+            <answer correct="no"><text><![CDATA[No performance fee as first year is below high watermark]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** No catch-up means performance fee applies only to returns above the hurdle rate. Gain = 18% on Rs. 1 crore = Rs. 18 lakh. Gain above 10% hurdle = 8% = Rs. 8 lakh. Performance fee = 20% of Rs. 8 lakh = Rs. 1.60 lakh. Fixed fee of 1.5% (Rs. 1.5 lakh) is additional.
+**The Trap:** Rs. 3.6 lakh would be the fee under the 'catch-up' concept (20% of full 18% gain). No catch-up limits it to gains above the hurdle.
+**Cross-Exam Context:** PMS fee calculation with hurdle rate and catch-up/no catch-up is tested in X-A.
+**Distributor's Pro-Tip:** Total Year 1 cost in PMS: Rs. 1.5 lakh (fixed) + Rs. 1.6 lakh (performance) = Rs. 3.1 lakh on Rs. 1 crore (3.1%). Compare with MF's 0.75% — the PMS must deliver significantly better after-fee returns to justify the cost.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Personal Financial Planning_C5_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Dr. Arun Patel, aged 50, is a senior physician earning Rs. 30 lakh per annum from his hospital practice. His wife Mrs. Shalini runs a small boutique earning Rs. 5 lakh per annum. They have one son, aged 22, who is completing his MBA and will be financially independent in 1 year. Dr. Patel wants to retire at 58. Their current financial position: Equity portfolio Rs. 45 lakh, Debt mutual funds Rs. 20 lakh, PPF Rs. 16 lakh (matures in 3 years), FDs Rs. 12 lakh, PF balance Rs. 25 lakh, Gold Rs. 10 lakh, Residential property (self-occupied) Rs. 1.2 crore. Liabilities: Home loan Rs. 15 lakh (EMI Rs. 22,000, 7 years remaining at 8%), no other loans. Monthly expenses: Rs. 1,80,000 (including EMI). Post-retirement, they estimate needing Rs. 1,20,000/month in today's terms. They want a retirement corpus that lasts 25 years post-retirement. Inflation is 6% p.a. Expected returns: equity 12%, debt 7%.
+
+<b>Question 3 of 5:</b> If post-retirement monthly expenses are Rs. 1,20,000 today and inflation is 6% p.a., what will the monthly expense be at the time of retirement (8 years later)?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 1,80,000]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 1,91,232]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,75,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,00,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Future monthly expense = 1,20,000 × (1.06)^8 = 1,20,000 × 1.59385 = Rs. 1,91,262 ≈ Rs. 1,91,232.
+**The Trap:** Rs. 1,80,000 uses simple inflation (1,20,000 × 1.5 = 1,80,000). Must use compound inflation. Rs. 2,00,000 is a round number estimate.
+**Cross-Exam Context:** Inflation-adjusted retirement expense calculation is central to X-A and XVII.
+**Distributor's Pro-Tip:** Most clients underestimate retirement expenses because they don't account for compounding inflation — Rs. 1.2 lakh today becomes Rs. 1.91 lakh in just 8 years at 6% inflation.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Personal Financial Planning_C1_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Mr. Arvind Sharma, aged 42, is a senior manager at an IT company earning Rs. 18 lakh per annum (gross). His wife Mrs. Priya works part-time earning Rs. 6 lakh per annum. Their combined monthly expenses are Rs. 1,20,000. They have two children aged 14 and 10. Arvind's current investments include: Equity Mutual Funds Rs. 35 lakh, PPF Rs. 12 lakh (current balance), Bank Fixed Deposits Rs. 8 lakh, Employee PF balance Rs. 18 lakh, and a savings bank balance of Rs. 3 lakh. He has an outstanding home loan of Rs. 22 lakh with EMI of Rs. 25,000/month (included in expenses above) and no other loans. His employer contributes Rs. 1,800/month to PF and he contributes the same. He wants to retire at age 58 and needs a retirement corpus of Rs. 3 crore. He also needs Rs. 30 lakh for his elder child's education in 4 years and Rs. 25 lakh for the younger child in 8 years. Assume equity returns at 12% CAGR and debt returns at 7% CAGR. Inflation is 6% p.a.
+
+<b>Question 4 of 5:</b> To accumulate Rs. 30 lakh for the elder child's education in 4 years, how much lump sum should Arvind invest today at an expected return of 10% p.a.?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 22,89,134]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 20,49,040]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 25,00,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 18,62,750]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** PV = FV / (1+r)^n = 30,00,000 / (1.10)^4 = 30,00,000 / 1.4641 = Rs. 20,49,040.
+**The Trap:** Rs. 22,89,134 uses 7% discount rate instead of 10%. Rs. 25,00,000 is a rough estimate without proper discounting.
+**Cross-Exam Context:** Goal-based PV calculations are central to X-A and XVII (Retirement Adviser).
+**Distributor's Pro-Tip:** For a 4-year education goal with moderate risk, use a balanced allocation (say 60:40 equity:debt) which gives ~10% expected return — pure equity is too risky for this timeline.]]></text></explanation>
+    </question>
+</QF>

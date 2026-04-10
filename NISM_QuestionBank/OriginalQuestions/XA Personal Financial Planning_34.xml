@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Personal Financial Planning_34" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investor bought mutual fund units at NAV of Rs. 15 and redeemed after 540 days at NAV of Rs. 21. Assuming a non-leap year (365 days), the CAGR is closest to:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[25.10%]]></text></answer>
+            <answer correct="no"><text><![CDATA[28.45%]]></text></answer>
+            <answer correct="no"><text><![CDATA[30.00%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[26.72%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** CAGR = (End/Begin)^(365/days) - 1 = (21/15)^(365/540) - 1 = (1.4)^(0.6759) - 1 = 1.2672 - 1 = 26.72%.
+**The Trap:** Simple return = (21-15)/15 = 40% over 540 days. Annualizing simply as 40% × 365/540 = 27.04% is incorrect — CAGR uses geometric compounding.
+**Cross-Exam Context:** Fractional period CAGR is commonly tested in V-A, V-B, and X-A.
+**Distributor's Pro-Tip:** For holding periods under 1 year, CAGR may overstate the annualized return — always mention the actual holding period alongside.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Investment Products_33" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A 5-year bond with 10% coupon rate (semi-annual payments) and face value Rs. 100 is priced at 8% yield. Compared to the same bond with annual coupon payments, the semi-annual bond will be valued:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Lower, due to more frequent payments]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Higher, due to greater frequency of compounding]]></text></answer>
+            <answer correct="no"><text><![CDATA[Exactly the same, as the annual coupon is identical]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cannot be compared as payment frequencies differ]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The semi-annual coupon bond (valued at Rs. 108.11) is worth more than the annual coupon bond (Rs. 107.99) because the investor receives coupons earlier and can reinvest them sooner. Greater compounding frequency increases the present value.
+**The Trap:** 'Exactly the same' seems logical since the annual coupon is 10% in both cases — but timing of cash flows matters due to time value of money.
+**Cross-Exam Context:** Semi-annual vs annual bond pricing is tested in X-A and IV.
+**Distributor's Pro-Tip:** Indian G-Secs pay semi-annual coupons — always use semi-annual compounding when pricing government bonds to avoid valuation errors.]]></text></explanation>
+    </question>
+</QF>

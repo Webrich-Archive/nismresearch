@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Investment Products_C4_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Mr. Rajat Singhania manages a portfolio of Nifty 50 stocks worth Rs. 2 crore for his client Mrs. Sunita Agarwal, a 58-year-old businesswoman. The current Nifty 50 level is 22,000. Rajat is concerned about potential market correction in the next 2 months due to global uncertainties. He wants to hedge the portfolio using derivatives. The following information is available:
+
+Nifty 50 Futures (2-month expiry): Trading at 22,180 (lot size: 25 units)
+Nifty 50 Put Option (strike 21,500, 2-month expiry): Premium Rs. 350 per unit (lot size: 25 units)
+Nifty 50 Put Option (strike 21,000, 2-month expiry): Premium Rs. 180 per unit (lot size: 25 units)
+Nifty 50 Call Option (strike 22,500, 2-month expiry): Premium Rs. 280 per unit (lot size: 25 units)
+Risk-free rate: 7% p.a.
+
+The portfolio has a beta of 1.0 with respect to Nifty 50 (i.e., it moves in line with the index). The number of futures contracts needed to fully hedge = Portfolio value / (Futures price × Lot size) = Rs. 2,00,00,000 / (22,180 × 25) = approximately 36 contracts.
+
+<b>Question 3 of 5:</b> Instead of futures, if Rajat buys 36 lots of the 21,500-strike put options, what is the total cost (premium) of this hedge?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 1,26,000]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 3,15,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 12,600]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 8,75,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Premium per lot = Rs. 350 × 25 (lot size) = Rs. 8,750. Total premium = 36 lots × Rs. 8,750 = Rs. 3,15,000. This is the maximum cost of the hedge — like an insurance premium. The portfolio is protected below Nifty 21,500 while retaining upside above 22,000.
+**The Trap:** Rs. 1,26,000 might result from using 36 × 350 = 12,600 and then some error. Always multiply premium per unit × lot size × number of lots.
+**Cross-Exam Context:** Put option hedging cost calculations are tested in VIII and X-A.
+**Distributor's Pro-Tip:** The put premium (Rs. 3.15 lakh) is about 1.58% of the portfolio value — this is the 'insurance cost' for 2 months of downside protection. Compare this with the potential loss being hedged to evaluate whether the cost is justified.]]></text></explanation>
+    </question>
+</QF>

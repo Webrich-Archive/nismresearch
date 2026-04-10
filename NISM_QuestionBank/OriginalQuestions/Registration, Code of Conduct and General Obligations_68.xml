@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Registration, Code of Conduct and General Obligations_68" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Where must a merchant banker store its data and records as per data localization requirements?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[In any jurisdiction where the MB has an office]]></text></answer>
+            <answer correct="no"><text><![CDATA[In a cloud server of the MB's choice, regardless of location]]></text></answer>
+            <answer correct="no"><text><![CDATA[In the jurisdiction where the majority of clients are located]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Within India]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Data localization requirements mandate that merchant bankers must store their data within India. This ensures that Indian regulators have seamless access to records for inspection and enforcement purposes.
+**The Trap:** Using cloud servers "of the MB's choice" sounds flexible but ignores the data localization mandate. Even cloud-hosted data must physically reside in India-based data centers.
+**Cross-Exam Context:** Data localization is a growing regulatory theme tested across NISM modules, particularly relevant as SEBI increases its technology governance requirements.
+**Distributor's Pro-Tip:** When selecting technology vendors and cloud providers, ensure their data centers are in India and contractually commit to keeping your data onshore — a foreign-hosted backup could violate localization norms.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Issue Management - General Obligations and Due Diligence_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An issuer's DRHP was filed on January 15, with financial statements dated September 30 (3.5 months old at filing). The issue opens on August 1. What is the compliance issue?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[No compliance issue exists since the financials were within 6 months at the time of DRHP filing]]></text></answer>
+            <answer correct="no"><text><![CDATA[The financials are now more than 120 days old, violating the Companies Act but not SEBI ICDR norms]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The financial statements are now more than 6 months old at issue opening (10 months), violating the SEBI ICDR requirement of freshness at BOTH filing and opening]]></text></answer>
+            <answer correct="no"><text><![CDATA[The issue cannot open because the DRHP itself has become stale after 6 months from filing]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Financial information must be not more than 6 months old at TWO checkpoints: filing and issue opening. At filing (January 15), the September 30 financials were 3.5 months old — compliant. But at issue opening (August 1), they are approximately 10 months old — a clear violation. The issuer must update the financial statements before opening the issue.
+
+**The Trap:** "No compliance issue" is wrong because it only checks the filing date and ignores the second checkpoint at issue opening. The dual-checkpoint requirement is specifically designed to prevent this scenario where a long gap between filing and opening makes financials stale.
+
+**Cross-Exam Context:** This is an application-type question combining timeline awareness with regulatory knowledge. NISM exams increasingly test candidates' ability to apply rules to specific scenarios rather than just recalling them.
+
+**Distributor's Pro-Tip:** When there is a significant gap between DRHP filing and expected issue opening, budget time and cost for preparing updated financial statements. This is a common source of delay in practice.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Introduction to the Capital Market_18" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investor holds 500 Partly Convertible Debentures (PCDs) with a face value of Rs. 1,000 each. The conversion ratio is 40% into equity shares at Rs. 100 per share. How many equity shares will the investor receive upon conversion, and what happens to the remaining portion?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[5,000 equity shares; the remaining 60% is forfeited]]></text></answer>
+            <answer correct="yes"><text><![CDATA[2,000 equity shares; the remaining 60% continues as debt (debentures)]]></text></answer>
+            <answer correct="no"><text><![CDATA[2,000 equity shares; the remaining 60% is converted into preference shares]]></text></answer>
+            <answer correct="no"><text><![CDATA[500 equity shares; the remaining portion is returned as cash]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Total debenture value = 500 x Rs. 1,000 = Rs. 5,00,000. Convertible portion = 40% = Rs. 2,00,000. At Rs. 100 per equity share, the investor receives 2,000 equity shares (Rs. 2,00,000 / Rs. 100). The remaining 60% (Rs. 3,00,000) continues as debt — this is why they are called "Partly" Convertible Debentures. Only a part converts to equity; the rest remains as debentures earning interest.
+**The Trap:** The remaining portion is not forfeited or converted to preference shares — it continues as regular debentures. FCDs (Fully Convertible Debentures) convert entirely, but PCDs only convert the specified portion.
+**Cross-Exam Context:** Convertible instruments (FCDs, PCDs, OFCDs) are tested in NISM Series IX (Merchant Banking) and Series XV (Research Analyst) exams.
+**Distributor's Pro-Tip:** PCD = Part equity + Part debt. FCD = Fully equity after conversion. OFCD = Holder's choice. Always calculate the convertible portion separately and apply the conversion price to determine the number of equity shares.]]></text></explanation>
+    </question>
+</QF>

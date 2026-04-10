@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Issue Management - Process and Underwriting_33" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[According to SEBI ICDR Regulations, which of the following statements about the registrar to an issue is CORRECT?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The registrar must have connectivity to at least one depository]]></text></answer>
+            <answer correct="no"><text><![CDATA[The issuer can appoint itself as registrar if it has adequate infrastructure]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The registrar must be SEBI-registered and must have connectivity to ALL depositories]]></text></answer>
+            <answer correct="no"><text><![CDATA[The registrar is appointed solely by the lead manager without issuer consultation]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI mandates that the registrar to an issue must be SEBI-registered AND must have connectivity to ALL depositories (both NSDL and CDSL). Additionally, the issuer cannot appoint itself as registrar, ensuring independent processing.
+**The Trap:** "At least one depository" sounds reasonable but is incorrect — ALL depositories is the requirement. This ensures that investors holding demat accounts with any depository can participate seamlessly.
+**Cross-Exam Context:** Depository connectivity requirements are also tested in NISM Series VI (Depository Operations) exams.
+**Distributor's Pro-Tip:** Before recommending an IPO to clients, verify that the registrar has connectivity to both NSDL and CDSL — this ensures smooth credit of shares regardless of the client's depository preference.]]></text></explanation>
+    </question>
+</QF>

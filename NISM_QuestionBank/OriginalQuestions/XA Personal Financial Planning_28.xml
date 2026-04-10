@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Personal Financial Planning_28" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Anil takes a home loan of Rs. 40 lakh at 8% p.a. (monthly rest) for 20 years. His approximate monthly EMI is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 33,458]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 28,950]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 35,120]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 30,225]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Monthly rate = 8%/12 = 0.6667%. Periods = 240. EMI = P × r × (1+r)^n / [(1+r)^n - 1] = 40,00,000 × 0.006667 × (1.006667)^240 / [(1.006667)^240 - 1] ≈ Rs. 33,458.
+**The Trap:** Rs. 28,950 might result from using annual compounding instead of monthly. For EMI, always use the monthly rate and monthly periods.
+**Cross-Exam Context:** EMI calculations are tested in X-A (Ch 2, Ch 4) and are practical knowledge for V-A distributors advising on SIPs.
+**Distributor's Pro-Tip:** Show clients how even a 0.5% reduction in interest rate can save lakhs over the life of a home loan.]]></text></explanation>
+    </question>
+</QF>

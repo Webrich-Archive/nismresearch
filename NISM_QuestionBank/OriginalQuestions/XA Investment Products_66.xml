@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Investment Products_66" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Mr. Sharma expects the stock price of ABC Ltd to decline significantly over the next month. To profit from this view, he should:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Buy a call option on ABC Ltd]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Buy a put option on ABC Ltd]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell a put option on ABC Ltd]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy shares of ABC Ltd]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A put option gives the buyer the right to sell at the strike price. If the stock price falls below the strike, the put becomes valuable. Buying a put is a bearish strategy with limited risk (premium paid) and profit potential up to strike price minus premium.
+**The Trap:** Selling a put would give premium income but obligates Mr. Sharma to buy if the price falls — wrong if he's bearish. Buying a call is bullish, not bearish.
+**Cross-Exam Context:** Option strategies based on market views are tested in VIII, I, and X-A.
+**Distributor's Pro-Tip:** For clients with bearish views, buying puts is safer than short-selling stocks — the maximum loss is the premium, while short selling has unlimited loss potential.]]></text></explanation>
+    </question>
+</QF>

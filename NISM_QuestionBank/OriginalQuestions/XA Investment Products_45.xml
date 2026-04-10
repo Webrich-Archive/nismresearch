@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Investment Products_45" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The coupon rate of Floating Rate Bonds (FRBs) issued by the Government of India is primarily linked to which benchmark?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[RBI Repo rate]]></text></answer>
+            <answer correct="yes"><text><![CDATA[182-day Treasury Bill rate]]></text></answer>
+            <answer correct="no"><text><![CDATA[10-year G-Sec yield]]></text></answer>
+            <answer correct="no"><text><![CDATA[MIBOR (Mumbai Interbank Offered Rate)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** FRB coupons are majorly linked to the 6-month rate, i.e., the 182-day T-Bill rate. The coupon is reset semi-annually based on the average of implicit cut-off yields of the last three 182-day T-Bill auctions, with a fixed spread added.
+**The Trap:** RBI Repo rate influences money market rates but is not the direct benchmark for FRB coupons.
+**Cross-Exam Context:** FRB benchmarking is tested in X-A and IV (Interest Rate Derivatives).
+**Distributor's Pro-Tip:** FRBs protect against rising interest rates since coupons reset higher — recommend when expecting a rate-hiking cycle, unlike fixed-rate bonds which lose value when rates rise.]]></text></explanation>
+    </question>
+</QF>

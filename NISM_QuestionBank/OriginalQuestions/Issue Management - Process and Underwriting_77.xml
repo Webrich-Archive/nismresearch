@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Issue Management - Process and Underwriting_77" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In a QIP, the relevant date for determining the floor price is the date of which event?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The date of filing the placement document with SEBI]]></text></answer>
+            <answer correct="no"><text><![CDATA[The date of special resolution]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The date of the board or committee meeting that decides to open the QIP]]></text></answer>
+            <answer correct="no"><text><![CDATA[The date of allotment of shares]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under SEBI ICDR, the relevant date for QIP pricing is the date of the meeting of the board of directors or the committee authorized by the board in which it decides to open the QIP. The floor price is then the average of weekly high and low of closing prices during the 2 weeks preceding this date.
+**The Trap:** The special resolution date authorizes the QIP but is not the relevant date for pricing. There can be a significant gap between the special resolution (up to 365 days prior) and the actual board decision to open the QIP.
+**Cross-Exam Context:** NISM Series IX specifically tests the distinction between relevant dates for QIPs vs. preferential issues, as they differ.
+**Distributor's Pro-Tip:** The relevant date for QIPs is designed to reflect near-term market conditions, unlike preferential issues which use a different relevant date formulation.]]></text></explanation>
+    </question>
+</QF>

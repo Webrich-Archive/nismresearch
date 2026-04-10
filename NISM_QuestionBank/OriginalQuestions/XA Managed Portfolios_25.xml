@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Managed Portfolios_25" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The 'high watermark principle' in PMS fee calculation ensures that:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Fees are always calculated on the highest NAV achieved]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Profit sharing fees are not charged until the portfolio exceeds the previous high value on which fees were paid]]></text></answer>
+            <answer correct="no"><text><![CDATA[The PMS manager receives a fixed minimum fee regardless of performance]]></text></answer>
+            <answer correct="no"><text><![CDATA[The investor pays fees only on returns above the risk-free rate]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** High watermark is the corpus value/NAV at which performance fees were last paid. If the portfolio falls below this level, no profit-sharing fees are charged until it crosses the previous high. Example: If fees paid at Rs. 60L, and portfolio drops to Rs. 55L, no performance fee until it exceeds Rs. 60L again.
+**The Trap:** The hurdle rate (not high watermark) relates to minimum return before performance fees kick in — they are separate concepts.
+**Cross-Exam Context:** PMS fee structures are tested in X-A — understanding fee mechanics is essential for advisory.
+**Distributor's Pro-Tip:** High watermark protects clients from paying performance fees to recover from losses the PMS manager caused — always verify this is in the agreement before recommending a PMS.]]></text></explanation>
+    </question>
+</QF>

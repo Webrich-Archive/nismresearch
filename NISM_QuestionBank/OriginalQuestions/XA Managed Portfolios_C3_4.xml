@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Managed Portfolios_C3_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Mr. Vikram Choudhary, aged 45, is an ultra-HNI with a total investment portfolio of Rs. 25 crore. His current allocation is: Equity Mutual Funds Rs. 8 crore, Fixed Deposits Rs. 5 crore, Direct Equity Rs. 5 crore, Real Estate Rs. 4 crore, Gold Rs. 1.5 crore, and Cash Rs. 1.5 crore. His annual income is Rs. 3 crore. His investment adviser, Ms. Neha Sharma, suggests allocating Rs. 3 crore (12% of portfolio) to Alternative Investment Funds for diversification. She proposes:
+
+Option 1 — Category I AIF (Venture Capital Fund): Invests in early-stage tech startups. Minimum Rs. 1 crore. Close-ended with 7-year lock-in. Target return 20-25% IRR. Manager continuing interest 2.5% of corpus. Fund corpus Rs. 200 crore with maximum 250 investors.
+
+Option 2 — Category II AIF (Private Equity Fund): Invests in mid-market growth companies. Minimum Rs. 1 crore. Close-ended with 5-year lock-in plus 2-year extension option. Target return 15-18% IRR. No leverage permitted except for day-to-day operations. Management fee 2% + carried interest 20% above 8% hurdle.
+
+Option 3 — Category III AIF (Long-Short Equity Hedge Fund): Employs long-short equity strategies using derivatives. Minimum Rs. 1 crore. Open-ended with 1-year lock-in. Target return 12-15% with low correlation to equity markets. Manager continuing interest 5% of corpus. Can employ leverage through derivatives.
+
+Vikram qualifies as an accredited investor (annual income ≥ Rs. 2 crore).
+
+<b>Question 4 of 5:</b> The Cat II AIF charges a management fee of 2% plus carried interest of 20% above an 8% hurdle. If Vikram's Rs. 1 crore investment generates 18% return in Year 1, what is the approximate total fee?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 2 lakh (management fee only)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 4 lakh (2% management fee + Rs. 2 lakh carried interest)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 5.6 lakh (2% fee + 20% of total 18% return)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2.8 lakh (20% of 14% above hurdle + management fee)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Management fee = 2% of Rs. 1 crore = Rs. 2 lakh. Return above hurdle = 18% - 8% = 10% = Rs. 10 lakh. Carried interest = 20% of Rs. 10 lakh = Rs. 2 lakh. Total fee = Rs. 2 lakh + Rs. 2 lakh = Rs. 4 lakh (4% of investment). Net return: 18% - 4% = 14%.
+**The Trap:** Rs. 5.6 lakh assumes 20% of the full 18% return (catch-up) rather than 20% of the 10% above the hurdle (no catch-up).
+**Cross-Exam Context:** AIF fee calculations are tested in X-A — understanding the 2-and-20 fee structure is essential.
+**Distributor's Pro-Tip:** The '2 and 20' model (2% management + 20% carry) is the industry standard for PE/AIF — ensure clients understand the total effective cost, which can be 4%+ in good years, significantly eroding returns.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Investment Products_56" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When a bond is traded between coupon dates, the amount the buyer pays to the seller is called the 'full price' or 'invoice price', which equals:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Clean price only]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Clean price plus accrued interest]]></text></answer>
+            <answer correct="no"><text><![CDATA[Par value plus accrued interest]]></text></answer>
+            <answer correct="no"><text><![CDATA[Dirty price minus accrued interest]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The full price (invoice price/dirty price) = Clean price + Accrued interest. The market trades bonds on a clean price basis, but the buyer pays the full/dirty price. Clean price excludes the accrued interest component.
+**The Trap:** Dirty price minus accrued interest gives the clean price, not the other way around. The buyer pays the dirty price.
+**Cross-Exam Context:** Clean/dirty price concepts are tested in X-A and IV; critical for bond settlement calculations.
+**Distributor's Pro-Tip:** When clients buy bonds between coupon dates, they pay accrued interest to the seller but receive the full coupon on the next payment date — net effect is they earn only the proportion corresponding to their holding period.]]></text></explanation>
+    </question>
+</QF>

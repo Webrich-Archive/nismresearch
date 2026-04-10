@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Issue Management - Process and Underwriting_59" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A company has optionally convertible debentures worth Rs. 15 crore where the conversion price was not pre-determined. If 40% of holders (by value) choose NOT to convert, what is the minimum value at which non-exercisers must be redeemed?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[At market value on the date of redemption]]></text></answer>
+            <answer correct="no"><text><![CDATA[At a 10% premium to face value]]></text></answer>
+            <answer correct="yes"><text><![CDATA[At face value, amounting to Rs. 6 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[At the conversion price determined by the lead manager]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under Regulation 109, non-exercisers must be redeemed within 1 month at not less than face value. 40% of Rs. 15 crore = Rs. 6 crore. The minimum redemption value is face value (Rs. 6 crore), though the issuer can pay more. Since the conversion price was not pre-determined and the value exceeds Rs. 10 crore, holders must be given the option to not convert.
+**The Trap:** "Market value" sounds fair but is not the regulatory requirement — the minimum floor is face value. The actual redemption amount can be higher but cannot be less than face value.
+**Cross-Exam Context:** Redemption value calculations appear in NISM Series V-A (mutual fund NAV-based redemptions) and Series IX (debt instrument valuations).
+**Distributor's Pro-Tip:** When face value is the floor for redemption, the real question is whether conversion offers better value. Compare the conversion price with the current market price of the underlying equity to advise clients on whether to convert or get redeemed.]]></text></explanation>
+    </question>
+</QF>

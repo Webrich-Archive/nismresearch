@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Registration, Code of Conduct and General Obligations_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A merchant banker pays a registration fee of Rs. 20 lakh. How much will it pay as renewal fees over the next 12 years (from year 6 to year 17)?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 27 lakh]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 45 lakh]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 36 lakh]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 18 lakh]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Renewal fee is Rs. 9 lakh every 3 years starting from the 6th year. Over 12 years (year 6 to year 17), there are 4 renewal cycles (at years 6, 9, 12, and 15). Total = 4 x Rs. 9 lakh = Rs. 36 lakh.
+**The Trap:** Rs. 27 lakh assumes only 3 renewals (missing one cycle), and Rs. 18 lakh assumes only 2 renewals. Candidates must correctly count the number of 3-year intervals within the 12-year period.
+**Cross-Exam Context:** Fee computation questions involving periodic payments appear in NISM Series V-A (distributor trail commissions) and Series VIII (margin calculations).
+**Distributor's Pro-Tip:** Budget for renewal fees from the start — over a 20-year career, renewal costs significantly exceed the initial registration fee.]]></text></explanation>
+    </question>
+</QF>

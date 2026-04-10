@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Issue Management - Process and Underwriting_60" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A company's IPO fails to get listed. The allotment was made on March 1, and the refund is processed on June 1 (92 days later). If an investor was allotted shares worth Rs. 2,00,000, what is the approximate interest the investor is entitled to receive along with the refund?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 5,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 6,000]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 7,562]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 10,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When listing fails, investors receive refund with 15% p.a. interest from the date of allotment. Interest = Rs. 2,00,000 x 15% x 92/365 = Rs. 2,00,000 x 0.15 x 0.2521 = Rs. 7,562 (approximately). The 15% rate applies from allotment date, not application date.
+**The Trap:** Using 12% instead of 15% would give approximately Rs. 6,049, close to the Rs. 6,000 distractor. Using 10% would give approximately Rs. 5,041. Always remember the specific 15% rate for listing failure scenarios.
+**Cross-Exam Context:** Interest calculations are common across NISM exams — Series V-A tests interest on delayed mutual fund redemptions, Series VIII tests margin interest calculations.
+**Distributor's Pro-Tip:** While 15% interest compensates for the delay, the real cost to the investor is the opportunity cost of locked-up capital. Factor in the time value of money when assessing the true impact of a listing failure on your clients' portfolios.]]></text></explanation>
+    </question>
+</QF>

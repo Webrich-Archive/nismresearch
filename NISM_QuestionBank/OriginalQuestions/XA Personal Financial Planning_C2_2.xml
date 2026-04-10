@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Personal Financial Planning_C2_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Mrs. Lakshmi Iyer, aged 38, is a school teacher earning Rs. 8 lakh per annum. Her husband Mr. Venkat earns Rs. 14 lakh per annum as a bank officer. They have a daughter Ananya, aged 12, who they plan to send abroad for undergraduate studies at age 18. The estimated cost of the 4-year programme is Rs. 60 lakh at today's prices, with education inflation at 8% p.a. Their current education fund has Rs. 15 lakh in a recurring deposit earning 6.5% p.a. and Rs. 5 lakh in a balanced mutual fund earning 11% p.a. They can additionally save Rs. 25,000 per month specifically for this goal. They are in the 20% tax bracket. The household has monthly expenses of Rs. 85,000 and a car loan EMI of Rs. 12,000 with 2 years remaining.
+
+<b>Question 2 of 5:</b> What will the existing education fund (Rs. 15 lakh RD at 6.5% + Rs. 5 lakh balanced MF at 11%) grow to in 6 years?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 28,50,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 30,54,280]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 31,24,580]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 25,80,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** RD at 6.5% for 6 years: 15,00,000 × (1.065)^6 = 15,00,000 × 1.4591 = Rs. 21,88,650. Balanced MF at 11% for 6 years: 5,00,000 × (1.11)^6 = 5,00,000 × 1.8704 = Rs. 9,35,200. Total = 21,88,650 + 9,35,200 = Rs. 31,23,850 ≈ Rs. 31,24,580.
+**The Trap:** Rs. 28,50,000 might use a blended rate for both investments. Calculate each component separately at its own rate.
+**Cross-Exam Context:** Multi-asset FV calculation is tested in X-A (Ch 2) and portfolio math (Ch 14-16).
+**Distributor's Pro-Tip:** Always compute each investment's growth separately — blending rates leads to errors, especially when amounts differ significantly.]]></text></explanation>
+    </question>
+</QF>

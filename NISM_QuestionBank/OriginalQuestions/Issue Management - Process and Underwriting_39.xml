@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Issue Management - Process and Underwriting_39" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The tripartite agreement in an IPO is executed between which three parties?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Issuer, lead manager, and stock exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[Lead manager, registrar, and SEBI]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Depository (NSDL/CDSL), registrar to the issue, and the issuer company]]></text></answer>
+            <answer correct="no"><text><![CDATA[Issuer, underwriter, and the compliance officer]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The tripartite agreement is signed between each depository (NSDL and CDSL separately), the registrar to the issue (RTI), and the issuer company. This agreement facilitates the electronic credit of securities to investors' demat accounts.
+**The Trap:** The lead manager is involved in many agreements (issue agreement, syndicate agreement, underwriting agreement) but is NOT a party to the tripartite agreement. This specific agreement is about the depository-registrar-issuer relationship.
+**Cross-Exam Context:** NISM Series VI (Depository Operations) covers tripartite agreements in detail from the depository's perspective.
+**Distributor's Pro-Tip:** Ensure the tripartite agreement is in place with BOTH depositories before the issue opens. Missing even one can delay credit of shares to investors holding accounts with that depository.]]></text></explanation>
+    </question>
+</QF>

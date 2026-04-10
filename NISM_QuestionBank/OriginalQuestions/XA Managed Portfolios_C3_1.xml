@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Managed Portfolios_C3_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Mr. Vikram Choudhary, aged 45, is an ultra-HNI with a total investment portfolio of Rs. 25 crore. His current allocation is: Equity Mutual Funds Rs. 8 crore, Fixed Deposits Rs. 5 crore, Direct Equity Rs. 5 crore, Real Estate Rs. 4 crore, Gold Rs. 1.5 crore, and Cash Rs. 1.5 crore. His annual income is Rs. 3 crore. His investment adviser, Ms. Neha Sharma, suggests allocating Rs. 3 crore (12% of portfolio) to Alternative Investment Funds for diversification. She proposes:
+
+Option 1 — Category I AIF (Venture Capital Fund): Invests in early-stage tech startups. Minimum Rs. 1 crore. Close-ended with 7-year lock-in. Target return 20-25% IRR. Manager continuing interest 2.5% of corpus. Fund corpus Rs. 200 crore with maximum 250 investors.
+
+Option 2 — Category II AIF (Private Equity Fund): Invests in mid-market growth companies. Minimum Rs. 1 crore. Close-ended with 5-year lock-in plus 2-year extension option. Target return 15-18% IRR. No leverage permitted except for day-to-day operations. Management fee 2% + carried interest 20% above 8% hurdle.
+
+Option 3 — Category III AIF (Long-Short Equity Hedge Fund): Employs long-short equity strategies using derivatives. Minimum Rs. 1 crore. Open-ended with 1-year lock-in. Target return 12-15% with low correlation to equity markets. Manager continuing interest 5% of corpus. Can employ leverage through derivatives.
+
+Vikram qualifies as an accredited investor (annual income ≥ Rs. 2 crore).
+
+<b>Question 1 of 5:</b> If Vikram invests Rs. 1 crore each in all three AIF options, what percentage of his total portfolio would be in illiquid/locked-in investments (including existing real estate)?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[12% (only the AIF investments)]]></text></answer>
+            <answer correct="no"><text><![CDATA[24% (real estate Rs. 4 crore + AIFs Rs. 2 crore locked up)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[28% (real estate Rs. 4 crore + all 3 AIFs Rs. 3 crore = Rs. 7 crore out of Rs. 25 crore)]]></text></answer>
+            <answer correct="no"><text><![CDATA[16% (only real estate)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Illiquid investments: Real estate Rs. 4 crore + Cat I AIF Rs. 1 crore (7-year lock-in) + Cat II AIF Rs. 1 crore (5-year lock-in) + Cat III AIF Rs. 1 crore (1-year lock-in, but includes derivatives) = Rs. 7 crore. As a % of Rs. 25 crore = 28%. Even the Cat III AIF has a 1-year lock-in.
+**The Trap:** The Cat III AIF has only 1-year lock-in, so it's less illiquid than the others — but it still contributes to the locked-up percentage during the lock-in period.
+**Cross-Exam Context:** Portfolio liquidity analysis considering lock-in periods is a practical advisory skill tested in X-A.
+**Distributor's Pro-Tip:** A 28% illiquid allocation is on the higher side — ensure Vikram doesn't need this capital for at least 7 years. The general guideline is to keep illiquid investments below 20-25% of total portfolio for HNIs.]]></text></explanation>
+    </question>
+</QF>

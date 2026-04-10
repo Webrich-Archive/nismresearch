@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Investment Products_39" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If a bond has a Macaulay duration of 4.5 years and the prevailing market yield is 8% (annual compounding), what is its modified duration?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[4.50 years]]></text></answer>
+            <answer correct="yes"><text><![CDATA[4.17 years]]></text></answer>
+            <answer correct="no"><text><![CDATA[4.86 years]]></text></answer>
+            <answer correct="no"><text><![CDATA[3.60 years]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Modified duration = Macaulay duration / (1 + YTM) = 4.5 / (1 + 0.08) = 4.5 / 1.08 = 4.17 years. Modified duration measures the percentage change in bond price for a 1% change in yield.
+**The Trap:** 4.86 would result from multiplying instead of dividing (4.5 × 1.08). Modified duration is always less than or equal to Macaulay duration.
+**Cross-Exam Context:** Modified duration calculation is tested in X-A and IV; it's essential for measuring interest rate risk.
+**Distributor's Pro-Tip:** A modified duration of 4.17 means the bond price will change by approximately 4.17% for every 1% change in yield — use this to assess portfolio sensitivity for rate-sensitive clients.]]></text></explanation>
+    </question>
+</QF>

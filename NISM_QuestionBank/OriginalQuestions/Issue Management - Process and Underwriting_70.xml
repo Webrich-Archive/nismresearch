@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Issue Management - Process and Underwriting_70" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For pricing a preferential issue of frequently traded shares, which lookback periods are used to determine the minimum price?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[52 weeks and 4 weeks preceding the relevant date]]></text></answer>
+            <answer correct="yes"><text><![CDATA[26 weeks and 2 weeks preceding the relevant date]]></text></answer>
+            <answer correct="no"><text><![CDATA[12 weeks and 4 weeks preceding the relevant date]]></text></answer>
+            <answer correct="no"><text><![CDATA[26 weeks and 4 weeks preceding the relevant date]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For frequently traded shares, the preferential issue price must not be less than the higher of: (i) the average of weekly high and low of closing prices during the 26 weeks preceding the relevant date, or (ii) the average during the 2 weeks preceding the relevant date. The higher of the two protects existing shareholders.
+**The Trap:** 26 weeks and 4 weeks is a plausible combination but incorrect — the short-term lookback is 2 weeks, not 4 weeks. This is a precise regulatory detail that NISM tests frequently.
+**Cross-Exam Context:** NISM Series IX tests preferential issue pricing extensively. NISM Series XV (Research Analyst) covers it when analyzing dilution impact.
+**Distributor's Pro-Tip:** The "higher of two averages" rule means that in a falling market, the 26-week average typically sets the floor, while in a rising market, even the 2-week average can be the binding constraint.]]></text></explanation>
+    </question>
+</QF>

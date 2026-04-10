@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Mergers, Acquisitions and Takeovers_38" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following is one of the parameters used in the indirect acquisition significance test under SAST?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Number of employees of the target as a percentage of total employees of the entity acquired]]></text></answer>
+            <answer correct="no"><text><![CDATA[EBITDA of the target as a percentage of consolidated EBITDA of the entity acquired]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Net asset value of the target as a percentage of consolidated net asset value of the entity acquired]]></text></answer>
+            <answer correct="no"><text><![CDATA[Revenue growth rate of the target compared to the entity acquired]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The indirect acquisition significance test uses three specific parameters: (1) Net asset value of target as % of consolidated NAV of entity acquired, (2) Sales turnover of target as % of consolidated sales turnover, and (3) Market cap of target as % of enterprise value of entity acquired. NAV is one of these three.
+**The Trap:** EBITDA sounds like a valid financial metric for significance testing, but the regulation specifically uses net asset value, sales turnover, and market cap — not EBITDA.
+**Cross-Exam Context:** NISM Series IX tests the exact parameters of the significance test. Similar proportionality tests appear in Companies Act 2013 for related party transactions.
+**Distributor's Pro-Tip:** Remember the three parameters as "NAV, Sales, Market Cap" — if ANY ONE of these exceeds the threshold, the full direct acquisition offer price rules kick in.]]></text></explanation>
+    </question>
+</QF>

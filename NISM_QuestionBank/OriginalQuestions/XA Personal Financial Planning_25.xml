@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Personal Financial Planning_25" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A retirement plan promises to pay Rs. 30,000 per year for 10 years, with the first payment at the end of the first year. If the discount rate is 8%, what is the present value of this annuity?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 2,01,302]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,15,420]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,95,671]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,25,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** PV of ordinary annuity = C × [(1 - (1/(1+r)^n)) / r] = 30,000 × [(1 - 1/(1.08)^10) / 0.08] = 30,000 × [(1 - 0.46319) / 0.08] = 30,000 × 6.7101 = Rs. 2,01,302.
+**The Trap:** Rs. 2,25,000 = Rs. 30,000 × 10 × 0.75 is a rough discounted estimate but ignores proper annuity math.
+**Cross-Exam Context:** Annuity valuation is core to X-A, XVII (Retirement Adviser), and IX (bond pricing).
+**Distributor's Pro-Tip:** PV of annuity helps retirees understand how much corpus they need to generate their desired monthly income.]]></text></explanation>
+    </question>
+</QF>

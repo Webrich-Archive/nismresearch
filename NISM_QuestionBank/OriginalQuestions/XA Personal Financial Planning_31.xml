@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Personal Financial Planning_31" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Deepak wants to repay a loan of Rs. 5,00,000 with monthly EMI of Rs. 12,000 at 8% p.a. interest (monthly rest). The number of months required to repay the loan is approximately:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[42 months]]></text></answer>
+            <answer correct="yes"><text><![CDATA[49 months]]></text></answer>
+            <answer correct="no"><text><![CDATA[55 months]]></text></answer>
+            <answer correct="no"><text><![CDATA[60 months]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Using NPER function: monthly rate = 8%/12 = 0.667%. NPER(0.08/12, -12000, 500000) ≈ 49 months.
+**The Trap:** Simple division (5,00,000 / 12,000 = 41.7) ignores the interest component and significantly underestimates the repayment period.
+**Cross-Exam Context:** NPER calculations are tested in X-A (Ch 2) for loan planning scenarios.
+**Distributor's Pro-Tip:** NPER helps clients understand how prepayments can dramatically shorten loan tenure — even small additional payments help.]]></text></explanation>
+    </question>
+</QF>

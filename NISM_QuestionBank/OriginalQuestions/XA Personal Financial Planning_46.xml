@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Personal Financial Planning_46" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A bank offers a fixed deposit at 12% p.a. The effective annual rate when interest is compounded monthly is closest to:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[12.00%]]></text></answer>
+            <answer correct="no"><text><![CDATA[12.36%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[12.68%]]></text></answer>
+            <answer correct="no"><text><![CDATA[13.00%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Effective rate = (1 + r/m)^m - 1 = (1 + 0.12/12)^12 - 1 = (1.01)^12 - 1 = 1.12683 - 1 = 12.68%.
+**The Trap:** 12.36% results from semi-annual compounding. Monthly compounding gives a higher effective rate than semi-annual.
+**Cross-Exam Context:** Effective annual rate is tested in X-A (Ch 2), IV (Interest Rate Derivatives), and IX (bond pricing).
+**Distributor's Pro-Tip:** Compare investments using effective annual rate, not stated rate — monthly compounding at 12% beats quarterly compounding at 12%.]]></text></explanation>
+    </question>
+</QF>

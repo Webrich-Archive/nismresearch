@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Personal Financial Planning_26" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An annuity pays Rs. 5,000 per year for 4 years at 10% rate of return. The present value of this annuity if payments are made at the beginning of each year (annuity due) compared to end of each year (ordinary annuity) will be:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Higher by approximately Rs. 1,585]]></text></answer>
+            <answer correct="no"><text><![CDATA[Lower by approximately Rs. 1,585]]></text></answer>
+            <answer correct="no"><text><![CDATA[The same in both cases]]></text></answer>
+            <answer correct="no"><text><![CDATA[Higher by approximately Rs. 2,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** PV of ordinary annuity = 5,000 × [(1-1/1.1^4)/0.1] = Rs. 15,849. PV of annuity due = 15,849 × (1+0.1) = Rs. 17,434. Difference = Rs. 1,585. Annuity due is more valuable because payments are received earlier.
+**The Trap:** The difference is not simply one year's payment — it's the time value effect of receiving all payments one period earlier.
+**Cross-Exam Context:** Annuity due vs ordinary annuity distinction is tested in X-A (Ch 2) and XVII.
+**Distributor's Pro-Tip:** Pension payments at the start of the month (annuity due) are more valuable to retirees than payments at month-end.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Personal Financial Planning_43" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Seema invests Rs. 50,000 at the beginning of each year for 5 years at 10% p.a. The future value of her investments at the end of 5 years is closest to:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 3,36,255]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 3,05,255]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,50,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 3,52,563]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** FV of annuity due = PMT × [((1+r)^n - 1) / r] × (1+r) = 50,000 × [(1.1^5 - 1)/0.1] × 1.1 = 50,000 × 6.1051 × 1.1 = 50,000 × 6.7156 = Rs. 3,35,781. Closest to Rs. 3,36,255.
+**The Trap:** Rs. 3,05,255 is the ordinary annuity FV (without the × 1.1 factor). Since investments are at the beginning of each year, it's annuity due.
+**Cross-Exam Context:** Annuity due calculations are tested in X-A (Ch 2) and XVII.
+**Distributor's Pro-Tip:** SIPs at the beginning of the month vs end of month make a meaningful difference over long periods — always recommend early investment.]]></text></explanation>
+    </question>
+</QF>

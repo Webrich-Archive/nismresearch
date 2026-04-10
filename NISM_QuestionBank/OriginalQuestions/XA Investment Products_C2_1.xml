@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Investment Products_C2_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Mr. Vikram Mehta, aged 55, has Rs. 50 lakh to invest in fixed income instruments. He is considering two options:
+
+Bond A — AAA-rated corporate bond: Face value Rs. 100, Coupon rate 9% (annual payments), Remaining maturity 5 years, Current market price Rs. 104.10, Credit rating AAA.
+
+Bond B — Government Security: Face value Rs. 100, Coupon rate 7.5% (semi-annual payments), Remaining maturity 10 years, Current market price Rs. 95.50, Issued by Government of India.
+
+Additional information: The current 5-year G-Sec yield is 7.2%. The credit spread for AAA-rated corporate bonds over G-Secs is typically 80-100 basis points. The day count convention for Indian bonds is 30/360. Vikram wants to understand the yield, duration risk, and reinvestment risk of each option before making a decision. He plans to hold the bonds until maturity.
+
+<b>Question 1 of 5:</b> What is the current yield of Bond A (AAA corporate bond)?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[9.00%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[8.65%]]></text></answer>
+            <answer correct="no"><text><![CDATA[7.20%]]></text></answer>
+            <answer correct="no"><text><![CDATA[9.50%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Current yield = Annual coupon / Current market price = Rs. 9 / Rs. 104.10 = 0.0865 = 8.65%. Since Bond A trades at a premium (Rs. 104.10 > Rs. 100), its current yield (8.65%) is less than its coupon rate (9%).
+**The Trap:** 9.00% is the coupon yield (coupon/face value), not the current yield (coupon/market price). Always use market price as the denominator.
+**Cross-Exam Context:** Current yield vs coupon yield distinction is tested in X-A and IV.
+**Distributor's Pro-Tip:** For income-seeking clients, current yield is more relevant than coupon rate as it reflects the actual income return on the price paid.]]></text></explanation>
+    </question>
+</QF>

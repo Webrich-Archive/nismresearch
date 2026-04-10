@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Investment Products_C4_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Mr. Rajat Singhania manages a portfolio of Nifty 50 stocks worth Rs. 2 crore for his client Mrs. Sunita Agarwal, a 58-year-old businesswoman. The current Nifty 50 level is 22,000. Rajat is concerned about potential market correction in the next 2 months due to global uncertainties. He wants to hedge the portfolio using derivatives. The following information is available:
+
+Nifty 50 Futures (2-month expiry): Trading at 22,180 (lot size: 25 units)
+Nifty 50 Put Option (strike 21,500, 2-month expiry): Premium Rs. 350 per unit (lot size: 25 units)
+Nifty 50 Put Option (strike 21,000, 2-month expiry): Premium Rs. 180 per unit (lot size: 25 units)
+Nifty 50 Call Option (strike 22,500, 2-month expiry): Premium Rs. 280 per unit (lot size: 25 units)
+Risk-free rate: 7% p.a.
+
+The portfolio has a beta of 1.0 with respect to Nifty 50 (i.e., it moves in line with the index). The number of futures contracts needed to fully hedge = Portfolio value / (Futures price × Lot size) = Rs. 2,00,00,000 / (22,180 × 25) = approximately 36 contracts.
+
+<b>Question 2 of 5:</b> If Rajat uses futures to hedge, he would sell approximately 36 Nifty futures contracts. If the Nifty falls to 20,000 at expiry, what is the approximate profit on the futures hedge?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 1,96,200]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 19,62,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,00,00,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,80,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Profit per contract = (Sell price - Buy price at expiry) × Lot size = (22,180 - 20,000) × 25 = 2,180 × 25 = Rs. 54,500. Total profit = 36 contracts × Rs. 54,500 = Rs. 19,62,000. This approximately offsets the portfolio loss of Rs. 2 crore × (22,000 - 20,000)/22,000 = Rs. 18,18,182.
+**The Trap:** Rs. 1,96,200 would be the profit on just one contract (Rs. 54,500 is closer). Rs. 19,62,000 for 36 contracts is the correct aggregate.
+**Cross-Exam Context:** Futures hedging calculations are tested in VIII and X-A.
+**Distributor's Pro-Tip:** Futures hedging provides symmetric protection — it eliminates downside but also limits upside. If the market rises, the portfolio gains but the futures position loses, resulting in near-zero net return.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Investment Products_C1_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Ms. Ananya Kapoor, a SEBI Registered Investment Adviser, is evaluating two mid-cap stocks for her client Mr. Deepak Joshi. Stock A (Technovate Ltd) is in the IT services sector and Stock B (BankFirst Ltd) is in the banking sector. The following data is available:
+
+Stock A — Technovate Ltd: Current Market Price Rs. 800, EPS (trailing 12 months) Rs. 32, Book Value per share Rs. 200, Dividend per share Rs. 8, Expected 5-year EPS growth rate 20% p.a., Last year's dividend Rs. 7.50 (D0), Expected growth in dividends 15% p.a. indefinitely, Industry average P/E 28x.
+
+Stock B — BankFirst Ltd: Current Market Price Rs. 450, EPS (trailing 12 months) Rs. 30, Book Value per share Rs. 500, Dividend per share Rs. 15, Expected 5-year EPS growth rate 12% p.a., Net Interest Margin 3.2%, Industry average P/B 1.8x.
+
+The risk-free rate is 7% and Deepak's required rate of return on equity is 18%. The IT sector P/E average is 28x and Banking sector P/B average is 1.8x.
+
+<b>Question 2 of 5:</b> What is the PEG ratio of Technovate Ltd, and does it indicate the stock is fairly priced relative to its growth?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[PEG = 1.25, stock is overpriced relative to growth]]></text></answer>
+            <answer correct="no"><text><![CDATA[PEG = 0.80, stock is underpriced relative to growth]]></text></answer>
+            <answer correct="no"><text><![CDATA[PEG = 1.00, stock is fairly priced]]></text></answer>
+            <answer correct="no"><text><![CDATA[PEG = 1.60, stock is significantly overpriced]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** PEG = P/E / EPS growth rate = 25 / 20 = 1.25. A PEG above 1.0 suggests the stock is overpriced relative to its earnings growth — the market is paying Rs. 1.25 for every 1% of growth. However, this is only slightly above 1.0.
+**The Trap:** 0.80 would be the result of 20/25 (inverting the ratio). Always divide P/E by growth rate.
+**Cross-Exam Context:** PEG ratio interpretation is tested in X-A for comprehensive valuation analysis.
+**Distributor's Pro-Tip:** PEG is most useful when comparing companies within the same sector — a PEG of 1.25 for a tech company may be acceptable if quality and growth visibility are high.]]></text></explanation>
+    </question>
+</QF>

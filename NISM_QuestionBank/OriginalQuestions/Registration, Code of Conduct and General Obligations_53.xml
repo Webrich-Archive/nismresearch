@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Registration, Code of Conduct and General Obligations_53" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A director of a merchant banker holds shares worth Rs. 8 lakh (nominal value) representing 0.15% of the issuer's paid-up capital. Can the merchant banker lead manage the issue?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Yes, because the nominal value is below Rs. 10 lakh]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, because the percentage is very small]]></text></answer>
+            <answer correct="yes"><text><![CDATA[No, because the holding exceeds the lower of the two thresholds (0.1% of paid-up capital)]]></text></answer>
+            <answer correct="no"><text><![CDATA[No, because any shareholding by a director is prohibited]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The restriction applies when holding exceeds 0.1% of paid-up capital OR shares exceeding Rs. 10 lakh nominal value — whichever threshold is LOWER. Here, 0.15% exceeds the 0.1% threshold, so even though nominal value is below Rs. 10 lakh, the merchant banker cannot lead manage.
+**The Trap:** Focusing only on the Rs. 10 lakh threshold and ignoring the 0.1% threshold is a common mistake. The regulation uses "whichever is lower" — meaning the more restrictive limit applies.
+**Cross-Exam Context:** Conflict of interest thresholds are a recurring theme in NISM Series IX and NISM Series VIII (Equity Derivatives).
+**Distributor's Pro-Tip:** Always check BOTH thresholds before accepting a lead management mandate — the lower one governs.]]></text></explanation>
+    </question>
+</QF>

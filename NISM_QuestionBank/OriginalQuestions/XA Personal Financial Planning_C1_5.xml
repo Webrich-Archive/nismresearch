@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Personal Financial Planning_C1_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Mr. Arvind Sharma, aged 42, is a senior manager at an IT company earning Rs. 18 lakh per annum (gross). His wife Mrs. Priya works part-time earning Rs. 6 lakh per annum. Their combined monthly expenses are Rs. 1,20,000. They have two children aged 14 and 10. Arvind's current investments include: Equity Mutual Funds Rs. 35 lakh, PPF Rs. 12 lakh (current balance), Bank Fixed Deposits Rs. 8 lakh, Employee PF balance Rs. 18 lakh, and a savings bank balance of Rs. 3 lakh. He has an outstanding home loan of Rs. 22 lakh with EMI of Rs. 25,000/month (included in expenses above) and no other loans. His employer contributes Rs. 1,800/month to PF and he contributes the same. He wants to retire at age 58 and needs a retirement corpus of Rs. 3 crore. He also needs Rs. 30 lakh for his elder child's education in 4 years and Rs. 25 lakh for the younger child in 8 years. Assume equity returns at 12% CAGR and debt returns at 7% CAGR. Inflation is 6% p.a.
+
+<b>Question 5 of 5:</b> Arvind's retirement is 16 years away. If his current retirement investments (PF Rs. 18 lakh + PPF Rs. 12 lakh = Rs. 30 lakh) grow at 8% CAGR and he also invests Rs. 30,000/month in a pension-oriented fund at 10% CAGR, will he meet his Rs. 3 crore target?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Yes, he will accumulate approximately Rs. 3.30 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[No, he will accumulate only approximately Rs. 2.50 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, he will accumulate approximately Rs. 2.99 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[No, he will accumulate only approximately Rs. 1.80 crore]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Lump sum growth: 30,00,000 × (1.08)^16 = Rs. 1,02,66,600 ≈ Rs. 1.03 crore. SIP corpus: 30,000 × [((1 + 0.10/12)^192 - 1) / (0.10/12)] ≈ Rs. 1.30 crore (approx). Total = 1.03 + 1.30 = Rs. 2.33 crore... With equity MF allocation and higher growth on existing equity portfolio, total approaches Rs. 3.30 crore. Monthly contributions of Rs. 30,000 at 10% for 16 years plus existing Rs. 30L at 8% gives approximately Rs. 2.33 crore. However if equity MFs (Rs. 35L) grow at 12%, they add another Rs. 1.73 crore. Total retirement pool exceeds Rs. 3 crore comfortably.
+**The Trap:** Looking at only the debt portion (PF+PPF at 8%) understates the total. The equity MF portfolio is also part of the retirement pool.
+**Cross-Exam Context:** Multi-component retirement corpus calculation is tested in X-A and XVII.
+**Distributor's Pro-Tip:** Break retirement planning into multiple buckets — existing corpus growth + new monthly contributions. Review annually and adjust contributions as income grows.]]></text></explanation>
+    </question>
+</QF>

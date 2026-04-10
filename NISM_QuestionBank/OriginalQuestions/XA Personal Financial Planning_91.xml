@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Personal Financial Planning_91" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A loan of Rs. 3,00,000 at 7% p.a. (monthly rest) for 3 years has an EMI of Rs. 9,263. If the loan period is extended to 5 years under restructuring, the new EMI is approximately:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 7,500]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 5,940]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 6,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 8,100]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** PMT(0.07/12, 60, -300000) = Rs. 5,940. Extending from 36 to 60 months reduces the EMI from Rs. 9,263 to Rs. 5,940 — a reduction of Rs. 3,323 per month, providing significant cash flow relief.
+**The Trap:** While the monthly EMI drops, the total interest paid increases because the loan runs for longer. The total payment goes from 3,33,468 to 3,56,400.
+**Cross-Exam Context:** Loan restructuring calculations are tested in X-A (Ch 4) using present value concepts.
+**Distributor's Pro-Tip:** Restructuring provides breathing room but costs more overall — use it only when genuinely needed, and plan to return to the original schedule when finances improve.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Mergers, Acquisitions and Takeovers_75" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A company listed on BSE has 1 crore total shares outstanding. In the preceding 12 months, 12 lakh shares were traded. An acquirer triggers an open offer. How should the offer price be determined?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Using the VWAP of 60 trading days, as the shares are frequently traded (12% turnover exceeds the 10% threshold)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Through independent valuation, as the shares are infrequently traded]]></text></answer>
+            <answer correct="no"><text><![CDATA[At the book value per share as determined by the latest audited financials]]></text></answer>
+            <answer correct="no"><text><![CDATA[At the higher of face value or VWAP of 30 trading days]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Shares are "frequently traded" if turnover in the preceding 12 months is at least 10% of total shares. Here, 12 lakh out of 1 crore = 12%, which exceeds the 10% threshold. Therefore, the VWAP of 60 trading days preceding the relevant date is used for pricing.
+**The Trap:** 12% is close to the 10% threshold, so candidates may hesitate, but 12% clearly qualifies as frequently traded. Independent valuation would apply only if turnover were below 10%.
+**Cross-Exam Context:** NISM Series IX (Merchant Banking) tests the frequently/infrequently traded classification. Series XV (Research Analyst) covers how trading liquidity affects valuation approaches.
+**Distributor's Pro-Tip:** The 10% turnover test is applied to the 12 months preceding the relevant date — a stock can shift from frequently traded to infrequently traded (and vice versa) depending on the measurement window.]]></text></explanation>
+    </question>
+</QF>

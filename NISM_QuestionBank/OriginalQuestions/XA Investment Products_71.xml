@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Investment Products_71" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investor holding a portfolio of Nifty 50 stocks worth Rs. 50 lakh is worried about a market downturn. Which derivative strategy would best hedge this portfolio?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Buy Nifty call options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell Nifty put options]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Buy Nifty put options]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy more Nifty stocks at lower prices]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Buying Nifty put options gives the right to sell at the strike price, providing downside protection. If the market falls, put option gains offset portfolio losses. The premium paid is the cost of this insurance. This is a protective put strategy.
+**The Trap:** Selling put options would generate premium income but would NOT protect against downfall — it would add to losses if the market falls.
+**Cross-Exam Context:** Hedging strategies using derivatives are tested in VIII, I, and X-A.
+**Distributor's Pro-Tip:** The cost of hedging (put premium) is like insurance premium — it reduces returns in good times but protects in bad times. Recommend protective puts for clients who cannot afford large drawdowns.]]></text></explanation>
+    </question>
+</QF>

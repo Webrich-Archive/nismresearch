@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Mergers, Acquisitions and Takeovers_34" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The VWAP-based offer price parameter (60 trading days) is calculated on which stock exchange?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[BSE only, as it is the oldest exchange]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The stock exchange where the shares have the maximum trading volume]]></text></answer>
+            <answer correct="no"><text><![CDATA[NSE only, as it is the largest exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[An average across all exchanges where shares are listed]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under Regulation 8, the 60-trading-day VWAP is calculated on the stock exchange where the target company's shares have the maximum trading volume. This ensures the most representative market price is used.
+**The Trap:** Students may assume BSE (oldest) or NSE (largest) by default, but the regulation specifically mandates the exchange with maximum volume for that particular stock, which could be either exchange.
+**Cross-Exam Context:** NISM Series IX tests exchange-specific knowledge. The concept of "exchange with maximum volume" also appears in NISM Series VIII for derivative settlement references.
+**Distributor's Pro-Tip:** For most large-cap stocks, NSE typically has higher volume, but for certain mid-cap and small-cap stocks, BSE may have more volume. Always verify the actual volume data before computing the VWAP.]]></text></explanation>
+    </question>
+</QF>

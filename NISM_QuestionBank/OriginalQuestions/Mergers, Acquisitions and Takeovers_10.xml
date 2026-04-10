@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Mergers, Acquisitions and Takeovers_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under SEBI SAST Regulations 2011, an acquirer holding 30% voting rights along with PAC sells 3% during the financial year and then buys back 4%. What is the gross acquisition counted for the creeping acquisition limit?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[1% (net of sales)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[4% (total purchased, regardless of sales)]]></text></answer>
+            <answer correct="no"><text><![CDATA[3% (the sold portion)]]></text></answer>
+            <answer correct="no"><text><![CDATA[7% (total of sales plus purchases)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under SAST 2011, gross acquisitions are counted for the creeping acquisition limit, regardless of any intermittent sales or dilution. The acquirer purchased 4% during the year, so the gross acquisition is 4% — the 3% sale is irrelevant for this calculation.
+**The Trap:** Many candidates calculate the net acquisition (4% - 3% = 1%), but SAST explicitly counts gross acquisitions. This prevents gaming through buy-sell-buy strategies to circumvent the 5% annual limit.
+**Cross-Exam Context:** This "gross vs. net" concept also appears in NISM Series VIII for derivative position limits and in NISM Series XII for securities lending.
+**Distributor's Pro-Tip:** Always track cumulative gross purchases through the financial year. A client who sells and repurchases is still consuming their 5% creeping acquisition allowance on every purchase.]]></text></explanation>
+    </question>
+</QF>

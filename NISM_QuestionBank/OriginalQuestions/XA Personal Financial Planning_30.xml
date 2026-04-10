@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Personal Financial Planning_30" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If an investment earns a nominal return of 12% and inflation is 6%, the approximate real rate of return is:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[6.00%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[5.66%]]></text></answer>
+            <answer correct="no"><text><![CDATA[18.00%]]></text></answer>
+            <answer correct="no"><text><![CDATA[7.20%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Real return = [(1 + nominal) / (1 + inflation)] - 1 = (1.12 / 1.06) - 1 = 1.0566 - 1 = 5.66%. The approximate method (12% - 6% = 6%) is close but not exact.
+**The Trap:** Simply subtracting inflation from nominal return gives 6%, which is an approximation. The Fisher equation gives the precise answer of 5.66%.
+**Cross-Exam Context:** Real vs nominal returns are tested in X-A (Ch 2), XVII (Retirement Adviser), and X-B.
+**Distributor's Pro-Tip:** Always discuss returns in real terms with clients — a 12% return with 6% inflation is not as impressive as it sounds.]]></text></explanation>
+    </question>
+</QF>

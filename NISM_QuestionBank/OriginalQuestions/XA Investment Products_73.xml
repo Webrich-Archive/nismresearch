@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Investment Products_73" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[On March 3, stock XYZ is selling at Rs. 3,984 in the cash market and its March futures at Rs. 4,032. If a trader buys spot and sells futures, the annualized return (assuming 27 days to expiry) is approximately:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[1.20%]]></text></answer>
+            <answer correct="no"><text><![CDATA[4.83%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[16.29%]]></text></answer>
+            <answer correct="no"><text><![CDATA[48.00%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Profit = Rs. 4,032 - Rs. 3,984 = Rs. 48. Annualized return = (48/3,984) × (365/27) = 1.205% × 13.52 = 16.29% p.a. This is a cash-futures arbitrage where the trader locks in the basis as riskless profit due to spot-future convergence at settlement.
+**The Trap:** 1.20% is the absolute return for 27 days — annualizing it gives approximately 16.29%.
+**Cross-Exam Context:** Cash-futures arbitrage calculations are tested in VIII, I, and X-A.
+**Distributor's Pro-Tip:** Arbitrage funds use this spot-futures convergence strategy — they offer equity fund tax treatment (LTCG after 12 months) with debt-like risk. Suitable for clients in higher tax brackets wanting stable returns.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Managed Portfolios_46" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Interval funds become open-ended during specified transaction periods, with a minimum period of how many days and a minimum gap of how many days between periods?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[1 day transaction period, 7-day gap]]></text></answer>
+            <answer correct="yes"><text><![CDATA[2-day transaction period, 15-day gap]]></text></answer>
+            <answer correct="no"><text><![CDATA[5-day transaction period, 30-day gap]]></text></answer>
+            <answer correct="no"><text><![CDATA[7-day transaction period, 90-day gap]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Interval funds are closed-end variants that open for transactions during specified periods with a minimum of 2 days per period and minimum 15-day gap between two transaction periods. Like closed-ended funds, they must be listed on a stock exchange.
+**The Trap:** The minimum transaction period is 2 days (not 5 or 7), and the gap is 15 days (not 30).
+**Cross-Exam Context:** Interval fund specifications are tested in V-A and X-A.
+**Distributor's Pro-Tip:** Interval funds offer a middle ground between open and closed-ended — suitable for investors who don't need daily liquidity but want periodic access to their investment.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Issue Management - General Obligations and Due Diligence_48" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In a composite issue (simultaneous public issue and rights issue), how is the promoters' minimum contribution calculated?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[20% of total issue size including the rights component]]></text></answer>
+            <answer correct="yes"><text><![CDATA[20% of proposed issue size OR 20% of post-issue capital, excluding the rights issue component]]></text></answer>
+            <answer correct="no"><text><![CDATA[25% of post-issue capital including rights component]]></text></answer>
+            <answer correct="no"><text><![CDATA[20% of pre-issue capital plus rights entitlement]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In a composite issue, the promoters' minimum contribution is calculated as either 20% of the proposed issue size OR 20% of the post-issue capital, with the crucial caveat that the rights issue component is EXCLUDED from this calculation. This exclusion prevents double-counting since promoters already participate in the rights issue.
+
+**The Trap:** "20% of total issue size including the rights component" ignores the specific exclusion of the rights portion. Including rights would inflate the base and create an unfairly high contribution requirement.
+
+**Cross-Exam Context:** Composite issues are relatively rare but are tested in NISM Series IX. The exclusion of the rights component is a specific detail that distinguishes this from FPO calculations.
+
+**Distributor's Pro-Tip:** In practice, the merchant banker must clearly segregate the public issue and rights issue components in the offer document, and the promoter contribution computation must reference only the public issue portion.]]></text></explanation>
+    </question>
+</QF>

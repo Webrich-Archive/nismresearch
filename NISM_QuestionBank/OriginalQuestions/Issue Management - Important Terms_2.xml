@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Issue Management - Important Terms_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In a book-built public issue, the cap price of the price band must be at least 105% of the floor price but must NOT exceed which percentage of the floor price?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[110% of the floor price]]></text></answer>
+            <answer correct="no"><text><![CDATA[115% of the floor price]]></text></answer>
+            <answer correct="no"><text><![CDATA[125% of the floor price]]></text></answer>
+            <answer correct="yes"><text><![CDATA[120% of the floor price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI ICDR regulations stipulate that in book building, the cap price (upper end of the price band) must be at least 105% of the floor price but NOT more than 120% of the floor price. This ensures a reasonable range for price discovery without excessive volatility.
+**The Trap:** 110% is a common wrong guess because candidates often confuse the minimum spread (105%) with the maximum. The 125% option is tempting for those who overestimate the allowed range.
+**Cross-Exam Context:** NISM Series V-A (Mutual Fund) tests awareness of NFO pricing but not price band limits. This is specific to NISM Series IX.
+**Distributor's Pro-Tip:** Remember the "5-20 rule" — minimum 5% spread, maximum 20% spread from floor to cap in book building.]]></text></explanation>
+    </question>
+</QF>

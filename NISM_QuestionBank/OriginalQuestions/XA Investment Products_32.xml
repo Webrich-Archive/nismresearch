@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Investment Products_32" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A 5-year annual coupon bond with 10% coupon rate and face value Rs. 100 is priced at a market yield of 8%. Using present value calculations, the approximate price of this bond is:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 100.00]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 107.99]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 92.01]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 110.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Bond Price = Σ [Coupon / (1+r)^t] + [Face Value / (1+r)^n] = 10/1.08 + 10/1.08² + 10/1.08³ + 10/1.08⁴ + 110/1.08⁵ = 9.26 + 8.57 + 7.94 + 7.35 + 74.86 = Rs. 107.99. The PVIF (3.9927) × 10 + 0.6806 × 100 = 39.93 + 68.06 = 107.99.
+**The Trap:** Rs. 110.00 might be guessed by simply adding the coupon differential (2% × 5 years = 10) to par — but present value discounting gives a different result.
+**Cross-Exam Context:** Bond pricing calculations are central to X-A and IV (Interest Rate Derivatives).
+**Distributor's Pro-Tip:** Always verify bond prices using present value — market prices should approximately match PV calculations. Significant deviations may indicate liquidity premium or credit risk changes.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Personal Financial Planning_23" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Rakesh invests Rs. 3,00,000 in a bank deposit paying 8% p.a. compounded quarterly for 4 years. The maturity value is closest to:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 4,11,357]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 4,08,146]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 4,05,960]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 3,97,920]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Rate per quarter = 8%/4 = 2%. Number of quarters = 4 × 4 = 16. FV = 3,00,000 × (1.02)^16 = 3,00,000 × 1.37279 = Rs. 4,11,837. Closest is Rs. 4,11,357.
+**The Trap:** Rs. 4,08,146 uses annual compounding (3,00,000 × 1.08^4). Quarterly compounding yields more due to more frequent interest-on-interest.
+**Cross-Exam Context:** Compounding frequency effects are tested in X-A (Ch 2) and IV (Interest Rate Derivatives).
+**Distributor's Pro-Tip:** When comparing products, always check the compounding frequency — quarterly compounding gives higher effective yield than annual.]]></text></explanation>
+    </question>
+</QF>

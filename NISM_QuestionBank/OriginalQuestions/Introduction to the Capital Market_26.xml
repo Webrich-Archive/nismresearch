@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Introduction to the Capital Market_26" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A custodian registered with SEBI may act as a Professional Clearing Member (PCM) on a stock exchange. However, a custodian is NOT permitted to act as a:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Depository Participant]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Trading Member]]></text></answer>
+            <answer correct="no"><text><![CDATA[Clearing Member]]></text></answer>
+            <answer correct="no"><text><![CDATA[Registrar to an Issue]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** While custodians may act as Professional Clearing Members (PCMs), they are explicitly NOT permitted to act as Trading Members. This restriction ensures that custodians, who hold and safeguard client assets, do not also trade in the market — maintaining a separation between safekeeping and trading functions to prevent conflicts of interest.
+**The Trap:** "Clearing Member" sounds very similar to what is restricted, but custodians CAN be PCMs (a type of clearing member). "Depository Participant" is a separate registration that custodians often hold. "Registrar to an Issue" is an unrelated function.
+**Cross-Exam Context:** NISM Series IX (Merchant Banking) tests the roles and restrictions of market intermediaries. NISM Series VIII (Equity Derivatives) also covers the distinction between trading members, clearing members, and PCMs.
+**Distributor's Pro-Tip:** The PCM-but-not-TM distinction for custodians exists to protect institutional investors — the custodian clears and settles trades on behalf of clients without the conflict of having its own trading interest.]]></text></explanation>
+    </question>
+</QF>

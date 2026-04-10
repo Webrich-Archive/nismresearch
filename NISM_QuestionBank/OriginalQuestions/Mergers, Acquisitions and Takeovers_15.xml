@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Mergers, Acquisitions and Takeovers_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A listed company has 10 crore total shares. An acquirer held 20% at the start of the year. The company issues 2 crore new shares to third parties. The acquirer's pre-allotment holding was 2 crore shares out of 10 crore (20%). Post-allotment, the acquirer holds 2 crore out of 12 crore shares (16.67%). What is the quantum of additional acquisition deemed under SAST for the acquirer due to this new issuance?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[3.33% (reduction in percentage holding)]]></text></answer>
+            <answer correct="no"><text><![CDATA[2 crore shares (equal to new shares issued)]]></text></answer>
+            <answer correct="no"><text><![CDATA[20% (original holding percentage)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Zero — the acquirer's percentage actually decreased, so no additional acquisition is deemed]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under SAST, when the target issues new shares, the quantum of additional acquisition is calculated as the difference between pre-allotment and post-allotment percentage. Here the acquirer's percentage went from 20% to 16.67% — a decrease. Since there is no increase in percentage holding, zero additional acquisition is deemed. The provision captures situations where new share allotment TO the acquirer increases their percentage.
+**The Trap:** Candidates might calculate 3.33% as a "change" but the rule captures additional acquisition (increase), not dilution (decrease). This question tests understanding of the direction of change.
+**Cross-Exam Context:** NISM Series IX tests dilution concepts extensively. NISM Series V-A (Mutual Fund) also covers dilution in NAV contexts.
+**Distributor's Pro-Tip:** When a target issues new shares, always recalculate the acquirer's percentage — dilution can sometimes be strategically advantageous, keeping the acquirer below trigger thresholds.]]></text></explanation>
+    </question>
+</QF>

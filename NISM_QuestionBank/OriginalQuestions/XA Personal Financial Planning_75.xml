@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Personal Financial Planning_75" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If a credit card company charges 3% per month interest on revolving credit, the effective annual cost is approximately:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[36.0%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[42.6%]]></text></answer>
+            <answer correct="no"><text><![CDATA[39.0%]]></text></answer>
+            <answer correct="no"><text><![CDATA[48.0%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Effective annual rate = (1 + monthly rate)^12 - 1 = (1.03)^12 - 1 = 1.4258 - 1 = 42.58% ≈ 42.6%. Simple multiplication gives 36%, but compounding makes the true cost much higher.
+**The Trap:** 36% is the simple annual rate (3% × 12). The compounded rate is significantly higher due to interest-on-interest.
+**Cross-Exam Context:** Credit card interest calculation is a practical application of TVM tested in X-A (Ch 4).
+**Distributor's Pro-Tip:** Show this calculation to clients who carry credit card balances — 42.6% annual cost is higher than most equity returns. Pay off credit cards first!]]></text></explanation>
+    </question>
+</QF>

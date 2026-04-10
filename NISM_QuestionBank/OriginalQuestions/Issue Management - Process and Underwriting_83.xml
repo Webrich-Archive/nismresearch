@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Issue Management - Process and Underwriting_83" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A company's IPO has a floor price of Rs. 200. What is the maximum cap price that can be set for the price band?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 210]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 230]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 240]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 250]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The cap price can be a maximum of 120% of the floor price. With a floor price of Rs. 200, the maximum cap price = 200 × 120% = Rs. 240. The minimum cap price would be 200 × 105% = Rs. 210.
+**The Trap:** Rs. 250 (125% of floor) exceeds the permitted 120% cap. Rs. 210 is the minimum cap price (105%), not the maximum. Candidates must apply the correct percentage to the correct bound.
+**Cross-Exam Context:** NISM Series IX frequently includes calculation-based questions on price band limits. Practice calculating both bounds quickly.
+**Distributor's Pro-Tip:** A narrow price band (close to 105%) signals high issuer confidence in pricing, while a wide band (near 120%) indicates greater uncertainty — use this as a qualitative signal when advising clients.]]></text></explanation>
+    </question>
+</QF>

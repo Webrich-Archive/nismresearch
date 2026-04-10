@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Personal Financial Planning_40" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Satish has a home loan of Rs. 30,00,000 at 6.5% p.a. (monthly rest) for 20 years. If the rate drops to 6.25%, his monthly EMI reduces from Rs. 22,367 to approximately:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 21,928]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 21,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 22,100]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 20,800]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** At 6.25%: monthly rate = 6.25%/12 = 0.5208%. PMT(0.0625/12, 240, -3000000) = Rs. 21,928 approximately.
+**The Trap:** A 0.25% rate reduction might seem small, but over 20 years it saves approximately Rs. 1,05,360 (Rs. 439 × 240 months).
+**Cross-Exam Context:** EMI sensitivity to rate changes is tested in X-A (Ch 2, Ch 4) and is practical knowledge for all advisers.
+**Distributor's Pro-Tip:** A 0.25% rate cut saves ~Rs. 440/month on a Rs. 30 lakh loan — multiply by loan tenure to show total savings to clients.]]></text></explanation>
+    </question>
+</QF>

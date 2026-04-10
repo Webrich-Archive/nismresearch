@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Investment Products_69" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A stock is trading at Rs. 100 in the spot market and its one-month futures contract is priced at Rs. 101.50. The difference of Rs. 1.50 primarily represents:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The dividend expected during the period]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The carry cost (interest cost) for the period]]></text></answer>
+            <answer correct="no"><text><![CDATA[The market's expectation of price increase]]></text></answer>
+            <answer correct="no"><text><![CDATA[The transaction cost of trading futures]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Futures price = Spot price + Carry cost. The Rs. 1.50 difference is the cost of carrying the position (primarily interest cost of borrowing funds to buy spot). On expiry, spot and futures prices converge (spot-future convergence).
+**The Trap:** While futures price reflects expectations, the pricing formula is based on arbitrage-free carry cost, not market sentiment about future prices.
+**Cross-Exam Context:** Cost of carry model for futures pricing is tested in VIII, I, XVI, and X-A.
+**Distributor's Pro-Tip:** If the basis (futures - spot) is significantly higher than the cost of carry, there's an arbitrage opportunity — buy spot, sell futures, earn the excess basis.]]></text></explanation>
+    </question>
+</QF>

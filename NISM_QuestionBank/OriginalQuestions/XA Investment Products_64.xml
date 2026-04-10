@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Investment Products_64" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following is a key limitation of forward contracts that futures contracts are designed to overcome?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Forward contracts require margin deposits]]></text></answer>
+            <answer correct="no"><text><![CDATA[Forward contracts are traded on exchanges]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Forward contracts carry significant counterparty risk]]></text></answer>
+            <answer correct="no"><text><![CDATA[Forward contracts have standardized terms]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Forward contracts are bilateral OTC agreements where the counterparty may default if the market moves against them. Futures contracts overcome this by trading on exchanges with a clearing house as the central counterparty, eliminating counterparty risk.
+**The Trap:** Forwards do NOT require margin deposits (that's a futures feature) and are NOT exchange-traded (that's also futures).
+**Cross-Exam Context:** Forwards vs futures comparison is tested in X-A, VIII, I, and XVI.
+**Distributor's Pro-Tip:** For institutional clients, forwards offer customization; for retail clients, exchange-traded futures are safer due to central counterparty guarantee — match the instrument to the client's sophistication.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Issue Management - Important Terms_18" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An IPO has a floor price of Rs. 100. What is the maximum permissible cap price under SEBI book building regulations?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 105]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 110]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 125]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 120]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The cap price cannot exceed 120% of the floor price. With a floor price of Rs. 100, the maximum cap price = 100 x 120% = Rs. 120. The cap must also be at least 105% of floor (Rs. 105), so the valid range for the cap is Rs. 105 to Rs. 120.
+**The Trap:** Rs. 105 is the MINIMUM cap price (105% of floor), not the maximum. Rs. 125 would represent 125% which exceeds the 120% limit.
+**Cross-Exam Context:** This is a calculation-based question specific to NISM Series IX. Understanding the 105%-120% band is essential for merchant banking professionals.
+**Distributor's Pro-Tip:** Quick calculation shortcut — take floor price and add 20% to get the maximum cap. For Rs. 100 floor, max cap = Rs. 100 + Rs. 20 = Rs. 120.]]></text></explanation>
+    </question>
+</QF>

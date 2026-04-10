@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Personal Financial Planning_36" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Krishna invests Rs. 5,00,000 in a 5-year bank deposit at 8% p.a. The difference in interest earned between annual compounding (cumulative) and simple interest (non-cumulative) is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 34,664]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 40,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 42,974]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 28,320]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Simple interest = 5,00,000 × 8% × 5 = Rs. 2,00,000. Compound interest (annual): FV = 5,00,000 × (1.08)^5 = Rs. 7,34,664. Interest = Rs. 2,34,664. Difference = 2,34,664 - 2,00,000 = Rs. 34,664.
+**The Trap:** Rs. 42,974 is the difference when quarterly compounding is used instead of annual. Read the question carefully for compounding frequency.
+**Cross-Exam Context:** Simple vs compound interest comparison is a classic X-A topic and is tested in V-A and XII.
+**Distributor's Pro-Tip:** The compounding benefit increases dramatically with longer time periods — show clients the snowball effect over 10, 20, 30 years.]]></text></explanation>
+    </question>
+</QF>

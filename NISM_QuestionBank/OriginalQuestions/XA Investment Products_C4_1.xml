@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Investment Products_C4_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Mr. Rajat Singhania manages a portfolio of Nifty 50 stocks worth Rs. 2 crore for his client Mrs. Sunita Agarwal, a 58-year-old businesswoman. The current Nifty 50 level is 22,000. Rajat is concerned about potential market correction in the next 2 months due to global uncertainties. He wants to hedge the portfolio using derivatives. The following information is available:
+
+Nifty 50 Futures (2-month expiry): Trading at 22,180 (lot size: 25 units)
+Nifty 50 Put Option (strike 21,500, 2-month expiry): Premium Rs. 350 per unit (lot size: 25 units)
+Nifty 50 Put Option (strike 21,000, 2-month expiry): Premium Rs. 180 per unit (lot size: 25 units)
+Nifty 50 Call Option (strike 22,500, 2-month expiry): Premium Rs. 280 per unit (lot size: 25 units)
+Risk-free rate: 7% p.a.
+
+The portfolio has a beta of 1.0 with respect to Nifty 50 (i.e., it moves in line with the index). The number of futures contracts needed to fully hedge = Portfolio value / (Futures price × Lot size) = Rs. 2,00,00,000 / (22,180 × 25) = approximately 36 contracts.
+
+<b>Question 1 of 5:</b> What is the basis (difference between futures and spot price) of the Nifty futures, and what does it represent?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 180, representing the carry cost for 2 months]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 180, representing the expected market rise]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 350, representing the put option premium]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 22,180, representing the total futures cost]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Basis = Futures price - Spot price = 22,180 - 22,000 = Rs. 180. This represents the carry cost (primarily interest cost) of holding the position for 2 months. At expiry, futures and spot prices converge (basis becomes zero).
+**The Trap:** The basis does NOT represent market expectations of price rise — it's the cost of carry based on interest rates and time to expiry.
+**Cross-Exam Context:** Basis and cost of carry concepts are tested in VIII, I, XVI, and X-A.
+**Distributor's Pro-Tip:** If basis significantly exceeds the theoretical cost of carry, arbitrage opportunities exist — but for hedging clients, basis risk is secondary to directional protection.]]></text></explanation>
+    </question>
+</QF>

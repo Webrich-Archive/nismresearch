@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Investment Products_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If a stock has a P/E ratio of 30 and an expected 5-year EPS growth rate of 25%, what is its PEG ratio and what does it indicate?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[PEG = 1.2, indicating the stock is overvalued given its growth]]></text></answer>
+            <answer correct="no"><text><![CDATA[PEG = 0.83, indicating the stock is undervalued given its growth]]></text></answer>
+            <answer correct="no"><text><![CDATA[PEG = 1.0, indicating fair valuation]]></text></answer>
+            <answer correct="no"><text><![CDATA[PEG = 5.0, indicating extreme overvaluation]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** PEG ratio = P/E ratio / EPS growth rate = 30 / 25 = 1.2. A PEG ratio above 1 suggests the stock's price is overvalued relative to its earnings growth. The market is pricing Rs. 1.20 for every 1% of growth, above the fair value benchmark of Rs. 1.00.
+**The Trap:** 0.83 would be 25/30 (inverting the formula). The correct formula divides P/E by growth rate, not growth by P/E.
+**Cross-Exam Context:** PEG ratio is tested in X-A for relative valuation; growth vs value investing concepts appear in V-A.
+**Distributor's Pro-Tip:** PEG ratio is especially useful for comparing high-growth stocks — a stock with P/E 50 but PEG 0.8 may be cheaper than a stock with P/E 15 but PEG 1.5.]]></text></explanation>
+    </question>
+</QF>

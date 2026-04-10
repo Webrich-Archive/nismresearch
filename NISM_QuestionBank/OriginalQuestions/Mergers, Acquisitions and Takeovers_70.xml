@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Mergers, Acquisitions and Takeovers_70" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the context of open offer pricing, what does VWAP stand for and over what period is it calculated for frequently traded shares?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Volume Weighted Average Price; 30 trading days]]></text></answer>
+            <answer correct="no"><text><![CDATA[Value Weighted Average Premium; 60 calendar days]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Volume Weighted Average Price; 60 trading days]]></text></answer>
+            <answer correct="no"><text><![CDATA[Volume Weighted Average Price; 90 trading days]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** VWAP stands for Volume Weighted Average Price and is calculated over 60 trading days preceding the relevant date for frequently traded shares (those with at least 10% turnover of total shares in the preceding 12 months).
+**The Trap:** "60 calendar days" vs "60 trading days" is a subtle but critical distinction — trading days exclude weekends and market holidays, resulting in approximately 3 calendar months.
+**Cross-Exam Context:** NISM Series IX (Merchant Banking) and Series XV (Research Analyst) both test VWAP computation. Series VIII (Equity Derivatives) also covers VWAP in the context of settlement prices.
+**Distributor's Pro-Tip:** The 60-trading-day VWAP provides a more stable reference price than spot prices. In volatile markets, this averaging protects both acquirers and shareholders from single-day price distortions.]]></text></explanation>
+    </question>
+</QF>

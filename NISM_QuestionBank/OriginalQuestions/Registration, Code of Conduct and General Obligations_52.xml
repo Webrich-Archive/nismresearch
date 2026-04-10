@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Registration, Code of Conduct and General Obligations_52" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A merchant banker delays the payment of its registration renewal fee by 4 months. If the annual registration fee is Rs. 5,00,000, what is the approximate late fee payable?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 50,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 75,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 20,000]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 25,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Late fee is charged at 15% per annum for each month of delay on the registration fee. For 4 months: Rs. 5,00,000 × 15% × (4/12) = Rs. 25,000.
+**The Trap:** Rs. 75,000 incorrectly applies 15% for the full year. Rs. 50,000 applies 15% for half the year. The calculation must be pro-rated for the actual months of delay.
+**Cross-Exam Context:** Late fee calculations are specific to NISM Series IX but the concept of penalty computation is common across SEBI registration modules.
+**Distributor's Pro-Tip:** Set reminders well before the renewal deadline — the 15% per annum late fee compounds quickly and reflects poorly on compliance records.]]></text></explanation>
+    </question>
+</QF>

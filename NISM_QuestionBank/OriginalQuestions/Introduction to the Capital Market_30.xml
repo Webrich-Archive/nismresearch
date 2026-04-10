@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Introduction to the Capital Market_30" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If the total number of holders of a company's securities exceeds 1 lakh, what is the regulatory requirement regarding the Registrar and Transfer Agent (RTA)?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The company may handle transfers internally without any registration]]></text></answer>
+            <answer correct="no"><text><![CDATA[The company must appoint a minimum of two external RTAs]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Even if handled by an internal department, it must be registered as an RTA with SEBI]]></text></answer>
+            <answer correct="no"><text><![CDATA[The company must transfer the function to the depository directly]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When the total number of holders of securities exceeds 1 lakh, the RTA function must be registered with SEBI — even if it is performed by an internal department of the body corporate itself. This ensures regulatory oversight and investor protection at scale.
+**The Trap:** "Handle transfers internally without registration" seems logical for in-house operations, but the 1 lakh threshold specifically triggers mandatory SEBI registration regardless of whether the function is outsourced or internal.
+**Cross-Exam Context:** NISM Series IX (Merchant Banking) tests understanding of RTAs as part of the issue management infrastructure. RTAs play a critical role in IPOs, rights issues, and ongoing corporate actions.
+**Distributor's Pro-Tip:** The 1 lakh threshold exists because larger shareholder bases require standardized processes, grievance handling mechanisms, and regulatory accountability — all ensured through SEBI registration as an RTA.]]></text></explanation>
+    </question>
+</QF>

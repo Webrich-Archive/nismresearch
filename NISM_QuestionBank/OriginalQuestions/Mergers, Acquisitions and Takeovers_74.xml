@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Mergers, Acquisitions and Takeovers_74" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A merchant banker is advising Company X on acquiring a controlling stake in Company Y, a listed entity. Company X proposes to pay Rs. 200 per share to the sellers plus a non-compete fee of Rs. 30 per share. The 60-day VWAP of Company Y is Rs. 190. What is the minimum open offer price per share?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 190 per share (VWAP)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 200 per share (negotiated price)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 230 per share (negotiated price plus non-compete fee)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 215 per share (average of VWAP and negotiated price plus non-compete)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The non-compete fee of Rs. 30 per share is treated as part of the offer price under SAST Regulations. The effective price paid is Rs. 200 + Rs. 30 = Rs. 230 per share. The minimum offer price is the higher of the negotiated price (including non-compete) and the VWAP. Since Rs. 230 > Rs. 190 (VWAP), the minimum offer price is Rs. 230 per share.
+**The Trap:** Rs. 200 ignores the non-compete fee, which SEBI mandates must be included. This is exactly the kind of structuring SEBI prevents by treating non-compete fees as part of consideration.
+**Cross-Exam Context:** NISM Series IX (Merchant Banking) tests offer price computation including all components of consideration. This is a high-priority calculation topic.
+**Distributor's Pro-Tip:** Always ask the acquirer about ALL payments being made to sellers — non-compete fees, consultancy arrangements, property deals — anything that inflates total consideration must be captured in the offer price.]]></text></explanation>
+    </question>
+</QF>

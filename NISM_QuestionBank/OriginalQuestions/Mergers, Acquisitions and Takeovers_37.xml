@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Mergers, Acquisitions and Takeovers_37" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For an indirect acquisition where Regulation 5(2) significance parameters are NOT met, the VWAP and highest price lookback periods are calculated from the EARLIER of which two dates?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Date of board resolution and date of shareholder approval]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Date on which the primary acquisition was contracted and the date of its announcement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Date of public announcement and date of detailed public statement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Date of SEBI notification and date of stock exchange intimation]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For indirect acquisitions where significance parameters are not met, the lookback periods for VWAP and highest price calculations are anchored to the EARLIER of the date on which the primary acquisition was contracted or the date of its announcement. This captures the true economic point of the transaction.
+**The Trap:** "Date of public announcement and DPS" relates to the open offer timeline, not the reference date for price computation in indirect acquisitions. The primary acquisition date is the key anchor.
+**Cross-Exam Context:** NISM Series IX tests the nuances of indirect acquisition pricing. This is one of the most complex areas where candidates frequently make errors.
+**Distributor's Pro-Tip:** In indirect acquisitions, the "earlier of" concept prevents price manipulation — if the primary acquisition was contracted before any public announcement, the market may not have priced in the takeover premium yet.]]></text></explanation>
+    </question>
+</QF>

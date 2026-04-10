@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Mergers, Acquisitions and Takeovers_32" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An acquirer negotiated a share purchase agreement at Rs. 150 per share. In the preceding 52 weeks, the VWAP of shares acquired by the acquirer was Rs. 130, and the highest price paid in the preceding 26 weeks was Rs. 145. The 60-day VWAP on the exchange with maximum volume was Rs. 140. What should be the minimum offer price?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 140]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 145]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 150]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 130]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under Regulation 8, the offer price must be the HIGHEST of all prescribed parameters. Here: negotiated price = Rs. 150, 52-week VWAP = Rs. 130, 26-week highest = Rs. 145, 60-day VWAP = Rs. 140. The highest is Rs. 150 (negotiated price).
+**The Trap:** Rs. 145 (26-week highest) is tempting because students may overlook that the negotiated price itself is a parameter and often the highest. The offer price floor is always the maximum of ALL parameters.
+**Cross-Exam Context:** NISM Series IX frequently tests numerical application of offer price rules. Similar "highest of" calculations appear in IPO pricing under SEBI ICDR Regulations.
+**Distributor's Pro-Tip:** In practice, the negotiated price usually sets the floor because acquirers rarely negotiate below market. But always verify all parameters — sometimes historical VWAP can exceed the negotiated price in volatile markets.]]></text></explanation>
+    </question>
+</QF>

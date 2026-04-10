@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Investment Products_C4_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Mr. Rajat Singhania manages a portfolio of Nifty 50 stocks worth Rs. 2 crore for his client Mrs. Sunita Agarwal, a 58-year-old businesswoman. The current Nifty 50 level is 22,000. Rajat is concerned about potential market correction in the next 2 months due to global uncertainties. He wants to hedge the portfolio using derivatives. The following information is available:
+
+Nifty 50 Futures (2-month expiry): Trading at 22,180 (lot size: 25 units)
+Nifty 50 Put Option (strike 21,500, 2-month expiry): Premium Rs. 350 per unit (lot size: 25 units)
+Nifty 50 Put Option (strike 21,000, 2-month expiry): Premium Rs. 180 per unit (lot size: 25 units)
+Nifty 50 Call Option (strike 22,500, 2-month expiry): Premium Rs. 280 per unit (lot size: 25 units)
+Risk-free rate: 7% p.a.
+
+The portfolio has a beta of 1.0 with respect to Nifty 50 (i.e., it moves in line with the index). The number of futures contracts needed to fully hedge = Portfolio value / (Futures price × Lot size) = Rs. 2,00,00,000 / (22,180 × 25) = approximately 36 contracts.
+
+<b>Question 5 of 5:</b> If Rajat wants to reduce the hedging cost, he could simultaneously buy the 21,500-strike put and sell the 22,500-strike call. What is this strategy called, and what is its limitation?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Bull spread — it limits both upside and downside]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Collar strategy — it caps the upside at Nifty 22,500 while protecting below 21,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Straddle — it profits from high volatility in either direction]]></text></answer>
+            <answer correct="no"><text><![CDATA[Butterfly spread — it profits from low volatility]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A collar involves buying a put (downside protection at 21,500) and selling a call (generating premium at 22,500). The call premium received (Rs. 280) partially offsets the put premium paid (Rs. 350), reducing net hedging cost to Rs. 70 per unit. The limitation: upside is capped at 22,500.
+**The Trap:** A bull spread involves options of the same type (two calls or two puts), not a combination of put and call.
+**Cross-Exam Context:** Collar and other option strategies are tested in VIII; strategy selection based on client needs is tested in X-A.
+**Distributor's Pro-Tip:** Collars are the most practical hedging strategy for advisers — they provide protection at minimal cost by trading away upside the client is willing to forgo. Net cost: (350-280) × 25 × 36 = Rs. 63,000 vs Rs. 3.15 lakh for puts alone.]]></text></explanation>
+    </question>
+</QF>

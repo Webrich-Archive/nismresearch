@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Personal Financial Planning_33" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Karthik needs Rs. 25,00,000 in 8 years for his daughter's education. If he can earn 10% p.a. on his investments, how much lump sum should he invest today?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 11,66,272]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 12,50,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 14,20,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 10,85,420]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** PV = FV / (1+r)^n = 25,00,000 / (1.10)^8 = 25,00,000 / 2.14359 = Rs. 11,66,272.
+**The Trap:** Rs. 12,50,000 is half of the target — a common but incorrect mental shortcut. Rs. 14,20,000 uses a lower return assumption.
+**Cross-Exam Context:** Goal-based PV calculations are tested in X-A, X-B, and XVII.
+**Distributor's Pro-Tip:** Lump sum investing for a defined goal requires accurate PV calculation — show the client how the power of compounding bridges the gap.]]></text></explanation>
+    </question>
+</QF>

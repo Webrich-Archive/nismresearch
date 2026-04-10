@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Investment Products_68" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In an interest rate swap, a borrower with floating rate borrowing converts it to a fixed rate obligation by:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Paying floating rate to the swap dealer and receiving fixed rate]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Paying fixed rate to the swap dealer and receiving floating rate (T-bill plus spread)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Exchanging the principal amount with the swap dealer]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buying a put option on interest rates]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The borrower pays fixed rate to the swap dealer and receives floating rate (T-bill plus spread). The received floating rate cancels out the floating rate borrowing obligation, leaving only the fixed rate payment. The principal (notional amount) is never exchanged.
+**The Trap:** Exchanging principal is incorrect — only interest rate differentials are exchanged on settlement dates.
+**Cross-Exam Context:** Interest rate swaps are tested in X-A, IV (Interest Rate Derivatives), and I.
+**Distributor's Pro-Tip:** Swaps are the most common derivative for corporates to manage interest rate risk — a company can transform its entire borrowing profile without actually changing the underlying loan.]]></text></explanation>
+    </question>
+</QF>

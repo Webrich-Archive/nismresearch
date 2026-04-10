@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Managed Portfolios_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A mutual fund scheme has total assets worth Rs. 500 crore, liabilities of Rs. 5 crore, and 49.5 crore units outstanding. What is the NAV per unit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 10.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 10.10]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 9.90]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 101.01]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** NAV = (Total Assets - Total Liabilities) / Number of Outstanding Units = (Rs. 500 crore - Rs. 5 crore) / 49.5 crore = Rs. 495 crore / 49.5 crore = Rs. 10.00 per unit.
+**The Trap:** Rs. 10.10 would result from dividing 500/49.5 without subtracting liabilities. Always deduct liabilities from total assets first.
+**Cross-Exam Context:** NAV calculation is tested in V-A, V-B, and X-A — it's the most basic mutual fund calculation.
+**Distributor's Pro-Tip:** NAV is calculated every business day (end of day) — all investor transactions are at the applicable NAV. Don't confuse the face value (Rs. 10) of a new scheme with its NAV.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Registration, Code of Conduct and General Obligations_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A merchant banker has a net worth of Rs. 45 crore and a liquid net worth of Rs. 13 crore. Which category can it operate under?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Category I, since liquid net worth exceeds Rs. 12.50 crore]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Category II only, since net worth is below Rs. 50 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Neither category, since it fails both requirements]]></text></answer>
+            <answer correct="no"><text><![CDATA[Category I, since it meets at least one threshold]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Category I requires BOTH net worth >= Rs. 50 crore AND liquid net worth >= Rs. 12.50 crore. Although the liquid net worth of Rs. 13 crore exceeds Category I's liquid threshold, the net worth of Rs. 45 crore falls short of the Rs. 50 crore requirement. It does meet Category II requirements (net worth >= Rs. 10 crore, liquid net worth >= Rs. 2.50 crore).
+**The Trap:** The liquid net worth exceeding Category I's threshold makes it tempting to classify this as Category I, but BOTH conditions must be satisfied simultaneously.
+**Cross-Exam Context:** Multi-criteria eligibility checks are common in NISM exams, especially in Series VIII (Equity Derivatives) for margin calculations.
+**Distributor's Pro-Tip:** Always check both net worth AND liquid net worth — meeting one alone does not qualify you for a higher category.]]></text></explanation>
+    </question>
+</QF>

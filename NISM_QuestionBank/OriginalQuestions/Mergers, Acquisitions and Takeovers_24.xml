@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Mergers, Acquisitions and Takeovers_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A company has 100 crore total shares. Acquirer A holds 10 crore shares, PAC-1 holds 8 crore shares, and PAC-2 holds 5 crore shares. A proposes to buy 3 crore more shares from the market. Will this trigger a mandatory open offer under SAST Regulations 2011?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[No, because A individually holds only 13% after the purchase]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Yes, because aggregate PAC holding will reach 26 crore out of 100 crore (26%), crossing the 25% threshold]]></text></answer>
+            <answer correct="no"><text><![CDATA[No, because the 5% creeping acquisition limit is not breached]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, but only if A individually crosses 25%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Current aggregate PAC holding = 10 + 8 + 5 = 23 crore shares = 23%. After A buys 3 crore more, total PAC holding = 26 crore = 26%, crossing the critical 25% threshold. This triggers a mandatory public announcement of an open offer under Regulation 3. The 5% creeping acquisition limit only applies when aggregate holding is ALREADY at or above 25%.
+**The Trap:** Focusing only on A's individual holding (13%) misses the point — SAST aggregates all PAC holdings. Similarly, the 5% creeping limit is irrelevant here because the group has not yet crossed 25%.
+**Cross-Exam Context:** NISM Series IX heavily tests PAC aggregation calculations. Understanding that holdings of all persons acting in concert are combined is fundamental.
+**Distributor's Pro-Tip:** Always map the complete PAC group and aggregate their holdings before any acquisition. A client buying even a small stake can trigger open offer obligations if the PAC aggregate is near the 25% threshold.]]></text></explanation>
+    </question>
+</QF>

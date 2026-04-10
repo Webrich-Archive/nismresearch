@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Introduction to Merchant Banking_45" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under SEBI PIT Regulations 2015, the upper price limit for buy trades under a trading plan is:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Closing price to 10% higher]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Closing price to 20% higher]]></text></answer>
+            <answer correct="no"><text><![CDATA[Closing price to 5% higher]]></text></answer>
+            <answer correct="no"><text><![CDATA[No price limit applies]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under PIT Regulations, for trading plans, buy trades have an upper price limit set at the closing price to 20% higher than the closing price. Similarly, sell trades have a lower price limit of the closing price to 20% lower.
+**The Trap:** 10% and 5% are circuit filter limits used by stock exchanges for daily price movements, not trading plan limits. The 20% band for trading plans is a separate concept.
+**Cross-Exam Context:** NISM Series IX tests trading plan mechanics including price limits. NISM Series VIII covers circuit filters which are different from these limits.
+**Distributor's Pro-Tip:** The 20% price band ensures that trading plans execute within a reasonable range — if the price moves beyond 20%, the trade may not execute, protecting the market from artificial volume.]]></text></explanation>
+    </question>
+</QF>

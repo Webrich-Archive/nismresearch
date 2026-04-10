@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Personal Financial Planning_48" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A personal loan of Rs. 2,00,000 is taken at 14% p.a. for 3 years with monthly EMI. The total interest paid over the loan tenure is approximately:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 46,368]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 84,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 38,220]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 52,500]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Monthly rate = 14%/12 = 1.167%. EMI = PMT(0.14/12, 36, -200000) ≈ Rs. 6,838. Total paid = 6,838 × 36 = Rs. 2,46,168. Total interest = 2,46,168 - 2,00,000 = Rs. 46,168. Closest to Rs. 46,368.
+**The Trap:** Rs. 84,000 is simple interest (2,00,000 × 14% × 3). Loan EMIs reduce the principal gradually, so compound interest on reducing balance is less than simple interest on full amount.
+**Cross-Exam Context:** Loan interest calculations are tested in X-A (Ch 4) and are practical for all financial advisers.
+**Distributor's Pro-Tip:** Show clients the total interest cost, not just the EMI — it motivates prepayment and shorter tenures.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Disinvestment, Buyback and Delisting_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A company has a paid-up capital of Rs. 200 crore and free reserves of Rs. 300 crore on a standalone basis. On a consolidated basis, the figures are Rs. 200 crore and Rs. 250 crore respectively. What is the maximum amount the company can buy back?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 125 crore]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 112.50 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 100 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 75 crore]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Maximum buyback = 25% of aggregate of paid-up capital + free reserves, based on standalone or consolidated, whichever is LOWER. Standalone: 200 + 300 = Rs. 500 crore. Consolidated: 200 + 250 = Rs. 450 crore. Lower is Rs. 450 crore. Maximum buyback = 25% of 450 = Rs. 112.50 crore.
+**The Trap:** Rs. 125 crore (25% of 500) uses the standalone figure which is higher — but the regulation requires using the lower of the two, which is the consolidated figure.
+**Cross-Exam Context:** Calculation of buyback limits is primarily tested in NISM Series IX; NISM Series XV (Research Analyst) may test the impact of buyback on EPS calculations.
+**Distributor's Pro-Tip:** Always compute both standalone and consolidated figures before advising on buyback quantum — using the wrong base can lead to regulatory violations.]]></text></explanation>
+    </question>
+</QF>

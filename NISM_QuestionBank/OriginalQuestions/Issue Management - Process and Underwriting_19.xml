@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Issue Management - Process and Underwriting_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under Regulation 12, a company issuing Convertible Debt Instruments (CDI) for financing purposes cannot use the proceeds to grant loans or acquire shares of which entities?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Any subsidiary company]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Promoter group or group companies]]></text></answer>
+            <answer correct="no"><text><![CDATA[Any listed company]]></text></answer>
+            <answer correct="no"><text><![CDATA[Any foreign company]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Regulation 12 prohibits the use of CDI proceeds for granting loans to or acquiring shares of the promoter group or group companies. This restriction prevents promoters from using public money to benefit their own group entities. The only exception is for fully convertible instruments where conversion happens within 18 months.
+**The Trap:** "Any subsidiary company" sounds plausible but is too broad — the restriction is specifically targeted at promoter group and group companies to prevent self-dealing, not all subsidiaries.
+**Cross-Exam Context:** Related-party transaction restrictions appear across NISM certifications, including Series V-A (Mutual Fund) where similar prohibitions exist on fund managers investing in group companies.
+**Distributor's Pro-Tip:** When structuring CDI issues, carefully map the promoter group structure. Even indirect fund flows through layered entities can violate this regulation if the ultimate beneficiary is a group company.]]></text></explanation>
+    </question>
+</QF>

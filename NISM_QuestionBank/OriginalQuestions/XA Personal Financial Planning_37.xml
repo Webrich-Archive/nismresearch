@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Personal Financial Planning_37" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For the same investment of Rs. 5,00,000 at 8% p.a. for 5 years, the additional interest earned from quarterly compounding compared to annual compounding is approximately:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 8,310]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 5,450]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 10,200]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 12,640]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Annual compounding FV = 5,00,000 × (1.08)^5 = Rs. 7,34,664. Quarterly compounding FV = 5,00,000 × (1.02)^20 = Rs. 7,42,974. Difference = 7,42,974 - 7,34,664 = Rs. 8,310.
+**The Trap:** Rs. 5,450 might result from monthly vs quarterly comparison. The question specifically asks quarterly vs annual.
+**Cross-Exam Context:** Compounding frequency impact is tested in X-A (Ch 2) and IV (Interest Rate Derivatives).
+**Distributor's Pro-Tip:** More frequent compounding always benefits the investor — when comparing FDs, check if interest is compounded quarterly or annually.]]></text></explanation>
+    </question>
+</QF>

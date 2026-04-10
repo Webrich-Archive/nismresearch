@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Issue Management - Process and Underwriting_89" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A listed company wants to make a preferential issue. The relevant date is April 1, 2025. The average weekly high-low closing price for the preceding 26 weeks is Rs. 150, and for the preceding 2 weeks is Rs. 170. What is the minimum issue price for frequently traded shares?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 150]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 160]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 155]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 170]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For frequently traded shares, the preferential issue price must not be less than the higher of: (i) the 26-week average (Rs. 150), or (ii) the 2-week average (Rs. 170). Since Rs. 170 > Rs. 150, the minimum issue price is Rs. 170. The "higher of" rule protects existing shareholders from underpriced dilution.
+**The Trap:** Rs. 150 is the 26-week average and might seem like the floor since it covers a longer period. But SEBI's rule takes the higher of both averages, not the longer-period average.
+**Cross-Exam Context:** NISM Series IX frequently includes calculation questions on preferential issue pricing. NISM Series XV (Research Analyst) also tests pricing of preferential issues.
+**Distributor's Pro-Tip:** In a rising market, the 2-week average typically dominates; in a falling market, the 26-week average sets the floor. This asymmetry protects existing shareholders in both scenarios.]]></text></explanation>
+    </question>
+</QF>

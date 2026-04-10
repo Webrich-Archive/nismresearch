@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Issue Management - General Obligations and Due Diligence_40" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What happens to the lock-in when a pledge on locked-in securities is invoked by the lender?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The lock-in continues to apply; the transferee (lender) cannot further transfer until the lock-in expires]]></text></answer>
+            <answer correct="no"><text><![CDATA[The lock-in is automatically released upon invocation of the pledge]]></text></answer>
+            <answer correct="no"><text><![CDATA[The lock-in period is reset and starts afresh from the date of pledge invocation]]></text></answer>
+            <answer correct="no"><text><![CDATA[SEBI must approve the transfer and may grant a new lock-in period]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When a pledge on locked-in securities is invoked, the lock-in does NOT end. The transferee (i.e., the lender who receives the shares) holds them with the continuing lock-in and cannot transfer them further until the original lock-in period expires. This prevents circumvention of the lock-in requirement through pledge-and-invoke arrangements.
+
+**The Trap:** "Lock-in is automatically released" is what many candidates assume, since the shares have changed hands. But SEBI specifically mandates that lock-in travels with the securities regardless of ownership change.
+
+**Cross-Exam Context:** This principle of lock-in continuity is tested in NISM Series IX and reflects a broader SEBI philosophy that lock-in is attached to the securities, not the holder.
+
+**Distributor's Pro-Tip:** Lenders must factor this into their collateral valuation — locked-in shares cannot be liquidated in the market even after pledge invocation, making them less liquid collateral than freely tradeable shares.]]></text></explanation>
+    </question>
+</QF>

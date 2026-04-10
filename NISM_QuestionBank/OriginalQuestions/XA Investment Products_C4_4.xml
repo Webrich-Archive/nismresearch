@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Investment Products_C4_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Mr. Rajat Singhania manages a portfolio of Nifty 50 stocks worth Rs. 2 crore for his client Mrs. Sunita Agarwal, a 58-year-old businesswoman. The current Nifty 50 level is 22,000. Rajat is concerned about potential market correction in the next 2 months due to global uncertainties. He wants to hedge the portfolio using derivatives. The following information is available:
+
+Nifty 50 Futures (2-month expiry): Trading at 22,180 (lot size: 25 units)
+Nifty 50 Put Option (strike 21,500, 2-month expiry): Premium Rs. 350 per unit (lot size: 25 units)
+Nifty 50 Put Option (strike 21,000, 2-month expiry): Premium Rs. 180 per unit (lot size: 25 units)
+Nifty 50 Call Option (strike 22,500, 2-month expiry): Premium Rs. 280 per unit (lot size: 25 units)
+Risk-free rate: 7% p.a.
+
+The portfolio has a beta of 1.0 with respect to Nifty 50 (i.e., it moves in line with the index). The number of futures contracts needed to fully hedge = Portfolio value / (Futures price × Lot size) = Rs. 2,00,00,000 / (22,180 × 25) = approximately 36 contracts.
+
+<b>Question 4 of 5:</b> What is the key advantage of using put options over futures for hedging Mrs. Agarwal's portfolio?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Put options are cheaper than futures]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Put options protect downside while retaining unlimited upside potential]]></text></answer>
+            <answer correct="no"><text><![CDATA[Put options eliminate all risk including credit risk]]></text></answer>
+            <answer correct="no"><text><![CDATA[Put options have no margin requirements]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Put options provide asymmetric protection — they limit downside (below the strike price) while allowing the portfolio to participate in any market rally (unlimited upside). Futures hedging is symmetric — it removes both downside and upside. The cost of this asymmetry is the premium paid.
+**The Trap:** Put options are actually more expensive than futures (which have no premium, just margins) — the advantage is the asymmetric payoff, not lower cost.
+**Cross-Exam Context:** Futures vs options hedging tradeoffs are tested in VIII, I, and X-A.
+**Distributor's Pro-Tip:** For clients who want protection but don't want to miss rallies, protective puts are ideal. For clients who are certain about downfall and want full hedge, futures are more cost-effective.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Investment Products_36" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A perpetual bond has a coupon rate of 8% on a face value of Rs. 100. If an investor requires an annual yield of 6%, what is the value of this perpetual bond?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 100.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 106.00]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 133.33]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 75.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Value of perpetuity = Coupon / Yield = (100 × 8%) / 6% = Rs. 8 / 0.06 = Rs. 133.33. Since the required yield (6%) is lower than the coupon rate (8%), the perpetual bond commands a significant premium.
+**The Trap:** Rs. 75.00 would result from inverting the formula (6/8 × 100). The correct formula divides coupon amount by yield rate.
+**Cross-Exam Context:** Perpetuity valuation is tested in X-A and IV; the concept is also used in DDM for equity valuation.
+**Distributor's Pro-Tip:** Perpetual bonds are highly sensitive to interest rate changes — a 1% rise in yield from 6% to 7% would reduce this bond's value from Rs. 133.33 to Rs. 114.29, a 14.3% decline.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Personal Financial Planning_47" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A stock pays a current dividend of Rs. 5. If dividends grow at 4% per year indefinitely and the required rate of return is 12%, what is the intrinsic value of the stock using the Gordon Growth Model?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 62.50]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 65.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 41.67]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 55.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Gordon Growth Model: P = D1 / (r - g) where D1 = D0 × (1+g) = 5 × 1.04 = Rs. 5.20. P = 5.20 / (0.12 - 0.04) = 5.20 / 0.08 = Rs. 65.00.
+**The Trap:** Rs. 62.50 uses D0 instead of D1 (5/0.08 = 62.50). The formula requires next year's dividend, not current dividend.
+**Cross-Exam Context:** DDM is introduced in X-A (Ch 2/8) and tested extensively in X-B, XV (Research Analyst), and XXI-B.
+**Distributor's Pro-Tip:** The spread between required return and growth rate (r-g) is the key driver — a narrowing spread dramatically increases fair value.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Issue Management - General Obligations and Due Diligence_35" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How is the lock-in of securities indicated for shares held in dematerialized form?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The share certificate is stamped "non-transferable" with the lock-in period]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The lock-in is recorded by the depository in its system]]></text></answer>
+            <answer correct="no"><text><![CDATA[The stock exchange places a trading freeze on the shares]]></text></answer>
+            <answer correct="no"><text><![CDATA[The registrar maintains a separate register of locked-in shares]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For shares held in dematerialized (demat) form, the lock-in is recorded directly by the depository (NSDL/CDSL) in its electronic system. For physical certificates, the lock-in is indicated by inscribing "non-transferable" with the lock-in period on the certificate.
+
+**The Trap:** Option A describes the procedure for physical certificates, not demat shares. Since most IPO shares are now in demat form, the depository recording mechanism is the relevant answer.
+
+**Cross-Exam Context:** NISM Series VI (Depository Operations) covers the depository's role in maintaining lock-in records, making this a cross-cutting topic across multiple NISM certifications.
+
+**Distributor's Pro-Tip:** In demat mode, the depository system automatically prevents any transfer of locked-in shares until the lock-in expiry date. This is far more robust than the physical certificate method and eliminates the risk of unauthorized transfers.]]></text></explanation>
+    </question>
+</QF>

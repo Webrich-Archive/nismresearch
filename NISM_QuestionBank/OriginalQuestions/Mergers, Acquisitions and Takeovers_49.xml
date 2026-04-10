@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Mergers, Acquisitions and Takeovers_49" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A company has a total of 10 crore shares outstanding. An acquirer triggers a mandatory open offer. During the offer period, the company issues 50 lakh additional shares through ESOP conversions. What happens to the open offer size?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[It remains at 26% of 10 crore shares (2.6 crore shares)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[It is proportionately increased to account for the 50 lakh additional shares]]></text></answer>
+            <answer correct="no"><text><![CDATA[The ESOP conversion is suspended until the open offer is completed]]></text></answer>
+            <answer correct="no"><text><![CDATA[The acquirer can choose whether or not to include the additional shares]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under Regulation 7, if total shares increase after the public announcement (due to ESOP conversions, warrant exercises, etc.), the open offer size must be proportionately increased. The acquirer must account for all potential increases in outstanding shares during the offer period. The new offer size would be 26% of 10.5 crore shares = 2.73 crore shares.
+**The Trap:** The offer size does NOT stay fixed at the original calculation — it dynamically adjusts. The acquirer cannot ignore dilution during the offer period, as this would shortchange the new shareholders.
+**Cross-Exam Context:** NISM Series IX tests the dynamic nature of open offer calculations. Understanding dilution effects connects to NISM Series VIII (Equity Derivatives) concepts of adjustment for corporate actions.
+**Distributor's Pro-Tip:** Merchant bankers must monitor the target company for any capital changes during the offer period. ESOPs, warrants, and convertible instruments can all increase the total share count and proportionately expand the offer obligation.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Investment Products_55" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The day count convention followed in the Indian bond market for calculating accrued interest is:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Actual/365]]></text></answer>
+            <answer correct="no"><text><![CDATA[Actual/Actual]]></text></answer>
+            <answer correct="yes"><text><![CDATA[30/360]]></text></answer>
+            <answer correct="no"><text><![CDATA[Actual/360]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The Indian bond market follows the 30/360 convention — number of days in each month is taken as 30 and days in a year as 360, irrespective of actual calendar days. The money market, however, follows actual/365 convention.
+**The Trap:** Actual/365 is the money market convention in India (for T-bills etc.), not the bond market convention.
+**Cross-Exam Context:** Day count conventions are tested in X-A and IV (critical for interest rate derivative pricing).
+**Distributor's Pro-Tip:** Using the wrong day count convention leads to incorrect accrued interest calculations — always confirm whether you're dealing with a bond (30/360) or money market instrument (actual/365).]]></text></explanation>
+    </question>
+</QF>

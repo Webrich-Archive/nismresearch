@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Issue Management - Important Terms_22" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An IPO anchor investor portion is Rs. 300 crore. What is the maximum number of anchor investors permitted?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[15 anchor investors]]></text></answer>
+            <answer correct="yes"><text><![CDATA[30 anchor investors]]></text></answer>
+            <answer correct="no"><text><![CDATA[20 anchor investors]]></text></answer>
+            <answer correct="no"><text><![CDATA[45 anchor investors]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For anchor portions up to Rs. 250 crore, maximum 15 anchor investors are permitted. For amounts exceeding Rs. 250 crore, an additional 15 anchor investors are allowed per Rs. 250 crore block. Rs. 300 crore exceeds Rs. 250 crore by Rs. 50 crore, so one additional block of 15 is allowed. Total = 15 + 15 = 30 anchor investors.
+**The Trap:** 15 is the limit for the first Rs. 250 crore only. 45 would require two additional blocks (Rs. 750 crore total). Candidates must calculate based on the block structure.
+**Cross-Exam Context:** This calculation-based question is specific to NISM Series IX anchor investor rules and tests ability to apply the block-based formula.
+**Distributor's Pro-Tip:** Use the formula: Base 15 + (additional 15 for each Rs. 250 crore block beyond the first). At Rs. 300 crore, you cross into the second block, so 15 + 15 = 30.]]></text></explanation>
+    </question>
+</QF>

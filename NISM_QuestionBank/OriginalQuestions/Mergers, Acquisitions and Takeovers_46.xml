@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Mergers, Acquisitions and Takeovers_46" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An acquirer acquired shares of a target company at the following prices over the preceding 52 weeks: 500 shares at Rs. 200, 1000 shares at Rs. 215, and 500 shares at Rs. 190. What is the Volume-Weighted Average Price (VWAP) for the 52-week parameter?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 201.67]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 205.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 215.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 202.50]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** VWAP = Total value / Total volume. Total value = (500 x 200) + (1000 x 215) + (500 x 190) = 100,000 + 215,000 + 95,000 = 410,000. Total volume = 500 + 1000 + 500 = 2,000. VWAP = 410,000 / 2,000 = Rs. 205.00. The VWAP gives more weight to the Rs. 215 tranche because it had the highest volume.
+**The Trap:** Rs. 201.67 is the simple arithmetic average of (200+215+190)/3 = 201.67, which ignores volume weighting. VWAP always weights by the number of shares transacted at each price, not a simple average of prices.
+**Cross-Exam Context:** NISM Series IX and NISM Series VIII both test VWAP computation. VWAP is also used extensively in algorithmic trading benchmarks tested in NISM Series VIII.
+**Distributor's Pro-Tip:** VWAP always tilts toward the price of the largest transaction. Here, the 1000-share lot at Rs. 215 pulls the average significantly above the simple mean. Always weight by volume, never take simple averages.]]></text></explanation>
+    </question>
+</QF>

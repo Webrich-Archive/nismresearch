@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Personal Financial Planning_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investment of Rs. 50,000 grows to Rs. 85,000 over 5 years. The Compound Annual Growth Rate (CAGR) is closest to:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 14.00%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[11.20%]]></text></answer>
+            <answer correct="no"><text><![CDATA[12.50%]]></text></answer>
+            <answer correct="no"><text><![CDATA[10.80%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** CAGR = (End Value / Beginning Value)^(1/n) - 1 = (85,000/50,000)^(1/5) - 1 = (1.7)^(0.2) - 1 = 1.1120 - 1 = 11.20%.
+**The Trap:** Simple return would be (85,000 - 50,000)/50,000 = 70% over 5 years = 14% per year. But CAGR accounts for compounding and is lower.
+**Cross-Exam Context:** CAGR is the standard return measure in mutual funds (X-A, V-A, V-B) and portfolio evaluation (XXI-B).
+**Distributor's Pro-Tip:** Always use CAGR for multi-year returns — simple annualized returns overstate performance.]]></text></explanation>
+    </question>
+</QF>
