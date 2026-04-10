@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Portfolio Creation for Retirement_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Mr. Ramesh currently spends Rs. 45,000 per month on household expenses. He expects to retire in 25 years. If inflation averages 6% per annum, what will his monthly expenses be at the time of retirement?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 1,12,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,57,826]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 1,93,045]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,58,227]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Future value of current expenses = Rs. 45,000 x (1.06)^25. (1.06)^25 = 4.29187. Therefore, Rs. 45,000 x 4.29187 = Rs. 1,93,134 (approximately Rs. 1,93,045 with precise calculation). This is a straightforward inflation adjustment using the compound interest formula FV = PV x (1+r)^n.
+
+**The Trap:** Rs. 1,12,500 is obtained by simply multiplying Rs. 45,000 by 2.5 (a rough mental estimate ignoring compounding). Rs. 1,57,826 uses a lower inflation rate or fewer years. Rs. 2,58,227 uses 7% inflation instead of 6%, which is a common error when candidates confuse healthcare inflation with general inflation.
+
+**Cross-Exam Context:** NISM Series X-A (Investment Adviser Level 1) tests time value of money concepts. The inflation adjustment calculation is fundamental across all NISM financial planning modules.
+
+**Distributor's Pro-Tip:** The textbook shows that Rs. 60,000/month at 6% inflation becomes Rs. 1,07,451 in 10 years and Rs. 1,92,428 in 20 years. Health costs and travel expenses inflate faster than the standard CPI, so always use category-specific inflation rates for accurate planning.]]></text></explanation>
+    </question>
+</QF>

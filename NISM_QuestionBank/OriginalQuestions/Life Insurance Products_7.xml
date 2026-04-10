@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Life Insurance Products_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Comparing two individuals -- Person A aged 30 and Person B aged 50 -- both earning the same current annual income with the same retirement age, inflation rate, and post-tax return assumptions, which statement about their Human Life Values is correct?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Person A (aged 30) will have a higher HLV because they have more working years remaining and higher cumulative income growth potential]]></text></answer>
+            <answer correct="no"><text><![CDATA[Person B (aged 50) will have a higher HLV because older individuals have proven earning capacity]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both will have the same HLV since their current incomes are identical]]></text></answer>
+            <answer correct="no"><text><![CDATA[HLV cannot be compared across different ages without knowing the exact premium rates]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** HLV is the present value of expected future income available for dependents over the remaining working life. A younger person has more years to retirement (higher Nper), which results in a higher present value of the income annuity. Additionally, with inflation-adjusted income growth, the younger person captures more years of compounding income growth.
+**The Trap:** "Proven earning capacity" sounds logical but is irrelevant -- HLV is forward-looking and based on future income streams, not past performance. Same current income does not mean same HLV because the number of remaining years differs.
+**Cross-Exam Context:** Understanding that HLV decreases with age is fundamental to insurance needs analysis tested in NISM X-B.
+**Distributor's Pro-Tip:** This is why younger clients need higher life cover -- their economic loss to dependents upon death is greater. Use this to motivate early insurance purchases.]]></text></explanation>
+    </question>
+</QF>

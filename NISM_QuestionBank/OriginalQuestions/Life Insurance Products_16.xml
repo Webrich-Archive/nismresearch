@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Life Insurance Products_16" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A single premium life insurance policy is surrendered in the 2nd year of a 20-year term. The single premium paid was Rs. 5,00,000. What is the minimum guaranteed surrender value as per IRDAI regulations?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 3,50,000 (70% of the single premium)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,50,000 (30% of the single premium)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 4,50,000 (90% of the single premium)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,50,000 (50% of the single premium)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For single premium policies, the minimum guaranteed surrender value is 70% of the single premium if surrendered within the first 3 years. Since the policy is being surrendered in the 2nd year (within 3 years), the minimum surrender value = 70% x Rs. 5,00,000 = Rs. 3,50,000. The 90% threshold applies only in the last 2 years of the policy term.
+**The Trap:** 30% is the minimum surrender value for regular premium policies, not single premium policies. 90% applies only in the last 2 years of the policy term (years 19-20 in this case). Candidates who apply regular premium rules to single premium policies will get this wrong.
+**Cross-Exam Context:** Surrender value differences between single premium and regular premium policies are tested in NISM X-B and insurance-specific certifications.
+**Distributor's Pro-Tip:** Single premium policies have significantly higher surrender values (70% vs 30%) because the entire premium is paid upfront. This makes them more liquid, which can be a selling point for certain clients.]]></text></explanation>
+    </question>
+</QF>

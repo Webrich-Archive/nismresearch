@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Basics of Insurance_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Rajiv has a health insurance policy with a compulsory deductible of Rs. 10,000 and a co-pay clause of 20%. If he incurs a hospital bill of Rs. 1,50,000, what amount will the insurance company pay?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 1,12,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,20,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,10,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,18,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The deductible is subtracted first: Rs. 1,50,000 - Rs. 10,000 = Rs. 1,40,000. Then co-pay of 20% is applied on the remainder: 20% of Rs. 1,40,000 = Rs. 28,000 borne by insured. Insurance company pays Rs. 1,40,000 - Rs. 28,000 = Rs. 1,12,000.
+**The Trap:** Rs. 1,20,000 is obtained if you apply only co-pay (20% of 1,50,000 = 30,000) without deducting the deductible first. Rs. 1,18,000 results from applying co-pay first and then deductible, which is the wrong sequence.
+**Cross-Exam Context:** NISM Series V-A (Mutual Fund Distributors) and Series X-A also test the distinction between deductible and co-pay in insurance-linked questions.
+**Distributor's Pro-Tip:** Always remember the sequence: Deductible is subtracted FIRST from the total claim, and THEN co-pay percentage is applied on the remaining amount. This order significantly affects the out-of-pocket expense for the insured.]]></text></explanation>
+    </question>
+</QF>

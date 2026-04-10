@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Life Insurance Products_22" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A policyholder holds two health insurance policies -- a mediclaim (indemnity-based) policy from Company A with Rs. 5 lakh cover and a critical illness (benefit-based) policy from Company B with Rs. 10 lakh cover. If the policyholder is diagnosed with cancer and incurs hospital expenses of Rs. 4 lakh, which of the following correctly describes the claim outcome?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The policyholder can claim Rs. 4 lakh from the mediclaim policy (actual expenses) AND Rs. 10 lakh from the critical illness policy (full benefit amount), since benefit-based policies pay regardless of actual expenses]]></text></answer>
+            <answer correct="no"><text><![CDATA[The policyholder can claim only Rs. 4 lakh in total across both policies due to the contribution principle]]></text></answer>
+            <answer correct="no"><text><![CDATA[The policyholder must choose one policy to claim from and cannot claim from both simultaneously]]></text></answer>
+            <answer correct="no"><text><![CDATA[The policyholder can claim Rs. 5 lakh from Company A and Rs. 5 lakh from Company B, splitting the loss equally]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The mediclaim policy is indemnity-based -- it reimburses actual expenses incurred (Rs. 4 lakh in this case). The critical illness policy is benefit-based -- it pays a fixed lump sum (Rs. 10 lakh) upon diagnosis of a covered condition, regardless of actual expenses. The contribution principle applies only when multiple indemnity policies cover the same risk. A benefit policy pays independently.
+**The Trap:** The contribution principle limits claims across multiple INDEMNITY policies to the actual loss. However, benefit-based policies are outside this principle. Candidates who apply contribution universally will choose the wrong answer.
+**Cross-Exam Context:** The distinction between indemnity and benefit-based insurance is fundamental to NISM X-B and general insurance certification exams.
+**Distributor's Pro-Tip:** Advise clients to complement their mediclaim with a critical illness benefit policy. The benefit payout covers non-medical costs like income replacement, lifestyle modifications, and rehabilitation that mediclaim does not cover.]]></text></explanation>
+    </question>
+</QF>

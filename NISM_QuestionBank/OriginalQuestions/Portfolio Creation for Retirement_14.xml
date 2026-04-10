@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Portfolio Creation for Retirement_14" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A client currently spends Rs. 9,000 per month on basic living expenses. She is 35 years old and plans to retire at age 60. If inflation is 7% per annum, what will her monthly expense be at the time of retirement?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 22,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 34,237]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 48,847]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 56,210]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** FV = Rs. 9,000 x (1.07)^25. (1.07)^25 = 5.4274. Therefore FV = Rs. 9,000 x 5.4274 = Rs. 48,847 (approximately). This is the textbook example from Chapter 6 where the current expense of Rs. 9,000 grows to Rs. 48,847 at retirement, requiring a corpus of Rs. 1.17 Crore.
+
+**The Trap:** Rs. 22,500 is Rs. 9,000 x 2.5 (a rough mental approximation). Rs. 34,237 uses 6% inflation instead of 7%. Rs. 56,210 uses 8% inflation or a longer time horizon. The difference between 6% and 7% inflation compounded over 25 years creates a significant gap, which is why getting the inflation rate right is critical.
+
+**Cross-Exam Context:** This specific calculation (Rs. 9,000 growing to Rs. 48,847) is a textbook reference in NISM X-B Chapter 6. The PV/FV chain continues: Rs. 48,847/month expense requiring Rs. 1.17 Cr corpus.
+
+**Distributor's Pro-Tip:** Small differences in assumed inflation rate create large differences in projected expenses. At 6% inflation, the same Rs. 9,000 becomes Rs. 38,671 (Rs. 10,176 less per month). Always use realistic inflation -- 7% for general expenses, 10-12% for healthcare and education.]]></text></explanation>
+    </question>
+</QF>

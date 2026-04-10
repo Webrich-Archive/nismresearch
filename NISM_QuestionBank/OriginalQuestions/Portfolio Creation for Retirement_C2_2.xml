@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Portfolio Creation for Retirement_C2_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Mrs. Kavita is 50 years old and plans to retire at 60. She currently earns Rs. 1,50,000 per month and has accumulated Rs. 45 lakh in various retirement-linked investments (EPF: Rs. 20 lakh, PPF: Rs. 10 lakh, NPS: Rs. 15 lakh). Her monthly expenses are Rs. 70,000 (of which Rs. 8,000 is healthcare). She estimates needing Rs. 65,000 per month in today's terms at retirement (reduced due to paid-off home loan). General inflation is 6%, healthcare inflation is 10%, and her pre-retirement portfolio return is 9%. Post-retirement, she expects a 7% nominal return. Her life expectancy is 82 years. Three years ago, she withdrew Rs. 2,00,000 from her EPF for a family emergency. She is considering a step-up SIP strategy for the remaining 10 years and is evaluating whether to invest in an annuity or a systematic withdrawal plan (SWP) at retirement.
+
+<b>Question 2 of 5:</b> Mrs. Kavita withdrew Rs. 2,00,000 from her EPF three years ago. If her EPF earns 8.5% per annum, what is the total loss to her retirement corpus due to this withdrawal, measured from the withdrawal date to her retirement (13 years total)?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 3,50,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 4,21,200]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 5,72,862]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 8,66,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The withdrawal was made 3 years ago, so the remaining period to retirement is 10 years from now, but the total compounding period from withdrawal to retirement is 13 years. Loss = Rs. 2,00,000 x (1.085)^13 = Rs. 2,00,000 x 2.8643 = Rs. 5,72,862 (approximately). This is the future value of the withdrawn amount, representing the opportunity cost.
+
+**The Trap:** Rs. 3,50,000 uses only 10 years (from today to retirement) instead of 13 years (from withdrawal to retirement). Rs. 4,21,200 may use a lower rate. Rs. 8,66,000 is the textbook example for Rs. 75,000 withdrawn 30 years before retirement -- a memorized number from a different scenario that does not apply here.
+
+**Cross-Exam Context:** The impact of premature withdrawals is explicitly covered in NISM X-B Chapter 6. The textbook uses the Rs. 75,000 / 30 years / Rs. 8,66,000 example. This question tests whether candidates can apply the same principle with different numbers.
+
+**Distributor's Pro-Tip:** Every premature EPF withdrawal has a compounding cost. Rs. 2 lakh withdrawn 13 years before retirement costs nearly Rs. 5.73 lakh -- almost triple the original amount. Always explore alternatives (personal loans, liquid fund redemption) before touching retirement savings.]]></text></explanation>
+    </question>
+</QF>

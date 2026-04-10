@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Retirement Products - Accumulation and Distribution_16" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under the employer's 12% EPF contribution for an employee with basic + DA of Rs. 25,000, how is the contribution split across EPF, EPS, and other components?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[EPF: 3.67% of Rs. 25,000 = Rs. 917.50; EPS: 8.33% of Rs. 25,000 = Rs. 2,082.50; EDLIS: 0.5% of Rs. 25,000; Admin: 0.50%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[EPF: 3.67% of Rs. 25,000 = Rs. 917.50 + excess EPS above Rs. 15,000 cap; EPS: 8.33% of Rs. 15,000 = Rs. 1,249.50; EDLIS: 0.5%; Admin: 0.50%]]></text></answer>
+            <answer correct="no"><text><![CDATA[EPF: 8.33% of Rs. 25,000; EPS: 3.67% of Rs. 15,000; EDLIS: 0.5%; Admin: 0.50%]]></text></answer>
+            <answer correct="no"><text><![CDATA[EPF: 12% of Rs. 25,000 = Rs. 3,000 entirely to EPF since salary exceeds EPS ceiling]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The employer's 12% contribution is split as: EPS: 8.33% capped at Rs. 15,000 salary (so 8.33% × 15,000 = Rs. 1,249.50). The excess that would have gone to EPS (8.33% × Rs. 10,000 = Rs. 833) is redirected to EPF. So EPF gets: 3.67% × Rs. 25,000 + Rs. 833 = Rs. 917.50 + Rs. 833 = Rs. 1,750.50. EDLIS is 0.5% and Admin charges are 0.50%.
+
+**The Trap:** The first option incorrectly applies EPS at 8.33% on the full Rs. 25,000 instead of capping it at Rs. 15,000. The EPS contribution is always calculated on the lower of actual salary or Rs. 15,000. The excess above the cap flows to EPF, not EPS. Confusing which percentage goes to EPF vs EPS (3.67 vs 8.33) is another common error.
+
+**Cross-Exam Context:** The EPF/EPS split calculation is a staple in NISM X-A and X-B. Understanding the Rs. 15,000 EPS cap and the redirect mechanism is essential for payroll-related questions.
+
+**Distributor's Pro-Tip:** For clients earning above Rs. 15,000 basic + DA, the EPS contribution is effectively capped, meaning more goes into EPF (which earns interest) rather than EPS (which provides a defined benefit pension). This is generally favorable for higher-earning employees.]]></text></explanation>
+    </question>
+</QF>

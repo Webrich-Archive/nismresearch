@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Portfolio Creation for Retirement_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Mr. Ashish earns Rs. 60,000 per month. His household expenses are 50% of income (Rs. 30,000), and he estimates an additional Rs. 15,000 for post-retirement hobbies and travel. Using the expense protection method with 6% inflation over 20 years to retirement, what is his estimated monthly expense requirement at retirement?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 96,214]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 1,44,321]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,07,451]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,92,428]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under the expense protection method, total current monthly expense = Rs. 30,000 (household) + Rs. 15,000 (additional) = Rs. 45,000. Future value at 6% inflation over 20 years = Rs. 45,000 x (1.06)^20 = Rs. 45,000 x 3.2071 = Rs. 1,44,321. This is directly from the textbook example.
+
+**The Trap:** Rs. 96,214 uses only the Rs. 30,000 base expense inflated over 20 years, ignoring the additional Rs. 15,000. Rs. 1,07,451 is the textbook figure for Rs. 60,000 inflated at 6% for 10 years (not 20 years and not Rs. 45,000). Rs. 1,92,428 is Rs. 60,000 inflated at 6% for 20 years -- using total income instead of budgeted expenses.
+
+**Cross-Exam Context:** This exact example appears in the NISM X-B textbook. The expense protection method is contrasted with the replacement ratio method in both X-A and X-B curricula.
+
+**Distributor's Pro-Tip:** The expense protection method is more accurate than the replacement ratio because it accounts for actual spending patterns. Clients who will have a paid-off home at retirement may need only 50-60% income replacement, while those with hobbies or travel plans may need more. Always itemize post-retirement expenses.]]></text></explanation>
+    </question>
+</QF>

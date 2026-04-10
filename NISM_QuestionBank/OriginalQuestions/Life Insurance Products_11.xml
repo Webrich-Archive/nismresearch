@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Life Insurance Products_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An endowment policy has a sum assured of Rs. 1,00,00,000, a premium of Rs. 3,16,332 per year for 30 years, and a maturity value of Rs. 2,14,00,000 (sum assured + accrued bonus). A comparable term plan for the same cover costs Rs. 9,416 per year. What is the approximate inherent return on the endowment policy's investment component?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Approximately 5% per annum]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 10% per annum]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 7.5% per annum]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 2.5% per annum]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The investment component = Rs. 3,16,332 - Rs. 9,416 = Rs. 3,06,916 per year (the extra premium over pure term). This amount is effectively "invested" for 30 years and yields Rs. 2,14,00,000 at maturity. Using the RATE function with PMT = -3,06,916, Nper = 30, FV = 2,14,00,000, PV = 0, the inherent return is approximately 5%.
+**The Trap:** 10% seems attractive but ignores that a large portion of the premium goes toward mortality charges and expenses. 7.5% is a common misconception from dividing maturity value by total premiums paid. The correct approach isolates the investment component by subtracting the term insurance cost.
+**Cross-Exam Context:** NISM X-B specifically requires advisers to decompose endowment returns to help clients make informed decisions between term + mutual fund vs endowment strategies.
+**Distributor's Pro-Tip:** At ~5% return, endowment policies barely beat inflation. Always show clients the "buy term, invest the difference" comparison to demonstrate opportunity cost.]]></text></explanation>
+    </question>
+</QF>

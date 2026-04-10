@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Basics of Insurance_C2_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Meera is a SEBI-registered Investment Adviser reviewing the insurance portfolio of her client Vikram (age 42), a business owner with annual income of Rs. 25,00,000. Vikram's current insurance portfolio includes: (1) A term life policy of Rs. 2,00,00,000 purchased 4 years ago - Vikram did not disclose his diabetes condition at the time of purchase, (2) Two health insurance (Mediclaim) policies - Policy A with Company X (sum insured Rs. 10,00,000) and Policy B with Company Y (sum insured Rs. 5,00,000), both held continuously for 6 years, (3) A property insurance policy on his factory worth Rs. 50,00,000, (4) A motor insurance policy for his SUV (2200 CC engine). Recently, Vikram's factory was damaged by fire caused by a neighbouring factory's negligence, and the insurer settled the claim for Rs. 30,00,000. Vikram also wants to compare insurance intermediary options - he currently buys through an individual agent but is considering switching to a direct broker. Additionally, Meera is advising Vikram on the correct sequence of insurance planning steps to fill gaps in his coverage.
+
+<b>Question 3 of 5:</b> Vikram has two Mediclaim policies (Policy A: Rs. 10,00,000 with Company X; Policy B: Rs. 5,00,000 with Company Y) held continuously for 6 years. If Vikram incurs a hospitalisation bill of Rs. 12,00,000, what is Company X's liability applying the principle of Contribution?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 8,00,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 10,00,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 12,00,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 6,00,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under the principle of Contribution (applicable to indemnity policies like Mediclaim), each insurer pays proportionally. Company X's proportion = Rs. 10,00,000 / (Rs. 10,00,000 + Rs. 5,00,000) = 10/15 = 2/3. Company X pays = 2/3 of Rs. 12,00,000 = Rs. 8,00,000. Company Y pays = 1/3 of Rs. 12,00,000 = Rs. 4,00,000. Total = Rs. 12,00,000 (actual loss). Note: both payouts are within respective sum insured limits.
+**The Trap:** Rs. 10,00,000 assumes Company X pays up to its full sum insured first. Rs. 6,00,000 incorrectly applies a 50-50 split. The contribution principle requires proportionate sharing based on sum insured ratios, not equal splitting or sequential exhaustion.
+**Cross-Exam Context:** The principle of Contribution applies ONLY to indemnity insurance. Since both policies are Mediclaim (indemnity), contribution applies. If one were a Critical Illness policy (defined benefit), contribution would NOT apply to it. This nuance is tested in NISM X-B.
+**Distributor's Pro-Tip:** Clients with multiple Mediclaim policies cannot profit from insurance due to the Contribution principle. However, having two policies can provide broader network hospital access and backup coverage. Ensure clients understand they cannot claim the full amount from both policies for the same hospitalisation.]]></text></explanation>
+    </question>
+</QF>

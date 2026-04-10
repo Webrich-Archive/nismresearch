@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Life Insurance Products_8" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Anil earns Rs. 1,50,000 per month. His wife, aged 49, needs Rs. 83,000 per month until age 80. Using a real discount rate of 1.89%, the present value of her income needs is Rs. 2,36,43,984. Anil has an outstanding home loan of Rs. 40,00,000, existing life insurance of Rs. 1,00,00,000, and investments worth Rs. 50,00,000. What additional life insurance does Anil need under the needs-based approach?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 1,26,43,984]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,76,43,984]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,36,43,984]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 76,43,984]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Additional insurance needed = (PV of income needs + Outstanding liabilities) - (Existing insurance + Investments) = (Rs. 2,36,43,984 + Rs. 40,00,000) - (Rs. 1,00,00,000 + Rs. 50,00,000) = Rs. 2,76,43,984 - Rs. 1,50,00,000 = Rs. 1,26,43,984.
+**The Trap:** Rs. 2,76,43,984 results from adding the loan but forgetting to subtract existing coverage. Rs. 2,36,43,984 ignores both the loan and existing resources. Rs. 76,43,984 incorrectly subtracts the loan from the income needs instead of adding it.
+**Cross-Exam Context:** The needs-based approach is a core calculation in NISM X-B and is also tested in CFP certification exams.
+**Distributor's Pro-Tip:** Always walk clients through this four-step needs analysis: (1) calculate income replacement corpus, (2) add liabilities, (3) subtract existing coverage and assets, (4) the gap is the additional cover needed.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Life Insurance Products_17" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A regular premium life insurance policy with a 25-year term lapses after the policyholder stops paying premiums in the 2nd year. Which of the following is true regarding the policy's cash/surrender value?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The policy does not acquire any cash or surrender value because premiums have been paid for less than 3 years]]></text></answer>
+            <answer correct="no"><text><![CDATA[The policy acquires a minimum surrender value of 30% of premiums paid after 2 years]]></text></answer>
+            <answer correct="no"><text><![CDATA[The policy acquires a surrender value after just 1 year of premium payment]]></text></answer>
+            <answer correct="no"><text><![CDATA[The policyholder can claim the full refund of premiums paid within the first 2 years]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For life insurance policies with a term of 10 years or more, the policy acquires a cash/surrender value only after premiums have been paid for at least 3 consecutive years. Since this policyholder paid for only 2 years, the policy has lapsed without acquiring any surrender value.
+**The Trap:** The 2-year threshold for acquiring surrender value applies only to policies with a term of less than 10 years. For policies with a term of 10 years or more (like this 25-year policy), the threshold is 3 years. This distinction is a common source of confusion.
+**Cross-Exam Context:** Policy lapse and surrender value acquisition rules are regulatory knowledge tested in NISM X-B and IRDAI agent exams.
+**Distributor's Pro-Tip:** Always emphasize to clients that the first 3 years of premium payment are critical -- stopping before that means losing everything. This is the most important window for premium discipline.]]></text></explanation>
+    </question>
+</QF>

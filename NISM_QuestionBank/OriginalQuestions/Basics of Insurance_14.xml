@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Basics of Insurance_14" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Raman owns a car with engine capacity of 1500 CC. His motor insurance policy has a compulsory deductible of Rs. 1,000 and a voluntary deductible of Rs. 2,500. If he files a claim for Rs. 15,000, what is the net amount payable by the insurer?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 14,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 12,500]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 11,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 13,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Both compulsory and voluntary deductibles are subtracted from the claim. Compulsory deductible for cars up to 1600 CC = Rs. 1,000. Voluntary deductible = Rs. 2,500. Total deductible = Rs. 1,000 + Rs. 2,500 = Rs. 3,500. Insurer pays = Rs. 15,000 - Rs. 3,500 = Rs. 11,500.
+**The Trap:** Rs. 14,000 considers only the compulsory deductible. Rs. 12,500 considers only the voluntary deductible. Candidates who remember only one type of deductible will pick the wrong answer.
+**Cross-Exam Context:** Motor insurance deductibles are specifically mentioned in NISM Series X-B. The compulsory deductible of Rs. 1,000 for cars up to 1600 CC is a specific fact candidates must memorise.
+**Distributor's Pro-Tip:** Advise clients that opting for a higher voluntary deductible reduces the annual premium but increases out-of-pocket expense during claims. It is cost-effective for careful drivers who rarely claim, but risky for those with frequent minor claims.]]></text></explanation>
+    </question>
+</QF>

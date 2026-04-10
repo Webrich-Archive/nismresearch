@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Portfolio Creation for Retirement_C2_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Mrs. Kavita is 50 years old and plans to retire at 60. She currently earns Rs. 1,50,000 per month and has accumulated Rs. 45 lakh in various retirement-linked investments (EPF: Rs. 20 lakh, PPF: Rs. 10 lakh, NPS: Rs. 15 lakh). Her monthly expenses are Rs. 70,000 (of which Rs. 8,000 is healthcare). She estimates needing Rs. 65,000 per month in today's terms at retirement (reduced due to paid-off home loan). General inflation is 6%, healthcare inflation is 10%, and her pre-retirement portfolio return is 9%. Post-retirement, she expects a 7% nominal return. Her life expectancy is 82 years. Three years ago, she withdrew Rs. 2,00,000 from her EPF for a family emergency. She is considering a step-up SIP strategy for the remaining 10 years and is evaluating whether to invest in an annuity or a systematic withdrawal plan (SWP) at retirement.
+
+<b>Question 4 of 5:</b> Mrs. Kavita needs to accumulate Rs. 1,53,47,000 over 10 years. She is considering two strategies: (A) A fixed SIP at 9% annual return (compounded monthly), or (B) A step-up SIP starting lower and increasing by 8% annually. Which of the following is the MOST accurate comparison?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Fixed SIP: Rs. 79,400/month; Step-up SIP has no advantage since only 10 years remain]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Fixed SIP: approximately Rs. 79,400/month; Step-up SIP starts at approximately Rs. 55,000-58,000/month, increasing by 8% annually to achieve the same target]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fixed SIP: Rs. 1,27,892/month; Step-up SIP starts at Rs. 79,400 increasing by 8% annually]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fixed SIP: Rs. 79,400/month; Step-up SIP starts at Rs. 35,000/month increasing by 8% annually]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Using PMT formula: FV = Rs. 1,53,47,000, rate = 9%/12 = 0.75% per month, n = 10 x 12 = 120 months. PMT = FV x [r / {(1+r)^n - 1}] = 1,53,47,000 x [0.0075 / {(1.0075)^120 - 1}] = 1,53,47,000 x [0.0075 / (2.4514 - 1)] = 1,53,47,000 x [0.0075 / 1.4514] = 1,53,47,000 x 0.005167 = Rs. 79,328, approximately Rs. 79,400/month. For the step-up SIP at 8% annual increase, the initial amount would be lower (approximately Rs. 55,000-58,000) and increase by 8% each year. With only 10 years, the step-up advantage is smaller than with 25-30 years, but still meaningful.
+
+**The Trap:** Option A incorrectly claims step-up has no advantage in 10 years -- it still helps with initial affordability. Option C grossly overestimates the fixed SIP amount. Option D underestimates the step-up starting amount -- Rs. 35,000 with only 8% annual increase over 10 years cannot accumulate Rs. 1.53 crore.
+
+**Cross-Exam Context:** The step-up SIP calculation is covered in NISM X-B Chapter 6. The textbook contrasts fixed vs. step-up approaches for the same target corpus.
+
+**Distributor's Pro-Tip:** Even with only 10 years to retirement, a step-up SIP helps. Mrs. Kavita can start at Rs. 55,000-58,000 instead of Rs. 79,400, aligning with her current budget. The annual 8% increase mirrors salary hikes. However, with shorter horizons, the step-up benefit diminishes -- always run both calculations for the client.]]></text></explanation>
+    </question>
+</QF>

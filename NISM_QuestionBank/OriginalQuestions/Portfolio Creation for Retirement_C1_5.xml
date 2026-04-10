@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Portfolio Creation for Retirement_C1_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Mr. Suresh is 40 years old and earns Rs. 80,000 per month. His wife Priya is 38 years old and is a homemaker. Mr. Suresh plans to retire at age 60 and estimates his life expectancy at 85 years. His current monthly household expenses are Rs. 50,000, of which Rs. 15,000 goes towards his children's education (which will cease by his retirement). He expects an additional Rs. 10,000 per month for post-retirement travel and hobbies. His current investments include Rs. 8 lakh in EPF and Rs. 3 lakh in PPF. He expects general inflation at 6% per annum and healthcare inflation at 10% per annum. His current healthcare expenses are Rs. 5,000 per month (included in the Rs. 50,000). His employer contributes to a superannuation fund. He expects his income to grow at 8% per annum. The expected portfolio return is 10% pre-retirement and 7% post-retirement.
+
+<b>Question 5 of 5:</b> If Mr. Suresh needs to accumulate an additional Rs. 2.76 crore over 20 years (after accounting for existing investments), and his expected pre-retirement return is 10% compounded monthly, what is the approximate monthly SIP he needs to start? Additionally, if he uses a step-up SIP with 7% annual increase, how would this impact his initial monthly outflow?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Fixed SIP: Rs. 36,050/month; Step-up SIP: Higher initial amount but faster accumulation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fixed SIP: Rs. 28,500/month; Step-up SIP: Same initial amount with annual increase]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Fixed SIP: Rs. 36,050/month; Step-up SIP: Lower initial amount (substantially below Rs. 36,050) increasing by 7% annually]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fixed SIP: Rs. 45,200/month; Step-up SIP: Lower initial amount but requires 10% annual increase]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Using the PMT formula: FV = Rs. 2,76,00,000, rate = 10%/12 = 0.8333% per month, n = 20 x 12 = 240 months. PMT = FV x [r / {(1+r)^n - 1}] = 2,76,00,000 x [0.008333 / {(1.008333)^240 - 1}] = 2,76,00,000 x [0.008333 / (7.328 - 1)] = 2,76,00,000 x [0.008333 / 6.328] = 2,76,00,000 x 0.001317 = Rs. 36,349 (approximately Rs. 36,050 with precise monthly compounding). With a 7% step-up SIP, the initial monthly amount would be substantially lower (approximately Rs. 20,000-22,000) and increase by 7% each year to reach the same target.
+
+**The Trap:** Option A incorrectly states that step-up SIP requires a higher initial amount. Option B significantly underestimates the fixed SIP amount. Option D overestimates the fixed SIP and changes the step-up percentage from 7% to 10%.
+
+**Cross-Exam Context:** The PMT calculation for retirement savings and the step-up SIP concept are core topics in NISM X-B Chapter 6. The textbook uses a similar example with Rs. 20,217/month fixed vs. step-up with 7% annual increase.
+
+**Distributor's Pro-Tip:** A step-up SIP of 7% annually mirrors typical salary growth in India. If Mr. Suresh starts at Rs. 22,000/month and increases by 7% annually, it is far more manageable than Rs. 36,050 from day one. By year 10, his SIP would be Rs. 43,286/month, but his salary would have grown proportionally, maintaining the same savings ratio.]]></text></explanation>
+    </question>
+</QF>

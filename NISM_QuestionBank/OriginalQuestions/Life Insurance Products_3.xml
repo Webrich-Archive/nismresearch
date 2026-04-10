@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Life Insurance Products_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Suresh purchased a regular premium endowment policy with a sum assured of Rs. 10,00,000 and a premium-paying term of 50 years. After paying premiums for 10 years, he opts to convert the policy to a paid-up policy. What will be his reduced paid-up sum assured?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 2,00,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 5,00,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 10,00,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,00,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When a policy is converted to paid-up, the sum assured is proportionally reduced based on the ratio of premiums paid to total premiums payable. Paid-up sum assured = (Premiums paid / Total premiums) x Original sum assured = (10/50) x Rs. 10,00,000 = Rs. 2,00,000.
+**The Trap:** Rs. 5,00,000 looks tempting if you mistakenly use a 50% ratio or confuse the calculation. Rs. 10,00,000 is wrong because paid-up always reduces the sum assured unless all premiums are paid.
+**Cross-Exam Context:** NISM Series X-B frequently tests paid-up value calculations as part of policy servicing and financial planning.
+**Distributor's Pro-Tip:** Always explain to clients that converting to paid-up drastically reduces the death benefit -- in this case by 80%. It should be a last resort, not a casual decision.]]></text></explanation>
+    </question>
+</QF>

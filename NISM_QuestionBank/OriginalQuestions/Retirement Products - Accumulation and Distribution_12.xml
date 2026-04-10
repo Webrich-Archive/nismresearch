@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Retirement Products - Accumulation and Distribution_12" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Mrs. Gupta invested Rs. 80,000 in a mutual fund SWP. She holds 8,000 units at NAV of Rs. 10. She sets up a monthly SWP of Rs. 5,000. In the first month, 500 units are redeemed. In the second month, the NAV rises to Rs. 20. How many units are redeemed in the second month, and what is her remaining balance?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[250 units redeemed in the second month; remaining balance is 7,250 units worth Rs. 1,45,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[500 units redeemed in the second month; remaining balance is 7,000 units worth Rs. 1,40,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[250 units redeemed in the second month; remaining balance is 7,250 units worth Rs. 72,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[500 units redeemed in the second month; remaining balance is 7,000 units worth Rs. 70,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SWP redeems a fixed rupee amount, not a fixed number of units. After month 1: 8,000 - 500 = 7,500 units remain. In month 2 at NAV Rs. 20: units redeemed = Rs. 5,000 / Rs. 20 = 250 units. Remaining = 7,500 - 250 = 7,250 units. Value = 7,250 × Rs. 20 = Rs. 1,45,000. When NAV rises, fewer units are sold for the same withdrawal, preserving the corpus better.
+
+**The Trap:** Assuming the same 500 units are redeemed each month (fixed unit withdrawal) is the key trap. SWP is a fixed amount withdrawal, so units redeemed vary inversely with NAV. The Rs. 72,500 option incorrectly uses the old NAV of Rs. 10 on remaining units.
+
+**Cross-Exam Context:** SWP mechanics are tested in NISM V-A (MF Distributors) and X-B. Understanding SWP vs FD interest (SWP reduces units, FD keeps principal intact) is a crucial distinction.
+
+**Distributor's Pro-Tip:** SWP works best in rising markets — fewer units are sold. In falling markets, more units are consumed (reverse rupee cost averaging). Advise clients to keep SWP amounts conservative (3-4% of corpus annually) to ensure corpus longevity.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Retirement Products - Accumulation and Distribution_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An employee withdraws Rs. 3,50,000 from his EPF account after 4 years of continuous service due to resignation. He has furnished his PAN. What is the TDS applicable on the withdrawal?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[TDS at 10% on Rs. 3,50,000 = Rs. 35,000, since withdrawal is before 5 years and exceeds Rs. 50,000 with PAN furnished]]></text></answer>
+            <answer correct="no"><text><![CDATA[No TDS since EPF withdrawals are always tax-free]]></text></answer>
+            <answer correct="no"><text><![CDATA[TDS at 10% on Rs. 3,00,000 (amount above Rs. 50,000 threshold)]]></text></answer>
+            <answer correct="no"><text><![CDATA[TDS at maximum marginal rate since the withdrawal is premature]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** EPF withdrawal before 5 years of continuous service is taxable. When the amount exceeds Rs. 50,000 and PAN is furnished, TDS is deducted at 10% on the entire withdrawal amount (not just the excess over Rs. 50,000). The Rs. 50,000 is a threshold for TDS applicability, not an exemption amount. TDS at maximum marginal rate (MMR) applies only when PAN is NOT furnished.
+
+**The Trap:** Two traps here: (1) Thinking EPF is always tax-free — it is EEE only after 5 years of continuous service. (2) Applying TDS only on the amount exceeding Rs. 50,000 — the Rs. 50,000 is a trigger threshold, not a deduction. Once exceeded, TDS applies on the full amount.
+
+**Cross-Exam Context:** EPF taxation on premature withdrawal is tested in NISM X-A, X-B, and is a staple in income tax papers. The interaction between PAN furnishing and TDS rate is also tested in KYC-related sections.
+
+**Distributor's Pro-Tip:** Always advise clients to complete 5 years before withdrawing EPF if possible. If they must withdraw early, ensure PAN is linked to avoid MMR taxation. Also note exceptions: ill health, employer business closure, and transfer to new employer's EPF don't attract tax even before 5 years.]]></text></explanation>
+    </question>
+</QF>

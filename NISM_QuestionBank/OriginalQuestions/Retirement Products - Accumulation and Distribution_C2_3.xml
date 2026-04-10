@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Retirement Products - Accumulation and Distribution_C2_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Mrs. Anita is 62 years old and has just retired from a private sector company with a total retirement corpus of Rs. 2,00,00,000 (Rs. 2 crore). She owns a house and has no outstanding loans. Her monthly household expenses are Rs. 80,000. She wants to generate a steady monthly income while preserving her capital for at least 25 years. She is considering multiple distribution options: annuities from an insurance company, SWP from mutual funds, SCSS, POMIS, FD laddering, and possibly a reverse mortgage on her property (valued at Rs. 1.5 crore). She has no other source of income. Her husband (age 65) is also retired. She wants to allocate her Rs. 2 crore optimally across these products.
+
+<b>Question 3 of 5:</b> Mrs. Anita allocates Rs. 60,00,000 to a balanced mutual fund and sets up an SWP of Rs. 30,000 per month. She has 3,00,000 units at an initial NAV of Rs. 20. After one year, the NAV is Rs. 25. Approximately how many units remain after 12 months of SWP, and what is the key risk she faces if markets decline significantly?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[2,82,000 units remain (1,500 units redeemed monthly at Rs. 20); the key risk is that SWP stops automatically when NAV falls]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Approximately 2,83,200 units remain (units redeemed decrease as NAV rises from Rs. 20 to Rs. 25 over the year); the key risk is that in a declining market, more units are consumed per withdrawal, accelerating corpus depletion]]></text></answer>
+            <answer correct="no"><text><![CDATA[3,00,000 units remain since SWP only withdraws gains, not principal; the key risk is reinvestment risk]]></text></answer>
+            <answer correct="no"><text><![CDATA[2,85,600 units remain; there is no meaningful risk since balanced funds protect against market declines]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** With a rising NAV from Rs. 20 to Rs. 25 over 12 months, the number of units redeemed per month decreases progressively. At Rs. 20 NAV: 30,000/20 = 1,500 units. At Rs. 25 NAV: 30,000/25 = 1,200 units. With a gradual rise, approximately 16,800 units are redeemed over 12 months (average ~1,400/month), leaving approximately 2,83,200 units. The key risk is reverse rupee cost averaging — in declining markets, more units are sold for the same withdrawal amount, which can rapidly deplete the corpus.
+
+**The Trap:** Assuming a fixed number of units are redeemed monthly (like an FD) is the primary error. SWP redeems a fixed rupee amount, so units sold vary with NAV. The option stating SWP only withdraws gains is incorrect — SWP redeems units regardless of gains. The "no meaningful risk" option dangerously ignores sequence-of-returns risk.
+
+**Cross-Exam Context:** SWP mechanics and risks are tested in NISM V-A and X-B. The concept of sequence-of-returns risk (poor returns in early retirement years) is critical for retirement distribution planning.
+
+**Distributor's Pro-Tip:** For Mrs. Anita, set SWP at a conservative rate (4-5% of corpus annually). Maintain 1-2 years of expenses in liquid funds so that SWP can be paused during market downturns without disrupting income. This "bucket strategy" mitigates sequence-of-returns risk.]]></text></explanation>
+    </question>
+</QF>

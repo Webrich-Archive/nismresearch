@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Commodity and Real Estate Investment_8" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investor bought 4 grams of Sovereign Gold Bonds at Rs. 4,800 per gram. After 8 years at maturity, gold is priced at Rs. 8,200 per gram. What is the investor's total effective return (interest + capital appreciation) before tax on interest?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 13,600 (capital gain only)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 17,440 (interest + capital gain with 12.5% tax on gains)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 17,440 (Rs. 13,600 capital gain exempt + Rs. 3,840 interest)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 15,400]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Initial investment = 4 x Rs. 4,800 = Rs. 19,200. Maturity value = 4 x Rs. 8,200 = Rs. 32,800. Capital gain = Rs. 32,800 - Rs. 19,200 = Rs. 13,600 (FULLY EXEMPT at maturity). Annual interest = 2.50% x Rs. 19,200 = Rs. 480. Total interest over 8 years = Rs. 480 x 8 = Rs. 3,840. Total return = Rs. 13,600 + Rs. 3,840 = Rs. 17,440. Interest is taxable at slab rate but the question asks for pre-tax return on interest.
+**The Trap:** Option B gives the same number but incorrectly states 12.5% tax applies on capital gains - at maturity, gains are fully exempt. Option A ignores the interest component entirely.
+**Cross-Exam Context:** NISM Series X-A and Series V-A both test calculation of returns from gold investment products.
+**Distributor's Pro-Tip:** When presenting SGB returns to clients, always show the dual return structure - the guaranteed 2.50% interest PLUS the gold price appreciation, with the capital gain being tax-free at maturity. This makes a compelling case against physical gold.]]></text></explanation>
+    </question>
+</QF>

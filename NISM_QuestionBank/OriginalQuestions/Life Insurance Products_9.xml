@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Life Insurance Products_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following statements correctly describes the relationship between the Human Life Value (HLV) method and the needs-based approach to determining life insurance cover?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[HLV will always be greater than or equal to the needs-based figure because a person's overall expenditure cannot exceed their total income]]></text></answer>
+            <answer correct="no"><text><![CDATA[The needs-based approach will always yield a higher figure because it includes liabilities in addition to income replacement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both methods always produce identical results when the same discount rate is used]]></text></answer>
+            <answer correct="no"><text><![CDATA[There is no predictable relationship between the two methods as they use completely different inputs]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** HLV capitalizes the entire income available for dependents, while the needs-based approach only capitalizes the specific expenditure needs of dependents. Since a person's expenditure for dependents is always a subset of (or at most equal to) their total income, HLV >= needs-based value.
+**The Trap:** The needs-based approach does add liabilities, which might make it seem like it could exceed HLV. However, HLV captures the full income stream which inherently covers all expenditures and liabilities. The needs-based approach also subtracts existing insurance and investments, further reducing the gap.
+**Cross-Exam Context:** Understanding the conceptual difference between HLV and needs-based is critical for NISM X-B advisory recommendations.
+**Distributor's Pro-Tip:** Use the needs-based approach for practical recommendations (it is more precise), but reference HLV as the theoretical upper bound to help clients understand maximum exposure.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Basics of Insurance_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Priya holds two health insurance (Mediclaim) policies - one from Company A with a sum insured of Rs. 3,00,000 and another from Company B with a sum insured of Rs. 2,00,000. She incurs a hospitalisation bill of Rs. 4,00,000. Applying the principle of Contribution, what is the maximum amount Company A would be liable to pay?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 2,40,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 3,00,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 4,00,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,00,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under the principle of Contribution, each insurer pays in proportion to their sum insured. Company A's proportion = Rs. 3,00,000 / (Rs. 3,00,000 + Rs. 2,00,000) = 3/5 = 60%. Company A pays 60% of Rs. 4,00,000 = Rs. 2,40,000. Company B pays 40% = Rs. 1,60,000. Total reimbursement = Rs. 4,00,000 (actual loss).
+**The Trap:** Rs. 3,00,000 assumes Company A pays up to its full sum insured first, which is incorrect under the contribution principle. Rs. 4,00,000 ignores that two insurers share the liability proportionately.
+**Cross-Exam Context:** The principle of Contribution applies ONLY to indemnity policies (Health/Mediclaim, Property, Motor). It does NOT apply to Defined Benefit policies (Life, Critical Illness). This distinction is tested in NISM X-A and X-B.
+**Distributor's Pro-Tip:** When clients hold multiple indemnity health policies, explain that they cannot profit from insurance. The total claim across all policies will never exceed actual expenses. However, multiple critical illness (Defined Benefit) policies can all pay independently.]]></text></explanation>
+    </question>
+</QF>

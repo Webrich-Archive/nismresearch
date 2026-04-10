@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Basics of Insurance_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A Composite Insurance Agent can represent a maximum of how many insurers in total across different categories?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[3 insurers (1 life + 1 general + 1 health)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[4 insurers (1 life + 1 general + 1 health + 1 mono-line)]]></text></answer>
+            <answer correct="no"><text><![CDATA[9 insurers (3 life + 3 general + 3 health)]]></text></answer>
+            <answer correct="no"><text><![CDATA[6 insurers (2 life + 2 general + 2 health)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A Composite Insurance Agent can represent a maximum of 1 life insurer + 1 general insurer + 1 health insurer + 1 mono-line insurer, totalling 4 insurers. This is different from a Corporate Agent (composite) which can represent up to 3 life + 3 general + 3 health insurers.
+**The Trap:** 9 insurers (3+3+3) is the limit for a Corporate Agent (composite), not a Composite Insurance Agent. Candidates frequently confuse these two categories. 3 insurers (1+1+1) misses the mono-line insurer category.
+**Cross-Exam Context:** Insurance intermediary regulations are tested in NISM Series X-B and also in IRDA licensing exams. Understanding the distinction between agent types is critical for compliance.
+**Distributor's Pro-Tip:** When advising clients, understand that a Composite Insurance Agent has limited choice (4 companies), while a Corporate Agent or Direct Broker offers wider product comparison. This impacts the breadth of advice available.]]></text></explanation>
+    </question>
+</QF>

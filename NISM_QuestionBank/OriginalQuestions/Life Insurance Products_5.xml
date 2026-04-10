@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Life Insurance Products_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Anita earns Rs. 10,00,000 per year and plans to retire at age 60. She is currently 33 years old. Assuming an inflation rate of 6% and a post-tax return of 8%, what is her Human Life Value (HLV) using the discounting rate method?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 2,31,62,130 (using discounting rate of 1.89% and Nper of 27)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,70,00,000 (simply Rs. 10,00,000 x 27 years)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,85,00,000 (using a flat 2% discount rate)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 3,10,50,000 (using inflation rate directly as discount rate)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The HLV discounting rate = (1 + post-tax return)/(1 + inflation rate) - 1 = (1.08)/(1.06) - 1 = 0.01887 or approximately 1.89%. With annual income of Rs. 10,00,000, Nper = 27 years (60-33), and this rate, the PV of the annuity (HLV) = Rs. 2,31,62,130.
+**The Trap:** Rs. 2,70,00,000 (income x years) would only be correct if inflation exactly equals the return rate. Using the inflation rate directly as the discount rate or using a rounded figure leads to significantly different results.
+**Cross-Exam Context:** HLV calculations are a staple of NISM Series X-B and are also relevant for CFP (Certified Financial Planner) examinations.
+**Distributor's Pro-Tip:** The real discount rate formula [(1+r)/(1+i) - 1] is more accurate than the approximation (r - i). For exam purposes, always use the exact formula.]]></text></explanation>
+    </question>
+</QF>

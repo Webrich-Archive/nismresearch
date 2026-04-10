@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Alternative Investments_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the REIT structure, the sponsor sets up the REIT which invests in real estate assets through which entity?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Asset Management Company (AMC)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Holding Company]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Special Purpose Vehicle (SPV)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Trustee Company]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** REITs invest in real estate properties through Special Purpose Vehicles (SPVs). The sponsor (typically a real estate developer) sets up the REIT, which then acquires ownership stakes in SPVs that hold the underlying real estate assets.
+**The Trap:** AMC is tempting because REITs are structured similarly to mutual funds, and mutual funds use AMCs for management. However, the investment vehicle in REITs is the SPV, not an AMC.
+**Cross-Exam Context:** NISM Series V-A covers the mutual fund structure (AMC, Trustee, Sponsor); understanding the REIT structure requires mapping these roles to REIT-specific entities like SPVs.
+**Distributor's Pro-Tip:** The SPV structure in REITs is crucial for tax planning -- income flows from SPV to REIT to unit-holders, and tax treatment changes at each level. Always trace the income flow through the SPV when advising clients.]]></text></explanation>
+    </question>
+</QF>

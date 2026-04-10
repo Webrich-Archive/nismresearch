@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Life Insurance Products_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Meena, aged 50, buys a life insurance policy with a term of 12 years and an annual premium of Rs. 80,000. What is the IRDAI-mandated minimum sum assured for her policy?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 5,60,000 (7 times the annual premium)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 8,00,000 (10 times the annual premium)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 4,00,000 (5 times the annual premium)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 9,60,000 (12 times the annual premium)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For policies with a term greater than 10 years, the minimum sum assured is 10x annual premium for age below 45, but 7x annual premium for age above 45. Since Meena is 50 (above 45) and her term is 12 years (above 10), the minimum sum assured = 7 x Rs. 80,000 = Rs. 5,60,000.
+**The Trap:** The 10x multiplier is tempting because the term exceeds 10 years, but candidates must also check the age threshold. The age-45 cutoff is the decisive factor here.
+**Cross-Exam Context:** NISM Series X-A (Investment Adviser Level 1) covers insurance fundamentals including IRDAI minimum sum assured norms.
+**Distributor's Pro-Tip:** For older clients (above 45), the reduced multiplier of 7x means they need to pay higher premiums to achieve the same level of coverage -- factor this into financial planning discussions.]]></text></explanation>
+    </question>
+</QF>

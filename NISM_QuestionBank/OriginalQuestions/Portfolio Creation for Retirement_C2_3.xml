@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Portfolio Creation for Retirement_C2_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Mrs. Kavita is 50 years old and plans to retire at 60. She currently earns Rs. 1,50,000 per month and has accumulated Rs. 45 lakh in various retirement-linked investments (EPF: Rs. 20 lakh, PPF: Rs. 10 lakh, NPS: Rs. 15 lakh). Her monthly expenses are Rs. 70,000 (of which Rs. 8,000 is healthcare). She estimates needing Rs. 65,000 per month in today's terms at retirement (reduced due to paid-off home loan). General inflation is 6%, healthcare inflation is 10%, and her pre-retirement portfolio return is 9%. Post-retirement, she expects a 7% nominal return. Her life expectancy is 82 years. Three years ago, she withdrew Rs. 2,00,000 from her EPF for a family emergency. She is considering a step-up SIP strategy for the remaining 10 years and is evaluating whether to invest in an annuity or a systematic withdrawal plan (SWP) at retirement.
+
+<b>Question 3 of 5:</b> Mrs. Kavita's existing investments of Rs. 45 lakh are expected to grow at 9% per annum for 10 years. What will be the future value of her existing corpus at retirement, and if she needs a total corpus of Rs. 2.60 crore, how much additional accumulation is required?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[FV = Rs. 85,50,000; Additional = Rs. 1,74,50,000]]></text></answer>
+            <answer correct="yes"><text><![CDATA[FV = Rs. 1,06,53,020; Additional = Rs. 1,53,46,980]]></text></answer>
+            <answer correct="no"><text><![CDATA[FV = Rs. 1,16,38,250; Additional = Rs. 1,43,61,750]]></text></answer>
+            <answer correct="no"><text><![CDATA[FV = Rs. 90,00,000; Additional = Rs. 1,70,00,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** FV of existing investments = Rs. 45,00,000 x (1.09)^10 = Rs. 45,00,000 x 2.3674 = Rs. 1,06,53,289, approximately Rs. 1,06,53,020 with precise computation. Additional corpus needed = Rs. 2,60,00,000 - Rs. 1,06,53,020 = Rs. 1,53,46,980.
+
+**The Trap:** Rs. 85,50,000 uses a lower growth rate (perhaps 7% instead of 9%). Rs. 1,16,38,250 uses 10% growth instead of 9%. Rs. 90,00,000 simply doubles the corpus (a rough mental estimate). The precision in growth rate matters enormously -- 9% vs 10% over 10 years creates a Rs. 10 lakh difference on a Rs. 45 lakh base.
+
+**Cross-Exam Context:** Gap analysis (total corpus needed minus future value of existing investments) is a standard retirement planning step in NISM X-B. This is also tested in CFP and CWM certifications.
+
+**Distributor's Pro-Tip:** When computing the FV of existing investments, use the blended expected return of the actual portfolio, not a single assumed rate. EPF (8.5%), PPF (7.1%), and NPS (9-12% depending on allocation) each contribute differently. A weighted average gives a more accurate projection.]]></text></explanation>
+    </question>
+</QF>

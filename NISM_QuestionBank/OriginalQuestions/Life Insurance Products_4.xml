@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Life Insurance Products_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A policyholder has paid regular premiums for 4 years on a traditional life insurance policy with a 20-year term and now wishes to surrender the policy. The total premiums paid amount to Rs. 3,00,000. What is the minimum guaranteed surrender value as per IRDAI regulations?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 90,000 (30% of total premiums paid)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,10,000 (70% of total premiums paid)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,70,000 (90% of total premiums paid)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,50,000 (50% of total premiums paid)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For regular premium policies, the minimum guaranteed surrender value after acquiring paid-up status (which requires at least 3 years of premium payment for terms >= 10 years) is 30% of all premiums paid. Here, 30% of Rs. 3,00,000 = Rs. 90,000. The 90% threshold applies only in the last 2 years of the policy term.
+**The Trap:** The 70% figure applies to single premium policies surrendered within the first 3 years. The 90% applies in the last 2 years of the policy term. Candidates who mix up single vs regular premium rules or early vs late surrender rules will pick the wrong answer.
+**Cross-Exam Context:** Surrender value calculations are tested across NISM Series X-A and X-B exams as part of insurance product evaluation.
+**Distributor's Pro-Tip:** The 30% minimum surrender value is a floor, not the ceiling -- actual surrender values offered by insurers may be higher based on policy type and duration. Always check the specific policy illustration.]]></text></explanation>
+    </question>
+</QF>

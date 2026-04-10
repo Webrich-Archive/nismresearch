@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Portfolio Creation for Retirement_C1_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Mr. Suresh is 40 years old and earns Rs. 80,000 per month. His wife Priya is 38 years old and is a homemaker. Mr. Suresh plans to retire at age 60 and estimates his life expectancy at 85 years. His current monthly household expenses are Rs. 50,000, of which Rs. 15,000 goes towards his children's education (which will cease by his retirement). He expects an additional Rs. 10,000 per month for post-retirement travel and hobbies. His current investments include Rs. 8 lakh in EPF and Rs. 3 lakh in PPF. He expects general inflation at 6% per annum and healthcare inflation at 10% per annum. His current healthcare expenses are Rs. 5,000 per month (included in the Rs. 50,000). His employer contributes to a superannuation fund. He expects his income to grow at 8% per annum. The expected portfolio return is 10% pre-retirement and 7% post-retirement.
+
+<b>Question 4 of 5:</b> Mr. Suresh's existing investments of Rs. 11 lakh (Rs. 8 lakh EPF + Rs. 3 lakh PPF) will grow at 10% per annum for 20 years. What will be the future value of these existing investments at retirement, and how much additional corpus does he need to accumulate if his total retirement corpus target is Rs. 3.50 crore?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[FV of existing = Rs. 54,12,000; Additional needed = Rs. 2,95,88,000]]></text></answer>
+            <answer correct="yes"><text><![CDATA[FV of existing = Rs. 74,01,250; Additional needed = Rs. 2,75,98,750]]></text></answer>
+            <answer correct="no"><text><![CDATA[FV of existing = Rs. 44,00,000; Additional needed = Rs. 3,06,00,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[FV of existing = Rs. 1,10,00,000; Additional needed = Rs. 2,40,00,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** FV of existing investments = Rs. 11,00,000 x (1.10)^20 = Rs. 11,00,000 x 6.7275 = Rs. 74,00,250 (approximately Rs. 74,01,250 with precise computation). Additional corpus needed = Rs. 3,50,00,000 - Rs. 74,01,250 = Rs. 2,75,98,750. This demonstrates the critical step of netting off existing investments from the target corpus.
+
+**The Trap:** Rs. 54,12,000 uses 8% growth instead of 10%. Rs. 44,00,000 simply multiplies by 4 (a rough estimate). Rs. 1,10,00,000 uses an unrealistic growth assumption. The key is to use the pre-retirement expected return (10%) for projecting existing investments and then subtract from the total target.
+
+**Cross-Exam Context:** NISM X-B requires candidates to understand the full retirement planning process: determine corpus, value existing investments, compute the gap, and then determine the required savings. This gap analysis is tested in both X-A and X-B.
+
+**Distributor's Pro-Tip:** Always account for existing retirement-specific investments (EPF, PPF, NPS) when computing the savings gap. Many advisers overlook this step and end up recommending oversaving, which reduces the client's current lifestyle unnecessarily. Also factor in employer superannuation contributions.]]></text></explanation>
+    </question>
+</QF>

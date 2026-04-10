@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Retirement Products - Accumulation and Distribution_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An employee covered under the Payment of Gratuity Act has a last drawn basic salary of Rs. 50,000, DA of Rs. 10,000, and has completed 16 years and 7 months of service. What is the gratuity amount payable?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 5,88,462 calculated as (15 × Rs. 60,000 × 17) / 26]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 4,80,000 calculated as (15 × Rs. 60,000 × 16) / 30]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 5,53,846 calculated as (15 × Rs. 60,000 × 16) / 26]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 5,10,000 calculated as (15 × Rs. 60,000 × 17) / 30]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For employees covered under the Payment of Gratuity Act, the formula is: (15 × last drawn salary × years of service) / 26. Last drawn salary = basic + DA = Rs. 60,000. Since he has 16 years and 7 months, and any period exceeding 6 months is rounded up to the next full year, years of service = 17. Gratuity = (15 × 60,000 × 17) / 26 = Rs. 5,88,462.
+
+**The Trap:** Using the divisor 30 instead of 26 is the trap — 30 applies to employees NOT covered under the Act. Also, not rounding up 16 years 7 months to 17 years is another common error. Under the Act, the rounding rule applies to the fraction exceeding 6 months. For non-Act employees, only completed years count.
+
+**Cross-Exam Context:** Gratuity calculations are tested in NISM X-A, X-B, and in HR/Labour law certifications. The Act vs non-Act distinction (26 vs 30 divisor, rounding vs completed years) is a perennial exam favorite.
+
+**Distributor's Pro-Tip:** Always verify whether the client's employer is covered under the Payment of Gratuity Act. The difference between /26 and /30, plus the rounding rule, can result in a significantly different payout. Also remind clients of the Rs. 20 lakh tax-free cap.]]></text></explanation>
+    </question>
+</QF>

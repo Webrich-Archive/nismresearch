@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Basics of Insurance_C1_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Rajesh (age 35) is a salaried professional earning Rs. 15,00,000 per annum. He lives with his wife Sunita (age 30, homemaker), son Arjun (age 8), and daughter Priya (age 5). Rajesh has the following insurance portfolio: (1) A term life insurance policy of Rs. 1,00,00,000 with his mother Kamala as nominee, (2) A family floater health insurance (Mediclaim) with sum insured Rs. 5,00,000, co-pay clause of 15%, and compulsory deductible of Rs. 5,000, (3) A ULIP policy started 3 years ago with annual premium of Rs. 1,50,000, (4) A car insurance policy for his sedan (1400 CC engine) with compulsory deductible of Rs. 1,000 and voluntary deductible of Rs. 2,000. Recently, Sunita was hospitalised and incurred a bill of Rs. 3,50,000. Rajesh also wants to partially withdraw from his ULIP to fund his son's school admission. His investment adviser has recommended reviewing the nominee structure of his life insurance policy. The adviser also notes that Rajesh's ULIP was sold without any documented suitability analysis.
+
+<b>Question 1 of 5:</b> Based on Sunita's hospitalisation bill of Rs. 3,50,000, what amount will the insurance company pay under Rajesh's family floater health insurance policy (after applying deductible first, then co-pay)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 2,93,250]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,97,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,92,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 3,02,250]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step 1: Subtract deductible first: Rs. 3,50,000 - Rs. 5,000 = Rs. 3,45,000. Step 2: Apply co-pay of 15% on the remainder: 15% of Rs. 3,45,000 = Rs. 51,750 (borne by Rajesh). Insurer pays: Rs. 3,45,000 - Rs. 51,750 = Rs. 2,93,250.
+**The Trap:** Rs. 2,97,500 is obtained by applying only co-pay without deductible (15% of 3,50,000 = 52,500; 3,50,000 - 52,500 = 2,97,500). Rs. 2,92,500 results from applying co-pay first then deductible (wrong sequence). Always remember: Deductible FIRST, then co-pay on the remainder.
+**Cross-Exam Context:** Co-pay and deductible calculations are high-frequency questions in NISM Series X-B. The sequence (deductible first, then co-pay) is critical and frequently tested.
+**Distributor's Pro-Tip:** Help clients calculate their maximum out-of-pocket expense under different claim scenarios. In this case, Rajesh pays Rs. 5,000 (deductible) + Rs. 51,750 (co-pay) = Rs. 56,750 out of Rs. 3,50,000. This helps in deciding whether to opt for co-pay (lower premium) vs no co-pay (higher premium).]]></text></explanation>
+    </question>
+</QF>

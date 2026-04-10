@@ -1,8 +1,8 @@
 # NISM Question Bank — Handoff Document
 
-**Date:** April 10, 2026 (Updated after Phase 11a completion — Series X-A Session 3)
-**Status:** 16 of 31 exams complete. 7,143 questions generated. Series X-A is COMPLETE with 500 questions across 6 topics and 20 caselets.
-**For:** Next session should begin Phase 11b — Series X-B Investment Adviser Level 2, or another exam from the remaining 15.
+**Date:** April 10, 2026 (Updated after Phase 11b Session 1 — Series X-B Modules 7-8)
+**Status:** 16 of 31 exams complete + X-B in progress (Session 1 of 3 done). 7,313 questions generated. Series X-B has 170 questions across 6 topics (of 18) with 6 caselets.
+**For:** Next session should continue Phase 11b — Series X-B Session 2 (Module 9: Taxation, 7 topics, ~190 Qs).
 
 ---
 
@@ -29,6 +29,36 @@
 | Series IX - Merchant Banking | IX | 500 | 8 | Moderate | Generated from PDF (10% calc, 45% conceptual, 35% regulatory, 10% application) |
 | Series X-A - Investment Adviser Level 1 | X-A | 500 | 6 | Hard | Generated from PDF (20% calc, 30% conceptual, 35% regulatory, 15% application). 20 caselets (100 caselet Qs). |
 | **Total (completed)** | | **7,143** | **156** | | |
+
+### In-Progress Exams
+
+| Exam | Code | Questions So Far | Topics Done | Total Topics | Difficulty | Status |
+|------|:----:|:----------------:|:-----------:|:------------:|:----------:|:------:|
+| Series X-B - Investment Adviser Level 2 | X-B | 170 | 6/18 | 18 | Hard | Session 1 complete (Modules 7-8). 6 caselets (30 caselet Qs). |
+
+**X-B Session 1 Breakdown (Modules 7-8: Insurance + Retirement):**
+
+| Topic (exact plist key) | MCQs | Caselets | Caselet Qs | Total |
+|--------------------------|:----:|:--------:|:----------:|:-----:|
+| Basics of Insurance | 25 | 2 | 10 | 35 |
+| Life Insurance Products | 25 | 0 | 0 | 25 |
+| Alternative Investments | 25 | 0 | 0 | 25 |
+| Commodity and Real Estate Investment | 25 | 0 | 0 | 25 |
+| Portfolio Creation for Retirement | 15 | 2 | 10 | 25 |
+| Retirement Products - Accumulation and Distribution | 25 | 2 | 10 | 35 |
+| **Session 1 Total** | **140** | **6** | **30** | **170** |
+
+**Topic-to-Chapter Mapping (verified from PDF):**
+- Basics of Insurance → Ch 1 (pp 16-37)
+- Life Insurance Products → Ch 2-3 (pp 38-68)
+- Alternative Investments → Ch 5 NPS Asset Class A + Ch 12.4-12.6 (REIT, InvIT, AIF)
+- Commodity and Real Estate Investment → Ch 12.2 (SGBs) + Ch 12.4 (REIT) + Ch 5.3.7 (Reverse Mortgage)
+- Portfolio Creation for Retirement → Ch 4, 6 (pp 70-80, 120-133)
+- Retirement Products - Accumulation and Distribution → Ch 5 (pp 81-119)
+
+**Remaining for X-B (Sessions 2-3, ~330 Qs):**
+- Session 2 (Module 9: Taxation): 7 topics, ~190 Qs, 6 caselets
+- Session 3 (Modules 10-12: Estate + Behavioral + Comprehensive): 5 topics, ~140 Qs, 8 caselets
 
 ### Generated Files
 

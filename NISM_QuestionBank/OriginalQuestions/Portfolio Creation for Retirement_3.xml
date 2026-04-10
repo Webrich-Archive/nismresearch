@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Portfolio Creation for Retirement_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investor needs to accumulate a retirement corpus of Rs. 1.18 crore. He earns a return of 12% per annum (compounded monthly). If he starts investing at age 30 and retires at 60, what is the approximate monthly SIP required? If he delays starting to age 40, by approximately how much does his required monthly SIP increase?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 3,376/month at age 30; increases by Rs. 2,904 if delayed to age 40]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 3,376/month at age 30; increases by Rs. 8,552 if delayed to age 40]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 6,280/month at age 30; increases by Rs. 5,648 if delayed to age 40]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 11,928/month at age 30; increases by Rs. 3,376 if delayed to age 40]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Using the PMT formula with FV = Rs. 1.18 Cr, rate = 12%/12 = 1% per month: At age 30 (30 years = 360 months), PMT = Rs. 3,376/month. At age 40 (20 years = 240 months), PMT = Rs. 11,928/month. The increase = Rs. 11,928 - Rs. 3,376 = Rs. 8,552. This demonstrates the massive impact of a 10-year delay -- the required SIP more than triples.
+
+**The Trap:** The first distractor (Rs. 2,904 increase) confuses the difference between age 30 and 35 starting points (Rs. 6,280 - Rs. 3,376). The third option wrongly uses Rs. 6,280 (the age-35 figure) as the starting point. The fourth option reverses the values entirely.
+
+**Cross-Exam Context:** NISM Series X-A tests basic TVM calculations. The PMT function and the cost of delay is a staple topic in both X-A and X-B examinations.
+
+**Distributor's Pro-Tip:** The textbook explicitly shows: start at 30 = Rs. 3,376/month, start at 35 = Rs. 6,280/month, start at 40 = Rs. 11,928/month. A 10-year delay costs 3.5x more monthly outflow. Always show clients this comparison to motivate early investing.]]></text></explanation>
+    </question>
+</QF>

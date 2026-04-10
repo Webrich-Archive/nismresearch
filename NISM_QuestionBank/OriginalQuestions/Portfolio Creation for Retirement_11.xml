@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Portfolio Creation for Retirement_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Today, Rs. 100 has a certain purchasing power. At a constant inflation rate of 6% per annum, what will be the equivalent purchasing power amount needed in 30 years to match today's Rs. 100?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 321]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 179]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 574]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 434]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** FV = Rs. 100 x (1.06)^30 = Rs. 100 x 5.7435 = Rs. 574 (approximately). This is directly from the textbook which states: Rs. 100 today = Rs. 179 in 10 years, Rs. 321 in 20 years, Rs. 574 in 30 years at 6% inflation.
+
+**The Trap:** Rs. 179 is the 10-year figure and Rs. 321 is the 20-year figure -- both directly from the textbook but for different time horizons. Candidates who remember the textbook numbers but mix up the time periods will select these. Rs. 434 might result from using 5% inflation instead of 6%.
+
+**Cross-Exam Context:** This is a fundamental time value of money concept tested across NISM Series V-A, X-A, and X-B. The specific figures (179, 321, 574) are textbook benchmarks that candidates should memorize.
+
+**Distributor's Pro-Tip:** Use this simple illustration with clients: what costs Rs. 100 today will cost Rs. 574 when their child (born today) turns 30. This makes inflation viscerally real and motivates long-term investing. The purchasing power of money declines by nearly 83% over 30 years at 6% inflation.]]></text></explanation>
+    </question>
+</QF>

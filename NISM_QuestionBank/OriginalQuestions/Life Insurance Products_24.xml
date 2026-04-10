@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Life Insurance Products_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A regular premium life insurance policy with a term of 8 years lapses after 1.5 years of premium payment. After how many years of premium payment would this policy have acquired a surrender value?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[After 2 years of premium payment, since the policy term is less than 10 years]]></text></answer>
+            <answer correct="no"><text><![CDATA[After 3 years of premium payment, as this is the universal rule for all policies]]></text></answer>
+            <answer correct="no"><text><![CDATA[After 1 year of premium payment, as surrender value accrues from the first premium]]></text></answer>
+            <answer correct="no"><text><![CDATA[After 5 years of premium payment, aligned with the ULIP lock-in period]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For policies with a term of LESS than 10 years, the surrender value is acquired after 2 years of premium payment (not 3 years). This 8-year policy falls under this shorter threshold. Since the policyholder paid for only 1.5 years, they have not yet acquired any surrender value. They would have needed to complete at least 2 full years.
+**The Trap:** The 3-year rule is commonly remembered but applies only to policies with a term of 10 years or more. The 5-year lock-in applies specifically to ULIPs, not traditional policies. Surrender value does not accrue from the first premium for any policy type.
+**Cross-Exam Context:** The distinction between the 2-year and 3-year surrender value acquisition thresholds based on policy term is a nuanced regulatory point tested in NISM X-B.
+**Distributor's Pro-Tip:** For short-term policies (under 10 years), remind clients that the surrender value vesting period is shorter at 2 years. This can be a positive selling point for clients hesitant about long commitments.]]></text></explanation>
+    </question>
+</QF>

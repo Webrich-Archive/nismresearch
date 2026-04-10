@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Alternative Investments_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A REIT distributes dividend from an SPV that has NOT opted for Section 115BAA. How is this dividend treated for unit-holders?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Exempt for unit-holders under Section 10(23FD)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Taxable for unit-holders at their slab rate]]></text></answer>
+            <answer correct="no"><text><![CDATA[Taxable for unit-holders at a flat 10%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Taxable at the REIT level and exempt for unit-holders]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When the SPV has NOT opted for the concessional tax regime under Section 115BAA, dividend from that SPV distributed through the REIT is exempt at both the REIT level and the unit-holder level. The unit-holder exemption is provided under Section 10(23FD). This is the more favorable tax treatment for unit-holders.
+**The Trap:** "Taxable for unit-holders at their slab rate" would be correct if the SPV HAD opted for 115BAA. The 115BAA election creates a trade-off: SPV pays lower corporate tax, but unit-holders lose the dividend exemption. Without 115BAA, unit-holders get full exemption.
+**Cross-Exam Context:** NISM Series X-B specifically tests both scenarios (with and without 115BAA) to ensure candidates understand the cascading impact on unit-holder taxation.
+**Distributor's Pro-Tip:** This is a powerful planning insight: REITs whose SPVs have NOT opted for 115BAA provide tax-free dividends to unit-holders. When comparing two REITs, check the 115BAA status of underlying SPVs -- it can make a material difference to after-tax returns.]]></text></explanation>
+    </question>
+</QF>

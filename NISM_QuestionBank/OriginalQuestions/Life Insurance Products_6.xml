@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Life Insurance Products_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If a person's expected inflation rate equals their expected post-tax rate of return, what simplification occurs in the Human Life Value (HLV) calculation?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[HLV simply equals current annual income multiplied by the number of years to retirement]]></text></answer>
+            <answer correct="no"><text><![CDATA[HLV becomes zero because the discount rate is zero]]></text></answer>
+            <answer correct="no"><text><![CDATA[HLV equals twice the current annual income multiplied by years to retirement]]></text></answer>
+            <answer correct="no"><text><![CDATA[HLV cannot be calculated when inflation equals return]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When inflation = post-tax return, the real discount rate = (1+r)/(1+i) - 1 = 0. When the discount rate is 0%, the present value of an annuity of Rs. X for N years is simply X x N. So HLV = current income x years to retirement.
+**The Trap:** "HLV becomes zero" confuses the discount rate being zero with the HLV being zero. A zero discount rate means no time-value adjustment, not zero value. The annuity formula at 0% rate simply sums all payments.
+**Cross-Exam Context:** This conceptual shortcut is tested in NISM X-B to ensure candidates understand the mechanics behind HLV, not just the formula.
+**Distributor's Pro-Tip:** In practice, this scenario (inflation = return) often approximates reality for conservative investors. Use it as a quick mental check for HLV estimates.]]></text></explanation>
+    </question>
+</QF>

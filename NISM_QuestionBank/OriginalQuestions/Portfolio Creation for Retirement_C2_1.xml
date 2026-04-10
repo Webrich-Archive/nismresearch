@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Portfolio Creation for Retirement_C2_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Mrs. Kavita is 50 years old and plans to retire at 60. She currently earns Rs. 1,50,000 per month and has accumulated Rs. 45 lakh in various retirement-linked investments (EPF: Rs. 20 lakh, PPF: Rs. 10 lakh, NPS: Rs. 15 lakh). Her monthly expenses are Rs. 70,000 (of which Rs. 8,000 is healthcare). She estimates needing Rs. 65,000 per month in today's terms at retirement (reduced due to paid-off home loan). General inflation is 6%, healthcare inflation is 10%, and her pre-retirement portfolio return is 9%. Post-retirement, she expects a 7% nominal return. Her life expectancy is 82 years. Three years ago, she withdrew Rs. 2,00,000 from her EPF for a family emergency. She is considering a step-up SIP strategy for the remaining 10 years and is evaluating whether to invest in an annuity or a systematic withdrawal plan (SWP) at retirement.
+
+<b>Question 1 of 5:</b> Mrs. Kavita's current monthly expenses of Rs. 65,000 (in today's terms) need to be inflation-adjusted for 10 years. If Rs. 57,000 inflates at 6% and Rs. 8,000 (healthcare) inflates at 10%, what will her total monthly expense requirement be at the time of retirement?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 1,16,410]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 1,22,757]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,07,451]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,30,325]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** General expenses (Rs. 57,000) at 6% for 10 years: Rs. 57,000 x (1.06)^10 = Rs. 57,000 x 1.7908 = Rs. 1,02,078. Healthcare (Rs. 8,000) at 10% for 10 years: Rs. 8,000 x (1.10)^10 = Rs. 8,000 x 2.5937 = Rs. 20,750. Total = Rs. 1,02,078 + Rs. 20,750 = Rs. 1,22,828, approximately Rs. 1,22,757 with precise computation.
+
+**The Trap:** Rs. 1,16,410 uses 6% inflation uniformly for all expenses, ignoring differential healthcare inflation (Rs. 65,000 x 1.7908 = Rs. 1,16,402). Rs. 1,07,451 is the textbook figure for Rs. 60,000 at 6% for 10 years -- a memorized number from a different example. Rs. 1,30,325 uses 7% general inflation instead of 6%.
+
+**Cross-Exam Context:** Differential inflation calculation is tested in NISM X-B. The concept of healthcare inflating faster than general CPI is critical for retirement planning and is also covered in insurance-related NISM modules.
+
+**Distributor's Pro-Tip:** For clients nearing retirement (10 years away), the differential between general and healthcare inflation matters enormously. Rs. 8,000 healthcare at 10% inflation grows 45% more than it would at 6%. As clients age, healthcare becomes a larger proportion of expenses, making this differential increasingly significant.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Life Insurance Products_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A pure term insurance policy costs Rs. 9,416 per year for Rs. 1 crore cover over 30 years, while a return-of-premium term plan costs Rs. 17,473 per year for the same cover and term. The return-of-premium plan refunds all premiums at maturity. What is the approximate inherent return on the extra premium paid for the return-of-premium plan?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Approximately 4.61% per annum]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 8.50% per annum]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 2.30% per annum]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 6.75% per annum]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The extra annual premium = Rs. 17,473 - Rs. 9,416 = Rs. 8,057. The maturity refund = Rs. 17,473 x 30 = Rs. 5,24,190. Using the RATE function with PMT = -8,057, Nper = 30, FV = 5,24,190, PV = 0, the inherent return on the extra premium is approximately 4.61% per annum.
+**The Trap:** 8.50% might be selected if someone incorrectly calculates using total premium as the investment. 2.30% results from calculation errors. Candidates must understand that only the EXTRA premium (difference between the two plans) is the "investment" earning this return.
+**Cross-Exam Context:** NISM X-B tests the ability to evaluate insurance products as investment vehicles using financial functions like RATE and XIRR.
+**Distributor's Pro-Tip:** A 4.61% return barely beats fixed deposits after tax. Advise clients to compare this return against investing the difference in mutual funds, which historically offer 10-12% over 30 years.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Life Insurance Products_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Mr. Jeevan, aged 35, is evaluating two options for Rs. 100 lakh life cover over 20 years. Option 1: Term insurance at Rs. 1,100/month + mutual fund SIP of Rs. 25,000/month. Option 2: Type 2 ULIP at Rs. 26,100/month. Which of the following is the most critical analytical consideration for comparing these two options?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The total cost of insurance (mortality and admin charges) within the ULIP must be isolated and compared with the term premium, and the net investment return of the ULIP fund must be compared with the mutual fund SIP return after all charges]]></text></answer>
+            <answer correct="no"><text><![CDATA[The ULIP is always superior because it combines insurance and investment in a single product, reducing paperwork]]></text></answer>
+            <answer correct="no"><text><![CDATA[The term + mutual fund option is always superior because mutual funds have no lock-in period]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both options are identical since the total monthly outflow is approximately the same at Rs. 26,100]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A proper comparison requires decomposing the ULIP into its insurance and investment components. The mortality charges within the ULIP must be compared with the term premium, and the net fund return (after all ULIP charges like fund management, policy admin, and premium allocation charges) must be compared with mutual fund SIP returns (after expense ratio). Simply comparing total outflows is misleading.
+**The Trap:** Neither option is "always" superior -- the outcome depends on actual charges, fund performance, and the investor's discipline. The ULIP's 5-year lock-in vs mutual fund's liquidity is relevant but not the "most critical" factor. Same total outflow does not mean same value.
+**Cross-Exam Context:** NISM X-B specifically tests the "term + MF vs ULIP" comparison framework as a key advisory competency.
+**Distributor's Pro-Tip:** Use an XIRR-based comparison over the full policy term, accounting for all charges on both sides. Also consider behavioural factors -- ULIPs enforce discipline through lock-in, while MF SIPs can be stopped impulsively.]]></text></explanation>
+    </question>
+</QF>

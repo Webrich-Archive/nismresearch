@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Portfolio Creation for Retirement_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If the nominal rate of return on an investment portfolio is 10% per annum and the inflation rate is 6% per annum, what is the real rate of return?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[4.00%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[3.77%]]></text></answer>
+            <answer correct="no"><text><![CDATA[3.50%]]></text></answer>
+            <answer correct="no"><text><![CDATA[6.00%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The real rate of return is calculated using the Fisher equation: Real Rate = {(1 + Nominal Return) / (1 + Inflation)} - 1 = {(1.10) / (1.06)} - 1 = 1.03774 - 1 = 0.03774 or 3.77%. This is the inflation-adjusted return that represents actual purchasing power growth.
+
+**The Trap:** 4.00% is the most tempting distractor because candidates often simply subtract inflation from nominal return (10% - 6% = 4%). This approximation overstates the real return. The Fisher equation gives a slightly lower and more accurate figure. 3.50% and 6.00% are computational errors.
+
+**Cross-Exam Context:** The Fisher equation is tested across NISM Series X-A, X-B, and also in NISM Series V-A (Mutual Fund Distributors). The textbook specifically uses this formula: {(1+8%)/(1+6%)-1} = 1.89% as an example in retirement corpus calculations.
+
+**Distributor's Pro-Tip:** Never approximate real returns by simple subtraction when building retirement models. Over 25-30 year horizons, even a 0.23% difference (4% vs 3.77%) compounds into a significant corpus difference. Always use the Fisher equation for precision.]]></text></explanation>
+    </question>
+</QF>

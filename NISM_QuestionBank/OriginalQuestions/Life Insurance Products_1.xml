@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Life Insurance Products_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Rajesh, aged 40, purchases a term insurance policy with a policy term of 15 years and an annual premium of Rs. 50,000. As per IRDAI regulations, what is the minimum sum assured that must be offered under this policy?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 5,00,000 (10 times the annual premium)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 3,50,000 (7 times the annual premium)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,50,000 (5 times the annual premium)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 7,50,000 (15 times the annual premium)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For policies with a term greater than 10 years, IRDAI mandates a minimum sum assured of 10 times the annual premium for policyholders aged below 45. Rajesh is 40 (below 45) and has a 15-year term (above 10 years), so the minimum is 10x Rs. 50,000 = Rs. 5,00,000.
+**The Trap:** The 7x multiple applies only to policyholders aged above 45. The 5x multiple applies only to policies with a term of less than 10 years. Candidates who confuse age and term thresholds pick the wrong multiplier.
+**Cross-Exam Context:** NISM Series V-A (Mutual Fund Distributors) also tests insurance basics as part of financial planning modules.
+**Distributor's Pro-Tip:** Always verify the client's age AND policy term together before quoting minimum sum assured -- the multiplier changes based on both parameters.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Commodity and Real Estate Investment_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investor holds units of a Gold Mutual Fund for 30 months and sells them at a profit. How will the capital gains be taxed?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[STCG at slab rate since gold funds are treated as debt funds]]></text></answer>
+            <answer correct="no"><text><![CDATA[LTCG at 20% with indexation benefit]]></text></answer>
+            <answer correct="yes"><text><![CDATA[LTCG at 12.5% without indexation since holding period exceeds 24 months]]></text></answer>
+            <answer correct="no"><text><![CDATA[LTCG fully exempt since it is a government-backed gold product]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Gold funds (Fund of Funds investing in Gold ETFs or international gold funds) have a 24-month threshold for STCG/LTCG classification. Since the holding period is 30 months (>24 months), it qualifies as LTCG taxed at 12.5% without indexation. If held for 24 months or less, it would be STCG taxed at the investor's slab rate.
+**The Trap:** The 20% with indexation rate is the old regime - post amendment, gold fund LTCG is 12.5% without indexation. The full exemption applies only to SGBs at maturity, not to gold mutual funds.
+**Cross-Exam Context:** NISM Series V-A (Mutual Fund) extensively covers taxation of different mutual fund categories including gold funds.
+**Distributor's Pro-Tip:** Compared to SGBs (tax-free at maturity), gold funds carry a 12.5% LTCG tax. However, gold funds offer daily liquidity and no lock-in, making them suitable for tactical gold allocation.]]></text></explanation>
+    </question>
+</QF>
