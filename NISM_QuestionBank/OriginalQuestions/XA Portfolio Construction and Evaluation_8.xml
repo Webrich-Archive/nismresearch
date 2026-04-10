@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_8" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Vikram constructs a portfolio with 4 assets: Asset P (weight 20%, return 9%), Asset Q (weight 10%, return 12%), Asset R (weight 30%, return 15%), and Asset S (weight 40%, return 18%). What is the expected return of Vikram's portfolio?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[13.50%]]></text></answer>
+            <answer correct="no"><text><![CDATA[15.00%]]></text></answer>
+            <answer correct="no"><text><![CDATA[14.20%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[14.70%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Portfolio return = Σ(wi × Ri) = (0.20 × 9%) + (0.10 × 12%) + (0.30 × 15%) + (0.40 × 18%) = 1.8% + 1.2% + 4.5% + 7.2% = 14.7%.
+**The Trap:** 13.50% is the simple arithmetic average of the four returns (9+12+15+18)/4, ignoring weights. 15.00% and 14.20% result from common calculation errors in applying weights. Candidates who rush often default to simple averages.
+**Cross-Exam Context:** Weighted average portfolio return is a fundamental calculation tested in virtually all NISM exams including Series V-A, X-A, X-B, and XV.
+**Distributor's Pro-Tip:** Portfolio return is always the weighted average of constituent returns — never the simple average. The weights dramatically affect outcomes, especially when the highest-return asset has the largest weight as in this case.]]></text></explanation>
+    </question>
+</QF>

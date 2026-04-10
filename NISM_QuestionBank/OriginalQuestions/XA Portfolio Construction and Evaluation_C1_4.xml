@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_C1_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Ramesh, a 40-year-old IT professional based in Bengaluru, is working with his SEBI-registered investment adviser, Kavitha, to construct a two-asset portfolio. Kavitha presents the following data for two mutual fund categories:
+
+Stock Fund (Large-Cap Equity): Expected return = 14% per annum, Standard deviation = 20%
+Bond Fund (Corporate Debt): Expected return = 8% per annum, Standard deviation = 10%
+Correlation coefficient between the two funds = 0.30
+
+After assessing Ramesh's risk profile, Kavitha recommends an allocation of 70% to the Stock Fund and 30% to the Bond Fund. The prevailing risk-free rate (based on 91-day Treasury Bill yield) is 6% per annum.
+
+Ramesh wants to understand how this portfolio performs in terms of expected return, risk, and risk-adjusted return. He also wants to explore how changes in the correlation between the two asset classes could impact his portfolio's overall risk. Kavitha explains the concepts of diversification benefit, portfolio variance, and the Sharpe ratio to help Ramesh make an informed decision.
+
+<b>Question 4 of 5:</b> If Ramesh wants to minimize his portfolio risk through diversification, should Kavitha recommend assets with higher or lower correlation?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Higher correlation, as it ensures both assets move together and reduces uncertainty]]></text></answer>
+            <answer correct="no"><text><![CDATA[Correlation has no impact on portfolio risk; only individual asset risks matter]]></text></answer>
+            <answer correct="no"><text><![CDATA[Higher correlation, as it increases the diversification benefit]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Lower correlation, as it increases the diversification benefit and reduces portfolio risk]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In the two-asset portfolio variance formula, the term 2 x W1 x W2 x σ1 x σ2 x ρ shows that lower correlation (ρ) directly reduces the portfolio variance. When ρ decreases, the covariance term decreases, leading to lower portfolio risk. At ρ = -1, maximum diversification benefit is achieved.
+
+**The Trap:** Some candidates may confuse correlation with causation, or believe that higher correlation is better because assets "move together predictably." In reality, predictability of co-movement does not reduce risk — opposing movements (low/negative correlation) do.
+
+**Cross-Exam Context:** This is a foundational concept in Harry Markowitz's Modern Portfolio Theory. NISM tests this principle across multiple chapters — understanding it is essential for portfolio construction and asset allocation decisions.
+
+**Distributor's Pro-Tip:** When constructing client portfolios, actively seek asset classes with low correlation to each other — for example, combining equity, debt, and gold can provide meaningful diversification benefits.]]></text></explanation>
+    </question>
+</QF>

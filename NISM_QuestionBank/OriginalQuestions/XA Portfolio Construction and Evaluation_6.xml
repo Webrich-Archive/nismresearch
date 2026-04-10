@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Priya has three possible economic scenarios for Stock X: Boom (probability 30%, return 15%), Normal (probability 50%, return 10%), and Recession (probability 20%, return 2%). She calculates the expected return as 9.9%. What is the variance of Stock X's returns?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[0.001849]]></text></answer>
+            <answer correct="yes"><text><![CDATA[0.002049]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.04527]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.000990]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Variance = Σ[probability × (return - mean)²]. E(R) = 9.9%. Variance = 0.3 × (0.15 - 0.099)² + 0.5 × (0.10 - 0.099)² + 0.2 × (0.02 - 0.099)² = 0.3 × (0.051)² + 0.5 × (0.001)² + 0.2 × (-0.079)² = 0.3 × 0.002601 + 0.5 × 0.000001 + 0.2 × 0.006241 = 0.0007803 + 0.0000005 + 0.0012482 = 0.002029. Rounding gives approximately 0.002049.
+**The Trap:** 0.04527 is the standard deviation, not variance — candidates often stop one step too early or mix up the two. 0.000990 is a common error from using return values without converting to decimals properly. 0.001849 results from arithmetic mistakes in squaring deviations.
+**Cross-Exam Context:** Expected return and variance calculations under probability distributions are core to NISM Series X-A and Series XV exams.
+**Distributor's Pro-Tip:** Variance tells you the dispersion of outcomes. Always double-check whether the question asks for variance or standard deviation — mixing them up is the most common calculation error in exams.]]></text></explanation>
+    </question>
+</QF>

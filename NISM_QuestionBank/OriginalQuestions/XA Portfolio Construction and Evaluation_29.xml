@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_29" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Rohit's portfolio earned an annualized return of 14% while the benchmark earned 11%. The tracking error of the portfolio is 6%. What is the Information Ratio?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[2.33]]></text></answer>
+            <answer correct="yes"><text><![CDATA[0.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.83]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.75]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Information Ratio = (Rp - Rb)/Tracking Error = (14% - 11%)/6% = 3%/6% = 0.50. The IR measures active return per unit of active risk (tracking error).
+**The Trap:** 2.33 divides the portfolio return by the tracking error (14/6) instead of using excess return over benchmark. 1.83 divides the benchmark return by tracking error. 0.75 uses an incorrect tracking error assumption of 4%.
+**Cross-Exam Context:** Information Ratio is specifically relevant for evaluating active fund managers — tested in NISM X-A and increasingly in Series V-A.
+**Distributor's Pro-Tip:** An IR above 0.50 is considered good; above 0.75 is very good. It tells you whether the manager's deviation from benchmark is rewarded or wasted.]]></text></explanation>
+    </question>
+</QF>

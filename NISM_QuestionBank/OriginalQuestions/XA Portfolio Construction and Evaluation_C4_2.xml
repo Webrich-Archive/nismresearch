@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_C4_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Meera Kulkarni, a 45-year-old IT professional, has been investing in a diversified equity portfolio managed by a SEBI-registered Portfolio Management Service (PMS) over a 3-year period from April 2021 to March 2024. Her investment adviser, Mr. Deshmukh, is evaluating the portfolio's performance using different return measurement methods. The portfolio details are as follows:
+
+- Initial investment on 1 April 2021: Rs. 5,00,000
+- Portfolio value on 31 March 2022 (before additional investment): Rs. 5,75,000
+- Additional investment on 1 April 2022: Rs. 2,00,000
+- Portfolio value on 31 March 2023 (before additional investment): Rs. 8,50,000
+- Additional investment on 1 April 2023: Rs. 3,00,000
+- Portfolio value on 31 March 2024: Rs. 12,60,000
+
+There were no withdrawals, no dividend payouts, and no other income distributions during the entire period. Mr. Deshmukh wants to compute the Holding Period Return (HPR) for each year, the Time-Weighted Rate of Return (TWRR), and compare it with the Money-Weighted Rate of Return (MWRR) to present a fair performance report to Meera as required under SEBI PMS regulations.
+
+<b>Question 2 of 5:</b> What is the Holding Period Return (HPR) for Year 2 (FY 2022-23)?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[10.32%]]></text></answer>
+            <answer correct="no"><text><![CDATA[8.75%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[9.68%]]></text></answer>
+            <answer correct="no"><text><![CDATA[12.90%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** At the start of Year 2 (1 April 2022), the portfolio value = Rs. 5,75,000 (value before additional investment) + Rs. 2,00,000 (additional investment) = Rs. 7,75,000. End of Year 2 value = Rs. 8,50,000 (before additional investment). HPR for Year 2 = (8,50,000 - 7,75,000) / 7,75,000 = 75,000 / 7,75,000 = 0.096774 = 9.68% (rounded to 2 decimal places).
+**The Trap:** The distractor 12.90% results from incorrectly using only the original Rs. 5,75,000 as the starting value without adding the Rs. 2,00,000 additional investment. The key is that the beginning value for each sub-period must include any cash inflow at the start of that period.
+**Cross-Exam Context:** Sub-period return calculation with interim cash flows is a core skill for NISM X-A and X-B candidates. The TWRR methodology requires accurate sub-period HPR calculations.
+**Distributor's Pro-Tip:** When additional investments are made at the start of a period, the denominator for HPR must include the fresh inflow. This is different from MWRR where cash flows are treated as occurring at their actual dates.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_26" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Ankit invests INR 10,00,000 in a fund. After Year 1 the value grows to INR 12,00,000 (no cash flow). At the start of Year 2, he adds INR 5,00,000, making the total INR 17,00,000. At the end of Year 2, the total value is INR 18,70,000. What is the annualized Time-Weighted Rate of Return (TWRR)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[14.89%]]></text></answer>
+            <answer correct="no"><text><![CDATA[15.00%]]></text></answer>
+            <answer correct="no"><text><![CDATA[10.00%]]></text></answer>
+            <answer correct="no"><text><![CDATA[24.67%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** TWRR eliminates cash flow impact by linking sub-period returns. Year 1 return = (12,00,000 - 10,00,000)/10,00,000 = 20%. Year 2 return = (18,70,000 - 17,00,000)/17,00,000 = 10%. TWRR = [(1.20)(1.10)]^(1/2) - 1 = (1.32)^0.5 - 1 = 1.14891 - 1 = 14.89%.
+**The Trap:** 15.00% is the simple arithmetic average of 20% and 10%, which overstates the true compounded return. 10.00% picks only the Year 2 sub-period return. 24.67% calculates total gain (8,70,000) over original investment (10,00,000) divided by 2 without considering the additional contribution timing.
+**Cross-Exam Context:** SEBI mandates TWRR for PMS performance disclosure over 3 years — tested in NISM X-A and Series XXI-A (PMS).
+**Distributor's Pro-Tip:** TWRR is the only fair way to judge a fund manager's skill because it strips out the effect of client-driven cash flows.]]></text></explanation>
+    </question>
+</QF>

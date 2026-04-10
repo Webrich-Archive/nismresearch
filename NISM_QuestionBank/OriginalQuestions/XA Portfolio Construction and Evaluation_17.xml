@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_17" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Divya's portfolio consists of two stocks: 60% in Stock A (beta = 1.2) and 40% in Stock B (beta = 1.1). The portfolio earned 16% while the benchmark returned 12% and the risk-free rate is 5%. What is the portfolio beta and Jensen's Alpha?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Beta = 1.15, Alpha = 2.95%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Beta = 1.16, Alpha = 2.88%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Beta = 1.16, Alpha = 4.00%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Beta = 1.20, Alpha = 2.60%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Portfolio beta = weighted average = (0.60 × 1.2) + (0.40 × 1.1) = 0.72 + 0.44 = 1.16. Jensen's Alpha = Rp - [Rf + βp(Rm - Rf)] = 16% - [5% + 1.16(12% - 5%)] = 16% - [5% + 8.12%] = 16% - 13.12% = 2.88%.
+**The Trap:** Alpha = 4.00% is simply Rp - Rm (16% - 12%), ignoring the CAPM framework entirely. Beta = 1.15 is a rounding error or simple average. Beta = 1.20 uses only Stock A's beta, ignoring Stock B.
+**Cross-Exam Context:** Portfolio beta calculation and Jensen's Alpha are core topics in NISM Series X-A, X-B, and Series XV. Multi-step calculations combining both concepts are common in exams.
+**Distributor's Pro-Tip:** Portfolio beta is always a weighted average of individual betas. Jensen's Alpha measures the fund manager's skill — a positive alpha of 2.88% means Divya's stock selection added nearly 3% value beyond systematic risk compensation.]]></text></explanation>
+    </question>
+</QF>

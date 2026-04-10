@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A portfolio of 10 stocks requires estimation of covariance terms for the Markowitz model. How many unique covariance terms (excluding variances) need to be estimated?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[45]]></text></answer>
+            <answer correct="no"><text><![CDATA[55]]></text></answer>
+            <answer correct="no"><text><![CDATA[100]]></text></answer>
+            <answer correct="no"><text><![CDATA[90]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Number of unique covariance terms = (n² - n)/2 = (100 - 10)/2 = 45. The variance-covariance matrix has n² = 100 total cells, n = 10 diagonal cells are variances, and the remaining 90 off-diagonal cells are symmetric, so 90/2 = 45 unique covariances.
+**The Trap:** 100 counts all cells including variances and double-counted covariances. 55 adds the 10 variances to the 45 covariances [(n²+n)/2]. 90 counts each covariance pair twice without halving for symmetry.
+**Cross-Exam Context:** This concept explains why Sharpe's Single Index Model (reducing inputs) is practically important — tested in NISM X-A and X-B.
+**Distributor's Pro-Tip:** As portfolio size grows, estimation inputs explode — for 50 stocks, you need 1,225 covariances. This is why factor models are essential in practice.]]></text></explanation>
+    </question>
+</QF>

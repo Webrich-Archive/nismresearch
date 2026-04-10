@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_C5_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Anita Mehta, a 50-year-old businesswoman, has engaged a SEBI-registered investment adviser, Mr. Rajesh Iyer, to manage her portfolio. The portfolio is benchmarked against a strategic asset allocation of 60% equity and 40% debt. Mr. Rajesh follows a disciplined rebalancing approach and uses tracking error analysis to monitor portfolio deviation from the benchmark.
+
+The portfolio details are as follows:
+- Initial portfolio value: Rs. 50,00,000 (Rs. 30,00,000 in equity funds, Rs. 20,00,000 in debt funds) — matching the target allocation of 60:40
+- After one year: Equity portion grew to Rs. 38,00,000 and Debt portion grew to Rs. 21,00,000. Total portfolio value = Rs. 59,00,000
+- Target allocation remains 60% equity (Rs. 35,40,000) and 40% debt (Rs. 23,60,000)
+
+Quarterly portfolio returns versus the benchmark returns over the past 4 quarters were:
+- Q1: Portfolio 4.5%, Benchmark 4.0%
+- Q2: Portfolio -2.0%, Benchmark -1.5%
+- Q3: Portfolio 6.0%, Benchmark 5.5%
+- Q4: Portfolio 3.0%, Benchmark 3.5%
+
+Mr. Rajesh's rebalancing policy triggers a rebalance whenever any asset class deviates by more than 5 percentage points from its target allocation. He also needs to consider the costs of rebalancing, including transaction costs (brokerage, STT, GST) and tax implications (capital gains tax on selling appreciated assets).
+
+<b>Question 5 of 5:</b> What are the two primary costs that Mr. Rajesh must consider before executing a portfolio rebalancing for Anita?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Advisory fees and fund management charges — the adviser must account for ongoing fees that reduce rebalancing benefits]]></text></answer>
+            <answer correct="no"><text><![CDATA[Inflation risk and currency risk — rebalancing exposes the portfolio to purchasing power erosion and exchange rate fluctuations]]></text></answer>
+            <answer correct="no"><text><![CDATA[Market timing risk and liquidity risk — rebalancing at the wrong time can lock in losses and illiquid assets may be hard to sell]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Transaction costs (brokerage, STT, GST) and tax costs (capital gains tax on selling appreciated equity) — these direct costs can erode the benefits of rebalancing if done too frequently]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The two primary costs of portfolio rebalancing are: (1) Transaction costs — including brokerage charges, Securities Transaction Tax (STT), GST on brokerage, stamp duty, and exchange charges incurred when selling equity and buying debt instruments; and (2) Tax costs — when selling appreciated equity holdings to rebalance, capital gains tax is triggered. If equity mutual fund units held for less than 12 months are sold, Short-Term Capital Gains (STCG) tax of 20% applies. If held for more than 12 months, Long-Term Capital Gains (LTCG) tax of 12.5% applies on gains exceeding Rs. 1.25 lakh per year. These costs must be weighed against the risk-reduction benefit of rebalancing.
+**The Trap:** Advisory fees and fund management charges are ongoing costs, not specific to the rebalancing decision. Inflation risk and currency risk are not direct costs of rebalancing — they are broader portfolio risks. Market timing risk and liquidity risk are valid concerns but are not the "costs" of rebalancing in the traditional sense; they are risks associated with execution.
+**Cross-Exam Context:** Rebalancing costs are tested in NISM X-A and are also relevant for NISM V-A (Mutual Fund Distributors) and XXI-A (PMS). Understanding the cost-benefit trade-off of rebalancing frequency is essential for investment advisers.
+**Distributor's Pro-Tip:** To minimize tax costs, consider rebalancing using new inflows (fresh SIPs directed to the underweight asset class) rather than selling existing holdings. This achieves the same allocation adjustment without triggering capital gains tax. Also, tax-loss harvesting during rebalancing can offset gains.]]></text></explanation>
+    </question>
+</QF>

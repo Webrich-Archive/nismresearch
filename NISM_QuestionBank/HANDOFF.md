@@ -1,8 +1,8 @@
 # NISM Question Bank — Handoff Document
 
-**Date:** April 9, 2026 (Updated after Phase 7 — Series XIII Complete)
-**Status:** 14 of 31 exams complete, 6,143 questions generated. Series XIII (Common Derivatives) fully generated — 500 questions from I+IV+VIII composite.
-**For:** Next session should start with Phase 10 — Series IX (Merchant Banking).
+**Date:** April 10, 2026 (Updated after Phase 11a completion — Series X-A Session 3)
+**Status:** 16 of 31 exams complete. 7,143 questions generated. Series X-A is COMPLETE with 500 questions across 6 topics and 20 caselets.
+**For:** Next session should begin Phase 11b — Series X-B Investment Adviser Level 2, or another exam from the remaining 15.
 
 ---
 
@@ -26,31 +26,33 @@
 | Series VII - Securities Operations and Risk Management | VII | 500 | 8 | Moderate | Generated from PDF (10% calc, 50% conceptual, 30% regulatory, 10% application) |
 | Series XVI - Commodity Derivatives | XVI | 500 | 10 | Moderate | Generated from PDF (20% calc, 45% conceptual, 25% regulatory, 10% application) |
 | Series XIII - Common Derivatives (Composite) | XIII | 500 | 10 | Hard | Generated from I+IV+VIII PDFs (30% calc, 40% conceptual, 20% regulatory, 10% application) |
-| **Total** | | **6,143** | **142** | | |
+| Series IX - Merchant Banking | IX | 500 | 8 | Moderate | Generated from PDF (10% calc, 45% conceptual, 35% regulatory, 10% application) |
+| Series X-A - Investment Adviser Level 1 | X-A | 500 | 6 | Hard | Generated from PDF (20% calc, 30% conceptual, 35% regulatory, 15% application). 20 caselets (100 caselet Qs). |
+| **Total (completed)** | | **7,143** | **156** | | |
 
 ### Generated Files
 
 ```
 /Users/shivam/aiworkspace/nismresearch/NISM_QuestionBank/
-├── ExamWeightages.plist          (31 exams, topic names aligned with file prefixes for 14 completed exams)
-├── Topics.plist                  (142 topics, 6,143 questions)
-├── TopicsLite.plist              (142 topics, ~2,209 free-tier questions)
-├── ChapterArticles.plist         (142 chapters, each with single "All Topics" article)
-├── QuestionToArticleNumber.plist (6,143 entries, all mapping to article "1")
-├── OriginalQuestions/            (6,143 XML files)
+├── ExamWeightages.plist          (31 exams, topic names aligned with file prefixes for 15 completed exams)
+├── Topics.plist                  (156 topics, 7,143 questions)
+├── TopicsLite.plist              (156 topics, ~2,189 free-tier questions, all ≥30%)
+├── ChapterArticles.plist         (156 chapters, each with single "All Topics" article)
+├── QuestionToArticleNumber.plist (7,143 entries, all mapping to article "1")
+├── OriginalQuestions/            (7,143 XML files)
 ├── manifest.json                 (progress tracking — version 5.0)
 ├── TaxRatesReference_FY2025-26.md (verified tax rates)
 ├── 15 audit report files         (detailed per-chapter audit results for first 5 exams)
 └── HANDOFF.md                    (this file)
 ```
 
-### Validation Status (All Pass — verified Session 15)
+### Validation Status (All Pass — verified Session 16, Phase 10)
 - 5/5 plists: OK (plutil)
-- 6,143/6,143 XML files: valid (xml.etree.ElementTree)
-- 0 duplicates, all unique IDs (including cross-check XIII vs I/IV/VIII)
-- 142 plist topics == 142 file prefixes: PERFECT MATCH
-- Series XIII: 10 ExamWeightages topics ↔ 10 file prefixes: MATCH, weightages sum = 100%
-- All TopicsLite ratios ≥ 30% for all 142 topics
+- 7,143/7,143 XML files: valid (xml.etree.ElementTree)
+- 0 intra-exam duplicates, all unique IDs
+- 156 plist topics == 156 file prefixes: PERFECT MATCH
+- Series X-A: 6 ExamWeightages topics ↔ 6 file prefixes: MATCH, weightages sum = 100%
+- All TopicsLite ratios ≥ 30% for all 156 topics
 
 ### Comprehensive Audit Results (Post-Session 4 Gap Analysis)
 
@@ -346,8 +348,8 @@ Once BOTH Phase 7a and 7b are done, run a quick cleanup:
 
 | Phase | Exams | Pool Target | Est. Sessions | Notes |
 |-------|-------|:-----------:|:-------------:|-------|
-| 10 | IX (Merchant Banking) | 500 | 1 | Unique IPO/M&A content. |
-| 11a | X-A (IA Level 1) | 500 | 1 | **Has caselets (40%).** Hard. 3-hr exam, 150 Qs. Needs caselet XML format. |
+| 10 | IX (Merchant Banking) | 500 | 1 | **DONE** — 500 Qs, 8 topics, all validated. Moderate (10% calc, 45% conceptual, 35% regulatory). |
+| 11a | X-A (IA Level 1) | 500 | 2-3 | **IN PROGRESS.** Session 1 done: 160/500 Qs (Topics 1-2). 6 caselets generated. Caselet XML format validated. Need Sessions 2-3 for Topics 3-6. |
 | 11b | X-B (IA Level 2) | 500 | 1 | **Has caselets (40%).** Hard. 3-hr exam, 150 Qs. |
 | 11c | X-C (IA Renewal) | 125 | 1 (shared) | Easy. 50 Qs. **No PDF found — check if subset of X-A.** |
 | 12a | XV (Research Analyst) | 500 | 1 | **Has caselets (20%).** Hard. Valuation-heavy. |
@@ -462,54 +464,91 @@ Example:
 
 ---
 
-## Caselet (Case-Study) Question Format
+## Caselet (Case-Study) Question Format — APPROVED
 
 **8 exams require caselets:** X-A (40%), X-B (40%), XV (20%), XIX-C (40%), XIX-D (40%), XIX-E (40%), XXI-B (40%), XXIII (15%).
 
-### PREREQUISITE: Validate Against BaseSwift CaseStudy Model
+### Decision: Option A — Scenario Embedded in Each Question (Approved April 10, 2026)
 
-The BaseSwift `Question` model has a `caseStudy: CaseStudy` field. Before generating any caselet questions, **you MUST inspect the actual BaseSwift source code** at `/Users/shivam/workspace/BaseSwift/` to determine:
-1. What properties `CaseStudy` has (scenario text, linked question IDs, etc.)
-2. How the XML parser populates the `CaseStudy` field
-3. Whether caselets use a separate XML file or are embedded in individual question XMLs
+Each caselet question is a **standalone XML file** using the same format as regular MCQs. No app model changes needed. The scenario text is embedded directly in the `<question><text>` field with `<b>` tags for bold rendering.
 
-**Do NOT generate caselet questions until this is validated.** The format below is a proposed structure — adjust it based on what BaseSwift actually expects.
+### Caselet Question Text Format
 
-### Proposed Caselet XML Format
+The question text inside `<![CDATA[...]]>` must follow this exact format:
 
-**Option A: Scenario embedded in each linked question's XML**
+```
+<b>Scenario:</b> [Full scenario text with all data needed — typically 150-300 words]
 
-Each question in a caselet group includes the full scenario text. The app groups them by a shared `caseStudyId`:
+<b>Question X of Y:</b> [The actual question]
+```
+
+- `X` = question number within this caselet (1, 2, 3, 4...)
+- `Y` = total questions in this caselet (typically 3-5)
+- The `<b>` tags render bold in the app's HTML/attributed string renderer
+- The scenario is repeated verbatim in every linked question's XML file
+
+### Example Caselet XML (Question 1 of 4)
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-<QF id="XIII Portfolio Construction_C1_1" sectionNumber="" articleNumber="0" articleName=""
-    caseStudyId="XIII Portfolio Construction_C1"
-    caseStudyTitle="Mr. Sharma's Retirement Portfolio">
-    <caseStudy><text><![CDATA[Mr. Sharma, age 55, has a retirement corpus of Rs. 2 crore...
-    [Full scenario text with all data needed for the linked questions]]]></text></caseStudy>
+<QF id="XA Financial Planning_C1_1" sectionNumber="" articleNumber="0" articleName="">
     <question>
-        <text><![CDATA[Based on the scenario above, what is Mr. Sharma's ideal equity allocation?]]></text>
+        <text><![CDATA[<b>Scenario:</b> Mr. Rajesh Kumar, aged 45, is a salaried professional earning Rs. 25 lakh per annum. He has a retirement corpus target of Rs. 3 crore by age 60. His current investments include Rs. 40 lakh in equity mutual funds, Rs. 20 lakh in PPF, and Rs. 10 lakh in fixed deposits. He has no outstanding loans. His risk profile is "Moderate" and he can invest Rs. 1.5 lakh per month. He is in the 30% tax bracket. He has adequate life and health insurance. He wants to fund his daughter's higher education (Rs. 25 lakh needed in 5 years) and build the retirement corpus simultaneously. Assume equity returns at 12% CAGR and debt returns at 7% CAGR.
+
+<b>Question 1 of 4:</b> What is Mr. Kumar's current total investment portfolio value?]]></text>
         <answers>
-            <answer correct="yes"><text><![CDATA[40%]]></text></answer>
-            <answer correct="no"><text><![CDATA[60%]]></text></answer>
-            <answer correct="no"><text><![CDATA[80%]]></text></answer>
-            <answer correct="no"><text><![CDATA[20%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 60 lakh]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 65 lakh]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 70 lakh]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 75 lakh]]></text></answer>
         </answers>
-        <explanation><text><![CDATA[**The Logic:** At age 55 with 5 years to retirement...]]></text></explanation>
+        <explanation><text><![CDATA[**The Logic:** Rs. 40 lakh (equity MFs) + Rs. 20 lakh (PPF) + Rs. 10 lakh (FDs) = Rs. 70 lakh.
+**The Trap:** Rs. 75 lakh is tempting if you mistakenly add monthly investment capacity.
+**Cross-Exam Context:** Portfolio valuation is tested in Series X-A, X-B, and XXI-B.
+**Distributor's Pro-Tip:** Always list all asset classes separately before summing — clients often forget smaller holdings.]]></text></explanation>
     </question>
 </QF>
 ```
 
-**Caselet ID convention:** `{TopicName}_C{caseNumber}_{questionNumber}`
-- `XIII Portfolio Construction_C1_1` = Topic "XIII Portfolio Construction", Caselet 1, Question 1
-- `XIII Portfolio Construction_C1_2` = same caselet, Question 2
+### Example Caselet XML (Question 2 of 4 — same caselet, separate file)
 
-**Option B: Separate caselet file + linked question files**
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Financial Planning_C1_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Mr. Rajesh Kumar, aged 45, is a salaried professional earning Rs. 25 lakh per annum. He has a retirement corpus target of Rs. 3 crore by age 60. His current investments include Rs. 40 lakh in equity mutual funds, Rs. 20 lakh in PPF, and Rs. 10 lakh in fixed deposits. He has no outstanding loans. His risk profile is "Moderate" and he can invest Rs. 1.5 lakh per month. He is in the 30% tax bracket. He has adequate life and health insurance. He wants to fund his daughter's higher education (Rs. 25 lakh needed in 5 years) and build the retirement corpus simultaneously. Assume equity returns at 12% CAGR and debt returns at 7% CAGR.
 
-A `.xml` file for the scenario, and individual question XMLs that reference it. This depends on how BaseSwift's parser works.
+<b>Question 2 of 4:</b> For the daughter's education goal of Rs. 25 lakh in 5 years, which allocation is most appropriate given his moderate risk profile?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[100% equity mutual funds]]></text></answer>
+            <answer correct="yes"><text><![CDATA[60% equity, 40% debt]]></text></answer>
+            <answer correct="no"><text><![CDATA[100% fixed deposits]]></text></answer>
+            <answer correct="no"><text><![CDATA[100% PPF]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A 5-year horizon with moderate risk profile calls for a balanced allocation. 60:40 equity:debt provides growth potential while limiting downside risk for a defined-timeline goal.
+**The Trap:** 100% equity seems attractive for higher returns but is too aggressive for a 5-year non-negotiable goal.
+**Cross-Exam Context:** Asset allocation by risk profile is core to Series X-A and X-B.
+**Distributor's Pro-Tip:** For goals within 5 years, always tilt toward debt; for 10+ years, equity dominance is acceptable.]]></text></explanation>
+    </question>
+</QF>
+```
 
-**Action item:** In the first session that tackles a caselet exam (Phase 11a — Series X-A), spend the first 30 minutes reading BaseSwift's `CaseStudy` model and XML parser before generating any content.
+### Caselet ID Convention
+
+`{TopicPrefix}_C{caseNumber}_{questionNumber}`
+- `XA Financial Planning_C1_1` = Topic "XA Financial Planning", Caselet 1, Question 1
+- `XA Financial Planning_C1_2` = same caselet, Question 2
+- `XA Financial Planning_C2_1` = Topic "XA Financial Planning", Caselet 2, Question 1
+
+### Key Rules for Caselet Generation
+
+1. **Scenario text must be IDENTICAL** across all linked questions in the same caselet — copy-paste verbatim
+2. **Each question is a separate XML file** — no special XML tags or attributes needed beyond the standard format
+3. **Use `<b>` tags** for "Scenario:" and "Question X of Y:" labels — these render bold in the app
+4. **Scenario should be self-contained** — all data needed to answer any linked question must be in the scenario text
+5. **3-5 questions per caselet** is the typical range (matching actual exam patterns)
+6. **Question types within a caselet** should vary — mix calculation, conceptual, and application questions from the same scenario data
+7. **Caselet scenarios should be realistic** — use Indian names, INR amounts, Indian regulatory context, real-world financial planning/advisory situations
 
 ### Caselet Question Counts Per Exam
 

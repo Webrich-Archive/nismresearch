@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_30" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Neha invested INR 5,00,000 which grew to INR 8,05,255 over 5 years. What is the CAGR (Compound Annual Growth Rate)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[10.00%]]></text></answer>
+            <answer correct="no"><text><![CDATA[12.20%]]></text></answer>
+            <answer correct="no"><text><![CDATA[9.50%]]></text></answer>
+            <answer correct="no"><text><![CDATA[11.00%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** CAGR = (Terminal Value / Initial Value)^(1/n) - 1 = (8,05,255 / 5,00,000)^(1/5) - 1 = (1.61051)^0.2 - 1 = 1.10 - 1 = 10.00%. Verification: 5,00,000 × (1.10)^5 = 5,00,000 × 1.61051 = 8,05,255.
+**The Trap:** 12.20% uses simple return divided by years [(8,05,255 - 5,00,000)/5,00,000]/5 = 12.21%, which is the simple annualized return, not CAGR. 9.50% and 11.00% result from arithmetic errors in the nth root calculation.
+**Cross-Exam Context:** CAGR is the most commonly tested return metric across all NISM exams, especially Series V-A and X-A.
+**Distributor's Pro-Tip:** Always show CAGR to clients instead of absolute returns — "your INR 5 lakh doubled in 7.2 years at 10% CAGR" is more meaningful than "you made 61% total return over 5 years."]]></text></explanation>
+    </question>
+</QF>

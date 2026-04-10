@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_C1_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Ramesh, a 40-year-old IT professional based in Bengaluru, is working with his SEBI-registered investment adviser, Kavitha, to construct a two-asset portfolio. Kavitha presents the following data for two mutual fund categories:
+
+Stock Fund (Large-Cap Equity): Expected return = 14% per annum, Standard deviation = 20%
+Bond Fund (Corporate Debt): Expected return = 8% per annum, Standard deviation = 10%
+Correlation coefficient between the two funds = 0.30
+
+After assessing Ramesh's risk profile, Kavitha recommends an allocation of 70% to the Stock Fund and 30% to the Bond Fund. The prevailing risk-free rate (based on 91-day Treasury Bill yield) is 6% per annum.
+
+Ramesh wants to understand how this portfolio performs in terms of expected return, risk, and risk-adjusted return. He also wants to explore how changes in the correlation between the two asset classes could impact his portfolio's overall risk. Kavitha explains the concepts of diversification benefit, portfolio variance, and the Sharpe ratio to help Ramesh make an informed decision.
+
+<b>Question 2 of 5:</b> What is the standard deviation (risk) of Ramesh's portfolio with the 70:30 allocation?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[14.00%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[15.17%]]></text></answer>
+            <answer correct="no"><text><![CDATA[17.00%]]></text></answer>
+            <answer correct="no"><text><![CDATA[16.40%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Portfolio variance = (0.70² x 20²) + (0.30² x 10²) + 2 x 0.70 x 0.30 x 20 x 10 x 0.30 = (0.49 x 400) + (0.09 x 100) + 2 x 0.70 x 0.30 x 20 x 10 x 0.30 = 196 + 9 + 25.20 = 230.20. Portfolio standard deviation = sqrt(230.20) = 15.17%. Note that 15.17% is less than the weighted average of standard deviations (0.70 x 20 + 0.30 x 10 = 17%), demonstrating the diversification benefit.
+
+**The Trap:** Candidates often compute the weighted average of standard deviations (17%) rather than using the correct two-asset portfolio variance formula. The correct formula accounts for correlation.
+
+**Cross-Exam Context:** The two-asset portfolio standard deviation formula is fundamental to Modern Portfolio Theory (MPT) and appears frequently in investment adviser certification exams.
+
+**Distributor's Pro-Tip:** Explain to clients that diversification reduces risk below the simple weighted average of individual risks — this is the core benefit of building a multi-asset portfolio.]]></text></explanation>
+    </question>
+</QF>

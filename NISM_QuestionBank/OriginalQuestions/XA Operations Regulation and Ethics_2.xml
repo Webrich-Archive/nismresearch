@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XA Operations Regulation and Ethics_2" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Under the Central KYC (CKYC) framework administered by CERSAI since 2016, which of the following is the PRIMARY function that distinguishes it from the earlier KRA-based KYC system used in capital markets?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[CKYC eliminates the need for In-Person Verification (IPV) for all investors]]></text></answer>
+            <answer correct="no"><text><![CDATA[CKYC applies only to mutual fund investments and not to other financial products]]></text></answer>
+            <answer correct="no"><text><![CDATA[CKYC replaces the PAN card as the primary identification document]]></text></answer>
+            <answer correct="yes"><text><![CDATA[CKYC performs de-duplication and issues a unique KYC Identifier, enabling centralized storage and retrieval of KYC records across all financial sectors]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The CKYC system, managed by CERSAI (Central Registry of Securitisation Asset Reconstruction and Security Interest), was introduced to create a unified KYC repository across all financial sectors. Its distinguishing feature is de-duplication — it ensures one record per individual — and assigns a unique KYC Identifier for centralized storage and retrieval.
+
+**The Trap:** IPV is still mandatory for first-time investors and is not eliminated by CKYC. CKYC applies across financial sectors (banking, insurance, securities), not just mutual funds. PAN remains a separate and mandatory requirement.
+
+**Cross-Exam Context:** CKYC concepts are tested in NISM Series V-A, X-A, and X-B examinations. The distinction between KRA (capital-market specific) and CKYC (cross-sectoral) is a frequently tested nuance.
+
+**Distributor's Pro-Tip:** When onboarding a new client, check if they already have a CKYC Identifier — it can significantly speed up the process since their KYC is already verified and stored centrally.]]></text></explanation>
+    </question>
+</QF>

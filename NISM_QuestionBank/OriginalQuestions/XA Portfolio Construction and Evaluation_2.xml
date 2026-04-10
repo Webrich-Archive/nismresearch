@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Sunita manages a portfolio of 50 securities. How many unique covariance terms does she need to estimate for portfolio optimization under Markowitz's Modern Portfolio Theory?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[2,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[1,275]]></text></answer>
+            <answer correct="no"><text><![CDATA[50]]></text></answer>
+            <answer correct="yes"><text><![CDATA[1,225]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The number of unique covariance terms = (n² - n) / 2. For 50 securities: (2500 - 50) / 2 = 2450 / 2 = 1,225. This excludes variance terms (diagonal) and counts each pair only once.
+**The Trap:** 2,500 is n² which includes both variances and double-counted covariances. 1,275 is (n² + n) / 2 which includes the variance terms. Candidates often confuse the formula or include diagonal variance terms.
+**Cross-Exam Context:** This concept of estimation burden under MPT is also relevant in NISM Series XV (Research Analyst) certification.
+**Distributor's Pro-Tip:** The explosion in covariance estimates is precisely why factor models (like CAPM or multi-factor models) became popular — they drastically reduce the number of estimates needed.]]></text></explanation>
+    </question>
+</QF>

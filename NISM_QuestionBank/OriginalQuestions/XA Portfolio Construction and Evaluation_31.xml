@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_31" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Vikram buys a stock at INR 200, receives a dividend of INR 8, and sells it at INR 230 after one year. What is the Holding Period Return (HPR)?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[15.00%]]></text></answer>
+            <answer correct="no"><text><![CDATA[18.00%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[19.00%]]></text></answer>
+            <answer correct="no"><text><![CDATA[16.52%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** HPR = (Income + End Value - Begin Value) / Begin Value = (8 + 230 - 200) / 200 = 38/200 = 19.00%. The HPR captures both capital gain (15%) and dividend yield (4%).
+**The Trap:** 15.00% considers only the capital gain (30/200) and ignores the dividend. 18.00% adds the dividend to the selling price but divides by 210 (average of buy and sell). 16.52% divides the total gain by the ending value (38/230).
+**Cross-Exam Context:** HPR is foundational and tested across NISM Series V-A, VIII, X-A, and X-B exams.
+**Distributor's Pro-Tip:** Never ignore dividend income when calculating returns — for value stocks and REITs, dividend income can constitute over 50% of the total return.]]></text></explanation>
+    </question>
+</QF>

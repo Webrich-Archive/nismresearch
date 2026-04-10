@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_27" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Kavita's fund earned a pre-tax return of 18%. She falls in the 30% income tax bracket and the fund's gains are classified as short-term capital gains taxed at 15%. What is her post-tax return?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[12.60%]]></text></answer>
+            <answer correct="no"><text><![CDATA[14.40%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[15.30%]]></text></answer>
+            <answer correct="no"><text><![CDATA[16.20%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Post-tax return = Pre-tax return × (1 - applicable tax rate) = 18% × (1 - 0.15) = 18% × 0.85 = 15.30%. The applicable tax on STCG from equity is 15%, not her income tax slab rate.
+**The Trap:** 12.60% applies the 30% income tax slab rate (18% × 0.70), which would apply to interest income but not to equity STCG. 14.40% uses 20% LTCG rate incorrectly. 16.20% uses 10% tax rate meant for LTCG above INR 1 lakh.
+**Cross-Exam Context:** Tax-adjusted returns are tested in NISM Series V-A (Mutual Fund) and X-A, as tax efficiency is a key investment selection criterion.
+**Distributor's Pro-Tip:** Always compare investments on a post-tax basis — a 12% FD return at 30% tax (8.4% post-tax) may underperform an equity fund's 11% return at 15% STCG (9.35% post-tax).]]></text></explanation>
+    </question>
+</QF>

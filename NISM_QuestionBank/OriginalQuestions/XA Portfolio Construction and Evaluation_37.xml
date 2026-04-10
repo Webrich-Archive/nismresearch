@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_37" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In performance attribution analysis, a portfolio manager overweighted the IT sector (portfolio weight 30% vs benchmark weight 20%) and the IT sector returned 22% vs the overall benchmark return of 14%. What is the allocation effect from the IT sector?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[2.20%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[0.80%]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.60%]]></text></answer>
+            <answer correct="no"><text><![CDATA[3.00%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Allocation effect = (Portfolio weight - Benchmark weight) × (Benchmark sector return - Benchmark total return) = (30% - 20%) × (22% - 14%) = 10% × 8% = 0.80%. The manager earned 0.80% extra by overweighting a sector that outperformed the overall benchmark.
+**The Trap:** 2.20% multiplies the weight difference by the sector return (10% × 22%). 1.60% uses portfolio weight times the return difference (20% × 8%). 3.00% uses portfolio weight times the sector return difference from the wrong base.
+**Cross-Exam Context:** Attribution analysis (allocation + selection + interaction effects) is tested in NISM X-A and X-B.
+**Distributor's Pro-Tip:** Attribution analysis separates luck from skill — did the manager add value by picking the right sectors (allocation) or the right stocks within sectors (selection)?]]></text></explanation>
+    </question>
+</QF>

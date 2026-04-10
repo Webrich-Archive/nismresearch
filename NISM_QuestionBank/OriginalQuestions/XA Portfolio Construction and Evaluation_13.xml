@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under Modern Portfolio Theory, an investor is offered a risky portfolio with an expected return of 12% and the risk-free rate is 7%. The investor's Certainty Equivalent Rate (CER) is calculated as 6%. What can be concluded about this investor's risk preference and investment decision?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The investor is risk-neutral and will be indifferent between the risky portfolio and risk-free asset]]></text></answer>
+            <answer correct="no"><text><![CDATA[The investor is risk-seeking and will accept the risky portfolio]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The investor is risk-averse and will reject the risky portfolio since CER is below the risk-free rate]]></text></answer>
+            <answer correct="no"><text><![CDATA[The investor is risk-averse but will still accept the risky portfolio since expected return exceeds the risk-free rate]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When CER (6%) is below the risk-free rate (7%), the investor is risk-averse and will reject the risky portfolio. The CER represents the guaranteed return the investor would accept in lieu of the risky portfolio. Since this CER is lower than what a risk-free asset offers, the risk-free asset is preferred. A risk-neutral investor would have CER = expected return (12%). A risk-seeking investor would have CER > expected return.
+**The Trap:** Option D is particularly tricky — many candidates think that if expected return (12%) exceeds the risk-free rate (7%), a risk-averse investor should accept. But CER accounts for the risk penalty, and if CER < Rf, the investor prefers the guaranteed rate.
+**Cross-Exam Context:** CER and utility theory concepts are primarily tested in NISM Series X-A. Understanding risk preferences is foundational across all NISM investment exams.
+**Distributor's Pro-Tip:** CER is the true measure of whether a client should invest in a risky asset — not the expected return alone. Always assess the client's risk aversion before recommending products.]]></text></explanation>
+    </question>
+</QF>

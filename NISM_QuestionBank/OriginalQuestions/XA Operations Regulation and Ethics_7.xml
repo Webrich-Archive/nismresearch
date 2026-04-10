@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XA Operations Regulation and Ethics_7" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[In the context of dematerialisation of securities, which statement about the ISIN (International Securities Identification Number) is CORRECT?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[ISIN is a 10-character alphanumeric code assigned by the stock exchange where the security is listed]]></text></answer>
+            <answer correct="no"><text><![CDATA[ISIN is a 14-character code assigned by the depository and includes the distinctive number of the security]]></text></answer>
+            <answer correct="yes"><text><![CDATA[ISIN is a 12-character alphanumeric code, and dematerialised securities identified by ISIN are fungible with no distinctive numbers]]></text></answer>
+            <answer correct="no"><text><![CDATA[ISIN is a 12-character code that is different for the same security held at NSDL and CDSL]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** ISIN is a 12-character alphanumeric identification number assigned to securities. A key feature of dematerialised securities is that they are fungible — they do not carry distinctive numbers like physical certificates do. All units of the same security share the same ISIN regardless of which depository holds them.
+
+**The Trap:** The ISIN is the same for a security whether held at NSDL or CDSL — it identifies the security, not the depository. It is 12 characters (not 10 or 14), and it is NOT assigned by the stock exchange.
+
+**Cross-Exam Context:** ISIN structure and the fungibility concept of dematerialised securities are tested in NISM Series V-A, VI, and X-A examinations.
+
+**Distributor's Pro-Tip:** When verifying a client's holdings across depositories, use the ISIN to match securities. The same ISIN at NSDL and CDSL represents the same security, making cross-depository reconciliation straightforward.]]></text></explanation>
+    </question>
+</QF>

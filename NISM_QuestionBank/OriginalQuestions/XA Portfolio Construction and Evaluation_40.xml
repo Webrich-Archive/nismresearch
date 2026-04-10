@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_40" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A portfolio manager's fund has a return of 14%, a downside deviation of 8%, and the minimum acceptable return (MAR) is 6%. The fund's total standard deviation is 12%. What is the Sortino ratio, and how does it compare to the Sharpe ratio (assuming risk-free rate equals MAR)?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Sortino = 0.67; it is lower than the Sharpe ratio of 1.00 because Sortino penalizes all volatility]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Sortino = 1.00; it is higher than the Sharpe ratio of 0.67 because Sortino only penalizes downside volatility]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sortino = 0.67; it equals the Sharpe ratio because both use the same risk measure]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sortino = 1.75; it is higher because Sortino uses semi-variance which is always smaller than variance]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Sortino = (Rp - MAR)/Downside Deviation = (14% - 6%)/8% = 1.00. Sharpe = (Rp - Rf)/σp = (14% - 6%)/12% = 0.67. Sortino > Sharpe because downside deviation (8%) < total standard deviation (12%), making the Sortino denominator smaller and the ratio larger.
+**The Trap:** Option A reverses the Sortino and Sharpe values and misattributes which ratio penalizes all volatility (that is Sharpe, not Sortino). Option C claims they are equal, confusing the two risk measures. Option D has an incorrect calculation (1.75 = 14/8, using total return instead of excess return).
+**Cross-Exam Context:** Sortino ratio and semi-variance concepts are tested in NISM X-A. The Sharpe ratio appears across most NISM exams.
+**Distributor's Pro-Tip:** For clients who are only worried about losses (not upside volatility), the Sortino ratio is more relevant. A fund with high upside volatility and low downside risk will have a much better Sortino than Sharpe — this distinction matters for asymmetric return strategies.]]></text></explanation>
+    </question>
+</QF>

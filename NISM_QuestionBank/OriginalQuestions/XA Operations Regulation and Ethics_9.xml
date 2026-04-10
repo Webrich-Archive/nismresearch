@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XA Operations Regulation and Ethics_9" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[During the dematerialisation process, what is the role of the Registrar and Transfer (R&T) Agent after the Depository Participant (DP) submits the Dematerialisation Request Form (DRF)?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The R&T agent issues new ISIN numbers for the dematerialised securities]]></text></answer>
+            <answer correct="no"><text><![CDATA[The R&T agent stores the DRF and returns the physical certificates to the investor]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The R&T agent mutilates the physical certificates and confirms the dematerialisation to the depository]]></text></answer>
+            <answer correct="no"><text><![CDATA[The R&T agent forwards the DRF to SEBI for final approval before crediting the demat account]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In the dematerialisation process, after the DP forwards the DRF and physical certificates to the R&T agent, the R&T agent verifies the certificates, mutilates (defacing/punching) them to prevent reuse, and then confirms the dematerialisation to the depository. The depository then credits the investor's demat account.
+
+**The Trap:** ISIN numbers are not "issued" during dematerialisation — they already exist for listed securities. Physical certificates are mutilated, NOT returned to the investor. SEBI does not approve individual dematerialisation requests.
+
+**Cross-Exam Context:** The step-by-step dematerialisation process involving DP, R&T agent, and depository is tested in NISM Series V-A and X-A. Understanding each party's role is essential.
+
+**Distributor's Pro-Tip:** DRFs must be stored for a minimum of 5 years. Ensure clients understand that once securities are dematerialised, the physical certificates are destroyed and cannot be recovered — though rematerialisation can produce new certificates if needed.]]></text></explanation>
+    </question>
+</QF>

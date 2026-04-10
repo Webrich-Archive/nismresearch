@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Anil's portfolio earned 25% return last year. The risk-free rate was 5% and the market returned 15%. If the portfolio beta is 1.5, what is Jensen's Alpha, and what does it indicate?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[10%, indicating the portfolio earned 10% above the risk-free rate]]></text></answer>
+            <answer correct="no"><text><![CDATA[0%, indicating the portfolio earned exactly what CAPM predicted]]></text></answer>
+            <answer correct="no"><text><![CDATA[15%, indicating superior stock selection by beating the market by 15%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[5%, indicating the manager generated 5% excess return beyond CAPM-predicted return]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Jensen's Alpha = Rp - [Rf + β(Rm - Rf)] = 25% - [5% + 1.5(15% - 5%)] = 25% - [5% + 15%] = 25% - 20% = 5%. This positive alpha indicates the fund manager added 5% value through security selection beyond what the portfolio's systematic risk warranted.
+**The Trap:** 10% is simply Rp - Rm (ignoring CAPM framework). 0% would mean the portfolio lies exactly on the Security Market Line. 15% confuses excess return with alpha. Candidates often forget to apply the full CAPM formula.
+**Cross-Exam Context:** Jensen's Alpha is tested across NISM Series X-A, X-B (Investment Adviser Level 2), and Series XV (Research Analyst) exams.
+**Distributor's Pro-Tip:** A positive Jensen's Alpha is the gold standard for proving a fund manager's stock-picking skill — it means the manager beat the return that was "owed" for the level of systematic risk taken.]]></text></explanation>
+    </question>
+</QF>

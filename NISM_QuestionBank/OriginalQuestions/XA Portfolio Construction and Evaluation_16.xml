@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_16" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Farhan manages two portfolios. Portfolio X is well-diversified with 40 stocks across sectors, and Portfolio Y is concentrated with just 5 stocks in the IT sector. Both portfolios have the same Treynor Ratio but Portfolio Y has a significantly lower Sharpe Ratio than Portfolio X. What does this imply?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Portfolio Y has higher systematic risk than Portfolio X]]></text></answer>
+            <answer correct="no"><text><![CDATA[Portfolio X has a higher beta than Portfolio Y]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Portfolio Y carries significant unsystematic risk that is not captured by the Treynor Ratio but is penalized by the Sharpe Ratio]]></text></answer>
+            <answer correct="no"><text><![CDATA[The Sharpe Ratio is unreliable for concentrated portfolios and should be ignored]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Treynor Ratio uses beta (systematic risk only) in the denominator, while Sharpe Ratio uses standard deviation (total risk = systematic + unsystematic). When both portfolios have the same Treynor but different Sharpe Ratios, it means the concentrated Portfolio Y has significant unsystematic risk. Treynor ignores this, but Sharpe captures it through higher total volatility, resulting in a lower Sharpe Ratio.
+**The Trap:** Option D dismisses Sharpe Ratio entirely — in fact, Sharpe is MORE appropriate for concentrated portfolios precisely because it captures total risk. For poorly diversified portfolios, Treynor ranking > Sharpe ranking, which is exactly what we see here.
+**Cross-Exam Context:** The Sharpe vs Treynor comparison for diversified vs undiversified portfolios is a high-frequency question in NISM Series X-A and X-B exams.
+**Distributor's Pro-Tip:** For a client holding a concentrated portfolio, use Sharpe Ratio to evaluate performance — it reveals the full risk picture. Treynor can make a poorly diversified portfolio look better than it actually is.]]></text></explanation>
+    </question>
+</QF>

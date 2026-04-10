@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_39" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Ranjit invested USD 10,000 in a US equity fund when the exchange rate was INR 75/USD. After one year, the fund earned 12% in USD terms, but the INR appreciated to INR 72/USD. What is Ranjit's approximate return in INR terms?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[12.00%]]></text></answer>
+            <answer correct="no"><text><![CDATA[16.00%]]></text></answer>
+            <answer correct="no"><text><![CDATA[9.00%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[7.52%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Initial investment in INR = 10,000 × 75 = INR 7,50,000. USD value after 1 year = 10,000 × 1.12 = USD 11,200. INR value at new rate = 11,200 × 72 = INR 8,06,400. INR return = (8,06,400 - 7,50,000)/7,50,000 = 56,400/7,50,000 = 7.52%.
+**The Trap:** 12.00% ignores currency impact entirely. 16.00% incorrectly adds the fund return and a currency gain (as if INR depreciation occurred). 9.00% applies an approximate currency adjustment without compounding correctly.
+**Cross-Exam Context:** Currency risk in international investments is tested in NISM X-A and Series V-A (international fund of funds).
+**Distributor's Pro-Tip:** INR appreciation hurts Indian investors in foreign assets. The exact formula: INR return ≈ USD return + currency return + (USD return × currency return). Here: 12% + (-4%) + (12% × -4%) = 12% - 4% - 0.48% = 7.52%.]]></text></explanation>
+    </question>
+</QF>

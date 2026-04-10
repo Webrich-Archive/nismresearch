@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_C1_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Ramesh, a 40-year-old IT professional based in Bengaluru, is working with his SEBI-registered investment adviser, Kavitha, to construct a two-asset portfolio. Kavitha presents the following data for two mutual fund categories:
+
+Stock Fund (Large-Cap Equity): Expected return = 14% per annum, Standard deviation = 20%
+Bond Fund (Corporate Debt): Expected return = 8% per annum, Standard deviation = 10%
+Correlation coefficient between the two funds = 0.30
+
+After assessing Ramesh's risk profile, Kavitha recommends an allocation of 70% to the Stock Fund and 30% to the Bond Fund. The prevailing risk-free rate (based on 91-day Treasury Bill yield) is 6% per annum.
+
+Ramesh wants to understand how this portfolio performs in terms of expected return, risk, and risk-adjusted return. He also wants to explore how changes in the correlation between the two asset classes could impact his portfolio's overall risk. Kavitha explains the concepts of diversification benefit, portfolio variance, and the Sharpe ratio to help Ramesh make an informed decision.
+
+<b>Question 5 of 5:</b> What is the Sharpe ratio of Ramesh's portfolio?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[0.31]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.36]]></text></answer>
+            <answer correct="yes"><text><![CDATA[0.41]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.52]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Sharpe ratio = (Portfolio Return - Risk-Free Rate) / Portfolio Standard Deviation = (12.20% - 6%) / 15.17% = 6.20 / 15.17 = 0.41 (approximately). The Sharpe ratio measures excess return per unit of total risk.
+
+**The Trap:** Candidates may use the wrong denominator (e.g., beta instead of standard deviation, which would be the Treynor ratio) or forget to subtract the risk-free rate from the portfolio return.
+
+**Cross-Exam Context:** The Sharpe ratio is one of the three key risk-adjusted performance measures (along with Treynor and Jensen's Alpha). It is most appropriate when comparing portfolios that represent an investor's entire investment, as it uses total risk (standard deviation).
+
+**Distributor's Pro-Tip:** When comparing funds or portfolios for clients, use the Sharpe ratio to show which option delivers the best return per unit of risk taken. A higher Sharpe ratio indicates better risk-adjusted performance.]]></text></explanation>
+    </question>
+</QF>

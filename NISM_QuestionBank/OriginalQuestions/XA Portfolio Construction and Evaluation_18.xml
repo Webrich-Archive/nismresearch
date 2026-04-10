@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_18" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Amit's fund earned 14% return against its benchmark return of 11%. The tracking error (standard deviation of the difference between fund and benchmark returns) is 4%. What is the Information Ratio, and what does it tell the investment adviser?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[0.50; the fund generates 0.50% active return per unit of total risk]]></text></answer>
+            <answer correct="no"><text><![CDATA[3.50; the fund is 3.5 times better than the benchmark]]></text></answer>
+            <answer correct="yes"><text><![CDATA[0.75; the fund generates 0.75 units of active return per unit of active risk (tracking error)]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.75; the fund generates 0.75 units of return per unit of systematic risk]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Information Ratio = (Rp - Rb) / Tracking Error = (14% - 11%) / 4% = 3% / 4% = 0.75. This measures active return (excess over benchmark) per unit of active risk (tracking error). It evaluates the consistency of a manager's ability to beat the benchmark.
+**The Trap:** Option A confuses total risk with active risk — that would be closer to the Sharpe Ratio concept. Option D confuses tracking error with systematic risk — that would be the Treynor Ratio. Option B incorrectly calculates and misinterprets the ratio.
+**Cross-Exam Context:** Information Ratio is tested in NISM Series X-A and X-B. It is particularly important for evaluating actively managed funds vs their benchmarks.
+**Distributor's Pro-Tip:** An Information Ratio above 0.5 is generally considered good, and above 1.0 is exceptional. It helps distinguish between a manager who beats the benchmark consistently (high IR) versus one who beats it occasionally with high volatility (low IR).]]></text></explanation>
+    </question>
+</QF>

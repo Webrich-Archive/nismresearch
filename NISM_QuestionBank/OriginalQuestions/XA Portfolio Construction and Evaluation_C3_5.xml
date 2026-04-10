@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_C3_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Sunita, a SEBI-registered investment adviser in Delhi, is evaluating three equity mutual funds for her client, Vikram, who wants to invest a lump sum of Rs. 25 lakh. Sunita compiles the following performance data for the past year:
+
+Fund Alpha (Focused Equity Fund): Annual return = 18%, Standard deviation = 22%, Beta = 1.3
+Fund Beta (Flexi-Cap Fund): Annual return = 15%, Standard deviation = 16%, Beta = 1.0
+Fund Gamma (Large-Cap Fund): Annual return = 12%, Standard deviation = 10%, Beta = 0.7
+
+Benchmark: Nifty 50 Total Return Index, Annual return = 14%
+Risk-free rate (91-day T-Bill yield): 6% per annum
+
+Vikram's existing portfolio is well-diversified across multiple asset classes. He wants Sunita to identify which fund offers the best risk-adjusted performance using different evaluation measures. Sunita explains the Sharpe ratio, Treynor ratio, and Jensen's Alpha, noting that each measure uses a different definition of risk and is appropriate in different contexts.
+
+<b>Question 5 of 5:</b> Which fund has the highest Jensen's Alpha, and what does this indicate about the fund manager's performance?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Fund Beta with an alpha of 1.00%, indicating moderate outperformance]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fund Gamma with an alpha of 0.40%, indicating consistent but low outperformance]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Fund Alpha with an alpha of 1.60%, indicating the strongest outperformance relative to its expected CAPM return]]></text></answer>
+            <answer correct="no"><text><![CDATA[All three funds have the same Jensen's Alpha since they all beat the benchmark]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Jensen's Alpha = Actual Return - [Rf + Beta x (Rm - Rf)]
+Fund Alpha: 18 - [6 + 1.3 x (14 - 6)] = 18 - [6 + 10.4] = 18 - 16.4 = 1.60%
+Fund Beta: 15 - [6 + 1.0 x (14 - 6)] = 15 - [6 + 8] = 15 - 14 = 1.00%
+Fund Gamma: 12 - [6 + 0.7 x (14 - 6)] = 12 - [6 + 5.6] = 12 - 11.6 = 0.40%
+Fund Alpha has the highest Jensen's Alpha at 1.60%, meaning its manager generated the greatest excess return above what CAPM predicted given the fund's systematic risk level.
+
+**The Trap:** Candidates may confuse Jensen's Alpha with simple outperformance over the benchmark. Fund Alpha beat the benchmark by 4% (18-14), Fund Beta by 1% (15-14), and Fund Gamma underperformed the benchmark by 2% (12-14). But Jensen's Alpha adjusts for the risk taken, so the ranking is different from simple benchmark comparison for Fund Gamma, which has a positive alpha despite underperforming the benchmark in absolute terms.
+
+**Cross-Exam Context:** A positive Jensen's Alpha for Fund Gamma (0.40%) even though its absolute return (12%) is below the benchmark (14%) is a key insight. The fund took less risk (beta 0.7), so its expected return was only 11.6% — and it exceeded that expectation. This tests deep understanding of risk-adjusted evaluation.
+
+**Distributor's Pro-Tip:** Help clients understand that a fund returning less than the benchmark is not necessarily poorly managed. If it took significantly less risk, it may still have positive alpha. Use Jensen's Alpha to identify genuine stock-picking skill independent of market risk exposure.]]></text></explanation>
+    </question>
+</QF>

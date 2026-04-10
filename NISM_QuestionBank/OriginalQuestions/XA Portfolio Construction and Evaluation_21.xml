@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Raghav constructs a portfolio with three scenarios: Boom (probability 30%, return 18%), Normal (probability 50%, return 10%), and Recession (probability 20%, return -6%). What is the expected return of the portfolio?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[10.40%]]></text></answer>
+            <answer correct="no"><text><![CDATA[7.33%]]></text></answer>
+            <answer correct="no"><text><![CDATA[8.60%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[9.20%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Expected return = Σ(probability × return) = (0.30 × 18%) + (0.50 × 10%) + (0.20 × -6%) = 5.4% + 5.0% - 1.2% = 9.20%.
+**The Trap:** 7.33% is the simple average of the three returns [(18+10-6)/3], ignoring probabilities entirely. 10.40% results from adding all probability-weighted values without subtracting the recession loss. 8.60% comes from using equal 33.3% probabilities for boom and normal but 20% for recession.
+**Cross-Exam Context:** NISM Series V-A (Mutual Fund) and Series VIII (Equity Derivatives) also test expected return calculations.
+**Distributor's Pro-Tip:** Always use probability-weighted returns, never simple averages — real-world scenario likelihoods are rarely equal.]]></text></explanation>
+    </question>
+</QF>

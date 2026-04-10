@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_C1_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Ramesh, a 40-year-old IT professional based in Bengaluru, is working with his SEBI-registered investment adviser, Kavitha, to construct a two-asset portfolio. Kavitha presents the following data for two mutual fund categories:
+
+Stock Fund (Large-Cap Equity): Expected return = 14% per annum, Standard deviation = 20%
+Bond Fund (Corporate Debt): Expected return = 8% per annum, Standard deviation = 10%
+Correlation coefficient between the two funds = 0.30
+
+After assessing Ramesh's risk profile, Kavitha recommends an allocation of 70% to the Stock Fund and 30% to the Bond Fund. The prevailing risk-free rate (based on 91-day Treasury Bill yield) is 6% per annum.
+
+Ramesh wants to understand how this portfolio performs in terms of expected return, risk, and risk-adjusted return. He also wants to explore how changes in the correlation between the two asset classes could impact his portfolio's overall risk. Kavitha explains the concepts of diversification benefit, portfolio variance, and the Sharpe ratio to help Ramesh make an informed decision.
+
+<b>Question 1 of 5:</b> Based on the given allocation of 70% to Stock Fund and 30% to Bond Fund, what is the expected return of Ramesh's portfolio?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[11.00%]]></text></answer>
+            <answer correct="no"><text><![CDATA[11.80%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[12.20%]]></text></answer>
+            <answer correct="no"><text><![CDATA[13.00%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Portfolio expected return = (Weight of Stock Fund x Return of Stock Fund) + (Weight of Bond Fund x Return of Bond Fund) = (0.70 x 14%) + (0.30 x 8%) = 9.80% + 2.40% = 12.20%. Portfolio return is simply the weighted average of individual asset returns.
+
+**The Trap:** Some candidates may incorrectly use a simple average ((14+8)/2 = 11%) instead of the weighted average, or may confuse weights.
+
+**Cross-Exam Context:** This concept of weighted average return applies to any multi-asset portfolio construction question in NISM exams, including mutual fund scheme evaluation.
+
+**Distributor's Pro-Tip:** Always clarify to clients that portfolio return depends on allocation weights — a higher equity allocation increases expected return but also risk.]]></text></explanation>
+    </question>
+</QF>

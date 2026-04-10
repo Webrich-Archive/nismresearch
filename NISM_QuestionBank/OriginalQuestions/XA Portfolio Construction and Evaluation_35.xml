@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_35" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Sunita's portfolio is fully invested and earns 13.5% return. Her adviser recommends maintaining 8% in cash (earning 4%) as a liquidity buffer. What is the cash-drag adjusted return of the overall holdings?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[12.74%]]></text></answer>
+            <answer correct="no"><text><![CDATA[13.50%]]></text></answer>
+            <answer correct="no"><text><![CDATA[12.42%]]></text></answer>
+            <answer correct="no"><text><![CDATA[11.88%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Cash-drag adjusted return = (weight invested × invested return) + (cash weight × cash return) = (0.92 × 13.5%) + (0.08 × 4%) = 12.42% + 0.32% = 12.74%.
+**The Trap:** 13.50% ignores the cash drag entirely. 12.42% accounts for the reduced investment weight but forgets to add cash earnings. 11.88% incorrectly subtracts the full cash allocation return from invested return.
+**Cross-Exam Context:** Cash drag is particularly relevant for PMS and AIF evaluations — tested in NISM X-A and Series XXI-A.
+**Distributor's Pro-Tip:** Cash drag is a hidden cost of maintaining liquidity. Over long periods, even a 1% annual drag compounds significantly — INR 1 crore loses INR 22 lakh over 20 years at 1% drag.]]></text></explanation>
+    </question>
+</QF>

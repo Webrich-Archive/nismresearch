@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XA Operations Regulation and Ethics_11" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Regarding the KYC form structure mandated for capital market participants, which of the following correctly describes the two-part KYC form?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Part 1 contains financial details and risk profile; Part 2 contains identity and address proof]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Part 1 contains identity and address details (common across intermediaries); Part 2 contains additional information specific to each intermediary]]></text></answer>
+            <answer correct="no"><text><![CDATA[Part 1 is for resident Indians only; Part 2 is exclusively for NRIs and foreign nationals]]></text></answer>
+            <answer correct="no"><text><![CDATA[Part 1 is submitted to CERSAI for CKYC; Part 2 is submitted separately to the KRA]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The KYC form is divided into two parts. Part 1 captures basic identity and address information and is common across all intermediaries. Part 2 captures additional information that may vary depending on the type of intermediary (e.g., a broker may need different details than a mutual fund house).
+
+**The Trap:** The two parts are NOT divided by investor type (resident vs. NRI) or by regulatory body (CERSAI vs. KRA). Part 1 is about identity/address (not financial details), and Part 2 is for intermediary-specific additional information (not identity proof).
+
+**Cross-Exam Context:** KYC form structure is tested in NISM Series V-A and X-A. Understanding the distinction between Part 1 (uniform) and Part 2 (intermediary-specific) is important for compliance.
+
+**Distributor's Pro-Tip:** When onboarding clients who already have KYC with another intermediary, their Part 1 data can be fetched from KRA/CKYC, but you will still need them to fill Part 2 specific to your intermediary's requirements.]]></text></explanation>
+    </question>
+</QF>

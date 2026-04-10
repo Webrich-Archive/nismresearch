@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XA Operations Regulation and Ethics_22" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Which of the following statements about eKYC (electronic KYC) in the Indian capital market is CORRECT?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[eKYC eliminates the need for any form of identity verification and relies solely on self-declaration]]></text></answer>
+            <answer correct="yes"><text><![CDATA[eKYC leverages UIDAI/Aadhaar-based authentication and is complemented by eSign and DigiLocker for document verification]]></text></answer>
+            <answer correct="no"><text><![CDATA[eKYC can only be used by resident Indians and is not available for NRI or PIO investors]]></text></answer>
+            <answer correct="no"><text><![CDATA[eKYC replaces the two-part KYC form entirely and does not require FATCA/CRS declaration]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** eKYC in India's capital market uses UIDAI/Aadhaar-based authentication to verify identity electronically. This is supported by eSign (electronic signature using Aadhaar) and DigiLocker (for accessing verified documents digitally). Together, these technologies enable paperless and instant KYC completion.
+
+**The Trap:** eKYC does NOT eliminate identity verification — it digitises it through Aadhaar authentication. FATCA/CRS declaration remains mandatory regardless of whether KYC is done physically or electronically. eKYC complements the KYC process but does not replace all regulatory requirements.
+
+**Cross-Exam Context:** eKYC, eSign, and DigiLocker integration in the KYC process are tested in NISM Series V-A and X-A. Understanding the technology stack behind digital onboarding is increasingly important.
+
+**Distributor's Pro-Tip:** eKYC significantly reduces turnaround time for new client onboarding. Ensure clients have their Aadhaar linked to their mobile number for OTP-based authentication, which is the most common eKYC method.]]></text></explanation>
+    </question>
+</QF>

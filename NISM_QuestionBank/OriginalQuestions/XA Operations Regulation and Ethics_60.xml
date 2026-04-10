@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XA Operations Regulation and Ethics_60" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Under SEBI IA Regulations, a non-individual investment adviser operates as part of a financial services group that also has a mutual fund distribution arm. Which of the following correctly describes the client segregation requirement at the group level?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Client-level segregation must be maintained at the group level — a client receiving advisory services cannot be served by the distribution arm of the same group]]></text></answer>
+            <answer correct="no"><text><![CDATA[Group-level segregation is not required as long as the IA entity and distribution entity have separate SEBI registrations]]></text></answer>
+            <answer correct="no"><text><![CDATA[The IA can advise and the distribution arm can distribute to the same client if the client provides written consent]]></text></answer>
+            <answer correct="no"><text><![CDATA[Segregation is required only if the IA and distribution arm share the same office premises]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under SEBI IA Regulations 2013, non-individual IAs must maintain client-level segregation at the group level. This means if a client is receiving investment advisory services from the IA arm, the same client cannot be served by the distribution arm of the group (and vice versa). Separate SEBI registrations, written consent, or separate office premises do NOT cure this requirement.
+
+**The Trap:** Having separate legal entities with separate registrations might seem sufficient, but the regulation looks through the corporate structure to the group level. The client experience must be advisory OR distribution — never both from the same group.
+
+**Cross-Exam Context:** Group-level segregation is a distinctive feature of SEBI IA Regulations tested in Series X-A. This has significant implications for large financial services groups that offer both advisory and distribution services.
+
+**Distributor's Pro-Tip:** If your group has both advisory and distribution businesses, implement robust systems to flag overlapping clients. A single client appearing in both databases is a compliance red flag that must be resolved immediately.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_C3_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Sunita, a SEBI-registered investment adviser in Delhi, is evaluating three equity mutual funds for her client, Vikram, who wants to invest a lump sum of Rs. 25 lakh. Sunita compiles the following performance data for the past year:
+
+Fund Alpha (Focused Equity Fund): Annual return = 18%, Standard deviation = 22%, Beta = 1.3
+Fund Beta (Flexi-Cap Fund): Annual return = 15%, Standard deviation = 16%, Beta = 1.0
+Fund Gamma (Large-Cap Fund): Annual return = 12%, Standard deviation = 10%, Beta = 0.7
+
+Benchmark: Nifty 50 Total Return Index, Annual return = 14%
+Risk-free rate (91-day T-Bill yield): 6% per annum
+
+Vikram's existing portfolio is well-diversified across multiple asset classes. He wants Sunita to identify which fund offers the best risk-adjusted performance using different evaluation measures. Sunita explains the Sharpe ratio, Treynor ratio, and Jensen's Alpha, noting that each measure uses a different definition of risk and is appropriate in different contexts.
+
+<b>Question 2 of 5:</b> What is the Treynor ratio for Fund Alpha?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[6.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[7.69]]></text></answer>
+            <answer correct="yes"><text><![CDATA[9.23]]></text></answer>
+            <answer correct="no"><text><![CDATA[13.85]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Treynor ratio = (Fund Return - Risk-Free Rate) / Beta = (18% - 6%) / 1.3 = 12 / 1.3 = 9.23 (approximately). The Treynor ratio measures excess return per unit of systematic risk (beta) rather than total risk (standard deviation).
+
+**The Trap:** Candidates may confuse the Treynor ratio with the Sharpe ratio and use standard deviation (22) in the denominator instead of beta (1.3), getting 0.55. Others may forget to subtract the risk-free rate and compute 18/1.3 = 13.85.
+
+**Cross-Exam Context:** The Treynor ratio is most appropriate when the fund being evaluated is part of a larger, diversified portfolio. In such cases, unsystematic risk is diversified away, and only systematic risk (beta) is relevant. This distinction between Sharpe and Treynor is frequently tested in NISM exams.
+
+**Distributor's Pro-Tip:** For clients who already hold a diversified portfolio and are adding a single fund, use the Treynor ratio to evaluate fund choices. It focuses on the risk that cannot be diversified away (market risk), which is what truly matters for the incremental investment.]]></text></explanation>
+    </question>
+</QF>

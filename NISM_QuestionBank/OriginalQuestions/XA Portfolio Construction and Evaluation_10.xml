@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Suresh invested INR 10,00,000 in a PMS scheme. After 6 months, the portfolio value rose to INR 11,00,000 and he added INR 4,00,000. At the end of the year, the total portfolio was worth INR 16,50,000. What is the Time-Weighted Rate of Return (TWRR) for the full year?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[17.86%]]></text></answer>
+            <answer correct="no"><text><![CDATA[15.00%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[21.00%]]></text></answer>
+            <answer correct="no"><text><![CDATA[10.00%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** TWRR uses geometric linking of sub-period returns, eliminating the effect of cash flow timing. Sub-period 1 (first 6 months): HPR = (11,00,000 - 10,00,000) / 10,00,000 = 10%. Wealth relative = 1.10. Sub-period 2 (next 6 months): Beginning value after inflow = 11,00,000 + 4,00,000 = 15,00,000. HPR = (16,50,000 - 15,00,000) / 15,00,000 = 10%. Wealth relative = 1.10. TWRR = (1.10 × 1.10) - 1 = 1.21 - 1 = 21.00%.
+**The Trap:** 10% is just one sub-period return. 15% might be calculated as total gain divided by total investment. 17.86% results from incorrect averaging. TWRR is geometric linking, not simple addition of sub-period returns (which would give 20%).
+**Cross-Exam Context:** SEBI mandates TWRR for PMS performance reporting over 3 years. This is tested in NISM Series X-A and X-B exams. MWRR vs TWRR distinction is also important in Series V-A.
+**Distributor's Pro-Tip:** TWRR isolates the fund manager's performance from the client's cash flow decisions. Use TWRR to evaluate the manager, and MWRR to evaluate the investor's actual experience.]]></text></explanation>
+    </question>
+</QF>

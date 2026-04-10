@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_C5_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Anita Mehta, a 50-year-old businesswoman, has engaged a SEBI-registered investment adviser, Mr. Rajesh Iyer, to manage her portfolio. The portfolio is benchmarked against a strategic asset allocation of 60% equity and 40% debt. Mr. Rajesh follows a disciplined rebalancing approach and uses tracking error analysis to monitor portfolio deviation from the benchmark.
+
+The portfolio details are as follows:
+- Initial portfolio value: Rs. 50,00,000 (Rs. 30,00,000 in equity funds, Rs. 20,00,000 in debt funds) — matching the target allocation of 60:40
+- After one year: Equity portion grew to Rs. 38,00,000 and Debt portion grew to Rs. 21,00,000. Total portfolio value = Rs. 59,00,000
+- Target allocation remains 60% equity (Rs. 35,40,000) and 40% debt (Rs. 23,60,000)
+
+Quarterly portfolio returns versus the benchmark returns over the past 4 quarters were:
+- Q1: Portfolio 4.5%, Benchmark 4.0%
+- Q2: Portfolio -2.0%, Benchmark -1.5%
+- Q3: Portfolio 6.0%, Benchmark 5.5%
+- Q4: Portfolio 3.0%, Benchmark 3.5%
+
+Mr. Rajesh's rebalancing policy triggers a rebalance whenever any asset class deviates by more than 5 percentage points from its target allocation. He also needs to consider the costs of rebalancing, including transaction costs (brokerage, STT, GST) and tax implications (capital gains tax on selling appreciated assets).
+
+<b>Question 4 of 5:</b> Mr. Rajesh's rebalancing policy — triggering a rebalance whenever any asset class deviates by more than 5 percentage points from its target — is an example of which type of rebalancing strategy?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Calendar rebalancing — the portfolio is rebalanced at fixed time intervals regardless of allocation drift]]></text></answer>
+            <answer correct="no"><text><![CDATA[Tactical rebalancing — the portfolio is rebalanced based on the adviser's market outlook and economic forecasts]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy-and-hold rebalancing — the portfolio is never actively rebalanced and allocation drifts with market movements]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Threshold-based (percentage-of-portfolio) rebalancing — the portfolio is rebalanced when allocation drifts beyond a pre-set tolerance band]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Mr. Rajesh's policy triggers rebalancing when any asset class deviates by more than 5 percentage points from its target allocation. This is threshold-based rebalancing (also called percentage-of-portfolio rebalancing or tolerance-band rebalancing). In this approach, rebalancing occurs only when the actual allocation breaches a pre-defined band around the target allocation. Here, equity's target is 60% with a tolerance band of +/- 5 percentage points (i.e., 55% to 65%). Currently at 64.41%, the equity allocation has not yet breached the upper threshold of 65%, so rebalancing would not be triggered yet under this policy.
+**The Trap:** Calendar rebalancing involves rebalancing at fixed intervals (e.g., quarterly, semi-annually) regardless of how far the allocation has drifted. Tactical rebalancing involves deliberate deviations from strategic allocation based on market views. Buy-and-hold is not a rebalancing strategy at all — it lets the allocation drift indefinitely.
+**Cross-Exam Context:** Rebalancing strategies are tested in NISM X-A. Candidates must distinguish between calendar-based, threshold-based, and tactical approaches. Threshold-based is considered more cost-efficient than calendar-based because it avoids unnecessary rebalancing when drift is minimal.
+**Distributor's Pro-Tip:** Interestingly, since Anita's equity allocation is at 64.41% and the threshold is 65%, Mr. Rajesh would NOT trigger a rebalance right now. This saves transaction costs. However, if equity markets continue to rally, the next quarter could breach the threshold, necessitating action.]]></text></explanation>
+    </question>
+</QF>

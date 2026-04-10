@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Two assets have a correlation coefficient of +1. Asset X has an expected return of 10% and standard deviation of 6%, while Asset Y has an expected return of 16% and standard deviation of 10%. If an investor puts 50% in each asset, what is the portfolio standard deviation, and what does this imply about diversification?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[6.40%; partial diversification benefit is achieved]]></text></answer>
+            <answer correct="yes"><text><![CDATA[8.00%; no diversification benefit as portfolio risk is the weighted average of individual risks]]></text></answer>
+            <answer correct="no"><text><![CDATA[10.00%; the portfolio takes on the higher asset's risk]]></text></answer>
+            <answer correct="no"><text><![CDATA[5.00%; maximum diversification benefit is achieved with equal weights]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When correlation = +1, portfolio σ = w₁σ₁ + w₂σ₂ (simple weighted average). σp = (0.5 × 6%) + (0.5 × 10%) = 3% + 5% = 8%. With perfect positive correlation, the risk-return relationship is a straight line, and there is NO diversification benefit. The portfolio variance formula confirms: σ²p = (0.5)²(6)² + (0.5)²(10)² + 2(0.5)(0.5)(1)(6)(10) = 9 + 25 + 30 = 64. σp = √64 = 8%.
+**The Trap:** 6.40% would result from incorrectly applying the formula with a lower correlation. 10% assumes the portfolio inherits the riskier asset's volatility. 5% might come from averaging the standard deviations incorrectly. The key insight is that ρ = +1 is the ONLY case where portfolio risk is a simple weighted average.
+**Cross-Exam Context:** The impact of correlation on diversification is a cornerstone of MPT, tested extensively in NISM Series X-A, X-B, and Series XV exams.
+**Distributor's Pro-Tip:** In practice, no two assets have perfect correlation (+1). Even assets in the same sector have correlations below 1, which means some diversification benefit is always available. This is the fundamental rationale for portfolio construction.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_C4_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Meera Kulkarni, a 45-year-old IT professional, has been investing in a diversified equity portfolio managed by a SEBI-registered Portfolio Management Service (PMS) over a 3-year period from April 2021 to March 2024. Her investment adviser, Mr. Deshmukh, is evaluating the portfolio's performance using different return measurement methods. The portfolio details are as follows:
+
+- Initial investment on 1 April 2021: Rs. 5,00,000
+- Portfolio value on 31 March 2022 (before additional investment): Rs. 5,75,000
+- Additional investment on 1 April 2022: Rs. 2,00,000
+- Portfolio value on 31 March 2023 (before additional investment): Rs. 8,50,000
+- Additional investment on 1 April 2023: Rs. 3,00,000
+- Portfolio value on 31 March 2024: Rs. 12,60,000
+
+There were no withdrawals, no dividend payouts, and no other income distributions during the entire period. Mr. Deshmukh wants to compute the Holding Period Return (HPR) for each year, the Time-Weighted Rate of Return (TWRR), and compare it with the Money-Weighted Rate of Return (MWRR) to present a fair performance report to Meera as required under SEBI PMS regulations.
+
+<b>Question 5 of 5:</b> Why would the MWRR (Money-Weighted Rate of Return) for Meera's portfolio be lower than the TWRR in this case, and which method does SEBI mandate for PMS performance reporting?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[MWRR would be higher than TWRR because larger amounts were invested in later years, and SEBI mandates MWRR for PMS reporting]]></text></answer>
+            <answer correct="no"><text><![CDATA[MWRR and TWRR would be identical since both measure the same portfolio, and SEBI allows either method for PMS reporting]]></text></answer>
+            <answer correct="yes"><text><![CDATA[MWRR would be lower because larger cash inflows occurred before periods of lower returns, giving more weight to lower-return periods; SEBI mandates TWRR for PMS performance reporting]]></text></answer>
+            <answer correct="no"><text><![CDATA[MWRR would be lower because it ignores compounding, and SEBI mandates MWRR for PMS reporting as it reflects the investor's actual experience]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** MWRR (also known as IRR) is sensitive to the timing and size of cash flows. In Meera's case, she invested Rs. 2,00,000 before Year 2 (which earned 9.68%) and Rs. 3,00,000 before Year 3 (which earned 9.57%). Since larger amounts were invested before lower-return periods, the MWRR weights these lower returns more heavily, pulling the overall MWRR below the TWRR. TWRR eliminates this cash flow timing effect by treating each sub-period equally. SEBI mandates TWRR for PMS performance reporting because it reflects the portfolio manager's investment skill independent of the client's cash flow decisions.
+**The Trap:** Option A reverses the relationship — if larger amounts were invested before higher-return periods, MWRR would indeed exceed TWRR, but that is the opposite of what happened here. Option D incorrectly states that MWRR ignores compounding (it does not — MWRR is an IRR calculation that inherently accounts for compounding). Option B is wrong because TWRR and MWRR are equal only when there are no interim cash flows.
+**Cross-Exam Context:** The TWRR vs MWRR distinction is a conceptual favorite in NISM X-A and X-B exams. Understanding when MWRR exceeds or falls below TWRR based on cash flow timing is essential. SEBI's PMS Regulations require TWRR-based reporting.
+**Distributor's Pro-Tip:** While TWRR is the regulatory standard for evaluating fund managers, advise clients to also look at their personal MWRR — it tells them what they actually earned. If a client's MWRR is consistently lower than the fund's TWRR, it signals poor market timing in their investment decisions, which is a coaching opportunity for the adviser.]]></text></explanation>
+    </question>
+</QF>

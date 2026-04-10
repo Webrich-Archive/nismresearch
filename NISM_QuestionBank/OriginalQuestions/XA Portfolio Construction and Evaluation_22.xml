@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_22" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Meera's portfolio has 60% in Fund A (return 14%, standard deviation 20%) and 40% in Fund B (return 8%, standard deviation 10%). The correlation between A and B is 0.50. What is the portfolio's standard deviation (approximately)?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[16.00%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[14.42%]]></text></answer>
+            <answer correct="no"><text><![CDATA[12.65%]]></text></answer>
+            <answer correct="no"><text><![CDATA[15.60%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Portfolio variance = w₁²σ₁² + w₂²σ₂² + 2w₁w₂ρσ₁σ₂ = (0.36 × 400) + (0.16 × 100) + (2 × 0.6 × 0.4 × 0.50 × 20 × 10) = 144 + 16 + 48 = 208. Standard deviation = √208 = 14.42%.
+**The Trap:** 16.00% is the weighted-average standard deviation (0.6 × 20 + 0.4 × 10 = 16%), which ignores the diversification benefit — this would only be correct if correlation were +1.0. 12.65% assumes zero correlation (√(144 + 16) = √160 = 12.65%). 15.60% uses an incorrect correlation of 0.80.
+**Cross-Exam Context:** Two-asset portfolio variance is a core concept tested in NISM Series V-A and X-A.
+**Distributor's Pro-Tip:** The weighted-average std dev is the MAXIMUM possible portfolio risk (when ρ = +1). Any ρ < 1 gives diversification benefit, reducing actual risk below that ceiling.]]></text></explanation>
+    </question>
+</QF>

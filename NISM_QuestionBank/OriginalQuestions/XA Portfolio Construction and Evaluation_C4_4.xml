@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_C4_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Meera Kulkarni, a 45-year-old IT professional, has been investing in a diversified equity portfolio managed by a SEBI-registered Portfolio Management Service (PMS) over a 3-year period from April 2021 to March 2024. Her investment adviser, Mr. Deshmukh, is evaluating the portfolio's performance using different return measurement methods. The portfolio details are as follows:
+
+- Initial investment on 1 April 2021: Rs. 5,00,000
+- Portfolio value on 31 March 2022 (before additional investment): Rs. 5,75,000
+- Additional investment on 1 April 2022: Rs. 2,00,000
+- Portfolio value on 31 March 2023 (before additional investment): Rs. 8,50,000
+- Additional investment on 1 April 2023: Rs. 3,00,000
+- Portfolio value on 31 March 2024: Rs. 12,60,000
+
+There were no withdrawals, no dividend payouts, and no other income distributions during the entire period. Mr. Deshmukh wants to compute the Holding Period Return (HPR) for each year, the Time-Weighted Rate of Return (TWRR), and compare it with the Money-Weighted Rate of Return (MWRR) to present a fair performance report to Meera as required under SEBI PMS regulations.
+
+<b>Question 4 of 5:</b> What is the annualized Time-Weighted Rate of Return (TWRR) for Meera's portfolio over the 3-year period?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[10.85%]]></text></answer>
+            <answer correct="no"><text><![CDATA[12.25%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[11.39%]]></text></answer>
+            <answer correct="no"><text><![CDATA[11.08%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** TWRR is computed by linking the sub-period returns geometrically and then annualizing. Step 1: Sub-period HPRs are Year 1 = 15.00% (1.15), Year 2 = 9.68% (1.0968), Year 3 = 9.57% (1.0957). Step 2: Link the returns: (1.15) x (1.0968) x (1.0957) = 1.3819. Step 3: Annualize over 3 years: TWRR = (1.3819)^(1/3) - 1 = 1.1139 - 1 = 0.1139 = 11.39%. TWRR eliminates the impact of cash flow timing by measuring pure portfolio performance.
+**The Trap:** The distractor 11.08% could result from taking a simple arithmetic average of the three HPRs: (15.00 + 9.68 + 9.57)/3 = 11.42% then rounding incorrectly. The distractor 10.85% might result from errors in the geometric linking step. Always use geometric (multiplicative) linking, not arithmetic averaging, for TWRR.
+**Cross-Exam Context:** TWRR computation is a high-weightage calculation topic in NISM X-A. SEBI mandates PMS providers to report TWRR as the standard performance measure because it reflects the fund manager's skill independent of client-driven cash flows.
+**Distributor's Pro-Tip:** TWRR is the fair measure of a portfolio manager's skill because Meera (the client) decides when to add money, not the manager. Since Meera added larger amounts before lower-return periods, her actual (MWRR) experience will differ from the manager's skill-based (TWRR) performance.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Rajesh is evaluating two portfolios. Portfolio A has an expected return of 12% and standard deviation of 8%. Portfolio B has an expected return of 14% and standard deviation of 12%. If the risk-free rate is 6%, which portfolio has a higher Sharpe Ratio and what is the difference between them?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Portfolio B is higher by 0.0833]]></text></answer>
+            <answer correct="no"><text><![CDATA[Portfolio A is higher by 0.1667]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Portfolio A is higher by 0.0833]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both portfolios have the same Sharpe Ratio]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Sharpe Ratio = (Rp - Rf) / σp. Portfolio A: (12% - 6%) / 8% = 0.75. Portfolio B: (14% - 6%) / 12% = 0.6667. Difference = 0.75 - 0.6667 = 0.0833. Portfolio A delivers more return per unit of total risk.
+**The Trap:** Many candidates pick Portfolio B because it has a higher absolute return of 14%, ignoring that Sharpe Ratio adjusts for risk. Higher return does not mean better risk-adjusted performance.
+**Cross-Exam Context:** Sharpe Ratio calculations are tested in NISM Series V-A (Mutual Fund Distributors) and Series XV (Research Analyst) exams as well.
+**Distributor's Pro-Tip:** Always compare portfolios on risk-adjusted returns, not absolute returns. A portfolio with lower return can still be superior if its risk is proportionally much lower.]]></text></explanation>
+    </question>
+</QF>

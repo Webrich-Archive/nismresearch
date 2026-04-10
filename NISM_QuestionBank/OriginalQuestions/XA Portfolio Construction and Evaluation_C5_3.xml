@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_C5_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Anita Mehta, a 50-year-old businesswoman, has engaged a SEBI-registered investment adviser, Mr. Rajesh Iyer, to manage her portfolio. The portfolio is benchmarked against a strategic asset allocation of 60% equity and 40% debt. Mr. Rajesh follows a disciplined rebalancing approach and uses tracking error analysis to monitor portfolio deviation from the benchmark.
+
+The portfolio details are as follows:
+- Initial portfolio value: Rs. 50,00,000 (Rs. 30,00,000 in equity funds, Rs. 20,00,000 in debt funds) — matching the target allocation of 60:40
+- After one year: Equity portion grew to Rs. 38,00,000 and Debt portion grew to Rs. 21,00,000. Total portfolio value = Rs. 59,00,000
+- Target allocation remains 60% equity (Rs. 35,40,000) and 40% debt (Rs. 23,60,000)
+
+Quarterly portfolio returns versus the benchmark returns over the past 4 quarters were:
+- Q1: Portfolio 4.5%, Benchmark 4.0%
+- Q2: Portfolio -2.0%, Benchmark -1.5%
+- Q3: Portfolio 6.0%, Benchmark 5.5%
+- Q4: Portfolio 3.0%, Benchmark 3.5%
+
+Mr. Rajesh's rebalancing policy triggers a rebalance whenever any asset class deviates by more than 5 percentage points from its target allocation. He also needs to consider the costs of rebalancing, including transaction costs (brokerage, STT, GST) and tax implications (capital gains tax on selling appreciated assets).
+
+<b>Question 3 of 5:</b> Based on the quarterly return data, what is the annualized tracking error of Anita's portfolio relative to the benchmark?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[0.50%]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.58%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[1.15%]]></text></answer>
+            <answer correct="no"><text><![CDATA[2.00%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step 1: Compute excess returns (portfolio return minus benchmark return) for each quarter: Q1 = 4.5% - 4.0% = 0.5%, Q2 = -2.0% - (-1.5%) = -0.5%, Q3 = 6.0% - 5.5% = 0.5%, Q4 = 3.0% - 3.5% = -0.5%. Step 2: Mean of excess returns = (0.5 - 0.5 + 0.5 - 0.5) / 4 = 0%. Step 3: Squared deviations from mean: (0.5-0)^2 = 0.25, (-0.5-0)^2 = 0.25, (0.5-0)^2 = 0.25, (-0.5-0)^2 = 0.25. Sum = 1.00. Step 4: Sample variance = 1.00 / (4-1) = 0.3333. Sample standard deviation = sqrt(0.3333) = 0.5774%. This is the quarterly tracking error. Step 5: Annualize by multiplying by sqrt(4) = 2. Annualized tracking error = 0.5774% x 2 = 1.1547%, rounded to 1.15%.
+**The Trap:** The distractor 0.50% is the simple average of the absolute excess returns, not the standard deviation. The distractor 0.58% is the quarterly (non-annualized) tracking error — candidates who forget to annualize will pick this. The distractor 2.00% might result from summing all absolute excess returns. Always annualize quarterly tracking error by multiplying by sqrt(number of periods per year).
+**Cross-Exam Context:** Tracking error is tested in NISM X-A, X-B, and XXI-A. It measures active risk — the standard deviation of excess returns relative to the benchmark. A low tracking error indicates the portfolio closely mirrors the benchmark.
+**Distributor's Pro-Tip:** A tracking error of 1.15% is relatively low, indicating the portfolio closely tracks its benchmark. For actively managed portfolios, tracking error typically ranges from 2-8%. If a client is paying active management fees but tracking error is very low, the adviser may be "closet indexing" — something to watch for.]]></text></explanation>
+    </question>
+</QF>

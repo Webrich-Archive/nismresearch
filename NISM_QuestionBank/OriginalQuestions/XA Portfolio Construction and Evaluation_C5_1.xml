@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_C5_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Anita Mehta, a 50-year-old businesswoman, has engaged a SEBI-registered investment adviser, Mr. Rajesh Iyer, to manage her portfolio. The portfolio is benchmarked against a strategic asset allocation of 60% equity and 40% debt. Mr. Rajesh follows a disciplined rebalancing approach and uses tracking error analysis to monitor portfolio deviation from the benchmark.
+
+The portfolio details are as follows:
+- Initial portfolio value: Rs. 50,00,000 (Rs. 30,00,000 in equity funds, Rs. 20,00,000 in debt funds) — matching the target allocation of 60:40
+- After one year: Equity portion grew to Rs. 38,00,000 and Debt portion grew to Rs. 21,00,000. Total portfolio value = Rs. 59,00,000
+- Target allocation remains 60% equity (Rs. 35,40,000) and 40% debt (Rs. 23,60,000)
+
+Quarterly portfolio returns versus the benchmark returns over the past 4 quarters were:
+- Q1: Portfolio 4.5%, Benchmark 4.0%
+- Q2: Portfolio -2.0%, Benchmark -1.5%
+- Q3: Portfolio 6.0%, Benchmark 5.5%
+- Q4: Portfolio 3.0%, Benchmark 3.5%
+
+Mr. Rajesh's rebalancing policy triggers a rebalance whenever any asset class deviates by more than 5 percentage points from its target allocation. He also needs to consider the costs of rebalancing, including transaction costs (brokerage, STT, GST) and tax implications (capital gains tax on selling appreciated assets).
+
+<b>Question 1 of 5:</b> What is the current equity allocation percentage in Anita's portfolio after one year?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[60.00%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[64.41%]]></text></answer>
+            <answer correct="no"><text><![CDATA[66.10%]]></text></answer>
+            <answer correct="no"><text><![CDATA[63.33%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Current equity allocation = Current equity value / Total portfolio value x 100 = Rs. 38,00,000 / Rs. 59,00,000 x 100 = 64.41%. The equity allocation has drifted from the target of 60% to 64.41% because equity outperformed debt during the year.
+**The Trap:** The distractor 60.00% is the target allocation, not the current allocation — a candidate who does not compute at all might pick this. The distractor 66.10% could result from dividing equity by debt (38/21 and misinterpreting). The distractor 63.33% could arise from using Rs. 60 lakh as the denominator (initial portfolio + growth assumption error).
+**Cross-Exam Context:** Asset allocation drift calculation is tested in NISM X-A, VIII (Equity Derivatives), and XXI-A. Understanding how market movements cause drift from strategic allocation is fundamental to portfolio management.
+**Distributor's Pro-Tip:** Monitor client portfolios at least quarterly for allocation drift. A 4.41 percentage point drift (from 60% to 64.41%) is approaching the typical 5% threshold trigger. Proactive monitoring prevents excessive risk concentration.]]></text></explanation>
+    </question>
+</QF>

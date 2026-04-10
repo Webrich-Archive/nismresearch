@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XA Operations Regulation and Ethics_3" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[Mr. Sharma, a resident Indian, wants to invest Rs. 30,000 in a mutual fund scheme of ABC Mutual Fund. He does not have a PAN card. He has already invested Rs. 25,000 across other schemes of the same fund house in the last 8 months. Which statement is correct regarding PAN exemption?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[He is NOT eligible for PAN exemption as his aggregate investment across all schemes of the fund house would exceed Rs. 50,000 in a rolling 12-month period]]></text></answer>
+            <answer correct="no"><text><![CDATA[He is eligible for PAN exemption since each individual investment is below Rs. 50,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[He is eligible for PAN exemption as the Rs. 50,000 limit applies per scheme, not per fund house]]></text></answer>
+            <answer correct="no"><text><![CDATA[He is NOT eligible because PAN exemption is only available for SIP investments, not lump sum]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** PAN exemption for micro investments applies only when the aggregate investment across ALL schemes of a fund house is up to Rs. 50,000 in a rolling 12-month period. Mr. Sharma's total would be Rs. 55,000 (Rs. 25,000 + Rs. 30,000), exceeding the Rs. 50,000 threshold.
+
+**The Trap:** The Rs. 50,000 limit is aggregate across all schemes of the fund house, not per scheme. It applies on a rolling 12-month basis, not per financial year. The exemption applies to both lump sum and SIP — the mode of investment is irrelevant.
+
+**Cross-Exam Context:** PAN exemption thresholds for micro investments are tested in NISM Series V-A and X-A. The aggregate calculation across schemes is a common trick question.
+
+**Distributor's Pro-Tip:** Always check the client's total investment history across all schemes of the same AMC before processing a PAN-exempt transaction. Maintain a running total on a rolling 12-month basis.]]></text></explanation>
+    </question>
+</QF>

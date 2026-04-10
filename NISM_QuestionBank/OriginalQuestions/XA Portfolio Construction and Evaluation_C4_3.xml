@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_C4_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Meera Kulkarni, a 45-year-old IT professional, has been investing in a diversified equity portfolio managed by a SEBI-registered Portfolio Management Service (PMS) over a 3-year period from April 2021 to March 2024. Her investment adviser, Mr. Deshmukh, is evaluating the portfolio's performance using different return measurement methods. The portfolio details are as follows:
+
+- Initial investment on 1 April 2021: Rs. 5,00,000
+- Portfolio value on 31 March 2022 (before additional investment): Rs. 5,75,000
+- Additional investment on 1 April 2022: Rs. 2,00,000
+- Portfolio value on 31 March 2023 (before additional investment): Rs. 8,50,000
+- Additional investment on 1 April 2023: Rs. 3,00,000
+- Portfolio value on 31 March 2024: Rs. 12,60,000
+
+There were no withdrawals, no dividend payouts, and no other income distributions during the entire period. Mr. Deshmukh wants to compute the Holding Period Return (HPR) for each year, the Time-Weighted Rate of Return (TWRR), and compare it with the Money-Weighted Rate of Return (MWRR) to present a fair performance report to Meera as required under SEBI PMS regulations.
+
+<b>Question 3 of 5:</b> What is the Holding Period Return (HPR) for Year 3 (FY 2023-24)?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[10.43%]]></text></answer>
+            <answer correct="no"><text><![CDATA[8.24%]]></text></answer>
+            <answer correct="no"><text><![CDATA[11.50%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[9.57%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** At the start of Year 3 (1 April 2023), the portfolio value = Rs. 8,50,000 (value before additional investment) + Rs. 3,00,000 (additional investment) = Rs. 11,50,000. End of Year 3 value = Rs. 12,60,000. HPR for Year 3 = (12,60,000 - 11,50,000) / 11,50,000 = 1,10,000 / 11,50,000 = 0.09565 = 9.57% (rounded to 2 decimal places).
+**The Trap:** The distractor 10.43% could arise from using Rs. 10,50,000 (i.e., 8,50,000 + 2,00,000 instead of 3,00,000) as the starting value. The distractor 8.24% might result from incorrectly using the total invested amount (Rs. 10,00,000) as the denominator. Always use the portfolio value at the start of the specific sub-period.
+**Cross-Exam Context:** Computing HPR for each sub-period is the building block for TWRR. In NISM X-A, candidates must be able to compute sub-period returns accurately and then link them to derive the overall TWRR.
+**Distributor's Pro-Tip:** Note how Year 2 and Year 3 returns (9.68% and 9.57%) are lower than Year 1 (15%). This pattern of higher returns before larger cash inflows versus lower returns after is exactly the situation where TWRR and MWRR will diverge significantly.]]></text></explanation>
+    </question>
+</QF>

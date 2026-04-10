@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_C4_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Meera Kulkarni, a 45-year-old IT professional, has been investing in a diversified equity portfolio managed by a SEBI-registered Portfolio Management Service (PMS) over a 3-year period from April 2021 to March 2024. Her investment adviser, Mr. Deshmukh, is evaluating the portfolio's performance using different return measurement methods. The portfolio details are as follows:
+
+- Initial investment on 1 April 2021: Rs. 5,00,000
+- Portfolio value on 31 March 2022 (before additional investment): Rs. 5,75,000
+- Additional investment on 1 April 2022: Rs. 2,00,000
+- Portfolio value on 31 March 2023 (before additional investment): Rs. 8,50,000
+- Additional investment on 1 April 2023: Rs. 3,00,000
+- Portfolio value on 31 March 2024: Rs. 12,60,000
+
+There were no withdrawals, no dividend payouts, and no other income distributions during the entire period. Mr. Deshmukh wants to compute the Holding Period Return (HPR) for each year, the Time-Weighted Rate of Return (TWRR), and compare it with the Money-Weighted Rate of Return (MWRR) to present a fair performance report to Meera as required under SEBI PMS regulations.
+
+<b>Question 1 of 5:</b> What is the Holding Period Return (HPR) for Year 1 (FY 2021-22)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[15.00%]]></text></answer>
+            <answer correct="no"><text><![CDATA[12.50%]]></text></answer>
+            <answer correct="no"><text><![CDATA[14.50%]]></text></answer>
+            <answer correct="no"><text><![CDATA[17.00%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** HPR for Year 1 = (Ending Value - Beginning Value) / Beginning Value = (Rs. 5,75,000 - Rs. 5,00,000) / Rs. 5,00,000 = Rs. 75,000 / Rs. 5,00,000 = 0.15 = 15.00%. No cash flows occurred during Year 1, so the calculation is straightforward.
+**The Trap:** Some candidates confuse HPR with annualized return or mistakenly include the additional investment made on 1 April 2022 (which belongs to the start of Year 2, not end of Year 1). The distractor 12.50% could result from incorrectly using total invested capital as the denominator.
+**Cross-Exam Context:** HPR is a foundational concept tested across NISM X-A, X-B (Investment Adviser Level 2), and Series XXI-A (PMS Distributors). Understanding sub-period returns is essential for computing TWRR.
+**Distributor's Pro-Tip:** Always clarify whether a portfolio valuation date is "before" or "after" a cash flow. This distinction is critical for accurate sub-period return calculations and is a frequent source of error in PMS performance reporting.]]></text></explanation>
+    </question>
+</QF>

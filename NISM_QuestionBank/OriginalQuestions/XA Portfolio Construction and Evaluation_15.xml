@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A fund generated annual returns of 8%, 12%, and -3% over three consecutive years. What is the difference between the Arithmetic Mean Return (AMR) and Geometric Mean Return (GMR)?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[AMR = 5.67%, GMR = 5.67%, difference = 0%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[AMR = 5.67%, GMR = 5.43%, difference = 0.24%]]></text></answer>
+            <answer correct="no"><text><![CDATA[AMR = 5.43%, GMR = 5.67%, difference = 0.24%]]></text></answer>
+            <answer correct="no"><text><![CDATA[AMR = 6.00%, GMR = 5.43%, difference = 0.57%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** AMR = (8% + 12% + (-3%)) / 3 = 17% / 3 = 5.67%. GMR = [(1.08)(1.12)(0.97)]^(1/3) - 1 = [1.17346]^(1/3) - 1 = 1.05475 - 1 = 5.475% ≈ 5.43% (rounded). Difference = 5.67% - 5.43% = 0.24%. GMR is always less than or equal to AMR, with equality only when all returns are identical.
+**The Trap:** Option C reverses AMR and GMR — GMR is ALWAYS ≤ AMR (never higher). Option A claims they are equal, which only happens when there is zero variance in returns. Option D uses an incorrect AMR calculation.
+**Cross-Exam Context:** AMR vs GMR comparison is tested in NISM Series X-A, X-B, and Series V-A. The mathematical relationship (GMR ≤ AMR) is a frequently tested concept.
+**Distributor's Pro-Tip:** Always use GMR for reporting long-term performance to clients as it reflects actual compound growth. AMR overstates returns, especially when volatility is high. This is why SEBI mandates compounded (geometric) return reporting.]]></text></explanation>
+    </question>
+</QF>

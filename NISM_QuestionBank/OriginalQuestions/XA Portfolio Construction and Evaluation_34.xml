@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_34" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A fund reports a Geometric Mean Return (GMR) of 11.5% and an Arithmetic Mean Return (AMR) of 12.8%. Which of the following statements is MOST accurate regarding this relationship?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The data is erroneous because GMR should always be higher than AMR]]></text></answer>
+            <answer correct="no"><text><![CDATA[The GMR is higher because it accounts for compounding effects]]></text></answer>
+            <answer correct="yes"><text><![CDATA[This is expected because GMR is always less than or equal to AMR, and the gap widens with higher return volatility]]></text></answer>
+            <answer correct="no"><text><![CDATA[GMR equals AMR when returns are volatile; they differ only when returns are constant]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** GMR ≤ AMR always holds. They are equal only when all periodic returns are identical (zero volatility). The gap between AMR and GMR increases as volatility increases — this is sometimes called "volatility drag." Here, 11.5% < 12.8% is perfectly consistent.
+**The Trap:** Saying GMR > AMR reverses the fundamental inequality. Saying GMR accounts for compounding is true but doesn't make it higher — compounding with volatile returns actually reduces the geometric average. The last option reverses the equality condition.
+**Cross-Exam Context:** GMR vs AMR is tested in NISM X-A and X-B. Understanding volatility drag is crucial for long-term wealth projections.
+**Distributor's Pro-Tip:** When projecting client wealth over 20+ years, always use GMR, not AMR. Using AMR systematically overstates the terminal value — this is a common advisory malpractice.]]></text></explanation>
+    </question>
+</QF>

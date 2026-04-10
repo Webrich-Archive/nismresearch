@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_C3_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Sunita, a SEBI-registered investment adviser in Delhi, is evaluating three equity mutual funds for her client, Vikram, who wants to invest a lump sum of Rs. 25 lakh. Sunita compiles the following performance data for the past year:
+
+Fund Alpha (Focused Equity Fund): Annual return = 18%, Standard deviation = 22%, Beta = 1.3
+Fund Beta (Flexi-Cap Fund): Annual return = 15%, Standard deviation = 16%, Beta = 1.0
+Fund Gamma (Large-Cap Fund): Annual return = 12%, Standard deviation = 10%, Beta = 0.7
+
+Benchmark: Nifty 50 Total Return Index, Annual return = 14%
+Risk-free rate (91-day T-Bill yield): 6% per annum
+
+Vikram's existing portfolio is well-diversified across multiple asset classes. He wants Sunita to identify which fund offers the best risk-adjusted performance using different evaluation measures. Sunita explains the Sharpe ratio, Treynor ratio, and Jensen's Alpha, noting that each measure uses a different definition of risk and is appropriate in different contexts.
+
+<b>Question 3 of 5:</b> What is Jensen's Alpha for Fund Beta?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[0%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[1%]]></text></answer>
+            <answer correct="no"><text><![CDATA[2%]]></text></answer>
+            <answer correct="no"><text><![CDATA[3%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Jensen's Alpha = Actual Return - CAPM Expected Return = Actual Return - [Risk-Free Rate + Beta x (Market Return - Risk-Free Rate)] = 15% - [6% + 1.0 x (14% - 6%)] = 15% - [6% + 8%] = 15% - 14% = 1%. A positive alpha of 1% means Fund Beta outperformed its CAPM-expected return by 1 percentage point, indicating superior fund management.
+
+**The Trap:** Candidates may simply compare the fund return to the benchmark (15% - 14% = 1%) and get the right answer coincidentally for beta = 1.0. However, this shortcut does not work for funds with beta different from 1.0. Understanding the CAPM-based formula is essential.
+
+**Cross-Exam Context:** Jensen's Alpha measures the value added by the fund manager above what is expected given the fund's systematic risk level. A positive alpha indicates outperformance, while a negative alpha indicates underperformance. This is one of the most important fund evaluation metrics in NISM exams.
+
+**Distributor's Pro-Tip:** Jensen's Alpha helps identify genuinely skilled fund managers. When recommending actively managed funds, look for consistently positive alpha over multiple time periods — a single year's alpha could be due to luck rather than skill.]]></text></explanation>
+    </question>
+</QF>

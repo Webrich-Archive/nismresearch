@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investment adviser constructs a two-asset portfolio with equal weights. Both assets have an expected return of 15% and standard deviation of 5%. If the correlation coefficient between the two assets is 0.5, what is the standard deviation of the portfolio?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[5.00%]]></text></answer>
+            <answer correct="no"><text><![CDATA[3.75%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[4.33%]]></text></answer>
+            <answer correct="no"><text><![CDATA[2.50%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Portfolio variance = w₁²σ₁² + w₂²σ₂² + 2w₁w₂ρ₁₂σ₁σ₂ = (0.5)²(0.05)² + (0.5)²(0.05)² + 2(0.5)(0.5)(0.5)(0.05)(0.05) = 0.000625 + 0.000625 + 0.000625 = 0.001875. Standard deviation = √0.001875 = 0.0433 or 4.33%.
+**The Trap:** 5% assumes no diversification benefit (ρ = +1). 3.75% is a common miscalculation where candidates forget to take the square root properly. 2.50% assumes perfect negative correlation.
+**Cross-Exam Context:** Two-asset portfolio variance calculation is a staple across NISM Series X-A, X-B, and Series XV exams.
+**Distributor's Pro-Tip:** Even with moderate positive correlation (0.5), diversification reduces portfolio risk from 5% to 4.33% — demonstrating that you don't need negative correlation to benefit from diversification.]]></text></explanation>
+    </question>
+</QF>

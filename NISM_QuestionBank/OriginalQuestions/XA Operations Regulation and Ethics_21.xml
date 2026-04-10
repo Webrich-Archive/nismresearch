@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QF id="XA Operations Regulation and Ethics_21" sectionNumber="" articleNumber="0" articleName="">
+    <question><text><![CDATA[A listed company has a paid-up equity capital of Rs. 200 crore consisting of 20 crore shares of Rs. 10 each. The company's general body has passed a special resolution to increase the NRI investment ceiling to 24%. If aggregate NRI holding is currently at 15%, what is the maximum number of additional shares that a single NRI (currently holding zero shares) can purchase?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[1.8 crore shares, representing the remaining 9% up to the 24% aggregate ceiling]]></text></answer>
+            <answer correct="no"><text><![CDATA[4.8 crore shares, representing 24% of the paid-up capital]]></text></answer>
+            <answer correct="yes"><text><![CDATA[1 crore shares, limited by the individual NRI ceiling of 5% of paid-up capital]]></text></answer>
+            <answer correct="no"><text><![CDATA[2 crore shares, as the individual ceiling is 10% of paid-up capital]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Even though the aggregate NRI ceiling has been enhanced to 24% by special resolution, and there is aggregate headroom of 9% (24% - 15%), the individual NRI purchase limit remains at 5% of the paid-up capital. 5% of 20 crore shares = 1 crore shares. Both the individual limit (5% = 1 crore shares) and aggregate headroom (9% = 1.8 crore shares) must be satisfied — the binding constraint is the individual limit of 1 crore shares.
+
+**The Trap:** The 24% is the enhanced aggregate ceiling, not the individual limit. The individual NRI limit is always 5% (not 10%). Many candidates mistakenly apply the aggregate ceiling as the individual cap or confuse the 10% default aggregate limit with the individual limit.
+
+**Cross-Exam Context:** NRI purchase limits — both individual (5%) and aggregate (10% default, 24% enhanced) — are tested in NISM Series X-A and Series VIII. Calculation questions on these limits are common.
+
+**Distributor's Pro-Tip:** Before executing an NRI purchase order, always verify BOTH the individual 5% ceiling AND the aggregate ceiling (10% or enhanced limit). RBI's designated bank tracks these limits in real-time.]]></text></explanation>
+    </question>
+</QF>

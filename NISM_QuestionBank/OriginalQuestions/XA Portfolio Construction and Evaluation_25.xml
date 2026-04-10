@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XA Portfolio Construction and Evaluation_25" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Priya's portfolio returned 15% with a standard deviation of 20%. The benchmark returned 12% with a standard deviation of 16%. The risk-free rate is 5%. What is the M² (Modigliani-Modigliani) measure of the portfolio?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[3.00%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[1.00%]]></text></answer>
+            <answer correct="no"><text><![CDATA[2.00%]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.50%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** M² adjusts the portfolio to match market risk. Sharpe(portfolio) = (15-5)/20 = 0.50. M² = Sharpe(p) × σm + Rf - Rm = 0.50 × 16 + 5 - 12 = 8 + 5 - 12 = 1.00%. Alternatively, lever portfolio to market risk: adjusted return = Rf + (σm/σp)(Rp - Rf) = 5 + (16/20)(15-5) = 5 + 8 = 13%. M² = 13% - 12% = 1.00%.
+**The Trap:** 3.00% is simply Rp - Rm without risk adjustment. 2.00% uses the portfolio's own std dev instead of the market's. 0.50% confuses the Sharpe ratio value (0.50) with M².
+**Cross-Exam Context:** M² is unique to NISM X-A; other exams focus on Sharpe and Treynor.
+**Distributor's Pro-Tip:** M² translates the Sharpe ratio into percentage return terms, making it intuitive for clients — "your manager earned 1% more than the market at the same risk level."]]></text></explanation>
+    </question>
+</QF>
