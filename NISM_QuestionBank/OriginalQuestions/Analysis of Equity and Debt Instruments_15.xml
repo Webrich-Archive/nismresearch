@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Analysis of Equity and Debt Instruments_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Ravi holds units of an equity-oriented mutual fund purchased on 05-Feb-2025 for Rs.5,00,000. He sells them on 10-Nov-2025 at Rs.5,80,000. The fund is listed on a recognized stock exchange and STT is paid on sale. What is the tax treatment of the gain?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[LTCG of Rs.80,000 at 12.5% since equity MF units always qualify as long-term]]></text></answer>
+            <answer correct="no"><text><![CDATA[STCG of Rs.80,000 at slab rate as it is a specified mutual fund]]></text></answer>
+            <answer correct="yes"><text><![CDATA[STCG of Rs.80,000 at 20% under Section 111A since holding period is less than 12 months and STT is paid]]></text></answer>
+            <answer correct="no"><text><![CDATA[STCG of Rs.80,000 at 15% under Section 111A]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Equity-oriented MF units (listed or unlisted) require >12 months holding for LTCA classification. Ravi held from 05-Feb-2025 to 10-Nov-2025 = approximately 9 months, so it is STCA. Since STT is paid on sale and it is an equity-oriented fund, Section 111A applies. Post 23-Jul-2024 amendments, the STCG rate under s.111A is 20% (increased from the earlier 15%). Gain = Rs.5,80,000 - Rs.5,00,000 = Rs.80,000. Tax = Rs.80,000 × 20% = Rs.16,000.
+**The Trap:** Option D uses the OLD rate of 15% which was applicable before 23-Jul-2024. Option B applies slab rate, which would apply to non-equity MFs or assets without STT. Option A incorrectly assumes equity MF is always long-term. The 20% rate under s.111A is a critical post-2024 amendment.
+**Cross-Exam Context:** NISM Series V-A (MF) extensively tests mutual fund taxation. The 15% to 20% rate change under s.111A is a key update for the 2024-25 exam cycle.
+**Distributor's Pro-Tip:** Post July 2024, the STCG rate on equity funds has increased from 15% to 20%. This makes the holding period decision even more important — encourage clients to hold equity MF units beyond 12 months to benefit from the 12.5% LTCG rate with Rs.1.25L exemption.]]></text></explanation>
+    </question>
+</QF>

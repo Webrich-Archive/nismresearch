@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Exempt Incomes, Deductions, Rebates_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Meena, a private sector employee covered under the Payment of Gratuity Act, retires after 30 completed years of service. Her last drawn monthly salary is Rs.52,000. She receives Rs.24,00,000 as gratuity. What is the taxable gratuity amount?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs.4,00,000]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs.15,00,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.0 (fully exempt)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.6,00,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under the Payment of Gratuity Act, exempt gratuity = least of: (a) Actual gratuity = Rs.24,00,000; (b) 15 days salary × completed years = (52,000 × 15/26) × 30 = Rs.30,000 × 30 = Rs.9,00,000; (c) Rs.20,00,000 (statutory ceiling). Least = Rs.9,00,000. Taxable = Rs.24,00,000 - Rs.9,00,000 = Rs.15,00,000.
+**The Trap:** Rs.4,00,000 assumes the Rs.20L ceiling is the binding constraint (24L - 20L). Rs.0 wrongly assumes full exemption. Rs.6,00,000 uses an incorrect half-month formula applicable to non-Act employees.
+**Cross-Exam Context:** NISM Series V-A MFD exam tests awareness of tax treatment of retirement benefits when advising on mutual fund SWPs as alternatives.
+**Distributor's Pro-Tip:** For employees covered under the Gratuity Act, the 15-day salary is calculated by dividing monthly salary by 26 (not 30), which often yields a lower exempt amount than clients expect.]]></text></explanation>
+    </question>
+</QF>

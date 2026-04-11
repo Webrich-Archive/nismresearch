@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Taxation of Debt and Equity Products_C2_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Suresh Iyer, aged 55, is a resident Indian with total taxable income of Rs. 16,00,000 (in the 20% slab under new regime FY 2025-26, effective marginal rate approximately 20% plus cess). He is evaluating five investment options for a lump sum of Rs. 10,00,000 with a 2-year horizon:
+
+Option 1: Bank Fixed Deposit at 7.5% p.a. (compounded annually). Interest taxable at slab rate.
+Option 2: Listed Corporate Bond (NCD) yielding 8% p.a. coupon (paid annually). If held >12 months and sold, LTCG at 12.5%.
+Option 3: Equity Mutual Fund with expected NAV growth of 12% p.a. (no dividend). If held >12 months, LTCG at 12.5% above Rs. 1.25 lakh under s.112A.
+Option 4: Gold Mutual Fund with expected NAV growth of 10% p.a. Holding >24 months = LTCG at 12.5% without indexation.
+Option 5: Debt Mutual Fund (85% in debt, purchased after 1-Apr-2023) with expected NAV growth of 7.5% p.a. Always taxed as STCG at slab rate under s.50AA.
+
+Assume: New tax regime with no deductions. Suresh's marginal tax rate for additional income is 20% (in the Rs. 16-20 lakh slab). Ignore surcharge. Health & Education cess is 4%. Effective marginal rate = 20% x 1.04 = 20.8%. For s.112A, assume no other LTCG, so Rs. 1.25 lakh exemption is available.
+
+<b>Question 1 of 5:</b> What is the post-tax maturity value and approximate post-tax CAGR from the Bank Fixed Deposit (Option 1) after 2 years?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Post-tax maturity approximately Rs. 11,23,255; post-tax CAGR approximately 5.98% p.a.]]></text></answer>
+            <answer correct="no"><text><![CDATA[Post-tax maturity approximately Rs. 11,55,625; post-tax CAGR approximately 7.50% p.a.]]></text></answer>
+            <answer correct="no"><text><![CDATA[Post-tax maturity approximately Rs. 11,40,000; post-tax CAGR approximately 6.77% p.a.]]></text></answer>
+            <answer correct="no"><text><![CDATA[Post-tax maturity approximately Rs. 11,15,000; post-tax CAGR approximately 5.58% p.a.]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step computation for the Bank FD:
+
+Step 1 — Pre-tax maturity value (compounded annually):
+Rs. 10,00,000 x (1.075)^2 = Rs. 10,00,000 x 1.155625 = Rs. 11,55,625.
+
+Step 2 — Total interest earned:
+Rs. 11,55,625 - Rs. 10,00,000 = Rs. 1,55,625.
+
+Step 3 — Tax on interest at effective marginal rate:
+Tax = 20.8% x Rs. 1,55,625 = Rs. 32,370.
+
+Step 4 — Post-tax maturity value:
+Rs. 11,55,625 - Rs. 32,370 = Rs. 11,23,255.
+
+Step 5 — Post-tax CAGR:
+CAGR = (11,23,255 / 10,00,000)^(1/2) - 1 = (1.123255)^0.5 - 1 = 1.05982 - 1 = 5.98% p.a. approximately.
+
+Note: In practice, FD interest is taxable on accrual basis each year, so the actual year-wise computation may differ slightly. For this simplified calculation, we compute total tax on total interest at maturity.
+
+**The Trap:** Option B shows the pre-tax maturity value with no tax deducted at all — a common error of ignoring tax impact. Option C appears to use a lower tax rate or incorrect compounding. Option D uses a higher tax rate than applicable. The key insight is that a 7.5% pre-tax FD return drops to approximately 5.98% post-tax at 20.8% effective rate.
+
+**Cross-Exam Context:** FD taxation is straightforward but frequently tested to establish a baseline for comparison. Key points: (1) Interest is taxable under "Income from Other Sources," (2) TDS at 10% under s.194A if interest >Rs. 40,000 (Rs. 50,000 for senior citizens), (3) Under new regime, no deduction under s.80TTA/80TTB is available.
+
+**Distributor's Pro-Tip:** Always present post-tax returns to clients, not pre-tax. A 7.5% FD yielding only 5.98% post-tax helps clients understand why tax-efficient alternatives may be better. The "tax drag" on FDs is approximately 1.52% p.a. (7.50% - 5.98%), which is substantial over long holding periods.]]></text></explanation>
+    </question>
+</QF>

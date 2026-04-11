@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Tax Framework and Key Concepts_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the Maximum Marginal Rate (MMR) of income tax as defined under Section 2(29C) of the Income Tax Act, 1961?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[39.00%]]></text></answer>
+            <answer correct="no"><text><![CDATA[43.68%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[42.744%]]></text></answer>
+            <answer correct="no"><text><![CDATA[34.944%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** MMR = Highest slab rate + Surcharge + Cess. Highest slab = 30%. Maximum surcharge = 37% (for income above Rs. 5 crore). Health & Education Cess = 4%. Calculation: 30% × (1 + 0.37) × (1 + 0.04) = 30% × 1.37 × 1.04 = 42.744%.
+**The Trap:** 34.944% is the effective rate for firms with income above Rs. 1 crore (30% × 1.12 × 1.04). 43.68% results from incorrectly adding surcharge and cess separately rather than compounding. 39.00% ignores surcharge entirely and only adds cess.
+**Cross-Exam Context:** NISM Series X-A tests MMR in context of trust taxation where income is taxed at MMR.
+**Distributor's Pro-Tip:** MMR is critical for trusts and AOPs — any income not distributed to beneficiaries may be taxed at this punitive rate.]]></text></explanation>
+    </question>
+</QF>

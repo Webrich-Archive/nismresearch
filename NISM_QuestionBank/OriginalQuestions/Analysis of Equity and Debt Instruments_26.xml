@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Analysis of Equity and Debt Instruments_26" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investment adviser is comparing post-tax returns for a client in the 30% tax bracket who has two options: (A) Invest Rs.10,00,000 in listed equity shares and sell after 14 months for Rs.12,50,000, or (B) Invest Rs.10,00,000 in a specified debt MF and redeem after 14 months for Rs.11,50,000. Which option yields a higher post-tax return?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Option A: Post-tax gain Rs.2,34,375 vs Option B: Post-tax gain Rs.1,05,000 — Option A is better]]></text></answer>
+            <answer correct="no"><text><![CDATA[Option A: Post-tax gain Rs.2,12,500 vs Option B: Post-tax gain Rs.1,20,000 — Option A is better]]></text></answer>
+            <answer correct="no"><text><![CDATA[Option A: Post-tax gain Rs.2,50,000 vs Option B: Post-tax gain Rs.1,50,000 — Option A is better]]></text></answer>
+            <answer correct="no"><text><![CDATA[Option A: Post-tax gain Rs.2,18,750 vs Option B: Post-tax gain Rs.1,05,000 — Option A is better]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Option A (Listed equity, 14 months = LTCG under s.112A): Gain = Rs.2,50,000. Exempt up to Rs.1,25,000. Taxable LTCG = Rs.2,50,000 - Rs.1,25,000 = Rs.1,25,000. Tax = Rs.1,25,000 × 12.5% = Rs.15,625. Post-tax gain = Rs.2,50,000 - Rs.15,625 = Rs.2,34,375. Option B (Specified debt MF, always STCG under s.50AA): Gain = Rs.1,50,000. Tax = Rs.1,50,000 × 30% = Rs.45,000. Post-tax gain = Rs.1,50,000 - Rs.45,000 = Rs.1,05,000. Option A yields Rs.2,34,375 post-tax vs Rs.1,05,000 for Option B.
+**The Trap:** Option B uses the OLD 15% rate in some wrong answers. Option D might use 12.5% on the full Rs.2,50,000 without the Rs.1.25L exemption. The key insight is the massive tax differential: equity LTCG at 12.5% (with exemption) vs specified debt MF always at slab rate (30%).
+**Cross-Exam Context:** Comparative post-tax return analysis is a core investment adviser skill tested in NISM X-B. It combines knowledge of tax rates, holding periods, and s.50AA provisions.
+**Distributor's Pro-Tip:** Always present clients with post-tax returns, not pre-tax. The tax structure heavily favors equity over debt MFs for investors in higher tax brackets, especially after the s.50AA amendment eliminated LTCG benefits for specified debt funds.]]></text></explanation>
+    </question>
+</QF>

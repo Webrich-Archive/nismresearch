@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Taxation of Debt and Equity Products_C1_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Anita Desai, aged 45, is a resident Indian in the 30% tax bracket (old regime). During FY 2025-26, she has the following investment transactions:
+
+1. Equity Mutual Fund A: Purchased 5,000 units at Rs. 120 per unit on 15-Mar-2024. Sold all units at Rs. 155 per unit on 20-Jan-2026. STT paid on sale.
+2. Equity Mutual Fund B: Purchased 3,000 units at Rs. 200 per unit on 10-Aug-2025. Sold all units at Rs. 185 per unit on 25-Feb-2026. STT paid on sale.
+3. Debt Mutual Fund C (invested 90% in debt securities): Purchased 10,000 units at Rs. 50 per unit on 05-May-2024. Sold all units at Rs. 54 per unit on 15-Nov-2025. This fund was purchased after 1-Apr-2023.
+4. Bank Fixed Deposit: Rs. 15,00,000 at 7.5% p.a. for 1 year, matured on 30-Sep-2025. TDS deducted at 10%.
+5. Dividend received from Equity MF A during holding period: Rs. 25,000 (TDS of 10% deducted as dividend exceeded Rs. 5,000).
+6. Arbitrage Fund D: Purchased 8,000 units at Rs. 15 per unit on 01-Feb-2025. Sold all units at Rs. 16.50 per unit on 10-Mar-2026. STT paid on sale.
+
+Anita's total salary income (after standard deduction) is Rs. 22,00,000. She has no other income or deductions.
+
+<b>Question 4 of 5:</b> How are the Fixed Deposit interest income and the dividend income from Equity MF A taxed, and what is the total tax liability on these two incomes?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Both are taxed at slab rate (30%): FD interest of Rs. 1,12,500 and dividend of Rs. 25,000, total tax = Rs. 41,250; TDS already deducted = Rs. 13,750]]></text></answer>
+            <answer correct="no"><text><![CDATA[FD interest is taxed at 10% (flat rate) and dividend is exempt under section 10(35); total tax = Rs. 11,250]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both are taxed at 20% flat rate; total tax on Rs. 1,37,500 = Rs. 27,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[FD interest is taxed at slab rate but dividend is taxed at 15% special rate; total tax = Rs. 33,750 + Rs. 3,750 = Rs. 37,500]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** (1) Fixed Deposit interest: FD of Rs. 15,00,000 at 7.5% p.a. for 1 year = Rs. 15,00,000 x 7.5% = Rs. 1,12,500. Interest on FDs is taxable under "Income from Other Sources" at the applicable slab rate. For Anita (30% bracket), tax = 30% x Rs. 1,12,500 = Rs. 33,750. TDS deducted at 10% = 10% x Rs. 1,12,500 = Rs. 11,250. (2) Dividend income: Since the abolition of DDT (Dividend Distribution Tax) from FY 2020-21, dividends are taxable in the hands of the investor at their applicable slab rate. Dividend from Equity MF A = Rs. 25,000. Tax = 30% x Rs. 25,000 = Rs. 7,500. TDS on dividend = 10% of Rs. 25,000 = Rs. 2,500 (TDS is deducted under section 194K when dividend exceeds Rs. 5,000 in a financial year). Total tax on both = Rs. 33,750 + Rs. 7,500 = Rs. 41,250. Total TDS already deducted = Rs. 11,250 + Rs. 2,500 = Rs. 13,750. Remaining tax payable via advance tax or self-assessment = Rs. 41,250 - Rs. 13,750 = Rs. 27,500.
+**The Trap:** Option B applies the old DDT regime where dividends were exempt in investor hands under s.10(35) — this was abolished from 1-Apr-2020. Option C applies an arbitrary 20% flat rate with no legal basis. Option D applies a 15% special rate on dividends, confusing it with DDT rate or s.111A STCG rate. Post FY 2020-21, dividends are simply added to total income and taxed at slab rate.
+**Cross-Exam Context:** The shift from DDT to taxability in investor hands is a major topic in NISM X-B. Key points: (1) Dividends are "Income from Other Sources," (2) TDS under s.194K at 10% if dividend exceeds Rs. 5,000 in a year (for resident individuals), (3) TDS on FD interest under s.194A at 10% if interest exceeds Rs. 40,000 (Rs. 50,000 for senior citizens) in a year.
+**Distributor's Pro-Tip:** For high-income clients like Anita (30% slab), dividend-paying funds are tax-inefficient. Recommend growth option instead, where gains are taxed only on redemption. A Rs. 25,000 dividend costs Rs. 7,500 in tax annually, whereas the same appreciation in NAV (growth option) would be taxed at 12.5% as LTCG only when redeemed, with Rs. 1.25 lakh annual exemption available.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Clubbing, Set-Off and Carry Forward of Losses_25" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Mr. Rahul has the following brought-forward losses and current year incomes in FY 2025-26: Brought-forward non-speculative business loss (FY 2020-21): Rs.3,00,000; Brought-forward unabsorbed depreciation (FY 2018-19): Rs.1,50,000; Current year business income: Rs.4,00,000; Current year rental income: Rs.1,00,000. In what order should the set-offs be applied, and what is the final taxable income?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Set off unabsorbed depreciation first as it is older; taxable income = Rs.1,50,000]]></text></answer>
+            <answer correct="yes"><text><![CDATA[First set off brought-forward business loss Rs.3,00,000 against business income Rs.4,00,000 (balance Rs.1,00,000); then set off unabsorbed depreciation Rs.1,50,000 against remaining Rs.1,00,000 business income + Rs.1,00,000 rental income; taxable income = Rs.50,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both losses set off only against business income; taxable income = Rs.1,00,000 (rental income untouched)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Business loss lapsed as it is from FY 2020-21 (beyond 8 years); only depreciation set off; taxable income = Rs.3,50,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Priority: brought-forward business loss is set off BEFORE unabsorbed depreciation. Business loss (FY 2020-21, AY 2021-22) is within 8 years (AY 2026-27 is year 6). Set off Rs.3,00,000 against business income Rs.4,00,000 — remaining business income = Rs.1,00,000. Then unabsorbed depreciation (unlimited carry forward, so FY 2018-19 is valid) of Rs.1,50,000 is set off against remaining business income Rs.1,00,000 + rental income Rs.1,00,000 = Rs.2,00,000. Depreciation Rs.1,50,000 is fully absorbed. Net taxable = Rs.2,00,000 - Rs.1,50,000 = Rs.50,000.
+**The Trap:** Option A wrongly prioritizes depreciation because it is older. The correct rule is: specific business losses first, then unabsorbed depreciation. Option C wrongly restricts unabsorbed depreciation to business income only — it can be set off against any income except salary. Option D miscounts the 8-year period.
+**Cross-Exam Context:** The priority of set-off (specific losses before depreciation) and the flexibility of unabsorbed depreciation are key NISM X-B topics.
+**Distributor's Pro-Tip:** Always exhaust specific business losses (8-year limit) before using unabsorbed depreciation (unlimited). Depreciation is the more flexible and durable tool — preserve it for later.]]></text></explanation>
+    </question>
+</QF>

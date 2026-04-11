@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Tax Framework and Key Concepts_C2_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Vikram Mehta, aged 58, is a self-employed chartered accountant. His income details for FY 2025-26 are:
+
+- Professional income (after all business deductions): Rs. 32,00,000
+- Rental income from Let-out Property 1: Rs. 6,00,000 per annum (Municipal taxes paid: Rs. 60,000)
+- Interest on home loan for Let-out Property 1: Rs. 4,50,000
+- Self-occupied Property 2: Interest on home loan Rs. 2,80,000
+- Vikram's NPS contribution: Rs. 3,00,000
+- Employer NPS contribution: Not applicable (self-employed)
+- PPF investment: Rs. 1,50,000
+- Health insurance: Rs. 30,000 (self, below 60) + Rs. 55,000 (parents, both above 60)
+- Donation to PM Relief Fund: Rs. 1,00,000
+- Donation to local charitable trust (50% deduction with limit): Rs. 2,00,000
+- Short-term capital loss from unlisted shares: Rs. 3,50,000
+- Long-term capital gain from listed equity (with STT): Rs. 5,00,000
+- Short-term capital gain from equity MF (with STT, s.111A): Rs. 1,80,000
+- Interest from bank FD: Rs. 2,40,000
+- Savings account interest: Rs. 18,000
+
+Vikram consults his investment adviser about the optimal tax regime and tax-saving strategies.
+
+<b>Question 4 of 5:</b> What is Vikram's total Chapter VI-A deduction under the old tax regime (including sections 80C, 80CCD, 80D, 80G, and 80TTA)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 4,85,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 6,35,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 5,85,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 3,85,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step computation of each Chapter VI-A deduction:
+
+(1) Section 80C: PPF investment = Rs. 1,50,000. This fully utilizes the Rs. 1,50,000 cap.
+
+(2) Section 80CCD(1): NPS self-contribution, limited to 20% of GTI for self-employed, but falls within the 80CCE aggregate limit of Rs. 1,50,000. Since 80C (PPF) has already exhausted the Rs. 1,50,000 aggregate limit, 80CCD(1) = Rs. 0.
+
+(3) Section 80CCD(1B): Additional NPS contribution beyond 80CCE = Rs. 50,000.
+
+(4) Section 80CCD(2): Employer's NPS contribution — NOT APPLICABLE for self-employed. Deduction = Rs. 0.
+
+(5) Section 80D: Health insurance premium.
+- Self (below 60 years): Actual Rs. 30,000, capped at Rs. 25,000 for non-senior citizens.
+- Parents (both above 60, senior citizens): Actual Rs. 55,000, capped at Rs. 50,000 for senior citizens.
+- Total 80D = Rs. 25,000 + Rs. 50,000 = Rs. 75,000.
+
+(6) Section 80G: Donations.
+- PM Relief Fund: 100% deduction WITHOUT qualifying limit = Rs. 1,00,000.
+- Local charitable trust (50% deduction WITH 10% of adjusted GTI limit):
+  Adjusted GTI for 80G = GTI minus deductions under 80C to 80U (except 80G) minus LTCG/STCG taxed at special rates.
+  GTI (normal income) = Rs. 32,00,000 - Rs. 2,00,000 (HP set-off) + Rs. 2,58,000 (other sources) = Rs. 32,58,000.
+  Less deductions (80C + 80CCD(1B) + 80D + 80TTA) = Rs. 1,50,000 + Rs. 50,000 + Rs. 75,000 + Rs. 10,000 = Rs. 2,85,000.
+  Adjusted GTI = Rs. 32,58,000 - Rs. 2,85,000 = Rs. 29,73,000.
+  10% of adjusted GTI = Rs. 2,97,300.
+  50% of donation to trust = 50% of Rs. 2,00,000 = Rs. 1,00,000. This is within the 10% limit of Rs. 2,97,300.
+  80G for trust = Rs. 1,00,000.
+- Total 80G = Rs. 1,00,000 + Rs. 1,00,000 = Rs. 2,00,000.
+
+(7) Section 80TTA: Savings account interest = Rs. 18,000, capped at Rs. 10,000.
+
+TOTAL CHAPTER VI-A = Rs. 1,50,000 + Rs. 50,000 + Rs. 75,000 + Rs. 2,00,000 + Rs. 10,000 = Rs. 4,85,000.
+
+**The Trap:** Rs. 6,35,000 incorrectly claims 80CCD(1) deduction of Rs. 1,50,000 on top of 80C (ignoring the 80CCE aggregate cap). Rs. 5,85,000 incorrectly includes full Rs. 2,00,000 donation to the trust at 100% instead of 50%, giving 80G = Rs. 3,00,000 instead of Rs. 2,00,000. Rs. 3,85,000 omits the 80G donation deductions entirely. Each distractor tests a specific trap in the Chapter VI-A maze.
+
+**Cross-Exam Context:** Section 80G has a complex four-tier structure: (a) 100% without limit (PM Relief Fund, etc.), (b) 50% without limit, (c) 100% with 10% GTI limit, (d) 50% with 10% GTI limit. The local charitable trust falls in category (d). Knowing which tier applies is critical for the exam.
+
+**Distributor's Pro-Tip:** Vikram's NPS contribution of Rs. 3,00,000 yields only Rs. 50,000 in tax deduction — a dismal 1.67% tax efficiency. If he restructured: stop PPF (or reduce to minimum), route Rs. 1,50,000 through 80CCD(1) within 80CCE, and claim 80CCD(1B) = Rs. 50,000, total NPS deduction would be Rs. 2,00,000 instead of Rs. 50,000. This optimization alone could save over Rs. 45,000 in taxes at the 30% slab.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Analysis of Equity and Debt Instruments_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Kavita purchased 1,000 listed equity shares on 15-Jan-2018 at Rs.200 per share (total Rs.2,00,000). The FMV on 31-Jan-2018 was Rs.250 per share. She sold all shares on 10-Mar-2025 at Rs.400 per share (total Rs.4,00,000). What is her LTCG under Section 112A?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs.2,00,000]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs.1,50,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.1,25,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.75,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Shares acquired before 31-Jan-2018 qualify for grandfathering under s.112A. Step 1: Actual cost = Rs.200 per share. FMV on 31-Jan-2018 = Rs.250 per share. Higher of cost and FMV = Rs.250. Step 2: Compare with sale price Rs.400 — take lower of Rs.250 and Rs.400 = Rs.250. So grandfathered cost = Rs.250 per share. LTCG = (Rs.400 - Rs.250) × 1,000 = Rs.1,50,000. Note: The first Rs.1,25,000 of LTCG under s.112A is exempt, so taxable LTCG = Rs.1,50,000 - Rs.1,25,000 = Rs.25,000 at 12.5%.
+**The Trap:** Rs.2,00,000 uses actual cost (Rs.200) ignoring grandfathering. Rs.1,25,000 incorrectly subtracts the exemption from the gain before reporting. Rs.75,000 may result from applying some incorrect formula. The question asks for LTCG amount, not taxable LTCG after exemption.
+**Cross-Exam Context:** The s.112A grandfathering formula is one of the most frequently tested calculations in NISM X-B and V-A exams.
+**Distributor's Pro-Tip:** For pre-31-Jan-2018 holdings, always check the FMV on 31-Jan-2018 (usually the highest traded price on that date). This can significantly reduce the taxable gain for long-held equity investments.]]></text></explanation>
+    </question>
+</QF>

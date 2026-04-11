@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Analysis of Equity and Debt Instruments_C2_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Rahul Verma, aged 35, is an employee of GlobalTech India Pvt Ltd, an unlisted company. He was granted 10,000 ESOPs on 01-Apr-2021 with the following terms:
+
+- Grant price (exercise price): Rs. 50 per share
+- Vesting schedule: 25% each year over 4 years (2,500 shares vest each year on 01-Apr-2022, 01-Apr-2023, 01-Apr-2024, and 01-Apr-2025)
+- Exercise: Rahul exercised all 10,000 options on 15-Jun-2025 (after all shares had vested)
+- Fair Market Value (FMV) on the date of exercise (15-Jun-2025): Rs. 180 per share (as determined by a merchant banker valuation for unlisted company)
+- Amount paid by Rahul on exercise: Rs. 50 × 10,000 = Rs. 5,00,000
+
+Subsequently, GlobalTech India Pvt Ltd got listed on NSE on 01-Oct-2025 at a listing price of Rs. 250 per share. Rahul sold his shares in two tranches:
+- Tranche 1: Sold 5,000 shares on 15-Nov-2025 at Rs. 300 per share. STT paid.
+- Tranche 2: Sold remaining 5,000 shares on 20-Jul-2026 at Rs. 350 per share. STT paid.
+
+Rahul's salary income (excluding ESOP perquisite) is Rs. 20,00,000 for FY 2025-26 and Rs. 22,00,000 for FY 2026-27. He is in the 30% tax bracket under old regime.
+
+Note: GlobalTech is NOT an eligible start-up under section 80-IAC.
+
+<b>Question 2 of 5:</b> What is the cost of acquisition of shares for the purpose of computing capital gains when Rahul sells the ESOP shares, and why?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 180 per share, being the FMV on the date of exercise, which was already taxed as perquisite]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 50 per share, being the exercise price actually paid by Rahul]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 250 per share, being the listing price on NSE]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 115 per share, being the average of exercise price (Rs. 50) and FMV (Rs. 180)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under section 49(2AA) of the Income Tax Act, when shares are acquired under an ESOP scheme, the cost of acquisition for computing capital gains is the FMV of the shares on the date of exercise — i.e., the value that was considered for computing the perquisite under section 17(2)(vi). This is Rs. 180 per share. The rationale is to avoid double taxation: the difference between FMV (Rs. 180) and exercise price (Rs. 50) = Rs. 130 per share has already been taxed as salary perquisite. If the cost were taken as Rs. 50, the same Rs. 130 per share would be taxed again as capital gains, leading to double taxation.
+**The Trap:** Using the exercise price of Rs. 50 as cost would result in double taxation of the perquisite component (Rs. 130 per share). Using the listing price of Rs. 250 is wrong because the cost is frozen at the exercise date FMV, not any subsequent market price. The average method (Rs. 115) has no basis in tax law.
+**Cross-Exam Context:** Section 49(2AA) is specifically tested in the context of ESOP taxation. The key principle is: whatever value was used for perquisite computation becomes the cost of acquisition for capital gains. This ensures seamless transition between the two stages of ESOP taxation without any gap or overlap.
+**Distributor's Pro-Tip:** Document the FMV on the exercise date carefully — it serves as the cost basis for ALL future capital gains computations. For unlisted companies, retain the merchant banker valuation report. For listed companies, retain evidence of the closing price on the exercise date. This documentation is critical during assessment proceedings.]]></text></explanation>
+    </question>
+</QF>

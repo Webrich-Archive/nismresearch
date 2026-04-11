@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Taxation of Debt and Equity Products_12" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Neha purchased unlisted equity shares of a startup for Rs.2,00,000 on 1st June 2023. She sold them on 15th August 2025 for Rs.5,00,000. What is the nature and rate of tax on her capital gain?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Short-term capital gain at 20% under Section 111A]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Long-term capital gain at 12.5% under Section 112 since holding exceeds 24 months]]></text></answer>
+            <answer correct="no"><text><![CDATA[Short-term capital gain at slab rate since unlisted shares are always short-term under Section 50AA]]></text></answer>
+            <answer correct="no"><text><![CDATA[Long-term capital gain at 12.5% under Section 112A with Rs.1,25,000 exemption]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For unlisted equity shares, the holding period for LTCG is 24 months. Neha held from June 2023 to August 2025 = 26 months > 24 months, so this is LTCG. Unlisted equity shares attract LTCG at 12.5% under Section 112 (not Section 112A, which applies only to listed equity with STT). Gain = Rs.5,00,000 - Rs.2,00,000 = Rs.3,00,000. Tax = 12.5% of Rs.3,00,000 = Rs.37,500.
+**The Trap:** Option C is designed for candidates who confuse unlisted EQUITY shares with unlisted BONDS. Section 50AA applies to unlisted bonds/debentures and specified MFs — NOT to unlisted equity shares. Option D tempts candidates who know 12.5% is correct but wrongly apply Section 112A (which is for listed equity with STT and includes the Rs.1,25,000 exemption).
+**Cross-Exam Context:** NISM Series X-A and Series XV test the distinction between Section 112 and Section 112A frequently.
+**Distributor's Pro-Tip:** Unlisted equity shares have a different tax architecture from unlisted bonds. Shares get LTCG at 12.5% after 24 months (under s.112); bonds are always STCG (under s.50AA). Never conflate the two when advising clients on private placements.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Analysis of Equity and Debt Instruments_28" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Sunita purchased shares of PQR Ltd. on 01-Mar-2015 for Rs.1,50,000. The FMV on 01-Apr-2001 is not applicable since shares were acquired after 2001. The FMV on 31-Jan-2018 was Rs.4,00,000 and she sold the shares on 01-Dec-2025 for Rs.3,50,000. Under Section 112A, what is the LTCG?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs.2,00,000 (using actual cost of Rs.1,50,000)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Loss of Rs.50,000 (using FMV of Rs.4,00,000)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Nil — the grandfathered cost is capped at sale price Rs.3,50,000, resulting in zero gain]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.50,000 (average of actual cost and FMV)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step 1: Compare actual cost (Rs.1,50,000) with FMV on 31-Jan-2018 (Rs.4,00,000). Higher = Rs.4,00,000. Step 2: Compare Rs.4,00,000 with sale price (Rs.3,50,000). Take LOWER = Rs.3,50,000. So grandfathered cost = Rs.3,50,000. LTCG = Rs.3,50,000 - Rs.3,50,000 = NIL. This is the anti-loss provision in action — when sale price falls between actual cost and FMV on 31-Jan-2018, the grandfathering formula ensures no gain and no loss.
+**The Trap:** Option A ignores grandfathering entirely. Option B uses FMV directly without the cap at sale price, creating an artificial loss. The formula is designed to prevent both artificial gains (by using the higher of cost/FMV) and artificial losses (by capping at sale price).
+**Cross-Exam Context:** This edge case (sale price between cost and FMV) is the most commonly tested grandfathering scenario in NISM X-B. It tests whether candidates understand both steps of the formula.
+**Distributor's Pro-Tip:** In volatile markets, some pre-2018 holdings may trade below their 31-Jan-2018 FMV but above original cost. Explain to clients that in such cases, neither gain nor loss arises — they are in a "tax-neutral" zone.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Taxation of Debt and Equity Products_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Priya purchased unlisted bonds of a company for Rs.4,00,000 on 1st March 2024. She sold them on 15th June 2026 for Rs.5,50,000. How is her capital gain taxed?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Long-term capital gain of Rs.1,50,000 at 12.5% since holding exceeds 24 months]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Short-term capital gain of Rs.1,50,000 at slab rate under Section 50AA]]></text></answer>
+            <answer correct="no"><text><![CDATA[Long-term capital gain of Rs.1,50,000 at 12.5% since holding exceeds 12 months]]></text></answer>
+            <answer correct="no"><text><![CDATA[Short-term capital gain of Rs.1,50,000 at 20% under Section 111A]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under Section 50AA, unlisted bonds and debentures are ALWAYS treated as short-term capital assets irrespective of the holding period. The gain of Rs.1,50,000 (Rs.5,50,000 - Rs.4,00,000) is taxed at the investor's slab rate. This is a critical distinction from listed bonds, which can qualify for LTCG after 12 months.
+**The Trap:** The holding period here is over 24 months (March 2024 to June 2026), which would traditionally qualify for LTCG. But Section 50AA creates an absolute rule for unlisted bonds — no LTCG is possible. Candidates may confuse this with unlisted equity shares (which do get LTCG after 24 months).
+**Cross-Exam Context:** NISM Series XV (Research Analyst) also tests the distinction between listed and unlisted bond taxation.
+**Distributor's Pro-Tip:** For clients wanting long-term tax-efficient debt exposure, listed bonds (12-month LTCG at 12.5%) are far superior to unlisted bonds (always STCG at slab). This distinction should drive product selection in advisory.]]></text></explanation>
+    </question>
+</QF>

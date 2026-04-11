@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Taxation of Debt and Equity Products_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Sunita bought listed equity shares of a company on 1st January 2018 at Rs.200 per share. The fair market value (FMV) on 31st January 2018 was Rs.350 per share. She sold the shares on 15th March 2026 at Rs.300 per share (with STT paid). What is her cost of acquisition per share for computing capital gains?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs.300 per share]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.350 per share]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.200 per share]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.275 per share (average of actual cost and FMV)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For shares acquired before 31st January 2018, the cost of acquisition is the HIGHER of (actual cost) or (LOWER of FMV on 31-1-2018 and sale price). Step 1: Lower of FMV (Rs.350) and sale price (Rs.300) = Rs.300. Step 2: Higher of actual cost (Rs.200) and Step 1 result (Rs.300) = Rs.300. So the cost of acquisition is Rs.300, making the capital gain NIL.
+**The Trap:** Many candidates simply pick FMV of Rs.350 as the grandfathering cost, forgetting the critical cap that FMV cannot exceed the sale price. This cap prevents artificial losses from the grandfathering provision.
+**Cross-Exam Context:** NISM Series VIII (Equity Derivatives) and Series X-A also test this grandfathering formula extensively.
+**Distributor's Pro-Tip:** The grandfathering formula has a built-in anti-abuse mechanism — when the sale price is below FMV on 31-1-2018, the cost is capped at the sale price. This means the investor cannot claim a loss due to FMV being higher than the sale price.]]></text></explanation>
+    </question>
+</QF>

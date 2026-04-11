@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Tax Framework and Key Concepts_C2_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Vikram Mehta, aged 58, is a self-employed chartered accountant. His income details for FY 2025-26 are:
+
+- Professional income (after all business deductions): Rs. 32,00,000
+- Rental income from Let-out Property 1: Rs. 6,00,000 per annum (Municipal taxes paid: Rs. 60,000)
+- Interest on home loan for Let-out Property 1: Rs. 4,50,000
+- Self-occupied Property 2: Interest on home loan Rs. 2,80,000
+- Vikram's NPS contribution: Rs. 3,00,000
+- Employer NPS contribution: Not applicable (self-employed)
+- PPF investment: Rs. 1,50,000
+- Health insurance: Rs. 30,000 (self, below 60) + Rs. 55,000 (parents, both above 60)
+- Donation to PM Relief Fund: Rs. 1,00,000
+- Donation to local charitable trust (50% deduction with limit): Rs. 2,00,000
+- Short-term capital loss from unlisted shares: Rs. 3,50,000
+- Long-term capital gain from listed equity (with STT): Rs. 5,00,000
+- Short-term capital gain from equity MF (with STT, s.111A): Rs. 1,80,000
+- Interest from bank FD: Rs. 2,40,000
+- Savings account interest: Rs. 18,000
+
+Vikram consults his investment adviser about the optimal tax regime and tax-saving strategies.
+
+<b>Question 2 of 5:</b> What is the total NPS-related deduction Vikram can claim under the old tax regime, considering he is self-employed and has already invested Rs. 1,50,000 in PPF?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 50,000 (only section 80CCD(1B); 80CCD(1) gets nil due to 80CCE limit being exhausted by 80C)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 3,00,000 (full NPS contribution under 80CCD(1) and 80CCD(1B))]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2,50,000 (80CCD(1) of Rs. 2,00,000 + 80CCD(1B) of Rs. 50,000)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,50,000 (80CCD(1) of Rs. 1,50,000 within 80CCE cap, plus no 80CCD(1B))]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** NPS deductions have a layered structure that must be carefully navigated:
+
+Section 80CCD(1) — Employee/self-employed contribution to NPS:
+For self-employed individuals, the deduction is limited to 20% of Gross Total Income (GTI). Vikram's approximate GTI (before 80C/80CCD deductions) is over Rs. 30,00,000. So 20% of GTI = over Rs. 6,00,000. However, 80CCD(1) falls within the AGGREGATE LIMIT of section 80CCE, which is Rs. 1,50,000. This aggregate covers sections 80C + 80CCC + 80CCD(1) combined.
+
+Vikram has already invested Rs. 1,50,000 in PPF (section 80C). This FULLY EXHAUSTS the Rs. 1,50,000 aggregate limit under 80CCE.
+Therefore, 80CCD(1) deduction = Rs. 0.
+
+Section 80CCD(1B) — Additional NPS contribution:
+This provides an ADDITIONAL deduction of up to Rs. 50,000, OVER AND ABOVE the 80CCE limit. Since Vikram contributed Rs. 3,00,000 to NPS, Rs. 50,000 qualifies here.
+
+Section 80CCD(2) — Employer's NPS contribution:
+Not applicable as Vikram is self-employed with no employer.
+
+Total NPS-related deduction = Rs. 0 + Rs. 50,000 + Rs. 0 = Rs. 50,000.
+
+**The Trap:** Rs. 3,00,000 assumes the full NPS contribution is deductible — it ignores both the 80CCE aggregate cap and the 80CCD(1B) sub-limit. Rs. 2,50,000 incorrectly assumes 80CCD(1) can claim Rs. 2,00,000 independent of 80CCE (confusing the 20%-of-GTI sub-limit with the aggregate cap). Rs. 1,50,000 incorrectly assumes 80CCD(1) replaces 80C within the 80CCE cap (it does not — PPF under 80C gets priority if already invested).
+
+**Cross-Exam Context:** The interplay between 80C, 80CCD(1), 80CCC, and the 80CCE aggregate is one of the most confusing and heavily tested areas. Key rule: 80CCD(1B) is the only NPS deduction that is OUTSIDE the 80CCE aggregate. For self-employed, 80CCD(2) does not exist.
+
+**Distributor's Pro-Tip:** Vikram is contributing Rs. 3,00,000 to NPS but getting only Rs. 50,000 as tax deduction because 80C is already exhausted by PPF. Advise him to consider reducing PPF contribution and routing more through 80CCD(1) within the 80CCE limit. For instance, if PPF = Rs. 0 and NPS under 80CCD(1) = Rs. 1,50,000, plus 80CCD(1B) = Rs. 50,000, total NPS deduction = Rs. 2,00,000. However, PPF offers guaranteed returns and EEE status, so this is a trade-off to discuss.]]></text></explanation>
+    </question>
+</QF>

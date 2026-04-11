@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Exempt Incomes, Deductions, Rebates_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Suresh has the following investments and expenses in FY 2024-25 under the old tax regime: PPF contribution Rs.1,00,000; ELSS investment Rs.80,000; life insurance premium Rs.30,000; NPS contribution under Section 80CCD(1B) Rs.50,000; tuition fees for two children Rs.60,000. What is his total deduction under Sections 80C, 80CCE, and 80CCD(1B) combined?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs.3,20,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.1,50,000]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs.2,00,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.2,70,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under 80C: PPF (1L) + ELSS (80K) + LI premium (30K) + tuition fees (60K) = Rs.2,70,000. But 80CCE caps the aggregate of 80C + 80CCC + 80CCD(1) at Rs.1,50,000. Additionally, 80CCD(1B) allows a separate deduction of Rs.50,000 for NPS. Total = Rs.1,50,000 + Rs.50,000 = Rs.2,00,000.
+**The Trap:** Rs.3,20,000 adds all amounts without any cap. Rs.1,50,000 ignores the additional 80CCD(1B) benefit. Rs.2,70,000 applies the 80C items without the 80CCE ceiling but adds 80CCD(1B).
+**Cross-Exam Context:** NISM Series V-A and X-A exams test knowledge of tax-saving instruments eligible under 80C, especially ELSS mutual funds.
+**Distributor's Pro-Tip:** Always remind clients that 80CCD(1B) is OVER AND ABOVE the Rs.1.5L limit — it is one of the most under-utilized deductions for salaried taxpayers.]]></text></explanation>
+    </question>
+</QF>

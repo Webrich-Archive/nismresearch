@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Tax Framework and Key Concepts_C1_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Priya Sharma, aged 42, is a salaried private sector employee. Her income details for FY 2025-26 are as follows:
+
+- Basic Salary: Rs. 18,00,000 per annum
+- Dearness Allowance (part of retirement benefits): Rs. 3,60,000 per annum
+- HRA received: Rs. 7,20,000 per annum (she pays rent of Rs. 40,000 per month in Mumbai)
+- Employer's contribution to EPF: 12% of (Basic + DA) = Rs. 2,59,200
+- Employer's contribution to NPS: 12% of (Basic + DA) = Rs. 2,59,200
+- Priya's own contribution to EPF: Rs. 2,59,200
+- Priya's own contribution to NPS under 80CCD(1B): Rs. 50,000
+- Priya's PPF investment: Rs. 1,50,000
+- Life insurance premium: Rs. 80,000
+- Health insurance premium: Rs. 28,000 (self and family, all below 60) + Rs. 35,000 (parents, both senior citizens)
+- Interest on education loan for her son: Rs. 1,20,000 (3rd year of repayment)
+- Interest on self-occupied house property loan: Rs. 3,50,000
+- Short-term capital gains (STT paid, listed equity): Rs. 2,50,000
+- Long-term capital gains (STT paid, equity MF): Rs. 3,00,000
+- Dividend income from Indian companies: Rs. 80,000
+- Savings account interest: Rs. 12,000
+
+Priya seeks advice from her investment adviser on whether to opt for old or new tax regime.
+
+<b>Question 1 of 5:</b> What is Priya's Gross Salary for income tax purposes under BOTH the old and new tax regimes?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 31,39,200]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 28,80,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 33,98,400]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 36,57,600]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Gross Salary includes all components received from the employer that are taxable. Step-by-step:
+(1) Basic Salary: Rs. 18,00,000
+(2) Dearness Allowance: Rs. 3,60,000
+(3) HRA received: Rs. 7,20,000
+(4) Employer's NPS contribution: Rs. 2,59,200 — this is added to salary under section 17(1)(viii) and then claimed as deduction under section 80CCD(2).
+(5) Employer's EPF contribution: Rs. 2,59,200 — this is exempt under section 10(12) read with section 2(38) and is NOT added to gross salary as long as it is within 12% of (Basic + DA). Here 12% of Rs. 21,60,000 = Rs. 2,59,200, exactly at the limit, so it is fully exempt.
+(6) Aggregate of employer contributions to EPF + NPS = Rs. 2,59,200 + Rs. 2,59,200 = Rs. 5,18,400. Since this is below Rs. 7,50,000 (the threshold under the proviso to section 17(2)), there is no taxable perquisite on this count.
+Gross Salary = Rs. 18,00,000 + Rs. 3,60,000 + Rs. 7,20,000 + Rs. 2,59,200 = Rs. 31,39,200. This is the same under both regimes.
+**The Trap:** Rs. 28,80,000 is obtained by omitting the employer NPS contribution (Basic + DA + HRA only = Rs. 28,80,000). Rs. 33,98,400 adds BOTH employer EPF and NPS to gross salary, which is wrong because EPF within 12% is exempt. Rs. 36,57,600 incorrectly adds the employee's own EPF contribution as well. Remember: employer NPS is added to salary and then deducted under 80CCD(2), while employer EPF (within limits) never enters gross salary at all.
+**Cross-Exam Context:** Understanding which employer contributions form part of gross salary vs. those that are exempt is a high-frequency topic. The Rs. 7.5 lakh aggregate threshold for EPF + NPS + superannuation is commonly tested.
+**Distributor's Pro-Tip:** Always verify whether aggregate employer contributions exceed Rs. 7.5 lakh — any excess becomes a taxable perquisite. In Priya's case, at Rs. 5,18,400, she is comfortably within the limit, but a salary revision could push her over.]]></text></explanation>
+    </question>
+</QF>

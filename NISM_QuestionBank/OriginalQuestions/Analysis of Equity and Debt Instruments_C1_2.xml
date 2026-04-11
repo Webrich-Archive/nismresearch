@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Analysis of Equity and Debt Instruments_C1_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Meera Krishnan, a resident Indian aged 38, made several investment transactions during FY 2025-26. Her details are as follows:
+
+Transaction 1 - Listed Equity Shares of TechCorp Ltd: Purchased 2,000 shares at Rs. 450 per share on 15-Jun-2017. Fair Market Value (FMV) on 31-Jan-2018 was Rs. 520 per share. Sold all shares at Rs. 780 per share on 10-Oct-2025. STT paid on both purchase and sale.
+
+Transaction 2 - Unlisted Shares of StartUp Pvt Ltd: Purchased 5,000 shares at Rs. 30 per share on 01-Apr-2023. Sold all shares at Rs. 85 per share on 15-Dec-2025.
+
+Transaction 3 - Sovereign Gold Bonds (SGBs): Purchased 50 units at Rs. 4,800 per gram on 01-Mar-2020 (8-year maturity). Sold 20 units on NSE at Rs. 7,200 per gram on 20-Sep-2025. Interest received during FY 2025-26: Rs. 12,000.
+
+Transaction 4 - Listed Corporate Bonds: Purchased 500 bonds at Rs. 1,000 face value on 01-Jan-2025. Sold all at Rs. 1,050 on 15-Aug-2025. Annual coupon of 8% received.
+
+Transaction 5 - Bonus Shares of InfoSys Ltd: Meera held 1,000 shares of InfoSys purchased on 01-Mar-2022 at Rs. 1,500 per share. She received 1,000 bonus shares (1:1 ratio) on 15-Jun-2023. She sold all 1,000 bonus shares at Rs. 1,800 per share on 20-Jan-2026. STT paid.
+
+Meera's total salary income is Rs. 25,00,000 (30% tax bracket). She has no other income.
+
+<b>Question 2 of 5:</b> What is the capital gain on the sale of unlisted shares of StartUp Pvt Ltd, and what is the applicable tax rate and tax amount?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[LTCG of Rs. 2,75,000 taxed at 12.5% under section 112, tax = Rs. 34,375]]></text></answer>
+            <answer correct="no"><text><![CDATA[STCG of Rs. 2,75,000 taxed at 30% slab rate, tax = Rs. 82,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[LTCG of Rs. 2,75,000 taxed at 12.5% under section 112A, tax = Rs. 18,750]]></text></answer>
+            <answer correct="no"><text><![CDATA[LTCG of Rs. 2,75,000 taxed at 20% under section 112, tax = Rs. 55,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Unlisted shares have a holding period threshold of 24 months for LTCG classification. Meera purchased on 01-Apr-2023 and sold on 15-Dec-2025, a period of approximately 32 months, which exceeds 24 months — hence this is LTCG. Capital gain = (85 - 30) x 5,000 = Rs. 2,75,000. For unlisted shares, LTCG is taxed under section 112 (NOT section 112A, which applies only to listed equity shares/equity mutual funds where STT is paid). Under section 112, LTCG on unlisted shares is taxed at 12.5% (post Union Budget 2024 changes). Tax = 12.5% x 2,75,000 = Rs. 34,375. Note: The Rs. 1,25,000 exemption under section 112A does NOT apply to unlisted shares.
+**The Trap:** Treating it as STCG (wrong holding period threshold — using 12 months instead of 24 months for unlisted shares). Applying section 112A (only for listed equity with STT). Applying 20% rate (old rate before Budget 2024 rationalization). The Rs. 1,25,000 exemption under 112A is a common confusion — it does NOT apply to section 112.
+**Cross-Exam Context:** The distinction between section 112 (unlisted/other assets) and section 112A (listed equity with STT) is critical. Also remember that the LTCG holding period for unlisted shares is 24 months, not 12 months (which applies to listed equity shares).
+**Distributor's Pro-Tip:** When advising clients holding unlisted shares (including pre-IPO or private company shares), always remind them of the 24-month holding period requirement. Premature sale within 24 months would convert the gain to STCG taxable at slab rates, significantly increasing the tax burden for high-income clients.]]></text></explanation>
+    </question>
+</QF>

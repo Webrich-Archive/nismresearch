@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Income, Residential Status, Five Heads of Income_25" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Mr. Prakash, an Indian citizen, was present in India for 185 days in PY 2024-25. He has been Resident in India for the last 8 consecutive years (PY 2016-17 to PY 2023-24), and his cumulative stay in India during the 7 preceding previous years was 750 days. What is his residential status for PY 2024-25?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Non-Resident]]></text></answer>
+            <answer correct="no"><text><![CDATA[Resident but Not Ordinarily Resident (RNOR)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Resident and Ordinarily Resident (ROR)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Deemed Resident]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step 1 — Basic condition: Mr. Prakash was present 185 days (>182) in PY 2024-25, so he is Resident. Step 2 — ROR or RNOR? Check RNOR conditions: (a) NR in 9 of 10 preceding years? No — he was Resident for all 8 preceding years (only 2 of 10 preceding years could have been NR at most). NOT satisfied. (b) ≤729 days in 7 preceding years? His stay was 750 days (>729). NOT satisfied. (c) Deemed resident? No — he is resident through the physical presence test. Since neither RNOR condition is met, he is ROR.
+**The Trap:** The ≤729 days threshold is tricky — 750 > 729, so the RNOR condition is not met. Candidates who misremember the threshold as 730 or confuse "≤729" with "≤730" may incorrectly classify him as RNOR. Also note: if his stay were 720 days (≤729), he would qualify as RNOR despite being Resident for many preceding years.
+**Cross-Exam Context:** NISM X-B tests precise threshold application. The 729-day boundary is a favourite numerical trap in exams.
+**Distributor's Pro-Tip:** For clients who frequently travel, maintain a year-wise log of India stay days — the 729-day calculation over 7 years is cumulative and a few days' difference can change the status from ROR to RNOR, significantly affecting tax on global income.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Analysis of Equity and Debt Instruments_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Meera acquired listed equity shares on 10-Jan-2017 for Rs.2,00,000. The FMV of these shares on 31-Jan-2018 was Rs.3,50,000. She sold them on 05-May-2025 for Rs.3,20,000. Under Section 112A, what is the cost of acquisition for computing long-term capital gains?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs.2,00,000 (actual cost of acquisition)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.3,50,000 (FMV on 31-Jan-2018)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs.3,20,000 (sale price, since it is lower than FMV on 31-Jan-2018)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.2,75,000 (average of cost and FMV on 31-Jan-2018)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For shares acquired before 31-Jan-2018, the grandfathering provision under s.112A applies. Step 1: Compare actual cost (Rs.2,00,000) with FMV on 31-Jan-2018 (Rs.3,50,000) — take the higher = Rs.3,50,000. Step 2: Compare this with sale price (Rs.3,20,000) — take the LOWER = Rs.3,20,000. So cost of acquisition = Rs.3,20,000. Capital gain = Rs.3,20,000 - Rs.3,20,000 = NIL. This prevents a loss from being created artificially due to the grandfathering formula.
+**The Trap:** Candidates often stop at Step 1 and pick Rs.3,50,000, forgetting the second cap — the cost cannot exceed the sale price. Without this cap, there would be an artificial loss of Rs.30,000.
+**Cross-Exam Context:** NISM Series V-A (MF) tests the same grandfathering for equity-oriented MF units acquired before 31-Jan-2018.
+**Distributor's Pro-Tip:** The grandfathering formula has a built-in anti-loss mechanism. When sale price falls between actual cost and FMV on 31-Jan-2018, the gain is effectively NIL — no gain, no loss.]]></text></explanation>
+    </question>
+</QF>

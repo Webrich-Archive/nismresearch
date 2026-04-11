@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Taxation of Debt and Equity Products_C2_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Suresh Iyer, aged 55, is a resident Indian with total taxable income of Rs. 16,00,000 (in the 20% slab under new regime FY 2025-26, effective marginal rate approximately 20% plus cess). He is evaluating five investment options for a lump sum of Rs. 10,00,000 with a 2-year horizon:
+
+Option 1: Bank Fixed Deposit at 7.5% p.a. (compounded annually). Interest taxable at slab rate.
+Option 2: Listed Corporate Bond (NCD) yielding 8% p.a. coupon (paid annually). If held >12 months and sold, LTCG at 12.5%.
+Option 3: Equity Mutual Fund with expected NAV growth of 12% p.a. (no dividend). If held >12 months, LTCG at 12.5% above Rs. 1.25 lakh under s.112A.
+Option 4: Gold Mutual Fund with expected NAV growth of 10% p.a. Holding >24 months = LTCG at 12.5% without indexation.
+Option 5: Debt Mutual Fund (85% in debt, purchased after 1-Apr-2023) with expected NAV growth of 7.5% p.a. Always taxed as STCG at slab rate under s.50AA.
+
+Assume: New tax regime with no deductions. Suresh's marginal tax rate for additional income is 20% (in the Rs. 16-20 lakh slab). Ignore surcharge. Health & Education cess is 4%. Effective marginal rate = 20% x 1.04 = 20.8%. For s.112A, assume no other LTCG, so Rs. 1.25 lakh exemption is available.
+
+<b>Question 3 of 5:</b> What is the post-tax maturity value and approximate post-tax CAGR from the Equity Mutual Fund (Option 3) after 2 years?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Post-tax value approximately Rs. 12,37,578; post-tax CAGR approximately 11.2% p.a.]]></text></answer>
+            <answer correct="no"><text><![CDATA[Post-tax value approximately Rs. 12,54,400; post-tax CAGR approximately 12.0% p.a.]]></text></answer>
+            <answer correct="no"><text><![CDATA[Post-tax value approximately Rs. 12,21,500; post-tax CAGR approximately 10.5% p.a.]]></text></answer>
+            <answer correct="no"><text><![CDATA[Post-tax value approximately Rs. 12,22,530; post-tax CAGR approximately 10.6% p.a.]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step computation for the Equity Mutual Fund:
+
+Step 1 — Pre-tax maturity value (NAV growth of 12% p.a.):
+Rs. 10,00,000 x (1.12)^2 = Rs. 10,00,000 x 1.2544 = Rs. 12,54,400.
+
+Step 2 — Long-term capital gain (held >12 months with STT):
+LTCG = Rs. 12,54,400 - Rs. 10,00,000 = Rs. 2,54,400.
+
+Step 3 — Apply Rs. 1,25,000 exemption under s.112A:
+Taxable LTCG = Rs. 2,54,400 - Rs. 1,25,000 = Rs. 1,29,400.
+
+Step 4 — Tax on LTCG:
+Tax rate = 12.5% + 4% cess = 12.5% x 1.04 = 13%.
+Tax = 13% x Rs. 1,29,400 = Rs. 16,822.
+
+Step 5 — Post-tax maturity value:
+Rs. 12,54,400 - Rs. 16,822 = Rs. 12,37,578.
+
+Step 6 — Post-tax CAGR:
+CAGR = (12,37,578 / 10,00,000)^(1/2) - 1 = (1.237578)^0.5 - 1 = 1.1125 - 1 = approximately 11.2% p.a.
+
+**The Trap:** Option B shows the pre-tax value with zero tax — ignoring LTCG tax entirely. Option C and D may result from incorrectly applying the tax rate (e.g., not using the exemption or using 20% instead of 12.5%). The Rs. 1.25 lakh exemption under s.112A significantly reduces the effective tax rate on equity fund gains, which is the key advantage of equity mutual funds.
+
+**Cross-Exam Context:** The s.112A computation requires remembering: (1) 12.5% rate (revised from 10% effective FY 2024-25), (2) Rs. 1.25 lakh annual exemption (revised from Rs. 1 lakh), (3) STT must be paid on acquisition/sale, (4) Cess at 4% applies on top. The effective tax rate on Rs. 2,54,400 gain is only Rs. 16,822 / Rs. 2,54,400 = 6.6%, much lower than the 20.8% slab rate.
+
+**Distributor's Pro-Tip:** The Rs. 1.25 lakh exemption under s.112A is a powerful tax shield. For a client investing Rs. 10 lakh with 12% growth, the first Rs. 1.25 lakh of LTCG is completely tax-free. This means the effective tax rate on equity MF gains is significantly lower than the headline 12.5% rate, especially for moderate gain amounts. Advisers should illustrate this benefit clearly during client conversations to justify higher equity allocation.]]></text></explanation>
+    </question>
+</QF>

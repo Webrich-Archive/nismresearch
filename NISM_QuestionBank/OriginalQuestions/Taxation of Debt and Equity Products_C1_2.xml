@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Taxation of Debt and Equity Products_C1_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Anita Desai, aged 45, is a resident Indian in the 30% tax bracket (old regime). During FY 2025-26, she has the following investment transactions:
+
+1. Equity Mutual Fund A: Purchased 5,000 units at Rs. 120 per unit on 15-Mar-2024. Sold all units at Rs. 155 per unit on 20-Jan-2026. STT paid on sale.
+2. Equity Mutual Fund B: Purchased 3,000 units at Rs. 200 per unit on 10-Aug-2025. Sold all units at Rs. 185 per unit on 25-Feb-2026. STT paid on sale.
+3. Debt Mutual Fund C (invested 90% in debt securities): Purchased 10,000 units at Rs. 50 per unit on 05-May-2024. Sold all units at Rs. 54 per unit on 15-Nov-2025. This fund was purchased after 1-Apr-2023.
+4. Bank Fixed Deposit: Rs. 15,00,000 at 7.5% p.a. for 1 year, matured on 30-Sep-2025. TDS deducted at 10%.
+5. Dividend received from Equity MF A during holding period: Rs. 25,000 (TDS of 10% deducted as dividend exceeded Rs. 5,000).
+6. Arbitrage Fund D: Purchased 8,000 units at Rs. 15 per unit on 01-Feb-2025. Sold all units at Rs. 16.50 per unit on 10-Mar-2026. STT paid on sale.
+
+Anita's total salary income (after standard deduction) is Rs. 22,00,000. She has no other income or deductions.
+
+<b>Question 2 of 5:</b> What is the tax treatment of the transaction in Equity Mutual Fund B, and how can the resulting loss be utilized?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Short-term capital loss (STCL) of Rs. 45,000 under section 111A; it can be set off against both STCG and LTCG from capital assets]]></text></answer>
+            <answer correct="no"><text><![CDATA[Long-term capital loss (LTCL) of Rs. 45,000 under section 112A; it can only be set off against LTCG]]></text></answer>
+            <answer correct="no"><text><![CDATA[Short-term capital loss (STCL) of Rs. 45,000; it can only be set off against STCG under section 111A, not against LTCG]]></text></answer>
+            <answer correct="no"><text><![CDATA[Short-term capital loss (STCL) of Rs. 45,000; it can be set off against salary income and capital gains both]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Equity MF B was purchased on 10-Aug-2025 and sold on 25-Feb-2026, a holding period of approximately 6 months, which is less than 12 months. For equity-oriented mutual funds, holding period of 12 months or less results in Short-Term Capital Gain/Loss. Since STT is paid, it falls under section 111A. Capital gain/loss = (Rs. 185 - Rs. 200) x 3,000 = -Rs. 15 x 3,000 = -Rs. 45,000 (a loss). As per the Income Tax Act, short-term capital loss can be set off against both short-term capital gains AND long-term capital gains. In Anita's case, this Rs. 45,000 STCL can be set off against her LTCG under section 112A (from Equity MF A and Arbitrage Fund D).
+**The Trap:** Option B wrongly classifies this as LTCL — with only 6 months holding, it is clearly short-term. Option C wrongly states STCL can only be set off against STCG — the law allows STCL to be set off against any capital gain (short-term or long-term). Option D wrongly suggests capital loss can be set off against salary income — capital losses can only be set off against capital gains, never against income under other heads.
+**Cross-Exam Context:** The set-off hierarchy is crucial: (1) STCL can be set off against both STCG and LTCG, (2) LTCL can only be set off against LTCG, (3) Capital losses cannot be set off against any other head of income. Unabsorbed losses can be carried forward for 8 assessment years.
+**Distributor's Pro-Tip:** When a client has both gains and losses in equity funds during the same financial year, advise strategic timing of redemptions. Here, Anita's STCL of Rs. 45,000 from MF B reduces her aggregate taxable LTCG under 112A, potentially saving Rs. 5,625 in tax (12.5% of Rs. 45,000). Tax-loss harvesting is a valuable advisory tool.]]></text></explanation>
+    </question>
+</QF>

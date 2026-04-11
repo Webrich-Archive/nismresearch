@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Income, Residential Status, Five Heads of Income_23" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Mr. Sanjay's gross salary is Rs.15,00,000. Under the new tax regime, he claims the standard deduction of Rs.75,000. His employer contributes 14% of his basic salary (Rs.10,00,000) to NPS under section 80CCD(2). What is his net taxable salary income?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs.15,00,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.14,25,000]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs.12,85,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.13,60,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Gross salary = Rs.15,00,000. Less: Standard deduction under new regime = Rs.75,000. Less: Employer NPS contribution u/s 80CCD(2) at 14% of basic (Rs.10,00,000) = Rs.1,40,000. This is within the 14% limit under the new regime, so fully deductible. Net taxable salary = Rs.15,00,000 - Rs.75,000 - Rs.1,40,000 = Rs.12,85,000.
+**The Trap:** Under the old regime, the 80CCD(2) limit is 10%, which would give Rs.1,00,000 deduction and a different answer. Candidates who apply the wrong regime's percentage will get Rs.13,25,000 (old regime standard deduction) or Rs.14,00,000 (wrong NPS %). Also, some may forget that 80CCD(2) is available even under the new regime.
+**Cross-Exam Context:** NISM X-B tests regime-specific salary computation. The interplay between standard deduction and employer NPS under the new regime is a common exam topic.
+**Distributor's Pro-Tip:** For high-salary clients on the new regime, maximizing employer NPS contribution to 14% of basic is one of the most tax-efficient strategies available — it reduces taxable salary AND builds retirement corpus simultaneously.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Tax Framework and Key Concepts_C1_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Priya Sharma, aged 42, is a salaried private sector employee. Her income details for FY 2025-26 are as follows:
+
+- Basic Salary: Rs. 18,00,000 per annum
+- Dearness Allowance (part of retirement benefits): Rs. 3,60,000 per annum
+- HRA received: Rs. 7,20,000 per annum (she pays rent of Rs. 40,000 per month in Mumbai)
+- Employer's contribution to EPF: 12% of (Basic + DA) = Rs. 2,59,200
+- Employer's contribution to NPS: 12% of (Basic + DA) = Rs. 2,59,200
+- Priya's own contribution to EPF: Rs. 2,59,200
+- Priya's own contribution to NPS under 80CCD(1B): Rs. 50,000
+- Priya's PPF investment: Rs. 1,50,000
+- Life insurance premium: Rs. 80,000
+- Health insurance premium: Rs. 28,000 (self and family, all below 60) + Rs. 35,000 (parents, both senior citizens)
+- Interest on education loan for her son: Rs. 1,20,000 (3rd year of repayment)
+- Interest on self-occupied house property loan: Rs. 3,50,000
+- Short-term capital gains (STT paid, listed equity): Rs. 2,50,000
+- Long-term capital gains (STT paid, equity MF): Rs. 3,00,000
+- Dividend income from Indian companies: Rs. 80,000
+- Savings account interest: Rs. 12,000
+
+Priya seeks advice from her investment adviser on whether to opt for old or new tax regime.
+
+<b>Question 2 of 5:</b> What is the amount of HRA exemption Priya can claim under the old tax regime?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 2,64,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 4,80,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 7,20,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 10,80,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** HRA exemption under section 10(13A) is the LEAST of the following three amounts:
+Salary for HRA purposes = Basic + DA (where DA forms part of retirement benefits) = Rs. 18,00,000 + Rs. 3,60,000 = Rs. 21,60,000.
+(a) HRA actually received = Rs. 7,20,000
+(b) Rent paid minus 10% of salary = Rs. 4,80,000 (Rs. 40,000 x 12) minus 10% of Rs. 21,60,000 (= Rs. 2,16,000) = Rs. 2,64,000
+(c) 50% of salary (since Mumbai is a metro city) = 50% of Rs. 21,60,000 = Rs. 10,80,000
+The least of Rs. 7,20,000, Rs. 2,64,000, and Rs. 10,80,000 = Rs. 2,64,000.
+Note: Under the new tax regime, HRA exemption is NOT available. Priya would have to pay tax on the full Rs. 7,20,000 HRA received.
+**The Trap:** Rs. 4,80,000 is the total rent paid (without subtracting 10% of salary) — candidates who forget to deduct 10% of salary from rent paid will pick this. Rs. 7,20,000 is simply the HRA received (not the exemption). Rs. 10,80,000 is the 50% of salary figure, which is never the least for high-salaried individuals paying moderate rent. Always compute all three components before selecting the least.
+**Cross-Exam Context:** HRA exemption is one of the most frequently tested calculations. The key pitfall is forgetting that "salary" for HRA includes DA only when DA forms part of retirement benefits. Also, the metro vs. non-metro distinction (50% vs. 40%) is critical.
+**Distributor's Pro-Tip:** Despite Priya receiving Rs. 7,20,000 as HRA, her exemption is only Rs. 2,64,000 because of the rent-minus-10%-salary formula. This makes the remaining Rs. 4,56,000 taxable. Advise clients in this situation to consider whether increasing rent (with genuine rent receipts) or moving to the new regime is more beneficial.]]></text></explanation>
+    </question>
+</QF>

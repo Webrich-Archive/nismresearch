@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Income, Residential Status, Five Heads of Income_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Mr. Anand, an Indian citizen crew member of an Indian ship, was present in India for 100 days during PY 2024-25. His total stay in India during the 4 preceding years was 400 days. His Indian income is Rs.8 lakh. What is his residential status?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Non-Resident, since he was present less than 182 days]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Non-Resident, since crew members of Indian ships need 182 days in India to be Resident when Indian income is ≤Rs.15L]]></text></answer>
+            <answer correct="no"><text><![CDATA[Resident, since he satisfies the 60-day + 365-day test]]></text></answer>
+            <answer correct="no"><text><![CDATA[Resident, since the 120-day relaxation applies to Indian citizens]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For crew members of Indian ships who are Indian citizens, the residency test requires: (a) 182+ days in India if Indian income ≤Rs.15L, OR (b) 182+ days + 365+ days in 4 preceding years (the standard crew test). The relaxed 60-day or 120-day tests do NOT apply to them. Mr. Anand was present only 100 days (< 182), so he is Non-Resident. His Indian income of Rs.8L is ≤Rs.15L, so the 120-day rule does not apply.
+**The Trap:** Candidates may apply the general 60+365 test or the 120-day rule for Indian citizens, forgetting that crew members of Indian ships have a special, more stringent test requiring 182 days in all cases (unless Indian income > Rs.15L, where 120 days + 365 in 4 preceding applies).
+**Cross-Exam Context:** NISM X-B tests the special provisions for ship crew — a niche but frequently examined scenario.
+**Distributor's Pro-Tip:** Merchant navy professionals often assume they are NR simply because they spend most time at sea. While the 182-day test protects most of them, those with high Indian income (>Rs.15L) may fall into the 120-day trap.]]></text></explanation>
+    </question>
+</QF>

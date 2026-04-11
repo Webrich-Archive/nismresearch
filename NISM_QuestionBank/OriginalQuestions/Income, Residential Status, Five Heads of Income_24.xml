@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Income, Residential Status, Five Heads of Income_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investment adviser has a client, Mrs. Lakshmi, who is an ROR. She has the following incomes: (i) Salary from Indian employer: Rs.12,00,000, (ii) Interest on NRE fixed deposit: Rs.80,000, (iii) Dividend from UK company received in UK: Rs.1,50,000, (iv) Rental income from property in Singapore: Rs.2,40,000. Which incomes are taxable in India?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Only (i) and (ii) — salary and NRE interest]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only (i), (iii) and (iv) — salary, UK dividend, and Singapore rental income]]></text></answer>
+            <answer correct="yes"><text><![CDATA[All four incomes (i), (ii), (iii), and (iv) are taxable]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only (i) — salary; the rest are foreign or exempt incomes]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** An ROR (Resident and Ordinarily Resident) is taxable on worldwide income — all income, regardless of where it is received or where it accrues. (i) Indian salary — taxable. (ii) NRE FD interest — while exempt for NRIs under section 10(4)(ii), Mrs. Lakshmi is an ROR (not an NR), so the NRE interest exemption does NOT apply to her. It is taxable. (iii) UK dividend received in UK — worldwide income, taxable for ROR. (iv) Singapore rental income — worldwide income, taxable for ROR.
+**The Trap:** The NRE FD interest trap is the most common — candidates automatically exempt it, forgetting that the exemption applies ONLY to NRIs. Once a person becomes ROR, NRE interest becomes fully taxable. This is a critical planning point for returning NRIs.
+**Cross-Exam Context:** NISM X-B tests ROR worldwide income scope with specific focus on NRE interest taxation post status change. This is directly relevant to investment advisory practice.
+**Distributor's Pro-Tip:** When NRI clients return to India and become ROR, immediately advise them to close or restructure NRE deposits — the interest loses its tax-free status. Convert to RFC (Resident Foreign Currency) accounts where applicable.]]></text></explanation>
+    </question>
+</QF>

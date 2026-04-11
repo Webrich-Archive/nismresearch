@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Taxation of Debt and Equity Products_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following STT (Securities Transaction Tax) rates is correctly matched with its transaction type?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Sale of equity shares (delivery-based): 0.025% paid by seller]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sale of equity shares (intraday): 0.0625% paid by seller]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Sale of an option in securities (where exercised): 0.0125% paid by purchaser]]></text></answer>
+            <answer correct="no"><text><![CDATA[Redemption of equity mutual fund units: 0.01% paid by seller]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The correct STT rates are: (a) Equity delivery sell = 0.0625%, (b) Intraday sell = 0.0125%, (c) Options exercise = 0.0125% on intrinsic value paid by purchaser, (d) Equity MF redemption = 0.001%. Option C correctly states 0.0125% on options exercise paid by the purchaser.
+**The Trap:** The STT rates are very small decimal numbers that are easy to mix up. Option A uses 0.025% instead of the correct 0.0625% for delivery. Option B reverses the delivery and intraday rates. Option D uses 0.01% instead of 0.001% for MF redemption — a factor of 10 difference that seems plausible.
+**Cross-Exam Context:** NISM Series VIII (Equity Derivatives) tests STT on derivatives transactions specifically. Series X-B covers the broader STT landscape.
+**Distributor's Pro-Tip:** STT is a transactional cost that directly reduces returns. For active traders, the cumulative STT impact can be significant. The key rates to remember: 0.0625% on equity delivery sell, 0.0125% on intraday/options exercise, and 0.001% on equity MF redemption.]]></text></explanation>
+    </question>
+</QF>

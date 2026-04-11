@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Taxation of Debt and Equity Products_C1_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Anita Desai, aged 45, is a resident Indian in the 30% tax bracket (old regime). During FY 2025-26, she has the following investment transactions:
+
+1. Equity Mutual Fund A: Purchased 5,000 units at Rs. 120 per unit on 15-Mar-2024. Sold all units at Rs. 155 per unit on 20-Jan-2026. STT paid on sale.
+2. Equity Mutual Fund B: Purchased 3,000 units at Rs. 200 per unit on 10-Aug-2025. Sold all units at Rs. 185 per unit on 25-Feb-2026. STT paid on sale.
+3. Debt Mutual Fund C (invested 90% in debt securities): Purchased 10,000 units at Rs. 50 per unit on 05-May-2024. Sold all units at Rs. 54 per unit on 15-Nov-2025. This fund was purchased after 1-Apr-2023.
+4. Bank Fixed Deposit: Rs. 15,00,000 at 7.5% p.a. for 1 year, matured on 30-Sep-2025. TDS deducted at 10%.
+5. Dividend received from Equity MF A during holding period: Rs. 25,000 (TDS of 10% deducted as dividend exceeded Rs. 5,000).
+6. Arbitrage Fund D: Purchased 8,000 units at Rs. 15 per unit on 01-Feb-2025. Sold all units at Rs. 16.50 per unit on 10-Mar-2026. STT paid on sale.
+
+Anita's total salary income (after standard deduction) is Rs. 22,00,000. She has no other income or deductions.
+
+<b>Question 5 of 5:</b> What is the net taxable LTCG under section 112A after aggregating all eligible gains and losses, and what is the final tax on this amount?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Net taxable LTCG under s.112A = Rs. 17,000 after set-off and exemption; tax at 12.5% = Rs. 2,125]]></text></answer>
+            <answer correct="no"><text><![CDATA[Net taxable LTCG under s.112A = Rs. 50,000 after exemption on MF A alone; tax at 12.5% = Rs. 6,250]]></text></answer>
+            <answer correct="no"><text><![CDATA[Net taxable LTCG under s.112A = Rs. 62,000 after exemption; tax at 12.5% = Rs. 7,750]]></text></answer>
+            <answer correct="no"><text><![CDATA[Net taxable LTCG under s.112A = Rs. 1,42,000 (no exemption available as total gains exceed Rs. 1.25 lakh); tax at 12.5% = Rs. 17,750]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step computation of net LTCG under section 112A:
+
+Step 1 — Identify all section 112A gains and losses:
+(a) Equity MF A: LTCG (held >12 months, STT paid) = (Rs. 155 - Rs. 120) x 5,000 = Rs. 1,75,000
+(b) Arbitrage Fund D: Treated as equity-oriented fund (STT paid). Held from 01-Feb-2025 to 10-Mar-2026 = approximately 13 months (>12 months) = LTCG. Gain = (Rs. 16.50 - Rs. 15) x 8,000 = Rs. 12,000
+(c) Total gross LTCG under 112A = Rs. 1,75,000 + Rs. 12,000 = Rs. 1,87,000
+
+Step 2 — Set-off of short-term capital loss:
+Equity MF B resulted in STCL of Rs. 45,000 (under s.111A). STCL can be set off against LTCG. After set-off: Rs. 1,87,000 - Rs. 45,000 = Rs. 1,42,000.
+
+Step 3 — Apply Rs. 1,25,000 exemption under s.112A:
+Taxable LTCG = Rs. 1,42,000 - Rs. 1,25,000 = Rs. 17,000.
+
+Step 4 — Compute tax:
+Tax = 12.5% x Rs. 17,000 = Rs. 2,125 (plus applicable cess).
+
+Note: The Rs. 1.25 lakh exemption is applied to the net LTCG under s.112A after set-off of losses.
+
+**The Trap:** Option B ignores the Arbitrage Fund D gain and the set-off of MF B loss, computing tax only on MF A in isolation. Option C appears to aggregate but miscalculates the set-off. Option D wrongly states that the Rs. 1.25 lakh exemption is not available when total gains exceed Rs. 1.25 lakh — the exemption always applies to the first Rs. 1.25 lakh of LTCG under 112A; only the excess is taxed.
+
+**Cross-Exam Context:** This question tests three critical concepts simultaneously: (1) Aggregation of all 112A gains, (2) Set-off of STCL against LTCG, (3) Application of Rs. 1.25 lakh exemption. The sequence matters: first aggregate gains, then set off losses, then apply exemption.
+
+**Distributor's Pro-Tip:** Tax-loss harvesting can be extremely effective. In Anita's case, the Rs. 45,000 STCL from MF B reduced her taxable LTCG by the same amount. Without MF B's loss, her tax would have been 12.5% x (1,87,000 - 1,25,000) = 12.5% x 62,000 = Rs. 7,750. The tax saving from the loss set-off = Rs. 7,750 - Rs. 2,125 = Rs. 5,625. Advisers should track unrealized losses in client portfolios and consider booking them strategically before year-end.]]></text></explanation>
+    </question>
+</QF>

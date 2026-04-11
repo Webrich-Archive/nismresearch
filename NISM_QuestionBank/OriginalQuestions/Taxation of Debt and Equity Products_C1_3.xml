@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Taxation of Debt and Equity Products_C1_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Anita Desai, aged 45, is a resident Indian in the 30% tax bracket (old regime). During FY 2025-26, she has the following investment transactions:
+
+1. Equity Mutual Fund A: Purchased 5,000 units at Rs. 120 per unit on 15-Mar-2024. Sold all units at Rs. 155 per unit on 20-Jan-2026. STT paid on sale.
+2. Equity Mutual Fund B: Purchased 3,000 units at Rs. 200 per unit on 10-Aug-2025. Sold all units at Rs. 185 per unit on 25-Feb-2026. STT paid on sale.
+3. Debt Mutual Fund C (invested 90% in debt securities): Purchased 10,000 units at Rs. 50 per unit on 05-May-2024. Sold all units at Rs. 54 per unit on 15-Nov-2025. This fund was purchased after 1-Apr-2023.
+4. Bank Fixed Deposit: Rs. 15,00,000 at 7.5% p.a. for 1 year, matured on 30-Sep-2025. TDS deducted at 10%.
+5. Dividend received from Equity MF A during holding period: Rs. 25,000 (TDS of 10% deducted as dividend exceeded Rs. 5,000).
+6. Arbitrage Fund D: Purchased 8,000 units at Rs. 15 per unit on 01-Feb-2025. Sold all units at Rs. 16.50 per unit on 10-Mar-2026. STT paid on sale.
+
+Anita's total salary income (after standard deduction) is Rs. 22,00,000. She has no other income or deductions.
+
+<b>Question 3 of 5:</b> What is the tax treatment and tax liability on the gain from Debt Mutual Fund C?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Gain of Rs. 40,000 taxed as short-term capital gain at slab rate (30%) regardless of holding period; tax = Rs. 12,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Gain of Rs. 40,000 taxed as LTCG at 12.5% since held for more than 12 months; tax = Rs. 5,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Gain of Rs. 40,000 taxed as LTCG at 20% with indexation benefit; tax = approximately Rs. 4,800]]></text></answer>
+            <answer correct="no"><text><![CDATA[Gain of Rs. 40,000 taxed as LTCG at 12.5% without indexation since held for more than 24 months; tax = Rs. 5,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Debt Mutual Fund C has 90% invested in debt securities, making it a "specified mutual fund" (where more than 65% of assets are in debt). Since it was purchased after 1-Apr-2023, the provisions of section 50AA apply. Under section 50AA (introduced by Finance Act 2023), gains from specified mutual funds are ALWAYS treated as short-term capital gains, regardless of the holding period, and taxed at the investor's applicable slab rate. Capital gain = (Rs. 54 - Rs. 50) x 10,000 = Rs. 4 x 10,000 = Rs. 40,000. Even though Anita held this fund for approximately 18 months (May 2024 to Nov 2025), it is still treated as STCG. At her slab rate of 30%, tax = 30% x Rs. 40,000 = Rs. 12,000.
+**The Trap:** Option B applies the equity LTCG rate of 12.5%, which is incorrect for a debt-dominated fund. Option C applies the old regime of 20% with indexation — indexation benefit for debt funds was removed for purchases after 1-Apr-2023. Option D applies the 12.5% rate applicable to other assets held >24 months, but s.50AA overrides the holding period concept for specified MFs. The key rule: for debt MFs purchased after 1-Apr-2023, there is NO concept of long-term — it is always short-term.
+**Cross-Exam Context:** Section 50AA is a game-changing provision frequently tested in NISM X-B. It eliminated the tax advantage that debt mutual funds previously had over fixed deposits. Now, both are taxed at slab rate, making the after-tax comparison between debt MFs and FDs nearly identical (except for the timing of tax — FD interest is taxed annually, while MF gains are taxed only on redemption).
+**Distributor's Pro-Tip:** Post the s.50AA amendment, the key selling point of debt mutual funds is no longer tax efficiency but rather: (1) liquidity (no lock-in like FDs), (2) professional management, (3) diversification, and (4) deferral of tax liability until redemption (unlike FDs where interest is taxed annually on accrual basis). Advisers must recalibrate client conversations around debt MFs accordingly.]]></text></explanation>
+    </question>
+</QF>

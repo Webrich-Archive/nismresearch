@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Taxation of Debt and Equity Products_C2_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Suresh Iyer, aged 55, is a resident Indian with total taxable income of Rs. 16,00,000 (in the 20% slab under new regime FY 2025-26, effective marginal rate approximately 20% plus cess). He is evaluating five investment options for a lump sum of Rs. 10,00,000 with a 2-year horizon:
+
+Option 1: Bank Fixed Deposit at 7.5% p.a. (compounded annually). Interest taxable at slab rate.
+Option 2: Listed Corporate Bond (NCD) yielding 8% p.a. coupon (paid annually). If held >12 months and sold, LTCG at 12.5%.
+Option 3: Equity Mutual Fund with expected NAV growth of 12% p.a. (no dividend). If held >12 months, LTCG at 12.5% above Rs. 1.25 lakh under s.112A.
+Option 4: Gold Mutual Fund with expected NAV growth of 10% p.a. Holding >24 months = LTCG at 12.5% without indexation.
+Option 5: Debt Mutual Fund (85% in debt, purchased after 1-Apr-2023) with expected NAV growth of 7.5% p.a. Always taxed as STCG at slab rate under s.50AA.
+
+Assume: New tax regime with no deductions. Suresh's marginal tax rate for additional income is 20% (in the Rs. 16-20 lakh slab). Ignore surcharge. Health & Education cess is 4%. Effective marginal rate = 20% x 1.04 = 20.8%. For s.112A, assume no other LTCG, so Rs. 1.25 lakh exemption is available.
+
+<b>Question 2 of 5:</b> What is the post-tax return from the Listed Corporate Bond (NCD) (Option 2) if held for 2 years and sold at par, and what is the approximate post-tax CAGR?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Post-tax value approximately Rs. 11,26,720; post-tax CAGR approximately 6.15% p.a.]]></text></answer>
+            <answer correct="no"><text><![CDATA[Post-tax value approximately Rs. 11,16,000; post-tax CAGR approximately 5.63% p.a.]]></text></answer>
+            <answer correct="no"><text><![CDATA[Post-tax value approximately Rs. 11,36,000; post-tax CAGR approximately 6.60% p.a.]]></text></answer>
+            <answer correct="no"><text><![CDATA[Post-tax value approximately Rs. 11,60,000; post-tax CAGR approximately 7.70% p.a.]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step computation for the Listed Corporate Bond (NCD):
+
+Step 1 — Annual coupon income:
+Rs. 10,00,000 x 8% = Rs. 80,000 per year.
+
+Step 2 — Tax on coupon each year (interest income taxed at slab rate):
+Tax per year = 20.8% x Rs. 80,000 = Rs. 16,640.
+Net coupon received per year = Rs. 80,000 - Rs. 16,640 = Rs. 63,360.
+
+Step 3 — Total net coupon over 2 years:
+Rs. 63,360 x 2 = Rs. 1,26,720.
+
+Step 4 — Capital gain on sale:
+Sold at par (Rs. 10,00,000) after 2 years, so there is no capital gain or loss. No LTCG tax applies.
+
+Step 5 — Post-tax total value:
+Rs. 10,00,000 (principal) + Rs. 1,26,720 (net coupon) = Rs. 11,26,720.
+
+Step 6 — Post-tax CAGR:
+CAGR = (11,26,720 / 10,00,000)^(1/2) - 1 = (1.12672)^0.5 - 1 = 1.06146 - 1 = approximately 6.15% p.a.
+
+Note: We assume the annual coupon is received at year-end and not reinvested. If reinvested, the return would be marginally higher.
+
+**The Trap:** Option B applies a higher tax rate (perhaps 30%) on the coupon, yielding lower returns. Option C understates the tax, possibly applying only 10% TDS as the final tax. Option D ignores tax entirely on the coupon income. The key point: coupon (interest) on NCDs is taxed at slab rate each year, while capital gains (if any) on listed NCDs held >12 months are taxed at 12.5%.
+
+**Cross-Exam Context:** Listed NCDs have a dual tax treatment: (1) Coupon/interest = slab rate (like FD interest), (2) Capital gains on sale = 12.5% LTCG if held >12 months (listed on recognized exchange), or slab rate if STCG. In this case, since sold at par, only coupon taxation applies.
+
+**Distributor's Pro-Tip:** NCDs offer marginally higher post-tax returns than FDs (6.15% vs 5.98% in this example) because of the higher pre-tax yield (8% vs 7.5%). However, NCDs carry credit risk and liquidity risk that FDs with bank guarantee do not. The adviser must weigh the approximately 0.17% p.a. extra post-tax return against the additional risk.]]></text></explanation>
+    </question>
+</QF>

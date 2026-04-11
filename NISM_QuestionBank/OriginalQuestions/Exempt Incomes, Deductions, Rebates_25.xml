@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Exempt Incomes, Deductions, Rebates_25" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Rajiv has a ULIP policy purchased on 10th March 2024 with a sum assured of Rs.8,00,000. He pays an annual premium of Rs.3,00,000. At maturity, he receives Rs.42,00,000. What is the tax treatment of the maturity proceeds under Section 10(10D)?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Fully exempt as ULIPs are covered under Section 10(10D) without any conditions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Exempt because the premium does not exceed 10% of sum assured]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Not exempt under Section 10(10D) as the annual premium exceeds Rs.2,50,000 — proceeds taxable as capital gains]]></text></answer>
+            <answer correct="no"><text><![CDATA[Exempt up to sum assured of Rs.8,00,000 and balance taxable as income from other sources]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For ULIPs issued on or after 1st February 2021, if the annual premium exceeds Rs.2,50,000, the maturity proceeds are NOT exempt under Section 10(10D). Such ULIPs are treated as capital assets and the proceeds are taxable as capital gains. Rajiv's premium of Rs.3,00,000 exceeds the Rs.2.5L threshold, so the maturity proceeds lose their tax exemption.
+**The Trap:** Option A ignores the Rs.2.5L premium condition for ULIPs. Option B applies the premium-to-sum-assured ratio test (10% or 5%), which is relevant for traditional life insurance policies, NOT for the ULIP-specific Rs.2.5L threshold. Option D invents a partial exemption mechanism.
+**Cross-Exam Context:** NISM Series V-A MFD exam compares the tax treatment of ULIPs with equity mutual funds, especially post the 2021 amendment equalizing their tax treatment for high-premium policies.
+**Distributor's Pro-Tip:** The Rs.2.5L annual premium threshold for ULIPs was introduced to create parity with mutual funds. For clients investing more than Rs.2.5L annually, mutual funds may offer better liquidity and comparable tax treatment.]]></text></explanation>
+    </question>
+</QF>

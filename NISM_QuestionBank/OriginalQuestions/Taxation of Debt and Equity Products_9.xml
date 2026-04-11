@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Taxation of Debt and Equity Products_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Manoj purchased 1,000 units of a mutual fund scheme (30% in listed domestic equities, 70% in debt) on 10th May 2023 at NAV of Rs.100. He sold all units on 20th May 2026 at NAV of Rs.140. How is the capital gain of Rs.40,000 taxed?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Always short-term capital gain at slab rate under Section 50AA since it is a specified mutual fund]]></text></answer>
+            <answer correct="no"><text><![CDATA[Short-term capital gain at 20% under Section 111A since it is an equity-oriented fund]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Long-term capital gain at 12.5% since the units were bought after 1-4-2023, sold on/after 1-4-2025, and the fund is a listed scheme held for more than 12 months]]></text></answer>
+            <answer correct="no"><text><![CDATA[Long-term capital gain at 12.5% with indexation benefit since holding exceeds 36 months]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** This fund has ≤35% in listed domestic equity, making it an "SMF Type 2" (Specified Mutual Fund Type 2). For SMF Type 2 units bought after 1-4-2023 and sold ON OR AFTER 1-4-2025, the normal capital gains rules apply: for a listed MF scheme, 12 months holding qualifies for LTCG at 12.5% without indexation. Manoj held from May 2023 to May 2026 (36 months > 12 months), so it is LTCG at 12.5%. Had he sold BEFORE 1-4-2025, it would have been always short-term.
+**The Trap:** Option A would be correct if this were a "Specified MF" with ≥65% debt, but this fund has only 70% debt and 30% equity — it actually IS ≥65% debt. However, the critical distinction is the ≤35% listed domestic equity test which makes it SMF Type 2 with the transitional rule. Candidates must carefully distinguish between "Specified MF" (≥65% debt) and "SMF Type 2" (≤35% listed domestic equity). This fund with 30% listed domestic equity qualifies as SMF Type 2, and since sold after 1-4-2025, normal LTCG rules apply.
+**Cross-Exam Context:** This transitional rule for SMF Type 2 is unique to the post-2023 regime and is heavily tested in NISM X-B.
+**Distributor's Pro-Tip:** The April 2025 date is a critical inflection point for SMF Type 2 funds. Units bought after April 2023 but sold after April 2025 regain LTCG eligibility — a key planning opportunity for clients holding such funds.]]></text></explanation>
+    </question>
+</QF>

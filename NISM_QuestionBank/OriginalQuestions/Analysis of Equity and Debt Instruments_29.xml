@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Analysis of Equity and Debt Instruments_29" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Harish invested Rs.50,000 per gram in 10 grams of Sovereign Gold Bonds (total Rs.5,00,000). After 4 years, he transferred them on the stock exchange at Rs.62,000 per gram. The accrued interest for the last half-year period is Rs.625 per bond (10 bonds). What is the capital gain on transfer?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs.1,20,000 (full sale proceeds minus cost)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs.1,13,750 — sale consideration is reduced by accrued interest of Rs.6,250 before computing capital gain]]></text></answer>
+            <answer correct="no"><text><![CDATA[Nil — SGB transfers are exempt from capital gains]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.1,26,250 — accrued interest is added to the capital gain]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When SGBs are transferred on the stock exchange before maturity, the sale consideration includes accrued interest. This accrued interest must be deducted from the consideration before computing capital gains, as it is separately taxable as interest income. Total sale price = 10 × Rs.62,000 = Rs.6,20,000. Accrued interest = 10 × Rs.625 = Rs.6,250. Consideration for capital gains = Rs.6,20,000 - Rs.6,250 = Rs.6,13,750. Capital gain = Rs.6,13,750 - Rs.5,00,000 = Rs.1,13,750. Since held for >12 months (4 years) and listed, this is LTCG at 12.5%. Note: SGB redemption exemption applies only to INDIVIDUALS at MATURITY, not on exchange transfer.
+**The Trap:** Option A ignores the accrued interest deduction. Option C confuses exchange transfer with maturity redemption — only maturity redemption by individuals is exempt. Option D adds interest to gain instead of deducting it from consideration.
+**Cross-Exam Context:** The accrued interest adjustment for SGBs is a nuanced calculation tested in NISM X-B. The distinction between maturity (exempt) and transfer (taxable) is critical.
+**Distributor's Pro-Tip:** If a client needs to exit SGBs before maturity, compute the tax on both components: (a) interest income at slab rate, and (b) capital gains at 12.5% (LTCG). Compare this with holding to maturity where capital gains are exempt.]]></text></explanation>
+    </question>
+</QF>

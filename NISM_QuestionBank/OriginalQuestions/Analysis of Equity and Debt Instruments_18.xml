@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Analysis of Equity and Debt Instruments_18" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Amit held preference shares of a listed company which were converted into equity shares. The preference shares were purchased on 01-Jan-2023 for Rs.1,00,000 and converted into equity on 01-Jan-2025. He sold the equity shares on 15-Feb-2026. For capital gains purposes, what is the holding period and cost of the equity shares?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Holding period includes the preference share period (from 01-Jan-2023), cost = Rs.1,00,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Holding period starts from conversion date (01-Jan-2025), cost = FMV on conversion date]]></text></answer>
+            <answer correct="no"><text><![CDATA[Holding period from 01-Jan-2023, cost = Nil (treated like bonus shares)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Holding period from 01-Jan-2025, cost = Rs.1,00,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When preference shares are converted into equity shares, the holding period of the equity shares INCLUDES the period for which the preference shares were held. So the holding period starts from 01-Jan-2023 (original purchase of preference shares). The cost of acquisition of the equity shares is the cost of the original preference shares, i.e., Rs.1,00,000. Total holding = 01-Jan-2023 to 15-Feb-2026 = over 36 months. For listed equity, >12 months = LTCA.
+**The Trap:** Option B resets both holding period and cost to the conversion date, which is incorrect for preference-to-equity conversion. Option C correctly retains the holding period but wrongly assigns Nil cost. The conversion of preference to equity is a continuation, not a new acquisition.
+**Cross-Exam Context:** Conversion scenarios (preference→equity, bonds→shares, debentures→shares) are tested in NISM X-B. All follow the same principle: holding period includes pre-conversion period.
+**Distributor's Pro-Tip:** Conversion of securities preserves tax continuity — both cost and holding period carry forward. This is advantageous for clients who can claim LTCG treatment based on the combined holding period.]]></text></explanation>
+    </question>
+</QF>

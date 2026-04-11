@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Analysis of Equity and Debt Instruments_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In a demerger, Company A (net book value Rs.1,000 crore) demerges its division into Company B (net book value of demerged division Rs.300 crore). Geeta held shares of Company A with a cost of Rs.10,00,000. What is the cost of shares of Company B received and the remaining cost of Company A shares?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Company B: Rs.5,00,000, Company A: Rs.5,00,000 (equal split)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Company B: Rs.3,00,000, Company A: Rs.7,00,000 (proportional to net book values)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Company B: Rs.10,00,000, Company A: Rs.10,00,000 (cost duplicated)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Company B: Nil, Company A: Rs.10,00,000 (no cost allocated to demerged shares)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In a demerger under Section 47, no transfer is deemed to occur when shareholders receive shares of the resulting company. The cost of original shares is apportioned based on the net book value ratio. Company B's share of cost = Rs.10,00,000 × (Rs.300 crore / Rs.1,000 crore) = Rs.10,00,000 × 30% = Rs.3,00,000. Remaining cost of Company A shares = Rs.10,00,000 - Rs.3,00,000 = Rs.7,00,000. Total cost remains Rs.10,00,000. The holding period includes the original holding period of Company A shares for both sets of shares.
+**The Trap:** Option A splits equally regardless of net book values — the law requires proportional allocation. Option C duplicates cost, which would understate future capital gains. Option D assigns no cost to new shares, which would overstate gains on sale of Company B shares.
+**Cross-Exam Context:** Demerger cost apportionment is tested in NISM X-B. Similar proportional allocation applies in segregated portfolios of MFs (NAV ratio).
+**Distributor's Pro-Tip:** After a demerger, immediately update client records with the apportioned costs. Many investors forget to split costs and end up computing incorrect capital gains when they sell either set of shares later.]]></text></explanation>
+    </question>
+</QF>

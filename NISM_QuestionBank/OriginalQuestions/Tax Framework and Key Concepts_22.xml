@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Tax Framework and Key Concepts_22" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following is the correct sequence of steps in computing the total tax payable for a non-corporate assessee?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Compute tax on total income → Deduct TDS → Add surcharge → Add cess → Deduct advance tax]]></text></answer>
+            <answer correct="no"><text><![CDATA[Compute tax on total income → Add cess → Add surcharge → Deduct relief u/s 89 → Deduct TDS]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Compute tax at applicable rates → Add surcharge → Add 4% H&E cess → Deduct AMT credit → Deduct relief u/s 89 → Deduct foreign tax credit → Deduct advance tax, TDS, TCS, and self-assessment tax]]></text></answer>
+            <answer correct="no"><text><![CDATA[Compute tax at applicable rates → Add 4% H&E cess → Add surcharge → Deduct advance tax → Deduct relief u/s 89]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The correct sequence for computing net tax payable for a non-corporate assessee is: (1) Compute tax at applicable slab rates on total income; (2) Add surcharge (if applicable based on income level); (3) Add 4% Health & Education Cess on (tax + surcharge); (4) Deduct AMT (Alternate Minimum Tax) credit if available; (5) Deduct relief under Section 89 (for salary arrears); (6) Deduct foreign tax credit; (7) Deduct prepaid taxes — advance tax, TDS, TCS, and self-assessment tax already paid. The balance is tax payable (or refundable).
+**The Trap:** Option (a) deducts TDS before adding cess, mixing up the sequence. Option (b) adds cess before surcharge — cess is always computed on tax+surcharge, so surcharge must come first. Option (d) also reverses the surcharge/cess order and misplaces the relief deduction.
+**Cross-Exam Context:** NISM Series X-B tests this computation flow as it is essential for investment advisers computing client tax obligations.
+**Distributor's Pro-Tip:** Getting the sequence wrong can lead to incorrect tax projections — surcharge is added first, then cess is levied on the combined figure. This compounding effect is often underestimated.]]></text></explanation>
+    </question>
+</QF>

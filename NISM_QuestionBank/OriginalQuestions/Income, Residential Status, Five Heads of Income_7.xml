@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Income, Residential Status, Five Heads of Income_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An Indian citizen earns Rs.18 lakh from Indian sources and is not liable to tax in any other country during PY 2024-25. He stayed in India for only 50 days during the year. What is his residential status?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Non-Resident, since he stayed less than 60 days]]></text></answer>
+            <answer correct="no"><text><![CDATA[Resident and Ordinarily Resident]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Resident but Not Ordinarily Resident (Deemed Resident)]]></text></answer>
+            <answer correct="no"><text><![CDATA[His status cannot be determined without knowing the stay in preceding years]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under section 6(1A), an Indian citizen is a "deemed resident" if: (a) Indian income exceeds Rs.15 lakh, AND (b) he is not liable to tax in any other country. Both conditions are met here (Rs.18L > Rs.15L, not liable to tax elsewhere). A deemed resident is always classified as RNOR under section 6(6)(d), regardless of the number of days spent in India.
+**The Trap:** Candidates may focus on the day-count (50 days < 60 days) and conclude NR. But the deemed resident provision overrides the physical presence test entirely — it is a separate, independent route to residency.
+**Cross-Exam Context:** The deemed resident concept was introduced to target "stateless" individuals and is a favourite in NISM X-B exams. NISM X-A does not cover this provision.
+**Distributor's Pro-Tip:** Clients who are Indian citizens living in tax havens (UAE, Bahamas) with significant Indian income may unknowingly become deemed residents — always check both income threshold and tax liability status in other countries.]]></text></explanation>
+    </question>
+</QF>

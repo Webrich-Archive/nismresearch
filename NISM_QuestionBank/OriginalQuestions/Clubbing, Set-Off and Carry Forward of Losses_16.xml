@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Clubbing, Set-Off and Carry Forward of Losses_16" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Mr. Nitin has the following income and losses in FY 2025-26: Salary Rs.10,00,000; Rental income from Property A: Rs.1,50,000; Loss from Property B: Rs.4,00,000; Bank FD interest: Rs.80,000 (old regime). After all set-offs, what is his gross total income?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs.8,80,000 — intra-head set-off reduces house property loss to Rs.2,50,000; inter-head set-off capped at Rs.2,00,000; balance Rs.50,000 carried forward]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.8,30,000 — full house property loss of Rs.2,50,000 (net) set off against other income]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.10,80,000 — house property loss cannot be set off against salary or interest]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.6,80,000 — full Rs.4,00,000 loss set off against salary and interest]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step 1 — Intra-head set-off: Property A income Rs.1,50,000 against Property B loss Rs.4,00,000. Net house property loss = Rs.2,50,000. Step 2 — Inter-head set-off: Under old regime, house property loss set-off against other heads is capped at Rs.2,00,000. So Rs.2,00,000 is set off against salary + FD interest. Balance Rs.50,000 carried forward for 8 years. Gross Total Income = Rs.10,00,000 + Rs.80,000 - Rs.2,00,000 = Rs.8,80,000.
+**The Trap:** Option B ignores the Rs.2,00,000 cap and sets off the entire net loss of Rs.2,50,000. Option D ignores intra-head set-off and tries to set off the gross loss.
+**Cross-Exam Context:** Multi-step house property set-off (intra then inter with cap) is a frequently tested calculation in NISM X-B.
+**Distributor's Pro-Tip:** Always do intra-head set-off first (mandatory), then apply the Rs.2,00,000 inter-head cap. The sequence matters for the carry-forward amount.]]></text></explanation>
+    </question>
+</QF>

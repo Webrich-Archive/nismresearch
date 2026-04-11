@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Analysis of Equity and Debt Instruments_C2_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Rahul Verma, aged 35, is an employee of GlobalTech India Pvt Ltd, an unlisted company. He was granted 10,000 ESOPs on 01-Apr-2021 with the following terms:
+
+- Grant price (exercise price): Rs. 50 per share
+- Vesting schedule: 25% each year over 4 years (2,500 shares vest each year on 01-Apr-2022, 01-Apr-2023, 01-Apr-2024, and 01-Apr-2025)
+- Exercise: Rahul exercised all 10,000 options on 15-Jun-2025 (after all shares had vested)
+- Fair Market Value (FMV) on the date of exercise (15-Jun-2025): Rs. 180 per share (as determined by a merchant banker valuation for unlisted company)
+- Amount paid by Rahul on exercise: Rs. 50 × 10,000 = Rs. 5,00,000
+
+Subsequently, GlobalTech India Pvt Ltd got listed on NSE on 01-Oct-2025 at a listing price of Rs. 250 per share. Rahul sold his shares in two tranches:
+- Tranche 1: Sold 5,000 shares on 15-Nov-2025 at Rs. 300 per share. STT paid.
+- Tranche 2: Sold remaining 5,000 shares on 20-Jul-2026 at Rs. 350 per share. STT paid.
+
+Rahul's salary income (excluding ESOP perquisite) is Rs. 20,00,000 for FY 2025-26 and Rs. 22,00,000 for FY 2026-27. He is in the 30% tax bracket under old regime.
+
+Note: GlobalTech is NOT an eligible start-up under section 80-IAC.
+
+<b>Question 5 of 5:</b> What is Rahul's total tax liability arising from ALL ESOP-related income (perquisite + capital gains) in FY 2025-26, excluding cess?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 5,10,000 (perquisite tax Rs. 3,90,000 + STCG tax Rs. 1,20,000)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 6,30,000 (perquisite tax Rs. 3,90,000 + STCG tax Rs. 1,20,000 + LTCG tax Rs. 1,20,000)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 3,90,000 (only perquisite tax; capital gains are deferred to the year of sale)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 5,70,000 (perquisite tax Rs. 3,90,000 + STCG tax Rs. 1,80,000)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In FY 2025-26, Rahul has two ESOP-related taxable events: (1) Perquisite on exercise (15-Jun-2025): Rs. 13,00,000 taxable as salary. Since Rahul is in the 30% tax bracket, tax on perquisite = 30% x 13,00,000 = Rs. 3,90,000. (2) STCG on Tranche 1 sale (15-Nov-2025): Rs. 6,00,000 taxable under section 111A at 20%. Tax = 20% x 6,00,000 = Rs. 1,20,000. Note: Tranche 2 sale occurs on 20-Jul-2026, which falls in FY 2026-27 and is NOT included in FY 2025-26 tax computation. Total ESOP-related tax in FY 2025-26 = Rs. 3,90,000 + Rs. 1,20,000 = Rs. 5,10,000 (excluding 4% health and education cess). Including cess, it would be Rs. 5,10,000 x 1.04 = Rs. 5,30,400.
+**The Trap:** Option B includes Tranche 2 LTCG tax — but Tranche 2 sale is in FY 2026-27, not FY 2025-26. Option C ignores the Tranche 1 STCG entirely, claiming capital gains are "deferred" — capital gains are taxable in the year of sale, and Tranche 1 sale occurred in FY 2025-26. Option D applies 30% slab rate on STCG instead of 20% section 111A rate (30% x 6,00,000 = 1,80,000).
+**Cross-Exam Context:** This question tests the ability to correctly identify which taxable events fall in which financial year. A common error is mixing up income from different financial years. Remember: perquisite is taxed in the year of exercise, and capital gains are taxed in the year of sale. Each must be mapped to its correct FY.
+**Distributor's Pro-Tip:** The combined tax burden of Rs. 5,10,000+ in a single year can create a significant cash-flow strain. Advise ESOP-holding employees to: (1) Set aside funds for perquisite tax well before exercise, (2) Consider exercising in a year when other income is lower, (3) Use the "sell-to-cover" approach — sell just enough shares immediately after exercise/listing to cover the tax liability, and hold the rest for LTCG treatment. Also note that if GlobalTech were an eligible start-up under section 80-IAC, the perquisite tax could have been deferred for up to 5 years from the date of exercise.]]></text></explanation>
+    </question>
+</QF>

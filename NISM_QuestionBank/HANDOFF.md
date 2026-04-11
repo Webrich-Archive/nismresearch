@@ -1,8 +1,8 @@
 # NISM Question Bank — Handoff Document
 
-**Date:** April 10, 2026 (Updated after Phase 11b Session 1 — Series X-B Modules 7-8)
-**Status:** 16 of 31 exams complete + X-B in progress (Session 1 of 3 done). 7,313 questions generated. Series X-B has 170 questions across 6 topics (of 18) with 6 caselets.
-**For:** Next session should continue Phase 11b — Series X-B Session 2 (Module 9: Taxation, 7 topics, ~190 Qs).
+**Date:** April 10, 2026 (Updated after Phase 11b Session 2 — Series X-B Module 9: Taxation)
+**Status:** 16 of 31 exams complete + X-B in progress (Sessions 1-2 of 3 done). 7,503 questions generated. Series X-B has 360 questions across 13 topics (of 18) with 12 caselets.
+**For:** Next session should continue Phase 11b — Series X-B Session 3 (Modules 10-12: Estate Planning + Behavioral Finance + Comprehensive, 5 topics, ~140 Qs).
 
 ---
 
@@ -28,13 +28,13 @@
 | Series XIII - Common Derivatives (Composite) | XIII | 500 | 10 | Hard | Generated from I+IV+VIII PDFs (30% calc, 40% conceptual, 20% regulatory, 10% application) |
 | Series IX - Merchant Banking | IX | 500 | 8 | Moderate | Generated from PDF (10% calc, 45% conceptual, 35% regulatory, 10% application) |
 | Series X-A - Investment Adviser Level 1 | X-A | 500 | 6 | Hard | Generated from PDF (20% calc, 30% conceptual, 35% regulatory, 15% application). 20 caselets (100 caselet Qs). |
-| **Total (completed)** | | **7,143** | **156** | | |
+| **Total (completed exams)** | | **7,143** | **156** | | |
 
 ### In-Progress Exams
 
 | Exam | Code | Questions So Far | Topics Done | Total Topics | Difficulty | Status |
 |------|:----:|:----------------:|:-----------:|:------------:|:----------:|:------:|
-| Series X-B - Investment Adviser Level 2 | X-B | 170 | 6/18 | 18 | Hard | Session 1 complete (Modules 7-8). 6 caselets (30 caselet Qs). |
+| Series X-B - Investment Adviser Level 2 | X-B | 360 | 13/18 | 18 | Hard | Sessions 1-2 complete (Modules 7-9). 12 caselets (60 caselet Qs). |
 
 **X-B Session 1 Breakdown (Modules 7-8: Insurance + Retirement):**
 
@@ -48,16 +48,24 @@
 | Retirement Products - Accumulation and Distribution | 25 | 2 | 10 | 35 |
 | **Session 1 Total** | **140** | **6** | **30** | **170** |
 
-**Topic-to-Chapter Mapping (verified from PDF):**
-- Basics of Insurance → Ch 1 (pp 16-37)
-- Life Insurance Products → Ch 2-3 (pp 38-68)
-- Alternative Investments → Ch 5 NPS Asset Class A + Ch 12.4-12.6 (REIT, InvIT, AIF)
-- Commodity and Real Estate Investment → Ch 12.2 (SGBs) + Ch 12.4 (REIT) + Ch 5.3.7 (Reverse Mortgage)
-- Portfolio Creation for Retirement → Ch 4, 6 (pp 70-80, 120-133)
-- Retirement Products - Accumulation and Distribution → Ch 5 (pp 81-119)
+**X-B Session 2 Breakdown (Module 9: Taxation):**
 
-**Remaining for X-B (Sessions 2-3, ~330 Qs):**
-- Session 2 (Module 9: Taxation): 7 topics, ~190 Qs, 6 caselets
+| Topic (exact plist key) | MCQs | Caselets | Caselet Qs | Total |
+|--------------------------|:----:|:--------:|:----------:|:-----:|
+| Tax Framework and Key Concepts | 25 | 2 | 10 | 35 |
+| Income, Residential Status, Five Heads of Income | 25 | 0 | 0 | 25 |
+| Exempt Incomes, Deductions, Rebates | 25 | 0 | 0 | 25 |
+| Clubbing, Set-Off and Carry Forward of Losses | 25 | 0 | 0 | 25 |
+| Taxation of Debt and Equity Products | 15 | 2 | 10 | 25 |
+| DTAA Provisions | 15 | 0 | 0 | 15 |
+| Analysis of Equity and Debt Instruments | 30 | 2 | 10 | 40 |
+| **Session 2 Total** | **160** | **6** | **30** | **190** |
+
+**Topic-to-Chapter Mapping (verified from PDF):**
+- Session 1: Basics of Insurance → Ch 1; Life Insurance Products → Ch 2-3; Alternative Investments → Ch 5/12; Commodity and Real Estate Investment → Ch 12/5; Portfolio Creation for Retirement → Ch 4,6; Retirement Products → Ch 5
+- Session 2: Tax Framework → Ch 7 (§7.1-7.2, §7.12-7.18); Residential Status/Five Heads → Ch 7 (§7.3-7.6); Exempt Incomes/Deductions → Ch 7 (§7.9-7.11); Clubbing/Set-off → Ch 7 (§7.7-7.8); Debt/Equity Tax → Ch 10-11; DTAA → Ch 7 (§7.15); Analysis of Instruments → Ch 8-9, 12-13
+
+**Remaining for X-B (Session 3, ~140 Qs):**
 - Session 3 (Modules 10-12: Estate + Behavioral + Comprehensive): 5 topics, ~140 Qs, 8 caselets
 
 ### Generated Files
@@ -68,8 +76,8 @@
 ├── Topics.plist                  (156 topics, 7,143 questions)
 ├── TopicsLite.plist              (156 topics, ~2,189 free-tier questions, all ≥30%)
 ├── ChapterArticles.plist         (156 chapters, each with single "All Topics" article)
-├── QuestionToArticleNumber.plist (7,143 entries, all mapping to article "1")
-├── OriginalQuestions/            (7,143 XML files)
+├── QuestionToArticleNumber.plist (7,503 entries, all mapping to article "1")
+├── OriginalQuestions/            (7,503 XML files)
 ├── manifest.json                 (progress tracking — version 5.0)
 ├── TaxRatesReference_FY2025-26.md (verified tax rates)
 ├── 15 audit report files         (detailed per-chapter audit results for first 5 exams)
@@ -78,7 +86,7 @@
 
 ### Validation Status (All Pass — verified Session 16, Phase 10)
 - 5/5 plists: OK (plutil)
-- 7,143/7,143 XML files: valid (xml.etree.ElementTree)
+- 7,143/7,503 XML files: valid (xml.etree.ElementTree)
 - 0 intra-exam duplicates, all unique IDs
 - 156 plist topics == 156 file prefixes: PERFECT MATCH
 - Series X-A: 6 ExamWeightages topics ↔ 6 file prefixes: MATCH, weightages sum = 100%

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Analysis of Equity and Debt Instruments_25" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Manish purchased listed REIT units on 01-Feb-2024 for Rs.3,00,000 and sold them on 15-Mar-2025 at Rs.3,80,000. STT was paid on the transaction. What is the capital gains treatment?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[STCG of Rs.80,000 at slab rate]]></text></answer>
+            <answer correct="no"><text><![CDATA[LTCG of Rs.80,000 at 12.5% (above Rs.1.25L exemption)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[LTCG of Rs.80,000 at 12.5% under s.112A (above Rs.1.25L exemption) since listed REIT held >12 months with STT]]></text></answer>
+            <answer correct="no"><text><![CDATA[LTCG of Rs.80,000 at 12.5% without any exemption threshold]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Listed REIT/InvIT units have a holding period threshold of >12 months for LTCA. Manish held from 01-Feb-2024 to 15-Mar-2025 = approximately 13 months, so it qualifies as LTCA. Since STT is paid, Section 112A applies (similar to listed equity shares). LTCG = Rs.3,80,000 - Rs.3,00,000 = Rs.80,000. Under s.112A, the first Rs.1,25,000 of LTCG is exempt. Since Rs.80,000 < Rs.1,25,000, the entire gain is exempt. Tax = Nil. However, the classification is still LTCG at 12.5% under s.112A.
+**The Trap:** Option A treats it as STCG — but 13 months > 12 months threshold for listed REITs. Option D forgets the Rs.1.25L exemption available under s.112A. The Rs.1.25L exemption is an aggregate limit across all s.112A gains (equity shares + equity MF + REIT/InvIT units).
+**Cross-Exam Context:** REIT/InvIT unit taxation mirrors listed equity taxation for capital gains purposes. NISM X-B tests the parallel between these instruments.
+**Distributor's Pro-Tip:** The Rs.1.25 lakh LTCG exemption is a combined limit for all assets covered under s.112A. If a client has gains from equity shares, equity MFs, AND REIT units, aggregate them before applying the exemption.]]></text></explanation>
+    </question>
+</QF>

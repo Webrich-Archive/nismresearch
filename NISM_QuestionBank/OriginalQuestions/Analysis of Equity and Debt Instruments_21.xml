@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Analysis of Equity and Debt Instruments_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Ramesh subscribed to right shares of a listed company on 10-Jul-2024 by paying Rs.120 per share for 500 shares. He sold these shares on 15-Aug-2025 at Rs.200 per share. What is the nature and amount of capital gain?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[LTCG of Rs.40,000 — cost is Rs.120 per share, holding from allotment date (10-Jul-2024) exceeds 12 months]]></text></answer>
+            <answer correct="no"><text><![CDATA[STCG of Rs.40,000 — right shares are always short-term]]></text></answer>
+            <answer correct="no"><text><![CDATA[LTCG of Rs.1,00,000 — cost is Nil for right shares like bonus shares]]></text></answer>
+            <answer correct="no"><text><![CDATA[STCG of Rs.1,00,000 — cost is Nil, holding from offer date]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For right shares that are SUBSCRIBED to (not renounced), the cost of acquisition is the amount actually paid, i.e., Rs.120 per share. The holding period starts from the date of allotment (10-Jul-2024). Period: 10-Jul-2024 to 15-Aug-2025 = approximately 13 months > 12 months for listed shares = LTCA. Capital gain = 500 × (Rs.200 - Rs.120) = 500 × Rs.80 = Rs.40,000.
+**The Trap:** Options C and D assign Nil cost — this is WRONG for subscribed right shares. Nil cost applies only when the original holder RENOUNCES the rights. For subscribed rights, cost = amount paid. Option B incorrectly claims right shares are always short-term — this is true for renounced rights (short offer window), not subscribed ones.
+**Cross-Exam Context:** The distinction between subscribed and renounced rights is a classic NISM X-B question. Subscribed: cost = paid, period from allotment. Renounced: cost = Nil, period from offer to renouncement.
+**Distributor's Pro-Tip:** When clients ask about rights issues, clarify the two paths: subscribing (cost = paid, normal holding rules) versus renouncing (cost = Nil, always STCG). This distinction has significant tax implications.]]></text></explanation>
+    </question>
+</QF>

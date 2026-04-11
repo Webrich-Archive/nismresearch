@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Exempt Incomes, Deductions, Rebates_23" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Govind, a non-senior citizen, has a total income of Rs.4,80,000 under the old tax regime for FY 2024-25. His tax computed on total income is Rs.11,500. What is his tax liability after applying Section 87A rebate?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs.0 (full rebate of Rs.11,500)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.11,500 (no rebate available)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.1,000 (partial rebate)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.12,500 (standard rebate amount)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under the old regime, Section 87A provides a rebate of up to Rs.12,500 for resident individuals whose total income does not exceed Rs.5,00,000. Govind's total income is Rs.4,80,000 (below Rs.5L) and his computed tax is Rs.11,500. The rebate is the LOWER of tax liability or Rs.12,500. Since Rs.11,500 < Rs.12,500, the entire tax is wiped out. Tax liability = Rs.0.
+**The Trap:** Option B wrongly says no rebate is available. Option C makes an arithmetic error. Option D confuses the maximum rebate amount (Rs.12,500) with the actual rebate (which is limited to the tax payable). The rebate cannot exceed the actual tax — it can only reduce it to zero.
+**Cross-Exam Context:** NISM Series X-A tests the interplay between computed tax and 87A rebate amount — the rebate is a cap, not a fixed amount.
+**Distributor's Pro-Tip:** Under the old regime, individuals with income up to Rs.5L effectively pay zero tax after 87A rebate — advise clients to use deductions under 80C/80D to bring taxable income below Rs.5L when close to the threshold.]]></text></explanation>
+    </question>
+</QF>

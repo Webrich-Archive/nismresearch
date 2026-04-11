@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Analysis of Equity and Debt Instruments_30" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investment adviser's client, Nisha, holds the following assets and wants to know which will be treated as long-term if sold today (assume current date is April 2026):
+(i) Unlisted equity shares purchased in January 2024
+(ii) Listed preference shares purchased in March 2025
+(iii) Unlisted REIT units purchased in February 2024
+(iv) Physical gold purchased in May 2024
+Which combination is correctly classified as long-term capital assets?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[(i) and (iii) only — unlisted equity >24m and unlisted REIT >24m]]></text></answer>
+            <answer correct="yes"><text><![CDATA[(i), (ii), and (iii) — all have exceeded their respective thresholds]]></text></answer>
+            <answer correct="no"><text><![CDATA[(i), (iii), and (iv) — all non-listed assets with >24 months holding]]></text></answer>
+            <answer correct="no"><text><![CDATA[All four are long-term capital assets]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Evaluating each asset as of April 2026: (i) Unlisted equity shares (Jan 2024): Held ~27 months. Threshold = >24 months. LTCA. (ii) Listed preference shares (Mar 2025): Held ~13 months. Threshold for listed preference shares = >12 months. LTCA. (iii) Unlisted REIT units (Feb 2024): Held ~26 months. Threshold for unlisted REIT = >24 months. LTCA. (iv) Physical gold (May 2024): Held ~23 months. Threshold = >24 months. NOT yet LTCA — still short-term by one month. Therefore (i), (ii), and (iii) are long-term, but (iv) is not.
+**The Trap:** Option A excludes listed preference shares — but listed preference shares need only >12 months (not 24 months) to qualify as LTCA post 23-Jul-2024. Option C includes gold but excludes listed preference shares — gold at 23 months falls just short of the 24-month threshold. Option D includes gold, which is still short-term. The main trap is physical gold narrowly missing the threshold and confusing listed vs unlisted holding periods for preference shares.
+**Cross-Exam Context:** Multi-asset holding period analysis is a practical skill tested in NISM X-B. Advisers must know the specific threshold for each asset type — listed vs unlisted makes a critical difference.
+**Distributor's Pro-Tip:** Maintain a holding period tracker for each client asset. Missing a threshold by even one day means the difference between LTCG at 12.5% and STCG at slab rate (potentially 30%). For gold, the 24-month threshold is particularly important — advise clients to wait the full period.]]></text></explanation>
+    </question>
+</QF>

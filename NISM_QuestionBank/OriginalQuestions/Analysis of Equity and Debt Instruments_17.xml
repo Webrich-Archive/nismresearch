@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Analysis of Equity and Debt Instruments_17" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investment adviser is computing the after-tax return for a client (30% slab) who invested Rs.10,00,000 in a Market Linked Debenture (MLD) for 30 months and received Rs.13,00,000 at maturity. What is the after-tax return?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs.2,62,500 — LTCG at 12.5% since holding exceeds 24 months]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs.2,10,000 — always STCG at slab rate (30%) under s.50AA]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.2,40,000 — STCG at 20% under s.111A]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.3,00,000 — no tax on MLDs held over 24 months]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under Section 50AA, Market Linked Debentures (MLDs) are ALWAYS treated as short-term capital assets, regardless of holding period. Gain = Rs.13,00,000 - Rs.10,00,000 = Rs.3,00,000. Since it is deemed STCG, it is taxed at the investor's slab rate. Tax = Rs.3,00,000 × 30% = Rs.90,000. After-tax return = Rs.3,00,000 - Rs.90,000 = Rs.2,10,000. Section 111A does not apply to MLDs (it applies only to equity shares/equity MF with STT).
+**The Trap:** Option A assumes MLDs can qualify as LTCA after 24 months — this was true before the s.50AA amendment but no longer. Option C incorrectly applies s.111A rate. The adviser must remember the three instruments always deemed short-term under s.50AA: MLDs, unlisted bonds/debentures, and specified MFs (≥65% debt).
+**Cross-Exam Context:** MLDs are a popular structured product topic in NISM X-B. The s.50AA treatment is a critical update that changed MLD attractiveness significantly.
+**Distributor's Pro-Tip:** Post s.50AA, MLDs have lost their primary tax advantage. For HNI clients in the 30% bracket, the effective tax on MLD gains is now 30% regardless of holding period. Compare this with equity at 12.5% LTCG — the tax differential makes equity more attractive for long-term holdings.]]></text></explanation>
+    </question>
+</QF>

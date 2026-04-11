@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Analysis of Equity and Debt Instruments_C2_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Rahul Verma, aged 35, is an employee of GlobalTech India Pvt Ltd, an unlisted company. He was granted 10,000 ESOPs on 01-Apr-2021 with the following terms:
+
+- Grant price (exercise price): Rs. 50 per share
+- Vesting schedule: 25% each year over 4 years (2,500 shares vest each year on 01-Apr-2022, 01-Apr-2023, 01-Apr-2024, and 01-Apr-2025)
+- Exercise: Rahul exercised all 10,000 options on 15-Jun-2025 (after all shares had vested)
+- Fair Market Value (FMV) on the date of exercise (15-Jun-2025): Rs. 180 per share (as determined by a merchant banker valuation for unlisted company)
+- Amount paid by Rahul on exercise: Rs. 50 × 10,000 = Rs. 5,00,000
+
+Subsequently, GlobalTech India Pvt Ltd got listed on NSE on 01-Oct-2025 at a listing price of Rs. 250 per share. Rahul sold his shares in two tranches:
+- Tranche 1: Sold 5,000 shares on 15-Nov-2025 at Rs. 300 per share. STT paid.
+- Tranche 2: Sold remaining 5,000 shares on 20-Jul-2026 at Rs. 350 per share. STT paid.
+
+Rahul's salary income (excluding ESOP perquisite) is Rs. 20,00,000 for FY 2025-26 and Rs. 22,00,000 for FY 2026-27. He is in the 30% tax bracket under old regime.
+
+Note: GlobalTech is NOT an eligible start-up under section 80-IAC.
+
+<b>Question 3 of 5:</b> What is the nature and amount of capital gain on Tranche 1 sale (5,000 shares sold on 15-Nov-2025), and what is the applicable tax rate and tax amount?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[STCG of Rs. 6,00,000 taxed at 20% under section 111A = Rs. 1,20,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[STCG of Rs. 6,00,000 taxed at 30% slab rate = Rs. 1,80,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[STCG of Rs. 12,50,000 taxed at 20% under section 111A = Rs. 2,50,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[LTCG of Rs. 6,00,000 taxed at 12.5% under section 112A = Rs. 75,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Shares were allotted on exercise date 15-Jun-2025 and sold on 15-Nov-2025. Holding period = approximately 5 months, which is less than 12 months — hence STCG. Cost of acquisition = FMV on exercise date = Rs. 180 per share (as per section 49(2AA)). Sale price = Rs. 300 per share. STCG = (300 - 180) x 5,000 = Rs. 6,00,000. Now, since the company got listed on NSE on 01-Oct-2025 and STT was paid on the sale, section 111A applies. Under section 111A, STCG on listed equity shares where STT is paid on sale is taxed at a concessional rate of 20%. Tax = 20% x 6,00,000 = Rs. 1,20,000.
+**The Trap:** Option B applies slab rate of 30% instead of the concessional 111A rate. Section 111A applies because the shares were listed at the time of sale and STT was paid — it does not require STT to have been paid at the time of acquisition. Option C uses the exercise price (Rs. 50) as cost instead of FMV (Rs. 180), computing gain as (300 - 50) x 5,000 = 12,50,000. This double-counts the perquisite already taxed. Option D incorrectly classifies this as LTCG — the holding period is only 5 months.
+**Cross-Exam Context:** Section 111A requires that STT is paid on the SALE of the shares. It does not mandate STT on acquisition. This is particularly relevant for ESOP shares where shares are acquired through exercise (not market purchase), so no STT is paid on acquisition. As long as STT is paid on the sale transaction on a recognized stock exchange, section 111A applies.
+**Distributor's Pro-Tip:** Advise employees of recently listed companies to be aware that ESOP shares sold within 12 months of exercise attract STCG at 20% (section 111A), which is better than slab rate of 30%. However, if they can hold for more than 12 months, LTCG at 12.5% with the Rs. 1,25,000 exemption under section 112A is even more tax-efficient — as demonstrated in Tranche 2.]]></text></explanation>
+    </question>
+</QF>

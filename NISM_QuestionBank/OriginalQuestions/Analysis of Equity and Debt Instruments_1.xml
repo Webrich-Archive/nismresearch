@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Analysis of Equity and Debt Instruments_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Priya was allotted 500 ESOPs by her listed company on 15-Mar-2024 at an exercise price of Rs.100 per share. The FMV on the exercise date was Rs.450 per share. She sold all shares on 20-Apr-2025 at Rs.600 per share. What is the total capital gain arising on the sale?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs.2,50,000 (Long-Term Capital Gain)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs.75,000 (Long-Term Capital Gain)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.75,000 (Short-Term Capital Gain)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.2,50,000 (Short-Term Capital Gain)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For ESOPs, the cost of acquisition for capital gains purposes is the FMV on the exercise/allotment date, i.e., Rs.450 per share. Capital gain = Sale price - FMV on exercise date = Rs.600 - Rs.450 = Rs.150 per share. Total = 500 × Rs.150 = Rs.75,000. Holding period is from allotment date (15-Mar-2024) to sale date (20-Apr-2025) = more than 12 months for listed shares, so it is LTCG.
+**The Trap:** Rs.2,50,000 uses exercise price (Rs.100) as cost instead of FMV (Rs.450). The perquisite component (Rs.450 - Rs.100 = Rs.350 per share) is separately taxed as salary income at the exercise stage. Using Rs.100 as cost would double-count this amount.
+**Cross-Exam Context:** NISM Series V-A (MF) and Series VIII (Equity Derivatives) also test basic capital gains concepts but not ESOP-specific two-stage taxation.
+**Distributor's Pro-Tip:** Always remind clients that ESOP taxation is a two-stage process — perquisite tax at exercise and capital gains at sale. The FMV on exercise date becomes the cost base for capital gains.]]></text></explanation>
+    </question>
+</QF>

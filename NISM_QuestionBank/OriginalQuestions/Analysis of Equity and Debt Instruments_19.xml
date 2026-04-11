@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Analysis of Equity and Debt Instruments_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A mutual fund scheme with 70% allocation to debt instruments was purchased by Neha on 01-Apr-2023 for Rs.8,00,000 and redeemed on 01-Oct-2025 for Rs.9,60,000. What is the tax treatment of the gain?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[LTCG of Rs.1,60,000 at 12.5% since holding exceeds 24 months]]></text></answer>
+            <answer correct="no"><text><![CDATA[LTCG of Rs.1,60,000 with indexation benefit at 20%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[STCG of Rs.1,60,000 at slab rate — specified MF (≥65% debt) is always short-term under s.50AA]]></text></answer>
+            <answer correct="no"><text><![CDATA[STCG of Rs.1,60,000 at 20% under s.111A]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A mutual fund with ≥65% allocation to debt instruments is classified as a "specified mutual fund" under Section 50AA. Such funds are ALWAYS treated as short-term capital assets regardless of the actual holding period. Neha's gain = Rs.9,60,000 - Rs.8,00,000 = Rs.1,60,000. Even though she held for 30 months (>24 months), the gain is deemed STCG and taxed at her slab rate. Section 111A does not apply here as it covers only equity-oriented funds with STT.
+**The Trap:** Options A and B assume normal holding period rules apply. The s.50AA deeming provision permanently overrides the holding period for specified MFs. This is a common exam trap — the 70% debt allocation (≥65% threshold) triggers s.50AA classification.
+**Cross-Exam Context:** NISM Series V-A (MF) extensively tests the classification of funds as equity-oriented vs. specified (debt-oriented) and the resulting tax treatment differences.
+**Distributor's Pro-Tip:** The 65% debt threshold is crucial. If a fund has 64% in debt, it is NOT a specified MF and follows normal rules (24 months for LTCA). But at 65% or above, s.50AA kicks in. Always check the fund's asset allocation before advising on tax implications.]]></text></explanation>
+    </question>
+</QF>

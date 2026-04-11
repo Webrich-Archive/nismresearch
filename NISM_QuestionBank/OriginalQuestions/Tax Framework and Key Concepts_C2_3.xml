@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Tax Framework and Key Concepts_C2_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Vikram Mehta, aged 58, is a self-employed chartered accountant. His income details for FY 2025-26 are:
+
+- Professional income (after all business deductions): Rs. 32,00,000
+- Rental income from Let-out Property 1: Rs. 6,00,000 per annum (Municipal taxes paid: Rs. 60,000)
+- Interest on home loan for Let-out Property 1: Rs. 4,50,000
+- Self-occupied Property 2: Interest on home loan Rs. 2,80,000
+- Vikram's NPS contribution: Rs. 3,00,000
+- Employer NPS contribution: Not applicable (self-employed)
+- PPF investment: Rs. 1,50,000
+- Health insurance: Rs. 30,000 (self, below 60) + Rs. 55,000 (parents, both above 60)
+- Donation to PM Relief Fund: Rs. 1,00,000
+- Donation to local charitable trust (50% deduction with limit): Rs. 2,00,000
+- Short-term capital loss from unlisted shares: Rs. 3,50,000
+- Long-term capital gain from listed equity (with STT): Rs. 5,00,000
+- Short-term capital gain from equity MF (with STT, s.111A): Rs. 1,80,000
+- Interest from bank FD: Rs. 2,40,000
+- Savings account interest: Rs. 18,000
+
+Vikram consults his investment adviser about the optimal tax regime and tax-saving strategies.
+
+<b>Question 3 of 5:</b> How should Vikram optimally set off his short-term capital loss (STCL) of Rs. 3,50,000 from unlisted shares, and what is the resulting tax on capital gains?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Set off STCL against STCG of Rs. 1,80,000 first, then remaining Rs. 1,70,000 against LTCG of Rs. 5,00,000; net capital gains tax = Rs. 25,625 (before cess)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Set off STCL only against STCG of Rs. 1,80,000; carry forward remaining Rs. 1,70,000; net capital gains tax = Rs. 82,875 (before cess)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Set off STCL against LTCG of Rs. 5,00,000 first; net capital gains tax = Rs. 36,000 (before cess)]]></text></answer>
+            <answer correct="no"><text><![CDATA[STCL from unlisted shares cannot be set off against STCG u/s 111A or LTCG u/s 112A; carry forward entire Rs. 3,50,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Capital loss set-off rules under sections 70-74:
+
+Step 1 — Nature of the STCL: The Rs. 3,50,000 short-term capital loss is from unlisted shares. STCL can be set off against BOTH short-term and long-term capital gains of any nature.
+
+Step 2 — Set off against STCG first (section 70): STCG from equity MF (section 111A) = Rs. 1,80,000. Set off Rs. 1,80,000 of STCL against this. Remaining STCL = Rs. 3,50,000 - Rs. 1,80,000 = Rs. 1,70,000. STCG becomes nil.
+
+Step 3 — Set off remaining STCL against LTCG (section 71): LTCG from listed equity (section 112A) = Rs. 5,00,000. Set off Rs. 1,70,000 against this. Net LTCG = Rs. 5,00,000 - Rs. 1,70,000 = Rs. 3,30,000. STCL fully absorbed.
+
+Step 4 — Tax computation:
+STCG u/s 111A: Nil (fully set off). Tax = Rs. 0.
+LTCG u/s 112A: Rs. 3,30,000. Exemption of Rs. 1,25,000 (threshold for FY 2025-26). Taxable LTCG = Rs. 3,30,000 - Rs. 1,25,000 = Rs. 2,05,000. Tax at 12.5% = Rs. 25,625.
+Total capital gains tax = Rs. 25,625 (before cess of 4%).
+
+**The Trap:** Rs. 82,875 assumes STCL can only be set off against STCG (not LTCG), leaving Rs. 1,70,000 to carry forward and taxing full LTCG of Rs. 5,00,000 minus Rs. 1,25,000 exemption = Rs. 3,75,000 at 12.5% = Rs. 46,875; plus STCG nil; this would be Rs. 46,875 — the distractor uses a wrong calculation. The key error is not utilizing inter-type set-off. Rs. 36,000 incorrectly sets off STCL against LTCG first (which is suboptimal and also miscalculated). The last option wrongly claims STCL from unlisted shares cannot be set off against section 111A/112A gains — there is no such restriction for STCL.
+
+**Cross-Exam Context:** Critical distinction: STCL can be set off against ANY capital gain (short-term or long-term). LTCL can ONLY be set off against LTCG (not STCG). This asymmetry is the most tested capital loss concept. Also note: the Rs. 1,25,000 LTCG exemption under section 112A applies AFTER set-off of losses.
+
+**Distributor's Pro-Tip:** By strategically setting off the STCL, Vikram reduces his capital gains tax from Rs. 82,875 (if no set-off of STCL against LTCG) to just Rs. 25,625 — a saving of Rs. 57,250 plus cess. If Vikram had additional STCL, he could carry it forward for 8 years. Always advise clients to book short-term losses before year-end to offset gains — a strategy called "tax-loss harvesting."]]></text></explanation>
+    </question>
+</QF>

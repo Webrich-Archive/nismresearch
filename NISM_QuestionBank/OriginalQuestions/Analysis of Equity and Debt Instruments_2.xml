@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Analysis of Equity and Debt Instruments_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Rajesh purchased unlisted bonds on 01-Aug-2023 for Rs.5,00,000 and sold them on 15-Sep-2025 for Rs.6,50,000. What is the nature and amount of capital gain?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs.1,50,000 as Long-Term Capital Gain taxable at 12.5%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.1,50,000 as Long-Term Capital Gain with indexation benefit]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs.1,50,000 as Short-Term Capital Gain taxable at slab rate]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.1,50,000 as Short-Term Capital Gain taxable at 20%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under Section 50AA, unlisted bonds and debentures are ALWAYS treated as short-term capital assets regardless of the holding period. Therefore, even though Rajesh held the bonds for over 24 months, the gain of Rs.1,50,000 (Rs.6,50,000 - Rs.5,00,000) is Short-Term Capital Gain, taxable at his slab rate. The 20% rate under s.111A applies only to listed equity shares/equity MF units with STT, not to bonds.
+**The Trap:** Many candidates assume that holding for >24 months automatically makes unlisted securities long-term. The s.50AA deeming provision specifically overrides this for unlisted bonds/debentures.
+**Cross-Exam Context:** NISM Series V-A tests MF taxation where similar s.50AA rules apply to specified mutual funds with ≥65% debt allocation.
+**Distributor's Pro-Tip:** Post July 2024 amendments, always check if the instrument falls under s.50AA — MLDs, unlisted bonds/debentures, and specified debt MFs are permanently short-term regardless of holding period.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Analysis of Equity and Debt Instruments_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Sunil purchased a plot of land on 01-Apr-2019 for Rs.40,00,000. He sold it on 01-Mar-2025 for Rs.70,00,000. The CII for 2019-20 is 289 and for 2024-25 is 363. However, Sunil also purchased another plot on 15-Jun-2024 for Rs.50,00,000. Is indexation available, and if so, what is the indexed cost of acquisition for the plot sold?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs.50,24,221 — indexation is available since land was acquired before 23-Jul-2024]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.40,00,000 — no indexation available post 23-Jul-2024 amendments]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.55,00,000 — indexation applies using CII for 2025-26]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.48,00,000 — indexation at a flat 20% rate]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For land/building acquired before 23-Jul-2024, the taxpayer can opt for indexation benefit. Indexed cost = Rs.40,00,000 × (363/289) = Rs.40,00,000 × 1.25606 = Rs.50,24,221 (approximately). The holding period is from Apr 2019 to Mar 2025 = nearly 6 years (>24 months), so it qualifies as LTCA. With indexation, LTCG = Rs.70,00,000 - Rs.50,24,221 = Rs.19,75,779, taxed at 20%. Without indexation, LTCG = Rs.30,00,000, taxed at 12.5%. Taxpayer chooses the lower tax option.
+**The Trap:** Some candidates may think indexation was completely abolished post 23-Jul-2024. It was removed for most assets but retained as an option for land/building acquired before 23-Jul-2024 (with 20% tax rate if indexation is used).
+**Cross-Exam Context:** Indexation concepts using CII are tested across NISM Series X-A and X-B exams. The base year 2001-02 and CII formula are fundamental.
+**Distributor's Pro-Tip:** For land/building acquired before 23-Jul-2024, always compute tax both ways — (a) with indexation at 20%, and (b) without indexation at 12.5% — and advise the client to choose the lower liability.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Analysis of Equity and Debt Instruments_23" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Arjun holds 10,000 units of a mutual fund purchased on 01-Jan-2024 at NAV Rs.50 per unit (total cost Rs.5,00,000). The fund creates a segregated portfolio due to a credit event. Before segregation, total NAV was Rs.55 and segregated portfolio NAV is Rs.5. What is the cost of acquisition of the segregated portfolio units and the main portfolio units?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Segregated: Rs.50,000, Main: Rs.4,50,000 (based on Rs.5 and Rs.45 per unit)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Segregated: Rs.45,455, Main: Rs.4,54,545 (NAV ratio: 5/55 and 50/55 of Rs.5,00,000)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Segregated: Nil, Main: Rs.5,00,000 (segregated units have zero cost like bonus)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Segregated: Rs.2,50,000, Main: Rs.2,50,000 (equal split)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For segregated portfolios in mutual funds, the cost of acquisition is apportioned based on the NAV ratio at the time of segregation. Segregated NAV = Rs.5, Main NAV = Rs.55 - Rs.5 = Rs.50, Total pre-segregation NAV = Rs.55. Cost of segregated units = Rs.5,00,000 × (5/55) = Rs.5,00,000 × 0.09091 = Rs.45,455 (approximately). Cost of main units = Rs.5,00,000 × (50/55) = Rs.5,00,000 × 0.90909 = Rs.4,54,545 (approximately). Total = Rs.45,455 + Rs.4,54,545 = Rs.5,00,000. Holding period for both starts from original purchase date (01-Jan-2024).
+**The Trap:** Option A uses the current NAVs directly (Rs.5 and Rs.45 per unit × units) rather than the ratio formula applied to original cost. Option C treats segregated units like bonus shares with Nil cost. The ratio-based allocation preserves the total original cost.
+**Cross-Exam Context:** Segregated portfolios are a SEBI framework topic tested in NISM V-A (MF) and X-B. The cost apportionment formula is similar to demerger cost allocation.
+**Distributor's Pro-Tip:** When a credit event triggers segregation, immediately calculate and record the split costs for clients. Many investors panic during credit events — explain that the total cost is preserved, just allocated between two portfolios.]]></text></explanation>
+    </question>
+</QF>

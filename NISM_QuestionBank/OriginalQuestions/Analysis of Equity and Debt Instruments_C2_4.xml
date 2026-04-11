@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Analysis of Equity and Debt Instruments_C2_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Rahul Verma, aged 35, is an employee of GlobalTech India Pvt Ltd, an unlisted company. He was granted 10,000 ESOPs on 01-Apr-2021 with the following terms:
+
+- Grant price (exercise price): Rs. 50 per share
+- Vesting schedule: 25% each year over 4 years (2,500 shares vest each year on 01-Apr-2022, 01-Apr-2023, 01-Apr-2024, and 01-Apr-2025)
+- Exercise: Rahul exercised all 10,000 options on 15-Jun-2025 (after all shares had vested)
+- Fair Market Value (FMV) on the date of exercise (15-Jun-2025): Rs. 180 per share (as determined by a merchant banker valuation for unlisted company)
+- Amount paid by Rahul on exercise: Rs. 50 × 10,000 = Rs. 5,00,000
+
+Subsequently, GlobalTech India Pvt Ltd got listed on NSE on 01-Oct-2025 at a listing price of Rs. 250 per share. Rahul sold his shares in two tranches:
+- Tranche 1: Sold 5,000 shares on 15-Nov-2025 at Rs. 300 per share. STT paid.
+- Tranche 2: Sold remaining 5,000 shares on 20-Jul-2026 at Rs. 350 per share. STT paid.
+
+Rahul's salary income (excluding ESOP perquisite) is Rs. 20,00,000 for FY 2025-26 and Rs. 22,00,000 for FY 2026-27. He is in the 30% tax bracket under old regime.
+
+Note: GlobalTech is NOT an eligible start-up under section 80-IAC.
+
+<b>Question 4 of 5:</b> What is the nature and amount of capital gain on Tranche 2 sale (5,000 shares sold on 20-Jul-2026), and what is the tax payable?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[LTCG of Rs. 8,50,000; tax = 12.5% x (8,50,000 - 1,25,000) = Rs. 90,625]]></text></answer>
+            <answer correct="no"><text><![CDATA[LTCG of Rs. 8,50,000; tax = 12.5% x 8,50,000 = Rs. 1,06,250]]></text></answer>
+            <answer correct="no"><text><![CDATA[LTCG of Rs. 15,00,000; tax = 12.5% x (15,00,000 - 1,25,000) = Rs. 1,73,438]]></text></answer>
+            <answer correct="no"><text><![CDATA[STCG of Rs. 8,50,000; tax = 20% x 8,50,000 = Rs. 1,70,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Shares were allotted on exercise date 15-Jun-2025 and sold on 20-Jul-2026. Holding period = approximately 13 months, which exceeds 12 months — hence LTCG. Cost of acquisition = FMV on exercise date = Rs. 180 per share. Sale price = Rs. 350 per share. LTCG = (350 - 180) x 5,000 = Rs. 8,50,000. Since the shares are now listed on NSE and STT is paid on sale, section 112A applies. Under section 112A, the first Rs. 1,25,000 of aggregate LTCG is exempt. Assuming this is Rahul's only section 112A LTCG in FY 2026-27, the taxable LTCG = 8,50,000 - 1,25,000 = Rs. 7,25,000. Tax = 12.5% x 7,25,000 = Rs. 90,625.
+**The Trap:** Option B forgets to deduct the Rs. 1,25,000 exemption under section 112A. Option C uses the exercise price (Rs. 50) instead of FMV (Rs. 180) as cost, computing gain as (350 - 50) x 5,000 = Rs. 15,00,000. This double-counts the perquisite already taxed as salary. Option D incorrectly classifies this as STCG — the holding period exceeds 12 months for listed equity shares.
+**Cross-Exam Context:** Tranche 2 falls in FY 2026-27, a DIFFERENT financial year from Tranche 1 (FY 2025-26). This means the Rs. 1,25,000 exemption under section 112A is available afresh in FY 2026-27. If both tranches were sold in the same FY, the exemption could only be used once across both transactions.
+**Distributor's Pro-Tip:** The difference in tax treatment between Tranche 1 (STCG at 20% = Rs. 1,20,000 on Rs. 6L gain) and Tranche 2 (LTCG at 12.5% with exemption = Rs. 90,625 on Rs. 8.5L gain) dramatically illustrates the benefit of holding beyond 12 months. Rahul pays LESS tax on a LARGER gain in Tranche 2. Always advise ESOP holders to hold for at least 12 months post-exercise if possible to benefit from the more favourable LTCG regime.]]></text></explanation>
+    </question>
+</QF>

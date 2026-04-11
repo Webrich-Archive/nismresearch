@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Income, Residential Status, Five Heads of Income_22" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investment adviser is assessing the tax position of a client, Mr. Harish, who returned to India permanently in April 2024 after living in the US for 12 years. He was NR for all 12 years. In PY 2024-25, he stayed in India for 300 days. He has rental income from a US property and dividend from US stocks. What is his residential status and which US income is taxable?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[RNOR — neither US rental income nor US dividend is taxable in India]]></text></answer>
+            <answer correct="no"><text><![CDATA[ROR — both US rental income and US dividend are taxable in India]]></text></answer>
+            <answer correct="no"><text><![CDATA[RNOR — US rental income is taxable but US dividend is not]]></text></answer>
+            <answer correct="no"><text><![CDATA[NR — he needs 365 days to become Resident after returning from abroad]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Mr. Harish stayed 300 days in PY (>182), so he qualifies as Resident. Now, ROR or RNOR? He was NR for all 12 preceding years, which means he was NR in 9 out of 10 preceding years — satisfying the RNOR condition. As RNOR, his scope of taxable income includes: (1) Indian income, and (2) foreign business income controlled from India or profession set up in India. US rental income and US dividends are neither received nor accruing in India, and they do not arise from business controlled from India. Hence, neither is taxable.
+**The Trap:** Candidates may think 300 days = automatic ROR. The key is checking the RNOR conditions — having been NR for 9/10 preceding years is a classic RNOR qualifier for returning NRIs.
+**Cross-Exam Context:** This is a classic investment adviser scenario tested in NISM X-B — advising returning NRIs on their RNOR window for tax-free repatriation of foreign income.
+**Distributor's Pro-Tip:** The RNOR window is golden for returning NRIs — typically lasting 2-3 years. Use this period to repatriate foreign investments and income to India tax-free. Plan investment restructuring well before the client becomes ROR.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Exempt Incomes, Deductions, Rebates_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Priya purchased a life insurance policy on 15th June 2023 with a sum assured of Rs.10,00,000 and an annual premium of Rs.60,000. She received the maturity proceeds of Rs.12,50,000 in June 2033. Under Section 10(10D), what is the tax treatment of the maturity proceeds?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Fully exempt as the policy completed 10 years]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Fully taxable as the premium exceeds 5% of the sum assured]]></text></answer>
+            <answer correct="no"><text><![CDATA[Exempt up to Rs.10,00,000 and balance taxable]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fully exempt as the premium does not exceed 10% of the sum assured]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For life insurance policies issued after 1st April 2023, the exemption under Section 10(10D) applies only if the annual premium does not exceed 5% of the sum assured (as per Finance Act 2023). Here, premium = Rs.60,000 which is 6% of Rs.10,00,000 — exceeding the 5% threshold. Therefore, the maturity proceeds are NOT exempt.
+**The Trap:** Option D applies the older 10% threshold which was valid for policies issued between 1-4-2012 and 31-3-2023. Option A ignores the premium condition entirely. The 5% vs 10% distinction based on policy issue date is a common exam trap.
+**Cross-Exam Context:** NISM Series V-A MFD exam covers tax treatment of insurance-cum-investment products versus mutual funds.
+**Distributor's Pro-Tip:** Post-April 2023 policies face a much stricter 5% premium-to-sum-assured ratio for tax exemption — high-premium endowment and money-back plans are likely to lose their tax-free status.]]></text></explanation>
+    </question>
+</QF>

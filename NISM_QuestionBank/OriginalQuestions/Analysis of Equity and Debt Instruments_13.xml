@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Analysis of Equity and Debt Instruments_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Deepak holds 1,000 shares of XYZ Ltd. which undergoes a stock split from face value Rs.10 to Rs.2 per share. He originally purchased the shares at Rs.150 per share on 01-Mar-2023. After the split, what is the cost per share and the holding period start date for the new shares?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Cost per share = Rs.30 (Rs.150 ÷ 5), holding period from 01-Mar-2023 (original purchase date)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cost per share = Rs.150, holding period from the date of stock split]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cost per share = Rs.30, holding period from the date of stock split]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cost per share = Nil (similar to bonus shares), holding period from 01-Mar-2023]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A stock split is NOT considered a "transfer" under the Income Tax Act — no capital gains arise at the time of split. The original cost is apportioned proportionally among the new shares. Since the face value split from Rs.10 to Rs.2, each old share becomes 5 new shares. Cost per new share = Rs.150 ÷ 5 = Rs.30. Total shares = 1,000 × 5 = 5,000. Total cost remains Rs.1,50,000. Crucially, the holding period dates back to the original purchase date (01-Mar-2023), NOT the split date.
+**The Trap:** Option B keeps cost at Rs.150 (incorrect — must be split proportionally). Option C correctly splits cost but incorrectly resets holding period. Option D treats it like bonus shares with Nil cost — splits are fundamentally different from bonus issues.
+**Cross-Exam Context:** Stock splits and consolidations are tested in NISM Series VIII (Equity Derivatives) in the context of contract adjustments, and in X-B for tax treatment.
+**Distributor's Pro-Tip:** Remind clients that a stock split is tax-neutral — it doesn't create any taxable event. Keep records of original purchase date and proportionally adjusted cost for future capital gains computation.]]></text></explanation>
+    </question>
+</QF>

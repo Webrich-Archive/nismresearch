@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Taxation of Debt and Equity Products_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Vikram, a senior citizen aged 62, has fixed deposits with two banks. Bank A pays him Rs.45,000 interest and Bank B pays Rs.30,000 interest during FY 2025-26. What is the total TDS deducted on his FD interest?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs.7,500 (10% on total Rs.75,000 exceeding Rs.50,000 threshold)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.2,500 (10% on Rs.75,000 minus Rs.50,000)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Nil, as neither bank individually exceeds Rs.50,000]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Nil, as the Rs.50,000 TDS threshold for senior citizens applies per bank and neither bank exceeds it]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For senior citizens (aged 60+), TDS on bank FD interest is deducted only when interest from a SINGLE bank exceeds Rs.50,000 in a financial year (Rs.40,000 for non-senior citizens). The threshold applies per bank, not on aggregate. Bank A pays Rs.45,000 (< Rs.50,000) and Bank B pays Rs.30,000 (< Rs.50,000), so neither triggers TDS. Total TDS = Nil. However, the total interest of Rs.75,000 is still fully taxable in Vikram's hands at slab rates.
+**The Trap:** Option A applies TDS on the aggregate, which is wrong — TDS is deducted by each bank independently. Option B subtracts the threshold from total, which is also wrong. Option C states the right conclusion but with incorrect reasoning (it says Rs.50,000, which is correct for senior citizens but the reasoning format suggests uncertainty).
+**Cross-Exam Context:** NISM Series V-A tests TDS thresholds on FD interest and the senior citizen differential.
+**Distributor's Pro-Tip:** No TDS does NOT mean no tax. Advise senior citizen clients that spreading FDs across banks to avoid TDS does not reduce tax liability — they must still declare all interest income and pay tax at slab rate. Form 15H can be used if total income is below the basic exemption limit.]]></text></explanation>
+    </question>
+</QF>

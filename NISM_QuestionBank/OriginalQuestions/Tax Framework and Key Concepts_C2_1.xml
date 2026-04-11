@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Tax Framework and Key Concepts_C2_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Vikram Mehta, aged 58, is a self-employed chartered accountant. His income details for FY 2025-26 are:
+
+- Professional income (after all business deductions): Rs. 32,00,000
+- Rental income from Let-out Property 1: Rs. 6,00,000 per annum (Municipal taxes paid: Rs. 60,000)
+- Interest on home loan for Let-out Property 1: Rs. 4,50,000
+- Self-occupied Property 2: Interest on home loan Rs. 2,80,000
+- Vikram's NPS contribution: Rs. 3,00,000
+- Employer NPS contribution: Not applicable (self-employed)
+- PPF investment: Rs. 1,50,000
+- Health insurance: Rs. 30,000 (self, below 60) + Rs. 55,000 (parents, both above 60)
+- Donation to PM Relief Fund: Rs. 1,00,000
+- Donation to local charitable trust (50% deduction with limit): Rs. 2,00,000
+- Short-term capital loss from unlisted shares: Rs. 3,50,000
+- Long-term capital gain from listed equity (with STT): Rs. 5,00,000
+- Short-term capital gain from equity MF (with STT, s.111A): Rs. 1,80,000
+- Interest from bank FD: Rs. 2,40,000
+- Savings account interest: Rs. 18,000
+
+Vikram consults his investment adviser about the optimal tax regime and tax-saving strategies.
+
+<b>Question 1 of 5:</b> What is Vikram's total income from house property under the old tax regime, and how much of any house property loss can be set off against other heads of income in the current year?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Total HP loss is Rs. 2,72,000; Rs. 2,00,000 can be set off against other income, and Rs. 72,000 is carried forward]]></text></answer>
+            <answer correct="no"><text><![CDATA[Total HP loss is Rs. 2,72,000; the entire amount can be set off against other income]]></text></answer>
+            <answer correct="no"><text><![CDATA[Total HP loss is Rs. 1,72,000; Rs. 1,72,000 can be set off against other income]]></text></answer>
+            <answer correct="no"><text><![CDATA[Total HP loss is Rs. 3,52,000; Rs. 2,00,000 can be set off and Rs. 1,52,000 is carried forward]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step computation of income from house property:
+
+LET-OUT PROPERTY 1:
+Gross Annual Value (GAV) = Rs. 6,00,000
+Less: Municipal taxes paid = Rs. 60,000
+Net Annual Value (NAV) = Rs. 5,40,000
+Less: Standard deduction u/s 24(a) at 30% of NAV = Rs. 1,62,000
+Less: Interest on home loan u/s 24(b) = Rs. 4,50,000 (no cap for let-out property)
+Income from Let-out Property = Rs. 5,40,000 - Rs. 1,62,000 - Rs. 4,50,000 = (Rs. 72,000) — a LOSS.
+
+SELF-OCCUPIED PROPERTY 2:
+GAV = Nil (deemed zero for self-occupied)
+Less: Interest on home loan u/s 24(b) = Rs. 2,80,000, capped at Rs. 2,00,000 for self-occupied property.
+Income from Self-occupied Property = (Rs. 2,00,000) — a LOSS.
+
+Total House Property Income = (Rs. 72,000) + (Rs. 2,00,000) = (Rs. 2,72,000)
+
+INTER-HEAD SET-OFF RULE (Section 71(3A)): The maximum house property loss that can be set off against income under other heads (salary, business, other sources) in any assessment year is Rs. 2,00,000. The balance Rs. 72,000 must be carried forward for up to 8 assessment years and can only be set off against future house property income.
+
+**The Trap:** Rs. 2,72,000 fully set off ignores the Rs. 2 lakh inter-head set-off cap introduced from AY 2018-19. Rs. 1,72,000 incorrectly uses the uncapped self-occupied interest of Rs. 2,80,000 instead of the Rs. 2,00,000 cap, arriving at a different total. Rs. 3,52,000 incorrectly applies the 30% standard deduction on the gross annual value (Rs. 6,00,000) instead of the NAV (Rs. 5,40,000), leading to a different figure. Always remember: standard deduction is on NAV (after municipal taxes), not GAV.
+
+**Cross-Exam Context:** The Rs. 2 lakh inter-head set-off limit is a high-frequency tested concept. Candidates must also remember: (a) no cap on interest for let-out property under section 24(b), (b) Rs. 2,00,000 cap for self-occupied, (c) carried-forward HP loss can ONLY be set off against HP income (not any other head).
+
+**Distributor's Pro-Tip:** Vikram should consider letting out the self-occupied property if rental yield exceeds the tax cost. With self-occupation, he loses Rs. 80,000 in interest deduction (Rs. 2,80,000 actual minus Rs. 2,00,000 cap). If let out, full interest of Rs. 2,80,000 would be deductible against rental income, though the rental income itself becomes taxable.]]></text></explanation>
+    </question>
+</QF>

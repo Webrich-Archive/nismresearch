@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Taxation of Debt and Equity Products_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Section 94(8) on bonus stripping applies when an investor buys units of a mutual fund within _______ before the record date, receives bonus units, and sells the original units within _______ after the record date at a loss.]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[6 months before; 6 months after]]></text></answer>
+            <answer correct="yes"><text><![CDATA[3 months before; 9 months after]]></text></answer>
+            <answer correct="no"><text><![CDATA[1 month before; 12 months after]]></text></answer>
+            <answer correct="no"><text><![CDATA[3 months before; 3 months after]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Section 94(8) is the anti-avoidance provision against bonus stripping. It applies when: (1) units are purchased within 3 months BEFORE the record date for bonus, (2) bonus units are allotted, and (3) the original units are sold within 9 months AFTER the record date at a loss. In such cases, the loss to the extent of the per-unit NAV of bonus units is disallowed and added to the cost of the bonus units.
+**The Trap:** The asymmetric time periods (3 months before, 9 months after) are easy to confuse. Option D (3 months/3 months) seems logical as a symmetric rule but is wrong. The 9-month post-record-date window is deliberately wider to prevent investors from simply waiting a few months to sell.
+**Cross-Exam Context:** NISM Series V-A tests bonus stripping provisions in the context of mutual fund distributor responsibilities.
+**Distributor's Pro-Tip:** Remember "3 before, 9 after" — together they span a 12-month window around the record date. If a client is planning to buy units near a bonus record date, warn them about the Section 94(8) implications on potential losses.]]></text></explanation>
+    </question>
+</QF>

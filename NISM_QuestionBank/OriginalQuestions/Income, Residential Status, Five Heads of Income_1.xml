@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Income, Residential Status, Five Heads of Income_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Mr. Arjun, an Indian citizen working in Dubai, was present in India for 125 days during PY 2024-25. His total stay in India during the 4 preceding years was 370 days. His Indian income for the year is Rs.18 lakh. What is his residential status?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Non-Resident]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Resident and Ordinarily Resident (ROR)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Resident but Not Ordinarily Resident (RNOR)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Deemed Resident]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Mr. Arjun is an Indian citizen visiting India. His Indian income exceeds Rs.15 lakh, so the relaxed threshold of 120 days applies. He was present for 125 days (>120) in PY and 370 days (>365) in 4 preceding years. He qualifies as Resident under s.6(1)(c). Since he does not satisfy RNOR conditions (not NR in 9/10 preceding years, and we have no information suggesting ≤729 days in 7 preceding years), he is ROR by default.
+**The Trap:** Many candidates confuse the 120-day rule with the 182-day rule. The 120-day threshold applies specifically when Indian income exceeds Rs.15 lakh for Indian citizens/PIOs visiting India. Others may pick RNOR thinking the 120-day route always leads to RNOR.
+**Cross-Exam Context:** NISM Series V-A (Mutual Fund) and Series X-A (Investment Adviser L1) also test residential status basics for tax planning purposes.
+**Distributor's Pro-Tip:** Always ask NRI clients their exact day-count AND Indian income — the Rs.15 lakh threshold can shift the residency test from 182 days to just 120 days, catching many NRIs off guard.]]></text></explanation>
+    </question>
+</QF>

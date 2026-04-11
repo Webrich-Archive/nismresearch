@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Exempt Incomes, Deductions, Rebates_12" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Nisha has agricultural income of Rs.3,00,000 and non-agricultural income of Rs.4,50,000 in FY 2024-25. Under the old tax regime, how is her agricultural income treated for tax purposes?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Agricultural income is fully taxable along with non-agricultural income]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Agricultural income is exempt but partially integrated with non-agricultural income for rate purposes since non-agricultural income exceeds the basic exemption limit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Agricultural income is fully exempt with no integration required regardless of other income]]></text></answer>
+            <answer correct="no"><text><![CDATA[Agricultural income is exempt only up to Rs.2,50,000 and the balance is taxable]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Agricultural income is exempt under Section 10(1). However, the partial integration method (Rule 7 read with Section 2(2)) applies when: (a) the taxpayer has non-agricultural income exceeding the basic exemption limit (Rs.2,50,000 under old regime for individual below 60), AND (b) agricultural income exceeds Rs.5,000. Here, non-agricultural income (Rs.4,50,000) exceeds the basic exemption limit, so partial integration applies. Tax is computed on (agricultural + non-agricultural) combined, then tax on (agricultural + basic exemption) is subtracted.
+**The Trap:** Option C is wrong because integration IS required when non-agricultural income exceeds the basic exemption limit. Option D invents a threshold for agricultural income exemption. Option A makes agricultural income fully taxable, which is incorrect.
+**Cross-Exam Context:** NISM Series X-A tests partial integration of agricultural income — a unique Indian tax concept.
+**Distributor's Pro-Tip:** Partial integration only affects the tax rate on non-agricultural income — it does NOT make agricultural income itself taxable. Clients with mixed income must understand this nuance.]]></text></explanation>
+    </question>
+</QF>

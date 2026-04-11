@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Exempt Incomes, Deductions, Rebates_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Kavita, a salaried individual, has a total income of Rs.7,15,000 under the new tax regime for FY 2024-25. Her computed tax liability before rebate is Rs.28,000. What is her final tax liability after applying Section 87A rebate and marginal relief?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs.28,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.0]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs.15,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.3,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under the new regime for FY 2024-25, Section 87A rebate is available if total income does not exceed Rs.7,00,000 (rebate up to Rs.25,000). Since Kavita's income is Rs.7,15,000, which exceeds Rs.7L, she is NOT eligible for the 87A rebate. However, marginal relief applies: for incomes up to Rs.7,28,000, the tax payable is limited to the amount by which income exceeds Rs.7,00,000. Here, income exceeds Rs.7L by Rs.15,000. Since Rs.15,000 < Rs.28,000 (computed tax), marginal relief reduces tax to Rs.15,000.
+**The Trap:** Rs.0 wrongly assumes the rebate still applies. Rs.28,000 ignores marginal relief. Rs.3,000 incorrectly computes marginal relief as tax minus rebate (28K - 25K).
+**Cross-Exam Context:** NISM Series X-A tests the concept of marginal relief in the context of tax planning near threshold incomes.
+**Distributor's Pro-Tip:** For clients with income slightly above Rs.7L (FY 2024-25) or Rs.12L (FY 2025-26), marginal relief ensures they never pay more tax than the excess income over the threshold — a critical planning point.]]></text></explanation>
+    </question>
+</QF>

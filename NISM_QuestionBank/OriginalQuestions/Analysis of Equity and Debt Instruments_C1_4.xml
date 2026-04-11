@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Analysis of Equity and Debt Instruments_C1_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Meera Krishnan, a resident Indian aged 38, made several investment transactions during FY 2025-26. Her details are as follows:
+
+Transaction 1 - Listed Equity Shares of TechCorp Ltd: Purchased 2,000 shares at Rs. 450 per share on 15-Jun-2017. Fair Market Value (FMV) on 31-Jan-2018 was Rs. 520 per share. Sold all shares at Rs. 780 per share on 10-Oct-2025. STT paid on both purchase and sale.
+
+Transaction 2 - Unlisted Shares of StartUp Pvt Ltd: Purchased 5,000 shares at Rs. 30 per share on 01-Apr-2023. Sold all shares at Rs. 85 per share on 15-Dec-2025.
+
+Transaction 3 - Sovereign Gold Bonds (SGBs): Purchased 50 units at Rs. 4,800 per gram on 01-Mar-2020 (8-year maturity). Sold 20 units on NSE at Rs. 7,200 per gram on 20-Sep-2025. Interest received during FY 2025-26: Rs. 12,000.
+
+Transaction 4 - Listed Corporate Bonds: Purchased 500 bonds at Rs. 1,000 face value on 01-Jan-2025. Sold all at Rs. 1,050 on 15-Aug-2025. Annual coupon of 8% received.
+
+Transaction 5 - Bonus Shares of InfoSys Ltd: Meera held 1,000 shares of InfoSys purchased on 01-Mar-2022 at Rs. 1,500 per share. She received 1,000 bonus shares (1:1 ratio) on 15-Jun-2023. She sold all 1,000 bonus shares at Rs. 1,800 per share on 20-Jan-2026. STT paid.
+
+Meera's total salary income is Rs. 25,00,000 (30% tax bracket). She has no other income.
+
+<b>Question 4 of 5:</b> What is the capital gain on the sale of listed corporate bonds, the tax on such capital gain, and the tax on coupon income received?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[STCG of Rs. 25,000 taxed at 30% slab rate = Rs. 7,500; coupon income of Rs. 40,000 taxed at 30% = Rs. 12,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[LTCG of Rs. 25,000 taxed at 12.5% = Rs. 3,125; coupon income of Rs. 40,000 taxed at 30% = Rs. 12,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[STCG of Rs. 25,000 taxed at 20% under section 111A = Rs. 5,000; coupon income of Rs. 40,000 taxed at 30% = Rs. 12,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[STCG of Rs. 25,000 taxed at 30% slab rate = Rs. 7,500; coupon income of Rs. 80,000 taxed at 30% = Rs. 24,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Capital Gain: Purchased Jan-2025, sold Aug-2025 = approximately 7 months holding period, which is less than 12 months — classified as STCG. Capital gain = (1,050 - 1,000) x 500 = Rs. 25,000. Listed corporate bonds are NOT equity instruments, so section 111A (20% concessional STCG rate for listed equity) does NOT apply. STCG on bonds/debentures is taxed at normal slab rates. Tax = 30% x 25,000 = Rs. 7,500. Coupon Income: Annual coupon = 8% x Rs. 1,000 face value x 500 bonds = Rs. 40,000. This is taxable as "Income from Other Sources" at slab rate of 30%. Tax = 30% x 40,000 = Rs. 12,000.
+**The Trap:** Option B incorrectly treats this as LTCG (holding period is only 7 months, well below the 12-month threshold). Option C applies section 111A rate of 20% — this section applies ONLY to listed equity shares and equity-oriented mutual funds, NOT to corporate bonds/debentures. Option D doubles the coupon income to Rs. 80,000 — perhaps assuming coupon is paid semi-annually at 8% each time, but the scenario states an annual coupon of 8%.
+**Cross-Exam Context:** The distinction between equity and debt instruments for capital gains taxation is critical. Section 111A (STCG at 20%) applies only to equity shares/equity MFs with STT. For bonds, STCG is always at slab rates. The LTCG threshold for listed bonds is 12 months (same as listed equity).
+**Distributor's Pro-Tip:** For high-income clients in the 30% bracket, short-term trading in bonds is tax-inefficient as STCG is taxed at full slab rate. Advise holding listed bonds for more than 12 months to qualify for LTCG treatment at 12.5%. Also, coupon income is always taxable at slab rates regardless of holding period — clients seeking tax efficiency may prefer growth-oriented debt mutual funds over direct bond investments.]]></text></explanation>
+    </question>
+</QF>

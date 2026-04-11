@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Taxation of Debt and Equity Products_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investment adviser is comparing post-tax returns for a client in the 30% tax bracket. The client has Rs.10,00,000 to invest for 18 months. Option A: Listed corporate bond yielding 9% p.a. (held >12 months, listed). Option B: Bank FD at 8% p.a. Option C: Debt mutual fund (80% debt, bought in 2025). Assuming all returns are realized, which option provides the highest post-tax return?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Listed corporate bond — LTCG at 12.5% on capital appreciation is most tax-efficient]]></text></answer>
+            <answer correct="no"><text><![CDATA[Bank FD — because FD interest is exempt up to Rs.50,000 under Section 80TTB]]></text></answer>
+            <answer correct="no"><text><![CDATA[Debt mutual fund — because it qualifies for LTCG at 12.5% after 12 months]]></text></answer>
+            <answer correct="no"><text><![CDATA[All three have the same post-tax return since all debt income is taxed at slab rate]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Listed corporate bond held >12 months: Capital appreciation taxed as LTCG at 12.5% (not slab rate). This is the most tax-efficient. Bank FD at 8%: Interest taxed at slab rate (30%), so post-tax return = 8% x (1 - 0.30) = 5.6% p.a. Section 80TTB is for senior citizens only, not applicable here. Debt MF (80% debt, bought in 2025): This is a Specified MF under Section 50AA (≥65% debt), so gains are ALWAYS short-term at slab rate = 30% effective tax. Listed bond: 9% yield, with LTCG at 12.5%, post-tax return ≈ 9% x (1 - 0.125) = 7.875% p.a. — clearly the highest.
+**The Trap:** Option B tempts candidates who confuse Section 80TTA (savings account interest up to Rs.10,000) with Section 80TTB (senior citizen FD interest up to Rs.50,000). Option C is the biggest trap — many assume debt MFs still get LTCG, but post-April 2023 specified MFs are always STCG. Option D wrongly assumes uniform taxation.
+**Cross-Exam Context:** NISM Series X-B specifically tests advisers' ability to compare post-tax returns across products — this is a core competency for Level 2.
+**Distributor's Pro-Tip:** Post the 2023 tax changes, listed bonds have a significant tax advantage over debt MFs for investors in higher tax brackets. The 12.5% LTCG rate on listed bonds vs. slab rate on debt MFs can make a 15-18 percentage point difference in tax rate for top-bracket investors. Always present this comparison to clients.]]></text></explanation>
+    </question>
+</QF>

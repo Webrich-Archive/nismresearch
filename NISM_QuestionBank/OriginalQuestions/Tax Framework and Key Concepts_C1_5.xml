@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Tax Framework and Key Concepts_C1_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Priya Sharma, aged 42, is a salaried private sector employee. Her income details for FY 2025-26 are as follows:
+
+- Basic Salary: Rs. 18,00,000 per annum
+- Dearness Allowance (part of retirement benefits): Rs. 3,60,000 per annum
+- HRA received: Rs. 7,20,000 per annum (she pays rent of Rs. 40,000 per month in Mumbai)
+- Employer's contribution to EPF: 12% of (Basic + DA) = Rs. 2,59,200
+- Employer's contribution to NPS: 12% of (Basic + DA) = Rs. 2,59,200
+- Priya's own contribution to EPF: Rs. 2,59,200
+- Priya's own contribution to NPS under 80CCD(1B): Rs. 50,000
+- Priya's PPF investment: Rs. 1,50,000
+- Life insurance premium: Rs. 80,000
+- Health insurance premium: Rs. 28,000 (self and family, all below 60) + Rs. 35,000 (parents, both senior citizens)
+- Interest on education loan for her son: Rs. 1,20,000 (3rd year of repayment)
+- Interest on self-occupied house property loan: Rs. 3,50,000
+- Short-term capital gains (STT paid, listed equity): Rs. 2,50,000
+- Long-term capital gains (STT paid, equity MF): Rs. 3,00,000
+- Dividend income from Indian companies: Rs. 80,000
+- Savings account interest: Rs. 12,000
+
+Priya seeks advice from her investment adviser on whether to opt for old or new tax regime.
+
+<b>Question 5 of 5:</b> Comparing the total income tax payable (including cess, excluding capital gains which are taxed identically under both regimes), which regime should Priya choose and what is the approximate tax saving?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Old regime is better; saves approximately Rs. 3,370 compared to the new regime]]></text></answer>
+            <answer correct="no"><text><![CDATA[New regime is better; saves approximately Rs. 45,000 compared to the old regime]]></text></answer>
+            <answer correct="no"><text><![CDATA[Old regime is better; saves approximately Rs. 1,25,000 compared to the new regime]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both regimes result in virtually identical tax; the difference is less than Rs. 500]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Full computation under both regimes (on normal income — STCG/LTCG taxed identically at special rates under both):
+
+OLD REGIME:
+Gross Salary: Rs. 31,39,200
+Less: HRA exemption u/s 10(13A): Rs. 2,64,000
+Less: Standard deduction u/s 16(ia): Rs. 50,000
+Net Salary Income: Rs. 28,25,200
+Income from House Property (self-occupied): Interest Rs. 3,50,000 capped at Rs. 2,00,000 = (Rs. 2,00,000)
+Income from Other Sources: Dividend Rs. 80,000 + Savings interest Rs. 12,000 = Rs. 92,000
+Gross Total Income (normal): Rs. 28,25,200 - Rs. 2,00,000 + Rs. 92,000 = Rs. 27,17,200
+Less: Chapter VI-A deductions: Rs. 6,06,000
+Taxable Income (normal rates): Rs. 21,11,200
+
+Tax under old regime slabs:
+Up to Rs. 2,50,000: Nil
+Rs. 2,50,001 to Rs. 5,00,000: 5% = Rs. 12,500
+Rs. 5,00,001 to Rs. 10,00,000: 20% = Rs. 1,00,000
+Above Rs. 10,00,000: 30% on Rs. 11,11,200 = Rs. 3,33,360
+Total tax on normal income: Rs. 4,45,860
+Add cess 4%: Rs. 17,834
+Total (normal): Rs. 4,63,694
+
+NEW REGIME:
+Gross Salary: Rs. 31,39,200
+Less: Standard deduction: Rs. 75,000
+Net Salary Income: Rs. 30,64,200
+Income from House Property: Nil (no interest deduction on self-occupied property allowed)
+Income from Other Sources: Rs. 92,000
+Gross Total Income (normal): Rs. 31,56,200
+Less: Section 80CCD(2): Rs. 2,59,200
+Taxable Income (normal rates): Rs. 28,97,000
+
+Tax under new regime slabs (FY 2025-26):
+Up to Rs. 4,00,000: Nil
+Rs. 4,00,001 to Rs. 8,00,000: 5% = Rs. 20,000
+Rs. 8,00,001 to Rs. 12,00,000: 10% = Rs. 40,000
+Rs. 12,00,001 to Rs. 16,00,000: 15% = Rs. 60,000
+Rs. 16,00,001 to Rs. 20,00,000: 20% = Rs. 80,000
+Rs. 20,00,001 to Rs. 24,00,000: 25% = Rs. 1,00,000
+Above Rs. 24,00,000: 30% on Rs. 4,97,000 = Rs. 1,49,100
+Total tax on normal income: Rs. 4,49,100
+Add cess 4%: Rs. 17,964
+Total (normal): Rs. 4,67,064
+
+Difference: Rs. 4,67,064 - Rs. 4,63,694 = Rs. 3,370. Old regime is marginally better.
+
+Capital gains tax (identical under both regimes): STCG u/s 111A at 20% = Rs. 50,000; LTCG u/s 112A at 12.5% on (Rs. 3,00,000 - Rs. 1,25,000) = Rs. 21,875. Plus cess = Rs. 2,875. Total capital gains tax = Rs. 74,750 under both regimes.
+
+**The Trap:** Rs. 45,000 saving for new regime is a common miscalculation when candidates forget to include HRA exemption or HP interest deduction under old regime. Rs. 1,25,000 saving overstates the benefit by double-counting some deductions. The near-identical result (Rs. 500 difference) occurs if candidates make small computational errors. The correct answer shows the old regime wins by a very narrow margin of Rs. 3,370.
+
+**Cross-Exam Context:** This marginal difference highlights why investment advisers must compute BOTH regimes for every client. The optimal regime depends heavily on the specific mix of deductions — changing even one component (e.g., higher rent, higher NPS contribution) can flip the answer.
+
+**Distributor's Pro-Tip:** For Priya, the old regime wins by only Rs. 3,370 — a razor-thin margin. If her employer increased NPS contribution to 14% under the new regime (which the new regime allows), the 80CCD(2) deduction would rise to Rs. 3,02,400 from Rs. 2,59,200, adding Rs. 43,200 in deductions, which would make the new regime clearly better. Advise Priya to negotiate higher employer NPS contribution if switching to the new regime.]]></text></explanation>
+    </question>
+</QF>

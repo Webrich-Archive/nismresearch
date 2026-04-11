@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Analysis of Equity and Debt Instruments_8" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Vikram received 200 bonus shares of a listed company on 15-Aug-2024. The market price on the date of allotment was Rs.500 per share. He sold all bonus shares on 20-Sep-2025 at Rs.650 per share. What is the capital gain and its nature?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs.30,000 LTCG — holding period includes original shares' holding period]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs.1,30,000 LTCG — cost is Nil, holding period from allotment date exceeds 12 months]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.1,30,000 STCG — bonus shares are always short-term]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.30,000 STCG — cost is Rs.500 per share (FMV on allotment date)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For bonus shares allotted on or after 01-Apr-2001, the cost of acquisition is NIL. Holding period is counted from the date of allotment (15-Aug-2024), not from the date of original share purchase. Period: 15-Aug-2024 to 20-Sep-2025 = 13 months > 12 months for listed shares, so it is LTCG. Capital gain = 200 × (Rs.650 - Rs.0) = Rs.1,30,000. Taxable under s.112A at 12.5% above Rs.1.25 lakh exemption.
+**The Trap:** Option A incorrectly uses the FMV as cost (Rs.500) giving gain of only Rs.30,000 — the FMV on allotment is NOT the cost for bonus shares. Option D applies FMV as cost AND treats it as short-term. Remember: bonus share cost = NIL, period from allotment.
+**Cross-Exam Context:** NISM Series V-A (MF) tests bonus unit allotment in mutual funds with similar cost = NIL treatment.
+**Distributor's Pro-Tip:** Bonus shares have zero cost, so the entire sale proceeds become capital gain. Advise clients to hold bonus shares of listed companies for at least 12 months to benefit from the Rs.1.25 lakh LTCG exemption and lower 12.5% tax rate.]]></text></explanation>
+    </question>
+</QF>

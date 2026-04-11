@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Tax Framework and Key Concepts_C1_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Priya Sharma, aged 42, is a salaried private sector employee. Her income details for FY 2025-26 are as follows:
+
+- Basic Salary: Rs. 18,00,000 per annum
+- Dearness Allowance (part of retirement benefits): Rs. 3,60,000 per annum
+- HRA received: Rs. 7,20,000 per annum (she pays rent of Rs. 40,000 per month in Mumbai)
+- Employer's contribution to EPF: 12% of (Basic + DA) = Rs. 2,59,200
+- Employer's contribution to NPS: 12% of (Basic + DA) = Rs. 2,59,200
+- Priya's own contribution to EPF: Rs. 2,59,200
+- Priya's own contribution to NPS under 80CCD(1B): Rs. 50,000
+- Priya's PPF investment: Rs. 1,50,000
+- Life insurance premium: Rs. 80,000
+- Health insurance premium: Rs. 28,000 (self and family, all below 60) + Rs. 35,000 (parents, both senior citizens)
+- Interest on education loan for her son: Rs. 1,20,000 (3rd year of repayment)
+- Interest on self-occupied house property loan: Rs. 3,50,000
+- Short-term capital gains (STT paid, listed equity): Rs. 2,50,000
+- Long-term capital gains (STT paid, equity MF): Rs. 3,00,000
+- Dividend income from Indian companies: Rs. 80,000
+- Savings account interest: Rs. 12,000
+
+Priya seeks advice from her investment adviser on whether to opt for old or new tax regime.
+
+<b>Question 3 of 5:</b> Under the old tax regime, what is Priya's total deduction under Chapter VI-A (sections 80C, 80CCD, 80D, 80E, and 80TTA combined)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 6,06,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 7,55,200]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 5,56,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 4,86,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step computation of each Chapter VI-A deduction under the old regime:
+
+(1) Section 80C (maximum Rs. 1,50,000): Eligible investments — Employee EPF contribution Rs. 2,59,200 + PPF Rs. 1,50,000 + LIC premium Rs. 80,000 = Rs. 4,89,200. Capped at Rs. 1,50,000.
+
+(2) Section 80CCD(1B) — Additional NPS contribution: Rs. 50,000 (this is over and above the 80CCE limit of Rs. 1.5 lakh).
+
+(3) Section 80CCD(2) — Employer's NPS contribution: For private sector employees under the old regime, the deduction is limited to 10% of salary (Basic + DA). 10% of Rs. 21,60,000 = Rs. 2,16,000. Actual employer contribution is Rs. 2,59,200. Deduction is limited to the lower amount = Rs. 2,16,000.
+
+(4) Section 80D — Health insurance: Self and family (all below 60 years) = actual Rs. 28,000, capped at Rs. 25,000. Parents (both senior citizens) = actual Rs. 35,000, capped at Rs. 50,000, so full Rs. 35,000 allowed. Total 80D = Rs. 25,000 + Rs. 35,000 = Rs. 60,000.
+
+(5) Section 80E — Education loan interest: Rs. 1,20,000 (no upper limit, full amount deductible, available for up to 8 years from start of repayment).
+
+(6) Section 80TTA — Savings account interest: Rs. 12,000 actual, capped at Rs. 10,000.
+
+Total Chapter VI-A = Rs. 1,50,000 + Rs. 50,000 + Rs. 2,16,000 + Rs. 60,000 + Rs. 1,20,000 + Rs. 10,000 = Rs. 6,06,000.
+
+**The Trap:** Rs. 7,55,200 results from taking the full employer NPS contribution of Rs. 2,59,200 under 80CCD(2) instead of capping at 10% of salary (Rs. 2,16,000), and also using the full Rs. 28,000 for 80D self (instead of Rs. 25,000 cap). Rs. 5,56,000 omits the 80E education loan interest deduction entirely. Rs. 4,86,000 omits both 80E and 80CCD(1B). Each sub-section has its own cap — never mix them up.
+
+**Cross-Exam Context:** The distinction between 80CCD(1) within 80CCE aggregate, 80CCD(1B) as additional Rs. 50,000, and 80CCD(2) for employer contribution with its percentage-of-salary cap is heavily tested. Also note: 80CCD(2) limit differs between old (10%) and new (14%) regimes for private sector employees.
+
+**Distributor's Pro-Tip:** Priya's 80C investments total Rs. 4,89,200 but only Rs. 1,50,000 is deductible. Advise clients to first fill 80C with mandatory contributions (EPF) before adding voluntary investments. Her EPF alone (Rs. 2,59,200) exceeds the 80C cap, making PPF and LIC premium tax-inefficient from a deduction standpoint under 80C — though PPF and LIC serve other financial planning purposes.]]></text></explanation>
+    </question>
+</QF>

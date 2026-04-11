@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Analysis of Equity and Debt Instruments_C2_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Rahul Verma, aged 35, is an employee of GlobalTech India Pvt Ltd, an unlisted company. He was granted 10,000 ESOPs on 01-Apr-2021 with the following terms:
+
+- Grant price (exercise price): Rs. 50 per share
+- Vesting schedule: 25% each year over 4 years (2,500 shares vest each year on 01-Apr-2022, 01-Apr-2023, 01-Apr-2024, and 01-Apr-2025)
+- Exercise: Rahul exercised all 10,000 options on 15-Jun-2025 (after all shares had vested)
+- Fair Market Value (FMV) on the date of exercise (15-Jun-2025): Rs. 180 per share (as determined by a merchant banker valuation for unlisted company)
+- Amount paid by Rahul on exercise: Rs. 50 × 10,000 = Rs. 5,00,000
+
+Subsequently, GlobalTech India Pvt Ltd got listed on NSE on 01-Oct-2025 at a listing price of Rs. 250 per share. Rahul sold his shares in two tranches:
+- Tranche 1: Sold 5,000 shares on 15-Nov-2025 at Rs. 300 per share. STT paid.
+- Tranche 2: Sold remaining 5,000 shares on 20-Jul-2026 at Rs. 350 per share. STT paid.
+
+Rahul's salary income (excluding ESOP perquisite) is Rs. 20,00,000 for FY 2025-26 and Rs. 22,00,000 for FY 2026-27. He is in the 30% tax bracket under old regime.
+
+Note: GlobalTech is NOT an eligible start-up under section 80-IAC.
+
+<b>Question 1 of 5:</b> What is the perquisite value taxable as salary income in Rahul's hands on the exercise of ESOPs, and in which financial year is it taxable?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Perquisite value is Rs. 13,00,000, taxable in FY 2025-26]]></text></answer>
+            <answer correct="no"><text><![CDATA[Perquisite value is Rs. 25,00,000, taxable in FY 2025-26]]></text></answer>
+            <answer correct="no"><text><![CDATA[Perquisite value is Rs. 13,00,000, taxable spread over FY 2021-22 to FY 2024-25 (vesting years)]]></text></answer>
+            <answer correct="no"><text><![CDATA[No perquisite arises until the shares are actually sold]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under section 17(2)(vi) of the Income Tax Act, ESOPs are taxed as a perquisite (salary income) at the time of EXERCISE, not at grant, vesting, or sale. The perquisite value = (FMV on exercise date - Exercise price paid) x Number of shares. FMV on 15-Jun-2025 = Rs. 180 per share (determined by merchant banker valuation since the company was unlisted on the exercise date). Exercise price = Rs. 50 per share. Perquisite = (180 - 50) x 10,000 = Rs. 130 x 10,000 = Rs. 13,00,000. This is taxable as salary income in FY 2025-26 (the year of exercise). The employer must deduct TDS on this perquisite amount.
+**The Trap:** Rs. 25,00,000 uses the listing price of Rs. 250 instead of the FMV on the exercise date (Rs. 180). The FMV must be taken as on the date of exercise, not a future date. Spreading the perquisite over vesting years is incorrect — the entire taxable event occurs at exercise, regardless of the vesting schedule. Deferring to sale date is also wrong — ESOP taxation has two distinct stages: (1) perquisite at exercise, and (2) capital gains at sale.
+**Cross-Exam Context:** ESOP taxation has a two-stage structure that is frequently tested: Stage 1 — Perquisite taxable as salary at exercise (FMV - exercise price). Stage 2 — Capital gains at sale (sale price - FMV on exercise date). For unlisted companies, FMV is determined by a merchant banker. For listed companies, FMV is the closing price on the stock exchange on the exercise date.
+**Distributor's Pro-Tip:** Advise employees to plan for the cash-flow impact of ESOP exercise — the perquisite tax is payable even though no cash is received (it is a non-cash benefit). Many employees face a "tax trap" where they owe significant tax on exercise but have not sold shares to generate liquidity. Recommend exercising and selling enough shares to cover the tax liability ("sell-to-cover" strategy).]]></text></explanation>
+    </question>
+</QF>

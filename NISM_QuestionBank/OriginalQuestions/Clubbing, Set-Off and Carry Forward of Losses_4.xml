@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Clubbing, Set-Off and Carry Forward of Losses_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[During FY 2025-26, Ms. Priya has the following capital gains and losses: Long-Term Capital Gain (LTCG) from equity shares: Rs.3,00,000; Short-Term Capital Loss (STCL) from debt mutual funds: Rs.1,80,000; Long-Term Capital Loss (LTCL) from gold: Rs.2,50,000. What is the net capital gain taxable after intra-head set-off?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs.3,00,000, because STCL and LTCL cannot be set off against equity LTCG]]></text></answer>
+            <answer correct="no"><text><![CDATA[Nil, as total losses (Rs.4,30,000) exceed total gains (Rs.3,00,000)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Nil (LTCG Rs.3,00,000 minus STCL Rs.1,80,000 minus LTCL Rs.1,20,000), with Rs.1,30,000 LTCL carried forward]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.70,000, after setting off only LTCL Rs.2,50,000 against LTCG, with STCL carried forward separately]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** STCL can be set off against ANY capital gain (STCG or LTCG). LTCL can ONLY be set off against LTCG. Optimal set-off: First set off STCL Rs.1,80,000 against LTCG Rs.3,00,000 (remaining LTCG = Rs.1,20,000). Then set off LTCL Rs.2,50,000 against remaining LTCG Rs.1,20,000. Net taxable = Nil. Unabsorbed LTCL = Rs.2,50,000 - Rs.1,20,000 = Rs.1,30,000 carried forward for 8 years.
+**The Trap:** Option D reverses the priority — setting off LTCL first is suboptimal, but the law doesn't mandate order. The key trap is Option A which wrongly suggests these losses cannot be set off against equity LTCG.
+**Cross-Exam Context:** NISM Series V-A (Mutual Fund Distributors) tests capital gains set-off in mutual fund switch/redemption scenarios.
+**Distributor's Pro-Tip:** Always set off STCL first against LTCG because STCL has wider flexibility — preserve LTCL for future LTCG only, but use STCL against any gain available now.]]></text></explanation>
+    </question>
+</QF>

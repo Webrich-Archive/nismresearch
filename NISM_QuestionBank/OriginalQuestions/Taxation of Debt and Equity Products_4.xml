@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Taxation of Debt and Equity Products_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Amit, a resident individual in the 30% tax bracket, earned the following income in FY 2025-26: (i) Dividend of Rs.8,000 from equity mutual fund, (ii) Dividend of Rs.3,000 from a listed company. What is the TDS deducted on these dividends?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs.800 on mutual fund dividend; Rs.300 on company dividend — total Rs.1,100]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs.800 on mutual fund dividend; Nil on company dividend — total Rs.800]]></text></answer>
+            <answer correct="no"><text><![CDATA[Nil on mutual fund dividend; Rs.300 on company dividend — total Rs.300]]></text></answer>
+            <answer correct="no"><text><![CDATA[Nil on both as total dividend is below Rs.15,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** TDS on mutual fund dividends is deducted at 10% if total dividend from that fund house exceeds Rs.5,000 in a financial year. Amit's MF dividend of Rs.8,000 exceeds Rs.5,000, so TDS = 10% of Rs.8,000 = Rs.800. For company dividends, TDS at 10% applies only if dividend exceeds Rs.5,000 from that company. Since Rs.3,000 < Rs.5,000, no TDS on company dividend. Total TDS = Rs.800.
+**The Trap:** Candidates may aggregate both dividends and apply a single threshold, or may apply TDS on the company dividend as well. The Rs.5,000 threshold applies separately to MF dividends and company dividends, and per payer.
+**Cross-Exam Context:** NISM Series V-A and Series X-A both test dividend TDS thresholds with similar fact patterns.
+**Distributor's Pro-Tip:** The Rs.5,000 TDS threshold is per fund house for MF dividends and per company for equity dividends. Advise clients with multiple small dividend streams that TDS may not be deducted, but the income is still fully taxable at slab rates.]]></text></explanation>
+    </question>
+</QF>

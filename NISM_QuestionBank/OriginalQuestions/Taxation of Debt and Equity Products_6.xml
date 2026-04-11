@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Taxation of Debt and Equity Products_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Karthik holds an equity-oriented mutual fund (75% in domestic equities). He bought units on 1st January 2025 for Rs.10,00,000 and sold them on 15th September 2025 for Rs.12,80,000. Assuming STT was paid on redemption, what is his tax liability on the capital gain?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs.19,375 (LTCG at 12.5% on Rs.2,80,000 minus Rs.1,25,000 exemption)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs.56,000 (STCG at 20% under Section 111A on Rs.2,80,000)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.84,000 (STCG at slab rate of 30% on Rs.2,80,000)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.35,000 (LTCG at 12.5% on full Rs.2,80,000 with no exemption)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The fund has 75% in domestic equities, making it equity-oriented (≥65% threshold). Holding period from 1st January 2025 to 15th September 2025 is approximately 8.5 months, which is ≤12 months. Therefore this is short-term capital gain. For equity-oriented MFs with STT paid, STCG is taxed at 20% under Section 111A. Gain = Rs.12,80,000 - Rs.10,00,000 = Rs.2,80,000. Tax = 20% x Rs.2,80,000 = Rs.56,000.
+**The Trap:** Candidates may apply the investor's slab rate (e.g. 30%) instead of the special 20% rate under Section 111A. Others may mistakenly apply LTCG treatment. The Rs.1,25,000 exemption under Section 112A applies only to LTCG, not STCG.
+**Cross-Exam Context:** NISM Series V-A (Mutual Fund Distributors) tests Section 111A vs. 112A distinction regularly.
+**Distributor's Pro-Tip:** For equity-oriented MFs held less than 12 months, the flat 20% STCG rate under Section 111A is beneficial for investors in the 30% bracket but disadvantageous for those in the 10% or 15% bracket. Factor this into redemption timing advice.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Taxation of Debt and Equity Products_C2_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Suresh Iyer, aged 55, is a resident Indian with total taxable income of Rs. 16,00,000 (in the 20% slab under new regime FY 2025-26, effective marginal rate approximately 20% plus cess). He is evaluating five investment options for a lump sum of Rs. 10,00,000 with a 2-year horizon:
+
+Option 1: Bank Fixed Deposit at 7.5% p.a. (compounded annually). Interest taxable at slab rate.
+Option 2: Listed Corporate Bond (NCD) yielding 8% p.a. coupon (paid annually). If held >12 months and sold, LTCG at 12.5%.
+Option 3: Equity Mutual Fund with expected NAV growth of 12% p.a. (no dividend). If held >12 months, LTCG at 12.5% above Rs. 1.25 lakh under s.112A.
+Option 4: Gold Mutual Fund with expected NAV growth of 10% p.a. Holding >24 months = LTCG at 12.5% without indexation.
+Option 5: Debt Mutual Fund (85% in debt, purchased after 1-Apr-2023) with expected NAV growth of 7.5% p.a. Always taxed as STCG at slab rate under s.50AA.
+
+Assume: New tax regime with no deductions. Suresh's marginal tax rate for additional income is 20% (in the Rs. 16-20 lakh slab). Ignore surcharge. Health & Education cess is 4%. Effective marginal rate = 20% x 1.04 = 20.8%. For s.112A, assume no other LTCG, so Rs. 1.25 lakh exemption is available.
+
+<b>Question 4 of 5:</b> What is the post-tax maturity value and approximate post-tax CAGR from the Gold Mutual Fund (Option 4) after 2 years?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Post-tax value approximately Rs. 11,82,700; post-tax CAGR approximately 8.8% p.a.]]></text></answer>
+            <answer correct="no"><text><![CDATA[Post-tax value approximately Rs. 12,10,000; post-tax CAGR approximately 10.0% p.a.]]></text></answer>
+            <answer correct="no"><text><![CDATA[Post-tax value approximately Rs. 11,66,320; post-tax CAGR approximately 7.9% p.a.]]></text></answer>
+            <answer correct="no"><text><![CDATA[Post-tax value approximately Rs. 11,73,750; post-tax CAGR approximately 8.4% p.a.]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step-by-step computation for the Gold Mutual Fund:
+
+Step 1 — Pre-tax maturity value (NAV growth of 10% p.a.):
+Rs. 10,00,000 x (1.10)^2 = Rs. 10,00,000 x 1.21 = Rs. 12,10,000.
+
+Step 2 — Capital gain:
+LTCG = Rs. 12,10,000 - Rs. 10,00,000 = Rs. 2,10,000.
+Holding period = 2 years (>24 months). For gold mutual funds, holding >24 months qualifies as long-term. LTCG is taxed at 12.5% without indexation (post Budget 2024 changes).
+
+Step 3 — Tax on LTCG:
+Note: Gold MFs do not get the Rs. 1.25 lakh exemption under s.112A (that is only for equity-oriented funds with STT). Gold fund LTCG is taxed under section 112 at 12.5%.
+Tax rate with cess = 12.5% x 1.04 = 13%.
+Tax = 13% x Rs. 2,10,000 = Rs. 27,300.
+
+Step 4 — Post-tax maturity value:
+Rs. 12,10,000 - Rs. 27,300 = Rs. 11,82,700.
+
+Step 5 — Post-tax CAGR:
+CAGR = (11,82,700 / 10,00,000)^(1/2) - 1 = (1.18270)^0.5 - 1 = 1.0876 - 1 = approximately 8.8% p.a.
+
+**The Trap:** Option B shows the pre-tax value with no tax deducted. Option C may result from applying the slab rate (20.8%) instead of the 12.5% LTCG rate. Option D might result from incorrectly applying indexation or a different tax rate. Key distinction: gold MFs get 12.5% LTCG rate for holding >24 months but do NOT get the Rs. 1.25 lakh exemption available under s.112A for equity funds.
+
+**Cross-Exam Context:** Post the Union Budget 2024 changes, the LTCG tax on gold and gold-related mutual funds is 12.5% without indexation for holding >24 months. Previously, indexation benefit was available. This change made gold funds slightly less tax-efficient compared to the old regime. The holding period threshold for gold MFs is 24 months (not 12 months as for equity, and not 36 months as was earlier the case).
+
+**Distributor's Pro-Tip:** Gold MFs offer a better post-tax return (8.8%) compared to FDs (5.98%) and NCDs (6.15%) in this scenario, primarily because: (1) the pre-tax return is higher (10% vs 7.5-8%), and (2) LTCG at 12.5% is lower than slab rate of 20.8% on FD interest. However, gold returns are not guaranteed — they depend on gold price movement — so the comparison is between expected (gold) and guaranteed (FD) returns.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Analysis of Equity and Debt Instruments_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Anita holds Sovereign Gold Bonds (SGBs) with a face value of Rs.5,00,000. She receives annual interest of Rs.12,500. At maturity after 8 years, the redemption value is Rs.8,50,000. What is the total tax liability on the SGB for Anita (an individual in the 30% slab)?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Tax on interest (Rs.12,500 × 8 × 30%) + LTCG on redemption at 12.5%]]></text></answer>
+            <answer correct="no"><text><![CDATA[No tax — both interest and redemption gains are exempt for individuals]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Tax only on interest income at slab rate (Rs.12,500 × 8 × 30% = Rs.30,000 over 8 years). Redemption gain is exempt]]></text></answer>
+            <answer correct="no"><text><![CDATA[Tax on interest at 10% TDS rate + LTCG at 12.5% on redemption]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SGB interest of 2.5% p.a. on nominal value is taxable as "Income from Other Sources" at the investor's slab rate. For Anita at 30%, annual tax = Rs.12,500 × 30% = Rs.3,750 per year, totaling Rs.30,000 over 8 years. However, redemption of SGBs by an individual is FULLY EXEMPT from capital gains tax. So the gain of Rs.3,50,000 (Rs.8,50,000 - Rs.5,00,000) on redemption attracts zero tax.
+**The Trap:** Option A incorrectly applies LTCG on redemption. Option D confuses TDS rate with actual tax rate. TDS may be deducted on interest, but actual tax is at slab rate. The key distinction is between redemption (exempt) and transfer on exchange before maturity (taxable).
+**Cross-Exam Context:** NISM Series X-A also tests SGB taxation. The distinction between redemption and premature transfer is a high-frequency question.
+**Distributor's Pro-Tip:** SGBs offer a unique tax advantage at maturity — the capital appreciation is tax-free for individuals. But if sold on the exchange before maturity, LTCG at 12.5% applies (if held >12 months). Always advise holding till maturity if tax efficiency is the goal.]]></text></explanation>
+    </question>
+</QF>

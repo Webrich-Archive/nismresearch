@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Exempt Incomes, Deductions, Rebates_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Ramesh is a self-employed professional with a gross total income of Rs.18,00,000. He contributes Rs.4,50,000 to NPS in FY 2024-25. Under the old tax regime, what is his total deduction under Sections 80CCD(1) and 80CCD(1B)?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs.4,50,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.3,60,000]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs.2,00,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.1,50,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For self-employed individuals, Section 80CCD(1) allows deduction of up to 20% of gross total income (GTI) for NPS contribution. 20% of Rs.18,00,000 = Rs.3,60,000. However, 80CCD(1) is subject to the 80CCE aggregate ceiling of Rs.1,50,000 (combined with 80C and 80CCC). Assuming no other 80C investments, the maximum under 80CCD(1) within 80CCE = Rs.1,50,000. Additionally, Section 80CCD(1B) provides a separate deduction of Rs.50,000. Total = Rs.1,50,000 + Rs.50,000 = Rs.2,00,000.
+**The Trap:** Rs.4,50,000 takes the full contribution without any cap. Rs.3,60,000 applies the 20% GTI limit but ignores the 80CCE ceiling. Rs.1,50,000 forgets the additional 80CCD(1B) benefit.
+**Cross-Exam Context:** NISM Series X-A tests the interplay between 80CCD(1), 80CCE aggregate limit, and the additional 80CCD(1B) deduction.
+**Distributor's Pro-Tip:** Self-employed clients get a higher percentage cap (20% of GTI) under 80CCD(1) compared to salaried (10% of salary), but the 80CCE ceiling of Rs.1.5L remains the binding constraint unless they have no other 80C investments.]]></text></explanation>
+    </question>
+</QF>

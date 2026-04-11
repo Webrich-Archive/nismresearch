@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Taxation of Debt and Equity Products_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Rajesh purchased units of a debt mutual fund scheme (with 90% allocation to debt instruments) on 15th June 2023 for Rs.5,00,000. He redeemed the units on 20th August 2025 for Rs.6,20,000. What is the nature and tax treatment of his capital gain?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Long-term capital gain of Rs.1,20,000 taxed at 12.5% without indexation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Long-term capital gain of Rs.1,20,000 taxed at 20% with indexation]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Short-term capital gain of Rs.1,20,000 taxed at his income tax slab rate under Section 50AA]]></text></answer>
+            <answer correct="no"><text><![CDATA[Short-term capital gain of Rs.1,20,000 taxed at 20% under Section 111A]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A debt mutual fund with 90% in debt instruments qualifies as a "Specified Mutual Fund" (≥65% in debt/money market instruments) under Section 50AA. Units purchased on or after 1st April 2023 are ALWAYS treated as short-term capital assets regardless of holding period. The gain of Rs.1,20,000 (Rs.6,20,000 - Rs.5,00,000) is taxed at the investor's slab rate.
+**The Trap:** Despite holding for over 2 years (June 2023 to August 2025), many candidates apply the old 24-month/36-month LTCG rule. Section 50AA overrides all holding period considerations for specified MFs bought after 1-4-2023.
+**Cross-Exam Context:** NISM Series V-A (Mutual Fund Distributors) also tests post-2023 debt MF taxation changes extensively.
+**Distributor's Pro-Tip:** Always check the purchase date of debt MF units first — if bought on or after 1-4-2023 and the fund has ≥65% debt, it is ALWAYS short-term. This single rule change fundamentally altered debt MF tax planning.]]></text></explanation>
+    </question>
+</QF>
