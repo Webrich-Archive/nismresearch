@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Case Studies_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Meena is hospitalised and incurs a total bill of Rs. 4,50,000. Her health insurance policy has a deductible of Rs. 10,000 and a co-pay clause of 20% (applied on the amount after deductible). How much does Meena pay out of her own pocket?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 90,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,00,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 88,000]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 98,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step 1: Deductible is applied first. Amount after deductible = Rs. 4,50,000 - Rs. 10,000 = Rs. 4,40,000. Step 2: Co-pay of 20% on Rs. 4,40,000 = Rs. 88,000 (Meena's share). Insurer pays Rs. 3,52,000. Step 3: Total out-of-pocket for Meena = Deductible + Co-pay = Rs. 10,000 + Rs. 88,000 = Rs. 98,000.
+**The Trap:** Rs. 90,000 applies 20% co-pay on the full bill (4,50,000 x 20% = 90,000) without first deducting the deductible. Rs. 88,000 forgets to add the deductible amount to the co-pay. The order of application matters: deductible first, then co-pay on the remainder.
+**Cross-Exam Context:** Health insurance claim mechanics are tested in NISM X-B and IRDA certification. Understanding the sequence — deductible, then co-pay, then sub-limits — is essential for accurate claim estimation.
+**Distributor's Pro-Tip:** Many clients confuse co-pay with deductible. Explain that the deductible is a fixed amount they always bear, while co-pay is a percentage sharing arrangement. Policies with lower co-pay and deductible cost more in premium but reduce out-of-pocket shock during claims.]]></text></explanation>
+    </question>
+</QF>

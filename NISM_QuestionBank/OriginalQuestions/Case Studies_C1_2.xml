@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Case Studies_C1_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Ravi (age 30) and Sita (age 28) are a dual-income couple. Ravi earns Rs. 12,00,000 per annum and Sita earns Rs. 8,00,000 per annum. They have one child, Arjun, aged 2. Their monthly household expenses are Rs. 60,000. Current savings: Rs. 5,00,000 in a Fixed Deposit, Rs. 3,00,000 in an equity mutual fund, and Rs. 2,00,000 in PPF. They have no outstanding loans.
+
+Their financial goals are: (1) Arjun's higher education at age 18 — current cost of the programme is Rs. 25,00,000 with education inflation at 10% per annum. (2) House purchase in 5 years with a target property value of Rs. 50,00,000 — they plan to make their own contribution of Rs. 15,00,000 and finance the rest through a home loan. (3) Retirement at age 60 — monthly expenses at retirement of Rs. 60,000 (in today's terms), inflation 7% per annum, expected investment return during retirement 9% per annum, plan for 25 years in retirement.
+
+Assume expected investment returns: equity 12% p.a., debt 8% p.a., balanced/hybrid fund 10% p.a. All calculations use annual compounding unless stated otherwise.
+
+<b>Question 2 of 5:</b> To accumulate the Rs. 15,00,000 own contribution for the house purchase in 5 years, what monthly SIP amount is needed at 12% equity return (ordinary annuity, monthly compounding)?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 22,500 per month]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 18,367 per month]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 25,000 per month]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 15,800 per month]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Using the FV of ordinary annuity formula: FV = PMT x [((1+r)^n - 1) / r]. Here FV = Rs. 15,00,000, r = 12%/12 = 1% per month, n = 60 months. FV factor = ((1.01)^60 - 1) / 0.01 = (1.8167 - 1) / 0.01 = 81.67. PMT = Rs. 15,00,000 / 81.67 = Rs. 18,367 per month. They can also redirect their existing FD of Rs. 5 lakh towards this goal, which would reduce the SIP needed.
+**The Trap:** Rs. 25,000 results from dividing Rs. 15,00,000 by 60 months (simple division without accounting for investment returns). Rs. 22,500 uses an incorrect lower FV factor. Rs. 15,800 uses an inflated FV factor from an annuity-due calculation with a higher assumed rate.
+**Cross-Exam Context:** SIP accumulation calculations are core to NISM X-A, X-B, and Series V-A (Mutual Fund Distributors). The FV of annuity formula is the standard tool for goal-based SIP planning.
+**Distributor's Pro-Tip:** For a 5-year goal, pure equity carries sequence-of-returns risk. Recommend starting with 70:30 equity:debt and shifting to 30:70 in years 4-5. A balanced advantage fund or a target-date solution can automate this de-risking for the client.]]></text></explanation>
+    </question>
+</QF>

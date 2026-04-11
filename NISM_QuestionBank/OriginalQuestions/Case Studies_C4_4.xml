@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Case Studies_C4_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Mahesh (age 50) is a successful businessman with a net worth of Rs. 10 crore. Annual income: Rs. 60,00,000. Wife Neha (age 47). Two adult children: son Arjun (age 25, working in the family business) and daughter Priya (age 22, MBA student). Assets: residential house Rs. 3,00,00,000, business equity Rs. 4,00,00,000, equity mutual funds Rs. 1,50,00,000, FD and debt mutual funds Rs. 80,00,000, gold and real estate investments Rs. 70,00,000. Liabilities: business loan Rs. 50,00,000. Life insurance: term plan Rs. 2,00,00,000 (Rs. 2 crore).
+
+Financial goals: (1) Retire at age 60, maintain current lifestyle of Rs. 1,50,000 per month (in today's terms). (2) Daughter Priya's marriage in 3 years — current estimated cost Rs. 30,00,000 with general inflation of 8% p.a. on marriage expenses. (3) Smooth transfer of business to son Arjun. (4) Estate plan for family wealth distribution.
+
+Assumptions: General inflation 6% p.a., equity return 12% p.a., debt return 8% p.a., blended retirement return 9% p.a. Investment return for HLV calculation: 10% p.a.
+
+<b>Question 4 of 5:</b> Using the HLV method with annual income Rs. 60,00,000, inflation 6%, investment return 10%, and 10 years of working life remaining, what is Mahesh's HLV and is his Rs. 2 crore term plan adequate?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[HLV is Rs. 4.92 crore — underinsured by approximately Rs. 2.92 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[HLV is Rs. 3.50 crore — underinsured by Rs. 1.50 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[HLV is Rs. 6.00 crore — underinsured by Rs. 4.00 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[HLV is Rs. 2.00 crore — the existing cover is exactly adequate]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step 1: Real discount rate = ((1.10)/(1.06)) - 1 = 3.7736%. Step 2: PV of annuity for 10 years at 3.7736% = (1 - (1.037736)^(-10)) / 0.037736 = 8.2031. Step 3: HLV = Rs. 60,00,000 x 8.2031 = Rs. 4,92,18,559 ~ Rs. 4.92 crore. Step 4: Gap = Rs. 4.92 crore - Rs. 2.00 crore = Rs. 2.92 crore. Mahesh is significantly underinsured, especially considering his family's dependence on his income and the outstanding business loan of Rs. 50 lakh.
+**The Trap:** Rs. 6.00 crore uses nominal 10% rate or a simple 10x income multiplier (60L x 10 = 6 crore) without proper discounting. Rs. 3.50 crore uses a higher real rate or fewer years. Rs. 2.00 crore is a coincidence with the existing cover and ignores the actual calculation.
+**Cross-Exam Context:** HLV calculations with varying working years and return assumptions are standard NISM X-B problems. For HNIs, insurance planning must also account for key-person risk in the business and loan protection.
+**Distributor's Pro-Tip:** Beyond pure HLV, Mahesh should consider: (1) Key-man insurance for the business (covers business disruption if he dies), (2) Loan protection for the Rs. 50 lakh business loan, (3) The fact that his business income may cease if he is not there, unlike a salaried employee whose dependents may get gratuity/PF. Total cover recommendation: at least Rs. 5-6 crore including business loan protection.]]></text></explanation>
+    </question>
+</QF>

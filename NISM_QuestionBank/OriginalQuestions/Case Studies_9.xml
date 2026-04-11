@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Case Studies_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Arun wants to fund his son's MBA programme, which currently costs Rs. 20,00,000. The programme will be needed 10 years from now and education inflation is 8% per annum. If Arun can earn 12% per annum through an equity SIP (ordinary annuity, monthly compounding), what approximate monthly SIP should he start?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 15,200]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 22,400]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 18,770]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 25,100]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step 1: Future cost = Rs. 20,00,000 x (1.08)^10 = Rs. 20,00,000 x 2.15893 = Rs. 43,17,850. Step 2: Monthly SIP using FV of ordinary annuity: FV = PMT x [((1+r)^n - 1) / r], where r = 12%/12 = 1% per month, n = 120 months. FV annuity factor = ((1.01)^120 - 1) / 0.01 = 230.04. Step 3: PMT = Rs. 43,17,850 / 230.04 = Rs. 18,770 per month.
+**The Trap:** Rs. 15,200 forgets to inflate the current cost to future value, using Rs. 20 lakh directly as the target. Rs. 22,400 uses annuity due (beginning of month) instead of ordinary annuity. Rs. 25,100 uses a lower return assumption.
+**Cross-Exam Context:** Goal-based SIP calculation is fundamental to NISM X-A and X-B. The two-step approach (inflate the goal, then compute SIP) is the standard method. Series V-A also tests SIP-related calculations.
+**Distributor's Pro-Tip:** Always separate the inflation step from the SIP computation step. Many clients underestimate the target by not inflating — a Rs. 20 lakh goal today becomes Rs. 43 lakh in 10 years at 8% education inflation. Starting the SIP even 2 years late increases the monthly amount by 25-30%.]]></text></explanation>
+    </question>
+</QF>

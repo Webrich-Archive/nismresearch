@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Case Studies_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Deepak takes a home loan of Rs. 30,00,000 at 8.5% per annum (monthly compounding) for a tenure of 20 years. What is his approximate monthly EMI?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 26,035]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 28,200]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 23,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 24,750]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** EMI = P x r x (1+r)^n / ((1+r)^n - 1), where P = Rs. 30,00,000, r = 8.5%/12 = 0.7083% per month, n = 240 months. EMI = 30,00,000 x 0.007083 x (1.007083)^240 / ((1.007083)^240 - 1) = 30,00,000 x 0.007083 x 5.4385 / (5.4385 - 1) = 30,00,000 x 0.038524 / 4.4385 = Rs. 26,035. This can also be computed using Excel's PMT(0.085/12, 240, -3000000) function.
+**The Trap:** Rs. 23,500 results from using a simplified interest calculation. Rs. 28,200 uses a higher effective rate by incorrectly compounding annually instead of monthly. Candidates sometimes confuse the nominal rate with effective rate.
+**Cross-Exam Context:** EMI calculations are fundamental across NISM Series X-A and X-B exams. The PMT function is the standard tool taught for loan amortization in financial planning.
+**Distributor's Pro-Tip:** A 0.5% rate increase on a Rs. 30 lakh loan over 20 years adds approximately Rs. 1,000/month to EMI and nearly Rs. 2.4 lakh to total interest. Always show clients the sensitivity of EMI to rate changes when advising on floating vs fixed rates.]]></text></explanation>
+    </question>
+</QF>

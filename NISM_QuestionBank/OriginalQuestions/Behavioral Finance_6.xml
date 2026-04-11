@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Behavioral Finance_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Suresh bought shares of ABC Ltd at INR 500 each. The stock has fallen to INR 320, but he refuses to sell, saying "I'll sell when it comes back to my purchase price." Meanwhile, he sold shares of XYZ Ltd at INR 180 which he bought at INR 150, booking a small profit. This pattern is known as the:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Endowment Effect]]></text></answer>
+            <answer correct="no"><text><![CDATA[Anchoring Bias]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Disposition Effect]]></text></answer>
+            <answer correct="no"><text><![CDATA[Status Quo Bias]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The Disposition Effect, identified by Shefrin and Statman (1985), describes the tendency to hold losers too long and sell winners too early. This is rooted in loss aversion — people prefer avoiding losses over acquiring equivalent gains. Suresh holds ABC (loser) and sells XYZ (winner) prematurely.
+**The Trap:** Anchoring Bias might seem relevant because Suresh anchors to his INR 500 purchase price, but the complete pattern of holding losers while selling winners is specifically the Disposition Effect. Endowment Effect is about overvaluing what you own, not specifically about the sell/hold asymmetry.
+**Cross-Exam Context:** NISM Series VIII (Equity Derivatives) tests concepts of stop-loss orders, which are a practical tool to counter the Disposition Effect by automating the sell decision for losing positions.
+**Distributor's Pro-Tip:** Set trailing stop-losses at the time of purchase. This pre-commitment removes emotion from the sell decision and directly counters the Disposition Effect.]]></text></explanation>
+    </question>
+</QF>

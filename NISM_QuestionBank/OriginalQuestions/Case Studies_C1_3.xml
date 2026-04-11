@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Case Studies_C1_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Ravi (age 30) and Sita (age 28) are a dual-income couple. Ravi earns Rs. 12,00,000 per annum and Sita earns Rs. 8,00,000 per annum. They have one child, Arjun, aged 2. Their monthly household expenses are Rs. 60,000. Current savings: Rs. 5,00,000 in a Fixed Deposit, Rs. 3,00,000 in an equity mutual fund, and Rs. 2,00,000 in PPF. They have no outstanding loans.
+
+Their financial goals are: (1) Arjun's higher education at age 18 — current cost of the programme is Rs. 25,00,000 with education inflation at 10% per annum. (2) House purchase in 5 years with a target property value of Rs. 50,00,000 — they plan to make their own contribution of Rs. 15,00,000 and finance the rest through a home loan. (3) Retirement at age 60 — monthly expenses at retirement of Rs. 60,000 (in today's terms), inflation 7% per annum, expected investment return during retirement 9% per annum, plan for 25 years in retirement.
+
+Assume expected investment returns: equity 12% p.a., debt 8% p.a., balanced/hybrid fund 10% p.a. All calculations use annual compounding unless stated otherwise.
+
+<b>Question 3 of 5:</b> What is the retirement corpus Ravi needs at age 60, using the inflation-adjusted return method for 25 years of retirement?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 7.25 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 8.50 crore]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 10.87 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 12.40 crore]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step 1: Monthly expense at retirement (age 60, 30 years from now) = Rs. 60,000 x (1.07)^30 = Rs. 60,000 x 7.6123 = Rs. 4,56,735. Annual expense = Rs. 54,80,824. Step 2: Real return during retirement = ((1.09)/(1.07)) - 1 = 1.8692% p.a. Step 3: PV of annuity for 25 years at 1.8692% = (1 - (1.018692)^(-25)) / 0.018692 = 19.8267. Step 4: Corpus = Rs. 54,80,824 x 19.8267 = Rs. 10,86,66,605 ~ Rs. 10.87 crore.
+**The Trap:** Rs. 7.25 crore uses only 20 years of inflation instead of 30 years (confusing Ravi's current age with a 40-year-old). Rs. 8.50 crore uses nominal 9% return without adjusting for inflation. Rs. 12.40 crore uses 30 years in retirement instead of 25 years.
+**Cross-Exam Context:** This is the standard NISM X-B retirement corpus calculation. The same method applies in CFP certification. Key steps: inflate expenses to retirement date, compute real return, then find PV of retirement annuity.
+**Distributor's Pro-Tip:** Rs. 10.87 crore seems daunting at age 30, but with 30 years of compounding, a monthly SIP of approximately Rs. 30,000 at 12% equity return can accumulate this. The power of starting early cannot be overstated — delaying by 10 years would require Rs. 1,00,000/month for the same corpus.]]></text></explanation>
+    </question>
+</QF>

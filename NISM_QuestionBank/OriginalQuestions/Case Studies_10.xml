@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Case Studies_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Neha invests Rs. 10,00,000 each in three instruments for 5 years: (A) PPF at 7.1% p.a. (EEE tax status), (B) Equity Mutual Fund at 12% p.a. (LTCG taxed at 12.5% above Rs. 1,25,000 exemption), and (C) Fixed Deposit at 7% p.a. (interest taxed annually at 30% slab). Which option gives the highest after-tax maturity value?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[PPF — approximately Rs. 14.09 lakh (highest due to tax-free status)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Equity Mutual Fund — approximately Rs. 16.83 lakh (highest despite LTCG tax)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fixed Deposit — approximately Rs. 14.03 lakh (highest due to guaranteed returns)]]></text></answer>
+            <answer correct="no"><text><![CDATA[PPF and Equity MF give the same after-tax value of approximately Rs. 14.09 lakh]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** PPF: Rs. 10,00,000 x (1.071)^5 = Rs. 14,09,118 (fully tax-free under EEE). Equity MF: FV = Rs. 10,00,000 x (1.12)^5 = Rs. 17,62,342. Gain = Rs. 7,62,342. Taxable gain = Rs. 7,62,342 - Rs. 1,25,000 = Rs. 6,37,342. Tax = Rs. 6,37,342 x 12.5% = Rs. 79,668. Net = Rs. 17,62,342 - Rs. 79,668 = Rs. 16,82,674. FD (annual tax): Post-tax rate = 7% x (1 - 0.30) = 4.9%. Corpus = Rs. 10,00,000 x (1.049)^5 = Rs. 12,70,216. Equity MF wins despite paying LTCG tax because its higher pre-tax return (12% vs 7.1%) more than compensates for the tax.
+**The Trap:** Many candidates assume PPF is best because of tax-free status (EEE). But tax efficiency alone does not determine the best outcome — the pre-tax return differential matters enormously. FD suffers most because interest is taxed annually, reducing the compounding base each year.
+**Cross-Exam Context:** Tax-efficiency comparison across asset classes is a key topic in NISM X-B. Series X-A covers individual product taxation. Understanding EEE vs EET vs taxable is essential for holistic financial planning.
+**Distributor's Pro-Tip:** The comparison changes dramatically with the client's tax slab. At 0% tax (under new regime basic exemption), the FD becomes competitive. Always personalise the tax-efficiency analysis based on the client's marginal rate and expected holding period.]]></text></explanation>
+    </question>
+</QF>

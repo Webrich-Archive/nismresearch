@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Case Studies_C4_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Mahesh (age 50) is a successful businessman with a net worth of Rs. 10 crore. Annual income: Rs. 60,00,000. Wife Neha (age 47). Two adult children: son Arjun (age 25, working in the family business) and daughter Priya (age 22, MBA student). Assets: residential house Rs. 3,00,00,000, business equity Rs. 4,00,00,000, equity mutual funds Rs. 1,50,00,000, FD and debt mutual funds Rs. 80,00,000, gold and real estate investments Rs. 70,00,000. Liabilities: business loan Rs. 50,00,000. Life insurance: term plan Rs. 2,00,00,000 (Rs. 2 crore).
+
+Financial goals: (1) Retire at age 60, maintain current lifestyle of Rs. 1,50,000 per month (in today's terms). (2) Daughter Priya's marriage in 3 years — current estimated cost Rs. 30,00,000 with general inflation of 8% p.a. on marriage expenses. (3) Smooth transfer of business to son Arjun. (4) Estate plan for family wealth distribution.
+
+Assumptions: General inflation 6% p.a., equity return 12% p.a., debt return 8% p.a., blended retirement return 9% p.a. Investment return for HLV calculation: 10% p.a.
+
+<b>Question 1 of 5:</b> What will be the cost of Priya's marriage in 3 years at 8% inflation on marriage expenses?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 33,60,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 35,50,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 40,00,000]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 37,79,136]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** FV = Rs. 30,00,000 x (1.08)^3 = Rs. 30,00,000 x 1.259712 = Rs. 37,79,136. At 8% inflation, costs increase by approximately 26% over 3 years. This is a near-term goal (3 years), so the investment strategy should be conservative — predominantly debt instruments.
+**The Trap:** Rs. 33,60,000 uses simple interest (30,00,000 + 30,00,000 x 8% x 3 x (1/3) is wrong; the correct simple interest would be 37,20,000). Rs. 40,00,000 rounds up excessively. Rs. 35,50,000 may use a lower inflation rate. The compound interest calculation must be precise for exam questions.
+**Cross-Exam Context:** Near-term goal inflation is a basic NISM X-A and X-B concept. Marriage expenses in India often inflate faster than general CPI due to venue costs, catering, and gold prices — using 8% is reasonable.
+**Distributor's Pro-Tip:** For a 3-year goal of Rs. 37.79 lakh, Mahesh should invest in short-term debt funds or FDs rather than equity. Given his existing FD/debt MF corpus of Rs. 80 lakh, he can easily earmark Rs. 38 lakh for this goal without additional investments. Goal segregation from the existing corpus is the immediate action item.]]></text></explanation>
+    </question>
+</QF>

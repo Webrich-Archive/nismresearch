@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Case Studies_C3_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Lakshmi (age 55) works in the private sector and plans to retire in 5 years at age 60. Current monthly income: Rs. 2,00,000. Monthly expenses: Rs. 1,20,000. She saves Rs. 80,000 per month and will continue doing so until retirement.
+
+Existing corpus: Rs. 80,00,000 in EPF/PPF (expected return 7.5% p.a.), Rs. 40,00,000 in equity mutual funds (expected return 11% p.a.), Rs. 20,00,000 in Fixed Deposits (expected return 7.5% p.a.). NPS corpus expected to be Rs. 30,00,000 at age 60. No outstanding loans. No employer pension (private sector).
+
+Life expectancy: 85 years (25 years in retirement). Inflation: 6% p.a. Expected returns during retirement: debt 7.5% p.a., equity 11% p.a. Monthly savings of Rs. 80,000 are invested at a blended return of 10% p.a. NPS withdrawal rules: 60% lump sum (tax-free), 40% must purchase annuity at 6% p.a. yield.
+
+<b>Question 1 of 5:</b> What is Lakshmi's approximate total corpus at retirement (age 60), including projected growth of existing investments and accumulated monthly savings?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Approximately Rs. 2.50 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately Rs. 2.10 crore]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Approximately Rs. 3.03 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately Rs. 3.50 crore]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Projecting each component forward 5 years: EPF/PPF: Rs. 80,00,000 x (1.075)^5 = Rs. 1,14,85,035. Equity MF: Rs. 40,00,000 x (1.11)^5 = Rs. 67,40,233. FD: Rs. 20,00,000 x (1.075)^5 = Rs. 28,71,259. NPS: Rs. 30,00,000 (already projected at 60). Monthly savings FV: Rs. 80,000 x [((1+0.10/12)^60 - 1) / (0.10/12)] = Rs. 61,94,966. Total = Rs. 1,14,85,035 + Rs. 67,40,233 + Rs. 28,71,259 + Rs. 30,00,000 + Rs. 61,94,966 = Rs. 3,02,91,492 ~ Rs. 3.03 crore.
+**The Trap:** Rs. 2.50 crore ignores the monthly savings accumulation. Rs. 2.10 crore uses current values without projecting growth. Rs. 3.50 crore may apply equity return to all assets. Each asset must be projected at its own rate.
+**Cross-Exam Context:** Pre-retirement corpus projection is a standard NISM X-B calculation. The multi-asset projection approach is also tested in CFP certification. NPS corpus is typically stated as expected value at retirement.
+**Distributor's Pro-Tip:** Rs. 3 crore sounds substantial, but after accounting for NPS annuity lock-in (40%) and inflation-adjusted retirement expenses, the effective deployable corpus is lower. Always show clients the complete picture including NPS restrictions.]]></text></explanation>
+    </question>
+</QF>

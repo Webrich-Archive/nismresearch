@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Case Studies_C2_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Suresh (age 45) is the sole earner in his family. His wife Kavita (age 42) is a homemaker. They have two children: daughter Meera (age 18, starting college with fees of Rs. 8,00,000 per year for 4 years at current cost) and son Rohan (age 15, higher education estimated at Rs. 30,00,000 needed 3 years from now — this is already the projected future cost). Monthly income: Rs. 1,50,000. Monthly expenses: Rs. 90,000. Existing investments: Rs. 30,00,000 in EPF, Rs. 15,00,000 in equity mutual funds, Rs. 10,00,000 in FD, and Rs. 5,00,000 in PPF. Outstanding home loan: EMI of Rs. 25,000/month with 10 years remaining. Life insurance: term plan of Rs. 1,00,00,000 (Rs. 1 crore).
+
+Suresh plans to retire at age 60 and expects 25 years in retirement. Current monthly expenses at retirement: Rs. 90,000 (in today's terms). Inflation: 6% p.a. Expected returns: equity 12% p.a., debt 7.5% p.a. For retirement corpus calculation, assume a blended portfolio return of 9% p.a. during retirement.
+
+<b>Question 5 of 5:</b> Using the Human Life Value method (annual income Rs. 18,00,000, inflation 6%, investment return 12%, 15 years of working life remaining), is Suresh's existing term plan of Rs. 1 crore adequate?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[No, the HLV is approximately Rs. 1.79 crore — he is underinsured by approximately Rs. 79 lakh]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, Rs. 1 crore is adequate as it covers more than 5 times annual income]]></text></answer>
+            <answer correct="no"><text><![CDATA[No, the HLV is approximately Rs. 1.20 crore — he is underinsured by Rs. 20 lakh]]></text></answer>
+            <answer correct="no"><text><![CDATA[No, the HLV is approximately Rs. 2.70 crore — he is underinsured by Rs. 1.70 crore]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step 1: Real discount rate = ((1.12)/(1.06)) - 1 = 5.6604%. Step 2: PV of annuity factor for 15 years at 5.6604% = (1 - (1.056604)^(-15)) / 0.056604 = 9.9315. Step 3: HLV = Rs. 18,00,000 x 9.9315 = Rs. 1,78,76,617 ~ Rs. 1.79 crore. Step 4: Gap = Rs. 1.79 crore - Rs. 1.00 crore = Rs. 0.79 crore ~ Rs. 79 lakh. Suresh is significantly underinsured as a sole earner supporting a family of four with a homemaker spouse.
+**The Trap:** Rs. 2.70 crore uses nominal 6% rate or 25 years instead of 15 working years remaining. Rs. 1.20 crore uses a very high real rate. The "5 times income" thumb rule is grossly inadequate for HLV — it ignores inflation, discount rates, and the actual working years remaining.
+**Cross-Exam Context:** HLV calculation and insurance adequacy assessment are core NISM X-B topics. The method accounts for inflation-adjusted future income streams, making it more accurate than simple income multiples.
+**Distributor's Pro-Tip:** As a sole earner with dependents, Suresh should immediately increase his term cover to at least Rs. 2 crore (including some buffer above HLV for loan payoff and education funding). Additionally, factor in the outstanding home loan of approximately Rs. 22 lakh (remaining EMIs) which the family would need to service in his absence.]]></text></explanation>
+    </question>
+</QF>

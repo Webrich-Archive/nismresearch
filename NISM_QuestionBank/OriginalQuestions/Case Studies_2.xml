@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Case Studies_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Rajesh (age 40) wants to retire at 60 with monthly expenses of Rs. 60,000 (in today's terms). Inflation is 7% p.a. and expected investment return during retirement is 9% p.a. He plans for 25 years in retirement. Using the inflation-adjusted return method, what retirement corpus does Rajesh need at age 60?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 3.85 crore]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 5.52 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 4.75 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 6.30 crore]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step 1: Monthly expense at retirement = Rs. 60,000 x (1.07)^20 = Rs. 2,32,181. Annual expense = Rs. 27,86,173. Step 2: Real (inflation-adjusted) return = ((1.09)/(1.07)) - 1 = 1.8692% p.a. Step 3: PV of annuity for 25 years at 1.8692% = (1 - (1.018692)^(-25)) / 0.018692 = 19.8267. Step 4: Corpus = Rs. 27,86,173 x 19.8267 = Rs. 5,52,40,592 ~ Rs. 5.52 crore.
+**The Trap:** Rs. 3.85 crore results from not inflating the monthly expense to retirement date — using Rs. 60,000 x 12 x 19.83 directly. Rs. 6.30 crore uses the nominal return of 9% without adjusting for inflation.
+**Cross-Exam Context:** NISM Series X-A tests retirement planning basics. The inflation-adjusted return method is the standard approach taught in CFP and NISM curricula for computing retirement corpus.
+**Distributor's Pro-Tip:** The real return of just 1.87% shows why retirement planning requires massive corpus accumulation. Even a 1% difference in inflation assumption can change the corpus by 15-20%. Always stress-test with higher inflation scenarios.]]></text></explanation>
+    </question>
+</QF>

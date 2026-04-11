@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Case Studies_8" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Sunita has a retirement corpus of Rs. 1 crore invested at an expected annual return of 10% (compounded monthly). She starts a Systematic Withdrawal Plan (SWP) of Rs. 70,000 per month. How long will her corpus last?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Approximately 20 years]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 30 years]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately 40 years]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The corpus will sustain indefinitely as monthly interest exceeds the withdrawal]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Monthly return on Rs. 1,00,00,000 at 10% p.a. = Rs. 1,00,00,000 x (10%/12) = Rs. 83,333 per month. Since the monthly interest earned (Rs. 83,333) exceeds the monthly withdrawal (Rs. 70,000), the corpus never depletes — in fact, it grows by Rs. 13,333 each month (before compounding). This is the ideal SWP scenario where the withdrawal rate (8.4% annualised) is below the return rate (10%).
+**The Trap:** Candidates rush to apply the annuity depletion formula without first checking whether interest exceeds withdrawal. If monthly interest > monthly withdrawal, the formula yields a negative number under the logarithm, which means infinite sustainability.
+**Cross-Exam Context:** SWP sustainability is a core concept in NISM X-B retirement planning. NISM Series V-A (Mutual Fund) also covers SWP mechanics. The safe withdrawal rate concept (typically 3-4% in conservative planning) is related.
+**Distributor's Pro-Tip:** While mathematically sustainable, real-world inflation will erode purchasing power. Rs. 70,000 today will feel like Rs. 35,000 in 15 years at 5% inflation. Advise clients to build in annual SWP increases of 5-7% and recalculate sustainability periodically.]]></text></explanation>
+    </question>
+</QF>

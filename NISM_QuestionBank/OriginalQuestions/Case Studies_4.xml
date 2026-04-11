@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Case Studies_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Anita has a base health insurance of Rs. 5 lakh and a top-up policy of Rs. 15 lakh with a deductible of Rs. 5 lakh (per-claim basis). During the year, she incurs three hospital claims: Claim 1 of Rs. 3 lakh, Claim 2 of Rs. 4 lakh, and Claim 3 of Rs. 6 lakh. What is Anita's total out-of-pocket expense under this top-up arrangement?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 5,00,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 3,00,000]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 7,00,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 8,00,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In a top-up policy, the deductible applies per claim, not cumulatively. Claim 1 (Rs. 3 lakh): Base pays Rs. 3 lakh. Base remaining: Rs. 2 lakh. OOP: Nil. Claim 2 (Rs. 4 lakh): Base pays Rs. 2 lakh (remaining). Remainder Rs. 2 lakh — but top-up deductible is Rs. 5 lakh per claim, and this claim is only Rs. 4 lakh (below deductible), so top-up pays nothing. OOP: Rs. 2 lakh. Claim 3 (Rs. 6 lakh): Base exhausted. Top-up deductible Rs. 5 lakh per claim, so top-up pays Rs. 1 lakh (6L - 5L). OOP: Rs. 5 lakh. Total OOP = 0 + 2,00,000 + 5,00,000 = Rs. 7,00,000.
+**The Trap:** Rs. 5,00,000 assumes the deductible is cumulative (like super top-up) where once total claims cross Rs. 5 lakh above base, everything is covered. Rs. 3,00,000 incorrectly assumes base policy covers all claims first and top-up covers the rest.
+**Cross-Exam Context:** The distinction between top-up (per-claim deductible) and super top-up (cumulative deductible) is a key concept tested in NISM X-B and insurance certification exams.
+**Distributor's Pro-Tip:** Super top-up is almost always better value than top-up for clients with multiple claims. The cumulative deductible means once total claims exceed the threshold during the year, all further claims are fully covered. Always recommend super top-up unless the client specifically wants per-claim coverage.]]></text></explanation>
+    </question>
+</QF>

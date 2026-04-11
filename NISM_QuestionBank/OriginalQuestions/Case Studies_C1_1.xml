@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Case Studies_C1_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Ravi (age 30) and Sita (age 28) are a dual-income couple. Ravi earns Rs. 12,00,000 per annum and Sita earns Rs. 8,00,000 per annum. They have one child, Arjun, aged 2. Their monthly household expenses are Rs. 60,000. Current savings: Rs. 5,00,000 in a Fixed Deposit, Rs. 3,00,000 in an equity mutual fund, and Rs. 2,00,000 in PPF. They have no outstanding loans.
+
+Their financial goals are: (1) Arjun's higher education at age 18 — current cost of the programme is Rs. 25,00,000 with education inflation at 10% per annum. (2) House purchase in 5 years with a target property value of Rs. 50,00,000 — they plan to make their own contribution of Rs. 15,00,000 and finance the rest through a home loan. (3) Retirement at age 60 — monthly expenses at retirement of Rs. 60,000 (in today's terms), inflation 7% per annum, expected investment return during retirement 9% per annum, plan for 25 years in retirement.
+
+Assume expected investment returns: equity 12% p.a., debt 8% p.a., balanced/hybrid fund 10% p.a. All calculations use annual compounding unless stated otherwise.
+
+<b>Question 1 of 5:</b> What will be the future cost of Arjun's higher education when he turns 18, i.e., 16 years from now at 10% education inflation?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 65,00,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 92,50,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,05,00,000]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 1,14,87,432]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** FV = PV x (1 + r)^n = Rs. 25,00,000 x (1.10)^16 = Rs. 25,00,000 x 4.59497 = Rs. 1,14,87,432. At 10% education inflation, costs roughly quadruple in 16 years (Rule of 72: doubling every 7.2 years, so approximately 2 doublings in 14.4 years).
+**The Trap:** Rs. 65,00,000 uses simple interest (25,00,000 + 25,00,000 x 10% x 16 = 65,00,000). Rs. 1,05,00,000 uses an incorrect inflation factor, perhaps rounding to 4.2x instead of 4.595x. Education inflation compounds aggressively over long horizons and must not be approximated.
+**Cross-Exam Context:** NISM Series X-A and X-B both test education goal planning. The key insight is that education inflation (8-12%) is significantly higher than general CPI inflation (5-7%), requiring separate treatment in financial plans.
+**Distributor's Pro-Tip:** With 16 years of runway, the couple can use equity-heavy allocation (80:20 equity:debt) for this goal. Starting a dedicated SIP now of approximately Rs. 18,500/month at 12% equity return would accumulate the required Rs. 1.15 crore. Every year of delay increases the required SIP by 15-20%.]]></text></explanation>
+    </question>
+</QF>

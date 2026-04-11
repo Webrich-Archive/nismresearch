@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Case Studies_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Karthik invests Rs. 1,00,000 of his own funds in a debt instrument yielding 12% per annum. He uses 1.5x leverage (i.e., total investment = 1.5 times his own funds) by borrowing the additional amount at 9% per annum. What is Karthik's Return on Equity (ROE)?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[12.0%]]></text></answer>
+            <answer correct="no"><text><![CDATA[15.0%]]></text></answer>
+            <answer correct="no"><text><![CDATA[10.5%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[13.5%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Total investment = Rs. 1,00,000 x 1.5 = Rs. 1,50,000. Borrowed amount = Rs. 1,50,000 - Rs. 1,00,000 = Rs. 50,000. Gross return = Rs. 1,50,000 x 12% = Rs. 18,000. Interest on borrowed funds = Rs. 50,000 x 9% = Rs. 4,500. Net return = Rs. 18,000 - Rs. 4,500 = Rs. 13,500. ROE = Rs. 13,500 / Rs. 1,00,000 = 13.5%. Leverage enhanced the base 12% return to 13.5% because the spread between asset return (12%) and borrowing cost (9%) is positive.
+**The Trap:** 12% ignores the leverage effect entirely. 15% incorrectly calculates by adding the full 3% spread to 12%. 10.5% mistakenly deducts borrowing cost from total return without proper computation.
+**Cross-Exam Context:** Leverage and its impact on ROE is tested in NISM X-B (Case Studies chapter) and Series VIII (Equity Derivatives). Understanding that leverage amplifies both gains and losses is crucial.
+**Distributor's Pro-Tip:** While leverage boosts ROE when asset returns exceed borrowing cost, the reverse is devastating. If the asset returned only 6%, ROE would be (6% x 1.5L - 9% x 0.5L) / 1L = (9000 - 4500) / 100000 = 4.5% — less than the unleveraged 6%. Always explain leverage as a double-edged sword.]]></text></explanation>
+    </question>
+</QF>

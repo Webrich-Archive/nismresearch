@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Case Studies_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Priya wants to send her daughter abroad for higher education. The current cost of the programme is Rs. 5,00,000. If education inflation is 10% per annum, what will be the cost of the programme 8 years from now?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 10,71,794]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 9,50,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 9,00,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 11,50,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Using the Future Value formula: FV = PV x (1 + r)^n = Rs. 5,00,000 x (1.10)^8 = Rs. 5,00,000 x 2.14359 = Rs. 10,71,794. Education inflation at 10% doubles costs roughly every 7.2 years (Rule of 72), so after 8 years the cost more than doubles.
+**The Trap:** Rs. 9,00,000 results from using simple interest (5,00,000 + 5,00,000 x 10% x 8 = 9,00,000) instead of compound interest. Many candidates confuse simple and compound interest in time-value calculations.
+**Cross-Exam Context:** NISM Series X-A (Investment Adviser Level 1) tests basic time-value-of-money concepts. Series V-A (Mutual Fund Distributors) covers goal-based planning where education inflation is a critical input.
+**Distributor's Pro-Tip:** Education inflation in India consistently runs 8-12% — nearly double general CPI inflation. Always use a separate, higher inflation rate for education goals. Start SIPs early because compounding works against you on the cost side and for you on the savings side.]]></text></explanation>
+    </question>
+</QF>

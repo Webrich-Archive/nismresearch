@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Case Studies_C4_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Mahesh (age 50) is a successful businessman with a net worth of Rs. 10 crore. Annual income: Rs. 60,00,000. Wife Neha (age 47). Two adult children: son Arjun (age 25, working in the family business) and daughter Priya (age 22, MBA student). Assets: residential house Rs. 3,00,00,000, business equity Rs. 4,00,00,000, equity mutual funds Rs. 1,50,00,000, FD and debt mutual funds Rs. 80,00,000, gold and real estate investments Rs. 70,00,000. Liabilities: business loan Rs. 50,00,000. Life insurance: term plan Rs. 2,00,00,000 (Rs. 2 crore).
+
+Financial goals: (1) Retire at age 60, maintain current lifestyle of Rs. 1,50,000 per month (in today's terms). (2) Daughter Priya's marriage in 3 years — current estimated cost Rs. 30,00,000 with general inflation of 8% p.a. on marriage expenses. (3) Smooth transfer of business to son Arjun. (4) Estate plan for family wealth distribution.
+
+Assumptions: General inflation 6% p.a., equity return 12% p.a., debt return 8% p.a., blended retirement return 9% p.a. Investment return for HLV calculation: 10% p.a.
+
+<b>Question 2 of 5:</b> What retirement corpus does Mahesh need at age 60 to sustain Rs. 1,50,000 per month (in today's terms) for 25 years, using the inflation-adjusted return method with 9% blended return and 6% inflation?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Approximately Rs. 4.25 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately Rs. 6.80 crore]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Approximately Rs. 5.72 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately Rs. 7.50 crore]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step 1: Monthly expense at retirement (10 years at 6% inflation) = Rs. 1,50,000 x (1.06)^10 = Rs. 1,50,000 x 1.7908 = Rs. 2,68,627. Annual expense = Rs. 32,23,526. Step 2: Real return = ((1.09)/(1.06)) - 1 = 2.8302% p.a. Step 3: PV of annuity for 25 years at 2.8302% = (1 - (1.028302)^(-25)) / 0.028302 = 17.7473. Step 4: Corpus = Rs. 32,23,526 x 17.7473 = Rs. 5,72,08,763 ~ Rs. 5.72 crore.
+**The Trap:** Rs. 4.25 crore uses the current expense of Rs. 1.5 lakh/month without inflating to retirement. Rs. 6.80 crore uses a lower blended return (perhaps 8%). Rs. 7.50 crore may use 30 years in retirement instead of 25. The inflation adjustment to the expense is the most commonly missed step.
+**Cross-Exam Context:** Retirement corpus calculation is the most frequently tested numerical problem in NISM X-B. The same method applies whether the client earns Rs. 1.5 lakh or Rs. 15 lakh per month — only the inputs change.
+**Distributor's Pro-Tip:** For an HNI like Mahesh, Rs. 5.72 crore seems achievable given his Rs. 10 crore net worth. However, much of his wealth is illiquid (house Rs. 3 crore, business Rs. 4 crore). The key challenge is converting illiquid business wealth into liquid retirement assets. This is where business succession planning intersects with retirement planning.]]></text></explanation>
+    </question>
+</QF>

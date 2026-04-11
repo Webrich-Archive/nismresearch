@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Case Studies_C2_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Suresh (age 45) is the sole earner in his family. His wife Kavita (age 42) is a homemaker. They have two children: daughter Meera (age 18, starting college with fees of Rs. 8,00,000 per year for 4 years at current cost) and son Rohan (age 15, higher education estimated at Rs. 30,00,000 needed 3 years from now — this is already the projected future cost). Monthly income: Rs. 1,50,000. Monthly expenses: Rs. 90,000. Existing investments: Rs. 30,00,000 in EPF, Rs. 15,00,000 in equity mutual funds, Rs. 10,00,000 in FD, and Rs. 5,00,000 in PPF. Outstanding home loan: EMI of Rs. 25,000/month with 10 years remaining. Life insurance: term plan of Rs. 1,00,00,000 (Rs. 1 crore).
+
+Suresh plans to retire at age 60 and expects 25 years in retirement. Current monthly expenses at retirement: Rs. 90,000 (in today's terms). Inflation: 6% p.a. Expected returns: equity 12% p.a., debt 7.5% p.a. For retirement corpus calculation, assume a blended portfolio return of 9% p.a. during retirement.
+
+<b>Question 3 of 5:</b> If Suresh's existing investments (EPF at 7.5%, equity MF at 12%, FD at 7.5%, PPF at 7.5%) grow for 15 years until retirement, what is the approximate projected total value at age 60?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Approximately Rs. 1.50 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately Rs. 1.80 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately Rs. 2.75 crore]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Approximately Rs. 2.15 crore]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Projecting each investment for 15 years: EPF: Rs. 30,00,000 x (1.075)^15 = Rs. 88,76,632. Equity MF: Rs. 15,00,000 x (1.12)^15 = Rs. 82,10,349. FD: Rs. 10,00,000 x (1.075)^15 = Rs. 29,58,877. PPF: Rs. 5,00,000 x (1.075)^15 = Rs. 14,79,439. Total = Rs. 88,76,632 + Rs. 82,10,349 + Rs. 29,58,877 + Rs. 14,79,439 = Rs. 2,15,25,297 ~ Rs. 2.15 crore. This is the projected value of existing investments only, without any additional contributions.
+**The Trap:** Rs. 2.75 crore incorrectly applies 12% return to all investments. Rs. 1.50 crore uses a uniform 7.5% for all investments including equity. Rs. 1.80 crore may have computation errors or used shorter compounding periods. Each asset class must be projected at its own expected return rate.
+**Cross-Exam Context:** Gap analysis (projected value vs required corpus) is a fundamental skill tested in NISM X-B. The process involves projecting existing assets forward and comparing against the retirement corpus target.
+**Distributor's Pro-Tip:** Rs. 2.15 crore against a required Rs. 4.59 crore leaves a gap of Rs. 2.44 crore. However, this calculation only considers existing lump sums — Suresh's ongoing EPF contributions and any new SIPs over 15 years will significantly narrow this gap. Always present both the static gap and the dynamic gap (after ongoing contributions).]]></text></explanation>
+    </question>
+</QF>

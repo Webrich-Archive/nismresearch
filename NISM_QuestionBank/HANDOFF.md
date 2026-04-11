@@ -1,8 +1,8 @@
 # NISM Question Bank — Handoff Document
 
-**Date:** April 10, 2026 (Updated after Phase 11b Session 2 — Series X-B Module 9: Taxation)
-**Status:** 16 of 31 exams complete + X-B in progress (Sessions 1-2 of 3 done). 7,503 questions generated. Series X-B has 360 questions across 13 topics (of 18) with 12 caselets.
-**For:** Next session should continue Phase 11b — Series X-B Session 3 (Modules 10-12: Estate Planning + Behavioral Finance + Comprehensive, 5 topics, ~140 Qs).
+**Date:** April 11, 2026 (Updated after Phase 11b Session 3 — Series X-B Modules 10-12: Estate Planning + Behavioral Finance + Comprehensive)
+**Status:** 17 of 31 exams complete. 7,643 questions generated. Series X-B COMPLETE — 500 questions across 18 topics with 20 caselets (100 caselet Qs).
+**For:** Next session should continue Phase 12 — next exam in sequence.
 
 ---
 
@@ -28,15 +28,12 @@
 | Series XIII - Common Derivatives (Composite) | XIII | 500 | 10 | Hard | Generated from I+IV+VIII PDFs (30% calc, 40% conceptual, 20% regulatory, 10% application) |
 | Series IX - Merchant Banking | IX | 500 | 8 | Moderate | Generated from PDF (10% calc, 45% conceptual, 35% regulatory, 10% application) |
 | Series X-A - Investment Adviser Level 1 | X-A | 500 | 6 | Hard | Generated from PDF (20% calc, 30% conceptual, 35% regulatory, 15% application). 20 caselets (100 caselet Qs). |
-| **Total (completed exams)** | | **7,143** | **156** | | |
+| Series X-B - Investment Adviser Level 2 | X-B | 500 | 18 | Hard | Generated from PDF across 3 sessions. 20 caselets (100 caselet Qs). |
+| **Total (completed exams)** | | **7,643** | **174** | | |
 
-### In-Progress Exams
+**X-B Complete Breakdown (3 Sessions, Modules 7-12):**
 
-| Exam | Code | Questions So Far | Topics Done | Total Topics | Difficulty | Status |
-|------|:----:|:----------------:|:-----------:|:------------:|:----------:|:------:|
-| Series X-B - Investment Adviser Level 2 | X-B | 360 | 13/18 | 18 | Hard | Sessions 1-2 complete (Modules 7-9). 12 caselets (60 caselet Qs). |
-
-**X-B Session 1 Breakdown (Modules 7-8: Insurance + Retirement):**
+**Session 1 (Modules 7-8: Insurance + Retirement):**
 
 | Topic (exact plist key) | MCQs | Caselets | Caselet Qs | Total |
 |--------------------------|:----:|:--------:|:----------:|:-----:|
@@ -48,7 +45,7 @@
 | Retirement Products - Accumulation and Distribution | 25 | 2 | 10 | 35 |
 | **Session 1 Total** | **140** | **6** | **30** | **170** |
 
-**X-B Session 2 Breakdown (Module 9: Taxation):**
+**Session 2 (Module 9: Taxation):**
 
 | Topic (exact plist key) | MCQs | Caselets | Caselet Qs | Total |
 |--------------------------|:----:|:--------:|:----------:|:-----:|
@@ -61,36 +58,48 @@
 | Analysis of Equity and Debt Instruments | 30 | 2 | 10 | 40 |
 | **Session 2 Total** | **160** | **6** | **30** | **190** |
 
+**Session 3 (Modules 10-12: Estate Planning + Behavioral Finance + Comprehensive):**
+
+| Topic (exact plist key) | MCQs | Caselets | Caselet Qs | Total |
+|--------------------------|:----:|:--------:|:----------:|:-----:|
+| Regulatory and Ethical Aspects | 25 | 0 | 0 | 25 |
+| Behavioral Finance | 25 | 0 | 0 | 25 |
+| Risk Profiling | 25 | 2 | 10 | 35 |
+| Product Comparison | 15 | 2 | 10 | 25 |
+| Case Studies | 10 | 4 | 20 | 30 |
+| **Session 3 Total** | **100** | **8** | **40** | **140** |
+
+| **X-B Grand Total** | **400** | **20** | **100** | **500** |
+
 **Topic-to-Chapter Mapping (verified from PDF):**
 - Session 1: Basics of Insurance → Ch 1; Life Insurance Products → Ch 2-3; Alternative Investments → Ch 5/12; Commodity and Real Estate Investment → Ch 12/5; Portfolio Creation for Retirement → Ch 4,6; Retirement Products → Ch 5
 - Session 2: Tax Framework → Ch 7 (§7.1-7.2, §7.12-7.18); Residential Status/Five Heads → Ch 7 (§7.3-7.6); Exempt Incomes/Deductions → Ch 7 (§7.9-7.11); Clubbing/Set-off → Ch 7 (§7.7-7.8); Debt/Equity Tax → Ch 10-11; DTAA → Ch 7 (§7.15); Analysis of Instruments → Ch 8-9, 12-13
-
-**Remaining for X-B (Session 3, ~140 Qs):**
-- Session 3 (Modules 10-12: Estate + Behavioral + Comprehensive): 5 topics, ~140 Qs, 8 caselets
+- Session 3: Regulatory and Ethical Aspects → Ch 14-15; Behavioral Finance → Ch 16-17; Risk Profiling → Ch 18; Product Comparison → Ch 19; Case Studies → Ch 20
 
 ### Generated Files
 
 ```
 /Users/shivam/aiworkspace/nismresearch/NISM_QuestionBank/
-├── ExamWeightages.plist          (31 exams, topic names aligned with file prefixes for 15 completed exams)
-├── Topics.plist                  (156 topics, 7,143 questions)
-├── TopicsLite.plist              (156 topics, ~2,189 free-tier questions, all ≥30%)
+├── ExamWeightages.plist          (31 exams, topic names aligned with file prefixes for 17 completed exams)
+├── Topics.plist                  (174 topics, 7,643 questions)
+├── TopicsLite.plist              (174 topics, all ≥30% ratio)
 ├── ChapterArticles.plist         (156 chapters, each with single "All Topics" article)
-├── QuestionToArticleNumber.plist (7,503 entries, all mapping to article "1")
-├── OriginalQuestions/            (7,503 XML files)
+├── QuestionToArticleNumber.plist (7,643 entries, all mapping to article "1")
+├── OriginalQuestions/            (7,643 XML files)
 ├── manifest.json                 (progress tracking — version 5.0)
 ├── TaxRatesReference_FY2025-26.md (verified tax rates)
 ├── 15 audit report files         (detailed per-chapter audit results for first 5 exams)
 └── HANDOFF.md                    (this file)
 ```
 
-### Validation Status (All Pass — verified Session 16, Phase 10)
+### Validation Status (All Pass — verified Phase 11b Session 3)
 - 5/5 plists: OK (plutil)
-- 7,143/7,503 XML files: valid (xml.etree.ElementTree)
+- 7,643/7,643 XML files: valid (xml.etree.ElementTree)
 - 0 intra-exam duplicates, all unique IDs
-- 156 plist topics == 156 file prefixes: PERFECT MATCH
-- Series X-A: 6 ExamWeightages topics ↔ 6 file prefixes: MATCH, weightages sum = 100%
-- All TopicsLite ratios ≥ 30% for all 156 topics
+- 174 plist topics == 174 file prefixes: PERFECT MATCH
+- Series X-B: 18 ExamWeightages topics ↔ 18 file prefixes: MATCH, weightages sum = 100%
+- All TopicsLite ratios ≥ 30% for all 174 topics
+- All 8 Session 3 caselets: scenario text identical across all 5 files (MD5 verified)
 
 ### Comprehensive Audit Results (Post-Session 4 Gap Analysis)
 

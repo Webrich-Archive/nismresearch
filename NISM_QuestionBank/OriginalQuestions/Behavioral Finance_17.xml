@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Behavioral Finance_17" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Market anomalies represent departures from expected returns as predicted by CAPM. How do behavioral biases explain the momentum anomaly in stock markets?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Anchoring bias causes investors to fixate on index levels, creating mean-reversion patterns]]></text></answer>
+            <answer correct="no"><text><![CDATA[Mental accounting causes investors to treat each stock as a separate bucket, reducing correlation]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The Disposition Effect — investors sell winners too early (limiting upside) and hold losers too long (delaying downside correction), creating momentum]]></text></answer>
+            <answer correct="no"><text><![CDATA[Choice paralysis prevents institutional investors from acting on new information quickly]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Market anomalies are departures from CAPM-predicted returns. Behavioral biases cause systematic mistakes: overconfidence leads to underestimating risks, self-attribution makes investors credit success to themselves and blame failure on others. The Disposition Effect specifically explains momentum — by selling winners too early and holding losers too long, investors slow the price adjustment process, causing trends to persist.
+**The Trap:** Anchoring bias and mean-reversion are related concepts but explain a different anomaly. The question specifically asks about momentum, which is best explained by the Disposition Effect's asymmetric selling behavior.
+**Cross-Exam Context:** NISM Series XII (Securities Markets) covers CAPM and expected returns. Understanding that real-world returns deviate from CAPM predictions due to behavioral factors bridges theoretical and practical knowledge.
+**Distributor's Pro-Tip:** Momentum strategies work partly because of persistent behavioral biases. A trend-following overlay (like the momentum filter in Fusion Investing) can improve portfolio returns by exploiting others' disposition-driven delays.]]></text></explanation>
+    </question>
+</QF>

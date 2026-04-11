@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Case Studies_C2_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Suresh (age 45) is the sole earner in his family. His wife Kavita (age 42) is a homemaker. They have two children: daughter Meera (age 18, starting college with fees of Rs. 8,00,000 per year for 4 years at current cost) and son Rohan (age 15, higher education estimated at Rs. 30,00,000 needed 3 years from now — this is already the projected future cost). Monthly income: Rs. 1,50,000. Monthly expenses: Rs. 90,000. Existing investments: Rs. 30,00,000 in EPF, Rs. 15,00,000 in equity mutual funds, Rs. 10,00,000 in FD, and Rs. 5,00,000 in PPF. Outstanding home loan: EMI of Rs. 25,000/month with 10 years remaining. Life insurance: term plan of Rs. 1,00,00,000 (Rs. 1 crore).
+
+Suresh plans to retire at age 60 and expects 25 years in retirement. Current monthly expenses at retirement: Rs. 90,000 (in today's terms). Inflation: 6% p.a. Expected returns: equity 12% p.a., debt 7.5% p.a. For retirement corpus calculation, assume a blended portfolio return of 9% p.a. during retirement.
+
+<b>Question 2 of 5:</b> What retirement corpus does Suresh need at age 60, using the inflation-adjusted return method?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Approximately Rs. 4.59 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately Rs. 3.42 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately Rs. 5.12 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approximately Rs. 2.70 crore]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step 1: Monthly expense at retirement (15 years at 6% inflation) = Rs. 90,000 x (1.06)^15 = Rs. 90,000 x 2.3966 = Rs. 2,15,690. Annual expense = Rs. 25,88,283. Step 2: Real (inflation-adjusted) return during retirement = ((1.09)/(1.06)) - 1 = 2.8302% p.a. Step 3: PV of annuity for 25 years at 2.8302% = (1 - (1.028302)^(-25)) / 0.028302 = 17.7473. Step 4: Corpus = Rs. 25,88,283 x 17.7473 = Rs. 4,59,34,938 ~ Rs. 4.59 crore.
+**The Trap:** Rs. 3.42 crore uses the equity return of 12% instead of the blended 9% for the retirement phase, giving a higher real return and smaller corpus. Rs. 5.12 crore uses 8% blended return, resulting in a lower real return and larger corpus. Rs. 2.70 crore forgets to inflate expenses to retirement date.
+**Cross-Exam Context:** The choice of return assumption during retirement (conservative vs aggressive) dramatically affects the corpus calculation. NISM X-B expects candidates to use the stated blended return, not pure equity or debt returns.
+**Distributor's Pro-Tip:** At age 45 with 15 years to retirement, Suresh is in the critical accumulation phase. The gap between required corpus and existing investments determines whether his retirement plan is on track or needs urgent correction through increased savings.]]></text></explanation>
+    </question>
+</QF>

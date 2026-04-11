@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Case Studies_C3_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Lakshmi (age 55) works in the private sector and plans to retire in 5 years at age 60. Current monthly income: Rs. 2,00,000. Monthly expenses: Rs. 1,20,000. She saves Rs. 80,000 per month and will continue doing so until retirement.
+
+Existing corpus: Rs. 80,00,000 in EPF/PPF (expected return 7.5% p.a.), Rs. 40,00,000 in equity mutual funds (expected return 11% p.a.), Rs. 20,00,000 in Fixed Deposits (expected return 7.5% p.a.). NPS corpus expected to be Rs. 30,00,000 at age 60. No outstanding loans. No employer pension (private sector).
+
+Life expectancy: 85 years (25 years in retirement). Inflation: 6% p.a. Expected returns during retirement: debt 7.5% p.a., equity 11% p.a. Monthly savings of Rs. 80,000 are invested at a blended return of 10% p.a. NPS withdrawal rules: 60% lump sum (tax-free), 40% must purchase annuity at 6% p.a. yield.
+
+<b>Question 3 of 5:</b> If Lakshmi uses her equity mutual fund corpus (projected Rs. 67,40,233 at age 60) for a Systematic Withdrawal Plan at 11% annual return (compounded monthly), what maximum monthly withdrawal can she sustain for exactly 25 years?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 66,062 per month]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 55,800 per month]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 61,750 per month]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 74,500 per month]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Using the PV of annuity formula solved for PMT: PMT = PV x r / (1 - (1+r)^(-n)), where PV = Rs. 67,40,233, r = 11%/12 = 0.9167% per month, n = 300 months (25 years). PMT = Rs. 67,40,233 x 0.009167 / (1 - (1.009167)^(-300)) = Rs. 67,40,233 x 0.009167 / (1 - 0.06505) = Rs. 61,785 / 0.93495 = Rs. 66,062 per month. The corpus is fully depleted at the end of 25 years.
+**The Trap:** Rs. 74,500 incorrectly uses simple interest (67,40,233 x 11% / 12 = 61,786 + some principal). Rs. 55,800 uses a lower return assumption. Rs. 61,750 calculates monthly interest only without principal drawdown — this would leave the corpus intact but provide less income.
+**Cross-Exam Context:** SWP calculations are tested in NISM X-B and Series V-A (Mutual Fund). The key distinction is between "interest-only" SWP (corpus preserved) and "corpus-depleting" SWP (higher monthly income but corpus reaches zero at end of period).
+**Distributor's Pro-Tip:** An 11% return from equity during retirement is optimistic. Market corrections could severely impact SWP sustainability. Recommend a bucket strategy: 2-3 years' expenses in liquid/short-term debt funds, remainder in equity. This prevents forced selling during downturns.]]></text></explanation>
+    </question>
+</QF>
