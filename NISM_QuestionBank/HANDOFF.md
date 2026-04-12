@@ -127,6 +127,28 @@
 - Fundamental Analysis and Valuation Techniques → Ch 10 (Valuation) + Ch 11 (Commodity FA) + Ch 12 (Risk & Return)
 - Technical Analysis → Ch 15
 - Regulatory Requirements for Research Analysts → Ch 13 (Research Report Quality) + Ch 14 (Legal & Regulatory)
+
+### What's Next — Series XVII (Retirement Adviser)
+
+**PDF:** `/Users/shivam/aiworkspace/nismresearch/study material/NISM Series XVII Retirement Adviser Certification Examination -June 2025 version_02.pdf` (283 pages)
+
+**IMPORTANT: Actual PDF chapter-to-topic mapping (differs from session prompt's assumed mapping):**
+
+| # | Topic (plist key) | Actual PDF Chapter | Pages | Target Qs |
+|---|---|---|---|:---:|
+| 1 | Fundamental Concepts in Retirement Planning | Ch 1 | 13-30 | 25 |
+| 2 | Retirement Planning Process | Ch 3 | 64-93 | 75 |
+| 3 | Retirement Planning Products: National Pension System (NPS) | Ch 4 | 94-191 | 100 |
+| 4 | Retirement Planning Products: Other Investment Products | Ch 6 | 157-182 | 40 |
+| 5 | Retirement Planning Strategies | Ch 7 | 183-200 | 60 |
+| 6 | Financial Markets and Investment Products | Ch 2 | 31-63 | 50 |
+| 7 | Evaluating Fund Performance and Fund Selection | Ch 5 | 192-? | 50 |
+| 8 | Special Considerations in Retirement | Ch 8 | 201-214 | 50 |
+| 9 | Regulations and Regulators | Ch 9 | 215-283 | 50 |
+| | **XVII Total** | | | **500** |
+
+**Note:** Ch 4 (NPS) is massive at ~98 pages — the single largest chapter. No caselets for XVII.
+**Question mix:** 15% calc / 50% conceptual / 20% regulatory (no caselets per session prompt)
 - 188 plist topics == 188 file prefixes: PERFECT MATCH
 - Series II-A: 8 ExamWeightages topics ↔ 8 file prefixes: MATCH, weightages sum = 100%
 - Series II-B: 6 ExamWeightages topics ↔ 6 file prefixes: MATCH, weightages sum = 100%
