@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIF Risk and Return_28" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An AIF fund has invested INR 50 crore in Company A. After 5 years, the investment is valued at INR 150 crore. The MOIC is:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[1.5x]]></text></answer>
+            <answer correct="no"><text><![CDATA[2.0x]]></text></answer>
+            <answer correct="yes"><text><![CDATA[3.0x]]></text></answer>
+            <answer correct="no"><text><![CDATA[5.0x]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** MOIC = Current Value / Invested Capital = 150 / 50 = 3.0x. The investment has tripled in value over 5 years.
+**The Trap:** MOIC of 3.0x over 5 years translates to approximately 24.6% IRR (50 × 1.246^5 ≈ 150). Don't confuse the multiple (3x) with the annualized return (≈25%).
+**Cross-Exam Context:** MOIC to IRR conversion is tested in XIX-A.
+**Distributor's Pro-Tip:** Use this relationship to help investors understand: 2x in 5 years ≈ 15% IRR, 3x in 5 years ≈ 25% IRR, 3x in 7 years ≈ 17% IRR. The multiple alone doesn't tell the full story — the time period matters enormously.]]></text></explanation>
+    </question>
+</QF>

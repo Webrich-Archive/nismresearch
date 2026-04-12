@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIF Legal Documentation_29" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The indemnification provisions in the fund documents of Tapas Clean Energy AIF specify a 'basket' threshold of INR 50 lakh. What does this mean?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The maximum amount that can be claimed under indemnification is INR 50 lakh]]></text></answer>
+            <answer correct="no"><text><![CDATA[Each individual indemnification claim must be at least INR 50 lakh]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Indemnification claims can only be made once the aggregate losses exceed INR 50 lakh, after which the full amount (including the basket) becomes claimable]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 50 lakh is set aside in an escrow account for indemnification purposes]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A basket threshold (also called a tipping basket) means that indemnification claims can only be made once cumulative losses exceed the threshold amount. Once breached, the entire amount (from the first rupee) becomes claimable. This differs from a deductible/excess basket where only amounts above the threshold are claimable. The maximum amount option describes a cap (not a basket), the individual claim option describes a mini-basket/de minimis threshold, and the escrow option describes a different arrangement.
+**The Trap:** The maximum amount option confuses cap with basket — the cap limits maximum indemnification, while the basket sets the minimum threshold for claims to be triggered.
+**Cross-Exam Context:** NISM Series IX covers indemnification mechanics in M&A transactions, where basket and cap concepts are commonly tested.
+**Distributor's Pro-Tip:** Understand both the basket and cap in indemnification provisions. A very high basket protects the indemnifying party but may leave investors without recourse for smaller but cumulative losses.]]></text></explanation>
+    </question>
+</QF>

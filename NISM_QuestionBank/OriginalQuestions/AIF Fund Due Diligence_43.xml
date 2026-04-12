@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIF Fund Due Diligence_43" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[During DD of a Category III AIF using long-short strategies, which risk metric is MOST relevant?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Dividend yield of the portfolio]]></text></answer>
+            <answer correct="no"><text><![CDATA[The number of stocks in the long book only]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Net exposure, gross exposure, and maximum drawdown]]></text></answer>
+            <answer correct="no"><text><![CDATA[The fund's office rental cost]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Long-short funds require monitoring of net exposure (directional risk), gross exposure (total leverage/risk), and maximum drawdown (worst-case historical loss) to understand risk-taking behavior.
+**The Trap:** Dividend yield is irrelevant for long-short strategies. Counting only long positions ignores the short book. Office costs are operational, not investment risks.
+**Cross-Exam Context:** NISM Series VIII covers exposure concepts for derivatives; Category III AIF DD requires these concepts in a fund evaluation context.
+**Distributor's Pro-Tip:** Ask for monthly exposure reports showing how net and gross exposure have varied — a fund claiming to be 'market neutral' but showing wide swings in net exposure may not be truly neutral.]]></text></explanation>
+    </question>
+</QF>

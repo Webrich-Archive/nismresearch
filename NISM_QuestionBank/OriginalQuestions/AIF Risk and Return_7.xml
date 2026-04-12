@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIF Risk and Return_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[IRR (Internal Rate of Return) in the AIF context is preferred over simple return metrics because:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[It is always higher than simple returns]]></text></answer>
+            <answer correct="yes"><text><![CDATA[It accounts for the timing and size of cash flows (capital calls and distributions)]]></text></answer>
+            <answer correct="no"><text><![CDATA[It ignores management fees]]></text></answer>
+            <answer correct="no"><text><![CDATA[It is easier to calculate]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** IRR accounts for the timing and magnitude of all cash flows — capital calls (investments), distributions (returns), and the residual portfolio value. Since AIF cash flows are irregular (drawdowns over years, distributions at different times), IRR provides a time-adjusted return measure that reflects the actual investor experience.
+**The Trap:** IRR can be manipulated by timing of cash flows — early distributions inflate IRR even if total returns are modest. Always evaluate IRR alongside TVPI/MOIC for a complete picture.
+**Cross-Exam Context:** IRR is the primary return metric for PE/VC and is tested extensively in XIX-A, XIX-C, and XIX-D.
+**Distributor's Pro-Tip:** Present both IRR and TVPI to investors. A fund with 25% IRR and 1.5x TVPI tells a different story than 25% IRR and 3.0x TVPI — the latter created much more total value despite similar annual returns.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIF Risk and Return_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An AIF invested INR 100 crore. It has distributed INR 80 crore to investors and the remaining portfolio is valued at INR 70 crore. The TVPI is:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[0.8x]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.7x]]></text></answer>
+            <answer correct="yes"><text><![CDATA[1.5x]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.7x]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** TVPI = (Distributions + Residual Value) / Paid-In = (80 + 70) / 100 = 150 / 100 = 1.5x. The fund has created 1.5 times the invested capital in total value.
+**The Trap:** Don't confuse DPI (80/100 = 0.8x) with TVPI. TVPI includes both realized and unrealized value. Also, RVPI = 70/100 = 0.7x, and DPI + RVPI = 0.8 + 0.7 = 1.5x = TVPI.
+**Cross-Exam Context:** TVPI calculations are frequently tested in XIX-A and XIX-C.
+**Distributor's Pro-Tip:** This fund has a solid TVPI of 1.5x but has only distributed 0.8x so far. The remaining 0.7x in unrealized value depends on successful exits. Explain to investors that the 1.5x is partly on paper.]]></text></explanation>
+    </question>
+</QF>

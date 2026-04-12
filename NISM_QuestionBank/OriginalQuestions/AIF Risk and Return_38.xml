@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIF Risk and Return_38" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A fund invested INR 200 crore, distributed INR 150 crore, and has a residual portfolio valued at INR 180 crore. The RVPI is:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[0.75x]]></text></answer>
+            <answer correct="yes"><text><![CDATA[0.90x]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.50x]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.65x]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** RVPI = Residual Portfolio Value / Paid-In Capital = 180 / 200 = 0.90x. The unrealized portfolio is worth 90% of the original investment. TVPI = DPI + RVPI = (150/200) + (180/200) = 0.75 + 0.90 = 1.65x.
+**The Trap:** Don't add distributions to residual value when calculating RVPI — it only measures the unrealized portion. TVPI adds both DPI and RVPI together.
+**Cross-Exam Context:** RVPI calculations are tested in XIX-A.
+**Distributor's Pro-Tip:** This fund has returned 75% of capital (DPI 0.75x) while still holding 90% in unrealized value — a strong position. If even half the residual converts to DPI through exits, the total return will be excellent (1.65x+ TVPI).]]></text></explanation>
+    </question>
+</QF>

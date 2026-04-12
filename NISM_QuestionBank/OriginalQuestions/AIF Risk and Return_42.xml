@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIF Risk and Return_42" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A fund invests INR 20 crore in Company X. The exit is at INR 60 crore after 4 years. What is the approximate IRR?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[20%]]></text></answer>
+            <answer correct="no"><text><![CDATA[25%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[31%]]></text></answer>
+            <answer correct="no"><text><![CDATA[50%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** 20 × (1+r)^4 = 60, so (1+r)^4 = 3, r = 3^(1/4) - 1 = 1.316 - 1 = 0.316 ≈ 31.6%. A 3x return over 4 years yields approximately 31% IRR.
+**The Trap:** Simple return is 200% (60-20/20), but IRR is much lower at 31% because it's compounded over 4 years. Always calculate IRR, not simple returns, for multi-year investments.
+**Cross-Exam Context:** IRR calculations are tested in XIX-A and XIX-C.
+**Distributor's Pro-Tip:** Quick reference: 3x in 4 years ≈ 31% IRR, 3x in 5 years ≈ 25% IRR, 3x in 7 years ≈ 17% IRR. The time dimension dramatically affects annualized returns.]]></text></explanation>
+    </question>
+</QF>

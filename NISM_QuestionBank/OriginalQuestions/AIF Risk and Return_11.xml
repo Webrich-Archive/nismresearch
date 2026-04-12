@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIF Risk and Return_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An AIF fund invested a total of INR 200 crore. The current portfolio value is INR 320 crore. No distributions have been made. The MOIC (Multiple on Invested Capital) is:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[1.2x]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.4x]]></text></answer>
+            <answer correct="yes"><text><![CDATA[1.6x]]></text></answer>
+            <answer correct="no"><text><![CDATA[2.0x]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** MOIC = Total Value / Invested Capital = 320 / 200 = 1.6x. Since no distributions have been made, TVPI = RVPI = 1.6x and DPI = 0.
+**The Trap:** MOIC and TVPI are the same concept. This 1.6x is entirely unrealized (all RVPI, no DPI). The actual return depends on the fund's ability to exit at or above current valuations.
+**Cross-Exam Context:** MOIC calculations are tested in XIX-A.
+**Distributor's Pro-Tip:** A 1.6x MOIC with zero DPI means the fund hasn't returned any cash yet. For a young fund (years 1-3), this is fine. For a mature fund (year 7+), it suggests exit challenges despite good paper returns.]]></text></explanation>
+    </question>
+</QF>

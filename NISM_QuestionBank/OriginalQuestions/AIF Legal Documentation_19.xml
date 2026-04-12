@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIF Legal Documentation_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The distribution waterfall section in the PPM of Krishna Private Equity Fund specifies the order in which proceeds are distributed. What is the typical sequence in a standard European-style waterfall?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Performance fee first, then return of capital, then preferred return]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equal distribution between manager and investors from the first rupee of profit]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Return of contributed capital first, then preferred return to investors, then carried interest/performance fee to the manager with a catch-up provision]]></text></answer>
+            <answer correct="no"><text><![CDATA[All proceeds go to the manager until management fees are recovered, then to investors]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A European-style (whole-fund) waterfall prioritizes: (1) return of all contributed capital to investors, (2) preferred return (hurdle rate) to investors, (3) catch-up to the manager, and (4) carried interest split. This protects investors by ensuring capital return and minimum return before the manager earns performance compensation.
+**The Trap:** The first option reverses the priority, which would heavily favor the manager — no sophisticated investor would agree to such terms.
+**Cross-Exam Context:** NISM Series XIX-B tests waterfall structures from the fund manager's fee calculation perspective.
+**Distributor's Pro-Tip:** Understand whether the fund uses a European (whole-fund) or American (deal-by-deal) waterfall. European waterfalls are more investor-friendly as the manager earns carry only after all capital is returned.]]></text></explanation>
+    </question>
+</QF>

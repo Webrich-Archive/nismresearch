@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIF Risk and Return_16" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An AIF invested INR 10 crore in a company. After 3 years, the investment was exited for INR 20 crore. The approximate IRR is closest to:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[15%]]></text></answer>
+            <answer correct="no"><text><![CDATA[20%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[26%]]></text></answer>
+            <answer correct="no"><text><![CDATA[33%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** IRR calculation: -10 at year 0, +20 at year 3. Using the rule of 72 or calculation: 10 × (1+r)^3 = 20, so (1+r)^3 = 2, r = 2^(1/3) - 1 ≈ 0.26 or 26%. The investment doubled in 3 years.
+**The Trap:** Don't confuse simple return (100% over 3 years = 33% simple average) with IRR (26% compounded). IRR reflects compound growth, which is lower than simple average for the same total return.
+**Cross-Exam Context:** IRR calculations are tested in XIX-A and XIX-C.
+**Distributor's Pro-Tip:** Use the doubling rule: money doubling in 3 years ≈ 26% IRR, in 4 years ≈ 19% IRR, in 5 years ≈ 15% IRR. This quick mental math helps evaluate deals during investor presentations.]]></text></explanation>
+    </question>
+</QF>

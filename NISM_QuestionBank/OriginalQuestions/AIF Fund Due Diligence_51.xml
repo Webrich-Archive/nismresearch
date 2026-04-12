@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIF Fund Due Diligence_51" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Manoj is a distributor evaluating the IT infrastructure of an AIF during operational DD. Which finding would be MOST concerning?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The fund uses cloud-based portfolio management software with encryption]]></text></answer>
+            <answer correct="no"><text><![CDATA[The fund has implemented two-factor authentication for all system access]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The fund has no disaster recovery plan and stores all data on a single local server without backup]]></text></answer>
+            <answer correct="no"><text><![CDATA[The fund conducts annual cybersecurity audits]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** No disaster recovery plan and single-point-of-failure data storage exposes the fund to catastrophic data loss from hardware failure, natural disaster, or cyberattack.
+**The Trap:** Cloud-based systems, 2FA, and cybersecurity audits are all positive IT infrastructure indicators.
+**Cross-Exam Context:** Operational risk from IT failures is covered in NISM Series XIX-A's operational DD framework.
+**Distributor's Pro-Tip:** Ask about the fund's business continuity plan — a good plan includes offsite backups, cloud redundancy, recovery time objectives, and regular disaster recovery testing.]]></text></explanation>
+    </question>
+</QF>

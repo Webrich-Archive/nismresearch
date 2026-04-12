@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIF Fund Due Diligence_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Sunil is assessing a venture capital AIF's performance. Which metric pair is MOST appropriate for evaluating VC fund returns?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[IRR and MOIC (Multiple on Invested Capital)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sharpe Ratio and Beta]]></text></answer>
+            <answer correct="no"><text><![CDATA[Price-to-Earnings ratio and Dividend Yield]]></text></answer>
+            <answer correct="no"><text><![CDATA[Current Ratio and Debt-to-Equity ratio]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** IRR (Internal Rate of Return) captures the time-weighted return, while MOIC shows the absolute multiple of capital returned. Together, they give a complete picture of VC fund performance.
+**The Trap:** Sharpe Ratio and Beta are relevant for liquid market portfolios, not illiquid VC funds. P/E and dividend yield are stock metrics, not fund metrics.
+**Cross-Exam Context:** NISM Series XII (Securities Markets Foundation) covers basic return metrics, but AIF-specific metrics like MOIC are unique to Series XIX-A.
+**Distributor's Pro-Tip:** Always present both IRR and MOIC together — a high IRR with low MOIC may indicate small, quick exits rather than meaningful wealth creation.]]></text></explanation>
+    </question>
+</QF>

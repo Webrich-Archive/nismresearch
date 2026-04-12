@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIF Risk and Return_41" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An AIF has a corpus of INR 500 crore. It has invested INR 400 crore across 10 companies. Two investments worth INR 100 crore have been fully exited returning INR 180 crore. The remaining 8 investments are valued at INR 450 crore. Calculate the DPI:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[0.36x]]></text></answer>
+            <answer correct="yes"><text><![CDATA[0.45x]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.90x]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.58x]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** DPI = Distributions / Paid-In = 180 / 400 = 0.45x. Note: use total paid-in capital (INR 400 crore, not corpus of INR 500 crore) in the denominator.
+**The Trap:** Don't use corpus (committed capital of INR 500 crore) — use invested (paid-in) capital of INR 400 crore. Also, TVPI = (180 + 450) / 400 = 630 / 400 = 1.575x, a strong multiple.
+**Cross-Exam Context:** Multi-step return calculations are tested in XIX-A.
+**Distributor's Pro-Tip:** This fund shows strong overall performance (1.58x TVPI) but is still early in its distribution phase (0.45x DPI). The 2 exits at 1.8x MOIC (180/100) are encouraging. If remaining investments at INR 450 crore are exited at similar or higher multiples, investor returns will be excellent.]]></text></explanation>
+    </question>
+</QF>

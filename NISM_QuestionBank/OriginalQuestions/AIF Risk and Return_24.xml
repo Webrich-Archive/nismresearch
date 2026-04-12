@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIF Risk and Return_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Priya's AIF has committed capital of INR 100 crore, invested INR 75 crore, distributed INR 40 crore, and the remaining portfolio is valued at INR 90 crore. What is the DPI?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[0.40x]]></text></answer>
+            <answer correct="yes"><text><![CDATA[0.53x]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.20x]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.73x]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** DPI = Distributions / Paid-In Capital = 40 / 75 = 0.53x. Note: DPI uses paid-in (invested) capital, not committed capital. The fund has returned 53% of invested capital so far.
+**The Trap:** Don't use committed capital (INR 100 crore) in the denominator — use paid-in/invested capital (INR 75 crore). DPI measures cash returned relative to cash actually deployed, not committed.
+**Cross-Exam Context:** DPI calculations with proper denominator are tested in XIX-A.
+**Distributor's Pro-Tip:** In this example, TVPI = (40 + 90) / 75 = 1.73x, which is excellent. But DPI is only 0.53x — most value is still unrealized. Help investors understand both metrics together for a complete picture.]]></text></explanation>
+    </question>
+</QF>

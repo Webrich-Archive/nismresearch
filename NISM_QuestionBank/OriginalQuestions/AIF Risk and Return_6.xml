@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIF Risk and Return_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Rajesh invested INR 50 lakh in an AIF. He has received distributions of INR 30 lakh. The DPI is:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[0.4x]]></text></answer>
+            <answer correct="yes"><text><![CDATA[0.6x]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.0x]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.6x]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** DPI = Distributions / Paid-In = 30 / 50 = 0.6x. Rajesh has received back 60% of his investment so far. He needs more distributions to recover his full investment (DPI ≥ 1.0x).
+**The Trap:** A DPI of 0.6x doesn't mean the investment is bad — the fund may have significant unrealized value (RVPI) that will be distributed later through exits.
+**Cross-Exam Context:** DPI calculations are tested in XIX-A.
+**Distributor's Pro-Tip:** A DPI of 0.6x early in a fund's life is normal. Context matters — check the fund's vintage year and where it is in its lifecycle. A 0.6x DPI in year 3 of a 7-year fund is on track; in year 7, it would be concerning.]]></text></explanation>
+    </question>
+</QF>

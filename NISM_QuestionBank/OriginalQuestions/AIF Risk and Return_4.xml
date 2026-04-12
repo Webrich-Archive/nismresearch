@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIF Risk and Return_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[DPI (Distributed to Paid-In) measures:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The total value of the portfolio]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The ratio of cumulative distributions to paid-in capital — representing cash actually returned to investors]]></text></answer>
+            <answer correct="no"><text><![CDATA[The management fees as a percentage of corpus]]></text></answer>
+            <answer correct="no"><text><![CDATA[The fund's NAV per unit]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** DPI = Cumulative Distributions / Paid-In Capital. It measures how much cash has actually been returned to investors relative to their investment. A DPI > 1.0x means investors have received more than they invested.
+**The Trap:** DPI only captures realized returns (actual cash). Unlike TVPI, it ignores unrealized portfolio value. A mature fund should have high DPI; a young fund will have low DPI.
+**Cross-Exam Context:** DPI is tested as a key performance metric in XIX-A.
+**Distributor's Pro-Tip:** DPI is the most reliable metric because it represents actual cash returned. When evaluating fund manager track records, DPI from prior funds is more credible than TVPI which includes subjective valuations.]]></text></explanation>
+    </question>
+</QF>

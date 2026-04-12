@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIF Risk and Return_14" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[TWRR (Time-Weighted Rate of Return) differs from IRR (MWRR) in that TWRR:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Gives more weight to periods with larger investments]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Eliminates the impact of cash flow timing, measuring pure investment performance independent of capital flows]]></text></answer>
+            <answer correct="no"><text><![CDATA[Always produces a higher return than IRR]]></text></answer>
+            <answer correct="no"><text><![CDATA[Is only used for listed equity portfolios]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** TWRR measures investment performance independent of cash flow timing — it shows how well the manager invested, regardless of when capital was called or returned. IRR (MWRR) captures the investor's actual experience including cash flow timing effects.
+**The Trap:** TWRR is useful for evaluating manager skill, while IRR is useful for evaluating investor returns. A manager who makes great investments but has poor cash flow timing will show good TWRR but mediocre IRR.
+**Cross-Exam Context:** TWRR vs MWRR distinction is tested in XIX-A and XXI-B (Portfolio Managers).
+**Distributor's Pro-Tip:** Present both TWRR and IRR to sophisticated investors. TWRR shows the manager's investment skill; IRR shows the actual return after considering when capital was deployed. Large early drawdowns followed by quick exits inflate IRR relative to TWRR.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIF Risk and Return_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[TVPI (Total Value to Paid-In) is calculated as:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Distributions / Total Committed Capital]]></text></answer>
+            <answer correct="yes"><text><![CDATA[(Distributions + Residual Value) / Paid-In Capital]]></text></answer>
+            <answer correct="no"><text><![CDATA[Net Profit / Total Expenses]]></text></answer>
+            <answer correct="no"><text><![CDATA[IRR × Fund Tenure]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** TVPI = (Distributions + Residual Value) / Paid-In Capital = DPI + RVPI. It measures the total value created per rupee invested, combining both realized (distributions) and unrealized (residual portfolio value) returns.
+**The Trap:** TVPI includes unrealized value (RVPI) which may change. A high TVPI driven primarily by RVPI is less certain than one driven by DPI (actual cash returned).
+**Cross-Exam Context:** TVPI and its components (DPI, RVPI) are core AIF metrics tested across all XIX-series exams.
+**Distributor's Pro-Tip:** When comparing funds, look at TVPI composition. A 2.0x TVPI with DPI of 1.5x is better than 2.0x with DPI of 0.5x — the former has already returned most value in cash.]]></text></explanation>
+    </question>
+</QF>

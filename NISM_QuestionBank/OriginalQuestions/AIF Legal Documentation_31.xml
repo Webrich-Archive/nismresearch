@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIF Legal Documentation_31" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An escrow arrangement linked to indemnification in an AIF typically involves:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The fund manager depositing personal assets with SEBI as a guarantee]]></text></answer>
+            <answer correct="no"><text><![CDATA[Investors depositing additional capital beyond their commitment as security]]></text></answer>
+            <answer correct="yes"><text><![CDATA[A portion of the fund's distributions or the selling party's proceeds being held in an escrow account to satisfy potential indemnification claims]]></text></answer>
+            <answer correct="no"><text><![CDATA[The custodian holding all fund assets in a separate escrow account]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Indemnification escrow involves setting aside a portion of distributions or transaction proceeds in an independent escrow account to cover potential claims during the survival period. The fund manager does not deposit personal assets, investors do not provide extra security capital, and the custodian's role is separate from escrow.
+**The Trap:** The custodian option confuses custodial safekeeping with escrow — while both involve asset holding, escrow is specifically for claim settlement, and custodian holds operating assets.
+**Cross-Exam Context:** NISM Series IX covers escrow mechanisms in M&A transactions extensively, a concept directly applicable to AIF deal-level indemnifications.
+**Distributor's Pro-Tip:** Escrow arrangements provide real security for indemnification claims. If a fund invests through acquisitions, check whether escrow is part of the deal structure — it shows disciplined risk management.]]></text></explanation>
+    </question>
+</QF>

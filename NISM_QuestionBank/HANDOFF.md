@@ -1,8 +1,8 @@
 # NISM Question Bank — Handoff Document
 
-**Date:** April 12, 2026 (Updated after Phase 14A — Series X-C and XXV-A complete)
-**Status:** 23 of 31 exams complete. 9,393 questions generated. Phase 14A COMPLETE — X-C (125 Qs, 5 topics) and XXV-A (125 Qs, 5 topics) both done.
-**For:** Next session should continue Phase 14B — XIX-A (AIF Distributors Cat I&II, 500 Qs) and XIX-B (AIF Distributors Cat III, 500 Qs).
+**Date:** April 12, 2026 (Updated after Phase 14B-1 — Series XIX-A complete)
+**Status:** 24 of 31 exams complete. 9,893 questions generated. Phase 14B-1 COMPLETE — XIX-A (500 Qs, 10 topics) done.
+**For:** Next session should continue Phase 14B-2 — XIX-B (AIF Distributors Cat III, 500 Qs).
 
 ---
 
@@ -35,7 +35,8 @@
 | Series XVII - Retirement Adviser | XVII | 500 | 9 | Moderate | Generated from PDF (15% calc, 50% conceptual, 20% regulatory, 15% application). No caselets. |
 | Series X-C - Investment Adviser Renewal | X-C | 125 | 5 | Easy | Generated from X-A PDF (10% calc, 60% conceptual, 20% regulatory, 10% application). No caselets. |
 | Series XXV-A - Research Services (Sales) | XXV-A | 125 | 5 | Easy | Generated from XV PDF (0% calc, 55% conceptual, 40% regulatory, 5% application). No caselets. |
-| **Total (completed exams)** | | **9,393** | **217** | | |
+| Series XIX-A - AIF Distributors (Cat I & II) | XIX-A | 500 | 10 | Moderate | Generated from PDF (15% calc, 55% conceptual, 20% regulatory, 10% application). No caselets. 10% negative marking. |
+| **Total (completed exams)** | | **9,893** | **227** | | |
 
 **X-B Complete Breakdown (3 Sessions, Modules 7-12):**
 
@@ -87,22 +88,42 @@
 ```
 /Users/shivam/aiworkspace/nismresearch/NISM_QuestionBank/
 ├── ExamWeightages.plist          (31 exams, topic names aligned with file prefixes for 20 completed exams)
-├── Topics.plist                  (217 topics, 9,393 questions)
-├── TopicsLite.plist              (217 topics, all ≥30% ratio)
-├── ChapterArticles.plist         (217 chapters, each with single "All Topics" article)
-├── QuestionToArticleNumber.plist (9,393 entries, all mapping to article "1")
-├── OriginalQuestions/            (9,393 XML files)
+├── Topics.plist                  (227 topics, 9,893 questions)
+├── TopicsLite.plist              (227 topics, all ≥30% ratio)
+├── ChapterArticles.plist         (227 chapters, each with single "All Topics" article)
+├── QuestionToArticleNumber.plist (9,893 entries, all mapping to article "1")
+├── OriginalQuestions/            (9,893 XML files)
 ├── manifest.json                 (progress tracking — version 5.0)
 ├── TaxRatesReference_FY2025-26.md (verified tax rates)
 ├── 15 audit report files         (detailed per-chapter audit results for first 5 exams)
 └── HANDOFF.md                    (this file)
 ```
 
-### Validation Status (All Pass — verified Phase 14A X-C + XXV-A)
+### Validation Status (All Pass — verified Phase 14B-1 XIX-A)
 - 5/5 plists: OK (plutil)
-- 9,393/9,393 XML files: valid (xml.etree.ElementTree)
+- 9,893/9,893 XML files: valid (xml.etree.ElementTree)
 - 0 intra-exam duplicates, all unique IDs
-- 250 new Phase 14A files: all validated (4 answers, 1 correct, explanation with 4 sections, CDATA wrapping)
+- 500 new Phase 14B-1 XIX-A files: all validated (4 answers, 1 correct, explanation with 4 sections, CDATA wrapping)
+
+### Series XIX-A Breakdown
+
+| Topic (exact plist key) | Questions | Source Chapter(s) |
+|--------------------------|:---------:|:-----------------:|
+| AIF Overview and Indian Market | 50 | Ch 1-2 |
+| AIF Industry Concepts | 25 | Ch 3 |
+| AIF Regulatory Framework | 50 | Ch 4 |
+| AIF Fund Structuring | 50 | Ch 5 |
+| AIF Risk and Return | 50 | Ch 6 |
+| AIF Investment Process and Governance | 50 | Ch 7 |
+| AIF Fund Due Diligence | 75 | Ch 8 |
+| AIF Legal Documentation | 50 | Ch 9 |
+| AIF Fund Monitoring and Exit | 25 | Ch 10 |
+| AIF Valuation Taxation and Good Practices | 75 | Ch 11-13 |
+| **XIX-A Total** | **500** | **13 Chapters** |
+
+**Exam details:** 100 questions, 2 hours, 60% pass, **10% negative marking** (not 25%).
+**PDF:** Series XIX-A_AIF (Category I and II) Distributors_Dec-version PDF.pdf (280 pages)
+**Question mix:** 15% calc, 55% conceptual, 20% regulatory, 10% application. No caselets.
 
 ### Series XV Breakdown
 
