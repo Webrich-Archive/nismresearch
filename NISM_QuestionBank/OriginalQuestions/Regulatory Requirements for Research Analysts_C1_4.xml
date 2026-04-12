@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Regulatory Requirements for Research Analysts_C1_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Meera Srinivasan is the compliance officer at Galaxy Research Services, a SEBI-registered research entity. She discovers the following situations during her quarterly review: (1) Analyst Rajan published a Buy report on PharmaTech Ltd and his wife purchased PharmaTech shares 15 days before the report was published. (2) The firm received Rs.50 lakh from InfoSys Corp for investment banking advisory services 6 months ago. Analyst Priya, who covers InfoSys Corp, did not disclose this in her latest research report. (3) Analyst Vikram's compensation for the year was partly determined based on the revenue his research helped generate from brokerage services for specific clients. (4) The research team is located on the same floor as the investment banking team, sharing common meeting rooms and a common server for document storage. (5) Analyst Deepa received a call from the CEO of MicroChip Ltd sharing that the company will announce a major acquisition next week. This information has not been made public.
+
+<b>Question 4 of 5:</b> The co-location of research and IB teams sharing servers constitutes:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Efficient use of office space — no compliance concern]]></text></answer>
+            <answer correct="yes"><text><![CDATA[A violation of the requirement for appropriate mechanisms to ensure independence of research from other business activities]]></text></answer>
+            <answer correct="no"><text><![CDATA[Standard practice for all research entities]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only a concern if SEBI specifically inspects the office]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Regulation 15(2) and 18(10): Research must be separate from sales, trading, and IB. Sharing physical space and servers allows information leakage.
+**The Trap:** Co-location with shared infrastructure defeats the purpose of Chinese Walls and information barriers.
+**Cross-Exam Context:** Ch 14 NISM XV.
+**Distributor's Pro-Tip:** Implement: separate floors/offices, separate email domains, restricted server access, and monitored common areas if shared spaces are unavoidable.]]></text></explanation>
+    </question>
+</QF>

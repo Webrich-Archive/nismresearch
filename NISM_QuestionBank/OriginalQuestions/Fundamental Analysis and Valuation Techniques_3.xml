@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Fundamental Analysis and Valuation Techniques_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[WACC (Weighted Average Cost of Capital) is used as the discount rate in:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Dividend Discount Model]]></text></answer>
+            <answer correct="no"><text><![CDATA[Free Cash Flow to Equity (FCFE) model]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Free Cash Flow to Firm (FCFF) model]]></text></answer>
+            <answer correct="no"><text><![CDATA[Price-to-Earnings ratio calculation]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** WACC discounts FCFF because FCFF represents cash available to ALL capital providers (equity + debt). FCFE uses cost of equity only.
+**The Trap:** FCFE uses cost of equity (not WACC) since it represents cash to equity holders only. DDM also uses cost of equity.
+**Cross-Exam Context:** Tested in NISM XV Ch 10.
+**Distributor's Pro-Tip:** WACC = Equity weight x Cost of equity + Debt weight x Cost of debt x (1-tax rate). Lower WACC increases valuations.]]></text></explanation>
+    </question>
+</QF>

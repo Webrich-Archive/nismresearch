@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Company Analysis_C1_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Kavita Deshmukh is analyzing Nandini Foods Ltd, an FMCG company listed on BSE, for her research report. She has gathered the following financial data for FY 2025-26: Revenue: Rs.5,000 crore. EBITDA: Rs.1,000 crore. Depreciation: Rs.200 crore. Interest Expense: Rs.150 crore. Tax Rate: 25%. Total Equity (Net Worth): Rs.3,000 crore (average). Total Debt: Rs.2,000 crore. Total Assets: Rs.8,000 crore (average). Current Assets: Rs.2,500 crore. Current Liabilities: Rs.1,500 crore. Inventory: Rs.800 crore. Number of shares: 50 crore. CMP: Rs.150. Dividend declared: Rs.3 per share. The company recently announced a 1:2 bonus issue and also a rights issue of 1-for-5 at Rs.100 per share.
+
+<b>Question 1 of 5:</b> What is Nandini Foods' EBIT and PAT?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[EBIT Rs.800 crore, PAT Rs.487.5 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[EBIT Rs.1,000 crore, PAT Rs.750 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[EBIT Rs.650 crore, PAT Rs.325 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[EBIT Rs.800 crore, PAT Rs.650 crore]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** EBIT = EBITDA - Depreciation = 1,000 - 200 = Rs.800 crore. PBT = EBIT - Interest = 800 - 150 = Rs.650 crore. Tax = 650 x 25% = Rs.162.5 crore. PAT = 650 - 162.5 = Rs.487.5 crore.
+**The Trap:** Common error: not subtracting depreciation from EBITDA to get EBIT, or applying tax on EBITDA instead of PBT.
+**Cross-Exam Context:** Tested in NISM XV Ch 8.
+**Distributor's Pro-Tip:** Work through P&L systematically: Revenue -> EBITDA -> EBIT -> PBT -> PAT.]]></text></explanation>
+    </question>
+</QF>

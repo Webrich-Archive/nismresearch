@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Company Analysis_C1_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Kavita Deshmukh is analyzing Nandini Foods Ltd, an FMCG company listed on BSE, for her research report. She has gathered the following financial data for FY 2025-26: Revenue: Rs.5,000 crore. EBITDA: Rs.1,000 crore. Depreciation: Rs.200 crore. Interest Expense: Rs.150 crore. Tax Rate: 25%. Total Equity (Net Worth): Rs.3,000 crore (average). Total Debt: Rs.2,000 crore. Total Assets: Rs.8,000 crore (average). Current Assets: Rs.2,500 crore. Current Liabilities: Rs.1,500 crore. Inventory: Rs.800 crore. Number of shares: 50 crore. CMP: Rs.150. Dividend declared: Rs.3 per share. The company recently announced a 1:2 bonus issue and also a rights issue of 1-for-5 at Rs.100 per share.
+
+<b>Question 2 of 5:</b> What are the ROE and ROCE for Nandini Foods?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[ROE: 16.25%, ROCE: 16%]]></text></answer>
+            <answer correct="no"><text><![CDATA[ROE: 20%, ROCE: 10%]]></text></answer>
+            <answer correct="no"><text><![CDATA[ROE: 10%, ROCE: 20%]]></text></answer>
+            <answer correct="no"><text><![CDATA[ROE: 33.3%, ROCE: 12%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** ROE = PAT/Net Worth = 487.5/3,000 = 16.25%. ROCE = EBIT/Capital Employed = 800/(3,000+2,000) = 800/5,000 = 16%.
+**The Trap:** Capital Employed = Equity + Debt = 3,000 + 2,000 = 5,000. ROCE uses EBIT (before interest), ROE uses PAT.
+**Cross-Exam Context:** Tested in NISM XV Ch 8.
+**Distributor's Pro-Tip:** ROE of 16.25% and ROCE of 16% suggest balanced returns. DuPont decomposition would reveal the drivers.]]></text></explanation>
+    </question>
+</QF>

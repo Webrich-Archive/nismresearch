@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Technical Analysis_29" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[EMA (Exponential Moving Average) differs from SMA (Simple Moving Average) in that:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[EMA ignores recent prices entirely]]></text></answer>
+            <answer correct="yes"><text><![CDATA[EMA gives more weight to recent prices, making it more responsive to new information]]></text></answer>
+            <answer correct="no"><text><![CDATA[SMA gives more weight to recent prices]]></text></answer>
+            <answer correct="no"><text><![CDATA[EMA and SMA are exactly the same calculation]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** EMA assigns higher weights to recent prices, making it react faster to price changes than SMA which weights all prices equally.
+**The Trap:** SMA = equal weight to all periods. EMA = exponentially decreasing weights (most recent gets highest weight).
+**Cross-Exam Context:** Ch 15 NISM XV.
+**Distributor's Pro-Tip:** Use SMA for identifying long-term trends (less noise). Use EMA for short-term trading signals (faster response to price changes).]]></text></explanation>
+    </question>
+</QF>

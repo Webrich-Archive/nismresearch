@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Fundamental Analysis and Valuation Techniques_C2_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Rohan Sharma is comparing two stocks using relative valuation. Stock X: CMP Rs.500, EPS Rs.25, Expected EPS growth 20%, BV Rs.100, Revenue per share Rs.200, EBITDA per share Rs.50, EV per share Rs.600. Stock Y: CMP Rs.300, EPS Rs.30, Expected EPS growth 10%, BV Rs.150, Revenue per share Rs.250, EBITDA per share Rs.40, EV per share Rs.350.
+
+<b>Question 4 of 5:</b> What are the EV/EBITDA ratios?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[X: 12.0x, Y: 8.75x]]></text></answer>
+            <answer correct="no"><text><![CDATA[X: 10.0x, Y: 7.5x]]></text></answer>
+            <answer correct="no"><text><![CDATA[X: 8.0x, Y: 12.0x]]></text></answer>
+            <answer correct="no"><text><![CDATA[X: 15.0x, Y: 10.0x]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** EV/EBITDA(X) = 600/50 = 12.0x. EV/EBITDA(Y) = 350/40 = 8.75x.
+**The Trap:** Use EV per share (not CMP) in the numerator.
+**Cross-Exam Context:** Tested in NISM XV Ch 10.
+**Distributor's Pro-Tip:** X is more expensive on EV/EBITDA too. But if its EBITDA is growing faster, this premium may be justified.]]></text></explanation>
+    </question>
+</QF>

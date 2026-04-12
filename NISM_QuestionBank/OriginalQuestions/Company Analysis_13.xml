@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Company Analysis_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A company declares a rights issue of 1-for-2 at Rs.70 when the market price is Rs.100. If a shareholder holds 10 shares, they can buy:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[10 additional shares at Rs.70]]></text></answer>
+            <answer correct="yes"><text><![CDATA[5 additional shares at Rs.70]]></text></answer>
+            <answer correct="no"><text><![CDATA[2 additional shares at Rs.70]]></text></answer>
+            <answer correct="no"><text><![CDATA[20 additional shares at Rs.70]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** 1-for-2 rights = 1 new share for every 2 held. Holding 10 shares = entitled to 10/2 = 5 new shares at Rs.70 each.
+**The Trap:** 1:2 means 1 for every 2, not 1 for every 1 or 2 for every 1.
+**Cross-Exam Context:** Rights issue mechanics tested in NISM XV Ch 9.
+**Distributor's Pro-Tip:** Rights issue price is always below market price. The theoretical ex-rights price adjusts to maintain value: (10*100 + 5*70) / 15 = Rs.90.]]></text></explanation>
+    </question>
+</QF>

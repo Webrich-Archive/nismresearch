@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Fundamental Analysis and Valuation Techniques_40" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In valuation, Enterprise Value to Equity Value bridge requires:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Adding cash and subtracting debt from enterprise value]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Subtracting debt, minority interest, and preferred capital from enterprise value, then adding cash and non-operating investments]]></text></answer>
+            <answer correct="no"><text><![CDATA[Simply dividing enterprise value by number of shares]]></text></answer>
+            <answer correct="no"><text><![CDATA[No adjustment — they are the same]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Equity Value = Enterprise Value - Debt - Minority Interest - Preferred Capital + Cash + Non-operating Investments.
+**The Trap:** EV to equity is not just adding cash. You must subtract all non-equity claims and add back surplus assets.
+**Cross-Exam Context:** Tested in NISM XV Ch 10.
+**Distributor's Pro-Tip:** This bridge is critical in DCF valuations. FCFF model gives enterprise value; you must bridge to equity value before dividing by shares to get per-share target price.]]></text></explanation>
+    </question>
+</QF>

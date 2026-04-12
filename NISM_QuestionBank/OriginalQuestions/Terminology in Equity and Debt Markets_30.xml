@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Terminology in Equity and Debt Markets_30" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Day count convention in the Indian bond market is important for:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Determining the face value of a bond]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Calculating the exact amount of interest accrued between coupon dates]]></text></answer>
+            <answer correct="no"><text><![CDATA[Setting the credit rating of the issuer]]></text></answer>
+            <answer correct="no"><text><![CDATA[Deciding the maturity date]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Day count convention determines how interest accrues between coupon dates. Different conventions (30/360, actual/365, actual/actual) produce slightly different accrued interest amounts.
+**The Trap:** Day count affects interest calculation, not face value, credit rating, or maturity date.
+**Cross-Exam Context:** Day count conventions are tested in NISM Series IV (Interest Rate Derivatives) and XV.
+**Distributor's Pro-Tip:** In India, government securities typically use actual/365 convention. Corporate bonds may use 30/360. Always check the convention to calculate accrued interest correctly.]]></text></explanation>
+    </question>
+</QF>

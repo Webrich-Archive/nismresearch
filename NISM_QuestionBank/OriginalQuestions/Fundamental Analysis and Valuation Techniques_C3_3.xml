@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Fundamental Analysis and Valuation Techniques_C3_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Amit Joshi wants to calculate risk-adjusted returns for two mutual funds over the last 3 years. Risk-free rate: 6%. Market return: 14%. Fund Alpha: Return 18%, Standard Deviation 20%, Beta 1.3. Fund Beta: Return 15%, Standard Deviation 12%, Beta 0.8.
+
+<b>Question 3 of 5:</b> What are the Jensen's Alpha values?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Alpha: +1.60%, Beta: +2.60%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Alpha: -2.00%, Beta: +1.00%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Alpha: +3.00%, Beta: +3.00%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Alpha: 0%, Beta: 0%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** CAPM expected(Alpha) = 6 + 1.3(14-6) = 16.4%. Alpha's Jensen = 18-16.4 = +1.60%. CAPM expected(Beta) = 6 + 0.8(14-6) = 12.4%. Beta's Jensen = 15-12.4 = +2.60%.
+**The Trap:** Both funds have positive alpha (outperforming CAPM expectations). But Fund Beta's alpha is larger.
+**Cross-Exam Context:** Tested in NISM XV Ch 12 and X-B.
+**Distributor's Pro-Tip:** Both managers add value above CAPM expectations. Fund Beta adds more value (2.6% vs 1.6%) with less risk.]]></text></explanation>
+    </question>
+</QF>

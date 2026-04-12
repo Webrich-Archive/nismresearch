@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Fundamentals of Research_C2_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Rajiv Kapoor is an investment manager evaluating two different approaches to investing in the Indian equity market. He manages a corpus of Rs. 50 crore and is considering the following options: (1) Strategy A — Active Fundamental Approach: Hire a team of 3 research analysts to conduct bottom-up fundamental analysis, visiting companies, building financial models, and selecting 25-30 undervalued stocks. Expected expense ratio: 2.5% per annum. Historical outperformance vs Nifty 50: 3% per annum over the last 5 years. (2) Strategy B — Passive Index Approach: Invest in a Nifty 50 index fund with an expense ratio of 0.1% per annum. Expected return: Nifty 50 return minus tracking error of 0.05%. (3) Additionally, he has access to a quantitative model that uses regression analysis to predict quarterly earnings of Nifty 50 companies. The model has shown 65% accuracy in predicting the direction of earnings surprises over the last 3 years. Rajiv is in his 40s and has a 15-year investment horizon for this corpus which is part of a pension fund.
+
+<b>Question 4 of 5:</b> A limitation of the quantitative model that Rajiv should be aware of is:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[It produces results that are too accurate]]></text></answer>
+            <answer correct="no"><text><![CDATA[It can capture all qualitative factors about a company]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Changes in accounting standards or business models may reduce the reliability of historical patterns]]></text></answer>
+            <answer correct="no"><text><![CDATA[It requires no human judgment or oversight]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A major limitation of quantitative research is that frequent changes in accounting standards and business models makes past data less useful for comparison with present conditions, reducing model reliability over time.
+**The Trap:** Quantitative models are not too accurate (35% error rate here), cannot capture qualitative factors, and still require human judgment for interpretation and model updates.
+**Cross-Exam Context:** Limitations of quantitative-only approaches are highlighted in NISM Series XV and X-B.
+**Distributor's Pro-Tip:** Models should be regularly backtested and recalibrated. A model built on 3 years of data may not perform well when accounting standards change (e.g., transition to IndAS) or business models shift.]]></text></explanation>
+    </question>
+</QF>

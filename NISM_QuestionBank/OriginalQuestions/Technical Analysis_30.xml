@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Technical Analysis_30" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The combination of 13, 21, and 34 period EMAs is based on:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Random selection by traders]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Fibonacci number series]]></text></answer>
+            <answer correct="no"><text><![CDATA[Government regulatory requirements]]></text></answer>
+            <answer correct="no"><text><![CDATA[The number of trading days in different months]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The 13-21-34 EMA combination uses Fibonacci numbers. In an uptrend: Price > 13 EMA > 21 EMA > 34 EMA. In a downtrend: the reverse.
+**The Trap:** These specific numbers come from the Fibonacci sequence (1,1,2,3,5,8,13,21,34...), widely used in TA.
+**Cross-Exam Context:** Ch 15 NISM XV.
+**Distributor's Pro-Tip:** When all three EMAs are rising and spreading apart, it confirms a strong bull market. When they converge, momentum is weakening.]]></text></explanation>
+    </question>
+</QF>

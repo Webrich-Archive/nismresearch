@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Company Analysis_22" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[ROCE (Return on Capital Employed) uses which profit measure in its numerator?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Net Profit After Tax]]></text></answer>
+            <answer correct="yes"><text><![CDATA[EBIT (Earnings Before Interest and Tax)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Gross Profit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Revenue]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** ROCE = EBIT / Capital Employed. It uses EBIT because the denominator includes both equity and debt capital.
+**The Trap:** EBIT is used because it represents return to all capital providers (equity and debt) before interest and tax.
+**Cross-Exam Context:** ROCE tested in NISM XV Ch 8.
+**Distributor's Pro-Tip:** ROCE allows comparison across companies with different capital structures since it measures return before financing decisions.]]></text></explanation>
+    </question>
+</QF>

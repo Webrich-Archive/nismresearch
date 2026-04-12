@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Technical Analysis_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A candlestick chart shows:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Only the closing price over time]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Open, High, Low, and Close prices using color-coded bodies to identify trends]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the trading volume]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the moving average of prices]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Candlestick charts use candles to show OHLC. Bullish candles (green/white) have close > open. Bearish candles (red/black) have close < open.
+**The Trap:** Line charts show only closing prices. Bar charts show OHLC but are less visually intuitive than candlesticks.
+**Cross-Exam Context:** Ch 15 NISM XV.
+**Distributor's Pro-Tip:** Candlestick patterns like Doji, Hammer, Engulfing, and Shooting Star provide visual signals for trend reversals.]]></text></explanation>
+    </question>
+</QF>

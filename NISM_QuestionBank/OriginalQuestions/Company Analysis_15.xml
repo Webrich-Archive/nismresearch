@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Company Analysis_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A stock split of 1:5 on a Rs.10 face value share results in:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[5 shares of Rs.10 face value each]]></text></answer>
+            <answer correct="yes"><text><![CDATA[5 shares of Rs.2 face value each]]></text></answer>
+            <answer correct="no"><text><![CDATA[1 share of Rs.50 face value]]></text></answer>
+            <answer correct="no"><text><![CDATA[10 shares of Rs.5 face value]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Split 1:5 = 1 share becomes 5. Face value Rs.10 becomes Rs.10/5 = Rs.2. Total face value unchanged (100 shares of Rs.10 = 500 shares of Rs.2).
+**The Trap:** Split increases shares and reduces face value proportionally. Total capital remains unchanged.
+**Cross-Exam Context:** Stock split mechanics tested in NISM XV Ch 9.
+**Distributor's Pro-Tip:** SBI split from Rs.10 to Re.1 face value. Stock trading at Rs.2,700 became approximately Rs.295. Value unchanged.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Terminology in Equity and Debt Markets_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The approximate Yield to Maturity (YTM) formula is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[(Coupon + (FV - Price)/n) / ((FV + Price)/2)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Coupon / Face Value x 100]]></text></answer>
+            <answer correct="no"><text><![CDATA[Market Price / EPS]]></text></answer>
+            <answer correct="no"><text><![CDATA[Dividend / Market Price x 100]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** YTM approximation = [Coupon + (Face Value - Price)/years to maturity] / [(Face Value + Price)/2]. This considers both coupon income and capital gain/loss.
+**The Trap:** Coupon/FV is the coupon rate. Market Price/EPS is the PE ratio. Dividend/Market Price is the dividend yield. Only the YTM formula accounts for all bond cash flows.
+**Cross-Exam Context:** YTM calculation is extensively tested in NISM Series XV and IV (Interest Rate Derivatives).
+**Distributor's Pro-Tip:** YTM is the most comprehensive single measure of bond return. It assumes all coupons are reinvested at the same rate — the reinvestment risk assumption.]]></text></explanation>
+    </question>
+</QF>

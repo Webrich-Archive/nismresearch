@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Terminology in Equity and Debt Markets_C2_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Vikram Desai, a fixed income analyst, is evaluating two corporate bonds for inclusion in his portfolio: Bond A — Issued by Infra Corp Ltd: Face Value Rs.1,000, Coupon Rate 9% payable annually, Current Market Price Rs.950, Remaining maturity 5 years. Bond B — Issued by Tech Solutions Ltd: Face Value Rs.1,000, Coupon Rate 7.5% payable annually, Current Market Price Rs.1,050, Remaining maturity 5 years, Callable at Rs.1,020 after 3 years. Both bonds have similar credit ratings (AA+). Vikram needs to analyze these bonds to make his investment recommendation.
+
+<b>Question 4 of 5:</b> The callable feature of Bond B at Rs.1,020 after 3 years means:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Vikram can sell the bond back to the issuer at Rs.1,020]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The issuer can redeem the bond at Rs.1,020 after 3 years if interest rates fall, limiting Vikram's upside]]></text></answer>
+            <answer correct="no"><text><![CDATA[The bond automatically converts to equity after 3 years]]></text></answer>
+            <answer correct="no"><text><![CDATA[The coupon rate increases to Rs.1,020 after 3 years]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The callable feature gives the ISSUER the right to redeem the bond at Rs.1,020 after 3 years. If rates fall, the issuer will call the bond and refinance at lower rates, limiting the bondholder's price appreciation potential.
+**The Trap:** A put feature would give Vikram the right to sell back. Callable is the issuer's option, not the investor's. It does not convert to equity.
+**Cross-Exam Context:** Call risk is an important concept in NISM Series XV and IV.
+**Distributor's Pro-Tip:** When evaluating callable bonds, calculate Yield to Call in addition to YTM. The lower of the two is the more relevant measure.]]></text></explanation>
+    </question>
+</QF>

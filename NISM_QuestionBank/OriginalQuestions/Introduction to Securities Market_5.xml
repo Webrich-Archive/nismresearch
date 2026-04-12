@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Introduction to Securities Market_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A market index like the Nifty 50 is primarily weighted by:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Face value of the constituent stocks]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Market capitalization of the constituent stocks]]></text></answer>
+            <answer correct="no"><text><![CDATA[Daily trading volume of each stock]]></text></answer>
+            <answer correct="no"><text><![CDATA[Book value per share of each company]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Most leading indices are weighted by market capitalization to consider the fact that more the number of shares issued, greater the number of portfolios in which they may be held. The Nifty 50 is composed of 50 most representative stocks listed on NSE.
+**The Trap:** Face value weighting would ignore the market's assessment of a company's value. Volume weighting would bias toward actively traded stocks. Book value weighting would ignore market sentiment.
+**Cross-Exam Context:** Index construction methodology is tested in NISM Series XV, VIII (Equity Derivatives for index futures/options), and V-A (for index funds/ETFs).
+**Distributor's Pro-Tip:** The market cap weighting means that a 1% move in a large-cap stock (like Reliance or TCS) impacts the index more than a similar move in a smaller constituent.]]></text></explanation>
+    </question>
+</QF>

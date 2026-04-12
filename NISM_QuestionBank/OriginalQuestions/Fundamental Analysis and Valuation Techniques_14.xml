@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Fundamental Analysis and Valuation Techniques_14" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[XIRR function in Excel is used to calculate:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Simple interest on a fixed deposit]]></text></answer>
+            <answer correct="yes"><text><![CDATA[CAGR when there are multiple cash flows at irregular intervals]]></text></answer>
+            <answer correct="no"><text><![CDATA[The standard deviation of returns]]></text></answer>
+            <answer correct="no"><text><![CDATA[The correlation between two stocks]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** XIRR calculates the internal rate of return for a series of cash flows occurring at irregular dates. It extends CAGR to handle multiple cash flows.
+**The Trap:** CAGR formula works for single investment. When there are multiple cash flows (dividends, partial sales), use XIRR.
+**Cross-Exam Context:** Tested in NISM XV Ch 12.
+**Distributor's Pro-Tip:** XIRR is the most accurate return measure for real-world investments with irregular cash flows like SIPs or dividend reinvestments.]]></text></explanation>
+    </question>
+</QF>

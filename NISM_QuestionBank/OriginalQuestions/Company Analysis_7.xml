@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Company Analysis_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Return on Equity (ROE) is calculated as:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[EBIT / Total Assets]]></text></answer>
+            <answer correct="yes"><text><![CDATA[PAT / Net Worth]]></text></answer>
+            <answer correct="no"><text><![CDATA[Revenue / Equity Capital]]></text></answer>
+            <answer correct="no"><text><![CDATA[Market Cap / Book Value]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** ROE = PAT / Net Worth. Net Worth = Equity Share Capital + Reserves. It measures how efficiently equity capital generates profits.
+**The Trap:** EBIT/Assets is ROTA. Revenue/Equity is not a standard ratio. Market Cap/Book Value is P/BV.
+**Cross-Exam Context:** ROE is the most important return ratio, tested in NISM XV Ch 8.
+**Distributor's Pro-Tip:** ROE above 15% consistently is considered good. Use average net worth (opening + closing / 2) for accuracy.]]></text></explanation>
+    </question>
+</QF>

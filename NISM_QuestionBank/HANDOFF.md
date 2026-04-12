@@ -1,8 +1,8 @@
 # NISM Question Bank — Handoff Document
 
-**Date:** April 12, 2026 (Updated after Phase 12 — Series II-A & II-B complete)
-**Status:** 19 of 31 exams complete. 8,143 questions generated. Phase 12 COMPLETE — II-A (250 Qs, 8 topics, 6 caselets) + II-B (250 Qs, 6 topics, 8 caselets).
-**For:** Next session should continue Phase 13 — next exam in sequence.
+**Date:** April 12, 2026 (Updated after Phase 13 — Series XV complete, XVII pending)
+**Status:** 20 of 31 exams complete. 8,643 questions generated. Phase 13 IN PROGRESS — XV (500 Qs, 10 topics, 18 caselets) COMPLETE. XVII (500 Qs, 9 topics) PENDING.
+**For:** Next session should complete Phase 13 — Series XVII (Retirement Adviser).
 
 ---
 
@@ -31,7 +31,8 @@
 | Series X-B - Investment Adviser Level 2 | X-B | 500 | 18 | Hard | Generated from PDF across 3 sessions. 20 caselets (100 caselet Qs). |
 | Series II-A - RTA Corporate | II-A | 250 | 8 | Moderate | Generated from PDF. 6 caselets (30 caselet Qs). |
 | Series II-B - RTA Mutual Fund | II-B | 250 | 6 | Moderate | Generated from PDF. 8 caselets (40 caselet Qs). |
-| **Total (completed exams)** | | **8,143** | **188** | | |
+| Series XV - Research Analyst | XV | 500 | 10 | Hard | Generated from PDF (25% calc, 35% conceptual, 20% caselet, 15% regulatory). 18 caselets (90 caselet Qs). |
+| **Total (completed exams)** | | **8,643** | **198** | | |
 
 **X-B Complete Breakdown (3 Sessions, Modules 7-12):**
 
@@ -82,22 +83,50 @@
 
 ```
 /Users/shivam/aiworkspace/nismresearch/NISM_QuestionBank/
-├── ExamWeightages.plist          (31 exams, topic names aligned with file prefixes for 19 completed exams)
-├── Topics.plist                  (188 topics, 8,143 questions)
-├── TopicsLite.plist              (188 topics, all ≥30% ratio)
-├── ChapterArticles.plist         (188 chapters, each with single "All Topics" article)
-├── QuestionToArticleNumber.plist (8,143 entries, all mapping to article "1")
-├── OriginalQuestions/            (8,143 XML files)
+├── ExamWeightages.plist          (31 exams, topic names aligned with file prefixes for 20 completed exams)
+├── Topics.plist                  (198 topics, 8,643 questions)
+├── TopicsLite.plist              (198 topics, all ≥30% ratio)
+├── ChapterArticles.plist         (198 chapters, each with single "All Topics" article)
+├── QuestionToArticleNumber.plist (8,643 entries, all mapping to article "1")
+├── OriginalQuestions/            (8,643 XML files)
 ├── manifest.json                 (progress tracking — version 5.0)
 ├── TaxRatesReference_FY2025-26.md (verified tax rates)
 ├── 15 audit report files         (detailed per-chapter audit results for first 5 exams)
 └── HANDOFF.md                    (this file)
 ```
 
-### Validation Status (All Pass — verified Phase 12)
+### Validation Status (All Pass — verified Phase 13 XV)
 - 5/5 plists: OK (plutil)
-- 8,143/8,143 XML files: valid (xml.etree.ElementTree)
+- 8,643/8,643 XML files: valid (xml.etree.ElementTree)
 - 0 intra-exam duplicates, all unique IDs
+
+### Series XV Breakdown
+
+| Topic (exact plist key) | MCQs | Caselets | Caselet Qs | Total |
+|--------------------------|:----:|:--------:|:----------:|:-----:|
+| Introduction to Research Analyst Profession | 30 | 0 | 0 | 30 |
+| Introduction to Securities Market | 30 | 0 | 0 | 30 |
+| Fundamentals of Research | 35 | 2 | 10 | 45 |
+| Terminology in Equity and Debt Markets | 35 | 2 | 10 | 45 |
+| Economic Analysis | 35 | 2 | 10 | 45 |
+| Industry Analysis | 35 | 2 | 10 | 45 |
+| Company Analysis | 40 | 2 | 10 | 50 |
+| Fundamental Analysis and Valuation Techniques | 40 | 4 | 20 | 60 |
+| Technical Analysis | 40 | 2 | 10 | 50 |
+| Regulatory Requirements for Research Analysts | 90 | 2 | 10 | 100 |
+| **XV Total** | **410** | **18** | **90** | **500** |
+
+**Chapter-to-Topic Mapping (verified from PDF TOC):**
+- Introduction to Research Analyst Profession → Ch 1
+- Introduction to Securities Market → Ch 2
+- Terminology in Equity and Debt Markets → Ch 3
+- Fundamentals of Research → Ch 4 (Investing, Research, TA overview, FA overview, Quant, Behavioral, Commodities)
+- Economic Analysis → Ch 5
+- Industry Analysis → Ch 6
+- Company Analysis → Ch 7 (Business & Governance) + Ch 8 (Financial Analysis) + Ch 9 (Corporate Actions)
+- Fundamental Analysis and Valuation Techniques → Ch 10 (Valuation) + Ch 11 (Commodity FA) + Ch 12 (Risk & Return)
+- Technical Analysis → Ch 15
+- Regulatory Requirements for Research Analysts → Ch 13 (Research Report Quality) + Ch 14 (Legal & Regulatory)
 - 188 plist topics == 188 file prefixes: PERFECT MATCH
 - Series II-A: 8 ExamWeightages topics ↔ 8 file prefixes: MATCH, weightages sum = 100%
 - Series II-B: 6 ExamWeightages topics ↔ 6 file prefixes: MATCH, weightages sum = 100%

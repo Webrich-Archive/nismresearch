@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Terminology in Equity and Debt Markets_C1_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Priya Mehta, a research analyst at Star Capital, is analyzing Bharat Electronics Ltd (BEL), a mid-cap company listed on NSE. She has gathered the following financial data: Equity Share Capital: Rs.200 crore (Face Value Rs.2 per share, i.e., 100 crore shares). Reserves and Surplus: Rs.800 crore. Current Market Price (CMP): Rs.35 per share. Net Profit for FY 2025-26: Rs.300 crore. Dividend declared: Rs.1.50 per share. Total Debt (market value): Rs.400 crore. Preferred Capital (market value): Rs.50 crore. Cash and equivalents: Rs.150 crore. Non-operating financial investments: Rs.50 crore. Annual net sales: Rs.2,000 crore. She needs to calculate various equity and debt market ratios to prepare her valuation report.
+
+<b>Question 4 of 5:</b> What is the Enterprise Value (EV) of BEL?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs.3,500 crore]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs.3,750 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.3,900 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.4,100 crore]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Market Cap = Rs.35 x 100 crore = Rs.3,500 crore. EV = Market Cap + Debt + Preferred - Cash - Non-operating investments = 3,500 + 400 + 50 - 150 - 50 = Rs.3,750 crore.
+**The Trap:** Common error: forgetting to subtract cash (Rs.150 crore) and non-operating investments (Rs.50 crore), giving Rs.3,950. Or forgetting preferred capital.
+**Cross-Exam Context:** EV calculation is tested in NISM Series XV Chapter 3 and used for EV/EBITDA multiples.
+**Distributor's Pro-Tip:** EV represents the total cost to acquire BEL — buying all equity (Rs.3,500 crore), assuming debt (Rs.400 crore) and preferred (Rs.50 crore), but getting cash and investments (Rs.200 crore).]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Fundamentals of Research_C2_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Rajiv Kapoor is an investment manager evaluating two different approaches to investing in the Indian equity market. He manages a corpus of Rs. 50 crore and is considering the following options: (1) Strategy A — Active Fundamental Approach: Hire a team of 3 research analysts to conduct bottom-up fundamental analysis, visiting companies, building financial models, and selecting 25-30 undervalued stocks. Expected expense ratio: 2.5% per annum. Historical outperformance vs Nifty 50: 3% per annum over the last 5 years. (2) Strategy B — Passive Index Approach: Invest in a Nifty 50 index fund with an expense ratio of 0.1% per annum. Expected return: Nifty 50 return minus tracking error of 0.05%. (3) Additionally, he has access to a quantitative model that uses regression analysis to predict quarterly earnings of Nifty 50 companies. The model has shown 65% accuracy in predicting the direction of earnings surprises over the last 3 years. Rajiv is in his 40s and has a 15-year investment horizon for this corpus which is part of a pension fund.
+
+<b>Question 5 of 5:</b> Given Rajiv's 15-year horizon and pension fund mandate, which combination would be most appropriate?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[100% Strategy B (passive) since pension funds should never take active risk]]></text></answer>
+            <answer correct="no"><text><![CDATA[100% Strategy A (active) since the outperformance justifies the higher cost]]></text></answer>
+            <answer correct="yes"><text><![CDATA[A blend of Strategy A for core holdings with Strategy B for broad market exposure, using the quantitative model as an additional input]]></text></answer>
+            <answer correct="no"><text><![CDATA[100% allocation to the quantitative model since it has 65% accuracy]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A blended approach is most appropriate for a pension fund with a 15-year horizon. The core-satellite strategy uses passive (low-cost, diversified) as the base and adds active/quant for potential outperformance. This balances cost efficiency with return enhancement.
+**The Trap:** 100% passive ignores the demonstrated (though modest) outperformance. 100% active is concentrated and expensive. 100% quant ignores model limitations. Blending provides diversification of approaches.
+**Cross-Exam Context:** Portfolio construction approaches are tested in NISM Series X-A and X-B. The core-satellite strategy is widely used by pension and institutional investors.
+**Distributor's Pro-Tip:** For pension funds, the primary mandate is safety of capital with reasonable growth. A 60% passive / 30% active fundamental / 10% quantitative split provides a pragmatic balance.]]></text></explanation>
+    </question>
+</QF>

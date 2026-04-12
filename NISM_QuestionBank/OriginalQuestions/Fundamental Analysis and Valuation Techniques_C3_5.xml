@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Fundamental Analysis and Valuation Techniques_C3_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Amit Joshi wants to calculate risk-adjusted returns for two mutual funds over the last 3 years. Risk-free rate: 6%. Market return: 14%. Fund Alpha: Return 18%, Standard Deviation 20%, Beta 1.3. Fund Beta: Return 15%, Standard Deviation 12%, Beta 0.8.
+
+<b>Question 5 of 5:</b> If an investor has a well-diversified portfolio and wants to add one of these funds, which risk-adjusted metric is most relevant?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Sharpe Ratio (uses total risk)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Treynor Ratio (uses systematic risk only, which is relevant for a diversified portfolio)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Absolute return only]]></text></answer>
+            <answer correct="no"><text><![CDATA[Standard deviation only]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For a well-diversified investor, unsystematic risk is already diversified away. Only systematic risk (beta) matters. Therefore, Treynor Ratio (which uses beta) is most relevant.
+**The Trap:** Sharpe uses total risk, appropriate for standalone evaluation. But within a diversified portfolio, only systematic risk matters.
+**Cross-Exam Context:** Tested in NISM XV Ch 12 and X-B.
+**Distributor's Pro-Tip:** Sharpe for standalone evaluation, Treynor for portfolio addition decisions. This distinction is frequently tested.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Fundamental Analysis and Valuation Techniques_C2_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Rohan Sharma is comparing two stocks using relative valuation. Stock X: CMP Rs.500, EPS Rs.25, Expected EPS growth 20%, BV Rs.100, Revenue per share Rs.200, EBITDA per share Rs.50, EV per share Rs.600. Stock Y: CMP Rs.300, EPS Rs.30, Expected EPS growth 10%, BV Rs.150, Revenue per share Rs.250, EBITDA per share Rs.40, EV per share Rs.350.
+
+<b>Question 2 of 5:</b> What are the PEG ratios for both stocks?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[X: 1.0, Y: 1.0]]></text></answer>
+            <answer correct="no"><text><![CDATA[X: 1.0, Y: 0.5]]></text></answer>
+            <answer correct="no"><text><![CDATA[X: 2.0, Y: 1.0]]></text></answer>
+            <answer correct="no"><text><![CDATA[X: 0.5, Y: 1.0]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** PEG(X) = PE/Growth = 20/20 = 1.0. PEG(Y) = 10/10 = 1.0. Both stocks have the same PEG despite very different PEs.
+**The Trap:** PEG normalizes PE by growth. Both at PEG 1.0 means their PEs are equally justified by their respective growth rates.
+**Cross-Exam Context:** Tested in NISM XV Ch 10.
+**Distributor's Pro-Tip:** Equal PEG ratios suggest both are fairly valued relative to their growth. X deserves a higher PE because of higher growth.]]></text></explanation>
+    </question>
+</QF>

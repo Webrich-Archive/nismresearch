@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Fundamental Analysis and Valuation Techniques_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Sortino Ratio improves upon Sharpe by:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Using total risk including upside volatility]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Using only downside deviation instead of total standard deviation, focusing on harmful volatility]]></text></answer>
+            <answer correct="no"><text><![CDATA[Ignoring risk entirely]]></text></answer>
+            <answer correct="no"><text><![CDATA[Using beta instead of standard deviation]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Sortino = (Return - Target Return) / Downside Deviation. It only penalizes harmful (downside) volatility, not beneficial upside.
+**The Trap:** Sharpe penalizes both up and down volatility equally. Sortino recognizes that upside volatility is desirable.
+**Cross-Exam Context:** Tested in NISM XV Ch 12 and X-B.
+**Distributor's Pro-Tip:** For investments with asymmetric returns (like options strategies), Sortino is a better risk measure than Sharpe.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Technical Analysis_23" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A Renko chart uses:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Time intervals to create candles]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Fixed price movements (bricks) rather than time intervals for clarity on trends]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only volume data]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the opening price]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Renko uses fixed price movements to create bricks. New bricks are formed only when price moves by the specified amount, smoothing out minor fluctuations.
+**The Trap:** Renko ignores time completely. Each brick represents a fixed price move, not a fixed time period.
+**Cross-Exam Context:** Ch 15 NISM XV.
+**Distributor's Pro-Tip:** Renko charts are excellent for identifying clean trends and trailing stop strategies due to their noise-filtering properties.]]></text></explanation>
+    </question>
+</QF>

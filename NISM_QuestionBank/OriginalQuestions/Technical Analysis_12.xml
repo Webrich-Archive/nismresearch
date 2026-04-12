@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Technical Analysis_12" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Bollinger Bands consist of:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Only a single moving average line]]></text></answer>
+            <answer correct="yes"><text><![CDATA[A middle band (SMA) with upper and lower bands set at standard deviations from the SMA]]></text></answer>
+            <answer correct="no"><text><![CDATA[Two parallel horizontal lines at fixed prices]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only support and resistance levels]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Bollinger Bands: middle = 20-day SMA, upper = SMA + 2 standard deviations, lower = SMA - 2 standard deviations. Width reflects volatility.
+**The Trap:** Bollinger Bands are dynamic (change with volatility), not fixed horizontal lines.
+**Cross-Exam Context:** Ch 15 NISM XV.
+**Distributor's Pro-Tip:** Narrow Bollinger Bands (squeeze) indicate low volatility and often precede a significant move. The direction of the breakout is the trading signal.]]></text></explanation>
+    </question>
+</QF>

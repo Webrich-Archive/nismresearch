@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Terminology in Equity and Debt Markets_C2_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Vikram Desai, a fixed income analyst, is evaluating two corporate bonds for inclusion in his portfolio: Bond A — Issued by Infra Corp Ltd: Face Value Rs.1,000, Coupon Rate 9% payable annually, Current Market Price Rs.950, Remaining maturity 5 years. Bond B — Issued by Tech Solutions Ltd: Face Value Rs.1,000, Coupon Rate 7.5% payable annually, Current Market Price Rs.1,050, Remaining maturity 5 years, Callable at Rs.1,020 after 3 years. Both bonds have similar credit ratings (AA+). Vikram needs to analyze these bonds to make his investment recommendation.
+
+<b>Question 1 of 5:</b> What is the current yield of Bond A?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[9.00%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[9.47%]]></text></answer>
+            <answer correct="no"><text><![CDATA[8.50%]]></text></answer>
+            <answer correct="no"><text><![CDATA[10.00%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Current Yield = Annual Coupon / Current Market Price x 100 = Rs.90 / Rs.950 x 100 = 9.47%.
+**The Trap:** 9.00% is the coupon rate (90/1000), not the current yield. Current yield uses market price, not face value.
+**Cross-Exam Context:** Current yield calculation is tested in NISM Series XV and IV.
+**Distributor's Pro-Tip:** Bond A trades below par (discount), so current yield > coupon rate. This is because investors require higher yield given the lower price.]]></text></explanation>
+    </question>
+</QF>

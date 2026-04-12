@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Fundamental Analysis and Valuation Techniques_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The Sharpe Ratio measures:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Absolute return of a portfolio]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Risk-adjusted return — excess return per unit of total risk (standard deviation)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the downside risk of a portfolio]]></text></answer>
+            <answer correct="no"><text><![CDATA[The correlation between two assets]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Sharpe Ratio = (Portfolio Return - Risk-Free Rate) / Standard Deviation. It measures excess return per unit of total risk.
+**The Trap:** Sharpe uses total risk (SD), not downside only (that's Sortino). It's a risk-adjusted measure, not absolute.
+**Cross-Exam Context:** Tested in NISM XV Ch 12 and Series X-B.
+**Distributor's Pro-Tip:** Higher Sharpe ratio = better risk-adjusted performance. Compare Sharpe ratios to evaluate whether higher returns come with proportionally higher risk.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Fundamental Analysis and Valuation Techniques_C3_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Amit Joshi wants to calculate risk-adjusted returns for two mutual funds over the last 3 years. Risk-free rate: 6%. Market return: 14%. Fund Alpha: Return 18%, Standard Deviation 20%, Beta 1.3. Fund Beta: Return 15%, Standard Deviation 12%, Beta 0.8.
+
+<b>Question 1 of 5:</b> What are the Sharpe Ratios for both funds?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Alpha: 0.60, Beta: 0.75]]></text></answer>
+            <answer correct="no"><text><![CDATA[Alpha: 0.90, Beta: 1.25]]></text></answer>
+            <answer correct="no"><text><![CDATA[Alpha: 0.45, Beta: 0.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Alpha: 1.00, Beta: 1.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Sharpe(Alpha) = (18-6)/20 = 0.60. Sharpe(Beta) = (15-6)/12 = 0.75. Fund Beta has better risk-adjusted return per unit of total risk.
+**The Trap:** Use standard deviation as the denominator. Higher Sharpe = better risk-adjusted performance.
+**Cross-Exam Context:** Tested in NISM XV Ch 12.
+**Distributor's Pro-Tip:** Fund Alpha has higher absolute return (18% vs 15%) but Fund Beta delivers better risk-adjusted return.]]></text></explanation>
+    </question>
+</QF>

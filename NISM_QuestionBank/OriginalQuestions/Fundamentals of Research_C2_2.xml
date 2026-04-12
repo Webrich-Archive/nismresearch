@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Fundamentals of Research_C2_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Rajiv Kapoor is an investment manager evaluating two different approaches to investing in the Indian equity market. He manages a corpus of Rs. 50 crore and is considering the following options: (1) Strategy A — Active Fundamental Approach: Hire a team of 3 research analysts to conduct bottom-up fundamental analysis, visiting companies, building financial models, and selecting 25-30 undervalued stocks. Expected expense ratio: 2.5% per annum. Historical outperformance vs Nifty 50: 3% per annum over the last 5 years. (2) Strategy B — Passive Index Approach: Invest in a Nifty 50 index fund with an expense ratio of 0.1% per annum. Expected return: Nifty 50 return minus tracking error of 0.05%. (3) Additionally, he has access to a quantitative model that uses regression analysis to predict quarterly earnings of Nifty 50 companies. The model has shown 65% accuracy in predicting the direction of earnings surprises over the last 3 years. Rajiv is in his 40s and has a 15-year investment horizon for this corpus which is part of a pension fund.
+
+<b>Question 2 of 5:</b> What is the net outperformance of Strategy A over Strategy B, after accounting for expenses?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[3% per annum]]></text></answer>
+            <answer correct="yes"><text><![CDATA[0.6% per annum]]></text></answer>
+            <answer correct="no"><text><![CDATA[5.4% per annum]]></text></answer>
+            <answer correct="no"><text><![CDATA[2.5% per annum]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Strategy A: outperformance 3% minus expense ratio 2.5% = 0.5% net above Nifty. Strategy B: Nifty return minus 0.1% expenses minus 0.05% tracking error = Nifty minus 0.15%. Net difference: 0.5% - (-0.15%) = 0.65%, approximately 0.6% net outperformance for Strategy A.
+**The Trap:** The gross outperformance of 3% is not the net figure. After subtracting the much higher expenses (2.5% vs 0.1%), the advantage shrinks dramatically to about 0.6%.
+**Cross-Exam Context:** Cost comparison between active and passive approaches is tested in NISM Series V-A and XV. The impact of expense ratios on long-term returns is significant.
+**Distributor's Pro-Tip:** Over 15 years, even a 0.6% difference compounds significantly: on Rs.50 crore, at 12% base return, Strategy A would yield approximately Rs.4-5 crore more. But past outperformance does not guarantee future results.]]></text></explanation>
+    </question>
+</QF>

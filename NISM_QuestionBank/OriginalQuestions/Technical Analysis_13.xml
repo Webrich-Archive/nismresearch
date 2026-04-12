@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Technical Analysis_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[MACD (Moving Average Convergence Divergence) is calculated as:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[50-day SMA minus 200-day SMA]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Difference between 26-period EMA and 12-period EMA, with a 9-period EMA signal line]]></text></answer>
+            <answer correct="no"><text><![CDATA[RSI minus Bollinger Band width]]></text></answer>
+            <answer correct="no"><text><![CDATA[Volume multiplied by price change]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** MACD default = 12 EMA - 26 EMA (MACD line). Signal line = 9 EMA of the MACD line. Crossovers generate buy/sell signals.
+**The Trap:** MACD uses EMAs (not SMAs) and specifically 12/26/9 periods as defaults.
+**Cross-Exam Context:** Ch 15 NISM XV.
+**Distributor's Pro-Tip:** MACD crossing above signal line = buy. Below = sell. Divergence between MACD and price is a powerful leading indicator.]]></text></explanation>
+    </question>
+</QF>

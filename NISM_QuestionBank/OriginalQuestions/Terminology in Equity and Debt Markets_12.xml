@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Terminology in Equity and Debt Markets_12" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Macaulay Duration measures:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The credit risk of a bond]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The weighted average time until a bond's cash flows are received]]></text></answer>
+            <answer correct="no"><text><![CDATA[The coupon rate of the bond]]></text></answer>
+            <answer correct="no"><text><![CDATA[The probability of default]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Macaulay Duration is the weighted average time of cash flows from a bond, where weights are the present values of each cash flow relative to the bond's price.
+**The Trap:** Duration is about time sensitivity to interest rates, not credit risk, coupon rate, or default probability.
+**Cross-Exam Context:** Duration concepts are tested in NISM Series XV and IV. Modified duration extends this to measure price sensitivity.
+**Distributor's Pro-Tip:** Higher duration means greater price sensitivity to interest rate changes. Long-duration bonds are more volatile.]]></text></explanation>
+    </question>
+</QF>

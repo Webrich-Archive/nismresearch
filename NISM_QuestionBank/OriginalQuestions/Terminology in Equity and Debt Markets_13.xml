@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Terminology in Equity and Debt Markets_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Modified Duration is derived from Macaulay Duration by:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Multiplying by (1 + YTM)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Dividing Macaulay Duration by (1 + YTM/frequency)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Adding the credit spread]]></text></answer>
+            <answer correct="no"><text><![CDATA[Subtracting the coupon rate]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Modified Duration = Macaulay Duration / (1 + YTM/frequency), where frequency is the number of coupon payments per year. It measures the percentage price change for a 1% change in yield.
+**The Trap:** Modified duration divides, not multiplies. It has nothing to do with credit spread or coupon rate subtraction.
+**Cross-Exam Context:** Modified duration is a key risk measure tested in NISM Series IV (Interest Rate Derivatives) and XV.
+**Distributor's Pro-Tip:** A modified duration of 5 means the bond price will change approximately 5% for every 1% change in yield.]]></text></explanation>
+    </question>
+</QF>

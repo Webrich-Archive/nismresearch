@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Fundamental Analysis and Valuation Techniques_22" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Reinvestment risk in bonds refers to:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The risk that the bond issuer will default]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The risk that coupon payments cannot be reinvested at the same rate assumed in YTM calculations]]></text></answer>
+            <answer correct="no"><text><![CDATA[The risk that inflation will erode returns]]></text></answer>
+            <answer correct="no"><text><![CDATA[The risk of currency depreciation]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** YTM assumes coupons are reinvested at the YTM rate. If rates fall, coupons are reinvested at lower rates, reducing actual return below YTM.
+**The Trap:** This is different from default risk (credit risk), inflation risk, or currency risk. It specifically relates to coupon reinvestment.
+**Cross-Exam Context:** Tested in NISM XV Ch 12 and IV.
+**Distributor's Pro-Tip:** Zero-coupon bonds have no reinvestment risk since there are no interim coupons. All return comes at maturity.]]></text></explanation>
+    </question>
+</QF>

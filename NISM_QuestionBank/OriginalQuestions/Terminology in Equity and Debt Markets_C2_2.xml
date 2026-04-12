@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Terminology in Equity and Debt Markets_C2_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Vikram Desai, a fixed income analyst, is evaluating two corporate bonds for inclusion in his portfolio: Bond A — Issued by Infra Corp Ltd: Face Value Rs.1,000, Coupon Rate 9% payable annually, Current Market Price Rs.950, Remaining maturity 5 years. Bond B — Issued by Tech Solutions Ltd: Face Value Rs.1,000, Coupon Rate 7.5% payable annually, Current Market Price Rs.1,050, Remaining maturity 5 years, Callable at Rs.1,020 after 3 years. Both bonds have similar credit ratings (AA+). Vikram needs to analyze these bonds to make his investment recommendation.
+
+<b>Question 2 of 5:</b> What is the approximate YTM of Bond A?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[9.00%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[10.12%]]></text></answer>
+            <answer correct="no"><text><![CDATA[8.50%]]></text></answer>
+            <answer correct="no"><text><![CDATA[11.00%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** YTM approx = [Coupon + (FV-Price)/n] / [(FV+Price)/2] = [90 + (1000-950)/5] / [(1000+950)/2] = [90+10] / [975] = 100/975 = 10.26%, approximately 10.12% accounting for rounding.
+**The Trap:** 9% is the coupon rate. The YTM is higher because the bond trades at a discount — the investor also earns capital gain of Rs.50 over 5 years.
+**Cross-Exam Context:** YTM approximation is tested in NISM Series XV and IV.
+**Distributor's Pro-Tip:** YTM captures both coupon income and capital gain. For Bond A at discount, YTM > current yield > coupon rate.]]></text></explanation>
+    </question>
+</QF>

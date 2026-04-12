@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Fundamental Analysis and Valuation Techniques_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Jensen's Alpha measures:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Total portfolio return]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The excess return of a portfolio above what the Capital Asset Pricing Model (CAPM) predicts based on its beta]]></text></answer>
+            <answer correct="no"><text><![CDATA[The risk-free rate]]></text></answer>
+            <answer correct="no"><text><![CDATA[The standard deviation of the portfolio]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Alpha = Actual Return - CAPM Expected Return = Actual Return - [Rf + Beta x (Rm - Rf)]. Positive alpha means the manager outperformed risk-adjusted expectations.
+**The Trap:** Alpha is about risk-adjusted outperformance, not total return or risk measures.
+**Cross-Exam Context:** Tested in NISM XV Ch 12 and X-B.
+**Distributor's Pro-Tip:** Positive alpha after fees is the holy grail of active management. Persistently positive alpha managers are rare and valuable.]]></text></explanation>
+    </question>
+</QF>

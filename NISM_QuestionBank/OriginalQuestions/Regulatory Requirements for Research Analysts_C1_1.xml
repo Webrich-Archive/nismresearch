@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Regulatory Requirements for Research Analysts_C1_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Meera Srinivasan is the compliance officer at Galaxy Research Services, a SEBI-registered research entity. She discovers the following situations during her quarterly review: (1) Analyst Rajan published a Buy report on PharmaTech Ltd and his wife purchased PharmaTech shares 15 days before the report was published. (2) The firm received Rs.50 lakh from InfoSys Corp for investment banking advisory services 6 months ago. Analyst Priya, who covers InfoSys Corp, did not disclose this in her latest research report. (3) Analyst Vikram's compensation for the year was partly determined based on the revenue his research helped generate from brokerage services for specific clients. (4) The research team is located on the same floor as the investment banking team, sharing common meeting rooms and a common server for document storage. (5) Analyst Deepa received a call from the CEO of MicroChip Ltd sharing that the company will announce a major acquisition next week. This information has not been made public.
+
+<b>Question 1 of 5:</b> Regarding Rajan's wife purchasing PharmaTech shares 15 days before his Buy report:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[This is perfectly acceptable as the restriction is only 5 days]]></text></answer>
+            <answer correct="yes"><text><![CDATA[This violates Regulation 16(2) — associates of RAs cannot trade within 30 days before publication of a research report]]></text></answer>
+            <answer correct="no"><text><![CDATA[This is acceptable because spouses are not covered by RA regulations]]></text></answer>
+            <answer correct="no"><text><![CDATA[The 30-day restriction applies only to Sell recommendations]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Regulation 16(2): RAs and their associates cannot deal in recommended securities within 30 days before and 5 days after publication. Rajan's wife is an associate.
+**The Trap:** The 30-day pre-publication restriction is absolute (absent exceptions). The wife as a spouse is an associate covered by the regulation.
+**Cross-Exam Context:** Ch 14 NISM XV.
+**Distributor's Pro-Tip:** Compliance should maintain a restricted trading list and cross-check all associate trades against upcoming research publications.]]></text></explanation>
+    </question>
+</QF>
