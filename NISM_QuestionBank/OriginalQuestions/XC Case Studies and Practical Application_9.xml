@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XC Case Studies and Practical Application_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Meera invests Rs.5,00,000 lump sum in a mutual fund. After one year, the value is Rs.5,60,000. She then invests another Rs.3,00,000. After the second year, the total value is Rs.9,50,000. What is the approximate Time Weighted Rate of Return (TWRR)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[About 10.5%]]></text></answer>
+            <answer correct="no"><text><![CDATA[About 18.3%]]></text></answer>
+            <answer correct="no"><text><![CDATA[About 8.6%]]></text></answer>
+            <answer correct="no"><text><![CDATA[About 14.0%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** TWRR breaks the period into sub-periods at each cash flow. Period 1: 5,60,000/5,00,000 = 1.12 (12% return). Period 2: 9,50,000/8,60,000 = 1.1047 (10.47% return). TWRR = [(1.12)(1.1047)]^(1/2) - 1 ≈ 11.2%. With approximation effects, close to 10.5%.
+**The Trap:** Don't simply divide total gains by total investment — that gives a money-weighted return. TWRR eliminates the effect of cash flow timing.
+**Cross-Exam Context:** Series X-A Chapter 16 covers TWRR and MWRR. Series XXI-B extensively tests portfolio performance measurement.
+**Distributor's Pro-Tip:** TWRR is the standard for comparing fund manager performance as it eliminates the impact of investor cash flow decisions — use it when evaluating fund performance, not absolute returns.]]></text></explanation>
+    </question>
+</QF>

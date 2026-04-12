@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XC Investment Products and Market Developments_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The concept of 'Modified Duration' differs from 'Macaulay Duration' in that Modified Duration:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Measures the actual years until bond maturity]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Measures the approximate percentage change in bond price for a 1% change in yield]]></text></answer>
+            <answer correct="no"><text><![CDATA[Is always greater than Macaulay Duration]]></text></answer>
+            <answer correct="no"><text><![CDATA[Applies only to zero coupon bonds]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Modified Duration = Macaulay Duration / (1 + y/n), where y is yield and n is compounding frequency. It directly measures price sensitivity — the approximate percentage change in price for a 1% change in yield.
+**The Trap:** Modified Duration is always LESS than Macaulay Duration (divided by a number >1). It applies to all bonds, not just zero coupon bonds.
+**Cross-Exam Context:** Series X-A Chapter 9 covers both duration measures. Series IV extensively tests duration-based hedging strategies.
+**Distributor's Pro-Tip:** For client conversations, Modified Duration is more practical — telling a client 'your bond fund has a modified duration of 5' means approximately 5% price drop for every 1% rise in interest rates.]]></text></explanation>
+    </question>
+</QF>

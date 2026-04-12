@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XC Financial Planning Concepts Review_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following is the correct formula for calculating Equated Monthly Instalment (EMI)?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[EMI = Principal / Number of months]]></text></answer>
+            <answer correct="yes"><text><![CDATA[EMI = P × r × (1+r)^n / [(1+r)^n - 1], where P is principal, r is monthly interest rate, n is number of months]]></text></answer>
+            <answer correct="no"><text><![CDATA[EMI = (Principal + Total Interest) / Number of months]]></text></answer>
+            <answer correct="no"><text><![CDATA[EMI = Principal × Annual interest rate / 12]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The EMI formula is P × r × (1+r)^n / [(1+r)^n - 1], which accounts for compound interest and ensures the loan is fully repaid over the tenure with equal monthly payments.
+**The Trap:** Simple division of principal by months ignores interest. Adding total interest and dividing gives a rough approximation but isn't how EMIs actually work.
+**Cross-Exam Context:** Series X-A Chapter 4 covers loan calculations. Similar EMI concepts appear in Series XII and V-A exams.
+**Distributor's Pro-Tip:** When clients consider taking loans for investment, compare the effective annual cost of the loan with the expected post-tax return — the spread determines whether leveraged investment makes sense.]]></text></explanation>
+    </question>
+</QF>

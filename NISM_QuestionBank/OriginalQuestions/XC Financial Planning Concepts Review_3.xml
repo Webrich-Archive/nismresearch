@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="XC Financial Planning Concepts Review_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the Time Value of Money concept, the Present Value of a future cash flow will be HIGHER when:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The discount rate is higher]]></text></answer>
+            <answer correct="no"><text><![CDATA[The time period is longer]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The discount rate is lower and the time period is shorter]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both discount rate and time period are higher]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Present Value = Future Value / (1+r)^n. PV increases when the discount rate (r) decreases or the time period (n) decreases — less discounting means higher present value.
+**The Trap:** Higher discount rate and longer time period both REDUCE present value by increasing the denominator.
+**Cross-Exam Context:** TVM calculations appear in Series X-A, X-B, VIII (Options pricing), and IV (Bond pricing) exams.
+**Distributor's Pro-Tip:** Use TVM to show clients the real cost of delaying investments — even a 5-year delay in starting SIPs can significantly reduce the terminal corpus due to compounding.]]></text></explanation>
+    </question>
+</QF>

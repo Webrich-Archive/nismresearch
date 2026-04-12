@@ -1,8 +1,8 @@
 # NISM Question Bank — Handoff Document
 
-**Date:** April 12, 2026 (Updated after Phase 13 — Series XV and XVII complete)
-**Status:** 21 of 31 exams complete. 9,143 questions generated. Phase 13 COMPLETE — XV (500 Qs, 10 topics, 18 caselets) and XVII (500 Qs, 9 topics) both done.
-**For:** Next session should begin Phase 14 — remaining 10 exams (X-C, XIX-A/B/C/D/E, XXI-A/B, XXIII, XXV-A).
+**Date:** April 12, 2026 (Updated after Phase 14A — Series X-C and XXV-A complete)
+**Status:** 23 of 31 exams complete. 9,393 questions generated. Phase 14A COMPLETE — X-C (125 Qs, 5 topics) and XXV-A (125 Qs, 5 topics) both done.
+**For:** Next session should continue Phase 14B — XIX-A (AIF Distributors Cat I&II, 500 Qs) and XIX-B (AIF Distributors Cat III, 500 Qs).
 
 ---
 
@@ -33,7 +33,9 @@
 | Series II-B - RTA Mutual Fund | II-B | 250 | 6 | Moderate | Generated from PDF. 8 caselets (40 caselet Qs). |
 | Series XV - Research Analyst | XV | 500 | 10 | Hard | Generated from PDF (25% calc, 35% conceptual, 20% caselet, 15% regulatory). 18 caselets (90 caselet Qs). |
 | Series XVII - Retirement Adviser | XVII | 500 | 9 | Moderate | Generated from PDF (15% calc, 50% conceptual, 20% regulatory, 15% application). No caselets. |
-| **Total (completed exams)** | | **9,143** | **207** | | |
+| Series X-C - Investment Adviser Renewal | X-C | 125 | 5 | Easy | Generated from X-A PDF (10% calc, 60% conceptual, 20% regulatory, 10% application). No caselets. |
+| Series XXV-A - Research Services (Sales) | XXV-A | 125 | 5 | Easy | Generated from XV PDF (0% calc, 55% conceptual, 40% regulatory, 5% application). No caselets. |
+| **Total (completed exams)** | | **9,393** | **217** | | |
 
 **X-B Complete Breakdown (3 Sessions, Modules 7-12):**
 
@@ -85,21 +87,22 @@
 ```
 /Users/shivam/aiworkspace/nismresearch/NISM_QuestionBank/
 ├── ExamWeightages.plist          (31 exams, topic names aligned with file prefixes for 20 completed exams)
-├── Topics.plist                  (198 topics, 8,643 questions)
-├── TopicsLite.plist              (198 topics, all ≥30% ratio)
-├── ChapterArticles.plist         (198 chapters, each with single "All Topics" article)
-├── QuestionToArticleNumber.plist (8,643 entries, all mapping to article "1")
-├── OriginalQuestions/            (8,643 XML files)
+├── Topics.plist                  (217 topics, 9,393 questions)
+├── TopicsLite.plist              (217 topics, all ≥30% ratio)
+├── ChapterArticles.plist         (217 chapters, each with single "All Topics" article)
+├── QuestionToArticleNumber.plist (9,393 entries, all mapping to article "1")
+├── OriginalQuestions/            (9,393 XML files)
 ├── manifest.json                 (progress tracking — version 5.0)
 ├── TaxRatesReference_FY2025-26.md (verified tax rates)
 ├── 15 audit report files         (detailed per-chapter audit results for first 5 exams)
 └── HANDOFF.md                    (this file)
 ```
 
-### Validation Status (All Pass — verified Phase 13 XV)
+### Validation Status (All Pass — verified Phase 14A X-C + XXV-A)
 - 5/5 plists: OK (plutil)
-- 8,643/8,643 XML files: valid (xml.etree.ElementTree)
+- 9,393/9,393 XML files: valid (xml.etree.ElementTree)
 - 0 intra-exam duplicates, all unique IDs
+- 250 new Phase 14A files: all validated (4 answers, 1 correct, explanation with 4 sections, CDATA wrapping)
 
 ### Series XV Breakdown
 
@@ -128,6 +131,49 @@
 - Fundamental Analysis and Valuation Techniques → Ch 10 (Valuation) + Ch 11 (Commodity FA) + Ch 12 (Risk & Return)
 - Technical Analysis → Ch 15
 - Regulatory Requirements for Research Analysts → Ch 13 (Research Report Quality) + Ch 14 (Legal & Regulatory)
+
+### Sub-Phase 14A Breakdown — Series X-C and XXV-A
+
+**Series X-C — Investment Adviser (Renewal):** 125 questions, 5 topics
+
+| Topic (exact plist key) | Qs | Weightage |
+|--------------------------|:--:|:---------:|
+| XC Regulatory Updates and Amendments | 31 | 25% |
+| XC Compliance and Ethics Updates | 25 | 20% |
+| XC Financial Planning Concepts Review | 25 | 20% |
+| XC Investment Products and Market Developments | 25 | 20% |
+| XC Case Studies and Practical Application | 19 | 15% |
+| **X-C Total** | **125** | **100%** |
+
+**Source PDF:** X-A PDF (NISM-Series-X-A Investment Adviser Level 1 - June 2025.pdf, 394 pages) — focused on Chapters 18-20 (Regulations, Ethics, Grievance Redress) plus review content from Modules 1 and 3.
+**Question mix:** 10% calc, 60% conceptual, 20% regulatory, 10% application. No caselets.
+**Exam format:** 50 questions, 1 hour, 50% pass, no negative marking.
+
+**Series XXV-A — Research Services (Sales):** 125 questions, 5 topics
+
+| Topic (exact plist key) | Qs | Weightage |
+|--------------------------|:--:|:---------:|
+| XXVA Introduction to Research Analyst Framework | 28 | 22% |
+| XXVA Sales and Distribution of Research Services | 27 | 22% |
+| XXVA Regulatory Compliance for Non-Core Research Personnel | 25 | 20% |
+| XXVA Code of Conduct and Ethical Standards | 22 | 18% |
+| XXVA Investor Protection Measures | 23 | 18% |
+| **XXV-A Total** | **125** | **100%** |
+
+**Source PDF:** XV PDF (NISM-Series-XV-ResearchAnalyst-Workbook - February 2026.pdf, 342 pages) — focused on Chapters 1, 13, 14 (RA Profession, Research Reports, Legal & Regulatory).
+**Question mix:** 0% calc, 55% conceptual, 40% regulatory, 5% application. No caselets.
+**Exam format:** 50 questions, 1 hour, 50% pass, no negative marking.
+
+---
+
+### What's Next — Phase 14B (XIX-A and XIX-B)
+
+**Next 2 exams:** Series XIX-A (AIF Distributors Cat I&II, 500 Qs) and Series XIX-B (AIF Distributors Cat III, 500 Qs).
+**PDFs available:** XIX-A (280 pages) and XIX-B (352 pages).
+**Key notes:** Both have 10% negative marking (not 25%). Significant overlap (~30-40%) in regulatory framework — generate unique questions.
+**Estimated sessions:** 2 (1 per exam).
+
+---
 
 ### What's Next — Series XVII (Retirement Adviser)
 
