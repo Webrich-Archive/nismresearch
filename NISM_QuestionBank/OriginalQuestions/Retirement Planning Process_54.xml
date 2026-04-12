@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Retirement Planning Process_54" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Ravi has a target retirement corpus of Rs.2,00,00,000. He earns 12% on his investments. If he starts investing at age 25 with 35 years to retirement, his monthly SIP would be approximately Rs.3,158. If he delays to age 30 (30 years to retirement), his monthly SIP increases to approximately:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs.3,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.4,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.5,500]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs.5,075]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** With 30 years at 12%, PMT(1%, 360, 0, -20000000, 1) gives approximately Rs.5,075. Delaying by just 5 years increases the monthly requirement by about 60%. This dramatically illustrates the cost of delay.
+**The Trap:** Candidates may think 5 years less would only increase the SIP by a small percentage. Due to compound interest, the impact is much larger than linear.
+**Cross-Exam Context:** This is a powerful example of why early financial planning is critical — the cost of delay grows exponentially, not linearly.
+**Distributor's Pro-Tip:** Use side-by-side comparisons like this in client meetings. The visual difference between Rs.3,158 and Rs.5,075 for the same goal is a powerful motivator to start early.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Retirement Planning Process_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Rani needs Rs.35,000 per month (current value) at retirement. She will retire in 25 years at age 60 and expects to live until 80. Inflation is 6% and bank deposit rate is 8%. What is the real rate of return for her corpus calculation?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[2.00%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[1.89%]]></text></answer>
+            <answer correct="no"><text><![CDATA[14.48%]]></text></answer>
+            <answer correct="no"><text><![CDATA[6.00%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Real rate = ((1 + nominal rate) / (1 + inflation rate)) - 1 = ((1.08) / (1.06)) - 1 = 1.0189 - 1 = 0.0189 = 1.89%. This is the Fisher equation applied to find the inflation-adjusted return.
+**The Trap:** Candidates may simply subtract inflation from the nominal rate (8% - 6% = 2%). The correct method uses the Fisher equation which gives 1.89%, not 2%.
+**Cross-Exam Context:** The real rate of return concept appears across multiple NISM modules — understanding the Fisher equation is essential for any financial planning calculation.
+**Distributor's Pro-Tip:** Always use the Fisher equation rather than simple subtraction. The difference may seem small but compounds significantly over 20-30 year horizons.]]></text></explanation>
+    </question>
+</QF>

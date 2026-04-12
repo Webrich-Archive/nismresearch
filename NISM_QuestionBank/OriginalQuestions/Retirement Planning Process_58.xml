@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Retirement Planning Process_58" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Vikram, aged 45, has Rs.25,00,000 in retirement savings earning 10% annually. He needs Rs.1,50,00,000 at age 60 (15 years away). What is the future value of his existing savings?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs.62,50,000]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs.1,04,43,117]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.37,50,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.75,00,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** FV = Rs.25,00,000 x (1.10)^15 = Rs.25,00,000 x 4.1772 = Rs.1,04,43,117 approximately. His existing savings will grow to about Rs.1.04 crore.
+**The Trap:** Simple interest calculation (25,00,000 x 10% x 15 = 37,50,000 + 25,00,000 = 62,50,000) is incorrect. Must use compound interest.
+**Cross-Exam Context:** This is a gap analysis step — the difference between Rs.1,50,00,000 and Rs.1,04,43,117 is the gap that needs to be filled.
+**Distributor's Pro-Tip:** After computing the FV of existing savings, calculate the monthly SIP needed to fill the remaining gap. This gives the client a clear, actionable target.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Evaluating Fund Performance and Fund Selection_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A mutual fund scheme has delivered a return of 14% with a standard deviation of 4%. If the risk-free rate is 5%, what is the Sharpe Ratio?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[2.25]]></text></answer>
+            <answer correct="no"><text><![CDATA[3.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.44]]></text></answer>
+            <answer correct="no"><text><![CDATA[9.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Sharpe Ratio = (Investment Return - Risk Free Rate) / Standard Deviation = (14% - 5%) / 4% = 9% / 4% = 2.25.
+**The Trap:** Some candidates divide the total return (14%) by SD (4%) = 3.50, forgetting to subtract the risk-free rate first.
+**Cross-Exam Context:** The Sharpe Ratio is a key risk-adjusted performance measure. A higher Sharpe Ratio indicates better compensation per unit of risk taken.
+**Distributor's Pro-Tip:** When comparing two funds with similar returns, recommend the one with a higher Sharpe Ratio — it means the fund manager achieved those returns with less volatility.]]></text></explanation>
+    </question>
+</QF>

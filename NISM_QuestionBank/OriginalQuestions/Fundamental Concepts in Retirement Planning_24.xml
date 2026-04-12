@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Fundamental Concepts in Retirement Planning_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Anil wants to accumulate Rs.1 crore for retirement in 30 years. If he expects a return of 8% per annum, what is the approximate monthly investment required?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs.3,500]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs.6,700]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.8,800]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.10,500]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Using PMT function: PMT(8%/12, 360, 0, -10000000, 0) = approximately Rs.6,700 per month. At 10% the amount would be approximately Rs.4,400.
+**The Trap:** Rs.10,500 is the amount needed for only 25 years (not 30). Rs.8,800 applies at a lower return rate. These are trap options from the workbook's comparative examples.
+**Cross-Exam Context:** Monthly savings calculations for retirement appear in Series X-A (financial planning), X-B (retirement module), and are a core topic in XVII.
+**Distributor's Pro-Tip:** Show clients both scenarios: Rs.6,700 at 8% for 30 years vs Rs.10,500 for 25 years. A 5-year delay increases the monthly burden by over 55%.]]></text></explanation>
+    </question>
+</QF>

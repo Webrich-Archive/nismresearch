@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Financial Markets and Investment Products_49" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Sneha has a total investment of Rs.15 lakh. Her financial advisor recommends rebalancing. Her current allocation is: Equity Rs.10 lakh, Debt Rs.3 lakh, Gold Rs.2 lakh. Her target is 50:35:15. How much equity should she sell?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs.2.5 lakh]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.5 lakh]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.1 lakh]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.7.5 lakh]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Target equity = 50% of Rs.15 lakh = Rs.7.5 lakh. Current equity = Rs.10 lakh. She needs to sell Rs.10 lakh - Rs.7.5 lakh = Rs.2.5 lakh from equity. This amount should be redistributed to debt and gold to reach target allocation.
+**The Trap:** Rs.5 lakh is half of the current equity — not the rebalancing amount. Always calculate the target value first, then find the difference from current value.
+**Cross-Exam Context:** Rebalancing calculation questions are common in the NISM exam. The process is: (1) calculate target value for each asset class, (2) compare with current value, (3) determine buy/sell amounts.
+**Distributor's Pro-Tip:** Automate rebalancing reviews with clients at fixed intervals (annually or semi-annually). Use threshold-based triggers (e.g., 5% deviation) for interim rebalancing.]]></text></explanation>
+    </question>
+</QF>

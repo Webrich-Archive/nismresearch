@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Fundamental Concepts in Retirement Planning_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If the nominal rate of return on an investment is 7% and inflation is at 6%, what is the real rate of return?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[1.00%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[0.94%]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.06%]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.87%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Real rate = ((1 + 0.07)/(1 + 0.06)) - 1 = (1.07/1.06) - 1 = 0.009434 = 0.94% approximately.
+**The Trap:** 1% is the approximate answer using simple subtraction (7% - 6%), but the precise Fisher equation gives 0.94%. In exams, look for the precise answer.
+**Cross-Exam Context:** Real rate calculations with the Fisher equation are tested in Series I (currency derivatives), IV (interest rate derivatives), and X-A.
+**Distributor's Pro-Tip:** A real rate below 1% means the investment barely preserves purchasing power. This is why bank FDs alone are insufficient for retirement — their real returns are often near zero or negative.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Evaluating Fund Performance and Fund Selection_8" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which risk measure captures the total volatility of a fund's returns, including both systematic and unsystematic risk?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Beta]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sharpe Ratio]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Standard Deviation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Alpha]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Standard deviation measures the total dispersion of returns around the mean, capturing both systematic (market) and unsystematic (fund-specific) risk.
+**The Trap:** Candidates often confuse beta (which measures only systematic risk relative to market) with standard deviation (which measures total risk).
+**Cross-Exam Context:** Standard deviation is used in the Sharpe Ratio formula as the denominator, representing total risk per unit of excess return.
+**Distributor's Pro-Tip:** Use standard deviation to explain volatility to clients. A fund with SD of 15% will see returns fluctuate much more than one with SD of 5%.]]></text></explanation>
+    </question>
+</QF>

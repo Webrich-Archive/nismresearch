@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Financial Markets and Investment Products_42" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Amit is comparing two bonds: Bond A with 5-year maturity and Bond B with 15-year maturity, both with the same coupon rate. Which bond has higher interest rate risk?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Bond A (5-year maturity)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both have the same interest rate risk]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Bond B (15-year maturity)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Neither has interest rate risk since they pay fixed coupons]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Longer maturity bonds have higher interest rate risk (duration). Bond B's price will change more than Bond A's for the same change in interest rates because its cash flows extend further into the future.
+**The Trap:** Fixed coupons do not eliminate interest rate risk — they create it. When market rates change, the fixed coupon becomes relatively more or less attractive, changing the bond's market price.
+**Cross-Exam Context:** The relationship between maturity/duration and interest rate sensitivity is a core fixed-income concept tested in the NISM exam.
+**Distributor's Pro-Tip:** For clients concerned about interest rate volatility, recommend shorter duration debt funds. Reserve longer duration funds for clients who can tolerate NAV fluctuations.]]></text></explanation>
+    </question>
+</QF>

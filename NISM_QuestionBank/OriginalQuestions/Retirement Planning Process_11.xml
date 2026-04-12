@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Retirement Planning Process_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If Rani needs a corpus of Rs.3,00,48,832 at retirement in 25 years and can earn 12% return on investments, what is her approximate required monthly savings?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs.25,000]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs.15,835]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.31,387]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.8,512]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Using PMT(12%/12, 300, 0, -30048832, 1) where rate = 1% per month, nper = 300 months (25 years). The result is approximately Rs.15,835 per month.
+**The Trap:** Candidates may confuse the 25-year savings period (300 months) with the 20-year retirement period (240 months). The PMT uses the accumulation period.
+**Cross-Exam Context:** The PMT function is a core financial planning tool. Note the difference between beginning-of-period (type=1) and end-of-period (type=0) payments.
+**Distributor's Pro-Tip:** Show clients how even small changes in the savings start date dramatically affect the monthly amount needed.]]></text></explanation>
+    </question>
+</QF>

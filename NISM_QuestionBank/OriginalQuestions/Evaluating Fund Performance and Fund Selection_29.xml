@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Evaluating Fund Performance and Fund Selection_29" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Harish earns 9% on a corporate bond and pays 30% tax. Simultaneously, a tax-free government bond offers 6.5%. Which investment gives a higher post-tax return?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Corporate bond with post-tax return of 9%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Tax-free bond at 6.5% because the corporate bond's post-tax return is only 6.3%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both give exactly the same post-tax return]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cannot be compared without knowing the maturity period]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Corporate bond post-tax return = 9% x (1 - 0.30) = 9% x 0.70 = 6.30%. Tax-free bond return = 6.50%. The tax-free bond gives a higher post-tax return (6.5% > 6.3%).
+**The Trap:** Candidates compare pre-tax returns (9% > 6.5%) and assume the corporate bond is better, without adjusting for tax impact.
+**Cross-Exam Context:** Post-tax comparison is mandatory for proper investment evaluation. The tax bracket significantly changes which instrument is superior.
+**Distributor's Pro-Tip:** Always compute post-tax returns before recommending debt instruments. For clients in the 30% bracket, tax-free bonds often beat seemingly higher-yielding taxable options.]]></text></explanation>
+    </question>
+</QF>

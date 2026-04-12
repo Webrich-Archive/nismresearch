@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Evaluating Fund Performance and Fund Selection_42" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A fund with beta 1.1 and the market index both start at 100. If the index ends at 110, what is the approximate expected ending value of the fund?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[110]]></text></answer>
+            <answer correct="yes"><text><![CDATA[111]]></text></answer>
+            <answer correct="no"><text><![CDATA[121]]></text></answer>
+            <answer correct="no"><text><![CDATA[101]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Market return = 10%. Fund expected return = Beta x Market return = 1.1 x 10% = 11%. Starting at 100, the fund should reach approximately 111.
+**The Trap:** Candidates may multiply 110 by 1.1 = 121 (applying beta to the ending value instead of the return) or think beta of 1.1 means just 1% more than market.
+**Cross-Exam Context:** Beta of 1.1 means 10% more movement than the index. As the textbook states, a stock with beta 1.1 moves 10% more than the index in either direction.
+**Distributor's Pro-Tip:** Use concrete rupee examples like this when explaining beta to clients. Saying 'beta 1.1' is abstract, but showing Rs.100 becoming Rs.111 vs Rs.110 makes it tangible.]]></text></explanation>
+    </question>
+</QF>

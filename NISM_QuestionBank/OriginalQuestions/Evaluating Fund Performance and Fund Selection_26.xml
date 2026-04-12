@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Evaluating Fund Performance and Fund Selection_26" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Vikram's fund returned 16% with a standard deviation of 10%. The benchmark returned 12% with a standard deviation of 8%. Risk-free rate is 5%. What is the Sharpe Ratio of Vikram's fund?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[1.60]]></text></answer>
+            <answer correct="yes"><text><![CDATA[1.10]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.88]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.40]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Sharpe Ratio = (Fund Return - Risk Free Rate) / Standard Deviation = (16% - 5%) / 10% = 11% / 10% = 1.10.
+**The Trap:** Candidates may use the benchmark return instead of the risk-free rate in the numerator, or use the benchmark SD instead of the fund's own SD.
+**Cross-Exam Context:** The Sharpe Ratio always uses the risk-free rate (not benchmark return) as the baseline and the fund's own standard deviation as the risk measure.
+**Distributor's Pro-Tip:** Compare the fund's Sharpe Ratio against its benchmark's Sharpe Ratio. Here, benchmark Sharpe = (12%-5%)/8% = 0.875. The fund's 1.10 is better — it compensates risk more efficiently.]]></text></explanation>
+    </question>
+</QF>

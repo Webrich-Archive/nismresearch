@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Evaluating Fund Performance and Fund Selection_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Ritu's NAV grew from Rs.15.00 to Rs.21.00 over 4 years. What is the CAGR?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[10.00%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[8.78%]]></text></answer>
+            <answer correct="no"><text><![CDATA[40.00%]]></text></answer>
+            <answer correct="no"><text><![CDATA[15.00%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** CAGR = ((21/15)^(1/4)) - 1 = (1.40)^(0.25) - 1. 1.40^0.25 = 1.0878. CAGR = 8.78%.
+**The Trap:** Candidates may divide the 40% total return by 4 to get 10% (simple annualization) instead of using the CAGR formula with geometric compounding.
+**Cross-Exam Context:** CAGR vs simple annualized return is a frequently tested distinction. CAGR accounts for compounding and gives a lower figure than simple division for multi-year periods.
+**Distributor's Pro-Tip:** When showing historical fund performance, use CAGR for accuracy. A fund with 40% total return over 4 years sounds impressive, but the CAGR of 8.78% gives a more realistic annual picture.]]></text></explanation>
+    </question>
+</QF>

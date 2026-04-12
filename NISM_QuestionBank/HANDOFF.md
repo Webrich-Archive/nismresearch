@@ -1,8 +1,8 @@
 # NISM Question Bank — Handoff Document
 
-**Date:** April 12, 2026 (Updated after Phase 13 — Series XV complete, XVII pending)
-**Status:** 20 of 31 exams complete. 8,643 questions generated. Phase 13 IN PROGRESS — XV (500 Qs, 10 topics, 18 caselets) COMPLETE. XVII (500 Qs, 9 topics) PENDING.
-**For:** Next session should complete Phase 13 — Series XVII (Retirement Adviser).
+**Date:** April 12, 2026 (Updated after Phase 13 — Series XV and XVII complete)
+**Status:** 21 of 31 exams complete. 9,143 questions generated. Phase 13 COMPLETE — XV (500 Qs, 10 topics, 18 caselets) and XVII (500 Qs, 9 topics) both done.
+**For:** Next session should begin Phase 14 — remaining 10 exams (X-C, XIX-A/B/C/D/E, XXI-A/B, XXIII, XXV-A).
 
 ---
 
@@ -32,7 +32,8 @@
 | Series II-A - RTA Corporate | II-A | 250 | 8 | Moderate | Generated from PDF. 6 caselets (30 caselet Qs). |
 | Series II-B - RTA Mutual Fund | II-B | 250 | 6 | Moderate | Generated from PDF. 8 caselets (40 caselet Qs). |
 | Series XV - Research Analyst | XV | 500 | 10 | Hard | Generated from PDF (25% calc, 35% conceptual, 20% caselet, 15% regulatory). 18 caselets (90 caselet Qs). |
-| **Total (completed exams)** | | **8,643** | **198** | | |
+| Series XVII - Retirement Adviser | XVII | 500 | 9 | Moderate | Generated from PDF (15% calc, 50% conceptual, 20% regulatory, 15% application). No caselets. |
+| **Total (completed exams)** | | **9,143** | **207** | | |
 
 **X-B Complete Breakdown (3 Sessions, Modules 7-12):**
 

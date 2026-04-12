@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Fundamental Concepts in Retirement Planning_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Rajesh needs Rs.30,000 per month today to meet his family expenses. If inflation is 6% per annum, what will be his approximate monthly expense requirement after 10 years?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs.45,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.48,000]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs.53,725]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.60,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Using the formula FV = PV × (1+r)^n: Rs.30,000 × (1.06)^10 = Rs.30,000 × 1.7908 = Rs.53,725 approximately.
+**The Trap:** Rs.48,000 comes from simply adding 6% of Rs.30,000 ten times (simple interest logic), which ignores compounding. Rs.60,000 is double, which would require roughly 12 years at 6%.
+**Cross-Exam Context:** Inflation-adjusted calculations appear in Series V-A (MF), X-A/X-B (Investment Adviser), and XV (Research Analyst) exams.
+**Distributor's Pro-Tip:** Use the Excel FV function or the Rule of 72 for quick estimates. At 6% inflation, costs double roughly every 12 years.]]></text></explanation>
+    </question>
+</QF>

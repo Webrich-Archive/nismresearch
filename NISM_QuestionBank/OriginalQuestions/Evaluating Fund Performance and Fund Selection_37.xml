@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Evaluating Fund Performance and Fund Selection_37" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Fund P returned 20% with SD of 16%. Fund Q returned 15% with SD of 6%. Risk-free rate is 5%. Which fund has a superior Sharpe Ratio?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Fund P with Sharpe Ratio of 1.25]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Fund Q with Sharpe Ratio of 1.67]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fund P because it has higher returns]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both have equal Sharpe Ratios]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Fund P Sharpe = (20%-5%)/16% = 15%/16% = 0.9375. Fund Q Sharpe = (15%-5%)/6% = 10%/6% = 1.667. Fund Q has a significantly better risk-adjusted return.
+**The Trap:** Candidates may pick Fund P because it has higher absolute returns (20% vs 15%), ignoring that Fund Q achieved its returns with far less volatility.
+**Cross-Exam Context:** This is a powerful example of why risk-adjusted metrics matter. Higher returns do not automatically mean better performance if achieved with disproportionate risk.
+**Distributor's Pro-Tip:** Fund Q is the better choice for most clients. Only recommend Fund P to highly aggressive investors who can stomach a standard deviation of 16%.]]></text></explanation>
+    </question>
+</QF>

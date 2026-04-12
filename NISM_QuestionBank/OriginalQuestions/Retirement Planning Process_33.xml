@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Retirement Planning Process_33" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Priya is 40 years old, earns Rs.20,00,000 per year, and wants to retire at 58. She currently saves Rs.3,00,000 annually. Using the Expense Protection Method, she estimates needing Rs.80,000 per month post-retirement (today's value). At 6% inflation, what will this amount be at retirement (18 years)?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs.1,44,000]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs.2,28,397]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.1,60,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.3,20,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Monthly expense at retirement = Rs.80,000 x (1.06)^18 = Rs.80,000 x 2.8543 = Rs.2,28,346, approximately Rs.2,28,397. Inflation compounds over 18 years, nearly tripling the expense.
+**The Trap:** Using simple multiplication (80,000 x 1.06 x 18) or simple interest will give incorrect answers. Compound inflation must be used.
+**Cross-Exam Context:** The Expense Protection Method requires inflation adjustment of every expense category to the retirement date.
+**Distributor's Pro-Tip:** Show clients the inflation-adjusted figure to create urgency about starting or increasing their retirement savings.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Retirement Planning Process_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In Rani's retirement corpus calculation (Rs.35,000/month current, 25 years to retirement, 20 years in retirement, 6% inflation, 8% deposit rate), what is the approximate corpus needed at retirement?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs.1,50,00,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.2,50,00,000]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs.3,00,48,832]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.3,50,00,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step 1: Monthly income at retirement = Rs.35,000 x (1.06)^25 = Rs.1,50,215. Step 2: Real rate = 1.89% per annum. Step 3: Corpus = PV(1.89%/12, 240, -150215, 0, 1) = Rs.3,00,48,832.
+**The Trap:** A common error is using the nominal rate instead of the real rate in the PV calculation, or forgetting that the retirement period is 20 years (240 months), not 25 years.
+**Cross-Exam Context:** This is a signature calculation in the NISM retirement planning module. The three-step process (inflate income, compute real rate, PV of annuity) must be thoroughly understood.
+**Distributor's Pro-Tip:** Use a financial calculator or Excel PV function to verify. Walk clients through the logic so they understand why the corpus seems large.]]></text></explanation>
+    </question>
+</QF>

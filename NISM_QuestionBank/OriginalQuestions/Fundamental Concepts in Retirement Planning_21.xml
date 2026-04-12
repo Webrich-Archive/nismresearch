@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Fundamental Concepts in Retirement Planning_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The Present Value (PV) of Rs.25,526 required 5 years from now, assuming an 8% rate of return, is approximately:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs.20,000]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs.17,372]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.19,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.22,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** PV = FV / (1+r)^n = 25,526 / (1.08)^5 = 25,526 / 1.4693 = Rs.17,372 approximately. This is directly from the NISM XVII workbook example.
+**The Trap:** Rs.20,000 is the original present-day expense amount from which Rs.25,526 was derived using 5% inflation. Don't confuse the inflation-adjusted amount with the PV calculation.
+**Cross-Exam Context:** PV calculations are fundamental to Series IV (bond pricing), X-A (financial planning), and I (derivatives pricing).
+**Distributor's Pro-Tip:** The PV concept shows clients that they don't need Rs.25,526 today to have that amount in 5 years — investing Rs.17,372 today at 8% achieves the same goal.]]></text></explanation>
+    </question>
+</QF>

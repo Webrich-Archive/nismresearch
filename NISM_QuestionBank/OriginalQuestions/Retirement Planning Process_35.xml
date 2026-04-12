@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Retirement Planning Process_35" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If the nominal rate of return on bank deposits is 7% and inflation is 5%, what is the real rate of return using the Fisher equation?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[2.00%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[1.90%]]></text></answer>
+            <answer correct="no"><text><![CDATA[12.35%]]></text></answer>
+            <answer correct="no"><text><![CDATA[3.50%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Real rate = ((1.07)/(1.05)) - 1 = 1.01905 - 1 = 0.01905 = 1.90% approximately. The Fisher equation gives a slightly lower figure than simple subtraction (which would give 2%).
+**The Trap:** Simple subtraction (7% - 5% = 2%) is a common shortcut but is technically incorrect. The Fisher equation yields 1.90%.
+**Cross-Exam Context:** This calculation is identical in concept to Question 9 but with different numbers, reinforcing that the Fisher equation must always be used.
+**Distributor's Pro-Tip:** When comparing fixed deposit returns for retirees, always present the real (after-inflation) return. A 7% FD with 5% inflation only grows wealth at 1.9% in real terms.]]></text></explanation>
+    </question>
+</QF>

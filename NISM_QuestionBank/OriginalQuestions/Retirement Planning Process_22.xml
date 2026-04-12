@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Retirement Planning Process_22" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If a retiree's monthly expenses are Rs.60,000 today, what will they become in 10 years at 6% annual inflation?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs.72,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.96,000]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs.1,07,451]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.1,20,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Future expense = Rs.60,000 x (1.06)^10 = Rs.60,000 x 1.7908 = Rs.1,07,451 approximately.
+**The Trap:** Simple multiplication (60,000 x 1.6 = 96,000) gives the wrong answer. Must use compound inflation.
+**Cross-Exam Context:** This is a direct example from the textbook illustrating inflation risk in the distribution stage.
+**Distributor's Pro-Tip:** Show retirees this calculation to emphasize why some equity exposure is necessary even in retirement.]]></text></explanation>
+    </question>
+</QF>

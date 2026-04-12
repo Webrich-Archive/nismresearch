@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Financial Markets and Investment Products_34" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Rohit has a portfolio of Rs.50 lakh. His target allocation is 50% equity, 30% debt, 20% gold. Currently his portfolio shows Rs.30 lakh in equity, Rs.12 lakh in debt, and Rs.8 lakh in gold. By how much is equity overweight?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs.5 lakh]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.10 lakh]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.30 lakh]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.2 lakh]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Target equity = 50% of Rs.50 lakh = Rs.25 lakh. Current equity = Rs.30 lakh. Overweight = Rs.30 lakh - Rs.25 lakh = Rs.5 lakh.
+**The Trap:** Rs.10 lakh might come from subtracting gold (Rs.8 lakh) from debt (Rs.12 lakh) — a completely wrong approach. Always compare actual allocation against target allocation.
+**Cross-Exam Context:** Rebalancing calculations require computing the gap between target and actual allocation for each asset class, a practical skill tested in the NISM exam.
+**Distributor's Pro-Tip:** Set up rebalancing alerts for clients when any asset class deviates by more than 5% from its target weight. This prevents emotional decision-making.]]></text></explanation>
+    </question>
+</QF>

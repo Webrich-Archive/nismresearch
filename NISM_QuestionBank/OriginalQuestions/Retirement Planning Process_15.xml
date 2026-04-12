@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Retirement Planning Process_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[After adjusting for existing investments, Rani's new required monthly savings drops from Rs.15,835 to approximately:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs.10,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.12,500]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs.6,876]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.8,512]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** With the adjusted corpus of Rs.1,30,48,768, PMT(12%/12, 300, 0, -13048768, 1) = approximately Rs.6,876 per month.
+**The Trap:** Candidates may recalculate using the wrong corpus figure or forget to adjust for the existing investment.
+**Cross-Exam Context:** This demonstrates the complete retirement planning calculation sequence: inflate, real rate, PV of annuity, adjust for existing investments, PMT for gap.
+**Distributor's Pro-Tip:** Present the before and after numbers to clients to show the value of what they have already saved.]]></text></explanation>
+    </question>
+</QF>

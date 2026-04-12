@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Retirement Planning Process_36" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Vinod needs Rs.50,000 per month (current value) at retirement in 20 years. Inflation is 5% and he expects 7% return during retirement. What is his approximate monthly income requirement at retirement?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs.1,00,000]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs.1,32,665]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.1,50,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.70,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Monthly income at retirement = Rs.50,000 x (1.05)^20 = Rs.50,000 x 2.6533 = Rs.1,32,665 approximately.
+**The Trap:** Do not use simple interest (50,000 x 1.05 x 20 = 1,00,000). The compound inflation factor (1.05)^20 = 2.6533 gives the correct answer.
+**Cross-Exam Context:** This is the first step in the corpus calculation — inflating the current monthly need to the retirement date.
+**Distributor's Pro-Tip:** Use this step to set client expectations about the magnitude of future expenses. Seeing Rs.50,000 become Rs.1,32,665 makes the inflation impact tangible.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Evaluating Fund Performance and Fund Selection_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Anil's equity fund delivered 18% return with a standard deviation of 12%. A debt fund delivered 9% return with a standard deviation of 3%. Risk-free rate is 6%. Which fund has a better Sharpe Ratio?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Equity fund with Sharpe Ratio of 1.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Debt fund with Sharpe Ratio of 1.50]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Both have equal Sharpe Ratios of 1.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equity fund with Sharpe Ratio of 2.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Equity fund Sharpe = (18%-6%)/12% = 12%/12% = 1.00. Debt fund Sharpe = (9%-6%)/3% = 3%/3% = 1.00. Both funds have identical Sharpe Ratios of 1.00.
+**The Trap:** Candidates assume the equity fund must be better because it has higher returns, or the debt fund because it has lower risk. The Sharpe Ratio equalizes risk-adjusted performance.
+**Cross-Exam Context:** This question tests whether candidates can apply the Sharpe Ratio formula and interpret equal ratios correctly — both funds compensate equally per unit of risk.
+**Distributor's Pro-Tip:** When two funds have equal Sharpe Ratios, recommend based on the client's risk profile — the equity fund for growth-seekers and the debt fund for conservative investors.]]></text></explanation>
+    </question>
+</QF>

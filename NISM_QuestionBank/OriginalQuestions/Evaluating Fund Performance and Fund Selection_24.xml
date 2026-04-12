@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Evaluating Fund Performance and Fund Selection_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which tool is most appropriate for calculating returns on systematic investment plans (SIPs) with multiple irregular cash flows?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[CAGR]]></text></answer>
+            <answer correct="no"><text><![CDATA[Simple annualized return]]></text></answer>
+            <answer correct="yes"><text><![CDATA[XIRR]]></text></answer>
+            <answer correct="no"><text><![CDATA[Absolute return]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** XIRR (Extended Internal Rate of Return) handles multiple cash flows at irregular intervals, making it ideal for SIPs where investments are made periodically.
+**The Trap:** Candidates may choose CAGR, which works for single lump-sum investments. CAGR cannot handle multiple cash inflows and outflows at different dates.
+**Cross-Exam Context:** XIRR is the standard for evaluating SIP returns and NPS contributions. The textbook example shows Rs.10,000 quarterly investments yielding 14.26% XIRR.
+**Distributor's Pro-Tip:** Always use XIRR to calculate SIP returns for clients. Regular monthly SIPs cannot be evaluated using simple CAGR — it would give an inaccurate picture.]]></text></explanation>
+    </question>
+</QF>

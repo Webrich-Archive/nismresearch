@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Evaluating Fund Performance and Fund Selection_23" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Amit invested Rs.1,00,000 in a fund that delivered 40% return over 6 years. What is the simple annualized return?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[6.67%]]></text></answer>
+            <answer correct="no"><text><![CDATA[40.00%]]></text></answer>
+            <answer correct="no"><text><![CDATA[8.00%]]></text></answer>
+            <answer correct="no"><text><![CDATA[5.77%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Simple annualized return = Total return / Number of years = 40% / 6 = 6.67% per annum. This is the textbook example from the chapter.
+**The Trap:** Candidates may confuse simple annualization with CAGR. CAGR for this would be (1.40^(1/6))-1 = 5.77%, which is lower due to compounding adjustment.
+**Cross-Exam Context:** The difference between simple annualized return (6.67%) and CAGR (5.77%) illustrates why the method of annualization matters significantly.
+**Distributor's Pro-Tip:** Know when to use which metric. Simple annualization is a quick approximation, but CAGR is more accurate for comparing performance across different time periods.]]></text></explanation>
+    </question>
+</QF>

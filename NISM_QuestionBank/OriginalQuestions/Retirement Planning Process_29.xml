@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Retirement Planning Process_29" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Ajay earns Rs.15,00,000 per year. He is 35 years old and plans to retire at 60. If his income grows at 8% annually, what will his gross income be at retirement?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs.1,02,66,969]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.45,00,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.75,00,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.60,00,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Income at retirement = Rs.15,00,000 x (1.08)^25 = Rs.15,00,000 x 6.8485 = Rs.1,02,72,747, approximately Rs.1,02,66,969. This is a standard future value calculation.
+**The Trap:** Simple interest calculation (15,00,000 + 15,00,000 x 8% x 25 = 45,00,000) is incorrect. Must use compound growth for income projections.
+**Cross-Exam Context:** Future income projection is the first step in the Income Replacement Method. Getting this step wrong cascades errors through the entire calculation.
+**Distributor's Pro-Tip:** Use realistic income growth rates — 8-10% is typical for Indian salaried professionals. Self-employed clients may have more variable growth patterns.]]></text></explanation>
+    </question>
+</QF>

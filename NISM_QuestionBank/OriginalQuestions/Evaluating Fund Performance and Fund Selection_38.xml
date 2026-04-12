@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Evaluating Fund Performance and Fund Selection_38" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the primary advantage of using XIRR over CAGR for evaluating NPS returns?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[XIRR is simpler to calculate mentally]]></text></answer>
+            <answer correct="no"><text><![CDATA[XIRR always gives a higher return figure]]></text></answer>
+            <answer correct="yes"><text><![CDATA[XIRR accounts for multiple contributions at different dates, which is how NPS contributions work]]></text></answer>
+            <answer correct="no"><text><![CDATA[XIRR is only applicable for equity investments]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** NPS involves regular contributions (monthly/periodic) at different points in time. XIRR correctly weights each cash flow by its timing, while CAGR only works for a single lump-sum investment.
+**The Trap:** Candidates may think CAGR works for all situations. CAGR assumes one investment at the start and one value at the end — it cannot handle interim cash flows.
+**Cross-Exam Context:** The textbook example of Rs.10,000 quarterly investments over 3 years yielding an XIRR of 14.26% demonstrates why XIRR is essential for periodic investments.
+**Distributor's Pro-Tip:** Use Excel's XIRR function to accurately calculate NPS returns for clients. This gives them a true picture of how their periodic contributions have performed.]]></text></explanation>
+    </question>
+</QF>

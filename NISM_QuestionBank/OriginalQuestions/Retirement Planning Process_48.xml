@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Retirement Planning Process_48" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Suresh has Rs.50,00,000 in his retirement corpus and needs Rs.40,000 per month (inflation-adjusted). If the real return is 2% per annum, how many years will his corpus last approximately?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[About 10 years]]></text></answer>
+            <answer correct="no"><text><![CDATA[About 12 years]]></text></answer>
+            <answer correct="no"><text><![CDATA[About 15 years]]></text></answer>
+            <answer correct="yes"><text><![CDATA[About 11.5 years]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Using the PV of annuity formula in reverse: N = number of periods where PV = 50,00,000, PMT = 40,000/month, rate = 2%/12 per month. Solving gives approximately 11.5 years or about 138 months. This shows the importance of adequate corpus.
+**The Trap:** Simply dividing 50,00,000 by 40,000 gives 125 months (about 10.4 years), but this ignores the interest earned on the remaining corpus. The real rate extends the corpus life.
+**Cross-Exam Context:** This calculation helps retirees understand how long their money will last and whether they face longevity risk.
+**Distributor's Pro-Tip:** Always run this 'how long will it last' calculation for retirees. It creates urgency if the number is too low and provides comfort if it exceeds their expected lifespan.]]></text></explanation>
+    </question>
+</QF>

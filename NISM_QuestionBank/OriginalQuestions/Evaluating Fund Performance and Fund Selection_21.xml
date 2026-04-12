@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Evaluating Fund Performance and Fund Selection_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A fund's NAV was Rs.12.45 three years ago and is Rs.16.18 today. What is the approximate CAGR?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[9.12%]]></text></answer>
+            <answer correct="no"><text><![CDATA[10.00%]]></text></answer>
+            <answer correct="no"><text><![CDATA[29.96%]]></text></answer>
+            <answer correct="no"><text><![CDATA[12.45%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** CAGR = ((16.18/12.45)^(1/3)) - 1 = (1.2996)^(0.3333) - 1 = 1.0912 - 1 = 9.12%. This is the textbook example from the chapter.
+**The Trap:** Candidates may calculate the absolute return (29.96%) and divide by 3 to get approximately 10%, which is the simple average, not CAGR.
+**Cross-Exam Context:** This is a direct textbook example. CAGR represents the smoothed annual growth rate — the actual year-by-year returns may have been very different.
+**Distributor's Pro-Tip:** Use CAGR to show consistent growth. Explain to clients that actual annual returns vary, but CAGR shows what a steady growth rate would have looked like.]]></text></explanation>
+    </question>
+</QF>
