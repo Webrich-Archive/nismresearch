@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="SEBI LODR Regulations_C2_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> TrustLink Registrars Ltd. is a SEBI-registered Category I RTA managing 3.2 crore folios across 450 listed companies. The RTA was established in 2010 and employs 800 staff members. Ashok Patel is the Compliance Officer, and Kavita Sharma is the Head of Operations.
+
+During a recent SEBI inspection, the following observations were noted: (a) an investor grievance filed on February 1, 2025 by Deepak Verma remained unresolved as of March 15, 2025; (b) the internal auditor, Mr. Suresh Joshi (a Chartered Accountant with 8 years of experience), has been conducting the annual audit since April 2019; (c) correction of investor details in the database was being done directly by operations staff without company approval; (d) physical share bonus credits for one issuer were processed in demat mode; and (e) the structured digital database for UPSI shared by client companies was being maintained with timestamps but without PAN details of recipients.
+
+TrustLink's Board is reviewing these findings and must take corrective action. Additionally, three issuers have unpaid dividends for investors whose records show no PAN or bank details updates for over 3 years.
+
+<b>Question 4 of 5:</b> TrustLink processed bonus share credits in demat mode for physical shareholders of one issuer. What SEBI strengthening guideline requirement was violated?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Bonus shares must always be credited only in demat mode regardless of the shareholder's holding mode]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Physical shareholders' bonus entitlements must be credited in physical mode]]></text></answer>
+            <answer correct="no"><text><![CDATA[Bonus shares for physical holders must be held in a suspense demat account for 90 days]]></text></answer>
+            <answer correct="no"><text><![CDATA[The RTA has no role in bonus credit mode determination -- this is the depository's responsibility]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under SEBI's strengthening guidelines, bonus shares for physical shareholders must be credited in physical mode (i.e., physical share certificates must be dispatched). Converting them to demat without the shareholder's consent violates the requirement to respect the shareholder's chosen holding mode.
+**The Trap:** While SEBI encourages dematerialization, the specific guideline for bonus issues requires matching the holding mode. A physical holder who has not voluntarily converted to demat cannot be forced into demat mode through a corporate action.
+**Cross-Exam Context:** This is part of the transfer/transmission guidelines that also cover folio management (never re-allot folios), enhanced due diligence for 3-year unpaid dividends or missing PAN/bank details, and maker-checker for all transactions.
+**Distributor's Pro-Tip:** Before processing any corporate action, verify the holding mode of each shareholder. Physical holders should receive physical certificates, and demat holders should receive credits to their demat accounts. The mode determination is the RTA's responsibility, not the depository's.]]></text></explanation>
+    </question>
+</QF>

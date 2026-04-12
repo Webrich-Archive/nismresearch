@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Processing of Mutual Fund Transactions_C1_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Harish is an active mutual fund investor with folios across multiple schemes of ABC Mutual Fund. On a particular Wednesday (a working day with no holidays that week), the following events occur:
+
+Transaction 1: At 1:30 PM, Harish submits a purchase application for Rs.3,00,000 in ABC Equity Growth Fund with an RTGS payment that is credited to the scheme's account by 2:00 PM. The scheme's current NAV is Rs.125.
+
+Transaction 2: At 3:30 PM (after the 3:00 PM cutoff), he submits another purchase application for Rs.2,00,000 in ABC Liquid Fund through online mode with instant payment.
+
+Transaction 3: On the same day at 2:00 PM, his monthly SIP of Rs.10,000 in ABC Balanced Advantage Fund is auto-triggered by the RTA. The mandate debit is successful.
+
+Transaction 4: He submits a switch request at 2:30 PM to move Rs.1,00,000 from ABC Overnight Fund to ABC Mid Cap Fund.
+
+Transaction 5: His standing STP instruction triggers a transfer of Rs.25,000 from ABC Liquid Fund to ABC Small Cap Fund.
+
+<b>Question 5 of 5:</b> If Harish's STP instruction (Transaction 5) is from ABC Liquid Fund to ABC Small Cap Fund, what tax implication does this trigger?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Capital gains tax on the STP-out (redemption from Liquid Fund), with gains classified as STCG or LTCG based on holding period]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only stamp duty applies; no capital gains tax]]></text></answer>
+            <answer correct="no"><text><![CDATA[No tax implication since the money stays within the same AMC]]></text></answer>
+            <answer correct="no"><text><![CDATA[STT is applicable on both the STP-out and STP-in legs]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** An STP-out is a redemption from the source scheme, triggering capital gains tax. The gain from the liquid fund redemption will be classified as STCG (if held for ≤36 months for debt funds) or LTCG based on the holding period of the specific units being redeemed (FIFO basis). Since it's a liquid fund (non-equity), STT does not apply.
+**The Trap:** The biggest misconception is that money staying within the same AMC means no tax. Every STP installment is a separate taxable event — a redemption from the source and a purchase into the target.
+**Cross-Exam Context:** NISM Series V-A covers STP taxation; Series X-B tests this in the context of financial planning where STPs are commonly recommended.
+**Distributor's Pro-Tip:** For clients with large STP amounts from debt/liquid funds, compute the potential STCG tax liability upfront. If the client is in the 30% bracket, nearly a third of the gains from each STP installment goes to tax — this affects the effective return of the STP strategy.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="KYC and Compliance Requirements_17" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the CKYCR, and which entity operates it?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Centralized KYC Repository — operated by RBI]]></text></answer>
+            <answer correct="no"><text><![CDATA[Central KYC Compliance Registry — operated by SEBI]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Central KYC Records Registry — operated by CERSAI (Central Registry of Securitisation, Asset Reconstruction and Security Interest of India)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Common KYC Registration Repository — operated by AMFI]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** CKYCR stands for Central KYC Records Registry, operated by CERSAI. It serves as the central repository for KYC records across all financial sectors (banking, securities, insurance, pension), with a unique KYC Identifier assigned to each individual. Individual KYC records have been uploaded since August 1, 2016, and legal entity records since April 2021.
+**The Trap:** CERSAI's name suggests it deals only with securitisation and asset reconstruction, but it was designated as the CKYCR operator. Candidates may guess RBI or SEBI based on general awareness.
+**Cross-Exam Context:** NISM Series V-A covers CKYCR basics; Series II-B tests the RTA's obligation to upload KYC data to CKYCR and verify existing records.
+**Distributor's Pro-Tip:** When a new investor comes in, check CKYCR for existing KYC records — they may already have a KYC Identifier from their banking relationship. This can significantly reduce onboarding time by avoiding duplicate KYC submission.]]></text></explanation>
+    </question>
+</QF>

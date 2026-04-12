@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Depository Services and Dematerialisation_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[During the dematerialisation process, what happens to the physical share certificates after the RTA completes verification and confirms the demat request?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[They are returned to the investor as proof of original holding]]></text></answer>
+            <answer correct="no"><text><![CDATA[They are stored in the depository's vault for safekeeping]]></text></answer>
+            <answer correct="no"><text><![CDATA[They are sent to SEBI for archival purposes]]></text></answer>
+            <answer correct="yes"><text><![CDATA[They are mutilated, shredded after the retention period, and entered in the Register of Destroyed Certificates]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Physical certificates go through a specific destruction process: first they are marked "Surrendered for Dematerialisation," then mutilated, and after the prescribed retention period, they are shredded. The destruction is formally recorded in the Register of Destroyed Certificates maintained by the RTA.
+
+**The Trap:** Some candidates think physical certificates are preserved or returned. The entire purpose of dematerialisation is to eliminate physical certificates, so retaining them would defeat the purpose and create risk of duplicate claims.
+
+**Cross-Exam Context:** The DRF (Dematerialisation Request Form) itself must be stored for a minimum of 8 years, even though the certificates are destroyed. This creates an audit trail for the conversion process.
+
+**Distributor's Pro-Tip:** Advise clients to photocopy or photograph their physical certificates before submitting for demat, purely as a personal record. Once surrendered, the originals will be permanently destroyed after the retention period.]]></text></explanation>
+    </question>
+</QF>

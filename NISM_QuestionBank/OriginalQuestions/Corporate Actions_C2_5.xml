@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Corporate Actions_C2_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Pinnacle Engineering Ltd. (PEL), a listed manufacturing company, has 5 crore outstanding equity shares with a face value of Rs.10 each, currently trading at Rs.150 per share. The company has paid-up capital of Rs.50 crore and free reserves of Rs.350 crore. PEL's Board announces a rights issue in the ratio of 1:5 (one new share for every five shares held) at an issue price of Rs.100 per share.
+
+The record date is set as August 10, 2025. Deepa Mehta, the RTA Manager, obtains the beneficial owner download from NSDL and CDSL. The shareholder register shows:
+- Promoter group: 2 crore shares (40% stake)
+- Ankit Patel (retail investor): 500 shares in demat form
+- Kaveri Trust (institutional investor): 50,000 shares in demat form
+- Lakshmi Devi: 1,000 shares in physical form (not yet dematerialized)
+
+The rights issue offer document provides a composite application form allowing shareholders to apply for additional shares beyond their entitlement. The ASBA (Application Supported by Blocked Amount) process is mandatory for all applicants. Some shareholders choose partial acceptance of their entitlement, while others apply for excess shares.
+
+<b>Question 5 of 5:</b> Kaveri Trust decides to subscribe to only 60% of its rights entitlement and also applies for additional shares through the composite application form. What is the maximum amount that will be blocked under ASBA for the entitlement portion?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs.1,00,000 (for 1,000 shares)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs.6,00,000 (for 60% of entitlement = 6,000 shares)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.50,00,000 (for all 50,000 existing shares)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.10,00,000 (for full entitlement of 10,000 shares)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Kaveri Trust holds 50,000 shares. Rights entitlement at 1:5 = 50,000 / 5 = 10,000 new shares. 60% acceptance = 6,000 shares. Amount blocked under ASBA for entitlement = 6,000 × Rs.100 = Rs.6,00,000. The additional application for excess shares would be blocked separately, but the question asks specifically about the entitlement portion.
+**The Trap:** Candidates may calculate for the full entitlement (Rs.10 lakh) ignoring the 60% partial acceptance. Also, some may confuse existing shares with new entitlement shares. The ASBA blocks money for the shares actually applied for, not the full entitlement if partially accepted.
+**Cross-Exam Context:** NISM Series IX covers ASBA mechanics for rights issues; NISM Series XII covers basic application processes.
+**Distributor's Pro-Tip:** Under ASBA, the money remains in the client's bank account and earns interest until allotment. For partial acceptance, only the applied amount is blocked. Advise institutional clients to carefully decide their acceptance percentage based on their view of the company's prospects and the discount to market price.]]></text></explanation>
+    </question>
+</QF>

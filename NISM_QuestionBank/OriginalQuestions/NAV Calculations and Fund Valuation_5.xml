@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV Calculations and Fund Valuation_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A liquid fund has total assets of Rs.2,000 crore and liabilities of Rs.8 crore. With 120 crore units outstanding, what is the NAV?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs.16.67]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.16.60]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.16.5833]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs.16.6000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** NAV = (2,000 - 8) / 120 = 1,992 / 120 = Rs.16.6000. As a liquid fund, NAV must be rounded to 4 decimal places. 1,992/120 = 16.6 exactly, which is Rs.16.6000.
+**The Trap:** Candidates might round to 2 decimal places (Rs.16.60) forgetting that liquid funds require 4 decimal precision. Rs.16.6000 and Rs.16.60 look similar but reflect different precision requirements.
+**Cross-Exam Context:** The 4-decimal requirement for liquid/debt/index funds is tested specifically in NISM Series II-B. RTAs must compute and publish NAV to the correct precision.
+**Distributor's Pro-Tip:** Liquid fund NAVs change by tiny amounts daily (often at the 3rd or 4th decimal). This is normal -- liquid fund returns accrue gradually. Show clients that consistent small daily NAV increases compound into meaningful annual returns.]]></text></explanation>
+    </question>
+</QF>

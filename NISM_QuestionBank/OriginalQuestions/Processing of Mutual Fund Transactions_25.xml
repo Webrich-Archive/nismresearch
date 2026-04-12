@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Processing of Mutual Fund Transactions_25" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The RTA receives a purchase application from an investor with a US passport. What additional compliance requirement must the RTA trigger?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[FATCA/CRS declaration and reporting requirements]]></text></answer>
+            <answer correct="no"><text><![CDATA[Mandatory investment only through NRE account]]></text></answer>
+            <answer correct="no"><text><![CDATA[Additional stamp duty of 0.01%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Mandatory demat holding of units]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A US passport indicates potential US tax residency, triggering FATCA (Foreign Account Tax Compliance Act) and CRS (Common Reporting Standard) requirements. The RTA must ensure FATCA/CRS self-declaration is obtained, and the investor's data must be reported to CBDT for exchange with relevant tax authorities.
+**The Trap:** Not all US passport holders are NRIs — they could be PIOs (Persons of Indian Origin) or OCIs who are resident in India but have US citizenship/tax obligations. FATCA is triggered by tax residency indicators, not just NRI status.
+**Cross-Exam Context:** NISM Series V-A covers FATCA basics; Series II-B tests the RTA's operational role in FATCA compliance including data upload to KRA from July 1, 2024.
+**Distributor's Pro-Tip:** Any indicator of foreign tax residency — birth country, nationality, address, phone number, standing instructions to a foreign account — must trigger FATCA/CRS. Train your team to look for these red flags in every application form.]]></text></explanation>
+    </question>
+</QF>

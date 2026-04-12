@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Public Offerings and IPO Processes_C2_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Dhanvantari Pharma Ltd. (DPL), a listed pharmaceutical company, has 4 crore outstanding equity shares with a face value of Rs.10 each, trading at Rs.250 per share. The company has free reserves of Rs.600 crore and paid-up capital of Rs.40 crore. On February 1, 2026, the Board of Directors approves a buyback of 20 lakh shares at Rs.300 per share through the tender offer method, for a total buyback consideration of Rs.60 crore. The record date is set as March 1, 2026.
+
+Anita Kulkarni, a retail investor, holds 500 shares with a market value of Rs.1.25 lakh on the record date. Suresh Patil holds 1,200 shares with a market value of Rs.3 lakh on the record date. Geeta Nair holds 5,000 shares with a market value of Rs.12.5 lakh on the record date. The total outstanding shares eligible for buyback are 4 crore. Rajesh Kumar, the RTA officer at the company's registrar, is responsible for processing the buyback. The buyback opens on March 10, 2026 and closes on March 24, 2026.
+
+<b>Question 2 of 5:</b> Which investors qualify as 'small shareholders' in DPL's buyback tender offer, and what reservation do they receive?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[All three -- Anita, Suresh, and Geeta -- qualify since they each hold fewer than 10,000 shares]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Only Anita qualifies as a small shareholder (market value Rs.1.25 lakh <= Rs.2 lakh) and is entitled to participate in the 15% reserved category]]></text></answer>
+            <answer correct="no"><text><![CDATA[Anita and Suresh qualify since both hold fewer than 2,000 shares]]></text></answer>
+            <answer correct="no"><text><![CDATA[None of them qualify because small shareholder reservation applies only to IPOs]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Small shareholder in a buyback tender offer = market value of shares on record date <= Rs.2 lakh. Anita: Rs.1.25 lakh (qualifies). Suresh: Rs.3 lakh (does not qualify). Geeta: Rs.12.5 lakh (does not qualify). The 15% of total buyback (Rs.9 crore) is reserved for small shareholders like Anita.
+**The Trap:** The criterion is market value on the record date, not number of shares. Candidates who focus on share quantity will make errors. Also, Suresh's Rs.3 lakh exceeds the Rs.2 lakh threshold despite holding a relatively small number of shares (1,200).
+**Cross-Exam Context:** NISM Series II-A Chapter 7.7 defines small shareholders for buyback purposes. The Rs.2 lakh market value threshold is the key number.
+**Distributor's Pro-Tip:** Being classified as a small shareholder is advantageous -- the 15% reservation often means a higher acceptance ratio. If your client holds shares just above Rs.2 lakh, they cannot artificially reduce holdings to qualify. The record date market value is final.]]></text></explanation>
+    </question>
+</QF>

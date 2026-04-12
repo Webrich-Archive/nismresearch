@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Depository Services and Dematerialisation_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following entities is NOT eligible to act as a Depository Participant (DP)?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[A scheduled commercial bank]]></text></answer>
+            <answer correct="no"><text><![CDATA[A SEBI-registered stock broker]]></text></answer>
+            <answer correct="no"><text><![CDATA[A Registrar and Transfer Agent]]></text></answer>
+            <answer correct="yes"><text><![CDATA[A partnership firm engaged in share trading]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Eligible DPs include banks (including foreign banks), financial institutions, NBFCs, SEBI-registered stock brokers, RTAs, custodians, and clearing corporations. A partnership firm engaged in share trading does not fall under any of these eligible categories prescribed by SEBI.
+
+**The Trap:** Candidates may assume that any entity dealing in securities can become a DP. However, SEBI has prescribed specific categories with minimum net worth requirements. Even within eligible categories, entities must meet prescribed net worth criteria.
+
+**Cross-Exam Context:** DPs also need to implement the maker-checker concept for processing transactions, adding an operational safeguard layer. The net worth requirements differ for brokers, NBFCs, and RTAs.
+
+**Distributor's Pro-Tip:** When selecting a DP for your clients, consider the entity type. Banks often provide seamless integration with banking services, while broker-DPs offer trading convenience. RTAs acting as DPs can be useful for corporate clients dealing with large volumes.]]></text></explanation>
+    </question>
+</QF>

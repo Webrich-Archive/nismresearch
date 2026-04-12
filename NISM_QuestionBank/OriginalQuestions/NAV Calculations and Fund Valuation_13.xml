@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV Calculations and Fund Valuation_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Time stamping of mutual fund transactions must include:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Only date and time of receipt]]></text></answer>
+            <answer correct="no"><text><![CDATA[Investor name, date, and branch code]]></text></answer>
+            <answer correct="no"><text><![CDATA[PAN number, date, time, and transaction amount]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Location code, machine ID, date, time, and serial number]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Electronic time stamping must include: location code, machine ID, date and time, and serial number. The same serial number must appear on both the application form and the accompanying cheque/instrument.
+**The Trap:** Time stamping is not just about recording the time. The comprehensive stamp includes location, machine, date, time, and serial number -- all to create an unambiguous audit trail.
+**Cross-Exam Context:** Time stamping is critical for determining applicable NAV (before or after cut-off). RTAs must maintain time stamping machines and daily logs at every ISC.
+**Distributor's Pro-Tip:** Ensure your clients' applications are time-stamped immediately upon submission at the ISC. The time stamp is the official proof of when the application was received and determines which NAV applies. Any dispute about applicable NAV is resolved by the time stamp.]]></text></explanation>
+    </question>
+</QF>

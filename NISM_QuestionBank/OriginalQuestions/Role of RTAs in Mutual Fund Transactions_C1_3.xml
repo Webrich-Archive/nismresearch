@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Role of RTAs in Mutual Fund Transactions_C1_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> MegaRTA Services Ltd is a large RTA that currently services 18 AMCs with a total of 2.15 crore investor folios across all AMCs. The company operates 120 Investor Service Centres (ISCs) across India. Recently, the CEO Ms. Kavitha Sharma received a query from SEBI about their QRTA classification status. Meanwhile, the operations team is dealing with NAV computation deadlines for various scheme types including domestic equity schemes, a Fund of Funds scheme investing in overseas ETFs, and an ETCD scheme. The technology team is upgrading the ISC infrastructure to ensure all centres function as effective single-window service points. MegaRTA also recently onboarded a new AMC client — Zenith Mutual Fund — which has both open-ended and closed-ended schemes in its portfolio.
+
+<b>Question 3 of 5:</b> For Zenith Mutual Fund's domestic equity schemes, by what time must MegaRTA ensure the NAV is published on the AMFI website?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[11 PM on the same business day (T-day)]]></text></answer>
+            <answer correct="no"><text><![CDATA[9 AM on the next business day (T+1)]]></text></answer>
+            <answer correct="no"><text><![CDATA[10 AM on the next business day (T+1)]]></text></answer>
+            <answer correct="no"><text><![CDATA[3 PM on the same business day (T-day)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Domestic equity schemes follow the standard NAV publication deadline of 11 PM on T-day. This applies to most scheme types except FoF/overseas (10 AM T+1) and ETCD (9 AM T+1).
+**The Trap:** Confusing the equity scheme deadline with FoF or ETCD deadlines. Each scheme type has its specific timeline, and the RTA must comply with all simultaneously.
+**Cross-Exam Context:** NAV deadlines vary by scheme type. RTAs servicing multiple AMCs must manage parallel deadline compliance for different scheme categories.
+**Distributor's Pro-Tip:** When clients ask about today's NAV, equity scheme NAVs are available by 11 PM same day. Set this expectation clearly so clients don't repeatedly check before the publication time.]]></text></explanation>
+    </question>
+</QF>

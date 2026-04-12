@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Corporate Actions_22" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Rajesh holds 600 shares of ABC Ltd. with a face value of Rs.10 each. If ABC Ltd. announces a stock split to reduce the face value to Rs.2, how many shares will Rajesh hold after the split?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[120 shares]]></text></answer>
+            <answer correct="no"><text><![CDATA[1,200 shares]]></text></answer>
+            <answer correct="no"><text><![CDATA[600 shares]]></text></answer>
+            <answer correct="yes"><text><![CDATA[3,000 shares]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In a stock split, total face value held remains constant. Rajesh holds 600 × Rs.10 = Rs.6,000 in total face value. After split to FV Rs.2: 6,000 / 2 = 3,000 shares. The split ratio is 10:2 or 5:1, meaning each old share becomes 5 new shares (600 × 5 = 3,000).
+**The Trap:** Some candidates may divide instead of multiply (getting 120). Remember: when face value decreases, number of shares increases proportionally.
+**Cross-Exam Context:** NISM Series VIII covers derivative contract adjustments after stock splits (lot size adjustment); NISM Series XII covers basic stock split mechanics.
+**Distributor's Pro-Tip:** After a stock split, each share will trade at approximately 1/5th of the pre-split price (in this example). Reassure clients that their total investment value hasn't changed -- they just hold more shares at a lower per-share price.]]></text></explanation>
+    </question>
+</QF>

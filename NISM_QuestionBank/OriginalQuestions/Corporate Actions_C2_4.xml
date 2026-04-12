@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Corporate Actions_C2_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Pinnacle Engineering Ltd. (PEL), a listed manufacturing company, has 5 crore outstanding equity shares with a face value of Rs.10 each, currently trading at Rs.150 per share. The company has paid-up capital of Rs.50 crore and free reserves of Rs.350 crore. PEL's Board announces a rights issue in the ratio of 1:5 (one new share for every five shares held) at an issue price of Rs.100 per share.
+
+The record date is set as August 10, 2025. Deepa Mehta, the RTA Manager, obtains the beneficial owner download from NSDL and CDSL. The shareholder register shows:
+- Promoter group: 2 crore shares (40% stake)
+- Ankit Patel (retail investor): 500 shares in demat form
+- Kaveri Trust (institutional investor): 50,000 shares in demat form
+- Lakshmi Devi: 1,000 shares in physical form (not yet dematerialized)
+
+The rights issue offer document provides a composite application form allowing shareholders to apply for additional shares beyond their entitlement. The ASBA (Application Supported by Blocked Amount) process is mandatory for all applicants. Some shareholders choose partial acceptance of their entitlement, while others apply for excess shares.
+
+<b>Question 4 of 5:</b> If the promoter group subscribes to their full entitlement in the rights issue, how many new shares do they receive, and what is their post-rights shareholding percentage?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[20 lakh new shares; post-rights holding drops to 33.33%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[40 lakh new shares; post-rights holding remains exactly 40%]]></text></answer>
+            <answer correct="no"><text><![CDATA[40 lakh new shares; post-rights holding increases to 45%]]></text></answer>
+            <answer correct="no"><text><![CDATA[1 crore new shares; post-rights holding increases to 50%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Promoter holds 2 crore shares. Rights entitlement at 1:5 = 2 crore / 5 = 40 lakh new shares. Post-rights promoter holding = 2 crore + 40 lakh = 2.4 crore. Total post-rights shares = 5 crore + 1 crore = 6 crore. Promoter percentage = 2.4 crore / 6 crore = 40%. The percentage remains exactly the same because rights issues are proportionate.
+**The Trap:** This is the key concept -- rights issues are designed to prevent dilution. If all shareholders subscribe proportionately, everyone's percentage stake remains unchanged. Candidates who don't understand this may pick the wrong answer.
+**Cross-Exam Context:** NISM Series IX covers anti-dilution protection through rights issues; NISM Series X-A covers the concept of proportionate allotment.
+**Distributor's Pro-Tip:** This is precisely why rights issues exist -- to give existing shareholders the opportunity to maintain their proportionate stake. If a client does not subscribe, their percentage holding WILL decrease. Make this dilution impact clear to clients.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Investor Services and Transaction Processing_C1_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Meena Sharma, a 55-year-old retired school teacher from Jaipur, has mutual fund investments across 3 schemes of PQR Mutual Fund. She visits the Investor Service Centre (ISC) with the following requests:
+
+Request 1: She has recently moved from Jaipur to Udaipur and wants to update her address. She carries her new Aadhaar card showing the Udaipur address.
+
+Request 2: She has opened a new bank account with a different bank (Bank of Rajasthan) and wants all future redemption proceeds and IDCW payouts to go to this new account. She carries a cancelled cheque of the new account and her old bank's passbook.
+
+Request 3: She wants to add her daughter (Priya, age 28) and son (Rahul, age 32) as nominees with 60% and 40% allocation respectively. Currently, no nominee is registered.
+
+Request 4: She has not received her CAS for the last 6 months and wants to understand why and get it reissued.
+
+Request 5: She wants to know if she can consolidate her 3 folios — Folio 1 is in her single name, Folio 2 is joint with her husband (Meena + Suresh), and Folio 3 is in her single name with a different bank account.
+
+<b>Question 5 of 5:</b> For Request 5 (folio consolidation), which folios can potentially be consolidated?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Only Folio 1 and Folio 2 can be consolidated since both have Meena as first holder]]></text></answer>
+            <answer correct="no"><text><![CDATA[None of the folios can be consolidated because they have different bank accounts]]></text></answer>
+            <answer correct="no"><text><![CDATA[All three folios can be consolidated since Meena is common to all]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Only Folio 1 and Folio 3 can be consolidated since both are in Meena's single name (the different bank account is not a barrier); Folio 2 cannot be merged as it has a different holding pattern (joint)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Folio consolidation requires identical holding patterns. Folio 1 (single - Meena) and Folio 3 (single - Meena) have the same holding pattern and can be consolidated — the different bank account is updated during consolidation and is NOT a barrier. Folio 2 (joint - Meena + Suresh) has a different holding pattern and CANNOT be consolidated with single-holding folios.
+**The Trap:** Different bank accounts do NOT prevent consolidation — the investor simply chooses which bank account to retain for the consolidated folio. The barrier is the holding pattern (single vs joint, or different holder combinations), not ancillary details like bank accounts.
+**Cross-Exam Context:** NISM Series II-B tests folio consolidation eligibility rules; understanding what constitutes a 'matching holding pattern' is the key concept.
+**Distributor's Pro-Tip:** When clients have multiple folios, assess consolidation eligibility based on holding pattern first. For Meena, consolidating Folios 1 and 3 simplifies her portfolio management. For Folio 2, if she wants to simplify, she could consider switching the joint holding to single (which involves redemption and reinvestment with tax implications) — but that's a separate decision.]]></text></explanation>
+    </question>
+</QF>

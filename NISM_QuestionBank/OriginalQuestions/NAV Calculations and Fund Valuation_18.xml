@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV Calculations and Fund Valuation_18" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A mutual fund scheme has the following: equity holdings Rs.750 crore, debt holdings Rs.200 crore, cash Rs.30 crore, receivables Rs.20 crore, total expenses payable Rs.35 crore, other liabilities Rs.15 crore. Units outstanding: 50 crore. Calculate NAV.]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs.19.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.18.50]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs.19.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.20.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Total Assets = 750 + 200 + 30 + 20 = Rs.1,000 crore. Total Liabilities = 35 + 15 = Rs.50 crore. NAV = (1,000 - 50) / 50 = 950 / 50 = Rs.19.00.
+**The Trap:** With multiple asset and liability components, the risk is miscounting. Add all assets carefully (equity + debt + cash + receivables) and subtract all liabilities (expenses + other liabilities).
+**Cross-Exam Context:** Real-world NAV calculations involve many more line items. This simplified version tests the fundamental approach of aggregating assets, subtracting liabilities, and dividing by units.
+**Distributor's Pro-Tip:** The composition of assets in the NAV tells a story. Rs.30 crore in cash out of Rs.1,000 crore means 3% cash holding -- relatively normal. Very high cash positions might indicate the fund manager is cautious about market conditions.]]></text></explanation>
+    </question>
+</QF>

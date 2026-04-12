@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Role of RTAs in Mutual Fund Transactions_31" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The T-30 and B-30 city classification for mutual fund purposes is determined based on:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[SEBI's regional office jurisdiction]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Investor's PIN code on the transaction application]]></text></answer>
+            <answer correct="no"><text><![CDATA[Location of the branch where the transaction is submitted]]></text></answer>
+            <answer correct="no"><text><![CDATA[Registered office address of the AMC]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** T-30/B-30 tagging is done based on the investor's PIN code mentioned in the application or folio. The top 30 cities (T-30) and beyond 30 (B-30) classification drives the additional TER eligibility and geographical penetration metrics.
+**The Trap:** It is NOT based on where the transaction is submitted or where the AMC is located. An investor from a B-30 city submitting a transaction at a T-30 ISC is still tagged as B-30.
+**Cross-Exam Context:** RTAs handle the PIN code-based tagging. AMFI publishes the list of T-30 cities periodically. NISM Series V-A covers the geographical penetration initiative.
+**Distributor's Pro-Tip:** Ensure your clients' address and PIN codes are correctly updated in their folios. Incorrect PIN codes can misclassify a B-30 investor as T-30, potentially affecting the commission structure for your sourced business.]]></text></explanation>
+    </question>
+</QF>

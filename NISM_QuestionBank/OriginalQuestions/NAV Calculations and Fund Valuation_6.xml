@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV Calculations and Fund Valuation_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A debt fund portfolio consists of: Government bonds Rs.300 crore, corporate bonds Rs.200 crore, cash Rs.50 crore, and accrued interest Rs.10 crore. Total liabilities are Rs.15 crore and units outstanding are 25 crore. Calculate the NAV.]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs.20.0000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.21.0000]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs.21.8000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.22.4000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Total Assets = 300 + 200 + 50 + 10 = Rs.560 crore. NAV = (560 - 15) / 25 = 545 / 25 = Rs.21.8000 (4 decimals for debt fund).
+**The Trap:** Forgetting to include cash and accrued interest as assets. All components of the portfolio (securities, cash, receivables, accrued income) contribute to total assets.
+**Cross-Exam Context:** Debt fund NAV calculations appear in NISM Series II-B and V-A. The inclusion of accrued interest is a detail that distinguishes debt from equity NAV computation.
+**Distributor's Pro-Tip:** Accrued interest in debt funds is a hidden value driver. Between coupon payment dates, interest accrues daily and increases NAV. This is why debt fund NAVs tend to show a steady upward pattern punctuated by small drops on coupon payment dates.]]></text></explanation>
+    </question>
+</QF>

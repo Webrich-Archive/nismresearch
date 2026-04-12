@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Investor Services and Transaction Processing_29" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What happens to standing instructions (SIP, STP, SWP) when a folio is consolidated with another folio?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[All standing instructions are automatically cancelled]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Standing instructions need to be reviewed and reconfigured for the consolidated folio as per the investor's preference]]></text></answer>
+            <answer correct="no"><text><![CDATA[Standing instructions are automatically merged and amounts are combined]]></text></answer>
+            <answer correct="no"><text><![CDATA[Standing instructions from both folios continue independently]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When folios are consolidated, standing instructions (SIP, STP, SWP) from the merged folios need to be reviewed and reconfigured for the surviving/consolidated folio. Automatic continuation or merging is not standard — the investor should specify which instructions to continue, modify, or cancel in the consolidated folio. The RTA guides this process.
+**The Trap:** Standing instructions don't automatically merge or cancel — they require active intervention. If not properly handled, there could be duplicate debits or missed installments during the transition.
+**Cross-Exam Context:** NISM Series II-B tests the end-to-end folio consolidation process including the handling of standing instructions; this is an operational detail that distinguishes thorough RTA processing.
+**Distributor's Pro-Tip:** Before processing folio consolidation, create a list of ALL standing instructions in both folios. Discuss with the client which ones to continue, which to cancel, and whether any amounts need to be adjusted. This prevents unpleasant surprises like duplicate SIP debits or missed SWP payouts.]]></text></explanation>
+    </question>
+</QF>

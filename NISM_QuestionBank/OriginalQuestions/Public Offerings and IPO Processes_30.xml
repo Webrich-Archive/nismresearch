@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Public Offerings and IPO Processes_30" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[On T+2 day of an IPO listing process, by what time must the fund transfer instructions be sent, and by what time must unblocking of non-allotted funds be completed?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Fund transfer by 10 AM; Unblocking by 12 noon]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Fund transfer by 2 PM; Unblocking by 4 PM]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fund transfer by 4 PM; Unblocking by 6 PM]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fund transfer by 6 PM; Unblocking by 7:30 PM]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** On T+2 day: fund transfer instructions must be sent by 2 PM, unblocking of non-allotted funds by 4 PM, corporate action for share credit by 6 PM, and listing application by 7:30 PM. These staggered deadlines ensure sequential processing -- you cannot unblock until you know allotment, and you cannot list until shares are credited.
+**The Trap:** The 6 PM deadline is for corporate action (share credit), not unblocking. The 7:30 PM deadline is for listing application, not any fund-related activity. Each deadline has a specific purpose in the sequential T+2 day workflow.
+**Cross-Exam Context:** NISM Series II-A Chapter 10.5 provides the complete T+3 timeline with hour-by-hour deadlines. This is core operational knowledge for RTAs.
+**Distributor's Pro-Tip:** The T+2 day is the most operationally intense day for RTAs. Missing the 2 PM fund transfer deadline cascades into delayed unblocking, delayed share credit, and potentially delayed listing. Build in buffer time and have escalation procedures ready.]]></text></explanation>
+    </question>
+</QF>

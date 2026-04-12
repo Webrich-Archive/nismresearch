@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Public Offerings and IPO Processes_28" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[During a post-issue process, the RTA finds discrepancies between the electronic bid file from the stock exchange and the SCSB data. What is the correct course of action?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Ignore the discrepancies and proceed with allotment based on exchange data alone]]></text></answer>
+            <answer correct="no"><text><![CDATA[Halt the process and wait indefinitely until the discrepancies are resolved]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Reconcile data from exchanges, SCSBs, and depository, prepare a rejection list from the electronic bid files, and ensure the basis of allotment complies with SEBI ICDR requirements]]></text></answer>
+            <answer correct="no"><text><![CDATA[Ask the issuer company to extend the issue period to collect fresh bids]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The RTA's post-issue role specifically includes reconciling data from exchanges, SCSBs, and depositories. Discrepancies must be identified and resolved through the reconciliation process. A rejection list is prepared from electronic bid files, and the basis of allotment must comply with SEBI ICDR -- separately for QIB, NII, and RII categories. The process must stay within the T+3 timeline.
+**The Trap:** Neither ignoring discrepancies nor halting indefinitely is acceptable. The T+3 timeline is binding. The RTA must resolve discrepancies quickly through systematic reconciliation. Extending the issue period is not an option for post-issue data issues.
+**Cross-Exam Context:** NISM Series II-A Chapter 10 details the RTA's reconciliation responsibilities. The designated stock exchange must approve the basis of allotment.
+**Distributor's Pro-Tip:** Reconciliation is where RTA expertise truly shows. Build robust automated systems to match exchange, SCSB, and depository data in real time. Any manual reconciliation at this stage risks missing the T+1 basis of allotment deadline.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Public Offerings and IPO Processes_29" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Neha, a retail investor, wants to apply for an IPO worth Rs.4 lakh through her stockbroker. Under the UPI mechanism, which of the following correctly describes the application process?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Neha must visit the SCSB branch physically and submit a paper form]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Neha provides her UPI ID to the broker, who uploads the bid to the exchange; the Sponsor Bank sends a mandate to Neha's UPI-linked bank; she authorizes with her UPI PIN to block the funds]]></text></answer>
+            <answer correct="no"><text><![CDATA[Neha transfers Rs.4 lakh directly to the issuer company's escrow account]]></text></answer>
+            <answer correct="no"><text><![CDATA[Neha cannot use UPI since the application amount exceeds Rs.2 lakh]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The UPI mechanism is available for retail individual investors applying up to Rs.5 lakh through intermediaries (like stockbrokers). Process: Neha gives UPI ID to broker -> broker uploads to exchange -> exchange sends to Sponsor Bank -> Sponsor Bank sends mandate -> Neha authorizes with UPI PIN -> funds blocked. At Rs.4 lakh, Neha is well within the Rs.5 lakh UPI limit.
+**The Trap:** The UPI limit is Rs.5 lakh, not Rs.2 lakh. Candidates who confuse this with other UPI transaction limits (like the general Rs.1 lakh limit for peer-to-peer transfers) may wrongly exclude Neha. Also, physical SCSB visits are not required for UPI applications.
+**Cross-Exam Context:** NISM Series II-A Chapter 10.3.2 covers the UPI mechanism. The Rs.5 lakh limit is specific to public issue applications.
+**Distributor's Pro-Tip:** UPI has made IPO applications seamless for retail clients. Ensure your clients have UPI enabled on their bank account before issue opens. Last-minute UPI setup or incorrect UPI IDs are the biggest causes of failed applications.]]></text></explanation>
+    </question>
+</QF>

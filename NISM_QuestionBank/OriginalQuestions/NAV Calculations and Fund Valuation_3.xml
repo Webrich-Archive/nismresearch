@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV Calculations and Fund Valuation_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A mutual fund has portfolio securities valued at Rs.500 lakh, total expenses of Rs.100 lakh, and 10 lakh units outstanding. What is the NAV per unit?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs.45.00]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs.40.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.50.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.60.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** NAV = (Market value of portfolio - Expenses and liabilities) / Units outstanding = (Rs.500 lakh - Rs.100 lakh) / 10 lakh units = Rs.400 lakh / 10 lakh = Rs.40.00 per unit. This is the textbook example from the II-B study material.
+**The Trap:** Dividing Rs.500 lakh by 10 lakh units gives Rs.50, but you must deduct expenses first. The Rs.100 lakh in expenses reduces the net asset value significantly.
+**Cross-Exam Context:** This exact example appears in the NISM Series II-B textbook (Chapter 11). Expect similar calculations in the exam with different numbers.
+**Distributor's Pro-Tip:** This example clearly shows how expenses (TER) reduce NAV. A fund with Rs.500 lakh in portfolio but Rs.100 lakh in expenses has an effective 20% expense drag. In reality, TER is much lower (1-2%), but the principle stands.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Role of RTAs in Mutual Fund Transactions_C1_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> MegaRTA Services Ltd is a large RTA that currently services 18 AMCs with a total of 2.15 crore investor folios across all AMCs. The company operates 120 Investor Service Centres (ISCs) across India. Recently, the CEO Ms. Kavitha Sharma received a query from SEBI about their QRTA classification status. Meanwhile, the operations team is dealing with NAV computation deadlines for various scheme types including domestic equity schemes, a Fund of Funds scheme investing in overseas ETFs, and an ETCD scheme. The technology team is upgrading the ISC infrastructure to ensure all centres function as effective single-window service points. MegaRTA also recently onboarded a new AMC client — Zenith Mutual Fund — which has both open-ended and closed-ended schemes in its portfolio.
+
+<b>Question 4 of 5:</b> MegaRTA's Fund of Funds scheme investing in overseas ETFs has a different NAV deadline. What is it?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[11 PM on the same business day (T-day)]]></text></answer>
+            <answer correct="no"><text><![CDATA[9 AM on the next business day (T+1)]]></text></answer>
+            <answer correct="no"><text><![CDATA[5 PM on the same business day (T-day)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[10 AM on the next business day (T+1)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Fund of Funds and overseas fund schemes have an extended NAV publication deadline of 10 AM on T+1. This accommodation exists because underlying overseas ETFs trade in different time zones, and their NAVs may not be available by 11 PM India time.
+**The Trap:** 9 AM T+1 is for ETCD schemes, not FoF/overseas. The three deadlines to remember: Equity/most schemes = 11 PM T-day, FoF/Overseas = 10 AM T+1, ETCD = 9 AM T+1.
+**Cross-Exam Context:** The rationale for extended deadlines connects to global market hours. NISM Series V-A covers international fund structures.
+**Distributor's Pro-Tip:** For clients investing in FoFs with overseas exposure, explain that the slight delay in NAV publication is normal and not a red flag. It ensures accurate valuation based on actual overseas market closing prices.]]></text></explanation>
+    </question>
+</QF>

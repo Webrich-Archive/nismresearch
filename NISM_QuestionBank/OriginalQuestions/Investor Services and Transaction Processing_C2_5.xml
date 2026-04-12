@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Investor Services and Transaction Processing_C2_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Vikram Patel invested Rs.5,00,000 in DEF Equity Fund on March 15. He submitted his redemption request for the entire holding on April 5 (a Monday, working day) before the 3:00 PM cutoff. The following events occurred:
+
+Event 1: By April 9 (Thursday, T+3 working days, with no holidays in between), Vikram had not received his redemption proceeds in his bank account.
+
+Event 2: He called the AMC's customer care on April 9 and was told the delay was due to 'technical issues at the RTA' and that the proceeds would be credited within 2 more working days.
+
+Event 3: By April 13 (Tuesday), the proceeds were still not received. Vikram sent an email complaint to the AMC.
+
+Event 4: The AMC responded on April 16 (Friday) saying the RTA has been instructed to process the payment and it should arrive by April 20.
+
+Event 5: On April 20, Vikram received only Rs.4,85,000 instead of the expected Rs.4,97,500 (based on the redemption NAV and units held). He was not given any explanation for the shortfall of Rs.12,500.
+
+<b>Question 5 of 5:</b> If Vikram files a complaint on SEBI SCORES, within what timeframe should the AMC resolve it, and what compensation might Vikram be entitled to for the redemption delay?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[45 days for resolution; compensation of NAV difference between redemption date and actual payment date]]></text></answer>
+            <answer correct="no"><text><![CDATA[60 days for resolution; a fixed penalty of Rs.1,000 per day of delay]]></text></answer>
+            <answer correct="no"><text><![CDATA[15 days for resolution; no compensation for delays]]></text></answer>
+            <answer correct="yes"><text><![CDATA[30 days for resolution on SCORES; interest at 15% per annum for the period of delay in redemption payout beyond T+3]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SCORES complaints must be resolved within 30 calendar days. For the redemption delay, SEBI mandates that AMCs pay interest at 15% per annum for the period of delay beyond the prescribed timeline (T+3 for equity funds). This interest compensates the investor for the loss of use of their redemption proceeds during the delay period.
+**The Trap:** The 15% per annum interest is a specific SEBI provision, not a general penalty — it's calculated on the redemption amount for the exact days of delay. The SCORES resolution timeline (30 days) is separate from the interest computation for redemption delay.
+**Cross-Exam Context:** NISM Series V-A covers the penalty for redemption delays; Series II-B tests the RTA's role in computing and paying the delay interest.
+**Distributor's Pro-Tip:** The 15% per annum interest for redemption delay is a powerful but underused investor right. On Rs.5,00,000 delayed by 12 days, the interest is approximately Rs.2,466 (5,00,000 × 15% × 12/365). Inform the AMC about this provision when escalating — it often speeds up resolution and ensures the investor is fully compensated.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Processing of Mutual Fund Transactions_28" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[From July 1, 2024, where must FATCA CRA certifications be uploaded?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[To SEBI's intermediary portal]]></text></answer>
+            <answer correct="no"><text><![CDATA[Directly to CBDT portal]]></text></answer>
+            <answer correct="no"><text><![CDATA[To the AMC's compliance system]]></text></answer>
+            <answer correct="yes"><text><![CDATA[To the KRA (KYC Registration Agency)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** From July 1, 2024, FATCA CRA (Central Registry Account) certifications must be uploaded to the KRA. This centralizes FATCA compliance data along with KYC records, making it easier for all intermediaries to access FATCA status during investor onboarding and ongoing compliance.
+**The Trap:** While FATCA reporting ultimately goes to CBDT for international exchange, the certification upload requirement is specifically to the KRA, not directly to CBDT.
+**Cross-Exam Context:** NISM Series V-A covers FATCA compliance basics; Series II-B tests the operational workflow changes introduced by the July 2024 requirement.
+**Distributor's Pro-Tip:** The KRA upload requirement means FATCA status is now part of the centralized KYC ecosystem. When onboarding new investors, check their FATCA status at the KRA level — if certifications are pending, the application may be held up.]]></text></explanation>
+    </question>
+</QF>

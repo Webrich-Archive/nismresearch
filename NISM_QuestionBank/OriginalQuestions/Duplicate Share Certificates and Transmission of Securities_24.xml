@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Duplicate Share Certificates and Transmission of Securities_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A service request is received by the RTA against securities that have been marked with Stop Transfer. If the holder does not furnish supporting documents within _____ days, the RTA can process the service request.]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[7 days]]></text></answer>
+            <answer correct="yes"><text><![CDATA[15 days]]></text></answer>
+            <answer correct="no"><text><![CDATA[21 days]]></text></answer>
+            <answer correct="no"><text><![CDATA[30 days]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When a service request is received against stop-transferred securities, the RTA first intimates the holder who had requested the stop transfer. If the holder does not provide supporting documents within 15 days, the RTA can proceed to process the service request. This prevents indefinite blocking of legitimate transactions.
+
+**The Trap:** This 15-day window is different from the 21-day FIR filing deadline for stop transfer. The 15 days here applies to the scenario where a THIRD PARTY submits a service request against securities already under stop transfer — the original holder gets 15 days to substantiate their claim.
+
+**Cross-Exam Context:** The stop transfer mechanism has multiple timelines: 21 days for FIR filing, 15 days for supporting documents when a service request comes against stopped securities. These protect both the original holder and legitimate third-party claimants.
+
+**Distributor's Pro-Tip:** If you receive notice that a service request has been filed against your client's stop-transferred securities, act immediately. The 15-day window is strict — failure to respond means the RTA will process the other party's request.]]></text></explanation>
+    </question>
+</QF>

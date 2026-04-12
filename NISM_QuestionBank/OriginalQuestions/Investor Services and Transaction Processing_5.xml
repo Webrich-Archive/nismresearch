@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Investor Services and Transaction Processing_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the correct escalation path for an investor grievance in the mutual fund ecosystem?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[AMC → SEBI SCORES → RTA]]></text></answer>
+            <answer correct="no"><text><![CDATA[SEBI SCORES → AMC → RTA]]></text></answer>
+            <answer correct="yes"><text><![CDATA[RTA/AMC → AMC (if unresolved at RTA) → SEBI SCORES (if unresolved at AMC)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Stock Exchange → RTA → AMC → SEBI]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The grievance escalation follows a bottom-up approach: First, the investor contacts the RTA or AMC directly (email, letter, phone). If unresolved at the RTA level, it escalates to the AMC. If the AMC doesn't resolve it satisfactorily, the investor can file a complaint on SEBI SCORES. This structured approach ensures issues are resolved at the lowest possible level before involving the regulator.
+**The Trap:** Going directly to SEBI SCORES without first approaching the AMC/RTA is premature — SCORES is meant for complaints that intermediaries have failed to resolve, not as a first-resort mechanism.
+**Cross-Exam Context:** NISM Series V-A covers the grievance hierarchy; Series II-B tests the RTA's role as the first point of contact in the escalation chain.
+**Distributor's Pro-Tip:** Document every step of the grievance process — when the complaint was raised, with whom, what response was received, and timelines. This documentation is crucial if the matter reaches SCORES or further. A well-documented complaint gets resolved faster.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Role of RTAs in Mutual Fund Transactions_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the primary role of an RTA (Registrar and Transfer Agent) in the mutual fund ecosystem?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Front-end sales agent who distributes mutual fund schemes to investors]]></text></answer>
+            <answer correct="no"><text><![CDATA[Portfolio manager who decides asset allocation for mutual fund schemes]]></text></answer>
+            <answer correct="no"><text><![CDATA[Compliance officer who directly reports to SEBI on behalf of the AMC]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Back-end processor handling financial and non-financial transactions for mutual funds]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** RTAs serve as the backbone infrastructure for mutual fund operations, processing all transaction types (purchases, redemptions, switches) and maintaining the investor database. They are back-end processors, not customer-facing sales entities.
+**The Trap:** Many confuse RTAs with distributors or AMC staff. RTAs do not sell or manage funds -- they process and record.
+**Cross-Exam Context:** NISM Series V-A (Mutual Fund Distributors) covers the role of intermediaries; understanding the RTA's distinct function avoids overlap confusion.
+**Distributor's Pro-Tip:** When a client complains about transaction delays, the bottleneck is often at the RTA processing end. Knowing this helps you direct queries efficiently rather than blaming the AMC.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Basics of Securities and Types_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Rajesh holds 500 equity shares of ABC Ltd. The company has declared a dividend of 80% on a face value of Rs. 5 per share. The current market price is Rs. 200 per share. What is the dividend yield?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[4.00%]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.80%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[2.00%]]></text></answer>
+            <answer correct="no"><text><![CDATA[8.00%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Dividend per share = 80% of FV Rs. 5 = Rs. 4. Dividend yield = (Dividend per share / Market price) × 100 = (4/200) × 100 = 2.00%. The number of shares (500) is irrelevant for calculating yield.
+**The Trap:** Option D (8.00%) is tempting if you mistakenly divide dividend by face value instead of market price. Option A (4.00%) traps those who use Rs. 100 as face value.
+**Cross-Exam Context:** NISM Series V-A (MF Distributors) and Series XV (Research Analyst) frequently test dividend yield calculations.
+**Distributor's Pro-Tip:** Always compute dividend on face value, not market price — but yield is always on market price. This distinction is critical when advising clients on income-generating stocks.]]></text></explanation>
+    </question>
+</QF>

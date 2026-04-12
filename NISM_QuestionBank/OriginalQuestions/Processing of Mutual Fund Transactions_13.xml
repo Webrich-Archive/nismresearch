@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Processing of Mutual Fund Transactions_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following correctly describes the role of the RTA in managing SIP (Systematic Investment Plan) transactions?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The RTA only registers the SIP mandate; the AMC processes each installment]]></text></answer>
+            <answer correct="no"><text><![CDATA[The RTA forwards SIP instructions to the stock exchange for processing]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The RTA manages standing instructions and auto-triggers each SIP installment on the specified date]]></text></answer>
+            <answer correct="no"><text><![CDATA[The RTA processes the first installment only; subsequent ones are handled by the bank]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The RTA plays a central role in SIP management — it stores the standing instructions (amount, frequency, date, scheme, tenure), auto-triggers each installment on the specified date by initiating the debit mandate, processes the transaction at the applicable NAV, and updates the investor's folio with new units.
+**The Trap:** Some candidates think the bank or the AMC directly triggers SIP debits. While the bank executes the debit, the trigger and processing is managed by the RTA based on standing instructions.
+**Cross-Exam Context:** NISM Series V-A covers SIP features and benefits; Series II-B specifically tests the RTA's operational role in managing systematic transactions.
+**Distributor's Pro-Tip:** When a client's SIP bounces, the first check should be with the RTA to verify the mandate status and next trigger date. Common issues include insufficient balance, mandate expiry, or bank account changes — all trackable through the RTA system.]]></text></explanation>
+    </question>
+</QF>

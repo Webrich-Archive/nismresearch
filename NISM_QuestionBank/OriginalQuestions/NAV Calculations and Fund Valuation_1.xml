@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV Calculations and Fund Valuation_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The formula for calculating Net Asset Value (NAV) of a mutual fund scheme is:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[(Total investments at cost + Accrued income) / Units outstanding]]></text></answer>
+            <answer correct="no"><text><![CDATA[(Face value of all securities held) / Total number of investors]]></text></answer>
+            <answer correct="no"><text><![CDATA[(AUM + Cash reserves) / Units sold during the day]]></text></answer>
+            <answer correct="yes"><text><![CDATA[(Market value of portfolio - Expenses and liabilities) / Units outstanding]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** NAV = (Market value of portfolio - Expenses and liabilities) / Units outstanding. This formula gives the per-unit value of the fund, reflecting the current market value of holdings net of all charges.
+**The Trap:** Using cost instead of market value is wrong -- NAV must reflect current market values (marked to market). Also, the denominator is units outstanding, not number of investors or units sold.
+**Cross-Exam Context:** This formula is foundational across NISM Series V-A, II-B, and VIII. Every mutual fund professional must know it by heart.
+**Distributor's Pro-Tip:** Use the NAV formula to explain to clients that NAV represents the 'true current value' of each unit they hold. It changes daily based on market movements, not based on what they originally paid.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Corporate Actions_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In a bonus issue with a ratio of 1:2, what does a shareholder holding 500 shares receive?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[250 bonus shares]]></text></answer>
+            <answer correct="no"><text><![CDATA[750 bonus shares]]></text></answer>
+            <answer correct="no"><text><![CDATA[1,000 bonus shares]]></text></answer>
+            <answer correct="no"><text><![CDATA[500 bonus shares]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A bonus ratio of 1:2 means 1 bonus share for every 2 shares held. So a holder of 500 shares receives 500/2 = 250 bonus shares, bringing the total to 750 shares. The bonus is issued against accumulated profits without any cash outflow from the shareholder.
+**The Trap:** Many candidates misread 1:2 as 2 bonus shares for every 1 held (which would be 2:1). Always read bonus ratios as "new shares : existing shares" -- 1:2 means 1 new for every 2 existing.
+**Cross-Exam Context:** NISM Series V-A covers bonus impact on mutual fund portfolios; NISM Series VIII covers contract adjustment for bonus in derivatives.
+**Distributor's Pro-Tip:** After a bonus issue, the share price typically adjusts downward proportionally. Explain to clients that while they have more shares, the total value remains the same initially -- the real benefit is if the company maintains the same dividend per share on the increased capital.]]></text></explanation>
+    </question>
+</QF>

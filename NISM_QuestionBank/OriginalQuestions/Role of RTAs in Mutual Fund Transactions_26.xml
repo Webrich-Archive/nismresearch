@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Role of RTAs in Mutual Fund Transactions_26" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the NAV publication deadline for Fund of Funds (FoF) and overseas fund schemes?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[9 AM on the next business day (T+1)]]></text></answer>
+            <answer correct="no"><text><![CDATA[12 noon on the next business day (T+1)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[10 AM on the next business day (T+1)]]></text></answer>
+            <answer correct="no"><text><![CDATA[11 PM on the same business day (T-day)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** FoF and overseas fund schemes get an extended deadline of 10 AM on T+1 because their underlying funds may have different NAV computation timelines, especially overseas funds in different time zones.
+**The Trap:** The standard 11 PM T-day deadline does not apply to FoFs and overseas funds. The extended deadline acknowledges the practical challenge of valuing underlying funds across time zones.
+**Cross-Exam Context:** NISM Series V-A covers FoF structures. The delayed NAV publication also impacts applicable NAV calculations for transactions in these schemes.
+**Distributor's Pro-Tip:** Clients investing in FoFs or international funds should understand that their transaction NAV depends on underlying fund valuations from different markets. This can cause a day's delay in NAV availability.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Basics of Securities and Types_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A company issues shares at Rs. 50 each, of which Rs. 10 is the face value and Rs. 40 is the share premium. If a shareholder holds 1,000 such shares and the company declares a 100% dividend, what is the total dividend amount the shareholder receives?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 50,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 40,000]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 10,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 5,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Dividend is always computed as a percentage of face value, not the issue price or market price. Dividend per share = 100% of FV Rs. 10 = Rs. 10. Total dividend = 1,000 shares × Rs. 10 = Rs. 10,000. The share premium of Rs. 40 is irrelevant for dividend calculation.
+**The Trap:** Option A (Rs. 50,000) is the trap for those who compute 100% on the issue price of Rs. 50 instead of the face value of Rs. 10. This is one of the most common errors in the exam.
+**Cross-Exam Context:** NISM Series V-A (MF Distributors) and Series XII (Securities Markets Foundation) test dividend computation on face value.
+**Distributor's Pro-Tip:** Dividend is ALWAYS on face value. SEBI also mandates that companies disclose dividend in rupees per share (not just as a percentage) to avoid confusion for retail investors.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Investor Services and Transaction Processing_C2_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Vikram Patel invested Rs.5,00,000 in DEF Equity Fund on March 15. He submitted his redemption request for the entire holding on April 5 (a Monday, working day) before the 3:00 PM cutoff. The following events occurred:
+
+Event 1: By April 9 (Thursday, T+3 working days, with no holidays in between), Vikram had not received his redemption proceeds in his bank account.
+
+Event 2: He called the AMC's customer care on April 9 and was told the delay was due to 'technical issues at the RTA' and that the proceeds would be credited within 2 more working days.
+
+Event 3: By April 13 (Tuesday), the proceeds were still not received. Vikram sent an email complaint to the AMC.
+
+Event 4: The AMC responded on April 16 (Friday) saying the RTA has been instructed to process the payment and it should arrive by April 20.
+
+Event 5: On April 20, Vikram received only Rs.4,85,000 instead of the expected Rs.4,97,500 (based on the redemption NAV and units held). He was not given any explanation for the shortfall of Rs.12,500.
+
+<b>Question 1 of 5:</b> By April 9, was the AMC in violation of SEBI's redemption payout timeline for an equity fund?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[No, the T+3 timeline starts from the date the AMC processes the request, not from the date of investor submission]]></text></answer>
+            <answer correct="no"><text><![CDATA[No, T+3 is only applicable for liquid funds; equity funds have T+5]]></text></answer>
+            <answer correct="no"><text><![CDATA[No, equity fund redemption can take up to T+5 working days]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Yes, equity fund redemption proceeds must be paid within T+3 working days, and April 9 is the T+3 deadline — if proceeds were not credited by end of April 8 (T+3), there is a violation]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For equity fund redemptions, the proceeds must be paid within T+3 working days where T is the date of redemption request (April 5, Monday). T+1 = April 6 (Tuesday), T+2 = April 7 (Wednesday), T+3 = April 8 (Thursday). By end of April 8, the proceeds should have been credited. If Vikram hadn't received them by April 9, the AMC is in technical violation of the T+3 timeline.
+**The Trap:** T+3 counts from the date of the investor's request (if before cutoff), NOT from when the AMC processes it internally. Also, T+3 is the timeline for equity/hybrid funds — liquid/overnight is T+1, other debt is T+2.
+**Cross-Exam Context:** NISM Series V-A covers redemption timelines; Series II-B tests the RTA's obligation to ensure timely processing and the consequences of delay.
+**Distributor's Pro-Tip:** Track redemption requests actively — if proceeds don't arrive by T+3, escalate immediately. Delayed redemptions entitle the investor to interest at 15% per annum for the delay period. This isn't widely known but is a powerful tool for investor protection.]]></text></explanation>
+    </question>
+</QF>

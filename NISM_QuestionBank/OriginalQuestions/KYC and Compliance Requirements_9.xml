@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="KYC and Compliance Requirements_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the role of KRA (KYC Registration Agency) in the mutual fund KYC ecosystem?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[KRA issues PAN cards to investors who don't have one]]></text></answer>
+            <answer correct="yes"><text><![CDATA[KRA maintains centralized KYC data, enables inter-operability across SEBI-registered intermediaries, and can share data with RBI, IRDAI, and PFRDA regulated entities]]></text></answer>
+            <answer correct="no"><text><![CDATA[KRA only stores PAN data and verifies it with the IT Department]]></text></answer>
+            <answer correct="no"><text><![CDATA[KRA directly processes mutual fund transactions for KYC-compliant investors]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** KRAs maintain centralized KYC records, enabling inter-operability (IOP) — meaning an investor who completes KYC with one SEBI-registered intermediary doesn't need to repeat it with another. KRAs can also share KYC data with entities regulated by RBI, IRDAI, and PFRDA, creating cross-regulatory KYC portability.
+**The Trap:** KRAs don't process transactions — they are data repositories. They also don't issue PAN cards (that's the IT Department's function). The KRA's role is strictly about KYC data centralization and sharing.
+**Cross-Exam Context:** NISM Series V-A covers the KRA framework; Series II-B tests the RTA's interaction with KRAs for KYC verification and data upload.
+**Distributor's Pro-Tip:** Always check the investor's KYC status on the KRA before starting a new application — if they're already KYC-compliant through another intermediary, you can skip the documentation process and proceed directly to the investment application.]]></text></explanation>
+    </question>
+</QF>

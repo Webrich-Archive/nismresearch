@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Corporate Actions_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A company with paid-up capital of Rs.200 crore and free reserves of Rs.600 crore wants to buy back shares. If it passes only a Board resolution (not a special resolution), what is the maximum buyback amount permissible?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs.80 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.20 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.60 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.200 crore]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** With only a Board resolution, buyback is limited to 10% of total paid-up capital + free reserves. Total = Rs.200 cr + Rs.600 cr = Rs.800 cr. Maximum buyback = 10% × Rs.800 cr = Rs.80 crore. For anything above this (up to 25% = Rs.200 cr), a special resolution would be needed.
+**The Trap:** Candidates may apply 10% only to paid-up capital (getting Rs.20 cr) or only to free reserves (getting Rs.60 cr). The 10% applies to the SUM of paid-up capital AND free reserves.
+**Cross-Exam Context:** NISM Series IX covers buyback thresholds and resolution requirements in detail.
+**Distributor's Pro-Tip:** When a company announces a buyback with only a Board resolution, you know it's capped at 10% of paid-up + reserves. If they announce a larger buyback requiring a special resolution, check whether the EGM notice has been issued -- the buyback cannot proceed until shareholders approve.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="KYC and Compliance Requirements_14" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under the KUA/sub-KUA framework for eKYC, what does KUA stand for?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[KYC Unified Authority]]></text></answer>
+            <answer correct="no"><text><![CDATA[KYC Update Agency]]></text></answer>
+            <answer correct="yes"><text><![CDATA[KYC User Agency]]></text></answer>
+            <answer correct="no"><text><![CDATA[KYC Upload Agency]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** KUA stands for KYC User Agency — the entity authorized to use the Aadhaar authentication infrastructure for conducting eKYC. Sub-KUAs are entities that operate under a KUA's license to provide eKYC services at the ground level. This framework regulates who can access UIDAI's authentication system for financial KYC purposes.
+**The Trap:** 'Update' and 'Upload' are plausible-sounding alternatives, but the correct term is 'User' — the agency that 'uses' the Aadhaar authentication system.
+**Cross-Exam Context:** NISM Series II-B specifically tests the eKYC infrastructure framework including KUA/sub-KUA roles; this is operational knowledge critical for RTA professionals.
+**Distributor's Pro-Tip:** Verify that your organization (or the AMC you work with) has a valid KUA or sub-KUA arrangement before offering eKYC to clients. Conducting Aadhaar-based eKYC without proper authorization is a UIDAI compliance violation.]]></text></explanation>
+    </question>
+</QF>

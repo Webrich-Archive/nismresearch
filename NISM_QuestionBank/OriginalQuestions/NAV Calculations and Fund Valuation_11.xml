@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV Calculations and Fund Valuation_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For liquid fund redemptions received before 3 PM, the applicable NAV is:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The closing NAV of the next business day]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The closing NAV of the day before the next business day]]></text></answer>
+            <answer correct="no"><text><![CDATA[The closing NAV of the same business day]]></text></answer>
+            <answer correct="no"><text><![CDATA[The closing NAV of the previous business day]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For liquid fund redemptions received before 3 PM, the applicable NAV is the closing NAV of the day before the next business day. This is a unique rule for liquid funds designed to prevent day-end arbitrage.
+**The Trap:** Liquid fund NAV rules are different from equity/debt redemptions. The 'day before next business day' language is confusing -- in practice, for a Monday redemption received before 3 PM, the applicable NAV is Monday's closing NAV (since Tuesday is the next business day and Monday is the day before it).
+**Cross-Exam Context:** Liquid fund NAV applicability is one of the most confusing topics in NISM exams. Practice with specific day examples to build clarity.
+**Distributor's Pro-Tip:** For corporate clients who need precise liquidity timing, walk them through the liquid fund redemption NAV calculation with specific dates. The phrasing can be confusing, but the practical outcome is that they typically get the same day's closing NAV for pre-3 PM redemptions.]]></text></explanation>
+    </question>
+</QF>

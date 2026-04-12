@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Corporate Actions_25" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Meena holds 200 shares of DEF Ltd. (FV Rs.2 each). If the company announces a stock consolidation from FV Rs.2 to FV Rs.10, how many shares will Meena hold after consolidation?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[200 shares]]></text></answer>
+            <answer correct="no"><text><![CDATA[100 shares]]></text></answer>
+            <answer correct="no"><text><![CDATA[1,000 shares]]></text></answer>
+            <answer correct="yes"><text><![CDATA[40 shares]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Total face value held = 200 × Rs.2 = Rs.400. After consolidation to FV Rs.10: 400 / 10 = 40 shares. The consolidation ratio is 5:1 (5 old shares of Rs.2 become 1 new share of Rs.10). So 200 / 5 = 40 shares.
+**The Trap:** Candidates may multiply instead of divide (getting 1,000 shares), confusing consolidation with a split. In consolidation, face value increases, so number of shares decreases.
+**Cross-Exam Context:** NISM Series VIII covers derivative contract adjustments for consolidation; NISM Series XII covers basic consolidation mechanics.
+**Distributor's Pro-Tip:** After consolidation, each share trades at approximately 5 times the pre-consolidation price. The total value remains the same. Inform clients that fractional entitlements (if any) are typically settled in cash.]]></text></explanation>
+    </question>
+</QF>

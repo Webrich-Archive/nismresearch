@@ -1,8 +1,8 @@
 # NISM Question Bank — Handoff Document
 
-**Date:** April 11, 2026 (Updated after Phase 11b Session 3 — Series X-B Modules 10-12: Estate Planning + Behavioral Finance + Comprehensive)
-**Status:** 17 of 31 exams complete. 7,643 questions generated. Series X-B COMPLETE — 500 questions across 18 topics with 20 caselets (100 caselet Qs).
-**For:** Next session should continue Phase 12 — next exam in sequence.
+**Date:** April 12, 2026 (Updated after Phase 12 — Series II-A & II-B complete)
+**Status:** 19 of 31 exams complete. 8,143 questions generated. Phase 12 COMPLETE — II-A (250 Qs, 8 topics, 6 caselets) + II-B (250 Qs, 6 topics, 8 caselets).
+**For:** Next session should continue Phase 13 — next exam in sequence.
 
 ---
 
@@ -29,7 +29,9 @@
 | Series IX - Merchant Banking | IX | 500 | 8 | Moderate | Generated from PDF (10% calc, 45% conceptual, 35% regulatory, 10% application) |
 | Series X-A - Investment Adviser Level 1 | X-A | 500 | 6 | Hard | Generated from PDF (20% calc, 30% conceptual, 35% regulatory, 15% application). 20 caselets (100 caselet Qs). |
 | Series X-B - Investment Adviser Level 2 | X-B | 500 | 18 | Hard | Generated from PDF across 3 sessions. 20 caselets (100 caselet Qs). |
-| **Total (completed exams)** | | **7,643** | **174** | | |
+| Series II-A - RTA Corporate | II-A | 250 | 8 | Moderate | Generated from PDF. 6 caselets (30 caselet Qs). |
+| Series II-B - RTA Mutual Fund | II-B | 250 | 6 | Moderate | Generated from PDF. 8 caselets (40 caselet Qs). |
+| **Total (completed exams)** | | **8,143** | **188** | | |
 
 **X-B Complete Breakdown (3 Sessions, Modules 7-12):**
 
@@ -80,26 +82,27 @@
 
 ```
 /Users/shivam/aiworkspace/nismresearch/NISM_QuestionBank/
-├── ExamWeightages.plist          (31 exams, topic names aligned with file prefixes for 17 completed exams)
-├── Topics.plist                  (174 topics, 7,643 questions)
-├── TopicsLite.plist              (174 topics, all ≥30% ratio)
-├── ChapterArticles.plist         (156 chapters, each with single "All Topics" article)
-├── QuestionToArticleNumber.plist (7,643 entries, all mapping to article "1")
-├── OriginalQuestions/            (7,643 XML files)
+├── ExamWeightages.plist          (31 exams, topic names aligned with file prefixes for 19 completed exams)
+├── Topics.plist                  (188 topics, 8,143 questions)
+├── TopicsLite.plist              (188 topics, all ≥30% ratio)
+├── ChapterArticles.plist         (188 chapters, each with single "All Topics" article)
+├── QuestionToArticleNumber.plist (8,143 entries, all mapping to article "1")
+├── OriginalQuestions/            (8,143 XML files)
 ├── manifest.json                 (progress tracking — version 5.0)
 ├── TaxRatesReference_FY2025-26.md (verified tax rates)
 ├── 15 audit report files         (detailed per-chapter audit results for first 5 exams)
 └── HANDOFF.md                    (this file)
 ```
 
-### Validation Status (All Pass — verified Phase 11b Session 3)
+### Validation Status (All Pass — verified Phase 12)
 - 5/5 plists: OK (plutil)
-- 7,643/7,643 XML files: valid (xml.etree.ElementTree)
+- 8,143/8,143 XML files: valid (xml.etree.ElementTree)
 - 0 intra-exam duplicates, all unique IDs
-- 174 plist topics == 174 file prefixes: PERFECT MATCH
-- Series X-B: 18 ExamWeightages topics ↔ 18 file prefixes: MATCH, weightages sum = 100%
-- All TopicsLite ratios ≥ 30% for all 174 topics
-- All 8 Session 3 caselets: scenario text identical across all 5 files (MD5 verified)
+- 188 plist topics == 188 file prefixes: PERFECT MATCH
+- Series II-A: 8 ExamWeightages topics ↔ 8 file prefixes: MATCH, weightages sum = 100%
+- Series II-B: 6 ExamWeightages topics ↔ 6 file prefixes: MATCH, weightages sum = 100%
+- All TopicsLite ratios ≥ 30% for all 188 topics
+- All Phase 12 caselets: scenario text identical across all 5 files per caselet
 
 ### Comprehensive Audit Results (Post-Session 4 Gap Analysis)
 

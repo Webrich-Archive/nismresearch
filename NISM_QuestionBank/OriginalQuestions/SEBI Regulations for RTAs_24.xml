@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="SEBI Regulations for RTAs_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A disruption lasting more than how many minutes at an RTA triggers a formal disaster declaration under CSCRF?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[30 minutes]]></text></answer>
+            <answer correct="no"><text><![CDATA[60 minutes]]></text></answer>
+            <answer correct="no"><text><![CDATA[15 minutes]]></text></answer>
+            <answer correct="no"><text><![CDATA[120 minutes]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under CSCRF, any disruption lasting more than 30 minutes triggers a formal disaster declaration. Once declared, the RTA must restore operations within 45 minutes. These tight timelines reflect the critical nature of RTA operations.
+**The Trap:** 30 minutes for declaration and 45 minutes for restoration are separate but linked requirements. A 30-minute disruption doesn't mean 30-minute recovery -- recovery must happen within 45 minutes of declaration.
+**Cross-Exam Context:** These timelines are significantly stricter than many other financial intermediaries. They underscore the systemic importance of RTAs processing millions of daily transactions.
+**Distributor's Pro-Tip:** The 30-minute declaration trigger means RTAs must have robust monitoring systems. As a distributor, if you notice the RTA system is down, the RTA is likely already in disaster response mode within minutes.]]></text></explanation>
+    </question>
+</QF>

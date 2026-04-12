@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="KYC and Compliance Requirements_12" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Following the May 2024 SEBI circular, what is the relationship between PAN-Aadhaar linkage and KYC status?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[PAN-Aadhaar linkage is mandatory for KYC validation; without it, KYC becomes invalid]]></text></answer>
+            <answer correct="yes"><text><![CDATA[PAN-Aadhaar linkage is disconnected from KYC status, but portability of KYC is not available without the linkage]]></text></answer>
+            <answer correct="no"><text><![CDATA[PAN-Aadhaar delinkage automatically downgrades KYC from Validated to Registered]]></text></answer>
+            <answer correct="no"><text><![CDATA[PAN-Aadhaar linkage has no impact whatsoever on KYC or portability]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The May 2024 SEBI circular decoupled PAN-Aadhaar linkage from KYC status — meaning a person's KYC status (Validated/Registered) is not affected by whether their PAN and Aadhaar are linked. However, KYC portability (ability to use KYC across intermediaries) requires PAN-Aadhaar linkage. So the linkage affects usability, not status.
+**The Trap:** Candidates may think that delinking PAN-Aadhaar invalidates the KYC entirely, or conversely, that it has zero impact. The nuanced answer is: status remains unchanged, but portability is restricted.
+**Cross-Exam Context:** This is a very recent regulatory development tested specifically in Series II-B; it reflects SEBI's evolving approach to balancing KYC integrity with operational flexibility.
+**Distributor's Pro-Tip:** If a client's KYC shows 'Validated' but they can't invest through a new intermediary, check PAN-Aadhaar linkage first. The KYC is valid but not portable. Advise them to link PAN-Aadhaar through the IT e-filing portal to restore full portability.]]></text></explanation>
+    </question>
+</QF>

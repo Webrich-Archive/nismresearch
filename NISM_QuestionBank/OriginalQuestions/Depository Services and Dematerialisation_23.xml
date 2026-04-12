@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Depository Services and Dematerialisation_23" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Ankit's DP processes a dematerialisation request on his behalf. Which sequence correctly describes the flow of the dematerialisation process?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Investor submits DRF to RTA → RTA sends to depository → DP credits investor account → certificates destroyed]]></text></answer>
+            <answer correct="no"><text><![CDATA[Investor submits DRF to depository → depository verifies certificates → DP credits investor account → RTA updates ROM]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Investor submits DRF + certificates to DP → DP sends electronic request via depository to RTA → RTA verifies and confirms → investor account credited]]></text></answer>
+            <answer correct="no"><text><![CDATA[Investor submits DRF to stock exchange → exchange forwards to depository → depository instructs RTA → RTA credits investor]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The correct dematerialisation flow is: (1) Investor submits DRF along with physical certificates to their DP, (2) DP generates a DRN and sends an electronic request through the depository to the RTA, (3) RTA verifies the physical certificates against the electronic request — checking authorisation, details match, DRN, hologram/watermark, and lock-in tags, (4) Upon successful verification, the investor's demat account is credited.
+
+**The Trap:** The key distinction is that the investor approaches the DP (not the RTA or depository directly). The DP is the investor's interface in the depository system. Also, the electronic request flows through the depository as an intermediary, not directly from DP to RTA.
+
+**Cross-Exam Context:** During this process, physical certificates are first marked "Surrendered for Dematerialisation" and then mutilated. In the ROM, the depository's name replaces the investor's name to the extent of shares dematerialised.
+
+**Distributor's Pro-Tip:** Walk clients through the process step by step when they submit for demat for the first time. Ensure the DRF is filled completely and certificates are properly signed on the back to avoid rejections.]]></text></explanation>
+    </question>
+</QF>

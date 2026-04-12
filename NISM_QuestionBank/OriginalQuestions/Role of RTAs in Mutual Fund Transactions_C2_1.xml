@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Role of RTAs in Mutual Fund Transactions_C2_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Aditya is a newly certified mutual fund distributor operating from Jamshedpur, a B-30 city. He is reviewing the product offerings of Pinnacle Mutual Fund to advise his clients. The AMC offers the following schemes: (1) Pinnacle Large Cap Fund with AUM of Rs.450 crore, (2) Pinnacle Flexi Cap Fund with AUM of Rs.2,500 crore, (3) Pinnacle ELSS Fund with AUM of Rs.800 crore, and (4) Pinnacle Liquid Fund with AUM of Rs.5,000 crore. Aditya wants to understand the TER structure, NAV reporting, and how his B-30 location affects commissions. His client, Mrs. Deepa Menon, wants to invest Rs.1.5 lakh in the ELSS fund and Rs.3 lakh in the Large Cap fund. Both investments will be through Aditya as the distributor (Regular Plan).
+
+<b>Question 1 of 5:</b> For the Pinnacle Large Cap Fund with AUM of Rs.450 crore, what is the maximum TER that can be charged for the Regular Plan?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[1.05% as the lowest slab applies to all equity funds uniformly]]></text></answer>
+            <answer correct="yes"><text><![CDATA[2.25% since the entire AUM of Rs.450 crore falls within the first Rs.500 crore slab]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.75% as it is a mid-sized equity fund]]></text></answer>
+            <answer correct="no"><text><![CDATA[2.50% as this was the original SEBI limit for equity funds]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The maximum TER for equity schemes is 2.25% on the first Rs.500 crore of AUM. Since Pinnacle Large Cap Fund's entire AUM of Rs.450 crore falls within this first slab, the maximum TER applicable is 2.25%.
+**The Trap:** 2.50% was the old pre-2018 limit. 1.05% is the rate for the highest AUM slab, not for a Rs.450 crore fund. TER is computed slab-wise based on AUM.
+**Cross-Exam Context:** TER slab computation is a calculation-based question common in NISM Series V-A and II-B. RTAs compute TER daily and must track AUM-based slab changes.
+**Distributor's Pro-Tip:** As this fund's AUM grows beyond Rs.500 crore, the blended TER will decrease due to the declining slab structure. This is good for investors but may marginally reduce your trail commission per rupee of AUM.]]></text></explanation>
+    </question>
+</QF>

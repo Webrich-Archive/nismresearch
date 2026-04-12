@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV Calculations and Fund Valuation_8" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For liquid fund purchase transactions, the cut-off time is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[1:30 PM]]></text></answer>
+            <answer correct="no"><text><![CDATA[3:00 PM]]></text></answer>
+            <answer correct="no"><text><![CDATA[2:00 PM]]></text></answer>
+            <answer correct="no"><text><![CDATA[12:00 noon]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Liquid fund purchases have an earlier cut-off of 1:30 PM. If the application with funds is received before 1:30 PM, the applicable NAV is the closing NAV of the day BEFORE receipt (i.e., previous day's NAV).
+**The Trap:** Two key differences from equity: (1) earlier cut-off at 1:30 PM instead of 3 PM, and (2) the applicable NAV is the PREVIOUS day's closing NAV, not the same day's NAV. This prevents investors from gaming same-day arbitrage.
+**Cross-Exam Context:** The liquid fund NAV rule changed in 2019 to prevent arbitrage. Understanding this change is critical for NISM Series II-B and V-A exams.
+**Distributor's Pro-Tip:** Explain to corporate treasury clients that liquid fund purchases must be initiated early (before 1:30 PM) and they get the previous day's NAV. Plan fund transfers accordingly to ensure timely credit.]]></text></explanation>
+    </question>
+</QF>

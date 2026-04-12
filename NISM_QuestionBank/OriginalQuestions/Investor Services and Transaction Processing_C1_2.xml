@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Investor Services and Transaction Processing_C1_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Meena Sharma, a 55-year-old retired school teacher from Jaipur, has mutual fund investments across 3 schemes of PQR Mutual Fund. She visits the Investor Service Centre (ISC) with the following requests:
+
+Request 1: She has recently moved from Jaipur to Udaipur and wants to update her address. She carries her new Aadhaar card showing the Udaipur address.
+
+Request 2: She has opened a new bank account with a different bank (Bank of Rajasthan) and wants all future redemption proceeds and IDCW payouts to go to this new account. She carries a cancelled cheque of the new account and her old bank's passbook.
+
+Request 3: She wants to add her daughter (Priya, age 28) and son (Rahul, age 32) as nominees with 60% and 40% allocation respectively. Currently, no nominee is registered.
+
+Request 4: She has not received her CAS for the last 6 months and wants to understand why and get it reissued.
+
+Request 5: She wants to know if she can consolidate her 3 folios — Folio 1 is in her single name, Folio 2 is joint with her husband (Meena + Suresh), and Folio 3 is in her single name with a different bank account.
+
+<b>Question 2 of 5:</b> For Request 2 (bank account change), what is the RTA's verification process?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Simply update the new bank details based on the cancelled cheque provided]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Verify the old bank account from existing records against the passbook provided, validate the new bank account through the cancelled cheque showing name/account number/IFSC, and process the change after verifying investor identity]]></text></answer>
+            <answer correct="no"><text><![CDATA[Process the change only after receiving a confirmation letter from the new bank]]></text></answer>
+            <answer correct="no"><text><![CDATA[Reject the request because bank account changes require mandatory cooling-off period of 30 days]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Bank account change is a high-risk modification. The RTA must: (1) verify the investor's identity (Meena is present for IPV), (2) verify the OLD bank account from existing records against the passbook she brought, (3) validate the NEW bank account through the cancelled cheque (confirming name, account number, and IFSC code), and (4) process the change. Both old and new account verification prevents fraudulent changes.
+**The Trap:** There's no mandatory 30-day cooling-off period for bank changes, though some AMCs may have internal validation processes. The RTA doesn't need a letter from the new bank — the cancelled cheque is sufficient proof.
+**Cross-Exam Context:** NISM Series II-B tests the specific verification steps for bank account changes; this is considered a critical service request due to financial implications.
+**Distributor's Pro-Tip:** The cancelled cheque should clearly show the account holder's name matching the folio name, IFSC code, and account number. If any of these are unclear, a bank statement or bank-attested letter can supplement. Never process a bank change without dual verification (old + new) — it's the most common target for fraud.]]></text></explanation>
+    </question>
+</QF>

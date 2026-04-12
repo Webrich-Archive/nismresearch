@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="SEBI LODR Regulations_C2_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> TrustLink Registrars Ltd. is a SEBI-registered Category I RTA managing 3.2 crore folios across 450 listed companies. The RTA was established in 2010 and employs 800 staff members. Ashok Patel is the Compliance Officer, and Kavita Sharma is the Head of Operations.
+
+During a recent SEBI inspection, the following observations were noted: (a) an investor grievance filed on February 1, 2025 by Deepak Verma remained unresolved as of March 15, 2025; (b) the internal auditor, Mr. Suresh Joshi (a Chartered Accountant with 8 years of experience), has been conducting the annual audit since April 2019; (c) correction of investor details in the database was being done directly by operations staff without company approval; (d) physical share bonus credits for one issuer were processed in demat mode; and (e) the structured digital database for UPSI shared by client companies was being maintained with timestamps but without PAN details of recipients.
+
+TrustLink's Board is reviewing these findings and must take corrective action. Additionally, three issuers have unpaid dividends for investors whose records show no PAN or bank details updates for over 3 years.
+
+<b>Question 3 of 5:</b> SEBI noted that TrustLink's operations staff were correcting investor details directly without company approval. Which specific strengthening guideline requirement has been violated?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The maker-checker requirement, which mandates dual authorization for all transactions]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The requirement that corrections to investor records need company (issuer) approval before being processed]]></text></answer>
+            <answer correct="no"><text><![CDATA[The requirement that only the Compliance Officer can authorize database changes]]></text></answer>
+            <answer correct="no"><text><![CDATA[The front-end only update restriction that prohibits any back-end database modifications]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under SEBI's strengthening guidelines for RTAs, corrections to investor details require company (issuer) approval before being processed in the system. This is separate from the maker-checker requirement, which addresses dual authorization within the RTA. The correction approval process ensures the issuer has visibility into changes to their shareholder records.
+**The Trap:** While maker-checker and front-end only updates are also requirements, the specific violation here is processing corrections without company approval. These are three separate requirements: (1) maker-checker for dual control, (2) front-end only for data integrity, (3) issuer approval for corrections.
+**Cross-Exam Context:** The front-end only update restriction means all database updates must go through the application front-end (not direct backend access), maintaining audit trails.
+**Distributor's Pro-Tip:** Implement a workflow where all correction requests are queued for issuer approval before execution. The RTA should not have the unilateral ability to modify investor records without issuer sign-off, regardless of how minor the correction appears.]]></text></explanation>
+    </question>
+</QF>

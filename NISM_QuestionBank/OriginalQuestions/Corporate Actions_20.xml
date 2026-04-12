@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Corporate Actions_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For a buyback exceeding Rs.100 crore, what is the escrow deposit requirement?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[50% of the entire buyback amount]]></text></answer>
+            <answer correct="no"><text><![CDATA[10% of the entire buyback amount]]></text></answer>
+            <answer correct="no"><text><![CDATA[25% of the entire buyback amount]]></text></answer>
+            <answer correct="yes"><text><![CDATA[25% of the first Rs.100 crore plus 10% of the amount exceeding Rs.100 crore]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The escrow requirement for buyback is structured in slabs: for amounts up to Rs.100 crore, the escrow is 25%. For amounts exceeding Rs.100 crore, it is 25% of the first Rs.100 crore (= Rs.25 crore) plus 10% of the amount exceeding Rs.100 crore. This ensures sufficient commitment while not blocking excessive capital for very large buybacks.
+**The Trap:** Candidates may apply a flat 25% rate to the entire amount, which would overstate the escrow for large buybacks. The slab structure is similar to income tax computation logic.
+**Cross-Exam Context:** NISM Series IX covers escrow requirements in detail from the merchant banking perspective.
+**Distributor's Pro-Tip:** The escrow deposit is a strong indicator of the company's commitment to completing the buyback. A well-funded escrow means lower risk of the buyback being abandoned.]]></text></explanation>
+    </question>
+</QF>

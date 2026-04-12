@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="SEBI LODR Regulations_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under SEBI (Prohibition of Insider Trading) Regulations 2015, the structured digital database containing UPSI details must be preserved for a minimum of how many years?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[5 years from the date of creation]]></text></answer>
+            <answer correct="yes"><text><![CDATA[8 years or until completion of SEBI proceedings, whichever is later]]></text></answer>
+            <answer correct="no"><text><![CDATA[10 years from the date of the last entry]]></text></answer>
+            <answer correct="no"><text><![CDATA[3 years after the insider ceases to be connected with the company]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The structured digital database must be preserved for at least 8 years after completion of the relevant transactions, or until the conclusion of SEBI proceedings relating to them, whichever is later. This ensures evidence availability for enforcement.
+**The Trap:** The 8-year baseline is consistent with other SEBI record-keeping requirements (RTA Regulations, LODR document preservation), but the extension until SEBI proceedings complete is unique to the insider trading database.
+**Cross-Exam Context:** The structured digital database must contain: nature of UPSI, names of persons who shared it, names and PAN of persons it was shared with, time stamps, and audit trails.
+**Distributor's Pro-Tip:** RTAs maintaining investor records may be called upon to provide data for insider trading investigations. Ensuring 8-year data retention with proper audit trails is both a regulatory requirement and a practical necessity.]]></text></explanation>
+    </question>
+</QF>

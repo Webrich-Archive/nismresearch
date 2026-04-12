@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Basics of Securities and Types_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Meena holds 100 shares of XYZ Ltd with a face value of Rs. 10 each. The company announces a stock split reducing the face value to Rs. 2 per share. After the split, how many shares will Meena hold?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[100 shares]]></text></answer>
+            <answer correct="no"><text><![CDATA[200 shares]]></text></answer>
+            <answer correct="no"><text><![CDATA[20 shares]]></text></answer>
+            <answer correct="yes"><text><![CDATA[500 shares]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In a stock split, total value remains unchanged. Original: 100 shares × Rs. 10 FV = Rs. 1,000 total face value. New FV = Rs. 2. New shares = Rs. 1,000 / Rs. 2 = 500 shares. Alternatively, split ratio = 10/2 = 5, so 100 × 5 = 500.
+**The Trap:** Option B (200 shares) is tempting if you assume a simple 1:2 split without checking the actual face value change. Always calculate using the ratio of old FV to new FV.
+**Cross-Exam Context:** NISM Series VIII (Equity Derivatives) tests corporate action adjustments including stock splits on derivative contracts.
+**Distributor's Pro-Tip:** Remind clients that a stock split does not change the total investment value — it only increases the number of shares while reducing the price proportionally. It improves liquidity and affordability.]]></text></explanation>
+    </question>
+</QF>

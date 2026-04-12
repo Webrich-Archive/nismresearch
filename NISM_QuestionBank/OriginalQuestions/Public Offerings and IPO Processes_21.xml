@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Public Offerings and IPO Processes_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Kavita Technologies Ltd. is planning an IPO. The company has the following financials for the preceding 3 years: net tangible assets of Rs.4 crore, Rs.3.5 crore, and Rs.2.5 crore respectively. Average operating profit is Rs.18 crore (positive each year). Net worth is Rs.1.5 crore each year. Is the company eligible for a standard IPO?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Yes, because all three eligibility criteria are met]]></text></answer>
+            <answer correct="yes"><text><![CDATA[No, because net tangible assets are below Rs.3 crore in the third year, violating the requirement of Rs.3 crore in each of the preceding 3 years]]></text></answer>
+            <answer correct="no"><text><![CDATA[No, because the average operating profit does not meet the Rs.20 crore threshold]]></text></answer>
+            <answer correct="no"><text><![CDATA[No, because net worth must be at least Rs.5 crore each year]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Eligibility requires net tangible assets >= Rs.3 crore in EACH of the preceding 3 years. Kavita has Rs.2.5 crore in one year, which fails this test. The operating profit requirement is Rs.15 crore average (not Rs.20 crore) -- Kavita meets this at Rs.18 crore. Net worth requirement is Rs.1 crore each year (not Rs.5 crore) -- Kavita meets this at Rs.1.5 crore.
+**The Trap:** The net tangible assets test is per-year, not an average. Rs.2.5 crore in even one year disqualifies the company. Candidates who average the three years (Rs.3.33 crore) would incorrectly conclude eligibility. Also, the operating profit threshold is Rs.15 crore, not Rs.20 crore.
+**Cross-Exam Context:** NISM Series II-A Chapter 7.5 lists all eligibility criteria. RTAs must understand these to process applications correctly.
+**Distributor's Pro-Tip:** When analyzing IPO eligibility, check each year individually for net tangible assets and net worth -- averages don't count. A company that barely misses in one year must go the ineligible issuer route (75% QIB allotment, book building mandatory).]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="SEBI Regulations for RTAs_27" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How frequently must an RTA conduct disaster recovery drills as per CSCRF?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Monthly with a 1-hour system test]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Quarterly, plus live DRS operations of at least 1 day per quarter and 2 consecutive days per 6 months]]></text></answer>
+            <answer correct="no"><text><![CDATA[Annually with a 3-day full simulation exercise]]></text></answer>
+            <answer correct="no"><text><![CDATA[Semi-annually with a written tabletop exercise]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** CSCRF mandates quarterly DR drills. Additionally, live DRS operations must be conducted for at least 1 day per quarter and 2 consecutive days per 6 months. This ensures the DRS is not just a paper plan but is genuinely operational.
+**The Trap:** The requirement has multiple components -- quarterly drills PLUS live DRS operations with specific duration requirements. Candidates may remember one but miss the other.
+**Cross-Exam Context:** The live DRS operation requirement is distinctive and ensures that the recovery site can genuinely handle production workloads, not just pass a synthetic test.
+**Distributor's Pro-Tip:** Regular DR drills mean the RTA's backup systems are tested frequently. This gives you confidence that client data and transactions are resilient against disasters. It is one of the strongest operational safeguards in the financial services industry.]]></text></explanation>
+    </question>
+</QF>

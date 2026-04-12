@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Corporate Actions_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the context of a merger or amalgamation, which entity's RTA is primarily responsible for processing the share exchange?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The RTA of the transferee company (surviving company)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both RTAs share equal responsibility]]></text></answer>
+            <answer correct="no"><text><![CDATA[SEBI appoints an independent RTA for merger processing]]></text></answer>
+            <answer correct="no"><text><![CDATA[The RTA of the transferor company (company being merged)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The RTA of the transferee company (the surviving/acquiring company) handles the share exchange process. Their responsibilities include: informing the depository, obtaining BO records of the transferor company, calculating entitlement based on the exchange ratio, informing shareholders, and completing allotment of new shares.
+**The Trap:** It seems intuitive that the transferor company's RTA should handle the process since their shareholders need new shares. However, since the transferor company ceases to exist, its RTA's mandate also ends. The transferee company's RTA takes over.
+**Cross-Exam Context:** NISM Series IX (Merchant Banking) covers the regulatory framework for mergers and acquisitions; Series II-A focuses on the RTA's operational role.
+**Distributor's Pro-Tip:** During mergers, clients often worry about their holdings. Assure them that the process is handled systematically by the transferee RTA, and demat shares will be automatically exchanged based on the approved ratio.]]></text></explanation>
+    </question>
+</QF>

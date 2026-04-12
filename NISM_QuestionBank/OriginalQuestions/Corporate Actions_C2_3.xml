@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Corporate Actions_C2_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Pinnacle Engineering Ltd. (PEL), a listed manufacturing company, has 5 crore outstanding equity shares with a face value of Rs.10 each, currently trading at Rs.150 per share. The company has paid-up capital of Rs.50 crore and free reserves of Rs.350 crore. PEL's Board announces a rights issue in the ratio of 1:5 (one new share for every five shares held) at an issue price of Rs.100 per share.
+
+The record date is set as August 10, 2025. Deepa Mehta, the RTA Manager, obtains the beneficial owner download from NSDL and CDSL. The shareholder register shows:
+- Promoter group: 2 crore shares (40% stake)
+- Ankit Patel (retail investor): 500 shares in demat form
+- Kaveri Trust (institutional investor): 50,000 shares in demat form
+- Lakshmi Devi: 1,000 shares in physical form (not yet dematerialized)
+
+The rights issue offer document provides a composite application form allowing shareholders to apply for additional shares beyond their entitlement. The ASBA (Application Supported by Blocked Amount) process is mandatory for all applicants. Some shareholders choose partial acceptance of their entitlement, while others apply for excess shares.
+
+<b>Question 3 of 5:</b> What challenge does Lakshmi Devi face regarding the rights issue, and what must the RTA advise?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[She cannot participate because physical shareholders are barred from rights issues]]></text></answer>
+            <answer correct="no"><text><![CDATA[She can participate by submitting a physical application form with a cheque payment]]></text></answer>
+            <answer correct="yes"><text><![CDATA[She must convert her physical shares to demat form first; the ASBA process requires a demat account for credit of rights shares]]></text></answer>
+            <answer correct="no"><text><![CDATA[The RTA will automatically convert her shares to demat and credit rights entitlement]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** While physical shareholders are entitled to participate in rights issues, the mandatory ASBA process and demat credit of new shares means Lakshmi Devi must first dematerialize her existing holdings by opening a demat account. The RTA should advise her to initiate dematerialization urgently before the rights issue closes.
+**The Trap:** Candidates may think physical shareholders are entirely excluded (they are not -- they retain entitlement) or that they can still use physical application forms (ASBA is mandatory, which requires a bank-demat linkage).
+**Cross-Exam Context:** NISM Series VI covers dematerialization processes; NISM Series IX covers ASBA requirements for various issue types.
+**Distributor's Pro-Tip:** Proactively identify clients with physical holdings. Dematerialization takes several days, and missing the rights issue window due to pending demat conversion is a common problem. Start the process well before the rights issue closing date.]]></text></explanation>
+    </question>
+</QF>

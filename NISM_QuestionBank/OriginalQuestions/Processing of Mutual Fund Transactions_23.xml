@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Processing of Mutual Fund Transactions_23" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For IDCW distributions to resident investors with PAN, what is the TDS threshold below which no tax is deducted?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs.5,000 per year per fund house]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.10,000 per year per fund house]]></text></answer>
+            <answer correct="no"><text><![CDATA[No threshold — TDS applies on all IDCW]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.5,000 per year per scheme]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** TDS of 10% on IDCW is deducted only when the total IDCW from a particular mutual fund house (AMC) exceeds Rs.5,000 in a financial year for resident investors who have provided PAN. Below this threshold, no TDS is deducted (though the income is still taxable in the investor's hands).
+**The Trap:** The threshold is per fund house (AMC), not per scheme. If an investor receives Rs.3,000 IDCW from one scheme and Rs.3,000 from another scheme of the SAME AMC, total is Rs.6,000 and TDS applies on the entire amount.
+**Cross-Exam Context:** NISM Series V-A covers IDCW taxation comprehensively; this question tests the specific threshold that RTAs must track at the AMC level.
+**Distributor's Pro-Tip:** For clients in lower tax brackets who want to avoid TDS on small IDCW amounts, keeping IDCW below Rs.5,000 per AMC avoids deduction — but they must still report the income. For higher amounts, 10% TDS is often less than their actual tax rate, so no advance action is needed.]]></text></explanation>
+    </question>
+</QF>

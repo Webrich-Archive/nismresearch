@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Role of RTAs in Mutual Fund Transactions_C2_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Aditya is a newly certified mutual fund distributor operating from Jamshedpur, a B-30 city. He is reviewing the product offerings of Pinnacle Mutual Fund to advise his clients. The AMC offers the following schemes: (1) Pinnacle Large Cap Fund with AUM of Rs.450 crore, (2) Pinnacle Flexi Cap Fund with AUM of Rs.2,500 crore, (3) Pinnacle ELSS Fund with AUM of Rs.800 crore, and (4) Pinnacle Liquid Fund with AUM of Rs.5,000 crore. Aditya wants to understand the TER structure, NAV reporting, and how his B-30 location affects commissions. His client, Mrs. Deepa Menon, wants to invest Rs.1.5 lakh in the ELSS fund and Rs.3 lakh in the Large Cap fund. Both investments will be through Aditya as the distributor (Regular Plan).
+
+<b>Question 4 of 5:</b> The NAV of Pinnacle Liquid Fund is reported to 4 decimal places while Pinnacle Large Cap Fund's NAV is reported to 2 decimal places. Why?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The number of decimal places is at the AMC's discretion based on operational convenience]]></text></answer>
+            <answer correct="no"><text><![CDATA[All mutual fund NAVs are reported to 4 decimal places; 2 decimal reporting is an outdated practice]]></text></answer>
+            <answer correct="yes"><text><![CDATA[SEBI mandates 4 decimal places for liquid/debt/index funds and 2 decimal places for equity funds to reflect the precision needed for each category]]></text></answer>
+            <answer correct="no"><text><![CDATA[Liquid funds have higher NAVs requiring more decimal places for accuracy]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI mandates different decimal precision: equity schemes use 2 decimal places, while index, debt, liquid, and money market funds use 4 decimal places. Liquid funds need 4 decimals because their daily returns are very small and would be lost in 2-decimal rounding.
+**The Trap:** This is not AMC discretion -- it is a SEBI mandate. And 2-decimal reporting for equity is current and correct, not outdated.
+**Cross-Exam Context:** RTAs compute and publish NAV to the correct number of decimal places based on scheme type. This precision requirement is tested in NISM Series V-A and II-B.
+**Distributor's Pro-Tip:** The 4-decimal precision in liquid funds matters for institutional investors with large corpuses. A Rs.0.0001 NAV change on a Rs.100 crore investment equals Rs.1 lakh -- not trivial. For retail investors, the practical impact is minimal.]]></text></explanation>
+    </question>
+</QF>

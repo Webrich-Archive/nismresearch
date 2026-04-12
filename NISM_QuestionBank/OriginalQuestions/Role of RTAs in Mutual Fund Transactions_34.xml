@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Role of RTAs in Mutual Fund Transactions_34" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Sunita holds units in an open-ended equity fund and wants to switch to a debt fund within the same AMC. From the RTA's perspective, this transaction is processed as:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[A modification of the existing folio to reflect the new scheme]]></text></answer>
+            <answer correct="no"><text><![CDATA[A fresh purchase in the debt fund with no impact on the equity fund holdings]]></text></answer>
+            <answer correct="yes"><text><![CDATA[A redemption from the equity fund and a simultaneous purchase in the debt fund]]></text></answer>
+            <answer correct="no"><text><![CDATA[A simple transfer of units from one scheme to another without any redemption]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A switch transaction is operationally processed by the RTA as two simultaneous transactions: a redemption from the source scheme and a purchase in the target scheme. The redemption proceeds fund the purchase, and applicable NAV rules apply to both legs.
+**The Trap:** 'Switch' sounds like a simple transfer, but for processing purposes, it involves full redemption and purchase cycles. Tax implications also arise as the redemption leg triggers capital gains.
+**Cross-Exam Context:** NISM Series V-A covers switch transactions and their tax implications. RTAs process both legs on the same day using the applicable NAV for each scheme.
+**Distributor's Pro-Tip:** Always remind clients that switches have tax implications. The redemption leg triggers capital gains tax. What feels like a simple 'move' is actually a sell-and-buy for tax purposes. Plan switches with tax efficiency in mind.]]></text></explanation>
+    </question>
+</QF>

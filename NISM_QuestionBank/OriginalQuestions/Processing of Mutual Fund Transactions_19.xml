@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Processing of Mutual Fund Transactions_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Rajesh invests Rs.5,00,000 in an equity mutual fund scheme. What is the stamp duty deducted from his investment?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs.25]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.5]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.250]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.50]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Stamp duty on mutual fund purchases is 0.005%. Calculation: Rs.5,00,000 x 0.005% = Rs.5,00,000 x 0.00005 = Rs.25. Therefore, Rs.4,99,975 is the effective amount used for unit allotment, and Rs.25 is collected as stamp duty.
+**The Trap:** If you use 0.05% instead of 0.005%, you get Rs.250 — exactly 10 times the correct answer. Read the percentage carefully: it's 0.005% (five thousandths of a percent), not 0.05%.
+**Cross-Exam Context:** NISM Series V-A may test the impact of stamp duty on effective NAV; Series II-B tests the calculation from the RTA processing perspective.
+**Distributor's Pro-Tip:** For large investments, the stamp duty is visible in the allotment statement. If a client questions why their units are slightly less than expected (investment amount / NAV), stamp duty is usually the explanation. Always proactively inform clients about this deduction.]]></text></explanation>
+    </question>
+</QF>

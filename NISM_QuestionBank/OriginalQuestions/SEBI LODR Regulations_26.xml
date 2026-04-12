@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="SEBI LODR Regulations_26" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Priya Mehta, the Compliance Officer of Horizon Technologies Ltd. (a listed company), discovers that the shareholding pattern changed by 3% due to a preferential allotment completed on October 10, 2025. Under SEBI LODR Regulation 31, when must the updated shareholding pattern be filed?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[By December 31, 2025, which is 21 days after the quarter ending December]]></text></answer>
+            <answer correct="yes"><text><![CDATA[By October 20, 2025, within 10 days of the capital change exceeding 2%]]></text></answer>
+            <answer correct="no"><text><![CDATA[By November 9, 2025, within 30 days of the event]]></text></answer>
+            <answer correct="no"><text><![CDATA[At the next annual general meeting]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Regulation 31 requires filing within 10 days of any capital restructuring resulting in a change of more than 2% in shareholding. Since the 3% change exceeds the 2% threshold, the filing must be made within 10 days of October 10 -- i.e., by October 20, 2025.
+**The Trap:** Waiting for the regular quarterly filing deadline (21 days after quarter end) would be a violation. The 10-day trigger for >2% capital changes is an additional requirement on top of regular quarterly filings.
+**Cross-Exam Context:** The three triggering events for Reg 31 filing are: quarterly (21 days), pre-listing (1 day before), and >2% capital change (10 days). RTAs must track all three.
+**Distributor's Pro-Tip:** Preferential allotments frequently cross the 2% threshold. RTAs should have automated alerts when capital changes exceed 2% to trigger the 10-day filing requirement, separate from the regular quarterly cycle.]]></text></explanation>
+    </question>
+</QF>

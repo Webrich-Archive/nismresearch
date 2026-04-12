@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Processing of Mutual Fund Transactions_C2_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Fatima is a Non-Resident Indian (NRI) based in Dubai with mutual fund investments across multiple schemes of XYZ Mutual Fund. She decides to redeem some of her investments. The RTA processes the following redemptions:
+
+Redemption A: 5,000 units of XYZ Equity Large Cap Fund purchased 18 months ago at NAV Rs.200, redeemed at current NAV Rs.280. (Equity-oriented fund, holding period > 12 months)
+
+Redemption B: 3,000 units of XYZ Corporate Bond Fund purchased 10 months ago at NAV Rs.30, redeemed at current NAV Rs.33. (Debt fund, holding period < 36 months for specified mutual fund)
+
+Redemption C: 2,000 units of XYZ Balanced Advantage Fund purchased 6 months ago at NAV Rs.150, redeemed at current NAV Rs.162. (Equity-oriented fund, holding period < 12 months)
+
+Redemption D: 1,000 units of XYZ Liquid Fund purchased 24 months ago at NAV Rs.1,500, redeemed at current NAV Rs.1,620. (Debt fund, holding period < 36 months)
+
+Fatima has submitted her PAN and all KYC documents are in order. The RTA must compute TDS on each redemption.
+
+<b>Question 1 of 5:</b> What is the capital gain on Redemption A (Equity Large Cap Fund), and how is it classified?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs.3,00,000 — classified as Long-Term Capital Gain]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.4,00,000 — classified as Long-Term Capital Gain with indexation benefit]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs.4,00,000 — classified as Long-Term Capital Gain since equity fund units were held for more than 12 months]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.4,00,000 — classified as Short-Term Capital Gain]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Gain = (280 - 200) × 5,000 = Rs.80 × 5,000 = Rs.4,00,000. Since XYZ Equity Large Cap Fund is equity-oriented and held for more than 12 months, this is a Long-Term Capital Gain (LTCG). For equity-oriented funds, the STCG/LTCG cutoff is 12 months. No indexation benefit is available for equity-oriented fund LTCG.
+**The Trap:** Indexation benefit is available only for debt fund LTCG (held >36 months), not for equity fund LTCG. Candidates sometimes confuse equity and debt fund LTCG treatment.
+**Cross-Exam Context:** NISM Series V-A covers capital gains classification; the 12-month rule for equity and 36-month rule for debt is a fundamental concept.
+**Distributor's Pro-Tip:** For NRI clients, equity LTCG above Rs.1.25 lakh is taxed at 12.5%. On Rs.4,00,000 gain, the TDS computation by the RTA will be based on this rate. Advise NRI clients to plan large equity redemptions considering the LTCG threshold.]]></text></explanation>
+    </question>
+</QF>

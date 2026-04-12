@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV Calculations and Fund Valuation_C1_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Sunrise Mutual Fund operates an equity scheme called Sunrise Growth Fund and a liquid scheme called Sunrise Cash Fund. The following events occur during a particular week:
+
+Monday: Portfolio value of Sunrise Growth Fund is Rs.800 crore with liabilities of Rs.20 crore and 40 crore units outstanding. Mr. Amit Kumar submits a purchase application for the Growth Fund at 2:45 PM with Rs.5 lakh via RTGS (credited same day). Mrs. Rekha Joshi submits a purchase application for the Cash Fund (liquid) at 1:15 PM with Rs.10 lakh via RTGS (credited same day).
+
+Tuesday: The Growth Fund's portfolio rises to Rs.820 crore (same liabilities and units outstanding as Monday for simplicity). Mr. Vikash Patel submits a redemption request for 10,000 units of the Growth Fund at 3:20 PM.
+
+Wednesday: The Growth Fund's portfolio value is Rs.810 crore. Mr. Vikash's redemption is processed using the applicable NAV.
+
+The Growth Fund's closing NAV on Friday of the previous week was Rs.19.40. All days mentioned are business days.
+
+<b>Question 2 of 5:</b> Mr. Amit Kumar submitted his Growth Fund purchase at 2:45 PM on Monday with RTGS credited. What NAV is applicable for his purchase?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Monday's closing NAV of Rs.19.50 since both the application and funds were received before the 3 PM cut-off]]></text></answer>
+            <answer correct="no"><text><![CDATA[Tuesday's closing NAV since equity fund purchases are processed on T+1]]></text></answer>
+            <answer correct="no"><text><![CDATA[Friday's closing NAV of Rs.19.40 since it was the last available NAV at the time of application]]></text></answer>
+            <answer correct="no"><text><![CDATA[The average of Friday's and Monday's NAV, i.e., Rs.19.45]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Amit submitted before 3 PM (equity cut-off) on Monday and funds were available (RTGS credited same day). Both conditions are met, so Monday's closing NAV of Rs.19.50 applies.
+**The Trap:** T+1 processing does NOT mean T+1 NAV. The NAV is determined by when the application and funds are received, not when the units are allotted in the system.
+**Cross-Exam Context:** The 'funds available for utilisation' concept is critical. RTGS provides same-day availability, unlike cheques which may take days to clear.
+**Distributor's Pro-Tip:** Amit's choice of RTGS ensured he got Monday's NAV. Had he used a cheque that cleared Wednesday, he would have gotten Wednesday's NAV of Rs.19.75 (from the caselet data) -- Rs.0.25 higher per unit, meaning fewer units for the same Rs.5 lakh.]]></text></explanation>
+    </question>
+</QF>

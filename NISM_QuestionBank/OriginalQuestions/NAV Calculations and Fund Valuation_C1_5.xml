@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV Calculations and Fund Valuation_C1_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Sunrise Mutual Fund operates an equity scheme called Sunrise Growth Fund and a liquid scheme called Sunrise Cash Fund. The following events occur during a particular week:
+
+Monday: Portfolio value of Sunrise Growth Fund is Rs.800 crore with liabilities of Rs.20 crore and 40 crore units outstanding. Mr. Amit Kumar submits a purchase application for the Growth Fund at 2:45 PM with Rs.5 lakh via RTGS (credited same day). Mrs. Rekha Joshi submits a purchase application for the Cash Fund (liquid) at 1:15 PM with Rs.10 lakh via RTGS (credited same day).
+
+Tuesday: The Growth Fund's portfolio rises to Rs.820 crore (same liabilities and units outstanding as Monday for simplicity). Mr. Vikash Patel submits a redemption request for 10,000 units of the Growth Fund at 3:20 PM.
+
+Wednesday: The Growth Fund's portfolio value is Rs.810 crore. Mr. Vikash's redemption is processed using the applicable NAV.
+
+The Growth Fund's closing NAV on Friday of the previous week was Rs.19.40. All days mentioned are business days.
+
+<b>Question 5 of 5:</b> What is Wednesday's NAV for the Growth Fund, and how much will Vikash receive for his 10,000-unit redemption (ignoring exit load and taxes)?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[NAV = Rs.20.25 and redemption proceeds = Rs.2,02,500]]></text></answer>
+            <answer correct="yes"><text><![CDATA[NAV = Rs.19.75 and redemption proceeds = Rs.1,97,500]]></text></answer>
+            <answer correct="no"><text><![CDATA[NAV = Rs.20.00 and redemption proceeds = Rs.2,00,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[NAV = Rs.19.50 and redemption proceeds = Rs.1,95,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Wednesday NAV = (Rs.810 crore - Rs.20 crore) / 40 crore units = Rs.790 crore / 40 crore = Rs.19.75. Vikash's redemption = 10,000 units x Rs.19.75 = Rs.1,97,500.
+**The Trap:** Using Tuesday's portfolio value (Rs.820 crore) instead of Wednesday's (Rs.810 crore) gives Rs.20.00 -- wrong day. Always use the applicable day's portfolio value.
+**Cross-Exam Context:** Multi-step calculations combining NAV computation with transaction value are common in NISM exams. Break them into steps: first compute NAV, then compute proceeds.
+**Distributor's Pro-Tip:** The market fell from Tuesday (Rs.820 crore portfolio) to Wednesday (Rs.810 crore), reducing Vikash's redemption by Rs.2,500 compared to Tuesday's NAV. Had he submitted before 3 PM on Tuesday, he would have received Rs.2,00,000 instead of Rs.1,97,500.]]></text></explanation>
+    </question>
+</QF>

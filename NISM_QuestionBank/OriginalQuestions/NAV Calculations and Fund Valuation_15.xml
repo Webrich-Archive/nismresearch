@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV Calculations and Fund Valuation_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Meera submits a purchase application for an equity scheme at 2:45 PM on Monday with a cheque. The cheque clears on Wednesday. What NAV applies?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Thursday's closing NAV (the day after cheque clearing)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Wednesday's closing NAV (the day funds become available)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Monday's closing NAV (the day of application submission)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Tuesday's closing NAV (the next business day after submission)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For equity scheme purchases, the applicable NAV is the closing NAV of the day when funds are available for utilisation. Even though Meera submitted before the 3 PM cut-off on Monday, the cheque clears only on Wednesday, making Wednesday the day funds are available. So Wednesday's closing NAV applies.
+**The Trap:** The application time (2:45 PM Monday, before cut-off) is necessary but not sufficient. The funds must also be available. Cheque clearing delays push the applicable NAV date.
+**Cross-Exam Context:** This scenario is tested frequently in NISM exams. The interaction between cut-off time and fund availability is a key concept.
+**Distributor's Pro-Tip:** This exact scenario is why you should advise clients to use RTGS/NEFT instead of cheques for time-sensitive investments. If Meera had transferred funds online, she would have gotten Monday's NAV -- potentially a significant difference over 2 days in volatile markets.]]></text></explanation>
+    </question>
+</QF>

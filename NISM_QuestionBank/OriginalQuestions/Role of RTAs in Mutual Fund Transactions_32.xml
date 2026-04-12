@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Role of RTAs in Mutual Fund Transactions_32" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If a mutual fund portfolio has a market value of Rs.1,000 crore and total liabilities of Rs.20 crore, with 50 crore units outstanding, what is the NAV per unit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs.19.60]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.20.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.19.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.20.40]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** NAV = (Total Assets - Total Liabilities) / Units Outstanding = (1,000 - 20) / 50 = 980 / 50 = Rs.19.60 per unit. Straightforward application of the NAV formula.
+**The Trap:** Dividing 1,000/50 = 20.00 ignores the liability deduction. Always subtract liabilities first. The Rs.20 crore liability reduces NAV by Rs.0.40 per unit.
+**Cross-Exam Context:** NAV calculations appear across NISM Series V-A, II-B, and VIII. The key is to always remember: NAV = (Assets - Liabilities) / Units.
+**Distributor's Pro-Tip:** Explain to clients that liabilities in the NAV formula include TER accrued, pending payments, and other obligations. A fund with the same assets but lower liabilities (lower TER) will have a higher NAV, benefiting investors.]]></text></explanation>
+    </question>
+</QF>

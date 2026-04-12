@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Processing of Mutual Fund Transactions_C1_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Harish is an active mutual fund investor with folios across multiple schemes of ABC Mutual Fund. On a particular Wednesday (a working day with no holidays that week), the following events occur:
+
+Transaction 1: At 1:30 PM, Harish submits a purchase application for Rs.3,00,000 in ABC Equity Growth Fund with an RTGS payment that is credited to the scheme's account by 2:00 PM. The scheme's current NAV is Rs.125.
+
+Transaction 2: At 3:30 PM (after the 3:00 PM cutoff), he submits another purchase application for Rs.2,00,000 in ABC Liquid Fund through online mode with instant payment.
+
+Transaction 3: On the same day at 2:00 PM, his monthly SIP of Rs.10,000 in ABC Balanced Advantage Fund is auto-triggered by the RTA. The mandate debit is successful.
+
+Transaction 4: He submits a switch request at 2:30 PM to move Rs.1,00,000 from ABC Overnight Fund to ABC Mid Cap Fund.
+
+Transaction 5: His standing STP instruction triggers a transfer of Rs.25,000 from ABC Liquid Fund to ABC Small Cap Fund.
+
+<b>Question 3 of 5:</b> How will the stamp duty be applied across Harish's multiple purchase transactions on this day?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Stamp duty of 0.005% is applied individually on each purchase transaction including SIP and STP-in]]></text></answer>
+            <answer correct="no"><text><![CDATA[Stamp duty of 0.005% is applied only on the largest transaction]]></text></answer>
+            <answer correct="no"><text><![CDATA[Stamp duty is aggregated and deducted once from the total investment amount]]></text></answer>
+            <answer correct="no"><text><![CDATA[Stamp duty applies only to lump sum purchases, not to SIP or STP transactions]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Stamp duty of 0.005% is levied on EACH purchase transaction individually — this includes lump sum purchases, SIP installments, switch-in, and STP-in legs. Each of Harish's inflow transactions (purchase, SIP, switch-in, STP-in) will have stamp duty deducted separately from the respective investment amount before unit allotment.
+**The Trap:** SIP and STP-in are frequently forgotten as stamp duty-attracting transactions. Every transaction that results in fresh purchase of units attracts stamp duty, regardless of the mode of investment.
+**Cross-Exam Context:** NISM Series V-A covers stamp duty applicability; Series II-B tests the RTA's computation of stamp duty across different transaction types.
+**Distributor's Pro-Tip:** When projecting returns for clients with multiple SIPs and STPs, factor in the 0.005% stamp duty on each inflow transaction. Over years of monthly SIPs, the cumulative impact is small but real — and clients appreciate advisers who account for every cost.]]></text></explanation>
+    </question>
+</QF>

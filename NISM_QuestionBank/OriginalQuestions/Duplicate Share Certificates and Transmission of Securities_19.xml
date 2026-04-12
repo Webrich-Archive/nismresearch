@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Duplicate Share Certificates and Transmission of Securities_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the case of a minor signature mismatch on a service request, what does the RTA do?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rejects the service request immediately]]></text></answer>
+            <answer correct="no"><text><![CDATA[Asks for banker's attestation of signature]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Gives 15 days for objection and then processes the request]]></text></answer>
+            <answer correct="no"><text><![CDATA[Requires a fresh service request with notarized signature]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For a minor signature mismatch, the RTA gives a 15-day objection period to the holder and then processes the service request if no objection is received. This is a balanced approach that allows for natural signature variations while maintaining security.
+
+**The Trap:** For a MAJOR signature mismatch, the requirements are stricter — the original unsigned cancelled cheque and banker's attestation of signature are needed. Candidates must distinguish between minor and major mismatch procedures.
+
+**Cross-Exam Context:** Similarly, for name mismatches: minor name mismatch requires Aadhaar/Passport/Driving License as additional document, while major name mismatch (due to marriage, etc.) requires marriage certificate or Official Gazette notification.
+
+**Distributor's Pro-Tip:** Advise investors to keep their signatures consistent across all financial documents. If their signature has naturally evolved over time, proactively update the specimen signature with the RTA to avoid delays in future service requests.]]></text></explanation>
+    </question>
+</QF>

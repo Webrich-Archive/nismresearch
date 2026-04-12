@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Depository Services and Dematerialisation_17" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Vikram receives a Delivery Instruction Slip (DIS) from his Depository Participant. Which of the following details is pre-printed on the DIS?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Vikram's name, address, DP ID, and Client ID]]></text></answer>
+            <answer correct="no"><text><![CDATA[The ISIN of the securities to be transferred]]></text></answer>
+            <answer correct="no"><text><![CDATA[The settlement number and trade date]]></text></answer>
+            <answer correct="no"><text><![CDATA[The name and account details of the transferee]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A Delivery Instruction Slip (DIS) is pre-printed with the account holder's details: name, address, DP ID, and Client ID. This is similar to a cheque book where the account holder's details are pre-printed. The specific transaction details (ISIN, quantity, transferee details) are filled in by the investor for each transaction.
+
+**The Trap:** The DIS is used for debits (outgoing transfers) from the demat account. Credits typically work on standing instructions. Candidates sometimes confuse DIS with a general transaction form — it specifically authorises debits.
+
+**Cross-Exam Context:** The DIS serves as the investor's written authorisation for the DP to debit securities from their account. This is a critical control mechanism — without a valid DIS or equivalent electronic instruction, no shares can be debited.
+
+**Distributor's Pro-Tip:** Advise clients to keep their DIS booklets as secure as their cheque books. A stolen or misused DIS could result in unauthorised transfer of securities. Report lost DIS booklets to the DP immediately.]]></text></explanation>
+    </question>
+</QF>

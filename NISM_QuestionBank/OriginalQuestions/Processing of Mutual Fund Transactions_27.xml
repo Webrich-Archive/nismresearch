@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Processing of Mutual Fund Transactions_27" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following is the RTA's responsibility regarding NRI redemption transactions?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Verifying the NRI's overseas residential address before each transaction]]></text></answer>
+            <answer correct="no"><text><![CDATA[Obtaining RBI approval before processing each redemption]]></text></answer>
+            <answer correct="no"><text><![CDATA[Converting redemption proceeds to foreign currency]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Flagging NRI status, determining capital gains type (STCG/LTCG), and computing applicable TDS]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For NRI redemptions, the RTA must: (1) flag the NRI status from the folio records, (2) determine whether the gain is short-term or long-term based on holding period and scheme type, (3) compute the applicable TDS rate (STCG/LTCG rates vary by scheme type), and (4) deduct TDS before releasing proceeds. The RTA does NOT handle currency conversion or seek RBI approval for individual transactions.
+**The Trap:** RBI approval is a general/blanket approval under FEMA regulations, not a per-transaction requirement. Currency conversion is handled by the investor's bank, not the RTA.
+**Cross-Exam Context:** NISM Series V-A covers NRI investment regulations; Series II-B specifically tests the RTA's tax computation role for NRI transactions.
+**Distributor's Pro-Tip:** NRI TDS on capital gains can be substantial — up to 30%+ for STCG on equity and varying rates for debt. Always compute the net redemption proceeds after TDS before advising NRI clients on their withdrawal amounts.]]></text></explanation>
+    </question>
+</QF>

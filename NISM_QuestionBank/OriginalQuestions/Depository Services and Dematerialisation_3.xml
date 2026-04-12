@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Depository Services and Dematerialisation_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An ISIN (International Securities Identification Number) assigned to a security in India consists of how many characters, and what is its starting prefix?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[10 characters starting with 'INE']]></text></answer>
+            <answer correct="yes"><text><![CDATA[12 characters starting with 'IN']]></text></answer>
+            <answer correct="no"><text><![CDATA[14 characters starting with 'IND']]></text></answer>
+            <answer correct="no"><text><![CDATA[12 characters starting with 'INR']]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** ISIN is a 12-digit alphanumeric code. For Indian securities, it starts with 'IN' (country code), followed by 9 alphanumeric characters for the security identifier, and 1 check digit. The structure is: IN + 9 alphanumeric + 1 check digit = 12 characters total.
+
+**The Trap:** Many candidates confuse ISIN with older identifiers. Some think 'INE' is the prefix because most equity ISINs start with INE (where E is part of the security identifier, not the country prefix). The country prefix is strictly 'IN'.
+
+**Cross-Exam Context:** Only one ISIN is assigned per equity security of the same paid-up value and voting rights. Different paid-up values or differential voting rights get separate ISINs. This is relevant for corporate actions like bonus issues.
+
+**Distributor's Pro-Tip:** When verifying client transactions, always cross-check the full 12-character ISIN. A common error is confusing securities of the same company that have different ISINs due to differential voting rights or different paid-up values.]]></text></explanation>
+    </question>
+</QF>

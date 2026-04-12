@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="SEBI LODR Regulations_C2_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> TrustLink Registrars Ltd. is a SEBI-registered Category I RTA managing 3.2 crore folios across 450 listed companies. The RTA was established in 2010 and employs 800 staff members. Ashok Patel is the Compliance Officer, and Kavita Sharma is the Head of Operations.
+
+During a recent SEBI inspection, the following observations were noted: (a) an investor grievance filed on February 1, 2025 by Deepak Verma remained unresolved as of March 15, 2025; (b) the internal auditor, Mr. Suresh Joshi (a Chartered Accountant with 8 years of experience), has been conducting the annual audit since April 2019; (c) correction of investor details in the database was being done directly by operations staff without company approval; (d) physical share bonus credits for one issuer were processed in demat mode; and (e) the structured digital database for UPSI shared by client companies was being maintained with timestamps but without PAN details of recipients.
+
+TrustLink's Board is reviewing these findings and must take corrective action. Additionally, three issuers have unpaid dividends for investors whose records show no PAN or bank details updates for over 3 years.
+
+<b>Question 1 of 5:</b> Regarding the unresolved grievance of Deepak Verma, filed on February 1, 2025 and still pending on March 15, 2025, has TrustLink violated the SEBI-prescribed timeline?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[No, the grievance redressal deadline under SEBI RTA Regulations is 30 days, and only 42 days have passed]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Yes, the grievance should have been redressed within 21 days under SEBI RTA Regulations, i.e., by February 22, 2025]]></text></answer>
+            <answer correct="no"><text><![CDATA[No, the general intermediary deadline of 45 days under SEBI Intermediaries Regulations applies, and there is still time]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, but the violation is minor as RTAs get an automatic 15-day extension for complex grievances]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under SEBI RTA Regulations 1993, grievances must be redressed within 21 days. The grievance filed on February 1 should have been resolved by February 22, 2025. As of March 15, it has been pending for 42 days -- a clear violation. The 45-day timeline under SEBI Intermediaries Regulations 2008 is a general provision, but the RTA-specific 21-day requirement is stricter and takes precedence.
+**The Trap:** The 45-day intermediary deadline seems applicable since TrustLink is a SEBI-registered intermediary, but the RTA-specific regulation prescribes a shorter 21-day period. There is no automatic extension mechanism.
+**Cross-Exam Context:** SEBI may also consider Deepak's grievance under ADR mechanisms introduced in 2023 amendments to the RTA Regulations, providing an alternative dispute resolution pathway.
+**Distributor's Pro-Tip:** Implement a 14-day internal escalation trigger for all grievances. If unresolved by Day 14, escalate to the Compliance Officer. This buffer ensures the 21-day hard deadline is met even for complex cases.]]></text></explanation>
+    </question>
+</QF>

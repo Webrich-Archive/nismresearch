@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV Calculations and Fund Valuation_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For redemption of equity/debt scheme units, if the application is received before 3 PM, the applicable NAV is:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The closing NAV of the previous business day]]></text></answer>
+            <answer correct="no"><text><![CDATA[The average of the previous and current day's NAV]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The closing NAV of the same business day]]></text></answer>
+            <answer correct="no"><text><![CDATA[The closing NAV of the next business day]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For redemption requests received before the 3 PM cut-off in equity/debt schemes, the applicable NAV is the closing NAV of the same business day. If received after 3 PM, the next business day's closing NAV applies.
+**The Trap:** Redemption NAV rules are simpler than purchase rules -- there is no 'funds available' condition since the investor is selling units, not buying. The cut-off time is the only determining factor.
+**Cross-Exam Context:** The asymmetry between purchase NAV (needs funds availability) and redemption NAV (only needs application time) is a key exam point.
+**Distributor's Pro-Tip:** If a client wants to redeem at a specific NAV (e.g., on a day when markets are up), ensure the redemption request is submitted well before 3 PM. After 3 PM, they get the next day's NAV which could be lower if markets fall.]]></text></explanation>
+    </question>
+</QF>

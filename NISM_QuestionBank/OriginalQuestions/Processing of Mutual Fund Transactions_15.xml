@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Processing of Mutual Fund Transactions_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In IDCW (Income Distribution cum Capital Withdrawal) processing, what is the significance of the 'record date'?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[It is the date when the AMC declares the IDCW amount]]></text></answer>
+            <answer correct="yes"><text><![CDATA[It is the date on which investor holdings are checked to determine eligibility for IDCW]]></text></answer>
+            <answer correct="no"><text><![CDATA[It is the date when the NAV is adjusted for IDCW distribution]]></text></answer>
+            <answer correct="no"><text><![CDATA[It is the date when IDCW is actually paid to investors]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The record date is the date on which the RTA checks investor holdings to determine who is eligible to receive the IDCW. All unitholders as of the record date receive the declared IDCW. The ex-date (typically one business day before the record date) is when the NAV adjusts, and the payout date is when funds are actually credited.
+**The Trap:** Candidates often confuse record date with declaration date (when the AMC board approves the IDCW) or payout date (when money reaches investors). The record date is specifically about determining eligible investors.
+**Cross-Exam Context:** NISM Series V-A covers IDCW mechanics; Series VIII (Equity Derivatives) covers similar record date concepts for corporate actions in equities.
+**Distributor's Pro-Tip:** If a client wants to receive an upcoming IDCW, they must hold units BEFORE the ex-date, not just before the record date. Buying on or after the ex-date means buying at the reduced NAV without IDCW eligibility.]]></text></explanation>
+    </question>
+</QF>

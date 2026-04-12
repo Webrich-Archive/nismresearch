@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Investor Services and Transaction Processing_C1_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Meena Sharma, a 55-year-old retired school teacher from Jaipur, has mutual fund investments across 3 schemes of PQR Mutual Fund. She visits the Investor Service Centre (ISC) with the following requests:
+
+Request 1: She has recently moved from Jaipur to Udaipur and wants to update her address. She carries her new Aadhaar card showing the Udaipur address.
+
+Request 2: She has opened a new bank account with a different bank (Bank of Rajasthan) and wants all future redemption proceeds and IDCW payouts to go to this new account. She carries a cancelled cheque of the new account and her old bank's passbook.
+
+Request 3: She wants to add her daughter (Priya, age 28) and son (Rahul, age 32) as nominees with 60% and 40% allocation respectively. Currently, no nominee is registered.
+
+Request 4: She has not received her CAS for the last 6 months and wants to understand why and get it reissued.
+
+Request 5: She wants to know if she can consolidate her 3 folios — Folio 1 is in her single name, Folio 2 is joint with her husband (Meena + Suresh), and Folio 3 is in her single name with a different bank account.
+
+<b>Question 4 of 5:</b> For Request 4 (missing CAS), what is the most likely reason Meena hasn't received CAS for 6 months, and what should the RTA do?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[CAS cannot be reissued — Meena must wait for the next scheduled statement]]></text></answer>
+            <answer correct="no"><text><![CDATA[CAS is only sent annually for retired investors]]></text></answer>
+            <answer correct="no"><text><![CDATA[CAS generation has been suspended for her PAN due to an IT Department flag]]></text></answer>
+            <answer correct="yes"><text><![CDATA[If Meena had no transactions in those months, CAS would only be sent half-yearly; the RTA should check her transaction history and, if needed, generate an on-demand CAS]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** CAS is sent monthly only if transactions occurred during the month. If Meena had no transactions for 6 months, she would receive CAS only half-yearly (January-June statement sent in July, July-December statement sent in January). The RTA should: (1) check her transaction history to confirm no transactions, (2) verify her email is correct and operational, (3) generate an on-demand CAS if she needs one immediately.
+**The Trap:** Non-receipt of monthly CAS doesn't indicate a problem if there were no transactions — it's the expected behavior. Many investors don't understand the monthly vs half-yearly CAS trigger.
+**Cross-Exam Context:** NISM Series V-A covers CAS frequency rules; Series II-B tests the RTA's troubleshooting process for CAS-related complaints.
+**Distributor's Pro-Tip:** Proactively explain the CAS frequency rule to clients — especially retired investors with lump sum investments and no SIPs, who may not transact for months. Also verify that their email isn't marking AMC/RTA emails as spam — a very common cause of 'missing' CAS.]]></text></explanation>
+    </question>
+</QF>

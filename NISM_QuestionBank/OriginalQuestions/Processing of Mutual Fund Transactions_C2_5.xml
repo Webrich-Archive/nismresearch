@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Processing of Mutual Fund Transactions_C2_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Fatima is a Non-Resident Indian (NRI) based in Dubai with mutual fund investments across multiple schemes of XYZ Mutual Fund. She decides to redeem some of her investments. The RTA processes the following redemptions:
+
+Redemption A: 5,000 units of XYZ Equity Large Cap Fund purchased 18 months ago at NAV Rs.200, redeemed at current NAV Rs.280. (Equity-oriented fund, holding period > 12 months)
+
+Redemption B: 3,000 units of XYZ Corporate Bond Fund purchased 10 months ago at NAV Rs.30, redeemed at current NAV Rs.33. (Debt fund, holding period < 36 months for specified mutual fund)
+
+Redemption C: 2,000 units of XYZ Balanced Advantage Fund purchased 6 months ago at NAV Rs.150, redeemed at current NAV Rs.162. (Equity-oriented fund, holding period < 12 months)
+
+Redemption D: 1,000 units of XYZ Liquid Fund purchased 24 months ago at NAV Rs.1,500, redeemed at current NAV Rs.1,620. (Debt fund, holding period < 36 months)
+
+Fatima has submitted her PAN and all KYC documents are in order. The RTA must compute TDS on each redemption.
+
+<b>Question 5 of 5:</b> What is the total capital gain from Redemption D (Liquid Fund held for 24 months), and what is the RTA's primary compliance responsibility for this transaction?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs.1,20,000 LTCG — RTA must apply 20% TDS with indexation]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs.1,20,000 STCG — RTA must apply TDS at slab rate since the holding period is less than 36 months for a debt fund]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.1,20,000 LTCG — RTA must apply 10% TDS as it exceeds the Rs.1 lakh threshold]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.1,20,000 — No TDS since liquid fund gains are exempt for NRIs]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Gain = (1,620 - 1,500) × 1,000 = Rs.120 × 1,000 = Rs.1,20,000. Liquid fund is a debt fund — LTCG threshold is 36 months. Since held for only 24 months, this is STCG. For NRI investors, STCG on debt funds is taxed at slab rates, and TDS must be deducted accordingly. The RTA must: flag NRI status, classify the gain as STCG, compute TDS at the applicable rate, and ensure timely deduction before releasing proceeds.
+**The Trap:** 24 months might seem 'long-term' intuitively, but for debt funds the threshold is 36 months, not 12 months. Also, the Rs.1 lakh exemption threshold applies only to equity LTCG, not debt fund gains.
+**Cross-Exam Context:** NISM Series V-A covers the different holding period thresholds (12 months for equity, 36 months for debt); Series II-B tests the RTA's comprehensive compliance workflow for NRI transactions.
+**Distributor's Pro-Tip:** NRI clients often misunderstand the 36-month rule for debt funds. A 24-month holding in a liquid fund still attracts STCG at slab rates — potentially 30%+ with surcharge and cess. For NRIs with large liquid fund holdings, timing the redemption to cross 36 months can save significant tax.]]></text></explanation>
+    </question>
+</QF>

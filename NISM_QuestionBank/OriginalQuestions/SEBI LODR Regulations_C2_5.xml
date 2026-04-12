@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="SEBI LODR Regulations_C2_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> TrustLink Registrars Ltd. is a SEBI-registered Category I RTA managing 3.2 crore folios across 450 listed companies. The RTA was established in 2010 and employs 800 staff members. Ashok Patel is the Compliance Officer, and Kavita Sharma is the Head of Operations.
+
+During a recent SEBI inspection, the following observations were noted: (a) an investor grievance filed on February 1, 2025 by Deepak Verma remained unresolved as of March 15, 2025; (b) the internal auditor, Mr. Suresh Joshi (a Chartered Accountant with 8 years of experience), has been conducting the annual audit since April 2019; (c) correction of investor details in the database was being done directly by operations staff without company approval; (d) physical share bonus credits for one issuer were processed in demat mode; and (e) the structured digital database for UPSI shared by client companies was being maintained with timestamps but without PAN details of recipients.
+
+TrustLink's Board is reviewing these findings and must take corrective action. Additionally, three issuers have unpaid dividends for investors whose records show no PAN or bank details updates for over 3 years.
+
+<b>Question 5 of 5:</b> The SEBI inspection found that TrustLink's structured digital database for UPSI lacked PAN details of recipients. Given that TrustLink manages 3.2 crore folios, what combination of corrective actions is required?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Add PAN details to the UPSI database only; the folio count has no separate regulatory significance]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Add PAN details to the UPSI database and comply with enhanced QRTA monitoring requirements since TrustLink exceeds the 2 crore folio threshold]]></text></answer>
+            <answer correct="no"><text><![CDATA[Replace the entire structured digital database system and reduce folio count below 2 crore to avoid enhanced monitoring]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only notify SEBI about the missing PAN details; enhanced monitoring is voluntary for large RTAs]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Two separate regulatory requirements are at play. First, the structured digital database under SEBI Insider Trading Regulations must include PAN details of all UPSI recipients, along with the nature of UPSI, names of sharers and recipients, timestamps, and audit trails (preserved for 8 years minimum). Second, with 3.2 crore folios, TrustLink exceeds the 2 crore threshold for Qualified RTA (QRTA) classification, triggering Critical Infrastructure designation and enhanced monitoring requirements covering risk management, data security, BCP, governance, investor services, and insurance.
+**The Trap:** The folio count is not merely an operational metric -- exceeding 2 crore triggers specific regulatory obligations. Reducing folio count is not a practical option and does not address the UPSI database deficiency. Enhanced monitoring is mandatory, not voluntary, for QRTAs.
+**Cross-Exam Context:** QRTAs must maintain a comprehensive policy framework and submit regular reports to SEBI on all enhanced monitoring parameters.
+**Distributor's Pro-Tip:** QRTAs should conduct regular self-assessments against all QRTA requirements. The UPSI database is just one of many compliance areas where data completeness is essential. PAN collection for UPSI recipients should be automated as part of the information-sharing workflow.]]></text></explanation>
+    </question>
+</QF>

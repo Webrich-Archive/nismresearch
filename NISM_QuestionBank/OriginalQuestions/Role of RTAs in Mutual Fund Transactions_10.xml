@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Role of RTAs in Mutual Fund Transactions_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under the Account Aggregator framework, AMCs through their RTAs serve as:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Account Aggregator Operators]]></text></answer>
+            <answer correct="no"><text><![CDATA[Consent Managers regulated by SEBI]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Financial Information Providers (FIPs)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Financial Information Users (FIUs)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In the Account Aggregator Network (regulated by RBI), AMCs through their RTAs are classified as Financial Information Providers (FIPs). They provide investor data (holdings, transactions) to the Account Aggregator upon receiving valid consent.
+**The Trap:** FIPs provide data; FIUs consume data. AMCs/RTAs are on the providing side because they hold investor records. Banks or wealth managers seeking the data are FIUs.
+**Cross-Exam Context:** The Account Aggregator framework spans multiple NISM exams as it touches banking, securities, and insurance. Understanding the FIP vs FIU distinction is crucial.
+**Distributor's Pro-Tip:** Account Aggregator makes portfolio aggregation seamless for clients. Encourage clients to use AA-enabled apps to get a consolidated view of all their MF investments across AMCs.]]></text></explanation>
+    </question>
+</QF>

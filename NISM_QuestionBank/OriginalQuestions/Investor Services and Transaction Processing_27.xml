@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Investor Services and Transaction Processing_27" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An investor wants to consolidate two folios: Folio A (single holding by Priya) and Folio B (joint holding by Priya and Amit) — both with the same AMC. Can the RTA process this consolidation?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[No, because the holding pattern (single vs joint) is different — folios can only be consolidated if the holding pattern is identical]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, but only if Amit provides a No Objection Certificate]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, since Priya is common to both folios]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, but the consolidated folio will automatically become a joint holding]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Folio consolidation requires identical holding patterns — same holders, same mode of holding, same order of holders. Since Folio A is a single holding (Priya only) and Folio B is a joint holding (Priya + Amit), they CANNOT be consolidated even though Priya is common. The RTA must reject this request based on the holding pattern mismatch.
+**The Trap:** Having a common holder is not sufficient — ALL holders must be identical in both folios. Even if two folios have the same two joint holders but in different order (A-B vs B-A), they may not be consolidable.
+**Cross-Exam Context:** NISM Series II-B tests folio consolidation eligibility rules; the holding pattern matching requirement is a key validation check.
+**Distributor's Pro-Tip:** Before requesting folio consolidation, verify that the holding patterns match exactly: same holders, same order, same mode of holding (Joint, E or S, Anyone or Survivor). If they don't match, the client may need to redeem from one folio and reinvest in the other — but this has tax implications. Advise accordingly.]]></text></explanation>
+    </question>
+</QF>

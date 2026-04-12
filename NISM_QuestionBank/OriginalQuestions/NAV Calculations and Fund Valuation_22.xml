@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV Calculations and Fund Valuation_22" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Advisory fees on a segregated portfolio are:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Charged at a reduced rate of 50% of the main portfolio TER]]></text></answer>
+            <answer correct="no"><text><![CDATA[Charged only when recovery exceeds 90% of the original value]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Not permitted to be charged on the segregated portfolio]]></text></answer>
+            <answer correct="no"><text><![CDATA[Charged at the same rate as the main portfolio]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI prohibits charging advisory fees on the segregated portfolio. The TER on the segregated portfolio is limited to expenses (excluding advisory) on a pro-rata recovery basis only. This protects investors from paying for a failed credit call.
+**The Trap:** Some expenses (custodian, RTA, audit) can be charged pro-rata on recovery, but advisory/management fees are completely prohibited on the segregated portion.
+**Cross-Exam Context:** This is a key investor protection measure in the side pocketing framework. It holds the fund manager accountable for the credit call that led to the segregation.
+**Distributor's Pro-Tip:** The no-advisory-fee rule is a strong investor protection. Explain to clients that they won't be paying the fund manager for holding a defaulted asset. They pay fees only on the performing portfolio where active management continues.]]></text></explanation>
+    </question>
+</QF>

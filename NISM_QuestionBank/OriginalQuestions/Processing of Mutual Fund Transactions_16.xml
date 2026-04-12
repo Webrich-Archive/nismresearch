@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Processing of Mutual Fund Transactions_16" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following is TRUE about exchange-based mutual fund transactions through platforms like BSE StAR MF and NSE NMF II?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Only regular plans can be transacted through exchange platforms]]></text></answer>
+            <answer correct="no"><text><![CDATA[Brokers can pool investor funds before routing to the AMC]]></text></answer>
+            <answer correct="yes"><text><![CDATA[No pooling of funds or units by brokers is permitted, and settlement follows DVP (Delivery versus Payment) mechanism]]></text></answer>
+            <answer correct="no"><text><![CDATA[Exchange platforms charge a separate transaction fee to investors]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI mandates that in exchange-based MF transactions, there must be no pooling of funds or units by brokers — each transaction is settled individually through the DVP (Delivery versus Payment) mechanism. This protects investors from broker default risk. Both regular and direct plans are available, and RIAs can use these platforms for direct plan transactions.
+**The Trap:** The pooling prohibition is absolute — even temporary pooling before routing to the AMC is not permitted. Candidates familiar with equity market practices may assume some pooling is allowed.
+**Cross-Exam Context:** NISM Series V-A covers distribution channels; Series VIII covers exchange settlement mechanisms including DVP.
+**Distributor's Pro-Tip:** Exchange platforms offer real-time order confirmation and systematic transaction facilities. For clients who prefer exchange-based investing, ensure they understand that the same NAV cutoff rules apply — the exchange platform is just a different channel, not a different product.]]></text></explanation>
+    </question>
+</QF>

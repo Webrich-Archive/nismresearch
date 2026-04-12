@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Processing of Mutual Fund Transactions_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In a mutual fund switch transaction, which of the following correctly describes the process?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Units are transferred directly from one scheme to another without any NAV impact]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the purchase leg is processed; redemption happens automatically after 3 days]]></text></answer>
+            <answer correct="yes"><text><![CDATA[It involves simultaneous redemption from the source scheme and purchase into the target scheme within the same AMC]]></text></answer>
+            <answer correct="no"><text><![CDATA[Switch transactions are processed at the previous day's NAV for both legs]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A switch is essentially two transactions bundled together — a redemption from the source scheme and a purchase into the target scheme — processed simultaneously within the same AMC. Each leg is subject to its own applicable NAV based on cutoff times, exit loads, and tax implications.
+**The Trap:** Thinking that a switch is a simple 'transfer' without redemption is the biggest misconception. Since it involves actual redemption, it triggers exit load (if applicable) and capital gains tax on the source scheme.
+**Cross-Exam Context:** NISM Series V-A tests switch transactions extensively including tax implications; Series X-B covers switches in the context of portfolio rebalancing advice.
+**Distributor's Pro-Tip:** Always warn clients that a switch is NOT tax-neutral — it triggers capital gains on the redeemed leg. Calculate the tax impact before recommending a switch, especially for large holdings with significant unrealized gains.]]></text></explanation>
+    </question>
+</QF>

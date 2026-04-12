@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Public Offerings and IPO Processes_C2_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Dhanvantari Pharma Ltd. (DPL), a listed pharmaceutical company, has 4 crore outstanding equity shares with a face value of Rs.10 each, trading at Rs.250 per share. The company has free reserves of Rs.600 crore and paid-up capital of Rs.40 crore. On February 1, 2026, the Board of Directors approves a buyback of 20 lakh shares at Rs.300 per share through the tender offer method, for a total buyback consideration of Rs.60 crore. The record date is set as March 1, 2026.
+
+Anita Kulkarni, a retail investor, holds 500 shares with a market value of Rs.1.25 lakh on the record date. Suresh Patil holds 1,200 shares with a market value of Rs.3 lakh on the record date. Geeta Nair holds 5,000 shares with a market value of Rs.12.5 lakh on the record date. The total outstanding shares eligible for buyback are 4 crore. Rajesh Kumar, the RTA officer at the company's registrar, is responsible for processing the buyback. The buyback opens on March 10, 2026 and closes on March 24, 2026.
+
+<b>Question 1 of 5:</b> DPL's buyback of Rs.60 crore requires Board approval. Does this buyback need a special resolution from shareholders?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Yes, because all buybacks require special resolution regardless of the amount]]></text></answer>
+            <answer correct="yes"><text><![CDATA[No, because buyback up to 10% of total paid-up capital and free reserves requires only a Board resolution; Rs.60 crore is within 10% of Rs.640 crore (Rs.40 crore + Rs.600 crore) = Rs.64 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, because the buyback price of Rs.300 exceeds the current market price of Rs.250]]></text></answer>
+            <answer correct="no"><text><![CDATA[No, because buybacks through tender offer never require shareholder approval]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Total paid-up capital + free reserves = Rs.40 crore + Rs.600 crore = Rs.640 crore. 10% threshold = Rs.64 crore. The buyback of Rs.60 crore is within 10% of Rs.640 crore, so only a Board resolution is required. If the buyback exceeded 10% (i.e., more than Rs.64 crore), a special resolution would be needed. The maximum buyback is capped at 25% of paid-up capital + free reserves = Rs.160 crore.
+**The Trap:** The threshold is based on total paid-up capital PLUS free reserves, not just paid-up capital alone. Also, the premium over market price does not affect the approval requirement -- it is purely a percentage-of-capital test.
+**Cross-Exam Context:** NISM Series II-A Chapter 7.7 specifies the Board resolution (≤10%) vs. special resolution (>10%) threshold. RTAs must verify the appropriate approval before processing.
+**Distributor's Pro-Tip:** A buyback at Rs.300 when market price is Rs.250 offers a 20% premium -- attractive for shareholders. The Board-level approval (no shareholder vote needed) means faster execution. Always calculate the premium to assess attractiveness for your clients.]]></text></explanation>
+    </question>
+</QF>

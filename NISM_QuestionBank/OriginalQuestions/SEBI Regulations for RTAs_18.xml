@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="SEBI Regulations for RTAs_18" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The enhanced monitoring framework for QRTAs requires a Business Continuity Plan (BCP) and Disaster Recovery Site (DRS) that ensures:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Cloud-based backup with 48-hour recovery time]]></text></answer>
+            <answer correct="no"><text><![CDATA[Annual backup restoration with 1-week recovery timeline]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Near site with zero data loss capability]]></text></answer>
+            <answer correct="no"><text><![CDATA[Remote site with up to 24 hours of acceptable data loss]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** QRTAs must maintain a near-site DRS with zero data loss capability. Given their critical infrastructure status (processing crores of investor transactions), even minor data loss is unacceptable.
+**The Trap:** 'Near site' means geographically close for quick failover, combined with real-time data replication for zero data loss. This is the highest standard of disaster recovery.
+**Cross-Exam Context:** The zero data loss requirement for QRTAs is stricter than many other financial intermediaries. It reflects the systemic importance of RTAs in the MF ecosystem.
+**Distributor's Pro-Tip:** Zero data loss capability means your clients' transaction records are safe even in disaster scenarios. This is a strong reassurance point when discussing the safety of mutual fund infrastructure with cautious investors.]]></text></explanation>
+    </question>
+</QF>

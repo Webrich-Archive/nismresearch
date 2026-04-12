@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="KYC and Compliance Requirements_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In which of the following scenarios is IPV (In-Person Verification) NOT required during KYC?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[When the investment amount exceeds Rs.50,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[When KYC documents are submitted physically at the ISC]]></text></answer>
+            <answer correct="yes"><text><![CDATA[When KYC is completed through Aadhaar authentication/verification or online KYC with DigiLocker documents]]></text></answer>
+            <answer correct="no"><text><![CDATA[When the investor is an NRI]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** IPV is exempted when: (1) KYC is completed through Aadhaar authentication or verification (since identity is biometrically/OTP confirmed), and (2) when online KYC is done using documents fetched through DigiLocker (since DigiLocker documents are digitally signed by the issuing authority). In all other cases, IPV is required to confirm the physical identity of the applicant.
+**The Trap:** Physical submission of documents at the ISC still requires IPV — the person submitting must be verified in person. NRIs also need IPV, though it can be done through the Indian embassy/consulate or through video KYC.
+**Cross-Exam Context:** NISM Series V-A covers IPV requirements; Series II-B tests the specific exemptions that RTAs/ISCs must be aware of when processing KYC applications.
+**Distributor's Pro-Tip:** DigiLocker-based KYC is the most efficient route for tech-savvy clients — no physical documents, no IPV, no courier delays. Guide clients to set up DigiLocker and link their key documents before the KYC process.]]></text></explanation>
+    </question>
+</QF>

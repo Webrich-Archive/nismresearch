@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="SEBI Regulations for RTAs_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under SEBI DP regulations, what control mechanism must an RTA implement when acting as a Depository Participant?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Mandatory physical verification of every transaction]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Maker-checker system for all transactions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Single-authority approval for faster processing]]></text></answer>
+            <answer correct="no"><text><![CDATA[Quarterly batch processing of all requests]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** RTAs acting as DPs must implement a maker-checker system for transaction processing. One person initiates (maker) and another independently verifies (checker) before execution. This dual-control mechanism prevents errors and fraud.
+**The Trap:** Maker-checker is not optional or limited to high-value transactions. It is mandatory for ALL transactions when the RTA acts as a DP.
+**Cross-Exam Context:** Maker-checker is a standard internal control across financial services. SEBI specifically mandates it for DP operations to ensure transaction integrity.
+**Distributor's Pro-Tip:** The maker-checker system means your clients' demat transactions go through dual verification. If a transaction seems delayed, it may be going through this necessary control step. Reassure clients that this extra step enhances security.]]></text></explanation>
+    </question>
+</QF>

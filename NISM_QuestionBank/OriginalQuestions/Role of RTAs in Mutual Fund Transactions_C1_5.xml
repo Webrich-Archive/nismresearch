@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Role of RTAs in Mutual Fund Transactions_C1_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> MegaRTA Services Ltd is a large RTA that currently services 18 AMCs with a total of 2.15 crore investor folios across all AMCs. The company operates 120 Investor Service Centres (ISCs) across India. Recently, the CEO Ms. Kavitha Sharma received a query from SEBI about their QRTA classification status. Meanwhile, the operations team is dealing with NAV computation deadlines for various scheme types including domestic equity schemes, a Fund of Funds scheme investing in overseas ETFs, and an ETCD scheme. The technology team is upgrading the ISC infrastructure to ensure all centres function as effective single-window service points. MegaRTA also recently onboarded a new AMC client — Zenith Mutual Fund — which has both open-ended and closed-ended schemes in its portfolio.
+
+<b>Question 5 of 5:</b> When MegaRTA upgrades its ISC infrastructure to function as single-window service points, which of the following capabilities must EACH ISC provide?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Processing transactions only for the AMC whose office is nearest to that ISC location]]></text></answer>
+            <answer correct="no"><text><![CDATA[Providing investment advisory services and scheme recommendations to walk-in investors]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Accepting both financial transactions (purchases, redemptions) and non-financial transactions (address changes, nominations) for all AMCs serviced]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only accepting financial transactions while non-financial requests must be routed to the AMC directly]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** ISCs operate as single-window service points, meaning each centre must accept ALL types of transactions -- both financial (purchase, redemption, switch, SIP registration) and non-financial (address change, bank mandate, nominee update, etc.) for all AMCs serviced by that RTA.
+**The Trap:** ISCs don't provide investment advice (that requires a separate advisory license). They process transactions and service requests only. Also, they serve all AMC clients of that RTA, not just one specific AMC.
+**Cross-Exam Context:** The single-window ISC concept ensures investors don't need to visit multiple offices. For QRTAs, SEBI mandates ISC presence in at least 100 cities for MF operations.
+**Distributor's Pro-Tip:** Guide your clients to the nearest ISC for any MF-related service request. One visit can handle multiple AMC folios if they are all serviced by the same RTA, saving time and effort.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Role of RTAs in Mutual Fund Transactions_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Equity mutual fund schemes must report NAV rounded to how many decimal places?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[2 decimal places]]></text></answer>
+            <answer correct="no"><text><![CDATA[4 decimal places]]></text></answer>
+            <answer correct="no"><text><![CDATA[3 decimal places]]></text></answer>
+            <answer correct="no"><text><![CDATA[Whole numbers only]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Equity schemes report NAV rounded to 2 decimal places. Index funds, debt funds, liquid funds, and money market funds report NAV to 4 decimal places for greater precision.
+**The Trap:** Mixing up which scheme types use 2 vs 4 decimals. Simple rule: Equity = 2 decimals, everything else (index, debt, liquid, money market) = 4 decimals.
+**Cross-Exam Context:** NISM Series V-A covers NAV basics. The decimal precision requirement is operationally important for RTAs who calculate and publish NAV daily.
+**Distributor's Pro-Tip:** The 4-decimal precision for debt/liquid funds matters because daily returns on debt are small. A Rs.0.0001 difference on a Rs.1000 crore AUM fund translates to Rs.1 lakh -- significant for institutional investors.]]></text></explanation>
+    </question>
+</QF>

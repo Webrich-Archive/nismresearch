@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Basics of Securities and Types_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A company has 1,00,000 outstanding shares with a face value of Rs. 100 each. It decides to consolidate the shares such that the new face value becomes Rs. 500 per share. How many shares will be outstanding after consolidation?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[5,00,000 shares]]></text></answer>
+            <answer correct="no"><text><![CDATA[1,00,000 shares]]></text></answer>
+            <answer correct="yes"><text><![CDATA[20,000 shares]]></text></answer>
+            <answer correct="no"><text><![CDATA[50,000 shares]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In consolidation, lower face value shares are combined into higher face value shares. Total face value remains constant. Total FV = 1,00,000 × Rs. 100 = Rs. 1,00,00,000. New shares = Rs. 1,00,00,000 / Rs. 500 = 20,000 shares. Consolidation ratio = 500/100 = 5:1, so 1,00,000 / 5 = 20,000.
+**The Trap:** Option A (5,00,000) is the result of a stock split calculation (multiplying instead of dividing). Consolidation is the reverse of a stock split — fewer shares at a higher face value.
+**Cross-Exam Context:** NISM Series VIII (Equity Derivatives) tests corporate action adjustments on contracts for both splits and consolidations.
+**Distributor's Pro-Tip:** Consolidation reduces the number of shares while increasing face value per share. Total investment value remains unchanged. It is the exact opposite of a stock split.]]></text></explanation>
+    </question>
+</QF>

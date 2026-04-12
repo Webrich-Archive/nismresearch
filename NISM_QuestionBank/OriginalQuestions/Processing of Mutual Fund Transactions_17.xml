@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Processing of Mutual Fund Transactions_17" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When an investor opts to hold mutual fund units in demat form, how are profile changes (such as address or bank details) processed?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Through the AMC's investor service center]]></text></answer>
+            <answer correct="no"><text><![CDATA[Through the RTA of the mutual fund scheme]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Through the Depository Participant (DP) where the demat account is held]]></text></answer>
+            <answer correct="no"><text><![CDATA[Through both the DP and the RTA simultaneously]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When mutual fund units are held in demat form, the depository (NSDL/CDSL) through the investor's Depository Participant (DP) becomes the record keeper. All profile changes — address, bank details, contact information, nomination — must be made through the DP, not through the RTA or AMC. The changes automatically reflect for all demat holdings.
+**The Trap:** For physical (statement of account) holdings, changes go through the RTA/AMC. Candidates often apply the same process to demat holdings, forgetting that the DP takes over this function.
+**Cross-Exam Context:** NISM Series VI (Depository Operations) covers DP services in detail; Series II-B tests this from the RTA's perspective where demat units reduce the RTA's servicing role.
+**Distributor's Pro-Tip:** Clients with both demat and physical MF holdings need to update details in TWO places — DP for demat holdings and RTA/AMC for physical folios. This is a common source of confusion; maintain a checklist for such clients.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="SEBI Regulations for RTAs_14" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[When an RTA acts as a Depository Participant (DP), within how many days must it resolve complaints?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[30 days]]></text></answer>
+            <answer correct="no"><text><![CDATA[15 days]]></text></answer>
+            <answer correct="yes"><text><![CDATA[21 days]]></text></answer>
+            <answer correct="no"><text><![CDATA[45 days]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under SEBI (Depositories and Participants) Regulations 2018, when an RTA functions as a DP, complaints must be addressed within 21 days. This is a stricter timeline than the general 45-day intermediary standard.
+**The Trap:** Don't apply the 45-day intermediary timeline here. When the RTA is wearing its DP hat, the stricter 21-day DP timeline applies.
+**Cross-Exam Context:** RTAs wearing multiple hats (registrar, STA, DP) must comply with the strictest applicable timeline for each function. This is a common exam trap.
+**Distributor's Pro-Tip:** If your client's complaint relates to demat MF units, the 21-day resolution timeline applies since it falls under DP operations. Knowing the correct timeline helps you set appropriate expectations and escalate effectively.]]></text></explanation>
+    </question>
+</QF>

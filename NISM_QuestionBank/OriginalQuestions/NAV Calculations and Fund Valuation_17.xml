@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV Calculations and Fund Valuation_17" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Nisha submits a redemption request for her equity fund at 3:15 PM on Thursday. What NAV applies?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Thursday's closing NAV (same day, since it's within business hours)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Wednesday's closing NAV (the previous business day)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Monday's closing NAV (the next week's first business day)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Friday's closing NAV (the next business day)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Since Nisha submitted after the 3 PM cut-off on Thursday, the applicable NAV is the closing NAV of the next business day, which is Friday. Had she submitted before 3 PM, she would have gotten Thursday's closing NAV.
+**The Trap:** 3:15 PM is after the 3 PM cut-off. Even 1 minute past cut-off pushes the applicable NAV to the next business day. 'Within business hours' is irrelevant -- only the 3 PM cut-off matters.
+**Cross-Exam Context:** This scenario tests the hard cut-off rule. RTAs use time stamps to verify whether applications were received before or after 3 PM.
+**Distributor's Pro-Tip:** A 15-minute delay cost Nisha a full day's NAV difference. In falling markets, this delay might actually benefit her (lower redemption NAV gives more units' worth), but in rising markets, it's a loss. Always aim for well-before-3 PM submission.]]></text></explanation>
+    </question>
+</QF>

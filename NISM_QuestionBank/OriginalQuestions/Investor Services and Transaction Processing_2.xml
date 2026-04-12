@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Investor Services and Transaction Processing_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How frequently is CAS sent to mutual fund investors who have had transactions during the month?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Quarterly]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only on request]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Monthly]]></text></answer>
+            <answer correct="no"><text><![CDATA[Half-yearly]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** CAS is sent monthly to investors who have had at least one transaction during the preceding month. For investors with no transactions, CAS is sent half-yearly (for the periods January-June and July-December). This ensures active investors get regular updates while reducing unnecessary communications for dormant folios.
+**The Trap:** The half-yearly frequency applies only to non-transacting investors. For those with transactions, it's strictly monthly. Candidates sometimes apply the half-yearly rule universally.
+**Cross-Exam Context:** NISM Series V-A covers CAS frequency; Series II-B tests the trigger conditions for CAS generation in the RTA's workflow.
+**Distributor's Pro-Tip:** If a client hasn't received their monthly CAS, it likely means no transactions were processed that month (including SIPs — check if an SIP bounced). Use CAS non-receipt as a diagnostic tool to identify processing issues.]]></text></explanation>
+    </question>
+</QF>

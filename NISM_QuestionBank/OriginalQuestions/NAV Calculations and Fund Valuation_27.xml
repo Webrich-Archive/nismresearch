@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV Calculations and Fund Valuation_27" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An index fund has total assets of Rs.3,000 crore and total liabilities of Rs.12 crore. With 100 crore units outstanding, the NAV reported should be:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs.29.90]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs.29.8800]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.29.88]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.30.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** NAV = (3,000 - 12) / 100 = 2,988 / 100 = Rs.29.88. Since this is an index fund, NAV must be reported to 4 decimal places: Rs.29.8800.
+**The Trap:** Rs.29.88 (2 decimals) would be correct for an equity fund but NOT for an index fund. Index funds, like debt and liquid funds, require 4 decimal places. So Rs.29.8800 is the correct representation.
+**Cross-Exam Context:** The decimal precision requirement is scheme-type dependent. Equity = 2 decimals; index/debt/liquid/money market = 4 decimals.
+**Distributor's Pro-Tip:** Index fund NAVs track the underlying index closely. The 4-decimal precision is important because index fund returns closely mirror the benchmark, and even small tracking differences matter for institutional comparison.]]></text></explanation>
+    </question>
+</QF>

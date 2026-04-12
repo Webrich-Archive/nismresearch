@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Duplicate Share Certificates and Transmission of Securities_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following correctly describes the Suspense Escrow Demat Account?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[An account where shares of deceased holders are permanently transferred]]></text></answer>
+            <answer correct="yes"><text><![CDATA[An account for unclaimed securities of holders who did not dematerialise within 120 days of the Letter of Confirmation]]></text></answer>
+            <answer correct="no"><text><![CDATA[An account maintained by stock exchanges for disputed securities]]></text></answer>
+            <answer correct="no"><text><![CDATA[An account where duplicate certificates are held until stamp duty is paid]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The Suspense Escrow Demat Account is specifically created to hold unclaimed securities of holders who failed to submit their dematerialisation request to their Depository Participant within 120 days of receiving the Letter of Confirmation. The securities are held here until the holder claims them.
+
+**The Trap:** This account is NOT the same as the IEPF (Investor Education and Protection Fund) account, which holds unclaimed dividends and shares after 7 years. The Suspense Escrow Demat Account is a holding mechanism specifically for the Letter of Confirmation non-compliance scenario.
+
+**Cross-Exam Context:** The flow is: Service request processed → Letter of Confirmation issued (valid 120 days) → Holder must submit demat request to DP within 120 days → If not submitted → Securities to Suspense Escrow Demat Account.
+
+**Distributor's Pro-Tip:** If a client's securities have been moved to the Suspense Escrow Demat Account, help them understand the retrieval process. It involves additional documentation and time, so prevention (timely dematerialisation) is always better than cure.]]></text></explanation>
+    </question>
+</QF>

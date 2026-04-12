@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Processing of Mutual Fund Transactions_C2_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Fatima is a Non-Resident Indian (NRI) based in Dubai with mutual fund investments across multiple schemes of XYZ Mutual Fund. She decides to redeem some of her investments. The RTA processes the following redemptions:
+
+Redemption A: 5,000 units of XYZ Equity Large Cap Fund purchased 18 months ago at NAV Rs.200, redeemed at current NAV Rs.280. (Equity-oriented fund, holding period > 12 months)
+
+Redemption B: 3,000 units of XYZ Corporate Bond Fund purchased 10 months ago at NAV Rs.30, redeemed at current NAV Rs.33. (Debt fund, holding period < 36 months for specified mutual fund)
+
+Redemption C: 2,000 units of XYZ Balanced Advantage Fund purchased 6 months ago at NAV Rs.150, redeemed at current NAV Rs.162. (Equity-oriented fund, holding period < 12 months)
+
+Redemption D: 1,000 units of XYZ Liquid Fund purchased 24 months ago at NAV Rs.1,500, redeemed at current NAV Rs.1,620. (Debt fund, holding period < 36 months)
+
+Fatima has submitted her PAN and all KYC documents are in order. The RTA must compute TDS on each redemption.
+
+<b>Question 3 of 5:</b> For Redemption C (Balanced Advantage Fund held for 6 months), what is the nature of the capital gain and the applicable TDS rate?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[STCG taxed at 30% since it's a hybrid fund]]></text></answer>
+            <answer correct="no"><text><![CDATA[STCG taxed at 10% as applicable to all balanced funds]]></text></answer>
+            <answer correct="yes"><text><![CDATA[STCG taxed at 20% since the Balanced Advantage Fund is equity-oriented and units are held for less than 12 months]]></text></answer>
+            <answer correct="no"><text><![CDATA[LTCG taxed at 12.5% since balanced funds get preferential treatment]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The Balanced Advantage Fund is equity-oriented (as stated in the scenario). Units held for less than 12 months generate STCG. STCG on equity-oriented funds is taxed at 20% (Section 111A rate as per the latest budget). Gain = (162 - 150) × 2,000 = Rs.12 × 2,000 = Rs.24,000. TDS at 20% = Rs.4,800.
+**The Trap:** Not all balanced/hybrid funds are equity-oriented — the classification depends on the equity allocation. However, Balanced Advantage Funds are typically equity-oriented. The trap is applying debt fund STCG rates (slab rate/30%) to what is actually an equity-oriented fund.
+**Cross-Exam Context:** NISM Series V-A covers hybrid fund classification for tax purposes; the equity-oriented vs debt-oriented distinction determines the holding period threshold and tax rate.
+**Distributor's Pro-Tip:** Always verify if a hybrid/balanced fund is equity-oriented or debt-oriented for tax purposes — this depends on actual equity allocation, not just the scheme name. The SID and AMC factsheets confirm the orientation.]]></text></explanation>
+    </question>
+</QF>

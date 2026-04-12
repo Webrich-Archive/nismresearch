@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Depository Services and Dematerialisation_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following is a valid reason for the RTA to reject a dematerialisation request?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The details on the physical certificate do not match the electronic request submitted by the DP]]></text></answer>
+            <answer correct="no"><text><![CDATA[The investor has less than 100 shares in the company]]></text></answer>
+            <answer correct="no"><text><![CDATA[The investor holds shares in a company listed on a regional stock exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[The investor has not completed one year of holding the physical certificates]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Rejection of demat requests can occur for specific verification failures: mismatch between electronic and physical details, fake/stolen/duplicate certificates, name discrepancies, wrong issuer information, signature mismatch, or delay beyond 30 days. A mismatch between the physical certificate details and the electronic request is a fundamental verification failure.
+
+**The Trap:** There is no minimum quantity requirement for dematerialisation, and no minimum holding period for physical certificates. Even a single share can be dematerialised, and newly acquired physical shares can be immediately submitted for demat.
+
+**Cross-Exam Context:** The RTA verifies multiple aspects: DP authorisation, electronic and physical detail match, DRN match, hologram/watermark authenticity, and lock-in tags. Any failure in these checks leads to rejection.
+
+**Distributor's Pro-Tip:** Before submitting demat requests, ensure the name on the physical certificate exactly matches the demat account name. Even minor spelling differences (e.g., "Pvt" vs "Private") can cause rejection and delay.]]></text></explanation>
+    </question>
+</QF>

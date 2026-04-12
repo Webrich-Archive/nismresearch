@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Corporate Actions_C2_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Pinnacle Engineering Ltd. (PEL), a listed manufacturing company, has 5 crore outstanding equity shares with a face value of Rs.10 each, currently trading at Rs.150 per share. The company has paid-up capital of Rs.50 crore and free reserves of Rs.350 crore. PEL's Board announces a rights issue in the ratio of 1:5 (one new share for every five shares held) at an issue price of Rs.100 per share.
+
+The record date is set as August 10, 2025. Deepa Mehta, the RTA Manager, obtains the beneficial owner download from NSDL and CDSL. The shareholder register shows:
+- Promoter group: 2 crore shares (40% stake)
+- Ankit Patel (retail investor): 500 shares in demat form
+- Kaveri Trust (institutional investor): 50,000 shares in demat form
+- Lakshmi Devi: 1,000 shares in physical form (not yet dematerialized)
+
+The rights issue offer document provides a composite application form allowing shareholders to apply for additional shares beyond their entitlement. The ASBA (Application Supported by Blocked Amount) process is mandatory for all applicants. Some shareholders choose partial acceptance of their entitlement, while others apply for excess shares.
+
+<b>Question 1 of 5:</b> How many new shares is Ankit Patel entitled to under the rights issue?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[100 shares]]></text></answer>
+            <answer correct="no"><text><![CDATA[2,500 shares]]></text></answer>
+            <answer correct="no"><text><![CDATA[50 shares]]></text></answer>
+            <answer correct="no"><text><![CDATA[500 shares]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Rights ratio is 1:5 -- one new share for every five held. Ankit holds 500 shares. Entitlement = 500 / 5 = 100 new shares. At the issue price of Rs.100 each, he would need to pay Rs.10,000 to subscribe to his full entitlement.
+**The Trap:** Candidates may multiply 500 × 5 (getting 2,500) instead of dividing. In a 1:5 ratio, the "1" is new shares and "5" is existing shares, so divide existing holdings by 5.
+**Cross-Exam Context:** NISM Series IX covers rights issue entitlement calculations from the merchant banking side; Series II-A covers the RTA's role in calculating these entitlements.
+**Distributor's Pro-Tip:** Walk clients through the cost-benefit analysis: Ankit needs Rs.10,000 to subscribe. Compare the rights price (Rs.100) with the market price (Rs.150). The theoretical ex-rights price would be approximately Rs.141.67, making the rights attractive at Rs.100.]]></text></explanation>
+    </question>
+</QF>

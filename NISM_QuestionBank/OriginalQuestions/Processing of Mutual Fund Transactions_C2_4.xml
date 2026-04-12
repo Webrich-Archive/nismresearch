@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Processing of Mutual Fund Transactions_C2_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Fatima is a Non-Resident Indian (NRI) based in Dubai with mutual fund investments across multiple schemes of XYZ Mutual Fund. She decides to redeem some of her investments. The RTA processes the following redemptions:
+
+Redemption A: 5,000 units of XYZ Equity Large Cap Fund purchased 18 months ago at NAV Rs.200, redeemed at current NAV Rs.280. (Equity-oriented fund, holding period > 12 months)
+
+Redemption B: 3,000 units of XYZ Corporate Bond Fund purchased 10 months ago at NAV Rs.30, redeemed at current NAV Rs.33. (Debt fund, holding period < 36 months for specified mutual fund)
+
+Redemption C: 2,000 units of XYZ Balanced Advantage Fund purchased 6 months ago at NAV Rs.150, redeemed at current NAV Rs.162. (Equity-oriented fund, holding period < 12 months)
+
+Redemption D: 1,000 units of XYZ Liquid Fund purchased 24 months ago at NAV Rs.1,500, redeemed at current NAV Rs.1,620. (Debt fund, holding period < 36 months)
+
+Fatima has submitted her PAN and all KYC documents are in order. The RTA must compute TDS on each redemption.
+
+<b>Question 4 of 5:</b> For all four redemptions, which additional tax is applicable specifically because these are mutual fund transactions?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[STT on Redemptions A and C (equity-oriented funds) but not on B and D (debt funds)]]></text></answer>
+            <answer correct="no"><text><![CDATA[No additional tax beyond TDS on capital gains]]></text></answer>
+            <answer correct="no"><text><![CDATA[GST of 18% on the capital gains portion]]></text></answer>
+            <answer correct="no"><text><![CDATA[Stamp duty of 0.005% on all redemption proceeds]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Securities Transaction Tax (STT) applies only on redemption/sale of equity-oriented mutual fund units — so Redemptions A (Equity Large Cap) and C (Balanced Advantage, which is equity-oriented) attract STT at 0.001% of the redemption value. Redemptions B (Corporate Bond) and D (Liquid Fund) do not attract STT as they are debt/non-equity oriented. Stamp duty applies only on purchases, NOT on redemptions.
+**The Trap:** Stamp duty on redemptions is a very common wrong assumption — stamp duty is one-sided (only on purchases since July 2020). Also, STT is scheme-type specific, not a blanket charge.
+**Cross-Exam Context:** NISM Series V-A covers the interplay of STT, stamp duty, and capital gains; understanding which taxes apply on which transaction type is frequently tested.
+**Distributor's Pro-Tip:** Create a tax matrix for NRI clients showing: (1) Stamp duty on purchase only, (2) STT on equity redemption only, (3) TDS on capital gains and IDCW, (4) Surcharge and cess on top of TDS. This comprehensive view helps clients plan net-of-tax withdrawals.]]></text></explanation>
+    </question>
+</QF>

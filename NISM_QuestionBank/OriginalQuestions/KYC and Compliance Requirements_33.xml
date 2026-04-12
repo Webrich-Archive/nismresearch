@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="KYC and Compliance Requirements_33" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In a joint mutual fund folio with 'Either or Survivor' (E or S) mode of holding, what happens when the first holder passes away?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The second holder must submit fresh KYC to continue operating the folio]]></text></answer>
+            <answer correct="no"><text><![CDATA[The folio automatically gets transmitted to the nominee, bypassing the survivor]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The surviving holder(s) can continue to operate the folio for all transactions]]></text></answer>
+            <answer correct="no"><text><![CDATA[The folio is frozen until legal heir certificate is produced]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In an 'Either or Survivor' (E or S) joint holding mode, any holder can independently operate the folio. On the death of the first holder, the surviving holder(s) can continue operating the folio without any interruption. The folio is not frozen, and no legal heir process is needed for the survivor to continue. The centralised demise reporting blocks only unauthorized debits, not the survivor's legitimate operations.
+**The Trap:** Nominee rights arise only after ALL joint holders pass away. As long as any joint holder survives, they operate the folio. Candidates sometimes confuse nomination rights with survivorship rights.
+**Cross-Exam Context:** NISM Series V-A covers joint holding modes; Series II-B tests the RTA's processing rules for demise in joint folios based on the mode of holding.
+**Distributor's Pro-Tip:** 'Either or Survivor' is the most flexible mode for joint holders — strongly recommend it for spouse joint folios. In 'Anyone or Survivor' mode (for 3 holders), any one holder can operate independently. In 'Joint' mode, ALL holders must sign for every transaction — least flexible and not recommended for most situations.]]></text></explanation>
+    </question>
+</QF>

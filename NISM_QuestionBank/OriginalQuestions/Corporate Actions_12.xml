@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Corporate Actions_12" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A company is NOT permitted to have more than one ISIN for its equity shares UNLESS which of the following applies?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The shares have differential voting rights or different paid-up values]]></text></answer>
+            <answer correct="no"><text><![CDATA[The company is listed on both BSE and NSE simultaneously]]></text></answer>
+            <answer correct="no"><text><![CDATA[The company has more than 10 lakh shareholders]]></text></answer>
+            <answer correct="no"><text><![CDATA[The company has issued both interim and final dividends in the same year]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A company is generally not permitted more than one ISIN for its equity shares. The exception is when shares carry differential voting rights or have different paid-up values -- these represent genuinely different classes of securities and require separate ISINs.
+**The Trap:** Being listed on multiple exchanges does NOT require separate ISINs -- the same ISIN is used across exchanges. Similarly, the number of shareholders or dividend history has no bearing on ISIN requirements.
+**Cross-Exam Context:** NISM Series VI (Depository Operations) covers ISIN allotment in detail; Series II-A covers the RTA's role in ISIN management for corporate actions.
+**Distributor's Pro-Tip:** When DVR (Differential Voting Rights) shares exist, ensure clients understand the difference -- DVR shares typically trade at a discount to ordinary shares due to lower voting rights but may offer higher dividends.]]></text></explanation>
+    </question>
+</QF>

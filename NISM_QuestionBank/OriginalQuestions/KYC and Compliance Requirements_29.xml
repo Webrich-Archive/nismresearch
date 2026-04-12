@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="KYC and Compliance Requirements_29" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Ramesh, a resident Indian investor, has mutual fund investments with 4 different AMCs. He discovers that his PAN is not linked to Aadhaar. What impact does this have on his existing investments?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[His KYC status remains unchanged, but portability of KYC to new intermediaries is not available]]></text></answer>
+            <answer correct="no"><text><![CDATA[He must re-do KYC with all 4 AMCs within 30 days]]></text></answer>
+            <answer correct="no"><text><![CDATA[His KYC status becomes invalid and transactions are blocked]]></text></answer>
+            <answer correct="no"><text><![CDATA[All his existing investments are frozen immediately]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Following the May 2024 SEBI circular, PAN-Aadhaar linkage is disconnected from KYC status. So Ramesh's existing KYC status (whether Validated or Registered) remains unchanged. However, his KYC will not be portable to new intermediaries without the linkage. His existing investments and ongoing transactions with the 4 AMCs continue normally.
+**The Trap:** PAN-Aadhaar delinkage does NOT freeze investments or invalidate KYC. The impact is limited to portability — new intermediaries won't be able to verify his KYC from KRA records without the linkage.
+**Cross-Exam Context:** This tests the May 2024 SEBI circular's practical application; understanding the limited impact prevents unnecessary panic among investors.
+**Distributor's Pro-Tip:** If a client's PAN-Aadhaar is not linked, their existing investments are safe. However, they cannot open accounts with new intermediaries using KYC portability. Advise them to link PAN-Aadhaar through the IT e-filing portal — it's a one-time process that restores full portability.]]></text></explanation>
+    </question>
+</QF>

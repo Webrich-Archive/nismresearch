@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Depository Services and Dematerialisation_25" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[During a rights issue processed through the depository system, which of the following steps is part of the correct process flow?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The depository directly allots rights shares without any application from investors]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The RTA obtains a BO download, calculates entitlements, and investors apply through the ASBA process]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rights shares are credited to a temporary ISIN before being merged with the permanent ISIN]]></text></answer>
+            <answer correct="no"><text><![CDATA[The stock exchange directly credits rights entitlements to investor demat accounts]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The rights issue process through the depository involves: obtaining BO download from the depository → RTA calculates entitlements based on holdings on record date → composite application forms are sent to eligible shareholders → investors apply through ASBA (Application Supported by Blocked Amount) process → allotment is done based on valid applications.
+
+**The Trap:** Unlike bonus shares (which are automatically credited), rights shares require the investor to actively apply and pay for the additional shares. This is why rights issues are excluded from IEPF credits — they require affirmative action and payment from the shareholder. Also, no temporary ISIN is used for bonus (this is a bonus-specific fact), and candidates may wrongly apply it to rights.
+
+**Cross-Exam Context:** This distinction between bonus (automatic credit) and rights (requires application) is fundamental. In a bonus issue, shares are allotted on T+1 and tradeable on T+2. Rights issues follow the ASBA timeline, which is longer and involves the banking system for blocking funds.
+
+**Distributor's Pro-Tip:** Ensure clients are aware of rights issue timelines and deadlines. Unlike bonus shares which are automatic, missing the rights issue application deadline means losing the entitlement. Monitor your clients' holdings around record dates for rights issues.]]></text></explanation>
+    </question>
+</QF>

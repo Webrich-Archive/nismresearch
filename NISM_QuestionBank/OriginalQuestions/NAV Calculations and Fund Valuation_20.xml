@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV Calculations and Fund Valuation_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[After creation of a segregated portfolio, how many daily NAVs must be computed?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Two -- one for the main portfolio and one for the segregated portfolio]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only one consolidated NAV for the entire scheme]]></text></answer>
+            <answer correct="no"><text><![CDATA[Three -- main portfolio, segregated portfolio, and combined NAV]]></text></answer>
+            <answer correct="no"><text><![CDATA[No daily NAV for the segregated portfolio since it is frozen]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** After side pocketing, the RTA must compute two separate daily NAVs -- one for the main (performing) portfolio and one for the segregated (impaired) portfolio. Investors can see the value of both components separately.
+**The Trap:** The segregated portfolio NAV is not frozen. It changes based on recovery or further deterioration of the impaired asset. Both NAVs must be computed and published daily.
+**Cross-Exam Context:** The dual NAV requirement increases RTA workload. It is an important operational detail for NISM Series II-B candidates.
+**Distributor's Pro-Tip:** Show both NAVs to concerned clients. The main portfolio NAV reflects the healthy portion, while the segregated NAV shows the recovery value. As the impaired asset recovers (if it does), the segregated NAV increases, and the recovery is distributed to unitholders.]]></text></explanation>
+    </question>
+</QF>

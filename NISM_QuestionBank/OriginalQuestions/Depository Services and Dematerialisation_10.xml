@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Depository Services and Dematerialisation_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the role of a Designated Depository Participant (DDP) in the Indian securities market?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[To act as custodian of physical share certificates for foreign investors]]></text></answer>
+            <answer correct="no"><text><![CDATA[To provide clearing and settlement services for equity derivatives]]></text></answer>
+            <answer correct="no"><text><![CDATA[To assign ISIN numbers to newly listed securities]]></text></answer>
+            <answer correct="yes"><text><![CDATA[To grant Foreign Portfolio Investor (FPI) registration on behalf of SEBI]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Designated Depository Participants (DDPs) have a special role beyond regular DPs — they are authorised to grant FPI registration on behalf of SEBI. This streamlines the FPI registration process by delegating it to entities already in the depository ecosystem.
+
+**The Trap:** DDPs should not be confused with regular DPs. While all DDPs are DPs, not all DPs are DDPs. The "Designated" prefix specifically relates to the FPI registration authority. ISIN assignment is done by the depository itself, not by DDPs.
+
+**Cross-Exam Context:** This connects to the broader FPI regulatory framework. DDPs serve as a single-window clearance for foreign investors wanting to invest in Indian securities markets, reducing regulatory complexity.
+
+**Distributor's Pro-Tip:** If you service foreign institutional clients, understanding the DDP framework is essential. Direct them to DDPs for registration rather than approaching SEBI directly, as DDPs offer a more efficient registration pathway.]]></text></explanation>
+    </question>
+</QF>

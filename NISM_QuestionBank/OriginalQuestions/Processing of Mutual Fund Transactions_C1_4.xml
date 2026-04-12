@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Processing of Mutual Fund Transactions_C1_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Harish is an active mutual fund investor with folios across multiple schemes of ABC Mutual Fund. On a particular Wednesday (a working day with no holidays that week), the following events occur:
+
+Transaction 1: At 1:30 PM, Harish submits a purchase application for Rs.3,00,000 in ABC Equity Growth Fund with an RTGS payment that is credited to the scheme's account by 2:00 PM. The scheme's current NAV is Rs.125.
+
+Transaction 2: At 3:30 PM (after the 3:00 PM cutoff), he submits another purchase application for Rs.2,00,000 in ABC Liquid Fund through online mode with instant payment.
+
+Transaction 3: On the same day at 2:00 PM, his monthly SIP of Rs.10,000 in ABC Balanced Advantage Fund is auto-triggered by the RTA. The mandate debit is successful.
+
+Transaction 4: He submits a switch request at 2:30 PM to move Rs.1,00,000 from ABC Overnight Fund to ABC Mid Cap Fund.
+
+Transaction 5: His standing STP instruction triggers a transfer of Rs.25,000 from ABC Liquid Fund to ABC Small Cap Fund.
+
+<b>Question 4 of 5:</b> For Transaction 4 (switch from Overnight Fund to Mid Cap Fund), which of the following is correct?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Only the redemption leg from Overnight Fund is processed on Wednesday; the purchase into Mid Cap Fund happens on Thursday]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The switch-out from Overnight Fund and switch-in to Mid Cap Fund are processed simultaneously at their respective Wednesday NAVs, subject to cutoff compliance]]></text></answer>
+            <answer correct="no"><text><![CDATA[The switch is processed at a single blended NAV of both schemes]]></text></answer>
+            <answer correct="no"><text><![CDATA[Switch transactions between different scheme types are not permitted]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A switch involves simultaneous redemption from the source scheme and purchase into the target scheme. Since Harish submitted at 2:30 PM (before the 3:00 PM cutoff for both scheme types), both legs are processed at Wednesday's NAV — the overnight fund's NAV for the switch-out and the mid cap fund's NAV for the switch-in. Each scheme's NAV is independently computed.
+**The Trap:** Switches between different scheme types are absolutely permitted within the same AMC. The misconception that you can only switch between similar scheme types is wrong.
+**Cross-Exam Context:** NISM Series V-A covers switch mechanics; the key exam concept is that each leg of a switch is an independent transaction with its own NAV, load, and tax implications.
+**Distributor's Pro-Tip:** Remind clients that the switch-out leg from the overnight fund may trigger capital gains (though likely minimal given the nature of overnight funds). The switch-in leg to the mid cap fund resets the holding period — important for future tax planning.]]></text></explanation>
+    </question>
+</QF>

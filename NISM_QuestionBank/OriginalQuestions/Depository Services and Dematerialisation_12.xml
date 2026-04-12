@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Depository Services and Dematerialisation_12" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Priya holds 500 shares of ABC Ltd in demat form. She wants to transfer 200 shares to her brother Amit who also has a demat account with a different depository. Which of the following statements is correct?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Inter-depository transfer is possible if the security is available in both depositories]]></text></answer>
+            <answer correct="no"><text><![CDATA[The transfer is not possible as both accounts must be with the same depository]]></text></answer>
+            <answer correct="no"><text><![CDATA[The transfer requires conversion to physical form and then re-dematerialisation]]></text></answer>
+            <answer correct="no"><text><![CDATA[The transfer can only happen through a stock exchange trade]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Inter-depository delivery (transfer between NSDL and CDSL accounts) is fully supported, provided the security is admitted in both depositories. This is an off-market transaction that does not require routing through a stock exchange.
+
+**The Trap:** Candidates sometimes assume that transfers can only happen within the same depository or must go through an exchange. The depository system is designed to be interoperable — securities can move freely between NSDL and CDSL.
+
+**Cross-Exam Context:** This transfer would be classified as an off-market trade (person to person, not through an exchange). Priya would use a Delivery Instruction Slip (DIS) to initiate the debit from her account. Amit's account would be credited based on standing instructions or specific credit instructions.
+
+**Distributor's Pro-Tip:** For family transfers and gifts, off-market inter-depository transfers are the most efficient route. Ensure both parties have correct account details and that the DIS is filled accurately to avoid rejection.]]></text></explanation>
+    </question>
+</QF>

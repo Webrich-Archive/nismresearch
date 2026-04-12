@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV Calculations and Fund Valuation_30" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Deepak submitted a switch request from Fund A (equity) to Fund B (debt) at 2:30 PM. Both funds have 3 PM cut-off. How are the NAVs determined?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Both legs use the next business day's NAV regardless of submission time]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fund A uses previous day's NAV and Fund B uses same day's NAV]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Both the redemption from Fund A and purchase in Fund B use the same day's closing NAV since the request was before 3 PM for both legs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fund A redemption uses same day NAV but Fund B purchase uses next day NAV]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A switch is processed as a redemption from the source scheme (Fund A) and a purchase in the target scheme (Fund B). Since Deepak submitted before 3 PM (the cut-off for both equity and debt schemes), both legs get the same day's closing NAV, assuming funds from the redemption are immediately available for the purchase.
+**The Trap:** The key insight is that the redemption proceeds from Fund A are treated as 'funds available' for Fund B on the same day. So both legs can use the same day's NAV if submitted before cut-off.
+**Cross-Exam Context:** Switch NAV determination is a common exam question. The principle is that each leg follows its own scheme's NAV rules, but the internal funds flow is treated as simultaneous.
+**Distributor's Pro-Tip:** Switches within the same AMC are operationally smoother than between AMCs. The RTA processes both legs together, ensuring consistent NAV application. For volatile market days, submitting switches well before 3 PM avoids NAV surprises.]]></text></explanation>
+    </question>
+</QF>

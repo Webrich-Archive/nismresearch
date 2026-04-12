@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV Calculations and Fund Valuation_C1_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Sunrise Mutual Fund operates an equity scheme called Sunrise Growth Fund and a liquid scheme called Sunrise Cash Fund. The following events occur during a particular week:
+
+Monday: Portfolio value of Sunrise Growth Fund is Rs.800 crore with liabilities of Rs.20 crore and 40 crore units outstanding. Mr. Amit Kumar submits a purchase application for the Growth Fund at 2:45 PM with Rs.5 lakh via RTGS (credited same day). Mrs. Rekha Joshi submits a purchase application for the Cash Fund (liquid) at 1:15 PM with Rs.10 lakh via RTGS (credited same day).
+
+Tuesday: The Growth Fund's portfolio rises to Rs.820 crore (same liabilities and units outstanding as Monday for simplicity). Mr. Vikash Patel submits a redemption request for 10,000 units of the Growth Fund at 3:20 PM.
+
+Wednesday: The Growth Fund's portfolio value is Rs.810 crore. Mr. Vikash's redemption is processed using the applicable NAV.
+
+The Growth Fund's closing NAV on Friday of the previous week was Rs.19.40. All days mentioned are business days.
+
+<b>Question 3 of 5:</b> Mrs. Rekha Joshi's liquid fund purchase was submitted at 1:15 PM on Monday with RTGS. What NAV applies?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Monday's closing NAV since RTGS was credited on Monday]]></text></answer>
+            <answer correct="no"><text><![CDATA[Tuesday's closing NAV as the next business day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Thursday's closing NAV of the previous week]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Friday's closing NAV of Rs.19.40 equivalent (the previous day's NAV for liquid fund purchases received before 1:30 PM cutoff)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For liquid fund purchases received before the 1:30 PM cut-off with funds available, the applicable NAV is the closing NAV of the DAY BEFORE receipt. Rekha applied on Monday before 1:30 PM, so the previous business day's (Friday's) closing NAV applies.
+**The Trap:** Unlike equity funds where same-day NAV applies for pre-cut-off applications, liquid funds specifically use the PREVIOUS day's NAV. This anti-arbitrage rule prevents investors from investing at a known NAV.
+**Cross-Exam Context:** The liquid fund NAV rule is the most counter-intuitive rule in MF operations. Practice multiple scenarios to build clarity.
+**Distributor's Pro-Tip:** For corporate treasury clients managing overnight cash, explain that liquid fund purchases get the previous day's NAV. Monday purchases get Friday's NAV -- the weekend doesn't create any free return opportunity.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Basics of Securities and Types_8" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A bond has a face value of Rs. 1,000, a coupon rate of 12% per annum, and is currently trading at Rs. 1,095. What is the current yield of this bond?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[10.96%]]></text></answer>
+            <answer correct="no"><text><![CDATA[12.00%]]></text></answer>
+            <answer correct="no"><text><![CDATA[9.13%]]></text></answer>
+            <answer correct="no"><text><![CDATA[10.50%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Current yield = (Annual coupon / Current market price) × 100. Annual coupon = 12% of Rs. 1,000 = Rs. 120. Current yield = (120 / 1,095) × 100 = 10.96%.
+**The Trap:** Option B (12.00%) is tempting because candidates confuse coupon rate with current yield. The coupon rate is based on face value, while current yield is based on market price. Since the bond trades at a premium, current yield is lower than coupon rate.
+**Cross-Exam Context:** NISM Series V-B (MF Foundation) and Series IV (Interest Rate Derivatives) heavily test bond yield concepts.
+**Distributor's Pro-Tip:** When a bond trades above face value (premium), current yield will always be less than coupon rate. When it trades below face value (discount), current yield exceeds coupon rate. This inverse relationship is fundamental.]]></text></explanation>
+    </question>
+</QF>

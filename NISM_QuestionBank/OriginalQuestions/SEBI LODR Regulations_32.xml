@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="SEBI LODR Regulations_32" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following correctly describes the UPI block facility in the context of secondary market trading?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Funds are transferred from the investor's bank account to the trading member's pool account]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Funds are blocked in the investor's bank account in favour of the clearing corporation, without actual transfer to the trading member]]></text></answer>
+            <answer correct="no"><text><![CDATA[The investor's demat account is blocked until trade settlement]]></text></answer>
+            <answer correct="no"><text><![CDATA[UPI block facility is available only for IPO applications, not secondary market trades]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under the UPI block facility for secondary market trading, funds are blocked in the investor's own bank account in favour of the clearing corporation. The funds are not transferred to the trading member at any point, reducing counterparty risk and protecting investor funds.
+**The Trap:** The traditional process involves fund transfer to the TM's pool account. The UPI block facility fundamentally changes this by keeping funds with the investor until settlement. Some candidates may think this is limited to IPOs, but it has been extended to secondary markets.
+**Cross-Exam Context:** This is part of SEBI's broader investor protection framework, reducing the risk of broker misuse of client funds.
+**Distributor's Pro-Tip:** RTAs should understand that UPI block facility changes the fund flow but not the securities settlement process. Corporate action proceeds and settlement amounts still follow existing RTA processes.]]></text></explanation>
+    </question>
+</QF>

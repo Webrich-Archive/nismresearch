@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Processing of Mutual Fund Transactions_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the operating cycle of a mutual fund, what happens immediately after the RTA back-office processes purchase applications?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[KYC verification is initiated]]></text></answer>
+            <answer correct="no"><text><![CDATA[NAV is computed for the day]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Units are added to investor folios and inflow is reported to AMC treasury]]></text></answer>
+            <answer correct="no"><text><![CDATA[Payment instruments are sent for clearing]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The operating cycle flows as: ISC accepts application → RTA back-office processes → units added/reduced in folios → inflow/outflow reported to AMC treasury → unit capital updated → portfolio valued → NAV computed → NAV applied. After processing, the RTA updates investor folios and reports fund flows to the AMC treasury for deployment.
+**The Trap:** NAV computation comes much later in the cycle, after portfolio valuation. Candidates often think NAV is computed first and then units are allotted, but it's actually the reverse — the day's NAV is applied to transactions processed during that cycle.
+**Cross-Exam Context:** NISM Series V-A covers NAV computation; Series XV (Research Analyst) covers portfolio valuation methodologies.
+**Distributor's Pro-Tip:** Understanding this cycle explains why same-day NAV requires submitting applications before the cutoff — the entire processing chain needs to complete before end of day.]]></text></explanation>
+    </question>
+</QF>

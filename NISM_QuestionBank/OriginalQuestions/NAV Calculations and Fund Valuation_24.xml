@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV Calculations and Fund Valuation_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For capital gains tax purposes, gains from a segregated portfolio are calculated from:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The original date of investment in the scheme (before segregation)]]></text></answer>
+            <answer correct="no"><text><![CDATA[The date of segregation when the side pocket was created]]></text></answer>
+            <answer correct="no"><text><![CDATA[The date of listing of the segregated portfolio on the exchange]]></text></answer>
+            <answer correct="no"><text><![CDATA[The date of recovery of the impaired asset]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Capital gains from a segregated portfolio are calculated from the original date of investment in the scheme, not from the date of segregation or listing. This preserves the investor's original holding period for tax purposes.
+**The Trap:** The segregation event does not reset the holding period clock. If an investor held units for 3 years before segregation, the holding period includes those 3 years for LTCG/STCG determination.
+**Cross-Exam Context:** This tax treatment is favourable to investors and is specific to the side pocketing framework. NISM Series II-B and V-A both cover this provision.
+**Distributor's Pro-Tip:** The original investment date for capital gains is a significant benefit. If your client invested 3+ years ago in a debt fund that later gets side-pocketed, any recovery attracts LTCG rates (with indexation benefit historically). This is much better than STCG treatment.]]></text></explanation>
+    </question>
+</QF>

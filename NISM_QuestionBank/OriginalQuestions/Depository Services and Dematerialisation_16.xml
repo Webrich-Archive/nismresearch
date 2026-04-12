@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Depository Services and Dematerialisation_16" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[During a bonus issue by XYZ Ltd, the company applies to the stock exchange within 5 working days of the Board meeting. If the record date is 'T', by when must the allotment of bonus shares be completed?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[T+1 (one day after the record date)]]></text></answer>
+            <answer correct="no"><text><![CDATA[T+2 (two days after the record date)]]></text></answer>
+            <answer correct="no"><text><![CDATA[T+5 (five days after the record date)]]></text></answer>
+            <answer correct="no"><text><![CDATA[T+15 (fifteen days after the record date)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The bonus issue timeline through the depository system is: Record Date = T, Allotment = T+1, Trading of bonus shares = T+2. This tight timeline is possible because demat credits are electronic and instantaneous once processed by the depository.
+
+**The Trap:** Candidates may confuse the bonus allotment timeline with general corporate action processing timelines. The T+1 allotment for bonus is specific and must be memorised. Also note: no temporary ISIN is needed for bonus shares — they are credited directly to the permanent ISIN.
+
+**Cross-Exam Context:** The process involves: company informs depository of record date → BO report generated → RTA calculates entitlements → corporate action credit executed via depository → communication sent to investors. Only one ISIN per equity is used unless the company has shares with different paid-up values or differential voting rights.
+
+**Distributor's Pro-Tip:** Inform clients that bonus shares will be visible in their demat accounts by T+1 and tradeable from T+2. There is no need to submit any application for bonus shares — they are automatically credited based on the record date holding.]]></text></explanation>
+    </question>
+</QF>

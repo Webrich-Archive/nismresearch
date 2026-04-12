@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Depository Services and Dematerialisation_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the context of depository services, who is considered the 'registered owner' of dematerialised securities?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The investor who purchased the securities]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The depository in whose name the securities are registered]]></text></answer>
+            <answer correct="no"><text><![CDATA[The Depository Participant who maintains the investor's account]]></text></answer>
+            <answer correct="no"><text><![CDATA[The Registrar and Transfer Agent of the issuer company]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When securities are held in demat form, the depository (NSDL or CDSL) becomes the registered owner in the company's Register of Members (ROM). The investor is the 'beneficial owner' who enjoys all economic and voting rights despite the depository's name appearing in the ROM.
+
+**The Trap:** This is a classic conceptual trap. Most people assume the investor is the registered owner since they paid for and own the securities. But the legal framework distinguishes between registered owner (depository) and beneficial owner (investor) for administrative efficiency.
+
+**Cross-Exam Context:** This distinction is critical during corporate actions — the company sends dividends/notices to the depository as registered owner, which then ensures delivery to beneficial owners through DPs.
+
+**Distributor's Pro-Tip:** Reassure clients that despite the depository being the registered owner, their rights as beneficial owners are fully protected by the Depositories Act, 1996. They retain all rights to dividends, voting, bonus shares, and other entitlements.]]></text></explanation>
+    </question>
+</QF>

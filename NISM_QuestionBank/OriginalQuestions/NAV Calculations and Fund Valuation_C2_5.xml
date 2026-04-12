@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV Calculations and Fund Valuation_C2_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Horizon Mutual Fund manages the Horizon Corporate Bond Fund, a debt scheme with AUM of Rs.5,000 crore and 200 crore units outstanding. The fund held Rs.250 crore worth of bonds issued by Delta Industries Ltd, which constituted 5% of the portfolio. On March 15, Delta Industries was downgraded from BBB to BB- (below investment grade) by a credit rating agency. The fund manager, after obtaining trustee approval, decided to create a segregated portfolio for the Delta Industries holding.
+
+Before segregation:
+- Total portfolio: Rs.5,000 crore
+- Delta Industries bonds: Rs.250 crore (now valued at Rs.100 crore post-downgrade)
+- Other holdings: Rs.4,750 crore
+- Total liabilities: Rs.50 crore
+- Units outstanding: 200 crore
+
+After segregation, the main portfolio contains Rs.4,750 crore of performing assets with Rs.47.50 crore of proportionate liabilities, and the segregated portfolio contains Rs.100 crore of impaired assets with Rs.2.50 crore of proportionate liabilities. Six months later, Delta Industries makes a partial recovery payment of Rs.80 crore on the bonds.
+
+<b>Question 5 of 5:</b> When Delta Industries makes the Rs.80 crore partial recovery, how is it distributed?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Retained by the AMC until full recovery is achieved, then distributed]]></text></answer>
+            <answer correct="no"><text><![CDATA[Split equally between the main portfolio and the segregated portfolio]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Proportionately to all unitholders who held units at the time of segregation on March 15]]></text></answer>
+            <answer correct="no"><text><![CDATA[Added to the main portfolio to increase its NAV for all current investors]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The Rs.80 crore recovery is distributed proportionately to all unitholders who held units at the time of segregation (March 15). This is a fundamental principle of the side pocketing framework -- recovery benefits the original affected investors.
+**The Trap:** The recovery does NOT go to the main portfolio or to new investors. Even investors who subsequently redeemed their main portfolio units are entitled to their proportionate share of the recovery from the segregated portfolio.
+**Cross-Exam Context:** This distribution mechanism ensures fairness. Without side pocketing, the NAV hit would have been absorbed by all investors, but early redeemers would have avoided it at the cost of remaining investors.
+**Distributor's Pro-Tip:** Track the recovery announcements. The Rs.80 crore on 200 crore units means Rs.0.40 per unit recovery. For a client with 10,000 units, that is Rs.4,000. While not full recovery (original was Rs.1.25 per unit = Rs.250 crore / 200 crore units), partial recovery is better than a complete write-off.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV Calculations and Fund Valuation_14" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The time stamping machine log must be verified daily by checking:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The machine's battery level and calibration status]]></text></answer>
+            <answer correct="no"><text><![CDATA[The number of applications that missed the cut-off time]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The first and last serial numbers issued that day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the total number of transactions processed]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Daily verification of time stamping machines requires checking the first and last serial numbers issued during the day. This ensures continuity (no gaps in serial numbers) and completeness (all transactions are accounted for).
+**The Trap:** Verification is specifically about serial number continuity, not just transaction counts. A gap in serial numbers could indicate a missing or manipulated transaction.
+**Cross-Exam Context:** This operational control is specific to NISM Series II-B and the RTA's daily closing process. It ensures the integrity of the transaction acceptance timeline.
+**Distributor's Pro-Tip:** If you submit an application and notice the serial number on your receipt, keep it safe. It is the primary evidence of submission time and is used to determine applicable NAV in any dispute.]]></text></explanation>
+    </question>
+</QF>

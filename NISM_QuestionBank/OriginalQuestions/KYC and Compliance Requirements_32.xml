@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="KYC and Compliance Requirements_32" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[How does the centralised demise reporting mechanism work through KRAs?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The death certificate and PAN details are submitted through the KRA, which blocks debit transactions across all intermediaries and facilitates the claim process]]></text></answer>
+            <answer correct="no"><text><![CDATA[The KRA automatically distributes the deceased's investments to the nominee based on stored records]]></text></answer>
+            <answer correct="no"><text><![CDATA[Demise reporting through KRA is optional; families can report directly to each AMC]]></text></answer>
+            <answer correct="no"><text><![CDATA[The family directly informs all mutual fund AMCs and the KRA simultaneously]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The centralised demise reporting mechanism allows reporting of an investor's death through the KRA using the death certificate and PAN verification. Once reported, the KRA flags the status across all linked intermediaries, blocking debit transactions (preventing unauthorized withdrawals). Joint accounts operate as per the mandate (E or S). The actual claim/transmission process then follows through individual AMCs/RTAs.
+**The Trap:** The KRA does NOT distribute investments — it only blocks unauthorized transactions and notifies intermediaries. The actual transmission to nominees/legal heirs is handled by each AMC/RTA individually.
+**Cross-Exam Context:** NISM Series II-B specifically tests this centralised mechanism; it's a relatively new feature designed to protect deceased investors' assets.
+**Distributor's Pro-Tip:** Inform your clients' families about this centralised reporting mechanism. In the event of demise, a single report through the KRA protects investments across ALL financial intermediaries — much more efficient than contacting each AMC separately. Speed of reporting prevents potential misuse.]]></text></explanation>
+    </question>
+</QF>

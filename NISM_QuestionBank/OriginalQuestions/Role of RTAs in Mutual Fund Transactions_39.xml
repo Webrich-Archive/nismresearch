@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Role of RTAs in Mutual Fund Transactions_39" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The ETCD (Exchange Traded Commodity Derivatives) schemes must publish their NAV by what time?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[3 PM on the same business day (T-day)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[9 AM on the next business day (T+1)]]></text></answer>
+            <answer correct="no"><text><![CDATA[11 PM on the same business day (T-day)]]></text></answer>
+            <answer correct="no"><text><![CDATA[10 AM on the next business day (T+1)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** ETCD schemes have a NAV publication deadline of 9 AM on T+1 (next business day). This is because commodity markets have extended trading hours and the final settlement prices may be available late.
+**The Trap:** This is different from both the standard 11 PM T-day deadline and the FoF 10 AM T+1 deadline. ETCD has its own unique 9 AM T+1 timeline.
+**Cross-Exam Context:** Different scheme types have different NAV timelines: most schemes 11 PM T-day, FoF/overseas 10 AM T+1, ETCD 9 AM T+1. This is a popular exam question across NISM exams.
+**Distributor's Pro-Tip:** If you deal with commodity-linked funds, inform clients that NAV will be available only the next morning. This is normal for ETCD schemes and not a sign of any operational delay.]]></text></explanation>
+    </question>
+</QF>

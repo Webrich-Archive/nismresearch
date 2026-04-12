@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV Calculations and Fund Valuation_29" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Rajan submits a purchase application for a liquid fund at 2:00 PM on Wednesday with RTGS credit confirmed. What NAV applies?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Tuesday's closing NAV (the day before receipt since it is a liquid fund)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Thursday's closing NAV (the next business day)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Monday's closing NAV (two business days before)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Wednesday's closing NAV (since the application was received after the 1:30 PM liquid fund cut-off)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The liquid fund purchase cut-off is 1:30 PM. Rajan submitted at 2:00 PM, which is AFTER the cut-off. Since the application was received after 1:30 PM, it is treated as if received on the next business day (Thursday). The applicable NAV would then be the day before Thursday, which is Wednesday's closing NAV.
+**The Trap:** This is a tricky scenario. After-cut-off liquid fund applications are treated as next-day receipts, and then the previous-day NAV rule applies. So the investor ends up with Wednesday's closing NAV but the transaction is dated Thursday.
+**Cross-Exam Context:** Post-cut-off liquid fund scenarios combine two rules: the cut-off timing rule and the previous-day NAV rule. Understanding their interaction is key.
+**Distributor's Pro-Tip:** Missing the 1:30 PM cut-off by just 30 minutes cost Rajan a day of returns. For liquid fund investments, always submit well before 1:30 PM. Set internal deadlines at 1:00 PM to provide a buffer.]]></text></explanation>
+    </question>
+</QF>

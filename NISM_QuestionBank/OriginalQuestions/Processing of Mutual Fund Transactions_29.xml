@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Processing of Mutual Fund Transactions_29" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Anand submits a redemption request for his debt fund (non-liquid/overnight) at 2:00 PM on Wednesday. Assuming no holidays, by when should he receive the redemption proceeds?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Thursday (T+1)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Friday (T+2)]]></text></answer>
+            <answer correct="no"><text><![CDATA[The following Monday (T+3)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Same day Wednesday (T+0)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Debt fund schemes (other than liquid and overnight) have a redemption payout timeline of T+2 working days. Since the request was submitted on Wednesday (T), the proceeds must be paid by Friday (T+2), assuming both Thursday and Friday are working days with no holidays.
+**The Trap:** T+3 is the timeline for equity/hybrid funds, not debt funds. Candidates who don't differentiate between scheme categories for redemption timelines may select the wrong answer.
+**Cross-Exam Context:** NISM Series V-A tests redemption timelines by scheme category; this question applies the rule to a practical scenario.
+**Distributor's Pro-Tip:** When a client needs liquidity by a specific date, work backwards from the deadline considering the scheme category's payout timeline and any intervening holidays. Debt fund clients get money one day faster than equity fund clients — use this in liquidity planning.]]></text></explanation>
+    </question>
+</QF>

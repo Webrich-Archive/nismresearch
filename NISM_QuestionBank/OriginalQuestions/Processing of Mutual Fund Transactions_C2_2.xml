@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Processing of Mutual Fund Transactions_C2_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Fatima is a Non-Resident Indian (NRI) based in Dubai with mutual fund investments across multiple schemes of XYZ Mutual Fund. She decides to redeem some of her investments. The RTA processes the following redemptions:
+
+Redemption A: 5,000 units of XYZ Equity Large Cap Fund purchased 18 months ago at NAV Rs.200, redeemed at current NAV Rs.280. (Equity-oriented fund, holding period > 12 months)
+
+Redemption B: 3,000 units of XYZ Corporate Bond Fund purchased 10 months ago at NAV Rs.30, redeemed at current NAV Rs.33. (Debt fund, holding period < 36 months for specified mutual fund)
+
+Redemption C: 2,000 units of XYZ Balanced Advantage Fund purchased 6 months ago at NAV Rs.150, redeemed at current NAV Rs.162. (Equity-oriented fund, holding period < 12 months)
+
+Redemption D: 1,000 units of XYZ Liquid Fund purchased 24 months ago at NAV Rs.1,500, redeemed at current NAV Rs.1,620. (Debt fund, holding period < 36 months)
+
+Fatima has submitted her PAN and all KYC documents are in order. The RTA must compute TDS on each redemption.
+
+<b>Question 2 of 5:</b> What is the capital gain on Redemption B (Corporate Bond Fund), and what TDS rate should the RTA apply?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs.9,000 gain — TDS at 12.5% (LTCG rate for debt)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.9,000 gain — TDS at 20% with indexation (LTCG treatment)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.9,000 gain — TDS at 10% (standard NRI debt fund rate)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs.9,000 gain — TDS at applicable slab rate as STCG (since holding period is less than 36 months for a specified mutual fund)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Gain = (33 - 30) × 3,000 = Rs.3 × 3,000 = Rs.9,000. The Corporate Bond Fund is a debt fund held for 10 months — less than 36 months — making this STCG. For NRI investors, STCG on debt funds is taxed at the applicable income tax slab rate, and TDS is deducted at the applicable rate (30% being the highest slab rate typically applied for NRIs).
+**The Trap:** 20% with indexation applies to LTCG on debt funds (held >36 months), not STCG. 12.5% is the equity LTCG rate. The holding period classification is critical — 10 months is clearly short-term for a debt fund.
+**Cross-Exam Context:** NISM Series V-A covers debt fund taxation; Series II-B tests the RTA's role in correctly classifying gains and applying TDS.
+**Distributor's Pro-Tip:** Debt fund STCG is taxed at slab rates — for NRIs in the highest bracket, this means 30%+ tax on gains. If the client can hold for 36+ months, LTCG with indexation significantly reduces the tax burden. Always check holding period before processing NRI debt fund redemptions.]]></text></explanation>
+    </question>
+</QF>

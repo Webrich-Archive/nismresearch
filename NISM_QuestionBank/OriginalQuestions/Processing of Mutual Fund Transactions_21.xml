@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Processing of Mutual Fund Transactions_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Meera redeems equity mutual fund units worth Rs.8,00,000 through a delivery-based transaction. What is the STT applicable?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs.80]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.200]]></text></answer>
+            <answer correct="no"><text><![CDATA[Nil, as STT is not applicable on mutual fund redemptions]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs.8]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** STT on delivery-based sale of equity mutual fund units is 0.001%. Calculation: Rs.8,00,000 x 0.001% = Rs.8,00,000 x 0.00001 = Rs.8. This small amount is deducted from the redemption proceeds.
+**The Trap:** Rs.80 results from using 0.01% instead of 0.001%, and Rs.200 results from using 0.025% (the non-delivery rate). The delivery rate of 0.001% is the most commonly applicable rate for regular MF redemptions.
+**Cross-Exam Context:** NISM Series V-A tests STT computation; Series VIII covers different STT rates for futures and options.
+**Distributor's Pro-Tip:** While STT on MF redemption is tiny (Rs.8 on Rs.8 lakh), its presence is critically important for LTCG taxation — without STT, the concessional LTCG rate doesn't apply. Ensure the redemption confirmation shows the STT charge.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Role of RTAs in Mutual Fund Transactions_C1_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> MegaRTA Services Ltd is a large RTA that currently services 18 AMCs with a total of 2.15 crore investor folios across all AMCs. The company operates 120 Investor Service Centres (ISCs) across India. Recently, the CEO Ms. Kavitha Sharma received a query from SEBI about their QRTA classification status. Meanwhile, the operations team is dealing with NAV computation deadlines for various scheme types including domestic equity schemes, a Fund of Funds scheme investing in overseas ETFs, and an ETCD scheme. The technology team is upgrading the ISC infrastructure to ensure all centres function as effective single-window service points. MegaRTA also recently onboarded a new AMC client — Zenith Mutual Fund — which has both open-ended and closed-ended schemes in its portfolio.
+
+<b>Question 1 of 5:</b> Based on MegaRTA's folio count of 2.15 crore, which of the following statements is CORRECT regarding its QRTA classification?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[MegaRTA qualifies as a QRTA but has 30 calendar days to notify SEBI]]></text></answer>
+            <answer correct="no"><text><![CDATA[QRTA classification is based on AUM, not folio count, so folio data is irrelevant]]></text></answer>
+            <answer correct="yes"><text><![CDATA[MegaRTA qualifies as a QRTA and must inform SEBI within 5 working days of crossing the 2 crore threshold]]></text></answer>
+            <answer correct="no"><text><![CDATA[MegaRTA does not qualify as a QRTA because the threshold is 5 crore folios]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The QRTA threshold is 2 crore folios. With 2.15 crore folios, MegaRTA exceeds this and qualifies as a QRTA. SEBI must be informed within 5 working days of crossing the threshold.
+**The Trap:** The threshold is folio-based (2 crore), not AUM-based, and the notification period is 5 working days, not 30 calendar days.
+**Cross-Exam Context:** QRTAs are classified as Critical Infrastructure Institutions with enhanced monitoring requirements. This concept bridges NISM Series II-B and the broader SEBI regulatory framework.
+**Distributor's Pro-Tip:** Both CAMS and KFintech are QRTAs. Their enhanced regulatory compliance means your clients' data and transactions are processed under the strictest oversight, which is a selling point for investor confidence.]]></text></explanation>
+    </question>
+</QF>

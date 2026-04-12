@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV Calculations and Fund Valuation_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For equity scheme purchases, the applicable NAV is the closing NAV of:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The day on which the application form is submitted at the ISC]]></text></answer>
+            <answer correct="no"><text><![CDATA[The next business day after application submission]]></text></answer>
+            <answer correct="no"><text><![CDATA[The day on which the cheque is deposited by the investor]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The day on which funds are available for utilisation by the AMC]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The applicable NAV for equity/debt scheme purchases is the closing NAV of the day on which funds are available for utilisation by the AMC. This means both the application AND the funds must be received before the cut-off for same-day NAV.
+**The Trap:** Just submitting the form before 3 PM is not enough. The funds must also be available (credited/cleared) before cut-off. A form submitted at 2 PM with a cheque that clears the next day gets T+1 NAV, not T NAV.
+**Cross-Exam Context:** The 'funds available for utilisation' concept is critical across NISM Series V-A and II-B. RTAs must verify both application receipt and fund availability for applicable NAV determination.
+**Distributor's Pro-Tip:** Always recommend online/RTGS transfers over cheques for NAV-sensitive investments. Cheque clearing delays can push the applicable NAV to a later date. In rising markets, this delay costs the investor money.]]></text></explanation>
+    </question>
+</QF>

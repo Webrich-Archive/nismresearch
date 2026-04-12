@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Role of RTAs in Mutual Fund Transactions_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following tasks is handled by the RTA in relation to depository operations?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Setting the NAV for demat units differently from physical units]]></text></answer>
+            <answer correct="no"><text><![CDATA[Acting as the depository for holding mutual fund units in electronic form]]></text></answer>
+            <answer correct="no"><text><![CDATA[Approving new demat account openings for mutual fund investors]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Processing demat and remat of mutual fund units and reconciliation with depositories]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** RTAs interface with depositories (NSDL, CDSL) in real-time for demat/remat conversions, processing corporate actions for demat holdings, and daily reconciliation of unit balances between the RTA's records and depository records.
+**The Trap:** The RTA is not the depository itself -- NSDL and CDSL are the depositories. The RTA interfaces with them as the issuer's agent to ensure records match.
+**Cross-Exam Context:** NISM Series VI (Depository Operations) covers the full depository framework. The RTA-depository interface is where Series II-B and VI overlap significantly.
+**Distributor's Pro-Tip:** When clients want to consolidate MF holdings in their demat account, the conversion happens through the RTA. Guide them to submit the remat/demat form at the ISC or through their DP.]]></text></explanation>
+    </question>
+</QF>

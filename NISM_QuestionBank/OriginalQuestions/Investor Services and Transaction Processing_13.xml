@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Investor Services and Transaction Processing_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What documents are typically required to process a change of bank account in a mutual fund folio?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[New bank's passbook copy only]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only a written request letter]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Written request, cancelled cheque of new bank account (or bank attestation), and proof of old bank account]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the AMC's online form with OTP verification]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Changing the bank account linked to a mutual fund folio typically requires: (1) a written request signed by all holders, (2) a cancelled cheque or bank account proof of the NEW account (showing name, account number, IFSC), and (3) proof of the OLD bank account for verification. This two-account verification prevents fraudulent bank account changes.
+**The Trap:** Providing only the new bank details is insufficient — the RTA/AMC verifies both the old and new accounts to ensure the change is legitimate. Online OTP alone is typically not sufficient for bank changes due to the financial risk involved.
+**Cross-Exam Context:** NISM Series V-A covers profile change requirements; Series II-B tests the RTA's specific verification process for bank changes, which is considered a high-risk service request.
+**Distributor's Pro-Tip:** Bank account change is the most sensitive profile modification — it directly affects where redemption proceeds go. Always verify with the client in person or through a verified communication channel before processing. If the old bank account is already closed, additional documentation (bank closure letter) may be needed.]]></text></explanation>
+    </question>
+</QF>

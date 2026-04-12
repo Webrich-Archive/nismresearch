@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="SEBI LODR Regulations_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A listed company with 1.5 lakh shareholders manages its share transfer activities in-house. Under SEBI LODR 2015, what is the company required to do?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Continue in-house operations without any additional registration]]></text></answer>
+            <answer correct="no"><text><![CDATA[Register as a Category I RTA with SEBI]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Register as a Category II Share Transfer Agent with SEBI]]></text></answer>
+            <answer correct="no"><text><![CDATA[Outsource to an external SEBI-registered RTA within 90 days]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under SEBI LODR, if a listed entity handles share transfer activities in-house and has more than 1 lakh security holders, it must register as a Category II Share Transfer Agent with SEBI. Category II covers entities that perform only the transfer agent function (not full registrar services).
+**The Trap:** Category I covers both registrar and transfer agent functions combined. The 1 lakh threshold is the trigger point -- below this, in-house handling without separate registration may be acceptable.
+**Cross-Exam Context:** SEBI RTA Regulations 1993 define Category I (registrar + transfer agent) and Category II (registrar or transfer agent). LODR connects this to the listed entity's obligations.
+**Distributor's Pro-Tip:** Most large listed companies outsource to external RTAs to avoid the compliance burden of Category II registration. But smaller companies near the 1 lakh threshold should be advised to plan ahead for this requirement.]]></text></explanation>
+    </question>
+</QF>

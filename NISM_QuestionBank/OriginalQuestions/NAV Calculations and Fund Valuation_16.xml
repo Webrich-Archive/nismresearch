@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV Calculations and Fund Valuation_16" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Arjun submits a liquid fund purchase application at 1:15 PM on Tuesday with RTGS funds already credited. What NAV applies?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Monday's closing NAV (the day before receipt of funds)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Tuesday's closing NAV (the same day)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Wednesday's closing NAV (the next business day)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sunday's closing NAV (two days before)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For liquid fund purchases received before 1:30 PM with funds available, the applicable NAV is the closing NAV of the day BEFORE receipt. Arjun applied on Tuesday before 1:30 PM with funds available, so Monday's closing NAV applies.
+**The Trap:** This is the unique liquid fund rule -- you get the PREVIOUS day's NAV, not the same day's. This prevents investors from investing at a known NAV for overnight gains.
+**Cross-Exam Context:** The liquid fund NAV rule was specifically designed to prevent arbitrage. Investors cannot invest at a known same-day NAV and earn overnight returns risk-free.
+**Distributor's Pro-Tip:** Explain to clients that liquid funds apply the previous day's NAV for purchases. This means investing Monday morning gives you Sunday's NAV (i.e., Friday's closing NAV since Sunday isn't a business day). Plan accordingly for institutional cash management.]]></text></explanation>
+    </question>
+</QF>

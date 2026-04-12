@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="KYC and Compliance Requirements_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the investment limit for eKYC (Aadhaar OTP-based) investors in mutual funds?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs.50,000 per year per mutual fund]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.1,00,000 per year per mutual fund]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.25,000 per year per mutual fund]]></text></answer>
+            <answer correct="no"><text><![CDATA[No limit — eKYC has the same validity as full KYC]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** eKYC through Aadhaar OTP-based authentication allows investments up to Rs.50,000 per year per mutual fund. Beyond this limit, the investor needs to complete full KYC with IPV (In-Person Verification) or biometric authentication. This limit exists because OTP-based verification is considered less robust than biometric or in-person verification.
+**The Trap:** The Rs.50,000 limit for eKYC matches the Micro-SIP PAN-exempt limit, but they are different concepts — eKYC limit is about KYC verification level, while Micro-SIP limit is about PAN exemption.
+**Cross-Exam Context:** NISM Series V-A covers eKYC basics; Series II-B tests the RTA's responsibility in tracking and enforcing eKYC investment limits.
+**Distributor's Pro-Tip:** For clients starting with small amounts through eKYC, proactively encourage full KYC completion before they hit the Rs.50,000 limit. This avoids a situation where their SIP bounces because the limit is breached mid-year.]]></text></explanation>
+    </question>
+</QF>

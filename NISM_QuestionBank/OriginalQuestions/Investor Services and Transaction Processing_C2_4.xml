@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Investor Services and Transaction Processing_C2_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[<b>Scenario:</b> Vikram Patel invested Rs.5,00,000 in DEF Equity Fund on March 15. He submitted his redemption request for the entire holding on April 5 (a Monday, working day) before the 3:00 PM cutoff. The following events occurred:
+
+Event 1: By April 9 (Thursday, T+3 working days, with no holidays in between), Vikram had not received his redemption proceeds in his bank account.
+
+Event 2: He called the AMC's customer care on April 9 and was told the delay was due to 'technical issues at the RTA' and that the proceeds would be credited within 2 more working days.
+
+Event 3: By April 13 (Tuesday), the proceeds were still not received. Vikram sent an email complaint to the AMC.
+
+Event 4: The AMC responded on April 16 (Friday) saying the RTA has been instructed to process the payment and it should arrive by April 20.
+
+Event 5: On April 20, Vikram received only Rs.4,85,000 instead of the expected Rs.4,97,500 (based on the redemption NAV and units held). He was not given any explanation for the shortfall of Rs.12,500.
+
+<b>Question 4 of 5:</b> Regarding the shortfall of Rs.12,500 in redemption proceeds, what should Vikram verify?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Whether the AMC deducted TDS since Vikram is a resident Indian redeeming an equity fund]]></text></answer>
+            <answer correct="no"><text><![CDATA[Whether the scheme changed its fundamental attributes during the holding period]]></text></answer>
+            <answer correct="no"><text><![CDATA[Whether stamp duty was charged on the redemption]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Whether exit load was deducted, whether STT was applied, and whether the NAV applied matches the NAV as of the redemption date — requesting a detailed redemption statement from the RTA/AMC]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The Rs.12,500 shortfall could be due to: (1) exit load if the scheme has one and the holding period is within the load period (invested March 15, redeemed April 5 — less than 1 month, so exit load is very likely), (2) STT on equity fund redemption (0.001% of Rs.4,97,500 = ~Rs.5, very small), (3) incorrect NAV application. Vikram should request a detailed redemption statement showing: gross redemption value, exit load deducted, STT, and net proceeds. TDS on equity LTCG/STCG is not deducted for resident investors (they self-assess). Stamp duty applies only to purchases, not redemptions.
+**The Trap:** Stamp duty on redemption is a common wrong assumption — it's purchase-only. TDS on capital gains is not deducted for resident Indians on equity schemes (only for NRIs). Exit load is the most likely explanation for a significant shortfall.
+**Cross-Exam Context:** NISM Series V-A covers exit load and STT computation; Series II-B tests the RTA's obligation to provide detailed transaction breakdowns.
+**Distributor's Pro-Tip:** Rs.12,500 on ~Rs.5,00,000 is about 2.5% — this is consistent with a 1% exit load plus STT. Check the scheme's exit load structure: many equity funds charge 1% for exits within 1 year. If the shortfall matches the load, it's legitimate but should have been communicated. If it doesn't match, escalate for investigation.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Processing of Mutual Fund Transactions_12" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Sunita submits a purchase application for an equity scheme at 2:30 PM with a cheque that clears the next day. At which NAV will her units be allotted?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[NAV of the day the cheque was deposited]]></text></answer>
+            <answer correct="yes"><text><![CDATA[NAV of the next business day when the cheque is realized]]></text></answer>
+            <answer correct="no"><text><![CDATA[The lower of application day NAV or realization day NAV]]></text></answer>
+            <answer correct="no"><text><![CDATA[NAV of the day the application was submitted]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For purchase transactions, the applicable NAV is determined based on when both conditions are met: (1) the application is received before the cutoff time, and (2) the funds are available (realized) in the scheme's account. If the cheque clears the next day, the NAV of the realization date applies, regardless of when the application was submitted.
+**The Trap:** Many candidates assume the application timestamp alone determines the NAV. The funds realization requirement is equally critical — both conditions must be satisfied simultaneously.
+**Cross-Exam Context:** NISM Series V-A extensively covers NAV applicability rules including the dual condition of application receipt and funds realization.
+**Distributor's Pro-Tip:** Advise clients to use electronic payment modes (RTGS/NEFT/UPI) instead of cheques to ensure same-day fund realization and get the intended day's NAV. A cheque delays NAV applicability by at least one business day.]]></text></explanation>
+    </question>
+</QF>

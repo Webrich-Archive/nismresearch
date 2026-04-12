@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Processing of Mutual Fund Transactions_34" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Kavita receives total IDCW of Rs.18,000 from two schemes of the same AMC during a financial year. She is a resident with PAN. What is the TDS amount?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs.900 (5% of Rs.18,000)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs.1,800 (10% of Rs.18,000)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Nil, as the amount is below Rs.50,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs.1,300 (10% of amount exceeding Rs.5,000)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** TDS on IDCW for residents with PAN is 10% when total IDCW from an AMC exceeds Rs.5,000 in a financial year. Once the threshold is breached, TDS is applied on the ENTIRE IDCW amount (Rs.18,000), not just the amount exceeding Rs.5,000. TDS = 10% × Rs.18,000 = Rs.1,800.
+**The Trap:** The most common mistake is calculating TDS only on the amount exceeding Rs.5,000 (like a slab-based deduction). The Rs.5,000 is a threshold, not an exemption — once crossed, the entire amount is subject to TDS.
+**Cross-Exam Context:** NISM Series V-A covers IDCW taxation; this threshold vs exemption distinction is a frequently tested concept across NISM examinations.
+**Distributor's Pro-Tip:** Alert clients that the Rs.5,000 threshold works like a trigger, not a deduction. Once total IDCW from one AMC crosses Rs.5,000, TDS hits the full amount. If clients want to minimize TDS, they might spread IDCW-option investments across multiple AMCs — though the total tax liability remains the same.]]></text></explanation>
+    </question>
+</QF>

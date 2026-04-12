@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Corporate Actions_23" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Priya holds 1,000 shares of XYZ Ltd. The company announces a buyback through tender offer at Rs.500 per share for a total of Rs.50 crore. If the total shares tendered by all shareholders are 20 lakh shares, what is the acceptance ratio?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[100%]]></text></answer>
+            <answer correct="no"><text><![CDATA[25%]]></text></answer>
+            <answer correct="no"><text><![CDATA[75%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[50%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Total buyback amount = Rs.50 crore. Buyback price = Rs.500 per share. Maximum shares the company will buy = 50,00,00,000 / 500 = 10,00,000 shares (10 lakh). Shares tendered = 20 lakh. Acceptance ratio = 10 lakh / 20 lakh = 50%. So Priya can expect approximately 50% of her tendered shares to be accepted.
+**The Trap:** Candidates may forget to calculate the maximum shares from the buyback amount and price, or may confuse the total buyback amount with per-share price.
+**Cross-Exam Context:** NISM Series IX covers tender offer acceptance ratio calculations from the merchant banker's perspective.
+**Distributor's Pro-Tip:** In tender offer buybacks, advise clients to tender all eligible shares to maximize acceptance. The proportionate acceptance means tendering more gives a higher absolute number of shares accepted, even though the percentage remains the same.]]></text></explanation>
+    </question>
+</QF>

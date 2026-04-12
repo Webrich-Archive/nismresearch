@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Corporate Actions_30" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Kavitha, an RTA executive, is processing a bonus issue where the company has both demat and physical shareholders. The bonus shares for physical shareholders should be processed how?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Bonus shares for physical shareholders should be held in a suspense account indefinitely]]></text></answer>
+            <answer correct="no"><text><![CDATA[Physical shareholders are not entitled to bonus shares and their entitlement lapses]]></text></answer>
+            <answer correct="no"><text><![CDATA[Physical share certificates should be printed and dispatched to physical shareholders]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Physical shareholders must first convert their holdings to demat, and then bonus shares will be credited to their demat accounts since SEBI mandates bonus in demat form only]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Since SEBI mandates that bonus shares must be issued in demat form only, physical shareholders must convert their existing holdings to demat form to receive the bonus credit. The entitlement does not lapse -- shareholders retain their right, but the credit can only happen once they dematerialize.
+**The Trap:** Candidates may think physical shareholders are excluded entirely (they are not -- they retain entitlement) or that physical bonus certificates can still be issued (they cannot, per SEBI mandate).
+**Cross-Exam Context:** NISM Series VI (Depository Operations) covers the dematerialization process in detail; Series II-A covers the RTA's role in facilitating this conversion.
+**Distributor's Pro-Tip:** Proactively identify clients who still hold physical shares. Before any corporate action, encourage them to dematerialize to avoid delays. The demat process takes a few days, so timing before the record date is critical.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="SEBI LODR Regulations_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under SEBI (Prohibition of Insider Trading) Regulations 2015, which of the following is classified as Unpublished Price Sensitive Information (UPSI)?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Information about a company's office renovation plans]]></text></answer>
+            <answer correct="yes"><text><![CDATA[A company's plan to expand into a new business segment that has not been publicly announced]]></text></answer>
+            <answer correct="no"><text><![CDATA[Publicly available quarterly financial results]]></text></answer>
+            <answer correct="no"><text><![CDATA[General industry trends published in business newspapers]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** UPSI is information that is not generally available and is likely to materially affect the price of securities. Expansion plans, being both non-public and material, qualify as UPSI. The regulations specifically list changes in key personnel, M&A, capital structure changes, dividends, financial results, delistings, and expansions as examples of UPSI.
+**The Trap:** Office renovation (immaterial), publicly available results (already public), and general industry trends (not company-specific) do not qualify as UPSI. The test is both non-public AND material price impact.
+**Cross-Exam Context:** Insiders include directors, employees, and associates like bankers, tax consultants, and exchange employees who may have access to UPSI.
+**Distributor's Pro-Tip:** RTA employees handling corporate action data may inadvertently access UPSI such as upcoming dividends or bonus issues. Strict code of conduct compliance and Chinese wall procedures are essential.]]></text></explanation>
+    </question>
+</QF>

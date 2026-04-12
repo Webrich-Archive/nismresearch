@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Basics of Securities and Types_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following statements about Depository Receipts is correct?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[ADRs are listed on non-US exchanges while GDRs are listed on US exchanges]]></text></answer>
+            <answer correct="no"><text><![CDATA[Holders of Depository Receipts have full voting rights in the underlying company]]></text></answer>
+            <answer correct="yes"><text><![CDATA[A custodian bank holds the underlying shares on behalf of Depository Receipt holders]]></text></answer>
+            <answer correct="no"><text><![CDATA[IDRs are issued by foreign companies listed on Indian exchanges and denominated in US dollars]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In a Depository Receipt structure, the underlying shares are held by a custodian bank in the home country, and receipts representing those shares are traded on foreign exchanges. ADRs trade on US exchanges, GDRs on non-US exchanges, and IDRs on Indian exchanges. DR holders do NOT have voting rights.
+**The Trap:** Option A reverses the ADR/GDR definitions — a very common error. Option B is wrong because DR holders typically do not have voting rights in the underlying company; the custodian holds the shares.
+**Cross-Exam Context:** NISM Series IX (Merchant Banking) covers issuance of ADRs/GDRs, and Series XII (Securities Markets Foundation) tests basic DR concepts.
+**Distributor's Pro-Tip:** The custodian bank is the critical intermediary — it holds shares, collects dividends, and converts currency for DR holders. Understanding this custody chain is essential for RTA operations.]]></text></explanation>
+    </question>
+</QF>

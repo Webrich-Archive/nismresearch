@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Depository Services and Dematerialisation_22" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[During the rematerialisation process, what happens to the depository's holding in the Register of Members (ROM)?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The depository's holding remains unchanged as remat is only a notional conversion]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The depository's holding is reduced, and the beneficial owner's name is entered in the ROM]]></text></answer>
+            <answer correct="no"><text><![CDATA[The depository's holding is transferred to the RTA until new certificates are issued]]></text></answer>
+            <answer correct="no"><text><![CDATA[The depository's holding is converted into a suspense account]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In rematerialisation, the reverse of dematerialisation occurs in the ROM. The depository's registered holding is reduced by the number of shares being rematerialised, and the beneficial owner's name is directly entered into the ROM as the registered holder. New certificate numbers and distinctive numbers are assigned from the already-dematerialised range.
+
+**The Trap:** Candidates may think remat is a simple account-level change. It actually involves a fundamental change in the ROM — the depository ceases to be the registered owner for those specific shares, and the investor becomes the registered owner again.
+
+**Cross-Exam Context:** The RTA creates a new folio for the investor, assigns new certificate and distinctive numbers, affixes revenue stamps, and applies the company's common seal. This is why remat takes 30 days versus 15 days for demat — physical certificate creation is more involved.
+
+**Distributor's Pro-Tip:** If a client insists on rematerialisation, ensure they understand the implications: they will need physical safekeeping, transfers will attract stamp duty, and they may face delays in selling through exchanges.]]></text></explanation>
+    </question>
+</QF>

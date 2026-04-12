@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="SEBI Regulations for RTAs_25" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[After a formal disaster declaration, within how many minutes must an RTA restore operations?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[30 minutes]]></text></answer>
+            <answer correct="no"><text><![CDATA[60 minutes]]></text></answer>
+            <answer correct="no"><text><![CDATA[120 minutes]]></text></answer>
+            <answer correct="yes"><text><![CDATA[45 minutes]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Once a disaster is declared (triggered by >30 minutes of disruption), the RTA must restore operations within 45 minutes. This extremely tight restoration window requires robust DRS infrastructure and well-rehearsed recovery procedures.
+**The Trap:** The 45-minute restoration timeline starts from the disaster declaration, not from the initial disruption. So total downtime could be 30 + 45 = 75 minutes maximum in theory.
+**Cross-Exam Context:** Compare with banking RTO (Recovery Time Objective) norms. The 45-minute restoration for QRTAs is among the strictest in financial services.
+**Distributor's Pro-Tip:** The tight restoration timeline means client transactions should face minimal disruption even during system failures. If prolonged outages occur, it signals a serious issue that SEBI would investigate.]]></text></explanation>
+    </question>
+</QF>

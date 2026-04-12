@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Corporate Actions_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A company declares a 60% dividend on shares with a face value of Rs.2 each. If the current market price is Rs.80, what is the dividend yield?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[3.0%]]></text></answer>
+            <answer correct="no"><text><![CDATA[60%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[1.5%]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.75%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Dividend per share = 60% of FV Rs.2 = Rs.1.20. Dividend yield = (Dividend per share / Market price) × 100 = (1.20 / 80) × 100 = 1.5%. Dividend yield measures the cash return on the current market investment, not the nominal percentage on face value.
+**The Trap:** Candidates may confuse the 60% dividend rate with the yield itself. The 60% is on face value, but yield is always calculated on market price. Also, some may use only Rs.1 instead of Rs.1.20 (forgetting that 60% of Rs.2 = Rs.1.20, not Rs.1.00).
+**Cross-Exam Context:** NISM Series V-A covers dividend yield as a fund performance metric; NISM Series XV (Research Analyst) uses dividend yield in equity valuation models.
+**Distributor's Pro-Tip:** Dividend yield is a crucial metric for income-seeking clients. Compare it with fixed deposit rates and other income instruments. A 1.5% yield may seem low, but if the company also appreciates in price, total return could be significantly higher.]]></text></explanation>
+    </question>
+</QF>

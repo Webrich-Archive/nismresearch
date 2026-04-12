@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="SEBI Regulations for RTAs_26" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Cyber incidents at an RTA must be reported to SEBI within what timeframe?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[12 hours]]></text></answer>
+            <answer correct="no"><text><![CDATA[48 hours]]></text></answer>
+            <answer correct="yes"><text><![CDATA[6 hours]]></text></answer>
+            <answer correct="no"><text><![CDATA[24 hours]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Cyber incidents must be reported to SEBI within 6 hours of detection. Additionally, they must be reported to CERT-In (Indian Computer Emergency Response Team). This rapid reporting enables swift regulatory response.
+**The Trap:** 6 hours is extremely tight. Compare with the CERT-In general mandate of 6 hours for reporting to them. SEBI aligns with this timeline for its regulated entities.
+**Cross-Exam Context:** Different incident types have different reporting timelines. Cyber incidents = 6 hours to SEBI + CERT-In, quarterly cyber reports = within 15 days of quarter end.
+**Distributor's Pro-Tip:** The 6-hour reporting requirement means SEBI is promptly informed of any cyber threat to your clients' data. This rapid notification enables coordinated response across the ecosystem to contain threats.]]></text></explanation>
+    </question>
+</QF>

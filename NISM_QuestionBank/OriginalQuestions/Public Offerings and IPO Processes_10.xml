@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Public Offerings and IPO Processes_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under the UPI mechanism for public issues, what is the role of the Sponsor Bank?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The Sponsor Bank decides the final issue price and allotment]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The Sponsor Bank receives bid details from the exchange and sends a UPI mandate request to the investor's bank for fund blocking]]></text></answer>
+            <answer correct="no"><text><![CDATA[The Sponsor Bank directly credits shares to the investor's demat account]]></text></answer>
+            <answer correct="no"><text><![CDATA[The Sponsor Bank is the same as the SCSB and operates only through designated branches]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In the UPI mechanism, the process flows as: investor provides UPI ID to intermediary -> intermediary uploads to exchange -> exchange shares data with Sponsor Bank -> Sponsor Bank sends mandate to investor's UPI-linked bank -> investor authorizes with UPI PIN -> funds blocked. Post-allotment, funds are debited for allottees and unblocked for non-allottees.
+**The Trap:** The Sponsor Bank is distinct from the SCSB. The Sponsor Bank interfaces with the UPI ecosystem, while SCSBs operate through their own designated and controlling branches. Also, share credit is done by the depository, not the Sponsor Bank.
+**Cross-Exam Context:** NISM Series II-A Chapter 10.3.2 covers the UPI mechanism developed by NPCI, operational from January 1, 2019, for retail investors applying up to Rs.5 lakh through intermediaries.
+**Distributor's Pro-Tip:** Ensure clients have their UPI ID correctly linked to their bank account. A mismatch between UPI ID and bank account is a frequent cause of mandate failure, leading to application rejection.]]></text></explanation>
+    </question>
+</QF>

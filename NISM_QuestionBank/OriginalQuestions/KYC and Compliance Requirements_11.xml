@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="KYC and Compliance Requirements_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the difference between 'Validated' and 'Registered' KYC status at the KRA?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Validated is for institutional investors; Registered is for individual investors]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both are the same; the terms are used interchangeably]]></text></answer>
+            <answer correct="no"><text><![CDATA[Validated means KYC is complete; Registered means KYC is pending]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Validated means Aadhaar-based verification with all attributes verified; Registered means non-Aadhaar OVD-based verification with limited portability]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** 'Validated' KYC status means the investor's KYC was completed through Aadhaar-based verification with all attributes (name, address, PAN, mobile, email) verified through authoritative databases. 'Registered' status means KYC was done using non-Aadhaar OVDs (like passport, voter ID) and has limited portability across intermediaries.
+**The Trap:** 'Registered' does NOT mean KYC is incomplete or pending — it's a fully completed KYC but through a non-Aadhaar route. The difference is in the level of validation and consequent portability, not in completeness.
+**Cross-Exam Context:** NISM Series II-B specifically tests the operational distinction between these two statuses; distributors must understand which status allows seamless onboarding.
+**Distributor's Pro-Tip:** Encourage clients to complete Aadhaar-based KYC for 'Validated' status — it provides full portability across all intermediaries. Clients with 'Registered' status may need to submit additional documents when investing through a new intermediary.]]></text></explanation>
+    </question>
+</QF>

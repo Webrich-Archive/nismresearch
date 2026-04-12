@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Investor Services and Transaction Processing_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is folio consolidation in mutual funds?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Merging multiple folios of the same investor under the same AMC into a single folio]]></text></answer>
+            <answer correct="no"><text><![CDATA[Merging folios of different investors who are family members]]></text></answer>
+            <answer correct="no"><text><![CDATA[Converting physical folios to demat form]]></text></answer>
+            <answer correct="no"><text><![CDATA[Combining folios across different AMCs into a single folio]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Folio consolidation is the process of merging multiple folios of the SAME investor (same PAN, same holding pattern) under the SAME AMC into a single folio. This simplifies portfolio tracking, reduces multiple statements, and ensures unified tax computation. Folios across different AMCs CANNOT be consolidated — each AMC maintains its own folio system.
+**The Trap:** Cross-AMC consolidation is not possible — CAS serves that purpose for viewing, but folios remain AMC-specific. Also, only folios with identical holding patterns (same holders, same mode of holding) can be consolidated.
+**Cross-Exam Context:** NISM Series V-A mentions folio consolidation; Series II-B tests the RTA's process for validating and executing consolidation requests.
+**Distributor's Pro-Tip:** Review your clients' holdings periodically for consolidation opportunities. Multiple folios with the same AMC often result from separate applications over time. Consolidation simplifies administration and helps avoid errors in tax computation.]]></text></explanation>
+    </question>
+</QF>

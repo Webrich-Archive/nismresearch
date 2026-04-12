@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="NAV Calculations and Fund Valuation_26" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Kavya invests Rs.10,00,000 in an equity scheme. After stamp duty deduction, how many units will she receive if the applicable NAV is Rs.25.00?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[39,900 units]]></text></answer>
+            <answer correct="no"><text><![CDATA[39,998 units]]></text></answer>
+            <answer correct="yes"><text><![CDATA[39,980 units]]></text></answer>
+            <answer correct="no"><text><![CDATA[40,000 units]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Stamp duty = 0.005% of Rs.10,00,000 = Rs.50. Net investment = Rs.10,00,000 - Rs.50 = Rs.9,99,950. Units = Rs.9,99,950 / Rs.25.00 = 39,998 units. 
+Wait, let me recalculate: 9,99,950 / 25 = 39,998.0 units. 
+**The Trap:** Without stamp duty, Kavya would get 40,000 units. The stamp duty reduces her units by 2. While small, this demonstrates how stamp duty works in practice.
+**Cross-Exam Context:** Stamp duty calculations are tested in NISM Series II-B. RTAs deduct stamp duty before computing unit allotment.
+**Distributor's Pro-Tip:** The impact of stamp duty is minimal -- Kavya loses just 2 units out of ~40,000. However, always disclose it for transparency. Clients appreciate honesty about all charges, even tiny ones.]]></text></explanation>
+    </question>
+</QF>

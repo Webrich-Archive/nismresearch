@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Investor Services and Transaction Processing_16" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What information does the CAS (Consolidated Account Statement) include beyond mutual fund holdings?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Real estate property values]]></text></answer>
+            <answer correct="no"><text><![CDATA[Bank fixed deposit details]]></text></answer>
+            <answer correct="no"><text><![CDATA[Insurance policy details]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Demat holdings (shares, bonds, ETFs held in demat form)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** CAS includes not only mutual fund holdings across all AMCs but also demat holdings (equity shares, bonds, government securities, ETFs, etc.) held in the investor's demat account. This provides a comprehensive view of the investor's securities portfolio in a single statement, linking the MF ecosystem with the depository ecosystem through PAN matching.
+**The Trap:** CAS covers securities market holdings only — it does NOT include banking products (FDs), insurance policies, or physical assets. It's a securities-focused consolidation, not a total wealth statement.
+**Cross-Exam Context:** NISM Series V-A covers CAS contents; Series VI (Depository Operations) covers the demat side of CAS generation.
+**Distributor's Pro-Tip:** Use CAS as a starting point for financial planning conversations — it reveals the client's securities portfolio across both MF and demat channels. If CAS shows a heavy equity tilt (direct stocks + equity MFs), it might be time to discuss diversification into debt instruments.]]></text></explanation>
+    </question>
+</QF>

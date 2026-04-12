@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="KYC and Compliance Requirements_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What does the KRA validate using the UIDAI database?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Bank account details]]></text></answer>
+            <answer correct="no"><text><![CDATA[PAN details]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Aadhaar details including demographic information]]></text></answer>
+            <answer correct="no"><text><![CDATA[Employment history]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The KRA validates Aadhaar details through the UIDAI (Unique Identification Authority of India) database. This includes demographic information verification. Separately, the KRA validates PAN through the IT database and mobile/email through OTP verification. Each attribute is validated through its authoritative source.
+**The Trap:** PAN validation uses the IT Department's database, not UIDAI. Bank account validation is done separately through penny drop or other mechanisms. UIDAI specifically stores Aadhaar-related data.
+**Cross-Exam Context:** NISM Series V-A covers KYC validation mechanisms; understanding which database validates which attribute is important for the RTA's verification workflow.
+**Distributor's Pro-Tip:** If a client's Aadhaar details (name, address, DOB) don't match their PAN or application form, KYC validation will fail. Advise clients to first update their Aadhaar at UIDAI if there are discrepancies before attempting KYC — this prevents repeated rejections.]]></text></explanation>
+    </question>
+</QF>

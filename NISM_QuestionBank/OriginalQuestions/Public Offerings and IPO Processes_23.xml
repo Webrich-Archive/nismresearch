@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Public Offerings and IPO Processes_23" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Rohan applies for 150 shares in an IPO at the cut-off price of Rs.320 per share through ASBA. The issue is oversubscribed and Rohan is allotted 30 shares. How much will the SCSB debit from his blocked amount, and how much will be unblocked?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Debit Rs.48,000; Unblock Rs.0]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Debit Rs.9,600; Unblock Rs.38,400]]></text></answer>
+            <answer correct="no"><text><![CDATA[Debit Rs.38,400; Unblock Rs.9,600]]></text></answer>
+            <answer correct="no"><text><![CDATA[Debit Rs.48,000; Unblock Rs.48,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Total blocked amount = 150 shares x Rs.320 = Rs.48,000. Allotment = 30 shares x Rs.320 = Rs.9,600 (debited). Remaining = Rs.48,000 - Rs.9,600 = Rs.38,400 (unblocked and available to Rohan). Under ASBA, only the allotment amount is debited; the rest is unblocked.
+**The Trap:** Some candidates may think the entire blocked amount is debited and a refund is sent separately. Under ASBA, there is no refund -- the unallotted portion is simply unblocked from the bank account. This is faster and more efficient than the old refund-based system.
+**Cross-Exam Context:** NISM Series II-A Chapter 10.3.1 explains the ASBA blocking/unblocking mechanism. The RTA instructs the controlling branch of the SCSB for this process.
+**Distributor's Pro-Tip:** ASBA is a significant advantage over the old system where money was actually transferred and refunds took weeks. With ASBA, your client earns interest on the blocked amount until debit/unblock. Always remind clients that ASBA means their money works for them until allotment.]]></text></explanation>
+    </question>
+</QF>

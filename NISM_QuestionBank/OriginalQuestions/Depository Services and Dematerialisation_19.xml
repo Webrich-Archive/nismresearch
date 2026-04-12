@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Depository Services and Dematerialisation_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The reconciliation formula used to verify depository holdings states that ROM holding + pending demat/remat should equal which of the following?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Total issued capital of the company]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Depository holding + pending demat/remat]]></text></answer>
+            <answer correct="no"><text><![CDATA[Paid-up capital minus treasury shares]]></text></answer>
+            <answer correct="no"><text><![CDATA[Total shares traded on stock exchanges during the period]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The reconciliation formula is: ROM (Register of Members) holding + pending demat/remat requests = Depository holding + pending demat/remat requests. This ensures that the total number of shares recorded at the company level matches what the depository system shows, accounting for requests in transit.
+
+**The Trap:** Candidates might think reconciliation compares against total issued capital. While total capital is a broader check, the daily reconciliation specifically matches ROM records against depository records, with adjustments for pending conversion requests.
+
+**Cross-Exam Context:** This reconciliation is performed daily on an end-of-day basis. Discrepancies can arise from requests in transit or communication failures between the depository and RTA systems. The DN (Distinctive Number) database maintained by depositories helps track physical vs demat status.
+
+**Distributor's Pro-Tip:** Understanding reconciliation helps explain occasional discrepancies clients may notice between their demat statement and the company's shareholder records. These are usually temporary and resolve within the processing cycle.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Basics of Securities and Types_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Anita holds 200 shares of PQR Ltd with a face value of Rs. 10 each. The company announces a bonus issue in the ratio 1:2 (one bonus share for every two held). How many total shares will Anita hold after the bonus issue?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[400 shares]]></text></answer>
+            <answer correct="no"><text><![CDATA[200 shares]]></text></answer>
+            <answer correct="yes"><text><![CDATA[300 shares]]></text></answer>
+            <answer correct="no"><text><![CDATA[600 shares]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Bonus ratio 1:2 means 1 new share for every 2 existing shares. Bonus shares = 200 / 2 = 100. Total shares after bonus = 200 + 100 = 300.
+**The Trap:** Option A (400 shares) results from misreading the ratio as 1:1 instead of 1:2. Option D (600 shares) assumes a 2:1 ratio. Always read bonus ratios carefully — "1:2" means 1 for every 2 held, not 2 for every 1.
+**Cross-Exam Context:** NISM Series VIII (Equity Derivatives) tests bonus adjustments on derivative contracts, and Series V-A (MF Distributors) covers bonus issues in the equity markets module.
+**Distributor's Pro-Tip:** A bonus issue does not change the total value of an investor's holding — the share price adjusts proportionally. It is issued from accumulated profits and requires no additional investment from shareholders.]]></text></explanation>
+    </question>
+</QF>

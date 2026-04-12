@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Processing of Mutual Fund Transactions_30" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[What is the NAV at which units are allotted during an NFO?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[NAV calculated based on the portfolio constructed during NFO]]></text></answer>
+            <answer correct="no"><text><![CDATA[NAV determined at the end of the NFO period based on collections]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Face value of the unit (typically Rs.10)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Previous day's closing NAV of a similar scheme from the same AMC]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** During an NFO, units are allotted at the face value (typically Rs.10 per unit), not at any calculated NAV. The first NAV is computed only after the scheme is launched and the portfolio is constructed. This is fundamentally different from ongoing purchases where units are allotted at the computed NAV.
+**The Trap:** Some candidates think the NFO price should reflect the portfolio being built, but during the NFO, no portfolio exists yet — the money is collected first, then invested. Hence, face value is the only logical allotment price.
+**Cross-Exam Context:** NISM Series V-A covers the distinction between NFO price and ongoing NAV; understanding this prevents the misconception that a Rs.10 NFO NAV makes the scheme 'cheaper' than one with a Rs.500 NAV.
+**Distributor's Pro-Tip:** Educate clients that an NFO at Rs.10 is NOT cheaper than an existing scheme at Rs.500 — the unit price is meaningless without knowing the underlying portfolio value. What matters is future returns, not the starting NAV.]]></text></explanation>
+    </question>
+</QF>
