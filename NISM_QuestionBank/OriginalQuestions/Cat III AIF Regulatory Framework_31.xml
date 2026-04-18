@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Cat III AIF Regulatory Framework_31" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If a Category III AIF breaches its leverage limit during a trading day, by when must it inform investors?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Immediately on the same day]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Before 10:00 AM on the next working day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Within 7 working days]]></text></answer>
+            <answer correct="no"><text><![CDATA[At the end of the quarter]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per prudential norms, the Cat III AIF must send a report to ALL investors before 10:00 AM on the next working day after a leverage breach.
+**The Trap:** Immediate same-day reporting is not mandated; 7 days/quarter is too late.
+**Cross-Exam Context:** Custodian also reports to SEBI on the same T+1 timeline.
+**Distributor's Pro-Tip:** Automate the breach-detection alert to both IR and Compliance so the 10:00 AM deadline is never missed.]]></text></explanation>
+    </question>
+</QF>

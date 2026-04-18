@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Cat III AIF Regulatory Framework_56" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Category III AIFs register with the US IRS to obtain which identifier under FATCA?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[LEI]]></text></answer>
+            <answer correct="yes"><text><![CDATA[GIIN (Global Intermediary Identification Number)]]></text></answer>
+            <answer correct="no"><text><![CDATA[SWIFT BIC]]></text></answer>
+            <answer correct="no"><text><![CDATA[PAN]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per Section 5.20, Cat III AIFs register with US IRS to obtain a Global Intermediary Identification Number (GIIN).
+**The Trap:** LEI is legal-entity identifier (separate), SWIFT BIC is banking, PAN is Indian tax ID.
+**Cross-Exam Context:** Same registration applies to all Indian RFIs under FATCA.
+**Distributor's Pro-Tip:** Keep the GIIN certificate in the PPM annexure and renew promptly on any entity change.]]></text></explanation>
+    </question>
+</QF>

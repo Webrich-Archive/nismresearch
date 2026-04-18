@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Cat III AIF Valuation_56" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Black-Scholes Model determines option premium based on:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Only strike price]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Underlying asset price, exercise price, volatility, interest rates, and time to expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only time to expiry]]></text></answer>
+            <answer correct="no"><text><![CDATA[Fund size]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Black-Scholes uses underlying price, strike, volatility, risk-free rate, and time to expiry — five inputs.
+**The Trap:** Single-factor options don't work in reality.
+**Cross-Exam Context:** Same model tested in VIII and IV.
+**Distributor's Pro-Tip:** Use Black-Scholes for European options; American options need binomial or numerical methods.]]></text></explanation>
+    </question>
+</QF>

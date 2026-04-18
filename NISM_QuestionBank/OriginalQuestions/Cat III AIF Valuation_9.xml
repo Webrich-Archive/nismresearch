@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Cat III AIF Valuation_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[NAV is rounded to how many decimal places per SEBI norms?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Whole number]]></text></answer>
+            <answer correct="no"><text><![CDATA[Two decimal places]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Four decimal places]]></text></answer>
+            <answer correct="no"><text><![CDATA[Six decimal places]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per Section 8.1, NAV is rounded up to four decimal places for both fund-level and series-level NAV.
+**The Trap:** Whole number/two/six decimals are not prescribed.
+**Cross-Exam Context:** Stricter than standard MF NAV (V-A) which uses four decimals as well.
+**Distributor's Pro-Tip:** Build 4-decimal formatting into systems — truncation errors compound over large units.]]></text></explanation>
+    </question>
+</QF>

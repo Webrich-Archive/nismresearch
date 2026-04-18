@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Cat III AIF Valuation_36" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A Cat III AIF must determine NAV on every Business Day in which:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Only registered valuers are present]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The fund deals/executes trades (for MTM at close of last securities market)]]></text></answer>
+            <answer correct="no"><text><![CDATA[An investor redeems]]></text></answer>
+            <answer correct="no"><text><![CDATA[The Trustee is available]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per Section 8.1, NAV is computed on close of business of the last securities market on every Business Day the fund deals/executes trades.
+**The Trap:** Other triggers are unrelated.
+**Cross-Exam Context:** Standard MTM requirement.
+**Distributor's Pro-Tip:** Define 'dealing day' clearly in PPM to anchor NAV frequency.]]></text></explanation>
+    </question>
+</QF>

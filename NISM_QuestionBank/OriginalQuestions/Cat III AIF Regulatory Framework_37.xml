@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Cat III AIF Regulatory Framework_37" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A Category III AIF selling CDS may earmark which securities against the CDS exposure, and what is the treatment for leverage computation?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Corporate Bonds; counts towards leverage]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Unencumbered Government bonds/Treasury bills; NOT counted towards leverage limit]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equity shares of unlisted entities; counts towards leverage]]></text></answer>
+            <answer correct="no"><text><![CDATA[Listed equity; excluded from NAV]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per Section 5.15, sellers of CDS must earmark unencumbered G-secs/T-bills equal to CDS exposure; these earmarked securities are NOT counted for leverage limit computation.
+**The Trap:** Corporate bonds or equities are not the permissible earmarking assets; earmarking G-secs actually REDUCES effective leverage counted.
+**Cross-Exam Context:** Novel feature introduced in January 2023 — unique to Cat III.
+**Distributor's Pro-Tip:** Maintain a dedicated G-sec pool for CDS-selling activity to simplify earmarking and margin ops.]]></text></explanation>
+    </question>
+</QF>

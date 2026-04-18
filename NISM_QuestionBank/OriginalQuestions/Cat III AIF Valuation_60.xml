@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Cat III AIF Valuation_60" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Why is Mark-to-Market essential for computing Incentive Fees?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[To increase management fees]]></text></answer>
+            <answer correct="yes"><text><![CDATA[To capture true portfolio gains at current market prices, on which performance fees are based]]></text></answer>
+            <answer correct="no"><text><![CDATA[To mask losses]]></text></answer>
+            <answer correct="no"><text><![CDATA[To adjust hurdle rate]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per Section 8.1 MTM discussion, MTM ensures incentive fees are computed on true current-price gains — not on historical cost.
+**The Trap:** Other options misinterpret the purpose.
+**Cross-Exam Context:** Core fund-accounting principle.
+**Distributor's Pro-Tip:** Without MTM, IM could be unfairly rewarded or penalised — insist on daily MTM for derivatives-heavy Cat III AIFs.]]></text></explanation>
+    </question>
+</QF>

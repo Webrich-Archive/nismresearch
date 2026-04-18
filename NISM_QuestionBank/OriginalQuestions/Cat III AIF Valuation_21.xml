@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Cat III AIF Valuation_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Given Total Exposure Rs. 41.1975 crore and Net Asset Rs. 47.8505 crore, what is the Leverage Ratio?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[0.50]]></text></answer>
+            <answer correct="yes"><text><![CDATA[0.86]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[2.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Leverage = 41.1975/47.8505 ≈ 0.86 — within the 2x SEBI limit.
+**The Trap:** Other values don't match the computation.
+**Cross-Exam Context:** From Example 4 in Section 8.2.2.
+**Distributor's Pro-Tip:** Target leverage < 1.5x to leave buffer for adverse MTM moves.]]></text></explanation>
+    </question>
+</QF>

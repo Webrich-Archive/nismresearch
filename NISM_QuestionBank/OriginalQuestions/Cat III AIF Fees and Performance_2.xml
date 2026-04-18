@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Cat III AIF Fees and Performance_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Management fees accrue from WHICH date to WHICH date for a Category III AIF?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[From date of registration till fund tenure end]]></text></answer>
+            <answer correct="yes"><text><![CDATA[From date of First Close up to the date the AIF is dissolved]]></text></answer>
+            <answer correct="no"><text><![CDATA[From date of subscription till year-end only]]></text></answer>
+            <answer correct="no"><text><![CDATA[From in-principle approval till Final Close]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Section 6.1.1 specifies accrual from First Close until dissolution of the AIF.
+**The Trap:** Registration date pre-dates First Close; subscription date differs by investor.
+**Cross-Exam Context:** Aligns with AIF accounting standards used in CTR reporting.
+**Distributor's Pro-Tip:** Model the fee run-rate in the distributor's client presentation using First-Close-to-wind-up timeline.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Cat III AIF Valuation_38" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Futures contracts NOT officially listed on a market are valued at:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Notional value]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Net realisable value determined by the independent valuer]]></text></answer>
+            <answer correct="no"><text><![CDATA[Zero]]></text></answer>
+            <answer correct="no"><text><![CDATA[Purchase cost]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per Section 8.1, unlisted/unregulated-market derivatives are valued at net realisable value determined by the independent valuer.
+**The Trap:** Notional is overstated; zero understates; purchase cost ignores MTM.
+**Cross-Exam Context:** Rare scenarios but tested in valuation.
+**Distributor's Pro-Tip:** OTC derivative positions require extra DD on counterparty valuation.]]></text></explanation>
+    </question>
+</QF>

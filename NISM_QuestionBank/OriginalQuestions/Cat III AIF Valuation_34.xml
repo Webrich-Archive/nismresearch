@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Cat III AIF Valuation_34" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[T-bills and G-Secs are valued using the Volume Weighted Average Yield (VWAY) of trades in:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[First hour of trade]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The last one hour of trading]]></text></answer>
+            <answer correct="no"><text><![CDATA[Full day of trading]]></text></answer>
+            <answer correct="no"><text><![CDATA[The average over the week]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per Section 8.2.3, T-bills and G-Secs use VWAY from the last one hour of trading. Other MMI/debt uses VWAY over the whole day.
+**The Trap:** First-hour/full-day for G-Secs is incorrect; weekly averaging not used.
+**Cross-Exam Context:** Aligns with CCIL/FBIL benchmark methodology.
+**Distributor's Pro-Tip:** Confirm fund uses the correct last-hour VWAY for sovereigns — it's a frequent audit finding.]]></text></explanation>
+    </question>
+</QF>

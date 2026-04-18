@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Cat III AIF Valuation_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Options contracts on a Valuation Day subsequent to purchase are priced using:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Face value]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Black-Scholes Model combined with MTM process]]></text></answer>
+            <answer correct="no"><text><![CDATA[Book cost]]></text></answer>
+            <answer correct="no"><text><![CDATA[Intrinsic value only]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per Section 8.2.2, options subsequent to purchase are priced using Black-Scholes Model and MTM for fair market value.
+**The Trap:** Face value/book cost/intrinsic-only don't capture time value and volatility.
+**Cross-Exam Context:** Standard derivative valuation tested in VIII and IV.
+**Distributor's Pro-Tip:** Black-Scholes assumes continuous trading and log-normal prices — apply liquidity overlays for illiquid underlyings.]]></text></explanation>
+    </question>
+</QF>

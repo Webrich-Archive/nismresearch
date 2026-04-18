@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Cat III AIF Fees and Performance_54" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The Sharpe Ratio formula is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[(Rp − Rf) / σp]]></text></answer>
+            <answer correct="no"><text><![CDATA[(Rp − Rf) / β]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rp / σp]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rp − Rb]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Sharpe = (Portfolio Return − Risk-free Return) / Portfolio Standard Deviation.
+**The Trap:** Option 2 is Treynor (uses beta); others are wrong formulas.
+**Cross-Exam Context:** Identical formula in X-A, XV, IV.
+**Distributor's Pro-Tip:** Higher Sharpe = better risk-adjusted return; compare within the SAME strategy cohort.]]></text></explanation>
+    </question>
+</QF>

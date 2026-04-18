@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Cat III AIF Fees and Performance_57" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Treynor Ratio is computed using:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Standard deviation as denominator]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Portfolio Beta (systematic risk) as denominator]]></text></answer>
+            <answer correct="no"><text><![CDATA[Maximum drawdown as denominator]]></text></answer>
+            <answer correct="no"><text><![CDATA[VaR as denominator]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Treynor Ratio = (Rp − Rf)/β — uses only systematic (non-diversifiable) risk.
+**The Trap:** Std dev = Sharpe; MDD = Calmar; VaR-based ratios exist but are different.
+**Cross-Exam Context:** Same formula in X-A/XV.
+**Distributor's Pro-Tip:** For well-diversified portfolios, Sharpe ≈ Treynor; for undiversified, prefer Sharpe.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Cat III AIF Investment Strategies_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA['Delta Hedging' in Convertible Arbitrage involves:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Closing all positions]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Maintaining a short position in the underlying stock proportional to the delta of the convertible]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buying more convertibles]]></text></answer>
+            <answer correct="no"><text><![CDATA[Selling options]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Delta hedging keeps the portfolio delta-neutral by shorting the underlying proportional to the convertible's delta.
+**The Trap:** Other actions don't achieve delta-neutrality.
+**Cross-Exam Context:** Core convertible arb technique.
+**Distributor's Pro-Tip:** Re-hedge dynamically as stock price moves — static hedging fails quickly.]]></text></explanation>
+    </question>
+</QF>

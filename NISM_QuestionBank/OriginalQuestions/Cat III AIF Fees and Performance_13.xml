@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Cat III AIF Fees and Performance_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A Cat III AIF has called-up capital of Rs. 50 crore. Hurdle rate = 10%. What is the Reference Hurdle at end of Year 1?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 50 crore]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 55 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 60.50 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 5 crore]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Reference Hurdle Year 1 = Rs. 50 crore × (1 + 0.10) = Rs. 55 crore.
+**The Trap:** Rs. 60.50 crore compounds at 10% for 2 years; Rs. 5 crore is just the hurdle amount, not the reference.
+**Cross-Exam Context:** Matches Example 2 in the workbook.
+**Distributor's Pro-Tip:** Build a hurdle calculator in Excel and keep it with the client dossier.]]></text></explanation>
+    </question>
+</QF>

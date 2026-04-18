@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Cat III AIF Fees and Performance_52" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A Leptokurtic distribution is characterized by:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Kurtosis < 3 (flat peak)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Kurtosis > 3, fatter tails, higher peak compared to normal]]></text></answer>
+            <answer correct="no"><text><![CDATA[Symmetric around zero]]></text></answer>
+            <answer correct="no"><text><![CDATA[No outliers]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Leptokurtic = Kurtosis > 3, fatter tails and a higher peak — indicates higher tail risk.
+**The Trap:** Platykurtic has Kurtosis < 3; symmetry is a separate property.
+**Cross-Exam Context:** Applied in risk management (VaR back-tests).
+**Distributor's Pro-Tip:** Leptokurtic returns = more black-swan risk; size the position accordingly.]]></text></explanation>
+    </question>
+</QF>

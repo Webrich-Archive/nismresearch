@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Cat III AIF Fees and Performance_41" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[By the time a fund has fully exited all its investments:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[DPI = TVPI (RVPI = 0)]]></text></answer>
+            <answer correct="no"><text><![CDATA[RVPI = TVPI (DPI = 0)]]></text></answer>
+            <answer correct="no"><text><![CDATA[TVPI = 0]]></text></answer>
+            <answer correct="no"><text><![CDATA[All three equal 1]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** At full exit, RVPI reduces to zero, DPI captures all distributions, so DPI = TVPI.
+**The Trap:** RVPI=TVPI would mean no distributions; TVPI=0 is impossible at full exit; DPI/RVPI ≠ 1 necessarily.
+**Cross-Exam Context:** Directly stated in Section 6.2.1.2.
+**Distributor's Pro-Tip:** Use the 'DPI = TVPI at end' framework to reconcile final fund performance.]]></text></explanation>
+    </question>
+</QF>

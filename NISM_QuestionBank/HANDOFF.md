@@ -1,8 +1,8 @@
 # NISM Question Bank — Handoff Document
 
-**Date:** April 12, 2026 (Updated after Phase 14B-1 — Series XIX-A complete)
-**Status:** 24 of 31 exams complete. 9,893 questions generated. Phase 14B-1 COMPLETE — XIX-A (500 Qs, 10 topics) done.
-**For:** Next session should continue Phase 14B-2 — XIX-B (AIF Distributors Cat III, 500 Qs).
+**Date:** April 18, 2026 (Updated after Phase 14B-2 — Series XIX-B complete)
+**Status:** 25 of 31 exams complete. 10,393 questions generated. Phase 14B-2 COMPLETE — XIX-B (500 Qs, 10 topics) done.
+**For:** Next session should continue Phase 14C-1 — XXI-A (PMS Distributors, 500 Qs).
 
 ---
 
@@ -36,7 +36,29 @@
 | Series X-C - Investment Adviser Renewal | X-C | 125 | 5 | Easy | Generated from X-A PDF (10% calc, 60% conceptual, 20% regulatory, 10% application). No caselets. |
 | Series XXV-A - Research Services (Sales) | XXV-A | 125 | 5 | Easy | Generated from XV PDF (0% calc, 55% conceptual, 40% regulatory, 5% application). No caselets. |
 | Series XIX-A - AIF Distributors (Cat I & II) | XIX-A | 500 | 10 | Moderate | Generated from PDF (15% calc, 55% conceptual, 20% regulatory, 10% application). No caselets. 10% negative marking. |
-| **Total (completed exams)** | | **9,893** | **227** | | |
+| Series XIX-B - AIF Distributors (Cat III) | XIX-B | 500 | 10 | Hard | Generated from PDF (20% calc, 45% conceptual, 25% regulatory, 10% application). No caselets. 10% negative marking. |
+| **Total (completed exams)** | | **10,393** | **237** | | |
+
+### Series XIX-B Breakdown
+
+| Topic (exact plist key) | Questions | Source Chapter(s) |
+|--------------------------|:---------:|:-----------------:|
+| Cat III AIF Overview and Growth | 40 | Ch 1-2 |
+| Cat III AIF Ecosystem | 60 | Ch 3 |
+| Cat III AIF Fund Structures | 50 | Ch 4 |
+| Cat III AIF Regulatory Framework | 75 | Ch 5 |
+| Cat III AIF Fees and Performance | 75 | Ch 6 |
+| Cat III AIF Investment Strategies | 40 | Ch 7 |
+| Cat III AIF Valuation | 60 | Ch 8 |
+| Cat III AIF Taxation | 50 | Ch 9 |
+| Cat III AIF Good Practices | 25 | Ch 10 |
+| Cat III AIF Due Diligence and Risk | 25 | Ch 3+7 cross-cutting |
+| **XIX-B Total** | **500** | **10 Chapters** |
+
+**Exam details:** 100 questions, 2 hours, 60% pass, **10% negative marking** (not 25%).
+**PDF:** Series-XIX-B_AIF (Category III) Distributors-December version word.pdf (352 pages)
+**Question mix:** 20% calc, 45% conceptual, 25% regulatory, 10% application. No caselets.
+**ExamWeightages key:** "Series XIX-B - AIF Distributors (Cat III)" (replaced earlier placeholder key).
 
 **X-B Complete Breakdown (3 Sessions, Modules 7-12):**
 

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="Cat III AIF Regulatory Framework_59" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under FATCA/CRS requirements, a Category III AIF is treated as which type of entity?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Non-Financial Entity]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Reporting Financial Institution (Deemed Financial Institution)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Investment Vehicle only]]></text></answer>
+            <answer correct="no"><text><![CDATA[Charitable Trust]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Section 5.20 notes that a Cat III AIF is a deemed financial institution and hence must comply as a Reporting Financial Institution.
+**The Trap:** NFE/charitable-trust categories do not apply; investment-vehicle is a non-FATCA concept.
+**Cross-Exam Context:** Consistent with treatment under Income-Tax Rules 114F-114H.
+**Distributor's Pro-Tip:** A Cat III AIF must report in its FATCA returns on all US persons holding units in the scheme.]]></text></explanation>
+    </question>
+</QF>
