@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PMS Performance Measurement_25" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For a WELL-DIVERSIFIED portfolio, Sharpe and Treynor ratios tend to:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Differ significantly]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Give identical rankings]]></text></answer>
+            <answer correct="no"><text><![CDATA[Be equal in absolute value]]></text></answer>
+            <answer correct="no"><text><![CDATA[Be inversely related]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Well-diversified portfolios have sigma ~ beta*sigma_m => identical rankings.
+**The Trap:** Material differences indicate poor diversification.
+**Cross-Exam Context:** Same in X-B.
+**Distributor's Pro-Tip:** Large Sharpe-vs-Treynor divergence flags concentration to correct.]]></text></explanation>
+    </question>
+</QF>

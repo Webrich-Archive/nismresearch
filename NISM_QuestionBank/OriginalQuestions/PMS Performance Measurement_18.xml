@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PMS Performance Measurement_18" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Stock A beta 1.2, Stock B beta 1.1. Portfolio 60% A, 40% B. Portfolio beta:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[1.14]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.15]]></text></answer>
+            <answer correct="yes"><text><![CDATA[1.16]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.20]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Beta_p = 0.6*1.2 + 0.4*1.1 = 0.72 + 0.44 = 1.16.
+**The Trap:** Other values are arithmetic errors.
+**Cross-Exam Context:** Standard beta calc in XV.
+**Distributor's Pro-Tip:** Track contribution-to-beta per holding; trim high-beta outliers first.]]></text></explanation>
+    </question>
+</QF>

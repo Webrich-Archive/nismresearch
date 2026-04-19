@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PMS Fixed Income Investing_25" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[YTM 6%, annual coupon Rs. 80, face Rs. 1,000, 4 years. Price (approx):]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 969]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,000]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 1,069]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 1,150]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** PV = 80*(annuity factor 4y @ 6%) + 1000/(1.06^4) = 80*3.4651 + 1000*0.7921 = 277.21 + 792.09 = Rs. 1,069.30.
+**The Trap:** Rs. 969 would imply a discount; coupon > YTM means premium.
+**Cross-Exam Context:** Standard bond pricing.
+**Distributor's Pro-Tip:** Layer bond ladders across 3-7-year rungs for balanced duration and income.]]></text></explanation>
+    </question>
+</QF>

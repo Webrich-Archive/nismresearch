@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PMS Derivatives_25" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A bull call spread on NIFTY: buy 25000 call @ Rs. 120, sell 25200 call @ Rs. 60. Maximum profit per unit:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 60]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 120]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 140]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 200]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Net cost = 120 - 60 = Rs. 60. Max profit = (25200-25000) - 60 = 200 - 60 = Rs. 140.
+**The Trap:** Other values ignore net premium or spread width.
+**Cross-Exam Context:** Spread strategy payoff.
+**Distributor's Pro-Tip:** Bull call spreads cap both upside and cost — suit PMS-sized directional bets.]]></text></explanation>
+    </question>
+</QF>

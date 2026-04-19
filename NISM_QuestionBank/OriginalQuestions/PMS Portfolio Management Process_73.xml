@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PMS Portfolio Management Process_73" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Time-based rebalancing in PMS refers to:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rebalancing only when markets crash]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rebalancing at fixed calendar intervals (e.g., quarterly, annually)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rebalancing whenever tax rates change]]></text></answer>
+            <answer correct="no"><text><![CDATA[Never rebalancing]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Time-based uses calendar triggers, independent of drift.
+**The Trap:** Crash-only or tax-based triggers are not time-based.
+**Cross-Exam Context:** Same framework in X-A.
+**Distributor's Pro-Tip:** Annual rebalancing with mid-year drift check balances cost and discipline.]]></text></explanation>
+    </question>
+</QF>

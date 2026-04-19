@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PMS Operational Aspects_51" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For client-specific reporting, the PM must present:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Only TWRR]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the client's IRR]]></text></answer>
+            <answer correct="yes"><text><![CDATA[XIRR for the IA + min/max/median XIRR across all investors in that IA + TWRR of IA + benchmark]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only peer returns]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per SEBI circular Dec 16, 2022, PMs must report XIRR and dispersion (min/max/median) plus TWRR and benchmark.
+**The Trap:** Reporting only one metric violates the transparency rule.
+**Cross-Exam Context:** Specific to XXI-A updates.
+**Distributor's Pro-Tip:** Include the SEBI standard disclaimer on cash-flow timing differences.]]></text></explanation>
+    </question>
+</QF>

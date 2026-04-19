@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PMS Role of Portfolio Managers_44" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A PM wants to buy equity with delivery settlement and also enter intraday cash-segment positions for clients. The intraday-only trades are:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Permitted]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Considered speculative and prohibited (except regulated derivatives)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Always permitted as hedges]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only for NRIs]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Intraday non-delivery trades are speculative and forbidden, save for regulated derivative transactions.
+**The Trap:** Labelling them as hedges doesn't legitimise them.
+**Cross-Exam Context:** Same rule in III-A.
+**Distributor's Pro-Tip:** Disable intraday market access on client OMS accounts to enforce the rule.]]></text></explanation>
+    </question>
+</QF>

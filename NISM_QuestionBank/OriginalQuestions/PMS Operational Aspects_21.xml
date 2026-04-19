@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PMS Operational Aspects_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Audit trail of PMS order activities must include:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Only trade confirmations]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Time stamping of order placement, execution and allocation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only email attachments]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only client feedback]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Regulation mandates time-stamped audit trail from placement to allocation.
+**The Trap:** Mere email or feedback is insufficient.
+**Cross-Exam Context:** Same in III-A.
+**Distributor's Pro-Tip:** Reconcile OMS timestamps with exchange timestamps daily.]]></text></explanation>
+    </question>
+</QF>

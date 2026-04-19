@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PMS Portfolio Management Process_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Correlation between two asset classes lies in the range:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[0 to 1]]></text></answer>
+            <answer correct="yes"><text><![CDATA[-1 to +1]]></text></answer>
+            <answer correct="no"><text><![CDATA[-100 to +100]]></text></answer>
+            <answer correct="no"><text><![CDATA[0 to 100%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Correlation coefficient ranges -1 (perfect negative) through 0 (none) to +1 (perfect positive).
+**The Trap:** Percent values or 0-1 range confuse correlation with probability.
+**Cross-Exam Context:** Standard across statistics and NISM XV, X-A.
+**Distributor's Pro-Tip:** Truly uncorrelated assets are rare — even equity and debt can correlate in crises.]]></text></explanation>
+    </question>
+</QF>

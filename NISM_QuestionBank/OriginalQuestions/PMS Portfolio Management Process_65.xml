@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PMS Portfolio Management Process_65" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Investor starts with Rs. 1 crore target 60/40. After a year equity grew 20% to Rs. 72 lakh, debt grew 7% to Rs. 42.8 lakh. Equity weight now:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[60%]]></text></answer>
+            <answer correct="no"><text><![CDATA[60.5%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[62.7%]]></text></answer>
+            <answer correct="no"><text><![CDATA[65.0%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Total = 72 + 42.8 = 114.8; equity weight = 72/114.8 = 62.7%.
+**The Trap:** 60% ignores drift, 65% overstates.
+**Cross-Exam Context:** Drift arithmetic.
+**Distributor's Pro-Tip:** Use 60-day equity weight trend in reviews to flag drift early.]]></text></explanation>
+    </question>
+</QF>

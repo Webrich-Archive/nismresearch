@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PMS Performance Measurement_49" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Sortino Ratio replaces standard deviation in Sharpe with:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Beta]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Downside deviation (semi-deviation)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Range]]></text></answer>
+            <answer correct="no"><text><![CDATA[Skewness]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Sortino uses downside deviation, focusing on adverse outcomes.
+**The Trap:** Beta is for Treynor; range is rare.
+**Cross-Exam Context:** Same in X-B.
+**Distributor's Pro-Tip:** Use Sortino for risk-averse clients who care mostly about losses, not upside volatility.]]></text></explanation>
+    </question>
+</QF>

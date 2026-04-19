@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PMS Performance Measurement_8" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For client-specific performance reporting, SEBI (Dec 16, 2022 circular) requires:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Only TWRR]]></text></answer>
+            <answer correct="yes"><text><![CDATA[XIRR for each IA plus min/max/median XIRR across investors in that IA; TWRR and benchmark separately]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only HPR]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only IRR]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The circular mandates XIRR + dispersion + TWRR + benchmark in client reports.
+**The Trap:** Single-metric reporting violates SEBI circular.
+**Cross-Exam Context:** Specific to XXI-A updates.
+**Distributor's Pro-Tip:** Include the standard SEBI disclaimer on timing-of-flow variances.]]></text></explanation>
+    </question>
+</QF>

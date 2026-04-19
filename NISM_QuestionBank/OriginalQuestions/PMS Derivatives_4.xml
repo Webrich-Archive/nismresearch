@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PMS Derivatives_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A call option gives the buyer:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The obligation to buy]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The right (not obligation) to buy the underlying at a strike price]]></text></answer>
+            <answer correct="no"><text><![CDATA[The obligation to sell]]></text></answer>
+            <answer correct="no"><text><![CDATA[The right to receive dividend]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Call = right to buy (not obligation).
+**The Trap:** Obligation is with the seller of the call.
+**Cross-Exam Context:** Same in VIII, XIII.
+**Distributor's Pro-Tip:** Use long calls to add leveraged upside with capped downside (premium).]]></text></explanation>
+    </question>
+</QF>

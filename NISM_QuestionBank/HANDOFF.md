@@ -1,8 +1,8 @@
 # NISM Question Bank — Handoff Document
 
-**Date:** April 18, 2026 (Updated after Phase 14B-2 — Series XIX-B complete)
-**Status:** 25 of 31 exams complete. 10,393 questions generated. Phase 14B-2 COMPLETE — XIX-B (500 Qs, 10 topics) done.
-**For:** Next session should continue Phase 14C-1 — XXI-A (PMS Distributors, 500 Qs).
+**Date:** April 19, 2026 (Updated after Phase 14C-1 — Series XXI-A complete)
+**Status:** 26 of 31 exams complete. 10,893 questions generated. Phase 14C-1 COMPLETE — XXI-A (500 Qs, 12 topics) done.
+**For:** Next session should continue Phase 14C-2 — XXI-B (Portfolio Managers, 500 Qs).
 
 ---
 
@@ -37,7 +37,31 @@
 | Series XXV-A - Research Services (Sales) | XXV-A | 125 | 5 | Easy | Generated from XV PDF (0% calc, 55% conceptual, 40% regulatory, 5% application). No caselets. |
 | Series XIX-A - AIF Distributors (Cat I & II) | XIX-A | 500 | 10 | Moderate | Generated from PDF (15% calc, 55% conceptual, 20% regulatory, 10% application). No caselets. 10% negative marking. |
 | Series XIX-B - AIF Distributors (Cat III) | XIX-B | 500 | 10 | Hard | Generated from PDF (20% calc, 45% conceptual, 25% regulatory, 10% application). No caselets. 10% negative marking. |
-| **Total (completed exams)** | | **10,393** | **237** | | |
+| Series XXI-A - PMS Distributors | XXI-A | 500 | 12 | Hard | Generated from PDF (20% calc, 45% conceptual, 25% regulatory, 10% application). No caselets. 10% negative marking. |
+| **Total (completed exams)** | | **10,893** | **249** | | |
+
+### Series XXI-A Breakdown (Phase 14C-1)
+
+| Topic (exact plist key) | Questions | Source Chapter |
+|--------------------------|:---------:|:---------------:|
+| PMS Investments Foundation | 35 | Ch 1 |
+| PMS Securities Markets Introduction | 25 | Ch 2 |
+| PMS Equity Investing | 50 | Ch 3 |
+| PMS Fixed Income Investing | 25 | Ch 4 |
+| PMS Derivatives | 25 | Ch 5 |
+| PMS Collective Investment Vehicles | 25 | Ch 6 |
+| PMS Role of Portfolio Managers | 50 | Ch 7 |
+| PMS Operational Aspects | 65 | Ch 8 |
+| PMS Portfolio Management Process | 75 | Ch 9 |
+| PMS Performance Measurement | 50 | Ch 10 |
+| PMS Taxation | 25 | Ch 11 |
+| PMS Regulatory and Governance | 50 | Ch 12 |
+| **XXI-A Total** | **500** | **12 Chapters** |
+
+**Exam details:** 100 questions, 2 hours, 60% pass, **10% negative marking** (not 25%).
+**PDF:** NISM-Series-XXI-A Portfolio Management Services (PMS) Distributors Certification Examination-September 2025.pdf (185 pages)
+**Question mix:** ~20% calc, ~45% conceptual, ~25% regulatory, ~10% application. No caselets.
+**ExamWeightages key:** "Series XXI-A - PMS Distributors" (replaced earlier placeholder key).
 
 ### Series XIX-B Breakdown
 

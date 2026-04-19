@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PMS Performance Measurement_34" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Asset Allocation Effect formula is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Sum[(Wp - Wb)*Rb]]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sum[Wb*(Rp - Rb)]]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sum[(Wp - Wb)*(Rp - Rb)]]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sum[Wp*Rp]]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Allocation effect = Sum[(Portfolio weight - Benchmark weight) * Benchmark return].
+**The Trap:** Other formulas represent Selection or Interaction.
+**Cross-Exam Context:** Same Brinson framework in X-B.
+**Distributor's Pro-Tip:** A positive allocation effect means the PM overweighted winning sectors.]]></text></explanation>
+    </question>
+</QF>
