@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PM Equity Portfolio Strategies_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Meera Kulkarni holds 100 shares of Reliance at Rs. 2,500 each. She buys a 1-month Rs. 2,500-strike put at a premium of Rs. 40 per share. If at expiry Reliance is at Rs. 2,300, what is the net P&L on the position (ignore fees/tax)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 4,000 loss]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 16,000 loss]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 20,000 loss]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 4,000 profit]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Stock loss: 100 × (2500-2300) = Rs. 20,000. Put gain: 100 × (2500-2300) = Rs. 20,000. Premium paid: 100 × 40 = Rs. 4,000. Net = –20,000 + 20,000 – 4,000 = Rs. 4,000 loss (= premium cost).
+**The Trap:** Protective put caps downside at the premium paid — not at zero. 20,000 loss misses the put payoff entirely.
+**Cross-Exam Context:** VIII covers option payoffs; XXI-B layers on the portfolio-insurance framing.
+**Manager's Pro-Tip:** Maximum loss on a fully-hedged protective put = put premium. You pay this insurance cost regardless of outcome.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PM Operational Aspects_17" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The PMS client's demat and bank accounts must be:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Pooled with firm]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Separate per client]]></text></answer>
+            <answer correct="no"><text><![CDATA[Shared among clients]]></text></answer>
+            <answer correct="no"><text><![CDATA[Held by the PM in own name]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** SEBI mandates segregation: one client, one demat/bank account. Pooling is regulatory violation.
+**The Trap:** Pooling caused past incidents; SEBI is strict.
+**Cross-Exam Context:** Core regulatory principle.
+**Manager's Pro-Tip:** Monthly reconciliation between custodian records and PMS records — any mismatch is immediately escalated.]]></text></explanation>
+    </question>
+</QF>

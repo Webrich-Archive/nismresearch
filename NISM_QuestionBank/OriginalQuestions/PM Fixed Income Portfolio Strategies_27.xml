@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PM Fixed Income Portfolio Strategies_27" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A PM managing a global FI portfolio hedges USD bond holdings into INR using:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Interest Rate Swap]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Currency Swap]]></text></answer>
+            <answer correct="no"><text><![CDATA[Credit Default Swap]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equity Futures]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Currency Swap exchanges INR-denominated for USD-denominated cash flows (principal + interest), mitigating USD/INR fluctuations on global bonds.
+**The Trap:** IRS hedges rate risk, not FX; CDS for credit; equity futures irrelevant.
+**Cross-Exam Context:** I (Currency Derivatives) covers; XXI-B applies to PM.
+**Manager's Pro-Tip:** Rolling short FX forwards is cheaper and more flexible than currency swaps for short-horizon hedges — match hedge tenor to investment tenor.]]></text></explanation>
+    </question>
+</QF>

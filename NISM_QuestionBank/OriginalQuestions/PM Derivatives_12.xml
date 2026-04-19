@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PM Derivatives_12" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A PM hedging currency exposure uses:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Currency forwards/futures/swaps]]></text></answer>
+            <answer correct="no"><text><![CDATA[Equity futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Bond futures]]></text></answer>
+            <answer correct="no"><text><![CDATA[Commodity options]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** USD/INR forwards/futures/swaps hedge FX. Each different instrument has specific use.
+**The Trap:** Mixing instruments = different hedge.
+**Cross-Exam Context:** I, Topic 19.
+**Manager's Pro-Tip:** Forward premium/discount reflects interest-rate differential — cost of hedge to consider.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PM Fixed Income Portfolio Strategies_26" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following is a PASSIVE fixed-income strategy?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rate anticipation duration switching]]></text></answer>
+            <answer correct="no"><text><![CDATA[Barbell construction]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Bond Index Fund replication]]></text></answer>
+            <answer correct="no"><text><![CDATA[Credit-spread arbitrage]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Bond index fund replication = mirror benchmark = passive. All others are active (duration bets, curve shape bets, credit bets).
+**The Trap:** Barbell is an active curvature play; students sometimes call it passive because it's 'just construction'.
+**Cross-Exam Context:** IV, XIII cover; XXI-B tests classification.
+**Manager's Pro-Tip:** 'Buy-and-Hold' is passive; immunization is semi-active (requires rebalance). Know the spectrum.]]></text></explanation>
+    </question>
+</QF>

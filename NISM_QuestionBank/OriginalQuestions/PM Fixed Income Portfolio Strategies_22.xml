@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PM Fixed Income Portfolio Strategies_22" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A SWAPTION gives the buyer:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Obligation to enter an IRS]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Right, but not obligation, to enter an IRS]]></text></answer>
+            <answer correct="no"><text><![CDATA[Outright ownership of a floating-rate bond]]></text></answer>
+            <answer correct="no"><text><![CDATA[A currency hedge]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Swaption = option on a swap. Payer swaption = right to pay fixed in an IRS; Receiver = right to receive fixed. Option premium paid upfront.
+**The Trap:** 'Obligation to enter' confuses swaption with an outright forward swap.
+**Cross-Exam Context:** IV Ch 5 covers swaptions; XXI-B applies in portfolio context.
+**Manager's Pro-Tip:** Swaptions are used by corporates to hedge anticipated funding-cost volatility — a PMS client with loan liabilities can be steered to them.]]></text></explanation>
+    </question>
+</QF>

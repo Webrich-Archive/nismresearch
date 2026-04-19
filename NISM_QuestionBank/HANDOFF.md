@@ -1,8 +1,8 @@
 # NISM Question Bank — Handoff Document
 
-**Date:** April 19, 2026 (Updated after Phase 14C-1 — Series XXI-A complete)
-**Status:** 26 of 31 exams complete. 10,893 questions generated. Phase 14C-1 COMPLETE — XXI-A (500 Qs, 12 topics) done.
-**For:** Next session should continue Phase 14C-2 — XXI-B (Portfolio Managers, 500 Qs).
+**Date:** April 19, 2026 (Updated after Phase 14C-2 — Series XXI-B complete)
+**Status:** 27 of 31 exams complete. 11,393 questions generated. Phase 14C-2 COMPLETE — XXI-B (500 Qs, 21 topics) done.
+**For:** Next session should continue with Phase 14D or 15 — remaining NISM exams (Series XXV-B, XXVI, or audit/gap-fill passes on XXI-A/B).
 
 ---
 
@@ -38,7 +38,8 @@
 | Series XIX-A - AIF Distributors (Cat I & II) | XIX-A | 500 | 10 | Moderate | Generated from PDF (15% calc, 55% conceptual, 20% regulatory, 10% application). No caselets. 10% negative marking. |
 | Series XIX-B - AIF Distributors (Cat III) | XIX-B | 500 | 10 | Hard | Generated from PDF (20% calc, 45% conceptual, 25% regulatory, 10% application). No caselets. 10% negative marking. |
 | Series XXI-A - PMS Distributors | XXI-A | 500 | 12 | Hard | Generated from PDF (20% calc, 45% conceptual, 25% regulatory, 10% application). No caselets. 10% negative marking. |
-| **Total (completed exams)** | | **10,893** | **249** | | |
+| Series XXI-B - Portfolio Managers | XXI-B | 500 | 21 | Hard | Generated from PDF (multiple mix per topic). No caselets. 25% negative marking. |
+| **Total (completed exams)** | | **11,393** | **270** | | |
 
 ### Series XXI-A Breakdown (Phase 14C-1)
 
@@ -62,6 +63,40 @@
 **PDF:** NISM-Series-XXI-A Portfolio Management Services (PMS) Distributors Certification Examination-September 2025.pdf (185 pages)
 **Question mix:** ~20% calc, ~45% conceptual, ~25% regulatory, ~10% application. No caselets.
 **ExamWeightages key:** "Series XXI-A - PMS Distributors" (replaced earlier placeholder key).
+
+### Series XXI-B Breakdown (Phase 14C-2)
+
+| Topic (exact plist key) | Questions | Source Chapter |
+|--------------------------|:---------:|:---------------:|
+| PM Investment Landscape | 10 | Unit 1 |
+| PM Securities Markets | 10 | Unit 2 |
+| PM Equity Investing | 20 | Unit 3 |
+| PM Fixed Income Investing | 20 | Unit 4 |
+| PM Derivatives | 20 | Unit 5 |
+| PM Mutual Funds | 20 | Unit 6 |
+| PM Role of Portfolio Managers | 30 | Unit 7 |
+| PM Operational Aspects | 30 | Unit 8 |
+| PM Portfolio Management Process | 30 | Unit 9 |
+| PM Taxation | 15 | Unit 10 |
+| PM Regulatory and Governance | 30 | Unit 11 |
+| PM Introduction to Indices | 15 | Unit 12 |
+| PM Informational Efficiency | 15 | Unit 13 |
+| PM Behavioural Finance | 15 | Unit 14 |
+| PM Modern Portfolio Theory | 20 | Unit 15 |
+| PM Capital Market Theory | 20 | Unit 16 |
+| PM Risk | 30 | Unit 17 |
+| PM Equity Portfolio Strategies | 50 | Unit 18 |
+| PM Fixed Income Portfolio Strategies | 50 | Unit 19 |
+| PM Performance Measurement | 30 | Unit 20 |
+| PM Portfolio Rebalancing | 20 | Unit 21 |
+| **XXI-B Total** | **500** | **21 Chapters** |
+
+**Exam details:** 100 questions, 2 hours, 60% pass, **25% negative marking** (standard — unlike 10% carve-out for Distributor exams).
+**PDF:** NISM-Series-XXI-B Portfolio Managers Certification Examination -Sep 2025.pdf (404 pages)
+**Question mix:** Topic-specific blends per the prompt (e.g., ~30-35% calc for MPT/CMT/Risk/Performance; ~45-55% conceptual on regulatory/behavioural/efficiency topics). No caselets.
+**ExamWeightages key:** "Series XXI-B - Portfolio Managers" (replaced placeholder with 21 "PM …" keys). Weightages align with SEBI syllabus marks (total 150).
+**Namespace note:** All XXI-B topics prefixed "PM " to keep them distinct from XXI-A "PMS " topics (critical since content overlaps on Units 1-12).
+
 
 ### Series XIX-B Breakdown
 

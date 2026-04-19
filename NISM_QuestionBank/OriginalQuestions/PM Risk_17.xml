@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PM Risk_17" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A Rs. 10 cr bond has PD = 2%, LGD = 40%. What is the Expected Loss?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rs. 2 lakh]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rs. 8 lakh]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 40 lakh]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 2 cr]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Expected Loss = PD × LGD × EAD = 0.02 × 0.40 × 10 cr = Rs. 8 lakh.
+**The Trap:** Rs. 2 lakh uses only PD; Rs. 40 lakh uses only LGD × EAD.
+**Cross-Exam Context:** Foundational credit math; XXI-B tests fluency.
+**Manager's Pro-Tip:** For portfolio-level EL, sum EL across all exposures; but for unexpected loss (used in capital), use correlation-adjusted portfolio loss.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PM Fixed Income Investing_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[YIELD TO MATURITY (YTM) is:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Coupon rate]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Return if held to maturity + reinvestment assumption]]></text></answer>
+            <answer correct="no"><text><![CDATA[Current yield]]></text></answer>
+            <answer correct="no"><text><![CDATA[Dividend yield]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** YTM = IRR on bond's cash flows, assuming reinvestment at YTM.
+**The Trap:** Coupon is fixed; YTM accounts for price and reinvestment.
+**Cross-Exam Context:** IV.
+**Manager's Pro-Tip:** Realised return < YTM if reinvestment rates fall; > YTM if rates rise. Reinvestment risk.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PM Fixed Income Investing_18" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Floating-rate bond's coupon:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Fixed]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Resets periodically based on benchmark (MIBOR, Repo)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Zero]]></text></answer>
+            <answer correct="no"><text><![CDATA[Random]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Floater = coupon = benchmark + spread. Resets periodically.
+**The Trap:** Fixed-coupon is opposite.
+**Cross-Exam Context:** IV, Topic 19.
+**Manager's Pro-Tip:** Floaters protect against rising rates but give up gains in falling-rate environments.]]></text></explanation>
+    </question>
+</QF>

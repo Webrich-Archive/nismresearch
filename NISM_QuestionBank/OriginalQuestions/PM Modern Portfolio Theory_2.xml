@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PM Modern Portfolio Theory_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[MPT's KEY insight is that portfolio risk depends on:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Weights and variances only]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Weights, variances, AND correlations (covariance) between assets]]></text></answer>
+            <answer correct="no"><text><![CDATA[Expected returns only]]></text></answer>
+            <answer correct="no"><text><![CDATA[Market cap only]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Markowitz's breakthrough: portfolio variance includes covariance terms, not just weighted variance. Diversification benefit comes from < 1 correlation.
+**The Trap:** Ignoring covariance leads to overestimating portfolio risk.
+**Cross-Exam Context:** Central MPT.
+**Manager's Pro-Tip:** In a 2-asset portfolio: σ²p = w1²σ1² + w2²σ2² + 2·w1·w2·σ1·σ2·ρ12. The ρ term is where diversification magic happens.]]></text></explanation>
+    </question>
+</QF>

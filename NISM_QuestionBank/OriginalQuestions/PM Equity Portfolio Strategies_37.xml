@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PM Equity Portfolio Strategies_37" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A manager forecasts correctly on 60 out of 80 quarterly predictions in a year. What is the manager's Information Coefficient?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[0.25]]></text></answer>
+            <answer correct="yes"><text><![CDATA[0.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.75]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.60]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** IC = 2 × (60/80) − 1 = 2 × 0.75 − 1 = 0.50.
+**The Trap:** 0.75 is the raw hit ratio. 0.25 drops a factor; 0.60 is noise.
+**Cross-Exam Context:** XXI-B-specific application of Grinold-Kahn.
+**Manager's Pro-Tip:** Sustained IC > 0.10 is exceptional in practice — most institutional managers run IC in the 0.03–0.08 range over full cycles.]]></text></explanation>
+    </question>
+</QF>

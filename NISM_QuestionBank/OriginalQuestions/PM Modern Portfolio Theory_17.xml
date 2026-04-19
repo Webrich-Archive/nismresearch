@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PM Modern Portfolio Theory_17" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Estimation risk in MPT is PRIMARILY concerned with:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Accuracy of historical data]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Errors in estimating returns, variances, and correlations used as inputs]]></text></answer>
+            <answer correct="no"><text><![CDATA[Regulatory changes]]></text></answer>
+            <answer correct="no"><text><![CDATA[Currency shifts]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Estimation risk = inputs (E(R), σ, ρ) are estimated from finite samples and prone to error. Output is only as good as the inputs.
+**The Trap:** Historical data accuracy is a subset; the broader risk is statistical estimation.
+**Cross-Exam Context:** MPT practical concern.
+**Manager's Pro-Tip:** Shrinkage estimators (Ledoit-Wolf) stabilise covariance estimates — worth the extra code for institutional-size portfolios.]]></text></explanation>
+    </question>
+</QF>

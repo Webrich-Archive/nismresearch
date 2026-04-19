@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PM Fixed Income Portfolio Strategies_30" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A PM constructs an immunized portfolio. The most common ACTIVE element required even in 'passive' immunization is:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Daily trading]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Rebalancing duration whenever yields move significantly]]></text></answer>
+            <answer correct="no"><text><![CDATA[Changing credit quality]]></text></answer>
+            <answer correct="no"><text><![CDATA[Currency hedging]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Immunization is NOT fire-and-forget — every yield move changes bond durations, requiring rebalance to keep portfolio duration = liability duration.
+**The Trap:** Immunization strategies are often wrongly called pure passive; they require ongoing duration matching.
+**Cross-Exam Context:** Core XXI-B content.
+**Manager's Pro-Tip:** Monthly or trigger-based rebalancing balances transaction cost vs immunization precision — trigger at duration drift > 0.25 years for most portfolios.]]></text></explanation>
+    </question>
+</QF>

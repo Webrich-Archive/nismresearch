@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PM Regulatory and Governance_26" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Performance fee can be charged only after:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Every month]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Applying High Water Mark (HWM) and Hurdle Rate (where applicable)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Any client withdrawal]]></text></answer>
+            <answer correct="no"><text><![CDATA[Annual budget approval]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Performance fees are charged only on NEW profits above HWM, and only after clearing the hurdle rate. Both mechanisms protect clients from paying twice.
+**The Trap:** Charging monthly without HWM would double-charge clients.
+**Cross-Exam Context:** Core XXI-A/B content.
+**Manager's Pro-Tip:** Document the HWM calculation methodology in the DD — ambiguity has caused SEBI enforcement actions.]]></text></explanation>
+    </question>
+</QF>

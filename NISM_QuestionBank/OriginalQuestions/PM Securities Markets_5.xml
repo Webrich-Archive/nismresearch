@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PM Securities Markets_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A Custodian for a PMS client:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Same as broker]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Holds assets safely, handles settlement, corporate actions; distinct from PM]]></text></answer>
+            <answer correct="no"><text><![CDATA[Is the PM]]></text></answer>
+            <answer correct="no"><text><![CDATA[Is SEBI]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Custodian = independent safekeeper; handles operational duties.
+**The Trap:** Custodian ≠ PM to ensure segregation.
+**Cross-Exam Context:** XXI-B Topic 8.
+**Manager's Pro-Tip:** SEBI-registered custodians only; rotate custodians per compliance cycle.]]></text></explanation>
+    </question>
+</QF>

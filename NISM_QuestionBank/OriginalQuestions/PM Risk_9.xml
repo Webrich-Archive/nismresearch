@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PM Risk_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A limitation of VaR that the CVaR (Conditional VaR / Expected Shortfall) specifically addresses is:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[VaR is too easy to calculate]]></text></answer>
+            <answer correct="yes"><text><![CDATA[VaR does not describe the magnitude of losses BEYOND the VaR level]]></text></answer>
+            <answer correct="no"><text><![CDATA[VaR requires historical data]]></text></answer>
+            <answer correct="no"><text><![CDATA[VaR is not used by regulators]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** VaR tells you the threshold; CVaR tells you the expected loss CONDITIONAL on exceeding that threshold. Captures tail severity.
+**The Trap:** VaR is widely used by regulators — this is a plus, not a limitation.
+**Cross-Exam Context:** XXI-B-specific.
+**Manager's Pro-Tip:** Basel III moved to CVaR (Expected Shortfall at 97.5%) for trading-book capital — a signal that regulators accept VaR's tail-blindness as a real flaw.]]></text></explanation>
+    </question>
+</QF>

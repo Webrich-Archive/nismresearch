@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PM Portfolio Rebalancing_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A 60/40 portfolio after 1 year of strong equity (+25%, bonds 0%). Post-drift equity weight is approximately:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[60%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[65%]]></text></answer>
+            <answer correct="no"><text><![CDATA[70%]]></text></answer>
+            <answer correct="no"><text><![CDATA[75%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Start: 60/40. After: 75/40 = 115. Equity% = 75/115 = 65.2%. Closest choice is 65%. Actually need to check — correct answer target closest to computation. If option B is 65%, that's the answer.
+**The Trap:** Forces recomputation.
+**Cross-Exam Context:** Basic drift math.
+**Manager's Pro-Tip:** Always compute drift from actual numbers.]]></text></explanation>
+    </question>
+</QF>

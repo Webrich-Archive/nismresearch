@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PM Fixed Income Investing_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Convexity is:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[First-order yield sensitivity]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Second-order adjustment to duration; captures curvature]]></text></answer>
+            <answer correct="no"><text><![CDATA[Same as duration]]></text></answer>
+            <answer correct="no"><text><![CDATA[Has no use]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Convexity = d²P/dy². Adds to duration estimate for large yield moves. Positive convexity beneficial.
+**The Trap:** Duration is first-order (linear); convexity is second-order.
+**Cross-Exam Context:** IV.
+**Manager's Pro-Tip:** For yield moves > 100 bps, include convexity — duration alone understates gains, overstates losses.]]></text></explanation>
+    </question>
+</QF>

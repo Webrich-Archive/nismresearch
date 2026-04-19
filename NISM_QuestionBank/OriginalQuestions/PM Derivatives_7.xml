@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PM Derivatives_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A protective put has MAX LOSS equal to:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Zero]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Premium paid]]></text></answer>
+            <answer correct="no"><text><![CDATA[Strike price]]></text></answer>
+            <answer correct="no"><text><![CDATA[Unlimited]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Max loss = premium. Put offsets stock decline 1:1 below strike.
+**The Trap:** 'Zero loss' ignores premium; 'unlimited' opposite.
+**Cross-Exam Context:** VIII, Topic 18.
+**Manager's Pro-Tip:** Insurance cost compounding — rolling monthly can be expensive over 12 months.]]></text></explanation>
+    </question>
+</QF>

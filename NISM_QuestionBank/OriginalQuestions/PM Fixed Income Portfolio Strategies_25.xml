@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PM Fixed Income Portfolio Strategies_25" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A PM manages a Rs. 200 crore portfolio with Modified Duration 4.5. Rates rise by 75 bps. Approximate price impact:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 6.75 cr loss]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 9.00 cr loss]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 3.375 cr loss]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 6.75 cr gain]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Δ Value ≈ -MD × Δy × Value = -4.5 × 0.0075 × 200 cr = -0.03375 × 200 = -6.75 cr.
+**The Trap:** Rs. 3.375 cr halves the duration application; positive sign is wrong direction.
+**Cross-Exam Context:** Classical IV math applied in PM context.
+**Manager's Pro-Tip:** Rate-rise scenarios should be stress-tested quarterly on the entire PMS book — for clients comfortable with Rs. 6.75 cr MTM drawdown, keep duration; else trim.]]></text></explanation>
+    </question>
+</QF>

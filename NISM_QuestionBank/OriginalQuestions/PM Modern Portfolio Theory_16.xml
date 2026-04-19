@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PM Modern Portfolio Theory_16" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A stock's portfolio risk (σp) is ALWAYS <= weighted average risk (Σwi·σi) when correlations are:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[All > +1]]></text></answer>
+            <answer correct="no"><text><![CDATA[All = +1]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Less than +1]]></text></answer>
+            <answer correct="no"><text><![CDATA[All = 0]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Strict inequality σp < Σwi·σi holds when ALL correlations < 1. Equality only when ρ = 1 everywhere. Diversification benefit is guaranteed as long as ρ < 1.
+**The Trap:** Students miss this key inequality.
+**Cross-Exam Context:** MPT result.
+**Manager's Pro-Tip:** This is why 'just hold more stocks' works even with moderate correlations — the math is on your side.]]></text></explanation>
+    </question>
+</QF>

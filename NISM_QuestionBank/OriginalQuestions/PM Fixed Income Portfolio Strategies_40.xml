@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PM Fixed Income Portfolio Strategies_40" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A PMS portfolio has 100% long-duration bonds. The PM wants to reduce rate sensitivity without fully exiting. Which of the following would she MOST likely do?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Sell a portion and buy floating-rate bonds or shorter-duration paper]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy more long-duration zero-coupon bonds]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy put options on a short-duration index]]></text></answer>
+            <answer correct="no"><text><![CDATA[Add currency swaps]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Simplest duration-reduction: substitute some long-duration for short/floaters. More long-duration or currency hedges don't reduce duration.
+**The Trap:** Adding more long-duration INCREASES risk; currency swaps don't change rate duration.
+**Cross-Exam Context:** Core rebalancing technique in IV; XXI-B tests choice.
+**Manager's Pro-Tip:** Alternatively, short bond futures overlay achieves the same without selling cash bonds — tax-efficient if the client has unrealised gains.]]></text></explanation>
+    </question>
+</QF>

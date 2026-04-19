@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PM Performance Measurement_12" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Beta of a portfolio is calculated as:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Cov(Rp, Rm) / Var(Rm)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cov(Rp, Rm) / Var(Rp)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Var(Rp) / Var(Rm)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cov(Rp, Rm) / SD(Rm)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Beta = Covariance(Portfolio, Market) / Variance(Market). Measures systematic-risk exposure.
+**The Trap:** Denominator must be Market Variance, not Portfolio Variance.
+**Cross-Exam Context:** Standard CAPM math.
+**Manager's Pro-Tip:** Rolling 60-day or 1-year beta is more useful than static beta — betas drift meaningfully in regime changes.]]></text></explanation>
+    </question>
+</QF>

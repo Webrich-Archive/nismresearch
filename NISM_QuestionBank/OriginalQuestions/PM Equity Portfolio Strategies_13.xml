@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PM Equity Portfolio Strategies_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A portfolio's sensitivity to the market factor is 1.2 and the economic-growth factor is 0.5. If the market factor returns 8% and economic-growth factor returns 3% in the period, and the residual error is zero, what is the portfolio's return (two-factor macroeconomic model, Rpt = b1*F1 + b2*F2)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[11.1%]]></text></answer>
+            <answer correct="no"><text><![CDATA[9.6%]]></text></answer>
+            <answer correct="no"><text><![CDATA[8.5%]]></text></answer>
+            <answer correct="no"><text><![CDATA[13.1%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Rpt = 1.2 * 8% + 0.5 * 3% = 9.6% + 1.5% = 11.1%.
+**The Trap:** 8.5% forgets the growth factor; 9.6% stops at the market factor alone. Multi-factor models are additive across factor contributions.
+**Cross-Exam Context:** Similar additive math appears in XV and X-A for multi-factor performance attribution.
+**Manager's Pro-Tip:** Regression coefficients (b_i) are called factor sensitivities — in practice, you estimate them from rolling regressions before using them in return attribution.]]></text></explanation>
+    </question>
+</QF>

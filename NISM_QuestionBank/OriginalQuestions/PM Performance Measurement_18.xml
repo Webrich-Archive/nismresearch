@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PM Performance Measurement_18" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A portfolio has Rp = 18%, benchmark Rb = 12%, tracking error (σ of active return) = 4%. Information Ratio is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[1.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.67]]></text></answer>
+            <answer correct="no"><text><![CDATA[4.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[2.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** IR = (Rp - Rb) / TE = (18 - 12) / 4 = 6/4 = 1.50.
+**The Trap:** 0.67 inverts numerator; 4.50 uses wrong denominator.
+**Cross-Exam Context:** Core performance metric.
+**Manager's Pro-Tip:** IR > 0.5 good, > 1 excellent; requires at least 20-36 months of data for statistical stability.]]></text></explanation>
+    </question>
+</QF>

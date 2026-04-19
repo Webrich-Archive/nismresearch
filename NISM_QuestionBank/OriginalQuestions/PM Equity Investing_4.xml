@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PM Equity Investing_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Dividend Discount Model (DDM/Gordon Growth): P = D1 / (r - g). If D1=10, r=12%, g=8%, price is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 250]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 125]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 500]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 100]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** P = 10 / (0.12 - 0.08) = 10 / 0.04 = Rs. 250.
+**The Trap:** 125 uses wrong denominator; 100 uses wrong D.
+**Cross-Exam Context:** XV, X-A.
+**Manager's Pro-Tip:** DDM works only when g < r; for high-growth firms, use multi-stage DDM or FCFE.]]></text></explanation>
+    </question>
+</QF>

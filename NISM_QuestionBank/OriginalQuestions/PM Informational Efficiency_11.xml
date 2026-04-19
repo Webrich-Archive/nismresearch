@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PM Informational Efficiency_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Information Coefficient (IC) measures:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Portfolio alpha]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Correlation between manager's predictions and actual outcomes]]></text></answer>
+            <answer correct="no"><text><![CDATA[Volatility]]></text></answer>
+            <answer correct="no"><text><![CDATA[Beta]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** IC = correlation between predicted and actual returns — skill measure in Grinold-Kahn framework.
+**The Trap:** Alpha is raw excess return; IC is predictive accuracy.
+**Cross-Exam Context:** Topic 18 deep.
+**Manager's Pro-Tip:** Sustained IC > 0.05 is institutional-grade skill; < 0.02 is noise.]]></text></explanation>
+    </question>
+</QF>

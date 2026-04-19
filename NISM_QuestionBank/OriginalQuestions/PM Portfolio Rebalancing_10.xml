@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PM Portfolio Rebalancing_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A portfolio has SAA 70/30 equity/bond. Current actual is 76/24 (drift +6%). What action?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Do nothing]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Sell 6% of equity, buy 6% of bonds to restore 70/30]]></text></answer>
+            <answer correct="no"><text><![CDATA[Buy more equity]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sell all]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Rebalance: trim winning sleeve (equity) and add to losing (bonds) to restore target.
+**The Trap:** Doing nothing lets drift compound.
+**Cross-Exam Context:** Core.
+**Manager's Pro-Tip:** Execute via VWAP algorithms to minimise impact cost on the rebalancing trades.]]></text></explanation>
+    </question>
+</QF>

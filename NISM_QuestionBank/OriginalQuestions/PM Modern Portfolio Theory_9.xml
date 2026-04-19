@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PM Modern Portfolio Theory_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A risk-averse investor with utility U = E(R) - 0.5·A·σ². If E(R) = 15%, σ = 10%, A = 3, what is the utility?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[13.5%]]></text></answer>
+            <answer correct="no"><text><![CDATA[15.0%]]></text></answer>
+            <answer correct="no"><text><![CDATA[10.0%]]></text></answer>
+            <answer correct="no"><text><![CDATA[12.0%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** U = 0.15 - 0.5 × 3 × (0.10)² = 0.15 - 0.5 × 3 × 0.01 = 0.15 - 0.015 = 0.135 = 13.5%.
+**The Trap:** 15% is raw expected return; 12% uses wrong variance computation.
+**Cross-Exam Context:** Utility-based portfolio selection; appears in X-A.
+**Manager's Pro-Tip:** Higher A = more risk-averse; utility drops more sharply with volatility. Calibrate A via client interviews.]]></text></explanation>
+    </question>
+</QF>

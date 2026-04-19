@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PM Fixed Income Investing_8" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A zero-coupon bond with face Rs. 10 lakh, 10 years, YTM 9%: price is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Rs. 4,22,410]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 4,47,480]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 3,85,543]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rs. 5,00,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Price = FV/(1+r)^n = 10,00,000 / (1.09)^10 = 10,00,000 / 2.3674 = Rs. 4,22,410.
+**The Trap:** Rs. 3,85,543 uses 10% YTM (for 10 years).
+**Cross-Exam Context:** IV math.
+**Manager's Pro-Tip:** Zero-coupon duration = maturity. Pure interest-rate bet.]]></text></explanation>
+    </question>
+</QF>

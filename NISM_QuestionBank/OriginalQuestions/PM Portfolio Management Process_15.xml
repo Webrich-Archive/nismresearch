@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PM Portfolio Management Process_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Portfolio weighted return: 30% in asset A (20%) + 40% in asset B (10%) + 30% in asset C (15%) =]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[13.5%]]></text></answer>
+            <answer correct="no"><text><![CDATA[15.0%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[14.5%]]></text></answer>
+            <answer correct="no"><text><![CDATA[17.0%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** 0.3×20 + 0.4×10 + 0.3×15 = 6 + 4 + 4.5 = 14.5%.
+**The Trap:** 13.5 and 15 are near-miss computation errors.
+**Cross-Exam Context:** Basic portfolio math.
+**Manager's Pro-Tip:** Always verify weights sum to 1.0 before computing weighted return.]]></text></explanation>
+    </question>
+</QF>

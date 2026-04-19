@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PM Equity Portfolio Strategies_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Arjun Mehta, a portfolio manager at a Mumbai PMS, tracks the NIFTY 50 by holding all 50 stocks in their exact index weights and rebalances when NSE publishes constituent changes. Which indexing technique is he using?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Sampling]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Full Replication]]></text></answer>
+            <answer correct="no"><text><![CDATA[Smart Beta]]></text></answer>
+            <answer correct="no"><text><![CDATA[Stratified indexing]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Full Replication holds every constituent in the same (or near-same) weight as the index — recommended when the index has few, liquid stocks like NIFTY 50.
+**The Trap:** Sampling replaces some constituents with similar stocks; used when full replication is costly (e.g., NIFTY 500). Smart Beta uses rule-based factor tilts, not pure index mirroring.
+**Cross-Exam Context:** XXI-A covered the same indexing techniques conceptually; XXI-B expects you to pick the right technique for a given index size and liquidity.
+**Manager's Pro-Tip:** Full replication minimises tracking error but demands AUM scale. For NIFTY 500-type indices, sampling is the practical route.]]></text></explanation>
+    </question>
+</QF>

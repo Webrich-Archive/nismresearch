@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PM Regulatory and Governance_29" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following is the correct reporting hierarchy for PM financial-crime / suspicious-activity reporting?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Client → Compliance Officer → SEBI]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Principal Officer (designated) → FIU-IND]]></text></answer>
+            <answer correct="no"><text><![CDATA[PMS website]]></text></answer>
+            <answer correct="no"><text><![CDATA[Stock exchange]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** PMLA: Principal Officer (designated) → FIU-IND directly. PMS website/exchange aren't reporting destinations.
+**The Trap:** Client → Compliance is an internal escalation path, not the regulatory report.
+**Cross-Exam Context:** XXIV, III-A, XXI-B.
+**Manager's Pro-Tip:** Maintain a separate mobile number/email for FIU reporting — keeps operational logs distinct from STR/CTR filings.]]></text></explanation>
+    </question>
+</QF>

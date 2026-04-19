@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PM Derivatives_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[THETA (time decay):]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Helps long option positions]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Erodes long option positions over time]]></text></answer>
+            <answer correct="no"><text><![CDATA[Is independent of time]]></text></answer>
+            <answer correct="no"><text><![CDATA[Is zero]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Theta = daily option value loss. Long options pay theta; short options collect.
+**The Trap:** Writers benefit from theta.
+**Cross-Exam Context:** VIII.
+**Manager's Pro-Tip:** Theta accelerates near expiry — hedge timing matters.]]></text></explanation>
+    </question>
+</QF>

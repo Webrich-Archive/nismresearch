@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PM Equity Portfolio Strategies_31" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A 'core-satellite' portfolio with 75% passive core (NIFTY 50 ETF) and 25% satellite (active sector bets) achieved a return of 12% last year, while NIFTY 50 returned 10% and the satellite alone returned 18%. Verify the total return (ignoring fees):]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[0.75×10% + 0.25×18% = 12.0% — consistent]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.75×10% + 0.25×8% = 9.5%]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.50×10% + 0.50×18% = 14.0%]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.00×10% + 0.25×18% = 14.5%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Weighted return = w_core × r_core + w_sat × r_sat = 0.75×10% + 0.25×18% = 7.5% + 4.5% = 12.0%. Matches the reported 12% — portfolio math checks out.
+**The Trap:** Weights must sum to 100%. Options C and D mis-sum to >100% or pick wrong weights; B uses wrong satellite return.
+**Cross-Exam Context:** Basic portfolio-return math reused across XV, X-A, XXI-A/B.
+**Manager's Pro-Tip:** Always verify your PM's reported aggregate return by back-calculating from sleeve returns — discrepancies often indicate unreported cash drag or fees.]]></text></explanation>
+    </question>
+</QF>

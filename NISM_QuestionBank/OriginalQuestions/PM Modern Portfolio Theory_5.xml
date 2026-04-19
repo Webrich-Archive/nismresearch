@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PM Modern Portfolio Theory_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A portfolio: 20% in A (E(R)=9%), 10% B (12%), 30% C (15%), 40% D (18%). Expected portfolio return is:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[13.5%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[14.7%]]></text></answer>
+            <answer correct="no"><text><![CDATA[12.6%]]></text></answer>
+            <answer correct="no"><text><![CDATA[15.0%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** E(Rp) = 0.2×9 + 0.1×12 + 0.3×15 + 0.4×18 = 1.8 + 1.2 + 4.5 + 7.2 = 14.7%.
+**The Trap:** 13.5%/15% are near-miss distractors.
+**Cross-Exam Context:** Core weighted-return math; textbook example.
+**Manager's Pro-Tip:** Always verify weights sum to 1.0 and match intended asset assignments.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PM Derivatives_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Credit Default Swap (CDS) buyer pays premium to seller for:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Ownership of bond]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Protection against credit events (default, downgrade) on a reference entity]]></text></answer>
+            <answer correct="no"><text><![CDATA[Nothing]]></text></answer>
+            <answer correct="no"><text><![CDATA[Interest payments]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** CDS = credit insurance. Pay premium, receive payout if credit event triggers.
+**The Trap:** CDS doesn't transfer bond ownership.
+**Cross-Exam Context:** IV, Topic 19.
+**Manager's Pro-Tip:** Indian CDS market is shallow; position-sizing beats CDS for credit-risk mitigation.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PM Fixed Income Portfolio Strategies_44" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A PM using SWAPTIONS to hedge expected rate volatility is essentially:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Forecasting rates will fall]]></text></answer>
+            <answer correct="no"><text><![CDATA[Forecasting rates will rise]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Buying optionality to enter an IRS at a predetermined rate]]></text></answer>
+            <answer correct="no"><text><![CDATA[Eliminating all FI risk]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Swaption = right (no obligation) to enter an IRS at a pre-specified rate — bought to hedge tail risk or anticipated need to lock in rates. Buying optionality, not direction.
+**The Trap:** Swaptions hedge rate uncertainty generically; direction-specific forecasts use outright IRS or futures.
+**Cross-Exam Context:** IV Ch 5; XXI-B uses in PM context.
+**Manager's Pro-Tip:** Vega (volatility sensitivity) is the key swaption risk — watch IV index on INBMK or MIBOR options before executing sizes.]]></text></explanation>
+    </question>
+</QF>

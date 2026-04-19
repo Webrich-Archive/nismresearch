@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PM Performance Measurement_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Sortino Ratio differs from Sharpe by using:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Beta instead of SD]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Downside (semi) standard deviation instead of full SD]]></text></answer>
+            <answer correct="no"><text><![CDATA[Tracking error instead of SD]]></text></answer>
+            <answer correct="no"><text><![CDATA[Alpha instead of excess return]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Sortino = (Rp - Rf) / Downside Deviation. Penalises only downside volatility, not upside — appeals to investors who view risk as loss, not variance.
+**The Trap:** Beta belongs to Treynor; tracking error to Information Ratio.
+**Cross-Exam Context:** XV, X-A, XVII all mention; XXI-B tests.
+**Manager's Pro-Tip:** Sortino particularly useful for asymmetric-return strategies (hedge funds, option-writing) where upside shouldn't be penalised.]]></text></explanation>
+    </question>
+</QF>

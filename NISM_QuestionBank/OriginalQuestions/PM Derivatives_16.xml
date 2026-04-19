@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PM Derivatives_16" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The THREE main Greeks for option risk:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Delta, Gamma, Theta]]></text></answer>
+            <answer correct="no"><text><![CDATA[Alpha, Beta, Gamma]]></text></answer>
+            <answer correct="no"><text><![CDATA[Alpha, Delta, Gamma]]></text></answer>
+            <answer correct="no"><text><![CDATA[P/E, Beta, Delta]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Primary Greeks: Delta, Gamma, Theta (plus Vega, Rho). Cover price, convexity, time.
+**The Trap:** Alpha is performance; not option Greek.
+**Cross-Exam Context:** VIII.
+**Manager's Pro-Tip:** Manage all 5 Greeks in a book — Delta/Vega most critical for directional/vol books.]]></text></explanation>
+    </question>
+</QF>

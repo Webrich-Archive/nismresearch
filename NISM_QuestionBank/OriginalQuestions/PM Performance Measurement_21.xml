@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PM Performance Measurement_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Portfolio return 35%, benchmark return 28%, Rf = 6%, portfolio SD = 42%, benchmark SD = 30%. M² is:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[26.71%]]></text></answer>
+            <answer correct="no"><text><![CDATA[35.0%]]></text></answer>
+            <answer correct="no"><text><![CDATA[28.0%]]></text></answer>
+            <answer correct="no"><text><![CDATA[14.0%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** M² = [(Benchmark SD / Portfolio SD) × (Rp - Rf)] + Rf = [(30/42) × (35 - 6)] + 6 = [0.714 × 29] + 6 = 20.71 + 6 = 26.71%.
+**The Trap:** 35% is raw return; 28% is benchmark; 14% is miscalculation.
+**Cross-Exam Context:** XXI-B-specific calc.
+**Manager's Pro-Tip:** In this example, M² of 26.71% < benchmark 28% = underperformance, despite higher gross return — risk-adjustment matters.]]></text></explanation>
+    </question>
+</QF>
