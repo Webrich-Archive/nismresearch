@@ -1,0 +1,649 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>NISM Prep — Investor Brief</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      fontFamily: {
+        display: ['Fraunces', 'ui-serif', 'Georgia'],
+        sans: ['Inter', 'ui-sans-serif', 'system-ui'],
+      },
+      colors: {
+        ink: '#0B1220',
+        paper: '#FBFAF6',
+        line: '#E8E4DA',
+        dim: '#5B6472',
+        brand: {
+          50: '#F2FAF7',
+          100: '#DEF3EA',
+          500: '#1F7A5A',
+          600: '#166947',
+          700: '#0F5236',
+          900: '#083524',
+        },
+        gold: '#B8873F',
+      },
+    },
+  },
+}
+</script>
+<style>
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Inter', ui-sans-serif, system-ui; background: #FBFAF6; color: #0B1220; -webkit-font-smoothing: antialiased; }
+  h1,h2,h3,.display { font-family: 'Fraunces', ui-serif, Georgia; letter-spacing: -0.02em; }
+  .hairline { border-color: #E8E4DA; }
+  .kicker { letter-spacing: 0.18em; text-transform: uppercase; font-size: 11px; font-weight: 600; color: #166947; }
+  .chip { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 999px; border: 1px solid #E8E4DA; background: #fff; font-size: 12px; color: #5B6472; font-weight: 500; }
+  .card { background: #fff; border: 1px solid #E8E4DA; border-radius: 16px; }
+  .card-pad { padding: 28px; }
+  .num { font-family: 'Fraunces', ui-serif, Georgia; font-weight: 600; font-variant-numeric: tabular-nums; letter-spacing: -0.03em; }
+  .rule { height: 1px; background: linear-gradient(to right, #E8E4DA, transparent); }
+  .nav-link { color: #5B6472; font-size: 13px; font-weight: 500; }
+  .nav-link:hover { color: #0B1220; }
+  table { width: 100%; border-collapse: collapse; }
+  th { text-align: left; font-weight: 600; font-size: 12px; color: #5B6472; text-transform: uppercase; letter-spacing: 0.08em; padding: 14px 12px; border-bottom: 1px solid #E8E4DA; }
+  td { padding: 16px 12px; border-bottom: 1px solid #F1EEE6; font-size: 14px; vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  .tag { display: inline-block; padding: 2px 8px; border-radius: 6px; font-size: 11px; font-weight: 600; letter-spacing: 0.03em; }
+  .tag-good { background: #DEF3EA; color: #0F5236; }
+  .tag-bad { background: #FEE7E2; color: #8A2F1C; }
+  .tag-mid { background: #FDF4DC; color: #8A6A22; }
+  .bullet { display: flex; gap: 12px; align-items: flex-start; }
+  .bullet::before { content: ""; flex: none; width: 6px; height: 6px; margin-top: 9px; border-radius: 2px; background: #1F7A5A; transform: rotate(45deg); }
+  .section-pad { padding-top: 88px; padding-bottom: 24px; }
+  @media (max-width: 768px) { .section-pad { padding-top: 56px; } }
+  .grid-hero { background-image: radial-gradient(#0B1220 1px, transparent 1px); background-size: 20px 20px; background-position: 0 0; opacity: 0.04; }
+  @media print {
+    .no-print { display: none !important; }
+    body { background: white; }
+    section { break-inside: avoid; page-break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<header class="no-print sticky top-0 z-40 backdrop-blur bg-paper/80 border-b hairline">
+  <nav class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+    <a href="#top" class="flex items-center gap-2">
+      <div class="w-8 h-8 rounded-md bg-brand-600 flex items-center justify-center">
+        <span class="text-white font-display font-bold text-lg leading-none">N</span>
+      </div>
+      <span class="font-display font-semibold text-lg">NISM Prep</span>
+      <span class="chip ml-2">Investor Brief</span>
+    </a>
+    <div class="hidden md:flex items-center gap-6">
+      <a class="nav-link" href="#market">Market</a>
+      <a class="nav-link" href="#competition">Competition</a>
+      <a class="nav-link" href="#edge">Our Edge</a>
+      <a class="nav-link" href="#product">Product</a>
+      <a class="nav-link" href="#model">Model</a>
+      <a class="nav-link" href="#roadmap">Roadmap</a>
+      <a class="nav-link" href="#financials">Financials</a>
+    </div>
+    <a href="#ask" class="hidden md:inline-flex items-center gap-2 text-sm font-medium text-white bg-ink hover:bg-brand-700 transition px-4 py-2 rounded-lg">
+      The Ask →
+    </a>
+  </nav>
+</header>
+
+<main id="top" class="max-w-6xl mx-auto px-6">
+
+<!-- HERO -->
+<section class="relative pt-20 md:pt-28 pb-16 md:pb-24">
+  <div class="absolute inset-0 -z-10 grid-hero"></div>
+  <div class="max-w-4xl">
+    <div class="kicker mb-5">Series XXIII complete · 31 of 31 NISM exams · April 2026</div>
+    <h1 class="text-5xl md:text-7xl leading-[1.02] font-semibold">
+      The only NISM prep<br/>
+      built for the exam<br/>
+      you'll <span class="italic text-brand-600">actually take</span>.
+    </h1>
+    <p class="mt-8 text-lg md:text-xl text-dim max-w-2xl leading-relaxed">
+      13,393 expert-authored questions across every NISM certification exam, each with a four-part explanation competitors can't match. One login — web, iOS, Android.
+    </p>
+
+    <div class="mt-10 grid grid-cols-2 md:grid-cols-4 gap-px bg-line rounded-2xl overflow-hidden border hairline">
+      <div class="bg-paper p-6">
+        <div class="num text-4xl md:text-5xl text-ink">13,393</div>
+        <div class="text-sm text-dim mt-1">curated questions</div>
+      </div>
+      <div class="bg-paper p-6">
+        <div class="num text-4xl md:text-5xl text-ink">31 <span class="text-dim text-2xl">/ 31</span></div>
+        <div class="text-sm text-dim mt-1">NISM exams covered</div>
+      </div>
+      <div class="bg-paper p-6">
+        <div class="num text-4xl md:text-5xl text-ink">324</div>
+        <div class="text-sm text-dim mt-1">topic-tagged chapters</div>
+      </div>
+      <div class="bg-paper p-6">
+        <div class="num text-4xl md:text-5xl text-ink">100K<span class="text-dim text-3xl">+</span></div>
+        <div class="text-sm text-dim mt-1">candidates/year</div>
+      </div>
+    </div>
+
+    <div class="mt-6 flex flex-wrap gap-2">
+      <span class="chip">✦ Widest catalogue in market</span>
+      <span class="chip">✦ 4-section explanation moat</span>
+      <span class="chip">✦ One login across web + iOS + Android</span>
+    </div>
+  </div>
+</section>
+
+<div class="rule"></div>
+
+<!-- EXECUTIVE SUMMARY -->
+<section class="section-pad">
+  <div class="kicker mb-4">Executive summary</div>
+  <h2 class="text-3xl md:text-4xl font-semibold mb-8 max-w-3xl">A mass-market certification prep business, anchored by a content asset that already exists.</h2>
+  <div class="grid md:grid-cols-3 gap-4">
+    <div class="card card-pad">
+      <div class="text-brand-600 font-semibold text-sm">01 — The opening</div>
+      <h3 class="text-xl font-semibold mt-2 mb-3">A fragmented, under-served ₹100 cr+ TAM</h3>
+      <p class="text-sm text-dim leading-relaxed">100,000+ NISM candidates/year in India. Pass rate stuck at 50–60% because the material is dated and fragmented. Incumbents are web-only, single-exam, or low-quality.</p>
+    </div>
+    <div class="card card-pad">
+      <div class="text-brand-600 font-semibold text-sm">02 — The asset</div>
+      <h3 class="text-xl font-semibold mt-2 mb-3">13,393 production-ready questions across all 31 exams</h3>
+      <p class="text-sm text-dim leading-relaxed">Built over 18 months. Each question carries a four-section explanation — Logic, Trap, Cross-Exam Context, Pro-Tip — the structural depth no competitor has.</p>
+    </div>
+    <div class="card card-pad">
+      <div class="text-brand-600 font-semibold text-sm">03 — The plan</div>
+      <h3 class="text-xl font-semibold mt-2 mb-3">Web MVP in 8 weeks, native apps in 16, B2B in 6 months</h3>
+      <p class="text-sm text-dim leading-relaxed">₹17 L Year-1 revenue path on ~₹7 L tech spend. ₹1+ cr ARR achievable in Year-2 on 5,000 paid users + 15 B2B contracts.</p>
+    </div>
+  </div>
+</section>
+
+<div class="rule"></div>
+
+<!-- MARKET -->
+<section id="market" class="section-pad">
+  <div class="kicker mb-4">Section 01 — Market</div>
+  <h2 class="text-3xl md:text-4xl font-semibold mb-8 max-w-3xl">The NISM certification market is large, regulated, and growing.</h2>
+
+  <div class="grid md:grid-cols-2 gap-8 items-start">
+    <div class="space-y-5">
+      <div class="bullet"><div><strong>100,000+ candidates/year</strong> attempt NISM certifications — mandatory for anyone selling, advising, or managing securities in India.</div></div>
+      <div class="bullet"><div><strong>50–60% national pass rate.</strong> Nearly half fail on first attempt and re-take at their own cost (₹1,500–2,500 per exam).</div></div>
+      <div class="bullet"><div><strong>85–90% pass rate</strong> for candidates who use structured prep — a 30+ percentage-point lift.</div></div>
+      <div class="bullet"><div><strong>₹280 trillion</strong> Indian financial services sector requires these certifications as the licensing backbone.</div></div>
+      <div class="bullet"><div><strong>Career-path pressure:</strong> a single candidate often takes 3–5 exams across their career (V-A → V-B → X-A → XV). Per-exam pricing penalises them.</div></div>
+    </div>
+    <div class="card card-pad">
+      <div class="text-xs font-semibold text-dim uppercase tracking-widest mb-4">Candidate pain points (Quora / Reddit / LinkedIn)</div>
+      <ol class="space-y-3 text-sm text-ink list-decimal list-inside">
+        <li>Workbook sample questions are too easy → false confidence → fail by 1–5 marks.</li>
+        <li>"NISM books are not lucid" — language is confusing.</li>
+        <li>Outdated notes from 2024 still circulating in the market.</li>
+        <li>Theoretical concepts are the weak spot; numericals are easier.</li>
+        <li>Recent exams are "tricky and conceptual" — rote mock banks don't prepare candidates.</li>
+        <li>Students piece together workbook + YouTube + mocks + Telegram — no single home.</li>
+        <li>No one offers career-path bundles at a sensible price.</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<div class="rule"></div>
+
+<!-- COMPETITION -->
+<section id="competition" class="section-pad">
+  <div class="kicker mb-4">Section 02 — Competition</div>
+  <h2 class="text-3xl md:text-4xl font-semibold mb-4 max-w-3xl">Incumbents are web-only, single-exam, or low-quality. The structural gap is wide open.</h2>
+  <p class="text-dim mb-8 max-w-2xl">We mapped eight players. None combine full catalogue, native apps on both platforms, and deep explanations.</p>
+
+  <div class="card overflow-x-auto">
+    <table>
+      <thead>
+        <tr>
+          <th>Platform</th>
+          <th>Pricing</th>
+          <th>Exams</th>
+          <th>Native Apps</th>
+          <th>Explanation depth</th>
+          <th>Weakness</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>nismexams.in</strong></td>
+          <td>₹599/exam</td>
+          <td>~26</td>
+          <td><span class="tag tag-bad">Web only</span></td>
+          <td><span class="tag tag-mid">Short</span></td>
+          <td>No native app, no community, silo'd pricing</td>
+        </tr>
+        <tr>
+          <td><strong>PrepCore</strong></td>
+          <td>₹199/mo</td>
+          <td>~28</td>
+          <td><span class="tag tag-good">iOS + Android</span></td>
+          <td><span class="tag tag-mid">3–5 sentences</span></td>
+          <td>Quality unverified; marketing-heavy claims</td>
+        </tr>
+        <tr>
+          <td><strong>Prep2Pass (FinXpert)</strong></td>
+          <td>₹299–499</td>
+          <td><span class="tag tag-bad">1 (V-A only)</span></td>
+          <td><span class="tag tag-bad">Web only</span></td>
+          <td><span class="tag tag-mid">Medium</span></td>
+          <td>Single-exam; AI pitch over-indexed</td>
+        </tr>
+        <tr>
+          <td><strong>Pass4sure</strong></td>
+          <td>₹499/exam</td>
+          <td>~22</td>
+          <td><span class="tag tag-bad">Web only</span></td>
+          <td><span class="tag tag-mid">Short</span></td>
+          <td>Public fraud complaint on Quora; dated UX</td>
+        </tr>
+        <tr>
+          <td><strong>PrepCafe</strong></td>
+          <td>Per-exam</td>
+          <td>Limited</td>
+          <td><span class="tag tag-bad">Web only</span></td>
+          <td><span class="tag tag-mid">Medium</span></td>
+          <td>Narrow catalogue</td>
+        </tr>
+        <tr>
+          <td><strong>Modelexam</strong></td>
+          <td>Per-exam</td>
+          <td>Mid</td>
+          <td><span class="tag tag-bad">Web + Telegram</span></td>
+          <td><span class="tag tag-mid">Short</span></td>
+          <td>Legacy brand; old UX</td>
+        </tr>
+        <tr>
+          <td><strong>Free apps (multiple)</strong></td>
+          <td>Free</td>
+          <td>Fragmented</td>
+          <td><span class="tag tag-mid">Android-heavy</span></td>
+          <td><span class="tag tag-bad">Minimal</span></td>
+          <td>One app per exam; no sync, low quality</td>
+        </tr>
+        <tr style="background: #F2FAF7;">
+          <td><strong style="color: #0F5236;">NISM Prep (us)</strong></td>
+          <td><strong>₹249/mo all-access</strong></td>
+          <td><strong>31 (full)</strong></td>
+          <td><span class="tag tag-good">Web + iOS + Android</span></td>
+          <td><span class="tag tag-good">4 sections per Q</span></td>
+          <td><em>Launching Q3 2026</em></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<div class="rule"></div>
+
+<!-- EDGE -->
+<section id="edge" class="section-pad">
+  <div class="kicker mb-4">Section 03 — Our Edge</div>
+  <h2 class="text-3xl md:text-4xl font-semibold mb-8 max-w-3xl">Three structural advantages the market cannot easily replicate.</h2>
+
+  <div class="grid md:grid-cols-3 gap-6">
+    <div class="card card-pad">
+      <div class="num text-5xl text-brand-600">01</div>
+      <h3 class="text-xl font-semibold mt-3 mb-2">Breadth</h3>
+      <p class="text-sm text-dim leading-relaxed">Every NISM exam — including niche and new ones like XXIII Social Impact Assessor (Jan 2026) and XIX-E Cat III AIF Managers. Competitors cap out at 26–28 series. Taking a candidate from V-A through X-B through XV keeps them inside our product for their entire career.</p>
+    </div>
+    <div class="card card-pad">
+      <div class="num text-5xl text-brand-600">02</div>
+      <h3 class="text-xl font-semibold mt-3 mb-2">Depth</h3>
+      <p class="text-sm text-dim leading-relaxed">Every question carries a 4-section explanation: <em>Logic</em> (why it's right), <em>Trap</em> (why the distractors tempt), <em>Cross-Exam Context</em> (how this concept recurs in other exams), and <em>Pro-Tip</em> (execution-level insight from a practitioner). Competitors offer 3–5 generic sentences.</p>
+    </div>
+    <div class="card card-pad">
+      <div class="num text-5xl text-brand-600">03</div>
+      <h3 class="text-xl font-semibold mt-3 mb-2">Truth</h3>
+      <p class="text-sm text-dim leading-relaxed">Difficulty is tuned to the actual current exam — Moderate-to-Hard — not the easy workbook samples that breed false confidence. This is the most common student complaint; we solve it at the content layer, not with marketing.</p>
+    </div>
+  </div>
+
+  <div class="card card-pad mt-8 bg-ink text-white border-none">
+    <div class="kicker text-brand-100 mb-2">Example of our 4-section explanation</div>
+    <div class="text-lg md:text-xl font-medium mb-5">"Which SAS standard applies when an SE runs a rural ANC programme funded via a ZCZP bond?"</div>
+    <div class="grid md:grid-cols-2 gap-5 text-sm">
+      <div class="bg-white/5 p-4 rounded-lg border border-white/10">
+        <div class="text-brand-100 font-semibold text-xs uppercase tracking-widest mb-2">The Logic</div>
+        <div class="text-white/90 leading-relaxed">SAS 200 governs healthcare, mental healthcare, sanitation, and safe drinking water. ANC check-ups fall squarely under healthcare service delivery…</div>
+      </div>
+      <div class="bg-white/5 p-4 rounded-lg border border-white/10">
+        <div class="text-brand-100 font-semibold text-xs uppercase tracking-widest mb-2">The Trap</div>
+        <div class="text-white/90 leading-relaxed">Candidates pick SAS 400 (gender) because ANC targets women. But SAS 400 is about structural gender equality, not maternal health delivery…</div>
+      </div>
+      <div class="bg-white/5 p-4 rounded-lg border border-white/10">
+        <div class="text-brand-100 font-semibold text-xs uppercase tracking-widest mb-2">Cross-Exam Context</div>
+        <div class="text-white/90 leading-relaxed">X-A / X-B advisers recommend SSE-listed ZCZP bonds to donor HNIs for Section 80G benefit — this concept recurs in the adviser track…</div>
+      </div>
+      <div class="bg-white/5 p-4 rounded-lg border border-white/10">
+        <div class="text-brand-100 font-semibold text-xs uppercase tracking-widest mb-2">Assessor's Pro-Tip</div>
+        <div class="text-white/90 leading-relaxed">Triangulate hospital records + ANC register + village health worker log. Never accept a single source for a beneficiary count over 1,000…</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="rule"></div>
+
+<!-- PRODUCT -->
+<section id="product" class="section-pad">
+  <div class="kicker mb-4">Section 04 — Product</div>
+  <h2 class="text-3xl md:text-4xl font-semibold mb-8 max-w-3xl">One login. Every device. Every NISM exam.</h2>
+
+  <div class="grid md:grid-cols-3 gap-6 mb-10">
+    <div class="card card-pad">
+      <div class="w-10 h-10 rounded-lg bg-brand-50 flex items-center justify-center mb-4">
+        <svg class="w-5 h-5 text-brand-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+      </div>
+      <h3 class="font-semibold text-lg mb-1">Web (Next.js + Vercel)</h3>
+      <p class="text-sm text-dim">SEO-optimised landing page per exam, marketplace catalogue, full mock engine, dashboard. Ships in 8 weeks.</p>
+    </div>
+    <div class="card card-pad">
+      <div class="w-10 h-10 rounded-lg bg-brand-50 flex items-center justify-center mb-4">
+        <svg class="w-5 h-5 text-brand-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
+      </div>
+      <h3 class="font-semibold text-lg mb-1">iOS (Swift / SwiftUI)</h3>
+      <p class="text-sm text-dim">Native offline cache, practice widget, push streaks. Apple sign-in + Supabase Auth. Ships in weeks 9–16.</p>
+    </div>
+    <div class="card card-pad">
+      <div class="w-10 h-10 rounded-lg bg-brand-50 flex items-center justify-center mb-4">
+        <svg class="w-5 h-5 text-brand-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 18h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
+      </div>
+      <h3 class="font-semibold text-lg mb-1">Android (Kotlin / Compose)</h3>
+      <p class="text-sm text-dim">Same offline model, material design, Play Store optimisation per exam keyword. Parallel track with iOS.</p>
+    </div>
+  </div>
+
+  <div class="grid md:grid-cols-2 gap-6">
+    <div class="card card-pad">
+      <div class="kicker mb-3">Architecture</div>
+      <h3 class="font-semibold text-xl mb-3">Supabase as the unified identity and data layer</h3>
+      <ul class="space-y-2 text-sm text-dim">
+        <li class="bullet"><div><strong class="text-ink">Auth:</strong> magic link + Google + Apple, SDK-native on all three clients.</div></li>
+        <li class="bullet"><div><strong class="text-ink">Postgres:</strong> exams, topics, questions, attempts, subscriptions — row-level security for direct client reads.</div></li>
+        <li class="bullet"><div><strong class="text-ink">Payments:</strong> Razorpay (UPI + cards + net banking) for India; Stripe layered on later.</div></li>
+        <li class="bullet"><div><strong class="text-ink">Offline:</strong> SQLite cache of purchased exam content; attempts sync on reconnect.</div></li>
+        <li class="bullet"><div><strong class="text-ink">Cost:</strong> Supabase free tier covers 50K MAU; total infra &lt; ₹15K/month at 10K DAU.</div></li>
+      </ul>
+    </div>
+
+    <div class="card card-pad">
+      <div class="kicker mb-3">Why candidates stay</div>
+      <h3 class="font-semibold text-xl mb-3">Retention engine, not just a mock-test bank</h3>
+      <ul class="space-y-2 text-sm text-dim">
+        <li class="bullet"><div><strong class="text-ink">Spaced repetition</strong> of missed questions — proven memory protocol.</div></li>
+        <li class="bullet"><div><strong class="text-ink">Cross-exam recommender</strong> — "You cleared V-A; here's why X-A is your natural next step." LTV multiplier.</div></li>
+        <li class="bullet"><div><strong class="text-ink">Readiness score</strong> — topic-weighted, probabilistic pass-likelihood; transparent improvement plan.</div></li>
+        <li class="bullet"><div><strong class="text-ink">AI tutor</strong> (Phase 3) — RAG over the 4-section explanation corpus; chat-based doubt resolution.</div></li>
+        <li class="bullet"><div><strong class="text-ink">Pass guarantee</strong> — refund if first-attempt score &lt; 60 after N practice hours. Risk-reversal marketing.</div></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<div class="rule"></div>
+
+<!-- BUSINESS MODEL -->
+<section id="model" class="section-pad">
+  <div class="kicker mb-4">Section 05 — Business Model</div>
+  <h2 class="text-3xl md:text-4xl font-semibold mb-8 max-w-3xl">Freemium B2C + subscription + B2B enterprise seats.</h2>
+
+  <div class="card overflow-x-auto">
+    <table>
+      <thead>
+        <tr>
+          <th>Tier</th>
+          <th>Price</th>
+          <th>Includes</th>
+          <th>Target segment</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Free</strong></td>
+          <td><span class="num text-xl">₹0</span></td>
+          <td>50 Qs/day, 1 free full mock per exam, basic analytics</td>
+          <td>Funnel / SEO loss leader</td>
+        </tr>
+        <tr>
+          <td><strong>Single exam</strong></td>
+          <td><span class="num text-xl">₹399</span> <span class="text-dim text-xs">/ 30 days</span></td>
+          <td>Unlimited mocks, 4-section explanations, offline mobile, chapter practice</td>
+          <td>One-and-done candidates</td>
+        </tr>
+        <tr style="background: #F2FAF7;">
+          <td><strong style="color:#0F5236;">All-access</strong> <span class="tag tag-good ml-2">Recommended</span></td>
+          <td><span class="num text-xl">₹249</span> <span class="text-dim text-xs">/ mo</span> · <span class="num">₹1,999</span> <span class="text-dim text-xs">/ yr</span></td>
+          <td>All 31 exams, spaced repetition, cross-exam recommender, priority support</td>
+          <td>Career-path candidates, re-takers</td>
+        </tr>
+        <tr>
+          <td><strong>Career bundle</strong></td>
+          <td><span class="num text-xl">₹699</span></td>
+          <td>3 linked exams (e.g., V-A + V-B + X-A for advisor track)</td>
+          <td>New entrants to advisory</td>
+        </tr>
+        <tr>
+          <td><strong>B2B / Enterprise</strong></td>
+          <td><span class="num text-xl">₹99</span> <span class="text-dim text-xs">/ seat / mo</span> <span class="text-dim text-xs">(min 50)</span></td>
+          <td>Bulk licensing, cohort dashboard, progress reports, custom branding</td>
+          <td>AMCs, brokerages, insurance cos</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="grid md:grid-cols-2 gap-6 mt-8">
+    <div class="card card-pad">
+      <div class="kicker mb-3">GTM — B2C</div>
+      <ul class="space-y-3 text-sm text-ink">
+        <li class="bullet"><div>SEO landing pages per exam — the 4-section explanations are topical-authority gold.</div></li>
+        <li class="bullet"><div>YouTube shorts per tricky concept → free mock CTA.</div></li>
+        <li class="bullet"><div>LinkedIn persona-led content ("Sunita, SIA" posts Pro-Tips).</div></li>
+        <li class="bullet"><div>Quora genuinely-useful answers + soft CTA.</div></li>
+        <li class="bullet"><div>Referral: ₹100 credit both sides.</div></li>
+      </ul>
+    </div>
+    <div class="card card-pad">
+      <div class="kicker mb-3">GTM — B2B (where margin compounds)</div>
+      <ul class="space-y-3 text-sm text-ink">
+        <li class="bullet"><div>Target: HR/L&amp;D at HDFC AMC, ICICI Prudential, SBI MF, Zerodha, Upstox, Groww, LIC, HDFC Life.</div></li>
+        <li class="bullet"><div>A 500-seat HDFC Life contract at ₹99/mo = <strong>₹5.9 L/yr</strong> recurring.</div></li>
+        <li class="bullet"><div>Selling motion: content-proof (our depth), then pilot (25 seats free), then full rollout.</div></li>
+        <li class="bullet"><div>Analytics dashboard is the retention hook — L&amp;D teams need progress reports.</div></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<div class="rule"></div>
+
+<!-- ROADMAP -->
+<section id="roadmap" class="section-pad">
+  <div class="kicker mb-4">Section 06 — Roadmap</div>
+  <h2 class="text-3xl md:text-4xl font-semibold mb-8 max-w-3xl">From content asset to revenue in 120 days.</h2>
+
+  <div class="space-y-4">
+    <div class="card card-pad border-l-4 border-brand-600">
+      <div class="flex flex-wrap justify-between items-baseline gap-3 mb-2">
+        <h3 class="font-semibold text-xl">Phase 1 · Web MVP</h3>
+        <span class="text-sm text-dim">Weeks 1–8</span>
+      </div>
+      <p class="text-sm text-dim mb-3">Supabase auth · XML → Postgres ingest · exam picker · practice + mock engine · dashboard · Razorpay · 10 SEO landing pages. Launch with V-A (largest volume) but all 31 live.</p>
+      <div class="text-sm font-medium text-brand-700">Target: 1,000 sign-ups, 50 paying customers by day 60.</div>
+    </div>
+
+    <div class="card card-pad border-l-4 border-brand-600/60">
+      <div class="flex flex-wrap justify-between items-baseline gap-3 mb-2">
+        <h3 class="font-semibold text-xl">Phase 2 · Native mobile</h3>
+        <span class="text-sm text-dim">Weeks 9–16</span>
+      </div>
+      <p class="text-sm text-dim mb-3">iOS Swift/SwiftUI + Android Kotlin/Compose · shared Supabase backend · offline SQLite cache · push notifications · widgets · ASO per exam keyword.</p>
+      <div class="text-sm font-medium text-brand-700">Target: 10,000 downloads combined; 30% DAU/MAU on paid users.</div>
+    </div>
+
+    <div class="card card-pad border-l-4 border-brand-600/40">
+      <div class="flex flex-wrap justify-between items-baseline gap-3 mb-2">
+        <h3 class="font-semibold text-xl">Phase 3 · Moat features &amp; B2B</h3>
+        <span class="text-sm text-dim">Months 5–9</span>
+      </div>
+      <p class="text-sm text-dim mb-3">Spaced repetition · cross-exam recommender · AI tutor (RAG) · B2B dashboard · pass guarantee programme · referral engine.</p>
+      <div class="text-sm font-medium text-brand-700">Target: first 3 B2B contracts signed; ₹1 L MRR.</div>
+    </div>
+
+    <div class="card card-pad border-l-4 border-brand-600/25">
+      <div class="flex flex-wrap justify-between items-baseline gap-3 mb-2">
+        <h3 class="font-semibold text-xl">Phase 4 · Scale &amp; expansion</h3>
+        <span class="text-sm text-dim">Month 10+</span>
+      </div>
+      <p class="text-sm text-dim mb-3">IFSCA + GCC financial certifications · adjacent Indian certs (NCFM, IC, CFA India) · white-label for AMCs · international English-market expansion.</p>
+      <div class="text-sm font-medium text-brand-700">Target: ₹1 cr ARR exit-of-year-2.</div>
+    </div>
+  </div>
+</section>
+
+<div class="rule"></div>
+
+<!-- FINANCIALS -->
+<section id="financials" class="section-pad">
+  <div class="kicker mb-4">Section 07 — Financials</div>
+  <h2 class="text-3xl md:text-4xl font-semibold mb-8 max-w-3xl">Conservative path to break-even in Year-1, ₹1+ cr ARR in Year-2.</h2>
+
+  <div class="grid md:grid-cols-2 gap-6 mb-8">
+    <div class="card card-pad">
+      <div class="kicker mb-3">Year 1 — Conservative</div>
+      <table>
+        <tbody>
+          <tr><td>Free users (email captured)</td><td class="text-right num">50,000</td></tr>
+          <tr><td>Paid conversion (3%)</td><td class="text-right num">1,500</td></tr>
+          <tr><td>B2C revenue (mix of exam + sub)</td><td class="text-right num">₹ 8.1 L</td></tr>
+          <tr><td>B2B revenue (3 contracts avg)</td><td class="text-right num">₹ 9.0 L</td></tr>
+          <tr style="border-top: 2px solid #0B1220;"><td><strong>Total revenue</strong></td><td class="text-right num text-lg"><strong>₹ 17.1 L</strong></td></tr>
+          <tr><td>Tech &amp; infra spend</td><td class="text-right num text-dim">₹ 5–7 L</td></tr>
+          <tr><td><strong class="text-brand-700">Operating surplus</strong></td><td class="text-right num text-lg text-brand-700"><strong>~₹ 10 L</strong></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="card card-pad">
+      <div class="kicker mb-3">Year 2 — Stretch (if PMF)</div>
+      <table>
+        <tbody>
+          <tr><td>Paid B2C users</td><td class="text-right num">5,000</td></tr>
+          <tr><td>B2C ARPU (blended)</td><td class="text-right num">₹ 1,800</td></tr>
+          <tr><td>B2C ARR</td><td class="text-right num">₹ 90 L</td></tr>
+          <tr><td>B2B contracts</td><td class="text-right num">15</td></tr>
+          <tr><td>B2B ARR (avg ₹4 L)</td><td class="text-right num">₹ 60 L</td></tr>
+          <tr style="border-top: 2px solid #0B1220;"><td><strong>Total ARR</strong></td><td class="text-right num text-lg"><strong>₹ 1.5 cr</strong></td></tr>
+          <tr><td>Team + marketing</td><td class="text-right num text-dim">₹ 60–80 L</td></tr>
+          <tr><td><strong class="text-brand-700">Operating margin</strong></td><td class="text-right num text-lg text-brand-700"><strong>40%+</strong></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="card card-pad bg-paper border-2 border-brand-600/20">
+    <div class="grid md:grid-cols-3 gap-6">
+      <div>
+        <div class="kicker mb-1">Unit economics</div>
+        <div class="num text-3xl">₹ 1,800</div>
+        <div class="text-sm text-dim">Blended ARPU (B2C)</div>
+      </div>
+      <div>
+        <div class="kicker mb-1">Gross margin</div>
+        <div class="num text-3xl">85%+</div>
+        <div class="text-sm text-dim">Software-native; content already built</div>
+      </div>
+      <div>
+        <div class="kicker mb-1">CAC target</div>
+        <div class="num text-3xl">&lt; ₹ 300</div>
+        <div class="text-sm text-dim">SEO-led; 6× LTV/CAC minimum</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="rule"></div>
+
+<!-- RISK -->
+<section class="section-pad">
+  <div class="kicker mb-4">Section 08 — Risks &amp; mitigations</div>
+  <h2 class="text-3xl md:text-4xl font-semibold mb-8 max-w-3xl">Honest view of what could go wrong.</h2>
+
+  <div class="grid md:grid-cols-2 gap-4">
+    <div class="card card-pad">
+      <div class="tag tag-mid mb-2">Content drift</div>
+      <p class="text-sm text-dim"><strong class="text-ink">Risk:</strong> SEBI updates syllabus, our bank goes stale. <strong class="text-ink">Mitigation:</strong> version-controlled Git repo with monthly refresh cadence; automated SEBI circular monitoring (same pipeline we already run).</p>
+    </div>
+    <div class="card card-pad">
+      <div class="tag tag-mid mb-2">Price race to the bottom</div>
+      <p class="text-sm text-dim"><strong class="text-ink">Risk:</strong> incumbent drops to ₹99/mo. <strong class="text-ink">Mitigation:</strong> compete on depth (4-section explanations) and catalogue breadth, not price. B2B margin insulates B2C.</p>
+    </div>
+    <div class="card card-pad">
+      <div class="tag tag-mid mb-2">Sales cycle on B2B</div>
+      <p class="text-sm text-dim"><strong class="text-ink">Risk:</strong> enterprise HR/L&amp;D moves slowly. <strong class="text-ink">Mitigation:</strong> free pilot (25 seats, 30 days) lowers activation friction; B2C revenue sustains the business while B2B matures.</p>
+    </div>
+    <div class="card card-pad">
+      <div class="tag tag-mid mb-2">Platform dependency</div>
+      <p class="text-sm text-dim"><strong class="text-ink">Risk:</strong> Supabase / Vercel pricing change. <strong class="text-ink">Mitigation:</strong> Postgres + open-source SDKs → portable to any provider with 1–2 weeks of migration work.</p>
+    </div>
+  </div>
+</section>
+
+<div class="rule"></div>
+
+<!-- ASK -->
+<section id="ask" class="section-pad pb-28">
+  <div class="kicker mb-4">Section 09 — The Ask</div>
+  <div class="card card-pad md:p-12 bg-ink text-white border-none">
+    <h2 class="text-3xl md:text-5xl font-semibold mb-6 max-w-3xl">A content asset worth ₹1+ cr in sunk labour, ready to monetise.</h2>
+    <p class="text-lg text-white/70 mb-8 max-w-2xl">We have built the hardest part — 13,393 production-ready questions across all 31 NISM exams with expert-depth explanations. The distribution layer (web + iOS + Android) is 16 weeks away. Seeking strategic capital to accelerate native-app build and B2B go-to-market.</p>
+
+    <div class="grid md:grid-cols-3 gap-6 mb-10">
+      <div>
+        <div class="num text-5xl text-brand-100">₹ 40 L</div>
+        <div class="text-sm text-white/70 mt-1">18-month runway ask</div>
+      </div>
+      <div>
+        <div class="num text-5xl text-brand-100">16 wks</div>
+        <div class="text-sm text-white/70 mt-1">to first ₹ in MRR</div>
+      </div>
+      <div>
+        <div class="num text-5xl text-brand-100">₹ 1.5 cr</div>
+        <div class="text-sm text-white/70 mt-1">Year-2 ARR target</div>
+      </div>
+    </div>
+
+    <div class="text-sm text-white/60">
+      <strong class="text-white">Use of funds:</strong> 50% engineering (2 × native mobile devs, 1 × backend), 25% content operations (editor + regulatory monitor), 15% marketing (SEO + paid pilots), 10% G&amp;A and compliance.
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="no-print border-t hairline mt-12 py-10">
+  <div class="max-w-6xl mx-auto px-6 flex flex-wrap justify-between gap-4 text-sm text-dim">
+    <div>
+      <div class="font-display font-semibold text-ink">NISM Prep · Investor Brief · April 2026</div>
+      <div class="mt-1">Confidential — for discussion purposes only. Not an offer of securities.</div>
+    </div>
+    <div class="flex items-center gap-5">
+      <a href="#top" class="hover:text-ink">Top ↑</a>
+      <button onclick="window.print()" class="hover:text-ink">Print</button>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
