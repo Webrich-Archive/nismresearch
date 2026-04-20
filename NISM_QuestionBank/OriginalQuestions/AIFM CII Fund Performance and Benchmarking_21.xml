@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CII Fund Performance and Benchmarking_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under SEBI's benchmarking operational guidelines (Box 7.3), performance data and benchmarks must be reported in:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[INR terms only.]]></text></answer>
+            <answer correct="no"><text><![CDATA[The currency of the lead investor's domicile.]]></text></answer>
+            <answer correct="no"><text><![CDATA[USD terms only.]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Both INR and USD terms.]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per Box 7.3(l): 'The performance data and benchmarks shall be reported in both INR and USD terms.' This dual reporting enables domestic LPs to read INR while foreign LPs (FPIs, offshore LPs via GIFT City) read USD.
+**The Trap:** INR only excludes offshore LPs. USD only hides FX sensitivity for domestic LPs. Lead-investor-domicile is not a SEBI requirement.
+**Cross-Exam Context:** XIX-C tests identical requirement. Global Preqin/Cambridge benchmarks are always USD — so the USD leg of AIF reporting permits cross-border benchmarking.
+**Manager's Pro-Tip:** Publish your Benchmark Report with USD conversions at RBI reference rate at each measurement date — ad-hoc FX sourcing (Bloomberg mid) has been flagged by SEBI inspection as inconsistent basis.]]></text></explanation>
+    </question>
+</QF>

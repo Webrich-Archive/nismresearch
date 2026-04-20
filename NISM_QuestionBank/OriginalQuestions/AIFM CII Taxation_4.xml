@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CII Taxation_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Himalaya Credit Opportunities Fund (Cat II AIF) credits INR 1 crore of INTEREST income (pass-through) to Blue Ocean Capital LLC, a US-tax-resident LP that has furnished a valid Tax Residency Certificate and Form 10F. The India-US DTAA prescribes a 15% rate on such interest, while the Finance Act rate-in-force is 20%. What is the correct withholding under Section 194LBB?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[INR 10 lakh (10%, same as residents).]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 20 lakh (20%, the statutory rate-in-force must always apply).]]></text></answer>
+            <answer correct="yes"><text><![CDATA[INR 15 lakh (15% per DTAA, because it is more beneficial than rate-in-force).]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 30 lakh (30%, being the peak slab for non-residents).]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Section 194LBB(b) requires TDS on non-residents' non-business income at 'rates in force' OR the applicable DTAA rate, whichever is more beneficial to the taxpayer. The US DTAA rate of 15% beats the 20% rate-in-force, so TDS = 1,00,00,000 x 15% = INR 15 lakh. The LP must have furnished TRC + Form 10F for the Manager to legitimately apply the treaty rate; without these documents the Manager must default to 20%.
+**The Trap:** Option A is the resident rate — wrong for a US LP. Option C ignores Section 90(2)'s 'more beneficial' rule. Option D invents a non-existent 30% slab for NR interest. A common trap is forgetting that 20% under 194LBB is for DIVIDEND-to-NR, not interest.
+**Cross-Exam Context:** XIX-C tests this same treaty-override logic. X-A/X-B (Investment Adviser) touch on DTAA selection for client planning. In XV (Research Analyst) treaty benefits appear only in context of company-level WHT on cross-border dividends. Always verify TRC is for the tax year of payment, not an older one.
+**Manager's Pro-Tip:** As a Manager, build an 'LP tax-status matrix' mapping each LP's residency, treaty, TRC expiry and Form 10F status. Refresh before every distribution cycle. If a TRC lapses mid-year, your compliance officer should proactively request renewal to avoid over-withholding and LP disputes.]]></text></explanation>
+    </question>
+</QF>

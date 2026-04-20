@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CII Regulatory Framework_40" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Mandovi Private Credit Fund (Cat II) declares its First Close with total capital commitments of INR 18 crore. Is this First Close valid under SEBI (AIF) Regulations?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Yes — First Close can be declared at any commitment level]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes — if the Sponsor waives its continuing interest]]></text></answer>
+            <answer correct="yes"><text><![CDATA[No — at First Close, the corpus shall NOT be less than INR 20 crore minimum prescribed under the AIF Regulations (Social Impact Funds: INR 5 crore)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes — if the fund converts to a Special Situation Fund]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per SEBI (AIF) Regulations, at the date of declaration of First Close, the corpus of an AIF shall NOT be less than the MINIMUM CORPUS OF INR 20 CRORE (or INR 5 crore for Social Impact Funds). Sponsor commitment in the AIF at First Close shall not be reduced/withdrawn/transferred thereafter. LVFs additionally must declare First Close within 12 months of registration/PPM filing (whichever later).
+**The Trap:** Options A/B ignore the corpus floor. Option D (conversion to SSF mid-stream to relax) is operationally impossible; SSFs have their own INR 100 crore minimum corpus (higher, not lower).
+**Cross-Exam Context:** XIX-C and XIX-A test the minimum corpus threshold. Compare SSF (INR 100 cr min), Social Impact (INR 5 cr min), Angel Fund (no min corpus but 5-AI-minimum onboarding rule), CDMDF (no corpus min but 15-year tenure).
+**Manager's Pro-Tip:** Build a 'First-Close conditional escrow' in your Contribution Agreement — LP commitments are held in escrow until INR 20 crore threshold is achieved, then released and invested. If you fail to hit INR 20 cr within the reasonable target window, LPs get refund of escrow principal — avoid defaulting into a de-registration spiral.]]></text></explanation>
+    </question>
+</QF>

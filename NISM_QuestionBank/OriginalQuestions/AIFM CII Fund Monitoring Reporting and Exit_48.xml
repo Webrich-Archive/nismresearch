@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CII Fund Monitoring Reporting and Exit_48" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Himalaya Opportunities Fund (Cat II) has called INR 800 crore and distributed INR 1,440 crore to LPs with residual NAV of INR 160 crore. What is the fund's DPI (Distributions to Paid-In)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[1.8x]]></text></answer>
+            <answer correct="no"><text><![CDATA[2.0x]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.4x]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.2x]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** DPI = Cumulative Distributions to LPs / Paid-in Capital = 1,440 / 800 = 1.8x. TVPI would be (1,440+160)/800 = 2.0x. RVPI (residual value to paid-in) = 160/800 = 0.2x. The question asks specifically for DPI = 1.8x.
+**The Trap:** 2.0x is TVPI (includes residual NAV). 0.2x is RVPI alone. 1.4x is wrong arithmetic — possibly from (1440-160)/800 = 1.6x misread (still wrong).
+**Cross-Exam Context:** XIX-C tests the same ratios. DPI is the most 'cash' metric — LPs treat it as the only hard realisation measure. TVPI and RVPI remain mark-to-market.
+**Manager's Pro-Tip:** Lead your LP report with DPI, not TVPI. A 2.0x TVPI with 0.8x DPI says 'my marks are high, my realisations are low' — LPs will discount your claimed returns by 30-40%.]]></text></explanation>
+    </question>
+</QF>

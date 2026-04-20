@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CII Fee Structure_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Maurya VC Fund (Cat I AIF): Committed Capital INR 500 crore. Commitment period ends at end of Year 3. PPM states: 'Management Fee = 2.0% on Committed Capital during the commitment period; 1.5% on INVESTED CAPITAL (at cost, net of write-offs) thereafter.' At start of Year 4, Invested Capital at cost = INR 360 crore (no write-offs). What is the Year 4 management fee (EXCLUDING GST)?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[INR 10.00 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 7.20 crore]]></text></answer>
+            <answer correct="yes"><text><![CDATA[INR 5.40 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 9.00 crore]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Post the commitment period, the base SWITCHES. Year 4 base = INR 360 crore (invested capital, no write-offs). Year 4 fee = 1.5% x INR 360 crore = INR 5.40 crore. This base-step-down protects LPs once the GP stops deploying new capital.
+**The Trap:** A is the fee if you wrongly kept 2.0% on INR 500 crore (ignored the step-down in rate AND base); B applies 2.0% to INR 360 crore (wrong rate); D applies 1.5% to committed capital of INR 500 x 1.2 (fabricated).
+**Cross-Exam Context:** XIX-C tests this base switch. XIX-E (Cat III) never has a commitment period, so this concept is absent — Cat III daily NAV-based fees apply throughout — but that is not testable in XIX-D.
+**Manager's Pro-Tip:** When drafting the LPA, specify whether 'Invested Capital' means at original cost, at cost net of realisations, or at cost net of write-downs. Each definition moves the fee base materially. Sophisticated LPs insist on 'at cost, net of partial and full realisations and write-offs' — the tightest form.]]></text></explanation>
+    </question>
+</QF>

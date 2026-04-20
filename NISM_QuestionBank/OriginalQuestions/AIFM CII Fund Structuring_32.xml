@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CII Fund Structuring_32" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Mr. Rohan Desai commits INR 5 crore to 'Krishna Growth AIF'. Over 2 years he receives drawdown notices of 10%, 15%, 25% and 20% of commitments successively. Total wired after all four calls:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[INR 2.50 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 3.00 crore]]></text></answer>
+            <answer correct="yes"><text><![CDATA[INR 3.50 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 3.75 crore]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Total drawdown % = 10 + 15 + 25 + 20 = 70%. 70% x INR 5 crore = INR 3.50 crore wired. Unfunded commitment remaining = INR 1.50 crore (30%).
+**The Trap:** INR 2.50 cr uses 50% total (missing a call). INR 3.00 cr uses 60%. INR 3.75 cr uses 75%.
+**Cross-Exam Context:** XIX-C tests progressive drawdown math. Ch 11 Monitoring covers unfunded commitment tracking.
+**Manager's Pro-Tip:** Report 'unfunded commitment' to each LP every quarter with YTD drawdowns - LPs track this for their own liquidity and risk planning.]]></text></explanation>
+    </question>
+</QF>

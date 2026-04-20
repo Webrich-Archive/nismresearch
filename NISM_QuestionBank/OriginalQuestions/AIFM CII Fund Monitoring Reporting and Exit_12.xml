@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CII Fund Monitoring Reporting and Exit_12" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under Regulation 27 of the SEBI (AIF) Regulations, how long after the winding up of an AIF must the Manager/Sponsor retain records such as valuation policies, investment strategies, investor particulars and contribution, and investment rationale?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[3 years.]]></text></answer>
+            <answer correct="yes"><text><![CDATA[5 years.]]></text></answer>
+            <answer correct="no"><text><![CDATA[8 years.]]></text></answer>
+            <answer correct="no"><text><![CDATA[10 years.]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Regulation 27 requires records of (a) assets under the fund/scheme, (b) valuation policies and practices, (c) investment strategies, (d) particulars of investors and contribution, and (e) rationale for investments — to be maintained for 5 years AFTER the winding up of the fund.
+**The Trap:** 3 years is the common Income-tax retention period (but extended for scrutiny). 8 years is the PMLA record retention norm (cross-cat, for onboarding docs). 10 years is a common ERISA/US norm, not Indian AIF.
+**Cross-Exam Context:** XXIV (AML) drills 5-year PMLA retention for KYC/CDD separately. Do not confuse Reg 27 (post-winding-up) with PMLA (ongoing from transaction date).
+**Manager's Pro-Tip:** Cloud-archive all valuation committee minutes, IC memos, and investor wire instructions in a dedicated S3 bucket with 5-year lifecycle policy. SEBI inspections post-winding-up DO happen, and absence of records is an independent compliance failure.]]></text></explanation>
+    </question>
+</QF>

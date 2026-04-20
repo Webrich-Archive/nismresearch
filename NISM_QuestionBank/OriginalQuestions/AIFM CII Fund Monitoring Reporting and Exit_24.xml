@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CII Fund Monitoring Reporting and Exit_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Lotus Private Equity Fund (Cat II) called INR 500 crore from LPs over its investment period. At final exit, total distributions to LPs are INR 900 crore, and residual NAV is INR 200 crore. What is the fund's TVPI (Total Value to Paid-in) multiple?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[1.8x]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.4x]]></text></answer>
+            <answer correct="yes"><text><![CDATA[2.2x]]></text></answer>
+            <answer correct="no"><text><![CDATA[2.0x]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** TVPI = (Distributions + Residual NAV) / Paid-in Capital = (900 + 200) / 500 = 1,100 / 500 = 2.2x. DPI alone would be 900/500 = 1.8x; RVPI alone would be 200/500 = 0.4x. TVPI = DPI + RVPI = 2.2x.
+**The Trap:** 1.8x is DPI only (distributions-to-paid-in), missing the residual NAV. 1.4x is wrong arithmetic. 2.0x would imply 1,000/500, ignoring the 100 crore.
+**Cross-Exam Context:** XIX-C tests TVPI math. XXI-B PMS exam tests time-weighted returns instead (different world). XIX-A distributor exam uses TVPI conceptually for LP reporting.
+**Manager's Pro-Tip:** Always report DPI and TVPI side-by-side. A 2.0x+ TVPI with low DPI means you still have mark-to-market risk — LPs in Fund II will haircut your 'realised' credibility if DPI lags.]]></text></explanation>
+    </question>
+</QF>

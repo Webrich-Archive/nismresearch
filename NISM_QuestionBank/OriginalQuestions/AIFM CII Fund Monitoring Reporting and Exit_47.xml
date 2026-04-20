@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CII Fund Monitoring Reporting and Exit_47" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under Regulation 20 of the SEBI (AIF) Regulations, the Investment Manager and the Trustee / Board of Directors / Designated Partners must ensure that:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Assets and liabilities of each scheme are segregated and ring-fenced from other schemes, and bank/securities accounts of each scheme are segregated and ring-fenced.]]></text></answer>
+            <answer correct="no"><text><![CDATA[All schemes of the AIF share a common bank account for operational efficiency.]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only Cat III schemes need ring-fencing; Cat I/II can pool.]]></text></answer>
+            <answer correct="no"><text><![CDATA[Ring-fencing is optional and depends on PPM drafting.]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per Regulation 20(5) (as amended): 'The Investment Manager and either the trustee or the trustee company or the Board of Directors or designated partners of the AIF, as the case may be, shall ensure that the assets and liabilities of each scheme of the AIF are SEGREGATED and RING-FENCED from other schemes of the AIF; and bank accounts and securities accounts of each scheme are segregated and ring-fenced.'
+**The Trap:** Pooled bank accounts (Option B) would breach the express rule. Cat-based carve-outs (Option C) and optional ring-fencing (Option D) contradict the regulation.
+**Cross-Exam Context:** XIX-C identical. Parallels exist in MF Regulations (scheme-level ring-fencing) and ULIP segregation.
+**Manager's Pro-Tip:** Use separate Legal Entity Identifiers (LEIs) or at minimum separate CUSIP-style scheme codes at the custodian and bank. An inspection finding of 'commingled scheme accounts' is a Regulation 20 breach with penalty exposure.]]></text></explanation>
+    </question>
+</QF>

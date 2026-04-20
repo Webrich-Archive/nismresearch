@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CII Regulatory Framework_8" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Saffron Capital Pvt. Ltd., a family-owned body corporate, seeks Accredited Investor certification to participate in an LVF. Its last audited accounts show: Paid-up capital INR 20 crore, Free Reserves INR 40 crore, Accumulated Losses INR 5 crore, Unwritten-off Deferred Expenditure INR 3 crore. Does it qualify?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Yes — net worth of INR 60 crore meets the INR 50 crore body-corporate threshold]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes — capital plus reserves alone is INR 60 crore, comfortably above INR 50 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[No — computed net worth is INR 52 crore, but body-corporate AI threshold is INR 100 crore]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Yes — computed net worth = (20 + 40) – (5 + 3) = INR 52 crore, which exceeds the INR 50 crore body-corporate AI threshold]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Body-corporate AI threshold is net worth ≥ INR 50 crore. Net Worth for a body corporate = (Capital + Free Reserves) – (Accumulated Losses + Deferred Expenditure not written off) = (20 + 40) – (5 + 3) = INR 52 crore. This clears the INR 50 crore minimum.
+**The Trap:** Options A/B ignore the deductions for accumulated losses and deferred expenditure. Option C fabricates INR 100 crore (that's the SEBI-registered FPI Cat-I criteria, not AI). Always apply the exact net-worth formula specified in the framework.
+**Cross-Exam Context:** XIX-C and XIX-A test body-corporate AI mechanics. XV Research Analyst and XXI-B Portfolio Manager also reference body-corporate AI. For Trusts (other than family trusts), the definition changes: NW = Book value of assets (excl intangibles) – book value of total liabilities — keep Trust vs body-corporate formulas separate.
+**Manager's Pro-Tip:** When onboarding corporate LPs, request the auditor's certificate specifying each line-item — don't rely on management-signed balance sheets. Deferred expenditure is a common sleeper: legal and pre-operative costs often sit there and swing NW below threshold.]]></text></explanation>
+    </question>
+</QF>

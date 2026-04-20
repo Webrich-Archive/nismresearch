@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CII Valuation_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Kuru Debt Fund holds a INR 100 face value bond with 9% semi-annual coupon. The last coupon was paid 90 days ago; next coupon due in 92 days (assume 182-day period). The bond's quoted clean price is INR 98. What is the dirty price (settlement price including accrued interest)?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[INR 98.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 100.22]]></text></answer>
+            <answer correct="yes"><text><![CDATA[INR 100.23]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 102.24]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Semi-annual coupon = 9% / 2 x 100 = INR 4.50. Accrued interest = 4.50 x (90 / 182) = 4.50 x 0.4945 = INR 2.225. Dirty price = Clean price + Accrued = 98 + 2.225 = INR 100.23.
+**The Trap:** INR 98.00 ignores accrued interest (a common error conflating clean and dirty); INR 100.22 uses 89/182; INR 102.24 uses the full coupon. Accrued interest is always the proportional share of the NEXT coupon earned to date.
+**Cross-Exam Context:** XIX-C tests identical clean/dirty mechanics. NISM Series-VII (SOC) and XV tests it with day-count conventions (30/360 vs Actual/Actual). For G-Secs in India, Actual/365 is standard; for corporates, 30/360 is common.
+**Manager's Pro-Tip:** For Cat II debt AIFs valuing unlisted NCDs at quarterly NAV, ensure your fund administrator uses dirty price for settlement value in the NAV computation, and clean price only for benchmarking. Errors here affect LP reporting and carry calculations.]]></text></explanation>
+    </question>
+</QF>

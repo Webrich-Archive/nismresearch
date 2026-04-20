@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CII Fund Performance and Benchmarking_18" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For the purpose of performance reporting and benchmarking under SEBI's framework, 'Assets under Management' of a Scheme is defined as:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The fair value of investments plus undrawn commitments.]]></text></answer>
+            <answer correct="no"><text><![CDATA[The total committed capital of all investors.]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The value of total capital drawn down under the Scheme.]]></text></answer>
+            <answer correct="no"><text><![CDATA[The Gross NAV minus unrealised losses.]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per Box 7.3(f): 'Assets under Management (AUM) for the purpose of reporting and benchmarking shall be the value of total capital drawn down under the Scheme.' This pins AUM to actual PIC, ensuring comparable basis across funds regardless of dry powder.
+**The Trap:** A includes undrawn commitments — that's 'Commitments' not AUM. B uses gross commitment — would overstate active capital. D is a valuation convention, not AUM definition.
+**Cross-Exam Context:** XIX-C tests identical definition. Contrast with XXI-B PMS where AUM is market value of securities under management (no commitment concept).
+**Manager's Pro-Tip:** When responding to LP AUM questionnaires, clarify which AUM basis: SEBI benchmarking-AUM (drawn capital) vs commitment-AUM vs mark-to-market NAV. Each has a different magnitude; LPs use them for different purposes.]]></text></explanation>
+    </question>
+</QF>

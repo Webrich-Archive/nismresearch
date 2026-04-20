@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CII Fee Structure_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Mahalaxmi VC Fund II (Cat I): Committed INR 100 cr (fully called). Terminal NAV INR 150 cr. Hurdle 8% simple (accrued as: 8% x 4 yrs = INR 32 crore). Incentive Fee 20% of TOTAL profits with a 50/50 PARTIAL catch-up (i.e., 50% of excess-over-hurdle goes to GP, 50% to LPs until GP catches up to 20% of total profit). How much does GP earn in CARRY before any final 80/20 split of residual above the catch-up?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[INR 9.00 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 10.00 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 5.00 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 3.60 crore]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Total profit = INR 50 cr. GP target = 20% x INR 50 = INR 10 cr. Hurdle slug = INR 32 cr (LPs get this first). Residual after hurdle = INR 50 - 32 = INR 18 cr. Under 50/50 catch-up, GP takes 50% of each rupee of residual until GP total reaches INR 10 cr — so GP needs INR 10 cr of catch-up distributions. To give GP INR 10 cr at a 50/50 split, INR 20 cr must flow (INR 10 to GP, INR 10 to LPs). But only INR 18 cr of residual exists, so GP receives 50% of INR 18 = INR 9 crore in the catch-up layer. (GP does NOT reach full INR 10 cr target.)
+**The Trap:** B assumes GP reaches its full INR 10 cr target (ignores the shortfall); C is 50% of hurdle itself (nonsensical); D is 20% x INR 18 cr without catch-up.
+**Cross-Exam Context:** Partial catch-up is common in mid-market Indian PE/VC. XIX-C covered this; XIX-E has no catch-up concept (Cat III uses HWM crystallisation).
+**Manager's Pro-Tip:** Partial catch-ups (50/50 or 80/20) are LP-friendlier and often the compromise in competitive fundraises. Model both 100% and 50/50 at the PPM stage and let anchor LPs choose — this often unlocks the anchor commitment.]]></text></explanation>
+    </question>
+</QF>

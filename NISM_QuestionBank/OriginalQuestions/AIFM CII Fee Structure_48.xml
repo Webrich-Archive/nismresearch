@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CII Fee Structure_48" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the CLAWBACK calculation per Chapter 6, 'losses' on subsequent failed investments are reckoned against what?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Net of both capital commitments and compounded hurdle return]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Net of capital commitments only — the hurdle return is NOT considered in clawback loss calculation, even though hurdle represents opportunity cost]]></text></answer>
+            <answer correct="no"><text><![CDATA[Gross of GST and transaction expenses]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only at fund-winding formal liquidation]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Chapter 6.3.2 explicitly: 'The losses are generally calculated after reducing the sales proceeds from the CAPITAL COMMITTED. However, the hurdle return on such capital committed is NOT considered for this calculation, even though Hurdle refers to the Opportunity Cost of capital for the investor.'
+**The Trap:** A over-includes hurdle; C is unrelated; D confuses timing with computation.
+**Cross-Exam Context:** XIX-C covers the exact nuance. A common LP complaint — but chapter codifies current Indian practice.
+**Manager's Pro-Tip:** LPs should negotiate a 'full-inclusive' clawback (hurdle-adjusted) in the LPA if they want stronger protection. Standard clawback leaves GP able to keep carry even if net returns fall below the hurdle — a gap worth flagging at PPM negotiation.]]></text></explanation>
+    </question>
+</QF>

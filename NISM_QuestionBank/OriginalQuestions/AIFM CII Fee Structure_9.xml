@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CII Fee Structure_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Chola Growth Capital (Cat II AIF): Committed Capital INR 50 crore (fully called). Fund Tenure 3 years. Terminal NAV at end of Year 3 = INR 70 crore. Hurdle Rate 10% compounded. Incentive Fee 20% of TOTAL profits WITH 100% catch-up. Following the chapter's Example 6.5 methodology, what amount does the MANAGER receive?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[INR 4.00 crore (full pre-determined share)]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 2.00 crore (half of pre-determined share)]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 0.69 crore (20% of residual after hurdle)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[INR 3.45 crore (residual profit absorbed by GP)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Total profit = INR 70 - 50 = INR 20 crore. GP's pre-determined share = 20% x INR 20 cr = INR 4 crore. Hurdle return over 3 yrs compounded = INR 50 x (1.10)^3 - 50 = INR 16.55 crore. Capital + hurdle to LPs = INR 66.55 crore. Residual profit = INR 70 - 66.55 = INR 3.45 crore. Under 100% CATCH-UP, 100% of this residual goes to GP until GP reaches INR 4 cr. Since INR 3.45 < INR 4, entire INR 3.45 cr goes to Manager. This replicates Example 6.5 exactly.
+**The Trap:** A is the target share that the GP does NOT reach; C is the no-catch-up outcome (20% of INR 3.45 cr = INR 0.69 cr); D is arbitrary.
+**Cross-Exam Context:** Example 6.5 from the NISM workbook is the foundation for multiple XIX-C and XIX-D calc items. XIX-E (Cat III) would use HWM crystallisation, not deal waterfalls.
+**Manager's Pro-Tip:** The catch-up clause is the single biggest carry driver at modest-return vintages. Use a sensitivity table in your PPM: at 12% fund IRR the catch-up moves GP carry by INR crore figures — explain this clearly to LPs to avoid surprise at wind-up.]]></text></explanation>
+    </question>
+</QF>

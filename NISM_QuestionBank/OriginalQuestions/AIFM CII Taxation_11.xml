@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CII Taxation_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Lotus Capital AIF pays its Investment Manager, Lotus Fund Advisors LLP, management fees of INR 4 crore for FY 2025-26. The Manager is based in Mumbai, the fund is domiciled in Maharashtra, and all LPs are resident. What is the correct indirect-tax treatment?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[No GST — AIF management is exempt under the financial-services notification.]]></text></answer>
+            <answer correct="no"><text><![CDATA[GST at 12% on management fees.]]></text></answer>
+            <answer correct="no"><text><![CDATA[GST at 28% (luxury services slab).]]></text></answer>
+            <answer correct="yes"><text><![CDATA[GST at 18% (CGST 9% + SGST 9% intra-state) on INR 4 crore, i.e., INR 72 lakh, borne by the fund.]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** GST is levied at 18% on investment management services and trusteeship services provided to an AIF (per the chapter's section on 'Other applicable taxes'). Since the Manager and the Fund are both in Maharashtra, the supply is intra-state: CGST 9% + SGST 9% = 18%. GST = 4 crore x 18% = INR 72 lakh, payable by the Manager and recoverable from the fund as part of the fee invoice.
+**The Trap:** Option A is wrong — AIF management is a taxable service. Option C applies a wrong rate (12% is typical for certain construction/hotel services). Option D applies the 28% luxury rate, which doesn't apply to financial services.
+**Cross-Exam Context:** XIX-C tests this same 18% GST. XXI-B (Portfolio Manager) also applies 18% on PMS fees. XV (Research Analyst) tests 18% GST on research fees. IFSC-GIFT is the key exception: services rendered by an IFSC manager to a non-resident LP attract no GST.
+**Manager's Pro-Tip:** When negotiating the Manager fee schedule with the trustee, clarify whether fees are 'inclusive' or 'exclusive' of GST — otherwise a 1% NAV-based fee silently becomes 1.18% gross to the fund. Build the GST gross-up explicitly into the IMA and PPM expense disclosure.]]></text></explanation>
+    </question>
+</QF>

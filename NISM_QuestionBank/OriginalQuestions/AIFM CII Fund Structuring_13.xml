@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CII Fund Structuring_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following sequences correctly represents the hierarchy of constitutional documents for a trust-form AIF, from highest to lowest?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Investment Management Agreement > Trust Deed > PPM > Contribution Agreement]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Trust Deed > Investment Management Agreement > PPM > Contribution Agreement]]></text></answer>
+            <answer correct="no"><text><![CDATA[PPM > Trust Deed > Investment Management Agreement > Contribution Agreement]]></text></answer>
+            <answer correct="no"><text><![CDATA[Contribution Agreement > PPM > Investment Management Agreement > Trust Deed]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The Trust Deed is the foundational document that creates the fund and appoints the trustee. The trustee then signs the Investment Management Agreement with the Manager. The PPM is the disclosure document to LPs based on the IMA; the Contribution Agreement is the bilateral subscription contract between the fund and each LP. Precedence: Trust Deed > IMA > PPM > Contribution Agreement.
+**The Trap:** Placing IMA above Trust Deed inverts the creation order. PPM first ignores that PPM is disclosure only. Contribution Agreement first wrongly elevates an individual LP's subscription contract.
+**Cross-Exam Context:** XIX-C Ch 8 tests the same hierarchy. XIX-A tests it at distributor level (what the distributor must give the client).
+**Manager's Pro-Tip:** In a side-letter dispute, the Trust Deed overrides even the most generous side-letter - so draft the deed with a comprehensive 'manager discretion' clause up front.]]></text></explanation>
+    </question>
+</QF>

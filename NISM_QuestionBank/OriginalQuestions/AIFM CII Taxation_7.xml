@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CII Taxation_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Meridian Special Situations Fund (Cat II AIF) is set up as a trust. During documentation, the Manager's tax counsel emphasises that the Trust Deed must make the beneficiaries' shares 'determinate' at inception. If the trust is deemed indeterminate under Section 161(1A) of the ITA, what is the primary adverse consequence?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The trust loses SEBI registration automatically.]]></text></answer>
+            <answer correct="no"><text><![CDATA[The trust is taxed at 12.5% LTCG on all income.]]></text></answer>
+            <answer correct="no"><text><![CDATA[Unitholders lose the right to claim TDS credit.]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The trust becomes liable to tax at the Maximum Marginal Rate (MMR) on its ENTIRE income at the fund level, defeating the pass-through benefit intended by Section 115UB.]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Section 161(1A) of the ITA provides that where the individual shares of beneficiaries in a trust are INDETERMINATE or UNKNOWN, the trustee is liable to tax at MMR on the ENTIRE income of the trust (as a representative assessee). Even though Section 115UB overlays pass-through treatment, practitioners draft AIF trust deeds as 'determinate' (beneficiaries and their shares identifiable at trust creation) to avoid any argument that 161(1A) could be invoked and collapse the pass-through benefit.
+**The Trap:** Option A conflates tax classification with SEBI registration status. Option C applies the LTCG rate which has no connection to 161(1A). Option D confuses TDS credit mechanics with trust-law classification.
+**Cross-Exam Context:** XIX-C tests 161(1A) as the structural underpinning of why almost every Cat I/II AIF is a determinate contributory irrevocable trust. XIX-A skims this. XXI-B (PMS) is not a trust so 161(1A) is irrelevant there. The draft trust deed should name the investor class and distribution formula upfront — not 'to be determined later'.
+**Manager's Pro-Tip:** At fund-set-up, insist your legal counsel builds a closing-date 'contribution table' referenced in the Trust Deed that crystallises LP shares at each drawdown. If a late LP comes in via a subsequent-close mechanism, ensure the equalisation adjustment mechanism preserves determinacy.]]></text></explanation>
+    </question>
+</QF>

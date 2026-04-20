@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CII Taxation_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Sunrise Opportunities Fund (Cat II AIF) distributes pass-through LTCG on listed equity (STT paid on both acquisition and transfer) of INR 3,25,000 to its resident LP, Ms. Ananya Kulkarni, for the exits made after 23-07-2024. Ignoring surcharge and cess, what is Ms. Kulkarni's tax on this LTCG?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[INR 40,625 (12.5% on full INR 3,25,000).]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 32,500 (10% on INR 3,25,000 — old LTCG rate).]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 65,000 (20% on INR 3,25,000 — treated as STCG).]]></text></answer>
+            <answer correct="yes"><text><![CDATA[INR 25,000 (12.5% on INR 2,00,000 after exempting INR 1,25,000).]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Section 112A, as amended by the Finance (No.2) Act 2024, exempts the first INR 1,25,000 of aggregate LTCG on listed equity with STT paid (from transfers on/after 23-07-2024) and taxes the excess at 12.5% (without indexation). LTCG = 3,25,000. Exempt slice = 1,25,000. Taxable slice = 2,00,000. Tax = 2,00,000 x 12.5% = INR 25,000.
+**The Trap:** Option A forgets the INR 1,25,000 exemption threshold. Option C applies the pre-Budget 2024 rate of 10%. Option D misclassifies LTCG as STCG (STCG on listed equity post-23-07-2024 is 20%, not LTCG's 12.5%).
+**Cross-Exam Context:** XIX-C tests Section 112A on the fund-to-investor pass-through chain. XXI-B (Portfolio Manager) tests 112A extensively because PMS is predominantly listed-equity. XIX-A tests it at the distributor advisory level. Note: the INR 1,25,000 limit is per INVESTOR per year, aggregated across all 112A sources — not per AIF.
+**Manager's Pro-Tip:** As a Manager, when computing LP-wise Form 64C figures, the AIF itself doesn't apply the INR 1,25,000 threshold — it reports gross LTCG per LP and the LP aggregates across their portfolio. Make this clear in your LP tax pack to avoid LPs double-counting the exemption.]]></text></explanation>
+    </question>
+</QF>

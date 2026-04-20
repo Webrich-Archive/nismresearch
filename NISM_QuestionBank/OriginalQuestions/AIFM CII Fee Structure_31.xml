@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CII Fee Structure_31" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Kolar Gold Fund (Cat II, 5-yr): Committed Capital INR 100 cr. Year 2 NAV pre-incentive = INR 105 cr. Year 2 HWM (prior year NAV pre-incentive) = INR 102 cr. Year 2 Reference Hurdle NAV (Year 2) = INR 121 cr. Incentive Fee rate 15%. Under the 'higher of HWM and Reference Hurdle' rule illustrated in the chapter, what Incentive Fee is the Manager eligible for in Year 2?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[INR 0.45 crore (15% x [NAV - HWM])]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 0.60 crore (15% x [NAV - Hurdle])]]></text></answer>
+            <answer correct="yes"><text><![CDATA[INR 0 (NAV below the applicable benchmark)]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 15.75 crore]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Applicable benchmark (not eligible for incentive) = HIGHER of HWM and Reference Hurdle = max(INR 102 cr, INR 121 cr) = INR 121 cr. NAV pre-incentive = INR 105 cr < INR 121 cr. Since NAV is BELOW the applicable benchmark, incentive fee = ZERO. This replicates the chapter's Worst-Case Scenario (Example 6.4).
+**The Trap:** A ignores hurdle and uses HWM only (wrong — take HIGHER of the two); C uses hurdle but wrongly generates a positive (nav is actually below hurdle); D is absurd.
+**Cross-Exam Context:** Chapter 6 Worst-Case Example 6.4. Note: HWM appears here as a Cat I/II safeguard at DEAL-by-deal exits — not a Cat III daily crystallisation. XIX-E tests the Cat III variant.
+**Manager's Pro-Tip:** Even though HWM is primarily Cat III, Chapter 6 uses it as a protective floor in Cat I/II deal-by-deal waterfalls. Disclose this clearly in PPM: 'Incentive fee requires NAV > higher of HWM and Reference Hurdle' — LPs appreciate the guard rail.]]></text></explanation>
+    </question>
+</QF>

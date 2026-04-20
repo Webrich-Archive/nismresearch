@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CII Fee Structure_38" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Why do many Cat I/II AIFs prefer to pay Incentive Fee ONLY AT END OF FUND TENURE (or after major exits), rather than annually on NAV growth, per Chapter 6?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[SEBI prohibits annual incentive fee payments for Cat I/II funds]]></text></answer>
+            <answer correct="no"><text><![CDATA[Annual incentive fees attract higher GST]]></text></answer>
+            <answer correct="yes"><text><![CDATA[To avoid 'double-counting' incentive on the same gain as NAV moves up-down-up, and to accommodate future loss-provisioning through clawback]]></text></answer>
+            <answer correct="no"><text><![CDATA[Annual payment requires daily NAV computation, which Cat I/II cannot do]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Chapter 6 conclusion to Example 6.3: annual incentive computation causes DOUBLE COMPUTATION of incentive on the same excess return (Y1 excess already earned carry; Y2 increase on top includes the Y1 base again). End-of-tenure payment solves this and also accommodates future NAV decline via clawback safety.
+**The Trap:** A is false (not prohibited); C mis-applies GST; D confuses reason (Cat I/II CAN do NAV, they don't want to do ANNUAL CRYSTALLISATION).
+**Cross-Exam Context:** Same mechanic in XIX-C. Cat III (XIX-E) pays HWM-crystallised carry periodically — different construction.
+**Manager's Pro-Tip:** If you must pay annual carry (LP insisted), model the double-count carefully and build a 'look-back true-up' at year 3 and fund end. Otherwise GP over-earns on paper and ends up in a clawback shortage.]]></text></explanation>
+    </question>
+</QF>

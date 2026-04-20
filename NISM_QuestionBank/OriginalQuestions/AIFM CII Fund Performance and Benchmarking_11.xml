@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CII Fund Performance and Benchmarking_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Kalpavriksha Venture Fund III reports TVPI = 1.76 and RVPI = 1.50 at the end of Year 4. What is DPI at Year 4?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[0.26]]></text></answer>
+            <answer correct="no"><text><![CDATA[3.26]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.76]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.50]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** DPI + RVPI = TVPI (Section 7.3.4.4). Therefore DPI = TVPI - RVPI = 1.76 - 1.50 = 0.26. The fund has distributed 26 paise per rupee of paid-in capital as at Year 4.
+**The Trap:** 3.26 adds instead of subtracting. 1.76 copies TVPI. 1.50 copies RVPI.
+**Cross-Exam Context:** XIX-C, XIX-A test the identical decomposition identity. XXI-B PMS has no DPI/RVPI decomposition; returns are TWR-based NAV deltas.
+**Manager's Pro-Tip:** A Y4 DPI of 0.26 is normal for a VC/Growth fund still in investment-harvest transition — don't let LPs misread low DPI as weak performance. Always co-present RVPI and TVPI trajectory.]]></text></explanation>
+    </question>
+</QF>

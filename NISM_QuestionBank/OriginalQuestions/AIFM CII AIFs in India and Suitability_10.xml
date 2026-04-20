@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CII AIFs in India and Suitability_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The CFO of a large Indian conglomerate approaches Mr. Nikhil Desai, Head of Product at Yamuna AIF, asking whether a newly set-up employee ESOP trust and an in-house securitisation SPV can be registered as Category II AIFs. Per Chapter 3 and the SEBI (AIF) Regulations' definition of AIF, which of the following is EXCLUDED from the AIF definition and therefore CANNOT be registered as an AIF?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[A private equity fund structured as a trust with pooled capital from HNIs and institutions]]></text></answer>
+            <answer correct="no"><text><![CDATA[A debt fund structured as an LLP that invests in unlisted NCDs]]></text></answer>
+            <answer correct="no"><text><![CDATA[An infrastructure fund that raises capital from sovereign wealth funds and multilateral agencies]]></text></answer>
+            <answer correct="yes"><text><![CDATA[A family trust, ESOP trust, employee benefit trust, or a securitisation SPV]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Section 3.2 of Chapter 3 enumerates the explicit exclusions from the AIF definition: (i) mutual funds / collective investment schemes, (ii) family trusts, ESOP or other employee benefit trusts, holding companies, SPVs set up for securitisation or similar purposes, and (iii) funds set up under RBI or other regulators (IRDAI, PFRDA, IFSCA). These are either private funds of a company/business/family or are regulated by another regulator, so they cannot be AIFs.
+**The Trap:** A standard Cat II PE trust, a debt-LLP, and an infra fund with SWF LPs are all textbook AIF structures. Only the family/ESOP/securitisation-SPV bucket is explicitly carved out of the AIF definition.
+**Cross-Exam Context:** XIX-A, XIX-C all test the same exclusion list. Securitisation-regulated-by-RBI interplay is tested in XV (Research Analyst) and XXI-B (Portfolio Manager) — both cite the same regulatory carve-outs.
+**Manager's Pro-Tip:** When a corporate sponsor approaches you with a 'captive AIF' idea for employee co-invest, route the structure through a Cat II AIF that the employees subscribe to AS LPs (above INR 1 crore each) rather than as an ESOP-style trust — the latter fails the AIF test and forces the sponsor back to the drawing board.]]></text></explanation>
+    </question>
+</QF>

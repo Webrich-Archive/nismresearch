@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CII Fee Structure_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Godavari Opportunities AIF (Cat II, closed-ended). Called-up Capital INR 80 crore, Hurdle Rate 9% (compounded annually), fund has completed 3 full years with NAV tracked on a 'reference hurdle NAV' basis (starting at committed capital). What is the Reference Hurdle NAV at the end of Year 3?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[INR 101.60 crore]]></text></answer>
+            <answer correct="yes"><text><![CDATA[INR 103.59 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 92.50 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 95.24 crore]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** In a closed-ended Cat I/II fund, Hurdle NAV COMPOUNDS year over year. Year 3 Hurdle NAV = INR 80 crore x (1.09)^3 = INR 80 x 1.295029 = INR 103.60 crore (rounded to INR 103.59 crore). The chapter stresses the hurdle is a COMPOUND rate, not a simple rate.
+**The Trap:** A is simple interest: INR 80 x (1 + 3 x 0.09) = INR 101.60 crore; C and D are mis-compounded (wrong rate or periodicity).
+**Cross-Exam Context:** XIX-C tests the same compound-hurdle principle. Private-market hurdles compound; hedge-fund HWMs in Cat III crystallise differently (high-water-mark-based) — XIX-E territory.
+**Manager's Pro-Tip:** When running LP distribution models, always label the hurdle 'compounded annually' explicitly in the PPM — ambiguity between simple/compound has caused real disputes at distribution time in Indian funds.]]></text></explanation>
+    </question>
+</QF>

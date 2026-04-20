@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CII Fund Performance and Benchmarking_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Yamuna AIF drew INR 50 crore at t=0. Over 5 years, its terminal distribution (ignoring fees) is INR 70 crore. Approximate Gross IRR?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[6.96%]]></text></answer>
+            <answer correct="no"><text><![CDATA[8.00%]]></text></answer>
+            <answer correct="no"><text><![CDATA[4.00%]]></text></answer>
+            <answer correct="no"><text><![CDATA[10.00%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Solve 50 = 70/(1+IRR)^5, giving (1+IRR)^5 = 1.40. Taking the 5th root: 1+IRR ≈ 1.0696, so IRR ≈ 6.96%. This matches the worst-case in the PDF Example 7.1.
+**The Trap:** 8% rounds up. 4% is too low. 10% is the hurdle rate, not the IRR.
+**Cross-Exam Context:** XIX-C tests identical shortcut. XXI-B uses CAGR on NAV, not XIRR — different formula but similar intuition.
+**Manager's Pro-Tip:** Use '(FV/PV)^(1/n) - 1' as a quick single-flow IRR check in IC meetings. If the full XIRR model disagrees materially, you have a cash-flow data error.]]></text></explanation>
+    </question>
+</QF>

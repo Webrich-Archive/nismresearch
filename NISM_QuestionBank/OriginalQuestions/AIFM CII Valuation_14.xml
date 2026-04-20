@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CII Valuation_14" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Kaveri Capital AIF's single-project DCF: Year 1 FCF = INR 50 cr; Year 2 FCF = INR 60 cr; Year 3 FCF = INR 70 cr; WACC = 10%. Terminal value at end of Year 3 = INR 800 crore. What is the enterprise value at t=0? (Use PV factors: 0.909, 0.826, 0.751)]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[INR 748.4 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 980.0 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 147.6 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 1,061.3 crore]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** PV(Y1) = 50 x 0.909 = 45.45; PV(Y2) = 60 x 0.826 = 49.56; PV(Y3) = 70 x 0.751 = 52.57; PV(TV) = 800 x 0.751 = 600.8. Total EV = 45.45 + 49.56 + 52.57 + 600.8 = INR 748.4 crore.
+**The Trap:** INR 980 forgets to discount anything (just adds 50+60+70+800); INR 147.6 is the sum of PVs of FCFs only, missing TV; INR 1,061 applies year-1 factor to TV. Always discount TV at factor for the LAST explicit year.
+**Cross-Exam Context:** XIX-C tests the same multi-year DCF. XXI-B uses it for listed equity DCFs. CFA L2 extends with mid-year convention and stochastic FCF.
+**Manager's Pro-Tip:** Every IC DCF should present THREE scenarios — base, bear, bull — with matching WACC and terminal g. LPs scrutinise how much of your EV comes from TV; if >75%, flag the assumption risk in your memo.]]></text></explanation>
+    </question>
+</QF>

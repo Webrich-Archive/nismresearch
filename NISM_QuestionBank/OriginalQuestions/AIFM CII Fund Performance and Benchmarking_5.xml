@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CII Fund Performance and Benchmarking_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Ganga Infra AIF reports a Kaplan-Schoar PME (KS-PME) of 1.38 against the Nifty 500 TR Index over its fund life. What does this number signify?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The AIF underperformed the Nifty 500 TR by 38% in cumulative terms.]]></text></answer>
+            <answer correct="no"><text><![CDATA[The AIF manager is entitled to a 38% catch-up on hurdle.]]></text></answer>
+            <answer correct="no"><text><![CDATA[The AIF has an IRR of 1.38% over the market return.]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The AIF outperformed the Nifty 500 TR by 38% on a market-adjusted TVPI basis.]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per Chapter 7.3.5, KS-PME = (FV of Distributions + NAV) / FV of Capital Calls, where each cash flow is future-valued using the index return to the valuation date. A KS-PME of 1.38 means the AIF's TVPI-equivalent beats the market (if you had invested the same amounts on the same dates in the Nifty 500 TR) by 38%. PME > 1 => outperformance.
+**The Trap:** Option A reverses the direction. Option C confuses the multiple (1.38x) with a percentage IRR. Option B confuses it with the distribution waterfall catch-up clause.
+**Cross-Exam Context:** XIX-C Cat III uses KS-PME less frequently because Cat III often benchmarks against absolute-return hurdles. XXI-B Portfolio Managers use TWR-vs-benchmark alpha directly; PME is a private-markets-only construct.
+**Manager's Pro-Tip:** KS-PME is the gold standard when the LP is comparing your Cat I/II fund against a 'would-have-invested-in-Nifty' counterfactual. Always co-report Direct Alpha with KS-PME so the LP sees BOTH the multiple AND the annualized outperformance %.]]></text></explanation>
+    </question>
+</QF>

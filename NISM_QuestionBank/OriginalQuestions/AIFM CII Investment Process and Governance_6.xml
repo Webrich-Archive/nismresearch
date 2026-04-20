@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CII Investment Process and Governance_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA['Kaveri Seed Category I AIF' invested in a start-up using weighted-average anti-dilution. Pre-round cap: 1,00,000 equity shares (founders' shares at INR 10 face/paid). Angel round: 30,000 preference shares at INR 10 each, conversion price INR 20. In the next round the company issues 25,000 new shares at INR 10. Total capital raised to date = INR 14.50 lakh; total shares issued = 1,30,000 (using book-value convention). What is the revised conversion price and approximate new conversion ratio?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[INR 20 per share; ratio 1:1]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 10 per share; ratio 1:2]]></text></answer>
+            <answer correct="yes"><text><![CDATA[INR 11.15 per share; ratio approx 1:1.79]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 14.50 per share; ratio 1:1.38]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Weighted-average method: New conversion price = total capital raised / total shares issued = INR 14,50,000 / 1,30,000 = INR 11.15. Revised conversion ratio = old conversion price / new conversion price = 20 / 11.15 ≈ 1.79. So each preference share converts to ~1.79 equity shares instead of 1.
+**The Trap:** INR 10 is full-ratchet, not weighted. INR 20 ignores the dilution. INR 14.50 mistakes 'lakh' for rupees-per-share.
+**Cross-Exam Context:** This is the PDF's worked example adapted. XIX-C uses the same math. XIX-A Distributor does not compute anti-dilution.
+**Manager's Pro-Tip:** Broad-based weighted average (includes options in 'fully diluted' denominator) is even founder-friendlier than narrow-based. Negotiate broad-based at Series A — founders will push, but it's become the Indian VC market standard.]]></text></explanation>
+    </question>
+</QF>

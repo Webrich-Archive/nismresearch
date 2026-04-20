@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CII Investment Process and Governance_50" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA['Karnataka Seed Category I AIF' is negotiating a pre-money valuation of INR 40 crore for a Seed round investing INR 10 crore (thus post-money = INR 50 crore, AIF stake = 20%). The founders want a 10% POST-MONEY option pool created. If the option pool is created PRE-MONEY (absorbed by founders), what stake does the AIF end up with in the post-money cap table?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[22% (enhanced by option pool)]]></text></answer>
+            <answer correct="no"><text><![CDATA[10% (same as option pool)]]></text></answer>
+            <answer correct="no"><text><![CDATA[18% (diluted by the option pool)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[20% (unchanged — founders absorb dilution pre-money)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** When the option pool is created PRE-MONEY ('pool shuffle'), the INR 40 cr pre-money valuation is inclusive of the new option pool — i.e., founders absorb the option-pool dilution. Post-money: founders' existing + new pool = 80%; AIF = 20%. AIF stake UNCHANGED at 20% (INR 10 cr / INR 50 cr). Compare: if pool was created POST-money, AIF would dilute to 18%.
+**The Trap:** 18% is the post-money-pool case (AIF dilutes). 22% is arithmetic error. 10% confuses pool size with AIF stake.
+**Cross-Exam Context:** XIX-C tests the 'pool shuffle' concept. Foundational for US-style VC math but now standard in Indian Seed/Series A.
+**Manager's Pro-Tip:** Always insist on PRE-MONEY option pool creation at Series A — moving a 10% pool from post to pre saves the fund 2% of fully-diluted equity. On a INR 10 cr check, that's INR 1 cr of effective value.]]></text></explanation>
+    </question>
+</QF>

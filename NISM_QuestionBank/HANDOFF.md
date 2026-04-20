@@ -1,8 +1,8 @@
 # NISM Question Bank — Handoff Document
 
-**Date:** April 20, 2026 (Updated after Phase 14D-1 — Series XIX-C complete)
-**Status:** 28 of 31 exams complete. 11,893 questions generated across 285 topics. Phase 14D-1 COMPLETE — XIX-C (500 Qs, 15 topics) done.
-**For:** Next session should continue with Phase 14D-2 (Series XIX-D — AIF Managers Cat I/II only, 500 Qs, 13 topics), Phase 14D-3 (XIX-E — AIF Managers Cat III only), or Phase 15 (Series XXIII — Social Impact Assessors).
+**Date:** April 20, 2026 (Updated after Phase 14D-2 — Series XIX-D complete)
+**Status:** 29 of 31 exams complete. 12,393 questions generated across 298 topics. Phase 14D-2 COMPLETE — XIX-D (500 Qs, 13 topics) done.
+**For:** Next session should continue with Phase 14D-3 (XIX-E — AIF Managers Cat III only, 500 Qs), or Phase 15 (Series XXIII — Social Impact Assessors, 500 Qs).
 
 ---
 
@@ -40,7 +40,8 @@
 | Series XXI-A - PMS Distributors | XXI-A | 500 | 12 | Hard | Generated from PDF (20% calc, 45% conceptual, 25% regulatory, 10% application). No caselets. 10% negative marking. |
 | Series XXI-B - Portfolio Managers | XXI-B | 500 | 21 | Hard | Generated from PDF (multiple mix per topic). No caselets. 25% negative marking. |
 | Series XIX-C - AIF Managers (All Categories) | XIX-C | 500 | 15 | Hard | Generated from PDF (Manager-side framing across Cat I/II and Cat III). No caselets. 25% negative marking. |
-| **Total (completed exams)** | | **11,893** | **285** | | |
+| Series XIX-D - AIF Managers (Category I and II) | XIX-D | 500 | 13 | Hard | Generated from PDF (Cat I/II Manager-side — PE/VC/Debt/Infra; Cat III excluded). No caselets. 25% negative marking. |
+| **Total (completed exams)** | | **12,393** | **298** | | |
 
 ### Series XXI-A Breakdown (Phase 14C-1)
 
@@ -126,6 +127,34 @@
 **ExamWeightages key:** "Series XIX-C - AIF Managers (All Categories)" (replaced placeholder topic keys with 15 "AIFM …" keys). Weightages total 100.
 **Namespace note:** All XIX-C topics prefixed "AIFM " (AIF Manager) to keep them distinct from XIX-A "AIF " (Cat I/II Distributor) and XIX-B "Cat III AIF " (Cat III Distributor) topics. This is critical — the earlier placeholder "Taxation" key collided with V-A Mutual Fund Distributor's Taxation topic; the "AIFM Taxation" key isolates the 30 manager-side questions cleanly.
 **Tone:** Manager-side framing throughout — deal sourcing, IC governance, LP relations, fund operations, GP-LP economics. NOT distributor pitch/sales framing. Helper explanations use "Manager's Pro-Tip:" label (not "Distributor's Pro-Tip:").
+
+
+### Series XIX-D Breakdown (Phase 14D-2)
+
+| Topic (exact plist key) | Questions | Marks | Source Chapter |
+|--------------------------|:---------:|:-----:|:---------------:|
+| AIFM CII Investment Landscape and Types | 20 | 2 | Ch 1+2 |
+| AIFM CII AIFs in India and Suitability | 10 | 2 | Ch 3 |
+| AIFM CII Ecosystem | 25 | 5 | Ch 4 |
+| AIFM CII Fund Structuring | 50 | 10 | Ch 5 |
+| AIFM CII Fee Structure | 50 | 10 | Ch 6 |
+| AIFM CII Fund Performance and Benchmarking | 50 | 10 | Ch 7 |
+| AIFM CII Legal Documents and Negotiations | 30 | 6 | Ch 8 |
+| AIFM CII Investment Strategies | 50 | 10 | Ch 9 |
+| AIFM CII Investment Process and Governance | 50 | 10 | Ch 10 |
+| AIFM CII Valuation | 50 | 10 | Ch 11 |
+| AIFM CII Fund Monitoring Reporting and Exit | 50 | 10 | Ch 12 |
+| AIFM CII Taxation | 25 | 5 | Ch 13 |
+| AIFM CII Regulatory Framework | 40 | 10 | Ch 14 |
+| **XIX-D Total** | **500** | **100** | **13 Chapters** |
+
+**Exam details:** 100 questions, 2 hours, 60% pass, **25% negative marking** (standard — this is a Manager exam, not a Distributor exam). No caselets.
+**PDF:** 24 NISM-Series-XIX-D Category I and II Alternative Investment Fund Managers Certification Examination_January 2026.pdf (400 pages)
+**Question mix:** Topic-specific blends: Fee Structure 25% calc (waterfalls, carry, 8% hurdle + 100% catch-up + 80/20, IRR, MOIC, TVPI, DPI), Valuation 25% calc (DCF + WACC + terminal value, multiples with DLOM, NAV, EV→Equity bridge, LBO IRR), Performance 25% calc (IRR, KS-PME, Direct Alpha, J-curve, PIC Multiple). Regulatory Framework 60% regulatory (SEBI AIF Regs 2012 Reg 3/4/10/13/15/20A/23/29 + AI framework + LVF + CSCRF 2024 + DPDPA 2023 + FEMA + PMLA + ICDR + FATCA/CRS + Fifth Amendment 2024 pro-rata/pari-passu). No caselets.
+**ExamWeightages key:** "Series XIX-D - AIF Managers (Category I and II)" (replaced 13 placeholder topic keys with 13 "AIFM CII …" keys). Weightages total 100 (Ch 1+2 treated as 2 combined marks per official PDF weightage table).
+**Namespace note:** All XIX-D topics prefixed "AIFM CII " (AIF Manager Category I/II) to keep them distinct from XIX-C "AIFM " (All-Cat Manager), XIX-A "AIF " (Cat I/II Distributor), XIX-B "Cat III AIF " (Cat III Distributor), and V-A raw "Taxation". This namespace leaves room for XIX-E to use "AIFM CIII " (Cat III Manager) in Phase 14D-3.
+**Cat III scope exclusion:** All 500 questions are framed from a Cat I/II Manager desk. Cat III content (HWM, daily NAV, long-short strategies, 2x leverage, fund-level MMR taxation) appears only in `Cross-Exam Context` field for contrast — never as correct answers or primary subject matter.
+**Tone:** Manager-side framing throughout — PE/VC/Debt/Infra deal sourcing, IC governance, GP-LP economics, drawdown/waterfall mechanics, LP protection rights negotiation, PPM drafting, valuer rotation planning. Helper explanations use "Manager's Pro-Tip:" label.
 
 
 ### Series XIX-B Breakdown

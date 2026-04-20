@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CII Fee Structure_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Yamuna Impact Fund (Cat II): Committed Capital INR 200 crore. Set-up costs = 2.0% of commitments, amortised STRAIGHT-LINE over 5 years (full fund tenure). Yearly fund expenses INR 50 lakh. What is the annual charge to the P&L towards set-up cost AMORTISATION?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[INR 4.00 crore (one-shot, Year 1)]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 2.00 crore per year]]></text></answer>
+            <answer correct="yes"><text><![CDATA[INR 0.80 crore per year]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 40.00 lakh per year]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Set-up costs = 2.0% x INR 200 crore = INR 4.00 crore. Amortised over 5 years = INR 0.80 crore per year. (The yearly fund expenses of INR 50 lakh are a SEPARATE recurring line, not part of the set-up amortisation.)
+**The Trap:** A is the total set-up cost (no amortisation); C is 1% x commitments; D is a random figure.
+**Cross-Exam Context:** Chapter 6 Example 6.3 amortises INR 1.25 crore over 5 years = INR 25 lakh/yr — same mechanic. XIX-C tests identical arithmetic.
+**Manager's Pro-Tip:** Under Indian AIF accounting, you may elect 36-month amortisation (faster P&L hit) or full-tenure amortisation (smoother). Tax positions under Section 115UB follow the AIF's book treatment, so pick the method consistent with your LP reporting aims.]]></text></explanation>
+    </question>
+</QF>

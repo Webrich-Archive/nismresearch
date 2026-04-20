@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CII Regulatory Framework_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The Digital Personal Data Protection Act, 2023 (DPDPA) and DPDP Rules, 2025 impose obligations on AIFs and Investment Managers handling investor personal data. Under the Act, an AIF collecting and processing LP personal data is classified as:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[A data processor only (not a data fiduciary)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Exempt from DPDPA as SEBI-regulated entities are outside its scope]]></text></answer>
+            <answer correct="yes"><text><![CDATA[A data fiduciary — responsible for consent, notice, purpose limitation and security safeguards for personal data it determines the purpose and means of processing]]></text></answer>
+            <answer correct="no"><text><![CDATA[A data principal, as it holds personal data on behalf of beneficial owners]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under DPDPA 2023 and the DPDP Rules 2025, a 'data fiduciary' is any person who determines the purpose and means of processing personal data. AIFs and their Investment Managers, in collecting and processing LP/investor personal data to deliver fund services, are DATA FIDUCIARIES. Obligations include: obtaining specific, informed and unambiguous CONSENT, providing clear NOTICE, implementing reasonable security SAFEGUARDS, breach reporting, and respecting data principal rights.
+**The Trap:** Option A confuses data processor (a service provider who processes on behalf of fiduciary) with fiduciary. Option B — no such exemption exists; DPDPA applies across financial services including AIFs. Option D — the investor is the data principal, not the AIF.
+**Cross-Exam Context:** XIX-C tests DPDPA briefly. XXIV AML touches data-privacy interaction with PMLA record retention. X-A/B Investment Adviser also tests DPDPA applicability.
+**Manager's Pro-Tip:** Structure your DPDPA compliance with: (i) a clean consent form in Subscription Agreement, (ii) a Data Privacy Notice on website, (iii) DPO (Data Protection Officer) identification, (iv) incident response SOP aligned with CERT-In 6-hour timeline (dual-obligation: DPDPA + CSCRF).]]></text></explanation>
+    </question>
+</QF>

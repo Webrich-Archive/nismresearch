@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CII Taxation_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Saraswati Growth Fund, a Cat II AIF set up as a trust, earns INR 8 crore characterised as 'business income' during FY 2024-25 (pre-FA 2025 amendment period). Which of the following statements correctly describes the tax treatment of this business income stream?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Business income is taxed at the fund level at MMR (since the AIF is a trust), exempt in investor hands, and any business loss is not passed through but carried forward at fund level.]]></text></answer>
+            <answer correct="no"><text><![CDATA[Business income is also passed through to unitholders under the same Section 10(23FBA) mechanism.]]></text></answer>
+            <answer correct="no"><text><![CDATA[Business income is exempt at both fund and investor level because the fund is registered with SEBI.]]></text></answer>
+            <answer correct="no"><text><![CDATA[Business income is taxed at 12.5% at the fund level with indexation benefits.]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Section 115UB read with Section 10(23FBB) carves business income OUT of the pass-through regime. Where the AIF is a trust or LLP, business income is taxed at the fund level at MMR (i.e., the rate applicable to the highest slab of an individual/AOP/BOI in the Finance Act, currently ~39% effective). The income is then exempt in investor hands. Business losses cannot be passed through — they remain at the fund level and carry forward for set-off against future business income.
+**The Trap:** Option A ignores the Section 10(23FBB) carve-out. Option B treats all AIF income as exempt, which is incorrect — only non-business income is pass-through. Option D applies the LTCG rate to business income, mixing two separate regimes.
+**Cross-Exam Context:** XIX-C tests this dual regime (pass-through for non-business + fund-level MMR for business) as the defining feature of Cat I/II taxation. XIX-A tests it at the LP-disclosure level. Note: FA 2025 amended Sec 2(14) to deem securities held by Cat I/II AIFs as capital assets, shrinking the business-income exposure from FY 2025-26 onward.
+**Manager's Pro-Tip:** As a Cat II debt-fund Manager, drafting the investment strategy as 'hold-to-maturity credit' rather than 'active credit trading' materially reduces business-income risk. Document the hold-period analysis in the IC memo — GAAR and case-by-case characterisation still look at facts, not labels.]]></text></explanation>
+    </question>
+</QF>

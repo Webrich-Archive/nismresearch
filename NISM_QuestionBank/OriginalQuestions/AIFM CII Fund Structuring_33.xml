@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CII Fund Structuring_33" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA['Yamuna Capital AIF' PPM says a defaulting LP forfeits 25% of his contributed capital plus pays 15% default interest on the unpaid drawdown. Mr. X had contributed INR 8 crore to date and defaults on a further drawdown of INR 2 crore (due for 90 days). Ignoring rounding, what is the forfeiture amount and default interest (approx)?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Forfeit INR 2 crore; interest INR 75 lakh]]></text></answer>
+            <answer correct="no"><text><![CDATA[Forfeit INR 4 crore; interest INR 30 lakh]]></text></answer>
+            <answer correct="no"><text><![CDATA[Forfeit INR 8 crore; interest zero]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Forfeit INR 2 crore; interest approx INR 7.4 lakh (for 90 days)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Forfeit = 25% x INR 8 crore already contributed = INR 2 crore. Default interest on the unpaid INR 2 crore drawdown at 15% p.a. for 90 days = 2 x 0.15 x (90/365) = INR 0.074 crore = INR 7.4 lakh approx.
+**The Trap:** INR 75 lakh forgets to pro-rate interest for 90 days. INR 30 lakh over-applies. Full expulsion is not aligned with the 25% clause.
+**Cross-Exam Context:** XIX-C covers default arithmetic. XIX-D focuses on drafting the forfeiture vs pro-rata top-up split.
+**Manager's Pro-Tip:** Standard PPM forfeiture is tiered: interest for <30 days delay, pro-rata buyout by non-defaulters for 30-60 days, expulsion after 60+. Keep the tiers proportionate to avoid LP-manager disputes.]]></text></explanation>
+    </question>
+</QF>

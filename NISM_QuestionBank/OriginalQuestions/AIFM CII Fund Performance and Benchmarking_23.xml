@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CII Fund Performance and Benchmarking_23" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Why are Sharpe ratio and Sortino ratio less directly applicable as headline performance metrics for Category I/II AIFs than for listed-equity portfolios?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Sharpe and Sortino are SEBI-prohibited for Cat I/II AIFs.]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Cat I/II AIFs invest in illiquid, unlisted securities without regular observable price series, making volatility (standard deviation) hard to compute meaningfully — IRR/TVPI/DPI are more apt.]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sharpe and Sortino require a negative risk-free rate.]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cat I/II AIFs always have zero beta, so the ratios are undefined.]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Sharpe = (Rp - Rf)/σp and Sortino uses downside deviation. Both require a time series of returns with defensible volatility estimates. Cat I/II portfolios have unlisted holdings with only periodic mark-to-model valuations, so σ is smoothed/stale — producing artificially flattering ratios. Chapter 7 emphasises cash-flow metrics (IRR, MOIC, TVPI, DPI, RVPI) and PME/Direct Alpha over Sharpe/Sortino.
+**The Trap:** SEBI does not prohibit them (A). Risk-free rate is positive (C). Beta is non-zero for Cat I/II — it is unobservable, not zero (D).
+**Cross-Exam Context:** XXI-B Portfolio Managers can meaningfully report Sharpe/Sortino because PMS holds listed securities with observable prices. Cat III AIFs (XIX-E/XIX-B) can use them more than Cat I/II because Cat III trades liquid/listed exposures.
+**Manager's Pro-Tip:** If a consultant LP insists on Sharpe for your Cat I/II fund, provide it but add a footnote: 'Volatility estimate based on quarterly fair-value marks — illiquidity smoothing understates risk.' This pre-empts methodology disputes.]]></text></explanation>
+    </question>
+</QF>

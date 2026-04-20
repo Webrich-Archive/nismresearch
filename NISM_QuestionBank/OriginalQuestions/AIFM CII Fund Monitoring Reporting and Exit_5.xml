@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CII Fund Monitoring Reporting and Exit_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An existing LP in Yamuna Venture Fund (Cat I VC) wants to sell its secondary interest. The fund's reported NAV attributable to this LP's units is INR 40 crore. Market secondary transactions for Indian VC funds of this vintage typically clear at an 18% discount to NAV. What is the approximate effective price the exiting LP would realise?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[INR 32.80 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 40.00 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 47.20 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 28.80 crore]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Secondary transactions happen at negotiated prices, 'often at a substantial discount to NAV' per Chapter 12. Effective price = NAV x (1 - discount) = 40 x (1 - 0.18) = 40 x 0.82 = INR 32.80 crore.
+**The Trap:** INR 40 crore ignores the discount. INR 47.20 crore applies the discount as a premium (wrong sign). INR 28.80 crore over-discounts by treating 18% as a 28% haircut (40 x 0.72).
+**Cross-Exam Context:** XIX-C covers secondary-market mechanics at all-cat. XIX-B (Cat III) would not drill NAV-discount for illiquid PE funds. For listed-security PMS, XXI-B tests bid-ask spreads instead.
+**Manager's Pro-Tip:** When pitching a secondary to an LP, model discount sensitivity at 15%, 20%, 25% — and stress the 'unfunded commitment transfer' component. Many Indian secondaries collapse because the in-coming investor balks at inheriting future drawdown exposure.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CII Fund Performance and Benchmarking_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Saraswati PE Fund has paid-in capital of INR 1,000 crore. Cumulative distributions to LPs are INR 400 crore and the residual fair value of unrealised holdings is INR 1,100 crore. Compute DPI, RVPI and TVPI.]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[DPI 1.10, RVPI 0.40, TVPI 1.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[DPI 1.50, RVPI 0.40, TVPI 1.10]]></text></answer>
+            <answer correct="no"><text><![CDATA[DPI 0.40, RVPI 1.10, TVPI 0.70]]></text></answer>
+            <answer correct="yes"><text><![CDATA[DPI 0.40, RVPI 1.10, TVPI 1.50]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** DPI = Cumulative Distributions / PIC = 400/1000 = 0.40. RVPI = Residual Value / PIC = 1100/1000 = 1.10. TVPI = DPI + RVPI = 0.40 + 1.10 = 1.50. This matches the PDF Section 7.3.4.4 illustration verbatim.
+**The Trap:** Option A swaps numerators (distribution vs residual value). Option C subtracts instead of adding the two components. Option B sums everything into DPI incorrectly.
+**Cross-Exam Context:** XIX-C covers DPI/RVPI/TVPI for all three AIF categories; XIX-A distributor exam uses them in client pitches; XXI-B PMS has no DPI/RVPI equivalent because PMS has no lock-up/commitment structure.
+**Manager's Pro-Tip:** TVPI > 1.0 alone is NOT proof of success — a TVPI of 1.50 with DPI 0.40 means 73% of reported value is still paper gains. LPAC investors discount RVPI-heavy TVPI heavily in secondary transfers.]]></text></explanation>
+    </question>
+</QF>

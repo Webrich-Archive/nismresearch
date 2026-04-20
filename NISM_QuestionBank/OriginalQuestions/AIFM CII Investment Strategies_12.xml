@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CII Investment Strategies_12" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Ganga Capital is bidding INR 1,000 crore enterprise value for TargetCo with forecast Year-1 EBITDA of INR 125 crore. The fund plans: (a) INR 700 crore senior debt at 11% (6-yr amortising), (b) INR 150 crore mezzanine at 14% PIK, (c) INR 150 crore equity. What is the entry EV/EBITDA multiple and the debt/EBITDA leverage at close?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[EV/EBITDA 8.0x; debt/EBITDA 6.8x — very aggressive by mid-market norms.]]></text></answer>
+            <answer correct="no"><text><![CDATA[EV/EBITDA 6.0x; debt/EBITDA 4.0x — conservative.]]></text></answer>
+            <answer correct="no"><text><![CDATA[EV/EBITDA 10.0x; debt/EBITDA 5.6x — normal for SaaS.]]></text></answer>
+            <answer correct="no"><text><![CDATA[EV/EBITDA 8.0x; debt/EBITDA 4.4x — conservative for cyclical industrial.]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** EV/EBITDA = 1000/125 = 8.0x. Total debt = Senior 700 + Mezz 150 = 850 cr. Debt/EBITDA = 850/125 = 6.8x. 6.8x leverage for an industrial mid-market target is aggressive — typical LBOs run 4-5.5x debt/EBITDA. Above 6x triggers covenant/DSCR concerns and likely RBI scrutiny on the senior package.
+**The Trap:** Option B under-multiplies. Option C overstates EV (10x vs true 8x). Option D correctly computes EV but wrongly excludes mezzanine from 'debt' — mezzanine IS debt for leverage-ratio purposes.
+**Cross-Exam Context:** XV (Research Analyst) tests EV/EBITDA and leverage ratios heavily. XIX-A tests the LBO concept. XXI-B (PM) doesn't test LBO math since PMs are listed-securities managers.
+**Manager's Pro-Tip:** At IC, stress-test Year-2 EBITDA at -20% (cyclical downside). If post-stress debt/EBITDA exceeds 7.5x with DSCR < 1.2x, the sponsor faces covenant breach. Price this risk into the equity IRR hurdle — do NOT write covenant-lite if stress case fails.]]></text></explanation>
+    </question>
+</QF>

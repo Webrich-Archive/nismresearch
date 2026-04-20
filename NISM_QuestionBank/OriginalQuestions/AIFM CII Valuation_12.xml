@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CII Valuation_12" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Vindhya Ventures (Cat I VC AIF) invests INR 15 crore in startup Gupta Tech at a post-money valuation of INR 75 crore. What is Vindhya's ownership stake and Gupta's pre-money valuation?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[20% stake; pre-money INR 60 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[25% stake; pre-money INR 60 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[20% stake; pre-money INR 75 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[15% stake; pre-money INR 65 crore]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Pre-money = Post-money - New Investment = 75 - 15 = INR 60 crore. Vindhya's stake = New Investment / Post-money = 15 / 75 = 20%. This matches the PDF 11.8.2 example logic.
+**The Trap:** 25% divides by pre-money instead of post-money (wrong denominator); 20%/75 crore confuses pre and post; 15% uses arbitrary math. The rule: stake = investment / POST-money; pre-money = post-money - investment.
+**Cross-Exam Context:** XIX-C tests identical valuation-round math. XIX-B (Cat III Distributor) does not cover VC. XV tests cap-table dilution with option pool adjustments which are common in term sheet drafting.
+**Manager's Pro-Tip:** In Cat I VC term sheets, clarify whether the option pool is carved out PRE-money (founders dilute) or POST-money (everyone dilutes). A 10% option pool shuffle can materially alter the effective pre-money you're paying.]]></text></explanation>
+    </question>
+</QF>
