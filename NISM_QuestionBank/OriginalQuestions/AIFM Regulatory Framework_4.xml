@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM Regulatory Framework_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA['Vindhya Long-Short Fund' is a Category III AIF with a planned corpus of INR 150 crore. What is the minimum mandatory Sponsor/Manager continuing interest?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[2.5% of corpus or INR 5 crore, whichever is lower]]></text></answer>
+            <answer correct="no"><text><![CDATA[5% of corpus or INR 25 crore, whichever is higher]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 5 crore flat]]></text></answer>
+            <answer correct="yes"><text><![CDATA[5% of corpus or INR 10 crore, whichever is lower — i.e. INR 7.5 crore here]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Regulation 10(d) prescribes 5% of corpus OR INR 10 crore, whichever is lower, for Category III AIFs. For INR 150 crore corpus: 5% = INR 7.5 crore; lower of (INR 7.5 cr, INR 10 cr) = INR 7.5 crore. The rule is tighter than Cat I/II because of leverage and short-term trading risk.
+**The Trap:** Option A is the Cat I/II rule. Option B wrongly applies 'whichever is higher' which would defeat the cap. Option C ignores the percentage. Many candidates miss that the percentage (5%) binds here because 5% of 150 cr is less than INR 10 crore.
+**Cross-Exam Context:** XIX-B (Cat III Distributor) tests the 5%/INR 10 cr figure directly. XIX-C adds the numerical application. XV (Research Analyst) is not directly relevant.
+**Manager's Pro-Tip:** Manager tip: The Cat III sponsor commitment is typically structured as a separate 'Sponsor Class' of units to clearly segregate GP and LP capital for NAV, carry, and redemption-lock purposes. Audit trail matters for SEBI inspection under Regulation 23.]]></text></explanation>
+    </question>
+</QF>

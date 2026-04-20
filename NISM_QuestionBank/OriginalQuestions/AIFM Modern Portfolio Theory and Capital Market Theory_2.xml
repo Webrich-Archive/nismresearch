@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM Modern Portfolio Theory and Capital Market Theory_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[At Lotus Alternatives AIF, portfolio manager Ms. Priya Shah is explaining the foundational assumptions of Modern Portfolio Theory to a new joinee. Which of the following is NOT an assumption of MPT as laid out in the XIX-C workbook?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Investors consider each investment alternative as being represented by a probability distribution of expected returns over a holding period.]]></text></answer>
+            <answer correct="no"><text><![CDATA[Investors maximise one-period expected utility and base decisions solely on expected return and risk.]]></text></answer>
+            <answer correct="no"><text><![CDATA[Investors always prefer higher returns and, given two assets with the same expected return, will select the one with lower risk.]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Investors always select the portfolio with the highest absolute expected return regardless of the variance of returns.]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Chapter 4.2 states that MPT assumes investors are risk-averse — for a given return they prefer lower risk, and they make decisions based on expected return AND variance (risk), not on return alone. An investor who ignored variance would not be using MPT.
+**The Trap:** Options A, B and C are direct paraphrases of the MPT assumption list. Option D sounds plausible in a 'return-hungry' environment but explicitly violates the mean-variance trade-off at the core of the framework.
+**Cross-Exam Context:** XXI-B (Portfolio Managers) and X-B (Investment Adviser L2) test the same assumption set. Distributor exams (XIX-A/B) typically stop at 'risk-averse behaviour' without the full list.
+**Manager's Pro-Tip:** When you draft the Investment Strategy section of a Category II AIF's PPM, align the GP's stated philosophy with mean-variance logic. SEBI reviewers and institutional LPs map your disclosures to MPT vocabulary — inconsistency invites follow-up queries.]]></text></explanation>
+    </question>
+</QF>

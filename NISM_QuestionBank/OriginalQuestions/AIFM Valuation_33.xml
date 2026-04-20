@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM Valuation_33" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Why is the cost of equity for an unlisted AIF investee typically HIGHER than for a comparable listed company, even holding beta and risk-free rate constant?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Because unlisted companies pay higher dividend taxes]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Because an illiquidity premium and specific-risk premium are added on top of CAPM-derived cost of equity for unlisted names]]></text></answer>
+            <answer correct="no"><text><![CDATA[Because IND-AS requires a 200-bps uplift for unlisted equity]]></text></answer>
+            <answer correct="no"><text><![CDATA[Because GAAP does not permit fair-value accounting for unlisted equity]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per Section 14.6 Step 3, 'the cost of equity is usually based on CAPM but is adjusted to reflect the illiquidity premium of alternative assets and further specific risk premium if any applicable to the given company. Accordingly, the cost of equity of an unlisted company will be higher than that of a comparable listed company.' Typical uplift: 300-700 bps.
+**The Trap:** Option A is unrelated. Options C and D invent accounting rules.
+**Cross-Exam Context:** XXI-B (PM) covers CAPM purely. XIX-C layers AIF-specific adjustments that the IC and auditor will audit against peer-fund disclosures.
+**Manager's Pro-Tip:** Build a defensible illiquidity-premium matrix: early-stage 700 bps, growth 500 bps, late-stage 300 bps, pre-IPO 150 bps. Consistency across your portfolio is what survives an SEBI inspection, not any single 'correct' number.]]></text></explanation>
+    </question>
+</QF>

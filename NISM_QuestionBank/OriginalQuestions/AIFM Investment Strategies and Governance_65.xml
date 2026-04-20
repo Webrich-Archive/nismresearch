@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM Investment Strategies and Governance_65" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Syndicate ABC LLP committed INR 25 crore (lead Mr. A: INR 5 cr; other accredited LPs: INR 20 cr) with 15% carry to the lead. Exit is INR 75 crore after 3 years. After computing the lead's carry (INR 7.50 crore on INR 50 crore profit), the REMAINING distribution of INR 67.50 crore is split pro-rata based on committed capital. How much does Mr. A receive in TOTAL (his carry + his pro-rata share as an LP)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[INR 21.00 crore (carry INR 7.50 cr + pro-rata INR 13.50 cr)]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 13.50 crore (pro-rata only, including his INR 5 cr)]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 7.50 crore (carry only)]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 25.00 crore (entire post-carry pool)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Step 1: Exit INR 75 cr, committed capital INR 25 cr, profit = INR 50 cr. Carry to lead = 15% × INR 50 cr = INR 7.50 cr. Step 2: Remaining = INR 75 − 7.50 = INR 67.50 cr to be distributed pro-rata. Mr. A's pro-rata = (5/25) × 67.50 = INR 13.50 cr. Step 3: Mr. A's total = 7.50 (carry) + 13.50 (pro-rata) = INR 21.00 crore. Per Ch 11.1.2 syndicate mechanics.
+**The Trap:** Option A counts only the carry, ignoring Mr. A's own LP participation. Option B counts only pro-rata, ignoring his lead carry. Option D gives him the entire pool, which is wrong.
+**Cross-Exam Context:** Carry + co-investor distribution math tested in XIX-A and XIX-C waterfall/syndicate scenarios.
+**Manager's Pro-Tip:** Always model the lead's blended return — if carry + pro-rata lifts their IRR above a 'reasonable manager's' level, LPs challenge the carry percentage. 15% is market-standard; anything higher needs serious justification.]]></text></explanation>
+    </question>
+</QF>

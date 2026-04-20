@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM Fund Structuring_25" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Fund X is a Cat II AIF with total committed capital of INR 500 crore. The Manager issues Drawdown 1 of 20% (for Investment A) and Drawdown 2 of 15% (for Investment B). LP Z has committed INR 50 crore. After both drawdowns, what is LP Z's called (contributed) capital?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[INR 10 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 12.5 crore]]></text></answer>
+            <answer correct="yes"><text><![CDATA[INR 17.5 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 25 crore]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Total called fraction = 20% + 15% = 35%. LP Z's called capital = 35% x INR 50 cr = INR 17.5 crore. Drawdowns are applied pro-rata across all LPs on their committed capital; same class, same terms.
+**The Trap:** Option A is 20% only (single drawdown). Option B is 25% error. Option D is 50% error — possibly confusing with committed.
+**Cross-Exam Context:** XIX-A/B test basic drawdown arithmetic. XIX-C layers multi-drawdown schedules.
+**Manager's Pro-Tip:** Always match drawdown timing to deal funding need — calling capital earlier than necessary depresses IRR (the denominator grows). LPs actively track this in quarterly IRR letters.]]></text></explanation>
+    </question>
+</QF>

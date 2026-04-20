@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM Legal Documents and Negotiations_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Following SEBI Circular SEBI/HO/AFD/PoD1/CIR/2023/96 dated June 21, 2023, what is the mandatory mode of issuance of units representing unit capital held in the fund by an investor?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Dematerialised mode only]]></text></answer>
+            <answer correct="no"><text><![CDATA[Physical unit certificates signed by the trustee]]></text></answer>
+            <answer correct="no"><text><![CDATA[Either physical or dematerialised mode, at the investor's choice]]></text></answer>
+            <answer correct="no"><text><![CDATA[Digital PDF statements with digital signature of the Compliance Officer]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per Section 13.4 and footnote 129, SEBI Circular SEBI/HO/AFD/PoD1/CIR/2023/96 dated June 21, 2023 mandates that units representing unit capital held in the fund by an investor have to be issued in dematerialised mode only. The investor receives unit statements from the depository periodically.
+**The Trap:** Physical certificates were historically used but are no longer permitted. Investor choice is not available. PDF statements are not units.
+**Cross-Exam Context:** Mirrors MF demat norms tested in NISM-V-A, but AIF regime is tighter. XIX-A distributor exam may test this at recall level; XIX-C requires you to cite the circular context.
+**Manager's Pro-Tip:** When onboarding new LPs, collect demat details upfront — missing demat credentials can stall drawdowns and create a paper-trail compliance gap at audit time.]]></text></explanation>
+    </question>
+</QF>

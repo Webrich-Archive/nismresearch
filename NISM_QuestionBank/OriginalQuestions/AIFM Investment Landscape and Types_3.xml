@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM Investment Landscape and Types_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Ms. Ananya Deshpande is structuring an Indian Category II AIF and wants to set a USD-equivalent gross return hurdle for overseas LPs. Indian real risk-free rate is estimated at 3%, expected inflation is 5.5%, and the manager adds a 7% risk premium for illiquid private credit exposure. Using the Fisher-style nominal return formula from NISM Ch 1, what is the approximate required NOMINAL rate of return (before risk premium) and the TOTAL required rate of return?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Nominal risk-free = 8.50%; Total required return = 15.50%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Nominal risk-free = 8.00%; Total required return = 15.00%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Nominal risk-free = 8.67%; Total required return = 15.67%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Nominal risk-free = 8.65%; Total required return = 15.65%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per Chapter 1.4.1, NRR = [(1 + Real) x (1 + Inflation)] - 1 = (1.03 x 1.055) - 1 = 1.08665 - 1 = 8.665% (~8.65%). Adding the 7% risk premium gives a total required return of approximately 15.65%. The multiplicative form captures the compounding cross-term (0.03 x 0.055 = 0.165%) that the simple additive form (Option A: 3+5.5=8.50) misses.
+**The Trap:** Option A is the naive linear approximation (Real + Inflation), which under-states the nominal rate in inflationary environments. Option B drops both the cross-term and rounds down. Option C adds the cross-term but mis-rounds. Candidates who skip the multiplicative form on the exam often land on A.
+**Cross-Exam Context:** XV (Research Analyst) and XXI-B (PM) test this as the Fisher equation in cost-of-capital build-ups. X-A (IA L1) uses the same form for real-return planning in retirement corpus calcs.
+**Manager's Pro-Tip:** In a high-inflation EM like India, always use the multiplicative Fisher form in your PPM. The additive shortcut can under-price your hurdle by 15-20 bps — small per year, but it compounds into a meaningful catch-up / carry shift over a 7-year fund life.]]></text></explanation>
+    </question>
+</QF>

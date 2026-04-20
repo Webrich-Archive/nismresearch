@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM Regulatory Framework_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA['Bharat Infratech Ltd', a body corporate, seeks accreditation to participate in 'Godavari LVF'. Under the SEBI Accredited Investor framework, what is the net-worth criterion for a body corporate?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[At least INR 25 crore]]></text></answer>
+            <answer correct="yes"><text><![CDATA[At least INR 50 crore; computed as (Capital + Free Reserves) – (Accumulated Losses + Deferred Expenditure not written-off)]]></text></answer>
+            <answer correct="no"><text><![CDATA[At least INR 100 crore including goodwill and intangibles]]></text></answer>
+            <answer correct="no"><text><![CDATA[At least INR 10 crore, same as the Manager net-worth requirement]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per SEBI AI Framework: for a body corporate, net worth must be at least INR 50 crore, computed as (Capital + Free Reserves) - (Accumulated Losses + Deferred Expenditure not written-off). For trusts (other than family trusts), the threshold is also INR 50 crore but computed as (Book Value of assets ex-intangibles) - (Book Value of liabilities).
+**The Trap:** Option A is below the threshold. Option C inflates and wrongly includes intangibles. Option D conflates the Manager net-worth rule (no such rule for Manager AIF — however INR 10 cr is a common industry reference) with the AI rule.
+**Cross-Exam Context:** XIX-C uniquely tests the body-corporate vs individual differential. Compliance exams (III-A/C) also test this.
+**Manager's Pro-Tip:** Manager tip: For foreign investor accreditation, use INR equivalents of income/net worth at the accreditation date. Foreign entities in non-individual structures default to Body Corporate thresholds. Keep audited financials on file for 5 years post-fund-wind-up — PMLA Rule 114F and SEBI inspection requirements both bite here.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM Indices and Benchmarking_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A price-weighted index has four stocks with closing prices: A = INR 200, B = INR 300, C = INR 400, D = INR 100. The current divisor is 4, giving an index value of 250. Stock C undergoes a 2-for-1 split, post which C trades at INR 200. To keep the index level unchanged at 250 immediately after the split, what should the new divisor be?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[4.00 (divisor remains unchanged; only the index value adjusts downward).]]></text></answer>
+            <answer correct="no"><text><![CDATA[3.20 (divisor decreases proportionally to the number of split securities).]]></text></answer>
+            <answer correct="no"><text><![CDATA[2.50 (divisor equals the number of un-split stocks in the index).]]></text></answer>
+            <answer correct="yes"><text><![CDATA[3.20 (divisor is adjusted so that new-sum / new-divisor equals the pre-split index value).]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per Illustration 10.1 and Box 10.1, when a constituent splits, the divisor is adjusted so the index does not move on a corporate action. Post-split sum = 200 + 300 + 200 + 100 = 800. To keep index at 250: new divisor = 800 / 250 = 3.20. Options B and D both say 3.20 but only D gives the correct reason (divisor adjusted to preserve index level). Option B's reasoning is wrong.
+**The Trap:** Option A is a common error — holding the divisor constant would drop the index to 200, which contradicts the purpose of divisor adjustment. Option C is nonsense. Option B's ARITHMETIC is right but its LOGIC is wrong — a careful manager must pick the option with correct reasoning.
+**Cross-Exam Context:** VIII (Equity Derivatives) tests index-futures contract adjustments on splits. XXI-B (PM) tests impact on price-weighted benchmark tracking error.
+**Manager's Pro-Tip:** When benchmarking against a price-weighted proxy like DJIA for US exposure in a cross-border AIF, monitor divisor-adjustment notices — a missed divisor update in your internal tracker makes your tracking-error number look worse than reality.]]></text></explanation>
+    </question>
+</QF>

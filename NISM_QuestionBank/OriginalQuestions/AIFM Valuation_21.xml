@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM Valuation_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A Cat I AIF is valuing a seed-stage investee that has no revenue and no profit. Which IPEV valuation method is MOST appropriate as the primary technique?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Discounted Cash Flow using 5-year forecast]]></text></answer>
+            <answer correct="no"><text><![CDATA[EV/EBITDA multiple from listed peer set]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Milestone approach / scenario analysis (or Option Pricing Method)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Net Asset Value based on book value]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per Section 14.8.3 point 2, 'many seed, start-up or early-stage investments are valued using a milestone approach, or scenario analysis. For these enterprises, typically, it is difficult to gauge the probability and financial impact of success or failure... The Option Pricing Method (OPM) is also used sometimes as a forward-looking method that allocates equity value across classes.'
+**The Trap:** DCF is recommended but needs realistic cash-flow data (not available for seed). EV/EBITDA fails when EBITDA is negative. NAV ignores the option value of early-stage upside.
+**Cross-Exam Context:** XIX-A covers VC basics; XIX-C drills into the IPEV-sanctioned method choice by life-cycle stage, which LPs specifically audit in annual fund reviews.
+**Manager's Pro-Tip:** Insist your seed investees deliver a quarterly 'milestone scorecard' (customer traction, product development, team builds). This creates the audit trail your valuer needs to defend a milestone-based valuation move, especially for later markdowns.]]></text></explanation>
+    </question>
+</QF>

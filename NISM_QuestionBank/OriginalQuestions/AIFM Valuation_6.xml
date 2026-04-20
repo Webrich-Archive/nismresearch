@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM Valuation_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Chandragupta Capital is cross-checking the DCF value of investee Ananya Pharma using trading comps. Ananya's FY25 PAT = INR 25 crore; Shares outstanding = 50 lakh. Listed peer-set mean P/E = 22x. The AIF applies a 20% DLOM (Discount for Lack of Marketability) for Ananya being unlisted. What is the DLOM-adjusted value per share?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[INR 880.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 1,320.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 704.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 1,100.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** EPS = 25,00,00,000 / 50,00,000 = INR 50. Unadjusted price = 22 x 50 = INR 1,100. Apply 20% DLOM: 1,100 x (1-0.20) = INR 880. Per Section 14.7.3 and IPEV guidance, a discount to the quoted market ratio is applied for illiquidity.
+**The Trap:** INR 1,100 ignores DLOM. INR 1,320 ADDS a 20% premium. INR 704 applies 36% discount (double-discount error).
+**Cross-Exam Context:** XV (Research Analyst) uses P/E for target price on listed names; XIX-C maps P/E to unlisted investees and layers IPEV's illiquidity discount which may be reduced 'if an exit is imminent'.
+**Manager's Pro-Tip:** Document your DLOM methodology (Stout/Pluris studies, restricted-stock discount, or fixed 20-25%) in the PPM and keep it consistent. Changing DLOM from 20% to 10% mid-fund-life IS a material methodology change and must be disclosed to investors.]]></text></explanation>
+    </question>
+</QF>

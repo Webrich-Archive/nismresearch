@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM Fee Structure and Fund Performance_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Unlike operating expenses, Transaction Expenses (brokerage, STT, depository charges, exchange costs) for an AIF are:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Capped at 25 bps per annum]]></text></answer>
+            <answer correct="no"><text><![CDATA[Paid only from the incentive fee pool]]></text></answer>
+            <answer correct="no"><text><![CDATA[Absorbed entirely by the Investment Manager]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Borne on actuals without any limit]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Ch 9.1: AIF bears and pays all transaction expenses on actual basis WITHOUT any limit, allocated pro-rata by Capital Contributions or NAV. Includes brokerage, depository, custodian transaction, STT, exchange charges.
+**The Trap:** Option A confuses with operating expense cap. Option C is commercially unreasonable. Option B mixes fee pools.
+**Cross-Exam Context:** XIX-B tests transaction expenses for Cat III; VIII (Equity Derivatives) covers STT mechanics in detail.
+**Manager's Pro-Tip:** For a high-turnover Cat III long-short fund, transaction costs can easily exceed 1% p.a. — disclose an illustrative churn rate in the PPM so LPs understand the 'invisible' drag. Broker panel selection also matters: LPs often ask for best-execution policy documentation.]]></text></explanation>
+    </question>
+</QF>

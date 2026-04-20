@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM Investment Landscape and Types_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Per NISM Ch 2.6.1, what is the tax treatment of derivative-trading income in an Indian Category III AIF (hedge fund)?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The income is fully pass-through to LPs and taxed in their hands at slab rates.]]></text></answer>
+            <answer correct="no"><text><![CDATA[The income is exempt from tax under Section 10(23FB) of the Income Tax Act.]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The fund is required to withhold approximately 42.7 per cent of all income on derivatives trading at fund level before passing on returns to investors.]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the 10% LTCG rate applies, regardless of holding period.]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per Chapter 2.6.1, 'The income of Category III AIFs are taxed at fund level, requiring the fund to withhold 42.7 per cent of all income on derivatives trading before they pass on the returns to investors.' This is a key disadvantage vs offshore hedge funds in certain tax-favourable jurisdictions.
+**The Trap:** Option A wrongly applies Cat I/II pass-through treatment (Sec 115UB) to Cat III. Option B cites a pass-through regime for VCFs. Option D invents a blanket 10% LTCG rule.
+**Cross-Exam Context:** XIX-B (Cat III Distributor) covers this as a sales-disclosure point. Direct Tax exams cover the Sec 115UB mechanics. XIX-C ties it to the competitive disadvantage vs offshore funds.
+**Manager's Pro-Tip:** When pitching a Cat III hedge fund to an Indian LP, show the tax-adjusted IRR — not the gross trading IRR. A 25% gross derivatives IRR becomes roughly 14.3% post fund-level withholding, before any hurdle/carry. LPs that see only the gross number will be bitterly surprised at NAV crystallisation.]]></text></explanation>
+    </question>
+</QF>

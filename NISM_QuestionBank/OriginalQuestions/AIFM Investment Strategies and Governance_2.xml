@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM Investment Strategies and Governance_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Mr. Aditya Sharma, a lead angel investor, creates a syndicate 'AGS LLP' to raise INR 25 crore for a Pre-Series A in a FinTech start-up. He commits INR 5 crore himself and the other accredited investors commit INR 20 crore. Carry to the lead is 15%. Three years later the syndicate exits at INR 75 crore. What amount of carry does Mr. Sharma receive on the INR 50 crore profit?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[INR 11.25 crore (15% of INR 75 crore exit value)]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 3.75 crore (15% of INR 25 crore initial capital)]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 6.00 crore (15% of INR 40 crore non-lead capital)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[INR 7.50 crore (15% of INR 50 crore profit)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per the syndicate example in Ch 11.1.2, carry is charged on the profit (exit value minus committed capital): INR 75 cr − INR 25 cr = INR 50 cr profit. Carry = 15% × INR 50 cr = INR 7.50 crore. The balance INR 42.50 cr is distributed pro-rata to all syndicate investors including Mr. Sharma himself.
+**The Trap:** Option A confuses carry base (total exit, not profit). Option B applies the fee to committed capital as if it were a flat management fee. Option D excludes the lead's own commitment from the carry base, which is incorrect — carry is on total syndicate profit.
+**Cross-Exam Context:** Same waterfall logic appears in XIX-A (Cat I/II Distributor) for fund-level carry and in XXI-B (PM) as performance fee — the base is realized profit, not AUM or exit value.
+**Manager's Pro-Tip:** Lead investors should disclose in the syndicate term sheet whether their own capital bears carry or is excluded — ambiguity here triggers LP disputes at exit. Most LLPs make the lead's commitment bear carry too, symmetric with other investors.]]></text></explanation>
+    </question>
+</QF>

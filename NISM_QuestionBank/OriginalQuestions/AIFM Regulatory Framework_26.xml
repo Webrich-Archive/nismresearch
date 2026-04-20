@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM Regulatory Framework_26" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA['Bhagirathi Global AIF' has US-resident and UK-resident investors. Under FATCA and CRS compliance requirements, the AIF (as a deemed Financial Institution) must:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Register with US IRS to obtain a Global Intermediary Identification Number (GIIN); register with Indian Income Tax authorities; perform due diligence per Rules 114F to 114H of Income Tax Rules, 1962; report US-person data under FATCA and other foreign-investor data under CRS]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only register under FATCA; CRS applies only to banks and mutual funds]]></text></answer>
+            <answer correct="no"><text><![CDATA[Report only to IRS directly without going through CBDT]]></text></answer>
+            <answer correct="no"><text><![CDATA[FATCA applies only if AIF has more than INR 100 crore in US-investor contributions]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Under the July 2015 India-US IGA under FATCA (effective 31 Aug 2015), CBDT exchanges financial information with IRS. Indian IT Rules 114F-114H (from Jan 2016) require AIFs to register with IRS (obtain GIIN) and Indian IT authorities, perform investor due diligence, and report US persons (FATCA) and other foreign investors (CRS — India is a signatory from June 3, 2015).
+**The Trap:** Options B/C/D misstate scope, routing, or threshold. There is no INR corpus threshold for FATCA/CRS applicability.
+**Cross-Exam Context:** XXIV (AML) and XIX-C both test FATCA/CRS. Investment Adviser exams (X-A/B) also test reporting.
+**Manager's Pro-Tip:** Manager tip: Collect FATCA/CRS self-declaration at onboarding AND on any change within 30 days. If an investor refuses, the fund may reject application or redeem existing units and report the investor to authorities. Track SSN (US), TIN (non-US), country of tax residence, place of birth.]]></text></explanation>
+    </question>
+</QF>

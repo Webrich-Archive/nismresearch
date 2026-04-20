@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM Investment Strategies and Governance_39" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Liquidation Preference in a Cat I/II AIF investment is typically triggered on which of the following events?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Declaration of any dividend during the holding period]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Sale of shares, substantial assets, an acquisition/merger, consolidation, amalgamation or demerger]]></text></answer>
+            <answer correct="no"><text><![CDATA[Annual general meeting vote on director re-appointment]]></text></answer>
+            <answer correct="no"><text><![CDATA[Exercise of employee stock options above 5% of capital]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per Ch 11.6.5, Liquidation Preference is triggered on events like sale of shares or substantial assets, an acquisition or merger of the company, consolidation, merger, amalgamation or demerger. It is NOT triggered by routine events like dividends, AGMs, or ESOP exercises.
+**The Trap:** Dividend declarations and AGM votes don't trigger liquidation preferences. ESOP exercise is a capital-structure event, not a liquidation event.
+**Cross-Exam Context:** Same trigger taxonomy tested in XIX-A and VIII (Equity Derivatives) for convertible-sec event analysis.
+**Manager's Pro-Tip:** Draft 'Liquidation Event' definition tightly. Leaving 'or any similar transaction' in the clause is a gift to later counterparties who argue new structures aren't 'similar' — enumerate events exhaustively.]]></text></explanation>
+    </question>
+</QF>

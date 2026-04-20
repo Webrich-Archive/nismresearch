@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM Taxation_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Marigold India Opportunities Fund (Cat II AIF) is distributing to Brookstone LLC, a US tax resident. Brookstone's share for FY25: INR 20 crore interest income and INR 8 crore dividend. Under Section 194LBB(b), assuming Brookstone has furnished a valid TRC and Form 10F and the India-US DTAA caps interest at 15% and dividend at 25%, what is the TDS rate the fund should apply?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[10% flat, same as residents, because 194LBB is a single rate]]></text></answer>
+            <answer correct="no"><text><![CDATA[30% on interest and 10% on dividend, because non-residents pay higher]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Interest: rate-in-force under ITA or DTAA whichever is more beneficial (Section 90(2)); Dividend: 20% (Section 194LBB(b)) or DTAA rate whichever is more beneficial]]></text></answer>
+            <answer correct="no"><text><![CDATA[Nil TDS — non-residents are taxed in their home country only]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Section 194LBB(b) prescribes for non-resident investors: TDS at 'rates in force' (Finance Act / ITA) or applicable DTAA, whichever is more beneficial under Section 90(2). Specifically for dividend income, 194LBB(b) prescribes 20%. Interest to an NR is taxed as per ITA Section 115A (20%) or DTAA rate (15% here) — the lower 15% applies once TRC + Form 10F are on file. Dividend — DTAA 25% vs ITA 20% — the ITA 20% is beneficial, so 20% applies.
+**The Trap:** Option A is the resident rate — 10% applies only under 194LBB(a). Option B invents rates. Option D forgets that India is the source country and has primary taxing right.
+**Cross-Exam Context:** XIX-A treats DTAA at a concept level. XIX-C expects the manager's tax team to run the TRC/Form 10F/Form 15CA-CB workflow before every NR distribution.
+**Manager's Pro-Tip:** Build a TRC-expiry dashboard — TRCs are annual. If an LP's TRC expires mid-year, fall back to ITA rate-in-force on subsequent credits, not DTAA. Many funds leak tax risk by applying DTAA beyond TRC validity.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM Informational Efficiency_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Indian markets show repeated insider-trading actions by SEBI under the PIT Regulations, 2015. What does the existence and enforcement of these regulations suggest about the form of EMH empirically supported in India?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Strong-form efficiency is clearly supported - otherwise SEBI would not need PIT Regulations.]]></text></answer>
+            <answer correct="no"><text><![CDATA[Weak-form efficiency is rejected - insider trading is a technical-analysis phenomenon.]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Strong-form efficiency is rejected - since insiders apparently CAN earn abnormal returns, prices do NOT fully reflect private information, and regulation is needed as a corrective.]]></text></answer>
+            <answer correct="no"><text><![CDATA[Semi-strong efficiency cannot hold because earnings announcements are delayed.]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per Ch 3.2.3, strong-form EMH predicts no group - including insiders - can earn abnormal returns. Empirical insider-trading studies and the very need for insider-trading regulation suggest strong form is REJECTED: insiders do obtain abnormal returns unless deterred by regulation. This is why SEBI PIT Regulations, 2015 and Chinese-wall/pre-clearance norms exist.
+**The Trap:** Option A inverts the inference. Option B mislabels insider trading as technical. Option D is unrelated.
+**Cross-Exam Context:** III-A/C (compliance), XXIV (AML), XV (RA) and XIX-C all test insider-trading regulatory regime. XIX-C scope: as AIF manager you are a 'designated person' with PIT obligations.
+**Manager's Pro-Tip:** Maintain a tight UPSI list, pre-clearance window and 'trading plan' discipline for all designated persons in your AIFM - including the IC, portfolio team and close relatives. A single PIT breach can invalidate an entire fund's reputation.]]></text></explanation>
+    </question>
+</QF>

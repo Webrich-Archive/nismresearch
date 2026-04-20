@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM Valuation_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Lotus Growth Fund (Category II AIF) owns 15% of Zephyr Logistics, an unlisted company. Zephyr's FY25 EBITDA is INR 40 crore. Peer-set trading EV/EBITDA is 12x. Zephyr's net debt is INR 80 crore. Using the relative valuation approach with no illiquidity discount applied, what is the fair value of Lotus's stake in Zephyr?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[INR 60 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 48 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 54 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 72 crore]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** EV = 12 x INR 40 cr EBITDA = INR 480 cr. Equity Value = EV - Net Debt = 480 - 80 = INR 400 cr. Lotus's 15% stake = 0.15 x 400 = INR 60 crore. The textbook computation under Section 14.7.1 requires deducting debt from EV to reach equity.
+**The Trap:** INR 72 cr applies 15% to EV directly (forgets debt). INR 48 cr uses only EBITDA x multiple x stake. INR 54 cr adds back cash incorrectly.
+**Cross-Exam Context:** XV (Research Analyst) uses the same EV/EBITDA method but with a listed-peer lens; XIX-C stresses the illiquidity discount and unlisted-comp adjustment typical in PE valuation.
+**Manager's Pro-Tip:** At the IC, always show BOTH the EV and the equity bridge in the valuation memo. LPs reviewing the quarterly NAV will push back if the debt adjustment is missing — this is the most common audit finding in AIF valuation reports.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM Modern Portfolio Theory and Capital Market Theory_8" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A fund manager at Yamuna Multi-Asset AIF is evaluating adding one of four new strategies to the existing portfolio. The correlation of each candidate with the current portfolio is: Strategy W: +0.50; Strategy X: +0.10; Strategy Y: -0.20; Strategy Z: -0.75. Which strategy offers the HIGHEST diversification benefit?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Strategy W (+0.50).]]></text></answer>
+            <answer correct="no"><text><![CDATA[Strategy X (+0.10).]]></text></answer>
+            <answer correct="no"><text><![CDATA[Strategy Y (-0.20).]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Strategy Z (-0.75).]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Chapter 4.8 states: 'Lower the correlation, higher the benefits of diversification.' A correlation of -0.75 is the lowest (most negative) of the four, so Strategy Z maximises risk reduction when combined with the existing portfolio. At ρ = -1 the theoretical risk-elimination is complete.
+**The Trap:** W at +0.50 actually amplifies covariance. X at +0.10 offers modest benefit. Y at -0.20 helps more than X but less than Z. Candidates who 'fear negative' often pick X — that is the trap.
+**Cross-Exam Context:** Identical sample question appears in Chapter 4 of the XIX-C workbook itself and in XXI-B / XV.
+**Manager's Pro-Tip:** On paper, a negatively-correlated AIF sleeve (say long-volatility Cat III) looks ideal alongside a Cat II PE book. But negative correlation in stress scenarios often breaks down ('all correlations go to 1') — stress-test in the IC deck, don't just cite historical ρ.]]></text></explanation>
+    </question>
+</QF>

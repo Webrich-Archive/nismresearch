@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM Informational Efficiency_12" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[SEBI mandates prompt continuous disclosure of price-sensitive information under LODR Regulations and requires UPSI protection under PIT Regulations. Which form of market efficiency do these disclosure regimes PROMOTE and which do they implicitly ACCEPT is violated?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[They promote weak-form efficiency and accept that strong-form is violated.]]></text></answer>
+            <answer correct="yes"><text><![CDATA[They promote semi-strong-form efficiency (by forcing price-sensitive info into the public domain) and implicitly accept that strong-form is violated (since insiders would otherwise exploit UPSI).]]></text></answer>
+            <answer correct="no"><text><![CDATA[They promote strong-form efficiency and accept weak-form is violated.]]></text></answer>
+            <answer correct="no"><text><![CDATA[They are unrelated to the EMH framework.]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** LODR-style continuous-disclosure pushes price-sensitive information into the public domain so that all investors can trade on it - this is exactly the semi-strong-form condition. PIT Regulations exist because, absent controls, insiders would profit from UPSI, which is exactly what strong-form EMH would forbid. Thus disclosures promote semi-strong efficiency; PIT accepts strong-form is violated.
+**The Trap:** Option A misassigns weak-form (historical prices, no disclosure angle). Option C inverts. Option D dismisses the regulatory-EMH linkage that is textbook.
+**Cross-Exam Context:** III-A (compliance), XV (RA), XIX-A/B/C all touch this interplay. XIX-C expects the manager to articulate these links at IC / LP meetings.
+**Manager's Pro-Tip:** Your AIF's Code of Conduct, pre-clearance policy and UPSI register translate SEBI's semi-strong / strong-form assumptions into operating processes. Audit them annually - LPs increasingly request this as part of ODD.]]></text></explanation>
+    </question>
+</QF>

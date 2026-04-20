@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM Indices and Benchmarking_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Mr. Rohan Agarwal, CFO at Chanakya Cat II AIF, is presenting fund performance to a family-office LP and is asked: 'How does your Cat II fund compare to the listed equity market given its illiquid, drawdown-based cash-flow pattern?' Which benchmarking technique is specifically designed to answer this question?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Public Market Equivalent (PME) — a family of techniques including Long-Nickels PME, Kaplan-Schoar (KS-PME), Direct Alpha, and the Index Comparison Method (ICM) that translate private-fund cash flows into an equivalent public-market investment for comparison.]]></text></answer>
+            <answer correct="no"><text><![CDATA[Capital Asset Pricing Model (CAPM) — which measures systematic risk relative to a broad market proxy and derives expected return.]]></text></answer>
+            <answer correct="no"><text><![CDATA[Sharpe Ratio — which measures excess return per unit of total volatility and is the primary AIF benchmarking tool.]]></text></answer>
+            <answer correct="no"><text><![CDATA[Treynor Ratio — which measures excess return per unit of beta and is SEBI-mandated for Cat I AIF reporting.]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per Section 10.8 (and cross-reference to Section 9.8.5), PME is the family of techniques built specifically for illiquid drawdown-distribution funds — it simulates investing the AIF's actual cash flows into a public index and computes an equivalent return so the AIF's IRR can be fairly compared against the listed market. Variants include Long-Nickels, KS-PME, Direct Alpha, and ICM.
+**The Trap:** CAPM (B) is an expected-return model, not a cash-flow-matched comparison. Sharpe (C) and Treynor (D) are risk-adjusted return ratios; neither is cash-flow-timing-aware and neither is SEBI-mandated for Cat I.
+**Cross-Exam Context:** XXI-B (PM) tests Sharpe/Treynor for listed portfolios. XIX-C uniquely tests PME because AIF cash flows are illiquid and lumpy (J-curve).
+**Manager's Pro-Tip:** For your next LP pitchbook, always report IRR + TVPI + KS-PME + Direct Alpha. Sophisticated LPs (Cambridge, Preqin-fed endowments) treat PME as the acid test. IRR-only pitches are increasingly flagged as red flags during ODD.]]></text></explanation>
+    </question>
+</QF>

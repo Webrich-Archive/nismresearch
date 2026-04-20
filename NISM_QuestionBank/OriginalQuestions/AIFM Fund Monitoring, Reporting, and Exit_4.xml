@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM Fund Monitoring, Reporting, and Exit_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Kaveri Private Equity Fund called INR 500 cr, distributes INR 1,200 cr at exit. Waterfall: ROC -> 8% pref (1 year, simple) -> 50/50 partial catch-up until GP reaches 20% of all profit above ROC -> 80/20 thereafter. Compute the GP's total CARRY.]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[INR 140 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 132 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 120 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 108 crore]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** ROC: LP gets 500. Pool left = 700. Pref: 8% * 500 = 40 to LP. Pool left = 660. 50/50 catch-up runs until GP's cumulative carry = 20% of total profit (profit = 700). Target GP carry = 140. Let C = catch-up amount shared 50/50, so GP gets C/2 in this tier. After catch-up and subsequent 80/20 on remaining (660 - C), GP total = C/2 + 0.20*(660-C). Set equal to 140: 0.5C + 132 - 0.20C = 140 => 0.30C = 8 => C = 26.67. GP: 13.33 (catch-up) + 0.20*(660 - 26.67) = 13.33 + 126.67 = 140. Total GP carry = INR 140 cr, which equals 20% of the total INR 700 cr profit — correct.
+**The Trap:** INR 120 cr ignores catch-up and takes 20% of (700 - 40) = 132 (shown as alt trap). INR 132 cr comes from taking 20% of profit-after-pref without applying catch-up. INR 108 cr halves the pref share incorrectly.
+**Cross-Exam Context:** XIX-C unique — partial catch-ups rarely feature outside Manager exams. III-A compliance only tests the existence of such terms in the PPM, not the math.
+**Manager's Pro-Tip:** Partial catch-ups (50/50, 60/40) are common in Indian Cat II funds to balance anchor LPs. When you model them for the PPM, always compute a 'GP's 20% of total profit' check — some PPMs end up over-paying GP due to rounding language.]]></text></explanation>
+    </question>
+</QF>

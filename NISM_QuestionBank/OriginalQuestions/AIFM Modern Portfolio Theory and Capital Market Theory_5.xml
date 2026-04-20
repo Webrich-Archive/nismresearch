@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM Modern Portfolio Theory and Capital Market Theory_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A wealthy LP in Chenab Opportunities AIF has a risk-aversion index (A) of 4. He is evaluating an AIF sleeve with an expected return of 18% and a return variance (σ²) of 0.04 (i.e. σ = 20%). Using the standard utility function U = E(r) – 0.5·A·σ², what is his utility score?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[10.0%]]></text></answer>
+            <answer correct="no"><text><![CDATA[16.0%]]></text></answer>
+            <answer correct="no"><text><![CDATA[14.0%]]></text></answer>
+            <answer correct="no"><text><![CDATA[18.0%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** U = E(r) − (1/2)·A·σ². With E(r)=0.18, A=4, σ²=0.04: U = 0.18 − 0.5×4×0.04 = 0.18 − 0.08 = 0.10 = 10%. Utility captures the certainty-equivalent return after penalising variance by the investor's risk-aversion index.
+**The Trap:** 16% forgets to subtract the risk-penalty term. 14% uses σ (20%) instead of σ² (4%) in the penalty. 18% is the raw expected return with no risk adjustment.
+**Cross-Exam Context:** The utility score appears in X-B (IA L2), XXI-B (PM) and XV (RA). XIX-A/B Distributor exams seldom test the arithmetic but expect the definition.
+**Manager's Pro-Tip:** When onboarding a sophisticated LP, document the risk-aversion index you assume in the IPS (Investment Policy Statement). If you structure a fund with leverage beyond the LP's implied 'A', you breach suitability — even before SEBI looks at it.]]></text></explanation>
+    </question>
+</QF>

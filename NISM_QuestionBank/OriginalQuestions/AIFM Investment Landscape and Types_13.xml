@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM Investment Landscape and Types_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Ms. Priya Shah, risk head at Lotus AIF, is classifying the dominant risk in a Cat II AIF's direct pre-IPO equity stake in an unlisted Indian logistics company. The market is strong, the company is solvent, but the holding cannot be sold bilaterally for near economic value within a reasonable window. Per NISM Ch 1.4.3, which risk type dominates?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Interest rate risk]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Liquidity risk]]></text></answer>
+            <answer correct="no"><text><![CDATA[Exchange rate risk]]></text></answer>
+            <answer correct="no"><text><![CDATA[Business risk]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per Chapter 1.4.3.3, liquidity risk is 'the uncertainty introduced by the secondary market of an investment... the more difficult the conversion, the more is the liquidity risk'. An unlisted pre-IPO stake that cannot be converted to cash at near economic value is a textbook liquidity-risk exposure, independent of interest rates, FX or business fundamentals.
+**The Trap:** Interest rate risk applies to debt instruments' mark-to-market. Exchange rate risk applies to foreign-currency exposures. Business risk is the earnings volatility of the underlying firm — but the stem stipulates the company is solvent and markets are strong, so business risk is not the dominant concern.
+**Cross-Exam Context:** XXI-B (PM) tests liquidity risk in listed-market context. XIX-C reframes it as the definitional risk of AIF investing — the illiquidity premium is literally compensation for this.
+**Manager's Pro-Tip:** In your risk register, separate 'asset liquidity risk' (can we exit the position) from 'fund liquidity risk' (can we meet capital calls / redemption). Mixing these two in the LP report is a red flag that invites awkward IC meetings with sophisticated LPs.]]></text></explanation>
+    </question>
+</QF>

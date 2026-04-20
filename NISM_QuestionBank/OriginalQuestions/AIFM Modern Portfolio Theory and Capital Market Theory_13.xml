@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM Modern Portfolio Theory and Capital Market Theory_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Ms. Sunita Deshmukh, manager of Vindhya Listed-Equity Cat III AIF, is computing the required return for a portfolio company with β = 1.4. The risk-free rate in India is 7%, and the equity market risk premium (Rm − Rf) is 8%. Using CAPM, what is the required return?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[15.0%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[18.2%]]></text></answer>
+            <answer correct="no"><text><![CDATA[17.8%]]></text></answer>
+            <answer correct="no"><text><![CDATA[21.0%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** E(Ri) = Rf + β·(Rm − Rf) = 7% + 1.4·8% = 7% + 11.2% = 18.2%.
+**The Trap:** 17.8% uses β = 1.35. 15.0% treats Rm as 15% directly, ignoring beta. 21.0% mistakenly uses β × 10% added to Rf.
+**Cross-Exam Context:** CAPM calculation is a staple across all NISM exams — XIX-A/B, XXI-A/B, XV, X-A/B.
+**Manager's Pro-Tip:** For unlisted AIF portfolio companies, pure-play comparable betas must be unlevered, adjusted for the target's capital structure, and re-levered. Don't just copy the listed-peer beta — the IC will challenge that.]]></text></explanation>
+    </question>
+</QF>

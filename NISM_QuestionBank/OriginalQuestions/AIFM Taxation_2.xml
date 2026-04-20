@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM Taxation_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Chakra Alpha Fund is a Category III AIF structured as a determinate irrevocable trust, running a long-short equity strategy. The CFO asks the manager: how is the fund's income taxed under the ITA?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The fund enjoys full pass-through under Section 115UB identical to Cat I/II AIFs.]]></text></answer>
+            <answer correct="no"><text><![CDATA[The fund is exempt and distributions to investors are taxed under Section 194LBB only.]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Pass-through is NOT available; the trustee (as representative assessee under Section 161/161(1A)) discharges tax at the fund level based on character of income, with F&O gains at MMR as business income.]]></text></answer>
+            <answer correct="no"><text><![CDATA[The fund is taxed as a company at a flat 25.168% under Section 115BAA.]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Category III AIFs are specifically EXCLUDED from Section 115UB pass-through. Where structured as a determinate trust, the trustee is assessed as 'representative assessee' under Sections 161/161(1A) and pays tax on behalf of beneficiaries at the rate applicable to each income head. F&O gains are treated as 'Profits and gains from business or profession' taxed at MMR (42.744%). If any portion is business income, Section 161(1A) can push the WHOLE income to MMR.
+**The Trap:** Option A is the most common error — Section 115UB/10(23FBA) applies ONLY to Cat I and II. Option B invents a 194LBB route; 194LBB is a Cat I/II distribution TDS. Option D confuses a corporate tax regime (115BAA) with a trust AIF.
+**Cross-Exam Context:** XIX-B tests this from a Cat III distributor angle (what the client receives post-tax). XIX-C expects the manager to model Section 161(1A) 'tainting' risk — if even one rupee of business income exists, the entire trust income risks MMR.
+**Manager's Pro-Tip:** For a Cat III equity long-short fund, bifurcate the books early: mark delivery trades as investment (capital gains) and F&O as business income. This preserves the 12.5%/20% concessional rates on the investment book and limits MMR only to the F&O sleeve.]]></text></explanation>
+    </question>
+</QF>

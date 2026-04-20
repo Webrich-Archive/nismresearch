@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM Fund Structuring_32" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA['Saraswati Cat III Open-Ended AIF' has assets of INR 500 crore. Sponsor commitment is 5% of corpus with a statutory cap. What is the sponsor's contribution?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[INR 10 crore (lower of 5% of INR 500 cr = INR 25 cr, or INR 10 crore)]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 25 crore (5% of corpus)]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 12.5 crore (2.5% of corpus)]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 5 crore (Cat I/II rule)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Cat III rule: LOWER of 5% of corpus or INR 10 crore. 5% of INR 500 cr = INR 25 cr; INR 10 cr is lower. Sponsor contributes INR 10 crore.
+**The Trap:** Option B ignores the INR 10 cr cap. Option C applies an incorrect percentage. Option D applies Cat I/II rule.
+**Cross-Exam Context:** Direct variant of Q17 — XIX-C tests the 'lower of' logic repeatedly across different corpus sizes.
+**Manager's Pro-Tip:** If your Cat III sponsor is capital-constrained, structure the sponsor commitment as a first-loss tranche of INR 10 cr instead of pari-passu — it signals better alignment and may justify a higher carry split.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM Investment Landscape and Types_6" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Per NISM Chapter 2's three-way Traditional / Alternative / Dual classification, in which category would a publicly-listed REIT that invests in underlying illiquid commercial real estate assets MOST appropriately sit?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Purely Traditional, because it is listed on the exchange and redeemable at market price]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Dual category, because the underlying assets are illiquid but the REIT unit itself is listed and liquid]]></text></answer>
+            <answer correct="no"><text><![CDATA[Purely Alternative, because the underlying assets are illiquid real estate]]></text></answer>
+            <answer correct="no"><text><![CDATA[Neither — REITs are specifically excluded from the three-way classification]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per Chapter 2.1 and Table 2.1, the Dual category captures 'structures that have underlying illiquid assets but the instruments per se may be liquid as they are either listed on the stock exchanges or are redeemable through the mutual fund route'. REITs fit precisely — the real estate is illiquid, but the listed REIT unit is tradeable on NSE/BSE. The textbook explicitly classifies REITs and InvITs in this dual bucket.
+**The Trap:** Option A ignores the underlying-asset illiquidity. Option B ignores the wrapper liquidity. Option D is fabricated — REITs are a textbook example of the Dual category.
+**Cross-Exam Context:** XXI-B (PM) covers REITs/InvITs in the listed-instruments portfolio. XIX-A/B test REITs as yield assets for HNI clients. XIX-C uniquely tests the wrapper-vs-underlying classification.
+**Manager's Pro-Tip:** When building a Cat II real estate AIF, the PPM should distinguish your position from listed REITs. Your LPs need to understand they are giving up REIT-like liquidity for direct-project IRR uplift — otherwise they anchor to REIT yield and punish you on carry.]]></text></explanation>
+    </question>
+</QF>

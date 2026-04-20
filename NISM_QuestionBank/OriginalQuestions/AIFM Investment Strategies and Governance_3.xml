@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM Investment Strategies and Governance_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Saraswati Structured Credit AIF is originating a Securitized Debt Instrument (SDI) where the target company — a drone manufacturer — takes capital equipment on lease from an SPV funded by the AIF. Under SEBI (Issue and Listing of Securitised Debt Instruments and Security Receipts) Regulations, who bears the primary responsibility for due diligence on the lessee (target) company?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[The originator / sponsor of the SDI]]></text></answer>
+            <answer correct="no"><text><![CDATA[The stock exchange where the SDI is listed]]></text></answer>
+            <answer correct="no"><text><![CDATA[The credit rating agency rating the SDI]]></text></answer>
+            <answer correct="no"><text><![CDATA[The trustee of the AIF holding the SDI]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per Ch 11.1.2 (Securitized Debt Instruments), the originator/sponsor of the SDI is responsible for conducting due diligence on the target company — reference checks on management, red flags in financials, key contracts, default history, litigations — because default by the lessee directly hits SDI investors' principal and coupons.
+**The Trap:** Credit rating agencies rate the SDI based on sponsor-supplied data; they do not replace sponsor DD. Exchange listing is a disclosure platform, not a DD gatekeeper. The AIF trustee oversees the trust, not individual investee DD.
+**Cross-Exam Context:** XIX-A tests SDI product features. XIX-C focuses on the manager's origination duty — the same sponsor-responsibility principle appears in AML (XXIV) as KYC-on-counterparty and in III-A compliance.
+**Manager's Pro-Tip:** When an AIF Manager also plays sponsor/originator on an SDI, document the DD workpapers separately from portfolio-investment files — rating agencies and SEBI inspections look for evidence the sponsor didn't outsource DD entirely to the rating agency.]]></text></explanation>
+    </question>
+</QF>

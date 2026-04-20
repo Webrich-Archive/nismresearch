@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM Valuation_22" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In AIF parlance, the 'sum of parts valuation' or 'bottom-up approach' to fund NAV means:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Taking the last closing NAV and adjusting for MTM on listed holdings only]]></text></answer>
+            <answer correct="no"><text><![CDATA[Using top-down macroeconomic assumptions to value the whole fund at once]]></text></answer>
+            <answer correct="no"><text><![CDATA[Starting from the fund's committed capital and accruing fees upward]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Summing the fair value of each underlying portfolio investment, adjusted for fund-level liabilities and payables, as of valuation date]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per Section 14.9, NAV (fair value) of a fund equals the sum of estimated fair values of underlying portfolio investments as of the valuation date, with the investor's interest further adjusted for taxes, statutory payments, outstanding fees, carried interest and contractual deductions. This is the 'bottom-up' or 'sum-of-parts' approach.
+**The Trap:** Option A describes a committed-capital build-up (not NAV). Option C is an MTM shortcut, not bottom-up. Option D is 'top-down', the opposite concept.
+**Cross-Exam Context:** XXI-B (PM) uses mark-to-market for listed portfolios; XIX-C introduces the private-market bottom-up NAV where each asset is valued via its own appropriate method (DCF, multiple, NAV, etc.).
+**Manager's Pro-Tip:** Document which method was used for EACH investee in an 'NAV-stack' schedule. This one-pager is the single most useful document for LPAC meetings and LP due diligence on secondary transfers.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM AIFs in India and Suitability_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[An LP is debating whether to invest INR 5 crore via a Category III AIF or via a discretionary PMS. From the AIF Manager's perspective, which statement BEST captures the STRUCTURAL difference in how the investor's holdings are reflected?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[In both AIF and PMS, the investor owns individual securities directly through their own demat account]]></text></answer>
+            <answer correct="yes"><text><![CDATA[In AIF, the investor owns units of a pooled fund and the securities sit in the fund's pooled demat; in PMS, securities sit in the investor's own demat account]]></text></answer>
+            <answer correct="no"><text><![CDATA[In both AIF and PMS, the investor owns fund units issued by the fund house]]></text></answer>
+            <answer correct="no"><text><![CDATA[In AIF, securities sit in the investor's demat; in PMS, securities sit in a pooled demat at the Portfolio Manager]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Table 6.3 is explicit: PMS pools for on-boarding and trading but securities are held at INDIVIDUAL client demat level; AIF uses compulsory pooling and trading at FUND level with pooled demat. The investor in an AIF owns 'units' of the fund representing underlying securities; in PMS the investor owns the securities themselves.
+**The Trap:** Option C is a common misconception — PMS does NOT issue units. Option D is the exact inverse of reality. Option A ignores the pooling distinction entirely.
+**Cross-Exam Context:** XXI-A/B PMS exams drill the 'securities in investor's demat' principle; XIX-C contrasts that with pooled AIF demat — LP onboarding conversations constantly reference this distinction.
+**Manager's Pro-Tip:** For tax-conscious LPs, the demat structural difference matters — in Cat III AIF, taxation is at fund level; in PMS it is at investor level with LTCG/STCG pass-through. Flag this during pre-subscription conversations to avoid post-facto surprises.]]></text></explanation>
+    </question>
+</QF>

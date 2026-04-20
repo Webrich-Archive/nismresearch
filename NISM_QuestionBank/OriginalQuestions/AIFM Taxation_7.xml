@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM Taxation_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Aravali Long-Short Fund (Cat III AIF, determinate trust) earns FY25: F&O net gain INR 18 crore, LTCG on listed equity (STT-paid) INR 4 crore, STCG on listed equity (STT-paid) INR 3 crore, dividend INR 2 crore. Assuming the fund discharges tax at fund level as representative assessee (practical approach) and NO Section 161(1A) tainting is invoked, at which rate is the F&O gain taxed?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[14.56% LTCG concessional rate]]></text></answer>
+            <answer correct="no"><text><![CDATA[Entire P&L at flat 30%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Nil, pass-through applies]]></text></answer>
+            <answer correct="yes"><text><![CDATA[MMR of 42.744% as 'Profits and gains from business or profession']]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per workbook Para 16.2.5: gains from F&O transactions in a Cat III AIF are treated as 'Profits and gains from business or profession' and taxed at MMR (42.744% — 30% basic + 37% surcharge + 4% cess). LTCG/STCG/dividend sleeves are taxed at their respective head-wise effective rates at the fund level. Here 18 cr x 42.744% = INR 7,69,39,200 fund-level tax on the F&O sleeve alone.
+**The Trap:** Option A applies LTCG concessional rate to business income — incorrect. Option B ignores the surcharge and cess layer. Option C confuses Cat III with Cat I/II.
+**Cross-Exam Context:** XIX-B covers fund-level rates from a client-return angle; XIX-C expects fund-level computation and quarterly advance tax discipline.
+**Manager's Pro-Tip:** Keep a PAN-level tax calendar. Pay advance tax in four instalments — 15/45/75/100% — to avoid 234B/234C interest. Cat III fund-level tax on F&O at MMR means large quarterly cash outflows; plan treasury accordingly.]]></text></explanation>
+    </question>
+</QF>

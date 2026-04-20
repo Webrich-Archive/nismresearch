@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM Fee Structure and Fund Performance_52" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Surya Infra Fund (Cat II) has committed capital of INR 500 crore and GNAV of INR 620 crore at end of Year 1. Management fee is 2% (excl. GST) on committed capital during the commitment period. GST at 18%. Total management fee charged to fund in Year 1 (incl. GST):]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[INR 11.80 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 10.00 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 12.40 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 14.632 crore]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Mgmt fee base = Committed Capital INR 500 crore during commitment period. 2% × 500 = INR 10 crore. Incl 18% GST: 10 × 1.18 = INR 11.80 crore.
+**The Trap:** Option B ignores GST. Option C uses 2% × 620 GNAV (wrong base). Option D uses 620 × 2% × 1.18 (wrong base + GST).
+**Cross-Exam Context:** XIX-A tests the commitment-based calc; XIX-C also adds post-commitment step-down.
+**Manager's Pro-Tip:** Explicitly state in the Contribution Agreement: base of fee (committed/invested/NAV), step-down date, and treatment of defaulted commitments. Ambiguity here causes 80% of LP-GP disputes in Cat I/II.]]></text></explanation>
+    </question>
+</QF>

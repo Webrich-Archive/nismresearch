@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM Valuation_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Saraswati Capital AIF is valuing investee company Kavach Defence. Year-5 FCF is INR 120 crore; post-Year-5 perpetual growth 'g' = 4%; WACC = 12%. Using the Gordon Growth formula, what is the undiscounted Terminal Value at end of Year 5?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[INR 1,500 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 1,000 crore]]></text></answer>
+            <answer correct="yes"><text><![CDATA[INR 1,560 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 1,250 crore]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** TV = FCF(T+1) / (WACC - g) = [120 x (1+0.04)] / (0.12 - 0.04) = 124.8 / 0.08 = INR 1,560 crore. Per Section 14.6, FCF(T+1) must be grown by (1+g) first before dividing by (WACC - g).
+**The Trap:** INR 1,500 cr ignores the (1+g) growth on Year-5 FCF. INR 1,000 cr uses WACC alone (no perpetuity-with-growth). INR 1,250 cr double-applies growth.
+**Cross-Exam Context:** XXI-B (Portfolio Manager) also tests the Gordon model, but with dividend-paying listed stocks (DDM). XIX-C applies it to FCFF of unlisted investees, where terminal value often dominates 60-80% of enterprise value.
+**Manager's Pro-Tip:** Do a sensitivity grid on 'g' in every IC memo: a 1% shift from 3% to 4% on the same WACC can swing TV by 20%+. LPAC members will challenge your terminal assumption before your explicit-period FCF.]]></text></explanation>
+    </question>
+</QF>

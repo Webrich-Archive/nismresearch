@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM Taxation_8" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Mr. Rajesh Nair, a resident individual LP of Lotus Venture Fund (Cat I AIF), receives pass-through LTCG of INR 40 lakh (gross) on sale of unlisted equity shares held by the fund for 40 months. His slab otherwise is 30%. What is Rajesh's incremental tax on this LTCG under Section 112 (post Finance (No.2) Act 2024, basic rate, ignore surcharge/cess)?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[20% with indexation = approx INR 5-6 lakh]]></text></answer>
+            <answer correct="yes"><text><![CDATA[12.5% without indexation = INR 5,00,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[30% slab rate = INR 12,00,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Exempt up to INR 1.25 lakh, balance at 10%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Post Finance (No.2) Act 2024 (w.e.f. 23-07-2024), LTCG on unlisted equity is taxed at a uniform 12.5% WITHOUT indexation benefit. Holding >24 months for unlisted qualifies as long-term. 12.5% x INR 40 lakh = INR 5 lakh. The INR 1.25 lakh exemption (option D) is ONLY for STT-paid listed equity/equity-oriented MF/ business trust units under Section 112A — not unlisted.
+**The Trap:** Option A is the pre-23-07-2024 regime (20% with indexation). Option C uses slab — wrong for LTCG. Option D wrongly applies the 112A threshold to unlisted.
+**Cross-Exam Context:** XIX-A tests the 'what rate?' level; XIX-C expects the manager to issue Form 64C pre-populated with head-wise LTCG so the LP's CA computes correctly.
+**Manager's Pro-Tip:** Time exits cleverly: the 23-07-2024 cutover killed indexation. For high-cost-base private-market positions acquired long ago, run the pre/post comparison — some sponsors pushed exits before 23-07-2024 to grandfather indexation.]]></text></explanation>
+    </question>
+</QF>

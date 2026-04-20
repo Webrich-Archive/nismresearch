@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM Fee Structure and Fund Performance_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[SEBI's current prudential norms cap a Category III AIF's leverage at:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[0.5 times the NAV of the fund]]></text></answer>
+            <answer correct="no"><text><![CDATA[1 time (no leverage permitted)]]></text></answer>
+            <answer correct="no"><text><![CDATA[5 times the NAV of the fund]]></text></answer>
+            <answer correct="yes"><text><![CDATA[2 times the NAV of the fund]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Ch 9.5 Point 12: Cat III AIF is permitted leverage up to 2 times the NAV as per SEBI prudential norms. Breach is reportable monthly.
+**The Trap:** Option A is too restrictive. Option B is wrong — leverage IS permitted. Option C would violate SEBI norms.
+**Cross-Exam Context:** XIX-B covers leverage cap; III-A/C (Compliance) covers reporting.
+**Manager's Pro-Tip:** Set an internal soft-limit at 1.75x so you have operational buffer. Reporting breaches to SEBI within the stipulated window is non-negotiable — automate this trigger in your risk system.]]></text></explanation>
+    </question>
+</QF>

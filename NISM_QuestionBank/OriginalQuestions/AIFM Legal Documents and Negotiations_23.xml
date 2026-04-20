@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM Legal Documents and Negotiations_23" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Per SEBI Circular dated April 10, 2023, when an investor approaches an AIF through a SEBI-registered intermediary that is separately charging the investor any fee (e.g., advisory fee or portfolio management fee), the investor must be onboarded via:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Regular Plan with distribution commission]]></text></answer>
+            <answer correct="no"><text><![CDATA[Regular Plan with 50% trail commission rebate]]></text></answer>
+            <answer correct="no"><text><![CDATA[A hybrid plan at the AIF's discretion]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Direct Plan only, with no payment of commissions]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per Section 13.7.3, SEBI Circular SEBI/HO/AFD/PoD/CIR/2023/054 dated April 10, 2023 mandates that AIFs shall ensure investors who approach the AIF through a SEBI registered intermediary that is separately charging the investor any fee (advisory or PM fee) are onboarded via Direct Plan only, which involves NO payment of commissions.
+**The Trap:** Regular plan with commission would cause double-charging for the investor. Trail rebate schemes don't exist in AIF. Hybrid discretion not allowed.
+**Cross-Exam Context:** This mirrors MF Direct Plan logic tested in NISM-V-A. XIX-A tests it as distributor restriction; XIX-C tests it as manager's onboarding obligation.
+**Manager's Pro-Tip:** Build a mandatory declaration at onboarding: 'Are you paying an advisory/PM fee to the intermediary?'. Auto-route to Direct Plan if yes — protects against SEBI audit findings later.]]></text></explanation>
+    </question>
+</QF>

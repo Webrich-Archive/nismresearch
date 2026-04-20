@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM Ecosystem_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Saraswati Long-Short AIF is a Category III hedge fund with a committed corpus of INR 150 crore. What is the minimum sponsor/manager continuing interest required under SEBI (AIF) Regulations, 2012?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[INR 3.75 crore (2.5% of corpus)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[INR 7.5 crore (5% of corpus OR INR 10 crore, whichever is LOWER)]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 10 crore (flat minimum regardless of corpus)]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 15 crore (10% of corpus)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Category III AIFs require sponsor/manager continuing interest of the LOWER of 5% of corpus OR INR 10 crore. 5% of INR 150 crore = INR 7.5 crore, which is lower than the INR 10 crore cap, so INR 7.5 crore is the minimum. The amount cannot be satisfied by management-fee waiver or stock transfer — it must be fresh cash investment locked in till distributions complete.
+**The Trap:** Option A uses the Cat I/II percentage (2.5%). Option C treats INR 10 crore as a flat floor, ignoring 'whichever is lower'. Option D doubles the percentage.
+**Cross-Exam Context:** XIX-B tests this from the Cat III distributor side. XIX-C manager candidates must internalise that sponsor commitment is the FIRST in, LAST out — cannot be withdrawn until full distribution to investors.
+**Manager's Pro-Tip:** Cat III PMS-style sponsors sometimes under-commit because the fund is open-ended and corpus fluctuates. As manager, re-test the 5% threshold each quarter — if corpus grows, you must top up the commitment proportionately.]]></text></explanation>
+    </question>
+</QF>

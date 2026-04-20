@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM Legal Documents and Negotiations_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under the existing SEBI (AIF) Regulations, is appointing a custodian mandatory for all AIFs?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Only mandatory for Category III AIFs dealing in listed securities]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only mandatory if corpus exceeds INR 500 crore]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Mandatory for all AIFs; each scheme can have a different custodian to segregate assets and liabilities]]></text></answer>
+            <answer correct="no"><text><![CDATA[Optional; trustees can perform custodial functions internally]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per Section 13.7.2, under existing SEBI regulations, appointing a custodian is mandatory for ALL AIFs. Each scheme can have a different custodian to segregate assets and liabilities of that scheme. Regulation 20(11) requires sponsors/managers of AIFs to appoint a custodian for safekeeping of securities.
+**The Trap:** Historically, only Cat III / >INR 500 cr Cat I-II needed custodian, but that threshold has since been removed — all AIFs now need a custodian. Trustees cannot substitute for a custodian.
+**Cross-Exam Context:** XIX-A surface-recalls this. XIX-C drills into custodian functions (tax certificate, post-trade corporate actions, leverage-breach reporting for Cat III).
+**Manager's Pro-Tip:** Appoint the custodian before date of first investment — waiting till investments start creates a dangerous gap. Negotiate SLAs around tax certificate issuance (FY-end rush is real).]]></text></explanation>
+    </question>
+</QF>
