@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="SIA Taxation_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Vatsalya Charitable Society (child-welfare NPO) received INR 12 lakh of donations during the year where the donors' identities were NOT recorded. Total donations for the year were INR 2 crore. How will the SIA flag this for tax treatment in the pre-engagement note?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The entire INR 12 lakh is fully exempt because the NPO is 12AB registered]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Anonymous donations above the higher of INR 1 lakh or 5% of total donations are taxed at 30% under Section 115BBI]]></text></answer>
+            <answer correct="no"><text><![CDATA[Anonymous donations are taxed at the marginal slab rate applicable to the donor]]></text></answer>
+            <answer correct="no"><text><![CDATA[Anonymous donations up to 25% of total donations are exempt; balance taxed at 20%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Section 115BBI (read with Section 11/13) imposes a flat 30% tax on anonymous donations received by a charitable NPO above the threshold of the HIGHER of INR 1 lakh or 5% of total donations. 5% of INR 2 crore = INR 10 lakh, so the threshold is INR 10 lakh (higher of 1 lakh and 10 lakh). Anonymous donations above INR 10 lakh (i.e., INR 2 lakh of the INR 12 lakh) are taxed at 30%. The chapter explicitly cites the 30% flat rate for anonymous donations.
+**The Trap:** Full exemption is wrong — 12AB registration does not protect anonymous donations. Slab-rate taxation of the donor is irrelevant; it's the NPO that is taxed on the receipt. The '25% exempt / 20% balance' option is a fabricated distractor.
+**Cross-Exam Context:** XXIV / IFSCA-01 (AML) tests the KYC and source-of-funds angle; XXIII tests the tax leakage angle on the NPO side. X-A/X-B (Investment Adviser) may touch 115BBI when advising donors.
+**Assessor's Pro-Tip:** As part of SAS-100, walk the donation register for 5-10 sampled large receipts and confirm the donor PAN/name is on file. If the NPO plans a ZCZP issue on NSE-SSE (e-IPO from INR 10,000), all 80G receipts MUST be fully traced — the e-IPO facility creates a donor audit trail that makes anonymous treatment untenable.]]></text></explanation>
+    </question>
+</QF>

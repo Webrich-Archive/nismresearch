@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="SIA Case Studies on SAS Standards_67" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A SAS-1300 women's financial-inclusion programme claims that insurance penetration increased from 5% to 35% in beneficiary women. The SIA should verify:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Believe the figure]]></text></answer>
+            <answer correct="no"><text><![CDATA[Ask the CEO]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Actual policy issuance count from partner insurer, policy status (active / lapsed), premium-payment pattern, and sub-sample certificate physical inspection]]></text></answer>
+            <answer correct="no"><text><![CDATA[Rely on a press release]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Insurance policy claims need insurer-side data (issuance + status + premium pattern) plus primary physical inspection of certificates. Lapsed policies should NOT count as 'penetration' — the distinction matters under SAS-1300.
+**The Trap:** Options A, B, D are uncorroborated.
+**Cross-Exam Context:** Policy-status triangulation also in XXIV AML and V-A.
+**Assessor's Pro-Tip:** Always ask for 'persistency ratio' — insurance policies that are active AND in good standing. Gross-issuance numbers can triple-count lapsed policies and inflate penetration.]]></text></explanation>
+    </question>
+</QF>

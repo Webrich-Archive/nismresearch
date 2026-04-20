@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="SIA Assessment Frameworks Techniques and Standards_43" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Arranged from STRONGEST to WEAKEST causal inference, which order is correct?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Anecdote > Pre-post > DiD > RCT]]></text></answer>
+            <answer correct="yes"><text><![CDATA[RCT > Quasi-experimental (DiD, PSM) > Pre-post with comparison > Pre-post single-group > Anecdote]]></text></answer>
+            <answer correct="no"><text><![CDATA[Self-assessment > Testimonial > RCT > DiD]]></text></answer>
+            <answer correct="no"><text><![CDATA[SROI ratio > RCT > ToC narrative]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The standard evidence-hierarchy for causal inference is: RCT (strongest) > Quasi-experimental methods like DiD, RDD, PSM, synthetic control > Pre-post with comparison group > Pre-post single-group > Cross-sectional/anecdotal (weakest). SIAs must disclose which rung their evidence sits on.
+**The Trap:** Options A, C reverse the hierarchy. Option D mixes different constructs — SROI is a monetisation method, not a causal-inference design.
+**Cross-Exam Context:** X-A IA and XV Research Analyst use similar hierarchies for policy evidence. XXIII requires the SIA to know and communicate it.
+**Assessor's Pro-Tip:** Put the evidence-rung next to every outcome claim in the AIR: 'Outcome 1: literacy +18pp (Quasi-experimental, DiD, n=420, parallel-trends check passed)'. Investors reward this transparency.]]></text></explanation>
+    </question>
+</QF>

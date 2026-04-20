@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="SIA Reporting_26" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Shubham Family Trust, a major donor, insists on receiving an impact report in its own proprietary template, different from the SEBI-mandated Form RODD-A. How should the SIA advise the SE?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Prepare Form RODD-A for regulatory filing AND a separate donor-specific report, since donors often require their own formats (a challenge expressly noted in Chapter 7.4)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Refuse the donor template — only Form RODD-A is acceptable]]></text></answer>
+            <answer correct="no"><text><![CDATA[Replace Form RODD-A with the donor template]]></text></answer>
+            <answer correct="no"><text><![CDATA[Ask SEBI for approval to use the donor template]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Chapter 7.4 explicitly recognises that 'Investors or donors also have their own set of reporting guidelines and they accept reporting only in their own formats which increases the workload of the reporting team to prepare separate reports'. Both filings must be prepared.
+**The Trap:** A under-serves the donor. C defies SEBI. D invents a waiver process.
+**Cross-Exam Context:** Dual reporting (regulator + major investor) parallels SEBI AIF reporting (XIX AIF) where GPs file with SEBI and separately with LPs.
+**Assessor's Pro-Tip:** Build SIR once in a structured data layer (an internal CSV or JSON) and 'render' both the Form RODD-A and the donor format from the same source. Render logic in a script avoids the #1 risk: two outputs disagreeing on the same number.]]></text></explanation>
+    </question>
+</QF>

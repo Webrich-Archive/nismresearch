@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="SIA Reporting_49" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A SSE-listed NPO's aggregate beneficiary reach is claimed as 1,50,000. The SIA's sample-based testing on a statistical sample finds a projected error of 18,000 beneficiaries. The materiality threshold agreed in the engagement letter is 5% of total beneficiaries. What is the MOST appropriate conclusion?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Issue an unqualified opinion since 18,000 is below 20,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[Accept management's representation and sign off]]></text></answer>
+            <answer correct="no"><text><![CDATA[Increase the sample and defer the opinion indefinitely]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Issue a qualified opinion — projected error (18,000 / 1,50,000 = 12%) EXCEEDS the 5% materiality threshold (7,500)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Materiality threshold = 5% × 1,50,000 = 7,500 beneficiaries. Projected error 18,000 is 12%, well above 7,500. Under SAS-100 / SAE 3000 methodology, a projected error exceeding materiality forces a qualified or adverse conclusion. Options A and D ignore materiality; C delays indefinitely without grounds.
+**The Trap:** A shows failure to compute the 5% threshold correctly. D is the 'trust management' failure mode.
+**Cross-Exam Context:** Projected-error-vs-materiality is the same test used in SA 530 (Audit Sampling) in ICAI exams.
+**Assessor's Pro-Tip:** Always express the materiality threshold in the same unit as the projected error (here, beneficiary count). Cross-unit comparisons (e.g., materiality in INR vs error in persons) are a common rookie mistake.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="SIA Case Studies on SAS Standards_66" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Under SAS-1300 the BHIM / UPI / PayTM digital-payment adoption indicator should be verified using:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[NPCI aggregated district-wise UPI volume + partner-bank transaction logs + beneficiary demo-day proof + sub-sample 6-month-later check]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only the SE's internal data]]></text></answer>
+            <answer correct="no"><text><![CDATA[An ad]]></text></answer>
+            <answer correct="no"><text><![CDATA[A TV interview]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** NPCI publishes aggregated district-wise UPI data; partner banks provide individual transaction flags; demo-day is evidence of skill acquisition; 6-month retention is sustainability. All four together are SAS-1300 evidence-complete.
+**The Trap:** Options B, C, D are uncorroborated single-source.
+**Cross-Exam Context:** NPCI / digital-payment triangulation in XXIV AML and V-A (MF Distributor).
+**Assessor's Pro-Tip:** NPCI's district UPI growth data is public. Control for district-wide UPI growth before attributing usage to the SE — else you over-claim by the secular trend.]]></text></explanation>
+    </question>
+</QF>

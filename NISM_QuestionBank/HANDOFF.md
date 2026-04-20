@@ -1,8 +1,8 @@
 # NISM Question Bank — Handoff Document
 
-**Date:** April 20, 2026 (Updated after Phase 14D-3 — Series XIX-E complete)
-**Status:** 30 of 31 exams complete. 12,893 questions generated across 313 topics. Phase 14D-3 COMPLETE — XIX-E (500 Qs, 15 topics) done.
-**For:** Next session should continue with Phase 15 (Series XXIII — Social Impact Assessors, 500 Qs, ~7 topics). After Phase 15 completes, the NISM Question Bank will have full coverage of all 31 NISM certification exams.
+**Date:** April 20, 2026 (Updated after Phase 15 — Series XXIII complete)
+**Status:** **31 of 31 exams complete. 13,393 questions generated across 324 topics. Bank coverage is now COMPLETE for all NISM certification examinations.** Phase 15 COMPLETE — XXIII (500 Qs, 11 topics) done.
+**For:** Future sessions shift from new-exam generation to audits, gap-filling, type-rebalancing, and maintenance (Budget changes, new SEBI circulars).
 
 ---
 
@@ -42,7 +42,10 @@
 | Series XIX-C - AIF Managers (All Categories) | XIX-C | 500 | 15 | Hard | Generated from PDF (Manager-side framing across Cat I/II and Cat III). No caselets. 25% negative marking. |
 | Series XIX-D - AIF Managers (Category I and II) | XIX-D | 500 | 13 | Hard | Generated from PDF (Cat I/II Manager-side — PE/VC/Debt/Infra; Cat III excluded). No caselets. 25% negative marking. |
 | Series XIX-E - AIF Managers (Category III) | XIX-E | 500 | 15 | Hard | Generated from PDF (Cat III Manager-side — long-short, market-neutral, arbitrage, macro, CTA, multi-strategy; Cat I/II excluded). No caselets. 25% negative marking. |
-| **Total (completed exams)** | | **12,893** | **313** | | |
+| Series XXIII - Social Impact Assessors | XXIII | 500 | 11 | Moderate-Hard | Generated from PDF (SIA / auditor perspective — SSE, SAS standards, impact assessment, NPO/FPE taxation). No caselets. 25% negative marking (assumed — verify). |
+| **Total (completed exams)** | | **13,393** | **324** | | |
+
+**🎉 FULL 31-EXAM COVERAGE ACHIEVED.** Phase 15 closed out the NISM Question Bank. All 31 NISM certification examinations now have dedicated topic-tagged question sets. Future work shifts to audits, gap-filling, type-rebalancing, and maintenance.
 
 ### Series XXI-A Breakdown (Phase 14C-1)
 
@@ -184,6 +187,33 @@
 **Question mix:** Topic-specific blends: Investment Strategies 32% calc (merger-arb, stat-arb z-score, 130/30 gross/net, beta-neutral hedge ratio, margin-call under 2x cap), Fee Structure and Fund Performance 52% calc (HWM crystallisation, VaR 95%/99%, Sharpe/Sortino/Calmar, TWR, equalisation credit, tracking error), Valuation 28% calc (series-of-units NAV, side-pocket split, DCF+WACC, EV→Equity, futures MTM, Black-Scholes delta), MPT/CMT 50% calc (Markowitz variance, CAPM, beta, Sharpe). Regulatory Framework 63% regulatory (SEBI AIF Regs 2012 Reg 3/4/10/13/15/20A/23/29 + AI framework + LVF + CSCRF 2024 + DPDPA 2023 + FEMA + PMLA + PIT + PFUTP + ICDR + FPI + FATCA/CRS + Fifth Amendment 2024). No caselets.
 **ExamWeightages key:** "Series XIX-E - AIF Managers (Category III)" (replaced 13 placeholder topic keys with 15 "AIFM CIII …" keys). Marks sum to 107 per PDF page 15 extraction; the PDF itself states total marks = 100 but its individual chapter marks sum to 107 — using PDF-extracted values verbatim (known arithmetic inconsistency in the source PDF).
 **Namespace note:** All XIX-E topics prefixed "AIFM CIII " (AIF Manager Category III) to keep them distinct from XIX-C "AIFM " (All-Cat Manager), XIX-D "AIFM CII " (Cat I/II Manager), XIX-A "AIF " (Cat I/II Distributor), XIX-B "Cat III AIF " (Cat III Distributor), and V-A raw "Taxation". The prefix reservation was pre-announced in the Phase 14D-2 prompt.
+
+
+### Series XXIII Breakdown (Phase 15 — FINAL EXAM)
+
+| Topic (exact plist key) | Questions | Marks | Source Chapter |
+|--------------------------|:---------:|:-----:|:---------------:|
+| SIA Social Sector Ecosystem | 50 | 10 | Ch 1 |
+| SIA Social Stock Exchange Introduction and Instruments | 50 | 10 | Ch 2 |
+| SIA SSE Registration and Listing | 30 | 6 | Ch 3 |
+| SIA Logic Model for Social Programs | 50 | 10 | Ch 4 |
+| SIA Social Impact Assessment and Assessors | 50 | 10 | Ch 5 |
+| SIA Assessment Frameworks Techniques and Standards | 50 | 10 | Ch 6 |
+| SIA Reporting | 55 | 11 | Ch 7 |
+| SIA Case Studies on SAS Standards | 75 | 15 | Ch 8 |
+| SIA Disclosure Reporting and Penalties | 50 | 10 | Ch 9 |
+| SIA Taxation | 15 | 3 | Ch 10 |
+| SIA Key Regulations | 25 | 5 | Ch 11 |
+| **XXIII Total** | **500** | **100** | **11 Chapters** |
+
+**Exam details:** 100 questions (85 MCQ + 3 caselets × 5), 2 hours, 60% pass, **25% negative marking** (assumed — NISM workbook does not explicitly state for XXIII; verify official SEBI circular before exam). No caselets in this bank (pure MCQ — consistent with Phase 14D-1/2/3).
+**PDF:** Social Impact Assessors Certification Examination Workbook - January 2026.pdf (225 pages)
+**Question mix:** Topic-specific blends. Case Studies on SAS Standards 30% application (case-scenario indicator selection, attribution testing, materiality), Taxation 30% calc (80G deduction, 85% application, CSR 2%, 115BBI anonymous-donation tax), Frameworks Techniques and Standards 10% calc (SROI ratio with deadweight, sample size, CI), Logic Model 75% conceptual, Social Sector Ecosystem 75% conceptual, Disclosure Reporting and Penalties 70% regulatory, Key Regulations 70% regulatory. No caselets.
+**ExamWeightages key:** "Series XXIII - Social Impact Assessors" (replaced 7 placeholder topic keys with 11 "SIA …" keys). Marks sum to exactly 100 per PDF page 10 weightage table.
+**Namespace note:** All XXIII topics prefixed "SIA " (Social Impact Assessor) to keep them distinct from every other exam's prefix. "SIA " is reserved for XXIII only.
+**Tone:** SIA / independent-auditor framing throughout — scoping engagements, selecting SAS standards, triangulating evidence, issuing limited vs reasonable assurance, handling attribution vs contribution, drafting SIR / Annual Impact Report (Form RODD-A). Helper explanations use "Assessor's Pro-Tip:" label (distinct from "Manager's Pro-Tip:" used by XIX-A/B/C/D/E and "Distributor's Pro-Tip:" variants).
+**Regulatory surface covered:** SEBI (ICDR) Regs 2018 Chapter X-A (Regulations 292A–L); SEBI (LODR) Regs 2015 Chapters IXA/IXB; SEBI (Intermediaries) Regs 2008; Companies Act 2013 Sections 8 and 135; Income Tax Act Sections 10(23C), 11, 12A/12AB, 80G, 115BBI; FCRA 2010; Indian Trusts Act 1882; Societies Registration Act 1860.
+**SAS standards covered in depth:** SAS-100 (general), SAS-200 (healthcare/sanitation/WASH), SAS-400 (gender/LGBTQIA+), SAS-500 (environmental), SAS-1100 (slum/housing), SAS-1300 (financial inclusion). Full SAS-100 through SAS-1600 catalogue referenced in Topic 5.
 **Cat I/II scope exclusion:** All 500 questions are framed from a Cat III hedge-fund Manager desk. Cat I/II content (IRR/MOIC/TVPI/DPI, PE/VC/Debt/Infra strategies, 8% hurdle + 100% catch-up + 80/20 waterfalls, Section 115UB pass-through, Section 194LBB TDS, 2.5%/INR 5 cr sponsor commit, zero-leverage rule, close-ended-only structure, quarterly/semi-annual valuation) appears only in `Cross-Exam Context` field for contrast — never as correct answers or primary subject matter.
 **Cat III-native content emphasis:** Sponsor commit 5%/INR 10 cr; 2x leverage cap; 10% single-investee open-ended / 25% close-ended; open-ended permitted; daily NAV; HWM crystallisation (series-of-units + equalisation credit/debit + side pockets); Prime Broker as central ecosystem party; ISDA Master Agreement + CSA; fund-level MMR taxation (AOP, Section 115UB NOT applicable, Section 194LBB NOT applicable); IFSC-GIFT 80LA 100% tax holiday; LTCG 12.5% / STCG 20% post-Budget 2024; TWR / MWR / Sharpe / Sortino / Calmar / VaR / CVaR / drawdown for performance.
 **Tone:** Manager-side framing throughout — long-short pair sizing, HWM timing, equalisation mechanics, prime-broker margin, VaR limits, merger-arb spread, stat-arb z-score, fund-level MMR tax drag. Helper explanations use "Manager's Pro-Tip:" label.

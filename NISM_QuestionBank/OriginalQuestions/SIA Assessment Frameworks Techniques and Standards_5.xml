@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="SIA Assessment Frameworks Techniques and Standards_5" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Hariyali Foundation invested INR 40 lakh in a watershed program. Ms. Priya Shah (SIA) computes gross present value of outcomes at INR 1.20 crore, deadweight 10%, attribution 20%, drop-off 5%, and displacement nil. What is the SROI ratio she should report?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[3.00:1]]></text></answer>
+            <answer correct="no"><text><![CDATA[2.57:1]]></text></answer>
+            <answer correct="yes"><text><![CDATA[2.05:1]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.80:1]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Start with INR 1.20 crore. Deduct deadweight 10% → 1.08 crore. Deduct attribution 20% → 0.864 crore. Deduct drop-off 5% → 0.8208 crore ≈ INR 82.08 lakh. SROI = Impact Value / Investment = 82.08 / 40 ≈ 2.05:1. Ratio ≥ 1:1 indicates positive net social return.
+**The Trap:** 3.00:1 = gross GPV 1.20cr / 40L without any adjustments (the common mistake). 2.57:1 applies only deadweight 10%. 1.80:1 over-deducts. The correct sequence: deadweight first, then attribution, then drop-off.
+**Cross-Exam Context:** X-A IA and V-A MF Distributor cover ROI; XXIII swaps the numerator to monetised social outcome and stacks four standard adjustments (deadweight, attribution, drop-off, displacement).
+**Assessor's Pro-Tip:** Always compute the SROI both 'before adjustments' and 'after adjustments' in your working papers — clients often cite the unadjusted figure in marketing, and you want the audit trail to show exactly which lever moved the ratio.]]></text></explanation>
+    </question>
+</QF>

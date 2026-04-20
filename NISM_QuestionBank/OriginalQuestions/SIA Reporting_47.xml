@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="SIA Reporting_47" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Per SEBI (ICDR) Regulations Chapter X-A (292A-L), the 'Unique Reference Number' (URN) issued to a Social Enterprise upon registration serves which PRIMARY purpose in reporting?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[It is a PAN replacement for tax purposes]]></text></answer>
+            <answer correct="yes"><text><![CDATA[It identifies the SE across SSE filings including the AIR, ensuring traceability of impact disclosures against a single registered entity]]></text></answer>
+            <answer correct="no"><text><![CDATA[It is a bank account reference for donor payments]]></text></answer>
+            <answer correct="no"><text><![CDATA[It is a SEBI penalty code]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** URN identifies the SE uniquely across its SSE filings (registration, listing, AIR). It ties impact disclosures to one entity and supports cross-filing reconciliation by regulators and investors.
+**The Trap:** A confuses URN with PAN (tax ID). C and D invent purposes.
+**Cross-Exam Context:** URN is SSE-specific. Comparable identifiers: LEI for capital-markets entities (III-A/III-C), CIN for companies (MCA).
+**Assessor's Pro-Tip:** On every engagement, note the SE's URN alongside PAN, CIN, 12AB registration and 80G number in a single 'Entity Identifier' tab of your workpapers. Any mismatch across these IDs (e.g., entity name discrepancy) is a first-day red flag.]]></text></explanation>
+    </question>
+</QF>

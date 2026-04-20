@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="SIA Assessment Frameworks Techniques and Standards_41" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[If Ms. Priya Shah halves the desired margin of error (from 5% to 2.5%) in her beneficiary sampling plan while keeping p=0.5 and 95% confidence constant, the required sample size will:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Halve — from ~385 to ~193]]></text></answer>
+            <answer correct="no"><text><![CDATA[Stay the same]]></text></answer>
+            <answer correct="no"><text><![CDATA[Double — from ~385 to ~770]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Quadruple — from ~385 to ~1,537]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Sample size formula n = z²·p·(1-p)/e². Since n varies as 1/e², halving e quadruples n. 385 × 4 = 1,540 (≈1,537 at exact computation). This quadratic relationship is a critical cost trade-off in engagement planning.
+**The Trap:** Halving or doubling misses the quadratic nature. Staying the same ignores e. Only quadrupling is correct.
+**Cross-Exam Context:** XV Research Analyst and audit-sampling syllabi test the 1/e² scaling. XXIII applies it to SIA engagement cost estimation.
+**Assessor's Pro-Tip:** When a donor demands tighter CI, push back with a cost estimate — tighter precision often needs 4x or 9x field staff. Many donors accept 5% after seeing the field-cost delta.]]></text></explanation>
+    </question>
+</QF>

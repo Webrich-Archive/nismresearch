@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="SIA Reporting_4" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Mr. Arjun Desai is reviewing the draft Social Impact Report of Swasth Bharat Trust. Management has reported 48,000 patients treated in OPD and described this as 'social impact achieved'. Under SAS terminology which of the following is the correct classification of that number?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Outcome, because it reflects what beneficiaries received]]></text></answer>
+            <answer correct="no"><text><![CDATA[Impact, because a large number of patients benefited]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Output, because it measures the volume of service delivery rather than the change in beneficiaries' condition]]></text></answer>
+            <answer correct="no"><text><![CDATA[Input, because OPD visits are a resource used by the trust]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Chapter 7.4 explicitly flags this confusion: Acumen's BACO ratio is critiqued in the PDF for describing 'cost per social impact' when it actually measures cost per OUTPUT. Patients treated is an output; outcome is improvement in health status; impact is longer-term change in community morbidity/mortality.
+**The Trap:** Options A and B embed the common SE-management confusion of inflating outputs into outcomes/impact. D is wrong because OPD visits are a deliverable of the input (doctors, medicines), not the input itself.
+**Cross-Exam Context:** Output/outcome/impact hierarchy is also tested in SAS-200 (healthcare) context and mirrors logic-frame taxonomy used in World Bank Impact Evaluation in Practice, cited in Ch 7.2.2.
+**Assessor's Pro-Tip:** When an SE report claims 'impact' numbers equal to 'service-volume' numbers, that is a material misstatement. Push back and require a second column showing outcome-level metrics (e.g., % of OPD patients whose symptom severity declined at 3-month follow-up).]]></text></explanation>
+    </question>
+</QF>

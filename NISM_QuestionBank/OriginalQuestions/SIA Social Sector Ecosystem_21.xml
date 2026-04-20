@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="SIA Social Sector Ecosystem_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which two depositories operate in India and what is their primary function in the securities market ecosystem?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[CDSL and NSDL — they hold securities in electronic form and enable transfer by book entry, with depository participants (DPs) serving as client-facing agents]]></text></answer>
+            <answer correct="no"><text><![CDATA[SEBI and RBI — they regulate the depository function directly without any intermediary]]></text></answer>
+            <answer correct="no"><text><![CDATA[BSE and NSE — they act as depositories by holding shares of their listed entities]]></text></answer>
+            <answer correct="no"><text><![CDATA[AMFI and SEBI — they maintain unit-holder records for SSE-listed entities]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** India has two depositories — Central Depository Services (India) Limited (CDSL) and National Securities Depository Limited (NSDL). They hold securities in electronic form and enable transfer by book entry, through depository participants (DPs).
+**The Trap:** Option B confuses regulators with depositories. Option C confuses exchanges with depositories. Option D invents an AMFI role that does not exist here.
+**Cross-Exam Context:** Cross-links to XII (Securities Markets). SIAs need to reference depository/demat holdings when verifying ZCZP or SSE-listed equity subscriber data.
+**Assessor's Pro-Tip:** When tracing SSE-listed instrument holders (e.g., for ZCZP subscriber list), request a demat beneficial-owner list from CDSL/NSDL via the SE's RTA. Cross-check against the AIR disclosed subscriber concentration.]]></text></explanation>
+    </question>
+</QF>
