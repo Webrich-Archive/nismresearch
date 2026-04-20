@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "topic-overlap",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8765", "--directory", "/Users/shivam/aiworkspace/nismresearch"],
+      "port": 8765
+    }
+  ]
+}
