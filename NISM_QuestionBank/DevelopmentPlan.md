@@ -37,13 +37,18 @@ The April-7 analysis correctly concluded the NEC codebase gives us ~95% of the i
 - Android reskin (fork NEC-ANDROID → NISM Prep Android)
 - Astro marketing site (fork nec-site → nism-prep-site)
 
-### ⬜ Open decisions before build starts
-1. **Final brand name + domain** (shortlist candidates below)
-2. **Repurpose existing `/workspace/NISM/` project** (currently scaffolded for Series XXI-A only) vs fresh fork from NEC
-3. **Subscription SKU structure** — tiers (monthly / quarterly / half-yearly / yearly) and per-exam unlocks
-4. **Pilot launch exams** — 5 biggest for marketing push (V-A, VIII, XV, X-A, XXI-A recommended)
-5. **Firebase project** — new one for NISM Prep, or shared with other Webrich apps
-6. **Web dashboard scope** — Astro marketing only (Phase 6a) vs Astro marketing + Next.js app dashboard (Phase 6b)
+### ✅ Decisions now locked
+1. **App identity:** "NISM Prep" · Bundle `com.webrich.nsim` (inherited typo) · App Store ID `6504492275` (reuse — update existing PMS Distributors listing into the flagship)
+2. **Existing `/workspace/NISM/` stub:** renamed by user to `/workspace/PMS_NISM/`. Untouched. Path `/workspace/NISM/` free for the new flagship.
+3. **Existing paid PMS users:** grandfather via `PMS_FULL_VERSION` SKU (keep legacy IAP alive; auto-restore-purchase grants lifetime XXI-A access).
+4. **OriginalQuestions:** stays in `/aiworkspace/nismresearch/` — never copied into the project. Project Data/ holds only 5 plists + encrypted `Questions/`.
+5. **Git:** fresh `git init` in `/workspace/NISM` (no NEC history inherited).
+
+### ⬜ Still-open decisions
+1. **Pilot launch exams** — 5 biggest for marketing push (V-A, VIII, XV, X-A, XXI-A recommended)
+2. **Firebase project** — new one for NISM Prep, or reuse existing PMS Distributors Firebase project (if one exists)
+3. **Web dashboard scope** — Astro marketing only (Phase 6a) vs Astro marketing + Next.js app dashboard (Phase 6b)
+4. **Subscription SKU structure** — tiers (monthly/quarterly/half-yearly/yearly) and per-exam unlocks — pricing finalised in Business Plan; final SKU IDs locked in Week 2
 
 ---
 
@@ -74,16 +79,24 @@ Tracks A and B are parallelizable once Track A Phase 1 completes. Tracks C and E
 
 Assumes solo dev on BaseSwift fluency; double for unfamiliar contributor.
 
-### Week 1 — Fork, rebrand, content drop
+### Week 1 — Fork, purge, content drop
+
+**Folder:** `/workspace/NISM` (the earlier stub at this path was renamed by the user to `/workspace/PMS_NISM/`; left untouched).
+**Bundle ID:** `com.webrich.nsim` (**Option A — inherit the existing PMS app's bundle ID, typo and all**). Reason: we're updating the existing App Store listing (App ID `6504492275`, currently "NISM PMS Distributors Exam") into the flagship "NISM Prep". Existing paid PMS users auto-receive the all-31-exams upgrade on app update. The `nsim` typo is cosmetic but permanent — shows up in analytics, backend keys, TestFlight. Acceptable tradeoff for reusing the existing App Store presence and paid-user base.
+**App Store ID:** `6504492275` (reuse).
+**StoreKit:** existing IAP `PMS_FULL_VERSION` preserved as a legacy grandfather unlock; new subscription SKUs added alongside.
+**Git:** fresh `git init` in `/workspace/NISM` (not inheriting NEC history).
+**OriginalQuestions stays in `/aiworkspace/nismresearch/NISM_QuestionBank/OriginalQuestions/`** — never copied into the project. The project's `Data/` folder contains only the 5 plists + encrypted `Questions/`.
+
 | Day | Work |
 |---|---|
-| Mon | `cp -r /workspace/NEC /workspace/NISM-Prep-iOS`. Rename bundle, scheme, target, Info.plist, entitlements, .storekit files, .xcodeproj. Xcode build + launch sanity check. |
-| Tue | Content drop: copy `NISM_QuestionBank/Data/*.plist` → `NISM-Prep-iOS/Data/`. Copy all 13,393 `OriginalQuestions/*.xml`. Run `test-01-data-integrity-validator`. |
-| Wed | Run `encrypt-questions` skill. Verify encrypted Questions/ directory loads on simulator. |
-| Thu | Purge NEC-specific features: delete `App/Calculators/` (~22 files), `App/QuickReference/` (~17 files), `App/HourLog/` (~5 files), `NECProviders.swift`. Remove Quick Reference + Hour Log + Calculator references from `AppSettingsImpl`. |
-| Fri | Color palette: update `ColorAssets.xcassets` to finance navy/emerald. Update app icon placeholder in `AppImages.xcassets`. Clean build. |
+| Mon | Fork: `cp -r /workspace/NEC /workspace/NISM` (excluding `.git`). Fresh `git init`. Rename: scheme/target → `NISM`. `NEC.xcodeproj` → `NISM.xcodeproj`. `NEC-Info.plist` → `NISM-Info.plist`. `NEC.entitlements` → `NISM.entitlements`. `NECStoreConfig.storekit` → `NISMStoreConfig.storekit`, `ENC-Test-Subs.storekit` → `NISM-Test-Subs.storekit`. Update `PRODUCT_BUNDLE_IDENTIFIER` to `com.webrich.nsim`. Display name → "NISM Prep". Initial sanity build. |
+| Tue | Purge NEC content + NEC-specific features inside the fork: delete NEC's `Data/OriginalQuestions/`, `Data/Questions/`, `Data/MathMLs/`, and all 5 NEC data plists (`Topics.plist`, `TopicsLite.plist`, `ExamWeightages.plist`, `ChapterArticles.plist`, `QuestionToArticleNumber.plist`). Delete `App/Calculators/` (~22 files), `App/QuickReference/` (~17 files), `App/HourLog/` (~5 files), `NECProviders.swift`. Strip Quick Reference + Calculator + Hour Log configuration from `AppSettingsImpl.swift`. Verify the project still compiles (it should — BaseSwift engine is exam-agnostic). |
+| Wed | Content drop (NISM): copy the 5 plists from `/aiworkspace/nismresearch/NISM_QuestionBank/` → `/workspace/NISM/Data/`. Run `encrypt-questions` skill with source `/aiworkspace/nismresearch/NISM_QuestionBank/OriginalQuestions/` and destination `/workspace/NISM/Data/Questions/` (encrypted). **OriginalQuestions stays in the research repo — never copied into the project.** Run `test-01-data-integrity-validator` pointed at project plists vs encrypted Questions/ (skill may need tweaking since source OriginalQuestions is external — flagged). |
+| Thu | Tune `AppSettingsImpl.swift`: `getAppKey → "NISM"`, `getAppName → "NISM Prep"`, `getAppID → "6504492275"` (reuse), `allowSortQuestionsBySection → false`, remove Quick Reference / Calculator / Hour Log config. Preserve `isDataEncrypted(true)`, `getRandomizeAnswers(true)`. IAP product IDs: keep `PMS_FULL_VERSION` as a legacy grandfather SKU, add the new subscription SKUs (final configured in Week 2). |
+| Fri | Color palette: update `ColorAssets.xcassets` to finance navy/emerald. Placeholder app icon (final designer handoff in Week 3 — but since we're updating an existing App Store listing, the current PMS app icon stays live until Week 4 submission). Initial git commit to the fresh `/workspace/NISM` repo. |
 
-**Deliverable:** project builds, launches, loads NISM content in NEC's generic quiz engine. Exam selector still shows NEC's 14 exams (next week fixes).
+**Deliverable:** project at `/workspace/NISM` builds, launches, loads NISM content in the NEC-inherited generic quiz engine. Bundle = `com.webrich.nsim`, App ID = `6504492275`. Data folder contains only 5 plists + encrypted `Questions/` (no OriginalQuestions). Exam selector still shows NEC's 14 exams (next week fixes).
 
 ### Week 2 — NISM exam selection + settings
 | Day | Work |
@@ -99,12 +112,12 @@ Assumes solo dev on BaseSwift fluency; double for unfamiliar contributor.
 ### Week 3 — Polish, Firebase, assets
 | Day | Work |
 |---|---|
-| Mon | Firebase project setup (new `nism-prep` Firebase project). Download new `GoogleService-Info.plist`. Verify Firestore sync + AppCheck. Test cross-device sync (simulator + physical device) with same Firebase user. |
-| Tue | App Store Connect: register new app, reserve bundle ID. Upload provisional metadata. Configure StoreKit products server-side. |
-| Wed–Thu | App icon design + all required sizes (use `app-icon-generator` skill). Launch screen. 6.7"/6.5"/5.5" screenshots per primary exam. Use Remotion/simulator for screenshot automation (skill `appstore-video` if needed for preview videos). |
-| Fri | App Store listing copy: title, subtitle, description, keywords per exam (SEO for 31 keywords). Use `appstore-metadata` skill. |
+| Mon | Firebase project setup (new `nism-prep` Firebase project — or reuse existing PMS Distributors Firebase project if one exists). Download new `GoogleService-Info.plist`. Verify Firestore sync + AppCheck. Test cross-device sync (simulator + physical device) with same Firebase user. |
+| Tue | App Store Connect: **update the existing "NISM PMS Distributors" listing** (App ID `6504492275`) — no new app registration needed since we're reusing the bundle ID. Add the new subscription SKUs to the existing app. Keep `PMS_FULL_VERSION` active as a legacy SKU so existing paid users don't lose access. Draft the version update notes: "What's New — now covers all 31 NISM certification exams…". |
+| Wed–Thu | App icon redesign (the current PMS icon needs a rebrand since the app is becoming the flagship). All required sizes via `app-icon-generator` skill. Launch screen. 6.7"/6.5"/5.5" screenshots showcasing the 31-exam catalogue + mock engine. Use Remotion/simulator for screenshot automation (skill `appstore-video` if needed for preview videos). |
+| Fri | App Store listing copy: rename "NISM PMS Distributors Exam" → "NISM Prep — All Exams" (or similar). New subtitle, description, keywords (SEO for 31 exam keywords, not just XXI-A). Use `appstore-metadata` skill. |
 
-**Deliverable:** App Store-ready binary with metadata. Screenshots uploaded.
+**Deliverable:** App Store-ready binary with metadata update targeting the existing App ID `6504492275`. Screenshots uploaded. Existing paid users (with `PMS_FULL_VERSION`) grandfathered on the updated listing.
 
 ### Week 4 — TestFlight, beta, submit
 | Day | Work |
@@ -384,6 +397,9 @@ Free tier enforced in-app: 50 questions/day across any exam + 1 free full mock p
 | Content refresh when SEBI updates syllabus | Ongoing | Medium | Existing GitHub Actions pipeline (auto-memory notes 7 sites already have this pattern) — extend to NISM content auto-update cadence. |
 | Brand trademark collision | Low | Medium | Do USPTO/India TM search on shortlisted names before registering |
 | Firebase Auth cross-device login on web | Low | Low | Firebase Web SDK is mature. Established pattern with Swift/Kotlin SDKs. Test during Track D. |
+| Existing PMS paid users (bought `PMS_FULL_VERSION` one-time) lose access after update to flagship | Medium | **High** (bad reviews, refund requests) | Keep `PMS_FULL_VERSION` active as a legacy grandfather SKU forever. On first launch after update, auto-restore purchase and grant lifetime access to XXI-A content (all other exams still require subscription). Communicate the upgrade clearly in the version-update notes. |
+| Bundle ID typo (`com.webrich.nsim`) surfaces in analytics + TestFlight + backend keys forever | Low | Low | Documented tradeoff for reusing App Store ID `6504492275`. No mitigation — accept it. Custom-label in Firebase/Mixpanel dashboards to show "NISM Prep" instead of the raw bundle. |
+| App Store review rejects the major pivot from "PMS Distributors" to "NISM Prep — 31 exams" | Low | Medium | Apple allows category/scope expansions. Submit with clear version notes. Include screenshots showing the upgrade preserves XXI-A access. If rejected, pivot to new bundle ID + new App Store listing in 48 hrs. |
 
 ---
 
