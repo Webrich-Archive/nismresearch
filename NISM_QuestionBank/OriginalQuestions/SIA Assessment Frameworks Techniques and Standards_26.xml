@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="SIA Assessment Frameworks Techniques and Standards_26" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[For a binary outcome with expected proportion p=0.5 (most conservative), 95% confidence level (z=1.96), and desired margin of error e=5%, the minimum sample size from an infinite population is closest to:]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[96]]></text></answer>
-            <answer correct="no"><text><![CDATA[196]]></text></answer>
-            <answer correct="yes"><text><![CDATA[385]]></text></answer>
-            <answer correct="no"><text><![CDATA[1,067]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** n = z² × p × (1-p) / e² = (1.96)² × 0.5 × 0.5 / (0.05)² = 3.8416 × 0.25 / 0.0025 = 0.9604 / 0.0025 = 384.16 ≈ 385. This is the classic 'n ≈ 385' benchmark for 95% CI and ±5% margin used in beneficiary-sampling plans.
-**The Trap:** 96 drops the z² factor. 196 uses z=√196 incorrectly. 1,067 uses e=3% instead of 5%. Only 385 matches z=1.96 and e=5%.
-**Cross-Exam Context:** XV Research Analyst uses sampling in audit-testing; III-A Compliance uses audit sampling for transaction testing. XXIII applies this to beneficiary sampling under SAS-100.
-**Assessor's Pro-Tip:** 385 is your default 'safe floor' for beneficiary sampling in an SIA engagement with a large population — document it in the engagement plan and only deviate (upward) when stratification or clustering is needed.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="SIA Assessment Frameworks Techniques and Standards_26" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[For a binary outcome with expected proportion p=0.5 (most conservative), 95% confidence level (z=1.96), and desired margin of error e=5%, the minimum sample size from an infinite population is closest to:]]></text><answers><answer correct="no"><text><![CDATA[96]]></text></answer><answer correct="no"><text><![CDATA[196]]></text></answer><answer correct="yes"><text><![CDATA[385]]></text></answer><answer correct="no"><text><![CDATA[1,067]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> n = z² × p × (1-p) / e² = (1.96)² × 0.5 × 0.5 / (0.05)² = 3.8416 × 0.25 / 0.0025 = 0.9604 / 0.0025 = 384.16 ≈ 385. This is the classic 'n ≈ 385' benchmark for 95% CI and ±5% margin used in beneficiary-sampling plans.
+<B>The Trap:</B> 96 drops the z² factor. 196 uses z=√196 incorrectly. 1,067 uses e=3% instead of 5%. Only 385 matches z=1.96 and e=5%.
+<B>Cross-Exam Context:</B> XV Research Analyst uses sampling in audit-testing; III-A Compliance uses audit sampling for transaction testing. XXIII applies this to beneficiary sampling under SAS-100.
+<B>Assessor's Pro-Tip:</B> 385 is your default 'safe floor' for beneficiary sampling in an SIA engagement with a large population — document it in the engagement plan and only deviate (upward) when stratification or clustering is needed.]]></text></explanation></question></QF>

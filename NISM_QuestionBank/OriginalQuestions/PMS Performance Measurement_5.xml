@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PMS Performance Measurement_5" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[TWRR formula for n sub-periods is:]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[(1+R1)+(1+R2)+...(1+Rn)]]></text></answer>
-            <answer correct="yes"><text><![CDATA[(1+R1)*(1+R2)*...(1+Rn) - 1]]></text></answer>
-            <answer correct="no"><text><![CDATA[Max of all R]]></text></answer>
-            <answer correct="no"><text><![CDATA[Min of all R]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** TWRR = [(1+R1)*(1+R2)*...(1+Rn)] - 1 (geometric compounding).
-**The Trap:** Other options are not the correct compounding formula.
-**Cross-Exam Context:** Same formula in X-A, XV.
-**Distributor's Pro-Tip:** Split periods at every external cash flow for correct TWRR.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PMS Performance Measurement_5" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[TWRR formula for n sub-periods is:]]></text><answers><answer correct="no"><text><![CDATA[(1+R1)+(1+R2)+...(1+Rn)]]></text></answer><answer correct="yes"><text><![CDATA[(1+R1)*(1+R2)*...(1+Rn) - 1]]></text></answer><answer correct="no"><text><![CDATA[Max of all R]]></text></answer><answer correct="no"><text><![CDATA[Min of all R]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> TWRR = [(1+R1)*(1+R2)*...(1+Rn)] - 1 (geometric compounding).
+<B>The Trap:</B> Other options are not the correct compounding formula.
+<B>Cross-Exam Context:</B> Same formula in X-A, XV.
+<B>Distributor's Pro-Tip:</B> Split periods at every external cash flow for correct TWRR.]]></text></explanation></question></QF>

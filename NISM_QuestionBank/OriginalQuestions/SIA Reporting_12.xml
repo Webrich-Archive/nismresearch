@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="SIA Reporting_12" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Bal Vikas Samiti reports 5,400 children enrolled in schools for FY 2024-25. The SE also reports the SAME children within a separate 'nutrition programme' count of 5,400 as distinct beneficiaries. From the SIA's perspective, which problem is this?]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[Displacement]]></text></answer>
-            <answer correct="no"><text><![CDATA[Leakage to non-target community]]></text></answer>
-            <answer correct="no"><text><![CDATA[Deadweight loss]]></text></answer>
-            <answer correct="yes"><text><![CDATA[Double counting of beneficiaries across programmes]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Double counting occurs when the same beneficiary is reported as distinct across two programme buckets, artificially inflating aggregate reach. The SIR must net out overlap using a Unique Reference Number (URN) or beneficiary ID.
-**The Trap:** Displacement is when benefiting one group crowds out another. Deadweight is the counterfactual baseline. Leakage is benefit accruing to non-targets. All are related but only double-counting fits the pattern described.
-**Cross-Exam Context:** Double counting is analogous to 'double coverage' issues in census methodology and 'cross-holding' in portfolio aggregation (XV Research Analyst).
-**Assessor's Pro-Tip:** Demand a URN-tagged beneficiary master from the SE at engagement kickoff. Reconcile URN counts across the five largest programmes in a single pivot table — any URN appearing in 2+ programmes must be declared in the SIR as 'overlap beneficiaries' and not double-counted in aggregate reach.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="SIA Reporting_12" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Bal Vikas Samiti reports 5,400 children enrolled in schools for FY 2024-25. The SE also reports the SAME children within a separate 'nutrition programme' count of 5,400 as distinct beneficiaries. From the SIA's perspective, which problem is this?]]></text><answers><answer correct="no"><text><![CDATA[Displacement]]></text></answer><answer correct="no"><text><![CDATA[Leakage to non-target community]]></text></answer><answer correct="no"><text><![CDATA[Deadweight loss]]></text></answer><answer correct="yes"><text><![CDATA[Double counting of beneficiaries across programmes]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Double counting occurs when the same beneficiary is reported as distinct across two programme buckets, artificially inflating aggregate reach. The SIR must net out overlap using a Unique Reference Number (URN) or beneficiary ID.
+<B>The Trap:</B> Displacement is when benefiting one group crowds out another. Deadweight is the counterfactual baseline. Leakage is benefit accruing to non-targets. All are related but only double-counting fits the pattern described.
+<B>Cross-Exam Context:</B> Double counting is analogous to 'double coverage' issues in census methodology and 'cross-holding' in portfolio aggregation (XV Research Analyst).
+<B>Assessor's Pro-Tip:</B> Demand a URN-tagged beneficiary master from the SE at engagement kickoff. Reconcile URN counts across the five largest programmes in a single pivot table — any URN appearing in 2+ programmes must be declared in the SIR as 'overlap beneficiaries' and not double-counted in aggregate reach.]]></text></explanation></question></QF>

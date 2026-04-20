@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PM Performance Measurement_6" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[A PMS client invests Rs. 5 lakh on 01-Jan-2020, adds Rs. 3 lakh on 01-Jul-2020, and portfolio is worth Rs. 10 lakh on 31-Dec-2020. The return metric that best reflects the PM's SKILL (excluding client cash-flow timing) is:]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[IRR (MWRR)]]></text></answer>
-            <answer correct="yes"><text><![CDATA[TWRR]]></text></answer>
-            <answer correct="no"><text><![CDATA[Simple total return (10-8)/8]]></text></answer>
-            <answer correct="no"><text><![CDATA[Gross return]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** TWRR removes the effect of client-driven cash flows, which are exogenous to manager skill. SEBI mandates TWRR for manager performance.
-**The Trap:** IRR (MWRR) is more appropriate for the CLIENT's experience — depends on timing of their flows.
-**Cross-Exam Context:** Core XXI-B.
-**Manager's Pro-Tip:** Report both: TWRR for manager accountability, XIRR (IRR) for the client's actual rupee-weighted return.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PM Performance Measurement_6" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A PMS client invests Rs. 5 lakh on 01-Jan-2020, adds Rs. 3 lakh on 01-Jul-2020, and portfolio is worth Rs. 10 lakh on 31-Dec-2020. The return metric that best reflects the PM's SKILL (excluding client cash-flow timing) is:]]></text><answers><answer correct="no"><text><![CDATA[IRR (MWRR)]]></text></answer><answer correct="yes"><text><![CDATA[TWRR]]></text></answer><answer correct="no"><text><![CDATA[Simple total return (10-8)/8]]></text></answer><answer correct="no"><text><![CDATA[Gross return]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> TWRR removes the effect of client-driven cash flows, which are exogenous to manager skill. SEBI mandates TWRR for manager performance.
+<B>The Trap:</B> IRR (MWRR) is more appropriate for the CLIENT's experience — depends on timing of their flows.
+<B>Cross-Exam Context:</B> Core XXI-B.
+<B>Manager's Pro-Tip:</B> Report both: TWRR for manager accountability, XIRR (IRR) for the client's actual rupee-weighted return.]]></text></explanation></question></QF>

@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CII Fee Structure_25" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Konark Growth Fund (Cat II): Capital called INR 120 crore. Cumulative distributions to LPs (DPI cash out) = INR 144 crore. Residual NAV (unrealised) = INR 96 crore. Compute TVPI.]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[1.20x]]></text></answer>
-            <answer correct="no"><text><![CDATA[2.40x]]></text></answer>
-            <answer correct="no"><text><![CDATA[0.80x]]></text></answer>
-            <answer correct="yes"><text><![CDATA[2.00x]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** TVPI (Total Value to Paid-In) = (Distributions + Residual NAV) / Capital Called = (INR 144 + INR 96) / INR 120 = INR 240 / INR 120 = 2.00x. DPI alone = 144/120 = 1.20x; RVPI alone = 96/120 = 0.80x; TVPI = DPI + RVPI = 2.00x.
-**The Trap:** A is DPI; C is RVPI; D mis-adds ratios.
-**Cross-Exam Context:** TVPI/DPI/RVPI are universal PE metrics — tested at XIX-A, XIX-C. PMS (XXI-B) uses different metrics (TWRR) since it handles listed liquid portfolios.
-**Manager's Pro-Tip:** LPs track the DPI-to-TVPI gap carefully: a fund at 2x TVPI but only 0.5x DPI is 'paper rich, cash poor'. Push for orderly realisations and don't rely on mark-to-market to float TVPI — LPs want cash.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CII Fee Structure_25" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Konark Growth Fund (Cat II): Capital called INR 120 crore. Cumulative distributions to LPs (DPI cash out) = INR 144 crore. Residual NAV (unrealised) = INR 96 crore. Compute TVPI.]]></text><answers><answer correct="no"><text><![CDATA[1.20x]]></text></answer><answer correct="no"><text><![CDATA[2.40x]]></text></answer><answer correct="no"><text><![CDATA[0.80x]]></text></answer><answer correct="yes"><text><![CDATA[2.00x]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> TVPI (Total Value to Paid-In) = (Distributions + Residual NAV) / Capital Called = (INR 144 + INR 96) / INR 120 = INR 240 / INR 120 = 2.00x. DPI alone = 144/120 = 1.20x; RVPI alone = 96/120 = 0.80x; TVPI = DPI + RVPI = 2.00x.
+<B>The Trap:</B> A is DPI; C is RVPI; D mis-adds ratios.
+<B>Cross-Exam Context:</B> TVPI/DPI/RVPI are universal PE metrics — tested at XIX-A, XIX-C. PMS (XXI-B) uses different metrics (TWRR) since it handles listed liquid portfolios.
+<B>Manager's Pro-Tip:</B> LPs track the DPI-to-TVPI gap carefully: a fund at 2x TVPI but only 0.5x DPI is 'paper rich, cash poor'. Push for orderly realisations and don't rely on mark-to-market to float TVPI — LPs want cash.]]></text></explanation></question></QF>

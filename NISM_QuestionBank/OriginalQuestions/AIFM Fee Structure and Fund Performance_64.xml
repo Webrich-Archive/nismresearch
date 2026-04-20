@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM Fee Structure and Fund Performance_64" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Fund Rp = 18%, Rf = 6%, σp = 4%. Sharpe Ratio:]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[3.00]]></text></answer>
-            <answer correct="no"><text><![CDATA[0.33]]></text></answer>
-            <answer correct="no"><text><![CDATA[4.50]]></text></answer>
-            <answer correct="no"><text><![CDATA[12.00]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Sharpe = (Rp − Rf)/σp = (18 − 6)/4 = 12/4 = 3.00.
-**The Trap:** Option B inverts. Option C uses Rp. Option D is excess return, not ratio.
-**Cross-Exam Context:** XXI-B and XV test Sharpe calc.
-**Manager's Pro-Tip:** Sharpe of 3 is exceptional; verify the underlying SD isn't understated (illiquid-asset funds often report artificially low SD). Cross-check with daily-returns SD versus monthly.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM Fee Structure and Fund Performance_64" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Fund Rp = 18%, Rf = 6%, σp = 4%. Sharpe Ratio:]]></text><answers><answer correct="yes"><text><![CDATA[3.00]]></text></answer><answer correct="no"><text><![CDATA[0.33]]></text></answer><answer correct="no"><text><![CDATA[4.50]]></text></answer><answer correct="no"><text><![CDATA[12.00]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Sharpe = (Rp − Rf)/σp = (18 − 6)/4 = 12/4 = 3.00.
+<B>The Trap:</B> Option B inverts. Option C uses Rp. Option D is excess return, not ratio.
+<B>Cross-Exam Context:</B> XXI-B and XV test Sharpe calc.
+<B>Manager's Pro-Tip:</B> Sharpe of 3 is exceptional; verify the underlying SD isn't understated (illiquid-asset funds often report artificially low SD). Cross-check with daily-returns SD versus monthly.]]></text></explanation></question></QF>

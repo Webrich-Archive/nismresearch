@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CIII Modern Portfolio Theory and Capital Market Theory_12" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Ms. Neha Kapoor manages Aravalli Long-Short Fund. Rf = 6%, (Rm - Rf) = 14%, and a candidate security has beta 1.5. What is the CAPM required return on the security?]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[27%]]></text></answer>
-            <answer correct="no"><text><![CDATA[21%]]></text></answer>
-            <answer correct="no"><text><![CDATA[29%]]></text></answer>
-            <answer correct="no"><text><![CDATA[25%]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** E(R) = Rf + beta*(Rm - Rf) = 6% + 1.5*14% = 6% + 21% = 27%. This uses the chapter's own Section 3.14 numerical example with slight parameter tweaks.
-**The Trap:** (B) 21% stops at the risk-premium component and forgets Rf. (C) 29% is the chapter's own Rf=8%/beta=1.5 example — tempting trap. (D) 25% uses beta 1.5 on an Rm of 14% erroneously.
-**Cross-Exam Context:** XIX-C/D, XXI-B, XV and VIII test this identically. A common exam variant swaps Rf values — read the stem twice.
-**Manager's Pro-Tip:** In a Cat III 130/30 strategy, effective portfolio beta can exceed 1.0 even when the manager labels the product 'long-biased equity'. CAPM-required-return math should be computed on the NET beta, not the gross long exposure — this is what prime brokers also net for SPAN margin.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Modern Portfolio Theory and Capital Market Theory_12" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Ms. Neha Kapoor manages Aravalli Long-Short Fund. Rf = 6%, (Rm - Rf) = 14%, and a candidate security has beta 1.5. What is the CAPM required return on the security?]]></text><answers><answer correct="yes"><text><![CDATA[27%]]></text></answer><answer correct="no"><text><![CDATA[21%]]></text></answer><answer correct="no"><text><![CDATA[29%]]></text></answer><answer correct="no"><text><![CDATA[25%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> E(R) = Rf + beta*(Rm - Rf) = 6% + 1.5*14% = 6% + 21% = 27%. This uses the chapter's own Section 3.14 numerical example with slight parameter tweaks.
+<B>The Trap:</B> (B) 21% stops at the risk-premium component and forgets Rf. (C) 29% is the chapter's own Rf=8%/beta=1.5 example — tempting trap. (D) 25% uses beta 1.5 on an Rm of 14% erroneously.
+<B>Cross-Exam Context:</B> XIX-C/D, XXI-B, XV and VIII test this identically. A common exam variant swaps Rf values — read the stem twice.
+<B>Manager's Pro-Tip:</B> In a Cat III 130/30 strategy, effective portfolio beta can exceed 1.0 even when the manager labels the product 'long-biased equity'. CAPM-required-return math should be computed on the NET beta, not the gross long exposure — this is what prime brokers also net for SPAN margin.]]></text></explanation></question></QF>

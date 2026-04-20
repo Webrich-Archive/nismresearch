@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PM Equity Portfolio Strategies_6" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Rakesh Shah, a portfolio manager, makes stock predictions in 4 quarters. Of 120 total predictions, 86 proved correct. What is his Information Coefficient (IC), rounded to two decimals?]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[0.43]]></text></answer>
-            <answer correct="no"><text><![CDATA[0.72]]></text></answer>
-            <answer correct="no"><text><![CDATA[0.28]]></text></answer>
-            <answer correct="no"><text><![CDATA[0.86]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** IC = 2*(Right/Total) - 1 = 2*(86/120) - 1 = 2*0.7167 - 1 = 0.4333 ≈ 0.43.
-**The Trap:** 0.72 is simply (Right/Total) without the 2*…−1 transformation. IC ranges from -1 to +1; a raw hit-rate doesn't fit that range.
-**Cross-Exam Context:** The Grinold-Kahn framework is unique to XXI-B among NISM exams.
-**Manager's Pro-Tip:** An IC of 0 = coin flip. Anything above 0.05 sustained is considered good skill in real asset management.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PM Equity Portfolio Strategies_6" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Rakesh Shah, a portfolio manager, makes stock predictions in 4 quarters. Of 120 total predictions, 86 proved correct. What is his Information Coefficient (IC), rounded to two decimals?]]></text><answers><answer correct="yes"><text><![CDATA[0.43]]></text></answer><answer correct="no"><text><![CDATA[0.72]]></text></answer><answer correct="no"><text><![CDATA[0.28]]></text></answer><answer correct="no"><text><![CDATA[0.86]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> IC = 2*(Right/Total) - 1 = 2*(86/120) - 1 = 2*0.7167 - 1 = 0.4333 ≈ 0.43.
+<B>The Trap:</B> 0.72 is simply (Right/Total) without the 2*…−1 transformation. IC ranges from -1 to +1; a raw hit-rate doesn't fit that range.
+<B>Cross-Exam Context:</B> The Grinold-Kahn framework is unique to XXI-B among NISM exams.
+<B>Manager's Pro-Tip:</B> An IC of 0 = coin flip. Anything above 0.05 sustained is considered good skill in real asset management.]]></text></explanation></question></QF>

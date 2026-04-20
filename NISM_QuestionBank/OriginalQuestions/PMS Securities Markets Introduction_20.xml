@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PMS Securities Markets Introduction_20" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[In a PMS, securities transactions are typically settled through:]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[Cash at brokers]]></text></answer>
-            <answer correct="yes"><text><![CDATA[Exchange clearing mechanism via custodian/demat infrastructure]]></text></answer>
-            <answer correct="no"><text><![CDATA[Bearer delivery]]></text></answer>
-            <answer correct="no"><text><![CDATA[Unregulated channels]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Exchange settlement via custodian and demat is the standard PMS execution.
-**The Trap:** Cash-only or bearer deliveries are non-compliant.
-**Cross-Exam Context:** Same in VI, III-C.
-**Distributor's Pro-Tip:** PMS OMS should tie out to custodian's holdings daily.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PMS Securities Markets Introduction_20" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[In a PMS, securities transactions are typically settled through:]]></text><answers><answer correct="no"><text><![CDATA[Cash at brokers]]></text></answer><answer correct="yes"><text><![CDATA[Exchange clearing mechanism via custodian/demat infrastructure]]></text></answer><answer correct="no"><text><![CDATA[Bearer delivery]]></text></answer><answer correct="no"><text><![CDATA[Unregulated channels]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Exchange settlement via custodian and demat is the standard PMS execution.
+<B>The Trap:</B> Cash-only or bearer deliveries are non-compliant.
+<B>Cross-Exam Context:</B> Same in VI, III-C.
+<B>Distributor's Pro-Tip:</B> PMS OMS should tie out to custodian's holdings daily.]]></text></explanation></question></QF>

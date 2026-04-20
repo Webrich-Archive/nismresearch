@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CIII Valuation_4" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Nilgiri Multi-Strategy Fund projects FCFF for year 6 (T+1) of INR 200 crore for investee Gamma Ltd. WACC is 12%, terminal growth rate is 5%. What is the terminal value at end of year 5?]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[INR 1,666.67 crore]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 1,400 crore]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 4,000 crore]]></text></answer>
-            <answer correct="yes"><text><![CDATA[INR 2,857.14 crore]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** TV = FCF(T+1) / (WACC - g) = 200 / (0.12 - 0.05) = 200 / 0.07 = INR 2,857.14 crore. This is the Gordon growth formula used in Step 2 of the DCF illustration (Example 12.5).
-**The Trap:** INR 1,666.67 uses FCF/WACC (ignores growth). INR 4,000 uses WACC+g in denominator. INR 1,400 divides by (WACC+g) incorrectly.
-**Cross-Exam Context:** XIX-C, XXI-B (Portfolio Manager), XV all test Gordon TV. X-B applies for business valuation.
-**Manager's Pro-Tip:** In Cat III event-driven desks running 'SOTP DCF' on demerger targets, use different terminal growth per business line - a consumer unit at 6% and a cyclical unit at 3% avoids the single-g trap.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Valuation_4" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Nilgiri Multi-Strategy Fund projects FCFF for year 6 (T+1) of INR 200 crore for investee Gamma Ltd. WACC is 12%, terminal growth rate is 5%. What is the terminal value at end of year 5?]]></text><answers><answer correct="no"><text><![CDATA[INR 1,666.67 crore]]></text></answer><answer correct="no"><text><![CDATA[INR 1,400 crore]]></text></answer><answer correct="no"><text><![CDATA[INR 4,000 crore]]></text></answer><answer correct="yes"><text><![CDATA[INR 2,857.14 crore]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> TV = FCF(T+1) / (WACC - g) = 200 / (0.12 - 0.05) = 200 / 0.07 = INR 2,857.14 crore. This is the Gordon growth formula used in Step 2 of the DCF illustration (Example 12.5).
+<B>The Trap:</B> INR 1,666.67 uses FCF/WACC (ignores growth). INR 4,000 uses WACC+g in denominator. INR 1,400 divides by (WACC+g) incorrectly.
+<B>Cross-Exam Context:</B> XIX-C, XXI-B (Portfolio Manager), XV all test Gordon TV. X-B applies for business valuation.
+<B>Manager's Pro-Tip:</B> In Cat III event-driven desks running 'SOTP DCF' on demerger targets, use different terminal growth per business line - a consumer unit at 6% and a cyclical unit at 3% avoids the single-g trap.]]></text></explanation></question></QF>

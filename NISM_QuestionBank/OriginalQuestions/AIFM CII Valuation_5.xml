@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CII Valuation_5" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Yamuna Capital AIF values investee Bharat Metals on NAV basis. Equity share capital = INR 2 crore; General reserve = INR 10 crore; Revaluation reserve = INR 3 crore; Capital Redemption Reserve = INR 5 crore; P&L surplus = INR 4 crore. Number of shares = 20 lakh. What is the book NAV per share (cash net worth basis per PDF Illustration 11.4)?]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[INR 105]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 120]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 100]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 115]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Per the PDF Illustration 11.4 footnote, cash net worth EXCLUDES revaluation reserve. Tangible NAV = Equity capital + General reserve + CRR + P&L surplus = 2 + 10 + 5 + 4 = INR 21 crore. NAV per share = 21,00,00,000 / 20,00,000 = INR 105 per share.
-**The Trap:** INR 120 includes revaluation reserve (adding INR 3 cr = INR 24 cr / 20 lakh = INR 120); INR 100 excludes both revaluation and CRR; INR 115 mis-treats CRR. Revaluation reserve is specifically excluded in cash net worth calculation.
-**Cross-Exam Context:** XIX-C tests identical NAV math. XXI-B tests book value per share for listed PSU stocks. XV (Research Analyst) exam tests the full tangible-book vs reported-book distinction.
-**Manager's Pro-Tip:** For Cat II debt AIFs valuing collateralised distressed equity, NAV-based floor valuation (excluding goodwill and revaluation reserve) is the IPEV-recommended conservative anchor. Independent valuers will haircut your NAV further if intangibles look inflated.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CII Valuation_5" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Yamuna Capital AIF values investee Bharat Metals on NAV basis. Equity share capital = INR 2 crore; General reserve = INR 10 crore; Revaluation reserve = INR 3 crore; Capital Redemption Reserve = INR 5 crore; P&L surplus = INR 4 crore. Number of shares = 20 lakh. What is the book NAV per share (cash net worth basis per PDF Illustration 11.4)?]]></text><answers><answer correct="yes"><text><![CDATA[INR 105]]></text></answer><answer correct="no"><text><![CDATA[INR 120]]></text></answer><answer correct="no"><text><![CDATA[INR 100]]></text></answer><answer correct="no"><text><![CDATA[INR 115]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Per the PDF Illustration 11.4 footnote, cash net worth EXCLUDES revaluation reserve. Tangible NAV = Equity capital + General reserve + CRR + P&L surplus = 2 + 10 + 5 + 4 = INR 21 crore. NAV per share = 21,00,00,000 / 20,00,000 = INR 105 per share.
+<B>The Trap:</B> INR 120 includes revaluation reserve (adding INR 3 cr = INR 24 cr / 20 lakh = INR 120); INR 100 excludes both revaluation and CRR; INR 115 mis-treats CRR. Revaluation reserve is specifically excluded in cash net worth calculation.
+<B>Cross-Exam Context:</B> XIX-C tests identical NAV math. XXI-B tests book value per share for listed PSU stocks. XV (Research Analyst) exam tests the full tangible-book vs reported-book distinction.
+<B>Manager's Pro-Tip:</B> For Cat II debt AIFs valuing collateralised distressed equity, NAV-based floor valuation (excluding goodwill and revaluation reserve) is the IPEV-recommended conservative anchor. Independent valuers will haircut your NAV further if intangibles look inflated.]]></text></explanation></question></QF>

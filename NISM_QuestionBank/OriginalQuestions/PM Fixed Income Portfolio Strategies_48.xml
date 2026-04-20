@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PM Fixed Income Portfolio Strategies_48" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[In a BULLET FI strategy, portfolio duration is concentrated at ONE maturity point. Compared to a BARBELL with equal duration, which has HIGHER convexity?]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[Bullet — more concentrated]]></text></answer>
-            <answer correct="yes"><text><![CDATA[Barbell — two maturity points]]></text></answer>
-            <answer correct="no"><text><![CDATA[They have identical convexity]]></text></answer>
-            <answer correct="no"><text><![CDATA[Duration determines convexity alone]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** For the same duration, a Barbell has HIGHER convexity than a Bullet — the dispersion of maturities creates more curvature benefit. Bullets have lower convexity.
-**The Trap:** Same duration, same convexity? False — dispersion of cash flows matters.
-**Cross-Exam Context:** IV Ch 4 convexity math; XXI-B tests portfolio implications.
-**Manager's Pro-Tip:** Barbell outperforms in parallel + non-parallel curve moves due to higher convexity — a free lunch if yield curve is stable.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PM Fixed Income Portfolio Strategies_48" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[In a BULLET FI strategy, portfolio duration is concentrated at ONE maturity point. Compared to a BARBELL with equal duration, which has HIGHER convexity?]]></text><answers><answer correct="no"><text><![CDATA[Bullet — more concentrated]]></text></answer><answer correct="yes"><text><![CDATA[Barbell — two maturity points]]></text></answer><answer correct="no"><text><![CDATA[They have identical convexity]]></text></answer><answer correct="no"><text><![CDATA[Duration determines convexity alone]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> For the same duration, a Barbell has HIGHER convexity than a Bullet — the dispersion of maturities creates more curvature benefit. Bullets have lower convexity.
+<B>The Trap:</B> Same duration, same convexity? False — dispersion of cash flows matters.
+<B>Cross-Exam Context:</B> IV Ch 4 convexity math; XXI-B tests portfolio implications.
+<B>Manager's Pro-Tip:</B> Barbell outperforms in parallel + non-parallel curve moves due to higher convexity — a free lunch if yield curve is stable.]]></text></explanation></question></QF>

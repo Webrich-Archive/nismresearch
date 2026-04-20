@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CIII Investment Strategies_7" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Kaveri Macro Fund (Cat III AIF) has NAV of INR 300 crore. The CIO wants to take aggressive directional bets. What is the MAXIMUM gross notional exposure the fund can take under SEBI Cat III leverage rules?]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[INR 300 crore (no leverage)]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 450 crore (1.5x)]]></text></answer>
-            <answer correct="yes"><text><![CDATA[INR 600 crore (2x)]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 900 crore (3x)]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** SEBI (AIF) Regulations cap Category III AIF leverage at 2x of NAV. Therefore max gross exposure = 2 * 300 = INR 600 crore. Cat I/II have ZERO leverage (except short-term borrowings for operational reasons).
-**The Trap:** Option A is the Cat I/II rule — wrong category. Option B is a common half-remembered limit. Option D (3x) is NOT permitted for Indian Cat III AIFs.
-**Cross-Exam Context:** XIX-D (Cat I/II) tests zero-leverage rule. XIX-C covers both. XXI-B (PMS) has different leverage treatment entirely.
-**Manager's Pro-Tip:** Intraday the prime broker often lets you spike above 2x for seconds between leg executions; the SEBI cap applies to EOD reported exposure. But still keep internal intraday cap at 1.9x to avoid boundary cases when a delta-hedge fill is delayed.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Investment Strategies_7" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Kaveri Macro Fund (Cat III AIF) has NAV of INR 300 crore. The CIO wants to take aggressive directional bets. What is the MAXIMUM gross notional exposure the fund can take under SEBI Cat III leverage rules?]]></text><answers><answer correct="no"><text><![CDATA[INR 300 crore (no leverage)]]></text></answer><answer correct="no"><text><![CDATA[INR 450 crore (1.5x)]]></text></answer><answer correct="yes"><text><![CDATA[INR 600 crore (2x)]]></text></answer><answer correct="no"><text><![CDATA[INR 900 crore (3x)]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> SEBI (AIF) Regulations cap Category III AIF leverage at 2x of NAV. Therefore max gross exposure = 2 * 300 = INR 600 crore. Cat I/II have ZERO leverage (except short-term borrowings for operational reasons).
+<B>The Trap:</B> Option A is the Cat I/II rule — wrong category. Option B is a common half-remembered limit. Option D (3x) is NOT permitted for Indian Cat III AIFs.
+<B>Cross-Exam Context:</B> XIX-D (Cat I/II) tests zero-leverage rule. XIX-C covers both. XXI-B (PMS) has different leverage treatment entirely.
+<B>Manager's Pro-Tip:</B> Intraday the prime broker often lets you spike above 2x for seconds between leg executions; the SEBI cap applies to EOD reported exposure. But still keep internal intraday cap at 1.9x to avoid boundary cases when a delta-hedge fill is delayed.]]></text></explanation></question></QF>

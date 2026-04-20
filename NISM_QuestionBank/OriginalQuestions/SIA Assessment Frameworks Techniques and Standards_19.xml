@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="SIA Assessment Frameworks Techniques and Standards_19" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Propensity Score Matching (PSM) is a quasi-experimental technique used when:]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[The SIA wants to compute a confidence interval on a binary outcome]]></text></answer>
-            <answer correct="no"><text><![CDATA[The SIA wants to monetise an environmental outcome for SROI]]></text></answer>
-            <answer correct="no"><text><![CDATA[The SIA wants to run a focus-group discussion with beneficiaries]]></text></answer>
-            <answer correct="yes"><text><![CDATA[Randomisation is not possible and the SIA constructs a comparison group by matching treated units to untreated units on observable characteristics via a propensity score]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** PSM matches each treated unit to one or more untreated units with similar observable characteristics (gender, age, income, education etc.), summarised as a propensity score (probability of being treated given those covariates). It approximates a randomised comparison using observational data.
-**The Trap:** Monetisation is a separate SROI step. Focus groups are qualitative. Confidence intervals are a statistical inference step, not a matching method.
-**Cross-Exam Context:** XV Research Analyst references matched-sample studies in event-study methodology. XXIII uses PSM as an SIA fallback when RCT is infeasible.
-**Assessor's Pro-Tip:** PSM is only as good as the covariate list — omitted-variable bias remains. Report the balance-check table (standardised mean difference <0.1 for each covariate post-matching) in your SIA working papers.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="SIA Assessment Frameworks Techniques and Standards_19" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Propensity Score Matching (PSM) is a quasi-experimental technique used when:]]></text><answers><answer correct="no"><text><![CDATA[The SIA wants to compute a confidence interval on a binary outcome]]></text></answer><answer correct="no"><text><![CDATA[The SIA wants to monetise an environmental outcome for SROI]]></text></answer><answer correct="no"><text><![CDATA[The SIA wants to run a focus-group discussion with beneficiaries]]></text></answer><answer correct="yes"><text><![CDATA[Randomisation is not possible and the SIA constructs a comparison group by matching treated units to untreated units on observable characteristics via a propensity score]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> PSM matches each treated unit to one or more untreated units with similar observable characteristics (gender, age, income, education etc.), summarised as a propensity score (probability of being treated given those covariates). It approximates a randomised comparison using observational data.
+<B>The Trap:</B> Monetisation is a separate SROI step. Focus groups are qualitative. Confidence intervals are a statistical inference step, not a matching method.
+<B>Cross-Exam Context:</B> XV Research Analyst references matched-sample studies in event-study methodology. XXIII uses PSM as an SIA fallback when RCT is infeasible.
+<B>Assessor's Pro-Tip:</B> PSM is only as good as the covariate list — omitted-variable bias remains. Report the balance-check table (standardised mean difference <0.1 for each covariate post-matching) in your SIA working papers.]]></text></explanation></question></QF>

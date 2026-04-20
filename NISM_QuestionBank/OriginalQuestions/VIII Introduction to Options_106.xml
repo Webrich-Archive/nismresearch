@@ -1,14 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="VIII Introduction to Options_106" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[A put option has a delta of -0.4. If the underlying moves up by Rs. 20, what happens to the put premium?]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[Decreases by approximately Rs. 8]]></text></answer>
-            <answer correct="no"><text><![CDATA[Increases by approximately Rs. 8]]></text></answer>
-            <answer correct="no"><text><![CDATA[Decreases by approximately Rs. 20]]></text></answer>
-            <answer correct="no"><text><![CDATA[Increases by approximately Rs. 20]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Change in option price = Delta × Change in underlying
+<?xml version="1.0" encoding="UTF-8"?><QF id="VIII Introduction to Options_106" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A put option has a delta of -0.4. If the underlying moves up by Rs. 20, what happens to the put premium?]]></text><answers><answer correct="yes"><text><![CDATA[Decreases by approximately Rs. 8]]></text></answer><answer correct="no"><text><![CDATA[Increases by approximately Rs. 8]]></text></answer><answer correct="no"><text><![CDATA[Decreases by approximately Rs. 20]]></text></answer><answer correct="no"><text><![CDATA[Increases by approximately Rs. 20]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Change in option price = Delta × Change in underlying
 
 Step-by-step:
 1. Delta = -0.4
@@ -16,10 +6,8 @@ Step-by-step:
 3. Change in put premium = -0.4 × 20 = -Rs. 8
 4. Negative sign = premium DECREASES
 
-**The Trap:** Put delta is NEGATIVE. When underlying goes UP, put premium goes DOWN.
+<B>The Trap:</B> Put delta is NEGATIVE. When underlying goes UP, put premium goes DOWN.
 
-**Cross-Exam Context:** Put delta: -1 to 0. Negative because puts move opposite to underlying.
+<B>Cross-Exam Context:</B> Put delta: -1 to 0. Negative because puts move opposite to underlying.
 
-**Distributor's Pro-Tip:** Put premium change = (-0.4) × 20 = -Rs. 8. Put loses value when stock rises.]]></text></explanation>
-    </question>
-</QF>
+<B>Distributor's Pro-Tip:</B> Put premium change = (-0.4) × 20 = -Rs. 8. Put loses value when stock rises.]]></text></explanation></question></QF>

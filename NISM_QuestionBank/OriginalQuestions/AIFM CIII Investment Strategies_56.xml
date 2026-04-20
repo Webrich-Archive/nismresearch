@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CIII Investment Strategies_56" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Sahyadri Stat-Arb enters at z = +2 (spread = INR 7.40) with INR 10 cr LONG in Stock Q and INR 10 cr SHORT in Stock P. Spread reverts to mean INR 5.00 (z=0). Assuming the INR 2.40 spread compression translates linearly to combined pair P&L of INR 2.40 lakh per INR 10 cr pair leg (illustrative), what is the GROSS P&L on the pair?]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[INR 1.20 lakh]]></text></answer>
-            <answer correct="yes"><text><![CDATA[INR 2.40 lakh]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 4.80 lakh]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 10.00 lakh]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Per the problem's linear assumption, spread compression from INR 7.40 to INR 5.00 = INR 2.40 move; pair P&L = INR 2.40 lakh. Both legs contribute (long cheap leg gains, short rich leg gains on the move toward mean).
-**The Trap:** Options misapply the conversion.
-**Cross-Exam Context:** XIX-C similar. VIII tests pair P&L arithmetic.
-**Manager's Pro-Tip:** Real pairs are not linear — there's Beta adjustment, dividend events, and basis. Backtest the pair's actual P&L per unit z-reversion over history; use empirical conversion rather than the notional formula. Charge 10-20 bps transaction cost per round-trip pair.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Investment Strategies_56" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Sahyadri Stat-Arb enters at z = +2 (spread = INR 7.40) with INR 10 cr LONG in Stock Q and INR 10 cr SHORT in Stock P. Spread reverts to mean INR 5.00 (z=0). Assuming the INR 2.40 spread compression translates linearly to combined pair P&L of INR 2.40 lakh per INR 10 cr pair leg (illustrative), what is the GROSS P&L on the pair?]]></text><answers><answer correct="no"><text><![CDATA[INR 1.20 lakh]]></text></answer><answer correct="yes"><text><![CDATA[INR 2.40 lakh]]></text></answer><answer correct="no"><text><![CDATA[INR 4.80 lakh]]></text></answer><answer correct="no"><text><![CDATA[INR 10.00 lakh]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Per the problem's linear assumption, spread compression from INR 7.40 to INR 5.00 = INR 2.40 move; pair P&L = INR 2.40 lakh. Both legs contribute (long cheap leg gains, short rich leg gains on the move toward mean).
+<B>The Trap:</B> Options misapply the conversion.
+<B>Cross-Exam Context:</B> XIX-C similar. VIII tests pair P&L arithmetic.
+<B>Manager's Pro-Tip:</B> Real pairs are not linear — there's Beta adjustment, dividend events, and basis. Backtest the pair's actual P&L per unit z-reversion over history; use empirical conversion rather than the notional formula. Charge 10-20 bps transaction cost per round-trip pair.]]></text></explanation></question></QF>

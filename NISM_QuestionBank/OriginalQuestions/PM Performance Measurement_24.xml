@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PM Performance Measurement_24" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Allocation Effect in performance attribution = Σ [(Wa - Wp) × Rp_sector]. This isolates:]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[Security selection within sectors]]></text></answer>
-            <answer correct="yes"><text><![CDATA[The gain/loss from deviating from benchmark sector weights]]></text></answer>
-            <answer correct="no"><text><![CDATA[The random luck component]]></text></answer>
-            <answer correct="no"><text><![CDATA[Currency conversion]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Allocation = (Portfolio weight - Benchmark weight) × Benchmark sector return. Shows how much the PM's sector tilts contributed to active return.
-**The Trap:** Selection effect uses (Ra - Rp) × Wp; attribution and selection are separate.
-**Cross-Exam Context:** XV, XXI-B.
-**Manager's Pro-Tip:** High allocation alpha = top-down manager; high selection alpha = bottom-up picker — use attribution to label the manager's style.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PM Performance Measurement_24" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Allocation Effect in performance attribution = Σ [(Wa - Wp) × Rp_sector]. This isolates:]]></text><answers><answer correct="no"><text><![CDATA[Security selection within sectors]]></text></answer><answer correct="yes"><text><![CDATA[The gain/loss from deviating from benchmark sector weights]]></text></answer><answer correct="no"><text><![CDATA[The random luck component]]></text></answer><answer correct="no"><text><![CDATA[Currency conversion]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Allocation = (Portfolio weight - Benchmark weight) × Benchmark sector return. Shows how much the PM's sector tilts contributed to active return.
+<B>The Trap:</B> Selection effect uses (Ra - Rp) × Wp; attribution and selection are separate.
+<B>Cross-Exam Context:</B> XV, XXI-B.
+<B>Manager's Pro-Tip:</B> High allocation alpha = top-down manager; high selection alpha = bottom-up picker — use attribution to label the manager's style.]]></text></explanation></question></QF>

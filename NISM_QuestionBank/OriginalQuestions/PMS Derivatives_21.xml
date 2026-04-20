@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PMS Derivatives_21" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[A NIFTY 25000 long call bought at Rs. 120 premium. At expiry NIFTY 25400. Net P&L per unit:]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[Rs. -120]]></text></answer>
-            <answer correct="yes"><text><![CDATA[Rs. 280]]></text></answer>
-            <answer correct="no"><text><![CDATA[Rs. 400]]></text></answer>
-            <answer correct="no"><text><![CDATA[Rs. -280]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Payoff = max(25400-25000, 0) = 400. Net = 400 - 120 = Rs. 280.
-**The Trap:** Other values miss premium or intrinsic.
-**Cross-Exam Context:** Option payoff calc.
-**Distributor's Pro-Tip:** Use structured option strategies (spreads) to cap premium cost.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PMS Derivatives_21" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A NIFTY 25000 long call bought at Rs. 120 premium. At expiry NIFTY 25400. Net P&L per unit:]]></text><answers><answer correct="no"><text><![CDATA[Rs. -120]]></text></answer><answer correct="yes"><text><![CDATA[Rs. 280]]></text></answer><answer correct="no"><text><![CDATA[Rs. 400]]></text></answer><answer correct="no"><text><![CDATA[Rs. -280]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Payoff = max(25400-25000, 0) = 400. Net = 400 - 120 = Rs. 280.
+<B>The Trap:</B> Other values miss premium or intrinsic.
+<B>Cross-Exam Context:</B> Option payoff calc.
+<B>Distributor's Pro-Tip:</B> Use structured option strategies (spreads) to cap premium cost.]]></text></explanation></question></QF>

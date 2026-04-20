@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM AIFs in India and Suitability_3" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Lotus AIF is a Category III scheme with INR 300 crore of investible funds. The portfolio manager, Mr. Rohan Deshmukh, wants to take a concentrated long position in a single listed mid-cap stock. Under SEBI (AIF) Regulations, what is the MAXIMUM rupee exposure this scheme can take in that single investee company?]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[INR 30 crore]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 75 crore]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 15 crore]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 100 crore]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** For Category III AIFs, Regulation 15 of SEBI (AIF) Regulations caps exposure in a single investee company at 10% of investible funds. 10% of INR 300 crore = INR 30 crore. Cat I and Cat II AIFs have a higher 25% cap; Cat III has the tighter 10% limit precisely because of its leveraged/traded portfolio nature.
-**The Trap:** INR 75 crore (25%) is the Cat I/II limit — a tempting wrong answer if the candidate forgets Cat III has a stricter cap. INR 15 crore (5%) and INR 100 crore (33%) are fabricated thresholds.
-**Cross-Exam Context:** XIX-B Distributor exam tests the same 10% Cat III cap; XXI-B PM exam has a 25% single-security cap for PMS schemes. XIX-C Manager must operationalise this through pre-trade compliance checks in the order management system.
-**Manager's Pro-Tip:** Build your OMS hard-block at 9.5% of investible funds, not 10% — leaves a buffer for mark-to-market drift that might otherwise push a compliant trade over the line intraday and trigger a Regulation 15 breach.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM AIFs in India and Suitability_3" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Lotus AIF is a Category III scheme with INR 300 crore of investible funds. The portfolio manager, Mr. Rohan Deshmukh, wants to take a concentrated long position in a single listed mid-cap stock. Under SEBI (AIF) Regulations, what is the MAXIMUM rupee exposure this scheme can take in that single investee company?]]></text><answers><answer correct="yes"><text><![CDATA[INR 30 crore]]></text></answer><answer correct="no"><text><![CDATA[INR 75 crore]]></text></answer><answer correct="no"><text><![CDATA[INR 15 crore]]></text></answer><answer correct="no"><text><![CDATA[INR 100 crore]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> For Category III AIFs, Regulation 15 of SEBI (AIF) Regulations caps exposure in a single investee company at 10% of investible funds. 10% of INR 300 crore = INR 30 crore. Cat I and Cat II AIFs have a higher 25% cap; Cat III has the tighter 10% limit precisely because of its leveraged/traded portfolio nature.
+<B>The Trap:</B> INR 75 crore (25%) is the Cat I/II limit — a tempting wrong answer if the candidate forgets Cat III has a stricter cap. INR 15 crore (5%) and INR 100 crore (33%) are fabricated thresholds.
+<B>Cross-Exam Context:</B> XIX-B Distributor exam tests the same 10% Cat III cap; XXI-B PM exam has a 25% single-security cap for PMS schemes. XIX-C Manager must operationalise this through pre-trade compliance checks in the order management system.
+<B>Manager's Pro-Tip:</B> Build your OMS hard-block at 9.5% of investible funds, not 10% — leaves a buffer for mark-to-market drift that might otherwise push a compliant trade over the line intraday and trigger a Regulation 15 breach.]]></text></explanation></question></QF>

@@ -1,14 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="VIII Introduction to Forwards and Futures_70" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[A trader is short 2 lots of stock futures at Rs. 1,800. Lot size is 400. Day 1 settlement is Rs. 1,760. What is the MTM?]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[MTM gain of Rs. 32,000]]></text></answer>
-            <answer correct="no"><text><![CDATA[MTM loss of Rs. 32,000]]></text></answer>
-            <answer correct="no"><text><![CDATA[MTM gain of Rs. 16,000]]></text></answer>
-            <answer correct="no"><text><![CDATA[MTM gain of Rs. 40]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Step-by-step calculation:
+<?xml version="1.0" encoding="UTF-8"?><QF id="VIII Introduction to Forwards and Futures_70" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A trader is short 2 lots of stock futures at Rs. 1,800. Lot size is 400. Day 1 settlement is Rs. 1,760. What is the MTM?]]></text><answers><answer correct="yes"><text><![CDATA[MTM gain of Rs. 32,000]]></text></answer><answer correct="no"><text><![CDATA[MTM loss of Rs. 32,000]]></text></answer><answer correct="no"><text><![CDATA[MTM gain of Rs. 16,000]]></text></answer><answer correct="no"><text><![CDATA[MTM gain of Rs. 40]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Step-by-step calculation:
 1. Position: Short at Rs. 1,800
 2. Settlement price: Rs. 1,760
 3. Per share gain for short = 1,800 - 1,760 = Rs. 40
@@ -17,10 +7,8 @@
 
 Short position GAINS when price falls (settlement < entry).
 
-**The Trap:** It is a GAIN (not loss) for the short position because the price fell. Rs. 16,000 is for one lot only. Rs. 40 is per share only.
+<B>The Trap:</B> It is a GAIN (not loss) for the short position because the price fell. Rs. 16,000 is for one lot only. Rs. 40 is per share only.
 
-**Cross-Exam Context:** Short position MTM is tested alongside long position MTM in Series VIII.
+<B>Cross-Exam Context:</B> Short position MTM is tested alongside long position MTM in Series VIII.
 
-**Distributor's Pro-Tip:** Short MTM = (Entry/Previous Settlement - Current Settlement) x Lot Size x Number of Lots.]]></text></explanation>
-    </question>
-</QF>
+<B>Distributor's Pro-Tip:</B> Short MTM = (Entry/Previous Settlement - Current Settlement) x Lot Size x Number of Lots.]]></text></explanation></question></QF>

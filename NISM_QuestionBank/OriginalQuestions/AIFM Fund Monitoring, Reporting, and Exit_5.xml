@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM Fund Monitoring, Reporting, and Exit_5" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Konark Capital (Cat II) operates a WHOLE-FUND (European) waterfall. Called capital = INR 800 cr; total exit proceeds across all deals = INR 1,800 cr. 8% simple pref on called capital assumed for a 1-year holding, 100% catch-up, 80/20 split. What is the LP's TOTAL distribution?]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[INR 1,600 crore]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 1,620 crore]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 1,592 crore]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 1,560 crore]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** ROC: LP receives 800. Remaining = 1,000. Pref (8% on 800 for 1 yr) = 64 to LP. Remaining = 936. 100% catch-up: GP gets C such that C = 0.20*(64 + C) => C = 16. Remaining = 920. 80/20 split: LP 736, GP 184. LP total = 800 + 64 + 736 = INR 1,600 cr. GP total = 16 + 184 = 200. Sum = 1,800 — ties out.
-**The Trap:** INR 1,620 cr double-counts pref. INR 1,592 cr mis-applies catch-up to LP instead of GP. INR 1,560 cr uses 80/20 on the entire profit pool, ignoring the pref and catch-up tiers — common under a pure American deal-by-deal mental model.
-**Cross-Exam Context:** XIX-C unique computational skill; XIX-A/B only test existence of pref and carry.
-**Manager's Pro-Tip:** In whole-fund waterfalls, always compute carry AFTER ROC on the full fund — deal-by-deal American waterfalls can shift several hundred crore of timing value to the GP.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM Fund Monitoring, Reporting, and Exit_5" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Konark Capital (Cat II) operates a WHOLE-FUND (European) waterfall. Called capital = INR 800 cr; total exit proceeds across all deals = INR 1,800 cr. 8% simple pref on called capital assumed for a 1-year holding, 100% catch-up, 80/20 split. What is the LP's TOTAL distribution?]]></text><answers><answer correct="yes"><text><![CDATA[INR 1,600 crore]]></text></answer><answer correct="no"><text><![CDATA[INR 1,620 crore]]></text></answer><answer correct="no"><text><![CDATA[INR 1,592 crore]]></text></answer><answer correct="no"><text><![CDATA[INR 1,560 crore]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> ROC: LP receives 800. Remaining = 1,000. Pref (8% on 800 for 1 yr) = 64 to LP. Remaining = 936. 100% catch-up: GP gets C such that C = 0.20*(64 + C) => C = 16. Remaining = 920. 80/20 split: LP 736, GP 184. LP total = 800 + 64 + 736 = INR 1,600 cr. GP total = 16 + 184 = 200. Sum = 1,800 — ties out.
+<B>The Trap:</B> INR 1,620 cr double-counts pref. INR 1,592 cr mis-applies catch-up to LP instead of GP. INR 1,560 cr uses 80/20 on the entire profit pool, ignoring the pref and catch-up tiers — common under a pure American deal-by-deal mental model.
+<B>Cross-Exam Context:</B> XIX-C unique computational skill; XIX-A/B only test existence of pref and carry.
+<B>Manager's Pro-Tip:</B> In whole-fund waterfalls, always compute carry AFTER ROC on the full fund — deal-by-deal American waterfalls can shift several hundred crore of timing value to the GP.]]></text></explanation></question></QF>

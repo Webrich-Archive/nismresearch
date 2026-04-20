@@ -1,14 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="VIII Introduction to Options_108" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[A call option has delta 0.45 and gamma 0.03. If the underlying moves up by Rs. 10, what is the new approximate delta?]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[0.75]]></text></answer>
-            <answer correct="no"><text><![CDATA[0.48]]></text></answer>
-            <answer correct="no"><text><![CDATA[0.45]]></text></answer>
-            <answer correct="no"><text><![CDATA[0.30]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** New Delta = Old Delta + (Gamma × Change in underlying)
+<?xml version="1.0" encoding="UTF-8"?><QF id="VIII Introduction to Options_108" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A call option has delta 0.45 and gamma 0.03. If the underlying moves up by Rs. 10, what is the new approximate delta?]]></text><answers><answer correct="yes"><text><![CDATA[0.75]]></text></answer><answer correct="no"><text><![CDATA[0.48]]></text></answer><answer correct="no"><text><![CDATA[0.45]]></text></answer><answer correct="no"><text><![CDATA[0.30]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> New Delta = Old Delta + (Gamma × Change in underlying)
 
 Step-by-step:
 1. Old delta = 0.45
@@ -17,10 +7,8 @@ Step-by-step:
 4. Change in delta = 0.03 × 10 = 0.30
 5. New delta = 0.45 + 0.30 = 0.75
 
-**The Trap:** Gamma tells you how much delta CHANGES, not how much the option price changes.
+<B>The Trap:</B> Gamma tells you how much delta CHANGES, not how much the option price changes.
 
-**Cross-Exam Context:** High gamma = delta changes fast = need frequent rebalancing.
+<B>Cross-Exam Context:</B> High gamma = delta changes fast = need frequent rebalancing.
 
-**Distributor's Pro-Tip:** New Delta = Old Delta + Gamma × ΔS = 0.45 + 0.03 × 10 = 0.75.]]></text></explanation>
-    </question>
-</QF>
+<B>Distributor's Pro-Tip:</B> New Delta = Old Delta + Gamma × ΔS = 0.45 + 0.03 × 10 = 0.75.]]></text></explanation></question></QF>

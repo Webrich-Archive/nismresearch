@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CIII Governance and Due Diligence_28" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Under SEBI's Cyber Security and Cyber Resilience Framework (CSCRF) classification, the CATEGORISATION of an AIF manager as Qualified RE / Mid-size / Small-size / Self-certification RE is based on:]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[Number of SCORES complaints received]]></text></answer>
-            <answer correct="no"><text><![CDATA[Geographic location of the manager's head office]]></text></answer>
-            <answer correct="yes"><text><![CDATA[Sum of corpus of all AIFs/VCFs and their schemes managed by the Manager (clubbed at MANAGER level, not fund-level)]]></text></answer>
-            <answer correct="no"><text><![CDATA[Trustee's personal Aadhaar status]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Per SEBI Circular (April 30, 2025), categorisation is done at the MANAGER LEVEL (not fund-level). Criteria: Mid-size RE = Rs. 10,000 cr and above; Small-size RE = more than Rs. 3,000 cr and less than Rs. 10,000 cr; Self-certification RE = Rs. 3,000 cr and below. If manager also manages VCFs, their corpus is clubbed for threshold computation.
-**The Trap:** SCORES complaint count, head-office location and Aadhaar status are unrelated criteria.
-**Cross-Exam Context:** CSCRF is tested across XIX-C/D/E as a new operational-risk topic; exam favours numeric thresholds.
-**Manager's Pro-Tip:** Before year-end close, forecast whether your manager's combined AIF+VCF AUM will cross the 3,000 cr or 10,000 cr threshold — a category upgrade triggers Market-SOC (M-SOC) requirement and substantial cyber-spend; budget early.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Governance and Due Diligence_28" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Under SEBI's Cyber Security and Cyber Resilience Framework (CSCRF) classification, the CATEGORISATION of an AIF manager as Qualified RE / Mid-size / Small-size / Self-certification RE is based on:]]></text><answers><answer correct="no"><text><![CDATA[Number of SCORES complaints received]]></text></answer><answer correct="no"><text><![CDATA[Geographic location of the manager's head office]]></text></answer><answer correct="yes"><text><![CDATA[Sum of corpus of all AIFs/VCFs and their schemes managed by the Manager (clubbed at MANAGER level, not fund-level)]]></text></answer><answer correct="no"><text><![CDATA[Trustee's personal Aadhaar status]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Per SEBI Circular (April 30, 2025), categorisation is done at the MANAGER LEVEL (not fund-level). Criteria: Mid-size RE = Rs. 10,000 cr and above; Small-size RE = more than Rs. 3,000 cr and less than Rs. 10,000 cr; Self-certification RE = Rs. 3,000 cr and below. If manager also manages VCFs, their corpus is clubbed for threshold computation.
+<B>The Trap:</B> SCORES complaint count, head-office location and Aadhaar status are unrelated criteria.
+<B>Cross-Exam Context:</B> CSCRF is tested across XIX-C/D/E as a new operational-risk topic; exam favours numeric thresholds.
+<B>Manager's Pro-Tip:</B> Before year-end close, forecast whether your manager's combined AIF+VCF AUM will cross the 3,000 cr or 10,000 cr threshold — a category upgrade triggers Market-SOC (M-SOC) requirement and substantial cyber-spend; budget early.]]></text></explanation></question></QF>

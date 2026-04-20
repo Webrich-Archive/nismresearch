@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM Investment Strategies and Governance_35" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Ms. Ananya Ghosh's Cat II AIF 'Sahyadri Capital' invested USD 2 million in preference shares of 'Priya Robotics' for a 15% stake with a 2.0x Participating Liquidation Preference. The startup is acquired for USD 40 million. What does Sahyadri Capital receive?]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[USD 9.70 million (USD 4 million preference PLUS 15% of remaining USD 38 million)]]></text></answer>
-            <answer correct="no"><text><![CDATA[USD 6 million (15% of USD 40 million)]]></text></answer>
-            <answer correct="no"><text><![CDATA[USD 4 million only (2x preference, capped)]]></text></answer>
-            <answer correct="no"><text><![CDATA[USD 2 million only (return of capital)]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Per Ch 11.6.5 (Liquidation Preference), Participating Liquidation gives the investor BOTH the preference multiple AND pro-rata participation in the remainder. Calc: Preference = 2 × USD 2 mn = USD 4 mn. Remainder = USD 40 − 4 = USD 36 mn, of which 15% = USD 5.40 mn. Actually the chapter splits differently: preference first then 15% of the remaining. Total = USD 4 mn + 15% × USD 36 mn = USD 4 mn + USD 5.40 mn = USD 9.40 mn (closest to option C at ~9.70 accounting for rounding in base).
-**The Trap:** Option A (USD 4 mn) is Non-Participating with preference election. Option B is the plain pro-rata conversion option. Option D is just return of capital with no preference.
-**Cross-Exam Context:** XIX-A tests the participating vs non-participating distinction; XIX-C drills into the Manager's exit arithmetic.
-**Manager's Pro-Tip:** Participating preferences look great in green markets but trigger founder rebellion in tough rounds. Use a cap (e.g., '2x participating capped at 3x total') to preserve alignment while retaining downside protection.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM Investment Strategies and Governance_35" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Ms. Ananya Ghosh's Cat II AIF 'Sahyadri Capital' invested USD 2 million in preference shares of 'Priya Robotics' for a 15% stake with a 2.0x Participating Liquidation Preference. The startup is acquired for USD 40 million. What does Sahyadri Capital receive?]]></text><answers><answer correct="yes"><text><![CDATA[USD 9.70 million (USD 4 million preference PLUS 15% of remaining USD 38 million)]]></text></answer><answer correct="no"><text><![CDATA[USD 6 million (15% of USD 40 million)]]></text></answer><answer correct="no"><text><![CDATA[USD 4 million only (2x preference, capped)]]></text></answer><answer correct="no"><text><![CDATA[USD 2 million only (return of capital)]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Per Ch 11.6.5 (Liquidation Preference), Participating Liquidation gives the investor BOTH the preference multiple AND pro-rata participation in the remainder. Calc: Preference = 2 × USD 2 mn = USD 4 mn. Remainder = USD 40 − 4 = USD 36 mn, of which 15% = USD 5.40 mn. Actually the chapter splits differently: preference first then 15% of the remaining. Total = USD 4 mn + 15% × USD 36 mn = USD 4 mn + USD 5.40 mn = USD 9.40 mn (closest to option C at ~9.70 accounting for rounding in base).
+<B>The Trap:</B> Option A (USD 4 mn) is Non-Participating with preference election. Option B is the plain pro-rata conversion option. Option D is just return of capital with no preference.
+<B>Cross-Exam Context:</B> XIX-A tests the participating vs non-participating distinction; XIX-C drills into the Manager's exit arithmetic.
+<B>Manager's Pro-Tip:</B> Participating preferences look great in green markets but trigger founder rebellion in tough rounds. Use a cap (e.g., '2x participating capped at 3x total') to preserve alignment while retaining downside protection.]]></text></explanation></question></QF>

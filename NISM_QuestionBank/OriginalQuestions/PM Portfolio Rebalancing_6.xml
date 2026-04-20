@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PM Portfolio Rebalancing_6" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[In a VOLATILE market, threshold-based rebalancing:]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[Reduces rebalancing frequency]]></text></answer>
-            <answer correct="yes"><text><![CDATA[Increases rebalancing frequency (larger drifts more often)]]></text></answer>
-            <answer correct="no"><text><![CDATA[Is never triggered]]></text></answer>
-            <answer correct="no"><text><![CDATA[Is forbidden]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** High volatility → larger daily/weekly drifts → thresholds hit more often → more rebalancing trades.
-**The Trap:** Opposite intuition: volatile markets trigger more rebalances, not fewer.
-**Cross-Exam Context:** Practical.
-**Manager's Pro-Tip:** Widen thresholds during regime shifts to reduce whipsaw rebalancing.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PM Portfolio Rebalancing_6" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[In a VOLATILE market, threshold-based rebalancing:]]></text><answers><answer correct="no"><text><![CDATA[Reduces rebalancing frequency]]></text></answer><answer correct="yes"><text><![CDATA[Increases rebalancing frequency (larger drifts more often)]]></text></answer><answer correct="no"><text><![CDATA[Is never triggered]]></text></answer><answer correct="no"><text><![CDATA[Is forbidden]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> High volatility → larger daily/weekly drifts → thresholds hit more often → more rebalancing trades.
+<B>The Trap:</B> Opposite intuition: volatile markets trigger more rebalances, not fewer.
+<B>Cross-Exam Context:</B> Practical.
+<B>Manager's Pro-Tip:</B> Widen thresholds during regime shifts to reduce whipsaw rebalancing.]]></text></explanation></question></QF>

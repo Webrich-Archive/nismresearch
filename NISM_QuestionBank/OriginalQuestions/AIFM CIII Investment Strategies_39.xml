@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CIII Investment Strategies_39" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Cat III AIFs typically implement short positions in Indian equities through which mechanism?]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[Naked short-selling is freely allowed.]]></text></answer>
-            <answer correct="yes"><text><![CDATA[Stock Lending and Borrowing (SLB) via exchange OR derivatives (futures/options on stock).]]></text></answer>
-            <answer correct="no"><text><![CDATA[Short-sale via 'T+30' delayed settlement window.]]></text></answer>
-            <answer correct="no"><text><![CDATA[Short-selling is prohibited for Cat III AIFs.]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Indian markets do not permit naked short-selling by institutional investors. Cat III AIFs short via SLB segment (cash-market short with borrowed securities) OR via equity derivatives (short futures / buy puts / sell calls).
-**The Trap:** A is banned (naked short). C is fabricated settlement cycle. D is wrong — shorts are permitted.
-**Cross-Exam Context:** VIII covers SLB/derivatives. XIX-C same. XXI-B PMS generally cannot short.
-**Manager's Pro-Tip:** SLB liquidity in mid-caps is thin — borrow rates 5-15% p.a.; in small-caps often unavailable. For small-cap shorts, synthetic short via single-stock futures (where listed) is cheaper, but check that the stock is in F&O. Maintain a 'shortable universe' list, refreshed monthly.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Investment Strategies_39" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Cat III AIFs typically implement short positions in Indian equities through which mechanism?]]></text><answers><answer correct="no"><text><![CDATA[Naked short-selling is freely allowed.]]></text></answer><answer correct="yes"><text><![CDATA[Stock Lending and Borrowing (SLB) via exchange OR derivatives (futures/options on stock).]]></text></answer><answer correct="no"><text><![CDATA[Short-sale via 'T+30' delayed settlement window.]]></text></answer><answer correct="no"><text><![CDATA[Short-selling is prohibited for Cat III AIFs.]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Indian markets do not permit naked short-selling by institutional investors. Cat III AIFs short via SLB segment (cash-market short with borrowed securities) OR via equity derivatives (short futures / buy puts / sell calls).
+<B>The Trap:</B> A is banned (naked short). C is fabricated settlement cycle. D is wrong — shorts are permitted.
+<B>Cross-Exam Context:</B> VIII covers SLB/derivatives. XIX-C same. XXI-B PMS generally cannot short.
+<B>Manager's Pro-Tip:</B> SLB liquidity in mid-caps is thin — borrow rates 5-15% p.a.; in small-caps often unavailable. For small-cap shorts, synthetic short via single-stock futures (where listed) is cheaper, but check that the stock is in F&O. Maintain a 'shortable universe' list, refreshed monthly.]]></text></explanation></question></QF>

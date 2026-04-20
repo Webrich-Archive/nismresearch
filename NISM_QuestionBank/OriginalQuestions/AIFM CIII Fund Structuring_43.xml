@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CIII Fund Structuring_43" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[An Indian sponsor wants to raise a Cat III fund with (a) mostly US-based HNIs, (b) a few domestic family offices, (c) a long-short India equity strategy, (d) daily NAV. Which structure is OPTIMAL?]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[Pure onshore AIF only; US HNIs subscribe directly via FPI route into the AIF (unified structure)]]></text></answer>
-            <answer correct="no"><text><![CDATA[Pure offshore fund domiciled in Delaware with no India pooling]]></text></answer>
-            <answer correct="yes"><text><![CDATA[Master-feeder: onshore AIF master in India + offshore feeder (GIFT-IFSC or Mauritius) for US HNIs + direct domestic subscription channel]]></text></answer>
-            <answer correct="no"><text><![CDATA[Parallel structure with mirror portfolios — not recommended for long-short strategies]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Master-feeder is optimal: US HNIs subscribe to the feeder (GIFT-IFSC or Mauritius, addressing their home-country tax/regulatory considerations), which feeds the Indian master; domestic investors subscribe directly to the master. Management fee charged at master only (nominal at feeder). One strategy, one portfolio, fair NAV.
-**The Trap:** Option A is viable but unified structure can be tax-inefficient for offshore US investors. Option B abandons the Indian sponsor's preference for a domestic manager structure. Option D's parallel has duplicate-fee issues and is commonly less efficient.
-**Cross-Exam Context:** XIX-C/D/A/B all touch this decision matrix. XIX-E goes deeper for Cat III.
-**Manager's Pro-Tip:** For a GIFT-IFSC feeder, you also capture Section 80LA tax holiday on IFSC-level income — material saving vs. a Mauritius feeder. Model both scenarios before picking.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Fund Structuring_43" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[An Indian sponsor wants to raise a Cat III fund with (a) mostly US-based HNIs, (b) a few domestic family offices, (c) a long-short India equity strategy, (d) daily NAV. Which structure is OPTIMAL?]]></text><answers><answer correct="no"><text><![CDATA[Pure onshore AIF only; US HNIs subscribe directly via FPI route into the AIF (unified structure)]]></text></answer><answer correct="no"><text><![CDATA[Pure offshore fund domiciled in Delaware with no India pooling]]></text></answer><answer correct="yes"><text><![CDATA[Master-feeder: onshore AIF master in India + offshore feeder (GIFT-IFSC or Mauritius) for US HNIs + direct domestic subscription channel]]></text></answer><answer correct="no"><text><![CDATA[Parallel structure with mirror portfolios — not recommended for long-short strategies]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Master-feeder is optimal: US HNIs subscribe to the feeder (GIFT-IFSC or Mauritius, addressing their home-country tax/regulatory considerations), which feeds the Indian master; domestic investors subscribe directly to the master. Management fee charged at master only (nominal at feeder). One strategy, one portfolio, fair NAV.
+<B>The Trap:</B> Option A is viable but unified structure can be tax-inefficient for offshore US investors. Option B abandons the Indian sponsor's preference for a domestic manager structure. Option D's parallel has duplicate-fee issues and is commonly less efficient.
+<B>Cross-Exam Context:</B> XIX-C/D/A/B all touch this decision matrix. XIX-E goes deeper for Cat III.
+<B>Manager's Pro-Tip:</B> For a GIFT-IFSC feeder, you also capture Section 80LA tax holiday on IFSC-level income — material saving vs. a Mauritius feeder. Model both scenarios before picking.]]></text></explanation></question></QF>

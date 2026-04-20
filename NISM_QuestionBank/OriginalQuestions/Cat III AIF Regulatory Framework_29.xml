@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="Cat III AIF Regulatory Framework_29" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[The maximum permissible leverage for a Category III AIF is:]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[1 time NAV]]></text></answer>
-            <answer correct="no"><text><![CDATA[1.5 times NAV]]></text></answer>
-            <answer correct="yes"><text><![CDATA[2 times NAV]]></text></answer>
-            <answer correct="no"><text><![CDATA[3 times NAV]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** SEBI has capped leverage at 2 times NAV for Cat III AIFs, computed as (Total Exposure: Long + Short after permitted offsetting) / NAV.
-**The Trap:** Cat III is the only category allowed leverage; 1x and 1.5x are incorrect; 3x is above the cap.
-**Cross-Exam Context:** Cat I/II (XIX-A) CANNOT take leverage except for temporary funding needs — Cat III is unique.
-**Distributor's Pro-Tip:** Model the leverage headroom daily and alert if the ratio breaches 1.8x (early warning).]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="Cat III AIF Regulatory Framework_29" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[The maximum permissible leverage for a Category III AIF is:]]></text><answers><answer correct="no"><text><![CDATA[1 time NAV]]></text></answer><answer correct="no"><text><![CDATA[1.5 times NAV]]></text></answer><answer correct="yes"><text><![CDATA[2 times NAV]]></text></answer><answer correct="no"><text><![CDATA[3 times NAV]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> SEBI has capped leverage at 2 times NAV for Cat III AIFs, computed as (Total Exposure: Long + Short after permitted offsetting) / NAV.
+<B>The Trap:</B> Cat III is the only category allowed leverage; 1x and 1.5x are incorrect; 3x is above the cap.
+<B>Cross-Exam Context:</B> Cat I/II (XIX-A) CANNOT take leverage except for temporary funding needs — Cat III is unique.
+<B>Distributor's Pro-Tip:</B> Model the leverage headroom daily and alert if the ratio breaches 1.8x (early warning).]]></text></explanation></question></QF>

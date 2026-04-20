@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM Fee Structure and Fund Performance_41" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Maximum Drawdown (MDD) of an AIF is calculated as:]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[Standard deviation of negative returns only]]></text></answer>
-            <answer correct="yes"><text><![CDATA[(Trough Value − Peak Value) / Peak Value]]></text></answer>
-            <answer correct="no"><text><![CDATA[The difference between Gross IRR and Net IRR]]></text></answer>
-            <answer correct="no"><text><![CDATA[The largest single-day NAV loss]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Ch 9.6.3: MDD = (Trough Value − Peak Value) / Peak Value, expressed as % of peak. Measures peak-to-trough decline, regardless of frequency or recovery time.
-**The Trap:** Option A is downside deviation (Sortino input). Option C is fee drag. Option D is single-day, not peak-to-trough.
-**Cross-Exam Context:** XIX-B covers MDD; XXI-B similar; VIII (Derivatives) adapts for derivative portfolios.
-**Manager's Pro-Tip:** MDD does NOT tell you recovery time. Pair with 'time-to-recover' metric — some LPs weigh recovery time more than depth. Quote MDD against the benchmark MDD (Example 9.9 compared Fund PQR -13.71% with NIFTY -38.78%).]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM Fee Structure and Fund Performance_41" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Maximum Drawdown (MDD) of an AIF is calculated as:]]></text><answers><answer correct="no"><text><![CDATA[Standard deviation of negative returns only]]></text></answer><answer correct="yes"><text><![CDATA[(Trough Value − Peak Value) / Peak Value]]></text></answer><answer correct="no"><text><![CDATA[The difference between Gross IRR and Net IRR]]></text></answer><answer correct="no"><text><![CDATA[The largest single-day NAV loss]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Ch 9.6.3: MDD = (Trough Value − Peak Value) / Peak Value, expressed as % of peak. Measures peak-to-trough decline, regardless of frequency or recovery time.
+<B>The Trap:</B> Option A is downside deviation (Sortino input). Option C is fee drag. Option D is single-day, not peak-to-trough.
+<B>Cross-Exam Context:</B> XIX-B covers MDD; XXI-B similar; VIII (Derivatives) adapts for derivative portfolios.
+<B>Manager's Pro-Tip:</B> MDD does NOT tell you recovery time. Pair with 'time-to-recover' metric — some LPs weigh recovery time more than depth. Quote MDD against the benchmark MDD (Example 9.9 compared Fund PQR -13.71% with NIFTY -38.78%).]]></text></explanation></question></QF>

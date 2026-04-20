@@ -1,14 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="VIII Introduction to Options_70" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[A trader buys a put option on TCS with strike Rs. 3,500 at premium Rs. 120. At expiry, TCS is at Rs. 3,600. What is the result?]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[Loss of Rs. 120 (premium paid)]]></text></answer>
-            <answer correct="no"><text><![CDATA[Profit of Rs. 100]]></text></answer>
-            <answer correct="no"><text><![CDATA[Loss of Rs. 220]]></text></answer>
-            <answer correct="no"><text><![CDATA[Breakeven]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Put Profit = max(X - S, 0) - Premium
+<?xml version="1.0" encoding="UTF-8"?><QF id="VIII Introduction to Options_70" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A trader buys a put option on TCS with strike Rs. 3,500 at premium Rs. 120. At expiry, TCS is at Rs. 3,600. What is the result?]]></text><answers><answer correct="yes"><text><![CDATA[Loss of Rs. 120 (premium paid)]]></text></answer><answer correct="no"><text><![CDATA[Profit of Rs. 100]]></text></answer><answer correct="no"><text><![CDATA[Loss of Rs. 220]]></text></answer><answer correct="no"><text><![CDATA[Breakeven]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Put Profit = max(X - S, 0) - Premium
 
 Step-by-step:
 1. X = 3,500, S = 3,600, P = 120
@@ -16,10 +6,8 @@ Step-by-step:
 3. Payoff = max(3,500 - 3,600, 0) = max(-100, 0) = Rs. 0
 4. Loss = 0 - 120 = -Rs. 120
 
-**The Trap:** Put becomes OTM when spot RISES above strike. Buyer loses entire premium.
+<B>The Trap:</B> Put becomes OTM when spot RISES above strike. Buyer loses entire premium.
 
-**Cross-Exam Context:** Put buyer loses when stock goes UP (opposite of call buyer).
+<B>Cross-Exam Context:</B> Put buyer loses when stock goes UP (opposite of call buyer).
 
-**Distributor's Pro-Tip:** Put OTM: S > X. Loss = premium paid. Put buyer needs stock to FALL.]]></text></explanation>
-    </question>
-</QF>
+<B>Distributor's Pro-Tip:</B> Put OTM: S > X. Loss = premium paid. Put buyer needs stock to FALL.]]></text></explanation></question></QF>

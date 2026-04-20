@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CIII Investment Strategies_9" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Fund MAS (Cat III) takes these positions after a merger announcement: Buy 1 lakh shares of ACQ at INR 540 (invest INR 5.40 cr) and Buy 10 lakh shares of TGT at INR 39.25 (invest INR 3.925 cr). By EOD, ACQ closes at INR 567.80 and TGT closes at INR 41.10. What is the 1-day ROI?]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[4.86%]]></text></answer>
-            <answer correct="no"><text><![CDATA[3.20%]]></text></answer>
-            <answer correct="no"><text><![CDATA[5.50%]]></text></answer>
-            <answer correct="no"><text><![CDATA[7.10%]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** ACQ value = 1,00,000 * 567.80 = INR 5.678 cr. TGT value = 10,00,000 * 41.10 = INR 4.10 cr. Total value = INR 9.778 cr. Total invested = 5.40 + 3.925 = INR 9.325 cr. ROI = (9.778 - 9.325) / 9.325 = 0.453/9.325 = 4.86% (PDF Example 10.7).
-**The Trap:** Option B uses only one leg. Option C forgets to net against investment. Option D compounds errors.
-**Cross-Exam Context:** PDF Example 10.7 verbatim. XIX-C uses the same walkthrough.
-**Manager's Pro-Tip:** Book a 1-day 4.86% return as 'event spread captured', not as 'alpha' — annualising event-driven snaps to 1700%+ is misleading and regulators flag it. Use Calmar ratio on the sleeve's drawdown series instead.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Investment Strategies_9" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Fund MAS (Cat III) takes these positions after a merger announcement: Buy 1 lakh shares of ACQ at INR 540 (invest INR 5.40 cr) and Buy 10 lakh shares of TGT at INR 39.25 (invest INR 3.925 cr). By EOD, ACQ closes at INR 567.80 and TGT closes at INR 41.10. What is the 1-day ROI?]]></text><answers><answer correct="yes"><text><![CDATA[4.86%]]></text></answer><answer correct="no"><text><![CDATA[3.20%]]></text></answer><answer correct="no"><text><![CDATA[5.50%]]></text></answer><answer correct="no"><text><![CDATA[7.10%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> ACQ value = 1,00,000 * 567.80 = INR 5.678 cr. TGT value = 10,00,000 * 41.10 = INR 4.10 cr. Total value = INR 9.778 cr. Total invested = 5.40 + 3.925 = INR 9.325 cr. ROI = (9.778 - 9.325) / 9.325 = 0.453/9.325 = 4.86% (PDF Example 10.7).
+<B>The Trap:</B> Option B uses only one leg. Option C forgets to net against investment. Option D compounds errors.
+<B>Cross-Exam Context:</B> PDF Example 10.7 verbatim. XIX-C uses the same walkthrough.
+<B>Manager's Pro-Tip:</B> Book a 1-day 4.86% return as 'event spread captured', not as 'alpha' — annualising event-driven snaps to 1700%+ is misleading and regulators flag it. Use Calmar ratio on the sleeve's drawdown series instead.]]></text></explanation></question></QF>

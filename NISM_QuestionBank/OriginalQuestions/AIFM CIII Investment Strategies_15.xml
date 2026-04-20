@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CIII Investment Strategies_15" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Nilgiri Multi-Strategy Fund has NAV INR 500 cr and gross exposure INR 950 cr (leverage 1.9x). Prime broker triggers a margin call if leverage exceeds 2.0x. A sudden drawdown causes NAV to drop. At what NAV will the fund breach 2.0x (assuming gross stays INR 950 cr)?]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[INR 500 cr]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 400 cr]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 450 cr]]></text></answer>
-            <answer correct="yes"><text><![CDATA[INR 475 cr]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Leverage = Gross / NAV. 2.0x breach when NAV = Gross / 2 = 950 / 2 = INR 475 cr. A NAV drop of 25 cr (5% drawdown) is enough to breach the SEBI 2x Cat III cap — tight buffer.
-**The Trap:** Option A is current NAV (no breach). Option C is 10% drawdown (deeper than trigger). Option B is 20% drawdown (way past trigger).
-**Cross-Exam Context:** XIX-D doesn't apply (Cat I/II no leverage). VIII (Derivatives) tests margin-utilisation math. XIX-C covers same.
-**Manager's Pro-Tip:** Standing rule: if gross leverage crosses 1.85x EOD, auto-deleverage by 3% on lowest-conviction sleeve before next market open — this keeps you clear of both the prime broker trigger AND the SEBI cap, with one day of cushion for admin lag.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Investment Strategies_15" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Nilgiri Multi-Strategy Fund has NAV INR 500 cr and gross exposure INR 950 cr (leverage 1.9x). Prime broker triggers a margin call if leverage exceeds 2.0x. A sudden drawdown causes NAV to drop. At what NAV will the fund breach 2.0x (assuming gross stays INR 950 cr)?]]></text><answers><answer correct="no"><text><![CDATA[INR 500 cr]]></text></answer><answer correct="no"><text><![CDATA[INR 400 cr]]></text></answer><answer correct="no"><text><![CDATA[INR 450 cr]]></text></answer><answer correct="yes"><text><![CDATA[INR 475 cr]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Leverage = Gross / NAV. 2.0x breach when NAV = Gross / 2 = 950 / 2 = INR 475 cr. A NAV drop of 25 cr (5% drawdown) is enough to breach the SEBI 2x Cat III cap — tight buffer.
+<B>The Trap:</B> Option A is current NAV (no breach). Option C is 10% drawdown (deeper than trigger). Option B is 20% drawdown (way past trigger).
+<B>Cross-Exam Context:</B> XIX-D doesn't apply (Cat I/II no leverage). VIII (Derivatives) tests margin-utilisation math. XIX-C covers same.
+<B>Manager's Pro-Tip:</B> Standing rule: if gross leverage crosses 1.85x EOD, auto-deleverage by 3% on lowest-conviction sleeve before next market open — this keeps you clear of both the prime broker trigger AND the SEBI cap, with one day of cushion for admin lag.]]></text></explanation></question></QF>

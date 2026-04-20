@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PM Modern Portfolio Theory_12" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Covariance between two assets is -0.001, σ1 = 5%, σ2 = 4%. What is the correlation coefficient?]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[-1.00]]></text></answer>
-            <answer correct="yes"><text><![CDATA[-0.50]]></text></answer>
-            <answer correct="no"><text><![CDATA[-0.20]]></text></answer>
-            <answer correct="no"><text><![CDATA[-0.10]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** ρ = Cov / (σ1 × σ2) = -0.001 / (0.05 × 0.04) = -0.001 / 0.002 = -0.50.
-**The Trap:** -1 is erroneous; computing the formula cleanly is key.
-**Cross-Exam Context:** Stats backbone for MPT.
-**Manager's Pro-Tip:** Always bound the result: ρ ∈ [-1, 1]. A result outside means computational error.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PM Modern Portfolio Theory_12" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Covariance between two assets is -0.001, σ1 = 5%, σ2 = 4%. What is the correlation coefficient?]]></text><answers><answer correct="no"><text><![CDATA[-1.00]]></text></answer><answer correct="yes"><text><![CDATA[-0.50]]></text></answer><answer correct="no"><text><![CDATA[-0.20]]></text></answer><answer correct="no"><text><![CDATA[-0.10]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> ρ = Cov / (σ1 × σ2) = -0.001 / (0.05 × 0.04) = -0.001 / 0.002 = -0.50.
+<B>The Trap:</B> -1 is erroneous; computing the formula cleanly is key.
+<B>Cross-Exam Context:</B> Stats backbone for MPT.
+<B>Manager's Pro-Tip:</B> Always bound the result: ρ ∈ [-1, 1]. A result outside means computational error.]]></text></explanation></question></QF>

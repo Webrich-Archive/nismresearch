@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CII Fee Structure_30" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Continuing Sona Fund: Year-2 GAV = INR 104 crore, other expense assumptions unchanged (set-up INR 0.40 cr, yearly expense INR 0.48 cr, mgmt fee 1.5% on GAV incl. 18% GST). The Year-2 REFERENCE HURDLE NAV (compounded 10% on INR 80 crore over 2 years) is closest to:]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[INR 88.00 crore]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 100.00 crore]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 104.00 crore]]></text></answer>
-            <answer correct="yes"><text><![CDATA[INR 96.80 crore]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Reference Hurdle NAV Year 2 = INR 80 x (1.10)^2 = INR 80 x 1.21 = INR 96.80 crore. (Chapter: hurdle is a COMPOUND rate in closed-ended Cat I/II.)
-**The Trap:** A is Year-1 hurdle (INR 80 x 1.10 = 88); C is GAV; D is a simple-interest approximation (10% x 2 = 20% x 80 = 16 + 80 = 96, off by INR 0.8 cr).
-**Cross-Exam Context:** Example 6.3 chapter pattern. XIX-C tests.
-**Manager's Pro-Tip:** In PPMs, show LPs the year-by-year hurdle schedule (Year 1, 2, 3, ...) as a table. Transparency up front avoids 'why is hurdle compounding?' questions at distribution.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CII Fee Structure_30" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Continuing Sona Fund: Year-2 GAV = INR 104 crore, other expense assumptions unchanged (set-up INR 0.40 cr, yearly expense INR 0.48 cr, mgmt fee 1.5% on GAV incl. 18% GST). The Year-2 REFERENCE HURDLE NAV (compounded 10% on INR 80 crore over 2 years) is closest to:]]></text><answers><answer correct="no"><text><![CDATA[INR 88.00 crore]]></text></answer><answer correct="no"><text><![CDATA[INR 100.00 crore]]></text></answer><answer correct="no"><text><![CDATA[INR 104.00 crore]]></text></answer><answer correct="yes"><text><![CDATA[INR 96.80 crore]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Reference Hurdle NAV Year 2 = INR 80 x (1.10)^2 = INR 80 x 1.21 = INR 96.80 crore. (Chapter: hurdle is a COMPOUND rate in closed-ended Cat I/II.)
+<B>The Trap:</B> A is Year-1 hurdle (INR 80 x 1.10 = 88); C is GAV; D is a simple-interest approximation (10% x 2 = 20% x 80 = 16 + 80 = 96, off by INR 0.8 cr).
+<B>Cross-Exam Context:</B> Example 6.3 chapter pattern. XIX-C tests.
+<B>Manager's Pro-Tip:</B> In PPMs, show LPs the year-by-year hurdle schedule (Year 1, 2, 3, ...) as a table. Transparency up front avoids 'why is hurdle compounding?' questions at distribution.]]></text></explanation></question></QF>

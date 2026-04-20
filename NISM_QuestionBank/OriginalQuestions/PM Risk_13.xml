@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PM Risk_13" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Liquidity risk is typically measured using:]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[VaR only]]></text></answer>
-            <answer correct="yes"><text><![CDATA[Bid-ask spread and time to execute without price impact]]></text></answer>
-            <answer correct="no"><text><![CDATA[Sharpe ratio]]></text></answer>
-            <answer correct="no"><text><![CDATA[Beta]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Liquidity cost = (Ask - Bid) / Mid price. Time to unwind a large position without moving price is the second dimension.
-**The Trap:** Sharpe and beta describe return/systematic risk, not liquidity.
-**Cross-Exam Context:** IV and XVI touch liquidity; XXI-B treats comprehensively.
-**Manager's Pro-Tip:** In PMS books, track the 30-day ADV (average daily volume) vs position size — a position > 20% of ADV is stress-liquidity risk.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PM Risk_13" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Liquidity risk is typically measured using:]]></text><answers><answer correct="no"><text><![CDATA[VaR only]]></text></answer><answer correct="yes"><text><![CDATA[Bid-ask spread and time to execute without price impact]]></text></answer><answer correct="no"><text><![CDATA[Sharpe ratio]]></text></answer><answer correct="no"><text><![CDATA[Beta]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Liquidity cost = (Ask - Bid) / Mid price. Time to unwind a large position without moving price is the second dimension.
+<B>The Trap:</B> Sharpe and beta describe return/systematic risk, not liquidity.
+<B>Cross-Exam Context:</B> IV and XVI touch liquidity; XXI-B treats comprehensively.
+<B>Manager's Pro-Tip:</B> In PMS books, track the 30-day ADV (average daily volume) vs position size — a position > 20% of ADV is stress-liquidity risk.]]></text></explanation></question></QF>

@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PM Fixed Income Investing_3" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Modified Duration of a bond is:]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[Years until maturity]]></text></answer>
-            <answer correct="yes"><text><![CDATA[% price change per 1% yield change (approximate)]]></text></answer>
-            <answer correct="no"><text><![CDATA[Same as Macaulay Duration]]></text></answer>
-            <answer correct="no"><text><![CDATA[Always 0]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Modified Duration = price sensitivity to yield changes (1% yield change → ~MD% price change).
-**The Trap:** Macaulay vs Modified: MD = Macaulay / (1+y).
-**Cross-Exam Context:** IV Ch 4.
-**Manager's Pro-Tip:** Always use Modified Duration for P&L calculations — Macaulay is for immunization duration-matching.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PM Fixed Income Investing_3" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Modified Duration of a bond is:]]></text><answers><answer correct="no"><text><![CDATA[Years until maturity]]></text></answer><answer correct="yes"><text><![CDATA[% price change per 1% yield change (approximate)]]></text></answer><answer correct="no"><text><![CDATA[Same as Macaulay Duration]]></text></answer><answer correct="no"><text><![CDATA[Always 0]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Modified Duration = price sensitivity to yield changes (1% yield change → ~MD% price change).
+<B>The Trap:</B> Macaulay vs Modified: MD = Macaulay / (1+y).
+<B>Cross-Exam Context:</B> IV Ch 4.
+<B>Manager's Pro-Tip:</B> Always use Modified Duration for P&L calculations — Macaulay is for immunization duration-matching.]]></text></explanation></question></QF>

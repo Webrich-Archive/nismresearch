@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CIII Fee Structure and Fund Performance_44" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Value at Risk (VaR) has which of the following limitations?]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[It indicates the exact size of loss beyond the confidence threshold]]></text></answer>
-            <answer correct="no"><text><![CDATA[It tells investors nothing about the probability of loss]]></text></answer>
-            <answer correct="yes"><text><![CDATA[It does NOT tell you the size of loss in the tail beyond the confidence level (for that, use CVaR / Expected Shortfall)]]></text></answer>
-            <answer correct="no"><text><![CDATA[VaR always underestimates short-side risk]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** VaR quantifies the maximum loss at a confidence level but says NOTHING about how bad the loss could be in the tail beyond that level. Conditional VaR (CVaR) / Expected Shortfall fills that gap by averaging losses beyond the VaR threshold.
-**The Trap:** A is opposite of truth. B is wrong — VaR DOES tie probability to loss. D is too specific.
-**Cross-Exam Context:** VIII Equity Derivatives, III-A/C Compliance, XIX-E all test VaR. CVaR is specifically XIX-E Cat III focus given tail-heavy hedge-fund returns.
-**Manager's Pro-Tip:** Augment VaR with stress tests (e.g., 2008 crisis, 2020 COVID shock re-run on current portfolio). A single VaR number is blind to regime shifts.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Fee Structure and Fund Performance_44" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Value at Risk (VaR) has which of the following limitations?]]></text><answers><answer correct="no"><text><![CDATA[It indicates the exact size of loss beyond the confidence threshold]]></text></answer><answer correct="no"><text><![CDATA[It tells investors nothing about the probability of loss]]></text></answer><answer correct="yes"><text><![CDATA[It does NOT tell you the size of loss in the tail beyond the confidence level (for that, use CVaR / Expected Shortfall)]]></text></answer><answer correct="no"><text><![CDATA[VaR always underestimates short-side risk]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> VaR quantifies the maximum loss at a confidence level but says NOTHING about how bad the loss could be in the tail beyond that level. Conditional VaR (CVaR) / Expected Shortfall fills that gap by averaging losses beyond the VaR threshold.
+<B>The Trap:</B> A is opposite of truth. B is wrong — VaR DOES tie probability to loss. D is too specific.
+<B>Cross-Exam Context:</B> VIII Equity Derivatives, III-A/C Compliance, XIX-E all test VaR. CVaR is specifically XIX-E Cat III focus given tail-heavy hedge-fund returns.
+<B>Manager's Pro-Tip:</B> Augment VaR with stress tests (e.g., 2008 crisis, 2020 COVID shock re-run on current portfolio). A single VaR number is blind to regime shifts.]]></text></explanation></question></QF>

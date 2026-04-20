@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PM Performance Measurement_16" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[A portfolio has Rp = 10.5%, Rf = 5.5%, beta = 1.0. What is the Treynor Ratio?]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[0.5%]]></text></answer>
-            <answer correct="no"><text><![CDATA[5.0%]]></text></answer>
-            <answer correct="yes"><text><![CDATA[0.05]]></text></answer>
-            <answer correct="no"><text><![CDATA[10.5%]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Treynor = (Rp - Rf) / β = (10.5 - 5.5) / 1.0 = 5.0% per unit of beta = 0.05 in decimal terms (expressed as ratio).
-**The Trap:** Some answer-keys show Treynor as percentage (5%); others as ratio (0.05). Context: 'as a ratio' = 0.05.
-**Cross-Exam Context:** Same math as Sharpe but denominator = beta.
-**Manager's Pro-Tip:** Treynor ranks managers identically to Sharpe IF their portfolios are well-diversified (beta captures all risk). For concentrated books, Sharpe is fairer.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PM Performance Measurement_16" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A portfolio has Rp = 10.5%, Rf = 5.5%, beta = 1.0. What is the Treynor Ratio?]]></text><answers><answer correct="no"><text><![CDATA[0.5%]]></text></answer><answer correct="no"><text><![CDATA[5.0%]]></text></answer><answer correct="yes"><text><![CDATA[0.05]]></text></answer><answer correct="no"><text><![CDATA[10.5%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Treynor = (Rp - Rf) / β = (10.5 - 5.5) / 1.0 = 5.0% per unit of beta = 0.05 in decimal terms (expressed as ratio).
+<B>The Trap:</B> Some answer-keys show Treynor as percentage (5%); others as ratio (0.05). Context: 'as a ratio' = 0.05.
+<B>Cross-Exam Context:</B> Same math as Sharpe but denominator = beta.
+<B>Manager's Pro-Tip:</B> Treynor ranks managers identically to Sharpe IF their portfolios are well-diversified (beta captures all risk). For concentrated books, Sharpe is fairer.]]></text></explanation></question></QF>

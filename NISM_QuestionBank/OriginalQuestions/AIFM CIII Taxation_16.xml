@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CIII Taxation_16" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Kaveri Macro Fund (Cat III determinate trust) receives INR 50 lakh of dividend from Indian listed companies. The Fund is the representative assessee for a single individual-HUF beneficiary. Using the workbook's effective rate of 35.88% for individuals/HUF/AOP/BOI on dividend income (post deduction), the tax payable (ignoring the 20% interest-expense deduction) is:]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[INR 17,94,000]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 21,37,000]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 15,00,000]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 10,00,000]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Per the workbook table on dividend income, resident individuals/HUF/AOP/BOI face an effective rate of 35.88%. Tax = 50,00,000 × 35.88% = INR 17,94,000. The 20% interest-expense cap under Section 57 would only reduce this if the fund borrowed to fund the investment.
-**The Trap:** INR 21.37 lakh uses 42.744% MMR (that is interest rate, not dividend). INR 15 lakh uses flat 30%. INR 10 lakh uses 20% (non-resident rate under Section 115A).
-**Cross-Exam Context:** XIX-D tests the same rate for Cat I/II pass-through LPs. XIX-B tests it from investor-communication. XIX-E places the burden on the fund (trustee as representative assessee) to withhold/pay at 35.88%.
-**Manager's Pro-Tip:** For high-dividend strategies at Kaveri, consider whether a debt-heavy capital structure makes sense — the 20% interest-expense deduction under Section 57 is narrow. Alternatively, prefer buyback / growth names where gain is LTCG (12.5%) rather than dividend (35.88% for individuals).]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Taxation_16" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Kaveri Macro Fund (Cat III determinate trust) receives INR 50 lakh of dividend from Indian listed companies. The Fund is the representative assessee for a single individual-HUF beneficiary. Using the workbook's effective rate of 35.88% for individuals/HUF/AOP/BOI on dividend income (post deduction), the tax payable (ignoring the 20% interest-expense deduction) is:]]></text><answers><answer correct="yes"><text><![CDATA[INR 17,94,000]]></text></answer><answer correct="no"><text><![CDATA[INR 21,37,000]]></text></answer><answer correct="no"><text><![CDATA[INR 15,00,000]]></text></answer><answer correct="no"><text><![CDATA[INR 10,00,000]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Per the workbook table on dividend income, resident individuals/HUF/AOP/BOI face an effective rate of 35.88%. Tax = 50,00,000 × 35.88% = INR 17,94,000. The 20% interest-expense cap under Section 57 would only reduce this if the fund borrowed to fund the investment.
+<B>The Trap:</B> INR 21.37 lakh uses 42.744% MMR (that is interest rate, not dividend). INR 15 lakh uses flat 30%. INR 10 lakh uses 20% (non-resident rate under Section 115A).
+<B>Cross-Exam Context:</B> XIX-D tests the same rate for Cat I/II pass-through LPs. XIX-B tests it from investor-communication. XIX-E places the burden on the fund (trustee as representative assessee) to withhold/pay at 35.88%.
+<B>Manager's Pro-Tip:</B> For high-dividend strategies at Kaveri, consider whether a debt-heavy capital structure makes sense — the 20% interest-expense deduction under Section 57 is narrow. Alternatively, prefer buyback / growth names where gain is LTCG (12.5%) rather than dividend (35.88% for individuals).]]></text></explanation></question></QF>

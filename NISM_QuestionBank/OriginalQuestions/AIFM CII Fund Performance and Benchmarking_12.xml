@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CII Fund Performance and Benchmarking_12" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Suryoday Impact Fund has fully exited all portfolio investments and wound up. At wind-up:]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[RVPI > 0 and TVPI > DPI.]]></text></answer>
-            <answer correct="no"><text><![CDATA[DPI > TVPI and RVPI < 0.]]></text></answer>
-            <answer correct="no"><text><![CDATA[RVPI = TVPI and DPI = 0.]]></text></answer>
-            <answer correct="yes"><text><![CDATA[DPI = TVPI and RVPI = 0.]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Per Section 7.3.4.4 behaviour point 3: 'By the time the fund has fully exited all its investments, the DPI becomes complete and the RVPI is reduced to zero. At this stage DPI = TVPI.' RVPI cannot be negative (it's a ratio of non-negative fair value).
-**The Trap:** A describes mid-life, not wind-up. C reverses — RVPI = 0 at wind-up, not DPI. D is mathematically impossible.
-**Cross-Exam Context:** XIX-C, XIX-A test the identical identity. Global texts (Preqin, Cambridge) use the same terminology.
-**Manager's Pro-Tip:** At wind-up, print the DPI = TVPI identity in the final LP letter — it's a clean, audit-proof way to close the fund's performance narrative and triggers final carry computation.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CII Fund Performance and Benchmarking_12" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Suryoday Impact Fund has fully exited all portfolio investments and wound up. At wind-up:]]></text><answers><answer correct="no"><text><![CDATA[RVPI > 0 and TVPI > DPI.]]></text></answer><answer correct="no"><text><![CDATA[DPI > TVPI and RVPI < 0.]]></text></answer><answer correct="no"><text><![CDATA[RVPI = TVPI and DPI = 0.]]></text></answer><answer correct="yes"><text><![CDATA[DPI = TVPI and RVPI = 0.]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Per Section 7.3.4.4 behaviour point 3: 'By the time the fund has fully exited all its investments, the DPI becomes complete and the RVPI is reduced to zero. At this stage DPI = TVPI.' RVPI cannot be negative (it's a ratio of non-negative fair value).
+<B>The Trap:</B> A describes mid-life, not wind-up. C reverses — RVPI = 0 at wind-up, not DPI. D is mathematically impossible.
+<B>Cross-Exam Context:</B> XIX-C, XIX-A test the identical identity. Global texts (Preqin, Cambridge) use the same terminology.
+<B>Manager's Pro-Tip:</B> At wind-up, print the DPI = TVPI identity in the final LP letter — it's a clean, audit-proof way to close the fund's performance narrative and triggers final carry computation.]]></text></explanation></question></QF>

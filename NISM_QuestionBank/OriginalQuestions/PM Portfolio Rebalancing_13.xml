@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PM Portfolio Rebalancing_13" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Time-based rebalancing frequency for a PMS portfolio with 25 stocks is typically:]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[Daily]]></text></answer>
-            <answer correct="yes"><text><![CDATA[Monthly or Quarterly]]></text></answer>
-            <answer correct="no"><text><![CDATA[Yearly]]></text></answer>
-            <answer correct="no"><text><![CDATA[Never]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Monthly/quarterly balances cost-benefit — stale vs over-trading.
-**The Trap:** Daily is excessive; yearly too lax.
-**Cross-Exam Context:** Practical.
-**Manager's Pro-Tip:** Quarterly + threshold trigger is the common choice in Indian PMS — documented in strategy notes.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PM Portfolio Rebalancing_13" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Time-based rebalancing frequency for a PMS portfolio with 25 stocks is typically:]]></text><answers><answer correct="no"><text><![CDATA[Daily]]></text></answer><answer correct="yes"><text><![CDATA[Monthly or Quarterly]]></text></answer><answer correct="no"><text><![CDATA[Yearly]]></text></answer><answer correct="no"><text><![CDATA[Never]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Monthly/quarterly balances cost-benefit — stale vs over-trading.
+<B>The Trap:</B> Daily is excessive; yearly too lax.
+<B>Cross-Exam Context:</B> Practical.
+<B>Manager's Pro-Tip:</B> Quarterly + threshold trigger is the common choice in Indian PMS — documented in strategy notes.]]></text></explanation></question></QF>

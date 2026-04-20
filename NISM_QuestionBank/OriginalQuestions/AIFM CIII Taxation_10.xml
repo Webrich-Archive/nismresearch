@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CIII Taxation_10" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Ms. Anita Desai, CFO at Aravalli Long-Short Fund (Cat III onshore), is provisioning GST on management fees paid to the Investment Manager. The applicable GST rate per Chapter 14 is:]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[12%]]></text></answer>
-            <answer correct="no"><text><![CDATA[28%]]></text></answer>
-            <answer correct="no"><text><![CDATA[5%]]></text></answer>
-            <answer correct="yes"><text><![CDATA[18%]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** The workbook states: 'GST at the rate of 18% would be levied on fees if any, payable towards investment management fee and Trusteeship Fees payable by the Fund to the Investment Manager and Trustee, respectively.' GST is a direct cost to the fund (borne by LPs via NAV).
-**The Trap:** 5%/12%/28% are other GST slabs used as distractors. Financial services default to the 18% standard rate.
-**Cross-Exam Context:** XIX-A/XIX-B (Distributor exams) test the same 18% on distributor commissions (though commissions often get ITC or exemption depending on structure). XIX-E drills the fund-level cost impact.
-**Manager's Pro-Tip:** Model GST 18% on mgmt fee as explicit NAV drag. If Aravalli charges 2% mgmt fee, LPs actually pay 2 × 1.18 = 2.36% of AUM annually. Inside GIFT-IFSC, fees invoiced to non-resident LPs are zero-rated — another reason the IFSC route is aggressively marketed.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Taxation_10" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Ms. Anita Desai, CFO at Aravalli Long-Short Fund (Cat III onshore), is provisioning GST on management fees paid to the Investment Manager. The applicable GST rate per Chapter 14 is:]]></text><answers><answer correct="no"><text><![CDATA[12%]]></text></answer><answer correct="no"><text><![CDATA[28%]]></text></answer><answer correct="no"><text><![CDATA[5%]]></text></answer><answer correct="yes"><text><![CDATA[18%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> The workbook states: 'GST at the rate of 18% would be levied on fees if any, payable towards investment management fee and Trusteeship Fees payable by the Fund to the Investment Manager and Trustee, respectively.' GST is a direct cost to the fund (borne by LPs via NAV).
+<B>The Trap:</B> 5%/12%/28% are other GST slabs used as distractors. Financial services default to the 18% standard rate.
+<B>Cross-Exam Context:</B> XIX-A/XIX-B (Distributor exams) test the same 18% on distributor commissions (though commissions often get ITC or exemption depending on structure). XIX-E drills the fund-level cost impact.
+<B>Manager's Pro-Tip:</B> Model GST 18% on mgmt fee as explicit NAV drag. If Aravalli charges 2% mgmt fee, LPs actually pay 2 × 1.18 = 2.36% of AUM annually. Inside GIFT-IFSC, fees invoiced to non-resident LPs are zero-rated — another reason the IFSC route is aggressively marketed.]]></text></explanation></question></QF>

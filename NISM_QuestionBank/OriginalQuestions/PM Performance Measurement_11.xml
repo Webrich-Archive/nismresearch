@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PM Performance Measurement_11" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Portfolio standard deviation is 15%. Per normal distribution, approximately what % of returns fall within ±1 sigma (mean ±15%)?]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[50%]]></text></answer>
-            <answer correct="yes"><text><![CDATA[68%]]></text></answer>
-            <answer correct="no"><text><![CDATA[95%]]></text></answer>
-            <answer correct="no"><text><![CDATA[99%]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Normal distribution: ~68% within 1 SD, ~95% within 2 SD, ~99% within 3 SD.
-**The Trap:** 95% is within 2 SD; 99% is within 3 SD.
-**Cross-Exam Context:** Core stats across XV, X-A, XXI-B.
-**Manager's Pro-Tip:** Real return distributions have fatter tails — don't rely on normal approximations for tail-risk estimation.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PM Performance Measurement_11" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Portfolio standard deviation is 15%. Per normal distribution, approximately what % of returns fall within ±1 sigma (mean ±15%)?]]></text><answers><answer correct="no"><text><![CDATA[50%]]></text></answer><answer correct="yes"><text><![CDATA[68%]]></text></answer><answer correct="no"><text><![CDATA[95%]]></text></answer><answer correct="no"><text><![CDATA[99%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Normal distribution: ~68% within 1 SD, ~95% within 2 SD, ~99% within 3 SD.
+<B>The Trap:</B> 95% is within 2 SD; 99% is within 3 SD.
+<B>Cross-Exam Context:</B> Core stats across XV, X-A, XXI-B.
+<B>Manager's Pro-Tip:</B> Real return distributions have fatter tails — don't rely on normal approximations for tail-risk estimation.]]></text></explanation></question></QF>

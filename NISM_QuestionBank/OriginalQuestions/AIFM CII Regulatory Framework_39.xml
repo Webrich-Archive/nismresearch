@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CII Regulatory Framework_39" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[A Cat II FPI investor has inadvertently breached the FPI ceiling limit in an Indian listed investee company of Lotus Capital AIF. Under Schedule I of FEMA NDI Rules, 2019, within what period must the FPI divest its excess holdings?]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[Within 30 calendar days]]></text></answer>
-            <answer correct="yes"><text><![CDATA[Within 5 TRADING days from the date of settlement of the trades that caused the breach]]></text></answer>
-            <answer correct="no"><text><![CDATA[Within 90 trading days]]></text></answer>
-            <answer correct="no"><text><![CDATA[No divestment required; pay penalty instead]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Per NDI Rules (FEMA): if an FPI investor has breached the FPI ceiling limit, the investor has 5 TRADING DAYS from the date of SETTLEMENT of the trades to divest its holdings in the company. For sectors where FDI is permitted, the default aggregate FPI limit (from April 1, 2020) is the applicable sectoral cap laid out in Schedule I of NDI Rules. For sectors where FDI is prohibited, aggregate FPI cap is 24% of paid-up equity (fully diluted).
-**The Trap:** Options A/C extend the window. Option D bypasses remedy.
-**Cross-Exam Context:** XIX-C tests FPI mechanics. SEBI (FPI) Regulations 2019 cross-tested in XV Research Analyst. FPI limit breach handling (5 trading days) is also covered in X-A/B Investment Adviser.
-**Manager's Pro-Tip:** Set up automated monitoring at Custodian level to flag aggregate FPI utilization vs sectoral cap in real-time. For AIF downstream into listed companies, co-ordinate with the investee's RTA to get real-time FPI-utilisation data. 5 trading days is tight — pre-arranged unwinding broker is valuable.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CII Regulatory Framework_39" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A Cat II FPI investor has inadvertently breached the FPI ceiling limit in an Indian listed investee company of Lotus Capital AIF. Under Schedule I of FEMA NDI Rules, 2019, within what period must the FPI divest its excess holdings?]]></text><answers><answer correct="no"><text><![CDATA[Within 30 calendar days]]></text></answer><answer correct="yes"><text><![CDATA[Within 5 TRADING days from the date of settlement of the trades that caused the breach]]></text></answer><answer correct="no"><text><![CDATA[Within 90 trading days]]></text></answer><answer correct="no"><text><![CDATA[No divestment required; pay penalty instead]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Per NDI Rules (FEMA): if an FPI investor has breached the FPI ceiling limit, the investor has 5 TRADING DAYS from the date of SETTLEMENT of the trades to divest its holdings in the company. For sectors where FDI is permitted, the default aggregate FPI limit (from April 1, 2020) is the applicable sectoral cap laid out in Schedule I of NDI Rules. For sectors where FDI is prohibited, aggregate FPI cap is 24% of paid-up equity (fully diluted).
+<B>The Trap:</B> Options A/C extend the window. Option D bypasses remedy.
+<B>Cross-Exam Context:</B> XIX-C tests FPI mechanics. SEBI (FPI) Regulations 2019 cross-tested in XV Research Analyst. FPI limit breach handling (5 trading days) is also covered in X-A/B Investment Adviser.
+<B>Manager's Pro-Tip:</B> Set up automated monitoring at Custodian level to flag aggregate FPI utilization vs sectoral cap in real-time. For AIF downstream into listed companies, co-ordinate with the investee's RTA to get real-time FPI-utilisation data. 5 trading days is tight — pre-arranged unwinding broker is valuable.]]></text></explanation></question></QF>

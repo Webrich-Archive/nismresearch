@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CIII Investment Strategies_31" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[The IC of Himalaya Arbitrage Fund (Cat III) is considering a merger-arb position. The deal is announced but board/regulatory approvals are PENDING. Which adjustment should the manager MOST appropriately make?]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[Go fully long the target and short the acquirer at announcement price.]]></text></answer>
-            <answer correct="no"><text><![CDATA[Wait until after shareholder approval to enter — the spread is gone by then.]]></text></answer>
-            <answer correct="no"><text><![CDATA[Buy both target and acquirer aggressively, since all deals eventually close.]]></text></answer>
-            <answer correct="yes"><text><![CDATA[Size the position smaller than the theoretical arbitrage spread would justify, reflecting deal-break risk; consider buying deal-break protection.]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Pre-approval deals carry significant break risk. Prudent sizing + optional deal-break protection (e.g., OTM Puts on target, OTM Calls on acquirer as hedges) is the correct manager response per Section 10.1.4.2 risk discussion.
-**The Trap:** A ignores break risk. C is over-aggressive. D foregoes all alpha — spread compresses substantially post-approval.
-**Cross-Exam Context:** XIX-C covers same decision framework. XV (Research Analyst) covers break-probability modelling.
-**Manager's Pro-Tip:** Typical merger-arb sizing formula: position % = (expected spread * P(close)) / (break-loss * (1 - P(close))) — Kelly-fraction capped at 2-3% per deal. Never let one deal exceed 5% of NAV even at 95%+ probability; correlated break risk (e.g., CCI rejects two deals in same sector) can double your hit.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Investment Strategies_31" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[The IC of Himalaya Arbitrage Fund (Cat III) is considering a merger-arb position. The deal is announced but board/regulatory approvals are PENDING. Which adjustment should the manager MOST appropriately make?]]></text><answers><answer correct="no"><text><![CDATA[Go fully long the target and short the acquirer at announcement price.]]></text></answer><answer correct="no"><text><![CDATA[Wait until after shareholder approval to enter — the spread is gone by then.]]></text></answer><answer correct="no"><text><![CDATA[Buy both target and acquirer aggressively, since all deals eventually close.]]></text></answer><answer correct="yes"><text><![CDATA[Size the position smaller than the theoretical arbitrage spread would justify, reflecting deal-break risk; consider buying deal-break protection.]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Pre-approval deals carry significant break risk. Prudent sizing + optional deal-break protection (e.g., OTM Puts on target, OTM Calls on acquirer as hedges) is the correct manager response per Section 10.1.4.2 risk discussion.
+<B>The Trap:</B> A ignores break risk. C is over-aggressive. D foregoes all alpha — spread compresses substantially post-approval.
+<B>Cross-Exam Context:</B> XIX-C covers same decision framework. XV (Research Analyst) covers break-probability modelling.
+<B>Manager's Pro-Tip:</B> Typical merger-arb sizing formula: position % = (expected spread * P(close)) / (break-loss * (1 - P(close))) — Kelly-fraction capped at 2-3% per deal. Never let one deal exceed 5% of NAV even at 95%+ probability; correlated break risk (e.g., CCI rejects two deals in same sector) can double your hit.]]></text></explanation></question></QF>

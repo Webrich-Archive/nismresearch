@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CIII Valuation_9" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Fund INC (Cat III AIF) has Total Exposure in derivatives of INR 41,19,75,000 and revised Net Asset Value of INR 47,85,05,300 after deducting margin and premium outflows. What is the leverage ratio and does it comply with SEBI's cap?]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[0.86 - compliant (below 2x)]]></text></answer>
-            <answer correct="no"><text><![CDATA[2.15 - breach]]></text></answer>
-            <answer correct="no"><text><![CDATA[1.75 - compliant]]></text></answer>
-            <answer correct="no"><text><![CDATA[0.45 - compliant]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Leverage = Total Exposure / NAV = 41,19,75,000 / 47,85,05,300 = 0.86. Cat III cap per SEBI Circular SEBI/HO/IMD-I/DF6/P/CIR/2021/584 is 2 times NAV. 0.86 is well within limit. Matches Example 12.12.
-**The Trap:** 2.15 reverses numerator and denominator. 1.75 picks a plausible-but-wrong value. 0.45 halves NAV.
-**Cross-Exam Context:** Cross-Exam Context: Cat I/II AIFs have ZERO leverage (XIX-A/XIX-D territory). Cat III is unique in having 2x leverage - this is tested in XIX-B, XIX-C and XIX-E.
-**Manager's Pro-Tip:** Watch the leverage ratio DURING the day on high-volatility sessions - a sharp NAV drop on other portfolio positions can push leverage ratio above 2x without any new derivative trade. Real-time monitoring, not EOD, is the risk-officer's job.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Valuation_9" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Fund INC (Cat III AIF) has Total Exposure in derivatives of INR 41,19,75,000 and revised Net Asset Value of INR 47,85,05,300 after deducting margin and premium outflows. What is the leverage ratio and does it comply with SEBI's cap?]]></text><answers><answer correct="yes"><text><![CDATA[0.86 - compliant (below 2x)]]></text></answer><answer correct="no"><text><![CDATA[2.15 - breach]]></text></answer><answer correct="no"><text><![CDATA[1.75 - compliant]]></text></answer><answer correct="no"><text><![CDATA[0.45 - compliant]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Leverage = Total Exposure / NAV = 41,19,75,000 / 47,85,05,300 = 0.86. Cat III cap per SEBI Circular SEBI/HO/IMD-I/DF6/P/CIR/2021/584 is 2 times NAV. 0.86 is well within limit. Matches Example 12.12.
+<B>The Trap:</B> 2.15 reverses numerator and denominator. 1.75 picks a plausible-but-wrong value. 0.45 halves NAV.
+<B>Cross-Exam Context:</B> Cross-Exam Context: Cat I/II AIFs have ZERO leverage (XIX-A/XIX-D territory). Cat III is unique in having 2x leverage - this is tested in XIX-B, XIX-C and XIX-E.
+<B>Manager's Pro-Tip:</B> Watch the leverage ratio DURING the day on high-volatility sessions - a sharp NAV drop on other portfolio positions can push leverage ratio above 2x without any new derivative trade. Real-time monitoring, not EOD, is the risk-officer's job.]]></text></explanation></question></QF>

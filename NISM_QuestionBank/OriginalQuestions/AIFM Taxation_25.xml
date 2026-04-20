@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM Taxation_25" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Bluestone Private Credit Fund (Cat II AIF) is about to distribute INR 10 crore of interest income to Helios Partners LP, a Singapore tax resident with valid TRC and Form 10F. ITA rate on interest to non-resident is 20% (Section 115A). India-Singapore DTAA interest article caps at 15%. Under Section 194LBB(b) read with Section 90(2), what is the TDS? (Ignore surcharge/cess.)]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[INR 2,00,00,000 (20% ITA rate)]]></text></answer>
-            <answer correct="yes"><text><![CDATA[INR 1,50,00,000 (15% DTAA rate — more beneficial)]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 1,00,00,000 (10% resident rate)]]></text></answer>
-            <answer correct="no"><text><![CDATA[Nil (DTAA exempts source state)]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Section 194LBB(b) prescribes TDS at 'rates in force' or DTAA rate, whichever is MORE BENEFICIAL under Section 90(2). ITA Section 115A: 20% gross. DTAA: 15% gross. 15% is more beneficial for the NR. TDS = 15% x 10 cr = INR 1.5 cr. TRC + Form 10F are preconditions to claim DTAA.
-**The Trap:** Option A ignores the DTAA. Option C uses the resident rate. Option D wrongly assumes exemption — DTAAs allocate taxing rights, do not typically exempt interest in the source state.
-**Cross-Exam Context:** XIX-A treats DTAA at concept level; XIX-C expects CA-supervised TRC validation before applying lower rate.
-**Manager's Pro-Tip:** Maintain a 'beneficial-ownership' file per NR LP — India follows substance-over-form. Treaty benefit can be denied on PPT/MLI grounds if the LP is a mere conduit. Collect board minutes, employee count, P&L of the feeder.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM Taxation_25" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Bluestone Private Credit Fund (Cat II AIF) is about to distribute INR 10 crore of interest income to Helios Partners LP, a Singapore tax resident with valid TRC and Form 10F. ITA rate on interest to non-resident is 20% (Section 115A). India-Singapore DTAA interest article caps at 15%. Under Section 194LBB(b) read with Section 90(2), what is the TDS? (Ignore surcharge/cess.)]]></text><answers><answer correct="no"><text><![CDATA[INR 2,00,00,000 (20% ITA rate)]]></text></answer><answer correct="yes"><text><![CDATA[INR 1,50,00,000 (15% DTAA rate — more beneficial)]]></text></answer><answer correct="no"><text><![CDATA[INR 1,00,00,000 (10% resident rate)]]></text></answer><answer correct="no"><text><![CDATA[Nil (DTAA exempts source state)]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Section 194LBB(b) prescribes TDS at 'rates in force' or DTAA rate, whichever is MORE BENEFICIAL under Section 90(2). ITA Section 115A: 20% gross. DTAA: 15% gross. 15% is more beneficial for the NR. TDS = 15% x 10 cr = INR 1.5 cr. TRC + Form 10F are preconditions to claim DTAA.
+<B>The Trap:</B> Option A ignores the DTAA. Option C uses the resident rate. Option D wrongly assumes exemption — DTAAs allocate taxing rights, do not typically exempt interest in the source state.
+<B>Cross-Exam Context:</B> XIX-A treats DTAA at concept level; XIX-C expects CA-supervised TRC validation before applying lower rate.
+<B>Manager's Pro-Tip:</B> Maintain a 'beneficial-ownership' file per NR LP — India follows substance-over-form. Treaty benefit can be denied on PPT/MLI grounds if the LP is a mere conduit. Collect board minutes, employee count, P&L of the feeder.]]></text></explanation></question></QF>

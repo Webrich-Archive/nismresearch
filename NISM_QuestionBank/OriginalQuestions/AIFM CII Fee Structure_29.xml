@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CII Fee Structure_29" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Sona Fund (Cat I, 5-yr): Committed Capital INR 80 crore (fully called), Hurdle 10% compounded, Management Fee 1.5% on GAV incl. GST 18%, Set-up cost INR 2 cr amortised over 5 yr, yearly expenses INR 48 lakh, Incentive Fee 15%. Year-1 GAV = INR 92.8 cr. What is the Year-1 Net Asset Value (pre-incentives) closest to?]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[INR 90.27 crore]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 88.00 crore]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 85.00 crore]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 92.80 crore]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** GAV INR 92.80 cr. Less: set-up amortised INR 0.40 cr (2/5). Less: yearly expenses INR 0.48 cr. Less: Mgmt fee = 1.5% x 92.80 x 1.18 = INR 1.6426 cr. NAV pre-incentive = 92.80 - 0.40 - 0.48 - 1.6426 = INR 90.2774 cr ≈ INR 90.27 crore. Mirrors chapter Example 6.3 and 6.4 (Best Case).
-**The Trap:** B and C strip too many costs; D is the pre-expense GAV.
-**Cross-Exam Context:** Chapter 6 Examples 6.3/6.4 worked exactly this way. XIX-C tests the same computation pattern.
-**Manager's Pro-Tip:** Always present LPs with a 'GAV to NAV bridge': each line (set-up amortisation, operating expense, management fee, GST) makes it transparent. Opaque 'net-of-expense' figures erode LP trust.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CII Fee Structure_29" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Sona Fund (Cat I, 5-yr): Committed Capital INR 80 crore (fully called), Hurdle 10% compounded, Management Fee 1.5% on GAV incl. GST 18%, Set-up cost INR 2 cr amortised over 5 yr, yearly expenses INR 48 lakh, Incentive Fee 15%. Year-1 GAV = INR 92.8 cr. What is the Year-1 Net Asset Value (pre-incentives) closest to?]]></text><answers><answer correct="yes"><text><![CDATA[INR 90.27 crore]]></text></answer><answer correct="no"><text><![CDATA[INR 88.00 crore]]></text></answer><answer correct="no"><text><![CDATA[INR 85.00 crore]]></text></answer><answer correct="no"><text><![CDATA[INR 92.80 crore]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> GAV INR 92.80 cr. Less: set-up amortised INR 0.40 cr (2/5). Less: yearly expenses INR 0.48 cr. Less: Mgmt fee = 1.5% x 92.80 x 1.18 = INR 1.6426 cr. NAV pre-incentive = 92.80 - 0.40 - 0.48 - 1.6426 = INR 90.2774 cr ≈ INR 90.27 crore. Mirrors chapter Example 6.3 and 6.4 (Best Case).
+<B>The Trap:</B> B and C strip too many costs; D is the pre-expense GAV.
+<B>Cross-Exam Context:</B> Chapter 6 Examples 6.3/6.4 worked exactly this way. XIX-C tests the same computation pattern.
+<B>Manager's Pro-Tip:</B> Always present LPs with a 'GAV to NAV bridge': each line (set-up amortisation, operating expense, management fee, GST) makes it transparent. Opaque 'net-of-expense' figures erode LP trust.]]></text></explanation></question></QF>

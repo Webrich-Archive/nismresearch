@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CIII Investment Strategies_48" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[In Convertible Arbitrage the COUPON INTEREST on the convertible bond is economically:]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[A cost that offsets the arb spread.]]></text></answer>
-            <answer correct="yes"><text><![CDATA[An additional income (quasi risk-free) that partly funds the short leg's borrow fees and dividend forgone.]]></text></answer>
-            <answer correct="no"><text><![CDATA[Payable to the equity short counterparty.]]></text></answer>
-            <answer correct="no"><text><![CDATA[Taxable at 194LBB (pass-through).]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Section 10.1.3 explicit: coupon interest is an ADDITIONAL risk-free income for the fund, which helps offset short-leg borrow fees and dividends forgone. It is a key carry component of convertible arb.
-**The Trap:** A inverts. C is fabricated. D incorrectly tags 194LBB — that applies to Cat I/II pass-through, NOT Cat III which is fund-level MMR.
-**Cross-Exam Context:** XIX-D covers 194LBB for Cat I/II. XIX-E distinguishes Cat III fund-level tax.
-**Manager's Pro-Tip:** Cat III convertible coupons are taxed at FUND level (MMR) not at investor level — factor tax drag into arb sizing. The pre-tax 'riskless' spread becomes post-tax much thinner; only pursue spreads where pre-tax IRR > 14% p.a.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Investment Strategies_48" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[In Convertible Arbitrage the COUPON INTEREST on the convertible bond is economically:]]></text><answers><answer correct="no"><text><![CDATA[A cost that offsets the arb spread.]]></text></answer><answer correct="yes"><text><![CDATA[An additional income (quasi risk-free) that partly funds the short leg's borrow fees and dividend forgone.]]></text></answer><answer correct="no"><text><![CDATA[Payable to the equity short counterparty.]]></text></answer><answer correct="no"><text><![CDATA[Taxable at 194LBB (pass-through).]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Section 10.1.3 explicit: coupon interest is an ADDITIONAL risk-free income for the fund, which helps offset short-leg borrow fees and dividends forgone. It is a key carry component of convertible arb.
+<B>The Trap:</B> A inverts. C is fabricated. D incorrectly tags 194LBB — that applies to Cat I/II pass-through, NOT Cat III which is fund-level MMR.
+<B>Cross-Exam Context:</B> XIX-D covers 194LBB for Cat I/II. XIX-E distinguishes Cat III fund-level tax.
+<B>Manager's Pro-Tip:</B> Cat III convertible coupons are taxed at FUND level (MMR) not at investor level — factor tax drag into arb sizing. The pre-tax 'riskless' spread becomes post-tax much thinner; only pursue spreads where pre-tax IRR > 14% p.a.]]></text></explanation></question></QF>

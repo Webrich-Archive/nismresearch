@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CII Fund Monitoring Reporting and Exit_2" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Saraswati Growth Fund, a Category II AIF, closed its Q3 FY25 books on December 31. By what date MUST the Investment Manager file the quarterly activity report with SEBI through the SEBI Intermediary Portal?]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[January 10 (T+10 calendar days from quarter-end).]]></text></answer>
-            <answer correct="no"><text><![CDATA[January 15 (T+15 calendar days from quarter-end).]]></text></answer>
-            <answer correct="no"><text><![CDATA[January 31 (one month from quarter-end).]]></text></answer>
-            <answer correct="no"><text><![CDATA[March 31 (end of the financial year).]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** SEBI Circular dated April 7, 2021 on Regulatory Reporting by AIFs mandates that all AIFs submit the quarterly activity report within 10 calendar days from the end of each quarter via the SEBI Intermediary Portal. For a quarter ending December 31, the deadline is January 10.
-**The Trap:** T+15 is the debt-MF reporting convention, not AIF. T+30 days (one month) is the PPM-change intimation window (consolidated within 1 month of FY-end), not the quarterly filing. FY-end is not relevant for quarterly reporting.
-**Cross-Exam Context:** XIX-C asks the same T+10 rule at all-cat level. XIX-A distributor exam rarely drills the filing cadence. On XIX-D, expect a trap where T+10 is confused with the annual LP-report window of 180 days.
-**Manager's Pro-Tip:** Build the quarterly SIP upload into your ops calendar as a 'T+7 soft close' — you want a three-day buffer before the T+10 SEBI deadline in case the portal has known outages (they occur every quarter-end).]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CII Fund Monitoring Reporting and Exit_2" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Saraswati Growth Fund, a Category II AIF, closed its Q3 FY25 books on December 31. By what date MUST the Investment Manager file the quarterly activity report with SEBI through the SEBI Intermediary Portal?]]></text><answers><answer correct="yes"><text><![CDATA[January 10 (T+10 calendar days from quarter-end).]]></text></answer><answer correct="no"><text><![CDATA[January 15 (T+15 calendar days from quarter-end).]]></text></answer><answer correct="no"><text><![CDATA[January 31 (one month from quarter-end).]]></text></answer><answer correct="no"><text><![CDATA[March 31 (end of the financial year).]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> SEBI Circular dated April 7, 2021 on Regulatory Reporting by AIFs mandates that all AIFs submit the quarterly activity report within 10 calendar days from the end of each quarter via the SEBI Intermediary Portal. For a quarter ending December 31, the deadline is January 10.
+<B>The Trap:</B> T+15 is the debt-MF reporting convention, not AIF. T+30 days (one month) is the PPM-change intimation window (consolidated within 1 month of FY-end), not the quarterly filing. FY-end is not relevant for quarterly reporting.
+<B>Cross-Exam Context:</B> XIX-C asks the same T+10 rule at all-cat level. XIX-A distributor exam rarely drills the filing cadence. On XIX-D, expect a trap where T+10 is confused with the annual LP-report window of 180 days.
+<B>Manager's Pro-Tip:</B> Build the quarterly SIP upload into your ops calendar as a 'T+7 soft close' — you want a three-day buffer before the T+10 SEBI deadline in case the portal has known outages (they occur every quarter-end).]]></text></explanation></question></QF>

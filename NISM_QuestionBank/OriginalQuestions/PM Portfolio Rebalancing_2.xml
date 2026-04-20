@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PM Portfolio Rebalancing_2" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[CALENDAR rebalancing (quarterly) vs THRESHOLD rebalancing (±5%) — key trade-off:]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[Calendar = higher turnover / stale; Threshold = efficient but requires monitoring]]></text></answer>
-            <answer correct="no"><text><![CDATA[Both are identical]]></text></answer>
-            <answer correct="no"><text><![CDATA[Calendar = best always]]></text></answer>
-            <answer correct="no"><text><![CDATA[Threshold = worst always]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Calendar is simple but can be mistimed; threshold is efficient (rebalances only when material) but needs daily monitoring.
-**The Trap:** No one-size-fits-all.
-**Cross-Exam Context:** Standard.
-**Manager's Pro-Tip:** Most institutions use HYBRID: calendar (quarterly) + threshold (±5-10% drift) — best of both.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PM Portfolio Rebalancing_2" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[CALENDAR rebalancing (quarterly) vs THRESHOLD rebalancing (±5%) — key trade-off:]]></text><answers><answer correct="yes"><text><![CDATA[Calendar = higher turnover / stale; Threshold = efficient but requires monitoring]]></text></answer><answer correct="no"><text><![CDATA[Both are identical]]></text></answer><answer correct="no"><text><![CDATA[Calendar = best always]]></text></answer><answer correct="no"><text><![CDATA[Threshold = worst always]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Calendar is simple but can be mistimed; threshold is efficient (rebalances only when material) but needs daily monitoring.
+<B>The Trap:</B> No one-size-fits-all.
+<B>Cross-Exam Context:</B> Standard.
+<B>Manager's Pro-Tip:</B> Most institutions use HYBRID: calendar (quarterly) + threshold (±5-10% drift) — best of both.]]></text></explanation></question></QF>

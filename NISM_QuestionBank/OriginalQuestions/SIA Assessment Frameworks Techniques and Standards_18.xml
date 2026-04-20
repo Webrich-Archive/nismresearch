@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="SIA Assessment Frameworks Techniques and Standards_18" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Difference-in-Differences (DiD) is MOST appropriate when the SIA:]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[Wants to build a Logic Model for a new program]]></text></answer>
-            <answer correct="no"><text><![CDATA[Has only end-line qualitative narratives from five beneficiaries]]></text></answer>
-            <answer correct="yes"><text><![CDATA[Has baseline and end-line data for both a treatment group and a comparison group not randomly assigned but presumed to follow the same secular trend absent the intervention]]></text></answer>
-            <answer correct="no"><text><![CDATA[Needs to monetise outcomes for an SROI ratio]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** DiD compares the change (delta) in outcome for the treated group to the change for a comparison group over the same period. Its identifying assumption is 'parallel trends' — the two groups would have evolved similarly absent the intervention. It requires pre- and post-intervention data for BOTH groups.
-**The Trap:** Qualitative narratives support triangulation, not DiD. Logic Model is a planning tool, not an evaluation technique. Monetisation is the SROI step after causal evidence is established.
-**Cross-Exam Context:** XV Research Analyst and policy-research syllabi reference DiD in natural-experiment case studies. XXIII applies it to SIA quasi-experimental design.
-**Assessor's Pro-Tip:** Always plot pre-period trends for treated vs comparison group before applying DiD — if the lines diverge pre-intervention, parallel-trends fails and you must switch to synthetic control or propensity score matching.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="SIA Assessment Frameworks Techniques and Standards_18" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Difference-in-Differences (DiD) is MOST appropriate when the SIA:]]></text><answers><answer correct="no"><text><![CDATA[Wants to build a Logic Model for a new program]]></text></answer><answer correct="no"><text><![CDATA[Has only end-line qualitative narratives from five beneficiaries]]></text></answer><answer correct="yes"><text><![CDATA[Has baseline and end-line data for both a treatment group and a comparison group not randomly assigned but presumed to follow the same secular trend absent the intervention]]></text></answer><answer correct="no"><text><![CDATA[Needs to monetise outcomes for an SROI ratio]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> DiD compares the change (delta) in outcome for the treated group to the change for a comparison group over the same period. Its identifying assumption is 'parallel trends' — the two groups would have evolved similarly absent the intervention. It requires pre- and post-intervention data for BOTH groups.
+<B>The Trap:</B> Qualitative narratives support triangulation, not DiD. Logic Model is a planning tool, not an evaluation technique. Monetisation is the SROI step after causal evidence is established.
+<B>Cross-Exam Context:</B> XV Research Analyst and policy-research syllabi reference DiD in natural-experiment case studies. XXIII applies it to SIA quasi-experimental design.
+<B>Assessor's Pro-Tip:</B> Always plot pre-period trends for treated vs comparison group before applying DiD — if the lines diverge pre-intervention, parallel-trends fails and you must switch to synthetic control or propensity score matching.]]></text></explanation></question></QF>

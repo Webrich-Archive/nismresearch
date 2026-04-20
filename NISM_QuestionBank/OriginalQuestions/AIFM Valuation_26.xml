@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM Valuation_26" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[A Cat III AIF maintains multiple Series within the same Class of Units. Why does the Series NAV per unit differ across Series, even though they hold the same underlying portfolio?]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[Custodian fees are charged only to the senior Series]]></text></answer>
-            <answer correct="no"><text><![CDATA[SEBI requires a 10% haircut on later Series for dilution]]></text></answer>
-            <answer correct="yes"><text><![CDATA[Differential terms of subscription (fees, drawdown timing) allocated at series level cause Series Expenses and Series Net Assets to diverge]]></text></answer>
-            <answer correct="no"><text><![CDATA[Each Series holds a different subset of the portfolio]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Per Section 14.12, Series NAV differs because differential terms of subscription (management fee %, incentive fee %, hurdle, drawdown timing) are allocated at the Series level. Series Expenses (esp. mgmt fees) are specific to each Series, while common fund expenses/assets/liabilities are allocated pro-rata to Opening Series NAV. Same portfolio, different fee drag = different NAV.
-**The Trap:** Option A invents a SEBI haircut rule. Option C misconceives 'series' as a portfolio segregation. Option D is fabricated.
-**Cross-Exam Context:** XIX-B touches series concept. XIX-C dives into the mechanics managers must operate — and the recent SEBI bar on 'priority distribution models' that privilege one class at the cost of another.
-**Manager's Pro-Tip:** Maintain a 'series waterfall grid' updated at each close. When new money enters mid-life, new Series units are struck at current NAV — getting the opening NAV wrong creates permanent under/over-allocation to the new investor.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM Valuation_26" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A Cat III AIF maintains multiple Series within the same Class of Units. Why does the Series NAV per unit differ across Series, even though they hold the same underlying portfolio?]]></text><answers><answer correct="no"><text><![CDATA[Custodian fees are charged only to the senior Series]]></text></answer><answer correct="no"><text><![CDATA[SEBI requires a 10% haircut on later Series for dilution]]></text></answer><answer correct="yes"><text><![CDATA[Differential terms of subscription (fees, drawdown timing) allocated at series level cause Series Expenses and Series Net Assets to diverge]]></text></answer><answer correct="no"><text><![CDATA[Each Series holds a different subset of the portfolio]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Per Section 14.12, Series NAV differs because differential terms of subscription (management fee %, incentive fee %, hurdle, drawdown timing) are allocated at the Series level. Series Expenses (esp. mgmt fees) are specific to each Series, while common fund expenses/assets/liabilities are allocated pro-rata to Opening Series NAV. Same portfolio, different fee drag = different NAV.
+<B>The Trap:</B> Option A invents a SEBI haircut rule. Option C misconceives 'series' as a portfolio segregation. Option D is fabricated.
+<B>Cross-Exam Context:</B> XIX-B touches series concept. XIX-C dives into the mechanics managers must operate — and the recent SEBI bar on 'priority distribution models' that privilege one class at the cost of another.
+<B>Manager's Pro-Tip:</B> Maintain a 'series waterfall grid' updated at each close. When new money enters mid-life, new Series units are struck at current NAV — getting the opening NAV wrong creates permanent under/over-allocation to the new investor.]]></text></explanation></question></QF>

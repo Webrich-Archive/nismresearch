@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PM Modern Portfolio Theory_15" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[In a THREE-asset portfolio, how many covariance terms appear in the variance formula?]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[3]]></text></answer>
-            <answer correct="yes"><text><![CDATA[6]]></text></answer>
-            <answer correct="no"><text><![CDATA[9]]></text></answer>
-            <answer correct="no"><text><![CDATA[1]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** For n=3: (n²-n)/2 = (9-3)/2 = 3 unique covariance pairs, BUT each appears twice in the expansion (2×AB, 2×BC, 2×AC) so 6 covariance TERMS.
-**The Trap:** If counting unique pairs: 3. If counting terms in the full expansion: 6. Textbook says 6.
-**Cross-Exam Context:** MPT detail.
-**Manager's Pro-Tip:** For n assets: n individual variances + 2×(n choose 2) = n(n-1) covariance terms in the expanded form.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PM Modern Portfolio Theory_15" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[In a THREE-asset portfolio, how many covariance terms appear in the variance formula?]]></text><answers><answer correct="no"><text><![CDATA[3]]></text></answer><answer correct="yes"><text><![CDATA[6]]></text></answer><answer correct="no"><text><![CDATA[9]]></text></answer><answer correct="no"><text><![CDATA[1]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> For n=3: (n²-n)/2 = (9-3)/2 = 3 unique covariance pairs, BUT each appears twice in the expansion (2×AB, 2×BC, 2×AC) so 6 covariance TERMS.
+<B>The Trap:</B> If counting unique pairs: 3. If counting terms in the full expansion: 6. Textbook says 6.
+<B>Cross-Exam Context:</B> MPT detail.
+<B>Manager's Pro-Tip:</B> For n assets: n individual variances + 2×(n choose 2) = n(n-1) covariance terms in the expanded form.]]></text></explanation></question></QF>

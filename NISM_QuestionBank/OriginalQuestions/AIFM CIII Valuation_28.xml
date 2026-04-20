@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CIII Valuation_28" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[For a Cat III AIF, on T-day (inception) of an options contract, Total Exposure equals:]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[Option strike price multiplied by lot size]]></text></answer>
-            <answer correct="no"><text><![CDATA[Option premium paid multiplied by lot size]]></text></answer>
-            <answer correct="yes"><text><![CDATA[Option notional (premium * lot-size * lots) for the SEBI leverage formula, though initial cash outflow is the premium]]></text></answer>
-            <answer correct="no"><text><![CDATA[Zero until exercise]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Per the chapter, options exposure on T-day equals 'the Option Premium Paid for entering into the Option Contract' (i.e., notional = premium * lot-size * lots); from T+1 onwards the option is repriced via Black-Scholes/MTM. Example 12.12 uses premium-based notional for offsetting in the leverage calc.
-**The Trap:** Strike * lot size overstates exposure; zero-until-exercise is wrong; premium * lot-size without lots ignores scale.
-**Cross-Exam Context:** VIII tests option exposure calc; XIX-C applies SEBI leverage formula.
-**Manager's Pro-Tip:** Deep-OTM cheap options can rack up big notional with small cash outlay - a classic way to accidentally breach 2x. Run a stress scenario where option premiums 5x before you size large positions.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Valuation_28" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[For a Cat III AIF, on T-day (inception) of an options contract, Total Exposure equals:]]></text><answers><answer correct="no"><text><![CDATA[Option strike price multiplied by lot size]]></text></answer><answer correct="no"><text><![CDATA[Option premium paid multiplied by lot size]]></text></answer><answer correct="yes"><text><![CDATA[Option notional (premium * lot-size * lots) for the SEBI leverage formula, though initial cash outflow is the premium]]></text></answer><answer correct="no"><text><![CDATA[Zero until exercise]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Per the chapter, options exposure on T-day equals 'the Option Premium Paid for entering into the Option Contract' (i.e., notional = premium * lot-size * lots); from T+1 onwards the option is repriced via Black-Scholes/MTM. Example 12.12 uses premium-based notional for offsetting in the leverage calc.
+<B>The Trap:</B> Strike * lot size overstates exposure; zero-until-exercise is wrong; premium * lot-size without lots ignores scale.
+<B>Cross-Exam Context:</B> VIII tests option exposure calc; XIX-C applies SEBI leverage formula.
+<B>Manager's Pro-Tip:</B> Deep-OTM cheap options can rack up big notional with small cash outlay - a classic way to accidentally breach 2x. Run a stress scenario where option premiums 5x before you size large positions.]]></text></explanation></question></QF>

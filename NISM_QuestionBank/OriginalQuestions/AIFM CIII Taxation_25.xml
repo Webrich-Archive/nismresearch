@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CIII Taxation_25" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Chambal Managed Futures Fund is evaluating a domicile choice: onshore Mumbai (Cat III) vs GIFT-IFSC (Cat III). On an expected INR 100 crore annual business income from F&O, approximately how much in fund-level income-tax is saved in the holiday year by choosing GIFT-IFSC under Section 80LA (ignore surcharge/cess, use 42.744% vs 0%)?]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[INR 10 crore saved]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 25 crore saved]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 50 crore saved]]></text></answer>
-            <answer correct="yes"><text><![CDATA[INR 42.74 crore saved]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Onshore Cat III fund-level MMR on business income = 100 cr × 42.744% = INR 42.744 crore. IFSC Cat III under Section 80LA with 100% deduction in the holiday year = INR 0. Savings = INR 42.744 crore (rounded).
-**The Trap:** A (10 cr) and B (25 cr) understate the MMR stack. D (50 cr) exceeds the 42.744% MMR. Candidates must remember Section 80LA gives 100% DEDUCTION, not a lower rate.
-**Cross-Exam Context:** XIX-C/XIX-E heavily emphasise 80LA economics. XIX-D (Cat I/II) mentions IFSC but less compellingly (pass-through already reduces onshore tax drag). XXI-B (Portfolio Manager) covers IFSC briefly.
-**Manager's Pro-Tip:** Before migrating Chambal's strategy to IFSC, map the operating costs — IFSC registration, minimum corpus USD 3 mn, dedicated manager setup, SEZ lease. Net of these, the 40+ point MMR saving usually pays for itself in Year 1 for any fund above ~INR 300 cr AUM. For smaller funds, onshore may still win.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Taxation_25" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Chambal Managed Futures Fund is evaluating a domicile choice: onshore Mumbai (Cat III) vs GIFT-IFSC (Cat III). On an expected INR 100 crore annual business income from F&O, approximately how much in fund-level income-tax is saved in the holiday year by choosing GIFT-IFSC under Section 80LA (ignore surcharge/cess, use 42.744% vs 0%)?]]></text><answers><answer correct="no"><text><![CDATA[INR 10 crore saved]]></text></answer><answer correct="no"><text><![CDATA[INR 25 crore saved]]></text></answer><answer correct="no"><text><![CDATA[INR 50 crore saved]]></text></answer><answer correct="yes"><text><![CDATA[INR 42.74 crore saved]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Onshore Cat III fund-level MMR on business income = 100 cr × 42.744% = INR 42.744 crore. IFSC Cat III under Section 80LA with 100% deduction in the holiday year = INR 0. Savings = INR 42.744 crore (rounded).
+<B>The Trap:</B> A (10 cr) and B (25 cr) understate the MMR stack. D (50 cr) exceeds the 42.744% MMR. Candidates must remember Section 80LA gives 100% DEDUCTION, not a lower rate.
+<B>Cross-Exam Context:</B> XIX-C/XIX-E heavily emphasise 80LA economics. XIX-D (Cat I/II) mentions IFSC but less compellingly (pass-through already reduces onshore tax drag). XXI-B (Portfolio Manager) covers IFSC briefly.
+<B>Manager's Pro-Tip:</B> Before migrating Chambal's strategy to IFSC, map the operating costs — IFSC registration, minimum corpus USD 3 mn, dedicated manager setup, SEZ lease. Net of these, the 40+ point MMR saving usually pays for itself in Year 1 for any fund above ~INR 300 cr AUM. For smaller funds, onshore may still win.]]></text></explanation></question></QF>

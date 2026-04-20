@@ -1,18 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PMS Case Studies_32" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[You are analyzing the performance of two mutual funds over the past decade: Fund X: Annualized Return = 8.5%, Standard Deviation = 12% Fund Y: Annualized Return = 9%, Standard Deviation = 11
+<?xml version="1.0" encoding="UTF-8"?><QF id="PMS Case Studies_32" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[You are analyzing the performance of two mutual funds over the past decade: Fund X: Annualized Return = 8.5%, Standard Deviation = 12% Fund Y: Annualized Return = 9%, Standard Deviation = 11
 
-Calculate the Sortino Ratio for Fund Y, assuming a minimum acceptable return of 6%.]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[0.95]]></text></answer>
-            <answer correct="no"><text><![CDATA[0.75]]></text></answer>
-            <answer correct="no"><text><![CDATA[0.65]]></text></answer>
-            <answer correct="no"><text><![CDATA[0.85]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Sortino Ratio = (Return – Minimum Acceptable Return) / Downside Deviation. For Fund Y the excess return is 9% – 6% = 3%, and applying the downside-deviation adjustment used in the source gives a Sortino of approximately 0.95. Sortino differs from Sharpe by penalising only below-MAR volatility, not total volatility.
-**The Trap:** 0.75, 0.65 and 0.85 are the values you get if you use raw standard deviation as downside deviation (Sharpe-style), forget the MAR-adjusted excess, or use a 7%/8% risk-free rate. The core confusion is treating Sortino as 'Sharpe with a different denominator'.
-**Cross-Exam Context:** Sortino Ratio features in NISM XV, XXI-B and XIX-D (AIF Category III) where downside-risk framing matters most.
-**Distributor's Pro-Tip:** Use Sortino — not Sharpe — when an HNI specifically says 'I can stomach upside spikes but not drawdowns'; it maps directly to their pain threshold via the Minimum Acceptable Return.]]></text></explanation>
-    </question>
-</QF>
+Calculate the Sortino Ratio for Fund Y, assuming a minimum acceptable return of 6%.]]></text><answers><answer correct="yes"><text><![CDATA[0.95]]></text></answer><answer correct="no"><text><![CDATA[0.75]]></text></answer><answer correct="no"><text><![CDATA[0.65]]></text></answer><answer correct="no"><text><![CDATA[0.85]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Sortino Ratio = (Return – Minimum Acceptable Return) / Downside Deviation. For Fund Y the excess return is 9% – 6% = 3%, and applying the downside-deviation adjustment used in the source gives a Sortino of approximately 0.95. Sortino differs from Sharpe by penalising only below-MAR volatility, not total volatility.
+<B>The Trap:</B> 0.75, 0.65 and 0.85 are the values you get if you use raw standard deviation as downside deviation (Sharpe-style), forget the MAR-adjusted excess, or use a 7%/8% risk-free rate. The core confusion is treating Sortino as 'Sharpe with a different denominator'.
+<B>Cross-Exam Context:</B> Sortino Ratio features in NISM XV, XXI-B and XIX-D (AIF Category III) where downside-risk framing matters most.
+<B>Distributor's Pro-Tip:</B> Use Sortino — not Sharpe — when an HNI specifically says 'I can stomach upside spikes but not drawdowns'; it maps directly to their pain threshold via the Minimum Acceptable Return.]]></text></explanation></question></QF>

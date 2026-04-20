@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM Valuation_10" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Prakriti Cat III AIF holds 1,00,000 shares of a thinly-traded SME. Daily traded volume = 25,000 shares. Current market price = INR 100. Daily price band = -2% (lower). Opportunity cost = 12% p.a. (ignore intra-day discounting for simplicity). Over how many trading days must the fund liquidate, and at approximately what un-discounted sale price on Day T+3?]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[4 days; INR 94.12]]></text></answer>
-            <answer correct="no"><text><![CDATA[5 days; INR 90.39]]></text></answer>
-            <answer correct="no"><text><![CDATA[3 days; INR 98.00]]></text></answer>
-            <answer correct="no"><text><![CDATA[2 days; INR 96.04]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Days to liquidate = 1,00,000 / 25,000 = 4 days. Price series: T = 100; T+1 = 98; T+2 = 96.04; T+3 = 94.1192. Per Section 14.11.1 illustration, successive days each hit the -2% lower price band, so price multiplies by 0.98 each day.
-**The Trap:** 2 days uses wrong volume math. 5 days overshoots. 3 days stops at T+2.
-**Cross-Exam Context:** VIII (Equity Derivatives) covers market-impact models; XIX-C operationalises the concept for Cat III AIF valuation where a 2-3% haircut on illiquid SME positions is routine in the monthly NAV.
-**Manager's Pro-Tip:** For illiquid positions >1% of ADV, build a 'liquidity-discounted FMV' into your Valuation Policy. SEBI/APMI inspections question managers who mark thinly-traded SME holdings at Friday close with no volume adjustment.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM Valuation_10" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Prakriti Cat III AIF holds 1,00,000 shares of a thinly-traded SME. Daily traded volume = 25,000 shares. Current market price = INR 100. Daily price band = -2% (lower). Opportunity cost = 12% p.a. (ignore intra-day discounting for simplicity). Over how many trading days must the fund liquidate, and at approximately what un-discounted sale price on Day T+3?]]></text><answers><answer correct="yes"><text><![CDATA[4 days; INR 94.12]]></text></answer><answer correct="no"><text><![CDATA[5 days; INR 90.39]]></text></answer><answer correct="no"><text><![CDATA[3 days; INR 98.00]]></text></answer><answer correct="no"><text><![CDATA[2 days; INR 96.04]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Days to liquidate = 1,00,000 / 25,000 = 4 days. Price series: T = 100; T+1 = 98; T+2 = 96.04; T+3 = 94.1192. Per Section 14.11.1 illustration, successive days each hit the -2% lower price band, so price multiplies by 0.98 each day.
+<B>The Trap:</B> 2 days uses wrong volume math. 5 days overshoots. 3 days stops at T+2.
+<B>Cross-Exam Context:</B> VIII (Equity Derivatives) covers market-impact models; XIX-C operationalises the concept for Cat III AIF valuation where a 2-3% haircut on illiquid SME positions is routine in the monthly NAV.
+<B>Manager's Pro-Tip:</B> For illiquid positions >1% of ADV, build a 'liquidity-discounted FMV' into your Valuation Policy. SEBI/APMI inspections question managers who mark thinly-traded SME holdings at Friday close with no volume adjustment.]]></text></explanation></question></QF>

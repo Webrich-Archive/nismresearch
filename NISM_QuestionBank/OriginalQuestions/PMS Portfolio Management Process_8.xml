@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PMS Portfolio Management Process_8" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[A correlation coefficient of 0 between two asset classes indicates:]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[They always move in opposite directions]]></text></answer>
-            <answer correct="no"><text><![CDATA[They always move in the same direction]]></text></answer>
-            <answer correct="yes"><text><![CDATA[No linear relationship between their movements]]></text></answer>
-            <answer correct="no"><text><![CDATA[They have the same standard deviation]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Zero correlation means no linear relationship — not independence, but no linear co-movement.
-**The Trap:** Opposite/same movement requires -1 or +1.
-**Cross-Exam Context:** Stats used consistently across NISM calc-heavy exams.
-**Distributor's Pro-Tip:** Zero correlation is theoretical; use rolling correlations to track drift.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PMS Portfolio Management Process_8" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A correlation coefficient of 0 between two asset classes indicates:]]></text><answers><answer correct="no"><text><![CDATA[They always move in opposite directions]]></text></answer><answer correct="no"><text><![CDATA[They always move in the same direction]]></text></answer><answer correct="yes"><text><![CDATA[No linear relationship between their movements]]></text></answer><answer correct="no"><text><![CDATA[They have the same standard deviation]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Zero correlation means no linear relationship — not independence, but no linear co-movement.
+<B>The Trap:</B> Opposite/same movement requires -1 or +1.
+<B>Cross-Exam Context:</B> Stats used consistently across NISM calc-heavy exams.
+<B>Distributor's Pro-Tip:</B> Zero correlation is theoretical; use rolling correlations to track drift.]]></text></explanation></question></QF>

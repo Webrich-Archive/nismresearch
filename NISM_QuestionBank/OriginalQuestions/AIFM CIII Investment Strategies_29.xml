@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CIII Investment Strategies_29" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Match: A fund that holds equal rupee-value long and short positions across sectors, aiming for Beta ~ 0, primarily to capture stock-specific alpha. This is:]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[Dedicated-Long Strategy]]></text></answer>
-            <answer correct="no"><text><![CDATA[Short-bias Strategy]]></text></answer>
-            <answer correct="yes"><text><![CDATA[Market-Neutral Strategy]]></text></answer>
-            <answer correct="no"><text><![CDATA[Global-Macro Strategy]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Equal long/short with target Beta ~ 0 = Market-Neutral (Section 10.1.1.3). Dollar-neutral + Beta-neutral + sector-neutral are specific flavours of market-neutral.
-**The Trap:** Others have directional tilts (net long, net short, or multi-asset macro).
-**Cross-Exam Context:** XIX-C covers same. XXI-B PMS rarely allows true market-neutral structure.
-**Manager's Pro-Tip:** Market-neutral sleeves should benchmark to CRISIL Liquid Index or MIBOR+300 bps, not NIFTY — otherwise tracking error is meaningless. Set up the Bloomberg bench template in AIMA/PMS reporting tool accordingly.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Investment Strategies_29" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Match: A fund that holds equal rupee-value long and short positions across sectors, aiming for Beta ~ 0, primarily to capture stock-specific alpha. This is:]]></text><answers><answer correct="no"><text><![CDATA[Dedicated-Long Strategy]]></text></answer><answer correct="no"><text><![CDATA[Short-bias Strategy]]></text></answer><answer correct="yes"><text><![CDATA[Market-Neutral Strategy]]></text></answer><answer correct="no"><text><![CDATA[Global-Macro Strategy]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Equal long/short with target Beta ~ 0 = Market-Neutral (Section 10.1.1.3). Dollar-neutral + Beta-neutral + sector-neutral are specific flavours of market-neutral.
+<B>The Trap:</B> Others have directional tilts (net long, net short, or multi-asset macro).
+<B>Cross-Exam Context:</B> XIX-C covers same. XXI-B PMS rarely allows true market-neutral structure.
+<B>Manager's Pro-Tip:</B> Market-neutral sleeves should benchmark to CRISIL Liquid Index or MIBOR+300 bps, not NIFTY — otherwise tracking error is meaningless. Set up the Bloomberg bench template in AIMA/PMS reporting tool accordingly.]]></text></explanation></question></QF>

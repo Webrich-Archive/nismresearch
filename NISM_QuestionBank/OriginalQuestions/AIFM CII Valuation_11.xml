@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CII Valuation_11" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Avanti Buyout Fund (Cat II) acquired investee Takshila Logistics for equity cheque of INR 100 crore in Year 0. At exit in Year 5, equity proceeds are INR 300 crore. What is the gross IRR (no intermediate dividends)?]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[20.0%]]></text></answer>
-            <answer correct="no"><text><![CDATA[25.0%]]></text></answer>
-            <answer correct="yes"><text><![CDATA[24.6%]]></text></answer>
-            <answer correct="no"><text><![CDATA[15.0%]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** IRR = (Exit / Entry)^(1/n) - 1 = (300/100)^(1/5) - 1 = 3^0.2 - 1 = 1.2457 - 1 = 24.57% ~ 24.6%. The MOIC is 3.0x over 5 years.
-**The Trap:** 20% is the simple average return (3x - 1 = 200% / 5 years / 2 = wrong logic); 25% is a rounded approximation commonly cited; 15% understates. Always use the geometric (compounded) IRR for PE exit math.
-**Cross-Exam Context:** XIX-A (Distributor) also tests IRR. XIX-C covers the same. XXI-B's twrR (time-weighted) is inappropriate for PE — MOIC and IRR are the PE standards because of the J-curve and irregular drawdowns.
-**Manager's Pro-Tip:** When pitching the fund strategy to LPs, show both gross IRR and MOIC. A 3.0x MOIC over 5 years = 24.6% IRR, but 3.0x over 7 years is only 16.7% — LPs care about the velocity of capital return (DPI pacing), not just multiple.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CII Valuation_11" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Avanti Buyout Fund (Cat II) acquired investee Takshila Logistics for equity cheque of INR 100 crore in Year 0. At exit in Year 5, equity proceeds are INR 300 crore. What is the gross IRR (no intermediate dividends)?]]></text><answers><answer correct="no"><text><![CDATA[20.0%]]></text></answer><answer correct="no"><text><![CDATA[25.0%]]></text></answer><answer correct="yes"><text><![CDATA[24.6%]]></text></answer><answer correct="no"><text><![CDATA[15.0%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> IRR = (Exit / Entry)^(1/n) - 1 = (300/100)^(1/5) - 1 = 3^0.2 - 1 = 1.2457 - 1 = 24.57% ~ 24.6%. The MOIC is 3.0x over 5 years.
+<B>The Trap:</B> 20% is the simple average return (3x - 1 = 200% / 5 years / 2 = wrong logic); 25% is a rounded approximation commonly cited; 15% understates. Always use the geometric (compounded) IRR for PE exit math.
+<B>Cross-Exam Context:</B> XIX-A (Distributor) also tests IRR. XIX-C covers the same. XXI-B's twrR (time-weighted) is inappropriate for PE — MOIC and IRR are the PE standards because of the J-curve and irregular drawdowns.
+<B>Manager's Pro-Tip:</B> When pitching the fund strategy to LPs, show both gross IRR and MOIC. A 3.0x MOIC over 5 years = 24.6% IRR, but 3.0x over 7 years is only 16.7% — LPs care about the velocity of capital return (DPI pacing), not just multiple.]]></text></explanation></question></QF>

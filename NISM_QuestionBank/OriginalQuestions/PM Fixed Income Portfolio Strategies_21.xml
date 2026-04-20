@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PM Fixed Income Portfolio Strategies_21" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[A PM wants to HEDGE against a credit downgrade on a Rs. 50 crore corporate bond exposure. The most direct instrument is:]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[Interest Rate Swap]]></text></answer>
-            <answer correct="no"><text><![CDATA[Currency Swap]]></text></answer>
-            <answer correct="yes"><text><![CDATA[Credit Default Swap (CDS)]]></text></answer>
-            <answer correct="no"><text><![CDATA[Nifty Put Option]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** CDS pays out on a credit event (default/downgrade/bankruptcy) of the reference entity — a direct insurance against credit deterioration.
-**The Trap:** IRS hedges interest-rate risk, currency swap hedges FX, Nifty put hedges equity — none target credit risk directly.
-**Cross-Exam Context:** IV and XIII cover CDS basics; XXI-B tests application at PM level.
-**Manager's Pro-Tip:** Indian CDS market is shallow; most Indian PMs manage credit risk via position-sizing and diversification rather than derivatives.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PM Fixed Income Portfolio Strategies_21" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A PM wants to HEDGE against a credit downgrade on a Rs. 50 crore corporate bond exposure. The most direct instrument is:]]></text><answers><answer correct="no"><text><![CDATA[Interest Rate Swap]]></text></answer><answer correct="no"><text><![CDATA[Currency Swap]]></text></answer><answer correct="yes"><text><![CDATA[Credit Default Swap (CDS)]]></text></answer><answer correct="no"><text><![CDATA[Nifty Put Option]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> CDS pays out on a credit event (default/downgrade/bankruptcy) of the reference entity — a direct insurance against credit deterioration.
+<B>The Trap:</B> IRS hedges interest-rate risk, currency swap hedges FX, Nifty put hedges equity — none target credit risk directly.
+<B>Cross-Exam Context:</B> IV and XIII cover CDS basics; XXI-B tests application at PM level.
+<B>Manager's Pro-Tip:</B> Indian CDS market is shallow; most Indian PMs manage credit risk via position-sizing and diversification rather than derivatives.]]></text></explanation></question></QF>

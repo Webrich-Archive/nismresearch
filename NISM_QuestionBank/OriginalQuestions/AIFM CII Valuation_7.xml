@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CII Valuation_7" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Rohini VC Fund values unlisted investee Panchali Foods using EV/EBITDA. Listed comparables trade at median EV/EBITDA of 20x. Panchali's FY24 EBITDA = INR 25 crore. Applying a 25% discount for lack of marketability (DLOM) per IPEV Guidelines, what is the estimated Enterprise Value?]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[INR 500 crore]]></text></answer>
-            <answer correct="yes"><text><![CDATA[INR 375 crore]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 400 crore]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 475 crore]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Listed multiple = 20x. Unlisted multiple after 25% DLOM = 20 x (1 - 0.25) = 15x. EV = 15 x 25 = INR 375 crore. Per IPEV 2022 Multiples Approach, the listed-market ratio must be discounted for illiquidity when applied to unlisted investees; the discount may reduce as exit approaches.
-**The Trap:** INR 500 crore applies multiple with NO DLOM (this is the common beginner error); INR 400 crore uses 20% DLOM; INR 475 crore uses 5% DLOM. For a typical early/mid-stage Cat II unlisted, 20-30% DLOM is standard under IPEV.
-**Cross-Exam Context:** XIX-C tests DLOM. XXI-B (Portfolio Manager) deals primarily with listed so DLOM is minimal. CFA L2 and ASA (Accredited Senior Appraiser) test DLOM via quantitative option-pricing methods like Longstaff or Finnerty.
-**Manager's Pro-Tip:** IPEV 2022 allows DLOM reduction when 'exit is imminent' — if you're within 6-12 months of a strategic sale or IPO, drop DLOM toward 5-10%. Your independent valuer needs a memo justifying the reduced haircut.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CII Valuation_7" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Rohini VC Fund values unlisted investee Panchali Foods using EV/EBITDA. Listed comparables trade at median EV/EBITDA of 20x. Panchali's FY24 EBITDA = INR 25 crore. Applying a 25% discount for lack of marketability (DLOM) per IPEV Guidelines, what is the estimated Enterprise Value?]]></text><answers><answer correct="no"><text><![CDATA[INR 500 crore]]></text></answer><answer correct="yes"><text><![CDATA[INR 375 crore]]></text></answer><answer correct="no"><text><![CDATA[INR 400 crore]]></text></answer><answer correct="no"><text><![CDATA[INR 475 crore]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Listed multiple = 20x. Unlisted multiple after 25% DLOM = 20 x (1 - 0.25) = 15x. EV = 15 x 25 = INR 375 crore. Per IPEV 2022 Multiples Approach, the listed-market ratio must be discounted for illiquidity when applied to unlisted investees; the discount may reduce as exit approaches.
+<B>The Trap:</B> INR 500 crore applies multiple with NO DLOM (this is the common beginner error); INR 400 crore uses 20% DLOM; INR 475 crore uses 5% DLOM. For a typical early/mid-stage Cat II unlisted, 20-30% DLOM is standard under IPEV.
+<B>Cross-Exam Context:</B> XIX-C tests DLOM. XXI-B (Portfolio Manager) deals primarily with listed so DLOM is minimal. CFA L2 and ASA (Accredited Senior Appraiser) test DLOM via quantitative option-pricing methods like Longstaff or Finnerty.
+<B>Manager's Pro-Tip:</B> IPEV 2022 allows DLOM reduction when 'exit is imminent' — if you're within 6-12 months of a strategic sale or IPO, drop DLOM toward 5-10%. Your independent valuer needs a memo justifying the reduced haircut.]]></text></explanation></question></QF>

@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CIII Fee Structure and Fund Performance_8" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Chambal Managed Futures Fund (Cat III) has AUM of INR 500 cr and a daily volatility of 1.2%. Using parametric VaR with the standard 1.645 z-score, what is the 95% 1-day VaR?]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[INR 6 crore]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 60 crore]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 13.96 crore]]></text></answer>
-            <answer correct="yes"><text><![CDATA[INR 9.87 crore]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Parametric VaR(95%, 1-day) = z × σ × AUM = 1.645 × 1.2% × 500 cr = INR 9.87 crore. i.e., there is a 95% probability the fund will NOT lose more than ~INR 9.87 cr in one day.
-**The Trap:** INR 13.96 cr uses 2.33 z-score (that's 99%). INR 6 cr uses 1σ (≈84% conf). INR 60 cr uses a 10σ assumption. Using the wrong confidence-level z is the #1 VaR exam trap.
-**Cross-Exam Context:** VIII (Equity Derivatives) tests portfolio VaR too. XIX-E frames VaR in Cat III fund-risk policy with 99% regulatory reporting.
-**Manager's Pro-Tip:** Parametric VaR assumes normality and underestimates fat tails. Augment with historical VaR and Expected Shortfall (CVaR) — regulators increasingly want CVaR on Cat III quarterly risk reports.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Fee Structure and Fund Performance_8" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Chambal Managed Futures Fund (Cat III) has AUM of INR 500 cr and a daily volatility of 1.2%. Using parametric VaR with the standard 1.645 z-score, what is the 95% 1-day VaR?]]></text><answers><answer correct="no"><text><![CDATA[INR 6 crore]]></text></answer><answer correct="no"><text><![CDATA[INR 60 crore]]></text></answer><answer correct="no"><text><![CDATA[INR 13.96 crore]]></text></answer><answer correct="yes"><text><![CDATA[INR 9.87 crore]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Parametric VaR(95%, 1-day) = z × σ × AUM = 1.645 × 1.2% × 500 cr = INR 9.87 crore. i.e., there is a 95% probability the fund will NOT lose more than ~INR 9.87 cr in one day.
+<B>The Trap:</B> INR 13.96 cr uses 2.33 z-score (that's 99%). INR 6 cr uses 1σ (≈84% conf). INR 60 cr uses a 10σ assumption. Using the wrong confidence-level z is the #1 VaR exam trap.
+<B>Cross-Exam Context:</B> VIII (Equity Derivatives) tests portfolio VaR too. XIX-E frames VaR in Cat III fund-risk policy with 99% regulatory reporting.
+<B>Manager's Pro-Tip:</B> Parametric VaR assumes normality and underestimates fat tails. Augment with historical VaR and Expected Shortfall (CVaR) — regulators increasingly want CVaR on Cat III quarterly risk reports.]]></text></explanation></question></QF>

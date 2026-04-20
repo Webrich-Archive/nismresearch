@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM Valuation_27" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[A Cat III AIF holds corporate bonds of a mid-cap issuer. There are trades on the bond on a recognised exchange during the quarter. Which valuation basis is MOST appropriate under SEBI AIF Regulations?]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[Amortised cost, since bonds are held-to-maturity by default]]></text></answer>
-            <answer correct="yes"><text><![CDATA[Mark-to-market using the closing price on the relevant exchange on the Valuation Day]]></text></answer>
-            <answer correct="no"><text><![CDATA[Historical purchase cost plus accrued interest always]]></text></answer>
-            <answer correct="no"><text><![CDATA[Face value plus coupon accrued since issue]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Per Section 14.10.1 and Section 14.11.3: 'Securities traded on a stock exchange or other regulated markets are to be valued at the closing price quoted on the relevant exchange... on the relevant Valuation Day.' Amortised cost applies only where there is NO ascertainable market. Here, trades exist on the exchange.
-**The Trap:** Option A is a banking/insurance convention not applicable when market price exists. Options C and D are nonsensical for bond valuation.
-**Cross-Exam Context:** X-B (IA L2) covers bond valuation conceptually. XIX-C specifically applies the Cat III hierarchy: screen price > FBIL/CCIL/FIMMDA > amortised cost.
-**Manager's Pro-Tip:** Check bond trade frequency quarterly. A 'traded' bond with only one lot-trade per month isn't truly liquid — many managers flip to FIMMDA yield-based pricing once intra-month volumes fall below a threshold. Document the threshold in policy.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM Valuation_27" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A Cat III AIF holds corporate bonds of a mid-cap issuer. There are trades on the bond on a recognised exchange during the quarter. Which valuation basis is MOST appropriate under SEBI AIF Regulations?]]></text><answers><answer correct="no"><text><![CDATA[Amortised cost, since bonds are held-to-maturity by default]]></text></answer><answer correct="yes"><text><![CDATA[Mark-to-market using the closing price on the relevant exchange on the Valuation Day]]></text></answer><answer correct="no"><text><![CDATA[Historical purchase cost plus accrued interest always]]></text></answer><answer correct="no"><text><![CDATA[Face value plus coupon accrued since issue]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Per Section 14.10.1 and Section 14.11.3: 'Securities traded on a stock exchange or other regulated markets are to be valued at the closing price quoted on the relevant exchange... on the relevant Valuation Day.' Amortised cost applies only where there is NO ascertainable market. Here, trades exist on the exchange.
+<B>The Trap:</B> Option A is a banking/insurance convention not applicable when market price exists. Options C and D are nonsensical for bond valuation.
+<B>Cross-Exam Context:</B> X-B (IA L2) covers bond valuation conceptually. XIX-C specifically applies the Cat III hierarchy: screen price > FBIL/CCIL/FIMMDA > amortised cost.
+<B>Manager's Pro-Tip:</B> Check bond trade frequency quarterly. A 'traded' bond with only one lot-trade per month isn't truly liquid — many managers flip to FIMMDA yield-based pricing once intra-month volumes fall below a threshold. Document the threshold in policy.]]></text></explanation></question></QF>

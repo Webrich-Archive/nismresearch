@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PM Performance Measurement_7" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[A portfolio's pre-tax return is 12%. The client is in the 20% capital gains bracket. What is the post-tax return?]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[9.6%]]></text></answer>
-            <answer correct="no"><text><![CDATA[12%]]></text></answer>
-            <answer correct="no"><text><![CDATA[10.4%]]></text></answer>
-            <answer correct="no"><text><![CDATA[8%]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Post-tax return = Pre-tax × (1 - tax rate) = 12% × (1 - 0.20) = 12% × 0.80 = 9.6%.
-**The Trap:** 10.4% is computation error; 8% subtracts 4%; 12% ignores tax.
-**Cross-Exam Context:** Basic tax math in X-A, XV, XVII, XXI-A.
-**Manager's Pro-Tip:** Post-tax return is what matters to clients — factor in STT, stamp, broker fees in fuller models.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PM Performance Measurement_7" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A portfolio's pre-tax return is 12%. The client is in the 20% capital gains bracket. What is the post-tax return?]]></text><answers><answer correct="yes"><text><![CDATA[9.6%]]></text></answer><answer correct="no"><text><![CDATA[12%]]></text></answer><answer correct="no"><text><![CDATA[10.4%]]></text></answer><answer correct="no"><text><![CDATA[8%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Post-tax return = Pre-tax × (1 - tax rate) = 12% × (1 - 0.20) = 12% × 0.80 = 9.6%.
+<B>The Trap:</B> 10.4% is computation error; 8% subtracts 4%; 12% ignores tax.
+<B>Cross-Exam Context:</B> Basic tax math in X-A, XV, XVII, XXI-A.
+<B>Manager's Pro-Tip:</B> Post-tax return is what matters to clients — factor in STT, stamp, broker fees in fuller models.]]></text></explanation></question></QF>

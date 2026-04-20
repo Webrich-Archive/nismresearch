@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PM Performance Measurement_9" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[CAGR (Compound Annual Growth Rate) calculation formula:]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[(A - P)/P × 100]]></text></answer>
-            <answer correct="yes"><text><![CDATA[((A/P)^(1/t)) - 1]]></text></answer>
-            <answer correct="no"><text><![CDATA[Sum of annual returns / t]]></text></answer>
-            <answer correct="no"><text><![CDATA[A × (1+r)^t]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** CAGR = (A/P)^(1/t) - 1, where A = terminal value, P = initial, t = years. Same as geometric mean return.
-**The Trap:** (A - P)/P gives total return; sum/t is arithmetic mean.
-**Cross-Exam Context:** Standard formula across all NISM exams.
-**Manager's Pro-Tip:** CAGR smooths volatility — useful for client communication but hides drawdowns. Pair with max drawdown for honest reporting.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PM Performance Measurement_9" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[CAGR (Compound Annual Growth Rate) calculation formula:]]></text><answers><answer correct="no"><text><![CDATA[(A - P)/P × 100]]></text></answer><answer correct="yes"><text><![CDATA[((A/P)^(1/t)) - 1]]></text></answer><answer correct="no"><text><![CDATA[Sum of annual returns / t]]></text></answer><answer correct="no"><text><![CDATA[A × (1+r)^t]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> CAGR = (A/P)^(1/t) - 1, where A = terminal value, P = initial, t = years. Same as geometric mean return.
+<B>The Trap:</B> (A - P)/P gives total return; sum/t is arithmetic mean.
+<B>Cross-Exam Context:</B> Standard formula across all NISM exams.
+<B>Manager's Pro-Tip:</B> CAGR smooths volatility — useful for client communication but hides drawdowns. Pair with max drawdown for honest reporting.]]></text></explanation></question></QF>

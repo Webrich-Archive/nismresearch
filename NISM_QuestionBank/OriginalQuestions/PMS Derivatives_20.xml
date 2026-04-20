@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PMS Derivatives_20" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Theta represents:]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[Time decay — erosion of option value with time]]></text></answer>
-            <answer correct="no"><text><![CDATA[Volatility]]></text></answer>
-            <answer correct="no"><text><![CDATA[Interest rate]]></text></answer>
-            <answer correct="no"><text><![CDATA[Delta]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Theta = dPrice/dTime; usually negative for long option holders.
-**The Trap:** Other greeks handle different sensitivities.
-**Cross-Exam Context:** Same in VIII.
-**Distributor's Pro-Tip:** Avoid holding long options close to expiry if you expect sideways markets.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PMS Derivatives_20" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Theta represents:]]></text><answers><answer correct="yes"><text><![CDATA[Time decay — erosion of option value with time]]></text></answer><answer correct="no"><text><![CDATA[Volatility]]></text></answer><answer correct="no"><text><![CDATA[Interest rate]]></text></answer><answer correct="no"><text><![CDATA[Delta]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Theta = dPrice/dTime; usually negative for long option holders.
+<B>The Trap:</B> Other greeks handle different sensitivities.
+<B>Cross-Exam Context:</B> Same in VIII.
+<B>Distributor's Pro-Tip:</B> Avoid holding long options close to expiry if you expect sideways markets.]]></text></explanation></question></QF>

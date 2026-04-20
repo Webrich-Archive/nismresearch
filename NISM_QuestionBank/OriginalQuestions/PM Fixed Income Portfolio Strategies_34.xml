@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PM Fixed Income Portfolio Strategies_34" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[A PM uses a PROTECTIVE PUT on a bond futures position to hedge large adverse rate moves. The MAXIMUM loss is limited to:]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[Zero]]></text></answer>
-            <answer correct="yes"><text><![CDATA[The premium paid for the put]]></text></answer>
-            <answer correct="no"><text><![CDATA[Half the portfolio value]]></text></answer>
-            <answer correct="no"><text><![CDATA[Unlimited]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Protective put mechanics: below strike, put gains offset futures loss 1:1. Max loss = premium paid. Classic insurance.
-**The Trap:** 'Unlimited' confuses with naked short; zero ignores the premium cost.
-**Cross-Exam Context:** VIII and XIII treat put-option payoffs; XXI-B contextualises.
-**Manager's Pro-Tip:** Rolling monthly protective puts is expensive — use it around specific event risks (RBI policy, CPI prints) rather than standing hedges.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PM Fixed Income Portfolio Strategies_34" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A PM uses a PROTECTIVE PUT on a bond futures position to hedge large adverse rate moves. The MAXIMUM loss is limited to:]]></text><answers><answer correct="no"><text><![CDATA[Zero]]></text></answer><answer correct="yes"><text><![CDATA[The premium paid for the put]]></text></answer><answer correct="no"><text><![CDATA[Half the portfolio value]]></text></answer><answer correct="no"><text><![CDATA[Unlimited]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Protective put mechanics: below strike, put gains offset futures loss 1:1. Max loss = premium paid. Classic insurance.
+<B>The Trap:</B> 'Unlimited' confuses with naked short; zero ignores the premium cost.
+<B>Cross-Exam Context:</B> VIII and XIII treat put-option payoffs; XXI-B contextualises.
+<B>Manager's Pro-Tip:</B> Rolling monthly protective puts is expensive — use it around specific event risks (RBI policy, CPI prints) rather than standing hedges.]]></text></explanation></question></QF>

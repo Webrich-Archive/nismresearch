@@ -1,14 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="VIII Introduction to Options_116" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[An investor buys 1,000 shares of Reliance at Rs. 2,400 and simultaneously buys put options with strike Rs. 2,350 at premium Rs. 60. What is the maximum loss on this hedged position per share?]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[Rs. 110]]></text></answer>
-            <answer correct="no"><text><![CDATA[Rs. 60]]></text></answer>
-            <answer correct="no"><text><![CDATA[Rs. 50]]></text></answer>
-            <answer correct="no"><text><![CDATA[Rs. 2,400]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Maximum loss on protective put = (Stock purchase price - Put strike) + Put premium
+<?xml version="1.0" encoding="UTF-8"?><QF id="VIII Introduction to Options_116" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[An investor buys 1,000 shares of Reliance at Rs. 2,400 and simultaneously buys put options with strike Rs. 2,350 at premium Rs. 60. What is the maximum loss on this hedged position per share?]]></text><answers><answer correct="yes"><text><![CDATA[Rs. 110]]></text></answer><answer correct="no"><text><![CDATA[Rs. 60]]></text></answer><answer correct="no"><text><![CDATA[Rs. 50]]></text></answer><answer correct="no"><text><![CDATA[Rs. 2,400]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Maximum loss on protective put = (Stock purchase price - Put strike) + Put premium
 
 Step-by-step:
 1. Stock bought at Rs. 2,400
@@ -19,10 +9,8 @@ Step-by-step:
 
 This occurs when stock falls below 2,350 (put provides floor at 2,350).
 
-**The Trap:** The put doesn't protect the full purchase price - there's a gap of Rs. 50 (stock at 2,400, put at 2,350).
+<B>The Trap:</B> The put doesn't protect the full purchase price - there's a gap of Rs. 50 (stock at 2,400, put at 2,350).
 
-**Cross-Exam Context:** Max loss = (Stock price - Strike) + Premium. Choosing ATM puts eliminates the gap.
+<B>Cross-Exam Context:</B> Max loss = (Stock price - Strike) + Premium. Choosing ATM puts eliminates the gap.
 
-**Distributor's Pro-Tip:** Protective put max loss = (Buy price - Strike) + Premium = 50 + 60 = Rs. 110.]]></text></explanation>
-    </question>
-</QF>
+<B>Distributor's Pro-Tip:</B> Protective put max loss = (Buy price - Strike) + Premium = 50 + 60 = Rs. 110.]]></text></explanation></question></QF>

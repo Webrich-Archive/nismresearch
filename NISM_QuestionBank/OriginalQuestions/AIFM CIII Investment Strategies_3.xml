@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CIII Investment Strategies_3" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Sahyadri Stat-Arb Fund (Cat III) holds INR 50 cr long in Stock X (Beta 1.5) and INR 75 cr short in Stock Y (Beta 1.0). Compute portfolio Beta on the long-short book (weights by absolute rupee value).]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[0.00]]></text></answer>
-            <answer correct="no"><text><![CDATA[+0.60]]></text></answer>
-            <answer correct="no"><text><![CDATA[+0.30]]></text></answer>
-            <answer correct="no"><text><![CDATA[-0.10]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Using the PDF Example 10.3 method, weights are signed investment / total sector investment. w_long = +50/125 = 0.40, w_short = -75/125 = -0.60. Portfolio Beta = 0.40*1.5 + (-0.60)*1.0 = 0.60 - 0.60 = 0.00. The book is exactly Beta-neutral.
-**The Trap:** Trap options misuse unsigned weights (would give 1.3), forget the sign on the short leg, or use a wrong denominator. A beta-neutral book can still be dollar-asymmetric.
-**Cross-Exam Context:** XIX-C tests same Beta calc. XXI-B tests Beta in a long-only PMS context.
-**Manager's Pro-Tip:** Beta-neutral does NOT mean dollar-neutral; INR 50 cr long vs 75 cr short can still be Beta-neutral if stock Betas differ. For daily NAV, re-run the Beta grid at EOD close — use yesterday's 90-day rolling Beta, not intraday tick.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Investment Strategies_3" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Sahyadri Stat-Arb Fund (Cat III) holds INR 50 cr long in Stock X (Beta 1.5) and INR 75 cr short in Stock Y (Beta 1.0). Compute portfolio Beta on the long-short book (weights by absolute rupee value).]]></text><answers><answer correct="yes"><text><![CDATA[0.00]]></text></answer><answer correct="no"><text><![CDATA[+0.60]]></text></answer><answer correct="no"><text><![CDATA[+0.30]]></text></answer><answer correct="no"><text><![CDATA[-0.10]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Using the PDF Example 10.3 method, weights are signed investment / total sector investment. w_long = +50/125 = 0.40, w_short = -75/125 = -0.60. Portfolio Beta = 0.40*1.5 + (-0.60)*1.0 = 0.60 - 0.60 = 0.00. The book is exactly Beta-neutral.
+<B>The Trap:</B> Trap options misuse unsigned weights (would give 1.3), forget the sign on the short leg, or use a wrong denominator. A beta-neutral book can still be dollar-asymmetric.
+<B>Cross-Exam Context:</B> XIX-C tests same Beta calc. XXI-B tests Beta in a long-only PMS context.
+<B>Manager's Pro-Tip:</B> Beta-neutral does NOT mean dollar-neutral; INR 50 cr long vs 75 cr short can still be Beta-neutral if stock Betas differ. For daily NAV, re-run the Beta grid at EOD close — use yesterday's 90-day rolling Beta, not intraday tick.]]></text></explanation></question></QF>

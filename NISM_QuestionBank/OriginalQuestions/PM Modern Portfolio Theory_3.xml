@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PM Modern Portfolio Theory_3" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[If two securities have correlation ρ = -1, a specific combination of them can produce a portfolio with:]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[Zero risk (perfect diversification)]]></text></answer>
-            <answer correct="no"><text><![CDATA[Maximum risk]]></text></answer>
-            <answer correct="no"><text><![CDATA[Same risk as individual securities]]></text></answer>
-            <answer correct="no"><text><![CDATA[Infinite risk]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Perfect negative correlation (ρ = -1) allows complete risk cancellation at the right weights. Rare in practice except for hedges/insurance.
-**The Trap:** Most real-world correlations are > 0, so perfect diversification is theoretical.
-**Cross-Exam Context:** MPT classic.
-**Manager's Pro-Tip:** Even correlation of 0.3 delivers meaningful diversification — don't wait for ρ = -1 to consider diversifying.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PM Modern Portfolio Theory_3" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[If two securities have correlation ρ = -1, a specific combination of them can produce a portfolio with:]]></text><answers><answer correct="yes"><text><![CDATA[Zero risk (perfect diversification)]]></text></answer><answer correct="no"><text><![CDATA[Maximum risk]]></text></answer><answer correct="no"><text><![CDATA[Same risk as individual securities]]></text></answer><answer correct="no"><text><![CDATA[Infinite risk]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Perfect negative correlation (ρ = -1) allows complete risk cancellation at the right weights. Rare in practice except for hedges/insurance.
+<B>The Trap:</B> Most real-world correlations are > 0, so perfect diversification is theoretical.
+<B>Cross-Exam Context:</B> MPT classic.
+<B>Manager's Pro-Tip:</B> Even correlation of 0.3 delivers meaningful diversification — don't wait for ρ = -1 to consider diversifying.]]></text></explanation></question></QF>

@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CIII Fund Monitoring Reporting and Exit_5" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[An investor in Kaveri Macro Fund has NAV INR 120 per unit with HWM at INR 115. She redeems 40% of her units. After redemption, what is the HWM applied to her remaining 60% units for next-period performance-fee crystallisation?]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[Reset to INR 120 (latest NAV)]]></text></answer>
-            <answer correct="no"><text><![CDATA[Reset to INR 100 (initial investment NAV)]]></text></answer>
-            <answer correct="yes"><text><![CDATA[Remains at INR 115 (partial redemption does not reset HWM on retained units)]]></text></answer>
-            <answer correct="no"><text><![CDATA[Weighted average of INR 115 and INR 120 based on redemption ratio]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** A partial redemption crystallises performance fee on the REDEEMED units (fee charged on 120 - 115 = 5 per redeemed unit) but does NOT reset the HWM on the units the investor continues to hold. The retained 60% units carry forward HWM = 115. Next crystallisation uses that HWM vs fresh NAV.
-**The Trap:** Option A is the trap — students assume any fee-crystallisation event resets HWM (it does for the redeemed slice only). Option B confuses HWM with cost basis. Option D invents a weighted-average method that no PPM uses.
-**Cross-Exam Context:** XIX-B (Cat III Distributor) tests HWM mechanics at the client level. XXI-B (Portfolio Managers) tests HWM for PMS. The no-reset-on-partial-redemption rule is consistent across Cat III PPMs and PMS fee agreements.
-**Manager's Pro-Tip:** Use a series-of-units (equalisation) approach rather than an investor-level HWM ledger — each subscription is its own series. On partial redemption, burn units in LIFO or FIFO per PPM; the remaining series retains its original HWM until it breaches again.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Fund Monitoring Reporting and Exit_5" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[An investor in Kaveri Macro Fund has NAV INR 120 per unit with HWM at INR 115. She redeems 40% of her units. After redemption, what is the HWM applied to her remaining 60% units for next-period performance-fee crystallisation?]]></text><answers><answer correct="no"><text><![CDATA[Reset to INR 120 (latest NAV)]]></text></answer><answer correct="no"><text><![CDATA[Reset to INR 100 (initial investment NAV)]]></text></answer><answer correct="yes"><text><![CDATA[Remains at INR 115 (partial redemption does not reset HWM on retained units)]]></text></answer><answer correct="no"><text><![CDATA[Weighted average of INR 115 and INR 120 based on redemption ratio]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> A partial redemption crystallises performance fee on the REDEEMED units (fee charged on 120 - 115 = 5 per redeemed unit) but does NOT reset the HWM on the units the investor continues to hold. The retained 60% units carry forward HWM = 115. Next crystallisation uses that HWM vs fresh NAV.
+<B>The Trap:</B> Option A is the trap — students assume any fee-crystallisation event resets HWM (it does for the redeemed slice only). Option B confuses HWM with cost basis. Option D invents a weighted-average method that no PPM uses.
+<B>Cross-Exam Context:</B> XIX-B (Cat III Distributor) tests HWM mechanics at the client level. XXI-B (Portfolio Managers) tests HWM for PMS. The no-reset-on-partial-redemption rule is consistent across Cat III PPMs and PMS fee agreements.
+<B>Manager's Pro-Tip:</B> Use a series-of-units (equalisation) approach rather than an investor-level HWM ledger — each subscription is its own series. On partial redemption, burn units in LIFO or FIFO per PPM; the remaining series retains its original HWM until it breaches again.]]></text></explanation></question></QF>

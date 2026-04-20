@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CII Fee Structure_32" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Yashasvi Fund (Cat II): INR 100 crore NAV at start of FY. Management Fee 2% on NAV = INR 2 crore (pre-GST). Trusteeship INR 4 lakh, Fund Administrator INR 20 lakh, Custodian INR 25 lakh, Auditor INR 10 lakh, Legal INR 12 lakh. All attract GST @ 18%. What is the TOTAL GST outflow for the fund that year?]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[INR 36.00 lakh]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 18.00 lakh]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 72.90 lakh]]></text></answer>
-            <answer correct="yes"><text><![CDATA[INR 48.78 lakh]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Total services = INR 200 lakh (mgmt) + 4 + 20 + 25 + 10 + 12 = INR 271 lakh. GST @ 18% = INR 271 x 0.18 = INR 48.78 lakh. (The chapter's Example 6.6 uses the same template for a much larger fund.)
-**The Trap:** A is 18% on management fee only; C overshoots; D applies 9%.
-**Cross-Exam Context:** Chapter 6 Example 6.6 identical template. XIX-C and XIX-A test similar GST roll-ups.
-**Manager's Pro-Tip:** Tabulate all 18%-GST-bearing services in a single LP quarterly disclosure line. This becomes ~40-80 bps of fund NAV, non-recoverable as ITC, hitting net LP returns.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CII Fee Structure_32" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Yashasvi Fund (Cat II): INR 100 crore NAV at start of FY. Management Fee 2% on NAV = INR 2 crore (pre-GST). Trusteeship INR 4 lakh, Fund Administrator INR 20 lakh, Custodian INR 25 lakh, Auditor INR 10 lakh, Legal INR 12 lakh. All attract GST @ 18%. What is the TOTAL GST outflow for the fund that year?]]></text><answers><answer correct="no"><text><![CDATA[INR 36.00 lakh]]></text></answer><answer correct="no"><text><![CDATA[INR 18.00 lakh]]></text></answer><answer correct="no"><text><![CDATA[INR 72.90 lakh]]></text></answer><answer correct="yes"><text><![CDATA[INR 48.78 lakh]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Total services = INR 200 lakh (mgmt) + 4 + 20 + 25 + 10 + 12 = INR 271 lakh. GST @ 18% = INR 271 x 0.18 = INR 48.78 lakh. (The chapter's Example 6.6 uses the same template for a much larger fund.)
+<B>The Trap:</B> A is 18% on management fee only; C overshoots; D applies 9%.
+<B>Cross-Exam Context:</B> Chapter 6 Example 6.6 identical template. XIX-C and XIX-A test similar GST roll-ups.
+<B>Manager's Pro-Tip:</B> Tabulate all 18%-GST-bearing services in a single LP quarterly disclosure line. This becomes ~40-80 bps of fund NAV, non-recoverable as ITC, hitting net LP returns.]]></text></explanation></question></QF>

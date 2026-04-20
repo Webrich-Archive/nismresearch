@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PM Fixed Income Investing_2" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[A 5-year bond with Rs. 10 lakh face value, 8% annual coupon, YTM 10%. Price approximately:]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[Rs. 9,24,183]]></text></answer>
-            <answer correct="no"><text><![CDATA[Rs. 10,00,000]]></text></answer>
-            <answer correct="no"><text><![CDATA[Rs. 10,82,004]]></text></answer>
-            <answer correct="no"><text><![CDATA[Rs. 8,00,000]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** PV of coupons + PV of face value. At 10% discount vs 8% coupon → below par. Exact: Rs. 9,24,183 (check with PVIFA).
-**The Trap:** Par = Rs. 10 lakh; premium/discount depends on YTM vs coupon.
-**Cross-Exam Context:** IV bond pricing.
-**Manager's Pro-Tip:** When YTM > coupon → discount; YTM < coupon → premium. Memorise.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PM Fixed Income Investing_2" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A 5-year bond with Rs. 10 lakh face value, 8% annual coupon, YTM 10%. Price approximately:]]></text><answers><answer correct="yes"><text><![CDATA[Rs. 9,24,183]]></text></answer><answer correct="no"><text><![CDATA[Rs. 10,00,000]]></text></answer><answer correct="no"><text><![CDATA[Rs. 10,82,004]]></text></answer><answer correct="no"><text><![CDATA[Rs. 8,00,000]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> PV of coupons + PV of face value. At 10% discount vs 8% coupon → below par. Exact: Rs. 9,24,183 (check with PVIFA).
+<B>The Trap:</B> Par = Rs. 10 lakh; premium/discount depends on YTM vs coupon.
+<B>Cross-Exam Context:</B> IV bond pricing.
+<B>Manager's Pro-Tip:</B> When YTM > coupon → discount; YTM < coupon → premium. Memorise.]]></text></explanation></question></QF>

@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CIII Fee Structure and Fund Performance_26" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Cat III directional fund: Rp = 22%, Rb = 14%, Rf = 6%, portfolio beta = 1.5. Compute Jensen's Alpha.]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[4.00%]]></text></answer>
-            <answer correct="no"><text><![CDATA[8.00%]]></text></answer>
-            <answer correct="no"><text><![CDATA[6.00%]]></text></answer>
-            <answer correct="no"><text><![CDATA[10.00%]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Jensen α = Rp − [Rf + β(Rb − Rf)] = 22 − [6 + 1.5 × (14 − 6)] = 22 − [6 + 12] = 22 − 18 = 4.00%. Positive alpha means outperformance over CAPM-predicted return given the beta taken.
-**The Trap:** 8% skips the beta-times-premium step. 6% is market premium. 10% uses wrong beta product.
-**Cross-Exam Context:** XV Research Analyst, XXI-B PM test Jensen α. XIX-E uses it for Cat III long-short evaluations.
-**Manager's Pro-Tip:** For market-neutral funds with β ~ 0, Jensen α ≈ (Rp − Rf) — almost the entire return is alpha. This is the pitch value; reporting α separate from total return explains why the 20% carry is justified.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Fee Structure and Fund Performance_26" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Cat III directional fund: Rp = 22%, Rb = 14%, Rf = 6%, portfolio beta = 1.5. Compute Jensen's Alpha.]]></text><answers><answer correct="yes"><text><![CDATA[4.00%]]></text></answer><answer correct="no"><text><![CDATA[8.00%]]></text></answer><answer correct="no"><text><![CDATA[6.00%]]></text></answer><answer correct="no"><text><![CDATA[10.00%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Jensen α = Rp − [Rf + β(Rb − Rf)] = 22 − [6 + 1.5 × (14 − 6)] = 22 − [6 + 12] = 22 − 18 = 4.00%. Positive alpha means outperformance over CAPM-predicted return given the beta taken.
+<B>The Trap:</B> 8% skips the beta-times-premium step. 6% is market premium. 10% uses wrong beta product.
+<B>Cross-Exam Context:</B> XV Research Analyst, XXI-B PM test Jensen α. XIX-E uses it for Cat III long-short evaluations.
+<B>Manager's Pro-Tip:</B> For market-neutral funds with β ~ 0, Jensen α ≈ (Rp − Rf) — almost the entire return is alpha. This is the pitch value; reporting α separate from total return explains why the 20% carry is justified.]]></text></explanation></question></QF>

@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PM Equity Portfolio Strategies_22" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[A portfolio manager holding a diversified equity portfolio worth Rs. 50 crore believes the market will fall 10% in the next month. To hedge, she sells NIFTY futures covering the portfolio's market exposure. If the market falls 10% as forecast, what is the net outcome (ignoring basis risk and fees)?]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[Rs. 5 crore gain on futures and Rs. 5 crore loss on portfolio = near zero net change]]></text></answer>
-            <answer correct="no"><text><![CDATA[Rs. 5 crore loss on both — net Rs. 10 crore loss]]></text></answer>
-            <answer correct="no"><text><![CDATA[Rs. 5 crore gain on portfolio, nothing from futures]]></text></answer>
-            <answer correct="no"><text><![CDATA[Rs. 10 crore gain on futures, Rs. 5 crore loss on portfolio]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Short futures hedge: portfolio loses ~10% of Rs. 50 cr = Rs. 5 cr. Short futures gains ~10% of notional = Rs. 5 cr. Net ≈ zero — classic hedge.
-**The Trap:** The other options miss the hedging mechanic: short futures gain when market drops. A perfect hedge offsets both directions.
-**Cross-Exam Context:** VIII Ch 5 (Hedging with Futures) has deeper math; XXI-B tests portfolio-level application.
-**Manager's Pro-Tip:** SEBI PMS regs restrict derivative use to hedging (and only for certain categories) — document the hedge rationale in the client's MITC/DD.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PM Equity Portfolio Strategies_22" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A portfolio manager holding a diversified equity portfolio worth Rs. 50 crore believes the market will fall 10% in the next month. To hedge, she sells NIFTY futures covering the portfolio's market exposure. If the market falls 10% as forecast, what is the net outcome (ignoring basis risk and fees)?]]></text><answers><answer correct="yes"><text><![CDATA[Rs. 5 crore gain on futures and Rs. 5 crore loss on portfolio = near zero net change]]></text></answer><answer correct="no"><text><![CDATA[Rs. 5 crore loss on both — net Rs. 10 crore loss]]></text></answer><answer correct="no"><text><![CDATA[Rs. 5 crore gain on portfolio, nothing from futures]]></text></answer><answer correct="no"><text><![CDATA[Rs. 10 crore gain on futures, Rs. 5 crore loss on portfolio]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Short futures hedge: portfolio loses ~10% of Rs. 50 cr = Rs. 5 cr. Short futures gains ~10% of notional = Rs. 5 cr. Net ≈ zero — classic hedge.
+<B>The Trap:</B> The other options miss the hedging mechanic: short futures gain when market drops. A perfect hedge offsets both directions.
+<B>Cross-Exam Context:</B> VIII Ch 5 (Hedging with Futures) has deeper math; XXI-B tests portfolio-level application.
+<B>Manager's Pro-Tip:</B> SEBI PMS regs restrict derivative use to hedging (and only for certain categories) — document the hedge rationale in the client's MITC/DD.]]></text></explanation></question></QF>

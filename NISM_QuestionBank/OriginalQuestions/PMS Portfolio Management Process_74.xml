@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PMS Portfolio Management Process_74" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Threshold-based rebalancing triggers action when:]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[A fixed date passes]]></text></answer>
-            <answer correct="yes"><text><![CDATA[Portfolio drift exceeds pre-defined percentage bands]]></text></answer>
-            <answer correct="no"><text><![CDATA[Dividends are declared]]></text></answer>
-            <answer correct="no"><text><![CDATA[Regulatory filings happen]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Drift-band triggers, not dates, drive threshold rebalancing.
-**The Trap:** Other events are unrelated to threshold logic.
-**Cross-Exam Context:** Consistent across X-A, X-B.
-**Distributor's Pro-Tip:** A 5% band is a common starting point; calibrate to client volatility tolerance.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PMS Portfolio Management Process_74" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Threshold-based rebalancing triggers action when:]]></text><answers><answer correct="no"><text><![CDATA[A fixed date passes]]></text></answer><answer correct="yes"><text><![CDATA[Portfolio drift exceeds pre-defined percentage bands]]></text></answer><answer correct="no"><text><![CDATA[Dividends are declared]]></text></answer><answer correct="no"><text><![CDATA[Regulatory filings happen]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Drift-band triggers, not dates, drive threshold rebalancing.
+<B>The Trap:</B> Other events are unrelated to threshold logic.
+<B>Cross-Exam Context:</B> Consistent across X-A, X-B.
+<B>Distributor's Pro-Tip:</B> A 5% band is a common starting point; calibrate to client volatility tolerance.]]></text></explanation></question></QF>

@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CIII Fee Structure and Fund Performance_35" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Maximum Drawdown (MDD) as a risk measure:]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[Measures the total volatility of a fund's returns]]></text></answer>
-            <answer correct="yes"><text><![CDATA[Represents the peak-to-trough percentage decline in AUM over a period]]></text></answer>
-            <answer correct="no"><text><![CDATA[Is the same as Value at Risk]]></text></answer>
-            <answer correct="no"><text><![CDATA[Measures time to recovery from a loss]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** MDD = (Trough − Peak)/Peak over a specified reporting period. It is distinct from σ (total volatility), VaR (probabilistic loss at a confidence level), and time-to-recovery (a separate metric not captured by MDD).
-**The Trap:** A confuses with σ. C confuses with VaR. D confuses with recovery time (a separate metric).
-**Cross-Exam Context:** XXI-B PM covers MDD for listed-equity PMS; XIX-E tests MDD in Cat III leveraged-strategy context (managed futures, macro).
-**Manager's Pro-Tip:** Track both absolute MDD and RECOVERY TIME. A fund with -15% MDD that recovered in 2 months is preferable to one with -12% MDD stuck underwater for 18 months, even though a naive MDD comparison says otherwise.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Fee Structure and Fund Performance_35" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Maximum Drawdown (MDD) as a risk measure:]]></text><answers><answer correct="no"><text><![CDATA[Measures the total volatility of a fund's returns]]></text></answer><answer correct="yes"><text><![CDATA[Represents the peak-to-trough percentage decline in AUM over a period]]></text></answer><answer correct="no"><text><![CDATA[Is the same as Value at Risk]]></text></answer><answer correct="no"><text><![CDATA[Measures time to recovery from a loss]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> MDD = (Trough − Peak)/Peak over a specified reporting period. It is distinct from σ (total volatility), VaR (probabilistic loss at a confidence level), and time-to-recovery (a separate metric not captured by MDD).
+<B>The Trap:</B> A confuses with σ. C confuses with VaR. D confuses with recovery time (a separate metric).
+<B>Cross-Exam Context:</B> XXI-B PM covers MDD for listed-equity PMS; XIX-E tests MDD in Cat III leveraged-strategy context (managed futures, macro).
+<B>Manager's Pro-Tip:</B> Track both absolute MDD and RECOVERY TIME. A fund with -15% MDD that recovered in 2 months is preferable to one with -12% MDD stuck underwater for 18 months, even though a naive MDD comparison says otherwise.]]></text></explanation></question></QF>

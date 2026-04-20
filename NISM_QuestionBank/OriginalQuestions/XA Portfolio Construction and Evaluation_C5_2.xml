@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="XA Portfolio Construction and Evaluation_C5_2" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[<b>Scenario:</b> Anita Mehta, a 50-year-old businesswoman, has engaged a SEBI-registered investment adviser, Mr. Rajesh Iyer, to manage her portfolio. The portfolio is benchmarked against a strategic asset allocation of 60% equity and 40% debt. Mr. Rajesh follows a disciplined rebalancing approach and uses tracking error analysis to monitor portfolio deviation from the benchmark.
+<?xml version="1.0" encoding="UTF-8"?><QF id="XA Portfolio Construction and Evaluation_C5_2" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[<b>Scenario:</b> Anita Mehta, a 50-year-old businesswoman, has engaged a SEBI-registered investment adviser, Mr. Rajesh Iyer, to manage her portfolio. The portfolio is benchmarked against a strategic asset allocation of 60% equity and 40% debt. Mr. Rajesh follows a disciplined rebalancing approach and uses tracking error analysis to monitor portfolio deviation from the benchmark.
 
 The portfolio details are as follows:
 - Initial portfolio value: Rs. 50,00,000 (Rs. 30,00,000 in equity funds, Rs. 20,00,000 in debt funds) — matching the target allocation of 60:40
@@ -16,16 +13,7 @@ Quarterly portfolio returns versus the benchmark returns over the past 4 quarter
 
 Mr. Rajesh's rebalancing policy triggers a rebalance whenever any asset class deviates by more than 5 percentage points from its target allocation. He also needs to consider the costs of rebalancing, including transaction costs (brokerage, STT, GST) and tax implications (capital gains tax on selling appreciated assets).
 
-<b>Question 2 of 5:</b> To rebalance Anita's portfolio back to the target 60:40 allocation, how much should be shifted from equity to debt?]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[Rs. 3,00,000]]></text></answer>
-            <answer correct="no"><text><![CDATA[Rs. 2,00,000]]></text></answer>
-            <answer correct="yes"><text><![CDATA[Rs. 2,60,000]]></text></answer>
-            <answer correct="no"><text><![CDATA[Rs. 3,60,000]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Target equity allocation = 60% of Rs. 59,00,000 = Rs. 35,40,000. Current equity = Rs. 38,00,000. Amount to shift from equity to debt = Rs. 38,00,000 - Rs. 35,40,000 = Rs. 2,60,000. After rebalancing: Equity = Rs. 35,40,000 (60%), Debt = Rs. 21,00,000 + Rs. 2,60,000 = Rs. 23,60,000 (40%). This confirms the rebalancing amount is correct.
-**The Trap:** The distractor Rs. 3,00,000 could result from rounding the target equity to Rs. 35 lakh (using 60% of Rs. 58 lakh or a rough approximation). Rs. 3,60,000 might come from computing the difference between Rs. 38 lakh and some other incorrect target. Always compute the target based on the current total portfolio value, not the original value.
-**Cross-Exam Context:** Rebalancing calculations are tested in NISM X-A and XXI-A. The concept extends to tactical asset allocation where deliberate deviations from strategic allocation are made based on market outlook.
-**Distributor's Pro-Tip:** When executing rebalancing, consider using STP (Systematic Transfer Plan) from equity to debt fund within the same AMC to minimize transaction costs and spread the rebalancing over a few weeks, rather than doing a lump-sum switch.]]></text></explanation>
-    </question>
-</QF>
+<b>Question 2 of 5:</b> To rebalance Anita's portfolio back to the target 60:40 allocation, how much should be shifted from equity to debt?]]></text><answers><answer correct="no"><text><![CDATA[Rs. 3,00,000]]></text></answer><answer correct="no"><text><![CDATA[Rs. 2,00,000]]></text></answer><answer correct="yes"><text><![CDATA[Rs. 2,60,000]]></text></answer><answer correct="no"><text><![CDATA[Rs. 3,60,000]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Target equity allocation = 60% of Rs. 59,00,000 = Rs. 35,40,000. Current equity = Rs. 38,00,000. Amount to shift from equity to debt = Rs. 38,00,000 - Rs. 35,40,000 = Rs. 2,60,000. After rebalancing: Equity = Rs. 35,40,000 (60%), Debt = Rs. 21,00,000 + Rs. 2,60,000 = Rs. 23,60,000 (40%). This confirms the rebalancing amount is correct.
+<B>The Trap:</B> The distractor Rs. 3,00,000 could result from rounding the target equity to Rs. 35 lakh (using 60% of Rs. 58 lakh or a rough approximation). Rs. 3,60,000 might come from computing the difference between Rs. 38 lakh and some other incorrect target. Always compute the target based on the current total portfolio value, not the original value.
+<B>Cross-Exam Context:</B> Rebalancing calculations are tested in NISM X-A and XXI-A. The concept extends to tactical asset allocation where deliberate deviations from strategic allocation are made based on market outlook.
+<B>Distributor's Pro-Tip:</B> When executing rebalancing, consider using STP (Systematic Transfer Plan) from equity to debt fund within the same AMC to minimize transaction costs and spread the rebalancing over a few weeks, rather than doing a lump-sum switch.]]></text></explanation></question></QF>

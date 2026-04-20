@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM Fee Structure and Fund Performance_42" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[The Sharpe Ratio is mathematically:]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[(Rp – Rf) / Beta]]></text></answer>
-            <answer correct="no"><text><![CDATA[Rp × Beta / Rf]]></text></answer>
-            <answer correct="yes"><text><![CDATA[(Rp – Rf) / Portfolio Standard Deviation]]></text></answer>
-            <answer correct="no"><text><![CDATA[Rp / (Rf × σ)]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Ch 9.9.1: Sharpe Ratio = (Rp − Rf) / σp. Measures excess return per unit of TOTAL risk (standard deviation).
-**The Trap:** Option A is Treynor (beta, not SD). Options C and D are malformed.
-**Cross-Exam Context:** XXI-B, XV, X-A/B all test Sharpe; XIX-B for Cat III hedge.
-**Manager's Pro-Tip:** Sharpe > 1 is preferable. Sharpe is unreliable for short track records or non-normal return distributions — supplement with Sortino (uses downside deviation only) for asymmetric-return funds.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM Fee Structure and Fund Performance_42" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[The Sharpe Ratio is mathematically:]]></text><answers><answer correct="no"><text><![CDATA[(Rp – Rf) / Beta]]></text></answer><answer correct="no"><text><![CDATA[Rp × Beta / Rf]]></text></answer><answer correct="yes"><text><![CDATA[(Rp – Rf) / Portfolio Standard Deviation]]></text></answer><answer correct="no"><text><![CDATA[Rp / (Rf × σ)]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Ch 9.9.1: Sharpe Ratio = (Rp − Rf) / σp. Measures excess return per unit of TOTAL risk (standard deviation).
+<B>The Trap:</B> Option A is Treynor (beta, not SD). Options C and D are malformed.
+<B>Cross-Exam Context:</B> XXI-B, XV, X-A/B all test Sharpe; XIX-B for Cat III hedge.
+<B>Manager's Pro-Tip:</B> Sharpe > 1 is preferable. Sharpe is unreliable for short track records or non-normal return distributions — supplement with Sortino (uses downside deviation only) for asymmetric-return funds.]]></text></explanation></question></QF>

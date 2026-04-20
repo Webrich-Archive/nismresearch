@@ -1,18 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PMS Case Studies_35" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[You are analyzing the performance of two mutual funds over the past decade: Fund X: Annualized Return = 8.5%, Standard Deviation = 12% Fund Y: Annualized Return = 9%, Standard Deviation = 14
+<?xml version="1.0" encoding="UTF-8"?><QF id="PMS Case Studies_35" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[You are analyzing the performance of two mutual funds over the past decade: Fund X: Annualized Return = 8.5%, Standard Deviation = 12% Fund Y: Annualized Return = 9%, Standard Deviation = 14
 
-Assuming the risk-free rate is 2%, calculate the Treynor Ratio for Fund X.]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[6.50%]]></text></answer>
-            <answer correct="no"><text><![CDATA[6.33%]]></text></answer>
-            <answer correct="no"><text><![CDATA[4.25%]]></text></answer>
-            <answer correct="no"><text><![CDATA[7.10%]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Treynor Ratio = (Return – Risk-free rate) / Beta. With no Beta supplied the source assumes a market Beta of 1. Fund X: (8.5% – 2%) / 1 = 6.5%. The other options correspond to wrong risk-free-rate or wrong-Beta assumptions.
-**The Trap:** 6.33% comes from using 2.17% as the risk-free rate (decimal slip); 4.25% halves the excess return as if Beta = 1.5; 7.10% uses a zero risk-free rate. Core confusion: Treynor divides by Beta (systematic risk), not by standard deviation.
-**Cross-Exam Context:** Treynor Ratio is tested in NISM XV, XXI-B, XIX-D and X-B under the CAPM/SML block.
-**Distributor's Pro-Tip:** Use Treynor — not Sharpe — when the HNI already has a diversified portfolio and is adding this PMS as one more sleeve; at that point only systematic (Beta) risk matters to them.]]></text></explanation>
-    </question>
-</QF>
+Assuming the risk-free rate is 2%, calculate the Treynor Ratio for Fund X.]]></text><answers><answer correct="yes"><text><![CDATA[6.50%]]></text></answer><answer correct="no"><text><![CDATA[6.33%]]></text></answer><answer correct="no"><text><![CDATA[4.25%]]></text></answer><answer correct="no"><text><![CDATA[7.10%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Treynor Ratio = (Return – Risk-free rate) / Beta. With no Beta supplied the source assumes a market Beta of 1. Fund X: (8.5% – 2%) / 1 = 6.5%. The other options correspond to wrong risk-free-rate or wrong-Beta assumptions.
+<B>The Trap:</B> 6.33% comes from using 2.17% as the risk-free rate (decimal slip); 4.25% halves the excess return as if Beta = 1.5; 7.10% uses a zero risk-free rate. Core confusion: Treynor divides by Beta (systematic risk), not by standard deviation.
+<B>Cross-Exam Context:</B> Treynor Ratio is tested in NISM XV, XXI-B, XIX-D and X-B under the CAPM/SML block.
+<B>Distributor's Pro-Tip:</B> Use Treynor — not Sharpe — when the HNI already has a diversified portfolio and is adding this PMS as one more sleeve; at that point only systematic (Beta) risk matters to them.]]></text></explanation></question></QF>

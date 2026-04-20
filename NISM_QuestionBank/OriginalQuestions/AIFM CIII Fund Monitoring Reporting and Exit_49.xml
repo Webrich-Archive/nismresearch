@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CIII Fund Monitoring Reporting and Exit_49" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Sahyadri Stat-Arb Fund's CTR reveals a breach of the 2x leverage cap during Q2. Under the regulatory framework, this must be:]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[Reported to SEBI via CTR with corrective action; SEBI may direct further action]]></text></answer>
-            <answer correct="no"><text><![CDATA[Corrected internally without SEBI disclosure]]></text></answer>
-            <answer correct="no"><text><![CDATA[Disclosed only at investor AGM]]></text></answer>
-            <answer correct="no"><text><![CDATA[Referred to RBI for regulatory action]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Per the CTR row on Leverage and Prudential Norms: the CTR tests whether a Cat III AIF has engaged in leverage/derivative exposures and if there is a BREACH of leverage limits. Any such breach must be flagged in the CTR. Sponsor/Trustee must report compliance violations to SEBI 'at the earliest'. The compliance officer also has an independent 7-working-day reporting duty.
-**The Trap:** Internal correction (B) violates disclosure. AGM-only (C) bypasses SEBI. RBI (D) is the wrong regulator for AIFs (SEBI is the regulator).
-**Cross-Exam Context:** XIX-C/D test CTR leverage reporting. XIX-D Cat I/II does not apply (no leverage for Cat I/II).
-**Manager's Pro-Tip:** Run pre-trade leverage checks via the custodian or risk system — the 2x cap is on borrowed funds relative to NAV. If derivative gross notional pushes you over, hedge offsets may reduce effective leverage (but must fit SEBI's offsetting definition). Document the methodology in the PPM.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Fund Monitoring Reporting and Exit_49" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Sahyadri Stat-Arb Fund's CTR reveals a breach of the 2x leverage cap during Q2. Under the regulatory framework, this must be:]]></text><answers><answer correct="yes"><text><![CDATA[Reported to SEBI via CTR with corrective action; SEBI may direct further action]]></text></answer><answer correct="no"><text><![CDATA[Corrected internally without SEBI disclosure]]></text></answer><answer correct="no"><text><![CDATA[Disclosed only at investor AGM]]></text></answer><answer correct="no"><text><![CDATA[Referred to RBI for regulatory action]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Per the CTR row on Leverage and Prudential Norms: the CTR tests whether a Cat III AIF has engaged in leverage/derivative exposures and if there is a BREACH of leverage limits. Any such breach must be flagged in the CTR. Sponsor/Trustee must report compliance violations to SEBI 'at the earliest'. The compliance officer also has an independent 7-working-day reporting duty.
+<B>The Trap:</B> Internal correction (B) violates disclosure. AGM-only (C) bypasses SEBI. RBI (D) is the wrong regulator for AIFs (SEBI is the regulator).
+<B>Cross-Exam Context:</B> XIX-C/D test CTR leverage reporting. XIX-D Cat I/II does not apply (no leverage for Cat I/II).
+<B>Manager's Pro-Tip:</B> Run pre-trade leverage checks via the custodian or risk system — the 2x cap is on borrowed funds relative to NAV. If derivative gross notional pushes you over, hedge offsets may reduce effective leverage (but must fit SEBI's offsetting definition). Document the methodology in the PPM.]]></text></explanation></question></QF>

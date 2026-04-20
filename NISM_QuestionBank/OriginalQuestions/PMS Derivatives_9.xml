@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PMS Derivatives_9" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Beta hedging a Rs. 10 crore equity portfolio (beta 1.0) via NIFTY futures (contract size Rs. 50 lakh) requires shorting approximately:]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[10 contracts]]></text></answer>
-            <answer correct="yes"><text><![CDATA[20 contracts]]></text></answer>
-            <answer correct="no"><text><![CDATA[30 contracts]]></text></answer>
-            <answer correct="no"><text><![CDATA[50 contracts]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Hedge contracts = (Portfolio * beta) / Contract size = (10 cr * 1.0) / 0.5 cr = 20 contracts.
-**The Trap:** 10/30/50 come from arithmetic errors.
-**Cross-Exam Context:** Same in VIII, XIII.
-**Distributor's Pro-Tip:** Adjust hedge when portfolio beta deviates; re-hedge monthly or on size changes.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PMS Derivatives_9" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Beta hedging a Rs. 10 crore equity portfolio (beta 1.0) via NIFTY futures (contract size Rs. 50 lakh) requires shorting approximately:]]></text><answers><answer correct="no"><text><![CDATA[10 contracts]]></text></answer><answer correct="yes"><text><![CDATA[20 contracts]]></text></answer><answer correct="no"><text><![CDATA[30 contracts]]></text></answer><answer correct="no"><text><![CDATA[50 contracts]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Hedge contracts = (Portfolio * beta) / Contract size = (10 cr * 1.0) / 0.5 cr = 20 contracts.
+<B>The Trap:</B> 10/30/50 come from arithmetic errors.
+<B>Cross-Exam Context:</B> Same in VIII, XIII.
+<B>Distributor's Pro-Tip:</B> Adjust hedge when portfolio beta deviates; re-hedge monthly or on size changes.]]></text></explanation></question></QF>

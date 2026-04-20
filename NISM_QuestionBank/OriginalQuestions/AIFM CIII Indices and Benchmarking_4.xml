@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CIII Indices and Benchmarking_4" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Kaveri Macro Fund (Cat III) delivered an annualised return of 18.4% against its benchmark (CRISIL AIF Index — Cat III) return of 12.8%. Tracking error over the same period is 4.0%. What is the Information Ratio?]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[0.70]]></text></answer>
-            <answer correct="yes"><text><![CDATA[1.40]]></text></answer>
-            <answer correct="no"><text><![CDATA[2.24]]></text></answer>
-            <answer correct="no"><text><![CDATA[4.60]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Information Ratio = (Fund Return - Benchmark Return) / Tracking Error = (18.4% - 12.8%) / 4.0% = 5.6 / 4.0 = 1.40. IR > 1.0 is considered strong for Cat III active managers; IR > 0.5 is typically acceptable. IR differs from Sharpe in using benchmark (not risk-free) and TE (not total SD).
-**The Trap:** Option A (0.70) mistakenly subtracts the risk-free rate instead of benchmark return. Option C (2.24) divides by SD of benchmark only. Option D (4.60) is the raw active return in %.
-**Cross-Exam Context:** XXI-B (PM), XV (RA), and X-A/B (IA) all test IR as a core active-management metric. Cat I/II (XIX-D) lean on IRR/MOIC/PME because of illiquid private cash-flows, so IR is less central there — Cat III uses IR/Sharpe/Sortino as primary performance metrics.
-**Manager's Pro-Tip:** Cat III LPs increasingly ask for IR on a rolling 36-month basis — not lifetime — because short-lived alpha from a single regime (e.g., 2020 vol spike) can inflate lifetime IR. Track rolling IR quarterly for investor letters.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Indices and Benchmarking_4" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Kaveri Macro Fund (Cat III) delivered an annualised return of 18.4% against its benchmark (CRISIL AIF Index — Cat III) return of 12.8%. Tracking error over the same period is 4.0%. What is the Information Ratio?]]></text><answers><answer correct="no"><text><![CDATA[0.70]]></text></answer><answer correct="yes"><text><![CDATA[1.40]]></text></answer><answer correct="no"><text><![CDATA[2.24]]></text></answer><answer correct="no"><text><![CDATA[4.60]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Information Ratio = (Fund Return - Benchmark Return) / Tracking Error = (18.4% - 12.8%) / 4.0% = 5.6 / 4.0 = 1.40. IR > 1.0 is considered strong for Cat III active managers; IR > 0.5 is typically acceptable. IR differs from Sharpe in using benchmark (not risk-free) and TE (not total SD).
+<B>The Trap:</B> Option A (0.70) mistakenly subtracts the risk-free rate instead of benchmark return. Option C (2.24) divides by SD of benchmark only. Option D (4.60) is the raw active return in %.
+<B>Cross-Exam Context:</B> XXI-B (PM), XV (RA), and X-A/B (IA) all test IR as a core active-management metric. Cat I/II (XIX-D) lean on IRR/MOIC/PME because of illiquid private cash-flows, so IR is less central there — Cat III uses IR/Sharpe/Sortino as primary performance metrics.
+<B>Manager's Pro-Tip:</B> Cat III LPs increasingly ask for IR on a rolling 36-month basis — not lifetime — because short-lived alpha from a single regime (e.g., 2020 vol spike) can inflate lifetime IR. Track rolling IR quarterly for investor letters.]]></text></explanation></question></QF>

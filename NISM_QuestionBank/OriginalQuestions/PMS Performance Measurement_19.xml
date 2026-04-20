@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PMS Performance Measurement_19" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Sharpe ratio is calculated as:]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[(Rp - Rf)/beta]]></text></answer>
-            <answer correct="yes"><text><![CDATA[(Rp - Rf)/sigma_p]]></text></answer>
-            <answer correct="no"><text><![CDATA[(Rm - Rf)/sigma_p]]></text></answer>
-            <answer correct="no"><text><![CDATA[Rp/sigma_p]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Sharpe = (Return - Risk-free) / Standard Deviation.
-**The Trap:** Treynor uses beta in denominator.
-**Cross-Exam Context:** Same in X-B.
-**Distributor's Pro-Tip:** Use the same sigma period as returns to avoid annualisation mismatches.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PMS Performance Measurement_19" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Sharpe ratio is calculated as:]]></text><answers><answer correct="no"><text><![CDATA[(Rp - Rf)/beta]]></text></answer><answer correct="yes"><text><![CDATA[(Rp - Rf)/sigma_p]]></text></answer><answer correct="no"><text><![CDATA[(Rm - Rf)/sigma_p]]></text></answer><answer correct="no"><text><![CDATA[Rp/sigma_p]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Sharpe = (Return - Risk-free) / Standard Deviation.
+<B>The Trap:</B> Treynor uses beta in denominator.
+<B>Cross-Exam Context:</B> Same in X-B.
+<B>Distributor's Pro-Tip:</B> Use the same sigma period as returns to avoid annualisation mismatches.]]></text></explanation></question></QF>

@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PM Portfolio Rebalancing_8" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Maximum drift threshold for rebalancing a SAA 60/40 portfolio commonly used in practice:]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[±0.5%]]></text></answer>
-            <answer correct="yes"><text><![CDATA[±5% (equity 55-65%)]]></text></answer>
-            <answer correct="no"><text><![CDATA[±50%]]></text></answer>
-            <answer correct="no"><text><![CDATA[No drift allowed]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Typical bands: ±5% tolerance. Tighter (±2-3%) for conservative clients; wider (±10%) for more tolerance.
-**The Trap:** ±0.5% causes excessive trading.
-**Cross-Exam Context:** Practical.
-**Manager's Pro-Tip:** Balance rebalancing cost with drift risk — wider bands save costs but require more risk tolerance.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PM Portfolio Rebalancing_8" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Maximum drift threshold for rebalancing a SAA 60/40 portfolio commonly used in practice:]]></text><answers><answer correct="no"><text><![CDATA[±0.5%]]></text></answer><answer correct="yes"><text><![CDATA[±5% (equity 55-65%)]]></text></answer><answer correct="no"><text><![CDATA[±50%]]></text></answer><answer correct="no"><text><![CDATA[No drift allowed]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Typical bands: ±5% tolerance. Tighter (±2-3%) for conservative clients; wider (±10%) for more tolerance.
+<B>The Trap:</B> ±0.5% causes excessive trading.
+<B>Cross-Exam Context:</B> Practical.
+<B>Manager's Pro-Tip:</B> Balance rebalancing cost with drift risk — wider bands save costs but require more risk tolerance.]]></text></explanation></question></QF>

@@ -1,18 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PMS Case Studies_5" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[You are analyzing the performance of two equity funds over the past five years. Here are the annual returns: Fund X: 8%, 12%, -5%, 15%, 10% Fund Y: 10%, 9%, -3%, 18%, 8%
+<?xml version="1.0" encoding="UTF-8"?><QF id="PMS Case Studies_5" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[You are analyzing the performance of two equity funds over the past five years. Here are the annual returns: Fund X: 8%, 12%, -5%, 15%, 10% Fund Y: 10%, 9%, -3%, 18%, 8%
 
-Based on the given data, which fund had a higher maximum annual return?]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[Fund Y]]></text></answer>
-            <answer correct="no"><text><![CDATA[Fund X]]></text></answer>
-            <answer correct="no"><text><![CDATA[Both funds had the same maximum return]]></text></answer>
-            <answer correct="no"><text><![CDATA[Cannot determine from the given data]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Maximum annual return is read directly from the return series. Fund X peak year = 15%; Fund Y peak year = 18%. Fund Y had the higher maximum annual return.
-**The Trap:** The 'same' and 'cannot determine' options exist to catch candidates who overthink and look for a hidden computation - here the answer is a straight max-of-the-series read.
-**Cross-Exam Context:** Return-series inspection is foundational in NISM-XV (Research Analyst), NISM-XXI-B (PMS Managers), and NISM-V-A (Mutual Fund Distributors).
-**Distributor's Pro-Tip:** Never pitch a PMS on its best-year number alone - clients anchor to it and get disappointed; always pair the peak year with the worst year and the full-period CAGR so the expectation is calibrated.]]></text></explanation>
-    </question>
-</QF>
+Based on the given data, which fund had a higher maximum annual return?]]></text><answers><answer correct="yes"><text><![CDATA[Fund Y]]></text></answer><answer correct="no"><text><![CDATA[Fund X]]></text></answer><answer correct="no"><text><![CDATA[Both funds had the same maximum return]]></text></answer><answer correct="no"><text><![CDATA[Cannot determine from the given data]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Maximum annual return is read directly from the return series. Fund X peak year = 15%; Fund Y peak year = 18%. Fund Y had the higher maximum annual return.
+<B>The Trap:</B> The 'same' and 'cannot determine' options exist to catch candidates who overthink and look for a hidden computation - here the answer is a straight max-of-the-series read.
+<B>Cross-Exam Context:</B> Return-series inspection is foundational in NISM-XV (Research Analyst), NISM-XXI-B (PMS Managers), and NISM-V-A (Mutual Fund Distributors).
+<B>Distributor's Pro-Tip:</B> Never pitch a PMS on its best-year number alone - clients anchor to it and get disappointed; always pair the peak year with the worst year and the full-period CAGR so the expectation is calibrated.]]></text></explanation></question></QF>

@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="SIA Reporting_37" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Bharat Asset Management's MF-for-SSE scheme invests in multiple listed FPEs. It requests that each FPE's AIR be CONSOLIDATED into a single scheme-level impact summary. From the SIA's perspective, what is the CORRECT stance?]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[Consolidation is always permissible by simple addition of all indicators]]></text></answer>
-            <answer correct="yes"><text><![CDATA[Consolidation across FPEs requires consistent taxonomy, URN de-duplication, and explicit disclosure of methodology differences; simple addition is NOT appropriate]]></text></answer>
-            <answer correct="no"><text><![CDATA[Consolidation is prohibited entirely]]></text></answer>
-            <answer correct="no"><text><![CDATA[Only the Fund Manager can consolidate; the SIA cannot opine]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Consolidation faces Chapter 7.4 challenges: lack of common measures, terminology gaps, and double counting. Valid consolidation requires URN de-duplication across FPEs and a methodology-reconciliation note. Simple addition inflates aggregates through overlaps.
-**The Trap:** A glosses over real consolidation issues. C is over-restrictive. D wrongly delegates to the fund manager — the SIA must opine on methodology soundness.
-**Cross-Exam Context:** Consolidation mirrors portfolio-level aggregation in XIX AIF and fund-of-funds NAV roll-ups tested there.
-**Assessor's Pro-Tip:** For a multi-FPE MF-for-SSE consolidation, demand a cross-mapping table from each FPE's SAS tag to a common master. Any indicator that cannot be cross-mapped gets isolated in a 'non-comparable' appendix, never in the consolidated scorecard.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="SIA Reporting_37" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Bharat Asset Management's MF-for-SSE scheme invests in multiple listed FPEs. It requests that each FPE's AIR be CONSOLIDATED into a single scheme-level impact summary. From the SIA's perspective, what is the CORRECT stance?]]></text><answers><answer correct="no"><text><![CDATA[Consolidation is always permissible by simple addition of all indicators]]></text></answer><answer correct="yes"><text><![CDATA[Consolidation across FPEs requires consistent taxonomy, URN de-duplication, and explicit disclosure of methodology differences; simple addition is NOT appropriate]]></text></answer><answer correct="no"><text><![CDATA[Consolidation is prohibited entirely]]></text></answer><answer correct="no"><text><![CDATA[Only the Fund Manager can consolidate; the SIA cannot opine]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Consolidation faces Chapter 7.4 challenges: lack of common measures, terminology gaps, and double counting. Valid consolidation requires URN de-duplication across FPEs and a methodology-reconciliation note. Simple addition inflates aggregates through overlaps.
+<B>The Trap:</B> A glosses over real consolidation issues. C is over-restrictive. D wrongly delegates to the fund manager — the SIA must opine on methodology soundness.
+<B>Cross-Exam Context:</B> Consolidation mirrors portfolio-level aggregation in XIX AIF and fund-of-funds NAV roll-ups tested there.
+<B>Assessor's Pro-Tip:</B> For a multi-FPE MF-for-SSE consolidation, demand a cross-mapping table from each FPE's SAS tag to a common master. Any indicator that cannot be cross-mapped gets isolated in a 'non-comparable' appendix, never in the consolidated scorecard.]]></text></explanation></question></QF>

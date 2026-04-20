@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="Cat III AIF Fees and Performance_60" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Maximum Drawdown (MDD) is calculated as:]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[(Trough − Peak) / Peak]]></text></answer>
-            <answer correct="no"><text><![CDATA[(Peak − Trough) / Trough]]></text></answer>
-            <answer correct="no"><text><![CDATA[(NAV − Subscription price) / Subscription]]></text></answer>
-            <answer correct="no"><text><![CDATA[(Volatility × √Time)]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** MDD = (Trough − Peak) / Peak, usually expressed as a negative percentage.
-**The Trap:** Alternate arrangements are incorrect; volatility formula is not MDD.
-**Cross-Exam Context:** Cross-exam with XV, X-A.
-**Distributor's Pro-Tip:** Larger negative MDD = worse downside; always examine WHEN the drawdown occurred.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="Cat III AIF Fees and Performance_60" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Maximum Drawdown (MDD) is calculated as:]]></text><answers><answer correct="yes"><text><![CDATA[(Trough − Peak) / Peak]]></text></answer><answer correct="no"><text><![CDATA[(Peak − Trough) / Trough]]></text></answer><answer correct="no"><text><![CDATA[(NAV − Subscription price) / Subscription]]></text></answer><answer correct="no"><text><![CDATA[(Volatility × √Time)]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> MDD = (Trough − Peak) / Peak, usually expressed as a negative percentage.
+<B>The Trap:</B> Alternate arrangements are incorrect; volatility formula is not MDD.
+<B>Cross-Exam Context:</B> Cross-exam with XV, X-A.
+<B>Distributor's Pro-Tip:</B> Larger negative MDD = worse downside; always examine WHEN the drawdown occurred.]]></text></explanation></question></QF>

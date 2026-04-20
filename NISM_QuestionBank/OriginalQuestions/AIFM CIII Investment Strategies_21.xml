@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CIII Investment Strategies_21" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Regulation 15 of SEBI (AIF) Regulations, 2012 permits Category III AIFs to employ leverage, subject to what ceiling?]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[Leverage not exceeding 2x of NAV]]></text></answer>
-            <answer correct="no"><text><![CDATA[Leverage not exceeding 1x of NAV]]></text></answer>
-            <answer correct="no"><text><![CDATA[Leverage not exceeding 3x of NAV]]></text></answer>
-            <answer correct="no"><text><![CDATA[No leverage permitted (same as Cat I/II)]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Cat III AIFs can take leverage up to 2x of NAV per SEBI (AIF) Regulations. This is the primary structural differentiator of Cat III from Cat I/II (which have zero-leverage rule).
-**The Trap:** Option B underestimates. Option C overestimates. Option D confuses Cat I/II rule.
-**Cross-Exam Context:** XIX-D (Cat I/II) = zero leverage. XIX-B (Cat III Distributor) tests same 2x. XIX-C covers all categories.
-**Manager's Pro-Tip:** The 2x is computed on NAV INCLUDING unrealised MTM; on days of steep drawdown, the leverage ratio inflates mechanically without any new trade. Monitor two paths: trade-driven leverage and drawdown-driven leverage, and remediate drawdown-triggered breaches within T+2.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Investment Strategies_21" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Regulation 15 of SEBI (AIF) Regulations, 2012 permits Category III AIFs to employ leverage, subject to what ceiling?]]></text><answers><answer correct="yes"><text><![CDATA[Leverage not exceeding 2x of NAV]]></text></answer><answer correct="no"><text><![CDATA[Leverage not exceeding 1x of NAV]]></text></answer><answer correct="no"><text><![CDATA[Leverage not exceeding 3x of NAV]]></text></answer><answer correct="no"><text><![CDATA[No leverage permitted (same as Cat I/II)]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Cat III AIFs can take leverage up to 2x of NAV per SEBI (AIF) Regulations. This is the primary structural differentiator of Cat III from Cat I/II (which have zero-leverage rule).
+<B>The Trap:</B> Option B underestimates. Option C overestimates. Option D confuses Cat I/II rule.
+<B>Cross-Exam Context:</B> XIX-D (Cat I/II) = zero leverage. XIX-B (Cat III Distributor) tests same 2x. XIX-C covers all categories.
+<B>Manager's Pro-Tip:</B> The 2x is computed on NAV INCLUDING unrealised MTM; on days of steep drawdown, the leverage ratio inflates mechanically without any new trade. Monitor two paths: trade-driven leverage and drawdown-driven leverage, and remediate drawdown-triggered breaches within T+2.]]></text></explanation></question></QF>

@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PMS Portfolio Management Process_52" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[A PMS portfolio holds Security A (return 15%, weight 30%), B (10%, 20%), C (12%, 20%) and D (18%, 30%). Portfolio return is:]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[12.8%]]></text></answer>
-            <answer correct="yes"><text><![CDATA[14.3%]]></text></answer>
-            <answer correct="no"><text><![CDATA[14.8%]]></text></answer>
-            <answer correct="no"><text><![CDATA[16.2%]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** 0.15*0.30 + 0.10*0.20 + 0.12*0.20 + 0.18*0.30 = 4.5+2+2.4+5.4 = 14.30%.
-**The Trap:** Ignoring weights yields 13.75% average; other options are slight miscalculations.
-**Cross-Exam Context:** Standard portfolio return formula across X-A, XV.
-**Distributor's Pro-Tip:** Use this formula in client updates to show how each holding drives overall return.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PMS Portfolio Management Process_52" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A PMS portfolio holds Security A (return 15%, weight 30%), B (10%, 20%), C (12%, 20%) and D (18%, 30%). Portfolio return is:]]></text><answers><answer correct="no"><text><![CDATA[12.8%]]></text></answer><answer correct="yes"><text><![CDATA[14.3%]]></text></answer><answer correct="no"><text><![CDATA[14.8%]]></text></answer><answer correct="no"><text><![CDATA[16.2%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> 0.15*0.30 + 0.10*0.20 + 0.12*0.20 + 0.18*0.30 = 4.5+2+2.4+5.4 = 14.30%.
+<B>The Trap:</B> Ignoring weights yields 13.75% average; other options are slight miscalculations.
+<B>Cross-Exam Context:</B> Standard portfolio return formula across X-A, XV.
+<B>Distributor's Pro-Tip:</B> Use this formula in client updates to show how each holding drives overall return.]]></text></explanation></question></QF>

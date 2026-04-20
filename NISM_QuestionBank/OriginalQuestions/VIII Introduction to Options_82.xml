@@ -1,14 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="VIII Introduction to Options_82" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[A put writer receives Rs. 40 premium for a put with strike Rs. 900. Stock closes at Rs. 870. What is the P/L?]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[Profit of Rs. 10]]></text></answer>
-            <answer correct="no"><text><![CDATA[Loss of Rs. 30]]></text></answer>
-            <answer correct="no"><text><![CDATA[Loss of Rs. 10]]></text></answer>
-            <answer correct="no"><text><![CDATA[Profit of Rs. 40]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Short Put Profit = Premium - max(X - S, 0)
+<?xml version="1.0" encoding="UTF-8"?><QF id="VIII Introduction to Options_82" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A put writer receives Rs. 40 premium for a put with strike Rs. 900. Stock closes at Rs. 870. What is the P/L?]]></text><answers><answer correct="yes"><text><![CDATA[Profit of Rs. 10]]></text></answer><answer correct="no"><text><![CDATA[Loss of Rs. 30]]></text></answer><answer correct="no"><text><![CDATA[Loss of Rs. 10]]></text></answer><answer correct="no"><text><![CDATA[Profit of Rs. 40]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Short Put Profit = Premium - max(X - S, 0)
 
 Step-by-step:
 1. Premium = 40, X = 900, S = 870
@@ -17,10 +7,8 @@ Step-by-step:
 
 Put is ITM but payoff (30) < premium (40), so writer still has profit.
 
-**The Trap:** Writer profits even when put is ITM, as long as S > BEP (X - P = 860).
+<B>The Trap:</B> Writer profits even when put is ITM, as long as S > BEP (X - P = 860).
 
-**Cross-Exam Context:** Between X-P and X: partial profit for writer. Below X-P: loss zone.
+<B>Cross-Exam Context:</B> Between X-P and X: partial profit for writer. Below X-P: loss zone.
 
-**Distributor's Pro-Tip:** Put writer profits when S > X - P. Here: 870 > 860 (BEP), so profit Rs. 10.]]></text></explanation>
-    </question>
-</QF>
+<B>Distributor's Pro-Tip:</B> Put writer profits when S > X - P. Here: 870 > 860 (BEP), so profit Rs. 10.]]></text></explanation></question></QF>

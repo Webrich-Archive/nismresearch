@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM Informational Efficiency_3" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Under the weak-form Efficient Market Hypothesis, which of the following investment approaches is rendered ineffective for generating superior risk-adjusted returns?]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[Fundamental analysis based on earnings and book value.]]></text></answer>
-            <answer correct="no"><text><![CDATA[Insider-information-based trading.]]></text></answer>
-            <answer correct="yes"><text><![CDATA[Technical analysis based on historical prices, returns and volumes.]]></text></answer>
-            <answer correct="no"><text><![CDATA[Factor-based smart-beta allocation using macro variables.]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Per Ch 3.2.1 and 3.5.1, weak-form EMH assumes current prices fully reflect all historical price/return/volume data. Therefore technical analysis - which uses exactly these past data series - cannot systematically generate alpha. Weak form does NOT yet rule out fundamental or insider-based alpha.
-**The Trap:** Option A is disproved only under semi-strong form. Option B is disproved only under strong form. Option D uses macro variables that go beyond pure historical prices.
-**Cross-Exam Context:** Directly tested in XXI-B (PM), XV (RA), X-A/X-B (IA). XIX-C difference: as an AIF manager you must ALSO explain why private-market vehicles operate in a much less efficient segment than listed equities.
-**Manager's Pro-Tip:** In your Cat III long-short PPM, don't claim 'pure technical alpha' - regulators and sophisticated LPs treat that as inconsistent with even weak-form efficiency. Pair technicals with fundamental or private-info edge.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM Informational Efficiency_3" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Under the weak-form Efficient Market Hypothesis, which of the following investment approaches is rendered ineffective for generating superior risk-adjusted returns?]]></text><answers><answer correct="no"><text><![CDATA[Fundamental analysis based on earnings and book value.]]></text></answer><answer correct="no"><text><![CDATA[Insider-information-based trading.]]></text></answer><answer correct="yes"><text><![CDATA[Technical analysis based on historical prices, returns and volumes.]]></text></answer><answer correct="no"><text><![CDATA[Factor-based smart-beta allocation using macro variables.]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Per Ch 3.2.1 and 3.5.1, weak-form EMH assumes current prices fully reflect all historical price/return/volume data. Therefore technical analysis - which uses exactly these past data series - cannot systematically generate alpha. Weak form does NOT yet rule out fundamental or insider-based alpha.
+<B>The Trap:</B> Option A is disproved only under semi-strong form. Option B is disproved only under strong form. Option D uses macro variables that go beyond pure historical prices.
+<B>Cross-Exam Context:</B> Directly tested in XXI-B (PM), XV (RA), X-A/X-B (IA). XIX-C difference: as an AIF manager you must ALSO explain why private-market vehicles operate in a much less efficient segment than listed equities.
+<B>Manager's Pro-Tip:</B> In your Cat III long-short PPM, don't claim 'pure technical alpha' - regulators and sophisticated LPs treat that as inconsistent with even weak-form efficiency. Pair technicals with fundamental or private-info edge.]]></text></explanation></question></QF>

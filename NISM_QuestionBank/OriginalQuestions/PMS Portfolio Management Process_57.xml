@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PMS Portfolio Management Process_57" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Investor contributes Rs. 10 lakh with 70/30 SAA. Equity returns 20%, debt 6% over a year. End values and drift:]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[Equity 8.4L (drift +4 pp)]]></text></answer>
-            <answer correct="yes"><text><![CDATA[Equity 8.4L / Debt 3.18L; equity weight 72.5%]]></text></answer>
-            <answer correct="no"><text><![CDATA[Equity 7.0L]]></text></answer>
-            <answer correct="no"><text><![CDATA[Debt stays 3 lakh flat]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Equity: 7L*1.20=8.4L; Debt: 3L*1.06=3.18L; total 11.58L; equity weight = 8.4/11.58 = 72.5%.
-**The Trap:** Flat debt or ignoring returns misses the arithmetic.
-**Cross-Exam Context:** Core SAA drift calc used in X-A.
-**Distributor's Pro-Tip:** Quarterly drift tables help decide whether to rebalance or let it run.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PMS Portfolio Management Process_57" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Investor contributes Rs. 10 lakh with 70/30 SAA. Equity returns 20%, debt 6% over a year. End values and drift:]]></text><answers><answer correct="no"><text><![CDATA[Equity 8.4L (drift +4 pp)]]></text></answer><answer correct="yes"><text><![CDATA[Equity 8.4L / Debt 3.18L; equity weight 72.5%]]></text></answer><answer correct="no"><text><![CDATA[Equity 7.0L]]></text></answer><answer correct="no"><text><![CDATA[Debt stays 3 lakh flat]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Equity: 7L*1.20=8.4L; Debt: 3L*1.06=3.18L; total 11.58L; equity weight = 8.4/11.58 = 72.5%.
+<B>The Trap:</B> Flat debt or ignoring returns misses the arithmetic.
+<B>Cross-Exam Context:</B> Core SAA drift calc used in X-A.
+<B>Distributor's Pro-Tip:</B> Quarterly drift tables help decide whether to rebalance or let it run.]]></text></explanation></question></QF>

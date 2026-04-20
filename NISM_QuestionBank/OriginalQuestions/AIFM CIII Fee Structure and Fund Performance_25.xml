@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CIII Fee Structure and Fund Performance_25" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Aravalli Long-Short Fund (open-ended, monthly dealing, equalisation accounting) had HWM NAV/unit of INR 1,200. Current NAV/unit is INR 1,260 (above HWM). A new investor subscribes at INR 1,260. To ensure fairness across unit-holders, what must the fund do?]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[Charge the new investor an equalisation CREDIT on the INR 60 gain above HWM]]></text></answer>
-            <answer correct="no"><text><![CDATA[Charge the new investor an equalisation DEBIT because they enter above HWM]]></text></answer>
-            <answer correct="no"><text><![CDATA[Refund the incentive-fee accrual to the new investor]]></text></answer>
-            <answer correct="no"><text><![CDATA[Reset the HWM to INR 1,260 for the entire unit class]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** When new investors enter above HWM, they would otherwise pay incentive fees on gains THEY didn't participate in. An equalisation CREDIT (paid by the fund via extra units / deposit) compensates them; a DEBIT (extra amount paid by the investor) accrues when they enter BELOW HWM. Resetting HWM disadvantages legacy LPs.
-**The Trap:** B swaps credit/debit. C mis-describes the mechanism. D resets HWM which would leak carry to manager at existing LPs' expense.
-**Cross-Exam Context:** XIX-B Cat III Distributor tests equalisation conceptually; XIX-E tests the accounting treatment.
-**Manager's Pro-Tip:** Most Indian Cat III AIFs avoid equalisation by issuing SERIES-OF-UNITS (each monthly subscription = new series with its own HWM). Series-of-units is operationally cleaner but bloats the unit register; pick based on fund-admin capability.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Fee Structure and Fund Performance_25" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Aravalli Long-Short Fund (open-ended, monthly dealing, equalisation accounting) had HWM NAV/unit of INR 1,200. Current NAV/unit is INR 1,260 (above HWM). A new investor subscribes at INR 1,260. To ensure fairness across unit-holders, what must the fund do?]]></text><answers><answer correct="yes"><text><![CDATA[Charge the new investor an equalisation CREDIT on the INR 60 gain above HWM]]></text></answer><answer correct="no"><text><![CDATA[Charge the new investor an equalisation DEBIT because they enter above HWM]]></text></answer><answer correct="no"><text><![CDATA[Refund the incentive-fee accrual to the new investor]]></text></answer><answer correct="no"><text><![CDATA[Reset the HWM to INR 1,260 for the entire unit class]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> When new investors enter above HWM, they would otherwise pay incentive fees on gains THEY didn't participate in. An equalisation CREDIT (paid by the fund via extra units / deposit) compensates them; a DEBIT (extra amount paid by the investor) accrues when they enter BELOW HWM. Resetting HWM disadvantages legacy LPs.
+<B>The Trap:</B> B swaps credit/debit. C mis-describes the mechanism. D resets HWM which would leak carry to manager at existing LPs' expense.
+<B>Cross-Exam Context:</B> XIX-B Cat III Distributor tests equalisation conceptually; XIX-E tests the accounting treatment.
+<B>Manager's Pro-Tip:</B> Most Indian Cat III AIFs avoid equalisation by issuing SERIES-OF-UNITS (each monthly subscription = new series with its own HWM). Series-of-units is operationally cleaner but bloats the unit register; pick based on fund-admin capability.]]></text></explanation></question></QF>

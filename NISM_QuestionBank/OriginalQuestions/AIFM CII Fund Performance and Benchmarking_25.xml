@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CII Fund Performance and Benchmarking_25" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[In the Alpha Fund worked-out case (Annexure 7.1 style): INR 700 cr drawn at Y0, INR 1300 cr at Y1; management fee + expenses INR 30 cr per year (Y0 onwards); first distribution not until Y4. Through which year would the J-curve typically show the deepest negative Gross FIRR?]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[Y0 — because the first drawdown is the single largest cash outflow.]]></text></answer>
-            <answer correct="yes"><text><![CDATA[Y3 — end of the 2-year investment period plus one maturation year, just before first exits and while fees have accumulated for 4 years.]]></text></answer>
-            <answer correct="no"><text><![CDATA[Y5 — halfway through the life.]]></text></answer>
-            <answer correct="no"><text><![CDATA[Y8 — because final winding-up catches all residual drag.]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** The J-curve trough is the point of MAXIMUM NEGATIVE cumulative cash flow before exits begin. Drawdowns are complete by Y1 (INR 2000 cr deployed) and fees/expenses continue piling up (30 x 4 = INR 120 cr by Y3) with zero realisations till Y3. Once Y4 distributions begin, cumulative cash flow starts climbing. The trough is at Y3.
-**The Trap:** Y0 is the single largest year outflow but not the deepest cumulative point (more fees to come). Y5 is after 2 distribution years — recovering. Y8 is the peak (wind-up), not trough.
-**Cross-Exam Context:** XIX-C uses the same J-curve mechanics. Global PE texts (Gottschalg, Kaplan) call Y3-Y4 the 'valley of death' for vintage returns.
-**Manager's Pro-Tip:** Chart the J-curve quarterly and include the 'cumulative paid-in capital' line in LP reports — LPs who see the trough explained in advance rarely panic when Y3 Net IRR shows -8%.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CII Fund Performance and Benchmarking_25" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[In the Alpha Fund worked-out case (Annexure 7.1 style): INR 700 cr drawn at Y0, INR 1300 cr at Y1; management fee + expenses INR 30 cr per year (Y0 onwards); first distribution not until Y4. Through which year would the J-curve typically show the deepest negative Gross FIRR?]]></text><answers><answer correct="no"><text><![CDATA[Y0 — because the first drawdown is the single largest cash outflow.]]></text></answer><answer correct="yes"><text><![CDATA[Y3 — end of the 2-year investment period plus one maturation year, just before first exits and while fees have accumulated for 4 years.]]></text></answer><answer correct="no"><text><![CDATA[Y5 — halfway through the life.]]></text></answer><answer correct="no"><text><![CDATA[Y8 — because final winding-up catches all residual drag.]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> The J-curve trough is the point of MAXIMUM NEGATIVE cumulative cash flow before exits begin. Drawdowns are complete by Y1 (INR 2000 cr deployed) and fees/expenses continue piling up (30 x 4 = INR 120 cr by Y3) with zero realisations till Y3. Once Y4 distributions begin, cumulative cash flow starts climbing. The trough is at Y3.
+<B>The Trap:</B> Y0 is the single largest year outflow but not the deepest cumulative point (more fees to come). Y5 is after 2 distribution years — recovering. Y8 is the peak (wind-up), not trough.
+<B>Cross-Exam Context:</B> XIX-C uses the same J-curve mechanics. Global PE texts (Gottschalg, Kaplan) call Y3-Y4 the 'valley of death' for vintage returns.
+<B>Manager's Pro-Tip:</B> Chart the J-curve quarterly and include the 'cumulative paid-in capital' line in LP reports — LPs who see the trough explained in advance rarely panic when Y3 Net IRR shows -8%.]]></text></explanation></question></QF>

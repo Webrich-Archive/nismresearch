@@ -1,14 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="VIII Introduction to Options_101" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[A trader creates a protective put by holding stock at Rs. 1,000 and buying a put with strike Rs. 1,000 at premium Rs. 40. If stock falls to Rs. 920, what is the net loss on the combined position?]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[Rs. 40]]></text></answer>
-            <answer correct="no"><text><![CDATA[Rs. 80]]></text></answer>
-            <answer correct="no"><text><![CDATA[Rs. 120]]></text></answer>
-            <answer correct="no"><text><![CDATA[Rs. 0]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Protective Put: Long Stock + Long Put
+<?xml version="1.0" encoding="UTF-8"?><QF id="VIII Introduction to Options_101" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A trader creates a protective put by holding stock at Rs. 1,000 and buying a put with strike Rs. 1,000 at premium Rs. 40. If stock falls to Rs. 920, what is the net loss on the combined position?]]></text><answers><answer correct="yes"><text><![CDATA[Rs. 40]]></text></answer><answer correct="no"><text><![CDATA[Rs. 80]]></text></answer><answer correct="no"><text><![CDATA[Rs. 120]]></text></answer><answer correct="no"><text><![CDATA[Rs. 0]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Protective Put: Long Stock + Long Put
 
 Step-by-step:
 1. Stock loss = 920 - 1,000 = -Rs. 80
@@ -19,10 +9,8 @@ Step-by-step:
 
 The put offsets the stock decline. Net loss = premium paid only.
 
-**The Trap:** The put hedges the downside, but the premium is the cost of insurance.
+<B>The Trap:</B> The put hedges the downside, but the premium is the cost of insurance.
 
-**Cross-Exam Context:** Protective put = insurance. Max loss = premium paid (regardless of how far stock falls).
+<B>Cross-Exam Context:</B> Protective put = insurance. Max loss = premium paid (regardless of how far stock falls).
 
-**Distributor's Pro-Tip:** Protective put max loss = premium paid = Rs. 40. Stock decline fully hedged.]]></text></explanation>
-    </question>
-</QF>
+<B>Distributor's Pro-Tip:</B> Protective put max loss = premium paid = Rs. 40. Stock decline fully hedged.]]></text></explanation></question></QF>

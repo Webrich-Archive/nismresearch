@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PMS Performance Measurement_9" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Starting with Rs. 1 lakh, TWRR per annum of 22.10% over 2 years (example in PM workbook). The cumulative TWRR is:]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[22.10%]]></text></answer>
-            <answer correct="no"><text><![CDATA[44.20%]]></text></answer>
-            <answer correct="yes"><text><![CDATA[49.09%]]></text></answer>
-            <answer correct="no"><text><![CDATA[50.00%]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** TWRR cumulative (1 + annual)^2 - 1 = (1.2210)^2 - 1 = 49.09% (approx).
-**The Trap:** Simple doubling ignores compounding.
-**Cross-Exam Context:** From workbook TWRR example.
-**Distributor's Pro-Tip:** Show both annualised and cumulative TWRR in client reports.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PMS Performance Measurement_9" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Starting with Rs. 1 lakh, TWRR per annum of 22.10% over 2 years (example in PM workbook). The cumulative TWRR is:]]></text><answers><answer correct="no"><text><![CDATA[22.10%]]></text></answer><answer correct="no"><text><![CDATA[44.20%]]></text></answer><answer correct="yes"><text><![CDATA[49.09%]]></text></answer><answer correct="no"><text><![CDATA[50.00%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> TWRR cumulative (1 + annual)^2 - 1 = (1.2210)^2 - 1 = 49.09% (approx).
+<B>The Trap:</B> Simple doubling ignores compounding.
+<B>Cross-Exam Context:</B> From workbook TWRR example.
+<B>Distributor's Pro-Tip:</B> Show both annualised and cumulative TWRR in client reports.]]></text></explanation></question></QF>

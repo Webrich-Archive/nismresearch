@@ -1,18 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PMS Case Studies_33" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[You are analyzing the performance of two mutual funds over the past decade: Fund X: Annualized Return = 8.5%, Standard Deviation = 12% Fund Y: Annualized Return = 9%, Standard Deviation = 12
+<?xml version="1.0" encoding="UTF-8"?><QF id="PMS Case Studies_33" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[You are analyzing the performance of two mutual funds over the past decade: Fund X: Annualized Return = 8.5%, Standard Deviation = 12% Fund Y: Annualized Return = 9%, Standard Deviation = 12
 
-Based on the standard deviation, which fund has lower volatility?]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[Fund Y]]></text></answer>
-            <answer correct="no"><text><![CDATA[Fund X]]></text></answer>
-            <answer correct="no"><text><![CDATA[Both funds have the same volatility]]></text></answer>
-            <answer correct="no"><text><![CDATA[Cannot determine from the given data]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Standard deviation is the textbook proxy for volatility. Per the source explanation Fund Y's standard deviation is the lower of the two, so Fund Y is the less volatile fund.
-**The Trap:** Picking Fund X confuses higher return with lower volatility — they are independent. 'Same volatility' ignores the standard-deviation gap the source uses to rank the funds; 'cannot determine' wrongly treats standard deviation as insufficient for a volatility ranking.
-**Cross-Exam Context:** Volatility via standard deviation is tested in NISM XV, V-A, XXI-B and XIX-C/D.
-**Distributor's Pro-Tip:** Explain 'standard deviation' to clients as 'the size of the typical bump in the ride' — it lands far better than jargon and sets realistic drawdown expectations.]]></text></explanation>
-    </question>
-</QF>
+Based on the standard deviation, which fund has lower volatility?]]></text><answers><answer correct="yes"><text><![CDATA[Fund Y]]></text></answer><answer correct="no"><text><![CDATA[Fund X]]></text></answer><answer correct="no"><text><![CDATA[Both funds have the same volatility]]></text></answer><answer correct="no"><text><![CDATA[Cannot determine from the given data]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Standard deviation is the textbook proxy for volatility. Per the source explanation Fund Y's standard deviation is the lower of the two, so Fund Y is the less volatile fund.
+<B>The Trap:</B> Picking Fund X confuses higher return with lower volatility — they are independent. 'Same volatility' ignores the standard-deviation gap the source uses to rank the funds; 'cannot determine' wrongly treats standard deviation as insufficient for a volatility ranking.
+<B>Cross-Exam Context:</B> Volatility via standard deviation is tested in NISM XV, V-A, XXI-B and XIX-C/D.
+<B>Distributor's Pro-Tip:</B> Explain 'standard deviation' to clients as 'the size of the typical bump in the ride' — it lands far better than jargon and sets realistic drawdown expectations.]]></text></explanation></question></QF>

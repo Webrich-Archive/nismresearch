@@ -1,18 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PMS Case Studies_68" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[A portfolio manager is assessing two funds: Growth Fund A with a return of 14%, standard deviation of 10%, and beta of 1.2; and Value Fund B with a return of 10%, standard deviation of 8%, and beta of 0.9. The risk-free rate is 5%.
+<?xml version="1.0" encoding="UTF-8"?><QF id="PMS Case Studies_68" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A portfolio manager is assessing two funds: Growth Fund A with a return of 14%, standard deviation of 10%, and beta of 1.2; and Value Fund B with a return of 10%, standard deviation of 8%, and beta of 0.9. The risk-free rate is 5%.
 
-Which fund has the higher Jensen's Alpha?]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[A]]></text></answer>
-            <answer correct="no"><text><![CDATA[B]]></text></answer>
-            <answer correct="no"><text><![CDATA[Both have the same Alpha.]]></text></answer>
-            <answer correct="no"><text><![CDATA[Cannot determine without more information]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Jensen's Alpha = R_i - [R_f + beta * (R_m - R_f)]. Per the source, Growth Fund A's alpha is 0.6% and Value Fund B's is -1.3%, so Growth Fund A has the higher Jensen's Alpha, reflecting stronger manager skill after adjusting for beta-driven return.
-**The Trap:** 'B' tempts those who pick on low volatility alone; 'Both same' and 'Cannot determine' tempt those unfamiliar with the alpha formula. The trap is thinking alpha is just return minus Rf — it subtracts the CAPM-expected return, which includes the beta premium.
-**Cross-Exam Context:** Jensen's Alpha is a standard measure in NISM-Series-XV, XXI-B and XIX-D/E.
-**Distributor's Pro-Tip:** Alpha is the single strongest number to defend a PMS performance fee. When a client compares to an index fund, walk them through the alpha calculation rather than just quoting outperformance — it separates skill from beta exposure.]]></text></explanation>
-    </question>
-</QF>
+Which fund has the higher Jensen's Alpha?]]></text><answers><answer correct="yes"><text><![CDATA[A]]></text></answer><answer correct="no"><text><![CDATA[B]]></text></answer><answer correct="no"><text><![CDATA[Both have the same Alpha.]]></text></answer><answer correct="no"><text><![CDATA[Cannot determine without more information]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Jensen's Alpha = R_i - [R_f + beta * (R_m - R_f)]. Per the source, Growth Fund A's alpha is 0.6% and Value Fund B's is -1.3%, so Growth Fund A has the higher Jensen's Alpha, reflecting stronger manager skill after adjusting for beta-driven return.
+<B>The Trap:</B> 'B' tempts those who pick on low volatility alone; 'Both same' and 'Cannot determine' tempt those unfamiliar with the alpha formula. The trap is thinking alpha is just return minus Rf — it subtracts the CAPM-expected return, which includes the beta premium.
+<B>Cross-Exam Context:</B> Jensen's Alpha is a standard measure in NISM-Series-XV, XXI-B and XIX-D/E.
+<B>Distributor's Pro-Tip:</B> Alpha is the single strongest number to defend a PMS performance fee. When a client compares to an index fund, walk them through the alpha calculation rather than just quoting outperformance — it separates skill from beta exposure.]]></text></explanation></question></QF>

@@ -1,14 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="VIII Introduction to Options_102" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[A trader sells a put with strike Rs. 800 at premium Rs. 35 and sells a call with strike Rs. 800 at premium Rs. 40 (short straddle). If the stock closes at Rs. 800 at expiry, what is the profit?]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[Rs. 75]]></text></answer>
-            <answer correct="no"><text><![CDATA[Rs. 0]]></text></answer>
-            <answer correct="no"><text><![CDATA[Rs. 40]]></text></answer>
-            <answer correct="no"><text><![CDATA[Rs. 35]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Short Straddle: Sell Call + Sell Put (same strike)
+<?xml version="1.0" encoding="UTF-8"?><QF id="VIII Introduction to Options_102" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A trader sells a put with strike Rs. 800 at premium Rs. 35 and sells a call with strike Rs. 800 at premium Rs. 40 (short straddle). If the stock closes at Rs. 800 at expiry, what is the profit?]]></text><answers><answer correct="yes"><text><![CDATA[Rs. 75]]></text></answer><answer correct="no"><text><![CDATA[Rs. 0]]></text></answer><answer correct="no"><text><![CDATA[Rs. 40]]></text></answer><answer correct="no"><text><![CDATA[Rs. 35]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Short Straddle: Sell Call + Sell Put (same strike)
 
 Step-by-step:
 1. Short call payoff = -max(800 - 800, 0) = Rs. 0
@@ -19,10 +9,8 @@ Step-by-step:
 
 Both options expire ATM (worthless). Writer keeps both premiums.
 
-**The Trap:** Best case for short straddle: stock closes exactly at strike. All premium is profit.
+<B>The Trap:</B> Best case for short straddle: stock closes exactly at strike. All premium is profit.
 
-**Cross-Exam Context:** Short straddle max profit = total premium received. Profits from no movement.
+<B>Cross-Exam Context:</B> Short straddle max profit = total premium received. Profits from no movement.
 
-**Distributor's Pro-Tip:** Short straddle profit = call premium + put premium when S = X. Max profit = Rs. 75.]]></text></explanation>
-    </question>
-</QF>
+<B>Distributor's Pro-Tip:</B> Short straddle profit = call premium + put premium when S = X. Max profit = Rs. 75.]]></text></explanation></question></QF>

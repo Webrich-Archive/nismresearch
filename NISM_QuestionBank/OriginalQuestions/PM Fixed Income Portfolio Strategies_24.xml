@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PM Fixed Income Portfolio Strategies_24" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[A PM buys a bond with coupon 7% p.a. payable annually, face value Rs. 10,00,000, maturity 5 years, YTM 8%. What is the approximate price?]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[Rs. 9,60,073]]></text></answer>
-            <answer correct="no"><text><![CDATA[Rs. 10,00,000]]></text></answer>
-            <answer correct="no"><text><![CDATA[Rs. 9,28,053]]></text></answer>
-            <answer correct="no"><text><![CDATA[Rs. 10,39,927]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Price = 70,000 × PVIFA(8%,5) + 10,00,000 × PVIF(8%,5) = 70,000 × 3.9927 + 10,00,000 × 0.6806 = 2,79,489 + 6,80,583 = 9,60,072 ≈ Rs. 9,60,073.
-**The Trap:** Rs. 10,00,000 assumes par; Rs. 10,39,927 uses wrong discount direction; Rs. 9,28,053 uses 10% YTM.
-**Cross-Exam Context:** IV covers bond pricing; XXI-B builds on it.
-**Manager's Pro-Tip:** When YTM > coupon, bond trades below par. Memorise the five sign conventions — saves seconds on the exam.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PM Fixed Income Portfolio Strategies_24" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A PM buys a bond with coupon 7% p.a. payable annually, face value Rs. 10,00,000, maturity 5 years, YTM 8%. What is the approximate price?]]></text><answers><answer correct="yes"><text><![CDATA[Rs. 9,60,073]]></text></answer><answer correct="no"><text><![CDATA[Rs. 10,00,000]]></text></answer><answer correct="no"><text><![CDATA[Rs. 9,28,053]]></text></answer><answer correct="no"><text><![CDATA[Rs. 10,39,927]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Price = 70,000 × PVIFA(8%,5) + 10,00,000 × PVIF(8%,5) = 70,000 × 3.9927 + 10,00,000 × 0.6806 = 2,79,489 + 6,80,583 = 9,60,072 ≈ Rs. 9,60,073.
+<B>The Trap:</B> Rs. 10,00,000 assumes par; Rs. 10,39,927 uses wrong discount direction; Rs. 9,28,053 uses 10% YTM.
+<B>Cross-Exam Context:</B> IV covers bond pricing; XXI-B builds on it.
+<B>Manager's Pro-Tip:</B> When YTM > coupon, bond trades below par. Memorise the five sign conventions — saves seconds on the exam.]]></text></explanation></question></QF>

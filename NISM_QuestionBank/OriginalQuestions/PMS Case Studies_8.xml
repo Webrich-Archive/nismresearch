@@ -1,18 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PMS Case Studies_8" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[You are evaluating three fixed income securities based on their yield and duration: Security A: Yield = 6%, Duration = 5 years Security B: Yield = 5%, Duration = 7 years Security C: Yield = 4%, Duration = 4 years
+<?xml version="1.0" encoding="UTF-8"?><QF id="PMS Case Studies_8" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[You are evaluating three fixed income securities based on their yield and duration: Security A: Yield = 6%, Duration = 5 years Security B: Yield = 5%, Duration = 7 years Security C: Yield = 4%, Duration = 4 years
 
-If interest rates increase by 1%, which security is expected to have the largest percentage decrease in price?]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[Security B]]></text></answer>
-            <answer correct="no"><text><![CDATA[Security A]]></text></answer>
-            <answer correct="no"><text><![CDATA[Security C]]></text></answer>
-            <answer correct="no"><text><![CDATA[Cannot determine from the given data]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Percentage price change approximately = -Duration x change in yield. For a +1% (100 bps) rate hike: A loses ~5%, B loses ~7%, C loses ~4%. Security B suffers the largest percentage price drop.
-**The Trap:** This is the mirror of the 'most sensitive' question - but candidates who guess Security A (highest yield) or Security C (shortest duration) are still conflating yield risk with rate risk.
-**Cross-Exam Context:** Duration-based price change estimation appears in NISM-VII (Securities Operations), NISM-XV (Research Analyst), and NISM-XXI-B (PMS Managers).
-**Distributor's Pro-Tip:** Before a rate-hike cycle, actively rotate HNI debt PMS allocations into short-duration or floating-rate sleeves - this single duration conversation can prevent a 5-7% mark-to-market hit and keep the client invested through the cycle.]]></text></explanation>
-    </question>
-</QF>
+If interest rates increase by 1%, which security is expected to have the largest percentage decrease in price?]]></text><answers><answer correct="yes"><text><![CDATA[Security B]]></text></answer><answer correct="no"><text><![CDATA[Security A]]></text></answer><answer correct="no"><text><![CDATA[Security C]]></text></answer><answer correct="no"><text><![CDATA[Cannot determine from the given data]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Percentage price change approximately = -Duration x change in yield. For a +1% (100 bps) rate hike: A loses ~5%, B loses ~7%, C loses ~4%. Security B suffers the largest percentage price drop.
+<B>The Trap:</B> This is the mirror of the 'most sensitive' question - but candidates who guess Security A (highest yield) or Security C (shortest duration) are still conflating yield risk with rate risk.
+<B>Cross-Exam Context:</B> Duration-based price change estimation appears in NISM-VII (Securities Operations), NISM-XV (Research Analyst), and NISM-XXI-B (PMS Managers).
+<B>Distributor's Pro-Tip:</B> Before a rate-hike cycle, actively rotate HNI debt PMS allocations into short-duration or floating-rate sleeves - this single duration conversation can prevent a 5-7% mark-to-market hit and keep the client invested through the cycle.]]></text></explanation></question></QF>

@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="SIA SSE Registration and Listing_17" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[In Table 3.1 (Mandatory Criteria for NPO Registration), which of the following is the indicator listed against 'Registration with Income Tax as an NPO'?]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[TAN (Tax Deduction Account Number)]]></text></answer>
-            <answer correct="yes"><text><![CDATA[Valid IT PAN]]></text></answer>
-            <answer correct="no"><text><![CDATA[GSTIN]]></text></answer>
-            <answer correct="no"><text><![CDATA[CIN (Corporate Identification Number)]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Table 3.1 explicitly lists 'IT PAN' as the indicator with the detail 'Valid IT PAN' under the Broad Parameter 'Registration with Income Tax as an NPO'. The PAN is the income-tax identifier; TAN is for TDS compliance, GSTIN is for GST, CIN is for companies (relevant only for Section 8 Companies, not trusts/societies).
-**The Trap:** Candidates who administer tax may confuse TAN and PAN. GSTIN is irrelevant to NPO income-tax status. CIN is form-specific (only companies have it).
-**Cross-Exam Context:** V-A / X-A cover PAN as KYC requirement. XII (SMF) tests PAN in the capital-market-KYC chapter. XXIV (AML) requires PAN matching against sanction lists.
-**Assessor's Pro-Tip:** Always physically verify the PAN card image against the digitally-signed 12AB order and the SSE application form — they must match character-for-character. A stale / re-issued PAN with minor change (e.g., after name change) is a classic deficiency.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="SIA SSE Registration and Listing_17" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[In Table 3.1 (Mandatory Criteria for NPO Registration), which of the following is the indicator listed against 'Registration with Income Tax as an NPO'?]]></text><answers><answer correct="no"><text><![CDATA[TAN (Tax Deduction Account Number)]]></text></answer><answer correct="yes"><text><![CDATA[Valid IT PAN]]></text></answer><answer correct="no"><text><![CDATA[GSTIN]]></text></answer><answer correct="no"><text><![CDATA[CIN (Corporate Identification Number)]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Table 3.1 explicitly lists 'IT PAN' as the indicator with the detail 'Valid IT PAN' under the Broad Parameter 'Registration with Income Tax as an NPO'. The PAN is the income-tax identifier; TAN is for TDS compliance, GSTIN is for GST, CIN is for companies (relevant only for Section 8 Companies, not trusts/societies).
+<B>The Trap:</B> Candidates who administer tax may confuse TAN and PAN. GSTIN is irrelevant to NPO income-tax status. CIN is form-specific (only companies have it).
+<B>Cross-Exam Context:</B> V-A / X-A cover PAN as KYC requirement. XII (SMF) tests PAN in the capital-market-KYC chapter. XXIV (AML) requires PAN matching against sanction lists.
+<B>Assessor's Pro-Tip:</B> Always physically verify the PAN card image against the digitally-signed 12AB order and the SSE application form — they must match character-for-character. A stale / re-issued PAN with minor change (e.g., after name change) is a classic deficiency.]]></text></explanation></question></QF>

@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CIII Regulatory Framework_2" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Aravalli Long-Short Fund (open-ended Category III AIF) has a NAV of INR 250 crore. The CIO wants to know the maximum permissible total exposure (long + short, after offsetting) as per SEBI prudential norms. What is the maximum permissible leverage exposure?]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[INR 250 crore (1x NAV)]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 1,000 crore (4x NAV)]]></text></answer>
-            <answer correct="yes"><text><![CDATA[INR 500 crore (2x NAV)]]></text></answer>
-            <answer correct="no"><text><![CDATA[Zero leverage is permitted for Cat III AIFs]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** SEBI has prescribed that leverage of a Category III AIF shall not exceed 2 times of NAV. Leverage = Total exposure (Long + Short after offsetting) / NAV. Max exposure = 2 × INR 250 cr = INR 500 crore. Reported at end of day to custodian; any breach must be squared off by next working day.
-**The Trap:** Option A (1x) is the zero-net-leverage reading. Option B (4x) is the SIF multi-strategy cap or a made-up figure. Option D is the Cat I/II zero-leverage rule — swapped category.
-**Cross-Exam Context:** XIX-D tests Cat I/II zero leverage. VIII (Equity Derivatives) covers gross vs. net exposure. XIX-E's 2x NAV cap is the distinctive Cat III lever.
-**Manager's Pro-Tip:** The 2x cap is continuous, not end-of-month. Report EOD leverage to custodian; on a breach, inform all investors before 10 AM next working day and square off by EOD. Size pair-trades against the cap on gross notional, net of offsetting permitted by SEBI.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Regulatory Framework_2" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Aravalli Long-Short Fund (open-ended Category III AIF) has a NAV of INR 250 crore. The CIO wants to know the maximum permissible total exposure (long + short, after offsetting) as per SEBI prudential norms. What is the maximum permissible leverage exposure?]]></text><answers><answer correct="no"><text><![CDATA[INR 250 crore (1x NAV)]]></text></answer><answer correct="no"><text><![CDATA[INR 1,000 crore (4x NAV)]]></text></answer><answer correct="yes"><text><![CDATA[INR 500 crore (2x NAV)]]></text></answer><answer correct="no"><text><![CDATA[Zero leverage is permitted for Cat III AIFs]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> SEBI has prescribed that leverage of a Category III AIF shall not exceed 2 times of NAV. Leverage = Total exposure (Long + Short after offsetting) / NAV. Max exposure = 2 × INR 250 cr = INR 500 crore. Reported at end of day to custodian; any breach must be squared off by next working day.
+<B>The Trap:</B> Option A (1x) is the zero-net-leverage reading. Option B (4x) is the SIF multi-strategy cap or a made-up figure. Option D is the Cat I/II zero-leverage rule — swapped category.
+<B>Cross-Exam Context:</B> XIX-D tests Cat I/II zero leverage. VIII (Equity Derivatives) covers gross vs. net exposure. XIX-E's 2x NAV cap is the distinctive Cat III lever.
+<B>Manager's Pro-Tip:</B> The 2x cap is continuous, not end-of-month. Report EOD leverage to custodian; on a breach, inform all investors before 10 AM next working day and square off by EOD. Size pair-trades against the cap on gross notional, net of offsetting permitted by SEBI.]]></text></explanation></question></QF>

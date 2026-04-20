@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PMS Performance Measurement_21" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Portfolio return 10.5%, risk-free 5.5%, sigma 6.5%. Sharpe ratio (approx):]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[0.77]]></text></answer>
-            <answer correct="no"><text><![CDATA[1.00]]></text></answer>
-            <answer correct="no"><text><![CDATA[1.25]]></text></answer>
-            <answer correct="no"><text><![CDATA[0.50]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Sharpe = (10.5 - 5.5)/6.5 = 5/6.5 = 0.7692.
-**The Trap:** Other values come from arithmetic errors.
-**Cross-Exam Context:** Workbook example.
-**Distributor's Pro-Tip:** Benchmark Sharpe >= 0.7 is broadly considered good for equity PMs.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PMS Performance Measurement_21" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Portfolio return 10.5%, risk-free 5.5%, sigma 6.5%. Sharpe ratio (approx):]]></text><answers><answer correct="yes"><text><![CDATA[0.77]]></text></answer><answer correct="no"><text><![CDATA[1.00]]></text></answer><answer correct="no"><text><![CDATA[1.25]]></text></answer><answer correct="no"><text><![CDATA[0.50]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Sharpe = (10.5 - 5.5)/6.5 = 5/6.5 = 0.7692.
+<B>The Trap:</B> Other values come from arithmetic errors.
+<B>Cross-Exam Context:</B> Workbook example.
+<B>Distributor's Pro-Tip:</B> Benchmark Sharpe >= 0.7 is broadly considered good for equity PMs.]]></text></explanation></question></QF>

@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM Fund Structuring_27" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA['Koshy Credit AIF' closed with INR 1,000 crore in commitments. Drawdown 1 = 10% (management fees + setup), Drawdown 2 = 25% (Deal A), Drawdown 3 = 20% (Deal B). LP Ms. Nandini Rao's commitment is INR 30 crore. What is the CUMULATIVE capital Ms. Rao has contributed after all three drawdowns?]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[INR 3 crore]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 10.5 crore]]></text></answer>
-            <answer correct="yes"><text><![CDATA[INR 16.5 crore]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 30 crore]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Cumulative drawdown = 10% + 25% + 20% = 55%. Ms. Rao's called capital = 55% x INR 30 cr = INR 16.5 crore.
-**The Trap:** Option A is only drawdown 1. Option B is 35% error. Option D is full commitment.
-**Cross-Exam Context:** XIX-A/B/C all test cumulative drawdown maths; XIX-C scenarios include fees-plus-deal drawdowns like this one.
-**Manager's Pro-Tip:** Initial drawdown typically covers setup + first year's management fee — disclose the first-drawdown composition in the PPM so LPs are not surprised by an 'expense-only' first call.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM Fund Structuring_27" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA['Koshy Credit AIF' closed with INR 1,000 crore in commitments. Drawdown 1 = 10% (management fees + setup), Drawdown 2 = 25% (Deal A), Drawdown 3 = 20% (Deal B). LP Ms. Nandini Rao's commitment is INR 30 crore. What is the CUMULATIVE capital Ms. Rao has contributed after all three drawdowns?]]></text><answers><answer correct="no"><text><![CDATA[INR 3 crore]]></text></answer><answer correct="no"><text><![CDATA[INR 10.5 crore]]></text></answer><answer correct="yes"><text><![CDATA[INR 16.5 crore]]></text></answer><answer correct="no"><text><![CDATA[INR 30 crore]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Cumulative drawdown = 10% + 25% + 20% = 55%. Ms. Rao's called capital = 55% x INR 30 cr = INR 16.5 crore.
+<B>The Trap:</B> Option A is only drawdown 1. Option B is 35% error. Option D is full commitment.
+<B>Cross-Exam Context:</B> XIX-A/B/C all test cumulative drawdown maths; XIX-C scenarios include fees-plus-deal drawdowns like this one.
+<B>Manager's Pro-Tip:</B> Initial drawdown typically covers setup + first year's management fee — disclose the first-drawdown composition in the PPM so LPs are not surprised by an 'expense-only' first call.]]></text></explanation></question></QF>

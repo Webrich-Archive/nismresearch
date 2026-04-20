@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CIII Fund Structuring_40" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[The Sahyadri Stat-Arb Fund has a master in India with total NAV INR 400 crore across 40,00,000 units (NAV Rs. 1,000). An offshore feeder (Mauritius) holds 5,00,000 master units. Management fee at master: 2% p.a., accrued daily, shown via master NAV. Feeder charges a nominal USD 1,000 admin fee only. What is the feeder's effective economic exposure at a given day's NAV strike of Rs. 1,020?]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[INR 50 crore (5,00,000 units × Rs. 1,000 at old NAV)]]></text></answer>
-            <answer correct="yes"><text><![CDATA[INR 51 crore (5,00,000 units × Rs. 1,020 current NAV)]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 50 crore less the 2% master management fee deducted at feeder level]]></text></answer>
-            <answer correct="no"><text><![CDATA[USD 1,000 only (the feeder's nominal admin fee)]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Feeder holds 5,00,000 units in the master. Current NAV is Rs. 1,020 — the 2% management fee is already reflected in the master NAV (via daily accrual), NOT separately at feeder. Feeder's economic exposure = 5,00,000 x 1,020 = INR 51 crore. The USD 1,000 symbolic fee at feeder is trivial and not the economic exposure.
-**The Trap:** Option A uses stale NAV. Option C double-counts the management fee (already in the master NAV). Option D confuses the fee with the exposure.
-**Cross-Exam Context:** Master-feeder NAV math is consistent across XIX-C/D/E.
-**Manager's Pro-Tip:** In master-feeder, always strike the master NAV first, then compute feeder NAV as (feeder's master-unit-count x master NAV) less feeder-level expenses. Feeder expenses should be immaterial — if they aren't, re-negotiate or restructure.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Fund Structuring_40" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[The Sahyadri Stat-Arb Fund has a master in India with total NAV INR 400 crore across 40,00,000 units (NAV Rs. 1,000). An offshore feeder (Mauritius) holds 5,00,000 master units. Management fee at master: 2% p.a., accrued daily, shown via master NAV. Feeder charges a nominal USD 1,000 admin fee only. What is the feeder's effective economic exposure at a given day's NAV strike of Rs. 1,020?]]></text><answers><answer correct="no"><text><![CDATA[INR 50 crore (5,00,000 units × Rs. 1,000 at old NAV)]]></text></answer><answer correct="yes"><text><![CDATA[INR 51 crore (5,00,000 units × Rs. 1,020 current NAV)]]></text></answer><answer correct="no"><text><![CDATA[INR 50 crore less the 2% master management fee deducted at feeder level]]></text></answer><answer correct="no"><text><![CDATA[USD 1,000 only (the feeder's nominal admin fee)]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Feeder holds 5,00,000 units in the master. Current NAV is Rs. 1,020 — the 2% management fee is already reflected in the master NAV (via daily accrual), NOT separately at feeder. Feeder's economic exposure = 5,00,000 x 1,020 = INR 51 crore. The USD 1,000 symbolic fee at feeder is trivial and not the economic exposure.
+<B>The Trap:</B> Option A uses stale NAV. Option C double-counts the management fee (already in the master NAV). Option D confuses the fee with the exposure.
+<B>Cross-Exam Context:</B> Master-feeder NAV math is consistent across XIX-C/D/E.
+<B>Manager's Pro-Tip:</B> In master-feeder, always strike the master NAV first, then compute feeder NAV as (feeder's master-unit-count x master NAV) less feeder-level expenses. Feeder expenses should be immaterial — if they aren't, re-negotiate or restructure.]]></text></explanation></question></QF>

@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PM Derivatives_4" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[DELTA of a call option is approximately:]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[Between 0 and 1]]></text></answer>
-            <answer correct="no"><text><![CDATA[Always 1]]></text></answer>
-            <answer correct="no"><text><![CDATA[Always 0]]></text></answer>
-            <answer correct="no"><text><![CDATA[Infinity]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Call delta ranges from 0 (far OTM) to 1 (deep ITM). Put delta from -1 to 0.
-**The Trap:** Extreme values only in limits.
-**Cross-Exam Context:** VIII Greeks.
-**Manager's Pro-Tip:** Delta = approximate hedge ratio — how many shares to short per call written.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PM Derivatives_4" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[DELTA of a call option is approximately:]]></text><answers><answer correct="yes"><text><![CDATA[Between 0 and 1]]></text></answer><answer correct="no"><text><![CDATA[Always 1]]></text></answer><answer correct="no"><text><![CDATA[Always 0]]></text></answer><answer correct="no"><text><![CDATA[Infinity]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Call delta ranges from 0 (far OTM) to 1 (deep ITM). Put delta from -1 to 0.
+<B>The Trap:</B> Extreme values only in limits.
+<B>Cross-Exam Context:</B> VIII Greeks.
+<B>Manager's Pro-Tip:</B> Delta = approximate hedge ratio — how many shares to short per call written.]]></text></explanation></question></QF>

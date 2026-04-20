@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CII Fund Structuring_39" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA['Narmada Debt AIF' has 3 LPs: Mr. P - INR 60 cr, Mr. Q - INR 30 cr, Mr. R - INR 10 cr. Total commitment INR 100 cr. A drawdown of 40% is called. Calculate Mr. Q's drawdown.]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[INR 4 crore]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 8 crore]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 16 crore]]></text></answer>
-            <answer correct="yes"><text><![CDATA[INR 12 crore]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Drawdown per LP = 40% x commitment. For Mr. Q: 40% x INR 30 crore = INR 12 crore.
-**The Trap:** INR 4 cr uses ~13%. INR 8 cr uses ~27%. INR 16 cr uses ~53%.
-**Cross-Exam Context:** XIX-C tests multiple LP pro-rations. XIX-D adds defaulting LP twists.
-**Manager's Pro-Tip:** Automate drawdown calculations in your fund administrator's software - manual spreadsheets cause rounding errors that compound across 20+ LP tranches.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CII Fund Structuring_39" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA['Narmada Debt AIF' has 3 LPs: Mr. P - INR 60 cr, Mr. Q - INR 30 cr, Mr. R - INR 10 cr. Total commitment INR 100 cr. A drawdown of 40% is called. Calculate Mr. Q's drawdown.]]></text><answers><answer correct="no"><text><![CDATA[INR 4 crore]]></text></answer><answer correct="no"><text><![CDATA[INR 8 crore]]></text></answer><answer correct="no"><text><![CDATA[INR 16 crore]]></text></answer><answer correct="yes"><text><![CDATA[INR 12 crore]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Drawdown per LP = 40% x commitment. For Mr. Q: 40% x INR 30 crore = INR 12 crore.
+<B>The Trap:</B> INR 4 cr uses ~13%. INR 8 cr uses ~27%. INR 16 cr uses ~53%.
+<B>Cross-Exam Context:</B> XIX-C tests multiple LP pro-rations. XIX-D adds defaulting LP twists.
+<B>Manager's Pro-Tip:</B> Automate drawdown calculations in your fund administrator's software - manual spreadsheets cause rounding errors that compound across 20+ LP tranches.]]></text></explanation></question></QF>

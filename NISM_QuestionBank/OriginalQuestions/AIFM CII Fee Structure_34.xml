@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CII Fee Structure_34" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Vaigai Agri Fund (Cat I): Committed INR 60 cr, Hurdle 12% compounded. Compute the incremental HURDLE RETURN accrued IN YEAR 2 only (not cumulative).]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[INR 7.20 crore]]></text></answer>
-            <answer correct="yes"><text><![CDATA[INR 8.064 crore]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 15.264 crore]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 14.40 crore]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** End Year 1 Hurdle NAV = INR 60 x 1.12 = INR 67.20 cr. End Year 2 Hurdle NAV = INR 60 x (1.12)^2 = INR 75.264 cr. Incremental Year-2 hurdle = 75.264 - 67.20 = INR 8.064 crore. (Compound mechanic: Year-2 hurdle is 12% of the prior Hurdle NAV.)
-**The Trap:** A is simple Year-1 hurdle; C is cumulative 2-year hurdle (15.264); D is simple 12% x 2 years x 60 cr.
-**Cross-Exam Context:** XIX-C tests compound hurdle across years. Compound vs simple is a common trap.
-**Manager's Pro-Tip:** Compounding matters more for longer-life funds. In a 7-year Infra fund the difference between simple 10% and compound 10% over 7 years is material (70% vs 94.87%) — cite compound in your PPM explicitly and show the multi-year schedule.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CII Fee Structure_34" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Vaigai Agri Fund (Cat I): Committed INR 60 cr, Hurdle 12% compounded. Compute the incremental HURDLE RETURN accrued IN YEAR 2 only (not cumulative).]]></text><answers><answer correct="no"><text><![CDATA[INR 7.20 crore]]></text></answer><answer correct="yes"><text><![CDATA[INR 8.064 crore]]></text></answer><answer correct="no"><text><![CDATA[INR 15.264 crore]]></text></answer><answer correct="no"><text><![CDATA[INR 14.40 crore]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> End Year 1 Hurdle NAV = INR 60 x 1.12 = INR 67.20 cr. End Year 2 Hurdle NAV = INR 60 x (1.12)^2 = INR 75.264 cr. Incremental Year-2 hurdle = 75.264 - 67.20 = INR 8.064 crore. (Compound mechanic: Year-2 hurdle is 12% of the prior Hurdle NAV.)
+<B>The Trap:</B> A is simple Year-1 hurdle; C is cumulative 2-year hurdle (15.264); D is simple 12% x 2 years x 60 cr.
+<B>Cross-Exam Context:</B> XIX-C tests compound hurdle across years. Compound vs simple is a common trap.
+<B>Manager's Pro-Tip:</B> Compounding matters more for longer-life funds. In a 7-year Infra fund the difference between simple 10% and compound 10% over 7 years is material (70% vs 94.87%) — cite compound in your PPM explicitly and show the multi-year schedule.]]></text></explanation></question></QF>

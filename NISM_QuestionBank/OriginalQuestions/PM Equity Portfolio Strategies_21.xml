@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PM Equity Portfolio Strategies_21" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[In alpha-beta separation, a portfolio manager wants to isolate alpha from market beta. Which of the following combinations achieves this?]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[Long active portfolio + Short market-neutral index]]></text></answer>
-            <answer correct="yes"><text><![CDATA[Long active portfolio + Short broad-market index/futures]]></text></answer>
-            <answer correct="no"><text><![CDATA[Long passive ETF + Short active portfolio]]></text></answer>
-            <answer correct="no"><text><![CDATA[Long active portfolio + Long broad-market index]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** To strip market beta from an active portfolio, go long the active portfolio and short the broad-market index (via futures or ETFs). The residual is alpha. Beta can then be overlaid separately via a passive index exposure.
-**The Trap:** Option A (short market-neutral) makes no sense — market-neutral has zero beta. The correct hedge uses a long-beta instrument (market index/futures).
-**Cross-Exam Context:** VIII (Equity Derivatives) covers index-futures hedging math; XXI-B combines with portable-alpha concept.
-**Manager's Pro-Tip:** Portable alpha = take alpha from one asset class and transport beta from another — popular with institutional pension funds globally, less common in Indian PMS.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PM Equity Portfolio Strategies_21" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[In alpha-beta separation, a portfolio manager wants to isolate alpha from market beta. Which of the following combinations achieves this?]]></text><answers><answer correct="no"><text><![CDATA[Long active portfolio + Short market-neutral index]]></text></answer><answer correct="yes"><text><![CDATA[Long active portfolio + Short broad-market index/futures]]></text></answer><answer correct="no"><text><![CDATA[Long passive ETF + Short active portfolio]]></text></answer><answer correct="no"><text><![CDATA[Long active portfolio + Long broad-market index]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> To strip market beta from an active portfolio, go long the active portfolio and short the broad-market index (via futures or ETFs). The residual is alpha. Beta can then be overlaid separately via a passive index exposure.
+<B>The Trap:</B> Option A (short market-neutral) makes no sense — market-neutral has zero beta. The correct hedge uses a long-beta instrument (market index/futures).
+<B>Cross-Exam Context:</B> VIII (Equity Derivatives) covers index-futures hedging math; XXI-B combines with portable-alpha concept.
+<B>Manager's Pro-Tip:</B> Portable alpha = take alpha from one asset class and transport beta from another — popular with institutional pension funds globally, less common in Indian PMS.]]></text></explanation></question></QF>

@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PM Capital Market Theory_17" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Portfolio has 50% Market (σm = 20%) + 50% Risk-free. Portfolio σ is:]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[20%]]></text></answer>
-            <answer correct="yes"><text><![CDATA[10%]]></text></answer>
-            <answer correct="no"><text><![CDATA[15%]]></text></answer>
-            <answer correct="no"><text><![CDATA[0%]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** σp = w_m × σm (because risk-free has σ = 0 and cov with market = 0). σp = 0.5 × 20% = 10%.
-**The Trap:** Not a weighted average of individual σs when one is zero with zero cov — it simplifies.
-**Cross-Exam Context:** CML arithmetic.
-**Manager's Pro-Tip:** This linear relation makes CML a straight line — not generally true for two risky assets.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PM Capital Market Theory_17" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Portfolio has 50% Market (σm = 20%) + 50% Risk-free. Portfolio σ is:]]></text><answers><answer correct="no"><text><![CDATA[20%]]></text></answer><answer correct="yes"><text><![CDATA[10%]]></text></answer><answer correct="no"><text><![CDATA[15%]]></text></answer><answer correct="no"><text><![CDATA[0%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> σp = w_m × σm (because risk-free has σ = 0 and cov with market = 0). σp = 0.5 × 20% = 10%.
+<B>The Trap:</B> Not a weighted average of individual σs when one is zero with zero cov — it simplifies.
+<B>Cross-Exam Context:</B> CML arithmetic.
+<B>Manager's Pro-Tip:</B> This linear relation makes CML a straight line — not generally true for two risky assets.]]></text></explanation></question></QF>

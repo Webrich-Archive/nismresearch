@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CII Fund Performance and Benchmarking_31" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Godavari VC AIF (PIC INR 50 cr). End-of-year Net AUM: Y1 56.42, Y2 63.30, Y3 75.09, Y4 87.86 (all INR cr), zero distributions till Y4. In Y5, distribution of INR 102.62 cr and AUM = 0. TVPI at Y4 is closest to:]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[1.13]]></text></answer>
-            <answer correct="no"><text><![CDATA[1.50]]></text></answer>
-            <answer correct="yes"><text><![CDATA[1.76]]></text></answer>
-            <answer correct="no"><text><![CDATA[2.05]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** At Y4: RVPI = 87.86 / 50 = 1.7572 ≈ 1.76. DPI at Y4 = 0 (no distributions yet). TVPI = DPI + RVPI = 0 + 1.76 = 1.76. Matches PDF Example 7.2 best-case.
-**The Trap:** 1.13 is Y1 RVPI (56.42/50). 1.50 is Y3 RVPI. 2.05 is Y5 DPI (post-distribution).
-**Cross-Exam Context:** XIX-C, XIX-A test the identical decomposition. Cambridge Associates uses quarterly TVPI snapshots.
-**Manager's Pro-Tip:** Report TVPI every half-year even if DPI = 0 — investors care about RVPI trajectory as a leading indicator of future DPI.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CII Fund Performance and Benchmarking_31" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Godavari VC AIF (PIC INR 50 cr). End-of-year Net AUM: Y1 56.42, Y2 63.30, Y3 75.09, Y4 87.86 (all INR cr), zero distributions till Y4. In Y5, distribution of INR 102.62 cr and AUM = 0. TVPI at Y4 is closest to:]]></text><answers><answer correct="no"><text><![CDATA[1.13]]></text></answer><answer correct="no"><text><![CDATA[1.50]]></text></answer><answer correct="yes"><text><![CDATA[1.76]]></text></answer><answer correct="no"><text><![CDATA[2.05]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> At Y4: RVPI = 87.86 / 50 = 1.7572 ≈ 1.76. DPI at Y4 = 0 (no distributions yet). TVPI = DPI + RVPI = 0 + 1.76 = 1.76. Matches PDF Example 7.2 best-case.
+<B>The Trap:</B> 1.13 is Y1 RVPI (56.42/50). 1.50 is Y3 RVPI. 2.05 is Y5 DPI (post-distribution).
+<B>Cross-Exam Context:</B> XIX-C, XIX-A test the identical decomposition. Cambridge Associates uses quarterly TVPI snapshots.
+<B>Manager's Pro-Tip:</B> Report TVPI every half-year even if DPI = 0 — investors care about RVPI trajectory as a leading indicator of future DPI.]]></text></explanation></question></QF>

@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CII Fee Structure_37" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Referring to the Chapter 6 sensitivity illustration: if the Hurdle Rate on Fund ABC is INCREASED from 10% to 12%, what happens to the Incentive Fee payable to the GP, all else equal?]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[Incentive Fee increases proportionally with the hurdle]]></text></answer>
-            <answer correct="yes"><text><![CDATA[Incentive Fee DROPS significantly because the threshold for excess return rises]]></text></answer>
-            <answer correct="no"><text><![CDATA[Incentive Fee is unaffected; hurdle only impacts LP preferred return]]></text></answer>
-            <answer correct="no"><text><![CDATA[Incentive Fee becomes tax-exempt under Section 115UB]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Chapter 6 illustrates: at 10% hurdle, incentive fees are ~INR 21.35 lakh + 41.99 lakh (Y1+Y2). At 12% hurdle the same scenario drops fees to INR 6.35 lakh + INR 8.69 lakh. Higher hurdle = higher benchmark to cross = LESS excess return eligible for GP carry.
-**The Trap:** A is reverse; C ignores the waterfall mechanic; D confuses hurdle with tax.
-**Cross-Exam Context:** Same sensitivity pattern in XIX-C. Hurdle is the #1 lever LPs ask for in negotiations.
-**Manager's Pro-Tip:** GPs typically push for 8% hurdle; LPs push for 10-12%. The 'market-clearing' Indian PE/VC hurdle hovers around 8-10% for vanilla funds. For Infra/Credit funds it tends higher (10-12%) given lower risk profile.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CII Fee Structure_37" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Referring to the Chapter 6 sensitivity illustration: if the Hurdle Rate on Fund ABC is INCREASED from 10% to 12%, what happens to the Incentive Fee payable to the GP, all else equal?]]></text><answers><answer correct="no"><text><![CDATA[Incentive Fee increases proportionally with the hurdle]]></text></answer><answer correct="yes"><text><![CDATA[Incentive Fee DROPS significantly because the threshold for excess return rises]]></text></answer><answer correct="no"><text><![CDATA[Incentive Fee is unaffected; hurdle only impacts LP preferred return]]></text></answer><answer correct="no"><text><![CDATA[Incentive Fee becomes tax-exempt under Section 115UB]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Chapter 6 illustrates: at 10% hurdle, incentive fees are ~INR 21.35 lakh + 41.99 lakh (Y1+Y2). At 12% hurdle the same scenario drops fees to INR 6.35 lakh + INR 8.69 lakh. Higher hurdle = higher benchmark to cross = LESS excess return eligible for GP carry.
+<B>The Trap:</B> A is reverse; C ignores the waterfall mechanic; D confuses hurdle with tax.
+<B>Cross-Exam Context:</B> Same sensitivity pattern in XIX-C. Hurdle is the #1 lever LPs ask for in negotiations.
+<B>Manager's Pro-Tip:</B> GPs typically push for 8% hurdle; LPs push for 10-12%. The 'market-clearing' Indian PE/VC hurdle hovers around 8-10% for vanilla funds. For Infra/Credit funds it tends higher (10-12%) given lower risk profile.]]></text></explanation></question></QF>

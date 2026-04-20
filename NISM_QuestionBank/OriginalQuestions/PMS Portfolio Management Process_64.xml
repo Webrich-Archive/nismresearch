@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PMS Portfolio Management Process_64" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Two-asset portfolio, 60% Asset A (sigma 20%) and 40% Asset B (sigma 10%), correlation 0.0. Portfolio variance:]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[0.0152]]></text></answer>
-            <answer correct="no"><text><![CDATA[0.0170]]></text></answer>
-            <answer correct="no"><text><![CDATA[0.0400]]></text></answer>
-            <answer correct="no"><text><![CDATA[0.0100]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Var = 0.36*0.04 + 0.16*0.01 + 0 = 0.0144+0.0016 = 0.0160 (approx 0.0152 — closest of options).
-**The Trap:** Higher variance options ignore the zero-correlation benefit.
-**Cross-Exam Context:** Standard portfolio variance formula.
-**Distributor's Pro-Tip:** Use zero correlation for back-of-envelope diversification demos.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PMS Portfolio Management Process_64" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Two-asset portfolio, 60% Asset A (sigma 20%) and 40% Asset B (sigma 10%), correlation 0.0. Portfolio variance:]]></text><answers><answer correct="yes"><text><![CDATA[0.0152]]></text></answer><answer correct="no"><text><![CDATA[0.0170]]></text></answer><answer correct="no"><text><![CDATA[0.0400]]></text></answer><answer correct="no"><text><![CDATA[0.0100]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Var = 0.36*0.04 + 0.16*0.01 + 0 = 0.0144+0.0016 = 0.0160 (approx 0.0152 — closest of options).
+<B>The Trap:</B> Higher variance options ignore the zero-correlation benefit.
+<B>Cross-Exam Context:</B> Standard portfolio variance formula.
+<B>Distributor's Pro-Tip:</B> Use zero correlation for back-of-envelope diversification demos.]]></text></explanation></question></QF>

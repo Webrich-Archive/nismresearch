@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PM Risk_27" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[The CVaR (Expected Shortfall) at 95% of a portfolio is Rs. 3 cr. This means:]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[The portfolio will lose Rs. 3 cr 95% of the time]]></text></answer>
-            <answer correct="yes"><text><![CDATA[Given that losses exceed the 95% VaR, the EXPECTED loss is Rs. 3 cr]]></text></answer>
-            <answer correct="no"><text><![CDATA[There is a 5% probability of losing exactly Rs. 3 cr]]></text></answer>
-            <answer correct="no"><text><![CDATA[The minimum loss at 95% confidence is Rs. 3 cr]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** CVaR = Expected loss conditional on being in the worst 5% of scenarios. Rs. 3 cr is the average loss in that tail — not a threshold.
-**The Trap:** '95% of the time' confuses probability vs expectation of losses in the tail.
-**Cross-Exam Context:** Core XXI-B.
-**Manager's Pro-Tip:** Report both VaR and CVaR to investors — VaR shows the loss threshold, CVaR shows the average pain beyond it.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PM Risk_27" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[The CVaR (Expected Shortfall) at 95% of a portfolio is Rs. 3 cr. This means:]]></text><answers><answer correct="no"><text><![CDATA[The portfolio will lose Rs. 3 cr 95% of the time]]></text></answer><answer correct="yes"><text><![CDATA[Given that losses exceed the 95% VaR, the EXPECTED loss is Rs. 3 cr]]></text></answer><answer correct="no"><text><![CDATA[There is a 5% probability of losing exactly Rs. 3 cr]]></text></answer><answer correct="no"><text><![CDATA[The minimum loss at 95% confidence is Rs. 3 cr]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> CVaR = Expected loss conditional on being in the worst 5% of scenarios. Rs. 3 cr is the average loss in that tail — not a threshold.
+<B>The Trap:</B> '95% of the time' confuses probability vs expectation of losses in the tail.
+<B>Cross-Exam Context:</B> Core XXI-B.
+<B>Manager's Pro-Tip:</B> Report both VaR and CVaR to investors — VaR shows the loss threshold, CVaR shows the average pain beyond it.]]></text></explanation></question></QF>

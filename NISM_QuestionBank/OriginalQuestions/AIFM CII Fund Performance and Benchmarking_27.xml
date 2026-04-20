@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CII Fund Performance and Benchmarking_27" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[In the Alpha Fund worked example, after returning paid-in capital and hurdle to LPs, the GP catch-up is 25%. Distributable cash flow above hurdle is INR 5,468 crore (i.e., 6840 - 1372). The GP catch-up amount is:]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[INR 547 crore]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 2,187 crore]]></text></answer>
-            <answer correct="no"><text><![CDATA[INR 4,101 crore]]></text></answer>
-            <answer correct="yes"><text><![CDATA[INR 1,367 crore]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Per Step 10 of the worked case: Catch-up = 25% × (Distributable Cash Flow − Hurdle to Investors) = 25% × (6840 − 1372) = 25% × 5468 = INR 1,367 crore. (After catch-up, the residual INR 4,101 cr splits 80:20 LP:GP, i.e., INR 3,280.8 cr to LP and INR 820 cr carry to GP, summing GP take to INR 2,187.2 cr.)
-**The Trap:** INR 547 cr is 10% — wrong percentage. INR 4,101 cr is the post-catch-up residual, not the catch-up itself. INR 2,187 cr is the TOTAL GP distribution (catch-up + carry), not the catch-up alone.
-**Cross-Exam Context:** XIX-C, XIX-A test waterfall mechanics. XXI-B PMS uses HWM-crystallisation — different from PE catch-up.
-**Manager's Pro-Tip:** In the PPM, show LPs a 'catch-up economics' example: 25% catch-up gives GP a 40% effective share of excess return (vs 20% without catch-up) — transparency pre-empts disputes at wind-up.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CII Fund Performance and Benchmarking_27" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[In the Alpha Fund worked example, after returning paid-in capital and hurdle to LPs, the GP catch-up is 25%. Distributable cash flow above hurdle is INR 5,468 crore (i.e., 6840 - 1372). The GP catch-up amount is:]]></text><answers><answer correct="no"><text><![CDATA[INR 547 crore]]></text></answer><answer correct="no"><text><![CDATA[INR 2,187 crore]]></text></answer><answer correct="no"><text><![CDATA[INR 4,101 crore]]></text></answer><answer correct="yes"><text><![CDATA[INR 1,367 crore]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Per Step 10 of the worked case: Catch-up = 25% × (Distributable Cash Flow − Hurdle to Investors) = 25% × (6840 − 1372) = 25% × 5468 = INR 1,367 crore. (After catch-up, the residual INR 4,101 cr splits 80:20 LP:GP, i.e., INR 3,280.8 cr to LP and INR 820 cr carry to GP, summing GP take to INR 2,187.2 cr.)
+<B>The Trap:</B> INR 547 cr is 10% — wrong percentage. INR 4,101 cr is the post-catch-up residual, not the catch-up itself. INR 2,187 cr is the TOTAL GP distribution (catch-up + carry), not the catch-up alone.
+<B>Cross-Exam Context:</B> XIX-C, XIX-A test waterfall mechanics. XXI-B PMS uses HWM-crystallisation — different from PE catch-up.
+<B>Manager's Pro-Tip:</B> In the PPM, show LPs a 'catch-up economics' example: 25% catch-up gives GP a 40% effective share of excess return (vs 20% without catch-up) — transparency pre-empts disputes at wind-up.]]></text></explanation></question></QF>

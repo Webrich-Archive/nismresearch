@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM Valuation_18" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[A Category III AIF holds a portfolio of listed equities, unlisted equities, listed debt securities, and exchange-traded index futures. For which category of investment is an independent valuer MANDATORY under SEBI (AIF) Regulations?]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[Listed equities and exchange-traded index futures]]></text></answer>
-            <answer correct="no"><text><![CDATA[Unlisted equities only — listed debt can use market prices]]></text></answer>
-            <answer correct="yes"><text><![CDATA[Unlisted securities AND listed debt securities]]></text></answer>
-            <answer correct="no"><text><![CDATA[All four categories, regardless of market availability]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Per Section 14.14, 'Category III AIFs shall undertake valuation of their investment in UNLISTED SECURITIES AND LISTED DEBT SECURITIES by an independent valuer'. Listed equities and exchange-traded derivatives are marked-to-market using market prices, not a valuer.
-**The Trap:** Option B misses listed debt. Option A is inverted. Option D over-reaches.
-**Cross-Exam Context:** XIX-B (Cat III Distributor) tests this; XIX-C drills into WHY listed debt needs a valuer — many corporate bonds have thin OTC market and no daily screen price, requiring FBIL-based or matrix pricing.
-**Manager's Pro-Tip:** For listed debt, insist your valuer uses FBIL/FIMMDA yields as primary input, not the last exchange-traded print (which may be stale by weeks). Document the hierarchy in your Valuation Policy.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM Valuation_18" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A Category III AIF holds a portfolio of listed equities, unlisted equities, listed debt securities, and exchange-traded index futures. For which category of investment is an independent valuer MANDATORY under SEBI (AIF) Regulations?]]></text><answers><answer correct="no"><text><![CDATA[Listed equities and exchange-traded index futures]]></text></answer><answer correct="no"><text><![CDATA[Unlisted equities only — listed debt can use market prices]]></text></answer><answer correct="yes"><text><![CDATA[Unlisted securities AND listed debt securities]]></text></answer><answer correct="no"><text><![CDATA[All four categories, regardless of market availability]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Per Section 14.14, 'Category III AIFs shall undertake valuation of their investment in UNLISTED SECURITIES AND LISTED DEBT SECURITIES by an independent valuer'. Listed equities and exchange-traded derivatives are marked-to-market using market prices, not a valuer.
+<B>The Trap:</B> Option B misses listed debt. Option A is inverted. Option D over-reaches.
+<B>Cross-Exam Context:</B> XIX-B (Cat III Distributor) tests this; XIX-C drills into WHY listed debt needs a valuer — many corporate bonds have thin OTC market and no daily screen price, requiring FBIL-based or matrix pricing.
+<B>Manager's Pro-Tip:</B> For listed debt, insist your valuer uses FBIL/FIMMDA yields as primary input, not the last exchange-traded print (which may be stale by weeks). Document the hierarchy in your Valuation Policy.]]></text></explanation></question></QF>

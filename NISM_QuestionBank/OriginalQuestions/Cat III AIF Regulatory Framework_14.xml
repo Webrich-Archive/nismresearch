@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="Cat III AIF Regulatory Framework_14" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[What is the 'Aggregate Escrow Demat Account' opened by an AIF used for?]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[Parking uninvested fund corpus before drawdown]]></text></answer>
-            <answer correct="yes"><text><![CDATA[Holding demat units for existing investors who have not provided their demat account details]]></text></answer>
-            <answer correct="no"><text><![CDATA[Collecting performance fees from investors]]></text></answer>
-            <answer correct="no"><text><![CDATA[Holding sponsor commitment units before lock-in]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Per SFA implementation standards, this account holds demat units issued to existing investors who haven't provided their demat details; units move out within 5 working days once details are furnished.
-**The Trap:** Uninvested funds go to liquid mutual funds/treasuries; performance fees and sponsor commitment do not use this account.
-**Cross-Exam Context:** Unique to the AIF dematerialisation framework; no direct Mutual Fund analogue.
-**Distributor's Pro-Tip:** Collect demat details at onboarding itself to avoid parking in the escrow account, which creates operational friction.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="Cat III AIF Regulatory Framework_14" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[What is the 'Aggregate Escrow Demat Account' opened by an AIF used for?]]></text><answers><answer correct="no"><text><![CDATA[Parking uninvested fund corpus before drawdown]]></text></answer><answer correct="yes"><text><![CDATA[Holding demat units for existing investors who have not provided their demat account details]]></text></answer><answer correct="no"><text><![CDATA[Collecting performance fees from investors]]></text></answer><answer correct="no"><text><![CDATA[Holding sponsor commitment units before lock-in]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Per SFA implementation standards, this account holds demat units issued to existing investors who haven't provided their demat details; units move out within 5 working days once details are furnished.
+<B>The Trap:</B> Uninvested funds go to liquid mutual funds/treasuries; performance fees and sponsor commitment do not use this account.
+<B>Cross-Exam Context:</B> Unique to the AIF dematerialisation framework; no direct Mutual Fund analogue.
+<B>Distributor's Pro-Tip:</B> Collect demat details at onboarding itself to avoid parking in the escrow account, which creates operational friction.]]></text></explanation></question></QF>

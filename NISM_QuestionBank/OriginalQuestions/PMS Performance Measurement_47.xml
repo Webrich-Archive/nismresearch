@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PMS Performance Measurement_47" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[A portfolio has three stocks: A (25%, 12%), B (50%, 10%), C (25%, 16%). Expected portfolio return:]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[12.00%]]></text></answer>
-            <answer correct="no"><text><![CDATA[12.22%]]></text></answer>
-            <answer correct="no"><text><![CDATA[12.33%]]></text></answer>
-            <answer correct="no"><text><![CDATA[12.44%]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Return = 0.25*12 + 0.50*10 + 0.25*16 = 3 + 5 + 4 = 12.00%.
-**The Trap:** Other values reflect arithmetic errors.
-**Cross-Exam Context:** Workbook example.
-**Distributor's Pro-Tip:** Always show weighted contribution alongside total portfolio return.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PMS Performance Measurement_47" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A portfolio has three stocks: A (25%, 12%), B (50%, 10%), C (25%, 16%). Expected portfolio return:]]></text><answers><answer correct="yes"><text><![CDATA[12.00%]]></text></answer><answer correct="no"><text><![CDATA[12.22%]]></text></answer><answer correct="no"><text><![CDATA[12.33%]]></text></answer><answer correct="no"><text><![CDATA[12.44%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Return = 0.25*12 + 0.50*10 + 0.25*16 = 3 + 5 + 4 = 12.00%.
+<B>The Trap:</B> Other values reflect arithmetic errors.
+<B>Cross-Exam Context:</B> Workbook example.
+<B>Distributor's Pro-Tip:</B> Always show weighted contribution alongside total portfolio return.]]></text></explanation></question></QF>

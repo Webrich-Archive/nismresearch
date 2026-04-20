@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PM Risk_26" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[A 'black swan' event is:]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[A predictable daily return within 1 sigma]]></text></answer>
-            <answer correct="yes"><text><![CDATA[A large, unexpected, high-impact event that has low-probability but severe consequences]]></text></answer>
-            <answer correct="no"><text><![CDATA[A 5% VaR breach]]></text></answer>
-            <answer correct="no"><text><![CDATA[A Sharpe ratio below 1.0]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Taleb's black-swan definition: rare, high-impact, narratively explained ex-post. VaR/stress testing cannot prevent black swans; only robust portfolio construction can mitigate.
-**The Trap:** Daily within-1-sigma is normal noise; 5% VaR breach is routine tail event, not a black swan.
-**Cross-Exam Context:** XXI-B-specific framing.
-**Manager's Pro-Tip:** Design portfolios to SURVIVE black swans, not PREDICT them — keep cash reserves and avoid over-leverage.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PM Risk_26" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A 'black swan' event is:]]></text><answers><answer correct="no"><text><![CDATA[A predictable daily return within 1 sigma]]></text></answer><answer correct="yes"><text><![CDATA[A large, unexpected, high-impact event that has low-probability but severe consequences]]></text></answer><answer correct="no"><text><![CDATA[A 5% VaR breach]]></text></answer><answer correct="no"><text><![CDATA[A Sharpe ratio below 1.0]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Taleb's black-swan definition: rare, high-impact, narratively explained ex-post. VaR/stress testing cannot prevent black swans; only robust portfolio construction can mitigate.
+<B>The Trap:</B> Daily within-1-sigma is normal noise; 5% VaR breach is routine tail event, not a black swan.
+<B>Cross-Exam Context:</B> XXI-B-specific framing.
+<B>Manager's Pro-Tip:</B> Design portfolios to SURVIVE black swans, not PREDICT them — keep cash reserves and avoid over-leverage.]]></text></explanation></question></QF>

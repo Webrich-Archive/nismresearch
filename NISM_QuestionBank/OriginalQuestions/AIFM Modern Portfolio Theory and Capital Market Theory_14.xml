@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM Modern Portfolio Theory and Capital Market Theory_14" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Saraswati Research Fund has computed the following for four stocks. Rf = 6%, Rm = 14%. Stock X: β = 0.8, expected return 13%. Stock Y: β = 1.2, expected return 14%. Stock Z: β = 1.5, expected return 17%. Stock W: β = 1.0, expected return 16%. Which stock plots ABOVE the SML and is therefore UNDERVALUED?]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[Stock X]]></text></answer>
-            <answer correct="no"><text><![CDATA[Stock Y]]></text></answer>
-            <answer correct="no"><text><![CDATA[Stock Z]]></text></answer>
-            <answer correct="yes"><text><![CDATA[Stock W]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** CAPM required return = Rf + β(Rm−Rf) = 6% + β·8%. Stock X: required 12.4% vs expected 13.0% → +0.6% (above SML, undervalued). Stock Y: required 15.6% vs expected 14.0% → below SML. Stock Z: required 18.0% vs expected 17.0% → below SML. Stock W: required 14.0% vs expected 16.0% → +2.0% above SML and MOST undervalued of all. Since W's excess over required is the largest, W is the clearest 'above SML / undervalued' choice.
-**The Trap:** Candidates who stop at the first 'above-SML' stock pick X (+0.6%). The question asks which plots above SML; both X and W do, but W is the more pronounced case. Exam convention: when multiple qualify, pick the largest deviation.
-**Cross-Exam Context:** XV and XXI-B test identical SML-pricing logic. X-B uses it in valuation modules.
-**Manager's Pro-Tip:** When pitching a public-equity Cat III AIF's investment thesis, frame alpha generation as 'buying above-SML names and avoiding below-SML exposure'. Back it with rolling CAPM residuals — an LP-friendly visualisation.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM Modern Portfolio Theory and Capital Market Theory_14" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Saraswati Research Fund has computed the following for four stocks. Rf = 6%, Rm = 14%. Stock X: β = 0.8, expected return 13%. Stock Y: β = 1.2, expected return 14%. Stock Z: β = 1.5, expected return 17%. Stock W: β = 1.0, expected return 16%. Which stock plots ABOVE the SML and is therefore UNDERVALUED?]]></text><answers><answer correct="no"><text><![CDATA[Stock X]]></text></answer><answer correct="no"><text><![CDATA[Stock Y]]></text></answer><answer correct="no"><text><![CDATA[Stock Z]]></text></answer><answer correct="yes"><text><![CDATA[Stock W]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> CAPM required return = Rf + β(Rm−Rf) = 6% + β·8%. Stock X: required 12.4% vs expected 13.0% → +0.6% (above SML, undervalued). Stock Y: required 15.6% vs expected 14.0% → below SML. Stock Z: required 18.0% vs expected 17.0% → below SML. Stock W: required 14.0% vs expected 16.0% → +2.0% above SML and MOST undervalued of all. Since W's excess over required is the largest, W is the clearest 'above SML / undervalued' choice.
+<B>The Trap:</B> Candidates who stop at the first 'above-SML' stock pick X (+0.6%). The question asks which plots above SML; both X and W do, but W is the more pronounced case. Exam convention: when multiple qualify, pick the largest deviation.
+<B>Cross-Exam Context:</B> XV and XXI-B test identical SML-pricing logic. X-B uses it in valuation modules.
+<B>Manager's Pro-Tip:</B> When pitching a public-equity Cat III AIF's investment thesis, frame alpha generation as 'buying above-SML names and avoiding below-SML exposure'. Back it with rolling CAPM residuals — an LP-friendly visualisation.]]></text></explanation></question></QF>

@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="SIA Reporting_23" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[An SSE-listed NPO provides raw beneficiary data with NO geographic tags. Per Chapter 7.3.2 sample indicator Box 7.2, which is the very FIRST livelihoods indicator an SIA should insist the SE report?]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[Gross annual household income]]></text></answer>
-            <answer correct="no"><text><![CDATA[Number of SHGs formed]]></text></answer>
-            <answer correct="yes"><text><![CDATA[Geographical coverage and outreach along with social composition (SC, ST, OBC, etc.)]]></text></answer>
-            <answer correct="no"><text><![CDATA[Carbon sequestration estimates from tree planting]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Box 7.2 lists 'Geographical coverage' and 'Outreach – along with social composition (SC, ST, OBC, etc.)' as items I and II of livelihoods indicators. Geographic tagging is foundational for all downstream cuts.
-**The Trap:** A and B are listed in Box 7.2 but at positions VIII and II-III — they are downstream of geography/outreach. D is programme-specific (Livelihoods Fund project sub-indicator).
-**Cross-Exam Context:** SC/ST/OBC classification cuts also appear in SEBI EPP disclosures and CSR Rule 7 schedule.
-**Assessor's Pro-Tip:** Always request geo-tagged beneficiary data in the initial SE document request — lat-long at block level or at least pincode. Retro-fitting geography later causes URN-reconciliation issues and is the #1 source of rework in SAS-1100 livelihoods engagements.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="SIA Reporting_23" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[An SSE-listed NPO provides raw beneficiary data with NO geographic tags. Per Chapter 7.3.2 sample indicator Box 7.2, which is the very FIRST livelihoods indicator an SIA should insist the SE report?]]></text><answers><answer correct="no"><text><![CDATA[Gross annual household income]]></text></answer><answer correct="no"><text><![CDATA[Number of SHGs formed]]></text></answer><answer correct="yes"><text><![CDATA[Geographical coverage and outreach along with social composition (SC, ST, OBC, etc.)]]></text></answer><answer correct="no"><text><![CDATA[Carbon sequestration estimates from tree planting]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Box 7.2 lists 'Geographical coverage' and 'Outreach – along with social composition (SC, ST, OBC, etc.)' as items I and II of livelihoods indicators. Geographic tagging is foundational for all downstream cuts.
+<B>The Trap:</B> A and B are listed in Box 7.2 but at positions VIII and II-III — they are downstream of geography/outreach. D is programme-specific (Livelihoods Fund project sub-indicator).
+<B>Cross-Exam Context:</B> SC/ST/OBC classification cuts also appear in SEBI EPP disclosures and CSR Rule 7 schedule.
+<B>Assessor's Pro-Tip:</B> Always request geo-tagged beneficiary data in the initial SE document request — lat-long at block level or at least pincode. Retro-fitting geography later causes URN-reconciliation issues and is the #1 source of rework in SAS-1100 livelihoods engagements.]]></text></explanation></question></QF>

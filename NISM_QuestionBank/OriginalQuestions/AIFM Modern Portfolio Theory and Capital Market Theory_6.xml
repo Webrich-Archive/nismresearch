@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM Modern Portfolio Theory and Capital Market Theory_6" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Narmada Growth AIF holds four portfolio companies with the following weights and expected returns: Co. A (weight 25%, E(r) 10%), Co. B (weight 15%, E(r) 14%), Co. C (weight 35%, E(r) 18%), Co. D (weight 25%, E(r) 22%). What is the expected return of the portfolio?]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[16.00%]]></text></answer>
-            <answer correct="no"><text><![CDATA[14.50%]]></text></answer>
-            <answer correct="yes"><text><![CDATA[16.40%]]></text></answer>
-            <answer correct="no"><text><![CDATA[15.30%]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** E(Rp) = ΣWi·E(Ri) = 0.25×10% + 0.15×14% + 0.35×18% + 0.25×22% = 2.50% + 2.10% + 6.30% + 5.50% = 16.40%.
-**The Trap:** 16.00% is the simple arithmetic average and ignores weights. 14.50% drops the last asset. 15.30% transposes two weights.
-**Cross-Exam Context:** Weighted-average portfolio return is universal across NISM — XV, XIX-A/B, XXI-A/B, X-A/B all test the same.
-**Manager's Pro-Tip:** For a Category II AIF, 'weight' means deployed capital, NOT committed capital. Reporting return-on-committed and return-on-drawn both matter to LPs (the J-curve) — be precise about which you're showing.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM Modern Portfolio Theory and Capital Market Theory_6" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Narmada Growth AIF holds four portfolio companies with the following weights and expected returns: Co. A (weight 25%, E(r) 10%), Co. B (weight 15%, E(r) 14%), Co. C (weight 35%, E(r) 18%), Co. D (weight 25%, E(r) 22%). What is the expected return of the portfolio?]]></text><answers><answer correct="no"><text><![CDATA[16.00%]]></text></answer><answer correct="no"><text><![CDATA[14.50%]]></text></answer><answer correct="yes"><text><![CDATA[16.40%]]></text></answer><answer correct="no"><text><![CDATA[15.30%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> E(Rp) = ΣWi·E(Ri) = 0.25×10% + 0.15×14% + 0.35×18% + 0.25×22% = 2.50% + 2.10% + 6.30% + 5.50% = 16.40%.
+<B>The Trap:</B> 16.00% is the simple arithmetic average and ignores weights. 14.50% drops the last asset. 15.30% transposes two weights.
+<B>Cross-Exam Context:</B> Weighted-average portfolio return is universal across NISM — XV, XIX-A/B, XXI-A/B, X-A/B all test the same.
+<B>Manager's Pro-Tip:</B> For a Category II AIF, 'weight' means deployed capital, NOT committed capital. Reporting return-on-committed and return-on-drawn both matter to LPs (the J-curve) — be precise about which you're showing.]]></text></explanation></question></QF>

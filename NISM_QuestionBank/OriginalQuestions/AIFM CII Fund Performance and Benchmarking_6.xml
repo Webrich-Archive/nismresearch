@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CII Fund Performance and Benchmarking_6" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Kaveri Growth AIF drew INR 100 crore at t=0, paid INR 5 crore of fees and expenses at end of each of Y1 through Y4 (paid out-of-pocket at the fund), and distributed INR 180 crore at end of Y5 (net of all fees/carry/tax). The approximate Net IRR at the investor level is:]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[9.5%]]></text></answer>
-            <answer correct="no"><text><![CDATA[7.5%]]></text></answer>
-            <answer correct="no"><text><![CDATA[12.5%]]></text></answer>
-            <answer correct="no"><text><![CDATA[15.0%]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Investor cash flows: -100 at t0, -5 each at t1..t4, +180 at t5. Solve XIRR: sum of PV = 0. Approximating: at 9.5%, PV(-100) + PV(-5@1..4) + PV(180@5) ≈ -100 - 5*(3.204) + 180/1.573 = -100 -16.02 +114.44 ≈ -1.58. At 9.3% it balances. Net IRR ≈ 9.5%. The Cat I/II rule: include all fee/expense outflows at investor-level to get Net IRR.
-**The Trap:** 7.5% underestimates; 12.5% ignores the intermediate fee drag; 15% is close to Gross IRR of a similar cash profile without the fee outflows.
-**Cross-Exam Context:** Same mechanics appear in XIX-C and XIX-A (distribution side). XXI-B PMS uses time-weighted returns so intermediate client additions/withdrawals don't distort the manager's track record.
-**Manager's Pro-Tip:** When pitching re-ups, Cat I/II managers should compute Net IRR with the actual ACTUAL fee-draw calendar (typically quarterly in arrears), not an annual lump-sum. The difference can be 50-80 bps and shows sophistication to institutional LPs.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CII Fund Performance and Benchmarking_6" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Kaveri Growth AIF drew INR 100 crore at t=0, paid INR 5 crore of fees and expenses at end of each of Y1 through Y4 (paid out-of-pocket at the fund), and distributed INR 180 crore at end of Y5 (net of all fees/carry/tax). The approximate Net IRR at the investor level is:]]></text><answers><answer correct="yes"><text><![CDATA[9.5%]]></text></answer><answer correct="no"><text><![CDATA[7.5%]]></text></answer><answer correct="no"><text><![CDATA[12.5%]]></text></answer><answer correct="no"><text><![CDATA[15.0%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Investor cash flows: -100 at t0, -5 each at t1..t4, +180 at t5. Solve XIRR: sum of PV = 0. Approximating: at 9.5%, PV(-100) + PV(-5@1..4) + PV(180@5) ≈ -100 - 5*(3.204) + 180/1.573 = -100 -16.02 +114.44 ≈ -1.58. At 9.3% it balances. Net IRR ≈ 9.5%. The Cat I/II rule: include all fee/expense outflows at investor-level to get Net IRR.
+<B>The Trap:</B> 7.5% underestimates; 12.5% ignores the intermediate fee drag; 15% is close to Gross IRR of a similar cash profile without the fee outflows.
+<B>Cross-Exam Context:</B> Same mechanics appear in XIX-C and XIX-A (distribution side). XXI-B PMS uses time-weighted returns so intermediate client additions/withdrawals don't distort the manager's track record.
+<B>Manager's Pro-Tip:</B> When pitching re-ups, Cat I/II managers should compute Net IRR with the actual ACTUAL fee-draw calendar (typically quarterly in arrears), not an annual lump-sum. The difference can be 50-80 bps and shows sophistication to institutional LPs.]]></text></explanation></question></QF>

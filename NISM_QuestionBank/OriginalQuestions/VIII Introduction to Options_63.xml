@@ -1,14 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="VIII Introduction to Options_63" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[A Nifty call option has strike Rs. 17,500 and premium Rs. 120. At expiry, Nifty is at Rs. 17,620. What is the call buyer's profit/loss?]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[Breakeven - zero profit/zero loss]]></text></answer>
-            <answer correct="no"><text><![CDATA[Profit of Rs. 120]]></text></answer>
-            <answer correct="no"><text><![CDATA[Loss of Rs. 120]]></text></answer>
-            <answer correct="no"><text><![CDATA[Profit of Rs. 0.05]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Call Profit = max(S - X, 0) - Premium
+<?xml version="1.0" encoding="UTF-8"?><QF id="VIII Introduction to Options_63" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A Nifty call option has strike Rs. 17,500 and premium Rs. 120. At expiry, Nifty is at Rs. 17,620. What is the call buyer's profit/loss?]]></text><answers><answer correct="yes"><text><![CDATA[Breakeven - zero profit/zero loss]]></text></answer><answer correct="no"><text><![CDATA[Profit of Rs. 120]]></text></answer><answer correct="no"><text><![CDATA[Loss of Rs. 120]]></text></answer><answer correct="no"><text><![CDATA[Profit of Rs. 0.05]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Call Profit = max(S - X, 0) - Premium
 
 Step-by-step:
 1. S = 17,620, X = 17,500, P = 120
@@ -18,10 +8,8 @@ Step-by-step:
 
 The spot is exactly at the BEP, so profit = zero.
 
-**The Trap:** At BEP, the payoff exactly equals the premium paid. No profit, no loss.
+<B>The Trap:</B> At BEP, the payoff exactly equals the premium paid. No profit, no loss.
 
-**Cross-Exam Context:** BEP = Strike + Premium for calls. At BEP, net position = zero.
+<B>Cross-Exam Context:</B> BEP = Strike + Premium for calls. At BEP, net position = zero.
 
-**Distributor's Pro-Tip:** At BEP (X + P), call buyer breaks even. Payoff = Premium paid.]]></text></explanation>
-    </question>
-</QF>
+<B>Distributor's Pro-Tip:</B> At BEP (X + P), call buyer breaks even. Payoff = Premium paid.]]></text></explanation></question></QF>

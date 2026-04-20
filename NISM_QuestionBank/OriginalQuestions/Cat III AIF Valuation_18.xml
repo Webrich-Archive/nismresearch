@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="Cat III AIF Valuation_18" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Futures contracts listed on an exchange are valued at:]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[Theoretical fair value]]></text></answer>
-            <answer correct="yes"><text><![CDATA[The latest available settlement prices of these contracts on the stock exchange]]></text></answer>
-            <answer correct="no"><text><![CDATA[Initial margin]]></text></answer>
-            <answer correct="no"><text><![CDATA[Premium paid]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Per Section 8.1, futures are valued at latest available settlement prices (daily MTM).
-**The Trap:** Theoretical value/initial margin/premium (options only) are different metrics.
-**Cross-Exam Context:** Same for equity and commodity derivatives.
-**Distributor's Pro-Tip:** Reconcile daily MTM with brokerage statements to catch discrepancies early.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="Cat III AIF Valuation_18" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Futures contracts listed on an exchange are valued at:]]></text><answers><answer correct="no"><text><![CDATA[Theoretical fair value]]></text></answer><answer correct="yes"><text><![CDATA[The latest available settlement prices of these contracts on the stock exchange]]></text></answer><answer correct="no"><text><![CDATA[Initial margin]]></text></answer><answer correct="no"><text><![CDATA[Premium paid]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Per Section 8.1, futures are valued at latest available settlement prices (daily MTM).
+<B>The Trap:</B> Theoretical value/initial margin/premium (options only) are different metrics.
+<B>Cross-Exam Context:</B> Same for equity and commodity derivatives.
+<B>Distributor's Pro-Tip:</B> Reconcile daily MTM with brokerage statements to catch discrepancies early.]]></text></explanation></question></QF>

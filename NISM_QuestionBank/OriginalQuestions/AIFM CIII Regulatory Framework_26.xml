@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CIII Regulatory Framework_26" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Kaveri Macro Fund takes an UNHEDGED position in Credit Default Swaps (CDS) as part of a Cat III strategy. Per SEBI Circular dated January 12, 2023 on AIF participation in CDS, what is the limit on gross UNHEDGED CDS positions?]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[Up to 10% of investable funds without additional disclosure]]></text></answer>
-            <answer correct="yes"><text><![CDATA[Up to 25% of investable funds; unit-holder intimation required if exceeded at the time of taking the position]]></text></answer>
-            <answer correct="no"><text><![CDATA[Up to 50% of investable funds]]></text></answer>
-            <answer correct="no"><text><![CDATA[Unhedged CDS is prohibited for all Cat III AIFs]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Per SEBI January 12, 2023 circular, AIF gross unhedged CDS positions should be up to 25% of investable funds of the scheme. If at the time of taking the unhedged position gross unhedged CDS exceeds 25%, the position may be taken only after INTIMATING all unit-holders. Hedged CDS counts toward leverage.
-**The Trap:** Option A (10%) confuses with concentration limit. Option C (50%) inflates. Option D is wrong — Cat III can buy/sell CDS subject to leverage and concentration limits.
-**Cross-Exam Context:** VIII (Derivatives), XIX-C, XIX-D test CDS rules. XIX-E specifically tests Cat III's CDS participation.
-**Manager's Pro-Tip:** For CDS-sell, earmark unencumbered G-Secs/T-bills equal to exposure — these are excluded from leverage computation but count toward margin. Report to custodian next working day.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Regulatory Framework_26" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Kaveri Macro Fund takes an UNHEDGED position in Credit Default Swaps (CDS) as part of a Cat III strategy. Per SEBI Circular dated January 12, 2023 on AIF participation in CDS, what is the limit on gross UNHEDGED CDS positions?]]></text><answers><answer correct="no"><text><![CDATA[Up to 10% of investable funds without additional disclosure]]></text></answer><answer correct="yes"><text><![CDATA[Up to 25% of investable funds; unit-holder intimation required if exceeded at the time of taking the position]]></text></answer><answer correct="no"><text><![CDATA[Up to 50% of investable funds]]></text></answer><answer correct="no"><text><![CDATA[Unhedged CDS is prohibited for all Cat III AIFs]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Per SEBI January 12, 2023 circular, AIF gross unhedged CDS positions should be up to 25% of investable funds of the scheme. If at the time of taking the unhedged position gross unhedged CDS exceeds 25%, the position may be taken only after INTIMATING all unit-holders. Hedged CDS counts toward leverage.
+<B>The Trap:</B> Option A (10%) confuses with concentration limit. Option C (50%) inflates. Option D is wrong — Cat III can buy/sell CDS subject to leverage and concentration limits.
+<B>Cross-Exam Context:</B> VIII (Derivatives), XIX-C, XIX-D test CDS rules. XIX-E specifically tests Cat III's CDS participation.
+<B>Manager's Pro-Tip:</B> For CDS-sell, earmark unencumbered G-Secs/T-bills equal to exposure — these are excluded from leverage computation but count toward margin. Report to custodian next working day.]]></text></explanation></question></QF>

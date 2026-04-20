@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PM Derivatives_5" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[A Rs. 50 crore portfolio with β = 1.1. NIFTY futures lot size Rs. 2 lakh notional. Contracts to SHORT for full hedge:]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[275]]></text></answer>
-            <answer correct="yes"><text><![CDATA[2750]]></text></answer>
-            <answer correct="no"><text><![CDATA[3025]]></text></answer>
-            <answer correct="no"><text><![CDATA[500]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Hedge ratio = (Portfolio × β) / Lot = (50 × 1.1) / 0.02 = 55 / 0.02 = 2750 contracts.
-**The Trap:** 275 / 3025 / 500 are off-by-10 or wrong multiplication.
-**Cross-Exam Context:** VIII Ch 5.
-**Manager's Pro-Tip:** Rebalance hedge as portfolio value drifts — don't leave stale hedge ratios.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PM Derivatives_5" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A Rs. 50 crore portfolio with β = 1.1. NIFTY futures lot size Rs. 2 lakh notional. Contracts to SHORT for full hedge:]]></text><answers><answer correct="no"><text><![CDATA[275]]></text></answer><answer correct="yes"><text><![CDATA[2750]]></text></answer><answer correct="no"><text><![CDATA[3025]]></text></answer><answer correct="no"><text><![CDATA[500]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Hedge ratio = (Portfolio × β) / Lot = (50 × 1.1) / 0.02 = 55 / 0.02 = 2750 contracts.
+<B>The Trap:</B> 275 / 3025 / 500 are off-by-10 or wrong multiplication.
+<B>Cross-Exam Context:</B> VIII Ch 5.
+<B>Manager's Pro-Tip:</B> Rebalance hedge as portfolio value drifts — don't leave stale hedge ratios.]]></text></explanation></question></QF>

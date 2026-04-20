@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="PM Equity Portfolio Strategies_38" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[In a fundamental factor model, Ri = ai + bi1·F1 + bi2·F2 + … + εi. What does 'ai' typically represent?]]></text>
-        <answers>
-            <answer correct="yes"><text><![CDATA[The risk-free rate]]></text></answer>
-            <answer correct="no"><text><![CDATA[The alpha (idiosyncratic skill)]]></text></answer>
-            <answer correct="no"><text><![CDATA[The market beta]]></text></answer>
-            <answer correct="no"><text><![CDATA[The error term]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Textbook convention: ai = risk-free rate (government bond yield for matched maturity) — the baseline return before factor contributions.
-**The Trap:** ε_i is the error term; α (alpha) is typically separate; β_i is the loading on the market factor.
-**Cross-Exam Context:** XV Ch 12 uses similar notation; XXI-B tests the macroeconomic / fundamental factor model form.
-**Manager's Pro-Tip:** Some textbooks use 'ai' for alpha and 'Rf' separately — be careful to note which convention a given paper uses.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="PM Equity Portfolio Strategies_38" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[In a fundamental factor model, Ri = ai + bi1·F1 + bi2·F2 + … + εi. What does 'ai' typically represent?]]></text><answers><answer correct="yes"><text><![CDATA[The risk-free rate]]></text></answer><answer correct="no"><text><![CDATA[The alpha (idiosyncratic skill)]]></text></answer><answer correct="no"><text><![CDATA[The market beta]]></text></answer><answer correct="no"><text><![CDATA[The error term]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Textbook convention: ai = risk-free rate (government bond yield for matched maturity) — the baseline return before factor contributions.
+<B>The Trap:</B> ε_i is the error term; α (alpha) is typically separate; β_i is the loading on the market factor.
+<B>Cross-Exam Context:</B> XV Ch 12 uses similar notation; XXI-B tests the macroeconomic / fundamental factor model form.
+<B>Manager's Pro-Tip:</B> Some textbooks use 'ai' for alpha and 'Rf' separately — be careful to note which convention a given paper uses.]]></text></explanation></question></QF>

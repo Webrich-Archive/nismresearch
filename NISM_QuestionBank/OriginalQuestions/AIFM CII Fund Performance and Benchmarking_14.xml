@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QF id="AIFM CII Fund Performance and Benchmarking_14" sectionNumber="" articleNumber="0" articleName="">
-    <question>
-        <text><![CDATA[Under SEBI's performance benchmarking guidelines, performance reporting and benchmarking of the AIF Scheme must be done on which basis?]]></text>
-        <answers>
-            <answer correct="no"><text><![CDATA[Post-tax NAV of the Scheme at the investor level.]]></text></answer>
-            <answer correct="yes"><text><![CDATA[Pre-tax Net Asset Value (NAV) of the Scheme.]]></text></answer>
-            <answer correct="no"><text><![CDATA[Gross Asset Value (before management fees but after tax).]]></text></answer>
-            <answer correct="no"><text><![CDATA[Distributable Cash Flow only, excluding unrealised holdings.]]></text></answer>
-        </answers>
-        <explanation><text><![CDATA[**The Logic:** Per Box 7.3 Section A (g): 'The performance reporting and benchmarking shall be carried out on pre-tax Net Asset Value (NAV) of the Scheme.' This gives a fund-level comparable basis; taxes depend on investor's residency/status and would break comparability.
-**The Trap:** Post-tax (A) introduces LP-specific tax. GAV (C) doesn't deduct fund expenses. Cash-flow-only (D) ignores residual value — both skew the benchmark.
-**Cross-Exam Context:** XIX-C tests the same guideline verbatim. XXI-B PMS reports pre-performance-fee, post-expense NAV under Reg 22. Similar principle — pre-tax at the reporting vehicle.
-**Manager's Pro-Tip:** Label the benchmark report on the LP quarterly clearly as 'pre-tax Net NAV basis' — if an LP is an FPI treated as domestic Cat I (grandfather routes), they'll need to re-state on their own tax footing.]]></text></explanation>
-    </question>
-</QF>
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CII Fund Performance and Benchmarking_14" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Under SEBI's performance benchmarking guidelines, performance reporting and benchmarking of the AIF Scheme must be done on which basis?]]></text><answers><answer correct="no"><text><![CDATA[Post-tax NAV of the Scheme at the investor level.]]></text></answer><answer correct="yes"><text><![CDATA[Pre-tax Net Asset Value (NAV) of the Scheme.]]></text></answer><answer correct="no"><text><![CDATA[Gross Asset Value (before management fees but after tax).]]></text></answer><answer correct="no"><text><![CDATA[Distributable Cash Flow only, excluding unrealised holdings.]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Per Box 7.3 Section A (g): 'The performance reporting and benchmarking shall be carried out on pre-tax Net Asset Value (NAV) of the Scheme.' This gives a fund-level comparable basis; taxes depend on investor's residency/status and would break comparability.
+<B>The Trap:</B> Post-tax (A) introduces LP-specific tax. GAV (C) doesn't deduct fund expenses. Cash-flow-only (D) ignores residual value — both skew the benchmark.
+<B>Cross-Exam Context:</B> XIX-C tests the same guideline verbatim. XXI-B PMS reports pre-performance-fee, post-expense NAV under Reg 22. Similar principle — pre-tax at the reporting vehicle.
+<B>Manager's Pro-Tip:</B> Label the benchmark report on the LP quarterly clearly as 'pre-tax Net NAV basis' — if an LP is an FPI treated as domestic Cat I (grandfather routes), they'll need to re-state on their own tax footing.]]></text></explanation></question></QF>
