@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Taxation_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A non-resident corporate LP in Nilgiri Multi-Strategy Fund receives interest income of INR 1 crore (coupon from debenture holdings via the fund). Assuming no beneficial treaty rate applies and using the workbook's effective rate of 38.22% for foreign corporate investors on interest income, the tax liability is:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[INR 42.74 lakh]]></text></answer>
+            <answer correct="yes"><text><![CDATA[INR 38.22 lakh]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 34.944 lakh]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 20.00 lakh]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Workbook: 'Any income in the nature of interest income would be subject to tax at the rate of ... 38.22% (in the hands of foreign corporate investors, subject to beneficial tax rate under the relevant Tax Treaty).' Tax = 1,00,00,000 × 38.22% = INR 38,22,000 = INR 38.22 lakh.
+**The Trap:** INR 42.74 lakh applies the individual/AOP MMR (wrong assessee class). INR 34.944 lakh uses the domestic corporate rate. INR 20 lakh uses a generic 20% under Section 115A that ignores surcharge and cess.
+**Cross-Exam Context:** XIX-D drills the same rate table on Cat I/II NR investors. XIX-C covers both. XIX-E tests it specifically where the Cat III fund, having no pass-through, pays upfront at fund level (and may offer treaty credit certificate).
+**Manager's Pro-Tip:** For treaty-resident NR LPs, collect the TRC + Form 10F upfront so Nilgiri can apply the DTAA rate (often 10%-15% on interest) instead of 38.22%. Without documentation, the fund is bound to withhold at the ITA rate and the LP must chase refund — a painful friction, particularly for Singapore/Mauritius/Netherlands LPs.]]></text></explanation>
+    </question>
+</QF>

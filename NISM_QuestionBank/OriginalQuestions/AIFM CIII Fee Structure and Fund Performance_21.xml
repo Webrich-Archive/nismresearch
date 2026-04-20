@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Fee Structure and Fund Performance_21" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A close-ended Cat III fund has total paid-in capital of INR 100 crore and has distributed a cumulative INR 145 crore to investors over the fund life. What is the DPI?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[0.69]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.00]]></text></answer>
+            <answer correct="yes"><text><![CDATA[1.45]]></text></answer>
+            <answer correct="no"><text><![CDATA[2.45]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** DPI = Total Distributions / Paid-in Capital = 145 / 100 = 1.45x. DPI > 1 means investors have received back more than they invested. For Cat III (open-ended with daily NAV) DPI is LESS relevant than HWM/TWR — this is a Cat I/II primary metric.
+**The Trap:** 0.69 inverts. 1.00 is breakeven. 2.45 adds 1.
+**Cross-Exam Context:** XIX-D Cat I/II Manager uses DPI as a primary metric. XIX-E (Cat III) flags it as less relevant for open-ended funds — HWM/TWR dominate.
+**Manager's Pro-Tip:** For a close-ended Cat III fund in wind-down, DPI is useful; for an open-ended Cat III with daily dealing, use rolling TWR and MWR instead. Don't mis-report DPI for a perpetual fund.]]></text></explanation>
+    </question>
+</QF>

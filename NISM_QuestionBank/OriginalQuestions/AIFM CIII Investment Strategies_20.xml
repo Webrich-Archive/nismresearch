@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Investment Strategies_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Fund TCR (Cat III Long-Short) holds: BUY Company B INR 5 cr, SELL Company C INR 7.5 cr, BUY Company D INR 20 cr, BUY Company E INR 5 cr, SELL Company F INR 9.3 cr. Additionally it bought Put options worth INR 1.125 cr. What is the NET equity exposure (ignoring options)?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[INR 37.5 cr long]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 16.8 cr short]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 30 cr long]]></text></answer>
+            <answer correct="yes"><text><![CDATA[INR 13.2 cr long]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Longs = 5 + 20 + 5 = INR 30 cr. Shorts = 7.5 + 9.3 = INR 16.8 cr. Net = 30 - 16.8 = INR 13.2 cr LONG.
+**The Trap:** Option A sums all longs only. Option C is longs excluding D. Option B is the short total (wrong sign).
+**Cross-Exam Context:** PDF Example 10.2 math. XIX-C same.
+**Manager's Pro-Tip:** Don't forget the option delta: a deep OTM Put has tiny delta contribution; ATM Puts contribute ~-0.50 of notional. In Example 10.2 the Puts add ~-INR 0.56 cr of effective short delta — trivial vs the 13.2 cr net long. NAV-level delta is what matters for Beta reporting.]]></text></explanation>
+    </question>
+</QF>

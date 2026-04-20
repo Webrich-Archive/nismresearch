@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Fund Structuring_34" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The Vindhya Event-Driven Fund (Cat III AIF) has a target corpus of INR 300 crore. What is the MINIMUM sponsor commitment the manager must make to comply with SEBI (AIF) Regulations?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[INR 5 crore (2.5% capped at INR 5 cr)]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 7.5 crore (2.5% of INR 300 cr)]]></text></answer>
+            <answer correct="yes"><text><![CDATA[INR 10 crore (5% of INR 300 cr = INR 15 cr, capped at INR 10 cr)]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 15 crore (5% of INR 300 cr, no cap)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Cat III sponsor commit = 5% of corpus or INR 10 cr, whichever is LOWER. 5% of 300 cr = INR 15 cr. Lower of (INR 15 cr, INR 10 cr) = INR 10 cr. Sponsor must commit INR 10 cr.
+**The Trap:** Option A applies Cat I/II rule (2.5% / INR 5 cr) — the swap trap. Option B drops the cap. Option D forgets the INR 10 cr cap.
+**Cross-Exam Context:** XIX-D tests Cat I/II's 2.5%/INR 5 cr; XIX-E tests Cat III's 5%/INR 10 cr. Memorise the split.
+**Manager's Pro-Tip:** For a INR 300 cr Cat III, sponsor's INR 10 cr is 3.33% of corpus. Whether you commit more (say 5%) for marketing optics is a governance call — at a minimum, meet the regulatory floor.]]></text></explanation>
+    </question>
+</QF>

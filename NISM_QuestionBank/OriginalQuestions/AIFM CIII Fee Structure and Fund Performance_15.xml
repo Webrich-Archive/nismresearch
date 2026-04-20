@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Fee Structure and Fund Performance_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A Cat III AIF pays the following annual fees to service providers (GST @ 18% applies to each): management fee INR 1 crore, trusteeship INR 25 lakh, fund admin INR 30 lakh, custodian INR 35 lakh. What is the TOTAL GST payable by the fund in the year?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[INR 18 lakh]]></text></answer>
+            <answer correct="yes"><text><![CDATA[INR 34.20 lakh]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 190 lakh]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 41.40 lakh]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Total fees = 100 + 25 + 30 + 35 = INR 190 lakh. GST @ 18% on 190 lakh = INR 34.20 lakh. Cat III AIFs generally cannot offset this GST against output GST (AIFs don't render taxable output services to LPs) → fund-level GST is a real cost drag.
+**The Trap:** INR 18 lakh applies 18% to just management fee. INR 190 lakh is the fee base, not GST. INR 41.40 lakh double-counts.
+**Cross-Exam Context:** Ch. 14 (Taxation) tests GST at regulatory level; XIX-E Ch. 7 tests GST's fee-structure impact.
+**Manager's Pro-Tip:** GST on fund fees can run ~0.4–0.8% of GNAV annually — material drag. In the IM, disclose GST separately from management fee so investors see the full cost of ownership.]]></text></explanation>
+    </question>
+</QF>

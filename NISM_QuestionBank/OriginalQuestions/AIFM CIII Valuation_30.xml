@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Valuation_30" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For unlisted securities other than equities where NO ascertainable market exists, valuation is done at:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Fair Market Value determined by the independent valuer]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Amortised cost plus accrued interest from date of purchase]]></text></answer>
+            <answer correct="no"><text><![CDATA[Zero, since no market exists]]></text></answer>
+            <answer correct="no"><text><![CDATA[Closing price of a similar listed security]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per the chapter: 'For unlisted securities for which there is no ascertainable market, valuation will be done at amortized cost of such security, plus interest (if any) accrued from the date of such purchase.'
+**The Trap:** FMV rule applies to unlisted EQUITIES, not non-equity debt without market. Zero is absurd. Using a comparable listed security's closing price is unauthorised.
+**Cross-Exam Context:** XIX-C uses same amortised-cost rule. XV tests it for research context.
+**Manager's Pro-Tip:** For non-traded debt marked at amortised cost, trigger an impairment review if the issuer is downgraded by 2+ notches - amortised cost alone hides credit-event mark-downs, which regulators explicitly caution against.]]></text></explanation>
+    </question>
+</QF>

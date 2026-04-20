@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII AIFs in India and Suitability_15" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Himalaya Arbitrage Fund (Cat III AIF) has a target corpus of INR 400 crore. It expects to onboard investors at the minimum ticket size. Ignoring AIF employees and Accredited Investors, what is the MAXIMUM number of external investors that could fully subscribe the corpus, and which regulatory cap binds first?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[400 investors; the minimum ticket (INR 1 crore x 400 = INR 400 crore) binds first]]></text></answer>
+            <answer correct="no"><text><![CDATA[1,000 investors; the 1,000-investor cap binds first since INR 1 crore x 1,000 = INR 1,000 crore exceeds corpus]]></text></answer>
+            <answer correct="no"><text><![CDATA[2,000 investors; the 2,000 Companies Act private placement cap binds]]></text></answer>
+            <answer correct="no"><text><![CDATA[200 investors; the Angel Fund 200-investor cap applies]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** At INR 1 crore minimum ticket, filling INR 400 crore of corpus requires at most 400 investors. The 1,000-investor cap is far from binding at this size. So the minimum-ticket arithmetic binds first: 400 investors fully subscribe. Below that corpus size, the minimum-ticket rule limits investor count before the 1,000 cap ever bites.
+**The Trap:** Option B gets the cap right but misidentifies which constraint binds FIRST at this corpus. Option C cites an irrelevant Companies Act number. Option D applies Angel Fund (Cat I sub-category) rules to a Cat III fund.
+**Cross-Exam Context:** Combines two core XIX-E constraints (INR 1 cr ticket + 1,000 cap). XIX-C uses the same arithmetic for MF/PMS/AIF trade-offs. The 'which constraint binds' framing appears often in Manager-side scenarios.
+**Manager's Pro-Tip:** For small-corpus Cat III funds (INR 20-100 crore), the INR 1 crore ticket is the binding constraint and you'll typically see 20-100 investors. You only bump against the 1,000-investor cap at corpus > INR 1,000 crore. Design your subscription ops workflow for the constraint that actually binds your fund size.]]></text></explanation>
+    </question>
+</QF>

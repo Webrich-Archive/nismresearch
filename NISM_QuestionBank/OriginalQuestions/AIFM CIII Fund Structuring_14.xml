@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Fund Structuring_14" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The role of the FUND ADMINISTRATOR for a Cat III AIF is BEST described as:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Holding physical custody of the fund's securities in a segregated account]]></text></answer>
+            <answer correct="no"><text><![CDATA[Issuing the SEBI registration certificate after PPM observations]]></text></answer>
+            <answer correct="no"><text><![CDATA[Providing legal opinions on investment contracts]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Maintenance of books of accounts, NAV computation, and investor reporting]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The fund administrator maintains the books of accounts, computes the NAV daily (for Cat III), produces investor statements, and handles operational reporting. Custody is the custodian's job; legal opinions are the legal advisor's; SEBI issues registration, not the fund admin.
+**The Trap:** This is a clean service-provider mapping question. Mixing custodian role (A) with fund-admin role is the common trap.
+**Cross-Exam Context:** XIX-A/B/C/D test the same mapping. In XXI-B the PM handles this largely in-house.
+**Manager's Pro-Tip:** For a Cat III daily-NAV fund, run a T+1 NAV from the fund administrator and strike the 'final' NAV by T+1 10 AM. Delays here translate directly into subscription/redemption timing disputes.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Taxation_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Satpura Market-Neutral Fund is a Category III AIF set up as an irrevocable trust whose beneficiaries are NOT identifiable at the time of the trust indenture. Under the ITA, how will the trustee be taxed?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[At slab rates applicable to individuals under Section 115BAC]]></text></answer>
+            <answer correct="yes"><text><![CDATA[At MMR under Section 164 of the ITA as representative assessee]]></text></answer>
+            <answer correct="no"><text><![CDATA[Under Section 115UB at pass-through to investors]]></text></answer>
+            <answer correct="no"><text><![CDATA[At 22% under Section 115BAA concessional regime]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Where the trust is irrevocable AND indeterminate (beneficiaries/shares not ascertainable on the indenture date), Section 164 of the ITA applies and the trustee is taxed at MMR as Representative Assessee on the entire income of the Fund. CBDT Circular No. 13/2014 further clarified that in such a case Section 166 need not be invoked in investors' hands.
+**The Trap:** A is wrong — slab rates apply only at investor level, not to an indeterminate trust. C is a Cat I/II pass-through rule that does NOT apply to Cat III. D is a concessional corporate regime that does not cover trusts.
+**Cross-Exam Context:** XIX-D focuses on Section 115UB (Cat I/II pass-through). XIX-C/XIX-E (both All-Cat and Cat III) drill Section 164 MMR for indeterminate Cat III trusts. The determinate vs indeterminate bifurcation is a frequent XIX-E trap.
+**Manager's Pro-Tip:** When structuring Satpura's trust deed, make sure beneficiary classes and share-computation formula are clearly spelt out so the fund qualifies as a determinate trust under Section 161(1A). An indeterminate classification forces MMR on the ENTIRE income regardless of character — no concessional capital-gains rate, no STCG 20%, no LTCG 12.5% escape hatch.]]></text></explanation>
+    </question>
+</QF>

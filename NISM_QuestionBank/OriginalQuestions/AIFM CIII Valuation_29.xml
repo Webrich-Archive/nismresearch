@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Valuation_29" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Per SEBI Cat III AIF rules, securities traded on a stock exchange or regulated markets are valued at:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The average of the last 30 days' prices]]></text></answer>
+            <answer correct="no"><text><![CDATA[The fund manager's estimate]]></text></answer>
+            <answer correct="no"><text><![CDATA[The highest price in the last week]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The closing price quoted on the relevant exchange on the Valuation Day]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per the chapter: 'Securities traded on a stock exchange or other regulated markets are to be valued at the closing price quoted on the relevant exchange or market, as on the relevant Valuation Day.'
+**The Trap:** 30-day averages and weekly highs are not SEBI-prescribed for listed equities. Fund manager estimate breaches independence.
+**Cross-Exam Context:** XIX-A/B/C/D all test the closing-price rule for listed securities.
+**Manager's Pro-Tip:** If the stock trades on both NSE and BSE, the PPM should specify which is the 'relevant' exchange - default is the primary listing (usually NSE for size, BSE for certain legacy names). Don't switch exchanges opportunistically to bump NAV.]]></text></explanation>
+    </question>
+</QF>

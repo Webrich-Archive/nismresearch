@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Fund Monitoring Reporting and Exit_35" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For a Cat III AIF, SEBI regulations require that the NAV calculation function be:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Performed by the Chief Investment Officer personally]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Independent from the fund-management function and disclosed at quarterly intervals for close-ended and monthly for open-ended schemes]]></text></answer>
+            <answer correct="no"><text><![CDATA[Performed weekly, regardless of scheme structure]]></text></answer>
+            <answer correct="no"><text><![CDATA[Published to the general public via newspaper]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per the CTR NAV row: for Cat III funds, NAV calculation shall be INDEPENDENT from the fund-management function and disclosed to investors at QUARTERLY intervals for close-ended funds and MONTHLY intervals for open-ended funds. Listed debt and unlisted securities require independent valuation.
+**The Trap:** CIO-computed NAV (A) violates the independence rule. Weekly (C) is not the regulation. Public newspaper (D) confuses AIF with MF.
+**Cross-Exam Context:** XIX-B (distributor) tests NAV cadence from client view. XIX-C/D test independence and cadence.
+**Manager's Pro-Tip:** Ring-fence the NAV team from PM team: separate reporting line, separate system access, separate approvals. An administrator-computed NAV with two-sign-off (admin + trustee) is the gold standard.]]></text></explanation>
+    </question>
+</QF>

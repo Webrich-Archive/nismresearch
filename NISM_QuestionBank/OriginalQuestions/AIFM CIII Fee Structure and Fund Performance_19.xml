@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Fee Structure and Fund Performance_19" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A Cat III fund posts annualised return 15%, risk-free 6%, downside deviation 4%. What is the Sortino Ratio?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[2.25]]></text></answer>
+            <answer correct="no"><text><![CDATA[1.50]]></text></answer>
+            <answer correct="no"><text><![CDATA[3.75]]></text></answer>
+            <answer correct="no"><text><![CDATA[9.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Sortino = (Rp − Rf) / downside deviation = (15% − 6%) / 4% = 9/4 = 2.25. Sortino only penalises downside volatility — preferred for funds with asymmetric return profiles (e.g., merger-arb, long-biased long-short).
+**The Trap:** 1.50 uses full σ. 3.75 drops Rf. 9.00 is just numerator.
+**Cross-Exam Context:** Sharpe vs Sortino is a classic XXI-B PM question too. XIX-E emphasises asymmetric Cat III return profiles.
+**Manager's Pro-Tip:** Sortino makes your fund look better than Sharpe if you have left-tail protection; LPs are wise to this — show BOTH Sharpe and Sortino with a benchmark comparison.]]></text></explanation>
+    </question>
+</QF>

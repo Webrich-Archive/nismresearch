@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Valuation_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Fund SER (Cat III) has Series A1 units with Series Assets INR 27.04 crore, Series Liabilities INR 1.20 crore, Fund Expenses INR 32 lakh, and Management Fees + GST INR 45.74 lakh. 2,00,000 units are outstanding in Series A1. What is the Series A1 NAV per unit?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[INR 1,253.13]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 1,245.51]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 1,352.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 1,300.00]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Series Net Assets = 27,04,00,000 - 1,20,00,000 - 32,00,000 - 45,73,680 = INR 25,06,26,320. Series NAV per unit = 25,06,26,320 / 2,00,000 = INR 1,253.1316. Matches Example 12.14 Year 1.
+**The Trap:** INR 1,245.51 is Series A2/B1 NAV (higher management fee - 2.00%). INR 1,352 over-counts assets. INR 1,300 is a rough estimate without full deductions.
+**Cross-Exam Context:** Series-of-units methodology is a Cat III-specific topic. XIX-B (Cat III Distributor) tests this; XIX-A/XIX-D use drawdown waterfalls instead - DIFFERENT mechanics.
+**Manager's Pro-Tip:** For Cat III Series NAV, the differential-fee A1 series ends up with higher NAV each year than A2. New SEBI circular bars 'priority distribution' where one class subsidises another - check your PPM does not accidentally create a senior/junior waterfall.]]></text></explanation>
+    </question>
+</QF>

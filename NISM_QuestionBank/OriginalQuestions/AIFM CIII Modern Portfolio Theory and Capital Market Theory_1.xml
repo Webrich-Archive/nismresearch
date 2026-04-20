@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Modern Portfolio Theory and Capital Market Theory_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Mr. Arvind Mehta, CIO of Himalaya Arbitrage Fund (Cat III AIF), is drafting the risk-policy preamble and wants to cite the foundational contribution of Modern Portfolio Theory (MPT). Which of the following BEST describes the specific contribution of Harry Markowitz's 1952 'Portfolio Selection' article?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[It introduced beta as the sole measure of a security's risk and priced assets accordingly.]]></text></answer>
+            <answer correct="no"><text><![CDATA[It introduced the Capital Asset Pricing Model (CAPM) linking expected return to systematic risk.]]></text></answer>
+            <answer correct="no"><text><![CDATA[It proved that investors must borrow at the risk-free rate to maximise risk-adjusted returns.]]></text></answer>
+            <answer correct="yes"><text><![CDATA[It mathematically quantified the benefit of diversification by using covariance/correlation and showed that the variance of returns is a meaningful measure of portfolio risk.]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The chapter explicitly credits Harry Markowitz's 1952 'Portfolio Selection' (published in the Journal of Finance) with (i) quantifying diversification through covariance/correlation and (ii) showing variance of the rate of return is a meaningful measure of portfolio risk. Markowitz received the 1990 Nobel Prize for this work.
+**The Trap:** (A) describes CAPM's beta framework (Sharpe/Lintner/Treynor/Mossin 1960s), not MPT. (B) is CAPM which builds on MPT but came later. (C) refers to the Capital Market Line borrowing-lending insight, again post-MPT.
+**Cross-Exam Context:** XIX-C (All-Cat Manager) and XIX-D (Cat I/II Manager) cover the same foundational MPT material. XIX-A/B (Distributor) exams use MPT only at an intuitive diversification level. XV (Research Analyst) tests MPT numerically as part of valuation.
+**Manager's Pro-Tip:** On a Cat III desk, MPT matters operationally because daily NAV requires a variance-covariance matrix for VaR and stress tests — your risk engine (e.g., RiskMetrics, Barra) literally applies the Markowitz formula every evening before margin posting to the prime broker.]]></text></explanation>
+    </question>
+</QF>

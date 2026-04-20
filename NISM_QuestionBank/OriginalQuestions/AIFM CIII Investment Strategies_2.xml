@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Investment Strategies_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Ms. Priya Shah runs the Satpura 130/30 Long-Short Fund with Investable Funds of INR 400 crore. She deploys the classic 130/30 allocation. What is the GROSS exposure and NET exposure of the fund?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Gross 100%; Net 100%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Gross 200%; Net 30%]]></text></answer>
+            <answer correct="no"><text><![CDATA[Gross 130%; Net 100%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Gross 160%; Net 100%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A 130/30 strategy is 130% long + 30% short. Gross = 130 + 30 = 160% (INR 640 cr). Net = 130 - 30 = 100% (INR 400 cr). Section 10.1.1.2 explicitly states net exposure equals 100% of investable funds.
+**The Trap:** Option C is a common confusion that adds only one leg. Option A ignores the short leg. Option B confuses net and gross in the wrong direction.
+**Cross-Exam Context:** VIII (Equity Derivatives) tests gross/net exposure arithmetic. XIX-B (Cat III Distributor) requires explaining net-vs-gross to HNIs; XIX-E is the manager-side construction view.
+**Manager's Pro-Tip:** At 160% gross, you're already at 1.6x leverage; you have only 0.4x cushion under the SEBI 2x Cat III cap. A market stress that swings your Put hedges can breach the cap — pre-approve an intraday deleverage script with the prime broker.]]></text></explanation>
+    </question>
+</QF>

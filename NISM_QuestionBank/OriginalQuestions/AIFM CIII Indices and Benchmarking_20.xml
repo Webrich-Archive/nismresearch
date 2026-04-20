@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Indices and Benchmarking_20" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Ms. Priya Shah is building a peer-group benchmark for Chambal Managed Futures Fund (Cat III). She notes that Cat III AIFs in India include long-short, market-neutral, global macro, multi-strategy, arbitrage, managed-futures, and event-driven funds — all pooled into the same SEBI 'Cat III' bucket. What is the MOST fundamental challenge this poses for peer-group benchmarking?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Strategy heterogeneity — funds with fundamentally different risk profiles are pooled into a single peer group, diluting the benchmark's relevance]]></text></answer>
+            <answer correct="no"><text><![CDATA[Self-reporting bias — Cat III funds do not report to SEBI]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cat III funds have no fee information, so returns cannot be compared]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cat III funds use Section 115UB pass-through taxation, distorting comparability]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Cat III AIFs span radically different strategies (market-neutral 2-5% vol vs long-short 15-20% vol vs macro 10-15% vol) yet are pooled into one SEBI category. The resulting peer-group benchmark (e.g., CRISIL AIF Cat III) averages across incomparable risk profiles — strategy heterogeneity is the fundamental measurement problem. This is why PPMs typically layer a strategy-specific peer (e.g., HFRI Macro) on top of the SEBI-mandated Cat III benchmark.
+**The Trap:** Option B is wrong — Cat III AIFs DO report to SEBI (and to benchmarking agencies). Option C is wrong — expense and fee data are reported in the PPM. Option D is wrong — Cat III is taxed at FUND LEVEL at MMR (Section 115UB does NOT apply to Cat III; it applies to Cat I/II only).
+**Cross-Exam Context:** XIX-D (Cat I/II Manager) uses Section 115UB pass-through — that trap is specifically a Cat I/II concept being mis-applied to Cat III here. XIX-B tests the strategy-heterogeneity challenge from the distributor-disclosure perspective.
+**Manager's Pro-Tip:** Supplement the CRISIL AIF Cat III peer benchmark with a strategy-native global peer (HFRI Macro for macro funds, HFRI Equity Market Neutral for market-neutral, HFRI Event-Driven for event-driven) in your investor letter. Let LPs see both the Indian Cat III umbrella AND your true strategy peer — sophisticated LPs already do this analysis themselves; beat them to it.]]></text></explanation>
+    </question>
+</QF>

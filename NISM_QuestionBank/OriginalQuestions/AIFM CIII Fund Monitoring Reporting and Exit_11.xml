@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Fund Monitoring Reporting and Exit_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A Cat III AIF must provide its investors a quarterly report on concentration, leverage, FX and other risks within:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[10 calendar days of quarter-end]]></text></answer>
+            <answer correct="no"><text><![CDATA[30 days of quarter-end]]></text></answer>
+            <answer correct="no"><text><![CDATA[90 days of quarter-end]]></text></answer>
+            <answer correct="yes"><text><![CDATA[60 days of quarter-end]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Regulation 22 mandates that Category III AIFs provide a quarterly report to investors within 60 days of quarter-end covering financial information of investee companies and the risk-management items (concentration, FX, leverage, realisation, strategy, reputation, ESG).
+**The Trap:** 10 calendar days is the SEBI-facing activity report window (different counterparty). 30 days is the CTR timeline. 90 days is a common overseas LP-report norm but not Indian AIF norm.
+**Cross-Exam Context:** XIX-C / XIX-D also test the 60-day investor-report window. XIX-A applies to Cat I/II distribution.
+**Manager's Pro-Tip:** Run the investor pack on a T+45 internal target so the T+60 regulatory window always has a 15-day buffer for IC / Trustee review. Investor reports and SEBI reports draw from the same data lake but have different cut-off standards.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Investment Landscape_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Ms. Shruti Menon, risk manager at Aravalli Long-Short Fund (Cat III), is training analysts on the distinction between 'risk' and 'uncertainty' as defined in NISM Chapter 1 Section 1.4.3. Which statement correctly captures the distinction?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Risk and uncertainty are synonymous; both mean exposure to danger.]]></text></answer>
+            <answer correct="no"><text><![CDATA[Risk is the absence of information about an outcome; uncertainty is when probabilities can be computed.]]></text></answer>
+            <answer correct="no"><text><![CDATA[Risk applies only to equity investments; uncertainty applies only to debt investments.]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Risk is 'known uncertainty' — the dispersion around expected return when there is existing or developing theoretical/empirical knowledge of causal factors; uncertainty is when no such knowledge exists.]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Section 1.4.3 states: 'Risk is not uncertainty. When one does not have any knowledge about the future variability in the expected outcomes or their causal factors, then such a situation is known as uncertainty. However, when there is some existing or developing theoretical or empirical knowledge about the factors leading to uncertainty, then such situation is considered as risk. In summary, Risk is known uncertainty.' Risk is technically measurable as dispersion around expected return.
+**The Trap:** Option A is the colloquial usage the chapter explicitly rejects. Option B reverses the correct direction — the chapter makes risk the MEASURABLE version, uncertainty the unmeasurable. Option C fabricates an asset-class boundary that does not exist in the chapter.
+**Cross-Exam Context:** XV (RA) and X-B (IA L2) test the Knightian risk-vs-uncertainty distinction. XIX-E frames it operationally for Cat III — VaR models quantify RISK (known-distribution tail), while stress scenarios for geopolitical shocks probe UNCERTAINTY (unknowable distributions).
+**Manager's Pro-Tip:** On a Cat III desk, don't let VaR-reporting give a false sense of security. VaR captures KNOWN risk under historical distribution. Genuine uncertainty — a COVID-scale regime shift, an overnight FX control, a sudden SEBI circular on derivatives — needs separate scenario-analysis and liquidity-stress frameworks, not just VaR multipliers. Your PPM should state both explicitly.]]></text></explanation>
+    </question>
+</QF>

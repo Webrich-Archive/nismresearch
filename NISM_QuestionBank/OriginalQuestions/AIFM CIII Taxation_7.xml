@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Taxation_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Mr. Arvind Menon, trustee of Vindhya Event-Driven Fund (Cat III AIF), is asked whether the fund must deduct TDS under Section 194LBB of the ITA on income distributed to investors. What is the correct position?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Yes, deduct 10% on resident and 20% on non-resident investors on all income]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, but only on business income]]></text></answer>
+            <answer correct="yes"><text><![CDATA[No — Section 194LBB applies only to Investment Funds referred to in Section 115UB (Category I and II). It does NOT apply to Category III]]></text></answer>
+            <answer correct="no"><text><![CDATA[Yes, deduct at MMR 42.744% on all investors]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Section 194LBB is a TDS provision that operates on 'Investment Funds' whose income is passed through under Section 115UB — i.e., Category I and II AIFs. Because Category III AIFs are denied pass-through under Section 115UB, Section 194LBB is inoperative for them; tax is discharged at the fund level under trust taxation principles, not withheld on distribution.
+**The Trap:** A/B/D all assume Cat III follows Cat I/II withholding mechanics. Candidates who memorise '10%/20% TDS under 194LBB' as the AIF rule forget the scope is limited to 115UB Investment Funds.
+**Cross-Exam Context:** XIX-A/XIX-D drill 194LBB as the core Cat I/II TDS rule. XIX-E reverses it — the ABSENCE of 194LBB is the Cat III fingerprint. XIX-B (Cat III Distributor) also tests the no-TDS angle for investor communications.
+**Manager's Pro-Tip:** At Vindhya, since there is no 194LBB deduction on distribution, the fund itself pays fund-level tax and distributes post-tax. Make sure the LP agreement and Form 64D statements reflect this — any LP expecting a 194LBB credit in Form 26AS will be unpleasantly surprised.]]></text></explanation>
+    </question>
+</QF>

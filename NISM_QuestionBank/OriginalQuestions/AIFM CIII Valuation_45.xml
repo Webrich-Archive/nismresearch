@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Valuation_45" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Per SEBI Circular SEBI/HO/IMD-I/DF6/P/CIR/2021/584 dated June 25, 2021 referenced in the chapter, the MAXIMUM leverage a Category III AIF can take via derivatives is:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[1 times NAV]]></text></answer>
+            <answer correct="no"><text><![CDATA[No leverage permitted]]></text></answer>
+            <answer correct="no"><text><![CDATA[3 times NAV]]></text></answer>
+            <answer correct="yes"><text><![CDATA[2 times NAV (with investor consent and SEBI disclosure)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per the chapter: 'Maximum Leverage should be 2 times of the Net Asset Value (NAV) of the Fund' with prior consent of investors and periodic disclosures to investors/SEBI.
+**The Trap:** 1x understates the cap. 3x is unauthorised. No-leverage is the Cat I/II rule (XIX-D territory).
+**Cross-Exam Context:** Cross-Exam Context: Cat I/II AIFs have ZERO leverage (XIX-A/D). Cat III's 2x cap is unique - XIX-B, XIX-C and XIX-E all test this.
+**Manager's Pro-Tip:** Breaching 2x is a reportable incident - install a pre-trade limit in the OMS that hard-blocks any order that would push calculated leverage > 1.9x; the 10% buffer handles intraday MTM slippage.]]></text></explanation>
+    </question>
+</QF>

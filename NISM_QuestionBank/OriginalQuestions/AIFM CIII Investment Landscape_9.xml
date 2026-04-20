@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Investment Landscape_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Mr. Karthik Nair, head of operations at Chambal Managed Futures Fund (Cat III AIF), is reviewing the fund's investment universe against Section 2(h) of the Securities Contracts (Regulation) Act 1956 as referenced in NISM Chapter 1. Which of the following is EXPRESSLY EXCLUDED from the definition of 'securities' under SCRA?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Units issued under a mutual fund scheme.]]></text></answer>
+            <answer correct="no"><text><![CDATA[Derivatives and commodity derivatives.]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Unit Linked Insurance Policies (ULIPs) that combine life-insurance and investment.]]></text></answer>
+            <answer correct="no"><text><![CDATA[Government securities and onshore rupee bonds issued by the Asian Development Bank.]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Section 1.4.5 reproduces Section 2(h) SCRA, and clause (e) regarding mutual fund units expressly EXCLUDES 'any unit linked insurance policy or scrips or any such instrument or unit, by whatever name called which provides a combined benefit risk on the life of the persons and investment by such persons and issued by an insurer'. All other options ARE included: MF units (e), derivatives (b), government securities (h), ADB/IFC rupee bonds (i).
+**The Trap:** Option A is INCLUDED in SCRA 2(h)(e) — classic trap for candidates who confuse the carve-out (ULIPs) with the main item (MF units). Option B and D are explicitly listed as securities.
+**Cross-Exam Context:** XXI-B (Portfolio Manager) and X-A (IA L1) test SCRA 2(h) definitions directly. XIX-E tests it at the fund-mandate level — a Cat III managed-futures fund buying ULIPs would breach its PPM investment universe because ULIPs are not 'securities' under SCRA.
+**Manager's Pro-Tip:** Before onboarding any new instrument into a Cat III fund's portfolio, run it through SCRA 2(h) — if it doesn't qualify as a security, it cannot be held as a primary investment in the fund (derivatives are expressly included, so futures and options are fine; ULIPs, structured deposits and life-insurance products are not). This prevents audit-qualifications and NAV-computation issues.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Investment Strategies_59" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Aravalli Long-Short Fund earns a gross return of 18% on INR 500 cr gross assets. Fund NAV (equity) is INR 250 cr (i.e., 2x leverage). Borrowing cost on the INR 250 cr of borrowed capital = 8% p.a. What is the LEVERED net return on NAV?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[10%]]></text></answer>
+            <answer correct="no"><text><![CDATA[18%]]></text></answer>
+            <answer correct="yes"><text><![CDATA[28%]]></text></answer>
+            <answer correct="no"><text><![CDATA[36%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Gross P&L = 18% * 500 = INR 90 cr. Borrowing cost = 8% * 250 = INR 20 cr. Net P&L = 90 - 20 = INR 70 cr. Levered net return on NAV = 70 / 250 = 28%. Leverage boosted 18% gross to 28% net on equity.
+**The Trap:** A subtracts wrong. B ignores leverage. D omits borrow cost.
+**Cross-Exam Context:** VIII, XIX-C same. Treasury/FI exams cover identical levered return math.
+**Manager's Pro-Tip:** The 28% net-on-equity looks great but the vol also scales ~2x — so Sharpe is similar to the unlevered 18% case. Investors often forget this; present the levered Sharpe (~gross Sharpe, not magnified) to prevent them anchoring on ROE only.]]></text></explanation>
+    </question>
+</QF>

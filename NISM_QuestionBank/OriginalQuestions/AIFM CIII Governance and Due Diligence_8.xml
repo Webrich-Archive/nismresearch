@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Governance and Due Diligence_8" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The Prime Brokerage (PB) Agreement with the Investment Manager of Chambal Managed Futures Fund (Cat III AIF) is being finalised. Which of the following is NOT typically a governance/operational-DD check performed by the manager on the PB arrangement?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Rehypothecation limits and segregation of client assets]]></text></answer>
+            <answer correct="no"><text><![CDATA[Margin methodology (SPAN, portfolio margin, TIMS) and intraday margin-call escalation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Asset custody chain-of-title and bankruptcy-remoteness in the PB's home jurisdiction]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Allocation of Cat I/II co-investment PE deal-by-deal voting rights]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Operational DD on a PB covers: rehypothecation, segregation, margin methodology, intraday escalations, custody chain-of-title and bankruptcy-remoteness. Deal-by-deal voting-waterfall rights are a Cat I/II PE-IC mechanic unrelated to Cat III prime brokerage governance.
+**The Trap:** Deal-by-deal PE voting has nothing to do with PB operations. The other three options are canonical PB-DD items that a Cat III hedge fund CIO must sign off on.
+**Cross-Exam Context:** Cat I/II PE deal-by-deal mechanics are XIX-D territory (cross-exam context only for XIX-E). Cat III hedge funds almost never use deal-by-deal PE waterfalls.
+**Manager's Pro-Tip:** Insist on UCC-style 'segregation certificates' from your PB and run a quarterly bankruptcy-remoteness stress test — especially for global PBs where the Indian fund's assets may be booked in London/NY. A side-letter with a sub-custody override can save the fund if the PB enters resolution.]]></text></explanation>
+    </question>
+</QF>

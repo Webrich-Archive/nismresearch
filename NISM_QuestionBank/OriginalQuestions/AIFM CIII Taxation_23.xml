@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Taxation_23" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Post the Finance (No. 2) Act 2024 amendment (effective 1 October 2024), the STT rate on the SALE of futures in securities is:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[0.0125% payable by seller]]></text></answer>
+            <answer correct="yes"><text><![CDATA[0.02% payable by seller]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.1% payable by seller]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.2% payable by seller]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Finance (No. 2) Act 2024 increased STT on sale of futures in securities from 0.0125% to 0.02% with effect from 1 October 2024. Correspondingly STT on sale of options in securities was hiked from 0.0625% to 0.1%.
+**The Trap:** 0.0125% is the pre-Oct-2024 rate. 0.1% is the new options rate. 0.2% is the unlisted-shares-OFS rate. Candidates confused between futures vs options.
+**Cross-Exam Context:** VIII (Equity Derivatives) tests STT on derivatives extensively. XIX-E drills the new 2024 rates for Cat III F&O strategies. XXI-B mentions STT as a frictional cost.
+**Manager's Pro-Tip:** Sahyadri's high-turnover stat-arb strategies now eat 60% more STT on futures sales after Oct 2024 (0.0125 → 0.02). Re-benchmark each strategy's break-even alpha against the new STT; strategies with <1% gross alpha per cycle may be uneconomical post-hike.]]></text></explanation>
+    </question>
+</QF>

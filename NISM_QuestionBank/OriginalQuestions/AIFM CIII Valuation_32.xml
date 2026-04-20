@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Valuation_32" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[For a Cat III AIF investment made in a currency OTHER than INR, NAV determination requires:]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Conversion to INR at closing market rate on the relevant Valuation Day]]></text></answer>
+            <answer correct="no"><text><![CDATA[Conversion at historical purchase rate]]></text></answer>
+            <answer correct="no"><text><![CDATA[Conversion at 6-month forward rate]]></text></answer>
+            <answer correct="no"><text><![CDATA[Conversion at RBI reference rate of prior month]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per the chapter: 'Determination of NAV should be done in Indian Rupee (INR). Any investment made in a currency, otherwise than in INR shall be converted into INR at closing market rate, on the relevant Valuation Day.'
+**The Trap:** Historical rate freezes FX gains/losses wrongly; forwards/prior-month rates are not current spot.
+**Cross-Exam Context:** XIX-C tests the same; IFSC-domiciled funds under 80LA have specific USD-book rules for cross-ref.
+**Manager's Pro-Tip:** Cat III funds running global mandates should lock the FX source (e.g., RBI reference rate at 1 pm) in the valuation policy - inconsistent FX sources across valuation days creates avoidable NAV noise.]]></text></explanation>
+    </question>
+</QF>

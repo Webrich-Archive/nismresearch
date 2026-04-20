@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Valuation_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Fund ILS holds 2,00,000 shares in SME-listed Company ASME. Current market price INR 25, daily volume 50,000 shares, daily price band -/+2%, opportunity cost 12% p.a. (~0.048% per day, 250 trading days). Assuming sale over 4 consecutive days at successive lower-price-band prices, the total PV of net proceeds comes to INR 48,48,568. What fair value per share should the Fund use for NAV?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[INR 25.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 26.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 23.53]]></text></answer>
+            <answer correct="yes"><text><![CDATA[INR 24.2428]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Fair Value per share = Total PV / Shares = 48,48,568 / 2,00,000 = INR 24.2428. Matches Example 12.11. Illiquid positions cannot be marked at last trade because the fund cannot exit at that price.
+**The Trap:** INR 25 is the stale last-trade price (ignores illiquidity discount). INR 23.53 is only the T+3 price. INR 26 is a fabricated premium.
+**Cross-Exam Context:** This 'exit-adjusted' valuation is unique to Cat III side-pocket/illiquid methodology. XIX-C tests it; XIX-D (Cat I/II) does not since Cat I/II hold-to-exit anyway.
+**Manager's Pro-Tip:** When a position becomes illiquid mid-quarter, trigger side-pocket segregation rather than carry the drag in main NAV - new subscribers otherwise suffer the mark-down while legacy investors benefit from the subsequent recovery. Equalisation won't fix this; side-pocket does.]]></text></explanation>
+    </question>
+</QF>

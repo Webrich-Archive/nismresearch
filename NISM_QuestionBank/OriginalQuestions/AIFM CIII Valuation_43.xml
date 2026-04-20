@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Valuation_43" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Per the chapter, when calculating WACC for an UNLISTED alternative-investment investee company:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[CAPM Ke is used unchanged from a listed comparable]]></text></answer>
+            <answer correct="no"><text><![CDATA[CAPM Ke is reduced to reflect lower regulation]]></text></answer>
+            <answer correct="yes"><text><![CDATA[CAPM Ke is adjusted higher to reflect an illiquidity premium and any specific risk premium; cost of equity of unlisted company will be higher than comparable listed company]]></text></answer>
+            <answer correct="no"><text><![CDATA[Only cost of debt is used; equity is ignored]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per the chapter: 'The cost of equity is usually based on the Capital Asset Pricing Model (CAPM) but is adjusted to reflect the illiquidity premium of alternative assets and further specific risk premium if any applicable to the given company. Accordingly, the cost of equity of an unlisted company will be higher than that of a comparable listed company.'
+**The Trap:** Unchanged Ke understates risk; reduction is backwards; ignoring equity gives only cost of debt.
+**Cross-Exam Context:** XIX-C, XXI-B, XV, X-B all test illiquidity premium in CAPM.
+**Manager's Pro-Tip:** Benchmark unlisted illiquidity premium at 200-400bps over comparable listed Ke; document the premium size, source and sector-specific reasoning. Inspectors question blanket 300bps across all sectors.]]></text></explanation>
+    </question>
+</QF>

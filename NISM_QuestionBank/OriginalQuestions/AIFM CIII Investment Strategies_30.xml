@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Investment Strategies_30" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Fund NAV = INR 200 cr. Current long positions INR 220 cr. Current short positions INR 100 cr. What is the gross leverage and does it breach the Cat III 2x cap?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Gross 1.6x, within cap]]></text></answer>
+            <answer correct="no"><text><![CDATA[Gross 1.1x, within cap]]></text></answer>
+            <answer correct="no"><text><![CDATA[Gross 2.2x, BREACHES cap]]></text></answer>
+            <answer correct="no"><text><![CDATA[Gross 0.6x, within cap]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Gross = (|Long| + |Short|) / NAV = (220 + 100) / 200 = 320/200 = 1.60x. This is within the 2x SEBI Cat III cap. Net = (220 - 100)/200 = 0.60x (net long).
+**The Trap:** B calculates net instead of gross. C forgets to divide. D mislabels net as gross.
+**Cross-Exam Context:** XIX-C same. VIII tests gross/net.
+**Manager's Pro-Tip:** Net 0.6x with gross 1.6x means the book is ~60% directional and 100% pair-trade. The pair-trade portion is lower-conviction alpha — track its hit rate separately and kill positions with <55% hit rate; the lost alpha doesn't justify the gross-leverage risk budget.]]></text></explanation>
+    </question>
+</QF>

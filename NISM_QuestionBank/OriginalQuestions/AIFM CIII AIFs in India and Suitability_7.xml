@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII AIFs in India and Suitability_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Mr. Vivek Saxena, a family-office CIO, is choosing between a Cat III AIF and a PMS. Per Table 4.2, which statement is CORRECT regarding pooling of funds and custody?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[In PMS, pooling is compulsory and securities are held in a single pooled demat account]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both PMS and Cat III AIF issue units that represent undivided interest in a pooled portfolio]]></text></answer>
+            <answer correct="no"><text><![CDATA[In Cat III AIF, separate demat accounts are opened for each investor reflecting individual ownership]]></text></answer>
+            <answer correct="yes"><text><![CDATA[PMS holds securities at individual client level via separate demat accounts; Cat III AIF pools funds compulsorily and trades at fund level]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Table 4.2: PMS pools only for onboarding/trade execution but securities are held at individual client level in SEPARATE demat accounts — the investor owns the securities directly. Cat III AIF pools COMPULSORILY for collective investment and trades only at the pooled fund level; investors hold UNITS, not underlying securities.
+**The Trap:** Options A and C invert the PMS and AIF structures. Option B is wrong — PMS does NOT issue units; it is a direct-ownership model.
+**Cross-Exam Context:** XXI-B (Portfolio Manager) exam tests the PMS direct-ownership + separate demat extensively. XIX-E tests the contrast with Cat III's pooled unit structure — critical because this drives the tax treatment difference (PMS = investor-level; Cat III = fund-level MMR).
+**Manager's Pro-Tip:** The pooled structure is why Cat III uses HWM crystallisation at the UNIT series level (equalisation) — a PMS manager doesn't need this because each client has their own book. When a new subscriber joins a Cat III fund mid-quarter, issue a NEW series to avoid embedded-gain free-riding.]]></text></explanation>
+    </question>
+</QF>

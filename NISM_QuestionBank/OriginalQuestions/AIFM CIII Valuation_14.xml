@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Valuation_14" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Kaveri Macro Fund (Cat III) holds 1,000 RCE Ltd corporate bonds, face INR 10,000, 9% coupon, held at market rate INR 105 per INR 100 face. No interest accrued. For daily NAV, what is the bond's contribution to Total Assets?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[INR 10,00,00,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 9,00,00,000]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 10,90,00,000]]></text></answer>
+            <answer correct="yes"><text><![CDATA[INR 10,50,00,000]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Value = 1,000 bonds * 10,000 face * 105/100 = 1,000 * 10,500 = INR 10,50,00,000. Matches Example 12.9 (Unlisted Debt line). When there is no ascertainable market, amortised cost is used; here the market quote is available, so MTM price is applied.
+**The Trap:** INR 10,00,00,000 uses face-only (ignores premium). INR 10,90,00,000 adds extra coupon. INR 9,00,00,000 confuses discount vs. premium.
+**Cross-Exam Context:** XIX-C tests bond valuation in AIF NAV context. XXI-B uses similar for PMS debt.
+**Manager's Pro-Tip:** For listed debt, FBIL/CCIL/FIMMDA VWAY is the SEBI-preferred source. If the bond hasn't traded in last hour, use full-day VWAY - the chapter explicitly calls this out for G-Secs and T-bills.]]></text></explanation>
+    </question>
+</QF>

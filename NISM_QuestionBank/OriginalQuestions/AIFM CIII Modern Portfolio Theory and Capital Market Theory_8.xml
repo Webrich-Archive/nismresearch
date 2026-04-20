@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Modern Portfolio Theory and Capital Market Theory_8" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Mr. Vivek Joshi, CIO of Chambal Managed Futures Fund, explains the Efficient Frontier to a new analyst. Which statement BEST describes the efficient frontier?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The set of portfolios with the highest possible Sharpe ratio for any given correlation.]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The set of portfolios offering the maximum expected return for each given level of risk (or minimum risk for a given return).]]></text></answer>
+            <answer correct="no"><text><![CDATA[A straight line connecting the risk-free asset to the market portfolio.]]></text></answer>
+            <answer correct="no"><text><![CDATA[The locus of portfolios with zero systematic risk.]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Section 3.7 defines the efficient frontier as the set of portfolios providing maximum rate of return for a given level of risk (or minimum risk for a given rate of return). It is the upper envelope of the feasible set of risky-asset combinations.
+**The Trap:** (A) mixes CML with the efficient frontier — Sharpe maximisation applies to a single tangent portfolio, not the full frontier. (C) describes the CML, not the efficient frontier. (D) is unrelated (zero systematic risk is not how the frontier is defined).
+**Cross-Exam Context:** XIX-C/D and XXI-B use the identical definition; VIII tests frontier shape when assets are perfectly correlated (straight line) vs imperfectly correlated (bullet).
+**Manager's Pro-Tip:** Cat III funds use constrained frontiers in practice — you add leverage cap (2x), single-name 10% open-ended / 25% close-ended cap, and net-short limits. The constrained frontier shifts right-and-down compared to the textbook bullet; it's what your board actually invests against.]]></text></explanation>
+    </question>
+</QF>

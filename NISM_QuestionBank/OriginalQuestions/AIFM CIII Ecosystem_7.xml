@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Ecosystem_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[The Kaveri Macro Fund (Cat III) engages a Prime Broker. Which of the following is NOT a function typically performed by a Prime Broker for a Category III AIF?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Trade settlement and clearing of OTC derivatives.]]></text></answer>
+            <answer correct="no"><text><![CDATA[Margin financing and securities lending to enable leveraged long-short strategies.]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Filing of the Private Placement Memorandum with SEBI and providing the due-diligence certificate.]]></text></answer>
+            <answer correct="no"><text><![CDATA[Securities borrowing facilitation to support short-selling positions.]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Prime Brokers — a party unique to Category III AIFs (not used by Cat I/II) — provide settlement, margin financing, securities lending/borrowing (to enable shorting), OTC derivatives clearing, and consolidated reporting. Filing of PPM and issuance of due-diligence certificate is the exclusive function of a SEBI-registered MERCHANT BANKER, not a Prime Broker.
+**The Trap:** The trap is conflating any 'bank-like intermediary' function with PB scope. PPM filing is a merchant-banker-only activity under SEBI Circular October 21, 2021.
+**Cross-Exam Context:** XIX-D does NOT test prime brokers (Cat I/II don't use them). XIX-B (Cat III Distributor) tests PB existence from the client-explanation angle. VIII (Derivatives) touches clearing member roles which overlap with PB OTC clearing.
+**Manager's Pro-Tip:** Your PB mix matters: a registered Indian PB (typically a bank or broking arm) handles domestic trades; a recognised OFFSHORE PB handles your GIFT-IFSC or global-macro leg. Don't co-mingle — each leg must be reconciled to its own PB daily margin statement. Watch out for PB concentration risk: single-PB dependence amplified Lehman-style contagion in 2008.]]></text></explanation>
+    </question>
+</QF>

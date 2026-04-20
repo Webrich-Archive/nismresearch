@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Taxation_1" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Mr. Ramesh Iyer, CFO at Himalaya Arbitrage Fund (a Category III AIF structured as an irrevocable determinate trust), is briefing a new analyst on the fund's tax framework. He states that a specific ITA section which grants pass-through status to Category I and II AIFs does NOT apply to Category III AIFs. Which section is he referring to?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Section 115UB read with Section 10(23FBB)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Section 112A]]></text></answer>
+            <answer correct="no"><text><![CDATA[Section 10(38)]]></text></answer>
+            <answer correct="no"><text><![CDATA[Section 80C]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Section 115UB (read with Section 10(23FBA)/10(23FBB)) grants pass-through treatment to Category I and II AIFs. Under the ITA, no pass-through status has been accorded to a Category III AIF — it is taxed at the fund level under general trust taxation principles (typically MMR under Section 161(1A) or 164). Section 112A deals with LTCG on listed equity; Section 10(38) was the old LTCG exemption (withdrawn 2018); Section 80C is an individual deduction.
+**The Trap:** Candidates who remember Section 115UB as the 'AIF tax section' forget that it applies only to Cat I/II. Options B–D are other popular ITA sections used as plausible distractors, but they govern unrelated topics.
+**Cross-Exam Context:** XIX-D (Cat I/II Managers) treats Section 115UB pass-through as the primary tax regime. XIX-E (here) deliberately excludes it — pass-through does NOT apply to Cat III. XIX-B (Cat III Distributors) also tests this contrast from the client-communication angle.
+**Manager's Pro-Tip:** Budget at fund level. Because Section 115UB is unavailable, every rupee of business income at Himalaya Arbitrage is hit at MMR (~42.744%) BEFORE distribution — so a 15% gross strategy only delivers ~8.6% net to LPs. Build tax drag into hurdle-rate and HWM math, and never quote gross returns to LPs without the fund-level tax haircut.]]></text></explanation>
+    </question>
+</QF>

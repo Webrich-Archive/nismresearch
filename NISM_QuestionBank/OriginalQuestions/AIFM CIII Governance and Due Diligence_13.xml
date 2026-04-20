@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Governance and Due Diligence_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which personal-trading policy control is MOST directly aimed at preventing 'front-running' by Investment Manager employees at a Cat III AIF?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Mandatory pre-clearance of employee personal trades and blackout windows around the fund's trading orders]]></text></answer>
+            <answer correct="no"><text><![CDATA[Annual trustee performance review of the AMC]]></text></answer>
+            <answer correct="no"><text><![CDATA[Quarterly NAV publication to investors]]></text></answer>
+            <answer correct="no"><text><![CDATA[Monthly fund-performance report to SEBI]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Front-running is where an employee trades ahead of the fund's known orders for personal benefit. Pre-clearance by compliance plus a blackout window (e.g., 7 days before/after fund trades in the same security) is the direct control. The Code of Conduct (clauses g, j, k) further reinforces no inducement and confidentiality.
+**The Trap:** The other options are legitimate governance items but don't directly address front-running, which requires person-level trading surveillance.
+**Cross-Exam Context:** Same concept in XV (Research Analyst — personal trading), XXI-B (PMS), and III-A (Compliance). XIX-E applies in a hedge-fund long-short desk where front-running is highest-risk.
+**Manager's Pro-Tip:** For a Cat III long-short fund, require all KMPs and PMs to use a single broker account with read-only trade feeds auto-routed to compliance; deny proprietary shorting in the fund's trade universe. This closes the loophole where an employee shorts a stock hours before the fund unwinds a long.]]></text></explanation>
+    </question>
+</QF>

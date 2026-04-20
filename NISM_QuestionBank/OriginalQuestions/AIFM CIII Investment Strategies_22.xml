@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Investment Strategies_22" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Fund GMS holds: long Indian large-cap equities INR 42.5 cr, long mid-cap INR 1 cr, SHORT USDINR and GBPINR currency futures, LONG WTI crude oil futures. Which strategy label fits BEST?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Market-Neutral Strategy]]></text></answer>
+            <answer correct="no"><text><![CDATA[Pre-IPO Strategy]]></text></answer>
+            <answer correct="no"><text><![CDATA[Merger Arbitrage Strategy]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Global-Macro Strategy with a net long bias]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Multi-asset (equities + FX + commodities), multi-geography exposure with mixed long/short positions is the textbook definition of Global-Macro (Section 10.1.2). Net long in risk assets => long-bias global macro.
+**The Trap:** Market-neutral requires Beta ~ 0 (not multi-asset directional bets). Merger arb is single-issuer event. Pre-IPO is private equity.
+**Cross-Exam Context:** PDF Example 10.5 nearly verbatim. XIX-C covers same.
+**Manager's Pro-Tip:** Global-Macro positions can use 'overlay' structure — hold risk assets on prime broker margin while FX/commodity derivatives sit on ISDA CSA. Ensure the two margin systems' stress VaR is consolidated at fund level, otherwise you underestimate true leverage.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Fund Structuring_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[In the AIF service-provider ecosystem, the CUSTODIAN is primarily responsible for:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Maintaining investor unit records and processing subscriptions/redemptions]]></text></answer>
+            <answer correct="no"><text><![CDATA[Filing the PPM with SEBI on behalf of the manager]]></text></answer>
+            <answer correct="no"><text><![CDATA[Auditing the books of the AIF and issuing the financial statements]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Safekeeping of securities on behalf of the investors (holding assets of the fund)]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The custodian safeguards the securities and assets of the AIF. Investor unit records (subscriptions/redemptions) fall with the Registrar & Transfer Agent (RTA). Auditors handle book audit. Merchant banker files the PPM.
+**The Trap:** Options A, C, D describe distinct service providers (RTA, Auditor, Merchant Banker). Conflating custodian with RTA is the classic mistake.
+**Cross-Exam Context:** XIX-A/B/C/D test this same service-provider mapping. XXI-A/B PMS has a similar custodian role.
+**Manager's Pro-Tip:** Verify daily that your custodian's security balance reconciles with your fund admin's NAV holdings — a daily two-way reconciliation catches settlement/corp-action errors before they hit NAV.]]></text></explanation>
+    </question>
+</QF>

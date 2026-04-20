@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Legal Documents and Negotiations_27" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A client of Vindhya Event-Driven Fund approaches the AIF through a SEBI-registered investment advisor who is separately charging the client an advisory fee. Per SEBI's April 2023 circular, the client must be on-boarded via:]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Regular Plan with trail commission at 1% p.a.]]></text></answer>
+            <answer correct="no"><text><![CDATA[Regular Plan with upfront commission at 2% of subscription.]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Direct Plan with no payment of commissions.]]></text></answer>
+            <answer correct="no"><text><![CDATA[Either Plan, at the client's choice.]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Chapter 9.7.3 states: 'AIFs shall ensure that investors who approach the AIF through a SEBI registered intermediary which is separately charging the investor any fee (such as advisory fee or portfolio management fee), are on-boarded via Direct Plan only which involves no payment of commissions.' This prevents 'double-dipping'.
+**The Trap:** Options A and B violate the no-commission rule. Option D gives the client spurious choice.
+**Cross-Exam Context:** XIX-B tests the same direct-plan rule from the distributor's standpoint. XXI-A PMS Distributor has an analogous direct/regular split. X-A Investment Adviser tests the adviser-side fiduciary separation.
+**Manager's Pro-Tip:** Implement a 'onboarding intake' form that captures WHETHER the investor arrived via an RIA/PM — if yes, Direct Plan is mandatory. Getting this wrong is a SEBI regulatory finding with teeth.]]></text></explanation>
+    </question>
+</QF>

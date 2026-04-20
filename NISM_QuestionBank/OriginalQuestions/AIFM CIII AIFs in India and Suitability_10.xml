@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII AIFs in India and Suitability_10" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Vindhya Event-Driven Fund has onboarded 950 investors and is seeing strong demand. The compliance officer flags a concern. What is the correct regulatory position?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[There is no cap on the number of investors in a Cat III AIF as long as minimum ticket is met]]></text></answer>
+            <answer correct="no"><text><![CDATA[The cap is 500 investors for Cat III open-ended funds and 1,000 for close-ended]]></text></answer>
+            <answer correct="no"><text><![CDATA[The fund can admit up to 2,000 investors per scheme under SEBI (AIF) Regulations]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The maximum number of investors per scheme cannot exceed 1,000 in a Cat III AIF]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Tables 4.2/4.3/4.4: Cat III AIF is capped at a maximum of 1,000 investors per scheme. This contrasts with mutual funds and PMS, which have no such cap. At 950 investors, Vindhya has only 50 seats of headroom before further subscriptions must be rejected or the scheme closed.
+**The Trap:** Option A ignores the cap. Option C invents 2,000 (that is the Companies Act private placement limit, not an AIF rule). Option B invents a structural split.
+**Cross-Exam Context:** XIX-C/XIX-D/XIX-E all test the 1,000-investor cap. In XIX-E (Manager), you also manage the interplay with Angel Fund's separate 200-investor cap (Cat I sub-category — cross-exam context only).
+**Manager's Pro-Tip:** Build a live investor-count dashboard. When you hit ~900, throttle new subscriptions or plan a follow-on scheme. Accredited Investor classification doesn't exempt you from the 1,000 cap, so don't assume AI-heavy books get a relief.]]></text></explanation>
+    </question>
+</QF>

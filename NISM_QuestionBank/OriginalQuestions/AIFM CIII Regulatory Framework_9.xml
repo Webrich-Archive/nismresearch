@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Regulatory Framework_9" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Himalaya Arbitrage Fund is an OPEN-ENDED Category III AIF. What is the appropriate NAV publication frequency that the fund administrator should adopt?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Monthly NAV by the 10th of next month]]></text></answer>
+            <answer correct="no"><text><![CDATA[Quarterly NAV in line with Cat I/II practice]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Daily NAV reflecting mark-to-market of listed and exchange-traded derivatives]]></text></answer>
+            <answer correct="no"><text><![CDATA[Annual NAV audited by the statutory auditor]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Open-ended Cat III AIFs must declare NAV daily to support redemption/subscription cycles. NAV excludes borrowed funds and is marked-to-market using closing prices for listed securities and exchange-traded derivatives. Fund administrator publishes NAV on T+1 typically.
+**The Trap:** Options A and B are Cat I/II (illiquid PE/VC) frequencies. Option D is the audit cadence, not NAV publication.
+**Cross-Exam Context:** XIX-D tests Cat I/II quarterly/semi-annual valuation. XIX-E fixes on daily NAV for Cat III open-ended.
+**Manager's Pro-Tip:** Cut-off for subscriptions/redemptions is typically T, with NAV computed on T and transactions priced at T NAV (dealing day). Coordinate with prime broker margin cycle and equalisation credit/debit for new investors subscribing mid-accounting-period.]]></text></explanation>
+    </question>
+</QF>

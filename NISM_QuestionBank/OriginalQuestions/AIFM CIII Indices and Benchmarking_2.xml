@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Indices and Benchmarking_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Ms. Priya Shah is reviewing a 3-stock price-weighted index used by Satpura Market-Neutral Fund as a regional sub-benchmark. On Day 0: Stock P INR 120, Stock Q INR 180, Stock R INR 300 (divisor 6). On Day 1: P INR 132, Q INR 198, R INR 330 (no corporate actions, divisor unchanged). What is the Day-1 value of this price-weighted index?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[100.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[105.00]]></text></answer>
+            <answer correct="yes"><text><![CDATA[110.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[115.50]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Day-0 sum = 120+180+300 = 600; index_0 = 600/6 = 100. Day-1 sum = 132+198+330 = 660; index_1 = 660/6 = 110. Each constituent rose 10%, so the price-weighted index also rose 10% — from 100 to 110.
+**The Trap:** Option A is the Day-0 base value. Option B (105) is the average of a mis-computed 5% rise. Option D (115.50) would be if someone incorrectly applied 10% twice (compounded) on the base. The price-weighted formula is simply sum of prices / adjusted divisor.
+**Cross-Exam Context:** XXI-B (PM) tests price-weighted index mechanics for benchmarking PMS portfolios. XIX-C / XIX-D cover it for All-Cat / Cat I/II contexts. Same formula everywhere.
+**Manager's Pro-Tip:** A Cat III market-neutral desk often creates internal price-weighted baskets for ease of option-basket pricing, but remember these drift relative to value-weighted indices when a high-priced constituent splits — the divisor must be re-struck so the index level is continuous.]]></text></explanation>
+    </question>
+</QF>

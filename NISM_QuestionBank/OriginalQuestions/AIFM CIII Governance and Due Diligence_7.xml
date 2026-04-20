@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Governance and Due Diligence_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Mr. Ramesh Iyer, head of risk at Kaveri Macro Fund, is designing the ISDA Master Agreement and Credit Support Annex (CSA) stack for the fund's derivatives trading. From a governance perspective for a Cat III AIF, why is the ISDA/CSA regarded as a definitive agreement for counterparty risk?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[It eliminates all market risk from the fund's portfolio.]]></text></answer>
+            <answer correct="no"><text><![CDATA[It is a substitute for the SEBI (AIF) Regulations.]]></text></answer>
+            <answer correct="yes"><text><![CDATA[It establishes netting, collateral posting and default/termination mechanics that bind the fund and derivative counterparties — a core operational-DD item for a Cat III leverage user.]]></text></answer>
+            <answer correct="no"><text><![CDATA[It guarantees a minimum IRR to investors.]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For Cat III AIFs running leverage up to 2x NAV via swaps, options and TRS, the ISDA Master Agreement plus its CSA governs netting (close-out netting), collateral (initial margin, variation margin), events of default and termination. Operational due diligence on a Cat III manager specifically assesses whether ISDA/CSA terms protect investors from counterparty failure.
+**The Trap:** ISDA cannot eliminate market risk (it manages counterparty/credit risk). Private contracts don't substitute regulations. ISDAs do not guarantee returns.
+**Cross-Exam Context:** XIX-B distributors cover ISDA/CSA superficially; XIX-E Cat III Manager goes into operational DD depth. VIII (Equity Derivatives) covers derivative mechanics but not ISDA governance framework.
+**Manager's Pro-Tip:** Negotiate ISDA Threshold and Minimum Transfer Amount tightly: a low Threshold forces daily margin posting which can strain T+1 liquidity if your prime broker shares the CSA, but a high Threshold leaves the fund naked on close-out. Target bilateral 'IM + VM daily' with a Threshold of INR 10-25 cr for Cat III leveraged books.]]></text></explanation>
+    </question>
+</QF>

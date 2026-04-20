@@ -1,8 +1,8 @@
 # NISM Question Bank — Handoff Document
 
-**Date:** April 20, 2026 (Updated after Phase 14D-2 — Series XIX-D complete)
-**Status:** 29 of 31 exams complete. 12,393 questions generated across 298 topics. Phase 14D-2 COMPLETE — XIX-D (500 Qs, 13 topics) done.
-**For:** Next session should continue with Phase 14D-3 (XIX-E — AIF Managers Cat III only, 500 Qs), or Phase 15 (Series XXIII — Social Impact Assessors, 500 Qs).
+**Date:** April 20, 2026 (Updated after Phase 14D-3 — Series XIX-E complete)
+**Status:** 30 of 31 exams complete. 12,893 questions generated across 313 topics. Phase 14D-3 COMPLETE — XIX-E (500 Qs, 15 topics) done.
+**For:** Next session should continue with Phase 15 (Series XXIII — Social Impact Assessors, 500 Qs, ~7 topics). After Phase 15 completes, the NISM Question Bank will have full coverage of all 31 NISM certification exams.
 
 ---
 
@@ -41,7 +41,8 @@
 | Series XXI-B - Portfolio Managers | XXI-B | 500 | 21 | Hard | Generated from PDF (multiple mix per topic). No caselets. 25% negative marking. |
 | Series XIX-C - AIF Managers (All Categories) | XIX-C | 500 | 15 | Hard | Generated from PDF (Manager-side framing across Cat I/II and Cat III). No caselets. 25% negative marking. |
 | Series XIX-D - AIF Managers (Category I and II) | XIX-D | 500 | 13 | Hard | Generated from PDF (Cat I/II Manager-side — PE/VC/Debt/Infra; Cat III excluded). No caselets. 25% negative marking. |
-| **Total (completed exams)** | | **12,393** | **298** | | |
+| Series XIX-E - AIF Managers (Category III) | XIX-E | 500 | 15 | Hard | Generated from PDF (Cat III Manager-side — long-short, market-neutral, arbitrage, macro, CTA, multi-strategy; Cat I/II excluded). No caselets. 25% negative marking. |
+| **Total (completed exams)** | | **12,893** | **313** | | |
 
 ### Series XXI-A Breakdown (Phase 14C-1)
 
@@ -155,6 +156,37 @@
 **Namespace note:** All XIX-D topics prefixed "AIFM CII " (AIF Manager Category I/II) to keep them distinct from XIX-C "AIFM " (All-Cat Manager), XIX-A "AIF " (Cat I/II Distributor), XIX-B "Cat III AIF " (Cat III Distributor), and V-A raw "Taxation". This namespace leaves room for XIX-E to use "AIFM CIII " (Cat III Manager) in Phase 14D-3.
 **Cat III scope exclusion:** All 500 questions are framed from a Cat I/II Manager desk. Cat III content (HWM, daily NAV, long-short strategies, 2x leverage, fund-level MMR taxation) appears only in `Cross-Exam Context` field for contrast — never as correct answers or primary subject matter.
 **Tone:** Manager-side framing throughout — PE/VC/Debt/Infra deal sourcing, IC governance, GP-LP economics, drawdown/waterfall mechanics, LP protection rights negotiation, PPM drafting, valuer rotation planning. Helper explanations use "Manager's Pro-Tip:" label.
+
+
+### Series XIX-E Breakdown (Phase 14D-3)
+
+| Topic (exact plist key) | Questions | Marks | Source Chapter |
+|--------------------------|:---------:|:-----:|:---------------:|
+| AIFM CIII Investment Landscape | 15 | 3 | Ch 1 |
+| AIFM CIII Types of Investments | 15 | 3 | Ch 2 |
+| AIFM CIII Modern Portfolio Theory and Capital Market Theory | 20 | 4 | Ch 3 |
+| AIFM CIII AIFs in India and Suitability | 15 | 3 | Ch 4 |
+| AIFM CIII Ecosystem | 25 | 5 | Ch 5 |
+| AIFM CIII Fund Structuring | 50 | 10 | Ch 6 |
+| AIFM CIII Fee Structure and Fund Performance | 50 | 10 | Ch 7 |
+| AIFM CIII Indices and Benchmarking | 20 | 4 | Ch 8 |
+| AIFM CIII Legal Documents and Negotiations | 40 | 8 | Ch 9 |
+| AIFM CIII Investment Strategies | 60 | 12 | Ch 10 |
+| AIFM CIII Governance and Due Diligence | 35 | 7 | Ch 11 |
+| AIFM CIII Valuation | 50 | 10 | Ch 12 |
+| AIFM CIII Fund Monitoring Reporting and Exit | 50 | 10 | Ch 13 |
+| AIFM CIII Taxation | 25 | 8 | Ch 14 |
+| AIFM CIII Regulatory Framework | 30 | 10 | Ch 15 |
+| **XIX-E Total** | **500** | **107** | **15 Chapters** |
+
+**Exam details:** 64 questions (60 MCQ + 4 caselets × 5), 2 hours, 60% pass, **25% negative marking** (standard — Manager exam). No caselets in this bank (pure MCQ).
+**PDF:** FINAL_Series-XIX-E_Category III AIF Managers.pdf (453 pages)
+**Question mix:** Topic-specific blends: Investment Strategies 32% calc (merger-arb, stat-arb z-score, 130/30 gross/net, beta-neutral hedge ratio, margin-call under 2x cap), Fee Structure and Fund Performance 52% calc (HWM crystallisation, VaR 95%/99%, Sharpe/Sortino/Calmar, TWR, equalisation credit, tracking error), Valuation 28% calc (series-of-units NAV, side-pocket split, DCF+WACC, EV→Equity, futures MTM, Black-Scholes delta), MPT/CMT 50% calc (Markowitz variance, CAPM, beta, Sharpe). Regulatory Framework 63% regulatory (SEBI AIF Regs 2012 Reg 3/4/10/13/15/20A/23/29 + AI framework + LVF + CSCRF 2024 + DPDPA 2023 + FEMA + PMLA + PIT + PFUTP + ICDR + FPI + FATCA/CRS + Fifth Amendment 2024). No caselets.
+**ExamWeightages key:** "Series XIX-E - AIF Managers (Category III)" (replaced 13 placeholder topic keys with 15 "AIFM CIII …" keys). Marks sum to 107 per PDF page 15 extraction; the PDF itself states total marks = 100 but its individual chapter marks sum to 107 — using PDF-extracted values verbatim (known arithmetic inconsistency in the source PDF).
+**Namespace note:** All XIX-E topics prefixed "AIFM CIII " (AIF Manager Category III) to keep them distinct from XIX-C "AIFM " (All-Cat Manager), XIX-D "AIFM CII " (Cat I/II Manager), XIX-A "AIF " (Cat I/II Distributor), XIX-B "Cat III AIF " (Cat III Distributor), and V-A raw "Taxation". The prefix reservation was pre-announced in the Phase 14D-2 prompt.
+**Cat I/II scope exclusion:** All 500 questions are framed from a Cat III hedge-fund Manager desk. Cat I/II content (IRR/MOIC/TVPI/DPI, PE/VC/Debt/Infra strategies, 8% hurdle + 100% catch-up + 80/20 waterfalls, Section 115UB pass-through, Section 194LBB TDS, 2.5%/INR 5 cr sponsor commit, zero-leverage rule, close-ended-only structure, quarterly/semi-annual valuation) appears only in `Cross-Exam Context` field for contrast — never as correct answers or primary subject matter.
+**Cat III-native content emphasis:** Sponsor commit 5%/INR 10 cr; 2x leverage cap; 10% single-investee open-ended / 25% close-ended; open-ended permitted; daily NAV; HWM crystallisation (series-of-units + equalisation credit/debit + side pockets); Prime Broker as central ecosystem party; ISDA Master Agreement + CSA; fund-level MMR taxation (AOP, Section 115UB NOT applicable, Section 194LBB NOT applicable); IFSC-GIFT 80LA 100% tax holiday; LTCG 12.5% / STCG 20% post-Budget 2024; TWR / MWR / Sharpe / Sortino / Calmar / VaR / CVaR / drawdown for performance.
+**Tone:** Manager-side framing throughout — long-short pair sizing, HWM timing, equalisation mechanics, prime-broker margin, VaR limits, merger-arb spread, stat-arb z-score, fund-level MMR tax drag. Helper explanations use "Manager's Pro-Tip:" label.
 
 
 ### Series XIX-B Breakdown

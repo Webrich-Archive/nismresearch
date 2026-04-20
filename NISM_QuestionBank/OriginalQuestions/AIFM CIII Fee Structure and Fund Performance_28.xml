@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Fee Structure and Fund Performance_28" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Which of the following best describes 'High Water Mark' (HWM) in a Cat III AIF?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[The highest annual GST collected]]></text></answer>
+            <answer correct="no"><text><![CDATA[Maximum regulatory leverage threshold]]></text></answer>
+            <answer correct="yes"><text><![CDATA[The highest NAV (net of expenses and management fees) achieved by the fund, below which no incentive fees can be charged]]></text></answer>
+            <answer correct="no"><text><![CDATA[Benchmark index value at the start of the fund life]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** HWM is the highest historical NAV/unit (net of fees & expenses) that the fund has reached. Incentive fees are only paid on NAV growth ABOVE the previous HWM. If the NAV has only declined since inception, the HWM is taken as the initial subscription price.
+**The Trap:** A/B/D are nonsense distractors drawn from unrelated vocabulary.
+**Cross-Exam Context:** Cat I/II (XIX-D) rarely use HWM — they use PE waterfalls with catch-up. XIX-E central theme.
+**Manager's Pro-Tip:** On fund-admin reconciliation, verify HWM is stored PER UNIT SERIES (or per LP if equalisation accounting). A single fund-level HWM breaks when a LP redeems and a new LP subscribes.]]></text></explanation>
+    </question>
+</QF>

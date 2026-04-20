@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Investment Strategies_27" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Fund PQC's large-cap book: LONG Company B (Beta 0.40, weight 0.25), LONG Company C (Beta 2.00, weight 0.25), SHORT Company D (Beta 1.20, weight 0.50, signed -0.50). Sum of weighted Betas?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[+0.90]]></text></answer>
+            <answer correct="no"><text><![CDATA[+0.20]]></text></answer>
+            <answer correct="yes"><text><![CDATA[0.00]]></text></answer>
+            <answer correct="no"><text><![CDATA[-0.20]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** 0.25*0.40 + 0.25*2.00 + (-0.50)*1.20 = 0.10 + 0.50 - 0.60 = 0.00. PDF Example 10.3 — verifies the large-cap book is Beta-neutral.
+**The Trap:** A ignores the short sign. B miscomputes middle term. D arithmetic slip.
+**Cross-Exam Context:** PDF Example 10.3 verbatim. XIX-C uses same.
+**Manager's Pro-Tip:** Re-run this Beta matrix daily with 60-day rolling Betas; when any stock's rolling Beta drifts >20% from last rebalance, rebalance weights. Transaction costs (brokerage + STT) on over-rebalancing can eat 30-50 bps annually — set a minimum drift threshold.]]></text></explanation>
+    </question>
+</QF>

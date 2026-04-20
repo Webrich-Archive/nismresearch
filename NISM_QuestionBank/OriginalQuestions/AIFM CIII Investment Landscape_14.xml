@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Investment Landscape_14" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Ms. Kavita Sharma, compliance officer at Himalaya Arbitrage Fund (Cat III), is classifying an incoming investor per NISM Chapter 1's market-participant framework. The investor is a single individual applying for Cat III units via private placement with a subscription of INR 1 crore. Under the NISM classification and SEBI ICDR 2018 retail-investor threshold cited in the chapter, how is this investor BEST classified?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[Retail Investor, because the investor is an individual, not an organisation.]]></text></answer>
+            <answer correct="no"><text><![CDATA[Institutional Investor, because AIFs only accept institutional money.]]></text></answer>
+            <answer correct="no"><text><![CDATA[Qualified Institutional Buyer (QIB), because the ticket size is above INR 10 lakh.]]></text></answer>
+            <answer correct="yes"><text><![CDATA[Non-Institutional Investor (typically HNI/UHNI or family office category), since the subscription exceeds the INR 2 lakh retail threshold under SEBI ICDR 2018 and the investor is not a qualifying institution such as MF, pension, insurance or FPI.]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Section 1.4.4.2 classifies investors into Institutional (MF, pension, insurance, hedge funds, AIFs, FPIs), Non-Institutional (HNIs/UHNIs, family offices — anyone other than retail and not an institution), and Retail (individual ≤ INR 2 lakh per SEBI ICDR 2018). An individual subscribing INR 1 crore far exceeds the INR 2 lakh retail ceiling and isn't an institution — hence Non-Institutional (HNI/family office bucket). Additionally, SEBI AIF Regulations 2012 require a minimum AIF ticket of INR 1 crore, reinforcing that Cat III investors are almost always Non-Institutional or Institutional.
+**The Trap:** Option A ignores the INR 2 lakh cap. Option B is false — AIFs (including Cat III) accept both institutional and HNI money. Option C misuses the QIB tag (QIB has its own definitional criteria unrelated to ticket size and is distinct from the Non-Institutional HNI tag).
+**Cross-Exam Context:** XXI-B (PM), X-A (IA L1), and XIX-B (Cat III Distributor) test this classification. XIX-E frames it at onboarding — Cat III's INR 1 cr min ticket (AIF Reg 10(c)) automatically puts every investor in Non-Institutional or Institutional buckets; retail cannot be onboarded into AIFs.
+**Manager's Pro-Tip:** At Cat III onboarding, the classification flows through to FATCA/CRS reporting, accredited-investor documentation (post SEBI AI regime), and contribution-agreement templates. Maintain a CRM field capturing each investor's category (Institutional / Family Office / HNI / UHNI / Accredited) — it drives disclosure obligations and redemption-queue priority during stress.]]></text></explanation>
+    </question>
+</QF>

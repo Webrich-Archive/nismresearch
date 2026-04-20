@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Investment Strategies_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Ms. Neha Kulkarni (PM at Sahyadri Stat-Arb Fund) runs a pair: LONG Stock P (Beta 1.2) and SHORT Stock Q (Beta 0.8). She invests INR 40 cr LONG in P. To make the pair Beta-neutral, what rupee SHORT in Q does she need?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[INR 40 cr]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 48 cr]]></text></answer>
+            <answer correct="yes"><text><![CDATA[INR 60 cr]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 80 cr]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Beta-neutral requires Beta_long * Notional_long = Beta_short * Notional_short. 1.2 * 40 = 0.8 * Short => Short = 48 / 0.8 = INR 60 cr. Dollar-mismatch of 20 cr is intentional — lower-Beta short leg needs more rupee to offset the higher-Beta long.
+**The Trap:** Option A assumes dollar-neutral (ignores Betas). Option B inverts the ratio. Option D doubles incorrectly.
+**Cross-Exam Context:** XXI-B tests similar Beta-hedging. VIII (Derivatives) uses the formula for index futures hedge quantity.
+**Manager's Pro-Tip:** The extra INR 20 cr short leg pushes gross to INR 100 cr vs. INR 40 cr long — 2.5x dollar-ratio on this pair. Across the book, cluster pair-level leverage and confirm aggregate NAV leverage stays under 2x SEBI cap. Use prime broker's real-time gross meter.]]></text></explanation>
+    </question>
+</QF>

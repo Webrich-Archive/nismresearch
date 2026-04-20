@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="AIFM CIII Valuation_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[Satpura Market-Neutral Fund's DCF model gives an Enterprise Value of INR 1,000 crore for investee Beta Ltd. The balance sheet shows long-term debt of INR 200 crore, preference capital of INR 50 crore, and cash of INR 5 crore. What is the Equity Value?]]></text>
+        <answers>
+            <answer correct="no"><text><![CDATA[INR 1,245 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 1,255 crore]]></text></answer>
+            <answer correct="no"><text><![CDATA[INR 800 crore]]></text></answer>
+            <answer correct="yes"><text><![CDATA[INR 755 crore]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** EV = Equity + Net Debt + Preference Capital. Therefore Equity = EV - Net Debt - Preference = 1000 - (200-5) - 50 = 1000 - 195 - 50 = INR 755 crore. Reverse of Example 12.3 pattern.
+**The Trap:** INR 1,245 is EV when Equity=1000 (forward bridge). INR 800 forgets to net cash. INR 1,255 adds cash instead of subtracting net debt.
+**Cross-Exam Context:** XIX-C and XXI-B test the EV-Equity bridge identically. VIII tests EV in merger-arb context.
+**Manager's Pro-Tip:** For merger-arb spread sizing, always run the target's EV-to-equity bridge afresh on deal day - stale net-debt figures from last quarter can mis-signal deal spreads by 100-200bps.]]></text></explanation>
+    </question>
+</QF>
