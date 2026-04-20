@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PMS Case Studies_38" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[You are evaluating the financial performance of two retail chains based on their profitability ratios: Chain A: Return on Assets (ROA) = 10%, Return on Equity (ROE) = 15% Chain B: Return on Assets (ROA) = 12%, Return on Equity (ROE) = 18%
+
+Which chain has a higher return on assets (ROA)?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Chain B]]></text></answer>
+            <answer correct="no"><text><![CDATA[Chain A]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both chains have the same ROA]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cannot determine from the given data]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** ROA is read directly off the data: Chain B = 12%, Chain A = 10%. Chain B earns more per rupee of total assets.
+**The Trap:** Picking Chain A reverses the numbers; 'same ROA' ignores a 2-percentage-point gap; 'cannot determine' is wrong because both ROAs are explicitly given.
+**Cross-Exam Context:** ROA questions appear in NISM XV, X-A and V-A (for analysing debt-issuer profitability).
+**Distributor's Pro-Tip:** For asset-heavy sectors (retail, manufacturing, airlines) ROA beats ROE as the screening metric — it is not inflated by leverage, which is exactly the story retail chains love to sell.]]></text></explanation>
+    </question>
+</QF>

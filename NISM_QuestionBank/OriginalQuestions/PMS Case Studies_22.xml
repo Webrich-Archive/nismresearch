@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PMS Case Studies_22" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[You are analyzing the performance of two technology stocks over the past year: Stock A: Return = 15%, Beta = 1.2 Stock B: Return = 12%, Beta = 0.9
+
+Calculate the Sharpe Ratio for Stock A assuming a risk-free rate of 2%.]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[10.83%]]></text></answer>
+            <answer correct="no"><text><![CDATA[8.33%]]></text></answer>
+            <answer correct="no"><text><![CDATA[12.33%]]></text></answer>
+            <answer correct="no"><text><![CDATA[14.83%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** This question's explanation uses a non-standard formula: Sharpe Ratio = (Return - Risk-Free Rate) / Beta. For Stock A: (15% - 2%) / 1.2 = 10.83%. (Note: the classical Sharpe uses standard deviation in the denominator; using beta yields the Treynor Ratio. The source explanation treats these interchangeably, so we preserve its numerical answer.)
+**The Trap:** 8.33% tempts candidates who divide by 1.8 or mis-compute the numerator; 12.33% tempts those who forget the risk-free rate subtraction; 14.83% tempts those who divide by the wrong beta or use Stock B's beta. The conceptual trap is confusing Sharpe (denominator = sigma) with Treynor (denominator = beta).
+**Cross-Exam Context:** Sharpe and Treynor ratios are tested in NISM-XV (Research Analyst), NISM-XXI-B (PMS Managers), and NISM-XIX-D (AIF Category III Fund Managers).
+**Distributor's Pro-Tip:** When explaining risk-adjusted return to an HNI, be precise: Sharpe rewards total risk efficiency (good for concentrated PMS), Treynor rewards systematic-risk efficiency (good for diversified long-only). Using the wrong denominator in a pitch deck is the kind of slip that loses a sophisticated mandate.]]></text></explanation>
+    </question>
+</QF>

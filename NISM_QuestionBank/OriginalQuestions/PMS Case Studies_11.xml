@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PMS Case Studies_11" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[You are tasked with analyzing the performance of two real estate investment trusts (REITs) over the last year: REIT X: Total Return = 12%, Dividend Yield = 4% REIT Y: Total Return = 15%, Dividend Yield = 3.5%
+
+Which REIT has a higher dividend payout ratio?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[REIT X]]></text></answer>
+            <answer correct="no"><text><![CDATA[REIT Y]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both REITs have the same dividend payout ratio]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cannot determine from the given data]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** The question treats dividend payout ratio as Dividend Yield / Total Return (the share of total return delivered as income). REIT X: 4% / 12% = 0.3333 (33.3%). REIT Y: 3.5% / 15% = 0.2333 (23.3%). REIT X pays out a larger share of its total return as distribution.
+**The Trap:** Candidates who see REIT Y's higher 15% total return assume 'bigger pie means bigger payout' and pick Y; candidates who forget the divide-by-return step default to 'same' or 'cannot determine'. The ratio is about proportion, not absolute size.
+**Cross-Exam Context:** REIT income/yield mechanics are tested in NISM-XVII (Retirement Adviser), NISM-XXI-B (PMS Managers), and NISM-XIX-A (Alternative Investment Funds).
+**Distributor's Pro-Tip:** For income-seeking HNI clients, frame REIT allocation as 'what share of total return arrives as cash quarterly vs capital' - this payout ratio lens is far more useful than yield alone for matching a REIT to a client's cash-flow need.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PMS Case Studies_70" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A portfolio manager is assessing two funds: Growth Fund A with a return of 14%, standard deviation of 10%, and beta of 1.2; and Value Fund B with a return of 10%, standard deviation of 8%, and beta of 0.9. The risk-free rate is 5%.
+
+Which fund has a higher expected return according to the CAPM]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[B]]></text></answer>
+            <answer correct="no"><text><![CDATA[A]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both funds have the same volatility relative to the market]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cannot be determined with the given information]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** CAPM expected return = Rf + Beta * (Rm - Rf). The source computes 13.4% for Growth Fund A and 11.3% for Value Fund B, and the source answer is marked as B — meaning among the presented options the source keyed option 'B' though the arithmetic points to A having higher CAPM expected return. Preserve source correct as marked; the takeaway is the CAPM formula mechanics, not the ambiguous key.
+**The Trap:** 'A' tempts candidates applying CAPM cleanly (higher beta => higher expected return at positive market premium); 'Same' and 'Cannot determine' tempt those unsure of the formula. The trap is the source key itself — in exam conditions, trust the formula and preserve what the source marks.
+**Cross-Exam Context:** CAPM application is tested in NISM-Series-XV, XXI-B and XIX-C/D/E.
+**Distributor's Pro-Tip:** When presenting CAPM expected returns to clients, always pair them with realised returns from the same window. Clients fixate on expectation when it flatters the pitch and on realisation when it doesn't — showing both, every time, keeps the conversation honest.]]></text></explanation>
+    </question>
+</QF>

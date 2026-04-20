@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PMS Case Studies_3" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[You are analyzing the performance of two equity funds over the past five years. Here are the annual returns: Fund X: 8%, 12%, -5%, 15%, 10% Fund Y: 10%, 9%, -3%, 18%, 8%
+
+Calculate the average annual return for Fund X.]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[8%]]></text></answer>
+            <answer correct="no"><text><![CDATA[8.50%]]></text></answer>
+            <answer correct="no"><text><![CDATA[7.50%]]></text></answer>
+            <answer correct="no"><text><![CDATA[9%]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Arithmetic average annual return = (sum of annual returns) / number of years. For Fund X: (8% + 12% - 5% + 15% + 10%) / 5 = 40% / 5 = 8%.
+**The Trap:** 8.5% tempts candidates who accidentally use Fund Y's sum or mis-add; 7.5% tempts those who treat the -5% as -10%; 9% tempts those who drop a period or round prematurely. All three distractors reward careless arithmetic.
+**Cross-Exam Context:** Arithmetic vs geometric mean return distinction is a staple of NISM-XV (Research Analyst), NISM-XXI-B (PMS Managers), and NISM-VIII (Equity Derivatives) portfolio modules.
+**Distributor's Pro-Tip:** Never quote the arithmetic average to a client as the 'annualised return' on a PMS strategy - SEBI disclosure standards require CAGR (geometric), and the arithmetic number is always higher; clients who later see the CAGR on the factsheet feel mis-sold.]]></text></explanation>
+    </question>
+</QF>

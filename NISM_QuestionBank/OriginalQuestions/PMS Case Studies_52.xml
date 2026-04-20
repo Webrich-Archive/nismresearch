@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PMS Case Studies_52" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[You are a portfolio manager provided with the expected return and standard deviation of four assets. Asset A: Expected Mean Return: 5%, Standard Deviation: 0; Asset B: Expected Mean Return: 10%, Standard Deviation: 10%; Asset C: Expected Mean Return: 12%, Standard Deviation: 15%; Asset D: Expected Mean Return: 7%, Standard Deviation: 17%.
+
+Which of the three assets (B, C, or D) has the highest Sharpe Ratio?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[B]]></text></answer>
+            <answer correct="no"><text><![CDATA[C]]></text></answer>
+            <answer correct="no"><text><![CDATA[D]]></text></answer>
+            <answer correct="no"><text><![CDATA[B & C]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Sharpe Ratio = (Expected Return - Risk-Free Rate) / Standard Deviation. With Rf = 0%, Asset B = (10-0)/10 = 1.00, Asset C = (12-0)/15 = 0.80, Asset D = (7-0)/17 = 0.41. Asset B delivers the highest risk-adjusted return.
+**The Trap:** Picking C feels natural because 12% is the top absolute return, and 'B & C' tempts candidates who think high-return plus moderate-risk must tie. The trap is confusing absolute return with risk-adjusted return — Sharpe explicitly penalises every unit of standard deviation.
+**Cross-Exam Context:** Sharpe-based performance comparison is tested in NISM-Series-XV (Research Analyst), XXI-B (PMS Investment Adviser) and XIX-C/D/E (AIF Distributors / Managers).
+**Distributor's Pro-Tip:** Use the Sharpe Ratio — not the absolute CAGR — when a client asks 'why pay PMS fees when this mutual fund also did 12%?' A higher Sharpe quantifies how much of the return came from skill rather than from taking more risk.]]></text></explanation>
+    </question>
+</QF>

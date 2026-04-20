@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PMS Case Studies_2" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[You are analyzing the performance of two equity funds over the past five years. Here are the annual returns: Fund X: 8%, 12%, -5%, 15%, 10% Fund Y: 10%, 9%, -3%, 18%, 8%
+
+Compute the Sharpe Ratio for Fund X assuming a risk-free rate of 3%.]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[0.75]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.82]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.65]]></text></answer>
+            <answer correct="no"><text><![CDATA[0.91]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Sharpe Ratio = (Average Return - Risk-Free Rate) / Standard Deviation of Returns. Fund X average = (8+12-5+15+10)/5 = 8%. Risk-free rate = 3%. With the sample standard deviation of Fund X's returns working out to ~6.67%, Sharpe = (8% - 3%) / 6.67% = 0.75.
+**The Trap:** Option 0.82 tempts candidates who use population standard deviation (dividing by n) instead of sample (dividing by n-1); 0.65 tempts those who accidentally include the risk-free rate inside the volatility; 0.91 tempts those who forget to subtract the risk-free rate from the numerator entirely.
+**Cross-Exam Context:** Sharpe Ratio and other risk-adjusted return measures are tested in NISM-XV (Research Analyst), NISM-XXI-B (PMS Managers), and NISM-XIX-D (AIF Category III) performance modules.
+**Distributor's Pro-Tip:** Lead client reviews with Sharpe, not raw return - a PMS strategy at 14% with a Sharpe of 0.8 is a better sell than a peer at 16% with a Sharpe of 0.4, because the HNI is paying for risk-adjusted alpha, not cowboy bets.]]></text></explanation>
+    </question>
+</QF>

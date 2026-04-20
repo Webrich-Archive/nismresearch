@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PMS Case Studies_66" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A portfolio manager is assessing two funds: Growth Fund A with a return of 14%, standard deviation of 10%, and beta of 1.2; and Value Fund B with a return of 10%, standard deviation of 8%, and beta of 0.9. The risk-free rate is 5%.
+
+Which fund has a better risk-adjusted return using the Sharpe Ratio?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Growth Fund A]]></text></answer>
+            <answer correct="no"><text><![CDATA[Value Fund B]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both have the same Sharpe Ratio.]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cannot determine without more information]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Sharpe = (Return - Rf) / SD. Growth Fund A = (14% - 5%) / 10% = 0.90. Value Fund B = (10% - 5%) / 8% = 0.625. Growth Fund A has the higher Sharpe, hence better risk-adjusted return.
+**The Trap:** 'Both same' tempts candidates who equate higher return + higher SD to the same ratio; 'Cannot determine' is a trap for those who forgot the Sharpe formula. The core misconception is thinking Value B's lower SD automatically wins — but the excess-return scaling flips the answer.
+**Cross-Exam Context:** Risk-adjusted return metrics appear in NISM-Series-XV, XXI-B and XIX-C/D/E.
+**Distributor's Pro-Tip:** Present Sharpe alongside the absolute return on every quarterly review. Clients who only track absolute returns switch managers in drawdowns; those who also track Sharpe understand that consistency is the value proposition of PMS.]]></text></explanation>
+    </question>
+</QF>

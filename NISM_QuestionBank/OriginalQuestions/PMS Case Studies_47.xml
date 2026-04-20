@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PMS Case Studies_47" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[You are provided with information about ten funds, including their tracking errors and information ratios. Suppose these funds are passively managed. Fund 1: Information Ratio: 16.93, Tracking Error: 0.002605
+
+What is the best way of ranking these funds for performance if they are actively managed?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[On the basis of information ratio]]></text></answer>
+            <answer correct="no"><text><![CDATA[On the basis of Alpha]]></text></answer>
+            <answer correct="no"><text><![CDATA[On the basis of Tracking error]]></text></answer>
+            <answer correct="no"><text><![CDATA[On the basis on AUM]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** For actively managed funds the best single ranking metric is Alpha, because it captures risk-adjusted outperformance versus a market index — which is precisely what an active manager is paid to produce.
+**The Trap:** Tracking Error measures deviation, not skill — high TE can be good or bad. AUM measures size, not performance. Information Ratio is strong but secondary to Alpha in the source's framing, where Alpha is taken as the cleanest risk-adjusted excess return.
+**Cross-Exam Context:** Alpha-based ranking is covered in NISM XV, XXI-B, V-A and XIX-C/D.
+**Distributor's Pro-Tip:** Push back when clients ask for 'the biggest PMS' — AUM is a marketing metric, Alpha is a performance metric. Reframe the conversation around Alpha and you control the comparison.]]></text></explanation>
+    </question>
+</QF>

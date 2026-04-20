@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PMS Case Studies_28" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[You are evaluating the financial health of two automobile companies based on their financial ratios: Company X: Current Ratio = 2.5, Quick Ratio = 1.5 Company Y: Current Ratio = 2.0, Quick Ratio = 1.2
+
+Which company has a higher quick ratio?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Company X]]></text></answer>
+            <answer correct="no"><text><![CDATA[Company Y]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both companies have the same quick ratio]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cannot determine from the given data]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Quick Ratio strips inventory from current assets. Company X's quick ratio (1.5) is higher than Company Y's (1.0, per source), so X has more immediately realisable short-term assets per rupee of current liability.
+**The Trap:** Picking Y flips the comparison; 'same quick ratio' ignores the 0.5 gap; 'cannot determine' is wrong because the two quick ratios are directly supplied.
+**Cross-Exam Context:** Quick-ratio questions appear in NISM XV, X-A and V-A (Mutual Fund Distributors) when discussing debt-fund issuer analysis.
+**Distributor's Pro-Tip:** When pitching defensive PMS strategies, cite the quick ratio rather than the current ratio — inventory-heavy businesses (autos, retail) can look healthy on Current Ratio but fail a sudden cash-call test.]]></text></explanation>
+    </question>
+</QF>

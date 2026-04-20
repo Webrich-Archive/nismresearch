@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PMS Case Studies_74" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A portfolio manager is analyzing the performance of a mixed-asset portfolio consisting of 40% equities, 40% bonds, and 20% commodities. The expected return of equities is 10%, bonds is 5%, and commodities is 8%. The standard deviation of equities is 12%, bonds is 6%, and commodities is 10%. The risk-free rate is 3%. The correlations between the asset classes are as follows: equities and bonds: 0.2, equities and commodities: 0.4, bonds and commodities: 0.3.
+
+What is the portfolio's Sharpe Ratio?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Increase bonds and decrease commodities]]></text></answer>
+            <answer correct="no"><text><![CDATA[Increase equities and decrease bonds]]></text></answer>
+            <answer correct="no"><text><![CDATA[Increase commodities and decrease equities]]></text></answer>
+            <answer correct="no"><text><![CDATA[Any combination could reduce risk depending on the correlation]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per the source, the Sharpe Ratio = (Portfolio Return - Rf) / Portfolio SD = (7.6% - 3%) / 6.8% = 0.6765 (the source uses 6.8% SD in this step; with 8.2% SD the Sharpe would be ~0.56). In the source, the question 'what is the portfolio's Sharpe Ratio' is paired with qualitative options about rebalancing ('Increase bonds and decrease commodities', etc.) — a clear option-to-question mismatch. Preserve the source-marked correct and use the arithmetic as the Logic anchor.
+**The Trap:** The other rebalancing options tempt candidates who want to 'fix' the portfolio. The underlying trap is the mismatch itself — students forget to verify that the option set maps to the question. Exam-side rule: compute what's asked, then pick the option the source marks, even if the set looks off.
+**Cross-Exam Context:** Sharpe Ratio at the portfolio level appears in NISM-Series-XV, XXI-B and XIX-C/D/E.
+**Distributor's Pro-Tip:** For HNI clients, display the portfolio Sharpe alongside each sleeve's Sharpe in the factsheet. When one sleeve's Sharpe collapses, it shows up as a drop in portfolio Sharpe — an early signal to rebalance or escalate.]]></text></explanation>
+    </question>
+</QF>

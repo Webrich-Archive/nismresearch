@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PMS Case Studies_13" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[You are tasked with analyzing the performance of two real estate investment trusts (REITs) over the last year: REIT X: Total Return = 12%, Dividend Yield = 4% REIT Y: Total Return = 15%, Dividend Yield = 3.5%
+
+Which REIT provided higher capital appreciation over the last year?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[REIT X]]></text></answer>
+            <answer correct="no"><text><![CDATA[REIT Y]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both REITs provided the same capital appreciation]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cannot determine from the given data]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Capital appreciation = Total Return - Dividend Yield. REIT X: 12% - 4% = 8%. REIT Y: 15% - 3.5% = 11.5%. REIT Y delivered higher capital appreciation.
+**The Trap:** The trap is picking REIT X because of its 'higher yield' framing - but yield is income, not appreciation. Candidates who equate yield with capital growth flip the answer.
+**Cross-Exam Context:** Total return decomposition (income + capital) is tested in NISM-XV (Research Analyst), NISM-XXI-B (PMS Managers), and NISM-X-A (Investment Adviser Level 1).
+**Distributor's Pro-Tip:** Always decompose return into yield vs price-appreciation when showing a REIT or hybrid PMS factsheet - HNIs in higher tax brackets often prefer appreciation (taxed as LTCG at 12.5%) over dividend (taxed at slab), and this split drives their choice.]]></text></explanation>
+    </question>
+</QF>

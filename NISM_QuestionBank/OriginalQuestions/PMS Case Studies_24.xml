@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PMS Case Studies_24" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[You are analyzing the performance of two technology stocks over the past year: Stock A: Return = 15%, Beta = 1.2 Stock B: Return = 12%, Beta = 0.11
+
+Which stock would be more suitable for a risk-averse investor?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Stock B]]></text></answer>
+            <answer correct="no"><text><![CDATA[Stock A]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both stocks are equally suitable]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cannot determine from the given data]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** A risk-averse investor prefers lower volatility. Stock B's lower beta (0.8 vs Stock A's 1.2) indicates less systematic-risk exposure, making it the more suitable holding for a risk-averse client. (Again the question text displays 0.11 which appears to be a source-data error; the answer logic uses 0.8.)
+**The Trap:** Candidates who anchor on Stock A's higher 15% return forget that risk-averse means the client accepts lower return in exchange for lower drawdowns. The return-only trap loses this question.
+**Cross-Exam Context:** Risk-profiling and beta-based suitability are tested in NISM-X-A (Investment Adviser Level 1), NISM-XXI-A (PMS Distributors), and NISM-XVII (Retirement Adviser).
+**Distributor's Pro-Tip:** Match beta to the client's stated risk tolerance in the IPS document, not to the market mood - a conservative HNI allocated to a high-beta PMS during a bull run will redeem at the first 15% drawdown, and that churn is the distributor's biggest attrition driver.]]></text></explanation>
+    </question>
+</QF>

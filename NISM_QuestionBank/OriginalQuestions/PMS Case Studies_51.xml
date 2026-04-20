@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PMS Case Studies_51" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[You are a portfolio manager provided with the expected return and standard deviation of four assets. Asset A: Expected Mean Return: 5%, Standard Deviation: 0; Asset B: Expected Mean Return: 10%, Standard Deviation: 10%; Asset C: Expected Mean Return: 12%, Standard Deviation: 15%; Asset D: Expected Mean Return: 7%, Standard Deviation: 17%.
+
+If you could invest in only one of the three assets (A, B, or C), which one would you pick?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A]]></text></answer>
+            <answer correct="no"><text><![CDATA[B]]></text></answer>
+            <answer correct="no"><text><![CDATA[C]]></text></answer>
+            <answer correct="no"><text><![CDATA[Any of them depending upon the risk profile of the investor and investment objectives]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Without knowing the investor's risk profile or objective, no single asset can be picked as universally best among A, B and C. Asset C offers the highest expected return (12%) for an aggressive investor, Asset A has zero standard deviation for a risk-averse investor, and Asset B (10% return, 10% SD) sits in the middle. Hence the answer is profile-dependent.
+**The Trap:** 'A' tempts because zero SD feels 'safe', 'C' tempts because 12% is the highest number on the page, and 'B' tempts as the balanced middle choice. Each is right only for a specific risk profile; selecting one without the client's risk tolerance is the classic 'product-push' trap rather than goals-based advice.
+**Cross-Exam Context:** Same risk-profiling and efficient-frontier logic surfaces in NISM-Series-X-A (Investment Adviser Level 1), X-B (Level 2) and XXI-B (PMS Investment Adviser).
+**Distributor's Pro-Tip:** In the first client meeting, anchor the product pitch to a written risk profile and investment policy statement — never recommend an asset purely on headline return, because the compliance trail in a PMS client agreement demands a documented suitability link.]]></text></explanation>
+    </question>
+</QF>

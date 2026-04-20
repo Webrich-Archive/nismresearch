@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PMS Case Studies_60" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A portfolio manager invested Rs. 100 lakhs in equity shares of 4 companies: A, B, C, and D, with equal amounts in each stock. The prices at investment were Rs.1000, Rs.500, Rs.200, and Rs.2000 respectively. Dividends paid were Rs.20, Rs.10, Rs.4, and Rs.40. Liquidation prices were Rs.1100, Rs.700, Rs.400, and Rs.1600. Betas are 2.5, 1.2, 1.5, and 2 respectively. The risk-free rate is 8%, and the market premium is 12%.
+
+Which company's investment performance was most volatile based on its initial investment price, liquidation price, and beta?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A]]></text></answer>
+            <answer correct="no"><text><![CDATA[B]]></text></answer>
+            <answer correct="no"><text><![CDATA[C]]></text></answer>
+            <answer correct="no"><text><![CDATA[D]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Volatility is proxied jointly by beta (sensitivity to market) and price range. Company A's beta is 2.5 — the highest of the four — which makes its prospective volatility the greatest despite a narrow realised range (Rs. 1000-1100). Beta, being forward-looking market sensitivity, dominates backward-looking realised swings.
+**The Trap:** D tempts because its price dropped Rs. 400 (largest absolute move); C tempts with its 2x price doubling; B with its Rs. 200 rise. The trap is conflating realised price change with volatility — volatility is a property of the return distribution, best captured by beta in a CAPM-style setup.
+**Cross-Exam Context:** Beta interpretation and volatility vs price-change distinctions recur in NISM-Series-XV, XXI-B and XIX-D.
+**Distributor's Pro-Tip:** When a client points to a stock's recent price jump and calls it 'volatile', correct the framing — volatility is about the dispersion of returns around the mean, not the direction. Beta and standard deviation are the vocabulary; reserve 'price movement' for directional chat.]]></text></explanation>
+    </question>
+</QF>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PMS Case Studies_69" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A portfolio manager is assessing two funds: Growth Fund A with a return of 14%, standard deviation of 10%, and beta of 1.2; and Value Fund B with a return of 10%, standard deviation of 8%, and beta of 0.9. The risk-free rate is 5%.
+
+Which fund is more volatile relative to the market?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[A]]></text></answer>
+            <answer correct="no"><text><![CDATA[B]]></text></answer>
+            <answer correct="no"><text><![CDATA[Both funds have the same volatility relative to the market]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cannot be determined with the given information]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Volatility relative to the market is measured by beta. Growth Fund A has beta 1.2 (more volatile than market), Value Fund B has beta 0.9 (less volatile). Hence Growth Fund A is more volatile relative to the market.
+**The Trap:** 'B' tempts those who confuse standard deviation with beta (B's SD is 8%, A's 10% — but SD is total risk, not market-relative). 'Same' and 'Cannot determine' tempt candidates unsure of beta interpretation. The trap is using the wrong risk metric.
+**Cross-Exam Context:** Beta vs standard deviation distinctions recur in NISM-Series-XV, XXI-B and XIX-C/D/E.
+**Distributor's Pro-Tip:** Clients often ask 'is my PMS more risky than Nifty?' — beta is the one-number answer. Keep portfolio beta in your monthly factsheet alongside alpha; together they tell a cleaner risk-return story than pages of commentary.]]></text></explanation>
+    </question>
+</QF>

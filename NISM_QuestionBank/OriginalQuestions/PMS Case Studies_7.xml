@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PMS Case Studies_7" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[You are evaluating three fixed income securities based on their yield and duration: Security A: Yield = 6%, Duration = 5 years Security B: Yield = 5%, Duration = 7 years Security C: Yield = 4%, Duration = 4 years
+
+Which security is most sensitive to interest rate changes based on duration?]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Security B]]></text></answer>
+            <answer correct="no"><text><![CDATA[Security C]]></text></answer>
+            <answer correct="no"><text><![CDATA[Security A]]></text></answer>
+            <answer correct="no"><text><![CDATA[Cannot determine from the given data]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Modified duration measures price sensitivity of a bond to a 1% change in yields. Higher duration = higher sensitivity. Security B has the longest duration (7 years), making it the most interest-rate sensitive, followed by A (5y) and C (4y).
+**The Trap:** Candidates who confuse yield with sensitivity pick Security A (6% yield feels 'riskier'); candidates who confuse short with sensitive pick Security C. Both conflate credit/yield risk with interest-rate risk.
+**Cross-Exam Context:** Duration and price-yield sensitivity are examined in NISM-VII (Securities Operations), NISM-XV (Research Analyst), and NISM-XXI-B (PMS Managers).
+**Distributor's Pro-Tip:** When pitching a debt PMS strategy during a rate-cut cycle, lead with duration - a 7-year duration book gains roughly 7% on a 100bps rate cut; that is the client-facing story that justifies the PMS over a short-duration MF.]]></text></explanation>
+    </question>
+</QF>

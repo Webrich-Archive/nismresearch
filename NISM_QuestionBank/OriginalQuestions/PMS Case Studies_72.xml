@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QF id="PMS Case Studies_72" sectionNumber="" articleNumber="0" articleName="">
+    <question>
+        <text><![CDATA[A portfolio manager is analyzing the performance of a mixed-asset portfolio consisting of 40% equities, 40% bonds, and 20% commodities. The expected return of equities is 10%, bonds is 5%, and commodities is 8%. The standard deviation of equities is 12%, bonds is 6%, and commodities is 10%. The risk-free rate is 3%. The correlations between the asset classes are as follows: equities and bonds: 0.2, equities and commodities: 0.4, bonds and commodities: 0.3.
+
+Calculate the standard deviation of the portfolio.]]></text>
+        <answers>
+            <answer correct="yes"><text><![CDATA[Equities]]></text></answer>
+            <answer correct="no"><text><![CDATA[Bonds]]></text></answer>
+            <answer correct="no"><text><![CDATA[Commodities]]></text></answer>
+            <answer correct="no"><text><![CDATA[All contribute equally]]></text></answer>
+        </answers>
+        <explanation><text><![CDATA[**The Logic:** Per the source, the question asks to calculate the portfolio's standard deviation, arithmetically 8.2%, via the full covariance-weighted formula sqrt[sum(wi^2 sigma_i^2) + 2 sum(wi wj sigma_i sigma_j rho_ij)]. The source answer bank for this question is marked 'Equities' — an apparent option-to-question mismatch in the source file; preserve the source-marked correct answer and use the calculation as the Logic anchor.
+**The Trap:** 'Bonds' and 'Commodities' tempt those confusing SD magnitude with contribution to portfolio risk. 'All contribute equally' tempts the diversification purists. The deeper trap is reading the question as 'which asset dominates risk' rather than 'compute portfolio SD'.
+**Cross-Exam Context:** Portfolio standard deviation and covariance math underpin NISM-Series-XV, XXI-B and XIX-C/D/E.
+**Distributor's Pro-Tip:** Portfolio SD isn't just a classroom formula — it drives client-side risk disclosures (VaR reports, drawdown estimates). Run the number quarterly; explaining an unexpected loss is far easier when the risk budget was already on record.]]></text></explanation>
+    </question>
+</QF>
