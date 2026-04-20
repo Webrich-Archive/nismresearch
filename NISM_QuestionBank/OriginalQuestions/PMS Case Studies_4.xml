@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><QF id="PMS Case Studies_4" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[You are analyzing the performance of two equity funds over the past five years. Here are the annual returns: Fund X: 8%, 12%, -5%, 15%, 10% Fund Y: 10%, 9%, -3%, 18%, 8%
 
 Which fund exhibited higher volatility over the five-year period?]]></text><answers><answer correct="yes"><text><![CDATA[Fund X]]></text></answer><answer correct="no"><text><![CDATA[Fund Y]]></text></answer><answer correct="no"><text><![CDATA[Both funds have the same volatility]]></text></answer><answer correct="no"><text><![CDATA[Cannot determine from the given data]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Volatility is measured by standard deviation of returns. Fund X returns (8, 12, -5, 15, 10) have a wider spread around its 8% mean than Fund Y returns (10, 9, -3, 18, 8) around its mean, so Fund X has the higher standard deviation and is the more volatile fund.
+
 <B>The Trap:</B> Eyeballing only the single best year (Fund Y hit 18% vs Fund X's 15%) makes Fund Y look wilder; but volatility captures dispersion around the mean, and Fund X's -5% trough combined with its 15% peak creates wider swings than Fund Y's -3% to 18% range.
+
 <B>Cross-Exam Context:</B> Standard deviation as a risk proxy is tested in NISM-XV (Research Analyst), NISM-XXI-B (PMS Managers), and NISM-X-A (Investment Adviser Level 1) risk-and-return chapters.
+
 <B>Distributor's Pro-Tip:</B> Show clients rolling standard deviation alongside returns in the pitch deck - two PMS strategies can have identical 5-year CAGRs but very different client-experience, and the lower-volatility one is the easier behavioural sell for an HNI approaching retirement.]]></text></explanation></question></QF>

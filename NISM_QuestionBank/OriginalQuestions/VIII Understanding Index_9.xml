@@ -5,6 +5,9 @@
 4. Impact Cost = [(102 - 100) / 100] x 100 = 2%
 
 The buy order moved the price 2% above the ideal price due to insufficient liquidity at the best ask level.
+
 <B>The Trap:</B> 1% would be if you used best ask (101) as the reference. 3% would be if you compared to best bid (99). The correct reference is always the ideal (mid) price.
+
 <B>Cross-Exam Context:</B> Impact cost calculations may appear in NISM Series VIII. Always use the mid-price (average of bid and ask) as the reference.
+
 <B>Distributor's Pro-Tip:</B> Impact Cost for Buy = [(Actual Buy Price - Ideal Price) / Ideal Price] x 100. Higher transaction size generally means higher impact cost.]]></text></explanation></question></QF>

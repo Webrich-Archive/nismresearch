@@ -1,4 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?><QF id="VII Settlement Process_52" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[The exercise settlement value for a call option is computed as:]]></text><answers><answer correct="yes"><text><![CDATA[Closing price of the security on day of exercise minus Strike price]]></text></answer><answer correct="no"><text><![CDATA[Strike price minus Closing price]]></text></answer><answer correct="no"><text><![CDATA[Opening price minus Strike price]]></text></answer><answer correct="no"><text><![CDATA[Strike price minus Opening price]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Call option exercise value = Closing price on exercise day - Strike price.
+
 <B>The Trap:</B> Put option value is the reverse: Strike price - Closing price. Students must remember the direction.
+
 <B>Cross-Exam Context:</B> This is a fundamental options calculation tested in both NISM VII and VIII.
+
 <B>Distributor's Pro-Tip:</B> Call options gain when price goes up (above strike); Put options gain when price goes down (below strike).]]></text></explanation></question></QF>

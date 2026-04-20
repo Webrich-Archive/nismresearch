@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Modern Portfolio Theory and Capital Market Theory_13" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Satpura Market-Neutral Fund delivered 14% gross return over the year, risk-free rate was 6%, and realised portfolio standard deviation was 10%. What is the Sharpe ratio?]]></text><answers><answer correct="no"><text><![CDATA[0.60]]></text></answer><answer correct="no"><text><![CDATA[1.40]]></text></answer><answer correct="yes"><text><![CDATA[0.80]]></text></answer><answer correct="no"><text><![CDATA[1.00]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Sharpe = (Rp - Rf) / sigma_p = (14% - 6%) / 10% = 8% / 10% = 0.80. Sharpe measures excess return per unit of TOTAL risk — the CML slope in CMT.
+
 <B>The Trap:</B> (A) 0.60 uses (Rp-Rf) = 6%. (B) 1.40 uses Rp alone over sigma. (D) 1.00 forgets to subtract Rf in numerator.
+
 <B>Cross-Exam Context:</B> XIX-B/C/D, XXI-B and XV all test Sharpe. Cat III uses it as PRIMARY — Cat I/II exams (XIX-D/A) lean on IRR/MOIC instead. That's the key Cat III vs Cat I/II performance-metric split.
+
 <B>Manager's Pro-Tip:</B> The prime broker's SLA will re-negotiate margin haircuts on Sharpe drift. If your rolling 12-month Sharpe drops below 0.5, expect a margin-call on stressed baskets. Pre-emptively reduce gross exposure as Sharpe trends down — don't wait for the PB notice.]]></text></explanation></question></QF>

@@ -7,8 +7,11 @@ Cumulative = 5,000 - 10,000 + 12,500 = +Rs. 7,500 (Profit)
 
 Verification: Total move = 22,300 - 22,000 = 300 x 25 = Rs. 7,500
 
+
 <B>The Trap:</B> Adding daily absolute values would give a wrong answer. Cumulative MTM should equal the overall price change multiplied by quantity.
 
+
 <B>Cross-Exam Context:</B> Multi-day MTM tracking is a common exam calculation.
+
 
 <B>Distributor's Pro-Tip:</B> Cumulative MTM = Sum of daily MTMs = (Final price - Entry price) x Quantity. Daily MTMs always use previous settlement price.]]></text></explanation></question></QF>

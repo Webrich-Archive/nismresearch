@@ -3,8 +3,11 @@ Step-by-step:
 1. Put Intrinsic Value = max(X - S, 0) = max(800 - 750, 0) = Rs. 50
 2. Time Value = Premium - Intrinsic Value = 75 - 50 = Rs. 25
 
+
 <B>The Trap:</B> For puts, IV = X - S (not S - X). Getting the formula backwards gives wrong answers.
 
+
 <B>Cross-Exam Context:</B> This put is ITM (S < X), so it has both intrinsic value and time value.
+
 
 <B>Distributor's Pro-Tip:</B> Put IV = max(X-S, 0) = 50. TV = Premium - IV = 75 - 50 = 25.]]></text></explanation></question></QF>

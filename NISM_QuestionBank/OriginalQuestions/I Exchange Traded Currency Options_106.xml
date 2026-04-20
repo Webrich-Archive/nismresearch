@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><QF id="I Exchange Traded Currency Options_106" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[An ATM put option has delta = -0.50 and gamma = 0.004. If underlying moves up by 10 points, what is the new delta?]]></text><answers><answer correct="yes"><text><![CDATA[-0.46]]></text></answer><answer correct="no"><text><![CDATA[-0.54]]></text></answer><answer correct="no"><text><![CDATA[-0.50]]></text></answer><answer correct="no"><text><![CDATA[-0.40]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> New delta = -0.50 + (0.004 x 10) = -0.50 + 0.04 = -0.46. Put delta moves towards zero as underlying rises.
+
 <B>The Trap:</B> -0.54 results from underlying moving DOWN 10 points.
+
 <B>Cross-Exam Context:</B> Gamma adjustments tested in Series I and VIII.
+
 <B>Distributor's Pro-Tip:</B> Gamma is always positive for long options.]]></text></explanation></question></QF>

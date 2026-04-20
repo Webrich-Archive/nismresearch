@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><QF id="PM Risk_30" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Monte Carlo simulation VaR is preferred over parametric and historical when:]]></text><answers><answer correct="no"><text><![CDATA[Data is limited to a few days]]></text></answer><answer correct="yes"><text><![CDATA[Portfolio has many complex instruments and multiple non-normal risk factors]]></text></answer><answer correct="no"><text><![CDATA[Normal distribution is known to apply]]></text></answer><answer correct="no"><text><![CDATA[Only equity is in the portfolio]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Monte Carlo handles arbitrary distributions and complex interactions — ideal for multi-asset portfolios with options, swaps, etc.
+
 <B>The Trap:</B> Parametric fits normal data fine; historical needs lots of history; simple single-asset portfolios don't need Monte Carlo.
+
 <B>Cross-Exam Context:</B> XXI-B core content.
+
 <B>Manager's Pro-Tip:</B> Monte Carlo requires 10,000+ iterations for stable tail estimates — allocate computational resources accordingly.]]></text></explanation></question></QF>

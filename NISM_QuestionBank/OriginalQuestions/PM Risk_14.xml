@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><QF id="PM Risk_14" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A PM wants to buy 1 million shares of a stock. Bid = Rs. 99, Offer = Rs. 101. What is the liquidity cost (assuming the full round-trip spread applied one-way)?]]></text><answers><answer correct="yes"><text><![CDATA[Rs. 1 per share]]></text></answer><answer correct="no"><text><![CDATA[Rs. 2 per share]]></text></answer><answer correct="no"><text><![CDATA[Rs. 99 per share]]></text></answer><answer correct="no"><text><![CDATA[Rs. 100 per share]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Half-spread concept: buying at ask (Rs. 101) vs mid (Rs. 100) = Rs. 1 per share one-way cost. Round-trip = Rs. 2. For a one-way transaction, cost = half the bid-ask spread.
+
 <B>The Trap:</B> Rs. 2 is the full round-trip spread; Rs. 99, 100 are prices themselves.
+
 <B>Cross-Exam Context:</B> VII (SORM) covers execution costs; XXI-B adapts for PM.
+
 <B>Manager's Pro-Tip:</B> For large orders, use VWAP/TWAP algorithms to minimise impact cost on top of the headline spread.]]></text></explanation></question></QF>

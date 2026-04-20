@@ -1,4 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?><QF id="XVI Commodity Options_46" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A call option on gold has strike Rs 50,000 per 10 gm and premium Rs 1,200. The underlying futures are at Rs 50,000. This option is:]]></text><answers><answer correct="yes"><text><![CDATA[At-the-money (ATM) with zero intrinsic value and Rs 1,200 time value]]></text></answer><answer correct="no"><text><![CDATA[In-the-money with Rs 1,200 intrinsic value]]></text></answer><answer correct="no"><text><![CDATA[Out-of-the-money with negative intrinsic value]]></text></answer><answer correct="no"><text><![CDATA[Close-to-the-money with Rs 600 intrinsic value]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Market price (50,000) = Strike price (50,000) → ATM. Intrinsic value = max(50,000 - 50,000, 0) = 0. Time value = 1,200 - 0 = Rs 1,200.
+
 <B>The Trap:</B> ITM requires market > strike for calls. Intrinsic value cannot be negative. The entire premium is time value for ATM options.
+
 <B>Cross-Exam Context:</B> Series VIII covers moneyness classification and premium decomposition.
+
 <B>Distributor's Pro-Tip:</B> ATM options have the highest time value component — they are most sensitive to volatility changes and time decay, making them popular for volatility-based trading strategies.]]></text></explanation></question></QF>

@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><QF id="PM Risk_8" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Historical Simulation VaR at 5% confidence uses:]]></text><answers><answer correct="no"><text><![CDATA[The mean and standard deviation of returns]]></text></answer><answer correct="yes"><text><![CDATA[The 5th percentile of historical returns, arranged in ascending order]]></text></answer><answer correct="no"><text><![CDATA[A random number generator]]></text></answer><answer correct="no"><text><![CDATA[Monte Carlo simulation with 10,000 iterations]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Historical simulation = sort past returns, pick the 5th percentile (or 1st for 99%). No distributional assumption.
+
 <B>The Trap:</B> Parametric uses mean/SD; Monte Carlo uses RNG. Historical is non-parametric.
+
 <B>Cross-Exam Context:</B> XXI-B-specific.
+
 <B>Manager's Pro-Tip:</B> Historical VaR captures actual past fat tails but assumes history repeats — extend the look-back period to stabilise estimates.]]></text></explanation></question></QF>

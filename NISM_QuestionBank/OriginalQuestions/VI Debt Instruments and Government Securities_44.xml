@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><QF id="VI Debt Instruments and Government Securities_44" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[What must NSDL participants obtain from demat account holders before executing IDT instructions in Government Securities?]]></text><answers><answer correct="yes"><text><![CDATA[A one-time self-declaration that the transactions are bonafide transfer instructions]]></text></answer><answer correct="no"><text><![CDATA[A separate agreement for each IDT transaction]]></text></answer><answer correct="no"><text><![CDATA[SEBI approval for each transfer]]></text></answer><answer correct="no"><text><![CDATA[RBI clearance certificate]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> NSDL participants are required to obtain a one-time self-declaration from the demat account holders that the transactions involved are bonafide transfer instructions.
+
 <B>The Trap:</B> Per-transaction approval seems more thorough but a one-time self-declaration is sufficient.
+
 <B>Cross-Exam Context:</B> KYC and self-declaration requirements are tested across NISM certifications.
+
 <B>Distributor's Pro-Tip:</B> The one-time declaration flag must be enabled in the demat account — without it, IDT of G-Secs will not be processed.]]></text></explanation></question></QF>

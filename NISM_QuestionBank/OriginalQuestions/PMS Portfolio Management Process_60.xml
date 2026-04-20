@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><QF id="PMS Portfolio Management Process_60" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Client's portfolio has equity (return 12%, sigma 18%) and debt (return 7%, sigma 5%). Correlation = 0.2. 50-50 allocation. Expected return:]]></text><answers><answer correct="yes"><text><![CDATA[9.5%]]></text></answer><answer correct="no"><text><![CDATA[12%]]></text></answer><answer correct="no"><text><![CDATA[8.75%]]></text></answer><answer correct="no"><text><![CDATA[10.00%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> 0.5*12 + 0.5*7 = 9.5%.
+
 <B>The Trap:</B> Sigma does not affect expected return.
+
 <B>Cross-Exam Context:</B> Expected return formula is linear in weights.
+
 <B>Distributor's Pro-Tip:</B> Separate expected return and risk in client-facing math — clients often conflate them.]]></text></explanation></question></QF>

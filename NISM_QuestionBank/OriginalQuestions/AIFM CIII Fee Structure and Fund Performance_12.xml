@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Fee Structure and Fund Performance_12" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A long-short Cat III fund's monthly excess returns over Nifty 50 for the year are: +1.0%, -0.5%, +2.0%, +0.8%, -1.2%, +1.5%, +0.3%, -0.8%, +1.2%, +0.5%, -0.4%, +0.6%. The mean excess return is +0.4167%. The standard deviation of these monthly excess returns is approximately 0.96%. What is the ANNUALISED Tracking Error?]]></text><answers><answer correct="no"><text><![CDATA[0.96%]]></text></answer><answer correct="no"><text><![CDATA[5.00%]]></text></answer><answer correct="no"><text><![CDATA[11.52%]]></text></answer><answer correct="yes"><text><![CDATA[3.33%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Annualised Tracking Error = monthly TE × √12 = 0.96% × 3.464 = 3.325% ≈ 3.33%. TE measures active-bet risk relative to benchmark. LPs use TE alongside Information Ratio.
+
 <B>The Trap:</B> 0.96% is monthly TE (not annualised). 11.52% multiplies by 12 (not √12). 5% is fabricated.
+
 <B>Cross-Exam Context:</B> XV Research Analyst and XXI-B PM test TE. XIX-E Cat III context: active-share-heavy long-short funds typically show 6-15% TE.
+
 <B>Manager's Pro-Tip:</B> High TE isn't bad in itself — a true long-short alpha seeker SHOULD have high TE. Pair TE with Information Ratio; low IR + high TE = expensive random risk, which LPs will punish.]]></text></explanation></question></QF>

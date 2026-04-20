@@ -5,8 +5,11 @@
 
 Alternatively: F = (S - PV(D)) x (1+r)^T = (1500 - 29.75) x (1.08)^(90/365) = 1470.25 x 1.01916 = Rs. 1,498.42 (approximately Rs. 1,499.44 with slightly different rounding)
 
+
 <B>The Trap:</B> Rs. 1,530 ignores dividend completely. Rs. 1,528.65 subtracts dividend without taking PV. Rs. 1,470 subtracts dividend but forgets to apply cost of carry.
 
+
 <B>Cross-Exam Context:</B> Discrete dividend pricing vs dividend yield model is an advanced topic in Series VIII.
+
 
 <B>Distributor's Pro-Tip:</B> With discrete dividends: F = (S - PV(Dividend)) x (1+r)^T. First discount dividend to present, then compound forward.]]></text></explanation></question></QF>

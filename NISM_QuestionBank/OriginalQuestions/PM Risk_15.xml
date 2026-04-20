@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><QF id="PM Risk_15" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA['Liquidity-adjusted VaR' equals:]]></text><answers><answer correct="no"><text><![CDATA[Regular VaR only]]></text></answer><answer correct="yes"><text><![CDATA[Regular VaR + Cost of unwinding position]]></text></answer><answer correct="no"><text><![CDATA[Half of regular VaR]]></text></answer><answer correct="no"><text><![CDATA[Regular VaR - Sharpe ratio]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> LA-VaR = VaR + unwind cost (bid-ask × position). Accounts for the fact that losing a big position includes the cost to actually exit.
+
 <B>The Trap:</B> Ignoring unwind cost underestimates true stress loss — a key learning post-2008.
+
 <B>Cross-Exam Context:</B> XXI-B-specific.
+
 <B>Manager's Pro-Tip:</B> For illiquid small-cap PMS books, the unwind cost can exceed the statistical VaR — explicitly model it in stress scenarios.]]></text></explanation></question></QF>

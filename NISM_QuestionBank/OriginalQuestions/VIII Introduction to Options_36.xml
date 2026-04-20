@@ -3,8 +3,11 @@
 - Maximum Loss = Strike Price - Premium received (when underlying falls to 0)
 - BEP = Strike - Premium
 
+
 <B>The Trap:</B> Short put loss is NOT unlimited (unlike short call). It is capped at X - P because stock can't go below zero.
 
+
 <B>Cross-Exam Context:</B> Put writing is less risky than call writing due to the bounded downside.
+
 
 <B>Distributor's Pro-Tip:</B> Short put: Max profit = premium. Max loss = X - P. BEP = X - P.]]></text></explanation></question></QF>

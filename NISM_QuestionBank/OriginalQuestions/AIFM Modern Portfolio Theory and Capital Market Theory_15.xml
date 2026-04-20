@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><QF id="AIFM Modern Portfolio Theory and Capital Market Theory_15" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Mahanadi Hybrid AIF holds Stock P (weight 25%, β = 1.0) and Stock Q (weight 75%, β = 1.4). The risk-free rate is 6% and the market risk premium is 10%. Using CAPM, what is the expected return of the portfolio?]]></text><answers><answer correct="yes"><text><![CDATA[19.00%]]></text></answer><answer correct="no"><text><![CDATA[18.00%]]></text></answer><answer correct="no"><text><![CDATA[20.00%]]></text></answer><answer correct="no"><text><![CDATA[17.80%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Portfolio β = 0.25·1.0 + 0.75·1.4 = 0.25 + 1.05 = 1.30. E(Rp) = Rf + β_p·MRP = 6% + 1.30·10% = 6% + 13% = 19%.
+
 <B>The Trap:</B> 18.00% uses the simple average β of 1.2 (0.5·1.0 + 0.5·1.4). 20.00% uses β = 1.4 directly (Q's beta). 17.80% uses inverted weights.
+
 <B>Cross-Exam Context:</B> Identical to XIX-C chapter-5 sample question; re-appears in XXI-B.
+
 <B>Manager's Pro-Tip:</B> When presenting a fund-of-AIFs beta to an LP, bottom-up beta-aggregation is more credible than top-down regression of the fund's smoothed NAV.]]></text></explanation></question></QF>

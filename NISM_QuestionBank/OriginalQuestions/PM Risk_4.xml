@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><QF id="PM Risk_4" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A PM reports: 'The 1-day, 99% VaR of the portfolio is Rs. 2 crore.' This means:]]></text><answers><answer correct="no"><text><![CDATA[The portfolio will lose exactly Rs. 2 cr tomorrow]]></text></answer><answer correct="yes"><text><![CDATA[There is a 1% probability that the portfolio loses MORE than Rs. 2 cr in a day]]></text></answer><answer correct="no"><text><![CDATA[The portfolio can never lose more than Rs. 2 cr]]></text></answer><answer correct="no"><text><![CDATA[There is a 99% probability of loss exceeding Rs. 2 cr]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> 99% VaR of Rs. 2 cr = 99% chance of loss being ≤ Rs. 2 cr (equivalently, 1% chance of loss > Rs. 2 cr). Tail beyond VaR is not bounded.
+
 <B>The Trap:</B> VaR is a LOSS THRESHOLD, not a guarantee. Beyond VaR, losses can be arbitrarily large.
+
 <B>Cross-Exam Context:</B> Regulatory standard; XV touches, XXI-B expects strong grasp.
+
 <B>Manager's Pro-Tip:</B> Always pair VaR with CVaR (Expected Shortfall) to describe the shape of the tail, not just its entry point.]]></text></explanation></question></QF>

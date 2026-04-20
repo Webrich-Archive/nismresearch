@@ -1,4 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?><QF id="XVI Trading Mechanism_4" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[In the Screen-Based Trading System (SBTS), orders are matched based on:]]></text><answers><answer correct="yes"><text><![CDATA[Best-price priority first, then time-priority for same-priced orders]]></text></answer><answer correct="no"><text><![CDATA[Time-priority first, then price-priority]]></text></answer><answer correct="no"><text><![CDATA[Random selection by the exchange system]]></text></answer><answer correct="no"><text><![CDATA[Lot size priority, then price-priority]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> SBTS ranks orders by best price first (highest buy, lowest sell), then same-priced orders are sorted by time priority (earlier order gets priority).
+
 <B>The Trap:</B> Time-priority is secondary to price. Random selection is never used. Lot size doesn't determine priority.
+
 <B>Cross-Exam Context:</B> Series VIII covers price-time priority in equity order matching.
+
 <B>Distributor's Pro-Tip:</B> Understanding order matching helps traders optimize execution — placing limit orders at competitive prices ensures priority over passive orders.]]></text></explanation></question></QF>

@@ -10,8 +10,11 @@ Ramesh wants to understand how this portfolio performs in terms of expected retu
 
 <b>Question 2 of 5:</b> What is the standard deviation (risk) of Ramesh's portfolio with the 70:30 allocation?]]></text><answers><answer correct="no"><text><![CDATA[14.00%]]></text></answer><answer correct="yes"><text><![CDATA[15.17%]]></text></answer><answer correct="no"><text><![CDATA[17.00%]]></text></answer><answer correct="no"><text><![CDATA[16.40%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Portfolio variance = (0.70² x 20²) + (0.30² x 10²) + 2 x 0.70 x 0.30 x 20 x 10 x 0.30 = (0.49 x 400) + (0.09 x 100) + 2 x 0.70 x 0.30 x 20 x 10 x 0.30 = 196 + 9 + 25.20 = 230.20. Portfolio standard deviation = sqrt(230.20) = 15.17%. Note that 15.17% is less than the weighted average of standard deviations (0.70 x 20 + 0.30 x 10 = 17%), demonstrating the diversification benefit.
 
+
 <B>The Trap:</B> Candidates often compute the weighted average of standard deviations (17%) rather than using the correct two-asset portfolio variance formula. The correct formula accounts for correlation.
 
+
 <B>Cross-Exam Context:</B> The two-asset portfolio standard deviation formula is fundamental to Modern Portfolio Theory (MPT) and appears frequently in investment adviser certification exams.
+
 
 <B>Distributor's Pro-Tip:</B> Explain to clients that diversification reduces risk below the simple weighted average of individual risks — this is the core benefit of building a multi-asset portfolio.]]></text></explanation></question></QF>

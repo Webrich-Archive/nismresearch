@@ -2,8 +2,11 @@
 1. Contract value = Futures price x Lot size = 22,250 x 25 = Rs. 5,56,250
 2. Initial margin = Contract value x Margin % = 5,56,250 x 10% = Rs. 55,625
 
+
 <B>The Trap:</B> Rs. 2,225 calculates 10% of price only (22,250 x 10%). Rs. 5,56,250 is the full contract value. Rs. 22,250 is just the price. Must multiply price by lot size FIRST, then apply margin percentage.
 
+
 <B>Cross-Exam Context:</B> Margin calculations are fundamental to Series VIII clearing and settlement chapter.
+
 
 <B>Distributor's Pro-Tip:</B> Initial Margin = Futures Price x Lot Size x Margin %. Here: 22,250 x 25 x 10% = Rs. 55,625.]]></text></explanation></question></QF>

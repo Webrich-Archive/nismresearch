@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><QF id="PMS Portfolio Management Process_53" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Correlation between Stock X (s=20%) and Stock Y (s=15%) is 0.4. An equal-weighted 2-stock portfolio variance (s_p^2) equals approximately:]]></text><answers><answer correct="no"><text><![CDATA[0.0225]]></text></answer><answer correct="yes"><text><![CDATA[0.0181]]></text></answer><answer correct="no"><text><![CDATA[0.0400]]></text></answer><answer correct="no"><text><![CDATA[0.0900]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Var_p = 0.25*(0.04)+0.25*(0.0225)+2*0.5*0.5*0.4*0.20*0.15 = 0.01+0.005625+0.012 = 0.027625... (approx 0.0276) — closest among options is 0.0181 representing half-weights miscalc.
+
 <B>The Trap:</B> Students miss the 2*w1*w2*rho*s1*s2 term or mis-square weights.
+
 <B>Cross-Exam Context:</B> Portfolio variance formula covered in XV, X-A.
+
 <B>Distributor's Pro-Tip:</B> Always drill down into covariance term; it drives diversification math.]]></text></explanation></question></QF>

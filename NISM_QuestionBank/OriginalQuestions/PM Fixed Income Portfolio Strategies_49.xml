@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><QF id="PM Fixed Income Portfolio Strategies_49" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A PM's FI portfolio has Modified Duration = 6 and holds Rs. 80 cr. Rates rise 50 bps. Ignoring convexity, approximate P&L:]]></text><answers><answer correct="yes"><text><![CDATA[Rs. 2.4 cr loss]]></text></answer><answer correct="no"><text><![CDATA[Rs. 2.4 cr gain]]></text></answer><answer correct="no"><text><![CDATA[Rs. 4.8 cr loss]]></text></answer><answer correct="no"><text><![CDATA[Rs. 0.24 cr loss]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> ΔV ≈ -MD × Δy × V = -6 × 0.005 × 80 cr = -2.4 cr.
+
 <B>The Trap:</B> Rs. 4.8 cr uses 100 bps; Rs. 0.24 cr uses 5 bps; gain is wrong sign.
+
 <B>Cross-Exam Context:</B> Same formula as Q16, Q25 — reinforced.
+
 <B>Manager's Pro-Tip:</B> Report scenario-based ΔV in PMS MITC — clients understand rupee impact better than abstract 'duration 6' statements.]]></text></explanation></question></QF>

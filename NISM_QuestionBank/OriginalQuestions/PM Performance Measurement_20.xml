@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><QF id="PM Performance Measurement_20" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Modigliani's M² measure adjusts a portfolio's return to match:]]></text><answers><answer correct="no"><text><![CDATA[The benchmark's risk-free rate]]></text></answer><answer correct="yes"><text><![CDATA[The benchmark's standard deviation (so returns can be directly compared)]]></text></answer><answer correct="no"><text><![CDATA[The benchmark's beta]]></text></answer><answer correct="no"><text><![CDATA[The portfolio's beta of 1.0]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> M² = levers/de-levers the portfolio to match benchmark SD, then compares returns. Advantage: results expressed as a return differential in %, which is more intuitive than Sharpe ratios.
+
 <B>The Trap:</B> Risk-free rate is added back, not the adjustment target. Beta is Treynor territory.
+
 <B>Cross-Exam Context:</B> XXI-B-specific formally; conceptually related to Sharpe.
+
 <B>Manager's Pro-Tip:</B> M² = Sharpe × σ_benchmark + Rf. Algebraically identical to Sharpe; visually more intuitive for client presentations.]]></text></explanation></question></QF>

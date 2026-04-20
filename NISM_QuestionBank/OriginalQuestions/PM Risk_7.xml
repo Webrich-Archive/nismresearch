@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><QF id="PM Risk_7" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Three methods to compute VaR — which is NOT one of them?]]></text><answers><answer correct="no"><text><![CDATA[Parametric (variance-covariance)]]></text></answer><answer correct="no"><text><![CDATA[Historical simulation]]></text></answer><answer correct="no"><text><![CDATA[Monte Carlo simulation]]></text></answer><answer correct="yes"><text><![CDATA[Immunization simulation]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> VaR methods: Parametric, Historical, Monte Carlo. Immunization is a bond-portfolio strategy, unrelated to VaR.
+
 <B>The Trap:</B> Trick option — 'Immunization' sounds technical but is wrong category.
+
 <B>Cross-Exam Context:</B> Core XXI-B.
+
 <B>Manager's Pro-Tip:</B> Parametric is fastest but assumes normal distribution; historical captures actual fat tails but ignores regime changes; Monte Carlo is flexible but computationally expensive. Use all three for a full picture.]]></text></explanation></question></QF>

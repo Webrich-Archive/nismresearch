@@ -9,6 +9,9 @@ Risk-free rate: 7% p.a.
 The portfolio has a beta of 1.0 with respect to Nifty 50 (i.e., it moves in line with the index). The number of futures contracts needed to fully hedge = Portfolio value / (Futures price × Lot size) = Rs. 2,00,00,000 / (22,180 × 25) = approximately 36 contracts.
 
 <b>Question 3 of 5:</b> Instead of futures, if Rajat buys 36 lots of the 21,500-strike put options, what is the total cost (premium) of this hedge?]]></text><answers><answer correct="no"><text><![CDATA[Rs. 1,26,000]]></text></answer><answer correct="yes"><text><![CDATA[Rs. 3,15,000]]></text></answer><answer correct="no"><text><![CDATA[Rs. 12,600]]></text></answer><answer correct="no"><text><![CDATA[Rs. 8,75,000]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Premium per lot = Rs. 350 × 25 (lot size) = Rs. 8,750. Total premium = 36 lots × Rs. 8,750 = Rs. 3,15,000. This is the maximum cost of the hedge — like an insurance premium. The portfolio is protected below Nifty 21,500 while retaining upside above 22,000.
+
 <B>The Trap:</B> Rs. 1,26,000 might result from using 36 × 350 = 12,600 and then some error. Always multiply premium per unit × lot size × number of lots.
+
 <B>Cross-Exam Context:</B> Put option hedging cost calculations are tested in VIII and X-A.
+
 <B>Distributor's Pro-Tip:</B> The put premium (Rs. 3.15 lakh) is about 1.58% of the portfolio value — this is the 'insurance cost' for 2 months of downside protection. Compare this with the potential loss being hedged to evaluate whether the cost is justified.]]></text></explanation></question></QF>

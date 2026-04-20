@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><QF id="PM Equity Portfolio Strategies_23" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A PM holds a portfolio with beta 1.2 worth Rs. 40 crore. NIFTY futures contract size is Rs. 2 lakh (fictitious simplification). To hedge the systematic risk fully, how many futures contracts should she short?]]></text><answers><answer correct="no"><text><![CDATA[200]]></text></answer><answer correct="no"><text><![CDATA[2000]]></text></answer><answer correct="yes"><text><![CDATA[2400]]></text></answer><answer correct="no"><text><![CDATA[3000]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Hedge ratio = (Portfolio Value × Beta) / Contract Size = (Rs. 40,00,00,000 × 1.2) / Rs. 2,00,000 = Rs. 48,00,00,000 / Rs. 2,00,000 = 2,400 contracts.
+
 <B>The Trap:</B> 2000 ignores beta; 3000 over-hedges; 200 uses wrong factor of 10.
+
 <B>Cross-Exam Context:</B> VIII has this exact formula; XXI-B applies it at portfolio level.
+
 <B>Manager's Pro-Tip:</B> Use realised beta (rolling 60-day) not historical static beta — stale beta leads to under/over-hedge especially in volatile regimes.]]></text></explanation></question></QF>

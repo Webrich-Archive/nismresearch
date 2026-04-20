@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Valuation_5" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Kaveri Macro Fund computes WACC for investee Delta Ltd. Pre-tax cost of debt is 12.5%, tax rate 30%, cost of equity is 17.5%, and D:E ratio is 1.5:1. What is the WACC?]]></text><answers><answer correct="yes"><text><![CDATA[12.25%]]></text></answer><answer correct="no"><text><![CDATA[13.50%]]></text></answer><answer correct="no"><text><![CDATA[11.00%]]></text></answer><answer correct="no"><text><![CDATA[15.00%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Weight of debt = 1.5/2.5 = 60%; weight of equity = 40%. Post-tax Kd = 12.5 * (1-0.30) = 8.75%. WACC = 8.75% * 0.60 + 17.5% * 0.40 = 5.25% + 7.00% = 12.25%. Matches Box 12.1.
+
 <B>The Trap:</B> 13.50% forgets tax shield on debt. 11.00% uses wrong weights. 15.00% simple average of Kd and Ke.
+
 <B>Cross-Exam Context:</B> XIX-C and XXI-B test WACC Box 12.1 directly. X-B and XV apply same CAPM-based Ke.
+
 <B>Manager's Pro-Tip:</B> For unlisted Cat III investee DCF, add 200-400bps illiquidity premium to CAPM Ke - the chapter explicitly notes unlisted Ke must exceed listed-comparable Ke. Document the premium rationale for valuer sign-off.]]></text></explanation></question></QF>

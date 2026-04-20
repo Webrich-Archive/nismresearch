@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Fee Structure and Fund Performance_7" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Sahyadri Stat-Arb Fund delivered annualised return of 18% over 3 years with Maximum Drawdown of 12%. What is the Calmar Ratio?]]></text><answers><answer correct="no"><text><![CDATA[0.67]]></text></answer><answer correct="no"><text><![CDATA[1.06]]></text></answer><answer correct="no"><text><![CDATA[2.16]]></text></answer><answer correct="yes"><text><![CDATA[1.50]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Calmar = Annualised Return / |MDD| = 18% / 12% = 1.50. Calmar > 1 is attractive; > 3 is elite. It's popular for trend-following / managed-futures funds where drawdown control is the key risk sold to LPs.
+
 <B>The Trap:</B> 0.67 inverts ratio. 2.16 uses cumulative not annualised return. 1.06 adds Rf noise.
+
 <B>Cross-Exam Context:</B> Cross-test with XIX-D Cat I/II where Calmar rarely appears; XIX-E Cat III funds (especially managed futures / macro) market themselves on Calmar.
+
 <B>Manager's Pro-Tip:</B> Use a 36-month rolling Calmar for LP reports — point-in-time Calmar can be flattering after a recovery year that washes out a recent drawdown.]]></text></explanation></question></QF>

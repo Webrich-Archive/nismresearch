@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><QF id="PM Risk_25" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Which of the following is a clear LIMITATION of VaR as a risk metric?]]></text><answers><answer correct="no"><text><![CDATA[It is easy to calculate]]></text></answer><answer correct="no"><text><![CDATA[It describes the worst possible loss]]></text></answer><answer correct="yes"><text><![CDATA[It underestimates both extreme losses and extreme gains (tail blindness)]]></text></answer><answer correct="no"><text><![CDATA[It is not accepted by regulators]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> VaR's core limitation: what lies BEYOND the confidence level is not characterised. A 99% VaR says nothing about the loss distribution beyond the 99th percentile.
+
 <B>The Trap:</B> Ease of calculation is an advantage, not a limitation; VaR IS accepted by Basel/SEBI.
+
 <B>Cross-Exam Context:</B> Core XXI-B.
+
 <B>Manager's Pro-Tip:</B> Pair VaR with CVaR, stress tests, and max drawdown — no single metric captures all tail risk.]]></text></explanation></question></QF>

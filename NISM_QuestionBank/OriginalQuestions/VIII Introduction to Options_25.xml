@@ -6,8 +6,11 @@ Step-by-step:
 3. X - S = 17,500 - 17,200 = 300
 4. Since 300 > 0, Intrinsic Value = 300
 
+
 <B>The Trap:</B> For puts, it is X - S (strike minus spot), NOT S - X. Putting the numbers in wrong order gives wrong answers.
 
+
 <B>Cross-Exam Context:</B> Only ITM options have positive intrinsic value. OTM and ATM options have zero intrinsic value.
+
 
 <B>Distributor's Pro-Tip:</B> Put IV = max(X - S, 0). The put is ITM here since S < X.]]></text></explanation></question></QF>

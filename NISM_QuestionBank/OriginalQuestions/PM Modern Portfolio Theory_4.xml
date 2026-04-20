@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><QF id="PM Modern Portfolio Theory_4" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Ex-ante expected return of a security with scenarios: Boom (p=0.3, R=15%), Normal (p=0.5, R=10%), Recession (p=0.2, R=2%) is:]]></text><answers><answer correct="no"><text><![CDATA[9.0%]]></text></answer><answer correct="yes"><text><![CDATA[9.9%]]></text></answer><answer correct="no"><text><![CDATA[10.0%]]></text></answer><answer correct="no"><text><![CDATA[11.5%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> E(R) = 0.3×15% + 0.5×10% + 0.2×2% = 4.5 + 5.0 + 0.4 = 9.9%.
+
 <B>The Trap:</B> 9.0% is arithmetic mean ignoring probabilities; 10% is Normal scenario only.
+
 <B>Cross-Exam Context:</B> XV Ch 12; XXI-B tests.
+
 <B>Manager's Pro-Tip:</B> Always weight by scenario probability — unweighted averages ignore the probability structure.]]></text></explanation></question></QF>

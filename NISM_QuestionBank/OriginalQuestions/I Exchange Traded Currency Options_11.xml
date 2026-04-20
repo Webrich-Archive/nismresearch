@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><QF id="I Exchange Traded Currency Options_11" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Vega measures the sensitivity of option premium to changes in:]]></text><answers><answer correct="yes"><text><![CDATA[Volatility of the underlying asset]]></text></answer><answer correct="no"><text><![CDATA[The price of the underlying asset]]></text></answer><answer correct="no"><text><![CDATA[Time to expiration]]></text></answer><answer correct="no"><text><![CDATA[Risk-free interest rate]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Vega = Change in premium / Change in volatility. It's positive for long calls and long puts — higher volatility increases option values. Vega is highest when there are more days to expiry.
+
 <B>The Trap:</B> Vega is NOT a Greek letter (ν is nu). It's a naming convention for volatility sensitivity.
+
 <B>Cross-Exam Context:</B> Vega is tested in Series I and VIII.
+
 <B>Distributor's Pro-Tip:</B> If vega = 0.02, a 1% increase in volatility increases the premium by 0.02. If volatility drops 2%, premium falls by 0.04.]]></text></explanation></question></QF>

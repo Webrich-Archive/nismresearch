@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Modern Portfolio Theory and Capital Market Theory_11" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Mr. Arvind Mehta runs Himalaya Arbitrage Fund. Risk-free rate is 7%, expected market return is 13%, fund beta is 0.8. What is the CAPM required return for the fund?]]></text><answers><answer correct="yes"><text><![CDATA[11.8%]]></text></answer><answer correct="no"><text><![CDATA[13.4%]]></text></answer><answer correct="no"><text><![CDATA[10.4%]]></text></answer><answer correct="no"><text><![CDATA[12.6%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> CAPM: E(Ri) = Rf + beta*(Rm - Rf) = 7% + 0.8*(13% - 7%) = 7% + 0.8*6% = 7% + 4.8% = 11.8%.
+
 <B>The Trap:</B> (B) 13.4% adds beta*Rm instead of beta*(Rm-Rf). (C) 10.4% uses (Rm-Rf)*0.6. (D) 12.6% double-counts Rf.
+
 <B>Cross-Exam Context:</B> XIX-C/D, XXI-B, XV and VIII all test the same E(Ri)=Rf+beta*(Rm-Rf) identity. The numbers change; the formula doesn't.
+
 <B>Manager's Pro-Tip:</B> For a market-neutral Cat III book with beta ~ 0, CAPM implies required return ~ Rf — yet LPs demand 12%+. The gap is the ALPHA expectation; your HWM crystallisation and 2-and-20 economics must be pitched as compensation for DELIVERED alpha, not for bearing beta.]]></text></explanation></question></QF>

@@ -11,6 +11,9 @@ Transaction 4: He submits a switch request at 2:30 PM to move Rs.1,00,000 from A
 Transaction 5: His standing STP instruction triggers a transfer of Rs.25,000 from ABC Liquid Fund to ABC Small Cap Fund.
 
 <b>Question 1 of 5:</b> At which NAV will Transaction 1 (equity fund purchase at 1:30 PM with RTGS credited by 2:00 PM) be processed?]]></text><answers><answer correct="no"><text><![CDATA[Thursday's NAV, since RTGS payments require T+1 settlement]]></text></answer><answer correct="no"><text><![CDATA[Wednesday's NAV only if the cheque clears the same day]]></text></answer><answer correct="no"><text><![CDATA[The NAV prevailing at 1:30 PM when the application was submitted]]></text></answer><answer correct="yes"><text><![CDATA[Wednesday's NAV, since both application and funds were received before the 3:00 PM cutoff]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> For equity scheme purchases of Rs.2 lakh and above, the cutoff is 3:00 PM. Since Harish submitted his application at 1:30 PM (before cutoff) and the RTGS payment was credited by 2:00 PM (funds realized before cutoff), both conditions for same-day NAV are met. Wednesday's closing NAV of Rs.125 applies.
+
 <B>The Trap:</B> RTGS provides real-time settlement, so there's no T+1 delay. The NAV is the day's closing NAV, not the NAV at the time of application — mutual funds compute NAV once at end of day.
+
 <B>Cross-Exam Context:</B> NISM Series V-A extensively covers NAV cutoff rules; the dual condition of application receipt + funds realization is a critical concept.
+
 <B>Distributor's Pro-Tip:</B> RTGS is ideal for large purchases — same-day fund realization ensures same-day NAV. For amounts above Rs.2 lakh in equity/balanced schemes, ensure both the application and payment reach before 3:00 PM.]]></text></explanation></question></QF>

@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Investment Strategies_55" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Sahyadri Stat-Arb Fund uses a z-score for pair-entry. Historical mean spread between Stock P and Stock Q = INR 5.00, standard deviation = INR 1.20. Current spread = INR 7.40. What is the z-score?]]></text><answers><answer correct="no"><text><![CDATA[+1.00]]></text></answer><answer correct="no"><text><![CDATA[+1.50]]></text></answer><answer correct="yes"><text><![CDATA[+2.00]]></text></answer><answer correct="no"><text><![CDATA[+3.00]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> z = (current - mean) / SD = (7.40 - 5.00) / 1.20 = 2.40 / 1.20 = +2.00. Spread is 2 SD above the mean — classic stat-arb entry (fade the divergence): SHORT the rich leg, LONG the cheap leg.
+
 <B>The Trap:</B> Other options are arithmetic variants.
+
 <B>Cross-Exam Context:</B> VIII (Derivatives) uses z-scoring for pairs. XIX-C same.
+
 <B>Manager's Pro-Tip:</B> Use z-score 2.0 as entry, 0.5 as exit, and 3.5 as stop-loss — the stop protects against structural spread breaks (e.g. sector re-rating). Back-test with at least 5-year history, and re-estimate mean/SD monthly; stale parameters kill stat-arb.]]></text></explanation></question></QF>

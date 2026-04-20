@@ -1,4 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?><QF id="VII Settlement Process_10" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Payment to clients shall be made only from:]]></text><answers><answer correct="yes"><text><![CDATA[Down Streaming Client Nodal Bank Account (DSCNBA)]]></text></answer><answer correct="no"><text><![CDATA[Up Streaming Client Nodal Bank Account (USCNBA)]]></text></answer><answer correct="no"><text><![CDATA[Settlement Account]]></text></answer><answer correct="no"><text><![CDATA[Any clearing account of the broker]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Payments to clients shall only be made from DSCNBA. Client funds are received in USCNBA.
+
 <B>The Trap:</B> USCNBA is for receiving only. DSCNBA is for paying only. They are separate one-way accounts.
+
 <B>Cross-Exam Context:</B> This segregation prevents commingling and misuse of client funds.
+
 <B>Distributor's Pro-Tip:</B> The upstream/downstream naming convention helps remember the direction of fund flow.]]></text></explanation></question></QF>

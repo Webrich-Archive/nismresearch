@@ -1,4 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?><QF id="VII Risk Management_16" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[For a sell transaction in cash market, which margins together shall not exceed the sale value?]]></text><answers><answer correct="yes"><text><![CDATA[VaR margins and extreme loss margins]]></text></answer><answer correct="no"><text><![CDATA[VaR margins, ELM, and mark to market losses]]></text></answer><answer correct="no"><text><![CDATA[Only VaR margins]]></text></answer><answer correct="no"><text><![CDATA[Only extreme loss margins]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> For a sale transaction in cash market, VaR margins and extreme loss margins together shall not exceed the sale value. Mark to market losses shall also be levied in addition.
+
 <B>The Trap:</B> Unlike buy transactions where all three margins are capped, for sell transactions only VaR + ELM are capped, and MTM is applied separately.
+
 <B>Cross-Exam Context:</B> The asymmetry between buy and sell margin caps is a commonly tested concept.
+
 <B>Distributor's Pro-Tip:</B> A seller's risk profile differs from a buyer's - the seller must deliver securities, so MTM is tracked separately.]]></text></explanation></question></QF>

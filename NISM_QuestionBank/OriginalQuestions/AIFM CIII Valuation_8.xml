@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Valuation_8" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Chambal Managed Futures Fund shorted 300 lots of Investment LMN futures (lot size 250) at INR 2,275 on May 16, 9:15 AM. Closing futures price at 4:00 PM on the same day was INR 2,150. What is the MTM P&L?]]></text><answers><answer correct="no"><text><![CDATA[Loss of INR 93,75,000]]></text></answer><answer correct="no"><text><![CDATA[Loss of INR 3,75,000]]></text></answer><answer correct="no"><text><![CDATA[Profit of INR 3,75,000]]></text></answer><answer correct="yes"><text><![CDATA[Profit of INR 93,75,000]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Short profit = (2,275 - 2,150) * 300 * 250 = 125 * 75,000 = INR 93,75,000 profit. Price fell, short position gained. Directly from Example 12.13.
+
 <B>The Trap:</B> Loss of INR 93,75,000 reverses direction (longs would lose). INR 3,75,000 forgets lot multiplier or uses only 1 lot.
+
 <B>Cross-Exam Context:</B> VIII (Equity Derivatives) and XIX-C test MTM calculations. XXI-B tests this for PMS derivative hedges.
+
 <B>Manager's Pro-Tip:</B> On daily NAV, always reconcile broker's end-of-day MTM file with internal position - discrepancies of even a few lakh rupees, if unreconciled, will show up as unexplained NAV drift over a quarter and trigger valuer queries.]]></text></explanation></question></QF>

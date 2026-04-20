@@ -9,6 +9,9 @@ Risk-free rate: 7% p.a.
 The portfolio has a beta of 1.0 with respect to Nifty 50 (i.e., it moves in line with the index). The number of futures contracts needed to fully hedge = Portfolio value / (Futures price × Lot size) = Rs. 2,00,00,000 / (22,180 × 25) = approximately 36 contracts.
 
 <b>Question 1 of 5:</b> What is the basis (difference between futures and spot price) of the Nifty futures, and what does it represent?]]></text><answers><answer correct="yes"><text><![CDATA[Rs. 180, representing the carry cost for 2 months]]></text></answer><answer correct="no"><text><![CDATA[Rs. 180, representing the expected market rise]]></text></answer><answer correct="no"><text><![CDATA[Rs. 350, representing the put option premium]]></text></answer><answer correct="no"><text><![CDATA[Rs. 22,180, representing the total futures cost]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Basis = Futures price - Spot price = 22,180 - 22,000 = Rs. 180. This represents the carry cost (primarily interest cost) of holding the position for 2 months. At expiry, futures and spot prices converge (basis becomes zero).
+
 <B>The Trap:</B> The basis does NOT represent market expectations of price rise — it's the cost of carry based on interest rates and time to expiry.
+
 <B>Cross-Exam Context:</B> Basis and cost of carry concepts are tested in VIII, I, XVI, and X-A.
+
 <B>Distributor's Pro-Tip:</B> If basis significantly exceeds the theoretical cost of carry, arbitrage opportunities exist — but for hedging clients, basis risk is secondary to directional protection.]]></text></explanation></question></QF>

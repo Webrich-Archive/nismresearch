@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><QF id="PM Fixed Income Portfolio Strategies_17" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A PM holds a Rs. 100 crore FI portfolio with Modified Duration 5. She forecasts a 100 bps rate rise and wants to hedge using 10-year G-Sec futures with lot size Rs. 2 lakh notional and modified duration 8. How many contracts should she SHORT?]]></text><answers><answer correct="yes"><text><![CDATA[3125]]></text></answer><answer correct="no"><text><![CDATA[5000]]></text></answer><answer correct="no"><text><![CDATA[6250]]></text></answer><answer correct="no"><text><![CDATA[2500]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> DV01 hedge: Contracts = (Portfolio × MD_port) / (Contract Size × MD_futures) = (100,00,00,000 × 5) / (2,00,000 × 8) = 500,00,00,000 / 16,00,000 = 3125 contracts.
+
 <B>The Trap:</B> 5000 ignores duration ratio; 6250 uses wrong multiplier; 2500 halves.
+
 <B>Cross-Exam Context:</B> XIII and VIII cover futures hedging; XXI-B applies at portfolio level.
+
 <B>Manager's Pro-Tip:</B> Duration-based hedging assumes parallel yield-curve shifts. Include basis risk and convexity adjustments for large bets.]]></text></explanation></question></QF>

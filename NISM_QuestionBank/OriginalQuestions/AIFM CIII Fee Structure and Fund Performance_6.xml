@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Fee Structure and Fund Performance_6" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Vindhya Event-Driven Fund posted AUM of INR 420 cr (Jan), INR 448 cr (Feb peak), INR 425 cr (Mar), INR 392 cr (Apr trough), INR 410 cr (May). What is the Maximum Drawdown (MDD) over this 5-month window?]]></text><answers><answer correct="no"><text><![CDATA[-7.37%]]></text></answer><answer correct="no"><text><![CDATA[-5.60%]]></text></answer><answer correct="no"><text><![CDATA[-13.39%]]></text></answer><answer correct="yes"><text><![CDATA[-12.50%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> MDD = (Trough − Peak) / Peak, using the LOWEST trough AFTER the highest preceding peak. Peak = 448 (Feb), subsequent Trough = 392 (Apr). MDD = (392 − 448)/448 = −12.50%.
+
 <B>The Trap:</B> -7.37% uses Jan-Apr (ignores Feb peak). -13.39% uses Feb-Mar but wrong math. -5.60% uses Apr-May recovery arithmetic.
+
 <B>Cross-Exam Context:</B> XXI-B tests MDD for PMS portfolios. XIX-E frames MDD as a key LP-reporting metric for Cat III AIFs, used alongside Calmar ratio.
+
 <B>Manager's Pro-Tip:</B> MDD doesn't capture RECOVERY time. A fund can have small MDD but 18-month underwater period. Always report MDD alongside 'time-to-recovery' for credible LP dashboards.]]></text></explanation></question></QF>

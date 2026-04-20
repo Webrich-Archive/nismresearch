@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><QF id="PM Equity Portfolio Strategies_8" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Manager A has IC = 0.10 and breadth = 100. Manager B has IC = 0.20 and breadth = 25. Which manager has the higher Information Ratio?]]></text><answers><answer correct="no"><text><![CDATA[Manager A, IR = 1.00]]></text></answer><answer correct="no"><text><![CDATA[Manager B, IR = 1.00]]></text></answer><answer correct="yes"><text><![CDATA[Both identical at IR = 1.00]]></text></answer><answer correct="no"><text><![CDATA[Manager A, IR = 2.00]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> IR_A = 0.10 × √100 = 0.10 × 10 = 1.00. IR_B = 0.20 × √25 = 0.20 × 5 = 1.00. Both deliver the same IR via different skill/breadth mixes.
+
 <B>The Trap:</B> The non-linearity of breadth (√) vs linearity of IC means higher-skill/lower-breadth and lower-skill/higher-breadth can arrive at identical productivity.
+
 <B>Cross-Exam Context:</B> XXI-B-specific. Overlaps slightly with XV's active-manager evaluation concepts.
+
 <B>Manager's Pro-Tip:</B> When picking sub-advisors, you want high IC even at lower breadth — transaction costs eat the breadth advantage, which the formula ignores.]]></text></explanation></question></QF>

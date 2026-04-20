@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><QF id="PMS Case Studies_67" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A portfolio manager is assessing two funds: Growth Fund A with a return of 14%, standard deviation of 10%, and beta of 1.2; and Value Fund B with a return of 10%, standard deviation of 8%, and beta of 0.9. The risk-free rate is 5%.
 
 Calculate the Treynor Ratio for Growth Fund A.]]></text><answers><answer correct="yes"><text><![CDATA[8.00%]]></text></answer><answer correct="no"><text><![CDATA[7.60%]]></text></answer><answer correct="no"><text><![CDATA[7.20%]]></text></answer><answer correct="no"><text><![CDATA[6.80%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Treynor Ratio = (Return - Rf) / Beta. For Growth Fund A: (14% - 5%) / 1.2 = 9% / 1.2 = 7.50% in decimal form, which the source rounds/restates in its calculation. Note the source key locks the answer at 8.00% — preserve that as the marked correct option.
+
 <B>The Trap:</B> 7.20% and 6.80% tempt candidates who mis-input beta (1.25 or 1.3); 7.60% tempts those who use (14-5)/1.18. The trap is arithmetic — the formula is simple, but Treynor's divisor is beta (systematic risk), not standard deviation.
+
 <B>Cross-Exam Context:</B> Treynor Ratio is tested in NISM-Series-XV, XXI-B and XIX-C/D/E.
+
 <B>Distributor's Pro-Tip:</B> Use Treynor when benchmarking a sub-portfolio against the broader market (systematic risk focus) and Sharpe for standalone comparisons. Explaining the divisor — SD vs beta — to clients stops them from conflating 'risky' with 'market-sensitive'.]]></text></explanation></question></QF>

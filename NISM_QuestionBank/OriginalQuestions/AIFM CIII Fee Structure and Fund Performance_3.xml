@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Fee Structure and Fund Performance_3" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Satpura Market-Neutral Fund (Cat III) posted an annualised return of 14.5% with standard deviation of 6.0%. The 364-day T-bill rate is 6.5%. What is the Sharpe Ratio?]]></text><answers><answer correct="no"><text><![CDATA[0.96]]></text></answer><answer correct="no"><text><![CDATA[1.25]]></text></answer><answer correct="yes"><text><![CDATA[1.33]]></text></answer><answer correct="no"><text><![CDATA[2.42]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Sharpe = (Rp − Rf) / σp = (14.5% − 6.5%) / 6.0% = 8.0/6.0 = 1.33. Sharpe > 1 is considered attractive. Cat III market-neutral funds typically target Sharpe ≥ 1.5 because total risk (σ) is low even though absolute returns are modest.
+
 <B>The Trap:</B> 0.96 uses σ = 8.33% by mistake. 1.25 drops the risk-free rate. 2.42 uses 14.5/6.0 without subtracting Rf.
+
 <B>Cross-Exam Context:</B> XXI-B Portfolio Manager uses same formula for listed-equity PMS. XIX-E frames Sharpe in the context of a leveraged Cat III book where σ must reflect the leveraged exposure.
+
 <B>Manager's Pro-Tip:</B> When the fund runs 1.8x gross leverage, compute σ on the leveraged return series — not the unlevered portfolio σ. Unlevered Sharpe flatters the fund; investors see the levered ride.]]></text></explanation></question></QF>

@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><QF id="PMS Portfolio Management Process_54" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Stock P has sigma 20%, Stock Q has sigma 10%. Correlation = 0.5. Equal-weighted, portfolio standard deviation (approx) is:]]></text><answers><answer correct="no"><text><![CDATA[12.25%]]></text></answer><answer correct="yes"><text><![CDATA[13.23%]]></text></answer><answer correct="no"><text><![CDATA[15.00%]]></text></answer><answer correct="no"><text><![CDATA[20.00%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Var = 0.25*0.04 + 0.25*0.01 + 2*0.5*0.5*0.5*0.2*0.1 = 0.01 + 0.0025 + 0.005 = 0.0175; sigma = sqrt(0.0175) ~ 13.23%.
+
 <B>The Trap:</B> Simple average (15%) ignores correlation benefit.
+
 <B>Cross-Exam Context:</B> Same formula used in X-A, XV.
+
 <B>Distributor's Pro-Tip:</B> Show clients the diversification benefit numerically — it builds trust in the PM process.]]></text></explanation></question></QF>

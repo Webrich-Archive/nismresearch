@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Investment Strategies_35" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Satpura Market-Neutral Fund is long INR 100 cr of a stock basket (weighted Beta 1.25) and wants to hedge systematic risk using NIFTY 50 futures. If the fund shorts NIFTY 50 futures of equivalent Beta-hedging notional, what SHORT notional in NIFTY is required?]]></text><answers><answer correct="no"><text><![CDATA[INR 100 cr]]></text></answer><answer correct="no"><text><![CDATA[INR 80 cr]]></text></answer><answer correct="yes"><text><![CDATA[INR 125 cr]]></text></answer><answer correct="no"><text><![CDATA[INR 150 cr]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Hedge notional = Portfolio Value * Beta / Index Beta. Index Beta = 1 by definition. Hedge = 100 * 1.25 / 1 = INR 125 cr SHORT NIFTY futures. After hedging, book is Beta-neutral.
+
 <B>The Trap:</B> A ignores Beta. B inverts. D inflates.
+
 <B>Cross-Exam Context:</B> VIII (Derivatives) identical hedge ratio. XIX-C same.
+
 <B>Manager's Pro-Tip:</B> Beta-hedging with index futures has 'basis risk' — the stock basket's actual Beta drift and index futures' roll cost. Monthly roll of NIFTY futures costs 20-40 bps annually; budget this as an explicit hedging line item, not a P&L surprise.]]></text></explanation></question></QF>

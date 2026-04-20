@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><QF id="PM Fixed Income Portfolio Strategies_32" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A Credit Default Swap (CDS) buyer pays a periodic premium to the seller. What does the CDS buyer RECEIVE in the event of a default?]]></text><answers><answer correct="no"><text><![CDATA[Nothing — premium is forfeited]]></text></answer><answer correct="yes"><text><![CDATA[A payment equal to (Notional − Recovery Value) of the underlying bond]]></text></answer><answer correct="no"><text><![CDATA[Full notional value]]></text></answer><answer correct="no"><text><![CDATA[Twice the premium paid]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> CDS payout = Notional × (1 − Recovery Rate). If a Rs. 100 cr notional CDS references a bond that recovers 40%, payout = Rs. 60 cr.
+
 <B>The Trap:</B> 'Nothing' treats CDS as insurance lost to lapse; full notional ignores recovery.
+
 <B>Cross-Exam Context:</B> IV and XIII cover; XXI-B tests application.
+
 <B>Manager's Pro-Tip:</B> Recovery assumptions matter — senior unsecured usually 40%, subordinated 10–20%. Model the recovery distribution, not just the point estimate.]]></text></explanation></question></QF>

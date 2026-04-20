@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><QF id="I Clearing Settlement and Risk Management_48" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[The clearing corporation computes margins for client positions with:]]></text><answers><answer correct="yes"><text><![CDATA[No netting between different clients — each client's positions are margined separately]]></text></answer><answer correct="no"><text><![CDATA[Netting across all clients of a TM]]></text></answer><answer correct="no"><text><![CDATA[Netting across all clients of a CM]]></text></answer><answer correct="no"><text><![CDATA[Netting at the exchange level]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Client-level segregation means no cross-client netting. Client A's long cannot offset Client B's short. Only within the SAME client's portfolio can SPAN compute offsets.
+
 <B>The Trap:</B> Only PROPRIETARY position of the TM is separate from client positions — but clients are segregated from each other too.
+
 <B>Cross-Exam Context:</B> Client segregation is tested in Series I and VII.
+
 <B>Distributor's Pro-Tip:</B> This segregation protects individual clients but means the total margin collected is higher than if netting were allowed.]]></text></explanation></question></QF>
