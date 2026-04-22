@@ -5,11 +5,8 @@ Example: Strike = 17,500, Premium = 177.60
 BEP = 17,500 - 177.60 = 17,322.40
 At spot 17,322.40: Payoff = 17,500 - 17,322.40 = 177.60 = Premium. Net P/L = 0.
 
-
 <B>The Trap:</B> Call BEP = Strike + Premium (add). Put BEP = Strike - Premium (subtract).
 
-
 <B>Cross-Exam Context:</B> For profit: underlying must go BELOW BEP for puts, ABOVE BEP for calls.
-
 
 <B>Distributor's Pro-Tip:</B> Put BEP = X - P. Profit when spot < BEP.]]></text></explanation></question></QF>

@@ -6,11 +6,8 @@ Step-by-step:
 3. S - X = 18,200 - 17,500 = 700
 4. Since 700 > 0, Intrinsic Value = 700
 
-
 <B>The Trap:</B> Intrinsic value can NEVER be negative. If S < X for a call, intrinsic value = 0 (not negative).
 
-
 <B>Cross-Exam Context:</B> Intrinsic value is the "exercise value" - what you'd get if you exercised right now.
-
 
 <B>Distributor's Pro-Tip:</B> Call IV = max(S - X, 0). Put IV = max(X - S, 0). IV is always >= 0.]]></text></explanation></question></QF>

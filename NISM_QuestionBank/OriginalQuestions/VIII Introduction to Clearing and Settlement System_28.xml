@@ -5,11 +5,8 @@
 
 The final settlement compares the previous day's settlement price to the spot closing price on expiry.
 
-
 <B>The Trap:</B> Do not use the original trade price - use the PREVIOUS day's settlement price, as all prior movements have already been settled through daily MTM.
 
-
 <B>Cross-Exam Context:</B> Final settlement calculations are tested along with daily MTM in multi-day problems.
-
 
 <B>Distributor's Pro-Tip:</B> Final settlement = (Spot closing on expiry - Previous settlement price) x Lot size. Previous MTM settlements already accounted for earlier movements.]]></text></explanation></question></QF>

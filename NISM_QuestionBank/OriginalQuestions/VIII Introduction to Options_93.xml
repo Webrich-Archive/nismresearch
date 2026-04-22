@@ -4,11 +4,8 @@ Put IV = max(X - S, 0) = max(280 - 300, 0) = Rs. 0 (OTM)
 
 The call is ITM (S > X) with IV = 20. The put is OTM (S > X) with IV = 0.
 
-
 <B>The Trap:</B> Same strike, opposite moneyness. Call ITM = Put OTM (and vice versa).
 
-
 <B>Cross-Exam Context:</B> At the same strike: if call has positive IV, put has zero IV (and vice versa).
-
 
 <B>Distributor's Pro-Tip:</B> Call IV = max(S-X, 0). Put IV = max(X-S, 0). Opposite moneyness at same strike.]]></text></explanation></question></QF>

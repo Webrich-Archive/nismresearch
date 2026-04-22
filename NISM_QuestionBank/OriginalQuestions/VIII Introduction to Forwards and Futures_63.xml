@@ -6,11 +6,8 @@ F = 17,500 x e^(0.01973)
 F = 17,500 x 1.01992
 F = Rs. 17,848.63
 
-
 <B>The Trap:</B> Rs. 17,835.26 is the discrete compounding answer (using (1+r-q)^T). The continuous compounding answer is slightly higher. Rs. 18,900 uses simple multiplication. Rs. 17,500 ignores carry.
 
-
 <B>Cross-Exam Context:</B> Both discrete and continuous compounding formulas are tested in Series VIII. Continuous compounding gives a slightly higher fair value.
-
 
 <B>Distributor's Pro-Tip:</B> Continuous: F = Se^((r-q)T/365). Discrete: F = S(1+r-q)^(T/365). Continuous gives slightly higher value.]]></text></explanation></question></QF>

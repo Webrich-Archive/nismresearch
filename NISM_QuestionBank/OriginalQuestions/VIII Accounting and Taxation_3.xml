@@ -4,11 +4,8 @@
 
 The cumulative daily MTM entries already capture the total profit/loss. The final entry just covers the last day's movement and margin release.
 
-
 <B>The Trap:</B> You still need the final day's MTM entry (from previous settlement to exit price). Also, the margin release entry is necessary.
 
-
 <B>Cross-Exam Context:</B> Complete lifecycle accounting of futures is tested step by step.
-
 
 <B>Distributor's Pro-Tip:</B> Position close: Record final MTM + Release margin. Total P&L = Sum of all daily MTMs.]]></text></explanation></question></QF>

@@ -2,11 +2,8 @@
 - Call option: OTM because S (480) < X (500) - no point exercising right to buy at 500 when market is 480
 - Put option: ITM because S (480) < X (500) - profitable to exercise right to sell at 500 when market is only 480
 
-
 <B>The Trap:</B> Call and put moneyness are always OPPOSITE for the same strike (except ATM).
 
-
 <B>Cross-Exam Context:</B> This inverse relationship is key for understanding option strategies and put-call parity.
-
 
 <B>Distributor's Pro-Tip:</B> If S < X: Call = OTM, Put = ITM. If S > X: Call = ITM, Put = OTM.]]></text></explanation></question></QF>
