@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-05-14T19:42:29.624Z",
+  "categories": [
+    {
+      "category": "Research Analyst",
+      "intm_id": "14",
+      "pages": 79,
+      "expected_records": 1975,
+      "scraped_records": 1975,
+      "records_with_email": 1938,
+      "unique_emails": 1928,
+      "csv": "/Users/nisarga/aiworkspace/nismresearch/outputs/sebi_marketing_contacts/research_analysts_contacts.csv"
+    },
+    {
+      "category": "Registered Portfolio Managers",
+      "intm_id": "33",
+      "pages": 21,
+      "expected_records": 516,
+      "scraped_records": 516,
+      "records_with_email": 387,
+      "unique_emails": 384,
+      "csv": "/Users/nisarga/aiworkspace/nismresearch/outputs/sebi_marketing_contacts/portfolio_managers_contacts.csv"
+    },
+    {
+      "category": "Registered Stock Brokers in equity segment",
+      "intm_id": "30",
+      "pages": 198,
+      "expected_records": 4936,
+      "scraped_records": 4936,
+      "records_with_email": 3442,
+      "unique_emails": 1330,
+      "csv": "/Users/nisarga/aiworkspace/nismresearch/outputs/sebi_marketing_contacts/stock_brokers_equity_contacts.csv"
+    }
+  ],
+  "combined_raw_records": 7427,
+  "deduped_email_contacts": 3537
+}

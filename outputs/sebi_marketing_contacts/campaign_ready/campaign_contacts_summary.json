@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-05-14T19:46:26.656Z",
+  "source_rows": 8444,
+  "all_cleaned_contacts": 4453,
+  "recommended_contacts": 3425,
+  "by_priority": {
+    "P1": 3003,
+    "P2": 646,
+    "P3": 804
+  },
+  "by_email_type": {
+    "person_or_team_business_domain": 1386,
+    "personal_free_domain": 2301,
+    "role_compliance": 422,
+    "role_generic": 334,
+    "role_sales": 10
+  },
+  "files": {
+    "campaign_contacts_all_cleaned.csv": {
+      "rows": 4453,
+      "path": "/Users/nisarga/aiworkspace/nismresearch/outputs/sebi_marketing_contacts/campaign_ready/campaign_contacts_all_cleaned.csv"
+    },
+    "campaign_contacts_recommended.csv": {
+      "rows": 3425,
+      "path": "/Users/nisarga/aiworkspace/nismresearch/outputs/sebi_marketing_contacts/campaign_ready/campaign_contacts_recommended.csv"
+    },
+    "segment_investment_advisers.csv": {
+      "rows": 983,
+      "path": "/Users/nisarga/aiworkspace/nismresearch/outputs/sebi_marketing_contacts/campaign_ready/segment_investment_advisers.csv"
+    },
+    "segment_research_analysts.csv": {
+      "rows": 1928,
+      "path": "/Users/nisarga/aiworkspace/nismresearch/outputs/sebi_marketing_contacts/campaign_ready/segment_research_analysts.csv"
+    },
+    "segment_portfolio_managers.csv": {
+      "rows": 384,
+      "path": "/Users/nisarga/aiworkspace/nismresearch/outputs/sebi_marketing_contacts/campaign_ready/segment_portfolio_managers.csv"
+    },
+    "segment_stock_brokers_equity.csv": {
+      "rows": 1326,
+      "path": "/Users/nisarga/aiworkspace/nismresearch/outputs/sebi_marketing_contacts/campaign_ready/segment_stock_brokers_equity.csv"
+    },
+    "segment_compliance_role_inboxes.csv": {
+      "rows": 422,
+      "path": "/Users/nisarga/aiworkspace/nismresearch/outputs/sebi_marketing_contacts/campaign_ready/segment_compliance_role_inboxes.csv"
+    },
+    "segment_personal_free_domain.csv": {
+      "rows": 2301,
+      "path": "/Users/nisarga/aiworkspace/nismresearch/outputs/sebi_marketing_contacts/campaign_ready/segment_personal_free_domain.csv"
+    },
+    "segment_business_domain_contacts.csv": {
+      "rows": 1396,
+      "path": "/Users/nisarga/aiworkspace/nismresearch/outputs/sebi_marketing_contacts/campaign_ready/segment_business_domain_contacts.csv"
+    }
+  }
+}
