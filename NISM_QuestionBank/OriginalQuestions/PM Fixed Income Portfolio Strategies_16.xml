@@ -2,4 +2,4 @@
 
 <B>The Trap:</B> -3.50% incorrectly uses Macaulay duration (7 years) instead of modified duration. -6.48% applies the full modified duration without scaling by the 50 bps move. A positive value reverses the direction: when yields rise, bond prices fall.
 
-<B>Note:</B> Completed the previously truncated trap sentence and removed the unsupported hard "moves greater than 100 bps" threshold from the pro-tip; the workbook only notes that convexity matters for larger yield movements. Cross-exam and pro-tip paragraphs removed.]]></text></explanation></question></QF>
+<B>Note:</B> Always use modified duration (not Macaulay) for the price-change approximation, and express the yield move in decimals (50 bps = 0.005). For larger yield moves, convexity becomes an important second-order correction.]]></text></explanation></question></QF>
