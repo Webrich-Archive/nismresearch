@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="PMS Case Studies_42" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[You are assessing the risk profiles of two investment portfolios: Portfolio X: Beta = 1.2, Standard Deviation = 15%, Portfolio Return = 10% Portfolio Y: Beta = 0.8, Standard Deviation = 12%, Portfolio Return = 8%
-
-Calculate the Treynor Ratio for Portfolio X, assuming a risk-free rate of 2%.]]></text><answers><answer correct="yes"><text><![CDATA[0.0667]]></text></answer><answer correct="no"><text><![CDATA[0.08]]></text></answer><answer correct="no"><text><![CDATA[0.055]]></text></answer><answer correct="no"><text><![CDATA[0.095]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> The Treynor Ratio formula per the NISM-XXI-A workbook is (Portfolio Return − Risk-free rate) / Portfolio Beta. For Portfolio X: (10% − 2%) / 1.2 = 8% / 1.2 = 0.0667.
-
-<B>The Trap:</B> 0.08 forgets to divide by beta and reports the raw excess return; 0.055 mishandles the risk-free subtraction; 0.095 ignores the risk-free rate entirely. The shared misconception is treating Treynor as excess return only, instead of excess return per unit of beta.
-
-<B>Note:</B> Source — NISM-Series-XXI-A workbook (September 2025), page 150, which defines Treynor as portfolio excess return over risk-free return divided by portfolio beta.]]></text></explanation></question></QF>

@@ -1,5 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?><QF id="IV Fixed Income Instruments and Bond Markets_17" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A 3-year bond with 10% annual coupon, face value Rs. 100, required yield 9%, has semi-annual compounding. What is the approximate convexity?]]></text><answers><answer correct="yes"><text><![CDATA[8.21]]></text></answer><answer correct="no"><text><![CDATA[12.45]]></text></answer><answer correct="no"><text><![CDATA[5.67]]></text></answer><answer correct="no"><text><![CDATA[15.32]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> The workbook gives the same 3-year, 10% coupon, semi-annual compounding, 9% yield example and computes convexity as 8.2135, which rounds to 8.21.
-
-<B>The Trap:</B> Convexity values for semi-annual bonds must be divided by 4 (=2²) to make them comparable with annual bonds. Using the raw sum without this adjustment gives an inflated figure.
-
-<B>Note:</B> Positive convexity makes the price gain for a yield fall greater than the price loss for an equal yield rise.]]></text></explanation></question></QF>

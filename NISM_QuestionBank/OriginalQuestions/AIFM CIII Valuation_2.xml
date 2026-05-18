@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Valuation_2" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Aravalli Long-Short Fund values an INR 100 par bond with a 12% annual coupon, 8 years to maturity, and a required return of 14%. Using PVA(14%,8)=4.639 and PV(14%,8)=0.351, what is the bond's value?]]></text><answers><answer correct="yes"><text><![CDATA[INR 90.77]]></text></answer><answer correct="no"><text><![CDATA[INR 96.00]]></text></answer><answer correct="no"><text><![CDATA[INR 100.00]]></text></answer><answer correct="no"><text><![CDATA[INR 112.00]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Value = 12 * 4.639 + 100 * 0.351 = 55.67 + 35.10 = INR 90.77. Required return (14%) > coupon (12%), so the bond trades at a discount. Directly from Example 12.1.
-
-<B>The Trap:</B> INR 100 is par - correct only when coupon = YTM. INR 112 is undiscounted; INR 96 uses wrong annuity factor.
-
-<B>Cross-Exam Context:</B> XIX-C and X-B test bond discount/premium relationships. VIII applies the same PV logic to futures fair value.]]></text></explanation></question></QF>

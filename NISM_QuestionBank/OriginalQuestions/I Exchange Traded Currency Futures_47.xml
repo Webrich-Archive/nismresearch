@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="I Exchange Traded Currency Futures_47" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[An Indian importer needs to pay USD 50,000 in 2 months. How many lots of USDINR futures should they buy to hedge?]]></text><answers><answer correct="yes"><text><![CDATA[50 lots]]></text></answer><answer correct="no"><text><![CDATA[5 lots]]></text></answer><answer correct="no"><text><![CDATA[500 lots]]></text></answer><answer correct="no"><text><![CDATA[100 lots]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> The USDINR lot size is 1,000 USD (p. 51), and an importer can go long USDINR futures to hedge a dollar payable (p. 119). USD 50,000 / 1,000 = 50 lots.
-
-<B>The Trap:</B> The lot size is 1,000 USD, not 10,000 or 100. Misreading the lot size produces an order of magnitude error.
-
-<B>Note:</B> If the exposure does not divide evenly by the lot size, the hedge will be imperfect; the workbook explicitly notes over-hedging or under-hedging in that situation (p. 125).]]></text></explanation></question></QF>

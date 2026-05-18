@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="I Trading Mechanism_49" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Pre-order checks by the broker system include:]]></text><answers><answer correct="yes"><text><![CDATA[Price range check, Quantity freeze, Single order quantity/value limit, and UCC/PAN check]]></text></answer><answer correct="no"><text><![CDATA[Only price range check]]></text></answer><answer correct="no"><text><![CDATA[Only margin check]]></text></answer><answer correct="no"><text><![CDATA[Only client authentication]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Pre-order checks include: price range check, quantity freeze, single order quantity/value limit, user order value limits, cumulative open order value checks, and UCC/PAN verification.
-
-<B>The Trap:</B> Multiple risk-management checks are performed before an order reaches the exchange, not just one.
-
-<B>Note:</B> These order-entry and risk-management checks are designed to prevent erroneous orders from reaching the exchange.]]></text></explanation></question></QF>

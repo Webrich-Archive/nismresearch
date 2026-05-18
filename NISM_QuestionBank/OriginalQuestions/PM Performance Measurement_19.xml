@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="PM Performance Measurement_19" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Sortino Ratio differs from Sharpe by using:]]></text><answers><answer correct="no"><text><![CDATA[Beta instead of SD]]></text></answer><answer correct="yes"><text><![CDATA[Downside (semi) standard deviation instead of full SD]]></text></answer><answer correct="no"><text><![CDATA[Tracking error instead of SD]]></text></answer><answer correct="no"><text><![CDATA[Alpha instead of excess return]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Sortino Ratio = (Rp - Rf) / downside semi-standard deviation. It adjusts for downside risk only, treating upside volatility as desirable.
-
-<B>The Trap:</B> Beta is used in the Treynor ratio; tracking error is used in the Information Ratio.
-
-<B>Note:</B> Definition per NISM-XXI-B workbook (p.376): Sortino divides excess portfolio return by semi-standard deviation.]]></text></explanation></question></QF>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Fee Structure and Fund Performance_3" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Satpura Market-Neutral Fund (Cat III) posted an annualised return of 14.5% with standard deviation of 6.0%. The 364-day T-bill rate is 6.5%. What is the Sharpe Ratio?]]></text><answers><answer correct="no"><text><![CDATA[0.96]]></text></answer><answer correct="no"><text><![CDATA[1.25]]></text></answer><answer correct="yes"><text><![CDATA[1.33]]></text></answer><answer correct="no"><text><![CDATA[2.42]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Sharpe Ratio = (Rp − Rf) / σp = (14.5% − 6.5%) / 6.0% = 8.0 / 6.0 = 1.33. The workbook's worked Sharpe/Treynor example uses the same inputs of T-bill rate, expected return, and standard deviation.
-
-<B>The Trap:</B> 0.96 uses σ = 8.33% by mistake. 1.25 drops the risk-free rate. 2.42 uses 14.5/6.0 without subtracting Rf.
-
-<B>Note:</B> The Sharpe denominator is total risk (standard deviation), not beta or downside deviation.]]></text></explanation></question></QF>

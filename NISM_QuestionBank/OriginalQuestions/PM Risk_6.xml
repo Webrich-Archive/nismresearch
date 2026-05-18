@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="PM Risk_6" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Which Z-score does parametric VaR use for 99% confidence?]]></text><answers><answer correct="no"><text><![CDATA[1.28]]></text></answer><answer correct="no"><text><![CDATA[1.645]]></text></answer><answer correct="no"><text><![CDATA[1.96]]></text></answer><answer correct="yes"><text><![CDATA[2.33]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> One-tailed Z-scores: 90% = 1.282, 95% = 1.645, 99% = 2.33. For VaR (one-tail, left), use 2.33 at 99%.
-
-<B>The Trap:</B> 1.96 is two-tailed 95% (confidence interval), not one-tailed VaR. 1.645 is 95% VaR.
-
-<B>Cross-Exam Context:</B> Central to XXI-B; no other NISM exam tests VaR at this depth.
-
-<B>Manager's Pro-Tip:</B> Always clarify one-tail vs two-tail when reading academic vs industry VaR definitions.]]></text></explanation></question></QF>

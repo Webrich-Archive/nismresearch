@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="Terminology in Equity and Debt Markets_13" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Modified Duration is derived from Macaulay's Duration by:]]></text><answers><answer correct="no"><text><![CDATA[Multiplying by (1 + y)]]></text></answer><answer correct="yes"><text><![CDATA[Dividing Macaulay's Duration by (1 + y), where y is the yield]]></text></answer><answer correct="no"><text><![CDATA[Adding the credit spread]]></text></answer><answer correct="no"><text><![CDATA[Subtracting the coupon rate]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> The workbook gives the formula: Modified Duration = Macaulay's Duration / (1 + y), where y is the yield used in the workbook. Modified Duration measures the approximate percentage change in a bond's price for a 1% change in yield.
-
-<B>The Trap:</B> Modified Duration divides Macaulay's Duration by (1 + y); it does not multiply, nor does it involve the credit spread or coupon rate.
-
-<B>Note:</B> Source - NISM-Series-XV Research Analyst workbook (February 2026), p. 70.]]></text></explanation></question></QF>

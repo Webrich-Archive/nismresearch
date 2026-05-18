@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="PMS Performance Measurement_21" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Portfolio return 10.5%, risk-free 5.5%, sigma 6.5%. Sharpe ratio (approx):]]></text><answers><answer correct="yes"><text><![CDATA[0.77]]></text></answer><answer correct="no"><text><![CDATA[1.00]]></text></answer><answer correct="no"><text><![CDATA[1.25]]></text></answer><answer correct="no"><text><![CDATA[0.50]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Sharpe ratio = (portfolio return - risk-free rate) / standard deviation = (10.50% - 5.50%) / 6.50% = 5 / 6.5 = 0.7692, which rounds to 0.77.
-
-<B>The Trap:</B> The other values arise from arithmetic errors in the numerator or denominator.
-
-<B>Note:</B> This is the exact workbook example used to illustrate the Sharpe ratio formula.]]></text></explanation></question></QF>

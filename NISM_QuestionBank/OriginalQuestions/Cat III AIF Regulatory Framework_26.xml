@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="Cat III AIF Regulatory Framework_26" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[When a Category III AIF transacts on the RFQ platform in 'one-to-many' mode and the trade executes against another AIF, the trade is counted as:]]></text><answers><answer correct="no"><text><![CDATA[One-to-one mode]]></text></answer><answer correct="yes"><text><![CDATA[One-to-many mode]]></text></answer><answer correct="no"><text><![CDATA[Excluded from RFQ reporting]]></text></answer><answer correct="no"><text><![CDATA[Counted twice (once in each mode)]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Per SEBI Circular dated October 19, 2022, if a Cat III AIF enters in 'one-to-many' mode and gets executed with another AIF, the trade is counted in 'one-to-many' — not 'one-to-one'.
-
-<B>The Trap:</B> The counterparty being another AIF does not convert the execution mode; it stays as placed.
-
-<B>Cross-Exam Context:</B> Reconciling RFQ metrics is commonly tested in compliance audits.
-
-<B>Distributor's Pro-Tip:</B> Log the original placement mode — switching classification later could under-report the 10% floor.]]></text></explanation></question></QF>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="PMS Case Studies_67" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A portfolio manager is assessing two funds. Growth Fund A has a return of 14%, standard deviation of 10%, and beta of 1.125; Value Fund B has a return of 10%, standard deviation of 8%, and beta of 0.9. The risk-free rate is 5%.
-
-Calculate the Treynor Ratio for Growth Fund A.]]></text><answers><answer correct="yes"><text><![CDATA[8.00%]]></text></answer><answer correct="no"><text><![CDATA[7.60%]]></text></answer><answer correct="no"><text><![CDATA[7.20%]]></text></answer><answer correct="no"><text><![CDATA[6.80%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Treynor Ratio = (Return − Risk-free rate) / Beta. For Growth Fund A: (14% − 5%) / 1.125 = 9% / 1.125 = 8.00%.
-
-<B>The Trap:</B> 7.60%, 7.20% and 6.80% come from mis-inputting beta (for example using 1.18, 1.25 or 1.3 instead of 1.125). The formula is simple — the recurring error is using standard deviation instead of beta as the divisor, or rounding beta incorrectly.
-
-<B>Note:</B> Source — NISM-Series-XXI-A workbook (September 2025), page 150 defines Treynor as excess return divided by beta and page 148 supports beta as a measure of systematic risk. Beta of 1.125 has been used so the keyed 8.00% computation is exact; the inputs in this revised stem differ from the workbook's worked example so the answer can be calculated directly.]]></text></explanation></question></QF>

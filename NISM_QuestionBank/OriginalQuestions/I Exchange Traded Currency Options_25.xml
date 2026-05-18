@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="I Exchange Traded Currency Options_25" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[What is the strike price interval for INR-based exchange-traded currency options?]]></text><answers><answer correct="yes"><text><![CDATA[Rs. 0.25]]></text></answer><answer correct="no"><text><![CDATA[Rs. 0.50]]></text></answer><answer correct="no"><text><![CDATA[Rs. 1.00]]></text></answer><answer correct="no"><text><![CDATA[Rs. 0.10]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> The workbook prescribes a Rs. 0.25 strike-price interval for INR-based currency options (for example 74.50, 74.75, 75.00, 75.25), with a minimum of 12 ITM plus 12 OTM plus 1 near-money strikes available at any time.
-
-<B>The Trap:</B> The Rs. 0.25 interval is specific to INR-pair options; cross-currency options have different intervals such as USD 0.005 for EURUSD/GBPUSD and JPY 0.5 for USDJPY.
-
-<B>Note:</B> Workbook references — p.88 (Rs. 0.25 interval and minimum 12 ITM + 12 OTM + 1 near-money strikes) and p.89 (cross-currency intervals).]]></text></explanation></question></QF>

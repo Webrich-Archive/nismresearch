@@ -1,5 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?><QF id="IV Fixed Income Instruments and Bond Markets_6" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A bond has a Macaulay duration of 7.50 years and a yield to maturity of 6%. What is its Modified Duration?]]></text><answers><answer correct="no"><text><![CDATA[7.50 years]]></text></answer><answer correct="yes"><text><![CDATA[7.08 years]]></text></answer><answer correct="no"><text><![CDATA[7.28 years]]></text></answer><answer correct="no"><text><![CDATA[6.50 years]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Modified Duration = Macaulay Duration / (1 + YTM/k), where k is the number of coupon periods per year. For an annual-coupon bond, 7.50 / 1.06 = 7.075, which rounds to 7.08 years.
-
-<B>The Trap:</B> 7.50 is the Macaulay duration itself. 7.28 results from using YTM/2 in the denominator, which is the convention for semi-annual coupon bonds, not annual.
-
-<B>Note:</B> The workbook illustrates the annual-versus-semi-annual denominator distinction directly in the same chapter.]]></text></explanation></question></QF>

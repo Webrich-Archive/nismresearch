@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="PMS Case Studies_45" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[You are assessing the risk profiles of two investment portfolios: Portfolio X: Beta = 1.2, Standard Deviation = 15% Portfolio Y: Beta = 0.8, Standard Deviation = 12%
-
-Assuming the market return is 10% and the risk-free rate is 2%, calculate Jensen's Alpha for Portfolio X if its actual return is 12%.]]></text><answers><answer correct="yes"><text><![CDATA[0.40%]]></text></answer><answer correct="no"><text><![CDATA[1.20%]]></text></answer><answer correct="no"><text><![CDATA[0.80%]]></text></answer><answer correct="no"><text><![CDATA[2%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Jensen's Alpha = Actual Return − [Risk-free rate + Beta × (Market Return − Risk-free rate)]. With actual return = 12%, risk-free = 2%, beta = 1.2 and market return = 10%, the CAPM-expected return = 2% + 1.2 × (10% − 2%) = 2% + 9.6% = 11.6%. Alpha = 12% − 11.6% = 0.40%.
-
-<B>The Trap:</B> 1.20% forgets to multiply the market premium by beta; 0.80% uses beta = 1; 2% takes (Actual − Market) and ignores CAPM entirely. The recurring confusion is that Jensen's Alpha measures excess over the CAPM-expected return, not excess over the raw market return.
-
-<B>Note:</B> Source — NISM-Series-XXI-A workbook (September 2025), page 48 for the CAPM expected-return formula and pages 148/150 for the alpha/beta active-management framing.]]></text></explanation></question></QF>

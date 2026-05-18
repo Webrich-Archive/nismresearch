@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="PM Risk_5" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Parametric VaR for a Rs. 100 cr portfolio: expected daily return 0.04%, daily volatility 1%, 95% confidence (Z = 1.645). What is the 1-day 95% VaR in rupees?]]></text><answers><answer correct="no"><text><![CDATA[Rs. 1.00 cr]]></text></answer><answer correct="yes"><text><![CDATA[Rs. 1.605 cr]]></text></answer><answer correct="no"><text><![CDATA[Rs. 1.645 cr]]></text></answer><answer correct="no"><text><![CDATA[Rs. 2.33 cr]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Parametric VaR% = μ - Z × σ = 0.04% - 1.645 × 1% = -1.605%. Absolute VaR = 1.605% × 100 cr = Rs. 1.605 cr.
-
-<B>The Trap:</B> Rs. 1.00 cr ignores Z; Rs. 1.645 cr forgets expected-return adjustment; Rs. 2.33 cr uses 99% Z.
-
-<B>Cross-Exam Context:</B> IV, XIII cover similar math; XXI-B tests fluency.
-
-<B>Manager's Pro-Tip:</B> Expected return term is often small on 1-day horizon — many institutions ignore it and just use Z × σ.]]></text></explanation></question></QF>

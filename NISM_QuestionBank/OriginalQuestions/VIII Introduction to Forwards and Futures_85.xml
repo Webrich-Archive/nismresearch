@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="VIII Introduction to Forwards and Futures_85" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A company expects to receive Rs. 2 crore as a cash inflow in 2 months and plans to use it to BUY equities then. It wants to lock in today's prices using Nifty futures (at 24,000, lot size 65) with a target portfolio beta of 1.0. How many contracts should be BOUGHT today as an anticipatory hedge?]]></text><answers><answer correct="yes"><text><![CDATA[13 contracts (approximately)]]></text></answer><answer correct="no"><text><![CDATA[13 contracts should be SOLD, not bought]]></text></answer><answer correct="no"><text><![CDATA[128 contracts]]></text></answer><answer correct="no"><text><![CDATA[8 contracts]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Step-by-step calculation:
-1. This is an anticipatory hedge for a planned future purchase, so the company fears prices rising and should buy futures (long hedge).
-2. Hedge value = Rs. 2,00,00,000 x 1.0 = Rs. 2,00,00,000
-3. Contract value = 24,000 x 65 = Rs. 15,60,000
-4. Contracts to buy = 2,00,00,000 / 15,60,000 ≈ 12.82 ≈ 13 contracts
-
-<B>The Trap:</B> A long hedge (buy futures) is for a planned future purchase. A short hedge (sell futures) is for a planned future sale or to protect an existing holding. Picking "13 sold" confuses the two directions.
-
-<B>Note:</B> Page 53 of the Series VIII workbook defines the long hedge; pages 89-91 distinguish a long hedge for a planned future purchase from a short hedge for a planned future sale.]]></text></explanation></question></QF>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="I Exchange Traded Currency Options_5" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[The intrinsic value of an option can:]]></text><answers><answer correct="yes"><text><![CDATA[Never be negative (minimum value is zero)]]></text></answer><answer correct="no"><text><![CDATA[Be negative for OTM options]]></text></answer><answer correct="no"><text><![CDATA[Be negative for put options only]]></text></answer><answer correct="no"><text><![CDATA[Be negative when volatility is low]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Page 70 of the source states that only ITM options have intrinsic value, that ATM and OTM options have zero intrinsic value, and that intrinsic value can never be negative — the minimum possible value for both call and put intrinsic value is zero.
-
-<B>The Trap:</B> Holders simply will not exercise when doing so would produce a loss, so the floor at zero is mechanical, not optional.
-
-<B>Note:</B> Intrinsic value reflects the immediate exercise value; time value sits on top of it until expiry.]]></text></explanation></question></QF>

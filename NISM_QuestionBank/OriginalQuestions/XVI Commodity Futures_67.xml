@@ -1,5 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?><QF id="XVI Commodity Futures_67" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A commodity's spot price is Rs 5,000. Interest rate is 12% p.a. compounded continuously. What is the 3-month futures fair value? (e^0.03 = 1.03045)]]></text><answers><answer correct="yes"><text><![CDATA[Rs 5,152.25 (approximately)]]></text></answer><answer correct="no"><text><![CDATA[Rs 5,150.00]]></text></answer><answer correct="no"><text><![CDATA[Rs 5,600.00]]></text></answer><answer correct="no"><text><![CDATA[Rs 5,030.45]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Per workbook pp.53-54, F = S x e^(r x n). Here F = 5,000 x e^(0.12 x 3/12) = 5,000 x e^0.03 = 5,000 x 1.03045 = Rs 5,152.25.
-
-<B>The Trap:</B> Rs 5,150 uses simple interest. Rs 5,600 uses the full year instead of 3/12. Rs 5,030.45 forgets to multiply by 5,000.
-
-<B>Note:</B> Use the given e^0.03 value directly and convert the time horizon to years (3/12) before computing the exponent.]]></text></explanation></question></QF>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="PM Risk_13" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Liquidity risk is typically measured using:]]></text><answers><answer correct="no"><text><![CDATA[VaR only]]></text></answer><answer correct="yes"><text><![CDATA[Bid-ask spread and time to execute without price impact]]></text></answer><answer correct="no"><text><![CDATA[Sharpe ratio]]></text></answer><answer correct="no"><text><![CDATA[Beta]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> The source describes liquidity risk as being determined by the bid-ask spread and the time required to execute the trade without impacting price. The bid-ask spread itself is treated as the cost of unwinding a position.
-
-<B>The Trap:</B> VaR alone, Sharpe ratio and beta describe return-distribution or systematic-risk concepts and do not capture the cost and time dimensions of liquidity.
-
-<B>Note:</B> Both dimensions — spread and execution time — should be considered together when assessing position liquidity.]]></text></explanation></question></QF>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CII Fund Performance and Benchmarking_16" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A Category II AIF reports a Fund IRR of 35% and a Direct Alpha of 10%. What is the implied IRR of the public-market index used as the benchmark?]]></text><answers><answer correct="yes"><text><![CDATA[25%]]></text></answer><answer correct="no"><text><![CDATA[45%]]></text></answer><answer correct="no"><text><![CDATA[3.5%]]></text></answer><answer correct="no"><text><![CDATA[35%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Per Chapter 7.3.6 (Example 7.4): Fund IRR = Market IRR + Direct Alpha. Therefore Market IRR = Fund IRR - Direct Alpha = 35% - 10% = 25%. Direct Alpha is the excess annualised IRR over the benchmark's pace-matched IRR.
-
-<B>The Trap:</B> 45% adds instead of subtracting. 3.5% divides. 35% just copies fund IRR.
-
-<B>Cross-Exam Context:</B> XIX-C tests identical formula. Classic CFA GIPS-style alpha is computed differently (using CAPM beta) — don't confuse with Direct Alpha (market-pace IRR subtraction).]]></text></explanation></question></QF>

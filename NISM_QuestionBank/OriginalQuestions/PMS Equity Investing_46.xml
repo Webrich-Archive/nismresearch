@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="PMS Equity Investing_46" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[An equity PMS portfolio has 3 stocks: A (weight 50%, beta 1.2), B (30%, 0.8), C (20%, 1.5). Portfolio beta:]]></text><answers><answer correct="no"><text><![CDATA[1.00]]></text></answer><answer correct="no"><text><![CDATA[1.08]]></text></answer><answer correct="yes"><text><![CDATA[1.14]]></text></answer><answer correct="no"><text><![CDATA[1.17]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Source p.148 states that portfolio beta is calculated as the weighted average beta of the individual securities. Portfolio beta = 0.5*1.2 + 0.3*0.8 + 0.2*1.5 = 0.60 + 0.24 + 0.30 = 1.14.
-
-<B>The Trap:</B> Taking a simple unweighted average of 1.2, 0.8, and 1.5 gives about 1.17, ignoring p.148's weighting rule.
-
-<B>Note:</B> Use the weighted-average formula from p.148, not a simple mean of the betas.]]></text></explanation></question></QF>

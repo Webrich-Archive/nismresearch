@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Valuation_13" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Himalaya Arbitrage Fund bought 300 lots of Nifty 9000 PE at premium INR 380 (lot size 75) and 600 lots of Nifty 9700 CE at premium INR 110 (lot size 75), same expiry. Per the SEBI leverage formula, what is the NET Nifty-options exposure after permitted offsetting (treating PE as short synthetic and CE as long)?]]></text><answers><answer correct="no"><text><![CDATA[INR 85,50,000]]></text></answer><answer correct="no"><text><![CDATA[INR 49,50,000]]></text></answer><answer correct="yes"><text><![CDATA[INR 36,00,000]]></text></answer><answer correct="no"><text><![CDATA[INR 1,35,00,000]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Notional Exposure: PE = 300*75*380 = INR 85,50,000 (short-direction); CE = 600*75*110 = INR 49,50,000 (long). After offsetting: 85,50,000 - 49,50,000 = INR 36,00,000. Matches Example 12.12.
-
-<B>The Trap:</B> INR 85,50,000 and INR 49,50,000 are individual legs. INR 1,35,00,000 is total premium (not notional). 
-
-<B>Cross-Exam Context:</B> VIII (Equity Derivatives) tests option exposure calc. XIX-C applies same SEBI formula.
-
-<B>Manager's Pro-Tip:</B> Paying attention to same-expiry offsetting is critical - cross-expiry 'offsetting' attempts will be rejected in the SEBI leverage calc and can silently push you over 2x.]]></text></explanation></question></QF>

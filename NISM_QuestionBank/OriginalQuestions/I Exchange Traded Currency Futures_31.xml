@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="I Exchange Traded Currency Futures_31" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A trader buys 5 lots of USDINR futures at 83.00. The contract closes at 83.50. What is the trader's profit?]]></text><answers><answer correct="yes"><text><![CDATA[Rs. 2,500]]></text></answer><answer correct="no"><text><![CDATA[Rs. 250]]></text></answer><answer correct="no"><text><![CDATA[Rs. 25,000]]></text></answer><answer correct="no"><text><![CDATA[Rs. 500]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Profit = (Close - Entry) x Lot size x Number of lots = (83.50 - 83.00) x 1000 x 5 = 0.50 x 5000 = Rs. 2,500. The USDINR lot size is 1000 USD and a long futures position profits when prices rise.
-
-<B>The Trap:</B> The calculation must multiply by both lot size (1000 USD) and the number of lots (5); omitting either gives the wrong answer.
-
-<B>Note:</B> A 1 paisa move in USDINR equals Rs. 10 per lot (0.01 x 1000), so a 50 paise move equals Rs. 500 per lot.]]></text></explanation></question></QF>

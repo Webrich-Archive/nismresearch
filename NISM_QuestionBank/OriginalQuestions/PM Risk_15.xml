@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="PM Risk_15" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA['Liquidity-adjusted VaR' equals:]]></text><answers><answer correct="no"><text><![CDATA[Regular VaR only]]></text></answer><answer correct="yes"><text><![CDATA[Regular VaR + Cost of unwinding position]]></text></answer><answer correct="no"><text><![CDATA[Half of regular VaR]]></text></answer><answer correct="no"><text><![CDATA[Regular VaR - Sharpe ratio]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Liquidity-adjusted VaR equals the regular VaR plus the cost of unwinding the position. The unwind cost reflects the bid-ask spread/impact incurred to actually exit the position.
-
-<B>The Trap:</B> Using regular VaR alone ignores the additional cost of liquidating, which can be material in stressed markets.
-
-<B>Note:</B> Stressed markets in particular require an explicit liquidity-cost adjustment when sizing the loss estimate.]]></text></explanation></question></QF>

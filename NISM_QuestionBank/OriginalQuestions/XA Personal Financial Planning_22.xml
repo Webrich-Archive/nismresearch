@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="XA Personal Financial Planning_22" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Meera invests Rs. 2,00,000 in a fixed deposit paying 7.5% interest compounded annually. The approximate maturity value after 6 years is:]]></text><answers><answer correct="yes"><text><![CDATA[Rs. 3,08,660]]></text></answer><answer correct="no"><text><![CDATA[Rs. 2,90,000]]></text></answer><answer correct="no"><text><![CDATA[Rs. 2,98,547]]></text></answer><answer correct="no"><text><![CDATA[Rs. 3,01,002]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> The workbook gives FV = PV × (1+r)^n. Here FV = 2,00,000 × (1.075)^6 = 2,00,000 × 1.54330 ≈ Rs. 3,08,660.
-
-<B>The Trap:</B> Rs. 2,90,000 is the simple interest result (2,00,000 + 2,00,000 × 7.5% × 6 = 2,90,000) — it ignores compounding entirely.
-
-<B>Note:</B> Always use the compound-interest formula for annually-compounded FDs; minor rounding in the (1.075)^6 factor moves the answer by only a few hundred rupees.]]></text></explanation></question></QF>

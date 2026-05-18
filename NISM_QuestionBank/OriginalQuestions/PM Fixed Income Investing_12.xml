@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="PM Fixed Income Investing_12" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Modified duration = Macaulay duration ÷:]]></text><answers><answer correct="no"><text><![CDATA[Maturity]]></text></answer><answer correct="yes"><text><![CDATA[1 + per-period YTM (YTM adjusted to coupon-payment frequency)]]></text></answer><answer correct="no"><text><![CDATA[2]]></text></answer><answer correct="no"><text><![CDATA[Maturity − 1]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Modified Duration = Macaulay's Duration ÷ (1 + YTM adjusted to coupon-payment frequency). For non-annual coupon bonds the YTM in the denominator must be expressed per coupon period, not as the annual yield.
-
-<B>The Trap:</B> Using just '1 + annual yield' is incomplete when coupons are paid semi-annually or quarterly. Dividing by maturity, by 2, or by (maturity − 1) are unrelated to the duration formula.
-
-<B>Note:</B> The workbook's worked calculation uses a frequency-adjusted denominator consistent with this definition.]]></text></explanation></question></QF>

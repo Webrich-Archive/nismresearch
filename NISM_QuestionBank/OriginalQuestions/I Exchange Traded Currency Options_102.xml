@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="I Exchange Traded Currency Options_102" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A trader buys a USDINR put option with strike 83.50 at Rs. 0.20 premium. At expiry, USDINR is 82.80. Net profit per unit?]]></text><answers><answer correct="yes"><text><![CDATA[Rs. 0.50]]></text></answer><answer correct="no"><text><![CDATA[Rs. 0.70]]></text></answer><answer correct="no"><text><![CDATA[Rs. 0.20]]></text></answer><answer correct="no"><text><![CDATA[Rs. 0.30]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> A long-put exercise payoff is strike minus spot when spot is below strike. Here payoff = 83.50 - 82.80 = Rs. 0.70. Net profit per unit deducts the premium paid: 0.70 - 0.20 = Rs. 0.50. The currency option lot size is 1000 units.
-
-<B>The Trap:</B> Rs. 0.70 is the gross payoff before deducting the premium paid by the buyer; net profit must always subtract the premium.
-
-<B>Note:</B> Workbook reference — pp.83-85 (long-put payoff, net profit framework, and currency option lot size of 1000 units).]]></text></explanation></question></QF>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Fee Structure and Fund Performance_23" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[1-day 95% VaR of a Cat III fund = INR 4 crore. Scale to a 10-day holding-period VaR (assume iid returns, √T scaling).]]></text><answers><answer correct="no"><text><![CDATA[INR 4 crore]]></text></answer><answer correct="yes"><text><![CDATA[INR 12.65 crore]]></text></answer><answer correct="no"><text><![CDATA[INR 40 crore]]></text></answer><answer correct="no"><text><![CDATA[INR 8.94 crore]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> VaR is a downside-risk measure over a stated time frame and confidence level. Applying the square-root-of-time scaling supplied in the stem: 10-day VaR = 1-day VaR × √10 = 4 × 3.1623 = INR 12.65 crore.
-
-<B>The Trap:</B> INR 40 crore multiplies by 10 (no square root). INR 8.94 crore uses √5 instead of √10. INR 4 crore ignores scaling entirely.
-
-<B>Note:</B> The √T scaling assumption is given in the stem (iid returns); it is not itself a rule from the workbook.]]></text></explanation></question></QF>

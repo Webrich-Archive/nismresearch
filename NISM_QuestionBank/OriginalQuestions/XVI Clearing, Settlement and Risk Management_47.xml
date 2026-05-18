@@ -1,5 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?><QF id="XVI Clearing, Settlement and Risk Management_47" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[If gold prices fall Rs 100 per 10gm from the entry price, and the contract is 1 kg, the daily MTM loss is:]]></text><answers><answer correct="yes"><text><![CDATA[Rs 10,000]]></text></answer><answer correct="no"><text><![CDATA[Rs 100]]></text></answer><answer correct="no"><text><![CDATA[Rs 1,000]]></text></answer><answer correct="no"><text><![CDATA[Rs 1,00,000]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> MTM loss per 10gm = Rs 100. A 1 kg gold contract contains 100 lots of 10gm, so total MTM loss = 100 x Rs 100 = Rs 10,000.
-
-<B>The Trap:</B> Rs 100 reflects only one 10gm unit; Rs 1,000 implicitly uses just 10 units (100gm); Rs 1,00,000 inflates the contract to 10 kg (1,000 units). The correct unit count for a 1 kg contract is 100.
-
-<B>Note:</B> MTM is settled in cash on T+1, and the source notes that if MTM is not collected before the next day's trading, a higher initial margin requirement may apply.]]></text></explanation></question></QF>

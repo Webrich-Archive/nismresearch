@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="XIII Introduction to Options_22" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[If a NIFTY 25,000 call option is bought at Rs 300 and NIFTY expires at 25,500, what is the profit per lot (lot size 25)?]]></text><answers><answer correct="yes"><text><![CDATA[Rs 5,000 [(25,500 - 25,000 - 300) × 25 = 200 × 25 = 5,000]]]></text></answer><answer correct="no"><text><![CDATA[Rs 12,500]]></text></answer><answer correct="no"><text><![CDATA[Rs 7,500]]></text></answer><answer correct="no"><text><![CDATA[Rs 2,500]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Profit per unit equals payoff minus premium: max(25,500 - 25,000, 0) - 300 = 200. Contract profit is per-unit profit times the lot size stated in the question: 200 × 25 = Rs 5,000.
-
-<B>The Trap:</B> Rs 12,500 uses gross payoff (500 × 25) without subtracting premium. Rs 7,500 subtracts only half the premium. Rs 2,500 uses a wrong lot size.
-
-<B>Note:</B> Contract size is exchange-determined and can change; this calculation uses the lot size of 25 stated in the question.]]></text></explanation></question></QF>
