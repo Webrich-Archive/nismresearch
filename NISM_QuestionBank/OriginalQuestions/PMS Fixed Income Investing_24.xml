@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="PMS Fixed Income Investing_24" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A portfolio has 60% bond (YTM 7%) + 40% bond (YTM 9%). Weighted YTM:]]></text><answers><answer correct="no"><text><![CDATA[7.0%]]></text></answer><answer correct="yes"><text><![CDATA[7.8%]]></text></answer><answer correct="no"><text><![CDATA[8.0%]]></text></answer><answer correct="no"><text><![CDATA[8.4%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> 0.6*7 + 0.4*9 = 4.2 + 3.6 = 7.8%.
+<?xml version="1.0" encoding="UTF-8"?><QF id="PMS Fixed Income Investing_24" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A portfolio has 60% in a bond returning 7% and 40% in a bond returning 9%. The weighted-average portfolio return is:]]></text><answers><answer correct="no"><text><![CDATA[7.0%]]></text></answer><answer correct="yes"><text><![CDATA[7.8%]]></text></answer><answer correct="no"><text><![CDATA[8.0%]]></text></answer><answer correct="no"><text><![CDATA[8.4%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Source p.146 supports computing portfolio return as the weighted average of constituent returns: 0.6*7% + 0.4*9% = 4.2% + 3.6% = 7.8%.
 
-<B>The Trap:</B> Other values come from arithmetic slips.
+<B>The Trap:</B> A simple average ignores the 60/40 weights and overstates the contribution of the 9% bond.
 
-<B>Cross-Exam Context:</B> Weighted-average YTM.
-
-<B>Distributor's Pro-Tip:</B> Report the portfolio's weighted YTM in every client factsheet.]]></text></explanation></question></QF>
+<B>Note:</B> Source p.64 gives the definition of YTM; the weighted-average formula on p.146 is the general portfolio-return rule applied here.]]></text></explanation></question></QF>

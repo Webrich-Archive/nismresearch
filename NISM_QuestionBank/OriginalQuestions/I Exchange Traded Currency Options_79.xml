@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><QF id="I Exchange Traded Currency Options_79" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A trader buys a USDINR 83.50 call at Rs. 0.20. What is the BEP?]]></text><answers><answer correct="yes"><text><![CDATA[83.70]]></text></answer><answer correct="no"><text><![CDATA[83.30]]></text></answer><answer correct="no"><text><![CDATA[83.50]]></text></answer><answer correct="no"><text><![CDATA[84.00]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Call BEP = Strike + Premium = 83.50 + 0.20 = 83.70.
 
-<B>The Trap:</B> BEP includes the premium cost. The option is ITM at 83.50 but only profitable above 83.70.
+<B>The Trap:</B> At spot 83.50 the call is at-the-money (not ITM); it becomes ITM only when spot exceeds 83.50, and between 83.50 and 83.70 it is ITM but still net-loss after recovering the premium. The call turns profitable only above 83.70.
 
-<B>Cross-Exam Context:</B> BEP calculation is tested in Series I.
-
-<B>Distributor's Pro-Tip:</B> Between 83.50 and 83.70, the call is ITM but the net P&L is still negative (recovering premium).]]></text></explanation></question></QF>
+<B>Note:</B> Page 81 of the NISM Series-I workbook gives the call BEP formula as strike plus premium, and page 69 supports the ITM/ATM moneyness terminology used here.]]></text></explanation></question></QF>

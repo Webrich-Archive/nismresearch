@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="VIII Option Trading Strategies_3" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[An investor buys Nifty futures at 22,000 as a long hedge for his planned equity investment next month. On the date of investment, Nifty spot is at 22,800 and futures are at 22,850. What is the effective purchase price of his investment per unit of Nifty?]]></text><answers><answer correct="yes"><text><![CDATA[Rs. 22,000]]></text></answer><answer correct="no"><text><![CDATA[Rs. 22,800]]></text></answer><answer correct="no"><text><![CDATA[Rs. 22,850]]></text></answer><answer correct="no"><text><![CDATA[Rs. 22,050]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Step-by-step calculation:
-1. Bought futures at: Rs. 22,000
-2. Spot price when investing: Rs. 22,800
-3. Profit on futures = 22,800 - 22,000 = Rs. 800 (assuming convergence at expiry)
-4. Effective purchase price = Spot price - Futures profit = 22,800 - 800 = Rs. 22,000
-The hedge effectively locked in the purchase price at Rs. 22,000.
+<?xml version="1.0" encoding="UTF-8"?><QF id="VIII Option Trading Strategies_3" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[An investor buys Nifty futures at 22,000 as a long hedge for his planned equity investment next month. On the date of investment, Nifty spot and futures have converged at 22,800. What is the effective purchase price of his investment per unit of Nifty?]]></text><answers><answer correct="yes"><text><![CDATA[Rs. 22,000]]></text></answer><answer correct="no"><text><![CDATA[Rs. 22,800]]></text></answer><answer correct="no"><text><![CDATA[Rs. 22,850]]></text></answer><answer correct="no"><text><![CDATA[Rs. 22,050]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Per the workbook (pages 90-91), the effective purchase price for a long futures hedge equals the cash purchase cost less the gain (or plus the loss) on the futures position based on the actual futures square-off price.
+Step-by-step:
+1. Futures bought at: Rs. 22,000
+2. Futures square-off price (converged with spot): Rs. 22,800
+3. Futures profit per unit = 22,800 - 22,000 = Rs. 800
+4. Cash purchase cost per unit = Spot = Rs. 22,800
+5. Effective purchase price = 22,800 - 800 = Rs. 22,000
 
-<B>The Trap:</B> Students might think the effective price is the spot price (22,800) forgetting to account for the futures profit, or might use the futures closing price instead of spot.
+<B>The Trap:</B> Candidates may pick the spot price (22,800) and forget to net off the futures gain, or use the futures square-off price directly as the effective price.
 
-<B>Cross-Exam Context:</B> Effective price calculations are common in both NISM Equity Derivatives and Currency Derivatives.
-
-<B>Distributor's Pro-Tip:</B> In a perfect hedge, the effective price equals the original futures price, regardless of subsequent market movements.]]></text></explanation></question></QF>
+<B>Note:</B> When futures and spot converge at maturity, the effective purchase price under a long hedge equals the original futures entry price, locking in the cost.]]></text></explanation></question></QF>

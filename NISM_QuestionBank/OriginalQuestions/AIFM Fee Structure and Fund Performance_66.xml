@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM Fee Structure and Fund Performance_66" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Fund AUM: Peak INR 720 crore (March); Trough INR 540 crore (June); Subsequent recovery to INR 700 crore. Maximum Drawdown:]]></text><answers><answer correct="no"><text><![CDATA[-22.22%]]></text></answer><answer correct="no"><text><![CDATA[-2.78%]]></text></answer><answer correct="yes"><text><![CDATA[-25.0%]]></text></answer><answer correct="no"><text><![CDATA[-33.33%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> MDD = (Trough − Peak)/Peak = (540 − 720)/720 = -180/720 = -25%.
+<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM Fee Structure and Fund Performance_66" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Fund AUM: Peak INR 720 crore (March); Trough INR 540 crore (June); Subsequent recovery to INR 700 crore. Maximum Drawdown:]]></text><answers><answer correct="no"><text><![CDATA[-22.22%]]></text></answer><answer correct="no"><text><![CDATA[-2.78%]]></text></answer><answer correct="yes"><text><![CDATA[-25.0%]]></text></answer><answer correct="no"><text><![CDATA[-33.33%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Maximum Drawdown = (Trough Value - Peak Value) / Peak Value = (540 - 720) / 720 = -180 / 720 = -25%.
 
-<B>The Trap:</B> Option B uses (peak − recovery)/peak. Option A inverts the ratio. Option D is wrong base.
+<B>The Trap:</B> Option B is computed from (peak - recovery)/peak and ignores the trough. Option A inverts the base. Option D uses the wrong base entirely.
 
-<B>Cross-Exam Context:</B> XIX-B tests MDD; XXI-B similar.
-
-<B>Manager's Pro-Tip:</B> Quote MDD along with benchmark MDD over the same window (Ex 9.9 showed -13.71% fund vs -38.78% NIFTY — contextual advantage). Always show recovery time too.]]></text></explanation></question></QF>
+<B>Note:</B> MDD should be compared against benchmark MDD over the same window for context, and on its own does not indicate recovery time.]]></text></explanation></question></QF>

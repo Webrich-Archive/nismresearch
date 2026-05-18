@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="Cat III AIF Valuation_22" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Maximum leverage (exposure/NAV) permitted for a Cat III AIF is:]]></text><answers><answer correct="no"><text><![CDATA[1x]]></text></answer><answer correct="no"><text><![CDATA[1.5x]]></text></answer><answer correct="yes"><text><![CDATA[2 times NAV]]></text></answer><answer correct="no"><text><![CDATA[3x]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Per SEBI norms, maximum leverage = 2 times NAV.
+<?xml version="1.0" encoding="UTF-8"?><QF id="Cat III AIF Valuation_22" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Maximum leverage (exposure/NAV) permitted for a Cat III AIF is:]]></text><answers><answer correct="no"><text><![CDATA[1x]]></text></answer><answer correct="no"><text><![CDATA[1.5x]]></text></answer><answer correct="yes"><text><![CDATA[2 times NAV]]></text></answer><answer correct="no"><text><![CDATA[3x]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Per pages 124-125, Category III AIF leverage shall not exceed 2 times the NAV, with the leverage ratio calculated at the scheme level. Monitoring and reporting requirements support this cap.
 
-<B>The Trap:</B> Other multiples aren't the cap.
+<B>The Trap:</B> 1x and 1.5x understate the regulatory ceiling, while 3x exceeds the source-prescribed cap.
 
-<B>Cross-Exam Context:</B> Tested across Topic 4 (regulatory) and here.
-
-<B>Distributor's Pro-Tip:</B> Set internal limit at 1.8x to avoid breach during intraday MTM.]]></text></explanation></question></QF>
+<B>Note:</B> Hold to the source rule: leverage capped at 2 times NAV, computed at the scheme level.]]></text></explanation></question></QF>

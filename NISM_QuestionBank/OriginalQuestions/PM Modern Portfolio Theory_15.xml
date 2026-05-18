@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="PM Modern Portfolio Theory_15" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[In a THREE-asset portfolio, how many covariance terms appear in the variance formula?]]></text><answers><answer correct="no"><text><![CDATA[3]]></text></answer><answer correct="yes"><text><![CDATA[6]]></text></answer><answer correct="no"><text><![CDATA[9]]></text></answer><answer correct="no"><text><![CDATA[1]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> For n=3: (n²-n)/2 = (9-3)/2 = 3 unique covariance pairs, BUT each appears twice in the expansion (2×AB, 2×BC, 2×AC) so 6 covariance TERMS.
+<?xml version="1.0" encoding="UTF-8"?><QF id="PM Modern Portfolio Theory_15" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A three-investment portfolio's variance formula contains how many TOTAL terms (weighted variances plus weighted covariances)?]]></text><answers><answer correct="no"><text><![CDATA[3]]></text></answer><answer correct="yes"><text><![CDATA[6]]></text></answer><answer correct="no"><text><![CDATA[9]]></text></answer><answer correct="no"><text><![CDATA[1]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> For a three-investment portfolio, the variance formula has six total terms: three weighted variances (one per asset) plus three weighted covariances given by (n^2-n)/2 = 3 for n=3.
 
-<B>The Trap:</B> If counting unique pairs: 3. If counting terms in the full expansion: 6. Textbook says 6.
+<B>The Trap:</B> If the question asked only for covariance terms, the answer would be 3. Total terms include both variance and covariance contributions.
 
-<B>Cross-Exam Context:</B> MPT detail.
-
-<B>Manager's Pro-Tip:</B> For n assets: n individual variances + 2×(n choose 2) = n(n-1) covariance terms in the expanded form.]]></text></explanation></question></QF>
+<B>Note:</B> Source: NISM-Series-XXI-B Portfolio Managers workbook, p.256.]]></text></explanation></question></QF>

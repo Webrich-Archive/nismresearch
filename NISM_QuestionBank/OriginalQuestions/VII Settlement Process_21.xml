@@ -1,7 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?><QF id="VII Settlement Process_21" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Auction pay-in and pay-out happens on:]]></text><answers><answer correct="yes"><text><![CDATA[T+2 (Auction + 1 day), with pay-in generally by 8:00 AM]]></text></answer><answer correct="no"><text><![CDATA[T+1 day]]></text></answer><answer correct="no"><text><![CDATA[T+3 day]]></text></answer><answer correct="no"><text><![CDATA[Same day as auction]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Pay-in and pay-out for auction settlement happens on T+2, with pay-in generally done by 8:00 AM.
+<?xml version='1.0' encoding='UTF-8'?><QF id="VII Settlement Process_21" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Auction pay-in and pay-out happens on:]]></text><answers><answer correct="yes"><text><![CDATA[T+2 (Auction + 1 day), with pay-in generally by 8:00 AM]]></text></answer><answer correct="no"><text><![CDATA[T+1 day]]></text></answer><answer correct="no"><text><![CDATA[T+3 day]]></text></answer><answer correct="no"><text><![CDATA[Same day as auction]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> The auction session is conducted on T+1, and auction pay-in and pay-out happen on Auction + 1 day, i.e. T+2, with pay-in generally completed by 8:00 AM.
 
-<B>The Trap:</B> The auction happens on T+1, but its settlement is on T+2.
+<B>The Trap:</B> The auction itself is on T+1, but its pay-in/pay-out is one day later on T+2; same-day or T+3 timelines do not match the workbook schedule.
 
-<B>Cross-Exam Context:</B> The one-day gap between auction and its settlement is for operational processing.
-
-<B>Distributor's Pro-Tip:</B> Auction buyers must have funds ready and sellers must deliver securities by the specified time on T+2.]]></text></explanation></question></QF>
+<B>Note:</B> Schedule only: auction on T+1, auction pay-in/pay-out on Auction + 1 day (T+2), with pay-in generally by 8:00 AM.]]></text></explanation></question></QF>

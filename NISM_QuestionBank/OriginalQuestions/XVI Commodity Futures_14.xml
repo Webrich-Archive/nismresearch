@@ -1,7 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?><QF id="XVI Commodity Futures_14" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A commodity has a spot price of Rs 10,000. The annual interest rate is 8% and holding period is 6 months. Using simple cost-of-carry (no storage), what is the fair futures price?]]></text><answers><answer correct="yes"><text><![CDATA[Rs 10,400]]></text></answer><answer correct="no"><text><![CDATA[Rs 10,800]]></text></answer><answer correct="no"><text><![CDATA[Rs 10,000]]></text></answer><answer correct="no"><text><![CDATA[Rs 10,200]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> F = S + C = 10,000 + (10,000 × 0.08 × 6/12) = 10,000 + 400 = Rs 10,400.
 
-<B>The Trap:</B> Rs 10,800 uses full year interest. Rs 10,000 ignores the cost of carry. Rs 10,200 uses 3 months instead of 6.
+<B>The Trap:</B> Rs 10,800 uses a full year of interest. Rs 10,000 ignores the cost of carry. Rs 10,200 uses 3 months instead of 6.
 
-<B>Cross-Exam Context:</B> Basic cost-of-carry is tested across all derivative exams (I, IV, VIII, XVI).
-
-<B>Distributor's Pro-Tip:</B> The cost-of-carry is the minimum return a spot holder should earn — if the futures premium is less than the carry cost, buying spot and selling futures creates an arbitrage opportunity.]]></text></explanation></question></QF>
+<B>Note:</B> Cash-and-carry arbitrage arises when the futures price is more than spot price plus the cost of carry. If the futures premium is below the carry, buying spot and selling futures is not an arbitrage.]]></text></explanation></question></QF>

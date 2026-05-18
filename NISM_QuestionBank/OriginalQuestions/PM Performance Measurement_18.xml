@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="PM Performance Measurement_18" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A portfolio has Rp = 18%, benchmark Rb = 12%, tracking error (σ of active return) = 4%. Information Ratio is:]]></text><answers><answer correct="yes"><text><![CDATA[1.50]]></text></answer><answer correct="no"><text><![CDATA[0.67]]></text></answer><answer correct="no"><text><![CDATA[4.50]]></text></answer><answer correct="no"><text><![CDATA[2.00]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> IR = (Rp - Rb) / TE = (18 - 12) / 4 = 6/4 = 1.50.
+<?xml version="1.0" encoding="UTF-8"?><QF id="PM Performance Measurement_18" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A portfolio has Rp = 18%, benchmark Rb = 12%, tracking error (σ of active return) = 4%. Information Ratio is:]]></text><answers><answer correct="yes"><text><![CDATA[1.50]]></text></answer><answer correct="no"><text><![CDATA[0.67]]></text></answer><answer correct="no"><text><![CDATA[4.50]]></text></answer><answer correct="no"><text><![CDATA[2.00]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Information Ratio = active return / tracking error = (Rp - Rb) / sigma(Rp - Rb) = (18 - 12) / 4 = 6 / 4 = 1.50.
 
-<B>The Trap:</B> 0.67 inverts numerator; 4.50 uses wrong denominator.
+<B>The Trap:</B> 0.67 inverts the ratio (TE / active return); 4.50 mistakenly divides by a wrong denominator.
 
-<B>Cross-Exam Context:</B> Core performance metric.
-
-<B>Manager's Pro-Tip:</B> IR > 0.5 good, > 1 excellent; requires at least 20-36 months of data for statistical stability.]]></text></explanation></question></QF>
+<B>Note:</B> Formula per NISM-XXI-B workbook (p.376-377): IR is active return divided by the standard deviation of portfolio-minus-benchmark returns.]]></text></explanation></question></QF>

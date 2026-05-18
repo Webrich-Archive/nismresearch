@@ -1,14 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="VIII Option Trading Strategies_5" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A speculator sells Nifty futures at 22,500 expecting a market decline. The initial margin is Rs. 1,50,000 per lot (lot size = 25). If Nifty falls to 22,000, what is the return on margin invested?]]></text><answers><answer correct="yes"><text><![CDATA[8.33%]]></text></answer><answer correct="no"><text><![CDATA[2.22%]]></text></answer><answer correct="no"><text><![CDATA[12.50%]]></text></answer><answer correct="no"><text><![CDATA[16.67%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Step-by-step calculation:
-1. Sell price = 22,500; Buy price (to cover) = 22,000
+<?xml version="1.0" encoding="UTF-8"?><QF id="VIII Option Trading Strategies_5" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A speculator sells Nifty futures at 22,500 expecting a market decline. The initial margin is Rs. 1,50,000 per lot (lot size = 25). If Nifty falls to 22,000, what is the return on margin invested?]]></text><answers><answer correct="yes"><text><![CDATA[8.33%]]></text></answer><answer correct="no"><text><![CDATA[2.22%]]></text></answer><answer correct="no"><text><![CDATA[12.50%]]></text></answer><answer correct="no"><text><![CDATA[16.67%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Step-by-step (workbook page 94 bearish short futures example):
+1. Sell price = 22,500; Buy price to cover = 22,000
 2. Profit per unit = 22,500 - 22,000 = 500
 3. Total profit = 500 x 25 (lot size) = Rs. 12,500
 4. Margin invested = Rs. 1,50,000
 5. Return on margin = (12,500 / 1,50,000) x 100 = 8.33%
 
-Note: In the cash market, buying shares worth 22,500 x 25 = Rs. 5,62,500 and a Rs. 500 move would give only 2.22% return. Futures leverage amplifies the return.
+The cash-market equivalent of this bearish view would be selling 25 shares worth 22,500 x 25 = Rs. 5,62,500 and buying them back lower at 22,000. The same Rs. 500-per-unit move would give a return of only 2.22% on the full notional value. Note that cash-market short selling is possible only if the trader already holds the shares (or can borrow them); futures avoid this constraint.
 
-<B>The Trap:</B> Students may calculate return on notional contract value (2.22%) instead of return on margin, missing the leverage concept.
+<B>The Trap:</B> Students may compute return on the notional contract value (2.22%) instead of return on the margin invested, missing the leverage benefit of futures.
 
-<B>Cross-Exam Context:</B> Leverage and return on margin calculations appear in NISM Equity and Currency Derivatives exams.
-
-<B>Distributor's Pro-Tip:</B> Futures leverage amplifies both gains and losses. Return on margin can be significantly higher than return on the full investment.]]></text></explanation></question></QF>
+<B>Note:</B> Futures leverage amplifies both gains and losses; return on margin can be significantly higher than the percentage change in the underlying.]]></text></explanation></question></QF>

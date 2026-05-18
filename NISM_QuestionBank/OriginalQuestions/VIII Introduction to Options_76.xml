@@ -1,12 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="VIII Introduction to Options_76" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A trader buys a Nifty put with strike 17,000 at premium Rs. 90. Nifty closes at 16,800 at expiry. What is the profit per unit?]]></text><answers><answer correct="yes"><text><![CDATA[Rs. 110]]></text></answer><answer correct="no"><text><![CDATA[Rs. 200]]></text></answer><answer correct="no"><text><![CDATA[Rs. 90]]></text></answer><answer correct="no"><text><![CDATA[Rs. 290]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Put Profit = max(X - S, 0) - Premium
+<?xml version="1.0" encoding="UTF-8"?><QF id="VIII Introduction to Options_76" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A trader buys a Nifty put with strike 17,000 at premium Rs. 90. Nifty closes at 16,800 at expiry. What is the profit per unit?]]></text><answers><answer correct="yes"><text><![CDATA[Rs. 110]]></text></answer><answer correct="no"><text><![CDATA[Rs. 200]]></text></answer><answer correct="no"><text><![CDATA[Rs. 90]]></text></answer><answer correct="no"><text><![CDATA[Rs. 290]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Put Profit = max(X - S, 0) - Premium. With X = 17,000, S = 16,800, and Premium = Rs. 90, payoff = 17,000 - 16,800 = Rs. 200 and profit = 200 - 90 = Rs. 110 per unit. Spot 16,800 is below the put BEP of 16,910, so the position is profitable.
 
-Step-by-step:
-1. X = 17,000, S = 16,800, P = 90
-2. Payoff = max(17,000 - 16,800, 0) = Rs. 200
-3. Profit = 200 - 90 = Rs. 110
+<B>The Trap:</B> Rs. 200 is the payoff before deducting the premium, not the profit. Rs. 90 wrongly returns the premium itself. Rs. 290 adds the premium instead of subtracting it.
 
-<B>The Trap:</B> Profit is payoff minus premium, not payoff alone.
-
-<B>Cross-Exam Context:</B> BEP = 17,000 - 90 = 16,910. Spot 16,800 < 16,910, in profit zone.
-
-<B>Distributor's Pro-Tip:</B> Put Profit = (X - S) - P = 200 - 90 = Rs. 110 per unit.]]></text></explanation></question></QF>
+<B>Note:</B> Broken comparison fragment after "Spot 16,800" repaired — explanation now states explicitly that spot is below the put BEP of 16,910 and the position is profitable.]]></text></explanation></question></QF>

@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="PM Risk_10" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A 1-day VaR of Rs. 1 cr at 95% scales to a 10-day VaR approximately by:]]></text><answers><answer correct="no"><text><![CDATA[Multiplying by 10 (linear)]]></text></answer><answer correct="yes"><text><![CDATA[Multiplying by √10 (square-root-of-time)]]></text></answer><answer correct="no"><text><![CDATA[Dividing by 10]]></text></answer><answer correct="no"><text><![CDATA[Unchanged]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Standard assumption: returns are IID, so σ scales as √t. 10-day VaR = 1-day VaR × √10 ≈ Rs. 3.16 cr.
+<?xml version="1.0" encoding="UTF-8"?><QF id="PM Risk_10" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A 1-day VaR of Rs. 1 cr at 95% scales to a 10-day VaR approximately by:]]></text><answers><answer correct="no"><text><![CDATA[Multiplying by 10 (linear)]]></text></answer><answer correct="yes"><text><![CDATA[Multiplying by √10 (square-root-of-time)]]></text></answer><answer correct="no"><text><![CDATA[Dividing by 10]]></text></answer><answer correct="no"><text><![CDATA[Unchanged]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> The VaR formula uses daily standard deviation multiplied by the square root of the number of days, so a 10-day VaR scales the 1-day figure by √10 (≈ Rs. 3.16 cr).
 
-<B>The Trap:</B> Linear scaling is the naive error; no scaling is wrong.
+<B>The Trap:</B> Linear scaling (×10) overstates the multi-day VaR; no scaling ignores the time dimension altogether.
 
-<B>Cross-Exam Context:</B> IV covers square-root-of-time; XXI-B builds.
-
-<B>Manager's Pro-Tip:</B> Square-root-of-time scaling assumes constant volatility and no autocorrelation — breaks during crisis periods.]]></text></explanation></question></QF>
+<B>Note:</B> The result depends on the underlying VaR formula used by the manager.]]></text></explanation></question></QF>

@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="VIII Introduction to Options_57" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[The option Greek 'Rho' measures:]]></text><answers><answer correct="yes"><text><![CDATA[The sensitivity of option price to changes in the risk-free interest rate]]></text></answer><answer correct="no"><text><![CDATA[The correlation between call and put option prices]]></text></answer><answer correct="no"><text><![CDATA[The ratio of intrinsic value to time value]]></text></answer><answer correct="no"><text><![CDATA[The rate of change of gamma with respect to time]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Rho (ρ) = Change in Option Price / Change in Interest Rate
+<?xml version="1.0" encoding="UTF-8"?><QF id="VIII Introduction to Options_57" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[The option Greek 'Rho' measures:]]></text><answers><answer correct="yes"><text><![CDATA[The sensitivity of option price to changes in the risk-free interest rate]]></text></answer><answer correct="no"><text><![CDATA[The correlation between call and put option prices]]></text></answer><answer correct="no"><text><![CDATA[The ratio of intrinsic value to time value]]></text></answer><answer correct="no"><text><![CDATA[The rate of change of gamma with respect to time]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Rho measures the sensitivity of the option price to a one-percentage-point change in the risk-free rate or cost of funding (workbook page 78). It is expressed as Rho = Change in Option Price / Change in Interest Rate.
 
-Rho measures how much the option premium changes when interest rates change by 1 percentage point.
+<B>The Trap:</B> The other Greeks measure different sensitivities — Delta is sensitivity to the underlying's price, Gamma is the rate of change of Delta, and Theta is sensitivity to time. Rho is specifically about interest rates.
 
-<B>The Trap:</B> Rho is generally the LEAST significant Greek for short-dated options because interest rate changes are small and slow.
-
-<B>Cross-Exam Context:</B> Rho becomes more important for long-dated options (like LEAPS).
-
-<B>Distributor's Pro-Tip:</B> Rho = interest rate sensitivity. Least important Greek for short-term options.]]></text></explanation></question></QF>
+<B>Note:</B> Rho captures how option premiums respond to changes in the funding/risk-free rate used in pricing models.]]></text></explanation></question></QF>

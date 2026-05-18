@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="PM Fixed Income Investing_18" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Floating-rate bond's coupon:]]></text><answers><answer correct="no"><text><![CDATA[Fixed]]></text></answer><answer correct="yes"><text><![CDATA[Resets periodically based on benchmark (MIBOR, Repo)]]></text></answer><answer correct="no"><text><![CDATA[Zero]]></text></answer><answer correct="no"><text><![CDATA[Random]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Floater = coupon = benchmark + spread. Resets periodically.
+<?xml version="1.0" encoding="UTF-8"?><QF id="PM Fixed Income Investing_18" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A floating-rate bond's coupon:]]></text><answers><answer correct="no"><text><![CDATA[Is fixed for the life of the bond]]></text></answer><answer correct="yes"><text><![CDATA[Resets periodically when the underlying index resets]]></text></answer><answer correct="no"><text><![CDATA[Is always zero until maturity]]></text></answer><answer correct="no"><text><![CDATA[Is determined randomly at each payment date]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> A floater's coupon resets periodically when its underlying index resets. The workbook illustrates the concept with index examples such as GDP growth and wholesale inflation, where the coupon moves with the underlying index value at each reset.
 
-<B>The Trap:</B> Fixed-coupon is opposite.
+<B>The Trap:</B> "Fixed for life" describes a fixed-coupon bond, not a floater. A zero coupon would describe a zero-coupon bond, and coupons on floaters are not random — they follow the prescribed index reset.
 
-<B>Cross-Exam Context:</B> IV, Topic 19.
-
-<B>Manager's Pro-Tip:</B> Floaters protect against rising rates but give up gains in falling-rate environments.]]></text></explanation></question></QF>
+<B>Note:</B> The workbook example of a 3-month MIBOR rate is used in the context of an interest-rate swap, not as the benchmark for a floater bond.]]></text></explanation></question></QF>

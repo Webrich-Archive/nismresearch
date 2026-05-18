@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="PM Portfolio Rebalancing_3" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A 60/40 portfolio after 1 year of strong equity (+25%, bonds 0%). Post-drift equity weight is approximately:]]></text><answers><answer correct="no"><text><![CDATA[60%]]></text></answer><answer correct="yes"><text><![CDATA[65%]]></text></answer><answer correct="no"><text><![CDATA[70%]]></text></answer><answer correct="no"><text><![CDATA[75%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Start: 60/40. After: 75/40 = 115. Equity% = 75/115 = 65.2%. Closest choice is 65%. Actually need to check — correct answer target closest to computation. If option B is 65%, that's the answer.
+<?xml version="1.0" encoding="UTF-8"?><QF id="PM Portfolio Rebalancing_3" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A 60/40 portfolio after 1 year of strong equity (+25%, bonds 0%). Post-drift equity weight is approximately:]]></text><answers><answer correct="no"><text><![CDATA[60%]]></text></answer><answer correct="yes"><text><![CDATA[65%]]></text></answer><answer correct="no"><text><![CDATA[70%]]></text></answer><answer correct="no"><text><![CDATA[75%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Starting weights are equity 60 and bonds 40 (total 100). After one year, equity grows 25% to 60 × 1.25 = 75; bonds stay at 40. New total = 75 + 40 = 115. Equity weight = 75 / 115 ≈ 65.2%, closest to 65%.
 
-<B>The Trap:</B> Forces recomputation.
+<B>The Trap:</B> 60% ignores the drift entirely. 70% and 75% overstate the drift — note that bonds at 40 dilute the new equity share so the weight rises only to about 65%, not all the way to 75%.
 
-<B>Cross-Exam Context:</B> Basic drift math.
-
-<B>Manager's Pro-Tip:</B> Always compute drift from actual numbers.]]></text></explanation></question></QF>
+<B>Note:</B> Internal generation note removed; explanation now presents the calculation cleanly with source-backed drift rationale from p.397.]]></text></explanation></question></QF>

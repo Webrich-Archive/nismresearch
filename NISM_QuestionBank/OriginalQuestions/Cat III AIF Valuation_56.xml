@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="Cat III AIF Valuation_56" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Black-Scholes Model determines option premium based on:]]></text><answers><answer correct="no"><text><![CDATA[Only strike price]]></text></answer><answer correct="yes"><text><![CDATA[Underlying asset price, exercise price, volatility, interest rates, and time to expiry]]></text></answer><answer correct="no"><text><![CDATA[Only time to expiry]]></text></answer><answer correct="no"><text><![CDATA[Fund size]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Black-Scholes uses underlying price, strike, volatility, risk-free rate, and time to expiry — five inputs.
+<?xml version="1.0" encoding="UTF-8"?><QF id="Cat III AIF Valuation_56" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Black-Scholes Model determines option premium based on:]]></text><answers><answer correct="no"><text><![CDATA[Only strike price]]></text></answer><answer correct="yes"><text><![CDATA[Underlying asset price, exercise price, volatility, interest rates, and time to expiry]]></text></answer><answer correct="no"><text><![CDATA[Only time to expiry]]></text></answer><answer correct="no"><text><![CDATA[Fund size]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> The workbook lists five Black-Scholes inputs: underlying asset price, exercise price, inherent volatility in the asset price, changes in interest rates, and time to option expiry.
 
-<B>The Trap:</B> Single-factor options don't work in reality.
+<B>The Trap:</B> Using only the strike price, only time to expiry, or fund size ignores the other inputs the model relies on; an option premium cannot be derived from any single one of these.
 
-<B>Cross-Exam Context:</B> Same model tested in VIII and IV.
-
-<B>Distributor's Pro-Tip:</B> Use Black-Scholes for European options; American options need binomial or numerical methods.]]></text></explanation></question></QF>
+<B>Note:</B> Based on Series-XIX-B workbook p.279, which enumerates the five Black-Scholes inputs.]]></text></explanation></question></QF>

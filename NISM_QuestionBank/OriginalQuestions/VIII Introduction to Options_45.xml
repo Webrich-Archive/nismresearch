@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="VIII Introduction to Options_45" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[What is the typical range of delta for a call option?]]></text><answers><answer correct="yes"><text><![CDATA[0 to +1]]></text></answer><answer correct="no"><text><![CDATA[-1 to 0]]></text></answer><answer correct="no"><text><![CDATA[-1 to +1]]></text></answer><answer correct="no"><text><![CDATA[0 to infinity]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Call delta ranges from 0 to +1:
-- Deep OTM call: delta ≈ 0 (barely moves with underlying)
-- ATM call: delta ≈ 0.5 (moves about half as much as underlying)
-- Deep ITM call: delta ≈ 1 (moves almost one-for-one with underlying)
+<?xml version="1.0" encoding="UTF-8"?><QF id="VIII Introduction to Options_45" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[What is the typical range of delta for a long call option (i.e., a call option buyer's position)?]]></text><answers><answer correct="yes"><text><![CDATA[0 to +1]]></text></answer><answer correct="no"><text><![CDATA[-1 to 0]]></text></answer><answer correct="no"><text><![CDATA[-1 to +1]]></text></answer><answer correct="no"><text><![CDATA[0 to infinity]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> For a long call (call option buyer), delta ranges from 0 to +1: deep OTM call delta is near 0, ATM call delta is around 0.5, and deep ITM call delta approaches +1. Long calls move in the same direction as the underlying, so delta is non-negative.
 
-<B>The Trap:</B> PUT delta ranges from -1 to 0 (negative because puts move opposite to underlying).
+<B>The Trap:</B> The short-call (call writer) position has delta in the range 0 to -1, which is why the original unqualified "call option" stem made option B (-1 to 0) also defensible. Option C (-1 to +1) is the range across the long + short call together. Option D is incorrect because delta is bounded by ±1.
 
-<B>Cross-Exam Context:</B> |Call delta| + |Put delta| ≈ 1 for same-strike options.
-
-<B>Distributor's Pro-Tip:</B> Call delta: 0 to +1. Put delta: -1 to 0. ATM delta ≈ ±0.5.]]></text></explanation></question></QF>
+<B>Note:</B> Source: NISM-Series-VIII Equity Derivatives Certification Examination, December 2025 v1, pp. 77 and 125. The portfolio delta table on p. 125 distinguishes long call (0 to +1) from short call (0 to -1). The stem has been qualified to "long call / call option buyer" to remove that ambiguity.]]></text></explanation></question></QF>

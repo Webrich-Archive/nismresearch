@@ -1,14 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="VIII Introduction to Forwards and Futures_70" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A trader is short 2 lots of stock futures at Rs. 1,800. Lot size is 400. Day 1 settlement is Rs. 1,760. What is the MTM?]]></text><answers><answer correct="yes"><text><![CDATA[MTM gain of Rs. 32,000]]></text></answer><answer correct="no"><text><![CDATA[MTM loss of Rs. 32,000]]></text></answer><answer correct="no"><text><![CDATA[MTM gain of Rs. 16,000]]></text></answer><answer correct="no"><text><![CDATA[MTM gain of Rs. 40]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Step-by-step calculation:
-1. Position: Short at Rs. 1,800
-2. Settlement price: Rs. 1,760
-3. Per share gain for short = 1,800 - 1,760 = Rs. 40
-4. Per lot gain = 40 x 400 = Rs. 16,000
-5. Total gain for 2 lots = 16,000 x 2 = Rs. 32,000
+<?xml version="1.0" encoding="UTF-8"?><QF id="VIII Introduction to Forwards and Futures_70" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A trader is short 2 lots of stock futures at Rs. 1,800. Lot size is 400. Day 1 settlement is Rs. 1,760. What is the MTM?]]></text><answers><answer correct="yes"><text><![CDATA[MTM gain of Rs. 32,000]]></text></answer><answer correct="no"><text><![CDATA[MTM loss of Rs. 32,000]]></text></answer><answer correct="no"><text><![CDATA[MTM gain of Rs. 16,000]]></text></answer><answer correct="no"><text><![CDATA[MTM gain of Rs. 40]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> A short position gains when the settlement price falls below the entry price. Per-share gain for the short = 1,800 - 1,760 = Rs. 40. Per-lot gain = 40 x 400 = Rs. 16,000. Total gain for 2 lots = 16,000 x 2 = Rs. 32,000.
 
-Short position GAINS when price falls (settlement < entry).
+<B>The Trap:</B> The position is a GAIN (not loss) because the price fell on a short. Rs. 16,000 is only one lot's MTM. Rs. 40 is the per-share gain, not the contract-level MTM.
 
-<B>The Trap:</B> It is a GAIN (not loss) for the short position because the price fell. Rs. 16,000 is for one lot only. Rs. 40 is per share only.
-
-<B>Cross-Exam Context:</B> Short position MTM is tested alongside long position MTM in Series VIII.
-
-<B>Distributor's Pro-Tip:</B> Short MTM = (Entry/Previous Settlement - Current Settlement) x Lot Size x Number of Lots.]]></text></explanation></question></QF>
+<B>Note:</B> Trap sentence repaired to read "A short position gains when the settlement price falls below the entry price."]]></text></explanation></question></QF>

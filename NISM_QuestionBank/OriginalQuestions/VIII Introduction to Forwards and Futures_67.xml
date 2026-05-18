@@ -1,15 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="VIII Introduction to Forwards and Futures_67" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[An index is at 18,000. Futures with 120 days to expiry are trading at 18,400. Using continuous compounding, the fair value (with r=9%, q=1.5%) is 18,300. What can a trader conclude?]]></text><answers><answer correct="yes"><text><![CDATA[Futures are overpriced relative to fair value (18,400 > 18,300), creating a potential cash-and-carry arbitrage opportunity]]></text></answer><answer correct="no"><text><![CDATA[Futures are underpriced, creating a reverse cash-and-carry arbitrage opportunity]]></text></answer><answer correct="no"><text><![CDATA[Futures are fairly priced because the difference of 100 points is within acceptable limits]]></text></answer><answer correct="no"><text><![CDATA[No conclusion can be drawn because continuous compounding is not used in Indian markets]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Step-by-step analysis:
-1. Fair value = Rs. 18,300 (calculated using continuous compounding)
+<?xml version="1.0" encoding="UTF-8"?><QF id="VIII Introduction to Forwards and Futures_67" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[An index is at 18,000. Futures with 120 days to expiry are trading at Rs. 18,400. Using continuous compounding with r = 9% and q = 1.5%, what can a trader conclude about the futures pricing?]]></text><answers><answer correct="no"><text><![CDATA[Futures are overpriced relative to fair value, creating a potential cash-and-carry arbitrage opportunity]]></text></answer><answer correct="yes"><text><![CDATA[Futures are underpriced relative to fair value (about Rs. 18,449.35), creating a potential reverse cash-and-carry arbitrage opportunity]]></text></answer><answer correct="no"><text><![CDATA[Futures are fairly priced because the difference is within acceptable limits]]></text></answer><answer correct="no"><text><![CDATA[No conclusion can be drawn because continuous compounding is not used in Indian markets]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Step-by-step analysis:
+1. Fair value = S x e^((r - q) x T) = 18,000 x e^((0.09 - 0.015) x 120/365) = 18,000 x e^(0.02466) ≈ Rs. 18,449.35
 2. Market futures price = Rs. 18,400
-3. Since 18,400 > 18,300, futures are OVERPRICED by Rs. 100
+3. Since 18,400 < 18,449.35, futures are underpriced by about Rs. 49
 
-Strategy: Cash-and-carry arbitrage
-- Buy the underlying at 18,000 (spot)
-- Sell the overpriced futures at 18,400
-- Lock in an arbitrage profit above the cost of carry
+Strategy: Reverse cash-and-carry arbitrage
+- Short the underlying at 18,000 (spot) and invest proceeds at r
+- Buy the underpriced futures at 18,400
+- Lock in an arbitrage profit from the mispricing
 
-<B>The Trap:</B> Overpriced futures call for cash-and-carry (buy spot, sell futures), NOT reverse. Both compounding methods are valid for analysis. A 100-point mispricing on 18,000 base is significant.
+<B>The Trap:</B> Underpriced futures call for reverse cash-and-carry (short spot, buy futures), not cash-and-carry. The Rs. 100 gap between 18,400 and 18,300 in earlier versions of this item came from an incorrect fair value; recomputed correctly, the actual gap is about Rs. 49 the other way.
 
-<B>Cross-Exam Context:</B> Identifying mispricing and the correct arbitrage strategy is a key Series VIII exam topic.
-
-<B>Distributor's Pro-Tip:</B> Futures > Fair Value = Overpriced = Cash-and-carry arbitrage (Buy spot + Sell futures).]]></text></explanation></question></QF>
+<B>Note:</B> Pages 45 and 56 of the Series VIII workbook support continuous-compounding fair-value pricing; pages 44 and 94 state that futures below fair value imply reverse cash-and-carry while futures above fair value imply cash-and-carry.]]></text></explanation></question></QF>

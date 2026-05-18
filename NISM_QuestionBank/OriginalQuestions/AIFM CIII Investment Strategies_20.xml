@@ -2,6 +2,4 @@
 
 <B>The Trap:</B> Option A sums all longs only. Option C is longs excluding D. Option B is the short total (wrong sign).
 
-<B>Cross-Exam Context:</B> PDF Example 10.2 math. XIX-C same.
-
-<B>Manager's Pro-Tip:</B> Don't forget the option delta: a deep OTM Put has tiny delta contribution; ATM Puts contribute ~-0.50 of notional. In Example 10.2 the Puts add ~-INR 0.56 cr of effective short delta — trivial vs the 13.2 cr net long. NAV-level delta is what matters for Beta reporting.]]></text></explanation></question></QF>
+<B>Note:</B> The question instructs that options are ignored for this calculation; the net equity exposure is simply Long total (INR 30 cr) minus Short total (INR 16.8 cr) = INR 13.2 cr long, matching Example 10.2 in the workbook.]]></text></explanation></question></QF>

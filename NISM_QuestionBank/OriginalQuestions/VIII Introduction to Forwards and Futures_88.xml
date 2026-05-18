@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><QF id="VIII Introduction to Forwards and Futures_88" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A stock is trading at Rs. 1,000 in the spot market. The 3-month futures are at Rs. 1,050. The cost of carry for 3 months is Rs. 25 (i.e., fair value = Rs. 1,025). What arbitrage strategy should a trader execute?]]></text><answers><answer correct="yes"><text><![CDATA[Cash-and-carry arbitrage: Buy the stock at Rs. 1,000 in the spot market and simultaneously sell the futures at Rs. 1,050, locking in a profit of Rs. 25 per share above the cost of carry]]></text></answer><answer correct="no"><text><![CDATA[Reverse cash-and-carry: Sell the stock at Rs. 1,000 and buy the futures at Rs. 1,050]]></text></answer><answer correct="no"><text><![CDATA[No arbitrage opportunity exists because futures are supposed to trade above spot]]></text></answer><answer correct="no"><text><![CDATA[Buy both the stock at Rs. 1,000 and the futures at Rs. 1,050 to maximize exposure]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Step-by-step analysis:
 1. Fair futures value = Spot + Cost of carry = 1,000 + 25 = Rs. 1,025
 2. Actual futures price = Rs. 1,050
-3. Futures are OVERPRICED (1,050 > 1,025) by Rs. 25
+3. Futures are overpriced (1,050 > 1,025) by Rs. 25
 
 Cash-and-carry arbitrage:
 - Buy spot at Rs. 1,000 (incur carry cost of Rs. 25)
 - Sell futures at Rs. 1,050
-- At expiry: deliver stock, receive Rs. 1,050
+- At expiry: deliver the stock and receive Rs. 1,050
 - Profit = 1,050 - 1,000 - 25 = Rs. 25 per share (risk-free)
 
-<B>The Trap:</B> Reverse cash-and-carry is for UNDERPRICED futures (F < fair value). Buying both gives directional exposure, not arbitrage. Yes, futures above spot is normal, but the DEGREE of premium matters.
+<B>The Trap:</B> Reverse cash-and-carry is the right strategy for underpriced futures (where the actual futures price is below fair value), not for overpriced futures. Buying both spot and futures gives directional exposure, not arbitrage. Futures trading above spot is normal, but the degree of premium relative to fair value is what matters here.
 
-<B>Cross-Exam Context:</B> Cash-and-carry arbitrage is a cornerstone concept in Series VIII.
-
-<B>Distributor's Pro-Tip:</B> Overpriced futures (F > Fair F): Cash-and-carry = Buy spot + Sell futures.]]></text></explanation></question></QF>
+<B>Note:</B> Pages 44 and 56 of the Series VIII workbook support that futures above fair/theoretical price create a cash-and-carry arbitrage opportunity (buy spot, sell futures).]]></text></explanation></question></QF>

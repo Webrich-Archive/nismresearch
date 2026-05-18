@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="I Exchange Traded Currency Options_103" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[What is the BEP for a USDINR call option with strike Rs. 84.00 and premium Rs. 0.30?]]></text><answers><answer correct="yes"><text><![CDATA[Rs. 84.30]]></text></answer><answer correct="no"><text><![CDATA[Rs. 83.70]]></text></answer><answer correct="no"><text><![CDATA[Rs. 84.00]]></text></answer><answer correct="no"><text><![CDATA[Rs. 84.60]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> BEP for call = Strike + Premium = 84.00 + 0.30 = Rs. 84.30.
+<?xml version="1.0" encoding="UTF-8"?><QF id="I Exchange Traded Currency Options_103" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[What is the BEP for a USDINR call option with strike Rs. 84.00 and premium Rs. 0.30?]]></text><answers><answer correct="yes"><text><![CDATA[Rs. 84.30]]></text></answer><answer correct="no"><text><![CDATA[Rs. 83.70]]></text></answer><answer correct="no"><text><![CDATA[Rs. 84.00]]></text></answer><answer correct="no"><text><![CDATA[Rs. 84.60]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> The workbook gives the long-call break-even point as Strike + Premium and the long-put break-even point as Strike - Premium. For this call: BEP = 84.00 + 0.30 = Rs. 84.30.
 
-<B>The Trap:</B> Rs. 83.70 is Strike - Premium (put BEP formula).
+<B>The Trap:</B> Rs. 83.70 applies the Strike - Premium formula, which is the put break-even. Rs. 84.00 is just the strike, and Rs. 84.60 doubles the premium.
 
-<B>Cross-Exam Context:</B> BEP calcs are standard Series I and VIII.
-
-<B>Distributor's Pro-Tip:</B> Call BEP = K + C, Put BEP = K - P.]]></text></explanation></question></QF>
+<B>Note:</B> Workbook references — p.81 (long-call BEP = strike + premium) and pp.83-84 (long-put BEP = strike - premium).]]></text></explanation></question></QF>

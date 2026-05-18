@@ -1,15 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="VIII Introduction to Options_66" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A trader buys a Nifty call with strike 17,800 at premium Rs. 150. Nifty closes at 17,750 at expiry. What is the loss?]]></text><answers><answer correct="yes"><text><![CDATA[Rs. 150]]></text></answer><answer correct="no"><text><![CDATA[Rs. 50]]></text></answer><answer correct="no"><text><![CDATA[Rs. 200]]></text></answer><answer correct="no"><text><![CDATA[Rs. 0]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Call Profit = max(S - X, 0) - Premium
+<?xml version="1.0" encoding="UTF-8"?><QF id="VIII Introduction to Options_66" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A trader buys a Nifty call with strike 17,800 at premium Rs. 150. Nifty closes at 17,750 at expiry. What is the loss?]]></text><answers><answer correct="yes"><text><![CDATA[Rs. 150]]></text></answer><answer correct="no"><text><![CDATA[Rs. 50]]></text></answer><answer correct="no"><text><![CDATA[Rs. 200]]></text></answer><answer correct="no"><text><![CDATA[Rs. 0]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Call Profit = max(S - X, 0) - Premium. Here S = 17,750 and X = 17,800. Since S is less than X, the call expires worthless and the loss equals the full Rs. 150 premium paid. Payoff = max(-50, 0) = 0; net P/L = 0 - 150 = -Rs. 150.
 
-Step-by-step:
-1. S = 17,750, X = 17,800, P = 150
-2. S < X, so option is OTM at expiry
-3. Payoff = max(17,750 - 17,800, 0) = max(-50, 0) = Rs. 0
-4. Loss = 0 - 150 = -Rs. 150
+<B>The Trap:</B> Rs. 50 wrongly uses the price gap as the loss; the OTM option is simply not exercised. Rs. 200 adds the gap to the premium. Rs. 0 ignores the fact that the buyer paid Rs. 150 up front and cannot recover it.
 
-The entire premium is lost because the option expires OTM.
-
-<B>The Trap:</B> Loss is NOT Rs. 50 (the difference). When OTM, the option is not exercised at all.
-
-<B>Cross-Exam Context:</B> Max loss for call buyer is always the premium paid, regardless of how far OTM.
-
-<B>Distributor's Pro-Tip:</B> OTM at expiry: Loss = full premium paid. S < X for calls = OTM = worthless.]]></text></explanation></question></QF>
+<B>Note:</B> Broken fragment "S The Trap" repaired — the explanation now reads "since S is less than X, the call expires worthless and the loss equals the full Rs. 150 premium."]]></text></explanation></question></QF>

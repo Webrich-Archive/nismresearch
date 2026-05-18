@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="PM Fixed Income Investing_19" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Interest Rate Swap (IRS) in India typically references:]]></text><answers><answer correct="no"><text><![CDATA[USD Libor]]></text></answer><answer correct="yes"><text><![CDATA[3-month MIBOR]]></text></answer><answer correct="no"><text><![CDATA[Repo rate]]></text></answer><answer correct="no"><text><![CDATA[US Treasury]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Indian IRS: MIBOR-referenced floating leg; fixed leg negotiated.
+<?xml version="1.0" encoding="UTF-8"?><QF id="PM Fixed Income Investing_19" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[In the workbook's interest-rate swap example, the floating leg may reference:]]></text><answers><answer correct="no"><text><![CDATA[USD Libor]]></text></answer><answer correct="yes"><text><![CDATA[3-month MIBOR]]></text></answer><answer correct="no"><text><![CDATA[US Treasury yield]]></text></answer><answer correct="no"><text><![CDATA[Wholesale inflation index]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> The workbook defines an interest-rate swap as an exchange of cash flows with one leg fixed and the other floating, and uses 3-month MIBOR as the example of the floating-leg reference. It also notes that interest-rate swap markets are available over-the-counter (OTC) in India.
 
-<B>The Trap:</B> USD Libor for USD swaps only.
+<B>The Trap:</B> USD Libor and US Treasury yields are not the references used in the workbook's Indian IRS illustration. The wholesale inflation index appears in the floater discussion, not in the IRS example.
 
-<B>Cross-Exam Context:</B> IV.
-
-<B>Manager's Pro-Tip:</B> OIS vs MIBOR-IRS — know the difference. OIS is cleaner, based on overnight rates.]]></text></explanation></question></QF>
+<B>Note:</B> The IRS example specifically pairs a fixed leg with a 3-month MIBOR floating leg; treating MIBOR as the worked example, rather than a universal rule, matches the workbook's phrasing.]]></text></explanation></question></QF>

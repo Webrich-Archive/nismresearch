@@ -1,7 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?><QF id="IV Interest Rate Options_41" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Which Greek measures the sensitivity of an option's price to changes in the volatility of the underlying?]]></text><answers><answer correct="yes"><text><![CDATA[Vega]]></text></answer><answer correct="no"><text><![CDATA[Delta]]></text></answer><answer correct="no"><text><![CDATA[Theta]]></text></answer><answer correct="no"><text><![CDATA[Rho]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Vega measures the change in option price for a one-unit change in volatility. It is positive for long options.
+<?xml version='1.0' encoding='UTF-8'?><QF id="IV Interest Rate Options_41" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Which Greek measures the sensitivity of an option's price to changes in the volatility of the underlying?]]></text><answers><answer correct="yes"><text><![CDATA[Vega]]></text></answer><answer correct="no"><text><![CDATA[Delta]]></text></answer><answer correct="no"><text><![CDATA[Theta]]></text></answer><answer correct="no"><text><![CDATA[Rho]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> The workbook defines Vega as the sensitivity of the option price to changes in market volatility and provides the corresponding formula.
 
-<B>The Trap:</B> Delta measures sensitivity to underlying price. Theta to time. Rho to interest rates.
+<B>The Trap:</B> Delta measures sensitivity to the underlying price, Theta to the passage of time, and Rho to changes in the risk-free interest rate.
 
-<B>Cross-Exam Context:</B> Greek identification questions appear in all NISM derivative certification exams.
-
-<B>Distributor's Pro-Tip:</B> Interestingly, Vega is not actually a Greek letter. But in financial convention, it is included among the 'Greeks' for option sensitivity measures.]]></text></explanation></question></QF>
+<B>Note:</B> Vega is positive for long options, meaning long calls and long puts both gain value when volatility rises.]]></text></explanation></question></QF>

@@ -1,13 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="VIII Introduction to Options_85" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A trader buys a call with strike Rs. 2,200 at premium Rs. 75 and also buys a put with strike Rs. 2,200 at premium Rs. 65. What is the call BEP and put BEP respectively?]]></text><answers><answer correct="yes"><text><![CDATA[Call BEP: Rs. 2,275 and Put BEP: Rs. 2,135]]></text></answer><answer correct="no"><text><![CDATA[Call BEP: Rs. 2,135 and Put BEP: Rs. 2,275]]></text></answer><answer correct="no"><text><![CDATA[Call BEP: Rs. 2,340 and Put BEP: Rs. 2,060]]></text></answer><answer correct="no"><text><![CDATA[Call BEP: Rs. 2,200 and Put BEP: Rs. 2,200]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> 
-Call BEP = Strike + Call Premium = 2,200 + 75 = Rs. 2,275
-Put BEP = Strike - Put Premium = 2,200 - 65 = Rs. 2,135
+<?xml version="1.0" encoding="UTF-8"?><QF id="VIII Introduction to Options_85" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A trader buys a call option with strike Rs. 2,200 at premium Rs. 75 and separately buys a put option with strike Rs. 2,200 at premium Rs. 65. Considering each option leg separately (i.e., the break-even for the long call standing alone, and the break-even for the long put standing alone - not the combined straddle break-evens), what is the long-call break-even price and the long-put break-even price respectively?]]></text><answers><answer correct="yes"><text><![CDATA[Call BEP: Rs. 2,275 and Put BEP: Rs. 2,135]]></text></answer><answer correct="no"><text><![CDATA[Call BEP: Rs. 2,135 and Put BEP: Rs. 2,275]]></text></answer><answer correct="no"><text><![CDATA[Call BEP: Rs. 2,340 and Put BEP: Rs. 2,060]]></text></answer><answer correct="no"><text><![CDATA[Call BEP: Rs. 2,200 and Put BEP: Rs. 2,200]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> For each leg considered standing alone, NISM Series VIII (pp.66-71) gives:
+- Long call BEP = Strike + Call Premium = 2,200 + 75 = Rs. 2,275
+- Long put BEP = Strike - Put Premium = 2,200 - 65 = Rs. 2,135
 
-Step-by-step:
-1. Call: X = 2,200, P = 75 → BEP = 2,200 + 75 = 2,275
-2. Put: X = 2,200, P = 65 → BEP = 2,200 - 65 = 2,135
+The stem expressly asks for the per-leg BEPs, so the long-straddle formulation (which adds total premium to/subtracts it from strike) does not apply.
 
-<B>The Trap:</B> Call BEP goes ABOVE strike. Put BEP goes BELOW strike.
+<B>The Trap:</B> Option B inverts the call and put BEPs. Option C (Rs. 2,340 and Rs. 2,060) is the combined long-straddle BEP using TOTAL premium of Rs. 140 (sourced to NISM Series VIII pp.104-106) - it is the correct answer for a different question (the straddle's two BEPs) and was the alternative reading flagged by the audit. Option D ignores premiums entirely.
 
-<B>Cross-Exam Context:</B> This forms a straddle-like position with two BEPs (upper and lower).
-
-<B>Distributor's Pro-Tip:</B> Call BEP = X + P (above strike). Put BEP = X - P (below strike).]]></text></explanation></question></QF>
+<B>Note:</B> The original stem could be read either as two separate options or as a combined straddle, which made both Option A (per-leg BEPs) and Option C (straddle BEPs) defensible from the workbook. The stem has been tightened to expressly require per-leg BEPs ("considering each option leg separately ... not the combined straddle break-evens"), making the Rs. 2,275 / Rs. 2,135 pair uniquely correct.]]></text></explanation></question></QF>

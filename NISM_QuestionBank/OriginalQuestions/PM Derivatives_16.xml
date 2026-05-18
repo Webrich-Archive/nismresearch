@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="PM Derivatives_16" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[The THREE main Greeks for option risk:]]></text><answers><answer correct="yes"><text><![CDATA[Delta, Gamma, Theta]]></text></answer><answer correct="no"><text><![CDATA[Alpha, Beta, Gamma]]></text></answer><answer correct="no"><text><![CDATA[Alpha, Delta, Gamma]]></text></answer><answer correct="no"><text><![CDATA[P/E, Beta, Delta]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Primary Greeks: Delta, Gamma, Theta (plus Vega, Rho). Cover price, convexity, time.
+<?xml version="1.0" encoding="UTF-8"?><QF id="PM Derivatives_16" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Per the Portfolio Managers workbook, option-based portfolio sensitivity is captured by which three Greeks?]]></text><answers><answer correct="yes"><text><![CDATA[Delta, Gamma, Vega]]></text></answer><answer correct="no"><text><![CDATA[Alpha, Beta, Gamma]]></text></answer><answer correct="no"><text><![CDATA[Alpha, Delta, Gamma]]></text></answer><answer correct="no"><text><![CDATA[P/E, Beta, Delta]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> The Portfolio Managers workbook describes option-based portfolio sensitivity in terms of Delta (price sensitivity), Gamma (convexity of Delta), and Vega (sensitivity to volatility).
 
-<B>The Trap:</B> Alpha is performance; not option Greek.
+<B>The Trap:</B> Alpha and Beta are portfolio performance and market-risk measures, not option Greeks. P/E is a valuation multiple. Including any of them in place of Delta, Gamma, or Vega misreads the option sensitivity framework.
 
-<B>Cross-Exam Context:</B> VIII.
-
-<B>Manager's Pro-Tip:</B> Manage all 5 Greeks in a book — Delta/Vega most critical for directional/vol books.]]></text></explanation></question></QF>
+<B>Note:</B> Other Greeks such as Theta and Rho are commonly discussed in broader derivatives texts, but the workbook page referenced here specifies Delta, Gamma, and Vega for option-based portfolio sensitivity.]]></text></explanation></question></QF>

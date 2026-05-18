@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="PMS Portfolio Management Process_63" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A 4-asset portfolio: Large-cap 40% (return 12%), Mid-cap 20% (16%), Debt 30% (7%), Gold 10% (9%). Portfolio expected return:]]></text><answers><answer correct="yes"><text><![CDATA[11.0%]]></text></answer><answer correct="no"><text><![CDATA[10.7%]]></text></answer><answer correct="no"><text><![CDATA[9.6%]]></text></answer><answer correct="no"><text><![CDATA[12.5%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> 0.40*12 + 0.20*16 + 0.30*7 + 0.10*9 = 4.8+3.2+2.1+0.9 = 11.0%.
+<?xml version="1.0" encoding="UTF-8"?><QF id="PMS Portfolio Management Process_63" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A 4-asset portfolio: Large-cap 40% (return 10%), Mid-cap 20% (20%), Debt 30% (7%), Gold 10% (9%). Portfolio expected return:]]></text><answers><answer correct="yes"><text><![CDATA[11.0%]]></text></answer><answer correct="no"><text><![CDATA[11.5%]]></text></answer><answer correct="no"><text><![CDATA[9.6%]]></text></answer><answer correct="no"><text><![CDATA[12.5%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Portfolio return is the weighted average of component returns: 0.40*10 + 0.20*20 + 0.30*7 + 0.10*9 = 4.0 + 4.0 + 2.1 + 0.9 = 11.0%.
 
-<B>The Trap:</B> Simple average (11.0 again coincidentally) vs weighted yields same here — key is to apply weights.
+<B>The Trap:</B> The simple (un-weighted) average of 10, 20, 7 and 9 is 11.5%, which is shown as a distractor — applying weights is essential.
 
-<B>Cross-Exam Context:</B> Standard across XV, X-A.
-
-<B>Distributor's Pro-Tip:</B> Present portfolio return as weighted sum in factsheets so clients trace drivers.]]></text></explanation></question></QF>
+<B>Note:</B> Always multiply each asset's return by its portfolio weight before summing; the simple arithmetic mean ignores allocation and can mislead.]]></text></explanation></question></QF>

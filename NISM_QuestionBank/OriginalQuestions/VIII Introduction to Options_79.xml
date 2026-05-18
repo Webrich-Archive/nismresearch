@@ -1,14 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="VIII Introduction to Options_79" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A trader writes a call with strike Rs. 500 at premium Rs. 15. At expiry, stock is at Rs. 510. What is the writer's profit/loss?]]></text><answers><answer correct="yes"><text><![CDATA[Profit of Rs. 5]]></text></answer><answer correct="no"><text><![CDATA[Loss of Rs. 10]]></text></answer><answer correct="no"><text><![CDATA[Loss of Rs. 5]]></text></answer><answer correct="no"><text><![CDATA[Profit of Rs. 15]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Short Call Profit = Premium - max(S - X, 0)
+<?xml version="1.0" encoding="UTF-8"?><QF id="VIII Introduction to Options_79" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A trader writes a call with strike Rs. 500 at premium Rs. 15. At expiry, stock is at Rs. 510. What is the writer's profit/loss?]]></text><answers><answer correct="yes"><text><![CDATA[Profit of Rs. 5]]></text></answer><answer correct="no"><text><![CDATA[Loss of Rs. 10]]></text></answer><answer correct="no"><text><![CDATA[Loss of Rs. 5]]></text></answer><answer correct="no"><text><![CDATA[Profit of Rs. 15]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Short Call Profit = Premium - max(S - X, 0). With Premium = 15, S = 510, X = 500: payoff to the buyer = max(510 - 500, 0) = Rs. 10, so writer's P/L = 15 - 10 = Rs. 5 profit. The writer profits as long as spot is below X + P = Rs. 515.
 
-Step-by-step:
-1. Premium = 15, S = 510, X = 500
-2. Payoff to buyer = max(510 - 500, 0) = Rs. 10
-3. Writer's P/L = 15 - 10 = Rs. 5 (PROFIT)
+<B>The Trap:</B> Loss of Rs. 10 takes only the buyer's payoff without crediting the premium. Loss of Rs. 5 inverts the sign. Profit of Rs. 15 ignores the buyer's payoff and assumes the writer keeps the full premium.
 
-The option is ITM but the payoff (10) is less than premium received (15), so writer still profits.
-
-<B>The Trap:</B> Writer can profit even when S > X, as long as S < BEP (X + P = 515).
-
-<B>Cross-Exam Context:</B> Between X and X+P, writer has partial profit. Beyond X+P, writer has loss.
-
-<B>Distributor's Pro-Tip:</B> Short call profit when S < X + P. Here: 510 < 515, so writer profits Rs. 5.]]></text></explanation></question></QF>
+<B>Note:</B> Broken comparison after "as long as S" repaired — explanation now states "the writer profits as long as spot is below X + P = Rs. 515."]]></text></explanation></question></QF>

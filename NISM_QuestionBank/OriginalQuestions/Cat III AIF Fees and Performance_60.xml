@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="Cat III AIF Fees and Performance_60" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Maximum Drawdown (MDD) is calculated as:]]></text><answers><answer correct="yes"><text><![CDATA[(Trough − Peak) / Peak]]></text></answer><answer correct="no"><text><![CDATA[(Peak − Trough) / Trough]]></text></answer><answer correct="no"><text><![CDATA[(NAV − Subscription price) / Subscription]]></text></answer><answer correct="no"><text><![CDATA[(Volatility × √Time)]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> MDD = (Trough − Peak) / Peak, usually expressed as a negative percentage.
+<?xml version="1.0" encoding="UTF-8"?><QF id="Cat III AIF Fees and Performance_60" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Maximum Drawdown (MDD) is calculated as:]]></text><answers><answer correct="yes"><text><![CDATA[(Trough − Peak) / Peak]]></text></answer><answer correct="no"><text><![CDATA[(Peak − Trough) / Trough]]></text></answer><answer correct="no"><text><![CDATA[(NAV − Subscription price) / Subscription]]></text></answer><answer correct="no"><text><![CDATA[(Volatility × √Time)]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Page 224 defines MDD as (Trough Value − Peak Value) / Peak Value, and page 225 applies the same formula in the worked example, expressing the result as a negative percentage.
 
-<B>The Trap:</B> Alternate arrangements are incorrect; volatility formula is not MDD.
+<B>The Trap:</B> Reversing the numerator/denominator or substituting a volatility expression does not match the workbook formula.
 
-<B>Cross-Exam Context:</B> Cross-exam with XV, X-A.
-
-<B>Distributor's Pro-Tip:</B> Larger negative MDD = worse downside; always examine WHEN the drawdown occurred.]]></text></explanation></question></QF>
+<B>Note:</B> Page 224 also says investors should pay attention to the time period over which MDD is measured, because the same fund can show very different drawdowns over different windows.]]></text></explanation></question></QF>

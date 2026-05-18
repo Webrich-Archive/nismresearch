@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Investment Strategies_26" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A 12% convertible bond of face value INR 1,000 has a conversion ratio of 25:1. If market price of the equity is INR 40 on the conversion date, what is the intrinsic equity value of the conversion option (excluding any bond value)?]]></text><answers><answer correct="no"><text><![CDATA[INR 40]]></text></answer><answer correct="no"><text><![CDATA[INR 250]]></text></answer><answer correct="no"><text><![CDATA[INR 625]]></text></answer><answer correct="yes"><text><![CDATA[INR 1,000 (equal to face value — at-the-money)]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> 25 shares * INR 40/share = INR 1,000, exactly equal to the bond face value. Conversion is AT-THE-MONEY; the option has only time value, no intrinsic premium to either party.
 
-<B>The Trap:</B> A is just the share price. C, D arbitrary.
+<B>The Trap:</B> Option A is just the share price; options B and C are arbitrary distractors that do not match the conversion math.
 
-<B>Cross-Exam Context:</B> VIII (Derivatives) builds on convertible pricing. XIX-C covers same.
-
-<B>Manager's Pro-Tip:</B> An at-the-money convertible's delta is near 0.5; every INR 4 equity move above INR 40 adds INR 2 to bond intrinsic. Hedge by shorting ~12.5 shares per bond initially (0.5 delta * 25 conversion ratio) and re-hedge quarterly.]]></text></explanation></question></QF>
+<B>Note:</B> The conversion ratio of 25:1 at INR 40 yields INR 1,000, exactly equal to the bond face value — the convertible is fairly priced at conversion, with no intrinsic premium to either party.]]></text></explanation></question></QF>

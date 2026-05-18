@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="PM Performance Measurement_14" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[TRACKING ERROR is defined as:]]></text><answers><answer correct="no"><text><![CDATA[Average absolute difference between portfolio and benchmark returns]]></text></answer><answer correct="yes"><text><![CDATA[Standard deviation of differential returns (Rp - Rb)]]></text></answer><answer correct="no"><text><![CDATA[Sum of differential returns]]></text></answer><answer correct="no"><text><![CDATA[The Sharpe ratio]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Tracking Error = σ(Rp - Rb) = standard deviation of the return difference between portfolio and benchmark.
+<?xml version="1.0" encoding="UTF-8"?><QF id="PM Performance Measurement_14" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[TRACKING ERROR is defined as:]]></text><answers><answer correct="no"><text><![CDATA[Average absolute difference between portfolio and benchmark returns]]></text></answer><answer correct="yes"><text><![CDATA[Standard deviation of differential returns (Rp - Rb)]]></text></answer><answer correct="no"><text><![CDATA[Sum of differential returns]]></text></answer><answer correct="no"><text><![CDATA[The Sharpe ratio]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Tracking Error is the standard deviation of differential returns between the portfolio total return and the benchmark total return, i.e. sigma(Rp - Rb).
 
-<B>The Trap:</B> Average difference is 'active return'; TE is about volatility of the difference.
+<B>The Trap:</B> The average of the differences is the active return; tracking error captures the volatility of those differences, not their mean.
 
-<B>Cross-Exam Context:</B> Core performance metric.
-
-<B>Manager's Pro-Tip:</B> Passive funds target TE < 50 bps; active funds routinely have TE of 3-8%. Annualize appropriately.]]></text></explanation></question></QF>
+<B>Note:</B> Definition per NISM-XXI-B workbook (p.373-374).]]></text></explanation></question></QF>

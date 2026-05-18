@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="PM Equity Portfolio Strategies_37" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A manager forecasts correctly on 60 out of 80 quarterly predictions in a year. What is the manager's Information Coefficient?]]></text><answers><answer correct="no"><text><![CDATA[0.25]]></text></answer><answer correct="yes"><text><![CDATA[0.50]]></text></answer><answer correct="no"><text><![CDATA[0.75]]></text></answer><answer correct="no"><text><![CDATA[0.60]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> IC = 2 × (60/80) − 1 = 2 × 0.75 − 1 = 0.50.
+<?xml version="1.0" encoding="UTF-8"?><QF id="PM Equity Portfolio Strategies_37" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A manager forecasts correctly on 60 out of 80 quarterly predictions in a year. What is the manager's Information Coefficient?]]></text><answers><answer correct="no"><text><![CDATA[0.25]]></text></answer><answer correct="yes"><text><![CDATA[0.50]]></text></answer><answer correct="no"><text><![CDATA[0.75]]></text></answer><answer correct="no"><text><![CDATA[0.60]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> IC = 2 × (Right predictions / Total predictions) − 1 = 2 × (60/80) − 1 = 2 × 0.75 − 1 = 0.50.
 
-<B>The Trap:</B> 0.75 is the raw hit ratio. 0.25 drops a factor; 0.60 is noise.
+<B>The Trap:</B> 0.75 is the raw hit ratio (Right/Total) before applying the IC formula. 0.25 drops a factor; 0.60 is noise.
 
-<B>Cross-Exam Context:</B> XXI-B-specific application of Grinold-Kahn.
-
-<B>Manager's Pro-Tip:</B> Sustained IC > 0.10 is exceptional in practice — most institutional managers run IC in the 0.03–0.08 range over full cycles.]]></text></explanation></question></QF>
+<B>Note:</B> The formula IC = 2 × (Right/Total) − 1 is the workbook's standard definition and is applied in the same way in the sample caselets.]]></text></explanation></question></QF>

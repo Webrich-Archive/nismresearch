@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="PMS Portfolio Management Process_74" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Threshold-based rebalancing triggers action when:]]></text><answers><answer correct="no"><text><![CDATA[A fixed date passes]]></text></answer><answer correct="yes"><text><![CDATA[Portfolio drift exceeds pre-defined percentage bands]]></text></answer><answer correct="no"><text><![CDATA[Dividends are declared]]></text></answer><answer correct="no"><text><![CDATA[Regulatory filings happen]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Drift-band triggers, not dates, drive threshold rebalancing.
+<?xml version="1.0" encoding="UTF-8"?><QF id="PMS Portfolio Management Process_74" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Portfolio rebalancing is needed when:]]></text><answers><answer correct="no"><text><![CDATA[A fixed date passes]]></text></answer><answer correct="yes"><text><![CDATA[Market fluctuations cause the actual asset allocation to drift away from the desired allocation]]></text></answer><answer correct="no"><text><![CDATA[Dividends are declared]]></text></answer><answer correct="no"><text><![CDATA[Regulatory filings happen]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Rebalancing is needed when market fluctuations cause the actual asset allocation to drift away from the desired allocation set in the IPS.
 
-<B>The Trap:</B> Other events are unrelated to threshold logic.
+<B>The Trap:</B> Calendar dates, dividend declarations, and regulatory filings do not by themselves drive the need to rebalance.
 
-<B>Cross-Exam Context:</B> Consistent across X-A, X-B.
-
-<B>Distributor's Pro-Tip:</B> A 5% band is a common starting point; calibrate to client volatility tolerance.]]></text></explanation></question></QF>
+<B>Note:</B> The trigger described in the source is drift from the desired allocation; any specific percentage band would need to be set as an IPS-level rule.]]></text></explanation></question></QF>

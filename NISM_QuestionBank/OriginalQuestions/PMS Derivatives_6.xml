@@ -1,7 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="PMS Derivatives_6" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[In-the-money (ITM) call has:]]></text><answers><answer correct="no"><text><![CDATA[Strike > spot]]></text></answer><answer correct="yes"><text><![CDATA[Strike < spot]]></text></answer><answer correct="no"><text><![CDATA[Strike = spot]]></text></answer><answer correct="no"><text><![CDATA[No strike]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Call ITM when spot > strike (intrinsic value > 0).
+<?xml version="1.0" encoding="UTF-8"?><QF id="PMS Derivatives_6" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[In-the-money (ITM) call has:]]></text><answers><answer correct="no"><text><![CDATA[Strike > spot]]></text></answer><answer correct="yes"><text><![CDATA[Strike < spot]]></text></answer><answer correct="no"><text><![CDATA[Strike = spot]]></text></answer><answer correct="no"><text><![CDATA[No strike]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> A call option is "in-the-money" (ITM) when the spot price of the underlying is above the strike price, giving the call positive intrinsic value (spot − strike). Strike > spot is out-of-the-money (OTM); strike = spot is at-the-money (ATM).
 
-<B>The Trap:</B> Strike > spot = OTM call.
-
-<B>Cross-Exam Context:</B> Same in VIII.
-
-<B>Distributor's Pro-Tip:</B> ITM options have higher premium but deeper delta exposure.]]></text></explanation></question></QF>
+<B>Note:</B> Option moneyness (ITM/ATM/OTM) is not defined in the PMS Distributors (XXI-A) derivatives chapter, which covers definitions of forwards/futures/options/swaps and PMS-derivative permissions only. Treat this as general option theory; in-depth options content is in NISM Series VIII.]]></text></explanation></question></QF>
