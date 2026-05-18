@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM Modern Portfolio Theory and Capital Market Theory_12" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[The market portfolio expected return is 14%, the risk-free rate is 6%, and the standard deviation of the market portfolio is 18%. Mr. Rajeev Bhalla, an HNI LP, wishes to hold a portfolio on the Capital Market Line with σp = 12%. What is his expected portfolio return?]]></text><answers><answer correct="no"><text><![CDATA[10.67%]]></text></answer><answer correct="yes"><text><![CDATA[11.33%]]></text></answer><answer correct="no"><text><![CDATA[12.00%]]></text></answer><answer correct="no"><text><![CDATA[9.33%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> On the CML, Wmp = σp / σmp = 12% / 18% = 0.6667. Then E(Rp) = Rf + Wmp·(Rm − Rf) = 6% + 0.6667·(14% − 6%) = 6% + 5.33% = 11.33%.
-
-<B>The Trap:</B> Misreading weights or forgetting to subtract Rf produces 10.67%, 12.00% or 9.33%.
-
-<B>Cross-Exam Context:</B> Cross-tested in XXI-B, XV, X-B. APT (multi-factor) not tested here.
-
-<B>Manager's Pro-Tip:</B> A CML-based target-risk mandate is common in pension-fund RFPs. Your AIF prospectus should quote a 'target volatility' that matches Wmp × σmp on their reference market portfolio — saves a round of redraft.]]></text></explanation></question></QF>

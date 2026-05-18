@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Fee Structure and Fund Performance_9" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A Cat III global-macro fund reports AUM of INR 300 crore and monthly portfolio volatility of 3.5%. Compute the 99% 1-month parametric VaR (z = 2.33).]]></text><answers><answer correct="no"><text><![CDATA[INR 10.50 crore]]></text></answer><answer correct="no"><text><![CDATA[INR 17.29 crore]]></text></answer><answer correct="yes"><text><![CDATA[INR 24.47 crore]]></text></answer><answer correct="no"><text><![CDATA[INR 34.95 crore]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> VaR(99%, 1-month) = 2.33 × 3.5% × 300 cr = 2.33 × 10.50 cr = INR 24.465 cr ≈ INR 24.47 crore. Interpretation: 1% chance monthly loss exceeds INR 24.47 cr.
-
-<B>The Trap:</B> INR 10.50 cr is 1σ absolute. INR 17.29 cr is 95% z=1.645. INR 34.95 cr uses 3.33 σ.
-
-<B>Cross-Exam Context:</B> III-A/C Compliance tests VaR from a governance angle. XIX-E tests quantitative computation.
-
-<B>Manager's Pro-Tip:</B> On month-end, size down positions that push VaR near the PPM-disclosed VaR limit — avoid last-day trades that breach and trigger risk-committee escalation.]]></text></explanation></question></QF>

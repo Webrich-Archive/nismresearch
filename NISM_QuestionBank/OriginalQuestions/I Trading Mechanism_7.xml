@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="I Trading Mechanism_7" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[An IOC (Immediate or Cancel) order allows:]]></text><answers><answer correct="yes"><text><![CDATA[Partial matching with the unmatched portion cancelled immediately]]></text></answer><answer correct="no"><text><![CDATA[The order to remain in the book for the entire day]]></text></answer><answer correct="no"><text><![CDATA[The order to be valid until cancelled by the trader]]></text></answer><answer correct="no"><text><![CDATA[Only full execution — no partial matching]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> IOC orders must be executed immediately. If only partial matching is possible, the matched portion executes and the remaining is cancelled immediately.
-
-<B>The Trap:</B> AON (All or None) requires full execution, not IOC. IOC allows partial fills.
-
-<B>Cross-Exam Context:</B> Time conditions are tested in Series I.
-
-<B>Distributor's Pro-Tip:</B> IOC is useful when you want quick execution and don't want an unfilled order sitting in the book.]]></text></explanation></question></QF>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Fee Structure and Fund Performance_49" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Which risk measure best captures TAIL risk beyond the confidence level, addressing a key limitation of Value at Risk?]]></text><answers><answer correct="no"><text><![CDATA[Standard Deviation]]></text></answer><answer correct="no"><text><![CDATA[Sharpe Ratio]]></text></answer><answer correct="yes"><text><![CDATA[Conditional VaR (CVaR) / Expected Shortfall]]></text></answer><answer correct="no"><text><![CDATA[Beta]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> CVaR / Expected Shortfall averages the losses BEYOND the VaR threshold, capturing the tail depth that VaR ignores. It's superior for fat-tailed Cat III strategies (merger-arb, credit-arb, long-short with factor tilts).
-
-<B>The Trap:</B> A/B/D don't address tail loss magnitude.
-
-<B>Cross-Exam Context:</B> VIII Equity Derivatives, III-A/C Compliance test CVaR. XIX-E Cat III emphasises CVaR for fat-tail strategies.
-
-<B>Manager's Pro-Tip:</B> Report 95% VaR and 95% CVaR side-by-side to LPs. The ratio CVaR/VaR tells them how scary the tail is — a ratio > 1.5 = meaningful fat tail; LPs will ask questions.]]></text></explanation></question></QF>

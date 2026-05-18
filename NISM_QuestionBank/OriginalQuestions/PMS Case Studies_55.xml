@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="PMS Case Studies_55" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[You are a portfolio manager provided with the expected return and standard deviation of four assets. Asset A: Expected Mean Return: 5%, Standard Deviation: 0; Asset B: Expected Mean Return: 10%, Standard Deviation: 10%; Asset C: Expected Mean Return: 12%, Standard Deviation: 15%; Asset D: Expected Mean Return: 7%, Standard Deviation: 17%.
-
-Assuming a risk-free rate of 2%, calculate the Sharpe Ratio for Asset B.]]></text><answers><answer correct="yes"><text><![CDATA[0.8]]></text></answer><answer correct="no"><text><![CDATA[0.6]]></text></answer><answer correct="no"><text><![CDATA[1]]></text></answer><answer correct="no"><text><![CDATA[1.2]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Sharpe Ratio = (Expected Return - Risk-Free Rate) / Standard Deviation. For Asset B with Rf = 2%: (10% - 2%) / 10% = 8% / 10% = 0.80.
-
-<B>The Trap:</B> 1.0 tempts candidates who forget to subtract the risk-free rate (they compute 10/10); 0.6 and 1.2 are off by one step in the arithmetic. The trap is the 'excess return' piece — Sharpe always uses return over risk-free, not the raw return.
-
-<B>Cross-Exam Context:</B> This exact calculation is a staple in NISM-Series-XV, XXI-B and XIX-C/D/E.
-
-<B>Distributor's Pro-Tip:</B> When reporting Sharpe to a PMS client, always disclose which risk-free proxy you used (91-day T-Bill vs 10-yr G-Sec) — swapping the proxy can shift Sharpe by 10-20% and clients notice when you switch benchmarks between review calls.]]></text></explanation></question></QF>

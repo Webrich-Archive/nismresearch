@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Fee Structure and Fund Performance_23" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[1-day 95% VaR of a Cat III fund = INR 4 crore. Scale to a 10-day holding-period VaR (assume iid returns, √T scaling).]]></text><answers><answer correct="no"><text><![CDATA[INR 4 crore]]></text></answer><answer correct="yes"><text><![CDATA[INR 12.65 crore]]></text></answer><answer correct="no"><text><![CDATA[INR 40 crore]]></text></answer><answer correct="no"><text><![CDATA[INR 8.94 crore]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> 10-day VaR = 1-day VaR × √10 = 4 × 3.1623 = INR 12.65 crore. This is the regulatory standard (Basel-style) scaling rule.
-
-<B>The Trap:</B> INR 40 cr multiplies by 10 (no square root). INR 8.94 cr uses √5. INR 4 cr ignores scaling.
-
-<B>Cross-Exam Context:</B> VIII Equity Derivatives tests √T scaling for options. XIX-E Cat III uses for stress/LP reports.
-
-<B>Manager's Pro-Tip:</B> If your fund holds illiquid side-pocket assets, √T scaling underestimates real unwind VaR. Estimate a liquidity-adjusted VaR (add days-to-unwind * daily σ) for board risk reports.]]></text></explanation></question></QF>

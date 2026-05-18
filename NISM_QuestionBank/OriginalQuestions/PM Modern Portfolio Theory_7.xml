@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="PM Modern Portfolio Theory_7" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[For an N-asset portfolio, the number of covariance terms to estimate is:]]></text><answers><answer correct="no"><text><![CDATA[N]]></text></answer><answer correct="no"><text><![CDATA[N²]]></text></answer><answer correct="yes"><text><![CDATA[(N² - N)/2]]></text></answer><answer correct="no"><text><![CDATA[N × (N+1)]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Unique off-diagonal pairs = N(N-1)/2 = (N²-N)/2. For 50 assets: 1225 covariance terms.
-
-<B>The Trap:</B> N² counts redundant pairs + diagonal; N alone misses interactions.
-
-<B>Cross-Exam Context:</B> Estimation-risk reality.
-
-<B>Manager's Pro-Tip:</B> For large portfolios, practical PMs use factor models to reduce the parameter count — direct covariance estimation hits the curse of dimensionality.]]></text></explanation></question></QF>

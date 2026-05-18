@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Fee Structure and Fund Performance_37" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A Cat III AIF uses daily VaR at 99% confidence. The PPM says VaR cap is INR 50 crore. On a given day the risk system reports VaR of INR 55 crore. What is the CORRECT action?]]></text><answers><answer correct="no"><text><![CDATA[No action — VaR is probabilistic, not a hard limit]]></text></answer><answer correct="yes"><text><![CDATA[Reduce exposure immediately and escalate to the risk committee, per PPM]]></text></answer><answer correct="no"><text><![CDATA[Switch to parametric VaR to get a lower number]]></text></answer><answer correct="no"><text><![CDATA[Report the breach only in the quarterly risk report]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> When the PPM stipulates a VaR cap, a reported breach requires immediate risk reduction AND escalation to the risk committee. The PPM commitment is legally binding on the manager and fiduciary in nature. Changing methodology to hide a breach is an audit and SEBI issue.
-
-<B>The Trap:</B> A ignores PPM. C is methodology-shopping. D delays required action.
-
-<B>Cross-Exam Context:</B> III-A/C Compliance covers the fiduciary angle. XIX-E tests operational response.
-
-<B>Manager's Pro-Tip:</B> Configure automated alerts at 85% of VaR cap (not 100%) to give you a buffer for intra-day market moves before a breach. Same logic for leverage approaching 2x cap.]]></text></explanation></question></QF>

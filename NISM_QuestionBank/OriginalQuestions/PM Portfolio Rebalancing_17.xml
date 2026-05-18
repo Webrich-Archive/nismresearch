@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="PM Portfolio Rebalancing_17" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A 3-bucket PMS portfolio (equity, debt, gold) with monthly threshold rebalancing of 5% will rebalance:]]></text><answers><answer correct="no"><text><![CDATA[Rarely]]></text></answer><answer correct="yes"><text><![CDATA[When any bucket drifts ≥ 5% from target]]></text></answer><answer correct="no"><text><![CDATA[Never]]></text></answer><answer correct="no"><text><![CDATA[Daily always]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Any single-bucket drift triggers rebalance. Could be equity alone; others proportionally adjusted.
-
-<B>The Trap:</B> Simpler portfolios may need less frequent rebalancing.
-
-<B>Cross-Exam Context:</B> Practical.
-
-<B>Manager's Pro-Tip:</B> Document tolerance bands at bucket level in the IPS — unambiguous execution rule.]]></text></explanation></question></QF>

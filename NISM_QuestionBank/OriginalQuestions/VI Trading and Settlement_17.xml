@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="VI Trading and Settlement_17" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[If adequate balances do not exist in the demat account when a delivery instruction is submitted, what happens?]]></text><answers><answer correct="yes"><text><![CDATA[The instruction waits for adequate balances until the end of the execution day]]></text></answer><answer correct="no"><text><![CDATA[The instruction is immediately rejected]]></text></answer><answer correct="no"><text><![CDATA[The DP borrows securities from another account]]></text></answer><answer correct="no"><text><![CDATA[The instruction is forwarded to the next settlement cycle]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> If adequate balances don't exist, the delivery instruction waits for adequate balances till the end of the execution day.
-
-<B>The Trap:</B> 'Immediately rejected' is not how the system works — it gives the client time to arrange the securities within the execution day.
-
-<B>Cross-Exam Context:</B> Series VII covers instruction processing in settlement.
-
-<B>Distributor's Pro-Tip:</B> This grace period is important because securities from another transaction might arrive later the same day. If still insufficient by end of day, the instruction fails.]]></text></explanation></question></QF>

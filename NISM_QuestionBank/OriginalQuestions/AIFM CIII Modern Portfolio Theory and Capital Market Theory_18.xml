@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Modern Portfolio Theory and Capital Market Theory_18" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Chambal Managed Futures Fund holds three positions with weights W_A = 40%, W_B = 35%, W_C = 25% and expected returns 10%, 16% and 22% respectively. What is the expected portfolio return?]]></text><answers><answer correct="no"><text><![CDATA[14.50%]]></text></answer><answer correct="yes"><text><![CDATA[15.10%]]></text></answer><answer correct="no"><text><![CDATA[14.00%]]></text></answer><answer correct="no"><text><![CDATA[13.25%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> E(Rp) = 0.40*10% + 0.35*16% + 0.25*22% = 4.00% + 5.60% + 5.50% = 15.10%.
-
-<B>The Trap:</B> (A) 14.50% uses W_C at 0.25 with a wrong R_C. (C) 14.00% simple-averages. (D) 13.25% omits position C contribution partially.
-
-<B>Cross-Exam Context:</B> XIX-B/C/D, XXI-B all test weighted-avg portfolio returns with 3+ assets.
-
-<B>Manager's Pro-Tip:</B> For Cat III managed-futures books, positions are margin-based exposures (notional) not capital-based. Compute weights on DELTA-ADJUSTED notional for return attribution, and on MARGIN-REQUIREMENT for capital efficiency. The two tell different stories to the CIO and the prime broker.]]></text></explanation></question></QF>

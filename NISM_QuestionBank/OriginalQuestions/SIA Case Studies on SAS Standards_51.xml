@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="SIA Case Studies on SAS Standards_51" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Under SAS-1100, the PMAY (Pradhan Mantri Awas Yojana) beneficiary enrolment by the SE is reported as 23% of families. The SIA should verify this by:]]></text><answers><answer correct="no"><text><![CDATA[Checking the SE's own claim only]]></text></answer><answer correct="no"><text><![CDATA[A tweet]]></text></answer><answer correct="no"><text><![CDATA[A media article]]></text></answer><answer correct="yes"><text><![CDATA[Cross-checking the pmaymis.gov.in database for the listed beneficiaries, sampled for match accuracy]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> PMAY-MIS is the official public portal. Matching SE-provided beneficiary list against PMAY-MIS is the primary verification MoV under SAS-1100 for subsidy-enrolment claims.
-
-<B>The Trap:</B> Options A, C, B are uncorroborated.
-
-<B>Cross-Exam Context:</B> Govt-database matching also in XXIV AML (PAN / Aadhaar cross-check) and III-C Compliance.
-
-<B>Assessor's Pro-Tip:</B> Automate the PMAY match — a short Python script can match beneficiary Aadhaar/name against PMAY-MIS CSV in minutes and flag mismatches for manual review.]]></text></explanation></question></QF>

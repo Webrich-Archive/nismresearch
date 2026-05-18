@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Fee Structure and Fund Performance_18" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Daily standard deviation of Cat III fund returns is 0.80%. Assuming 252 trading days per year, what is the annualised volatility?]]></text><answers><answer correct="no"><text><![CDATA[2.02%]]></text></answer><answer correct="no"><text><![CDATA[9.80%]]></text></answer><answer correct="yes"><text><![CDATA[12.70%]]></text></answer><answer correct="no"><text><![CDATA[201.60%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Annualised σ = daily σ × √252 = 0.80% × 15.874 = 12.699% ≈ 12.70%. This is the standard square-root-of-time scaling assuming iid returns.
-
-<B>The Trap:</B> 9.80% uses √150. 2.02% uses √6.25. 201.60% multiplies by 252 (no square root).
-
-<B>Cross-Exam Context:</B> VIII Equity Derivatives tests same formula in options-vol context. XIX-E uses it for Cat III fund risk reports.
-
-<B>Manager's Pro-Tip:</B> √T scaling breaks when returns autocorrelate (classic in illiquid side-pocket or credit-heavy books). Use a Newey-West correction if your daily returns show |ρ₁| > 0.15.]]></text></explanation></question></QF>

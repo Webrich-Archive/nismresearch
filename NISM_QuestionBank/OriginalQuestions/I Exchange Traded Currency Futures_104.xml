@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="I Exchange Traded Currency Futures_104" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[The annualized forward premium for a 3-month USDINR contract is 4%. If the spot rate is 84.00, what is the approximate 3-month forward rate?]]></text><answers><answer correct="yes"><text><![CDATA[84.84]]></text></answer><answer correct="no"><text><![CDATA[87.36]]></text></answer><answer correct="no"><text><![CDATA[84.00]]></text></answer><answer correct="no"><text><![CDATA[85.68]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> 3-month forward premium = Annual premium × (3/12) = 4% × 0.25 = 1% for 3 months. Forward rate = 84.00 × (1 + 0.01) = 84.84.
-
-<B>The Trap:</B> Applying 4% directly to spot gives 87.36, which would be the 12-month forward. The annual premium must be prorated for 3 months.
-
-<B>Cross-Exam Context:</B> Forward premium/discount annualization is tested in Series I.
-
-<B>Distributor's Pro-Tip:</B> Annualized premium = (Forward - Spot)/Spot × (12/n) × 100, where n is the number of months.]]></text></explanation></question></QF>

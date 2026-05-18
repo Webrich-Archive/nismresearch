@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="PMS Performance Measurement_36" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Interaction Effect formula is:]]></text><answers><answer correct="no"><text><![CDATA[Sum[Wp*Rp]]]></text></answer><answer correct="yes"><text><![CDATA[Sum[(Wp - Wb)*(Rp - Rb)]]]></text></answer><answer correct="no"><text><![CDATA[Sum[Wb*Rb]]]></text></answer><answer correct="no"><text><![CDATA[Sum[Wb*Rp]]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Interaction effect = Sum[(Wp - Wb)*(Rp - Rb)] captures combined alloc+selection.
-
-<B>The Trap:</B> Other formulas are different effects.
-
-<B>Cross-Exam Context:</B> Same in X-B.
-
-<B>Distributor's Pro-Tip:</B> Negative interaction suggests allocation and selection aren't reinforcing each other.]]></text></explanation></question></QF>

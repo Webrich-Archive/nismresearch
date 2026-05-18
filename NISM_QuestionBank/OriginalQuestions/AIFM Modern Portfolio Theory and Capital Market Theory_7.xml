@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM Modern Portfolio Theory and Capital Market Theory_7" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Indus Hybrid AIF is constructing a two-sleeve portfolio: a Private Equity sleeve (weight 60%, σ = 20%) and a Private Credit sleeve (weight 40%, σ = 10%). The correlation between the two sleeves is 0.30. What is the portfolio variance?]]></text><answers><answer correct="no"><text><![CDATA[0.02000]]></text></answer><answer correct="yes"><text><![CDATA[0.01744]]></text></answer><answer correct="no"><text><![CDATA[0.01600]]></text></answer><answer correct="no"><text><![CDATA[0.00900]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> σp² = w1²σ1² + w2²σ2² + 2·w1·w2·ρ·σ1·σ2 = (0.6²)(0.20²) + (0.4²)(0.10²) + 2(0.6)(0.4)(0.30)(0.20)(0.10) = 0.36·0.04 + 0.16·0.01 + 2·0.6·0.4·0.30·0.20·0.10 = 0.01440 + 0.00160 + 0.00144 = 0.01744. Standard deviation ≈ 13.2%.
-
-<B>The Trap:</B> 0.02000 drops the covariance term altogether. 0.01600 uses ρ=0 (independent assets). 0.00900 is merely the squared weighted average of σ.
-
-<B>Cross-Exam Context:</B> Standard XXI-B / XV / X-B problem. XIX-A/B test only conceptually.
-
-<B>Manager's Pro-Tip:</B> For illiquid AIF sleeves, historic correlations are smoothed (stale-price bias) and UNDERSTATE true correlation with public markets. Always 'de-smooth' before plugging into a 2-asset variance, else you overstate diversification benefit to the IC.]]></text></explanation></question></QF>

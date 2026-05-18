@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="Cat III AIF Fees and Performance_30" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A Cat III AIF commits Rs. 50 crore on Jan 1, 2019. Liquidation distribution on Dec 31, 2023 = Rs. 70 crore. Gross IRR (worst case, no fees)?]]></text><answers><answer correct="yes"><text><![CDATA[~6.96% p.a.]]></text></answer><answer correct="no"><text><![CDATA[~12.00% p.a.]]></text></answer><answer correct="no"><text><![CDATA[~18.13% p.a.]]></text></answer><answer correct="no"><text><![CDATA[~3.48% p.a.]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> 50 × (1 + IRR)^5 = 70. Solving: IRR ≈ 6.96%.
-
-<B>The Trap:</B> 12%/18.13% are best-case figures; 3.48% is Net IRR worst case.
-
-<B>Cross-Exam Context:</B> Matches worst-case Gross IRR computation in workbook.
-
-<B>Distributor's Pro-Tip:</B> Use XIRR for irregular timing; IRR is fine for annual equal intervals.]]></text></explanation></question></QF>

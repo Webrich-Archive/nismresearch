@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="PMS Case Studies_42" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[You are assessing the risk profiles of two investment portfolios: Portfolio X: Beta = 1.2, Standard Deviation = 15% Portfolio Y: Beta = 0.8, Standard Deviation = 12%
-
-Calculate the Treynor Ratio for Portfolio X, assuming a market return of 10%.]]></text><answers><answer correct="yes"><text><![CDATA[0.0667]]></text></answer><answer correct="no"><text><![CDATA[0.08]]></text></answer><answer correct="no"><text><![CDATA[0.055]]></text></answer><answer correct="no"><text><![CDATA[0.095]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Treynor Ratio = (Portfolio Return – Risk-free rate) / Beta. With risk-free = 2% and market return = 10%, excess return for Portfolio X = 10% – 2% = 8%, and Treynor = 8% / 1.2 = 0.0667.
-
-<B>The Trap:</B> 0.08 divides by Beta = 1 (forgetting the actual Beta of 1.2); 0.055 slips the risk-free rate; 0.095 forgets to subtract the risk-free rate at all. The underlying confusion is whether Treynor's excess is over risk-free or over the market.
-
-<B>Cross-Exam Context:</B> Treynor appears in NISM XV, XXI-B, X-B and XIX-D under CAPM-based risk-adjusted performance.
-
-<B>Distributor's Pro-Tip:</B> When a PMS strategy is benchmarked against Nifty, Treynor is the right pitch-metric — it isolates the manager's reward per unit of market-linked risk, which is what the client is actually paying active fees for.]]></text></explanation></question></QF>

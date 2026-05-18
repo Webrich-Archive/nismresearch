@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM Fee Structure and Fund Performance_44" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[If the 95% one-month VaR of an AIF is INR 2 crore, the correct interpretation is:]]></text><answers><answer correct="yes"><text><![CDATA[There is a 95% probability the fund will not lose more than INR 2 crore over the next month]]></text></answer><answer correct="no"><text><![CDATA[The fund is guaranteed to lose INR 2 crore]]></text></answer><answer correct="no"><text><![CDATA[The fund's NAV will grow by INR 2 crore]]></text></answer><answer correct="no"><text><![CDATA[The fund's management fee will be INR 2 crore]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Ch 9.9.3: 95% one-month VaR of INR 2 crore means 95% probability that fund will NOT lose more than INR 2 crore over the next month. Equivalently, 5% chance of losing > INR 2 crore.
-
-<B>The Trap:</B> Option B confuses probability with certainty. Options C and D are unrelated.
-
-<B>Cross-Exam Context:</B> VIII (Derivatives) covers VaR extensively; XXI-B for PMS.
-
-<B>Manager's Pro-Tip:</B> VaR does NOT tell you how much you'd lose in the 5% tail — use Expected Shortfall (CVaR) alongside. SEBI-registered Cat III AIFs using derivatives should stress-test beyond VaR in their risk policy.]]></text></explanation></question></QF>

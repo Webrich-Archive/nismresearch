@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="PMS Case Studies_31" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[You are analyzing the performance of two mutual funds over the past decade: Fund X: Annualized Return = 8.5%, Standard Deviation = 12% Fund Y: Annualized Return = 9%, Standard Deviation = 10
-
-Rank the funds based on risk-adjusted return using the Sharpe Ratio.]]></text><answers><answer correct="yes"><text><![CDATA[Fund Y, X]]></text></answer><answer correct="no"><text><![CDATA[Fund X, Y]]></text></answer><answer correct="no"><text><![CDATA[Both funds have the same risk-adjusted return]]></text></answer><answer correct="no"><text><![CDATA[Cannot determine from the given data]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Sharpe Ratio = (Return – Risk-free rate) / Standard Deviation. Using a 2% risk-free rate: Fund X = (8.5% – 2%) / 12% = 0.54; Fund Y = (9% – 2%) / 10% = 0.70. Fund Y delivers more return per unit of total risk, so Y ranks ahead of X.
-
-<B>The Trap:</B> Ranking X first looks at the raw return numbers and ignores risk. 'Same risk-adjusted return' ignores the 0.70 vs 0.54 gap. 'Cannot determine' is wrong because the risk-free rate is a standard assumption and both inputs are given.
-
-<B>Cross-Exam Context:</B> Sharpe Ratio appears in NISM XV, XXI-B (PMS Managers), XIX-C/D/E (AIF Managers) and V-A for risk-adjusted fund comparison.
-
-<B>Distributor's Pro-Tip:</B> When an HNI compares two PMS strategies quoting only CAGR, compute and show the Sharpe differential — it is the single cleanest way to justify a higher-fee, lower-volatility strategy over a hot-return rival.]]></text></explanation></question></QF>

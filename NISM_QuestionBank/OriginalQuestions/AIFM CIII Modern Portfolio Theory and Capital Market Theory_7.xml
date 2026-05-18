@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Modern Portfolio Theory and Capital Market Theory_7" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Kaveri Macro Fund's trading book shows Asset X with std dev 8% and Asset Y with std dev 10%; Cov(X,Y) = 0.0048. What is the correlation coefficient between X and Y?]]></text><answers><answer correct="no"><text><![CDATA[0.40]]></text></answer><answer correct="no"><text><![CDATA[0.48]]></text></answer><answer correct="yes"><text><![CDATA[0.60]]></text></answer><answer correct="no"><text><![CDATA[0.75]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Correlation rho(X,Y) = Cov(X,Y) / (sigma_X * sigma_Y) = 0.0048 / (0.08 * 0.10) = 0.0048 / 0.0080 = 0.60. Box 3.1 in the chapter defines rho as covariance standardised by the product of individual standard deviations.
-
-<B>The Trap:</B> (A) 0.40 divides by 0.012 (wrong product). (B) 0.48 forgets to divide (gives covariance in percent). (D) 0.75 divides by 0.0064 (squares one sigma by mistake).
-
-<B>Cross-Exam Context:</B> XIX-C/D, XV, XXI-B and VIII all test Cov->rho normalisation. The identity is foundational.
-
-<B>Manager's Pro-Tip:</B> Prime brokers report cross-gamma matrices in covariance, not correlation. Always convert before pitching a pair trade to the CIO — a 0.60 rho between two constituents changes position sizing by ~20% vs a 0.40 rho at identical dollar risk.]]></text></explanation></question></QF>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="PM Equity Portfolio Strategies_7" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A portfolio manager makes 40 independent predictions per year with an Information Coefficient of 0.15. What is her Information Ratio (IR), rounded to two decimals?]]></text><answers><answer correct="no"><text><![CDATA[6.00]]></text></answer><answer correct="yes"><text><![CDATA[0.95]]></text></answer><answer correct="no"><text><![CDATA[0.15]]></text></answer><answer correct="no"><text><![CDATA[2.37]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Fundamental Law of Active Management: IR = IC * √Breadth = 0.15 * √40 = 0.15 * 6.3246 = 0.9487 ≈ 0.95.
-
-<B>The Trap:</B> 6.00 is just √40 without multiplying by IC; 2.37 comes from using √(40/IC). IR reported by real managers rarely exceeds 0.5–1.0 sustained.
-
-<B>Cross-Exam Context:</B> No other NISM exam tests Grinold-Kahn directly — this is XXI-B-specific.
-
-<B>Manager's Pro-Tip:</B> To double IR, 4× the breadth (√ effect) or double the IC (linear). Breadth tricks hit transaction-cost walls quickly.]]></text></explanation></question></QF>

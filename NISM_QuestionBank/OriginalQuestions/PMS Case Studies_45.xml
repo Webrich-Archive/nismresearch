@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="PMS Case Studies_45" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[You are assessing the risk profiles of two investment portfolios: Portfolio X: Beta = 1.2, Standard Deviation = 15% Portfolio Y: Beta = 0.8, Standard Deviation = 12%
-
-Assuming the market return is 10%, calculate the Jensen's Alpha for Portfolio X if its actual return is 12%.]]></text><answers><answer correct="yes"><text><![CDATA[0.40%]]></text></answer><answer correct="no"><text><![CDATA[1.20%]]></text></answer><answer correct="no"><text><![CDATA[0.80%]]></text></answer><answer correct="no"><text><![CDATA[2%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Jensen's Alpha = Actual Return – [Risk-free rate + Beta × (Market Return – Risk-free rate)]. Plugging in: Alpha = 12% – [2% + 1.2 × (10% – 2%)] = 12% – [2% + 9.6%] = 12% – 11.6% = 0.4%. A positive alpha means the portfolio outperformed its CAPM-expected return.
-
-<B>The Trap:</B> 1.20% forgets to multiply the market premium by Beta; 0.80% uses Beta = 1; 2% ignores CAPM entirely and takes Actual – Market. Core confusion: Alpha is excess over CAPM-expected return, not excess over the market.
-
-<B>Cross-Exam Context:</B> Jensen's Alpha is tested in NISM XV, XXI-B, X-B and XIX-D for active-manager evaluation.
-
-<B>Distributor's Pro-Tip:</B> Alpha is your strongest fee-justification metric — a positive, sustained Jensen's Alpha is how you answer the HNI who asks 'why not just buy the index fund'.]]></text></explanation></question></QF>

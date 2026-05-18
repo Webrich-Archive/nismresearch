@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?><QF id="XVI Commodity Options_67" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A put option with strike Rs 180 and premium Rs 8 breaks even when the market price at expiry is:]]></text><answers><answer correct="yes"><text><![CDATA[Rs 172]]></text></answer><answer correct="no"><text><![CDATA[Rs 180]]></text></answer><answer correct="no"><text><![CDATA[Rs 188]]></text></answer><answer correct="no"><text><![CDATA[Rs 164]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Put breakeven = Strike - Premium = 180 - 8 = Rs 172. At Rs 172, intrinsic value (180-172=8) exactly offsets premium (8).
-
-<B>The Trap:</B> Rs 180 is ATM. Rs 188 (strike + premium) is the call-style BEP, not put. Rs 164 (strike - 2x premium) double-counts the premium. Breakeven for a put is strike - premium = Rs 172.
-
-<B>Cross-Exam Context:</B> Series VIII covers put breakeven calculations.
-
-<B>Distributor's Pro-Tip:</B> A put buyer at Rs 172 breakeven needs a 4.4% price decline from the Rs 180 strike to start profiting — useful for assessing whether the premium justifies the expected move.]]></text></explanation></question></QF>

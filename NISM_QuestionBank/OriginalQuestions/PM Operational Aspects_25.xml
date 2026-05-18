@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="PM Operational Aspects_25" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Audit trail requirement in PMS means each trade decision must have:]]></text><answers><answer correct="no"><text><![CDATA[No record]]></text></answer><answer correct="yes"><text><![CDATA[Timestamp + rationale + approval + execution details — reconstructible trail]]></text></answer><answer correct="no"><text><![CDATA[Only execution price]]></text></answer><answer correct="no"><text><![CDATA[Only trade date]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Full audit trail: who decided, when, why, approvals, execution path. Reconstructible on SEBI inspection.
-
-<B>The Trap:</B> Partial records fail audit.
-
-<B>Cross-Exam Context:</B> Core PM Regs.
-
-<B>Manager's Pro-Tip:</B> Use OMS that captures every field automatically — avoid manual reconstruction later.]]></text></explanation></question></QF>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Modern Portfolio Theory and Capital Market Theory_9" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[Ms. Kavita Rao, quant at Himalaya Arbitrage Fund, is building a variance-covariance matrix for a 50-security portfolio. Per the chapter, how many unique correlation estimates are required?]]></text><answers><answer correct="yes"><text><![CDATA[1225]]></text></answer><answer correct="no"><text><![CDATA[2500]]></text></answer><answer correct="no"><text><![CDATA[50]]></text></answer><answer correct="no"><text><![CDATA[100]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Number of unique pairwise correlations = (n^2 - n)/2 = (50^2 - 50)/2 = (2500 - 50)/2 = 2450/2 = 1225. The chapter's Section 3.9 footnote uses this exact formula.
-
-<B>The Trap:</B> (B) 2500 counts every pair including self-correlation and duplicates. (C) 50 is just the number of securities. (D) 100 is nowhere in the formula.
-
-<B>Cross-Exam Context:</B> XIX-C/D and XXI-B also test the (n^2-n)/2 combinatorial identity. XV and VIII use it for factor-model plumbing.
-
-<B>Manager's Pro-Tip:</B> Estimation risk matters — for a Cat III fund, realised covariances shift with volatility regimes. Industry practice is to shrink the sample covariance matrix (Ledoit-Wolf) toward a structured target before feeding it into the optimiser; otherwise the 'efficient' portfolio is just a curve-fit to noise.]]></text></explanation></question></QF>

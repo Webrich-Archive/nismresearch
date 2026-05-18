@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="PM Fixed Income Portfolio Strategies_16" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[A bond portfolio has Macaulay Duration = 7 years, modified duration = 6.48 years. If yields rise by 50 bps, the approximate price CHANGE (using duration alone) is:]]></text><answers><answer correct="yes"><text><![CDATA[-3.24%]]></text></answer><answer correct="no"><text><![CDATA[-3.50%]]></text></answer><answer correct="no"><text><![CDATA[-6.48%]]></text></answer><answer correct="no"><text><![CDATA[+3.24%]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Δ Price ≈ -Modified Duration × Δy = -6.48 × 0.005 = -0.0324 = -3.24%.
-
-<B>The Trap:</B> -3.50% ignores that MD is slightly < Macaulay; -6.48% uses MD itself; positive sign is wrong direction.
-
-<B>Cross-Exam Context:</B> Classical IV math; XXI-B extensively tests.
-
-<B>Manager's Pro-Tip:</B> Duration-based estimates undershoot for large moves — combine with convexity for moves > 100 bps.]]></text></explanation></question></QF>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="I Exchange Traded Currency Options_5" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[The intrinsic value of an option can:]]></text><answers><answer correct="yes"><text><![CDATA[Never be negative (minimum value is zero)]]></text></answer><answer correct="no"><text><![CDATA[Be negative for OTM options]]></text></answer><answer correct="no"><text><![CDATA[Be negative for put options only]]></text></answer><answer correct="no"><text><![CDATA[Be negative when volatility is low]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Intrinsic value is max(S-X, 0) for calls and max(X-S, 0) for puts. It can never be negative because the option holder would simply not exercise if doing so would result in a loss.
-
-<B>The Trap:</B> A negative intrinsic value would mean paying to exercise — no rational buyer would do this.
-
-<B>Cross-Exam Context:</B> Intrinsic value concept is tested in Series I and VIII.
-
-<B>Distributor's Pro-Tip:</B> Intrinsic value = what you'd get if you exercised right now. Time value = what you pay extra for the possibility of future favorable movement.]]></text></explanation></question></QF>

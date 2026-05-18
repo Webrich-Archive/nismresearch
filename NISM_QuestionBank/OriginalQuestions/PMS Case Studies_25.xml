@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="PMS Case Studies_25" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[You are analyzing the performance of two technology stocks over the past year: Stock A: Return = 15%, Beta = 1.2 Stock B: Return = 12%, Beta = 0.12
-
-Which stock has a higher expected return based on the CAPM model assuming the market return is 10%?]]></text><answers><answer correct="yes"><text><![CDATA[Stock A]]></text></answer><answer correct="no"><text><![CDATA[Stock B]]></text></answer><answer correct="no"><text><![CDATA[Both stocks have the same expected return]]></text></answer><answer correct="no"><text><![CDATA[Cannot determine from the given data]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> CAPM Expected Return = Risk-Free Rate + Beta x (Market Return - Risk-Free Rate). Risk-free = 2%, Market = 10%, so equity risk premium = 8%. Stock A: 2% + 1.2 x 8% = 11.6%. Stock B: 2% + 0.8 x 8% = 8.4%. Stock A has the higher CAPM-expected return. (The question text shows Stock B beta as 0.12; we use 0.8 consistent with the source explanation.)
-
-<B>The Trap:</B> Candidates who forget to multiply beta by the equity risk premium pick Stock B (lower beta 'feels safer' so they assume lower return = wrong answer); those who confuse market return with market risk premium compute 1.2 x 10% = 12% and miss the risk-free-rate adjustment.
-
-<B>Cross-Exam Context:</B> CAPM and cost-of-equity are tested in NISM-XV (Research Analyst), NISM-XXI-B (PMS Managers), and NISM-VIII (Equity Derivatives).
-
-<B>Distributor's Pro-Tip:</B> Use CAPM expected return as a sanity check when pitching a single-stock-heavy PMS - if the realised return is far above CAPM-implied, flag it as alpha that may not repeat; if far below, you have a 'why underperform?' conversation to prepare for.]]></text></explanation></question></QF>

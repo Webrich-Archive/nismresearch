@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><QF id="AIFM CIII Investment Strategies_24" sectionNumber="" articleNumber="0" articleName=""><question><text><![CDATA[In a stock-swap merger, the investment manager computes the Acquirer's fair price as (Conversion Ratio * Target Price) / Ratio Denominator. If market price of Acquirer > fair price, the arb setup is:]]></text><answers><answer correct="no"><text><![CDATA[Long Acquirer + Short Target]]></text></answer><answer correct="no"><text><![CDATA[Short both]]></text></answer><answer correct="no"><text><![CDATA[Long both]]></text></answer><answer correct="yes"><text><![CDATA[Long Target + Short Acquirer]]></text></answer></answers><explanation><text><![CDATA[<B>The Logic:</B> Acquirer over-valued => SHORT Acquirer. Target correspondingly under-valued relative to swap => LONG Target. This captures the spread as the market converges post-approval.
-
-<B>The Trap:</B> A inverts. C, D ignore the spread direction entirely.
-
-<B>Cross-Exam Context:</B> XV tests same spread logic.
-
-<B>Manager's Pro-Tip:</B> Hedge the SHORT Acquirer leg with a deal-break bump Put — if the deal collapses, acquirer often rallies (curse removal) and the short leg bleeds. A 2-3% OTM Put costing 30-60 bps is cheap insurance vs a 10%+ tail break.]]></text></explanation></question></QF>
